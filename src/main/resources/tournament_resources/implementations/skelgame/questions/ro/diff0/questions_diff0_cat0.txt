@@ -1,0 +1,11 @@
+0::Turnul Eiffel, Paris:1,4,8:0
+1::Colosseum, Roma:3,0,8:1
+2::Semnul Hollywood, Los Angeles:21,25,17:2
+3::Marea Piramidă din Giza, Egipt:1,23,24:3
+4::Statuia Libertăţii, New York:0,1,25:4
+5::Marele Zid Chinezesc:6,7,11:5
+6::Angkor Wat, Cambodgia:31,20,27:6
+7::Vatican:26,20,19:7
+8::Turnul înclinat din Pisa, Italia:0,1,4:8
+9::Hristos Răscumpărătorul, Rio de Janeiro:13,11,7:9
+10::Sydney Opera House, Sydney:32,30,26:10

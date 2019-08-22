@@ -1,0 +1,13 @@
+14:¿Cuál es la capital de Australia?:Canberra:13,12,8:14
+15:¿Cuál es la capital de Portugal?:Lisboa:19,7,14:15
+16:¿Cuál es la capital de Turquía?:Estambul:17,20,24:16
+17:¿Cuál es la capital de Bulgaria?:Sofía:10,13,19:17
+18:¿Cuál es la capital de la India?:Nueva Delhi:15,26,22:18
+19:¿Cuál es la capital de Grecia?:Atenas:17,22,18:19
+20:¿Cuál es la capital de Chipre?:Nicosia:19,12,26:20
+21:¿Cuál es la capital de Colombia?:Bogotá:20,18,14:21
+22:¿Cuál es la capital de la República Checa?:Praga:27,25,28:22
+23:¿Cuál es la capital de Croacia?:Zagreb:22,16,25:23
+24:¿Cuál es la capital de Dinamarca?:Copenhague:27,21,22:24
+25:¿Cuál es la capital de Egipto?:El Cairo:19,18,30:25
+26:¿Cuál es la capital de Suiza?:Berna:27,30,22:26

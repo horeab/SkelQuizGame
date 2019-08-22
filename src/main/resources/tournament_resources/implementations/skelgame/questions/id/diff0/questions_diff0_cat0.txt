@@ -1,0 +1,11 @@
+0::Menara Eiffel, Paris:1,4,8:0
+1::Colosseum, Roma:3,0,8:1
+2::Hollywood Sign, Los Angeles:21,25,17:2
+3::Piramida Agung Giza, Mesir:1,23,24:3
+4::Patung Liberty, New York:0,1,25:4
+5::Tembok Besar Tiongkok:6,7,11:5
+6::Angkor Wat, Kamboja:31,20,27:6
+7::Kota Vatikan:26,20,19:7
+8::Menara Miring Pisa, Italia:0,1,4:8
+9::Christ the Redeemer, Rio de Janeiro:13,11,7:9
+10::Gedung Opera Sydney, Sydney:32,30,26:10

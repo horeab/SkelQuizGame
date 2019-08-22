@@ -1,0 +1,12 @@
+0::Zaljev Hạ Long, Vijetnam:3,2,8:0
+1::Salar de Uyuni, Bolivija:5,2,9:1
+2::Velika plava rupa, Belize:4,10,8:2
+3::Bali, Indonezija:6,10,2:3
+4::Polarna svjetlost, Norveška:5,1,7:4
+5::Brdo Fuji, Japan:3,1,11:5
+6::Luka Rio de Janeiro, Brazil:2,1,13:6
+7::Kanjon Paria, Sjedinjene Američke Države:11,6,5:7
+8::Mount Everest, Nepal i Tibet:10,9,13:8
+9::Niagarski slapovi, Kanada:2,6,11:9
+10::Lac Rose, Senegal:17,5,3:10
+11::Crna šuma, Njemačka:9,15,12:11

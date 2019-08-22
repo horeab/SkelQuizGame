@@ -1,0 +1,14 @@
+0:Hva er hovedstaden i Østerrike?:Wien:7,8,4:0
+1:Hva er hovedstaden i Belgia?:Brussel:5,6,0:1
+2:Hva er hovedstaden i Brasil?:Brasilia:7,9,1:2
+3:Hva er hovedstaden i Canada?:Ottawa:0,1,7:3
+4:Hva er Kinas hovedstad?:Beijing:0,5,12:4
+5:Hva er hovedstaden i Amerikas forente stater?:Washington DC:2,8,9:5
+6:Hva er Frankrikes hovedstad?:Paris:4,3,9:6
+7:Hva er Tysklands hovedstad?:Berlin:5,11,6:7
+8:Hva er hovedstaden i Italia?:Roma:6,0,13:8
+9:Hva er hovedstaden i Mexico ?:Mexico by:16,4,14:9
+10:Hva er hovedstaden i Russland?:Moskva:16,17,14:10
+11:Hva er Spanias hovedstad?:Madrid:18,3,14:11
+12:Hva er hovedstaden i Japan?:Tokyo:4,18,9:12
+13:Hva er hovedstaden i Nederland?:Amsterdam:16,8,20:13

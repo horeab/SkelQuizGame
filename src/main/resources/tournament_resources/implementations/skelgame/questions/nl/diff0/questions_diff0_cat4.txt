@@ -1,0 +1,12 @@
+0::Hạ Longbaai, Vietnam:3,2,8:0
+1::Salar de Uyuni, Bolivia:5,2,9:1
+2::Het grote blauwe gat, Belize:4,10,8:2
+3::Bali, Indonesië:6,10,2:3
+4::Poollicht, Noorwegen:5,1,7:4
+5::Fuji, Japan:3,1,11:5
+6::Haven van Rio De Janeiro, Brazilië:2,1,13:6
+7::Paria Canyon, Verenigde Staten:11,6,5:7
+8::Mount Everest, Nepal en Tibet:10,9,13:8
+9::Niagarawatervallen, Canada:2,6,11:9
+10::Roze Meer, Senegal:17,5,3:10
+11::Het Zwarte Woud, Duitsland:9,15,12:11

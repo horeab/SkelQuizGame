@@ -1,0 +1,12 @@
+0::Teluk Ha Long, Vietnam:3,2,8:0
+1::Salar de Uyuni, Bolivia:5,2,9:1
+2::Lubang biru, Belize:4,10,8:2
+3::Bali, Indonesia:6,10,2:3
+4::Aurora, Norwegia:5,1,7:4
+5::Gunung Fuji, Jepang:3,1,11:5
+6::Pelabuhan Rio De Janeiro, Brasil:2,1,13:6
+7::Paria Ngarai, Amerika Serikat:11,6,5:7
+8::Gunung Everest, Nepal dan Tibet:10,9,13:8
+9::Air Terjun Niagara, Kanada:2,6,11:9
+10::Lac Rose, Senegal:17,5,3:10
+11::Hutan Hitam, Jerman:9,15,12:11

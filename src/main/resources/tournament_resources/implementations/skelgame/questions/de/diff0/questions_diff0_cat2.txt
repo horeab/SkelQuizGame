@@ -1,0 +1,14 @@
+0:Was ist die Hauptstadt von Österreich?:Wien:7,8,4:0
+1:Was ist die Hauptstadt von Belgien?:Brüssel:5,6,0:1
+2:Was ist die Hauptstadt Brasiliens?:Brasilia:7,9,1:2
+3:Was ist die Hauptstadt von Kanada?:Ottawa:0,1,7:3
+4:Was ist die Hauptstadt von China?:Peking:0,5,12:4
+5:Was ist die Hauptstadt der Vereinigten Staaten von Amerika?:Washington DC:2,8,9:5
+6:Was ist die Hauptstadt von Frankreich?:Paris:4,3,9:6
+7:Was ist die Hauptstadt von Deutschland?:Berlin:5,11,6:7
+8:Was ist die Hauptstadt von Italien?:Rom:6,0,13:8
+9:Was ist die Hauptstadt von Mexiko?:Mexico City:16,4,14:9
+10:Was ist die Hauptstadt von Russland?:Moskau:16,17,14:10
+11:Was ist die Hauptstadt von Spanien?:Madrid:18,3,14:11
+12:Was ist die Hauptstadt von Japan?:Tokyo:4,18,9:12
+13:Was ist die Hauptstadt der Niederlande?:Amsterdam:16,8,20:13

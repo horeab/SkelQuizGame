@@ -1,0 +1,11 @@
+0::Tháp Eiffel, Paris:1,4,8:0
+1::Đấu trường La Mã, Rome:3,0,8:1
+2::Dấu hiệu Hollywood, Los Angeles:21,25,17:2
+3::Kim tự tháp Giza vĩ đại, Ai Cập:1,23,24:3
+4::Tượng Nữ thần Tự do, New York:0,1,25:4
+5::Vạn Lý Trường Thành của Trung Quốc:6,7,11:5
+6::Angkor Wat, Campuchia:31,20,27:6
+7::Thành phố Vatican:26,20,19:7
+8::Tháp nghiêng Pisa, Ý:0,1,4:8
+9::Chúa Cứu thế, Rio de Janeiro:13,11,7:9
+10::Nhà hát Opera Sydney, Sydney:32,30,26:10

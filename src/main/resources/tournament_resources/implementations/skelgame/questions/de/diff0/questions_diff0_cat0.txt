@@ -1,0 +1,11 @@
+0::Eiffelturm, Paris:1,4,8:0
+1::Kolosseum, Rom:3,0,8:1
+2::Hollywood Zeichen, Los Angeles:21,25,17:2
+3::Große Pyramide von Gizeh, Ägypten:1,23,24:3
+4::Freiheitsstatue, New York:0,1,25:4
+5::Chinesische Mauer:6,7,11:5
+6::Angkor Wat, Kambodscha:31,20,27:6
+7::Vatikanstadt:26,20,19:7
+8::Schiefer Turm von Pisa, Italien:0,1,4:8
+9::Christus der Erlöser, Rio de Janeiro:13,11,7:9
+10::Sydney Opernhaus, Sydney:32,30,26:10

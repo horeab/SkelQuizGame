@@ -1,0 +1,10 @@
+40:Co to jest stolica Rumunii?:Bukareszt:48,33,38:40
+41:Co to jest stolica Izraela?:Jerozolima:48,37,46:41
+42:Co to jest stolica Słowacji?:Bratysława:36,38,35:42
+43:Co to jest stolica Słowenii?:Lublana:37,38,41:43
+44:Co to jest stolica Polski?:Warszawa:42,38,45:44
+45:Co to jest stolica Tunezji?:Tunis:44,43,49:45
+46:Co to jest stolica Argentyny?:Buenos Aires:42,39,47:46
+47:Co to jest stolica Wietnamu?:Hanoi:45,42,49:47
+48:Co to jest stolica Gruzji?:Tbilisi:41,49,40:48
+49:Co to jest stolica Nepalu?:Katmandu:43,41,42:49

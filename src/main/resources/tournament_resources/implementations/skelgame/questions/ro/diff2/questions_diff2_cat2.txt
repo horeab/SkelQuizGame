@@ -1,0 +1,13 @@
+27:Care este capitala Finlandei?:Helsinki:28,25,20:27
+28:Care este capitala Marocului?:Rabat:35,31,29:28
+29:Care este capitala Iranului?:Teheran:30,21,22:29
+30:Care este capitala Serbiei?:Belgrad:25,29,26:30
+31:Care este capitala Norvegiei?:Oslo:29,32,26:31
+32:Care este capitala Belarusului?:Minsk:28,38,37:32
+33:Care este capitala Suediei?:Stockholm:41,40,28:33
+34:Care este capitala Coreei de Sud?:Seoul:42,38,37:34
+35:Care este capitala Ucrainei?:Kiev:40,36,38:35
+36:Care este capitala Ungariei?:Budapesta:43,28,41:36
+37:Care este capitala Algeriei?:Alger:29,34,42:37
+38:Care este capitala Africii de Sud?:Cape Town:43,37,41:38
+39:Care este capitala Islandei?:Reykjavik:35,33,47:39

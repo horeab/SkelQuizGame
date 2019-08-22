@@ -1,0 +1,10 @@
+40:Vad är Rumäniens huvudstad?:Bukarest:48,33,38:40
+41:Vad är Israels huvudstad ?:Jerusalem:48,37,46:41
+42:Vad är Slovakiens huvudstad?:Bratislava:36,38,35:42
+43:Vad är Sloveniens huvudstad?:Ljubljana:37,38,41:43
+44:Vad är Polens huvudstad?:Warszawa:42,38,45:44
+45:Vad är Tunisiens huvudstad?:Tunis:44,43,49:45
+46:Vad är Argentinas huvudstad?:Buenos Aires:42,39,47:46
+47:Vad är Vietnams huvudstad?:Hanoi:45,42,49:47
+48:Vad är huvudstaden i Georgien?:Tbilisi:41,49,40:48
+49:Vad är Nepals huvudstad?:Kathmandu:43,41,42:49

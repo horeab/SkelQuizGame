@@ -1,0 +1,14 @@
+0:Vad är huvudstaden i Österrike?:Wien:7,8,4:0
+1:Vad är huvudstaden i Belgien?:Bryssel:5,6,0:1
+2:Vad är huvudstaden i Brasilien?:Brasilia:7,9,1:2
+3:Vad är Kanadas huvudstad?:Ottawa:0,1,7:3
+4:Vad är Kinas huvudstad?:Peking:0,5,12:4
+5:Vad är huvudstaden i Amerikas förenta stater ?:Washington DC:2,8,9:5
+6:Vad är Frankrikes huvudstad?:Paris:4,3,9:6
+7:Vad är Tysklands huvudstad?:Berlin:5,11,6:7
+8:Vad är Italiens huvudstad?:Rom:6,0,13:8
+9:Vad är Mexikos huvudstad?:Mexico City:16,4,14:9
+10:Vad är Rysslands huvudstad?:Moskva:16,17,14:10
+11:Vad är Spaniens huvudstad?:Madrid:18,3,14:11
+12:Vad är Japans huvudstad?:Tokyo:4,18,9:12
+13:Vad är Nederländernas huvudstad?:Amsterdam:16,8,20:13

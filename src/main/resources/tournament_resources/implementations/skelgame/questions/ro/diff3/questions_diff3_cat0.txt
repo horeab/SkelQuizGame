@@ -1,0 +1,8 @@
+27::Biserica Borgund Stave, Norvegia:28,31,34:27
+28::Moscheea Șeicului Zayed , Abu Dhabi:27,31,29:28
+29::Castelul Neuschwanstein, Germania:13,14,18:29
+30::Turnul Pearl Oriental, Shanghai:10,11,7:30
+31::Turnurile Petronas, Malaezia:28,29,32:31
+32::Portul Victoria, Hong Kong:26,25,24:32
+33::Biblioteca lui Celsus, Efes:1,20,19:33
+34::Canalul Panama, Panama:28,10,16:34

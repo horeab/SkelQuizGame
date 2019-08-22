@@ -1,0 +1,10 @@
+12::Angelin putoukset, Venezuela:10,9,18:12
+13::Kilimanjaro, Tansania:8,7,21:13
+14::Tonava Delta, Romania:17,15,10:14
+15::Victorian putoukset, Zimbabwe ja Sambia:21,18,11:15
+16::Saharan silmä, Mauritania:13,8,23:16
+17::Kuollut meri, Israel:25,15,24:17
+18::Moherin kallio, Irlanti:14,16,21:18
+19::Muta tulivuoria, Azerbaijan:22,13,27:19
+20::Moreenijärvi, Kanada:16,22,25:20
+21::Paholaisen marmorit, Australia:24,13,23:21

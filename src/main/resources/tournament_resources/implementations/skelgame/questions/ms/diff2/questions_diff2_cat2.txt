@@ -1,0 +1,13 @@
+27:Apakah modal Finland?:Helsinki:28,25,20:27
+28:Apakah ibu negara Maghribi?:Rabat:35,31,29:28
+29:Apakah modal Iran?:Tehran:30,21,22:29
+30:Apakah ibukota Serbia?:Belgrade:25,29,26:30
+31:Apakah modal Norway?:Oslo:29,32,26:31
+32:Apakah modal Belarus?:Minsk:28,38,37:32
+33:Apakah modal Sweden?:Stockholm:41,40,28:33
+34:Apakah modal Korea Selatan?:Seoul:42,38,37:34
+35:Apakah modal Ukraine?:Kiev:40,36,38:35
+36:Apakah modal Hungary?:Budapest:43,28,41:36
+37:Apakah modal Algeria?:Algiers:29,34,42:37
+38:Apakah ibu negara Afrika Selatan?:Cape Town:43,37,41:38
+39:Apakah modal Iceland?:Reykjavik:35,33,47:39

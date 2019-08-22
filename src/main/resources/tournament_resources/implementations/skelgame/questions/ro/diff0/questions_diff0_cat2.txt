@@ -1,0 +1,14 @@
+0:Care este capitala Austriei?:Viena:7,8,4:0
+1:Care este capitala Belgiei?:Bruxelles:5,6,0:1
+2:Care este capitala Braziliei?:Brasilia:7,9,1:2
+3:Care este capitala Canadei?:Ottawa:0,1,7:3
+4:Care este capitala Chinei?:Beijing:0,5,12:4
+5:Care este capitala Statelor Unite ale Americii?:Washington DC:2,8,9:5
+6:Care este capitala Franţei?:Paris:4,3,9:6
+7:Care este capitala Germaniei?:Berlin:5,11,6:7
+8:Care este capitala Italiei?:Roma:6,0,13:8
+9:Care este capitala Mexicului?:Mexico City:16,4,14:9
+10:Care este capitala Rusiei?:Moscova:16,17,14:10
+11:Care este capitala Spaniei?:Madrid:18,3,14:11
+12:Care este capitala Japoniei?:Tokyo:4,18,9:12
+13:Care este capitala Olandei?:Amsterdam:16,8,20:13

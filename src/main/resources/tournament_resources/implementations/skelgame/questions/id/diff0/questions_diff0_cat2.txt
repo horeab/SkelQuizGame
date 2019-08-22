@@ -1,0 +1,14 @@
+0:Apa ibu kota Austria?:Wina:7,8,4:0
+1:Apa ibu kota Belgia?:Brussels:5,6,0:1
+2:Apa ibu kota Brasil?:Brasilia:7,9,1:2
+3:Apa ibu kota Kanada?:Ottawa:0,1,7:3
+4:Apa ibukota Cina?:Beijing:0,5,12:4
+5:Apa ibukota Amerika Serikat?:Washington DC:2,8,9:5
+6:Apa ibu kota Perancis?:Paris:4,3,9:6
+7:Apa ibu kota Jerman?:Berlin:5,11,6:7
+8:Apa ibu kota Italia?:Roma:6,0,13:8
+9:Apa ibu kota Meksiko?:Kota Meksiko:16,4,14:9
+10:Apa ibu kota Rusia?:Moskow:16,17,14:10
+11:Apa ibu kota Spanyol?:Madrid:18,3,14:11
+12:Apa ibukota Jepang?:Tokyo:4,18,9:12
+13:Apa ibukota Belanda?:Amsterdam:16,8,20:13

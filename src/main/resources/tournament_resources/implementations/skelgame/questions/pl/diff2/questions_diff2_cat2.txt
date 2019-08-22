@@ -1,0 +1,13 @@
+27:Co to jest stolica Finlandii?:Helsinki:28,25,20:27
+28:Co to jest stolica Maroka?:Rabat:35,31,29:28
+29:Co to jest stolica Iranu?:Teheran:30,21,22:29
+30:Co to jest stolica Serbii?:Belgrad:25,29,26:30
+31:Co to jest stolica Norwegii?:Oslo:29,32,26:31
+32:Co to jest stolica Białorusi?:Mińsk:28,38,37:32
+33:Co to jest stolica Szwecji?:Sztokholm:41,40,28:33
+34:Co to jest stolica Korei Południowej?:Seul:42,38,37:34
+35:Co to jest stolica Ukrainy?:Kijów:40,36,38:35
+36:Co to jest stolica Węgier?:Budapeszt:43,28,41:36
+37:Co to jest stolica Algierii?:Algier:29,34,42:37
+38:Co to jest stolica Republiki Południowej Afryki?:Kapsztad:43,37,41:38
+39:Co to jest stolica Islandii?:Reykjavik:35,33,47:39

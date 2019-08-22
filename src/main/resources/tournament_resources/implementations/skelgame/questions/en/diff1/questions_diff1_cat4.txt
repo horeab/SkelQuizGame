@@ -1,0 +1,10 @@
+12::Angel Falls, Venezuela:10,9,18:12
+13::Mount Kilimanjaro, Tanzania:8,7,21:13
+14::Danube Delta, Romania:17,15,10:14
+15::Victoria Falls, Zimbabwe and Zambia:21,18,11:15
+16::Eye of the Sahara, Mauritania:13,8,23:16
+17::The Dead Sea, Israel:25,15,24:17
+18::Cliffs of Moher, Ireland:14,16,21:18
+19::Mud volcanoes, Azerbaijan:22,13,27:19
+20::Moraine Lake, Canada:16,22,25:20
+21::Devil's Marbles, Australia:24,13,23:21

@@ -1,0 +1,12 @@
+0::Hạ Long-öböl, Vietnam:3,2,8:0
+1::Salar de Uyuni, Bolívia:5,2,9:1
+2::Nagy kék lyuk, Belize:4,10,8:2
+3::Bali, Indonézia:6,10,2:3
+4::Az Aurora Borealis, Norvégia:5,1,7:4
+5::Fudzsi, Japán:3,1,11:5
+6::Rio de Janeiro kikötője, Brazília:2,1,13:6
+7::Paria kanyon, Egyesült Államok:11,6,5:7
+8::Csomolungma, Nepál és Tibet:10,9,13:8
+9::Niagara-vízesés, Kanada:2,6,11:9
+10::Lac Rose, Senegal:17,5,3:10
+11::A Fekete-erdő, Németország:9,15,12:11

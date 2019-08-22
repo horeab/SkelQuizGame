@@ -1,0 +1,13 @@
+14:Was ist die Hauptstadt von Australien?:Canberra:13,12,8:14
+15:Was ist die Hauptstadt von Portugal?:Lissabon:19,7,14:15
+16:Was ist die Hauptstadt der Türkei?:Istanbul:17,20,24:16
+17:Was ist die Hauptstadt von Bulgarien?:Sofia:10,13,19:17
+18:Was ist die Hauptstadt von Indien?:Neu-Delhi:15,26,22:18
+19:Was ist die Hauptstadt von Griechenland?:Athen:17,22,18:19
+20:Was ist die Hauptstadt von Zypern?:Nikosia:19,12,26:20
+21:Was ist die Hauptstadt von Kolumbien?:Bogota:20,18,14:21
+22:Was ist die Hauptstadt der Tschechischen Republik?:Prag:27,25,28:22
+23:Was ist die Hauptstadt von Kroatien?:Zagreb:22,16,25:23
+24:Was ist die Hauptstadt von Dänemark?:Kopenhagen:27,21,22:24
+25:Was ist die Hauptstadt von Ägypten?:Kairo:19,18,30:25
+26:Was ist die Hauptstadt der Schweiz?:Bern:27,30,22:26

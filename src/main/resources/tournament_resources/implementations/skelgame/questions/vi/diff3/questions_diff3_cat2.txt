@@ -1,0 +1,10 @@
+40:Thủ đô của Rumani là gì ?:Bucharest:48,33,38:40
+41:Thủ đô của Israel là gì? Jerusalem:48,37,46:41
+42:Thủ đô của Slovakia là gì ?:Bratislava:36,38,35:42
+43:Thủ đô của Slovenia là gì ?:Ljubljana:37,38,41:43
+44:Thủ đô của Ba Lan là gì ?:Warsaw:42,38,45:44
+45:Thủ đô của Tunisia là gì ?:Tunis:44,43,49:45
+46:Thủ đô của Argentina là gì ?:Buenos Aires:42,39,47:46
+47:Thủ đô của Việt Nam là gì? Hà Nội:45,42,49:47
+48:Thủ đô của Georgia là gì ?:Tbilisi:41,49,40:48
+49:Thủ đô của Nepal là gì ?:Kathmandu:43,41,42:49

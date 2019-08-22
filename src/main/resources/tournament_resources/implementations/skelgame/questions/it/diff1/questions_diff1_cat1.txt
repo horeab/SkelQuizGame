@@ -1,0 +1,13 @@
+14::l'Australia:17,15,21:14
+15::Portogallo:16,9,23:15
+16::Turchia:15,17,21:16
+17::Bulgaria:21,12,18:17
+18::India:15,21,23:18
+19::Grecia:15,23,20:19
+20::Cipro:25,19,13:20
+21::Colombia:19,27,25:21
+22::Repubblica Ceca:18,19,17:22
+23::Croazia:31,27,16:23
+24::Danimarca:23,18,28:24
+25::Egitto:21,23,22:25
+26::Svizzera:33,25,21:26

@@ -1,0 +1,13 @@
+14:Co je hlavním městem Austrálie?:Canberra:13,12,8:14
+15:Co je hlavním městem Portugalska?:Lisabon:19,7,14:15
+16:Co je hlavním městem Turecka?:Istanbul:17,20,24:16
+17:Co je hlavním městem Bulharska?:Sofie:10,13,19:17
+18:Co je hlavním městem Indie?:New Delhi:15,26,22:18
+19:Co je hlavním městem Řecka?:Atény:17,22,18:19
+20:Co je hlavním městem Kypru?:Nikósie:19,12,26:20
+21:Co je hlavním městem Columbie?:Bogota:20,18,14:21
+22:Co je hlavním městem České republiky?:Praha:27,25,28:22
+23:Co je hlavním městem Chorvatska?:Záhřeb:22,16,25:23
+24:Co je hlavním městem Dánska?:Kodaň:27,21,22:24
+25:Co je hlavním městem Egypta?:Káhira:19,18,30:25
+26:Co je hlavním městem Švýcarska?:Bern:27,30,22:26

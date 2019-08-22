@@ -1,0 +1,14 @@
+0:Mi az ausztriai főváros?:Bécs:7,8,4:0
+1:Mi a fővárosa Belgiumban?:Brüsszel:5,6,0:1
+2:Mi a brazil fővárosa?:Brasilia:7,9,1:2
+3:Mi a fővárosa Kanadában?:Ottawa:0,1,7:3
+4:Mi a kínai fővárosa?:Peking:0,5,12:4
+5:Mi az Egyesült Államok fővárosa?:Washington DC:2,8,9:5
+6:Mi a fővárosa Franciaországban?:Párizs:4,3,9:6
+7:Mi a fővárosa Németországban?:Berlin:5,11,6:7
+8:Mi az olasz fővárosa?:Róma:6,0,13:8
+9:Mi a Mexikó fővárosa?:Mexikóváros:16,4,14:9
+10:Mi a fővárosa Oroszországban?:Moszkva:16,17,14:10
+11:Mi a fővárosa Spanyolországban?:Madrid:18,3,14:11
+12:Mi a Japán fővárosa?:Tokió:4,18,9:12
+13:Mi a holland főváros?:Amszterdam:16,8,20:13

@@ -1,0 +1,12 @@
+0::Zatoka Ha Long, Wietnam:3,2,8:0
+1::Salar de Uyuni, Boliwia:5,2,9:1
+2::Wielka Niebieska Dziura, Belize:4,10,8:2
+3::Bali, Indonezja:6,10,2:3
+4::Zorza polarna, Norwegia:5,1,7:4
+5::Fudżi, Japonia:3,1,11:5
+6::Port w Rio De Janeiro, Brazylia:2,1,13:6
+7::Kanion Paria, Stany Zjednoczone:11,6,5:7
+8::Mount Everest, Nepal i Tybet:10,9,13:8
+9::Wodospad Niagara, Kanada:2,6,11:9
+10::Lac Rose, Senegal:17,5,3:10
+11::Czarny Las, Niemcy:9,15,12:11

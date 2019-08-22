@@ -1,0 +1,11 @@
+0::Eiffelov toranj, Pariz:1,4,8:0
+1::Kolosej, Rim:3,0,8:1
+2::Holivudski znak, Los Angeles:21,25,17:2
+3::Velika piramida u Gizi, Egipat:1,23,24:3
+4::Kip slobode, New York:0,1,25:4
+5::Kineski zid:6,7,11:5
+6::Angkor Wat, Kambodža:31,20,27:6
+7::Vatikan:26,20,19:7
+8::Kosi toranj u Pisi, Italija:0,1,4:8
+9::Krist Otkupitelj, Rio de Janeiro:13,11,7:9
+10::Opera u Sydneyu, Sydney:32,30,26:10

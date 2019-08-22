@@ -1,0 +1,7 @@
+22::Pamukkale, Türkei:16,14,18:22
+23::Der Fluss der fünf Farben, Kolumbien:26,19,29:23
+24::Vulkan Paricutín, Mexiko:30,17,31:24
+25::Moeraki Boulders, Neuseeland:31,32,29:25
+26::Die Blaue Grotte, Italien:28,31,29:26
+27::Marmorhöhlen, Chile:19,25,20:27
+28::Kristallhöhle, Bermuda:25,30,35:28

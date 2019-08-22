@@ -1,0 +1,10 @@
+12::Salto Angel, Wenezuela:10,9,18:12
+13::Kilimandżaro, Tanzania:8,7,21:13
+14::Delta Dunaju, Rumunia:17,15,10:14
+15::Wodospady Wiktorii, Zimbabwe i Zambia:21,18,11:15
+16::Kalb ar-Riszat, Mauretania:13,8,23:16
+17::Morze Martwe, Izrael:25,15,24:17
+18::Klify Moheru, Ireland:14,16,21:18
+19::Wulkany błotne, Azerbejdżan:22,13,27:19
+20::Moraine, Kanada:16,22,25:20
+21::Karlu Karlu, Australia:24,13,23:21

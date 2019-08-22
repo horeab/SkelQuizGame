@@ -1,0 +1,14 @@
+0:Avusturya'nın başkenti neresidir?:Viyana:7,8,4:0
+1:Belçika'nın başkenti nedir?:Brüksel:5,6,0:1
+2:Brezilya'nın başkenti nedir?:Brasilia:7,9,1:2
+3:Kanada'nın başkenti nedir?:Ottawa:0,1,7:3
+4:Çin'in başkenti nedir?:Pekin:0,5,12:4
+5:Amerika Birleşik Devletleri'nin başkenti nedir?:Washington DC:2,8,9:5
+6:Fransa'nın başkenti nedir?:Paris:4,3,9:6
+7:Almanya'nın başkenti nedir?:Berlin:5,11,6:7
+8:İtalya'nın başkenti nedir?:Roma:6,0,13:8
+9:Meksika'nın başkenti nedir?:Mexico City:16,4,14:9
+10:Rusya'nın başkenti nedir?:Moskova:16,17,14:10
+11:İspanya'nın başkenti nedir?:Madrid:18,3,14:11
+12:Japonya'nın başkenti nedir?:Tokyo:4,18,9:12
+13:Hollanda'nın başkenti nedir?:Amsterdam:16,8,20:13

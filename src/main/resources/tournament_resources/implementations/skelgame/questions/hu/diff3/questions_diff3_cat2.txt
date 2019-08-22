@@ -1,0 +1,10 @@
+40:Mi a Románia fővárosa?:Bukarest:48,33,38:40
+41:Mi az Izrael fővárosa?:Jeruzsálem:48,37,46:41
+42:Mi a szlovák fővárosa?:Pozsony:36,38,35:42
+43:Mi Szlovénia fővárosa?:Ljubljana:37,38,41:43
+44:Mi a lengyel fővárosa?:Varsó:42,38,45:44
+45:Mi a Tunézia fővárosa?:Tunis:44,43,49:45
+46:Mi a fővárosa Argentínában?:Buenos Aires:42,39,47:46
+47:Mi a fővárosa Vietnamban?:Hanoi:45,42,49:47
+48:Mi a grúz fővárosa?:Tbiliszi:41,49,40:48
+49:Mi a Nepál fővárosa?:Kathmandu:43,41,42:49

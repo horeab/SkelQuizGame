@@ -1,0 +1,14 @@
+0:Co je hlavním městem Rakouska?:Vídeň:7,8,4:0
+1:Co je hlavním městem Belgie?:Brusel:5,6,0:1
+2:Co je hlavním městem Brazílie?:Brasilia:7,9,1:2
+3:Co je hlavním městem Kanady?:Ottawa:0,1,7:3
+4:Co je hlavním městem Číny?:Peking:0,5,12:4
+5:Co je hlavním městem Spojených států amerických?:Washington DC:2,8,9:5
+6:Co je hlavním městem Francie?:Paříž:4,3,9:6
+7:Co je hlavním městem Německa?:Berlín:5,11,6:7
+8:Co je hlavním městem Itálie?:Řím:6,0,13:8
+9:Co je hlavním městem Mexika?:Mexico City:16,4,14:9
+10:Co je hlavním městem Ruska?:Moskva:16,17,14:10
+11:Co je hlavním městem Španělska?:Madrid:18,3,14:11
+12:Co je hlavním městem Japonska?:Tokio:4,18,9:12
+13:Co je hlavním městem Nizozemska?:Amsterdam:16,8,20:13

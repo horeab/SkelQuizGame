@@ -1,0 +1,11 @@
+0::Eiffel-torony, Párizs:1,4,8:0
+1::Colosseum, Róma:3,0,8:1
+2::Hollywood Jel, Los Angeles:21,25,17:2
+3::Nagy Giza-i piramis, Egyiptom:1,23,24:3
+4::Szabadság-szobor, New York:0,1,25:4
+5::Kínai Nagy Fal:6,7,11:5
+6::Angkorvat, Kambodzsa:31,20,27:6
+7::Vatikánváros:26,20,19:7
+8::Pisa ferde tornya, Olaszország:0,1,4:8
+9::A megváltó Krisztus, Rio de Janeiro:13,11,7:9
+10::Sydney Operaház, Sydney:32,30,26:10

@@ -1,0 +1,8 @@
+27::Crkva Borgund, Norveška:28,31,34:27
+28::Džamija šeika Zajeda, Abu Dhabi:27,31,29:28
+29::Dvorac Neuschwanstein, Njemačka:13,14,18:29
+30::Orijentalni biserni toranj, Šangaj:10,11,7:30
+31::Petronas blizanci, Malezija:28,29,32:31
+32::Victoria Harbour, Hong Kong:26,25,24:32
+33::Biblioteka u Celsusu, Efez:1,20,19:33
+34::Panamski kanal, Panama:28,10,16:34

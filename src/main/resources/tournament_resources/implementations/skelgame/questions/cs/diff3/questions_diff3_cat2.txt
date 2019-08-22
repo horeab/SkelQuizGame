@@ -1,0 +1,10 @@
+40:Co je hlavním městem Rumunska?:Bukurešť:48,33,38:40
+41:Co je hlavním městem Izraele?:Jeruzalém:48,37,46:41
+42:Co je hlavním městem Slovenska?:Bratislava:36,38,35:42
+43:Co je hlavním městem Slovinska?:Ljubljana:37,38,41:43
+44:Co je hlavním městem Polska?:Varšava:42,38,45:44
+45:Co je hlavním městem Tuniska?:Tunis:44,43,49:45
+46:Co je hlavním městem Argentiny?:Buenos Aires:42,39,47:46
+47:Co je hlavním městem Vietnamu?:Hanoj:45,42,49:47
+48:Co je hlavním městem Gruzie?:Tbilisi:41,49,40:48
+49:Co je hlavním městem Nepálu?:Káthmándú:43,41,42:49

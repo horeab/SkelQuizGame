@@ -1,0 +1,10 @@
+40:Was ist die Hauptstadt von Rumänien?:Bukarest:48,33,38:40
+41:Was ist die Hauptstadt Israels?:Jerusalem:48,37,46:41
+42:Was ist die Hauptstadt der Slowakei?:Bratislava:36,38,35:42
+43:Was ist die Hauptstadt von Slowenien?:Ljubljana:37,38,41:43
+44:Was ist die Hauptstadt von Polen?:Warschau:42,38,45:44
+45:Was ist die Hauptstadt von Tunesien?:Tunis:44,43,49:45
+46:Was ist die Hauptstadt von Argentinien?:Buenos Aires:42,39,47:46
+47:Was ist die Hauptstadt von Vietnam?:Hanoi:45,42,49:47
+48:Was ist die Hauptstadt von Georgien?:Tiflis:41,49,40:48
+49:Was ist die Hauptstadt von Nepal?:Kathmandu:43,41,42:49

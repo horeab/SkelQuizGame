@@ -1,0 +1,13 @@
+14::Australien:11,10,22:14
+15::Portugal:11,18,21:15
+16::Türkei:10,22,20:16
+17::Bulgarien:18,24,20:17
+18::Indien:22,19,15:18
+19::Griechenland:26,12,20:19
+20::Zypern:16,17,14:20
+21::Kolumbien:23,14,25:21
+22::Tschechische Republik:21,23,15:22
+23::Kroatien:26,17,31:23
+24::Dänemark:19,29,26:24
+25::Ägypten:22,23,26:25
+26::Schweiz:28,34,24:26

@@ -1,0 +1,14 @@
+0:Što je glavni grad Austrije? Beč:7,8,4:0
+1:Što je glavni grad Belgije?:Bruxelles:5,6,0:1
+2:Što je glavni grad Brazila?:Brasilia:7,9,1:2
+3:Što je glavni grad Kanade?:Ottawa:0,1,7:3
+4:Koji je glavni grad Kine?:Beijing:0,5,12:4
+5:Što je glavni grad Sjedinjenih Američkih Država?:Washington DC:2,8,9:5
+6:Što je glavni grad Francuske?:Paris:4,3,9:6
+7:Što je glavni grad Njemačke?:Berlin:5,11,6:7
+8:Što je glavni grad Italije?:Rim:6,0,13:8
+9:Što je glavni grad Meksika?:Mexico City:16,4,14:9
+10:Što je glavni grad Rusije?:Moskva:16,17,14:10
+11:Što je glavni grad Španjolske?:Madrid:18,3,14:11
+12:Što je glavni grad Japana?:Tokyo:4,18,9:12
+13:Što je glavni grad Nizozemske?:Amsterdam:16,8,20:13

@@ -1,0 +1,11 @@
+0::Torre Eiffel, Paris:1,4,8:0
+1::Coliseu, Roma:3,0,8:1
+2::Letreiro de Hollywood, Los Angeles:21,25,17:2
+3::Grande Pirâmide de Gizé, Egito:1,23,24:3
+4::Estátua da Liberdade, Nova York:0,1,25:4
+5::Grande Muralha da China:6,7,11:5
+6::Angkor Wat, Camboja:31,20,27:6
+7::Cidade do Vaticano:26,20,19:7
+8::Torre inclinada de Pisa, Itália:0,1,4:8
+9::Cristo Redentor, Rio de Janeiro:13,11,7:9
+10::Ópera de Sydney, Sidney:32,30,26:10

@@ -1,0 +1,7 @@
+29::Đảo Jeju, Hàn Quốc:31,25,27:29
+30::Thác Iguazu, Argentina và Brazil:22,23,29:30
+31::Matterhorn, Thụy Sĩ:25,28,34:31
+32::Núi Bàn, Nam Phi:26,24,30:32
+33::Bu Tinah, Các tiểu vương quốc Ả Rập thống nhất:31,29,26:33
+34::Sundarban, Bangladesh:33,31,28:34
+35::Verdon Gorge, Pháp:32,33,34:35

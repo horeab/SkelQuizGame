@@ -1,0 +1,14 @@
+0:Quelle est la capitale de l'Autriche?:Vienne:7,8,4:0
+1:Quelle est la capitale de la Belgique?:Bruxelles:5,6,0:1
+2:Quelle est la capitale du Brésil?:Brasilia:7,9,1:2
+3:Quelle est la capitale du Canada?:Ottawa:0,1,7:3
+4:Quelle est la capitale de la Chine?:Beijing:0,5,12:4
+5:Quelle est la capitale des États-Unis d'Amérique?:Washington DC:2,8,9:5
+6:Quelle est la capitale de la France?:Paris:4,3,9:6
+7:Quelle est la capitale de l'Allemagne?:Berlin:5,11,6:7
+8:Quelle est la capitale de l'Italie?:Rome:6,0,13:8
+9:Quelle est la capitale du Mexique?:Mexico City:16,4,14:9
+10:Quelle est la capitale de la Russie?:Moscou:16,17,14:10
+11:Quelle est la capitale de l'Espagne?:Madrid:18,3,14:11
+12:Quelle est la capitale du Japon?:Tokyo:4,18,9:12
+13:Quelle est la capitale des Pays-Bas?:Amsterdam:16,8,20:13

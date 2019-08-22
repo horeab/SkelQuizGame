@@ -1,0 +1,10 @@
+40:¿Cuál es la capital de Rumania?:Bucarest:48,33,38:40
+41:¿Cuál es la capital de Israel?:Jerusalén:48,37,46:41
+42:¿Cuál es la capital de Eslovaquia?:Bratislava:36,38,35:42
+43:¿Cuál es la capital de Eslovenia?:Ljubljana:37,38,41:43
+44:¿Cuál es la capital de Polonia?:Varsovia:42,38,45:44
+45:¿Cuál es la capital de Túnez?:Túnez:44,43,49:45
+46:¿Cuál es la capital de Argentina?:Buenos Aires:42,39,47:46
+47:¿Cuál es la capital de Vietnam?:Hanoi:45,42,49:47
+48:¿Cuál es la capital de Georgia?:Tbilisi:41,49,40:48
+49:¿Cuál es la capital de Nepal?:Katmandú:43,41,42:49

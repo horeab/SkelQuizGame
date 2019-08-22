@@ -1,0 +1,13 @@
+14:Mi az Ausztrália fővárosa?:Canberra:13,12,8:14
+15:Mi Portugália fővárosa?:Lisszabon:19,7,14:15
+16:Mi a fővárosa Törökországban?:Isztambul:17,20,24:16
+17:Mi a fővárosa Bulgáriában?:Sofia:10,13,19:17
+18:Mi az India fővárosa?:Új Delhi:15,26,22:18
+19:Mi a Görögország fővárosa?:Athén:17,22,18:19
+20:Mi a ciprusi főváros?:Nicosia:19,12,26:20
+21:Mi a Kolumbia fővárosa?:Bogota:20,18,14:21
+22:Mi a Cseh Köztársaság fővárosa?:Prága:27,25,28:22
+23:Mi a Horvátországban főváros?:Zagreb:22,16,25:23
+24:Mi a fővárosa Dánia?:Koppenhága:27,21,22:24
+25:Mi az Egyiptom fővárosa?:Kairó:19,18,30:25
+26:Mi a svájci főváros?:Bern:27,30,22:26

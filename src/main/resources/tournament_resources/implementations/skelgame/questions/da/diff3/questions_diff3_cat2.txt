@@ -1,0 +1,10 @@
+40:Hvad er Rumæniens hovedstad?:Bukarest:48,33,38:40
+41:Hvad er Israels hovedstad?:Jerusalem:48,37,46:41
+42:Hvad er Slovakiens hovedstad?:Bratislava:36,38,35:42
+43:Hvad er Sloveniens hovedstad?:Ljubljana:37,38,41:43
+44:Hvad er hovedstaden i Polen?:Warszawa:42,38,45:44
+45:Hvad er Tunesiens hovedstad?:Tunis:44,43,49:45
+46:Hvad er hovedstaden i Argentina?:Buenos Aires:42,39,47:46
+47:Hvad er hovedstaden i Vietnam?:Hanoi:45,42,49:47
+48:Hvad er Georgiens hovedstad?:Tbilisi:41,49,40:48
+49:Hvad er hovedstaden i Nepal?:Kathmandu:43,41,42:49

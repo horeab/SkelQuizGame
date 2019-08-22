@@ -1,0 +1,13 @@
+27::Finlandia:34,33,31:27
+28::Maroko:31,22,33:28
+29::Iran:25,34,32:29
+30::Serbia:29,23,35:30
+31::Norwegia:37,26,36:31
+32::Belarus:29,34,25:32
+33::Swedia:38,25,29:33
+34::Korea Selatan:41,33,42:34
+35::Ukraina:36,31,38:35
+36::Hongaria:35,44,34:36
+37::Aljazair:41,33,38:37
+38::Afrika Selatan:43,41,45:38
+39::Islandia:33,37,34:39

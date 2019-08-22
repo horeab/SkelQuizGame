@@ -1,0 +1,13 @@
+14:Mikä on Australian pääkaupunki?:Canberra:13,12,8:14
+15:Mikä on Portugalin pääkaupunki?:Lissabon:19,7,14:15
+16:Mikä on Turkin pääkaupunki?:Istanbul:17,20,24:16
+17:Mikä on Bulgarian pääkaupunki?:Sofia:10,13,19:17
+18:Mikä on Intian pääkaupunki?:New Delhi:15,26,22:18
+19:Mikä on Kreikan pääkaupunki?:Ateena:17,22,18:19
+20:Mikä on Kyproksen pääkaupunki?:Nikosia:19,12,26:20
+21:Mikä on Kolumbian pääkaupunki?:Bogota:20,18,14:21
+22:Mikä on Tsekin tasavallan pääkaupunki?:Praha:27,25,28:22
+23:Mikä on Kroatian pääkaupunki?:Zagreb:22,16,25:23
+24:Mikä on Tanskan pääkaupunki?:Kööpenhamina:27,21,22:24
+25:Mikä on Egyptin pääkaupunki?:Kairo:19,18,30:25
+26:Mikä on Sveitsin pääkaupunki?:Bern:27,30,22:26

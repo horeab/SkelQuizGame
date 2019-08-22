@@ -1,0 +1,10 @@
+40:Mikä on Romanian pääkaupunki?:Bukarest:48,33,38:40
+41:Mikä on Israelin pääkaupunki?:Jerusalem:48,37,46:41
+42:Mikä on Slovakian pääkaupunki?:Bratislava:36,38,35:42
+43:Mikä on Slovenian pääkaupunki:Ljubljana:37,38,41:43
+44:Mikä on Puolan pääkaupunki?:Varsova:42,38,45:44
+45:Mikä on Tunisian pääkaupunki:Tunis:44,43,49:45
+46:Mikä on Argentiinan pääkaupunki:Buenos Aires:42,39,47:46
+47:Mikä on Vietnamin pääkaupunki:Hanoi:45,42,49:47
+48:Mikä on Georgian pääkaupunki?:Tbilisi:41,49,40:48
+49:Mikä on Nepalin pääkaupunki:Kathmandu:43,41,42:49

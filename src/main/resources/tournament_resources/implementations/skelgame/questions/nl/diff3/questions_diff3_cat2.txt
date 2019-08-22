@@ -1,0 +1,10 @@
+40:Wat is de hoofdstad van Roemenië?:Boekarest:48,33,38:40
+41:Wat is de hoofdstad van Israël?:Jeruzalem:48,37,46:41
+42:Wat is de hoofdstad van Slowakije?:Bratislava:36,38,35:42
+43:Wat is de hoofdstad van Slovenië?:Ljubljana:37,38,41:43
+44:Wat is de hoofdstad van Polen?:Warschau:42,38,45:44
+45:Wat is de hoofdstad van Tunesië?:Tunis:44,43,49:45
+46:Wat is de hoofdstad van Argentinië?:Buenos Aires:42,39,47:46
+47:Wat is de hoofdstad van Vietnam?:Hanoi:45,42,49:47
+48:Wat is de hoofdstad van Georgië?:Tbilisi:41,49,40:48
+49:Wat is de hoofdstad van Nepal?:Kathmandu:43,41,42:49

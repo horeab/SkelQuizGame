@@ -1,0 +1,7 @@
+22::Pamukkale, Turska:16,14,18:22
+23::Rijeka pet boja, Kolumbija:26,19,29:23
+24::Vulkan Paricutín, Meksiko:30,17,31:24
+25::Moeraki balvani, Novi Zeland:31,32,29:25
+26::Plava špilja, Italija:28,31,29:26
+27::Mramorne špilje, Čile:19,25,20:27
+28::Kristalna pećina, Bermuda:25,30,35:28

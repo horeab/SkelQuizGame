@@ -1,0 +1,14 @@
+0::Rakúsko:2,5,1:0
+1::Belgicko:4,3,8:1
+2::Brazília:0,3,1:2
+3::Kanada:1,6,5:3
+4::Čína:12,9,1:4
+5::Francúzsko:11,2,9:5
+6::Nemecko:2,12,0:6
+7::Taliansko:9,14,4:7
+8::Mexico:7,14,4:8
+9::Rusko:11,12,15:9
+10::Španielsko:5,11,13:10
+11::Spojené štáty americké:5,10,6:11
+12::Japonsko:17,15,10:12
+13::Holandsko:11,12,7:13

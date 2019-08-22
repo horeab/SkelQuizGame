@@ -1,0 +1,10 @@
+12::Angelov vodopád, Venezuela:10,9,18:12
+13::Kilimandžáro, Tanzánia:8,7,21:13
+14::Delta Dunaja, Rumunsko:17,15,10:14
+15::Viktóriine vodopády, Zimbabwe a Zambia:21,18,11:15
+16::Eye of Sahara, Mauritania:13,8,23:16
+17::Mŕtve more, Izrael:25,15,24:17
+18::Moherské útesy, Írsko:14,16,21:18
+19::Bahenné sopky, Azerbajdžan:22,13,27:19
+20::Moraine jazero, Kanada:16,22,25:20
+21::Diablove guličky, Austrália:24,13,23:21

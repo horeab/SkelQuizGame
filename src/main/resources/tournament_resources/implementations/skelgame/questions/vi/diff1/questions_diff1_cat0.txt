@@ -1,0 +1,8 @@
+11::Thành cổ, Athens:5,12,13:11
+12::Taj Mahal, Ấn Độ:11,14,15:12
+13::Nhà thờ Hồi giáo Xanh, Istanbul:15,11,10:13
+14::Burj Khalifa, Dubai:8,15,23:14
+15::Bảo tàng Louvre, Paris:11,8,17:15
+16::Machu Picchu, Peru:31,32,28:16
+17::Bức tường Berlin:15,11,26:17
+18::Khu nghỉ dưỡng Disneyland, California:26,25,21:18

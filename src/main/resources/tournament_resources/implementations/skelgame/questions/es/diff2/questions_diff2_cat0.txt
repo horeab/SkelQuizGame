@@ -1,0 +1,8 @@
+19::Plaza Roja, Moscú:26,25,33:19
+20::Petra, Jordania:22,1,5:20
+21::The Strip, Las Vegas:17,2,25:21
+22::Gran palacio, Bangkok:26,25,13:22
+23::La Sagrada Familia, Barcelona:7,8,9:23
+24::Guerreros de Terracota, China:27,29,11:24
+25::Times Square, Nueva York:21,19,10:25
+26::Ciudad Prohibida, Beijing:19,12,21:26

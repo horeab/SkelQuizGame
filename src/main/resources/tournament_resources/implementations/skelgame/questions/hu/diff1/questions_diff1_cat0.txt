@@ -1,0 +1,8 @@
+11::Akropolisz, Athén:5,12,13:11
+12::Tádzs Mahal, India:11,14,15:12
+13::Kék mecset, Isztambul:15,11,10:13
+14::Burdzs Kalifa, Dubai:8,15,23:14
+15::Louvre Múzeum, Párizs:11,8,17:15
+16::Machu Picchu, Peru:31,32,28:16
+17::Berlini fal:15,11,26:17
+18::Disneyland Resort, Kalifornia:26,25,21:18

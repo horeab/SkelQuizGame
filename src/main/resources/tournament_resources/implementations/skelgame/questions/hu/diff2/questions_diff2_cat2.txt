@@ -1,0 +1,13 @@
+27:Mi a fővárosa Finnországban?:Helsinki:28,25,20:27
+28:Mi a Marokkó fővárosa?:Rabat:35,31,29:28
+29:Mi az iráni főváros?:Tehran:30,21,22:29
+30:Mi a fővárosa Szerbiának?:Belgrád:25,29,26:30
+31:Mi a norvég fővárosa?:Oslo:29,32,26:31
+32:Mi a Fehéroroszország fővárosa?:Minszk:28,38,37:32
+33:Mi a fővárosa Svédországban?:Stockholm:41,40,28:33
+34:Mi a Dél-Korea fővárosa?:Szöul:42,38,37:34
+35:Mi a fővárosa Ukrajna?:Kijev:40,36,38:35
+36:Mi a fővárosa Magyarországon?:Budapest:43,28,41:36
+37:Mi az Algéria fővárosa?:Algériák:29,34,42:37
+38:Mi a fővárosa Dél-Afrika?:Cape Town:43,37,41:38
+39:Mi az Izland fővárosa?:Reykjavik:35,33,47:39

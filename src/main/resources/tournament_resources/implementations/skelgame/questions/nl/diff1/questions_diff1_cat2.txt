@@ -1,0 +1,13 @@
+14:Wat is de hoofdstad van Australië?:Canberra:13,12,8:14
+15:Wat is de hoofdstad van Portugal?:Lissabon:19,7,14:15
+16:Wat is de hoofdstad van Turkije?:Istanbul:17,20,24:16
+17:Wat is de hoofdstad van Bulgarije?:Sofia:10,13,19:17
+18:Wat is de hoofdstad van India?:New Delhi:15,26,22:18
+19:Wat is de hoofdstad van Griekenland?:Athene:17,22,18:19
+20:Wat is de hoofdstad van Cyprus?:Nicosia:19,12,26:20
+21:Wat is de hoofdstad van Colombia?:Bogota:20,18,14:21
+22:Wat is de hoofdstad van Tsjechië?:Praag:27,25,28:22
+23:Wat is de hoofdstad van Kroatië?:Zagreb:22,16,25:23
+24:Wat is de hoofdstad van Denemarken?:Kopenhagen:27,21,22:24
+25:Wat is de hoofdstad van Egypte?:Cairo:19,18,30:25
+26:Wat is de hoofdstad van Zwitserland?:Bern:27,30,22:26

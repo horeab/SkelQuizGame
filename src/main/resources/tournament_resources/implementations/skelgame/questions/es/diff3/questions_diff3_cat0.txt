@@ -1,0 +1,8 @@
+27::Iglesia de madera de Borgund, Noruega:28,31,34:27
+28::Mezquita Sheikh Zayed, Abu Dhabi:27,31,29:28
+29::Castillo de Neuschwanstein, Alemania:13,14,18:29
+30::Oriental Pearl Tower, Shanghai:10,11,7:30
+31::Torres Petronas, Malasia:28,29,32:31
+32::Puerto Victoria, Hong Kong:26,25,24:32
+33::Biblioteca de Celso, Éfeso:1,20,19:33
+34::Canal de Panamá, Panamá:28,10,16:34

@@ -1,0 +1,12 @@
+0::Ha Long Bay, Vietnam:3,2,8:0
+1::Salar de Uyuni, Bolivia:5,2,9:1
+2::Marele Hole Albastru, Belize:4,10,8:2
+3::Bali, Indonezia:6,10,2:3
+4::Auroră polară, Norvegia:5,1,7:4
+5::Muntele Fuji, Japonia:3,1,11:5
+6::Portul din Rio De Janeiro, Brazilia:2,1,13:6
+7::Canionul Paria, Statele Unite:11,6,5:7
+8::Muntele Everest, Nepal şi Tibet:10,9,13:8
+9::Cascada Niagara, Canada:2,6,11:9
+10::Lac Rose, Senegal:17,5,3:10
+11::Pădurea Neagră, Germania:9,15,12:11

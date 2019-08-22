@@ -1,0 +1,12 @@
+0::Halong-Bucht, Vietnam:3,2,8:0
+1::Salar de Uyuni, Bolivien:5,2,9:1
+2::Das große blaue Loch, Belize:4,10,8:2
+3::Bali, Indonesien:6,10,2:3
+4::Die Aurora Borealis, Norwegen:5,1,7:4
+5::Berg Fuji, Japan:3,1,11:5
+6::Hafen von Rio De Janeiro, Brasilien:2,1,13:6
+7::Paria Schlucht, Vereinigte Staaten:11,6,5:7
+8::Mount Everest, Nepal und Tibet:10,9,13:8
+9::Niagarafälle, Kanada:2,6,11:9
+10::Retba-See, Senegal:17,5,3:10
+11::Der Schwarzwald, Deutschland:9,15,12:11

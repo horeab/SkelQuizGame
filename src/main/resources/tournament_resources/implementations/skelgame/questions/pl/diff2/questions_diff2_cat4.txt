@@ -1,0 +1,7 @@
+22::Pamukkale, Turcja:16,14,18:22
+23::Rzeka pięciu kolorów, Kolumbia:26,19,29:23
+24::Wulkan Paricutín, Meksyk:30,17,31:24
+25::Głazy Moeraki, Nowa Zelandia:31,32,29:25
+26::Lazurowa Grota, Włochy:28,31,29:26
+27::Marmurowe jaskinie, Chile:19,25,20:27
+28::Jaskinia Kryształowa, Bermudy:25,30,35:28

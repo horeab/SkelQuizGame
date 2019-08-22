@@ -1,0 +1,14 @@
+0::Itävalta:7,6,5:0
+1::Belgia:4,3,9:1
+2::Brasilia:1,0,8:2
+3::Kanada:1,5,11:3
+4::Kiina:1,3,7:4
+5::Yhdysvallat:6,11,12:5
+6::Ranska:11,4,12:6
+7::Saksa:10,13,4:7
+8::Italia:14,3,15:8
+9::Meksiko:14,12,17:9
+10::Venäjä:18,12,11:10
+11::Espanja:13,9,3:11
+12::Japani:10,8,20:12
+13::Hollanti:10,6,20:13

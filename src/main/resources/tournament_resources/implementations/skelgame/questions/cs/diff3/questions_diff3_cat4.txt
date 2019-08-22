@@ -1,0 +1,7 @@
+29::Ostrov Jeju, Jižní Korea:31,25,27:29
+30::Vodopády Iguaçu, Argentina a Brazílie:22,23,29:30
+31::Matterhorn, Švýcarsko:25,28,34:31
+32::Stolová hora, Jižní Afrika:26,24,30:32
+33::Bu Tinah, Spojené arabské emiráty:31,29,26:33
+34::Sundarbans, Bangladéš:33,31,28:34
+35::Grand canyon du Verdon, Francie:32,33,34:35

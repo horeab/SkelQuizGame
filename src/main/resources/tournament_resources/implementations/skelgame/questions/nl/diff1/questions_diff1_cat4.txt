@@ -1,0 +1,10 @@
+12::Ángelwaterval, Venezuela:10,9,18:12
+13::Kilimanjaro, Tanzania:8,7,21:13
+14::Donau Delta, Roemenië:17,15,10:14
+15::Victoriawatervallen, Zimbabwe en Zambia:21,18,11:15
+16::Oog van de Sahara, Mauritanië:13,8,23:16
+17::Dode Zee, Israel:25,15,24:17
+18::Kliffen van Moher, Ierland:14,16,21:18
+19::Moddervulkanen, Azerbeidzjan:22,13,27:19
+20::Moraine Lake, Canada:16,22,25:20
+21::Devil's Marbles, Australië:24,13,23:2   1

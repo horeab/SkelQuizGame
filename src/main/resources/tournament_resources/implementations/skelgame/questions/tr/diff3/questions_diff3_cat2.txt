@@ -1,0 +1,10 @@
+40:Romanya'nın başkenti nedir?:Bükreş:48,33,38:40
+41:İsrail'in başkenti nedir?:Kudüs:48,37,46:41
+42:Slovakya'nın başkenti nedir?:Bratislava:36,38,35:42
+43:Slovenya'nın başkenti nedir?:Ljubljana:37,38,41:43
+44:Polonya'nın başkenti nedir?:Varşova:42,38,45:44
+45:Tunus'un başkenti nedir?:Tunus:44,43,49:45
+46:Arjantin'in başkenti nedir?:Buenos Aires:42,39,47:46
+47:Vietnam'ın başkenti nedir?:Hanoi:45,42,49:47
+48:Gürcistan'ın başkenti neresidir?:Tiflis:41,49,40:48
+49:Nepal'in başkenti neresidir?:Katmandu:43,41,42:49

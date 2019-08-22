@@ -1,0 +1,13 @@
+27:Finlandiya'nın başkenti nedir?:Helsinki:28,25,20:27
+28:Fas'ın başkenti nedir?:Rabat:35,31,29:28
+29:İran'ın başkenti neresidir?:Tahran:30,21,22:29
+30:Sırbistan'ın başkenti nedir?:Belgrad:25,29,26:30
+31:Norveç'in başkenti nedir?:Oslo:29,32,26:31
+32:Beyaz Rusya'nın başkenti nedir?:Minsk:28,38,37:32
+33:İsveç'in başkenti nedir?:Stockholm:41,40,28:33
+34:Güney Kore'nin başkenti nedir?:Seul:42,38,37:34
+35:Ukrayna'nın başkenti nedir?:Kiev:40,36,38:35
+36:Macaristan'ın başkenti nedir?:Budapeşte:43,28,41:36
+37:Cezayir'in başkenti neresi?:Cezayir:29,34,42:37
+38:Güney Afrika'nın başkenti nedir?:Cape Town:43,37,41:38
+39:İzlanda'nın başkenti nedir?:Reykjavik:35,33,47:39

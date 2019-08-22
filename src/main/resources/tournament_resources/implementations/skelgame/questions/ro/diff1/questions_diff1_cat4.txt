@@ -1,0 +1,10 @@
+12::Cascada Angel, Venezuela:10,9,18:12
+13::Muntele Kilimanjaro, Tanzania:8,7,21:13
+14::Delta Dunării, România:17,15,10:14
+15::Cascadele din Victoria, Zimbabwe şi Zambia:21,18,11:15
+16::Ochiul Saharei, Mauritania:13,8,23:16
+17::Marea Moartă, Israel:25,15,24:17
+18::Stâncile din Moher, Irlanda:14,16,21:18
+19::Vulcanii noroi, Azerbaijan:22,13,27:19
+20::Lacul Moraine, Canada:16,22,25:20
+21::Pietrele Diavolului, Australia:24,13,23:21

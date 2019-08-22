@@ -1,0 +1,10 @@
+40:Što je glavni grad Rumunjske?:Bukurešt:48,33,38:40
+41:Što je glavni grad Izraela?:Jerusalem:48,37,46:41
+42:Što je glavni grad Slovačke ?:Bratislava:36,38,35:42
+43:Što je glavni grad Slovenije?:Ljubljana:37,38,41:43
+44:Što je glavni grad Poljske ?:Varšava:42,38,45:44
+45:Što je glavni grad Tunisa?:Tunis:44,43,49:45
+46:Što je glavni grad Argentine ?:Buenos Aires:42,39,47:46
+47:Koji je glavni grad Vijetnama ?:Hanoi:45,42,49:47
+48:Koji je glavni grad Gruzije?:Tbilisi:41,49,40:48
+49:Što je glavni grad Nepala?:Kathmandu:43,41,42:49

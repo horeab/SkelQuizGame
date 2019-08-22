@@ -1,0 +1,12 @@
+0::Baia di Halong, Vietnam:3,2,8:0
+1::Salar de Uyuni, Bolivia:5,2,9:1
+2::Dolina marina, Belize:4,10,8:2
+3::Bali, Indonesia:6,10,2:3
+4::L'Aurora Boreale, Norvegia:5,1,7:4
+5::Monte Fuji, Giappone:3,1,11:5
+6::Porto di Rio De Janeiro, Brasile:2,1,13:6
+7::Paria Canyon, Stati Uniti:11,6,5:7
+8::Monte Everest, Nepal e Tibet:10,9,13:8
+9::Cascate del Niagara, Canada:2,6,11:9
+10::Lac Rose, Senegal:17,5,3:10
+11::Foresta Nera, Germania:9,15,12:11

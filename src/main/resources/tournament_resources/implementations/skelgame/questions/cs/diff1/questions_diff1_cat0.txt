@@ -1,0 +1,8 @@
+11::Akropolis, Athény:5,12,13:11
+12::Tádž Mahal, Indie:11,14,15:12
+13::Modrá mešita, Istanbul:15,11,10:13
+14::Burdž Chalífa, Dubaj:8,15,23:14
+15::Muzeum Louvre, Paříž:11,8,17:15
+16::Machu Picchu, Peru:31,32,28:16
+17::Berlínská zeď:15,11,26:17
+18::Disneyland Resort, Kalifornie:26,25,21:18

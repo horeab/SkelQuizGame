@@ -1,0 +1,7 @@
+29::Pulau Jeju, Korea Selatan:31,25,27:29
+30::Air Terjun Iguazu, Argentina dan Brazil:22,23,29:30
+31::Matterhorn, Switzerland:25,28,34:31
+32::Jadual Gunung, Afrika Selatan:26,24,30:32
+33::Bu Tinah, Emiriah Arab Bersatu:31,29,26:33
+34::Sundarban, Bangladesh:33,31,28:34
+35::Jurang Verdon, Perancis:32,33,34:35

@@ -1,0 +1,10 @@
+40:Care este capitala României?:Bucureşti:48,33,38:40
+41:Care este capitala Israelului?:Ierusalim:48,37,46:41
+42:Care este capitala Slovaciei?:Bratislava:36,38,35:42
+43:Care este capitala Sloveniei?:Ljubljana:37,38,41:43
+44:Care este capitala Poloniei?:Varşovia:42,38,45:44
+45:Care este capitala Tunisiei?:Tunis:44,43,49:45
+46:Care este capitala Argentinei?:Buenos Aires:42,39,47:46
+47:Care este capitala Vietnamului?:Hanoi:45,42,49:47
+48:Care este capitala Georgiei?:Tbilisi:41,49,40:48
+49:Care este capitala Nepalului?:Kathmandu:43,41,42:49

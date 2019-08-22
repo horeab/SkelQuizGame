@@ -1,0 +1,13 @@
+14:Care este capitala Austriei?:Canberra:13,12,8:14
+15:Care este capitala Portugaliei?:Lisabona:19,7,14:15
+16:Care este capitala Turciei?:Istanbul:17,20,24:16
+17:Care este capitala Bulgariei?:Sofia:10,13,19:17
+18:Care este capitala Indiei?:New Delhi:15,26,22:18
+19:Care este capitala Greciei?:Atena:17,22,18:19
+20:Care este capitala Ciprului?:Nicosia:19,12,26:20
+21:Care este capitala Columbiei?:Bogota:20,18,14:21
+22:Care este capitala Republicii Cehe?:Praga:27,25,28:22
+23:Care este capitala Croaţiei?:Zagreb:22,16,25:23
+24:Care este capitala Danemarcei?:Copenhaga:27,21,22:24
+25:Care este capitala Egiptului?:Cairo:19,18,30:25
+26:Care este capitala Elveţiei?:Bern:27,30,22:26

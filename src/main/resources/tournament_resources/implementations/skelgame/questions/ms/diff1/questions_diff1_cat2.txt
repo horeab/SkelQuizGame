@@ -1,0 +1,13 @@
+14:Apakah ibu negara Australia?:Canberra:13,12,8:14
+15:Apakah ibu kota Portugal?:Lisbon:19,7,14:15
+16:Apa modal Turki?:Istanbul:17,20,24:16
+17:Apa modal Bulgaria?:Sofia:10,13,19:17
+18:Apakah modal India?:New Delhi:15,26,22:18
+19:Apa modal Greece?:Athens:17,22,18:19
+20:Apakah modal Cyprus?:Nicosia:19,12,26:20
+21:Apakah modal Columbia?:Bogota:20,18,14:21
+22:Apakah modal Republik Czech?:Prague:27,25,28:22
+23:Apakah modal Croatia?:Zagreb:22,16,25:23
+24:Apakah modal Denmark?:Copenhagen:27,21,22:24
+25:Apakah ibu kota Mesir?:Kaherah:19,18,30:25
+26:Apakah ibu negara Switzerland?:Bern:27,30,22:26

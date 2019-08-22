@@ -1,0 +1,7 @@
+22::Pamukkale, Turquia:16,14,18:22
+23::O Rio das Cinco Cores, Colômbia:26,19,29:23
+24::Vulcão Paricutín, México:30,17,31:24
+25::Seixos gigantes de Moerek, Nova Zelândia:31,32,29:25
+26::Gruta Azul, Itália:28,31,29:26
+27::Grutas de Mármore, Chile:19,25,20:27
+28::Gruta de Cristal, Bermuda:25,30,35:28

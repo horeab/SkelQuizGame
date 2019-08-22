@@ -1,0 +1,10 @@
+12::Angelfossen, Venezuela:10,9,18:12
+13::Kilimanjaro-fjellet, Tanzania:8,7,21:13
+14::Donaudeltaet, Romania:17,15,10:14
+15::Victoriafallene, Zimbabwe og Zambia:21,18,11:15
+16::Sahara-øye, Mauritania:13,8,23:16
+17::Dødehavet, Israel:25,15,24:17
+18::Cliffs of Moher, Irland:14,16,21:18
+19::Mud-vulkaner, Aserbajdsjan:22,13,27:19
+20::Moraine Lake, Canada:16,22,25:20
+21::Djevelens klinkekuler, Australia:24,13,23:21

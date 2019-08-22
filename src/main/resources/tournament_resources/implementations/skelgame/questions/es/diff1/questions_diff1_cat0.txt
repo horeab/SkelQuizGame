@@ -1,0 +1,8 @@
+11::Acrópolis, Atenas:5,12,13:11
+12::Taj Mahal, India:11,14,15:12
+13::Mezquita Azul, Estambul:15,11,10:13
+14::Burj Khalifa, Dubai:8,15,23:14
+15::Museo del Louvre, París:11,8,17:15
+16::Machu Picchu, Perú:31,32,28:16
+17::Muro de Berlín:15,11,26:17
+18::Disneyland Resort, California:26,25,21:18

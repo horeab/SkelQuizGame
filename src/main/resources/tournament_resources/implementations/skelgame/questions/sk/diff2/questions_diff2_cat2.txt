@@ -1,0 +1,13 @@
+27:Aké je hlavné mesto Fínska?:Helsinki:28,25,20:27
+28:Aké je hlavné mesto Maroka?:Rabat:35,31,29:28
+29:Čo je hlavné mesto Iránu?:Teherán:30,21,22:29
+30:Aké je hlavné mesto Srbska?:Belehrad:25,29,26:30
+31:Aké je hlavné mesto Nórska?:Oslo:29,32,26:31
+32:Aké je hlavné mesto Bieloruska?:Minsk:28,38,37:32
+33:Aké je hlavné mesto Švédska?:Štokholm:41,40,28:33
+34:Čo je hlavným mestom Južnej Kórey?:Soul:42,38,37:34
+35:Aké je hlavné mesto Ukrajiny?:Kyjev:40,36,38:35
+36:Aké je hlavné mesto Maďarska?:Budapešť:43,28,41:36
+37:Čo je hlavným mestom Alžírska?:Alžír:29,34,42:37
+38:Aké je hlavné mesto Juhoafrickej republiky:Kapské Mesto:43,37,41:38
+39:Aké je hlavné mesto Islandu?:Reykjavík:35,33,47:39

@@ -1,0 +1,13 @@
+14::Avustralya:17,15,21:14
+15::Portekiz:16,9,23:15
+16::Türkiye:15,17,21:16
+17::Bulgaristan:21,12,18:17
+18::Hindistan:15,21,23:18
+19::Yunanistan:15,23,20:19
+20::Kıbrıs:25,19,13:20
+21::Kolombiya:19,27,25:21
+22::Çek Cumhuriyeti:18,19,17:22
+23::Hırvatistan:31,27,16:23
+24::Danimarka:23,18,28:24
+25::Mısır:21,23,22:25
+26::İsviçre:33,25,21:26

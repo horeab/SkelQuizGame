@@ -1,0 +1,10 @@
+12::Angelfallen, Venezuela:10,9,18:12
+13::Kilimanjaro-berget, Tanzania:8,7,21:13
+14::Donau Delta, Rumänien:17,15,10:14
+15::Victoriafallen, Zimbabwe och Zambia:21,18,11:15
+16::Richatformationen, Mauretanien:13,8,23:16
+17::Döda havet, Israel:25,15,24:17
+18::Cliffs of Moher, Irland:14,16,21:18
+19::Mud vulkaner, Azerbajdzjan:22,13,27:19
+20::Moraine Lake, Kanada:16,22,25:20
+21::Devil's Marbles, Australien:24,13,23:21

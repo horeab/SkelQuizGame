@@ -1,0 +1,14 @@
+0:Aké je hlavné mesto Rakúska::Viedeň:7,8,4:0
+1:Aké je hlavné mesto Belgicka?:Brusel:5,6,0:1
+2:Aké je hlavné mesto Brazílie?:Brazília:7,9,1:2
+3:Aké je hlavné mesto Kanady?:Ottawa:0,1,7:3
+4:Aké je hlavné mesto Číny?:Peking:0,5,12:4
+5:Aké je hlavné mesto Spojených štátov amerických:Washington DC:2,8,9:5
+6:Aké je hlavné mesto Francúzska?:Paríž:4,3,9:6
+7:Aké je hlavné mesto Nemecka?:Berlín:5,11,6:7
+8:Aké je hlavné mesto Talianska?:Rím:6,0,13:8
+9:Aké je hlavné mesto Mexika?:Mesto Mexiko:16,4,14:9
+10:Aké je hlavné mesto Ruska?:Moskva:16,17,14:10
+11:Aké je hlavné mesto Španielska?:Madrid:18,3,14:11
+12:Aké je hlavné mesto Japonska?:Tokio:4,18,9:12
+13:Aké je hlavné mesto Holandska?:Amsterdam:16,8,20:13

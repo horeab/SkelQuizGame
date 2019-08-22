@@ -1,0 +1,10 @@
+12::Salto Ángel, Venezuela:10,9,18:12
+13::Mont Kilimandjaro, Tanzanie:8,7,21:13
+14::Delta du Danube, Roumanie:17,15,10:14
+15::Chutes Victoria, Zimbabwe et Zambie:21,18,11:15
+16::Œil du Sahara, Mauritanie:13,8,23:16
+17::La mer Morte, Israël:25,15,24:17
+18::Falaises de Moher, Irlande:14,16,21:18
+19::Volcans de boue, Azerbaïdjan:22,13,27:19
+20::Lac Moraine, Canada:16,22,25:20
+21::Marbres du diable, Australie:24,13,23:21
