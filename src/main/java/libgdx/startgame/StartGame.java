@@ -1,6 +1,6 @@
 package libgdx.startgame;
 
-import libgdx.implementations.skelgame.GameIdEnum;
+import libgdx.implementations.skelgame.QuizGameIdEnum;
 import libgdx.implementations.skelgame.QuizGame;
 import libgdx.utils.startgame.test.DefaultAppInfoService;
 import libgdx.utils.startgame.test.DefaultBillingService;
@@ -15,7 +15,7 @@ public class StartGame {
                 new DefaultAppInfoService() {
                     @Override
                     public String getGameIdPrefix() {
-                            return GameIdEnum.quizgame.name();
+                            return QuizGameIdEnum.quizgame.name();
                     }
 
                     @Override

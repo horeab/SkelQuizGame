@@ -1,7 +1,5 @@
 package libgdx.implementations.skelgame;
 
-import libgdx.resources.dimen.MainDimen;
-
 public enum QuizGameButtonSize implements libgdx.controls.button.ButtonSize {
 
     ;

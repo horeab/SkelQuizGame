@@ -38,18 +38,18 @@ public class QuizGameDependencyManager extends CampaignGameDependencyManager {
     }
 
     @Override
-    public Class<LettersCampaignLevelEnum> getCampaignLevelTypeEnum() {
-        return LettersCampaignLevelEnum.class;
+    public Class<QuizCampaignLevelEnum> getCampaignLevelTypeEnum() {
+        return QuizCampaignLevelEnum.class;
     }
 
     @Override
-    public Class<LettersQuestionCategoryEnum> getQuestionCategoryTypeEnum() {
-        return LettersQuestionCategoryEnum.class;
+    public Class<QuizQuestionCategoryEnum> getQuestionCategoryTypeEnum() {
+        return QuizQuestionCategoryEnum.class;
     }
 
     @Override
-    public Class<LettersQuestionDifficultyLevel> getQuestionDifficultyTypeEnum() {
-        return LettersQuestionDifficultyLevel.class;
+    public Class<QuizQuestionDifficultyLevel> getQuestionDifficultyTypeEnum() {
+        return QuizQuestionDifficultyLevel.class;
     }
 
     public StarsService getStarsService() {

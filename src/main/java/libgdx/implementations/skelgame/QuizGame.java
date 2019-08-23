@@ -1,20 +1,20 @@
 package libgdx.implementations.skelgame;
 
 
-import libgdx.constants.GameIdEnum;
+import libgdx.campaign.CampaignGame;
 import libgdx.game.Game;
-import libgdx.game.ScreenManager;
 import libgdx.game.external.AppInfoService;
 import libgdx.game.external.BillingService;
 import libgdx.game.external.FacebookService;
-import libgdx.screens.AbstractScreen;
+import libgdx.screen.AbstractScreen;
+import libgdx.screens.QuizScreenManager;
 
-public class QuizGame extends Game<AppInfoService,
+public class QuizGame extends CampaignGame<AppInfoService,
         QuizGameMainDependencyManager,
         QuizGameDependencyManager,
         AbstractScreen,
-        ScreenManager,
-        GameIdEnum
+        QuizScreenManager,
+        QuizGameIdEnum
         > {
 
     public QuizGame(FacebookService facebookService,
@@ -33,7 +33,7 @@ public class QuizGame extends Game<AppInfoService,
 
     @Override
     protected void displayScreenAfterAssetsLoad() {
-        ScreenManager screenManager = getScreenManager();
+        QuizScreenManager screenManager = getScreenManager();
         screenManager.showMainScreen();
     }
 }

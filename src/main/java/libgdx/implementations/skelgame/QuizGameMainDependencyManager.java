@@ -3,13 +3,13 @@ package libgdx.implementations.skelgame;
 import libgdx.controls.labelimage.InventoryTableBuilderCreator;
 import libgdx.controls.popup.RatingService;
 import libgdx.game.MainDependencyManager;
-import libgdx.game.ScreenManager;
 import libgdx.resources.Resource;
 import libgdx.resources.ResourceService;
-import libgdx.screens.AbstractScreen;
+import libgdx.screen.AbstractScreen;
+import libgdx.screens.QuizScreenManager;
 import libgdx.transactions.TransactionsService;
 
-public class QuizGameMainDependencyManager extends MainDependencyManager<ScreenManager, AbstractScreen, QuizGameLabel, Resource, GameIdEnum> {
+public class QuizGameMainDependencyManager extends MainDependencyManager<QuizScreenManager, AbstractScreen, QuizGameLabel, Resource, QuizGameIdEnum> {
 
     @Override
     public Class<Resource> getMainResourcesClass() {
@@ -17,8 +17,8 @@ public class QuizGameMainDependencyManager extends MainDependencyManager<ScreenM
     }
 
     @Override
-    public Class<GameIdEnum> getGameIdClass() {
-        return GameIdEnum.class;
+    public Class<QuizGameIdEnum> getGameIdClass() {
+        return QuizGameIdEnum.class;
     }
 
     @Override
@@ -37,8 +37,8 @@ public class QuizGameMainDependencyManager extends MainDependencyManager<ScreenM
     }
 
     @Override
-    public ScreenManager createScreenManager() {
-        return new ScreenManager();
+    public QuizScreenManager createScreenManager() {
+        return new QuizScreenManager();
     }
 
     @Override
