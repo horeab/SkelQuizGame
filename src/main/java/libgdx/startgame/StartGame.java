@@ -1,7 +1,7 @@
-package startgame;
+package libgdx.startgame;
 
-import libgdx.constants.GameIdEnum;
-import libgdx.implementations.iq.SkelGame;
+import libgdx.implementations.skelgame.GameIdEnum;
+import libgdx.implementations.skelgame.QuizGame;
 import libgdx.utils.startgame.test.DefaultAppInfoService;
 import libgdx.utils.startgame.test.DefaultBillingService;
 import libgdx.utils.startgame.test.DefaultFacebookService;
@@ -9,13 +9,13 @@ import libgdx.utils.startgame.test.DefaultFacebookService;
 public class StartGame {
 
     public static void main(String[] args) {
-        SkelGame game = new SkelGame(
+        QuizGame game = new QuizGame(
                 new DefaultFacebookService(),
                 new DefaultBillingService(),
                 new DefaultAppInfoService() {
                     @Override
                     public String getGameIdPrefix() {
-                        return GameIdEnum.skelgame.name();
+                            return GameIdEnum.quizgame.name();
                     }
 
                     @Override
