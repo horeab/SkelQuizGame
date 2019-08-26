@@ -3,6 +3,8 @@ package libgdx.screens;
 import libgdx.campaign.CampaignLevel;
 import libgdx.screen.AbstractScreen;
 import libgdx.screen.ScreenType;
+import libgdx.screens.implementations.geoquiz.GameScreen;
+import libgdx.screens.implementations.geoquiz.GeoQuizCampaignScreen;
 import libgdx.screens.mainmenu.MainMenuScreen;
 
 public enum ScreenTypeEnum implements ScreenType {
@@ -15,7 +17,7 @@ public enum ScreenTypeEnum implements ScreenType {
 
     CAMPAIGN_SCREEN {
         public AbstractScreen getScreen(Object... params) {
-            return new CampaignScreen();
+            return new GeoQuizCampaignScreen();
         }
     },
 

@@ -1,7 +1,8 @@
-package libgdx.screens;
+package libgdx.screens.implementations.geoquiz;
 
 import libgdx.campaign.CampaignLevel;
 import libgdx.screen.AbstractScreen;
+import libgdx.screens.QuizScreenManager;
 
 public class GameScreen extends AbstractScreen<QuizScreenManager> {
 
