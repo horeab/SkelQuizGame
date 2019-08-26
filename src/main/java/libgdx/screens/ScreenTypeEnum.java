@@ -1,6 +1,9 @@
 package libgdx.screens;
 
 import libgdx.campaign.CampaignLevel;
+import libgdx.campaign.QuestionConfig;
+import libgdx.implementations.skelgame.gameservice.GameContext;
+import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.screen.AbstractScreen;
 import libgdx.screen.ScreenType;
 import libgdx.screens.implementations.geoquiz.GameScreen;
@@ -23,7 +26,7 @@ public enum ScreenTypeEnum implements ScreenType {
 
     GAME_SCREEN {
         public AbstractScreen getScreen(Object... params) {
-            return new GameScreen((CampaignLevel) params[0]);
+            return new GameScreen(new GameContextService().createGameContext(new QuestionConfig(3)));
         }
     },
 }

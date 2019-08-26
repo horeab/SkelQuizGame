@@ -24,19 +24,21 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
     private GameQuestionInfo gameQuestionInfo;
     protected TGameService gameService;
     protected Table questionContainer;
-    protected GameUser gameUser;
     protected GameContext gameContext;
     protected AbstractScreen abstractGameScreen;
+    protected GameControlsService gameControlsService;
+    protected RefreshQuestionDisplayService refreshQuestionDisplayService;
 
-    public QuestionContainerCreatorService(GameUser gameUser, GameContext gameContext, AbstractScreen abstractGameScreen) {
-        this.gameQuestionInfo = gameUser.getGameQuestionInfo();
-        this.gameService = (TGameService) GameServiceContainer.getGameService(gameUser.getGameQuestionInfo());
+    public QuestionContainerCreatorService(GameContext gameContext, AbstractScreen abstractGameScreen) {
+        this.gameQuestionInfo = gameContext.getCurrentUserGameUser().getGameQuestionInfo();
+        this.gameService = (TGameService) GameServiceContainer.getGameService(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
         this.questionContainer = new Table();
         this.abstractGameScreen = abstractGameScreen;
-        this.gameUser = gameUser;
         this.gameContext = gameContext;
         this.allAnswerButtons = createAnswerOptionsButtons(gameService.getAllAnswerOptions());
         this.hintButtons = createHintButtons(abstractGameScreen);
+        this.refreshQuestionDisplayService = gameContext.getCurrentUserCreatorDependencies().getRefreshQuestionDisplayService(abstractGameScreen, gameContext, getAllAnswerButtons());
+        this.gameControlsService = new GameControlsService(allAnswerButtons, hintButtons);
     }
 
     public AbstractScreen getAbstractGameScreen() {
@@ -55,10 +57,6 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
 
     public abstract Table createAnswerOptionsTable();
 
-    public GameUser getGameUser() {
-        return gameUser;
-    }
-
     public Table createQuestionTable() {
         Table table = new Table();
         table.add(questionContainer).pad(MainDimen.horizontal_general_margin.getDimen()).growY();
@@ -67,7 +65,7 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
     }
 
     protected void setContainerBackground() {
-        questionContainer.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
+//        questionContainer.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
     }
 
     public Map<String, MyButton> getAllAnswerButtons() {

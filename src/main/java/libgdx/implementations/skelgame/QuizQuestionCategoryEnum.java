@@ -7,11 +7,11 @@ import libgdx.implementations.skelgame.gameservice.QuizQuestionCategory;
 
 public enum QuizQuestionCategoryEnum implements QuizQuestionCategory {
 
-    CAT0(DependentQuizGameCreatorDependencies.class),
-    CAT1(DependentQuizGameCreatorDependencies.class),
-    CAT2(DependentQuizGameCreatorDependencies.class),
-    CAT3(DependentQuizGameCreatorDependencies.class),
-    CAT4(DependentQuizGameCreatorDependencies.class),
+    cat0(DependentQuizGameCreatorDependencies.class),
+    cat1(DependentQuizGameCreatorDependencies.class),
+    cat2(DependentQuizGameCreatorDependencies.class),
+    cat3(DependentQuizGameCreatorDependencies.class),
+    cat4(DependentQuizGameCreatorDependencies.class),
     ;
 
     private Class<? extends CreatorDependencies> questionCreator;

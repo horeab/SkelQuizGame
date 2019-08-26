@@ -1,7 +1,9 @@
 package libgdx.implementations.skelgame.gameservice;
 
-import libgdx.implementations.skelgame.question.GameUser;
+import libgdx.controls.button.MyButton;
 import libgdx.screen.AbstractScreen;
+
+import java.util.Map;
 
 public class DependentQuizGameCreatorDependencies extends CreatorDependencies {
 
@@ -11,8 +13,13 @@ public class DependentQuizGameCreatorDependencies extends CreatorDependencies {
     }
 
     @Override
-    public QuestionContainerCreatorService getQuestionContainerCreatorService(GameUser gameUser, GameContext gameContext, AbstractScreen screen) {
-        return new DependentQuizQuestionContainerCreatorService(gameUser, gameContext, screen);
+    public QuestionContainerCreatorService getQuestionContainerCreatorService(GameContext gameContext, AbstractScreen screen) {
+        return new DependentQuizQuestionContainerCreatorService(gameContext, screen);
+    }
+
+    @Override
+    public RefreshQuestionDisplayService getRefreshQuestionDisplayService(AbstractScreen screen, GameContext gameContext, Map<String, MyButton> allAnswerButtons) {
+        return new DependentQuizRefreshQuestionDisplayService(screen, gameContext, allAnswerButtons);
     }
 
     @Override

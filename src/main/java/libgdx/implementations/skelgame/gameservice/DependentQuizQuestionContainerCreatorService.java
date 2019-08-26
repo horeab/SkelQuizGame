@@ -5,8 +5,8 @@ import libgdx.screen.AbstractScreen;
 
 public class DependentQuizQuestionContainerCreatorService extends QuizQuestionContainerCreatorService {
 
-    public DependentQuizQuestionContainerCreatorService(GameUser gameUser, GameContext gameContext, AbstractScreen abstractGameScreen) {
-        super(gameUser, gameContext, abstractGameScreen);
+    public DependentQuizQuestionContainerCreatorService(GameContext gameContext, AbstractScreen abstractGameScreen) {
+        super(gameContext, abstractGameScreen);
     }
 
 }
