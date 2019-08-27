@@ -1,11 +1,15 @@
 package libgdx.implementations.skelgame.gameservice;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.actions.RunnableAction;
+import libgdx.campaign.CampaignService;
 import libgdx.controls.ScreenRunnable;
 import libgdx.implementations.skelgame.QuizGameSpecificResource;
+import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.screens.implementations.geoquiz.GameScreen;
+import libgdx.screens.implementations.geoquiz.HeaderCreator;
 import libgdx.utils.SoundUtils;
 
 import java.util.Random;
@@ -23,7 +27,6 @@ public class QuestionFinishedOperationsService {
         this.gameControlsService = gameControlsService;
         this.levelFinishedService = new SinglePlayerLevelFinishedService();
     }
-
 
     public void executeGameFinishedDependingNumberOfQuestions() {
         QuestionFinishedOperationsService questionFinishedOperationsService = new QuestionFinishedOperationsService(gameScreen, gameContext, gameControlsService);
@@ -62,6 +65,13 @@ public class QuestionFinishedOperationsService {
     }
 
     private void executeQuestionFinishedOperations() {
+        GameUser currentUserGameUser = gameContext.getCurrentUserGameUser();
+        if (levelFinishedService.isGameFinished(gameContext)) {
+            executeGameFinishedOperations();
+        }
+        if (currentUserGameUser.getWonQuestions() == LevelFinishedService.correctAnsweredQuestionsForGameSuccess(currentUserGameUser.getTotalNrOfQuestions())) {
+            SoundUtils.playSound(QuizGameSpecificResource.sound_success_game_over);
+        }
         gameScreen.goToNextQuestionScreen();
     }
 
@@ -73,7 +83,8 @@ public class QuestionFinishedOperationsService {
                 Gdx.app.postRunnable(new ScreenRunnable(gameScreen) {
                     @Override
                     public void executeOperations() {
-                        SoundUtils.playSound(gameContext.getCurrentUserGameUser().equals(usersWithLevelFinished.getGameUserThatWon()) ? QuizGameSpecificResource.sound_success_game_over : QuizGameSpecificResource.sound_fail_game_over);
+                        boolean gameWon = gameContext.getCurrentUserGameUser().equals(usersWithLevelFinished.getGameUserThatWon());
+                        SoundUtils.playSound(gameWon ? QuizGameSpecificResource.sound_success_game_over : QuizGameSpecificResource.sound_fail_game_over);
                         animateGameFinished(usersWithLevelFinished);
                     }
                 });
@@ -86,6 +97,8 @@ public class QuestionFinishedOperationsService {
         ra.setRunnable(new ScreenRunnable(gameScreen) {
             @Override
             public void executeOperations() {
+                Actor actor = gameScreen.getRoot().findActor(HeaderCreator.HEADER_TABLE_NAME);
+                actor.addAction(Actions.fadeOut(0.5f));
                 gameScreen.executeLevelFinished();
             }
         });

@@ -4,16 +4,20 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.game.Game;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.QuestionContainerCreatorService;
+import libgdx.implementations.skelgame.gameservice.SinglePlayerLevelFinishedService;
 import libgdx.screen.AbstractScreen;
 import libgdx.screens.QuizScreenManager;
 import libgdx.utils.ScreenDimensionsManager;
+import libgdx.utils.model.RGBColor;
 
-public class GameScreen extends AbstractScreen<QuizScreenManager> {
+public abstract class GameScreen extends AbstractScreen<QuizScreenManager> {
 
-    private GameContext gameContext;
+    GameContext gameContext;
+    private SinglePlayerLevelFinishedService levelFinishedService;
 
     public GameScreen(GameContext gameContext) {
         this.gameContext = gameContext;
+        this.levelFinishedService = new SinglePlayerLevelFinishedService();
     }
 
     @Override
@@ -22,28 +26,33 @@ public class GameScreen extends AbstractScreen<QuizScreenManager> {
         QuestionContainerCreatorService questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
-        questionTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(60));
-        answersTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(40));
-        allTable.add(questionTable).row();
-        allTable.add(answersTable);
+        Table headerTable = new HeaderCreator().createHeaderTable(gameContext);
+        headerTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(5));
+        questionTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(45));
+        answersTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(50));
+        allTable.add(headerTable).height(headerTable.getHeight()).row();
+        allTable.add(questionTable).height(questionTable.getHeight()).row();
+        allTable.add(answersTable).height(answersTable.getHeight());
         allTable.setFillParent(true);
         addActor(allTable);
     }
 
-    public void executeLevelFinished() {
+    @Override
+    protected void setBackgroundColor(RGBColor backgroundColor) {
+        if (levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
+            super.setBackgroundColor(RGBColor.RED);
+        } else {
+            super.setBackgroundColor(backgroundColor);
+        }
     }
+
+    public abstract void executeLevelFinished();
+
+    public abstract void goToNextQuestionScreen();
 
     public void showPopupAd() {
         Game.getInstance().getAppInfoService().showPopupAd();
     }
 
-    public void goToNextQuestionScreen() {
-        screenManager.showGameScreen(gameContext);
-    }
-
-    @Override
-    public void onBackKeyPress() {
-        screenManager.showCampaignScreen();
-    }
 
 }

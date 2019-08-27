@@ -1,5 +1,6 @@
 package libgdx.implementations.skelgame.gameservice;
 
+import libgdx.campaign.QuestionConfig;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.implementations.skelgame.question.Question;
 import libgdx.utils.DateUtils;
@@ -12,9 +13,11 @@ public class GameContext {
     private GameUser currentUserGameUser;
     private Long millisGameStarted;
     private int amountAvailableHints;
+    private QuestionConfig questionConfig;
 
-    GameContext(GameUser currentUserGameUser, int amountAvailableHints) {
+    GameContext(GameUser currentUserGameUser, QuestionConfig questionConfig, int amountAvailableHints) {
         this.currentUserGameUser = currentUserGameUser;
+        this.questionConfig = questionConfig;
         this.amountAvailableHints = amountAvailableHints;
     }
 
@@ -22,6 +25,9 @@ public class GameContext {
         return currentUserGameUser;
     }
 
+    public QuestionConfig getQuestionConfig() {
+        return questionConfig;
+    }
 
     public Question getQuestion() {
         return getCurrentUserGameUser().getGameQuestionInfo().getQuestion();

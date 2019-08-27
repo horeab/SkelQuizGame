@@ -1,6 +1,7 @@
 package libgdx.implementations.skelgame;
 
 import libgdx.campaign.*;
+import libgdx.implementations.skelgame.gameservice.QuizStarsService;
 import libgdx.resources.IncrementingRes;
 import libgdx.utils.EnumUtils;
 
@@ -57,7 +58,7 @@ public class QuizGameDependencyManager extends CampaignGameDependencyManager {
         return QuizQuestionDifficultyLevel.class;
     }
 
-    public StarsService getStarsService() {
-        return new StarsService();
+    public QuizStarsService getStarsService() {
+        return new QuizStarsService();
     }
 }

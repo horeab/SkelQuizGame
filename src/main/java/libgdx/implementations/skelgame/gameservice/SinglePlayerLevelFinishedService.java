@@ -4,9 +4,6 @@ import libgdx.implementations.skelgame.question.GameUser;
 
 public class SinglePlayerLevelFinishedService extends LevelFinishedService {
 
-    protected SinglePlayerLevelFinishedService() {
-    }
-
     @Override
     public UsersWithLevelFinished createUsersWithGameFinished(GameContext gameContext) {
         GameUser gameUser = gameContext.getCurrentUserGameUser();
@@ -21,7 +18,7 @@ public class SinglePlayerLevelFinishedService extends LevelFinishedService {
         return usersWithLevelFinished;
     }
 
-    protected boolean isGameWon(GameUser gameUser) {
+    public boolean isGameWon(GameUser gameUser) {
         return gameUser.getWonQuestions() >= correctAnsweredQuestionsForGameSuccess(gameUser.getTotalNrOfQuestions());
     }
 

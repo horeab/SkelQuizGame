@@ -1,6 +1,6 @@
 0::Ha Long Bay, Vietnam:3,2,8:0
 1::Salar de Uyuni, Bolivia:5,2,9:1
-2::Marele Hole Albastru, Belize:4,10,8:2
+2::Marea Gaură Albastră, Belize:4,10,8:2
 3::Bali, Indonezia:6,10,2:3
 4::Auroră polară, Norvegia:5,1,7:4
 5::Muntele Fuji, Japonia:3,1,11:5

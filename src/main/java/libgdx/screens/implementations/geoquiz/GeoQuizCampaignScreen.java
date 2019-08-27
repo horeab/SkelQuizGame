@@ -1,15 +1,19 @@
 package libgdx.screens.implementations.geoquiz;
 
+import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.NinePatchDrawable;
-import libgdx.campaign.CampaignLevel;
-import libgdx.campaign.CampaignLevelEnumService;
-import libgdx.campaign.CampaignService;
-import libgdx.campaign.CampaignStoreLevel;
+import libgdx.campaign.*;
+import libgdx.controls.button.MyButton;
+import libgdx.controls.button.builders.ButtonWithIconBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.skelgame.QuizQuestionCategoryEnum;
 import libgdx.implementations.skelgame.QuizQuestionDifficultyLevel;
+import libgdx.implementations.skelgame.gameservice.GameContextService;
+import libgdx.implementations.skelgame.gameservice.QuizStarsService;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
 import libgdx.resources.Res;
@@ -62,17 +66,35 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
     }
 
     private Table createCategoryTable(QuizQuestionDifficultyLevel difficultyLevel, QuizQuestionCategoryEnum categoryEnum) {
-        Table allTable = new Table();
-        allTable.setBackground(GraphicUtils.getNinePatch(MainResource.background_texture));
-        Table table = new Table();
-        table.setFillParent(true);
         CampaignLevel campaignLevel = CampaignLevelEnumService.getCampaignLevelForDiffAndCat(difficultyLevel, categoryEnum);
+        Table allTable = new Table();
         Res levelIcon = new CampaignLevelEnumService(campaignLevel).getIcon();
-        if (campaignService.getMaxOpenedLevel(allCampaignLevelStores).getLevel() < campaignLevel.getIndex()) {
+        CampaignStoreLevel maxFinishedLevel = campaignService.getMaxFinishedLevel(allCampaignLevelStores);
+        int maxOpenedLevel = maxFinishedLevel != null ? maxFinishedLevel.getLevel() : -1;
+        boolean levelLocked = (maxOpenedLevel + 1) < campaignLevel.getIndex();
+        if (levelLocked) {
             levelIcon = MainResource.crown;
+        } else if (campaignLevel.getIndex() <= maxOpenedLevel) {
+            int starsWon = campaignService.getCampaignLevel(campaignLevel.getIndex(), allCampaignLevelStores).getStarsWon();
+            if (starsWon == QuizStarsService.NR_OF_STARS_TO_DISPLAY) {
+                allTable.setBackground(GraphicUtils.getNinePatch(MainResource.sound_on));
+            } else {
+                allTable.setBackground(GraphicUtils.getNinePatch(MainResource.sound_off));
+            }
         }
-        table.setBackground(GraphicUtils.getNinePatch(levelIcon));
-        allTable.add(table).height(ICON_DIMEN).width(ICON_DIMEN);
+        MyButton myButton = new ButtonWithIconBuilder("", levelIcon).build();
+        myButton.setFillParent(true);
+        if (!levelLocked) {
+            myButton.addListener(new ChangeListener() {
+                @Override
+                public void changed(ChangeEvent event, Actor actor) {
+                    screenManager.showCampaignGameScreen(new GameContextService().createGameContext(new CampaignLevelEnumService(campaignLevel).getQuestionConfig()), campaignLevel);
+                }
+            });
+        } else {
+            myButton.setTouchable(Touchable.disabled);
+        }
+        allTable.add(myButton).height(ICON_DIMEN).width(ICON_DIMEN);
         allTable.setHeight(ICON_DIMEN);
         allTable.setWidth(ICON_DIMEN);
         return allTable;

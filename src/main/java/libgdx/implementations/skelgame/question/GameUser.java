@@ -23,7 +23,7 @@ public class GameUser {
         }
     }
 
-    public void setLostQuestion(GameQuestionInfo gameQuestionInfo) {
+    private void setLostQuestion(GameQuestionInfo gameQuestionInfo) {
         if (gameQuestionInfo.isQuestionOpen()) {
             gameQuestionInfo.setStatus(GameQuestionInfoStatus.LOST);
             lostQuestions++;

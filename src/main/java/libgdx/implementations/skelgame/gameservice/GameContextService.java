@@ -16,19 +16,11 @@ public class GameContextService {
     public GameContext createGameContext(int availableHints, QuestionConfig questionConfig) {
         Question[] randomQuestions = new RandomQuestionCreatorService().createRandomQuestions(questionConfig);
         GameUser gameUser = createGameUser(randomQuestions);
-        return createGameContext(gameUser, availableHints);
+        return createGameContext(gameUser, questionConfig, availableHints);
     }
 
-    public GameContext createGameContext(Question... questions) {
-        if (questions.length == 0) {
-            return createGameContext();
-        }
-        GameUser gameUser = createGameUser(questions);
-        return createGameContext(gameUser, AMOUNT_AVAILABLE_HINTS);
-    }
-
-    private GameContext createGameContext(GameUser gameUser, int amountAvailableHints) {
-        return new GameContext(gameUser, amountAvailableHints);
+    private GameContext createGameContext(GameUser gameUser, QuestionConfig questionConfig, int amountAvailableHints) {
+        return new GameContext(gameUser, questionConfig, amountAvailableHints);
     }
 
     private GameUser createGameUser(Question... questions) {
