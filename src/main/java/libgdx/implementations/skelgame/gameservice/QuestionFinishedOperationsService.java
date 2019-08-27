@@ -4,24 +4,29 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.actions.RunnableAction;
 import libgdx.controls.ScreenRunnable;
-import libgdx.screen.AbstractScreen;
+import libgdx.implementations.skelgame.QuizGameSpecificResource;
+import libgdx.screens.implementations.geoquiz.GameScreen;
 import libgdx.utils.SoundUtils;
 
 import java.util.Random;
 
 public class QuestionFinishedOperationsService {
 
-    private AbstractScreen gameScreen;
+    private GameScreen gameScreen;
     private GameContext gameContext;
+    private GameControlsService gameControlsService;
+    private LevelFinishedService levelFinishedService;
 
-    public QuestionFinishedOperationsService(AbstractScreen gameScreen, GameContext gameContext) {
+    public QuestionFinishedOperationsService(GameScreen gameScreen, GameContext gameContext, GameControlsService gameControlsService) {
         this.gameScreen = gameScreen;
         this.gameContext = gameContext;
+        this.gameControlsService = gameControlsService;
+        this.levelFinishedService = new SinglePlayerLevelFinishedService();
     }
 
 
     public void executeGameFinishedDependingNumberOfQuestions() {
-        QuestionFinishedOperationsService questionFinishedOperationsService = new QuestionFinishedOperationsService(gameScreen, gameContext);
+        QuestionFinishedOperationsService questionFinishedOperationsService = new QuestionFinishedOperationsService(gameScreen, gameContext, gameControlsService);
         if (gameContext.getCurrentUserGameUser().userHasMultipleQuestions()) {
             questionFinishedOperationsService.executeGameFinishedOperations();
         } else {
@@ -37,11 +42,11 @@ public class QuestionFinishedOperationsService {
     }
 
     private void processLastFinishedQuestion() {
-        gameScreen.getScreenCreator().getGameScreenQuestionContainerCreator().getGameControlsService().disableTouchableAllControls();
+        gameControlsService.disableTouchableAllControls();
         new Thread(new ScreenRunnable(gameScreen) {
             @Override
             public void executeOperations() {
-                final boolean gameFinished = gameScreen.getLevelFinishedService().isGameFinished(gameContext);
+                final boolean gameFinished = levelFinishedService.isGameFinished(gameContext);
                 Gdx.app.postRunnable(new ScreenRunnable(gameScreen) {
                     @Override
                     public void executeOperations() {
@@ -64,11 +69,11 @@ public class QuestionFinishedOperationsService {
         new Thread(new ScreenRunnable(gameScreen) {
             @Override
             public void executeOperations() {
-                final UsersWithLevelFinished usersWithLevelFinished = gameScreen.getLevelFinishedService().createUsersWithGameFinished(gameContext);
+                final UsersWithLevelFinished usersWithLevelFinished = levelFinishedService.createUsersWithGameFinished(gameContext);
                 Gdx.app.postRunnable(new ScreenRunnable(gameScreen) {
                     @Override
                     public void executeOperations() {
-                        SoundUtils.playSound(gameContext.getCurrentUserGameUser().equals(usersWithLevelFinished.getUserThatWon()) ? Resource.sound_success_game_over : Resource.sound_fail_game_over);
+                        SoundUtils.playSound(gameContext.getCurrentUserGameUser().equals(usersWithLevelFinished.getGameUserThatWon()) ? QuizGameSpecificResource.sound_success_game_over : QuizGameSpecificResource.sound_fail_game_over);
                         animateGameFinished(usersWithLevelFinished);
                     }
                 });
@@ -77,13 +82,13 @@ public class QuestionFinishedOperationsService {
     }
 
     private void animateGameFinished(final UsersWithLevelFinished usersWithLevelFinished) {
-        RunnableAction ra2 = new RunnableAction();
-        ra2.setRunnable(new ScreenRunnable(gameScreen) {
+        RunnableAction ra = new RunnableAction();
+        ra.setRunnable(new ScreenRunnable(gameScreen) {
             @Override
             public void executeOperations() {
                 gameScreen.executeLevelFinished();
             }
         });
-        gameScreen.addAction(Actions.sequence(Actions.delay(1f), ra2));
+        gameScreen.addAction(Actions.sequence(Actions.delay(1f), ra));
     }
 }

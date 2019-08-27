@@ -20,6 +20,7 @@ import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.FontManager;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
+import libgdx.screens.implementations.geoquiz.GameScreen;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,8 +29,9 @@ import java.util.Set;
 
 public abstract class QuizQuestionContainerCreatorService extends QuestionContainerCreatorService<QuizGameService> {
 
-    public QuizQuestionContainerCreatorService(GameContext gameContext, AbstractScreen abstractGameScreen) {
+    public QuizQuestionContainerCreatorService(GameContext gameContext, GameScreen abstractGameScreen) {
         super(gameContext, abstractGameScreen);
+        addOnAnswerClick();
     }
 
     @Override
@@ -155,7 +157,7 @@ public abstract class QuizQuestionContainerCreatorService extends QuestionContai
             action2.setRunnable(new ScreenRunnable(abstractGameScreen) {
                 @Override
                 public void executeOperations() {
-                    new QuestionFinishedOperationsService(abstractGameScreen).executeFinishedQuestionOperations();
+                    new QuestionFinishedOperationsService(abstractGameScreen, gameContext, gameControlsService).executeFinishedQuestionOperations();
                 }
             });
             abstractGameScreen.addAction(Actions.sequence(action1, Actions.delay(1f), action2));

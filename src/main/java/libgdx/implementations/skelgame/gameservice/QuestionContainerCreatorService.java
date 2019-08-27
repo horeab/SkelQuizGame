@@ -10,6 +10,7 @@ import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
+import libgdx.screens.implementations.geoquiz.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
 
 import java.util.ArrayList;
@@ -25,11 +26,11 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
     protected TGameService gameService;
     protected Table questionContainer;
     protected GameContext gameContext;
-    protected AbstractScreen abstractGameScreen;
+    protected GameScreen abstractGameScreen;
     protected GameControlsService gameControlsService;
     protected RefreshQuestionDisplayService refreshQuestionDisplayService;
 
-    public QuestionContainerCreatorService(GameContext gameContext, AbstractScreen abstractGameScreen) {
+    public QuestionContainerCreatorService(GameContext gameContext, GameScreen abstractGameScreen) {
         this.gameQuestionInfo = gameContext.getCurrentUserGameUser().getGameQuestionInfo();
         this.gameService = (TGameService) GameServiceContainer.getGameService(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
         this.questionContainer = new Table();

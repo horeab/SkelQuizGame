@@ -2,6 +2,7 @@ package libgdx.screens;
 
 import libgdx.campaign.CampaignLevel;
 import libgdx.implementations.skelgame.QuizCampaignLevelEnum;
+import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.screen.AbstractScreenManager;
 import libgdx.screens.ScreenTypeEnum;
 
@@ -14,8 +15,8 @@ public class QuizScreenManager extends AbstractScreenManager {
 //        showCampaignScreen();
     }
 
-    public void showGameScreen(CampaignLevel campaignLevel) {
-        showScreen(ScreenTypeEnum.GAME_SCREEN, campaignLevel);
+    public void showGameScreen(GameContext gameContext) {
+        showScreen(ScreenTypeEnum.GAME_SCREEN, gameContext);
     }
 
     public void showCampaignScreen() {

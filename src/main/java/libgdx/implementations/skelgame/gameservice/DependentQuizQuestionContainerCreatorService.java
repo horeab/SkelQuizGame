@@ -1,11 +1,10 @@
 package libgdx.implementations.skelgame.gameservice;
 
-import libgdx.implementations.skelgame.question.GameUser;
-import libgdx.screen.AbstractScreen;
+import libgdx.screens.implementations.geoquiz.GameScreen;
 
 public class DependentQuizQuestionContainerCreatorService extends QuizQuestionContainerCreatorService {
 
-    public DependentQuizQuestionContainerCreatorService(GameContext gameContext, AbstractScreen abstractGameScreen) {
+    public DependentQuizQuestionContainerCreatorService(GameContext gameContext, GameScreen abstractGameScreen) {
         super(gameContext, abstractGameScreen);
     }
 

@@ -2,6 +2,7 @@ package libgdx.implementations.skelgame.gameservice;
 
 import libgdx.controls.button.MyButton;
 import libgdx.screen.AbstractScreen;
+import libgdx.screens.implementations.geoquiz.GameScreen;
 
 import java.util.Map;
 
@@ -13,7 +14,7 @@ public class DependentQuizGameCreatorDependencies extends CreatorDependencies {
     }
 
     @Override
-    public QuestionContainerCreatorService getQuestionContainerCreatorService(GameContext gameContext, AbstractScreen screen) {
+    public QuestionContainerCreatorService getQuestionContainerCreatorService(GameContext gameContext, GameScreen screen) {
         return new DependentQuizQuestionContainerCreatorService(gameContext, screen);
     }
 

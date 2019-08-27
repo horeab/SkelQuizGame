@@ -1,5 +1,6 @@
 package libgdx.implementations.skelgame;
 
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.utils.I18NBundle;
 import libgdx.game.Game;
@@ -21,6 +22,8 @@ public enum QuizGameSpecificResource implements SpecificResource {
     btn_long_answer_opt_disabled("buttons/btn_long_answer_opt_disabled.png", Texture.class),
     btn_hint("buttons/btn_hint.png", Texture.class),
     btn_hint_disabled("buttons/btn_hint_disabled.png", Texture.class),
+    sound_fail_game_over("sounds/sound_fail_game_over.mp3", Sound.class),
+    sound_success_game_over("sounds/sound_success_game_over.mp3", Sound.class),
 
     specific_labels("labels/labels", I18NBundle.class),
 
