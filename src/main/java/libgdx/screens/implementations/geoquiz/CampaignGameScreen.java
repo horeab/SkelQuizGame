@@ -23,7 +23,7 @@ public class CampaignGameScreen extends GameScreen {
 
     @Override
     public void onBackKeyPress() {
-        screenManager.showCampaignScreen();
+        screenManager.showMainScreen();
     }
 
     public void executeLevelFinished() {

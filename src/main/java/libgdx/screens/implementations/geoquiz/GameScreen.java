@@ -50,8 +50,8 @@ public abstract class GameScreen extends AbstractScreen<QuizScreenManager> {
 
     public abstract void goToNextQuestionScreen();
 
-    public void showPopupAd() {
-        Game.getInstance().getAppInfoService().showPopupAd();
+    public void showPopupAd(Runnable runnable) {
+        Game.getInstance().getAppInfoService().showPopupAd(runnable);
     }
 
 

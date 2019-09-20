@@ -38,9 +38,15 @@ public class QuestionFinishedOperationsService {
     }
 
     public void executeFinishedQuestionOperations() {
-        processLastFinishedQuestion();
         if (new Random().nextInt(8) == 2) {
-            gameScreen.showPopupAd();
+            gameScreen.showPopupAd(new Runnable() {
+                @Override
+                public void run() {
+                    processLastFinishedQuestion();
+                }
+            });
+        } else {
+            processLastFinishedQuestion();
         }
     }
 

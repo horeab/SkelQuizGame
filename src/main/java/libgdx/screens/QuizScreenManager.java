@@ -11,21 +11,10 @@ public class QuizScreenManager extends AbstractScreenManager {
 
     @Override
     public void showMainScreen() {
-//        showScreen(ScreenTypeEnum.MAIN_MENU_SCREEN);
-//        showCampaignGameScreen(new GameContextService().createGameContext(new QuestionConfig(3)), QuizCampaignLevelEnum.LEVEL_0_0);
-        showCampaignScreen();
-    }
-
-    public void showGameScreen(GameContext gameContext) {
-        showScreen(ScreenTypeEnum.GAME_SCREEN, gameContext);
+        showScreen(ScreenTypeEnum.CAMPAIGN_SCREEN);
     }
 
     public void showCampaignGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         showScreen(ScreenTypeEnum.CAMPAIGN_GAME_SCREEN, gameContext, campaignLevel);
     }
-
-    public void showCampaignScreen() {
-        showScreen(ScreenTypeEnum.CAMPAIGN_SCREEN);
-    }
-
 }

@@ -4,10 +4,10 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
-import libgdx.campaign.QuestionConfig;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.popup.MyPopup;
+import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.gameservice.SinglePlayerLevelFinishedService;
@@ -33,19 +33,18 @@ public class CampaignLevelFinishedPopup extends MyPopup<AbstractScreen, QuizScre
     public void addButtons() {
         if (gameOverSuccess) {
             if (nextCampaignLevel != null) {
-                MyButton nextLevel = new ButtonBuilder().setDefaultButton().setText("Next level").build();
+                MyButton nextLevel = new ButtonBuilder().setDefaultButton().setText(SkelGameLabel.next_level.getText()).build();
                 nextLevel.addListener(new ChangeListener() {
                     @Override
                     public void changed(ChangeEvent event, Actor actor) {
-                        QuestionConfig questionConfig = new CampaignLevelEnumService(nextCampaignLevel).getQuestionConfig();
-                        questionConfig.setA(3);
-                        screenManager.showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), nextCampaignLevel);
+                       hide();
                     }
                 });
+                nextLevel.addListener(GeoQuizCampaignScreen.getStartLevelListener(getScreen(), nextCampaignLevel));
                 addButton(nextLevel);
             }
         } else {
-            MyButton playAgain = new ButtonBuilder().setDefaultButton().setText("Play again").build();
+            MyButton playAgain = new ButtonBuilder().setDefaultButton().setText(SkelGameLabel.play_again.getText()).build();
             playAgain.addListener(new ChangeListener() {
                 @Override
                 public void changed(ChangeEvent event, Actor actor) {
@@ -55,12 +54,12 @@ public class CampaignLevelFinishedPopup extends MyPopup<AbstractScreen, QuizScre
             addButton(playAgain);
         }
 
-        MyButton campaignScreenBtn = new ButtonBuilder().setDefaultButton().setText("Campaign screen").build();
+        MyButton campaignScreenBtn = new ButtonBuilder().setDefaultButton().setText(SkelGameLabel.go_back.getText()).build();
         addButton(campaignScreenBtn);
         campaignScreenBtn.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
-                screenManager.showCampaignScreen();
+                screenManager.showMainScreen();
             }
         });
     }
@@ -70,12 +69,12 @@ public class CampaignLevelFinishedPopup extends MyPopup<AbstractScreen, QuizScre
         String text = "";
         if (gameOverSuccess) {
             if (nextCampaignLevel != null) {
-                text = "Level Finished!";
+                text = SkelGameLabel.level_finished.getText();
             } else {
-                text = "Game Finished";
+                text = SkelGameLabel.game_finished.getText();
             }
         } else {
-            text = "Level Failed. Try again!";
+            text = SkelGameLabel.level_failed.getText();
         }
         return text;
     }

@@ -1,17 +1,23 @@
 package libgdx.screens.implementations.geoquiz;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.NinePatchDrawable;
+import com.badlogic.gdx.utils.Align;
 import libgdx.campaign.*;
+import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ButtonWithIconBuilder;
 import libgdx.controls.label.MyWrappedLabel;
+import libgdx.controls.label.MyWrappedLabelConfig;
+import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.controls.popup.MyPopupManager;
+import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.skelgame.QuizQuestionCategoryEnum;
-import libgdx.implementations.skelgame.QuizQuestionDifficultyLevel;
+import libgdx.implementations.skelgame.*;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.gameservice.QuizStarsService;
 import libgdx.resources.FontManager;
@@ -22,6 +28,7 @@ import libgdx.resources.dimen.Dimen;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
 import libgdx.screens.QuizScreenManager;
+import libgdx.utils.ScreenDimensionsManager;
 
 import java.util.List;
 
@@ -30,6 +37,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
     private CampaignService campaignService = new CampaignService();
     private List<CampaignStoreLevel> allCampaignLevelStores;
     private int TOTAL_STARS = 5;
+    public static int TOTAL_QUESTIONS = 1;
     private float ICON_DIMEN = MainDimen.horizontal_general_margin.getDimen() * 7.5f;
 
     public GeoQuizCampaignScreen() {
@@ -46,8 +54,18 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
 
     private Table createAllTable() {
         Table table = new Table();
+        float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
+        MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setFontScale(FontManager.getBigFontDim())
+                .setText(Game.getInstance().getAppInfoService().getAppName()).build());
+        titleLabel.setBackground(GraphicUtils.getNinePatch(QuizGameSpecificResource.title_backgr));
+        table.add(titleLabel)
+                .width(ScreenDimensionsManager.getScreenWidthValue(90))
+                .height(ScreenDimensionsManager.getScreenHeightValue(15))
+                .padTop(verticalGeneralMarginDimen * 2)
+                .padBottom(verticalGeneralMarginDimen * 4).row();
         for (QuizQuestionDifficultyLevel difficultyLevel : QuizQuestionDifficultyLevel.values()) {
-            table.add(createCategoriesTable(difficultyLevel)).padBottom(MainDimen.vertical_general_margin.getDimen() * 2);
+            table.add(createCategoriesTable(difficultyLevel)).padBottom(verticalGeneralMarginDimen * 2);
             table.row();
         }
         return table;
@@ -73,31 +91,51 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         int maxOpenedLevel = maxFinishedLevel != null ? maxFinishedLevel.getLevel() : -1;
         boolean levelLocked = (maxOpenedLevel + 1) < campaignLevel.getIndex();
         if (levelLocked) {
-            levelIcon = MainResource.crown;
+            levelIcon = MainResource.lock;
         } else if (campaignLevel.getIndex() <= maxOpenedLevel) {
             int starsWon = campaignService.getCampaignLevel(campaignLevel.getIndex(), allCampaignLevelStores).getStarsWon();
             if (starsWon == QuizStarsService.NR_OF_STARS_TO_DISPLAY) {
-                allTable.setBackground(GraphicUtils.getNinePatch(MainResource.sound_on));
+                allTable.setBackground(GraphicUtils.getNinePatch(QuizGameSpecificResource.green_backr));
             } else {
-                allTable.setBackground(GraphicUtils.getNinePatch(MainResource.sound_off));
+                allTable.setBackground(GraphicUtils.getNinePatch(QuizGameSpecificResource.red_backr));
             }
         }
         MyButton myButton = new ButtonWithIconBuilder("", levelIcon).build();
-        myButton.setFillParent(true);
         if (!levelLocked) {
-            myButton.addListener(new ChangeListener() {
-                @Override
-                public void changed(ChangeEvent event, Actor actor) {
-                    screenManager.showCampaignGameScreen(new GameContextService().createGameContext(new CampaignLevelEnumService(campaignLevel).getQuestionConfig()), campaignLevel);
-                }
-            });
+            ChangeListener listener = getStartLevelListener(this, campaignLevel);
+            myButton.addListener(listener);
         } else {
             myButton.setTouchable(Touchable.disabled);
         }
-        allTable.add(myButton).height(ICON_DIMEN).width(ICON_DIMEN);
-        allTable.setHeight(ICON_DIMEN);
-        allTable.setWidth(ICON_DIMEN);
+        if ((maxOpenedLevel + 1) == campaignLevel.getIndex()) {
+            myButton.setTransform(true);
+            new ActorAnimation(myButton, this).animateZoomInZoomOut(0.5f);
+        }
+        myButton.setHeight(ICON_DIMEN);
+        myButton.setWidth(ICON_DIMEN);
+        myButton.setOrigin(Align.center);
+        allTable.add(myButton).padRight(-MainDimen.horizontal_general_margin.getDimen()).height(myButton.getHeight()).width(myButton.getWidth());
+        allTable.setHeight(myButton.getHeight());
+        allTable.setWidth(myButton.getWidth());
         return allTable;
+    }
+
+    public static ChangeListener getStartLevelListener(final AbstractScreen screen, CampaignLevel campaignLevel) {
+        ChangeListener listener = new ChangeListener() {
+            @Override
+            public void changed(ChangeEvent event, Actor actor) {
+                QuizGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(new CampaignLevelEnumService(campaignLevel).getQuestionConfig(GeoQuizCampaignScreen.TOTAL_QUESTIONS)), campaignLevel);
+            }
+        };
+        if (!Game.getInstance().getAppInfoService().isProVersion() && campaignLevel.getIndex() >= QuizCampaignLevelEnum.values().length / 2) {
+            listener = new ChangeListener() {
+                @Override
+                public void changed(ChangeEvent event, Actor actor) {
+                    new QuizProVersionPopup(screen).addToPopupManager();
+                }
+            };
+        }
+        return listener;
     }
 
     private Table createTotalStarsTable() {
@@ -113,7 +151,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
 
     @Override
     public void onBackKeyPress() {
-        screenManager.showMainScreen();
+        Gdx.app.exit();
     }
 
 }
