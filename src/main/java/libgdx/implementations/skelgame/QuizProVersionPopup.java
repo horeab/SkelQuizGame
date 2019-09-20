@@ -1,21 +1,13 @@
 package libgdx.implementations.skelgame;
 
-import com.badlogic.gdx.scenes.scene2d.InputEvent;
-import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-
-import libgdx.controls.button.ButtonBuilder;
-import libgdx.controls.button.MyButton;
-import libgdx.controls.button.builders.ButtonWithIconBuilder;
 import libgdx.controls.popup.ProVersionPopup;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
-import libgdx.resources.FontManager;
+import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.screen.AbstractScreen;
-import libgdx.screen.AbstractScreenManager;
-import libgdx.utils.InternetUtils;
 
 public class QuizProVersionPopup extends ProVersionPopup {
 

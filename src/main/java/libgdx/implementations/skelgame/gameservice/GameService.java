@@ -3,7 +3,7 @@ package libgdx.implementations.skelgame.gameservice;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.skelgame.QuizGame;
+import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.implementations.skelgame.question.GameAnswerInfo;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.implementations.skelgame.question.GameUser;

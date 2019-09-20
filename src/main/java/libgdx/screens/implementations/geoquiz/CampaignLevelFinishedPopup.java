@@ -12,7 +12,6 @@ import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.gameservice.SinglePlayerLevelFinishedService;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.QuizScreenManager;
 
 public class CampaignLevelFinishedPopup extends MyPopup<AbstractScreen, QuizScreenManager> {
 

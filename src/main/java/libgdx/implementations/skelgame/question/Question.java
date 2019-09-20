@@ -2,7 +2,7 @@ package libgdx.implementations.skelgame.question;
 
 import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
-import libgdx.implementations.skelgame.QuizGame;
+import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.implementations.skelgame.gameservice.QuizQuestionCategory;
 import libgdx.utils.EnumUtils;
 

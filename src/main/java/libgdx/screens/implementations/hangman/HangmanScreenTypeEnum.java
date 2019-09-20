@@ -1,17 +1,14 @@
-package libgdx.screens;
+package libgdx.screens.implementations.hangman;
 
 import libgdx.campaign.CampaignLevel;
-import libgdx.campaign.QuestionConfig;
 import libgdx.implementations.skelgame.gameservice.GameContext;
-import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.screen.AbstractScreen;
 import libgdx.screen.ScreenType;
 import libgdx.screens.implementations.geoquiz.CampaignGameScreen;
-import libgdx.screens.implementations.geoquiz.GameScreen;
 import libgdx.screens.implementations.geoquiz.GeoQuizCampaignScreen;
 import libgdx.screens.mainmenu.MainMenuScreen;
 
-public enum ScreenTypeEnum implements ScreenType {
+public enum HangmanScreenTypeEnum implements ScreenType {
 
     MAIN_MENU_SCREEN {
         public AbstractScreen getScreen(Object... params) {
@@ -33,7 +30,7 @@ public enum ScreenTypeEnum implements ScreenType {
 
     CAMPAIGN_GAME_SCREEN {
         public AbstractScreen getScreen(Object... params) {
-            return new CampaignGameScreen((GameContext) params[0], (CampaignLevel) params[1]);
+            return new HangmanGameScreen((GameContext) params[0], (CampaignLevel) params[1]);
         }
     },
 }

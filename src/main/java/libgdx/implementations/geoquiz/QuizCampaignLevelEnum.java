@@ -1,4 +1,4 @@
-package libgdx.implementations.skelgame;
+package libgdx.implementations.geoquiz;
 
 import libgdx.campaign.CampaignLevel;
 

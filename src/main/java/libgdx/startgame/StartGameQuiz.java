@@ -1,12 +1,12 @@
 package libgdx.startgame;
 
 import libgdx.implementations.skelgame.QuizGameIdEnum;
-import libgdx.implementations.skelgame.QuizGame;
+import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.utils.startgame.test.DefaultAppInfoService;
 import libgdx.utils.startgame.test.DefaultBillingService;
 import libgdx.utils.startgame.test.DefaultFacebookService;
 
-public class StartGame {
+public class StartGameQuiz {
 
     public static void main(String[] args) {
         QuizGame game = new QuizGame(

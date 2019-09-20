@@ -1,11 +1,10 @@
-package libgdx.implementations.skelgame;
+package libgdx.implementations.hangman;
 
-import libgdx.campaign.QuestionCategory;
 import libgdx.implementations.skelgame.gameservice.CreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.DependentQuizGameCreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.QuizQuestionCategory;
 
-public enum QuizQuestionCategoryEnum implements QuizQuestionCategory {
+public enum HangmanQuestionCategoryEnum implements QuizQuestionCategory {
 
     cat0(DependentQuizGameCreatorDependencies.class),
     cat1(DependentQuizGameCreatorDependencies.class),
@@ -16,7 +15,7 @@ public enum QuizQuestionCategoryEnum implements QuizQuestionCategory {
 
     private Class<? extends CreatorDependencies> questionCreator;
 
-    QuizQuestionCategoryEnum(Class<? extends CreatorDependencies> questionCreator) {
+    HangmanQuestionCategoryEnum(Class<? extends CreatorDependencies> questionCreator) {
         this.questionCreator = questionCreator;
     }
 

@@ -1,4 +1,4 @@
-package libgdx.implementations.skelgame;
+package libgdx.implementations.geoquiz;
 
 
 import libgdx.campaign.CampaignGame;
@@ -6,8 +6,9 @@ import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
 import libgdx.game.external.BillingService;
 import libgdx.game.external.FacebookService;
+import libgdx.implementations.skelgame.QuizGameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.QuizScreenManager;
+import libgdx.screens.implementations.geoquiz.QuizScreenManager;
 
 public class QuizGame extends CampaignGame<AppInfoService,
         QuizGameMainDependencyManager,

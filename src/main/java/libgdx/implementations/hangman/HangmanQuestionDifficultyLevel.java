@@ -1,8 +1,8 @@
-package libgdx.implementations.skelgame;
+package libgdx.implementations.hangman;
 
 import libgdx.campaign.QuestionDifficulty;
 
-public enum QuizQuestionDifficultyLevel implements QuestionDifficulty {
+public enum HangmanQuestionDifficultyLevel implements QuestionDifficulty {
 
     _0,
     _1,

@@ -1,4 +1,4 @@
-package libgdx.implementations.skelgame;
+package libgdx.implementations.geoquiz;
 
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Texture;
