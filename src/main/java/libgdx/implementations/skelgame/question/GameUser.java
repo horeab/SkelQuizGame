@@ -1,5 +1,6 @@
 package libgdx.implementations.skelgame.question;
 
+import libgdx.implementations.skelgame.gameservice.CreatorDependenciesContainer;
 import libgdx.implementations.skelgame.gameservice.DependentAnswersQuizGameService;
 import libgdx.implementations.skelgame.gameservice.GameService;
 import libgdx.resources.Resource;
@@ -55,7 +56,7 @@ public class GameUser {
     }
 
     private void setQuestionFinishedStatus(GameQuestionInfo gameQuestionInfo) {
-        GameService gameService = new DependentAnswersQuizGameService(gameQuestionInfo.getQuestion());
+        GameService gameService = CreatorDependenciesContainer.getCreator(gameQuestionInfo.getQuestion().getQuestionCategory().getCreatorDependencies()).getGameService(gameQuestionInfo.getQuestion());
         boolean userSuccess = gameService.isGameFinishedSuccessful(gameQuestionInfo.getAnswerIds());
         if (userSuccess) {
 //            playSound(Resource.sound_correct_answer);

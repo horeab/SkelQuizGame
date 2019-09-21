@@ -1,5 +1,6 @@
 package libgdx.implementations.skelgame.question;
 
+import libgdx.campaign.CampaignGame;
 import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.implementations.geoquiz.QuizGame;
@@ -27,11 +28,11 @@ public class Question {
     }
 
     public QuestionDifficulty getQuestionDifficultyLevel() {
-        return (QuestionDifficulty) EnumUtils.getEnumValue(QuizGame.getInstance().getSubGameDependencyManager().getQuestionDifficultyTypeEnum(), y);
+        return (QuestionDifficulty) EnumUtils.getEnumValue(CampaignGame.getInstance().getSubGameDependencyManager().getQuestionDifficultyTypeEnum(), y);
     }
 
     public QuizQuestionCategory getQuestionCategory() {
-        return (QuizQuestionCategory) EnumUtils.getEnumValue(QuizGame.getInstance().getSubGameDependencyManager().getQuestionCategoryTypeEnum(), t);
+        return (QuizQuestionCategory) EnumUtils.getEnumValue(CampaignGame.getInstance().getSubGameDependencyManager().getQuestionCategoryTypeEnum(), t);
     }
 
     public String getQuestionString() {

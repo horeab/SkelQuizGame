@@ -1,0 +1,13 @@
+cozinha
+faca
+guardanapo
+frigorífico
+especiarias
+bule
+termômetro
+espetos
+pinças
+sacos de lixo
+lixeira
+toalha de mesa
+torradeira

@@ -18,7 +18,7 @@ public enum HangmanScreenTypeEnum implements ScreenType {
 
     CAMPAIGN_SCREEN {
         public AbstractScreen getScreen(Object... params) {
-            return new GeoQuizCampaignScreen();
+            return new HangmanCampaignScreen();
         }
     },
 

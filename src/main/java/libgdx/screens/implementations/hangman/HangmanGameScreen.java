@@ -1,5 +1,6 @@
 package libgdx.screens.implementations.hangman;
 
+import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
 import libgdx.implementations.geoquiz.QuizGame;
@@ -21,7 +22,9 @@ public class HangmanGameScreen extends GameScreen {
 
     @Override
     public void buildStage() {
-
+        Table table = new Table();
+        table.setFillParent(true);
+        addActor(table);
     }
 
     public void goToNextQuestionScreen() {

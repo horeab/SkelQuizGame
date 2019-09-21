@@ -1,0 +1,20 @@
+Anserini
+Blaireau
+Sanglier
+Cigogne
+Kangourou
+Anaconda
+Écureuil
+Perroquet
+Hamster
+Hérisson
+Hippopotame
+Scarabée
+Panthère
+Poulpe
+Python
+Babouin
+Furet
+Ours brun
+Pélican
+Corbeau
