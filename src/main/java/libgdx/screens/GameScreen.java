@@ -1,11 +1,12 @@
-package libgdx.screens.implementations.geoquiz;
+package libgdx.screens;
 
 import libgdx.game.Game;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.SinglePlayerLevelFinishedService;
 import libgdx.screen.AbstractScreen;
+import libgdx.screen.AbstractScreenManager;
 
-public abstract class GameScreen extends AbstractScreen<QuizScreenManager> {
+public abstract class GameScreen<TScreenManager extends AbstractScreenManager> extends AbstractScreen<TScreenManager> {
 
     protected GameContext gameContext;
     protected SinglePlayerLevelFinishedService levelFinishedService;

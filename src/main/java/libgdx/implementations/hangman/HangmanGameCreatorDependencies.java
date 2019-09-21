@@ -5,7 +5,7 @@ import libgdx.campaign.QuestionDifficulty;
 import libgdx.controls.button.MyButton;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.geoquiz.GameScreen;
+import libgdx.screens.GameScreen;
 
 import java.util.Map;
 

@@ -1,6 +1,6 @@
 package libgdx.implementations.skelgame.gameservice;
 
-import libgdx.screens.implementations.geoquiz.GameScreen;
+import libgdx.screens.GameScreen;
 
 public class HangmanQuestionContainerCreatorService extends QuizQuestionContainerCreatorService {
 

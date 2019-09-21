@@ -7,7 +7,7 @@ import com.badlogic.gdx.scenes.scene2d.actions.RunnableAction;
 import libgdx.controls.ScreenRunnable;
 import libgdx.implementations.geoquiz.QuizGameSpecificResource;
 import libgdx.implementations.skelgame.question.GameUser;
-import libgdx.screens.implementations.geoquiz.GameScreen;
+import libgdx.screens.GameScreen;
 import libgdx.screens.implementations.geoquiz.HeaderCreator;
 import libgdx.utils.SoundUtils;
 

@@ -19,8 +19,7 @@ import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.FontManager;
 import libgdx.resources.dimen.MainDimen;
-import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.geoquiz.GameScreen;
+import libgdx.screens.GameScreen;
 
 import java.util.ArrayList;
 import java.util.List;

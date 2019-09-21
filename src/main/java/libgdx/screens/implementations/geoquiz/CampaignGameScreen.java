@@ -9,10 +9,11 @@ import libgdx.implementations.skelgame.gameservice.LevelFinishedService;
 import libgdx.implementations.skelgame.gameservice.QuestionContainerCreatorService;
 import libgdx.implementations.skelgame.gameservice.SinglePlayerLevelFinishedService;
 import libgdx.implementations.skelgame.question.GameUser;
+import libgdx.screens.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.model.RGBColor;
 
-public class CampaignGameScreen extends GameScreen {
+public class CampaignGameScreen extends GameScreen<QuizScreenManager> {
 
     private CampaignLevel campaignLevel;
 

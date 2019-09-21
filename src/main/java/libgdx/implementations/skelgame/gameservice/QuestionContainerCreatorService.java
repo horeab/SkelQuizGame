@@ -4,13 +4,10 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.controls.button.ButtonSkin;
 import libgdx.controls.button.MyButton;
-import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
-import libgdx.implementations.skelgame.question.GameUser;
-import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.geoquiz.GameScreen;
+import libgdx.screens.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
 
 import java.util.ArrayList;
