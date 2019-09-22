@@ -1,7 +1,7 @@
 package libgdx.implementations.skelgame.gameservice;
 
 import libgdx.controls.button.MyButton;
-import libgdx.implementations.skelgame.QuizGameButtonSkin;
+import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.screen.AbstractScreen;
 
@@ -21,7 +21,7 @@ public class DependentQuizRefreshQuestionDisplayService extends RefreshQuestionD
     public void gameOverQuestion(GameQuestionInfo gameQuestionInfo) {
         if (gameQuestionInfo != null) {
             for (String answer : gameService.getAnswers()) {
-                allAnswerButtons.get(answer).setButtonSkin(QuizGameButtonSkin.SQUARE_ANSWER_OPTION_CORRECT);
+                allAnswerButtons.get(answer).setButtonSkin(GameButtonSkin.SQUARE_ANSWER_OPTION_CORRECT);
             }
         }
     }

@@ -12,8 +12,8 @@ import libgdx.controls.button.ButtonSize;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
-import libgdx.implementations.skelgame.QuizGameButtonSize;
-import libgdx.implementations.skelgame.QuizGameButtonSkin;
+import libgdx.implementations.skelgame.GameButtonSize;
+import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.question.GameAnswerInfo;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.implementations.skelgame.question.GameUser;
@@ -86,26 +86,26 @@ public abstract class QuizQuestionContainerCreatorService extends QuestionContai
     }
 
     @Override
-    public QuizGameButtonSkin correctAnswerSkin() {
+    public GameButtonSkin correctAnswerSkin() {
         return getCorrectQuizGameButtonSkin(gameService.getAllAnswerOptions());
     }
 
-    public static QuizGameButtonSkin getCorrectQuizGameButtonSkin(List<String> allAnswerOptions) {
-        return GameControlsCreatorService.longAnswerButtons(allAnswerOptions) ? QuizGameButtonSkin.LONG_ANSWER_OPTION_CORRECT : QuizGameButtonSkin.SQUARE_ANSWER_OPTION_CORRECT;
+    public static GameButtonSkin getCorrectQuizGameButtonSkin(List<String> allAnswerOptions) {
+        return GameControlsCreatorService.longAnswerButtons(allAnswerOptions) ? GameButtonSkin.LONG_ANSWER_OPTION_CORRECT : GameButtonSkin.SQUARE_ANSWER_OPTION_CORRECT;
     }
 
     @Override
-    public QuizGameButtonSkin wrongAnswerSkin() {
-        return GameControlsCreatorService.longAnswerButtons(gameService.getAllAnswerOptions()) ? QuizGameButtonSkin.LONG_ANSWER_OPTION_WRONG : QuizGameButtonSkin.SQUARE_ANSWER_OPTION_WRONG;
+    public GameButtonSkin wrongAnswerSkin() {
+        return GameControlsCreatorService.longAnswerButtons(gameService.getAllAnswerOptions()) ? GameButtonSkin.LONG_ANSWER_OPTION_WRONG : GameButtonSkin.SQUARE_ANSWER_OPTION_WRONG;
     }
 
     @Override
     protected MyButton createAnswerButton(final String answer) {
-        ButtonSize buttonSize = QuizGameButtonSize.SQUARE_QUIZ_OPTION_ANSWER;
-        QuizGameButtonSkin buttonSkin = QuizGameButtonSkin.SQUARE_ANSWER_OPTION;
+        ButtonSize buttonSize = GameButtonSize.SQUARE_QUIZ_OPTION_ANSWER;
+        GameButtonSkin buttonSkin = GameButtonSkin.SQUARE_ANSWER_OPTION;
         if (GameControlsCreatorService.longAnswerButtons(gameService.getAllAnswerOptions())) {
-            buttonSize = QuizGameButtonSize.LONG_QUIZ_OPTION_ANSWER;
-            buttonSkin = QuizGameButtonSkin.LONG_ANSWER_OPTION;
+            buttonSize = GameButtonSize.LONG_QUIZ_OPTION_ANSWER;
+            buttonSkin = GameButtonSkin.LONG_ANSWER_OPTION;
         }
         return new ButtonBuilder().setWrappedText(answer, buttonSize.getWidth() / 1.1f).setFixedButtonSize(buttonSize).setButtonSkin(buttonSkin).build();
     }
@@ -134,7 +134,7 @@ public abstract class QuizQuestionContainerCreatorService extends QuestionContai
         refreshQuestionDisplayService.refreshQuestion(gameQuestionInfo);
         int nrOfWrongLettersPressed = gameService.getNrOfWrongAnswersPressed(gameQuestionInfo.getAnswerIds());
         for (final GameAnswerInfo gameAnswerInfo : new ArrayList<>(gameQuestionInfo.getAnswers())) {
-            QuizGameButtonSkin buttonSkin = gameService.isAnswerCorrectInQuestion(gameAnswerInfo.getAnswer()) ? correctAnswerSkin() : wrongAnswerSkin();
+            GameButtonSkin buttonSkin = gameService.isAnswerCorrectInQuestion(gameAnswerInfo.getAnswer()) ? correctAnswerSkin() : wrongAnswerSkin();
             MyButton button = (MyButton) getAllAnswerButtons().get(gameAnswerInfo.getAnswer());
             try {
                 gameControlsService.disableButton(button);

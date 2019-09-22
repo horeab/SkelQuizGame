@@ -4,7 +4,7 @@ import libgdx.game.Game;
 import libgdx.resources.gamelabel.GameLabelUtils;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 
-public enum QuizGameLabel implements libgdx.resources.gamelabel.GameLabel {
+public enum GameLabel implements libgdx.resources.gamelabel.GameLabel {
 
     ;
 

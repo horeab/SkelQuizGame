@@ -6,11 +6,8 @@ import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
 import libgdx.game.external.BillingService;
 import libgdx.game.external.FacebookService;
-import libgdx.implementations.geoquiz.QuizGameDependencyManager;
-import libgdx.implementations.skelgame.QuizGameIdEnum;
-import libgdx.implementations.geoquiz.QuizGameMainDependencyManager;
+import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.geoquiz.QuizScreenManager;
 import libgdx.screens.implementations.hangman.HangmanScreenManager;
 
 public class HangmanGame extends CampaignGame<AppInfoService,
@@ -18,7 +15,7 @@ public class HangmanGame extends CampaignGame<AppInfoService,
         HangmanDependencyManager,
         AbstractScreen,
         HangmanScreenManager,
-        QuizGameIdEnum
+        GameIdEnum
         > {
 
     public HangmanGame(FacebookService facebookService,

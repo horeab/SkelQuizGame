@@ -1,7 +1,7 @@
 package libgdx.startgame;
 
 import libgdx.implementations.hangman.HangmanGame;
-import libgdx.implementations.skelgame.QuizGameIdEnum;
+import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.utils.startgame.test.DefaultAppInfoService;
 import libgdx.utils.startgame.test.DefaultBillingService;
 import libgdx.utils.startgame.test.DefaultFacebookService;
@@ -15,7 +15,7 @@ public class StartGameHangman {
                 new DefaultAppInfoService() {
                     @Override
                     public String getGameIdPrefix() {
-                            return QuizGameIdEnum.hangman.name();
+                            return GameIdEnum.hangman.name();
                     }
 
                     @Override

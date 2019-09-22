@@ -6,7 +6,7 @@ import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
 import libgdx.game.external.BillingService;
 import libgdx.game.external.FacebookService;
-import libgdx.implementations.skelgame.QuizGameIdEnum;
+import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
 import libgdx.screens.implementations.geoquiz.QuizScreenManager;
 
@@ -15,7 +15,7 @@ public class QuizGame extends CampaignGame<AppInfoService,
         QuizGameDependencyManager,
         AbstractScreen,
         QuizScreenManager,
-        QuizGameIdEnum
+        GameIdEnum
         > {
 
     public QuizGame(FacebookService facebookService,

@@ -6,14 +6,14 @@ import libgdx.game.SubGameDependencyManager;
 import libgdx.implementations.geoquiz.QuizGameDependencyManager;
 import libgdx.implementations.hangman.HangmanDependencyManager;
 
-public enum QuizGameIdEnum implements GameId {
+public enum GameIdEnum implements GameId {
 
     quizgame(QuizGameDependencyManager.class),
     hangman(HangmanDependencyManager.class),;
 
     private Class<? extends SubGameDependencyManager> dependencyManagerClass;
 
-    QuizGameIdEnum(Class<? extends CampaignGameDependencyManager> dependencyManagerClass) {
+    GameIdEnum(Class<? extends CampaignGameDependencyManager> dependencyManagerClass) {
         this.dependencyManagerClass = dependencyManagerClass;
     }
 

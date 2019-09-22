@@ -4,12 +4,12 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.controls.ScreenRunnable;
 import libgdx.controls.button.MyButton;
-import libgdx.implementations.skelgame.QuizGameButtonSkin;
+import libgdx.implementations.hangman.HangmanLabel;
+import libgdx.implementations.skelgame.GameDimen;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.resources.FontManager;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.hangman.HangmanScreenCreator;
 import libgdx.utils.ActorPositionManager;
 import libgdx.utils.ScreenDimensionsManager;
 import org.apache.commons.lang3.StringUtils;
@@ -43,7 +43,7 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
         Table lettersTable = getLettersTableFromStage();
         lettersTable.reset();
         lettersTable.setName(ACTOR_NAME_HANGMAN_WORD_TABLE);
-        float standardWidth = Dimen.width_hangman_letter.getDimen();
+        float standardWidth = GameDimen.width_hangman_letter.getDimen();
         float calculatedWidth = calculateLetterLabelWidth(standardWidth, currentWordState);
         float fontScale = getFontScale(standardWidth, calculatedWidth);
         for (int i = 0; i < currentWordState.length(); i++) {
@@ -97,7 +97,7 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
             return abstractGameScreen.getRoot().findActor(ACTOR_NAME_HANGMAN_WORD_TABLE);
         }
         hangmanWordTable = new Table();
-        float yPosition = Dimen.height_hangman_button.getDimen() * (HangmanScreenCreator.nrOfAnswerRows() + 1) + MainDimen.vertical_general_margin.getDimen() * 2;
+        float yPosition = GameDimen.height_hangman_button.getDimen() * (HangmanQuestionContainerCreatorService.nrOfAnswerRows() + 1) + MainDimen.vertical_general_margin.getDimen() * 2;
         hangmanWordTable.setPosition(0, yPosition);
         ActorPositionManager.setActorCenterHorizontalOnScreen(hangmanWordTable);
         abstractGameScreen.addActor(hangmanWordTable);

@@ -34,7 +34,7 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
         this.abstractGameScreen = abstractGameScreen;
         this.gameContext = gameContext;
         this.allAnswerButtons = createAnswerOptionsButtons(gameService.getAllAnswerOptions());
-        this.hintButtons = createHintButtons(abstractGameScreen);
+//        this.hintButtons = createHintButtons(abstractGameScreen);
         this.refreshQuestionDisplayService = gameContext.getCurrentUserCreatorDependencies().getRefreshQuestionDisplayService(abstractGameScreen, gameContext, getAllAnswerButtons());
         this.gameControlsService = new GameControlsService(allAnswerButtons, hintButtons);
     }

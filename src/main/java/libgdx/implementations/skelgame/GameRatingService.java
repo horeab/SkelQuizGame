@@ -4,10 +4,10 @@ import libgdx.controls.popup.RatingPopup;
 import libgdx.controls.popup.RatingService;
 import libgdx.screen.AbstractScreen;
 
-public class QuizGameRatingService extends RatingService {
+public class GameRatingService extends RatingService {
 
 
-    public QuizGameRatingService(AbstractScreen abstractScreen) {
+    public GameRatingService(AbstractScreen abstractScreen) {
         super(abstractScreen);
     }
 
