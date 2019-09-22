@@ -22,6 +22,10 @@ public class SinglePlayerLevelFinishedService extends LevelFinishedService {
         return gameUser.getWonQuestions() >= correctAnsweredQuestionsForGameSuccess(gameUser.getTotalNrOfQuestions());
     }
 
+    public boolean isGameFailed(GameUser gameUser) {
+        return (gameUser.getTotalNrOfQuestions() - gameUser.getLostQuestions()) < correctAnsweredQuestionsForGameSuccess(gameUser.getTotalNrOfQuestions());
+    }
+
     @Override
     public boolean isGameFinished(GameContext gameContext) {
         GameUser gameUser = gameContext.getCurrentUserGameUser();

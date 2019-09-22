@@ -24,6 +24,10 @@ public class HangmanQuestionContainerCreatorService extends QuestionContainerCre
         return new GameControlsCreatorService().createSquareAnswerOptionsTable(getNrOfAnswersOnRow(), getNrOfAnswerRows(), new ArrayList<>(getAllAnswerButtons().values()));
     }
 
+    public void refreshWord(){
+        refreshQuestionDisplayService.refreshQuestion(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
+    }
+
     protected MyButton createAnswerButton(final String answer) {
 //        no Uppercase for ß, if uppercase its displayed ass SS
         return new ButtonBuilder(answer)
