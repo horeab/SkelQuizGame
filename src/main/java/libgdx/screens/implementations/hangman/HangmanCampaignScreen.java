@@ -45,11 +45,14 @@ public class HangmanCampaignScreen extends AbstractScreen<QuizScreenManager> {
             if (i > 0 && i % 2 == 0) {
                 table.row();
             }
-            final int maxLevelFinished = campaignService.getMaxFinishedLevel(allCampaignLevelStores).getLevel();
+            final int maxLevelFinished = allCampaignLevelStores.size() - 1;
             final int finalIndex = i;
-            MyButton categBtn = new ButtonBuilder().setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(HangmanQuestionCategoryEnum.values()[i].getIndex())).setButtonSkin(getButtonSkin(maxLevelFinished)).build();
-            if (maxLevelFinished > i) {
-                categBtn.setDisabled(true);
+            HangmanQuestionCategoryEnum categoryEnum = HangmanQuestionCategoryEnum.values()[i];
+            MyButton categBtn = new ButtonBuilder().setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(categoryEnum.getIndex())).setButtonSkin(getButtonSkin(maxLevelFinished)).build();
+            for (CampaignStoreLevel level : allCampaignLevelStores) {
+                if (CampaignLevelEnumService.getCategory(level.getName()) == categoryEnum.getIndex()) {
+                    categBtn.setDisabled(true);
+                }
             }
             categBtn.addListener(new ChangeListener() {
                 @Override

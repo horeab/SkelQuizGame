@@ -11,13 +11,18 @@ public abstract class RefreshQuestionDisplayService<TGameService extends GameSer
 
     protected TGameService gameService;
     protected AbstractScreen abstractGameScreen;
+    protected GameUser currentUserGameUser;
     protected Map<String, MyButton> allAnswerButtons;
 
     public RefreshQuestionDisplayService(AbstractScreen abstractScreen, GameContext gameContext, Map<String, MyButton> allAnswerButtons) {
-        GameUser currentUserGameUser = gameContext.getCurrentUserGameUser();
+        currentUserGameUser = gameContext.getCurrentUserGameUser();
         gameService = (TGameService) gameContext.getCurrentUserCreatorDependencies().getGameService(currentUserGameUser.getGameQuestionInfo().getQuestion());
         this.abstractGameScreen = abstractScreen;
         this.allAnswerButtons = allAnswerButtons;
+    }
+
+    public GameUser getCurrentUserGameUser() {
+        return currentUserGameUser;
     }
 
     public AbstractScreen getAbstractGameScreen() {

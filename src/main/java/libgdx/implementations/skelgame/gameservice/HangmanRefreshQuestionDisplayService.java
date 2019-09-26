@@ -1,16 +1,18 @@
 package libgdx.implementations.skelgame.gameservice;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.controls.ScreenRunnable;
 import libgdx.controls.button.MyButton;
+import libgdx.game.Game;
+import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.hangman.HangmanLabel;
 import libgdx.implementations.skelgame.GameDimen;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.resources.FontManager;
-import libgdx.resources.dimen.MainDimen;
+import libgdx.resources.Res;
 import libgdx.screen.AbstractScreen;
-import libgdx.utils.ActorPositionManager;
 import libgdx.utils.ScreenDimensionsManager;
 import org.apache.commons.lang3.StringUtils;
 
@@ -22,6 +24,7 @@ import java.util.Set;
 public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplayService<HangmanGameService> {
 
     public static final String ACTOR_NAME_HANGMAN_WORD_TABLE = "actor_name_hangman_word_table";
+    public static final String ACTOR_NAME_HANGMAN_IMAGE = "actorNameHangmanImage";
 
     public HangmanRefreshQuestionDisplayService(AbstractScreen screen, GameContext gameContext, Map<String, MyButton> allAnswerButtons) {
         super(screen, gameContext, allAnswerButtons);
@@ -32,6 +35,7 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
         try {
             String hangmanWord = gameService.getHangmanWord(gameQuestionInfo.getQuestion().getQuestionString());
             createHangmanWord(hangmanWord, gameQuestionInfo.getAnswerIds(), new HashSet<String>());
+            refreshHangManImg(gameService.getNrOfWrongAnswersPressed(gameQuestionInfo.getAnswerIds()));
         } catch (Exception e) {
             int i = 0;
         }
@@ -80,6 +84,17 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
                 }
             }).start();
         }
+    }
+
+    private void refreshHangManImg(int nrOfWrongLettersPressed) {
+        Res imgName = Game.getInstance().getMainDependencyManager().createResourceService().getByName("h" + nrOfWrongLettersPressed);
+        Image image = GraphicUtils.getImage(imgName);
+        float hangmanImageDimen = GameDimen.side_hangman_image.getDimen() / 1;
+        image.setHeight(image.getHeight() / Float.valueOf(image.getWidth()) * hangmanImageDimen);
+        image.setWidth(hangmanImageDimen);
+        Table table = (Table) abstractGameScreen.getRoot().findActor(ACTOR_NAME_HANGMAN_IMAGE);
+        table.clearChildren();
+        table.add(image);
     }
 
     private float calculateLetterLabelWidth(float standardWidth, String hangmanWord) {

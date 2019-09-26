@@ -2,11 +2,13 @@ package libgdx.screens.implementations.hangman;
 
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import libgdx.campaign.CampaignGame;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.implementations.geoquiz.QuizGame;
+import libgdx.implementations.hangman.HangmanGame;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.dimen.MainDimen;
@@ -39,7 +41,10 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
         allTable.add(new HangmanHeaderCreator().createHeaderTable(gameContext)).row();
         Table wordTable = new Table();
         wordTable.setName(HangmanRefreshQuestionDisplayService.ACTOR_NAME_HANGMAN_WORD_TABLE);
-        allTable.add(wordTable).growY().row();
+        Table image = new Table();
+        image.setName(HangmanRefreshQuestionDisplayService.ACTOR_NAME_HANGMAN_IMAGE);
+        allTable.add(wordTable).row();
+        allTable.add(image).growY().row();
         allTable.add(new HangmanQuestionContainerCreatorService(gameContext, this).createSquareAnswerOptionsTable(new ArrayList<>(hangmanQuestionContainerCreatorService.getAllAnswerButtons().values())));
         addActor(allTable);
         hangmanQuestionContainerCreatorService.processGameInfo(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
@@ -70,8 +75,8 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
         SinglePlayerLevelFinishedService levelFinishedService = new SinglePlayerLevelFinishedService();
         GameUser gameUser = gameContext.getCurrentUserGameUser();
         if (levelFinishedService.isGameWon(gameUser)) {
-            new CampaignService().levelFinished(QuizGame.getInstance().getDependencyManager().getStarsService().getStarsWon(LevelFinishedService.getPercentageOfWonQuestions(gameUser)), campaignLevel);
+            new CampaignService().levelFinished(HangmanGame.getInstance().getDependencyManager().getStarsService().getStarsWon(LevelFinishedService.getPercentageOfWonQuestions(gameUser)), campaignLevel);
         }
-        new CampaignLevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
+        screenManager.showMainScreen();
     }
 }
