@@ -11,7 +11,7 @@ public class HangmanLabel extends Table {
 
     public HangmanLabel(String text) {
         super();
-        label=new MyWrappedLabel(text);
+        label = new MyWrappedLabel(text);
         add(label);
     }
 
@@ -21,6 +21,10 @@ public class HangmanLabel extends Table {
 
     public void setRedColor() {
         label.setTextColor(FontColor.RED);
+    }
+
+    public void setGreenColor() {
+        label.setTextColor(FontColor.GREEN);
     }
 
 }

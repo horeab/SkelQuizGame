@@ -49,6 +49,7 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
         float standardWidth = GameDimen.width_hangman_letter.getDimen();
         float calculatedWidth = calculateLetterLabelWidth(standardWidth, currentWordState);
         float fontScale = getFontScale(standardWidth, calculatedWidth);
+        Set<String> wordLetters = gameService.getWordLetters(hangmanWord);
         for (int i = 0; i < currentWordState.length(); i++) {
             String letter = Character.toString(currentWordState.charAt(i));
             HangmanLabel letterLabel = new HangmanLabel(letter);
@@ -56,6 +57,9 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
             letterLabel.setFontScale(fontScale);
             if (redLetters.contains(letter.toLowerCase())) {
                 letterLabel.setRedColor();
+            }
+            if (pressedLetters.containsAll(wordLetters) && redLetters.size() == 0) {
+                letterLabel.setGreenColor();
             }
         }
     }

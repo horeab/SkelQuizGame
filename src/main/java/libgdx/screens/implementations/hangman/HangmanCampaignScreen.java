@@ -9,6 +9,7 @@ import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.ButtonSkin;
 import libgdx.controls.button.MainButtonSkin;
 import libgdx.controls.button.MyButton;
+import libgdx.controls.label.MyWrappedLabel;
 import libgdx.implementations.hangman.HangmanCampaignLevelEnum;
 import libgdx.implementations.hangman.HangmanGame;
 import libgdx.implementations.hangman.HangmanQuestionCategoryEnum;
@@ -28,7 +29,7 @@ public class HangmanCampaignScreen extends AbstractScreen<QuizScreenManager> {
     private List<CampaignStoreLevel> allCampaignLevelStores;
 
     public HangmanCampaignScreen() {
-        allCampaignLevelStores = campaignService.processAndGetAllLevels();
+        allCampaignLevelStores = campaignService.getFinishedCampaignLevels();
     }
 
     @Override
@@ -41,17 +42,20 @@ public class HangmanCampaignScreen extends AbstractScreen<QuizScreenManager> {
 
     private Table createAllTable() {
         Table table = new Table();
-        for (int i = 0; i < 6; i++) {
+        int totalCat = HangmanQuestionCategoryEnum.values().length;
+        for (int i = 0; i < totalCat; i++) {
             if (i > 0 && i % 2 == 0) {
                 table.row();
             }
             final int maxLevelFinished = allCampaignLevelStores.size() - 1;
             final int finalIndex = i;
             HangmanQuestionCategoryEnum categoryEnum = HangmanQuestionCategoryEnum.values()[i];
+            int starsWon = -1;
             MyButton categBtn = new ButtonBuilder().setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(categoryEnum.getIndex())).setButtonSkin(getButtonSkin(maxLevelFinished)).build();
             for (CampaignStoreLevel level : allCampaignLevelStores) {
                 if (CampaignLevelEnumService.getCategory(level.getName()) == categoryEnum.getIndex()) {
                     categBtn.setDisabled(true);
+                    starsWon = level.getStarsWon();
                 }
             }
             categBtn.addListener(new ChangeListener() {
@@ -61,10 +65,22 @@ public class HangmanCampaignScreen extends AbstractScreen<QuizScreenManager> {
                     HangmanGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(new CampaignLevelEnumService(campaignLevel).getQuestionConfig(GeoQuizCampaignScreen.TOTAL_QUESTIONS)), campaignLevel);
                 }
             });
-            table.add(categBtn)
+            Table btnTable = new Table();
+            if (starsWon != -1) {
+                btnTable.add(new MyWrappedLabel(starsWon + "")).row();
+            } else {
+                btnTable.add().row();
+            }
+            btnTable.add(categBtn)
+                    .height(ScreenDimensionsManager.getScreenHeightValue(30))
+                    .width(ScreenDimensionsManager.getScreenWidthValue(45));
+            table.add(btnTable)
                     .pad(MainDimen.horizontal_general_margin.getDimen())
                     .height(ScreenDimensionsManager.getScreenHeightValue(30))
                     .width(ScreenDimensionsManager.getScreenWidthValue(45));
+        }
+        if (allCampaignLevelStores.size() == totalCat) {
+            new HangmanLevelFinishedPopup(this, true).addToPopupManager();
         }
         return table;
     }

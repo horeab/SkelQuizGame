@@ -77,6 +77,10 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
         if (levelFinishedService.isGameWon(gameUser)) {
             new CampaignService().levelFinished(HangmanGame.getInstance().getDependencyManager().getStarsService().getStarsWon(LevelFinishedService.getPercentageOfWonQuestions(gameUser)), campaignLevel);
         }
-        screenManager.showMainScreen();
+        if (new SinglePlayerLevelFinishedService().isGameFailed(gameContext.getCurrentUserGameUser())) {
+            new HangmanLevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
+        }else {
+            screenManager.showMainScreen();
+        }
     }
 }
