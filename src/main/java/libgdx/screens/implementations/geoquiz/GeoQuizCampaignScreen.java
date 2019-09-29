@@ -6,6 +6,7 @@ import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.utils.Align;
+
 import libgdx.campaign.*;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
@@ -24,6 +25,7 @@ import libgdx.resources.Res;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
 import libgdx.utils.ScreenDimensionsManager;
+import libgdx.utils.model.FontColor;
 
 import java.util.List;
 
@@ -51,7 +53,8 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         Table table = new Table();
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
         MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
-                .setFontScale(FontManager.getBigFontDim())
+                .setTextColor(FontColor.BLACK)
+                .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.7f))
                 .setText(Game.getInstance().getAppInfoService().getAppName()).build());
         titleLabel.setBackground(GraphicUtils.getNinePatch(QuizGameSpecificResource.title_backgr));
         table.add(titleLabel)
