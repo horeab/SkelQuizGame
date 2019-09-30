@@ -2,10 +2,13 @@ package libgdx.screens.implementations.geoquiz;
 
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.geoquiz.QuizGameSpecificResource;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.MainResource;
+import libgdx.resources.Res;
+import libgdx.resources.Resource;
 import libgdx.resources.dimen.MainDimen;
 
 public class HeaderCreator {
@@ -34,12 +37,12 @@ public class HeaderCreator {
         return table;
     }
 
-    private MainResource getQuestionTableBackgr(int qNr, GameUser gameUser) {
-        MainResource background = MainResource.popup_background;
+    private Res getQuestionTableBackgr(int qNr, GameUser gameUser) {
+        Res background = MainResource.popup_background;
         if (gameUser.getGameQuestionInfo(qNr).getStatus() == GameQuestionInfoStatus.WON) {
-            background = MainResource.btn_lowcolor_up;
+            background = QuizGameSpecificResource.green_backr;
         } else if (gameUser.getGameQuestionInfo(qNr).getStatus() == GameQuestionInfoStatus.LOST) {
-            background = MainResource.btn_lowcolor_down;
+            background = QuizGameSpecificResource.red_backr;
         }
         return background;
     }

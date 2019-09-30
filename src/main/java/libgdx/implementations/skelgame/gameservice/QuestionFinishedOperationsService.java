@@ -4,8 +4,10 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.actions.RunnableAction;
+
 import libgdx.controls.ScreenRunnable;
 import libgdx.implementations.geoquiz.QuizGameSpecificResource;
+import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.screens.GameScreen;
 import libgdx.screens.implementations.geoquiz.HeaderCreator;
@@ -74,7 +76,7 @@ public class QuestionFinishedOperationsService {
         if (levelFinishedService.isGameFinished(gameContext)) {
             executeGameFinishedOperations();
         }
-        if (currentUserGameUser.getWonQuestions() == LevelFinishedService.correctAnsweredQuestionsForGameSuccess(currentUserGameUser.getTotalNrOfQuestions())) {
+        if (currentUserGameUser.getGameQuestionInfo(currentUserGameUser.getFinishedQuestions() - 1).getStatus() == GameQuestionInfoStatus.WON && currentUserGameUser.getWonQuestions() == LevelFinishedService.correctAnsweredQuestionsForGameSuccess(currentUserGameUser.getTotalNrOfQuestions())) {
             SoundUtils.playSound(QuizGameSpecificResource.sound_success_game_over);
         }
         gameScreen.goToNextQuestionScreen();

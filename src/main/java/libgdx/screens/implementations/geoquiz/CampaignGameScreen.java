@@ -1,21 +1,25 @@
 package libgdx.screens.implementations.geoquiz;
 
+import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
 import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.implementations.skelgame.gameservice.GameContext;
+import libgdx.implementations.skelgame.gameservice.HangmanQuestionContainerCreatorService;
 import libgdx.implementations.skelgame.gameservice.LevelFinishedService;
 import libgdx.implementations.skelgame.gameservice.QuestionContainerCreatorService;
 import libgdx.implementations.skelgame.gameservice.SinglePlayerLevelFinishedService;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.screens.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
+import libgdx.utils.Utils;
 import libgdx.utils.model.RGBColor;
 
 public class CampaignGameScreen extends GameScreen<QuizScreenManager> {
 
     private CampaignLevel campaignLevel;
+    private Table allTable;
 
     public CampaignGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         super(gameContext);
@@ -24,7 +28,11 @@ public class CampaignGameScreen extends GameScreen<QuizScreenManager> {
 
     @Override
     public void buildStage() {
-        Table allTable = new Table();
+        createAllTable();
+    }
+
+    private void createAllTable() {
+        allTable = new Table();
         QuestionContainerCreatorService questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
@@ -40,7 +48,13 @@ public class CampaignGameScreen extends GameScreen<QuizScreenManager> {
     }
 
     public void goToNextQuestionScreen() {
-        screenManager.showCampaignGameScreen(gameContext, campaignLevel);
+        allTable.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRunnableAction(new Runnable() {
+            @Override
+            public void run() {
+                allTable.remove();
+                createAllTable();
+            }
+        })));
     }
 
     @Override
