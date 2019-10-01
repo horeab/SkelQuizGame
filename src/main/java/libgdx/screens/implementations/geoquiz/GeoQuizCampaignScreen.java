@@ -25,6 +25,7 @@ import libgdx.resources.Res;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
 import libgdx.utils.ScreenDimensionsManager;
+import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
 
 import java.util.List;
@@ -38,6 +39,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
     private float ICON_DIMEN = MainDimen.horizontal_general_margin.getDimen() * 7.5f;
 
     public GeoQuizCampaignScreen() {
+        new SkelGameRatingService(this).appLaunched();
         allCampaignLevelStores = campaignService.processAndGetAllLevels();
     }
 
@@ -145,6 +147,12 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         myLabel.padRight(MainDimen.vertical_general_margin.getDimen());
         table.add(myLabel);
         return table;
+    }
+
+    @Override
+    public void render(float delta) {
+        super.render(delta);
+        Utils.createChangeLangPopup();
     }
 
     @Override

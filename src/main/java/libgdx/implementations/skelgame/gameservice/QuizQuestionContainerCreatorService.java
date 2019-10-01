@@ -1,30 +1,25 @@
 package libgdx.implementations.skelgame.gameservice;
 
-import com.badlogic.gdx.scenes.scene2d.InputEvent;
-import com.badlogic.gdx.scenes.scene2d.actions.Actions;
-import com.badlogic.gdx.scenes.scene2d.actions.RunnableAction;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
-import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import libgdx.controls.ScreenRunnable;
+
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.ButtonSize;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.implementations.geoquiz.QuizQuestionCategoryEnum;
 import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.GameButtonSkin;
-import libgdx.implementations.skelgame.question.GameAnswerInfo;
-import libgdx.implementations.skelgame.question.GameQuestionInfo;
-import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.FontManager;
 import libgdx.resources.dimen.MainDimen;
+import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screens.GameScreen;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 public abstract class QuizQuestionContainerCreatorService extends QuestionContainerCreatorService<QuizGameService> {
 
@@ -37,6 +32,9 @@ public abstract class QuizQuestionContainerCreatorService extends QuestionContai
         Table questionTable = super.createQuestionTable();
         Image questionImage = gameService.getQuestionImage();
         String questionToBeDisplayed = gameService.getQuestionToBeDisplayed();
+        if (StringUtils.isBlank(questionToBeDisplayed)){
+            questionToBeDisplayed = SpecificPropertiesUtils.getQuestionCategoryLabel(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getQuestion().getQuestionCategory().getIndex());
+        }
         MyWrappedLabelConfigBuilder myWrappedLabelConfigBuilder = new MyWrappedLabelConfigBuilder().setText(questionToBeDisplayed);
         if (questionImage == null) {
             myWrappedLabelConfigBuilder.setFontScale(FontManager.calculateMultiplierStandardFontSize(1.2f));
