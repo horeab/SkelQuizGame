@@ -25,8 +25,6 @@ public enum QuizGameSpecificResource implements SpecificResource {
     green_backr("green_backr.png", Texture.class),
     title_backgr("title_backgr.png", Texture.class),
     red_backr("red_backgr.png", Texture.class),
-    sound_fail_game_over("sounds/sound_fail_game_over.mp3", Sound.class),
-    sound_success_game_over("sounds/sound_success_game_over.mp3", Sound.class),
 
     specific_labels("labels/labels", I18NBundle.class),
 
