@@ -42,63 +42,63 @@ public class StartGameQuiz {
     public static String getTitle() {
         switch (Language.valueOf(Game.getInstance().getAppInfoService().getLanguage())) {
             case cs:
-                return "xxx";
+                return "Světová geografie";
             case da:
-                return "xxx";
+                return "Verdensgeografi";
             case de:
-                return "xxx";
+                return "Weltgeografie";
             case el:
-                return "xxx";
+                return "Παγκόσμια γεωγραφία";
             case en:
-                return "xxx";
+                return "World Geography";
             case es:
-                return "xxx";
+                return "Geografia mundial";
             case fi:
-                return "xxx";
+                return "Maailman maantiede";
             case fr:
-                return "xxx";
+                return "Géographie du monde";
             case hi:
-                return "xxx";
+                return "विश्व का भूगोल";
             case hr:
-                return "xxx";
+                return "Svjetska geografija";
             case hu:
-                return "xxx";
+                return "Világföldrajz";
             case id:
-                return "xxx";
+                return "Geografi dunia";
             case it:
-                return "xxx";
+                return "Geografia mondiale";
             case ja:
-                return "xxx";
+                return "世界の地理";
             case ko:
-                return "xxx";
+                return "세계 지리";
             case ms:
-                return "xxx";
+                return "Geografi Dunia";
             case nl:
-                return "xxx";
+                return "Wereld Aardrijkskunde";
             case no:
-                return "xxx";
+                return "Verdensgeografi";
             case pl:
-                return "xxx";
+                return "Geografia świata";
             case pt:
-                return "xxx";
+                return "Geografia mundial";
             case ro:
-                return "xxx";
+                return "Geografia lumii";
             case ru:
-                return "xxx";
+                return "Мировая география";
             case sk:
-                return "xxx";
+                return "Svetová geografia";
             case sv:
-                return "xxx";
+                return "Världsgeografi";
             case th:
-                return "xxx";
+                return "ภูมิศาสตร์โลก";
             case tr:
-                return "xxx";
+                return "Dünya coğrafyası";
             case uk:
-                return "xxx";
+                return "Світова географія";
             case vi:
-                return "xxx";
+                return "Địa lý thế giới";
             case zh:
-                return "xxx";
+                return "世界地理";
         }
         return null;
     }
