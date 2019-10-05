@@ -1,13 +1,13 @@
-27:Thủ đô của Phần Lan là gì ?:Helsinki:28,25,20:27
-28:Thủ đô của Morocco là gì? Rabat:35,31,29:28
-29:Thủ đô của Iran là gì ?:Tehran:30,21,22:29
-30:Thủ đô của Serbia là gì ?:Belgrade:25,29,26:30
-31:Thủ đô của Na Uy là gì ?:Oslo:29,32,26:31
-32:Thủ đô của Belarus là gì? Minsk:28,38,37:32
-33:Thủ đô của Thụy Điển là gì ?:Stockholm:41,40,28:33
-34:Thủ đô của Hàn Quốc là gì ?:Seoul:42,38,37:34
-35:Thủ đô của Ukraine là gì ?:Kiev:40,36,38:35
-36:Thủ đô của Hungary là gì ?:Budapest:43,28,41:36
-37:Thủ đô của Algeria là gì ?:Algiers:29,34,42:37
-38:Thủ đô của Nam Phi là gì ?:Cape Town:43,37,41:38
-39:Thủ đô của Iceland là gì ?:Reykjavik:35,33,47:39
+27:Thủ đô của Phần Lan là gì?:Helsinki:28,25,20:27
+28:Thủ đô của Morocco là gì?:Rabat:35,31,29:28
+29:Thủ đô của Iran là gì?:Tehran:30,21,22:29
+30:Thủ đô của Serbia là gì?:Belgrade:25,29,26:30
+31:Thủ đô của Na Uy là gì?:Oslo:29,32,26:31
+32:Thủ đô của Belarus là gì?:Minsk:28,38,37:32
+33:Thủ đô của Thụy Điển là gì?:Stockholm:41,40,28:33
+34:Thủ đô của Hàn Quốc là gì?:Seoul:42,38,37:34
+35:Thủ đô của Ukraine là gì?:Kiev:40,36,38:35
+36:Thủ đô của Hungary là gì?:Budapest:43,28,41:36
+37:Thủ đô của Algeria là gì?:Algiers:29,34,42:37
+38:Thủ đô của Nam Phi là gì?:Cape Town:43,37,41:38
+39:Thủ đô của Iceland là gì?:Reykjavik:35,33,47:39

@@ -3,7 +3,7 @@
 42:Čo je hlavné mesto Slovenska?:Bratislava:36,38,35:42
 43:Aké je hlavné mesto Slovinska?:Ľubľana:37,38,41:43
 44:Čo je hlavné mesto Poľska?:Varšava:42,38,45:44
-45:Aké je hlavné mesto Tuniska:Tunis:44,43,49:45
+45:Aké je hlavné mesto Tuniska?:Tunis:44,43,49:45
 46:Čo je hlavné mesto Argentíny?:Buenos Aires:42,39,47:46
 47:Čo je hlavné mesto Vietnamu?:Hanoj:45,42,49:47
 48:Čo je hlavné mesto Gruzínska?:Tbilisi:41,49,40:48

@@ -7,7 +7,7 @@
 6:Hva er Frankrikes hovedstad?:Paris:4,3,9:6
 7:Hva er Tysklands hovedstad?:Berlin:5,11,6:7
 8:Hva er hovedstaden i Italia?:Roma:6,0,13:8
-9:Hva er hovedstaden i Mexico ?:Mexico by:16,4,14:9
+9:Hva er hovedstaden i Mexico?:Mexico by:16,4,14:9
 10:Hva er hovedstaden i Russland?:Moskva:16,17,14:10
 11:Hva er Spanias hovedstad?:Madrid:18,3,14:11
 12:Hva er hovedstaden i Japan?:Tokyo:4,18,9:12

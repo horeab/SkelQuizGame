@@ -1,4 +1,4 @@
-0:Što je glavni grad Austrije? Beč:7,8,4:0
+0:Što je glavni grad Austrije?:Beč:7,8,4:0
 1:Što je glavni grad Belgije?:Bruxelles:5,6,0:1
 2:Što je glavni grad Brazila?:Brasilia:7,9,1:2
 3:Što je glavni grad Kanade?:Ottawa:0,1,7:3

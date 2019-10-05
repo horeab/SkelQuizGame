@@ -9,5 +9,5 @@
 35:Aké je hlavné mesto Ukrajiny?:Kyjev:40,36,38:35
 36:Aké je hlavné mesto Maďarska?:Budapešť:43,28,41:36
 37:Čo je hlavným mestom Alžírska?:Alžír:29,34,42:37
-38:Aké je hlavné mesto Juhoafrickej republiky:Kapské Mesto:43,37,41:38
+38:Aké je hlavné mesto Juhoafrickej republiky?:Kapské Mesto:43,37,41:38
 39:Aké je hlavné mesto Islandu?:Reykjavík:35,33,47:39

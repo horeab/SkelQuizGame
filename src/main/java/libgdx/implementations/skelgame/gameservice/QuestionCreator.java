@@ -1,15 +1,16 @@
 package libgdx.implementations.skelgame.gameservice;
 
-import libgdx.campaign.QuestionCategory;
-import libgdx.campaign.QuestionConfigFileHandler;
-import libgdx.campaign.QuestionDifficulty;
-import libgdx.implementations.skelgame.question.Question;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
+
+import libgdx.campaign.QuestionCategory;
+import libgdx.campaign.QuestionConfigFileHandler;
+import libgdx.campaign.QuestionDifficulty;
+import libgdx.implementations.skelgame.question.Question;
 
 public class QuestionCreator {
 
@@ -20,6 +21,10 @@ public class QuestionCreator {
     public QuestionCreator(QuestionDifficulty questionDifficulty, QuestionCategory questionCategory) {
         this.questionDifficulty = questionDifficulty;
         this.questionCategory = questionCategory;
+        this.configFileHandler = getConfigFileHandler();
+    }
+
+    public QuestionCreator() {
         this.configFileHandler = getConfigFileHandler();
     }
 
