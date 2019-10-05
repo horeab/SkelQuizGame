@@ -41,7 +41,7 @@ public class QuestionFinishedOperationsService {
     }
 
     public void executeFinishedQuestionOperations() {
-        if (new Random().nextInt(8) == 2) {
+        if (gameContext.getQuestionConfig().getAmountOfQuestions() == gameContext.getCurrentUserGameUser().getFinishedQuestions()) {
             gameScreen.showPopupAd(new Runnable() {
                 @Override
                 public void run() {

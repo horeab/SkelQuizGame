@@ -1,5 +1,6 @@
 package libgdx.screens.implementations.geoquiz;
 
+import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
@@ -10,6 +11,7 @@ import com.badlogic.gdx.utils.Align;
 import libgdx.campaign.*;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
+import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.button.builders.ButtonWithIconBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
@@ -49,6 +51,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         table.setFillParent(true);
         table.add(createAllTable());
         addActor(table);
+        new BackButtonBuilder().addHoverBackButton(this);
     }
 
     private Table createAllTable() {
@@ -59,10 +62,11 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
                 .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.7f))
                 .setText(Game.getInstance().getAppInfoService().getAppName()).build());
         titleLabel.setBackground(GraphicUtils.getNinePatch(QuizGameSpecificResource.title_backgr));
+        float titlePadTop = Gdx.app.getType() == Application.ApplicationType.iOS ? verticalGeneralMarginDimen * 4 : verticalGeneralMarginDimen * 2;
         table.add(titleLabel)
                 .width(ScreenDimensionsManager.getScreenWidthValue(90))
                 .height(ScreenDimensionsManager.getScreenHeightValue(15))
-                .padTop(verticalGeneralMarginDimen * 2)
+                .padTop(titlePadTop)
                 .padBottom(verticalGeneralMarginDimen * 4).row();
         for (QuizQuestionDifficultyLevel difficultyLevel : QuizQuestionDifficultyLevel.values()) {
             table.add(createCategoriesTable(difficultyLevel)).padBottom(verticalGeneralMarginDimen * 2);
@@ -120,7 +124,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         return allTable;
     }
 
-    public static ChangeListener getStartLevelListener(final AbstractScreen screen,final CampaignLevel campaignLevel) {
+    public static ChangeListener getStartLevelListener(final AbstractScreen screen, final CampaignLevel campaignLevel) {
         ChangeListener listener = new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {

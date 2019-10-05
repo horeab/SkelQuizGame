@@ -4,6 +4,7 @@ import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
+import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.HangmanQuestionContainerCreatorService;
@@ -29,6 +30,7 @@ public class CampaignGameScreen extends GameScreen<QuizScreenManager> {
     @Override
     public void buildStage() {
         createAllTable();
+        new BackButtonBuilder().addHoverBackButton(this);
     }
 
     private void createAllTable() {
@@ -45,6 +47,7 @@ public class CampaignGameScreen extends GameScreen<QuizScreenManager> {
         allTable.add(answersTable).height(answersTable.getHeight());
         allTable.setFillParent(true);
         addActor(allTable);
+
     }
 
     public void goToNextQuestionScreen() {
