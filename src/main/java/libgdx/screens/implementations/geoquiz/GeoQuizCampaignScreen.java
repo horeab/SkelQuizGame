@@ -120,7 +120,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         return allTable;
     }
 
-    public static ChangeListener getStartLevelListener(final AbstractScreen screen, CampaignLevel campaignLevel) {
+    public static ChangeListener getStartLevelListener(final AbstractScreen screen,final CampaignLevel campaignLevel) {
         ChangeListener listener = new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
