@@ -6,7 +6,7 @@
 19:Aké je hlavné mesto Grécka?:Atény:17,22,18:19
 20:Aké je hlavné mesto Cypru?:Nicosia:19,12,26:20
 21:Čo je hlavným mestom Kolumbie?:Bogota:20,18,14:21
-22:Aké je hlavné mesto Českej republiky:Praha:27,25,28:22
+22:Aké je hlavné mesto Českej republiky?:Praha:27,25,28:22
 23:Aké je hlavné mesto Chorvátska?:Záhreb:22,16,25:23
 24:Aké je hlavné mesto Dánska?:Kodaň:27,21,22:24
 25:Aké je hlavné mesto Egypta?:Káhira:19,18,30:25

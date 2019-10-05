@@ -3,6 +3,7 @@ package libgdx;
 import org.apache.commons.lang3.StringUtils;
 import org.powermock.api.mockito.PowerMockito;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -26,15 +27,15 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
-public abstract class GameServiceTest extends TestMain{
+public abstract class GameServiceTest extends TestMain {
 
     public void testQuestions() throws Exception {
         CampaignGameDependencyManager subGameDependencyManager = CampaignGame.getInstance().getSubGameDependencyManager();
-        for (Language lang : getAllLang()) {
+        for (Language lang : startFromLanguage(getStartLanguage())) {
             QuestionCreator quizQuestionCreator = createQuestionsCreator(lang.name());
             for (QuestionCategory categoryEnum : (QuestionCategory[]) EnumUtils.getValues(subGameDependencyManager.getQuestionCategoryTypeEnum())) {
                 List<Question> questions = quizQuestionCreator.getAllQuestions(Arrays.asList(getQuestionDifficulties(categoryEnum)), categoryEnum);
-                assertAllQuestions(lang.name(), questions);
+                assertAllQuestions(lang, questions);
             }
         }
     }
@@ -61,7 +62,7 @@ public abstract class GameServiceTest extends TestMain{
         return quizQuestionCreator;
     }
 
-    public void assertAllQuestions(String lang, List<Question> questions) {
+    public void assertAllQuestions(Language lang, List<Question> questions) {
         for (Question question : questions) {
 //            System.out.println(question.getQuestionString());
             printInfo(question.getQuestionString());
@@ -75,7 +76,7 @@ public abstract class GameServiceTest extends TestMain{
                 assertNotNull(lang + " - " + question.getQuestionString(), gameService.getQuestionImage());
             }
             String questionToBeDisplayed = gameService.getQuestionToBeDisplayed();
-            if (StringUtils.isNotBlank(questionToBeDisplayed)) {
+            if (StringUtils.isNotBlank(questionToBeDisplayed) && !notLatinLangs(lang)) {
                 assertTrue(lang + " - " + questionToBeDisplayed, removeDiacritics(questionToBeDisplayed).matches(getQuestionsRegex()));
             }
             try {
@@ -86,22 +87,28 @@ public abstract class GameServiceTest extends TestMain{
         }
     }
 
+    private boolean notLatinLangs(Language language) {
+        return Arrays.asList(Language.el, Language.hi, Language.ja, Language.ko, Language.ru, Language.th, Language.uk, Language.zh).contains(language);
+    }
+
     private void printInfo(String info) {
         System.out.println(info.split(":")[2]);
     }
 
-    public void assertAnswerOptions(String lang, GameService gameService) {
+    public void assertAnswerOptions(Language lang, GameService gameService) {
         if (gameService instanceof DependentAnswersQuizGameService) {
             for (String answer : gameService.getAllAnswerOptions()) {
-                assertTrue(answer.length() >= 2);
+                assertTrue(answer.length() >= 2 || answer.equals("Ý"));//Ý is Italy in vi
             }
 //            System.out.println(gameService.getAllAnswerOptions().toString());
             assertTrue(((DependentAnswersQuizGameService) gameService).getAnswers().size() == 1);
-            assertEquals(gameService.getAllAnswerOptions().toString(), 4, gameService.getAllAnswerOptions().size());
+            assertEquals(lang + " - " + gameService.getAllAnswerOptions().toString(), 4, gameService.getAllAnswerOptions().size());
         }
         for (String answer : gameService.getAllAnswerOptions()) {
             assertTrue(StringUtils.isNotBlank(answer));
-            assertTrue(lang + " - " + answer, removeDiacritics(answer).matches(getAnswersRegex()));
+            if (!notLatinLangs(lang)) {
+                assertTrue(lang + " - " + answer, removeDiacritics(answer).matches(getAnswersRegex()));
+            }
         }
     }
 
@@ -113,12 +120,26 @@ public abstract class GameServiceTest extends TestMain{
         return "^[a-zA-Z0-9#, \\-\\'\\/\\.\\;\\(\\)\\,\\\"\\%]*$";
     }
 
-    protected List<Language> getAllLang() {
-        return Arrays.asList(Language.values());
+    protected Language getStartLanguage() {
+        return Language.cs;
     }
 
     protected String removeDiacritics(String string) {
         return string.replaceAll("[^\\p{ASCII}]", "");
+    }
+
+    private List<Language> startFromLanguage(Language language) {
+        List<Language> res = new ArrayList<>();
+        boolean foundStart = false;
+        for (Language lang : Language.values()) {
+            if (lang == language) {
+                foundStart = true;
+            }
+            if (foundStart) {
+                res.add(lang);
+            }
+        }
+        return res;
     }
 
     protected abstract DefaultAppInfoService getAppInfoService();

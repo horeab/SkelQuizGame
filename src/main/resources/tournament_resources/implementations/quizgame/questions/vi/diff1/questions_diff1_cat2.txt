@@ -1,13 +1,13 @@
-14:Thủ đô của Úc là gì ?:Canberra:13,12,8:14
-15:Thủ đô của Bồ Đào Nha là gì ?:Lisbon:19,7,14:15
-16:Thủ đô của Thổ Nhĩ Kỳ là gì ?:Istanbul:17,20,24:16
-17:Thủ đô của Bulgaria là gì ?:Sofia:10,13,19:17
-18:Thủ đô của Ấn Độ là gì ?:New Delhi:15,26,22:18
-19:Thủ đô của Hy Lạp là gì ?:Athens:17,22,18:19
-20:Thủ đô của Síp là gì ?:Nicosia:19,12,26:20
-21:Thủ đô của Columbia là gì ?:Bogota:20,18,14:21
-22:Thủ đô của Cộng hòa Séc là gì? Prague:27,25,28:22
-23:Thủ đô của Croatia là gì? Zagreb:22,16,25:23
-24:Thủ đô của Đan Mạch là gì ?:Copenhagen:27,21,22:24
-25:Thủ đô của Ai Cập là gì? Cairo:19,18,30:25
-26:Thủ đô của Thụy Sĩ là gì? Bern:27,30,22:26
+14:Thủ đô của Úc là gì?:Canberra:13,12,8:14
+15:Thủ đô của Bồ Đào Nha là gì?:Lisbon:19,7,14:15
+16:Thủ đô của Thổ Nhĩ Kỳ là gì?:Istanbul:17,20,24:16
+17:Thủ đô của Bulgaria là gì?:Sofia:10,13,19:17
+18:Thủ đô của Ấn Độ là gì?:New Delhi:15,26,22:18
+19:Thủ đô của Hy Lạp là gì?:Athens:17,22,18:19
+20:Thủ đô của Síp là gì?:Nicosia:19,12,26:20
+21:Thủ đô của Columbia là gì?:Bogota:20,18,14:21
+22:Thủ đô của Cộng hòa Séc là gì?:Prague:27,25,28:22
+23:Thủ đô của Croatia là gì?:Zagreb:22,16,25:23
+24:Thủ đô của Đan Mạch là gì?:Copenhagen:27,21,22:24
+25:Thủ đô của Ai Cập là gì?:Cairo:19,18,30:25
+26:Thủ đô của Thụy Sĩ là gì?:Bern:27,30,22:26

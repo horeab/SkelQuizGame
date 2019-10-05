@@ -5,9 +5,9 @@
 31::Norja:37,26,36:31
 32::Valko-Venäjä:29,34,25:32
 33::Ruotsi:38,25,29:33
-34:Etelä-Korea:41,33,42:34
+34::Etelä-Korea:41,33,42:34
 35::Ukraina:36,31,38:35
 36::Unkari:35,44,34:36
 37::Algeria:41,33,38:37
-38:Etelä-Afrikka:43,41,45:38
+38::Etelä-Afrikka:43,41,45:38
 39::Islanti:33,37,34:39

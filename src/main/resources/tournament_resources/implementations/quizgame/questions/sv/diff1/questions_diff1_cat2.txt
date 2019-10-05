@@ -2,7 +2,7 @@
 15:Vad är Portugals huvudstad?:Lissabon:19,7,14:15
 16:Vad är Turkiets huvudstad?:Istanbul:17,20,24:16
 17:Vad är Bulgariens huvudstad?:Sofia:10,13,19:17
-18:Vad är Indiens huvudstad ?:New Delhi:15,26,22:18
+18:Vad är Indiens huvudstad?:New Delhi:15,26,22:18
 19:Vad är Greklands huvudstad?:Aten:17,22,18:19
 20:Vad är Cyperns huvudstad?:Nicosia:19,12,26:20
 21:Vad är huvudstaden i Columbia?:Bogota:20,18,14:21

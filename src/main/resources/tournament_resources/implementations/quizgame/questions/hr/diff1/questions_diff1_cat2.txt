@@ -1,13 +1,13 @@
 14:Što je glavni grad Australije?:Canberra:13,12,8:14
 15:Što je glavni grad Portugala?:Lisbon:19,7,14:15
 16:Što je glavni grad Turske?:Istanbul:17,20,24:16
-17:Što je glavni grad Bugarske ?:Sofija:10,13,19:17
+17:Što je glavni grad Bugarske?:Sofija:10,13,19:17
 18:Što je glavni grad Indije?:New Delhi:15,26,22:18
 19:Što je glavni grad Grčke?:Athens:17,22,18:19
-20:Što je glavni grad Cipra ?:Nicosia:19,12,26:20
+20:Što je glavni grad Cipra?:Nicosia:19,12,26:20
 21:Što je glavni grad Kolumbije?:Bogota:20,18,14:21
-22:Što je glavni grad Češke Republike:Prag:27,25,28:22
+22:Što je glavni grad Češke Republike?:Prag:27,25,28:22
 23:Što je glavni grad Hrvatske?:Zagreb:22,16,25:23
-24:Što je glavni grad Danske ?:Kopenhagen:27,21,22:24
+24:Što je glavni grad Danske?:Kopenhagen:27,21,22:24
 25:Što je glavni grad Egipta?:Kairo:19,18,30:25
 26:Što je glavni grad Švicarske?:Bern:27,30,22:26

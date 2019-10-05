@@ -1,7 +1,7 @@
 29::Jeju Saari, Etelä-Korea:31,25,27:29
 30::Iguazun putoukset, Argentiina ja Brasilia:22,23,29:30
-31:Matterhorn, Sveitsi:25,28,34:31
+31::Matterhorn, Sveitsi:25,28,34:31
 32::Pöytävuori, Etelä-Afrikka:26,24,30:32
-33:Bu Tinah, Arabiemiirikunnat:31,29,26:33
-34:Sundarbans, Bangladesh:33,31,28:34
+33::Bu Tinah, Arabiemiirikunnat:31,29,26:33
+34::Sundarbans, Bangladesh:33,31,28:34
 35::Verdon rotko, Ranska:32,33,34:35

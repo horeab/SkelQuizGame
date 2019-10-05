@@ -3,6 +3,7 @@ package libgdx;
 import org.junit.Test;
 
 import libgdx.campaign.CampaignGame;
+import libgdx.constants.Language;
 import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.utils.startgame.test.DefaultAppInfoService;
@@ -34,5 +35,10 @@ public class GeoQuizGameServiceTest extends GameServiceTest {
     @Override
     public CampaignGame createGame() {
         return new QuizGame(new DefaultFacebookService(), new DefaultBillingService(), getDefaultAppInfoService());
+    }
+
+    @Override
+    protected Language getStartLanguage() {
+        return Language.cs;
     }
 }

@@ -1,13 +1,13 @@
-27:Što je glavni grad Finske ?:Helsinki:28,25,20:27
+27:Što je glavni grad Finske?:Helsinki:28,25,20:27
 28:Što je glavni grad Maroka?:Rabat:35,31,29:28
-29:Što je glavni grad Irana ?:Teheran:30,21,22:29
+29:Što je glavni grad Irana?:Teheran:30,21,22:29
 30:Što je glavni grad Srbije?:Beograd:25,29,26:30
 31:Što je glavni grad Norveške?:Oslo:29,32,26:31
-32:Što je glavni grad Bjelorusije ?:Minsk:28,38,37:32
+32:Što je glavni grad Bjelorusije?:Minsk:28,38,37:32
 33:Što je glavni grad Švedske?:Stockholm:41,40,28:33
 34:Što je glavni grad Južne Koreje?:Seoul:42,38,37:34
 35:Što je glavni grad Ukrajine?:Kiev:40,36,38:35
 36:Što je glavni grad Mađarske?:Budapest:43,28,41:36
 37:Što je glavni grad Alžira?:Alžir:29,34,42:37
 38:Što je glavni grad Južne Afrike?:Cape Town:43,37,41:38
-39:Što je glavni grad Islanda:Reykjavik:35,33,47:39
+39:Što je glavni grad Islanda?:Reykjavik:35,33,47:39
