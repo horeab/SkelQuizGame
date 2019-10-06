@@ -2,6 +2,9 @@ package libgdx.screens.implementations.hangman;
 
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
+
+import org.apache.commons.lang3.StringUtils;
+
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.CampaignStoreService;
@@ -19,7 +22,7 @@ import libgdx.screens.implementations.geoquiz.QuizScreenManager;
 public class HangmanLevelFinishedPopup extends MyPopup<AbstractScreen, HangmanScreenManager> {
 
     private GameContext gameContext;
-    private boolean gameOverSuccess;
+    private String gameOverSuccessText;
     private CampaignLevel currentCampaignLevel;
 
     public HangmanLevelFinishedPopup(AbstractScreen abstractScreen, CampaignLevel currentCampaignLevel, GameContext gameContext) {
@@ -28,9 +31,9 @@ public class HangmanLevelFinishedPopup extends MyPopup<AbstractScreen, HangmanSc
         this.currentCampaignLevel = currentCampaignLevel;
     }
 
-    public HangmanLevelFinishedPopup(AbstractScreen screen, boolean gameOverSuccess) {
+    public HangmanLevelFinishedPopup(AbstractScreen screen, String gameOverSuccessText) {
         super(screen);
-        this.gameOverSuccess = gameOverSuccess;
+        this.gameOverSuccessText = gameOverSuccessText;
     }
 
     @Override
@@ -39,7 +42,7 @@ public class HangmanLevelFinishedPopup extends MyPopup<AbstractScreen, HangmanSc
         playAgain.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
-                if (gameOverSuccess) {
+                if (StringUtils.isNotBlank(gameOverSuccessText)) {
                     new CampaignStoreService().reset();
                     screenManager.showMainScreen();
                 } else {
@@ -49,7 +52,7 @@ public class HangmanLevelFinishedPopup extends MyPopup<AbstractScreen, HangmanSc
         });
         addButton(playAgain);
 
-        if (!gameOverSuccess) {
+        if (StringUtils.isBlank(gameOverSuccessText)) {
             MyButton campaignScreenBtn = new ButtonBuilder().setDefaultButton().setText(SkelGameLabel.go_back.getText()).build();
             addButton(campaignScreenBtn);
             campaignScreenBtn.addListener(new ChangeListener() {
@@ -62,10 +65,17 @@ public class HangmanLevelFinishedPopup extends MyPopup<AbstractScreen, HangmanSc
     }
 
     @Override
+    public void onBackKeyPress() {
+        if (StringUtils.isNotBlank(gameOverSuccessText)) {
+            screenManager.showMainScreen();
+        }
+    }
+
+    @Override
     protected String getLabelText() {
         String text;
-        if (gameOverSuccess) {
-            text = SkelGameLabel.game_finished.getText();
+        if (StringUtils.isNotBlank(gameOverSuccessText)) {
+            text = gameOverSuccessText;
         } else {
             text = SkelGameLabel.level_failed.getText();
         }

@@ -4,17 +4,28 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
+
 import libgdx.campaign.*;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.ButtonSkin;
 import libgdx.controls.button.MainButtonSkin;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
+import libgdx.controls.label.MyWrappedLabelConfig;
+import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.hangman.HangmanCampaignLevelEnum;
 import libgdx.implementations.hangman.HangmanGame;
 import libgdx.implementations.hangman.HangmanQuestionCategoryEnum;
+import libgdx.implementations.hangman.HangmanSpecificResource;
+import libgdx.implementations.skelgame.GameButtonSkin;
+import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
+import libgdx.implementations.skelgame.gameservice.QuizStarsService;
+import libgdx.resources.FontManager;
+import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
+import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
 import libgdx.screens.implementations.geoquiz.GeoQuizCampaignScreen;
@@ -23,7 +34,7 @@ import libgdx.utils.ScreenDimensionsManager;
 
 import java.util.List;
 
-public class HangmanCampaignScreen extends AbstractScreen<QuizScreenManager> {
+public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> {
 
     private CampaignService campaignService = new CampaignService();
     private List<CampaignStoreLevel> allCampaignLevelStores;
@@ -43,6 +54,8 @@ public class HangmanCampaignScreen extends AbstractScreen<QuizScreenManager> {
     private Table createAllTable() {
         Table table = new Table();
         int totalCat = HangmanQuestionCategoryEnum.values().length;
+        int totalStarsWon = 0;
+        table.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setFontScale(FontManager.getBigFontDim()).setText(MainGameLabel.l_level.getText((allCampaignLevelStores.size() + 1))).build())).pad(MainDimen.vertical_general_margin.getDimen()).colspan(2).row();
         for (int i = 0; i < totalCat; i++) {
             if (i > 0 && i % 2 == 0) {
                 table.row();
@@ -51,12 +64,18 @@ public class HangmanCampaignScreen extends AbstractScreen<QuizScreenManager> {
             final int finalIndex = i;
             HangmanQuestionCategoryEnum categoryEnum = HangmanQuestionCategoryEnum.values()[i];
             int starsWon = -1;
-            MyButton categBtn = new ButtonBuilder().setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(categoryEnum.getIndex())).setButtonSkin(getButtonSkin(maxLevelFinished)).build();
+            MyButton categBtn = new ButtonBuilder().setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(categoryEnum.getIndex())).setButtonSkin(GameButtonSkin.HANGMAN_CATEG).build();
             for (CampaignStoreLevel level : allCampaignLevelStores) {
                 if (CampaignLevelEnumService.getCategory(level.getName()) == categoryEnum.getIndex()) {
                     categBtn.setDisabled(true);
                     starsWon = level.getStarsWon();
+                    totalStarsWon = totalStarsWon + starsWon;
                 }
+            }
+            float horizontalGeneralMarginDimen = MainDimen.horizontal_general_margin.getDimen();
+            if (starsWon == QuizStarsService.NR_OF_STARS_TO_DISPLAY) {
+                categBtn.getCenterRow().row();
+                categBtn.getCenterRow().add(GraphicUtils.getImage(HangmanSpecificResource.star)).width(horizontalGeneralMarginDimen * 5).height(horizontalGeneralMarginDimen * 5).padTop(horizontalGeneralMarginDimen);
             }
             categBtn.addListener(new ChangeListener() {
                 @Override
@@ -66,21 +85,22 @@ public class HangmanCampaignScreen extends AbstractScreen<QuizScreenManager> {
                 }
             });
             Table btnTable = new Table();
-            if (starsWon != -1) {
-                btnTable.add(new MyWrappedLabel(starsWon + "")).row();
-            } else {
-                btnTable.add().row();
-            }
             btnTable.add(categBtn)
-                    .height(ScreenDimensionsManager.getScreenHeightValue(30))
+                    .height(ScreenDimensionsManager.getScreenHeightValue(27))
                     .width(ScreenDimensionsManager.getScreenWidthValue(45));
             table.add(btnTable)
-                    .pad(MainDimen.horizontal_general_margin.getDimen())
-                    .height(ScreenDimensionsManager.getScreenHeightValue(30))
+                    .pad(horizontalGeneralMarginDimen)
+                    .height(ScreenDimensionsManager.getScreenHeightValue(27))
                     .width(ScreenDimensionsManager.getScreenWidthValue(45));
         }
         if (allCampaignLevelStores.size() == totalCat) {
-            new HangmanLevelFinishedPopup(this, true).addToPopupManager();
+            CampaignStoreService campaignStoreService = new CampaignStoreService();
+            String gameFinishedText = SkelGameLabel.game_finished.getText();
+            if (campaignStoreService.getAllStarsWon() < totalStarsWon) {
+                campaignStoreService.updateAllStarsWon(totalStarsWon);
+                gameFinishedText = MainGameLabel.l_score_record.getText(totalStarsWon);
+            }
+            new HangmanLevelFinishedPopup(this, gameFinishedText).addToPopupManager();
         }
         return table;
     }
@@ -90,24 +110,9 @@ public class HangmanCampaignScreen extends AbstractScreen<QuizScreenManager> {
         return HangmanCampaignLevelEnum.valueOf("LEVEL_" + diff + "_" + currentIndex);
     }
 
-
-    private ButtonSkin getButtonSkin(int maxLevelFinished) {
-        if (maxLevelFinished == 2) {
-            return MainButtonSkin.DEFAULT;
-        } else if (maxLevelFinished == 3) {
-            return MainButtonSkin.DEFAULT;
-        } else if (maxLevelFinished == 4) {
-            return MainButtonSkin.DEFAULT;
-        } else if (maxLevelFinished == 5) {
-            return MainButtonSkin.DEFAULT;
-        } else {
-            return MainButtonSkin.DEFAULT;
-        }
-    }
-
     @Override
     public void onBackKeyPress() {
-        Gdx.app.exit();
+        screenManager.showMainScreen();
     }
 
 }

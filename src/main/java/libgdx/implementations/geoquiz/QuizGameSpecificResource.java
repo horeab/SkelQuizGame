@@ -1,8 +1,8 @@
 package libgdx.implementations.geoquiz;
 
-import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.utils.I18NBundle;
+
 import libgdx.game.Game;
 import libgdx.resources.SpecificResource;
 

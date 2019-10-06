@@ -1,11 +1,13 @@
 package libgdx.implementations.skelgame.gameservice;
 
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.ButtonSkin;
 import libgdx.controls.button.MyButton;
 import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.GameButtonSkin;
+import libgdx.resources.FontManager;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screens.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
@@ -24,15 +26,16 @@ public class HangmanQuestionContainerCreatorService extends QuestionContainerCre
         return new GameControlsCreatorService().createSquareAnswerOptionsTable(getNrOfAnswersOnRow(), getNrOfAnswerRows(), new ArrayList<>(getAllAnswerButtons().values()));
     }
 
-    public void refreshWord(){
+    public void refreshWord() {
         refreshQuestionDisplayService.refreshQuestion(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
     }
 
     protected MyButton createAnswerButton(final String answer) {
 //        no Uppercase for ß, if uppercase its displayed ass SS
-        return new ButtonBuilder(answer)
+        return new ButtonBuilder(answer, FontManager.getBigFontDim())
+                .setButtonSkin(GameButtonSkin.SQUARE)
                 .setFixedButtonSize(getNrOfAnswersOnRow() >= 7 ? GameButtonSize.HANGMAN_SMALL_BUTTON : GameButtonSize.HANGMAN_BUTTON)
-                .setButtonSkin(GameButtonSkin.SQUARE).build();
+                .build();
 
     }
 

@@ -41,7 +41,9 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
     private float ICON_DIMEN = MainDimen.horizontal_general_margin.getDimen() * 7.5f;
 
     public GeoQuizCampaignScreen() {
-        new SkelGameRatingService(this).appLaunched();
+        if (Game.getInstance().isFirstTimeMainMenuDisplayed()) {
+            new SkelGameRatingService(this).appLaunched();
+        }
         allCampaignLevelStores = campaignService.processAndGetAllLevels();
     }
 
@@ -52,6 +54,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         table.add(createAllTable());
         addActor(table);
         new BackButtonBuilder().addHoverBackButton(this);
+        Game.getInstance().setFirstTimeMainMenuDisplayed(false);
     }
 
     private Table createAllTable() {

@@ -3,6 +3,7 @@ package libgdx.implementations.skelgame.gameservice;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+
 import libgdx.controls.ScreenRunnable;
 import libgdx.controls.button.MyButton;
 import libgdx.game.Game;
@@ -14,6 +15,7 @@ import libgdx.resources.FontManager;
 import libgdx.resources.Res;
 import libgdx.screen.AbstractScreen;
 import libgdx.utils.ScreenDimensionsManager;
+
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.HashSet;
@@ -49,6 +51,9 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
         float standardWidth = GameDimen.width_hangman_letter.getDimen();
         float calculatedWidth = calculateLetterLabelWidth(standardWidth, currentWordState);
         float fontScale = getFontScale(standardWidth, calculatedWidth);
+        if (hangmanWord.length() > 25) {
+            fontScale = fontScale / 1.2f;
+        }
         Set<String> wordLetters = gameService.getWordLetters(hangmanWord);
         for (int i = 0; i < currentWordState.length(); i++) {
             String letter = Character.toString(currentWordState.charAt(i));
@@ -65,7 +70,7 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
     }
 
     private float getFontScale(float standardWidth, float calculatedWidth) {
-        float standardFontDim = 1.5f;
+        float standardFontDim = 1.7f;
         return standardWidth != calculatedWidth ?
                 FontManager.calculateMultiplierStandardFontSize(standardFontDim - (standardWidth / calculatedWidth * 0.2f)) : FontManager.calculateMultiplierStandardFontSize(standardFontDim);
     }

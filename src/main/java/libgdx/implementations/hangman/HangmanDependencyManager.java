@@ -1,11 +1,13 @@
 package libgdx.implementations.hangman;
 
 import libgdx.campaign.*;
+import libgdx.constants.Contrast;
 import libgdx.game.Game;
 import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.implementations.skelgame.gameservice.QuizStarsService;
 import libgdx.resources.IncrementingRes;
 import libgdx.utils.EnumUtils;
+import libgdx.utils.model.RGBColor;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,6 +55,11 @@ public class HangmanDependencyManager extends CampaignGameDependencyManager {
     @Override
     public Class<HangmanQuestionDifficultyLevel> getQuestionDifficultyTypeEnum() {
         return HangmanQuestionDifficultyLevel.class;
+    }
+
+    @Override
+    public RGBColor getScreenBackgroundColor() {
+        return new RGBColor(1, 123, 206, 188);
     }
 
     public QuizStarsService getStarsService() {

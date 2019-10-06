@@ -27,12 +27,12 @@ public class StartGameHangman {
 
                     @Override
                     public String getAppName() {
-                        return "Crossword Garden";
+                        return getTitle();
                     }
 
                     @Override
                     public String getLanguage() {
-                        return "ro";
+                        return Language.ro.name();
                     }
                 });
         libgdx.utils.startgame.StartGame.main(game, args);

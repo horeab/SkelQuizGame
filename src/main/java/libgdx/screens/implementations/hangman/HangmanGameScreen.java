@@ -2,6 +2,7 @@ package libgdx.screens.implementations.hangman;
 
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+
 import libgdx.campaign.CampaignGame;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
@@ -38,14 +39,19 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
     public void buildStage() {
         allTable = new Table();
         allTable.setFillParent(true);
-        allTable.add(new HangmanHeaderCreator().createHeaderTable(gameContext)).row();
+        allTable.add(new HangmanHeaderCreator().createHeaderTable(gameContext)).growY().row();
         Table wordTable = new Table();
         wordTable.setName(HangmanRefreshQuestionDisplayService.ACTOR_NAME_HANGMAN_WORD_TABLE);
         Table image = new Table();
         image.setName(HangmanRefreshQuestionDisplayService.ACTOR_NAME_HANGMAN_IMAGE);
-        allTable.add(wordTable).row();
-        allTable.add(image).growY().row();
-        allTable.add(new HangmanQuestionContainerCreatorService(gameContext, this).createSquareAnswerOptionsTable(new ArrayList<>(hangmanQuestionContainerCreatorService.getAllAnswerButtons().values())));
+        allTable.add(wordTable).growY().row();
+        allTable.add(image)
+                .padTop(MainDimen.vertical_general_margin.getDimen())
+                .height(ScreenDimensionsManager.getScreenHeightValue(35))
+                .width(ScreenDimensionsManager.getScreenWidthValue(55))
+                .row();
+        allTable.add(new HangmanQuestionContainerCreatorService(gameContext, this).createSquareAnswerOptionsTable(new ArrayList<>(hangmanQuestionContainerCreatorService.getAllAnswerButtons().values())))
+                .growY();
         addActor(allTable);
         hangmanQuestionContainerCreatorService.processGameInfo(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
     }
@@ -68,7 +74,7 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
 
     @Override
     public void onBackKeyPress() {
-        screenManager.showMainScreen();
+        screenManager.showCampaignScreen();
     }
 
     public void executeLevelFinished() {
@@ -79,8 +85,8 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
         }
         if (new SinglePlayerLevelFinishedService().isGameFailed(gameContext.getCurrentUserGameUser())) {
             new HangmanLevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
-        }else {
-            screenManager.showMainScreen();
+        } else {
+            screenManager.showCampaignScreen();
         }
     }
 }

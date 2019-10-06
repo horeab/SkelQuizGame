@@ -12,19 +12,13 @@ public enum HangmanScreenTypeEnum implements ScreenType {
 
     MAIN_MENU_SCREEN {
         public AbstractScreen getScreen(Object... params) {
-            return new MainMenuScreen();
+            return new HangmanMainMenuScreen();
         }
     },
 
     CAMPAIGN_SCREEN {
         public AbstractScreen getScreen(Object... params) {
             return new HangmanCampaignScreen();
-        }
-    },
-
-    GAME_SCREEN {
-        public AbstractScreen getScreen(Object... params) {
-            return null;
         }
     },
 
