@@ -5,6 +5,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.utils.I18NBundle;
 import libgdx.game.Game;
 import libgdx.resources.SpecificResource;
+import sun.net.www.content.image.png;
 
 public enum HangmanSpecificResource implements SpecificResource {
 
@@ -27,6 +28,10 @@ public enum HangmanSpecificResource implements SpecificResource {
     btn_categ_up("buttons/btn_categ_up.png", Texture.class),
     btn_categ_down("buttons/btn_categ_down.png", Texture.class),
     btn_categ_disabled("buttons/btn_categ_disabled.png", Texture.class),
+    btn_hint("buttons/btn_hint.png", Texture.class),
+    btn_hint_disabled("buttons/btn_hint_disabled.png", Texture.class),
+
+    title_background("title_background.png", Texture.class),
 
     btn_menu_up("buttons/btn_menu_up.png", Texture.class),
     btn_menu_down("buttons/btn_menu_down.png", Texture.class),

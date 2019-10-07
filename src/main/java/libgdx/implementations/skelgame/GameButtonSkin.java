@@ -19,6 +19,7 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     LONG_ANSWER_OPTION(QuizGameSpecificResource.btn_long_answer_opt_up, QuizGameSpecificResource.btn_long_answer_opt_down, QuizGameSpecificResource.btn_long_answer_opt_up, QuizGameSpecificResource.btn_long_answer_opt_disabled, null),
     HINT(QuizGameSpecificResource.btn_hint, QuizGameSpecificResource.btn_hint, QuizGameSpecificResource.btn_hint, QuizGameSpecificResource.btn_hint_disabled, null),
 
+    HANGMAN_HINT(HangmanSpecificResource.btn_hint, HangmanSpecificResource.btn_hint, HangmanSpecificResource.btn_hint, HangmanSpecificResource.btn_hint_disabled, null),
     HANGMAN_MENU(HangmanSpecificResource.btn_menu_up, HangmanSpecificResource.btn_menu_down, HangmanSpecificResource.btn_menu_up, HangmanSpecificResource.btn_menu_up, null),
     HANGMAN_CATEG(HangmanSpecificResource.btn_categ_up, HangmanSpecificResource.btn_categ_down, HangmanSpecificResource.btn_categ_up, HangmanSpecificResource.btn_categ_disabled, null),
     SQUARE(HangmanSpecificResource.btn_hangman_up, HangmanSpecificResource.btn_hangman_down, HangmanSpecificResource.btn_hangman_up, MainResource.btn_lowcolor_down, null),

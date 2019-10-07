@@ -58,7 +58,7 @@ public class HangmanLevelFinishedPopup extends MyPopup<AbstractScreen, HangmanSc
             campaignScreenBtn.addListener(new ChangeListener() {
                 @Override
                 public void changed(ChangeEvent event, Actor actor) {
-                    screenManager.showMainScreen();
+                    screenManager.showCampaignScreen();
                 }
             });
         }

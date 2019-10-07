@@ -7,7 +7,7 @@ import libgdx.implementations.skelgame.question.Question;
 
 public class GameContextService {
 
-    private int AMOUNT_AVAILABLE_HINTS = 0;
+    private int AMOUNT_AVAILABLE_HINTS = 2;
 
     public GameContext createGameContext(QuestionConfig questionConfig) {
         return createGameContext(AMOUNT_AVAILABLE_HINTS, questionConfig);

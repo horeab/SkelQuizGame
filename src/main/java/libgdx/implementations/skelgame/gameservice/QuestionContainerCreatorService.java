@@ -1,11 +1,16 @@
 package libgdx.implementations.skelgame.gameservice;
 
+import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.actions.RunnableAction;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+
+import org.apache.commons.lang3.StringUtils;
+
 import libgdx.controls.ScreenRunnable;
 import libgdx.controls.button.ButtonSkin;
 import libgdx.controls.button.MyButton;
@@ -43,6 +48,7 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
         this.refreshQuestionDisplayService = gameContext.getCurrentUserCreatorDependencies().getRefreshQuestionDisplayService(abstractGameScreen, gameContext, getAllAnswerButtons());
         this.gameControlsService = new GameControlsService(allAnswerButtons, hintButtons);
         addOnAnswerClick();
+        addOnHintClick();
     }
 
     public AbstractScreen getAbstractGameScreen() {
@@ -67,7 +73,6 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
         setContainerBackground();
         return table;
     }
-
 
 
     private void addOnAnswerClick() {
@@ -148,6 +153,41 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
             allAnswerButtons.put(answer, button);
         }
         return allAnswerButtons;
+    }
+
+    private void addOnHintClick() {
+        for (final HintButton hintButton : (List<HintButton>) getHintButtons()) {
+            hintButton.getMyButton().addListener(new ChangeListener() {
+                @Override
+                public void changed(ChangeEvent event, Actor actor) {
+                    getHintButtonOnClick(hintButton).run();
+                    gameContext.useHint();
+                }
+            });
+        }
+    }
+
+    private Runnable getHintButtonOnClick(HintButton hintButton) {
+        if (hintButton.getHintButtonType().equals(HintButtonType.HINT_PRESS_RANDOM_ANSWER)) {
+            return createRandomAnswerHintButtonOnClick();
+        }
+        return new Runnable() {
+            @Override
+            public void run() {
+            }
+        };
+    }
+
+    private Runnable createRandomAnswerHintButtonOnClick() {
+        return new Runnable() {
+            @Override
+            public void run() {
+                String randomUnpressedAnswer = gameService.getRandomUnpressedAnswerFromQuestion(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getAnswerIds());
+                if (StringUtils.isNotBlank(randomUnpressedAnswer)) {
+                    answerClick(randomUnpressedAnswer);
+                }
+            }
+        };
     }
 
     protected void addQuestionImage(Image questionImage) {

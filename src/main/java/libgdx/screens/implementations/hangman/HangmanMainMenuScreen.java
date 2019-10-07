@@ -68,7 +68,7 @@ public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> 
         Table maxLevelTable = new Table();
         maxLevelTable.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setSingleLineLabel().setText(MainGameLabel.l_level_record.getText(new CampaignStoreService().getAllStarsWon())).build()));
         maxLevelTable.add(GraphicUtils.getImage(HangmanSpecificResource.star)).padLeft(horizontalGeneralMarginDimen).width(horizontalGeneralMarginDimen * 5).height(horizontalGeneralMarginDimen * 5);
-        table.add(maxLevelTable).padTop(horizontalGeneralMarginDimen);
+        table.add(maxLevelTable).padTop(horizontalGeneralMarginDimen * 2);
         addActor(table);
     }
 
@@ -82,10 +82,12 @@ public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> 
         titleRaysImage.setY(ScreenDimensionsManager.getScreenHeightValue(49));
         addActor(titleRaysImage);
         Stack titleLabel = createTitleLabel();
+        float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
         table.add(titleLabel)
                 .width(titleWidth)
                 .height(titleHeight)
-                .padBottom(MainDimen.vertical_general_margin.getDimen() * 1)
+                .padTop(-verticalGeneralMarginDimen * 14)
+                .padBottom(verticalGeneralMarginDimen * 1)
                 .row();
     }
 
@@ -99,14 +101,14 @@ public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> 
 
     protected Stack createTitleStack(MyWrappedLabel titleLabel) {
         Stack stack = new Stack();
-        Image image = GraphicUtils.getImage(Resource.title_background);
+        Image image = GraphicUtils.getImage(HangmanSpecificResource.title_background);
         stack.addActor(image);
         stack.addActor(titleLabel);
         return stack;
     }
 
     private MyButton createStartGameBtn() {
-        MyButton button = new ButtonBuilder().setButtonSkin(GameButtonSkin.HANGMAN_MENU).setText(MainGameLabel.l_new_game.getText()).build();
+        MyButton button = new ButtonBuilder().setSingleLineText(MainGameLabel.l_new_game.getText(), FontManager.getBigFontDim()).setButtonSkin(GameButtonSkin.HANGMAN_MENU).build();
         button.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {

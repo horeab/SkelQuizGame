@@ -39,14 +39,15 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
     public void buildStage() {
         allTable = new Table();
         allTable.setFillParent(true);
-        allTable.add(new HangmanHeaderCreator().createHeaderTable(gameContext)).growY().row();
+        float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
+        allTable.add(new HangmanHeaderCreator().createHeaderTable(gameContext, hangmanQuestionContainerCreatorService.getHintButtons(), hangmanQuestionContainerCreatorService.createHintButtonsTable())).padTop(verticalGeneralMarginDimen).row();
         Table wordTable = new Table();
         wordTable.setName(HangmanRefreshQuestionDisplayService.ACTOR_NAME_HANGMAN_WORD_TABLE);
         Table image = new Table();
         image.setName(HangmanRefreshQuestionDisplayService.ACTOR_NAME_HANGMAN_IMAGE);
         allTable.add(wordTable).growY().row();
         allTable.add(image)
-                .padTop(MainDimen.vertical_general_margin.getDimen())
+                .padTop(verticalGeneralMarginDimen)
                 .height(ScreenDimensionsManager.getScreenHeightValue(35))
                 .width(ScreenDimensionsManager.getScreenWidthValue(55))
                 .row();
