@@ -27,7 +27,6 @@ public class HangmanHeaderCreator {
     public Table createHeaderTable(GameContext gameContext, List<HintButton> hintButtonList, Table hintTable) {
         Table table = new Table();
         table.setName(HEADER_TABLE_NAME);
-        float dimen = MainDimen.horizontal_general_margin.getDimen();
         GameUser gameUser = gameContext.getCurrentUserGameUser();
         MyWrappedLabel wrappedLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setTextColor(new SinglePlayerLevelFinishedService().isGameWon(gameUser) ? FontColor.GREEN : FontColor.BLACK)

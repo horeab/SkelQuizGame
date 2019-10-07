@@ -7,13 +7,14 @@ import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.implementations.skelgame.GameLabel;
 import libgdx.implementations.skelgame.GameRatingService;
 import libgdx.implementations.skelgame.QuizGameResourceService;
+import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.resources.Resource;
 import libgdx.resources.ResourceService;
 import libgdx.screen.AbstractScreen;
 import libgdx.screens.implementations.hangman.HangmanScreenManager;
 import libgdx.transactions.TransactionsService;
 
-public class HangmanGameMainDependencyManager extends MainDependencyManager<HangmanScreenManager, AbstractScreen, GameLabel, Resource, GameIdEnum> {
+public class HangmanGameMainDependencyManager extends MainDependencyManager<HangmanScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {
 
     @Override
     public Class<Resource> getMainResourcesClass() {
@@ -31,8 +32,8 @@ public class HangmanGameMainDependencyManager extends MainDependencyManager<Hang
     }
 
     @Override
-    public Class<GameLabel> getGameLabelClass() {
-        return GameLabel.class;
+    public Class<SkelGameLabel> getGameLabelClass() {
+        return SkelGameLabel.class;
     }
 
     @Override

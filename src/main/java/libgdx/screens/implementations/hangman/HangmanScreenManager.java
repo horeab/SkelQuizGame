@@ -13,9 +13,9 @@ public class HangmanScreenManager extends AbstractScreenManager {
 
     @Override
     public void showMainScreen() {
-        HangmanCampaignLevelEnum campaignLevel = HangmanCampaignLevelEnum.LEVEL_0_0;
-        showCampaignGameScreen(new GameContextService().createGameContext(new CampaignLevelEnumService(campaignLevel).getQuestionConfig(HangmanGameScreen.TOTAL_QUESTIONS)), campaignLevel);
-//        showScreen(HangmanScreenTypeEnum.MAIN_MENU_SCREEN);
+//        HangmanCampaignLevelEnum campaignLevel = HangmanCampaignLevelEnum.LEVEL_0_0;
+//        showCampaignGameScreen(new GameContextService().createGameContext(new CampaignLevelEnumService(campaignLevel).getQuestionConfig(HangmanGameScreen.TOTAL_QUESTIONS)), campaignLevel);
+        showScreen(HangmanScreenTypeEnum.MAIN_MENU_SCREEN);
     }
 
     public void showCampaignScreen() {
