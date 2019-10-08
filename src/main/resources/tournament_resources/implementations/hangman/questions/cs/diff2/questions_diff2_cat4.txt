@@ -1,9 +1,9 @@
 Kompot
-Moussaka
+Musaka
 Pečené kuře
 Pastrami
 Olivový olej
-Ravioli
+Ravioly
 Koktejl
 Vepřová kotleta
 Kuřecí polévka
@@ -17,4 +17,3 @@ Hořká čokoláda
 Makaróny
 Perník
 Vafle
-Grilování

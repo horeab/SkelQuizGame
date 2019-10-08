@@ -1,5 +1,4 @@
 Anýz
-Bonsai
 Sedmikráska
 Granátové jablko
 Bambus
@@ -14,7 +13,6 @@ Sasanka
 Papája
 Fenykl
 Pastinák
-Pomelo
 Rozmarýn
 Chryzantéma
 Zázvor

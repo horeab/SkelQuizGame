@@ -1,13 +1,10 @@
 Antigua a Barbuda
 Brunej
-Burundi
 Etiopie
 Filipíny
 Gambie
 Kazachstán
-Laos
 Lichtenštejnsko
-Barbados
 Madagaskar
 San Marino
 Sýrie
@@ -16,5 +13,4 @@ Súdán
 Jít
 Ugandě
 Zambie
-Zimbabwe
 Benine
