@@ -81,7 +81,7 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
                 @Override
                 public void changed(ChangeEvent event, Actor actor) {
                     CampaignLevel campaignLevel = getHangmanCampaignLevelEnum(maxLevelFinished, finalIndex);
-                    HangmanGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(new CampaignLevelEnumService(campaignLevel).getQuestionConfig(GeoQuizCampaignScreen.TOTAL_QUESTIONS)), campaignLevel);
+                    HangmanGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(new CampaignLevelEnumService(campaignLevel).getQuestionConfig(HangmanGameScreen.TOTAL_QUESTIONS)), campaignLevel);
                 }
             });
             Table btnTable = new Table();
