@@ -1,20 +1,20 @@
-Aloe vera
-Fern
-Chestnut
-Eucalyptus
-Birch
-Alder
-Rhubarb
-Date palm
-Lentils
-Asparagus
-Palm
-Carnation
-Flax
-Tobacco
-Okra
-Clover
-Hops
-Mistletoe
-Magnolia
-Snowdrop
+Алое віра
+Папороть
+Каштан
+Евкаліпт
+Береза
+Ольха
+Ревінь
+Фінікова пальма
+Сочевиця
+Спаржа
+Долоня
+Гвоздика
+Льон
+Тютюн
+Окра
+Конюшина
+Хміль
+Омела
+Магнолія
+Пролісок

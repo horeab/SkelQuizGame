@@ -1,20 +1,20 @@
-Pesto
-Tomato sauce
-Muesli
-Swiss cheese
-Tortilla
-Baklava
-Curry
-Guacamole
-White chocolate
-Vinegar
-Hot chocolate
+pesto
+Paradajková omáčka
+Musli
+švajčiarsky syr
+tortilla
+baklava
+kari
+guacamole
+biela čokoláda
+ocot
+Horúca čokoláda
 Dim sum
-Pasta carbonara
-Rice pudding
-Roast beef
-Muffin
-Chocolate Cake
-Vegetable soup
-Noodle soup
-Caesar salad
+Cestoviny carbonara
+Ryžový nákyp
+Pečené hovädzie
+muffin
+Čokoládový koláč
+Zeleninová polievka
+Rezancová polievka
+Cézar šalát

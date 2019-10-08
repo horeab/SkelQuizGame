@@ -1,20 +1,20 @@
-Beaver
-King cobra
+Dabar
+Kralj kobra
 Flamingo
-Albatross
-Seagull
-Jackal
-Lark
+Albatros
+Galeb
+Šakal
+Ševa
 Loris
-Lobster
-Marten
-Walrus
-Mink
-Bison
-Porcupine
-Red Panda
+Jastog
+Kuna
+Morž
+kanadska kuna
+Bizon
+Dikobraz
+Crvena panda
 Salamander
 Stingray
-Nightingale
-Otter
-Herring
+Slavuj
+Vidra
+Haringa

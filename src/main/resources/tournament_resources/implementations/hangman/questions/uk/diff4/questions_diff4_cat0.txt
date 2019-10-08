@@ -1,20 +1,20 @@
-Afghanistan
-Saudi Arabia
-Ivory Coast
-Bahamas
-Bahrain
-Costa Rica
-El Salvador
-Kenya
-Guatemala
-Honduras
-Jordan
-Lebanon
-Qatar
-Panama
-Liberia
-Singapore
-Thailand
-Yemen
-Malta
-Vatican
+Афганістан
+Саудівська Аравія
+Берег Слонової Кістки
+Багами
+Бахрейн
+Коста-Ріка
+Сальвадор
+Кенія
+Гватемала
+Гондурас
+Йорданія
+Ліван
+Катар
+Панама
+Ліберія
+Сінгапур
+Таїланд
+Ємен
+Мальта
+Ватикан

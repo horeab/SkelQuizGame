@@ -1,19 +1,19 @@
-Alpaca
-Armadillo
-Chinchilla
-Echidna
-Raccoon
-Egret
-Tasmanian devil
-Komodo dragon
+Alpaka
+Oklopnik
+cincila
+echidna
+Rakun
+Bijela čaplja
+Tasmanski vrag
+Zmaj Komodo
 Barracuda
-Magpie
-Manatee
-Prairie dog
-Starling
+Svraka
+morska krava
+Prerijski pas
+Čvorak
 Tapir
-Tarsier
+tarsius
 Lemur
-Meerkat
-Guineafowl
-Possum
+Merkat
+Biserke
+Oposum

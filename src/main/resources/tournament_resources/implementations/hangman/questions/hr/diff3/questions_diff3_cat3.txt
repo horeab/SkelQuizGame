@@ -1,20 +1,20 @@
-beater
-broom
-chopsticks
-counter
-cup
-decanter
-dough
-honey pot
-ice cream scoop
-mixer
-mixing bowl
-mold
-paper towels
-plastic wrap
-roaster
-roasting pan
-shears
-shelves
-sieve
-slicer
+gonič
+metla
+štapići za jelo
+brojač
+kupa
+bokal
+tijesto
+lonac sa medom
+lopatica za sladoled
+mikser
+zdjela za mješanje
+kalup
+papirnati ručnici
+plastični omotač
+pržionica
+tava za pečenje
+škare
+police
+sito
+rezač

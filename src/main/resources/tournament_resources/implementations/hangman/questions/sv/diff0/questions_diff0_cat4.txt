@@ -1,20 +1,20 @@
-Donut
+Munk
 Pasta
 Kebab
 Croissant
-Lasagna
-Cheese
+Lasagne
+Ost
 Pizza
 Spaghetti
-Omelette
-Ice cream
-Bread
-Cake
-Roast
-Yogurt
-Fast food
-Pickles
-Maple syrup
-Toast
-Chocolate
-Mashed potatoes
+Omelett
+Glass
+Bröd
+Kaka
+Steka
+yoghurt
+Snabbmat
+Ättiksgurka
+lönnsirap
+Rostat bröd
+Choklad
+Potatismos

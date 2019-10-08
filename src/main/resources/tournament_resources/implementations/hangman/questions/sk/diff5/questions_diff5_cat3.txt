@@ -1,20 +1,20 @@
-kitchen
-knife
-knife sharpener
-microwave oven
-napkin
-pepper grinder
-refrigerator
-spices
-teapot
-teaspoon
-thermometer
-sink
-skewers
-soup bowl
-table
-tongs
-trash bags
-trash can
-tablecloth
-toaster
+kuchyňa
+nôž
+orezávač nožov
+mikrovlnka
+obrúsok
+mlynček na korenie
+chladnička
+korenie
+kanvica na čaj
+čajová lyžička
+teplomer
+drez
+špajle
+polievková miska
+stôl
+kliešte
+vrecia na odpadky
+odpadkový kôš
+obrus
+opekač hrianok

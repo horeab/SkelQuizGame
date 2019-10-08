@@ -1,20 +1,20 @@
-Compote
-Moussaka
-Roast chicken
-Pastrami
-Olive oil
-Ravioli
+kompót
+moussaka
+Pečené kura
+pastrami
+Olivový olej
+ravioli
 Milkshake
-Pork chop
-Chicken Soup
-Cheesecake
-French Toast
-Marzipan
-Goulash
-Meatloaf
-Burrito
-Dark chocolate
-Macaroni
-Gingerbread
-Waffle
-Barbecue
+Bravčová kotleta
+Kuracia polievka
+tvarohový koláč
+Francúzsky toast
+marcipán
+guláš
+sekaná
+burrito
+Tmavá čokoláda
+makarónmi
+perník
+vafle
+Opekačka

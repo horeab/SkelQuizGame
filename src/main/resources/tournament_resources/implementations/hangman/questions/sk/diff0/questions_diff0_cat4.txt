@@ -1,20 +1,20 @@
-Donut
-Pasta
-Kebab
-Croissant
-Lasagna
-Cheese
-Pizza
-Spaghetti
-Omelette
-Ice cream
-Bread
-Cake
-Roast
-Yogurt
-Fast food
-Pickles
-Maple syrup
-Toast
-Chocolate
-Mashed potatoes
+Šiška
+cestoviny
+kebab
+rožok
+lasagne
+syr
+pizza
+špagety
+omeleta
+Zmrzlina
+chlieb
+torta
+pečienka
+jogurt
+Rýchle občerstvenie
+nakladaná zelenina
+javorový sirup
+toast
+čokoláda
+Zemiaková kaša

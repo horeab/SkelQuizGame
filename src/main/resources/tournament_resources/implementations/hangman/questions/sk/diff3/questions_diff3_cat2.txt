@@ -1,19 +1,19 @@
-Marigold
-Juniper
-Pistachio
+nechtík
+jalovec
+pistácie
 Ficus
-Cotton
-Basil
-Maple
-Poplar
+bavlna
+Bazalka
+javor
+topoľ
 Clementine
-Rice
-Avocado
-Black pepper
-Celery
-Lettuce
-Mustard
-Mandarin orange
-Rose hips
-Lotus
-Thyme
+ryža
+avokádo
+Čierne korenie
+zeler
+Šalát
+horčica
+Mandarinka oranžová
+Šípky
+lotus
+tymián

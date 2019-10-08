@@ -1,19 +1,19 @@
 Marigold
 Juniper
-Pistachio
+Pistasch
 Ficus
-Cotton
-Basil
-Maple
-Poplar
+Bomull
+Basilika
+Lönn
+Poppel
 Clementine
-Rice
-Avocado
-Black pepper
-Celery
-Lettuce
-Mustard
-Mandarin orange
-Rose hips
+Ris
+Avokado
+Svartpeppar
+Selleri
+Sallad
+Senap
+mandarin apelsin
+Nypon
 Lotus
-Thyme
+Timjan

@@ -1,20 +1,20 @@
-Potato salad
-Creme caramel
-Dumpling
-Pumpkin pie
-Souffle
-Cheese sandwich
-Stew
-Pickled cucumbers
-Pretzel
+Картопляний салат
+Крем-карамель
+Пельмені
+Гарбузовий пиріг
+Суфле
+Сирний сендвіч
+Тушковане м'ясо
+Мариновані огірки
+Крендель
 Currywurst
-Pistachio
-Couscous
-Grilled cheese
-Mozzarella
-Parmesan
-Fried Rice
-Biscuits
-Sushi
-Apple Pie
-Fish and chips
+Фісташки
+Кускус
+Смажений сир
+Моцарелла
+Пармезан
+Смажений рис
+Печиво
+Суші
+Яблучний пиріг
+Риба і чіпси

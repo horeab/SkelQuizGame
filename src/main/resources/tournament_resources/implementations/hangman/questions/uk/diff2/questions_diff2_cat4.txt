@@ -1,20 +1,20 @@
-Compote
-Moussaka
-Roast chicken
-Pastrami
-Olive oil
-Ravioli
-Milkshake
-Pork chop
-Chicken Soup
-Cheesecake
-French Toast
-Marzipan
-Goulash
-Meatloaf
-Burrito
-Dark chocolate
-Macaroni
-Gingerbread
-Waffle
-Barbecue
+Компот
+Мусака
+Смажена курка
+Пастрамі
+Оливкова олія
+Равіолі
+Молочний коктейль
+Свиняча відбивна
+Курячий суп
+Чізкейк
+Французький тост
+Марципан
+Гуляш
+М’ясний хліб
+Буріто
+Темний шоколад
+Макарони
+Пряники
+Вафлі
+Барбекю

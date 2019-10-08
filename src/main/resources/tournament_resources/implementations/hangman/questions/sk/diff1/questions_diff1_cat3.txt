@@ -1,20 +1,20 @@
-aluminum foil
-blender
-cabinet
-coffee maker
-cook
-cupboard
-dish towel
-dishwasher
-food
-garbage can
-juicer
-ladle
-leftovers
+alobal
+mixér
+skrinka
+kávovar
+kuchár
+skriňa
+utierka na riad
+umývačka riadu
+jedlo
+odpadkový kôš
+odšťavovač
+naberačka
+zvyšky
 masher
-measuring cup
-oven
-recipe
-salad bowl
-salt shaker
-silverware
+odmerka
+rúra
+recept
+šalátová misa
+soľnička
+striebro

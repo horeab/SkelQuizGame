@@ -1,20 +1,20 @@
-Alligator
-Antelope
-Donkey
-Rhino
-Zebra
-Polar Bear
-Goat
-Whale
-Gorilla
-Koala
-Camel
-Hyena
-Frog
-Goldfish
-Jaguar
-Panda
-Sheep
-Wolf
-Tortoise
-Penguin
+Алігатор
+Антилопа
+Осел
+Носоріг
+Зебра
+Полярний ведмідь
+Козел
+Кит
+Горила
+Коала
+Верблюд
+Гієна
+Жаба
+Золота рибка
+Ягуар
+Панда
+Вівці
+Вовк
+Черепаха
+Пінгвін

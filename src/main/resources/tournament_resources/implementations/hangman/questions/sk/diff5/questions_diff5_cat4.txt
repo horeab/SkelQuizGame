@@ -1,20 +1,20 @@
-Cottage cheese
-Paella
-Gnocchi
-Ratatouille
-Tortellini
-Shawarma
-Tofu
+Tvaroh
+paella
+gnocchi
+ratatouille
+tortellini
+shawarma
+tofu
 Cordon Bleu
-Kefir
-Ground beef
-Falafel
-Ricotta
+kefír
+Mleté hovädzie mäso
+falafel
+ricotta
 Eclair
-Hummus
-Tzatziki sauce
-Tiramisu
-Potato wedges
-Antipasto
-Strudel
-Gravy
+hummus
+Tzatziki omáčka
+tiramisu
+Zemiakové kliny
+predjedál
+závin
+omáčka

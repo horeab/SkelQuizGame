@@ -1,20 +1,20 @@
-aluminum foil
-blender
-cabinet
-coffee maker
-cook
-cupboard
-dish towel
-dishwasher
-food
-garbage can
-juicer
-ladle
-leftovers
-masher
-measuring cup
-oven
-recipe
-salad bowl
-salt shaker
-silverware
+алюмінієва фольга
+блендер
+кабінет
+кавоварка
+готувати
+шафа
+рушник для посуду
+посудомийна машина
+їжа
+сміттєвий бак
+соковижималка
+ковш
+залишки
+майстер
+мірна чаша
+піч
+рецепт
+миска для салату
+сільничка
+срібла

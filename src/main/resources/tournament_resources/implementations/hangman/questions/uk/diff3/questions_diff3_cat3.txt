@@ -1,20 +1,20 @@
-beater
-broom
-chopsticks
-counter
-cup
-decanter
-dough
-honey pot
-ice cream scoop
-mixer
-mixing bowl
-mold
-paper towels
-plastic wrap
-roaster
-roasting pan
-shears
-shelves
-sieve
-slicer
+каламутник
+мітла
+палички для їжі
+лічильник
+чашка
+графин
+тісто
+горщик для меду
+совок морозива
+змішувач
+чаша для перемішування
+цвіль
+паперові рушники
+пластикове обгортання
+жаровня
+сковорода
+ножиці
+полиці
+решето
+нарізка

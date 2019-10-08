@@ -1,20 +1,20 @@
-kitchen
-knife
-knife sharpener
-microwave oven
-napkin
-pepper grinder
-refrigerator
-spices
-teapot
-teaspoon
-thermometer
-sink
-skewers
-soup bowl
-table
-tongs
-trash bags
-trash can
-tablecloth
-toaster
+kök
+kniv
+knivvässare
+mikrovågsugn
+servett
+pepparkvarn
+kylskåp
+kryddor
+tekanna
+tesked
+termometer
+sjunka
+grillspett
+soppa skål
+tabell
+tång
+soppåsar
+soptunna
+bordsduk
+brödrost

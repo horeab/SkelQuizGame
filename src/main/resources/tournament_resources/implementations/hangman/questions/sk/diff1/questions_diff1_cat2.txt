@@ -1,20 +1,20 @@
-Tulip
-Onion
-Cherries
-Pumpkin
-Strawberry
-Coffee
-Dandelion
-Pineapple
-Peanuts
-Nettle
-Apricot
-Coconut
-Grapefruit
-Watermelon
-Melon
-Sour cherries
-Mint
+tulipán
+Cibuľa
+čerešne
+tekvica
+jahoda
+káva
+púpava
+ananás
+arašidy
+žihľava
+marhuľa
+kokosový orech
+grapefruit
+vodný melón
+melón
+Višne
+mäta
 Peppers
-Cabbage
-Peas
+kapusta
+Hrach

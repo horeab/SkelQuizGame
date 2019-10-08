@@ -1,20 +1,19 @@
-Beaver
-King cobra
-Flamingo
-Albatross
-Seagull
-Jackal
-Lark
-Loris
-Lobster
-Marten
-Walrus
-Mink
-Bison
-Porcupine
-Red Panda
-Salamander
-Stingray
-Nightingale
-Otter
-Herring
+Бобр
+Кобра короля
+Фламінго
+Альбатрос
+Чайка
+Шакал
+Жайворонок
+Лоріс
+Омари
+Куниця
+Морж
+Норка
+Зубр
+Дикобраз
+Червона панда
+Саламандра
+Соловей
+Видра
+Оселедець

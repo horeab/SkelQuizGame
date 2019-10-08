@@ -1,20 +1,20 @@
-Compote
-Moussaka
-Roast chicken
-Pastrami
-Olive oil
+Kompot
+musaka
+Pečeno pile
+pastrami
+Maslinovo ulje
 Ravioli
-Milkshake
-Pork chop
-Chicken Soup
-Cheesecake
-French Toast
-Marzipan
-Goulash
-Meatloaf
+milkshake
+Svinjski odrezak
+Pileća juha
+torta od sira
+Francuski tost
+Marcipan
+Gulaš
+Mesna štruca
 Burrito
-Dark chocolate
-Macaroni
-Gingerbread
-Waffle
-Barbecue
+Tamna čokolada
+Makaroni
+Medenjak
+Blebetanje
+Roštilj

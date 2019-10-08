@@ -1,20 +1,20 @@
-aluminum foil
-blender
-cabinet
-coffee maker
-cook
-cupboard
-dish towel
-dishwasher
-food
-garbage can
-juicer
-ladle
-leftovers
+aluminiumfolie
+blandare
+skåp
+kaffebryggare
+kock
+skåp
+Disktrasa
+diskmaskin
+mat
+papperskorg
+juicepress
+slev
+matrester
 masher
-measuring cup
-oven
-recipe
-salad bowl
-salt shaker
-silverware
+Mätglaset
+ugn
+recept
+salladsskål
+saltkar
+bestick

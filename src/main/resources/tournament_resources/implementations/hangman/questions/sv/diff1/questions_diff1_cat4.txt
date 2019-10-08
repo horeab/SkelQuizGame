@@ -1,20 +1,20 @@
-Peanut Butter
-Chips
-Tacos
+Jordnötssmör
+Pommes frites
+tacos
 Pudding
-Meatballs
-Roast chicken
-Honey
-Seafood
-French fries
-Sausages
-Hamburger
-Mayonnaise
-Popcorn
-Cheeseburger
-Hot Dog
+Köttbullar
+Rostad kyckling
+Honung
+Skaldjur
+pommes frites
+korv
+Hamburgare
+Majonnäs
+popcorn
+Ostburgare
+Varmkorv
 Cupcake
 Bacon
 Ketchup
-Butter
-Pancake
+Smör
+Pannkaka

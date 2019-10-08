@@ -1,20 +1,20 @@
-Pesto
-Tomato sauce
-Muesli
-Swiss cheese
-Tortilla
-Baklava
+pesto
+Umak od rajčice
+muesli
+Švicarski sir
+tortilla
+baklava
 Curry
-Guacamole
-White chocolate
-Vinegar
-Hot chocolate
+guacamole
+bijela čokolada
+Ocat
+Vruća čokolada
 Dim sum
-Pasta carbonara
-Rice pudding
-Roast beef
-Muffin
-Chocolate Cake
-Vegetable soup
-Noodle soup
-Caesar salad
+Karbonara od tjestenine
+Puding od riže
+Pečena govedina
+Kolač
+Čokoladna torta
+Juha od povrća
+Juha od rezanci
+Cezar salata

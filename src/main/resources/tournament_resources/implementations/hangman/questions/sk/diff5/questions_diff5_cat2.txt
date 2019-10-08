@@ -1,20 +1,20 @@
-Anise
-Bonsai
-Daisy
-Pomegranate
-Bamboo
-Wheat
-Brussels sprouts
-Chickpeas
-Wasabi
-Sequoia
-Snapdragon
-Venus flytrap
-Anemone
-Papaya
-Fennel
-Parsnip
-Pomelo
-Rosemary
-Chrysanthemum
-Ginger
+aníz
+bonsai
+sedmokráska
+Granátové jablko
+bambus
+Pšenica
+Ružičkový kel
+cícer
+wasabi
+sekvoje
+papuľka
+Venuša muchotrávka
+sasanka
+papája
+fenikel
+paštrnák
+pomelo
+rozmarín
+chryzantéma
+zázvor

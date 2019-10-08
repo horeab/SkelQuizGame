@@ -1,20 +1,20 @@
-Alligator
-Antelope
-Donkey
+aligátor
+antilopa
+somár
 Rhino
-Zebra
-Polar Bear
-Goat
-Whale
-Gorilla
-Koala
-Camel
-Hyena
-Frog
-Goldfish
-Jaguar
-Panda
-Sheep
-Wolf
-Tortoise
-Penguin
+zebra
+Ľadový medveď
+Koza
+veľrybie
+gorila
+koala
+ťava
+hyena
+žaba
+zlatá rybka
+jaguár
+panda
+ovce
+vlk
+Korytnačka
+tučniak

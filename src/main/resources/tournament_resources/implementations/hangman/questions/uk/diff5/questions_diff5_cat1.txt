@@ -1,19 +1,19 @@
-Alpaca
-Armadillo
-Chinchilla
-Echidna
-Raccoon
-Egret
-Tasmanian devil
-Komodo dragon
-Barracuda
-Magpie
-Manatee
-Prairie dog
-Starling
-Tapir
-Tarsier
-Lemur
+Альпака
+Армаділло
+Шиншила
+Ехідна
+Єнот
+Чапля
+Тасманійський диявол
+Дракон Комодо
+Барракуда
+Сорока
+Менеджер
+Прерійний пес
+Старлінг
+Тапір
+Тарсьє
+Лемур
 Meerkat
-Guineafowl
+Цесарки
 Possum

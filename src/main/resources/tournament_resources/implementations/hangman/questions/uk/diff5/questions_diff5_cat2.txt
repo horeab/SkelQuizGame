@@ -1,20 +1,20 @@
-Anise
-Bonsai
-Daisy
-Pomegranate
-Bamboo
-Wheat
-Brussels sprouts
-Chickpeas
-Wasabi
-Sequoia
+Аніс
+Бонсай
+Ромашка
+Гранат
+Бамбук
+Пшениця
+брюсельська капуста
+Нут
+Васабі
+Секвоя
 Snapdragon
-Venus flytrap
-Anemone
-Papaya
-Fennel
-Parsnip
-Pomelo
-Rosemary
-Chrysanthemum
-Ginger
+Венера мухоловка
+Анемона
+Папайя
+Фенхель
+Морська лопатка
+Помело
+Розмарин
+Хризантема
+Імбир

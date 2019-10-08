@@ -1,20 +1,20 @@
-Compote
-Moussaka
-Roast chicken
-Pastrami
-Olive oil
+Kompott
+moussaka
+Rostad kyckling
+Pastrami 
+Olivolja
 Ravioli
-Milkshake
-Pork chop
-Chicken Soup
+milkshake
+Fläskkotlett
+Kycklingsoppa
 Cheesecake
-French Toast
-Marzipan
-Goulash
-Meatloaf
-Burrito
-Dark chocolate
-Macaroni
-Gingerbread
-Waffle
-Barbecue
+Fattiga riddare
+Marsipan
+Gulasch
+Köttfärslimpa
+burrito
+Mörk choklad
+Makaroner
+Pepparkaka
+Våffla
+Utegrill

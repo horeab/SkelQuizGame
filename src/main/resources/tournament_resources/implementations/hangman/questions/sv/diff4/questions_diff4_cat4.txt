@@ -1,20 +1,20 @@
-Pesto
-Tomato sauce
-Muesli
-Swiss cheese
+pesto
+Tomatsås
+Mysli
+schweizisk ost
 Tortilla
-Baklava
+baklava
 Curry
-Guacamole
-White chocolate
-Vinegar
-Hot chocolate
+guacamole
+vit choklad
+Vinäger
+Varm choklad
 Dim sum
 Pasta carbonara
-Rice pudding
-Roast beef
+Risgrynsgröt
+Rostbiff
 Muffin
-Chocolate Cake
-Vegetable soup
-Noodle soup
-Caesar salad
+Chokladkaka
+Vegetarisk soppa
+Nudelsoppa
+caesarsallad
