@@ -32,6 +32,7 @@ import libgdx.screens.implementations.geoquiz.GeoQuizCampaignScreen;
 import libgdx.screens.implementations.geoquiz.QuizScreenManager;
 import libgdx.utils.ScreenDimensionsManager;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> {
@@ -81,7 +82,19 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
                 @Override
                 public void changed(ChangeEvent event, Actor actor) {
                     CampaignLevel campaignLevel = getHangmanCampaignLevelEnum(maxLevelFinished, finalIndex);
-                    HangmanGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(new CampaignLevelEnumService(campaignLevel).getQuestionConfig(HangmanGameScreen.TOTAL_QUESTIONS)), campaignLevel);
+                    CampaignLevelEnumService enumService = new CampaignLevelEnumService(campaignLevel);
+                    QuestionConfig questionConfig = enumService.getQuestionConfig(HangmanGameScreen.TOTAL_QUESTIONS);
+                    //if this category, the questions should be mixed from all other categs
+                    if (enumService.getCategory() == HangmanQuestionCategoryEnum.cat5.getIndex()) {
+                        List<String> questionCategoryStringList = new ArrayList<>();
+                        for (HangmanQuestionCategoryEnum categ : HangmanQuestionCategoryEnum.values()) {
+                            if (categ != HangmanQuestionCategoryEnum.cat5) {
+                                questionCategoryStringList.add(categ.name());
+                            }
+                        }
+                        questionConfig = new QuestionConfig(questionConfig.getQuestionDifficultyStringList(), questionCategoryStringList, questionConfig.getAmount());
+                    }
+                    HangmanGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), campaignLevel);
                 }
             });
             Table btnTable = new Table();
