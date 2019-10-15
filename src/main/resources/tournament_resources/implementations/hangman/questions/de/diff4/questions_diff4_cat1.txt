@@ -10,7 +10,6 @@ Hummer
 Marder
 Walross
 Nerz
-Bison
 Stachelschwein
 Kleiner Panda
 Salamander

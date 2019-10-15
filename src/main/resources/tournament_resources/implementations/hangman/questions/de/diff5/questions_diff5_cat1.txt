@@ -11,10 +11,9 @@ Barrakuda
 Elster
 Seekuh
 Präriehund
-Starling
 Tapire
 Koboldmakis
 Lemuren
 Sibirischer Tiger
 Perlhuhn
-Opossum
+Opossums
