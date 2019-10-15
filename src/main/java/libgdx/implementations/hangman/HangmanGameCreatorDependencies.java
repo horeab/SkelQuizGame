@@ -4,6 +4,7 @@ import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.controls.button.MyButton;
 import libgdx.implementations.skelgame.gameservice.*;
+import libgdx.implementations.skelgame.question.Question;
 import libgdx.screen.AbstractScreen;
 import libgdx.screens.GameScreen;
 
@@ -18,7 +19,12 @@ public class HangmanGameCreatorDependencies extends CreatorDependencies {
 
     @Override
     public QuestionCreator getQuestionCreator(QuestionDifficulty questionDifficulty, QuestionCategory questionCategory) {
-        return new QuestionCreator(questionDifficulty, questionCategory);
+        return new QuestionCreator(questionDifficulty, questionCategory) {
+            @Override
+            protected boolean isQuestionValid(Question question) {
+                return question.getQuestionString().length() > 3 && question.getQuestionString().length() < 21;
+            }
+        };
     }
 
     @Override

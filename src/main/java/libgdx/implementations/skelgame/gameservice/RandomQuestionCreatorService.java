@@ -1,11 +1,10 @@
 package libgdx.implementations.skelgame.gameservice;
 
-import libgdx.campaign.QuestionCategory;
+import java.util.Arrays;
+
 import libgdx.campaign.QuestionConfig;
 import libgdx.campaign.RandomCategoryAndDifficulty;
 import libgdx.implementations.skelgame.question.Question;
-
-import java.util.Arrays;
 
 public class RandomQuestionCreatorService {
 

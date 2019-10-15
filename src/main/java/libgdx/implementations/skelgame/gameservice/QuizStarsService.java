@@ -2,7 +2,7 @@ package libgdx.implementations.skelgame.gameservice;
 
 public class QuizStarsService {
 
-    public static final int NR_OF_STARS_TO_DISPLAY = 2;
+    public static final int NR_OF_STARS_TO_DISPLAY = 1;
 
     public int getStarsWon(float percentCorrectAnswers) {
         if (percentCorrectAnswers == 100f) {
