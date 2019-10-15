@@ -1,18 +1,13 @@
 Alpaka
-Gordeldier
+Armadillo
 Chinchilla
-mierenegel
-Wasbeer
-reiger
-Tasmaanse duivel
-Komodovaraan
+Vaskebjørn
+Tasmansk djævel
+Komodo drage
 Barracudaer
-Ekster
-Manater
-prairiehond
-Spreeuw
+søko
+præriehund
 Tapirer
-Lemurer
+Tarsier
 Meerkat
-Parelhoen
-buidelrat
+Perlehøne

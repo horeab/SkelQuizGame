@@ -14,5 +14,4 @@ stegeso
 stegepande
 saks
 hylder
-si
 pålægsmaskine

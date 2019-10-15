@@ -1,12 +1,9 @@
-paella
-Ratatouille
-tofu
-Kefir
-falafel
-ricotta
-Eclair
-hummus
-Tzatziki-saus
+Hytteost
+Shawarma
+Tofu
+kefir
+Hakket oksekød
+Falafel
+Tzatziki-sauce
 Tiramisu
-Aardappelpartjes
-antipasto
+Kartoffelkiler
