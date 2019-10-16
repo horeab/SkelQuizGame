@@ -9,7 +9,6 @@ leipäkori
 Purkinavaaja
 vuoka
 kahvimylly
-kahvimylly
 keittokirja
 ruokailuvälineet
 ruokalaji

@@ -5,7 +5,6 @@ Albatrossi
 Lokki
 Sakaali
 kiuru
-loris
 Hummeri
 Näätä
 Mursu
