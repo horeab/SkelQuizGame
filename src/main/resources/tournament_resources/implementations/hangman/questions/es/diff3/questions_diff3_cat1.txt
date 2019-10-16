@@ -1,4 +1,3 @@
-Alce
 Cóndor
 Víbora
 Halcón
@@ -6,7 +5,6 @@ Trucha
 Mamba negro
 Medusa
 Reno
-Llama
 Cisne
 Faisán
 Codorniz
@@ -15,4 +13,3 @@ Escorpión
 Mula
 Zorrillo
 Gacela
-Coyote
