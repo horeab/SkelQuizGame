@@ -1,6 +1,5 @@
 Burgonya
 Orchidea
-bab
 alma
 Rózsa
 Kukorica
@@ -15,6 +14,5 @@ Körte
 Szilva
 Banán
 Uborka
-Szőlő
 Paradicsom
 Sárgarépa

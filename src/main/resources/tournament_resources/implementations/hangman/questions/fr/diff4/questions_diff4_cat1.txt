@@ -14,7 +14,6 @@ Bison
 Porc-épic
 Panda rouge
 Salamandre
-Galuchat
 Rossignol
 Loutre
 Hareng

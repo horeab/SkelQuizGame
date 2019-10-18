@@ -7,7 +7,6 @@ Cacao
 Kiwi
 Mangue
 Raifort
-Chiffres
 Origan
 Épicéa
 Groseilles
