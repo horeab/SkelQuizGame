@@ -1,14 +1,8 @@
 Pondok keju
-paella
-Gnocchi
-Ratatouille
-Tortellini
 Shawarma
 Tahu
-Cordon Bleu
 Kefir
 Daging giling
-Bola goreng terbuat dari buncis
 Ricotta
 Eclair
 hummus
@@ -16,5 +10,4 @@ Saus Tzatziki
 tiramisu
 Irisan kentang
 Antipasto
-Strudel
 Saus

@@ -14,7 +14,5 @@ Popcorn
 Big Mac
 Hot dog
 Cupcake
-Bacon
-Ketchup
 Burro
 Pancake

@@ -1,5 +1,3 @@
-alumunium foil
-blender
 kabinet
 pembuat kopi
 memasak
@@ -8,12 +6,8 @@ kain untuk pencuci piring
 pencuci piring
 makanan
 Tempat sampah
-Juicer
 sendok
-sisa
-hidung belang
 gelas pengukur
-oven
 resep
 Mangkuk salad
 pengocok garam

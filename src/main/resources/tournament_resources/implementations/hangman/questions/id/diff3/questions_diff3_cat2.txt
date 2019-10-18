@@ -1,12 +1,7 @@
-Marigold
 Jintan saru
-Pistachio
-Ficus
 Kapas
 Kemangi
-Maple
 Poplar
-Clementine
 Nasi
 Alpukat
 Lada hitam
@@ -14,6 +9,5 @@ Seledri
 Selada
 Moster
 jeruk mandarin
-Rose pinggul
 Teratai
 Timi
