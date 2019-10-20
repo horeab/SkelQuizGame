@@ -5,6 +5,7 @@ import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.implementations.skelgame.question.Question;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
+
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.*;

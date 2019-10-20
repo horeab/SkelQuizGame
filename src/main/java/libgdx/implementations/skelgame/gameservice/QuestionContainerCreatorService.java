@@ -101,10 +101,10 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
             MyButton button = (MyButton) getAllAnswerButtons().get(gameAnswerInfo.getAnswer());
             try {
                 gameControlsService.disableButton(button);
+                button.setButtonSkin(buttonSkin);
             } catch (NullPointerException e) {
                 int i = 0;
             }
-            button.setButtonSkin(buttonSkin);
         }
         if (!gameQuestionInfo.isQuestionOpen()) {
             RunnableAction action1 = new RunnableAction();

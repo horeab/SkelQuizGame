@@ -38,6 +38,7 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
 
     @Override
     public void buildStage() {
+        System.out.println(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getQuestion().getQuestionString());
         allTable = new Table();
         allTable.setFillParent(true);
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
