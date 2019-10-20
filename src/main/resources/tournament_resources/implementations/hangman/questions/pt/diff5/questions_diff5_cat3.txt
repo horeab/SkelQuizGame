@@ -1,13 +1,7 @@
 cozinha
 faca
 guardanapo
-frigorífico
-especiarias
-bule
+geladeira
+chaleira
 termômetro
-espetos
-pinças
-sacos de lixo
-lixeira
-toalha de mesa
-torradeira
+Pia

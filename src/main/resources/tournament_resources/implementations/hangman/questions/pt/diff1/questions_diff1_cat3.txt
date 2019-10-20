@@ -1,13 +1,7 @@
-liquidificador
-gabinete
 cozinhar
-armário
+lava-louças
 Comida
-espremedor
-concha
-sobras
+lata de lixo
 espremedor
 forno
 receita
-Saleiro
-talheres

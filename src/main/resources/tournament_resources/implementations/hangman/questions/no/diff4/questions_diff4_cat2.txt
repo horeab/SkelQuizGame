@@ -3,7 +3,6 @@ Fern
 kastanje
 Eucalyptus
 bjørk
-Alder
 rabarbra
 Dato håndflate
 linser
@@ -17,4 +16,3 @@ Kløver
 Hops
 misteltein
 Magnolia
-Snowdrop

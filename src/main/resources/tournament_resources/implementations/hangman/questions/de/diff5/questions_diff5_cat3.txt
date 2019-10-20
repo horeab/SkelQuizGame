@@ -1,19 +1,7 @@
-Utensilien
-gewachstes Papier
-Zuckerschüssel
-Tablett
-Besteck
-Suppenschüssel
-Tabelle
-Zange
-Müllbeutel
-Mülleimer
-Messerschärfer
-Mikrowelle
+Küche
+Messer
 Serviette
-Pfeffermühle
 Kühlschrank
-Gewürze
 Teekanne
-Teelöffel
 Thermometer
+sinken

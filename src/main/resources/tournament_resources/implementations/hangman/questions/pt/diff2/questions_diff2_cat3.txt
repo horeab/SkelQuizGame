@@ -1,10 +1,7 @@
-massa
-costeleta
-fogão
-abridor
-placa
-travessa
-rolo de massa
-pires
-peneira
+congelador
 frigideira
+chaleira
+mesa
+torradeira
+Escorredor de macarrão
+Espátula

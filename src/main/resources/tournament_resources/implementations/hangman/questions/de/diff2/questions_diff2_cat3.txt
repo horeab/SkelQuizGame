@@ -1,20 +1,7 @@
-Teig
-Kuchenform
-hacken
+Gefrierschrank
+Bratpfanne
+Kessel
+Tabelle
+Toaster
 Sieb
-Kocher
-Geschirrkorb
-Spülmittel
-Knoblauchpresse
-Eis Eimer
-Glas
-Krug
-Messlöffel
-Fleischwolf
-Fleischklopfer
-Öffner
-Pfanne
-Teller
-Sichter
-Nudelholz
-Untertasse
+Spatel

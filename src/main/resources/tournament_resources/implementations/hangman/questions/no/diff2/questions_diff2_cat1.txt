@@ -1,7 +1,5 @@
 Gås
-Badger
 Villsvin
-Stork
 Kenguru
 Anaconda
 Ekorn
@@ -9,12 +7,9 @@ Papegøye
 Hamster
 Pinnsvin
 Flodhest
-Beetle
 Panter
 blekksprut
-Python
 Bavian
-Ilder
 brunbjørn
 Pelikan
 Ravn

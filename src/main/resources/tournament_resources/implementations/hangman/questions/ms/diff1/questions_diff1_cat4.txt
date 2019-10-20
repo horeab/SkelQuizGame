@@ -1,8 +1,6 @@
 Mentega kacang
-Kerepek
 Tacos
 Puding
-Bola bakar
 Ayam panggang
 Madu
 Makanan laut
@@ -10,11 +8,5 @@ Goreng Perancis
 Sosej
 Hamburger
 Mayonis
-Popcorn
 Burger keju
 Sosej
-Cupcake
-Bacon
-Ketchup
-Butter
-Lempeng

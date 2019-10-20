@@ -1,16 +1,7 @@
 avental
-assadeira
-cesta
-ferver
 garrafa
+Abridor de garrafa
 tigela
-cesta de pão
-caçarola
+livro de receitas
 talheres
-prato
 garfo
-congelador
-frigideira
-saco de lixo
-óculos
-chaleira

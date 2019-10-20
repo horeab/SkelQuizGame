@@ -1,16 +1,7 @@
-tritare
-colino
-fornello
-colapiatti
-spremiaglio
-vaso
-brocca
-misurini
-tritacarne
-batticarne
-opener
-Pan
-piatto
-perno rotante
-piattino
-setacciatore
+congelatore
+padella
+bollitore
+tavolo
+tostapane
+Colino
+Spatola

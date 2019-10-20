@@ -14,7 +14,6 @@ Bison
 pinnsvin
 Rød panda
 Salamander
-rokke
 nattergal
 Otter
 sild

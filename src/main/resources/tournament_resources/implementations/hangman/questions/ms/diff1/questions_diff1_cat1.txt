@@ -1,12 +1,10 @@
 Buaya
-Antelope
 Keldai
 Badak
 Zebra
 Beruang kutub
 Kambing
 Paus
-Gorilla
 Koala
 Unta
 Hyena
@@ -15,6 +13,4 @@ Ikan emas
 Jaguar
 Panda
 Kambing biri-biri
-Wolf
 Kura-Kura
-Penguin

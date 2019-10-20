@@ -1,19 +1,7 @@
-cuillères à mesurer
-hachoir à viande
-attendrisseur de viande
-ouvreur
-casserole
-assiette
-plat
-rouleau à pâtisserie
-soucoupe
-tamis
-poêlon
-pot de ragout
-nappe de table
-verre
-éplucheur à légumes
-passoire
-cuisinier
-égouttoir
-produit vaisselle
+congélateur
+poêle à frire
+bouilloire
+table
+grille-pain
+Passoire
+Spatule

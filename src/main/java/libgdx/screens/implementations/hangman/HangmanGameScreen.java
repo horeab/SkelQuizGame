@@ -23,7 +23,7 @@ import java.util.List;
 
 public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
 
-    public static int TOTAL_QUESTIONS = 1;
+    public static int TOTAL_QUESTIONS = 5;
 
     private CampaignLevel campaignLevel;
     private Table allTable;

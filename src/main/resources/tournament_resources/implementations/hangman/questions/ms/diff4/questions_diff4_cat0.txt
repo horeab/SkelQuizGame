@@ -1,11 +1,8 @@
-Afghanistan
 Arab Saudi
 Pantai Gading
 Bahamas
 Bahrain
-Costa rica
 El Salvador
-Kenya
 Guatemala
 Honduras
 Jordan
@@ -14,7 +11,4 @@ Qatar
 Panama
 Liberia
 Singapura
-Thailand
-Yemen
-Malta
 Vatican

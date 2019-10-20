@@ -1,18 +1,7 @@
-tészta
-tortaforma
-szelet
-szűrőedény
-tűzhely
-edényszárító
-mosogató szappan
-fokhagyma sajt
-jeges vödör
-mérőkanál
-húsdaráló
-hús tenderező
-nyitó
-lemez
-tál
-sodrófa
-csészealj
+mélyhűtő
 serpenyő
+vízforraló
+asztal
+kenyérpirító
+Szűrőedény
+Spatula

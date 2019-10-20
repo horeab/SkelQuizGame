@@ -1,20 +1,7 @@
-utensili
-carta cerata
-affettatrice
-piroscafo
-zuccheriera
-vassoio
-zuppiera
-tegame
-piatto di stufato
-tovaglia
-tostapane
-acrobata
-sbucciatore di verdure
-argenteria
+cucina
+coltello
+tovagliolo
+frigorifero
+teiera
+termometro
 Lavello
-spiedini
-zuppiera
-tavolo
-tenaglie
-cestino

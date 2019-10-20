@@ -1,6 +1,5 @@
 Anis
 Bonsai
-Daisy
 Granatäpple
 Bambu
 Vete
@@ -9,7 +8,6 @@ Kikärtor
 Wasabi
 Sequoia
 Lejongap
-Venus flugfälla
 Anemon
 Papaya
 Fänkål

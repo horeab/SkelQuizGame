@@ -1,15 +1,7 @@
-batidora
 Escoba
 palillos
-mostrador
-vaso
-licorera
-masa
-mezclador
-molde
-tostador
-asadera
+taza
 tijeras
-estantería
 tamiz
-rebanador
+Papel de aluminio
+Toalla

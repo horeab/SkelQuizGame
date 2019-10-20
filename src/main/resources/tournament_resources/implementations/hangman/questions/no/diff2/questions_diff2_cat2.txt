@@ -1,5 +1,4 @@
 blåbær
-Quince
 Kaktus
 Reddik
 Rødbet
@@ -8,13 +7,11 @@ kiwi
 Mango
 Pepperrot
 fiken
-oregano
 gran
 Solbær
 aubergine
 berberis
 Oliven
 Brokkoli
-dill
 Spinat
 Blomkål

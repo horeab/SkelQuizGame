@@ -5,7 +5,6 @@ Ratatouille
 Tortellini
 Shawarma
 Tauhu
-Cordon Bleu
 Kefir
 Daging lembu
 Falafel
@@ -16,5 +15,3 @@ Sos Tzatziki
 Tiramisu
 Baji kentang
 Antipasto
-Strudel
-Gravy

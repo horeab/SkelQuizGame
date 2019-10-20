@@ -2,7 +2,6 @@ Tulpan
 Lök
 körsbär
 Pumpa
-Strawberry
 Kaffe
 Maskros
 Ananas
@@ -15,6 +14,5 @@ Vattenmelon
 Melon
 Sura körsbär
 Mynta
-Peppers
 Kål
 ärtor

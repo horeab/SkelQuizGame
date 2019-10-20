@@ -1,19 +1,7 @@
 grembiule
-teglia
-cestino
-Bollire
 bottiglia
 apri bottiglia
 ciotola
-cestino del pane
-apriscatole
-casseruola
-macinacaffè
 ricettario
 posate
-piatto
 forchetta
-congelatore
-padella
-busta della spazzatura
-bicchieri
