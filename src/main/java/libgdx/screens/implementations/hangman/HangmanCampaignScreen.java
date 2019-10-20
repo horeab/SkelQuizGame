@@ -10,6 +10,7 @@ import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.ButtonSkin;
 import libgdx.controls.button.MainButtonSkin;
 import libgdx.controls.button.MyButton;
+import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfig;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
@@ -50,6 +51,7 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
         table.setFillParent(true);
         table.add(createAllTable());
         addActor(table);
+        new BackButtonBuilder().addHoverBackButton(this);
     }
 
     private Table createAllTable() {

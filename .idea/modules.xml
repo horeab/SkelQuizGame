@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/LibGdxControls.iml" filepath="$PROJECT_DIR$/.idea/modules/LibGdxControls.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SkelGame.iml" filepath="$PROJECT_DIR$/.idea/modules/SkelGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SkelQuizGame.iml" filepath="$PROJECT_DIR$/.idea/modules/SkelQuizGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SkelQuizGame_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SkelQuizGame_main.iml" group="SkelQuizGame" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SkelQuizGame_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SkelQuizGame_test.iml" group="SkelQuizGame" />
     </modules>
   </component>
 </project>

@@ -31,8 +31,13 @@ public class StartGameHangman {
                     }
 
                     @Override
+                    public boolean isPortraitMode() {
+                        return true;
+                    }
+
+                    @Override
                     public String getLanguage() {
-                        return Language.ro.name();
+                        return Language.en.name();
                     }
                 });
         libgdx.utils.startgame.StartGame.main(game, args);
@@ -41,63 +46,51 @@ public class StartGameHangman {
     public static String getTitle() {
         switch (Language.valueOf(Game.getInstance().getAppInfoService().getLanguage())) {
             case cs:
-                return "xxx";
+                return "Šibenice";
             case da:
-                return "xxx";
+                return "Galgespil";
             case de:
-                return "xxx";
+                return "Galgenmännchen";
             case el:
-                return "xxx";
+                return "Κρεμάλα";
             case en:
-                return "xxx";
+                return "Hangman";
             case es:
-                return "xxx";
+                return "Ahorcado";
             case fi:
-                return "xxx";
+                return "Hirsipu";
             case fr:
-                return "xxx";
-            case hi:
-                return "xxx";
+                return "Le Pendu";
             case hr:
-                return "xxx";
+                return "Vješala";
             case hu:
-                return "xxx";
+                return "Akasztófa";
             case id:
-                return "xxx";
+                return "Indonesian Hangman";
             case it:
-                return "xxx";
-            case ja:
-                return "xxx";
-            case ko:
-                return "xxx";
+                return "L'impiccato";
             case ms:
-                return "xxx";
+                return "Malay Hangman";
             case nl:
-                return "xxx";
+                return "Galgje";
             case no:
-                return "xxx";
+                return "Norsk Hangman";
             case pl:
-                return "xxx";
+                return "Wisielec";
             case pt:
-                return "xxx";
+                return "Jogo da forca";
             case ro:
-                return "xxx";
+                return "Spânzurătoare";
             case ru:
-                return "xxx";
+                return "Виселица";
             case sk:
-                return "xxx";
+                return "Slovenský Hangman";
             case sv:
-                return "xxx";
-            case th:
-                return "xxx";
+                return "Hänga gubbe";
             case tr:
-                return "xxx";
+                return "Adam asmaca";
             case uk:
-                return "xxx";
-            case vi:
-                return "xxx";
-            case zh:
-                return "xxx";
+                return "Шибениця";
         }
         return null;
     }

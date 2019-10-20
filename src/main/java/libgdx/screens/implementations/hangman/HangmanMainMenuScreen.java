@@ -1,56 +1,38 @@
 package libgdx.screens.implementations.hangman;
 
-import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
-import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
 
-import java.util.List;
-
-import libgdx.campaign.CampaignLevel;
-import libgdx.campaign.CampaignLevelEnumService;
-import libgdx.campaign.CampaignService;
-import libgdx.campaign.CampaignStoreLevel;
 import libgdx.campaign.CampaignStoreService;
-import libgdx.campaign.LettersCampaignLevelEnum;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.ButtonBuilder;
-import libgdx.controls.button.ButtonSkin;
-import libgdx.controls.button.MainButtonSkin;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.hangman.HangmanCampaignLevelEnum;
-import libgdx.implementations.hangman.HangmanGame;
-import libgdx.implementations.hangman.HangmanQuestionCategoryEnum;
 import libgdx.implementations.hangman.HangmanSpecificResource;
 import libgdx.implementations.skelgame.GameButtonSkin;
-import libgdx.implementations.skelgame.gameservice.GameContextService;
-import libgdx.implementations.skelgame.gameservice.QuizStarsService;
+import libgdx.implementations.skelgame.SkelGameRatingService;
 import libgdx.resources.FontManager;
-import libgdx.resources.MainResource;
 import libgdx.resources.Resource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.MainGameLabel;
-import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.geoquiz.GeoQuizCampaignScreen;
-import libgdx.screens.implementations.geoquiz.QuizScreenManager;
 import libgdx.utils.ScreenDimensionsManager;
+import libgdx.utils.Utils;
 
 public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> {
 
     @Override
     public void buildStage() {
+        new SkelGameRatingService(this).appLaunched();
         addButtons();
     }
 
@@ -58,9 +40,7 @@ public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> 
         Table table = new Table();
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
         float horizontalGeneralMarginDimen = MainDimen.horizontal_general_margin.getDimen();
-        if (Gdx.app.getType() == Application.ApplicationType.iOS) {
-            new BackButtonBuilder().addHoverBackButton(this);
-        }
+        new BackButtonBuilder().addHoverBackButton(this);
         table.setFillParent(true);
         addTitle(table);
         MyButton startGameBtn = createStartGameBtn();
@@ -117,6 +97,12 @@ public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> 
             }
         });
         return button;
+    }
+
+    @Override
+    public void render(float delta) {
+        super.render(delta);
+        Utils.createChangeLangPopup();
     }
 
     @Override

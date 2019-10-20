@@ -7,6 +7,7 @@ import libgdx.campaign.CampaignGame;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
 import libgdx.controls.button.MyButton;
+import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.implementations.hangman.HangmanGame;
@@ -55,6 +56,7 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
                 .growY();
         addActor(allTable);
         hangmanQuestionContainerCreatorService.processGameInfo(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
+        new BackButtonBuilder().addHoverBackButton(this);
     }
 
     public void goToNextQuestionScreen() {
