@@ -19,6 +19,7 @@ public enum HangmanSpecificResource implements SpecificResource {
     h4("h4.png", Texture.class),
     h5("h5.png", Texture.class),
     h6("h6.png", Texture.class),
+    main_menu_background_texture("main_menu_background_texture.png", Texture.class),
 
     btn_hangman_correct("buttons/btn_hangman_correct.png", Texture.class),
     btn_hangman_wrong("buttons/btn_hangman_wrong.png", Texture.class),

@@ -27,6 +27,8 @@ import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.screen.AbstractScreen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
+import libgdx.utils.model.FontColor;
+import libgdx.utils.model.FontConfig;
 
 public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> {
 
@@ -50,6 +52,7 @@ public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> 
         maxLevelTable.add(GraphicUtils.getImage(HangmanSpecificResource.star)).padLeft(horizontalGeneralMarginDimen).width(horizontalGeneralMarginDimen * 5).height(horizontalGeneralMarginDimen * 5);
         table.add(maxLevelTable).padTop(horizontalGeneralMarginDimen * 2);
         addActor(table);
+        table.setBackground(GraphicUtils.getNinePatch(HangmanSpecificResource.main_menu_background_texture));
     }
 
     private void addTitle(Table table) {
@@ -73,10 +76,23 @@ public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> 
 
     private Stack createTitleLabel() {
         String appName = Game.getInstance().getAppInfoService().getAppName();
-        MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setText(appName).build());
-        titleLabel.setFontScale(FontManager.calculateMultiplierStandardFontSize(appName.length() > 14 ? 1.5f : 2f));
+        MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setFontConfig(new FontConfig(
+                FontColor.WHITE.getColor(),
+                FontColor.BLACK.getColor(),
+                2f)).setText(appName).build());
+        titleLabel.setFontScale(FontManager.calculateMultiplierStandardFontSize(getTitleMultiplier(appName)));
         titleLabel.setAlignment(Align.center);
         return createTitleStack(titleLabel);
+    }
+
+    private float getTitleMultiplier(String appName) {
+        if (appName.length() > 16) {
+            return 1.3f;
+        } else if (appName.length() > 13) {
+            return 1.7f;
+        } {
+            return 2f;
+        }
     }
 
     protected Stack createTitleStack(MyWrappedLabel titleLabel) {
