@@ -34,8 +34,11 @@ public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> 
 
     @Override
     public void buildStage() {
-        new SkelGameRatingService(this).appLaunched();
+        if (Game.getInstance().isFirstTimeMainMenuDisplayed()) {
+            new SkelGameRatingService(this).appLaunched();
+        }
         addButtons();
+        Game.getInstance().setFirstTimeMainMenuDisplayed(false);
     }
 
     private void addButtons() {
@@ -90,7 +93,8 @@ public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> 
             return 1.3f;
         } else if (appName.length() > 13) {
             return 1.7f;
-        } {
+        }
+        {
             return 2f;
         }
     }
