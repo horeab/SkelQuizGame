@@ -1,0 +1,20 @@
+0:Der folgende Mann war ein herausragender deutscher Geschichtenerzähler!:Hans-Christian Andersen##Wilhelm Busch##Markus Maria Tieckmann##Mark Twain:1:
+1:Der Roman Effie Briest wurde geschrieben von...:Friedrich Schiller##Johann Wolfgang von Goethe##Theodor Fontane##Gotthold Ephraim Lessing:2:
+2:Dieser Mann gilt als theologischer Urheber der Reformation!:Papst Benedikt##Martin Luther##Thomas Gottschalk##Franz Müntefering:1:
+3:Der bekannteste Protagonist der Nibelungensage hört auf folgenden Namen:Jakob##Ernst##Hagen##Siegfried:3:
+4:"Blau blüht der Enzian" wurde von welchem folgenden deutschen Musikanten gesungen?:Falko##Karl Moik##Heino##Gotthilf Fischer:2:
+5:Wer komponierte die Melodie der deutschen Nationalhymne?:DJ Ötzi##Mozart##Joseph Haydn##Franz Schubert:2:
+6:Welche der folgenden Bauten gehört nicht zum Weltkulturerbe?:Kölner Dom##Museumsinsel Berlin##Kloster Maulbronn##Dorfkirche Pintesfeld:3:
+7:Welche folgende Philosoph etablierte den kategorischen imperativ?:Herbert Marcuse##Friedrich Schiller##Immanuel Kant##Karl Marx:2:
+8:Woher stammen die bekanntesten deutschen Stadtmusikanten?:Berlin##München##Hamburg##Bremen:3:
+9:Welche folgende Stadt ist keine Hansestadt?:Hamburg##Lübeck##Bremen##Stuttgart:3:
+10:Nach welcher Stadt wurde die erste deutsche parlamentarische Demokratie benannt?:Weimar##Wismar##Berlin##Colmar:0:
+11:Die bekannteste deutsche Museumsinsel befindet sich in...?:Helgoland##Lübeck##Hamburg##Berlin:3:
+12:Wobei handelt es sich sowohl um eine Automarke, als auch einen Wehrbau?:Burg Hochosterwitz##Burg Eltz##Wartburg##Festung Rosenberg:2:
+13:Wann findet jedes Jahr der Tag der Deutschen Einheit statt?:Am 03. Oktober##Am 04. Oktober##Am 05. Oktober##Am 06. Oktober:0:
+14:Welcher Deutsche erfand den Buchdruck?:Hans Beck##Johannes Gutenberg##Andreas Flocken##Gottlob Honold:1:
+15:Was haben Willy Brandt, Helmut Schmidt, Helmut Kohl und Gerhard Schröder gemeinsam?:Sie waren alle Erfinder##Sie waren alle Dichter##Sie waren alle Bundeskanzler##Sie waren alle Außenminister:2:
+16:Welche bekannte Novelle hat Annette von Droste-Hülshoff geschrieben?:Der arme Spielmann##Das Amulett##Die Judenbuche##Zum wilden Mann:2:
+17:Wodurch ist Anne Frank bekannt geworden?:Durch ihre Erfindungen##Durch ihre Tagebücher##Durch ihre Protestaktionen##Durch ihren Gesang:1:
+18:Woher kennt man die Geschwistern Scholl?:Aus Aktionen für mehr Emanzipation##Aus Aktionen gegen die Sparpolitik##Aus Aktionen gegen die Kirche##Aus Aktionen gegen den Nationalsozialismus:3:
+19:Womit beschäftigte sich Albert Einstein unter anderem?:Mit der Physik der Finanzmärkte##Mit der Kosmologie##Mit der Relativitätstheorie##Mit der Stringtheorie:2:

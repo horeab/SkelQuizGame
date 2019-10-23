@@ -1,0 +1,15 @@
+0:Das Deutsche Reich entstand vor...:... ungefähr 80 Jahren##... ungefähr 140 Jahren##... ungefähr 220 Jahren:1:
+1:Wer führte 1883 die Krankenversicherung ein?:Alfred Krupp##Kaiser Wilhelm der Zweite##Otto von Bismarck:2:
+2:Was passierte 1914?:Kaiser Wilhelm der Zweite gab sein Amt ab##Der österreichische Thronfolger wurde ermordet##Otto von Bismarck wurde entlassen:1:
+3:Erster Weltkrieg - Was geschah Weihnachten 1914?:Die verfeindeten Soldaten feierten Weihnachten gemeinsam##Die Soldaten blieben schussbereit in ihren Schützengräben##Deutschland gab den Krieg auf:0:
+4:Was war besonders an der Weimarer Republik?:Es gab zum ersten Mal Wahlen##Eine Person allein konnte keine Gesetze mehr bestimmen##Es gab keinen Kanzler mehr:1:
+5:Wie werden die Zwanziger Jahre genannt?:Die trostlosen Zwanziger##Die chaotischen Zwanziger##Goldene Zwanziger:2:
+6:Was ist eine Inflation?:Angriff eines Luftschiffs##Geld verliert seinen Wert##Hohe Schulden eines Staates:1:
+7:Wie hoch war die Lebenserwartung 1933?:Frauen 63 Jahre, Männer 60 Jahre##Frauen 59 Jahre, Männer 56 Jahre##Frauen 48 Jahre, Männer 44 Jahre:0:
+8:Wann begann die Schreckensherrschaft Adolf Hitlers?:nach dem schwarzen Freitag##nach dem grünen Donnerstag##nach dem roten Montag:0:
+9:Was geschah nachdem der Zweite Weltkrieg 1945 zu Ende war?:Deutschland wurde zur Deutschen Demokratischen Republik##Die Siegermächte teilten Deutschland untereinander auf##Die Sowjetunion und die USA kämpften weiter in Deutschland gegeneinander:1:
+10:Rosinenbomber brachten Lebenswichtiges nach Berlin. Welches Tier wurde eingeflogen?:Eine Kuh##Ein Hängebauschwein##Ein Kamel:2:
+11:Warum wurden Ende der Fünfziger Jahre viele Zuwanderer nach Deutschland geholt?:Sie sollten hier Miete zahlen und damit Deutschland aus den Schulden helfen##In Deutschland gab es viele freie Arbeitsplätze##Viele Wohnungen in Deutschland waren frei:1:
+12:Was geschah kurz vor der Gründung der Partei "Die Grünen" im Jahr 1980?:In einem Naturschutzgebiet wurde ein Atomkraftwerk gebaut##Ein folgenschwerer Unfall in einem deutschen Atomkraftwerk##Die Bundesregierung wollte ein Lager für Atommüll in Niedersachsen bauen:2:
+13:Welches waren die beliebtesten Namen 1980?:Ursula und Hans##Kathrin und Christian##Frieda und Wilhelm:1:
+14:Wann fiel die Mauer zwischen BRD und DDR?:November 1989##Oktober 1990##Mai 1991:0:
