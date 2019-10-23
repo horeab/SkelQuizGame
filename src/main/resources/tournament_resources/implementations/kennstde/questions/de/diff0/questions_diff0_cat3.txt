@@ -1,0 +1,15 @@
+0::Lübecker Marzipan:0
+1::Nordseekrabben:1
+2::Grünkohl und Pinkel:2
+3::Bremer Knipp:3
+4::Sanddorn:4
+5::Currywurst:5
+6::Berliner Weisse:6
+7::Christstollen:7
+8::Weißwurst:8
+9::Spätzle:9
+10::Sauerbraten:10
+11::Schwarzwälder Kirschtorte:11
+12::Eisbein:12
+13::Brezel:13
+14::Rote Grütze:14

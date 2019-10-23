@@ -1,0 +1,15 @@
+0:The German Reich originated before ...:... about 80 years ago##... about 140 years ago##... about 220 years ago:1:
+1:Who introduced the health insurance in 1883?:Alfred Krupp##Kaiser Wilhelm the Second##Otto von Bismarck:2:
+2:What happened in 1914?:Kaiser Wilhelm II gave up his office##The Austrian heir to the throne was murdered##Otto von Bismarck was released:1:
+3:First World War - What happened Christmas 1914?:The warring soldiers celebrated Christmas together##The soldiers remained ready to fire in their trenches##Germany gave up the war:0:
+4:What was special about the Weimar Republic?:There were elections for the first time##One person alone could not legislate##There was no chancellor anymore:1:
+5:What are the twenties called?:The dreary twenties##The chaotic twenties##Golden Twenties:2:
+6:What is inflation?:Attack of an airship##Money loses its value##High debt of a state:1:
+7:What was the life expectancy 1933?:Women 63 years, men 60 years##Women 59 years, men 56 years##Women 48 years, men 44 years:0:
+8:When did the reign of Adolf Hitler begin?:after the black Friday##after the green Thursday##after the red Monday:0:
+9:What happened after the Second World War ended in 1945?:Germany became the German Democratic Republic##The victorious powers divided Germany among themselves##The Soviet Union and the United States continued to fight against each other in Germany:1:
+10:Raisin Bombers brought vital things to Berlin. Which animal was flown in?:A cow##A hanging pig##A camel:2:
+11:Why were many immigrants brought to Germany at the end of the fifties?:They should pay rent here and help Germany out of debt##In Germany there were many vacant jobs##Many apartments in Germany were free:1:
+12:What happened shortly before the founding of the party "The Greens" in 1980?:A nuclear power plant was built in a nature reserve##A serious accident in a German nuclear power plant##The federal government wanted to build a nuclear waste warehouse in Lower Saxony:2:
+13:Which were the most popular names in 1980?:Ursula and Hans##Kathrin and Christian##Frieda and Wilhelm:1:
+14:When did the wall fall between FRG and GDR?:November 1989##October 1990##May 1991:0:
