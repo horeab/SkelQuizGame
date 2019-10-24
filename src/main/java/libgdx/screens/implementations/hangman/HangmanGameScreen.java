@@ -50,14 +50,22 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
         allTable.add(wordTable).growY().row();
         allTable.add(image)
                 .padTop(verticalGeneralMarginDimen)
-                .height(ScreenDimensionsManager.getScreenHeightValue(35))
-                .width(ScreenDimensionsManager.getScreenWidthValue(55))
+                .height(getHangmanImgHeight())
+                .width(getHangmanImgWidth())
                 .row();
         allTable.add(new HangmanQuestionContainerCreatorService(gameContext, this).createSquareAnswerOptionsTable(new ArrayList<>(hangmanQuestionContainerCreatorService.getAllAnswerButtons().values())))
                 .growY();
         addActor(allTable);
         hangmanQuestionContainerCreatorService.processGameInfo(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
         new BackButtonBuilder().addHoverBackButton(this);
+    }
+
+    public static float getHangmanImgWidth() {
+        return ScreenDimensionsManager.getScreenWidthValue(55);
+    }
+
+    public static float getHangmanImgHeight() {
+        return ScreenDimensionsManager.getScreenHeightValue(35);
     }
 
     public void goToNextQuestionScreen() {
