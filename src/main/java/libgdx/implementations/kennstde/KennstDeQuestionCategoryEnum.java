@@ -4,14 +4,15 @@ import libgdx.implementations.hangman.HangmanGameCreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.CreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.DependentQuizGameCreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.QuizQuestionCategory;
+import libgdx.implementations.skelgame.gameservice.UniqueQuizGameCreatorDependencies;
 
 public enum KennstDeQuestionCategoryEnum implements QuizQuestionCategory {
 
-//    cat0(UniqueQuizGameCreatorDependencies.class),
-//    cat1(UniqueQuizGameCreatorDependencies.class),
-//    cat2(UniqueQuizGameCreatorDependencies.class),
-//    cat3(HangmanGameCreatorDependencies.class),
-//    cat4(DependentQuizGameCreatorDependencies.class),
+    cat0(UniqueQuizGameCreatorDependencies.class),
+    cat1(UniqueQuizGameCreatorDependencies.class),
+    cat2(UniqueQuizGameCreatorDependencies.class),
+    cat3(HangmanGameCreatorDependencies.class),
+    cat4(DependentQuizGameCreatorDependencies.class),
     ;
 
     private Class<? extends CreatorDependencies> questionCreator;

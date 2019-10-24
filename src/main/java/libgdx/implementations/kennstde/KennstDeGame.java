@@ -9,12 +9,13 @@ import libgdx.game.external.FacebookService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
 import libgdx.screens.implementations.hangman.HangmanScreenManager;
+import libgdx.screens.implementations.kennstde.KennstDeScreenManager;
 
 public class KennstDeGame extends CampaignGame<AppInfoService,
         KennstDeMainDependencyManager,
         KennstDeDependencyManager,
         AbstractScreen,
-        HangmanScreenManager,
+        KennstDeScreenManager,
         GameIdEnum
         > {
 
@@ -34,7 +35,7 @@ public class KennstDeGame extends CampaignGame<AppInfoService,
 
     @Override
     protected void displayScreenAfterAssetsLoad() {
-        HangmanScreenManager screenManager = getScreenManager();
+        KennstDeScreenManager screenManager = getScreenManager();
         screenManager.showMainScreen();
     }
 }
