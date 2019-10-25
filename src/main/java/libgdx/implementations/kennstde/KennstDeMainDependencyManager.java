@@ -11,9 +11,10 @@ import libgdx.resources.Resource;
 import libgdx.resources.ResourceService;
 import libgdx.screen.AbstractScreen;
 import libgdx.screens.implementations.hangman.HangmanScreenManager;
+import libgdx.screens.implementations.kennstde.KennstDeScreenManager;
 import libgdx.transactions.TransactionsService;
 
-public class KennstDeMainDependencyManager extends MainDependencyManager<HangmanScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {
+public class KennstDeMainDependencyManager extends MainDependencyManager<KennstDeScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {
 
     @Override
     public Class<Resource> getMainResourcesClass() {
@@ -41,8 +42,8 @@ public class KennstDeMainDependencyManager extends MainDependencyManager<Hangman
     }
 
     @Override
-    public HangmanScreenManager createScreenManager() {
-        return new HangmanScreenManager();
+    public KennstDeScreenManager createScreenManager() {
+        return new KennstDeScreenManager();
     }
 
     @Override

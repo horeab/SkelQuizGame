@@ -10,15 +10,9 @@ import libgdx.screens.implementations.hangman.HangmanMainMenuScreen;
 
 public enum KennstDeScreenTypeEnum implements ScreenType {
 
-    MAIN_MENU_SCREEN {
-        public AbstractScreen getScreen(Object... params) {
-            return new HangmanMainMenuScreen();
-        }
-    },
-
     CAMPAIGN_SCREEN {
         public AbstractScreen getScreen(Object... params) {
-            return new HangmanCampaignScreen();
+            return new KennstDeCampaignScreen();
         }
     },
 

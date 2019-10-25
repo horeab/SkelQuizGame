@@ -9,14 +9,10 @@ public class KennstDeScreenManager extends AbstractScreenManager {
 
     @Override
     public void showMainScreen() {
-        showScreen(HangmanScreenTypeEnum.MAIN_MENU_SCREEN);
-    }
-
-    public void showCampaignScreen() {
-        showScreen(HangmanScreenTypeEnum.CAMPAIGN_SCREEN);
+        showScreen(KennstDeScreenTypeEnum.CAMPAIGN_SCREEN);
     }
 
     public void showCampaignGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
-        showScreen(HangmanScreenTypeEnum.CAMPAIGN_GAME_SCREEN, gameContext, campaignLevel);
+        showScreen(KennstDeScreenTypeEnum.CAMPAIGN_GAME_SCREEN, gameContext, campaignLevel);
     }
 }
