@@ -42,9 +42,9 @@ public class StartGameKennstDe {
     public static String getTitle() {
         switch (Language.valueOf(Game.getInstance().getAppInfoService().getLanguage())) {
             case de:
-                return "Weltgeografie";
+                return "Kennst du Deutschland?";
             case en:
-                return "World Geography";
+                return "Do you know Germany?";
         }
         return null;
     }

@@ -15,6 +15,17 @@ public class KennstDeDependencyManager extends CampaignGameDependencyManager {
     @Override
     public List<? extends IncrementingRes> getIncrementResList() {
         List<ImageCategIncrementRes> list = new ArrayList<>();
+        list.add(new ImageCategIncrementRes(0, 1, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
+        list.add(new ImageCategIncrementRes(3, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
+        list.add(new ImageCategIncrementRes(6, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
+        list.add(new ImageCategIncrementRes(8, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
+        list.add(new ImageCategIncrementRes(13, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
+        list.add(new ImageCategIncrementRes(15, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
+        list.add(new ImageCategIncrementRes(17, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
+
+        list.add(new ImageCategIncrementRes(0, 14, KennstDeQuestionCategoryEnum.cat3, ImageCategIncrementRes.JPG));
+
+        list.add(new ImageCategIncrementRes(0, 19, KennstDeQuestionCategoryEnum.cat4, ImageCategIncrementRes.JPG));
         return list;
     }
 

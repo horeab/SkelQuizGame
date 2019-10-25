@@ -5,12 +5,10 @@ import libgdx.controls.popup.RatingService;
 import libgdx.game.MainDependencyManager;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.implementations.skelgame.GameRatingService;
-import libgdx.implementations.skelgame.QuizGameResourceService;
 import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.resources.Resource;
 import libgdx.resources.ResourceService;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.hangman.HangmanScreenManager;
 import libgdx.screens.implementations.kennstde.KennstDeScreenManager;
 import libgdx.transactions.TransactionsService;
 
@@ -28,7 +26,7 @@ public class KennstDeMainDependencyManager extends MainDependencyManager<KennstD
 
     @Override
     public ResourceService createResourceService() {
-        return new QuizGameResourceService();
+        return new KennstDeGameResourceService();
     }
 
     @Override

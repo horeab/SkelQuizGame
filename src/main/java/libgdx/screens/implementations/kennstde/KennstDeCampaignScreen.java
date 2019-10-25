@@ -1,13 +1,17 @@
 package libgdx.screens.implementations.kennstde;
 
-import com.badlogic.gdx.Application;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
-import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
-import libgdx.campaign.*;
+import com.badlogic.gdx.utils.Align;
+
+import java.util.List;
+
+import libgdx.campaign.CampaignLevelEnumService;
+import libgdx.campaign.CampaignLevelStatusEnum;
+import libgdx.campaign.CampaignService;
+import libgdx.campaign.CampaignStoreLevel;
+import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
@@ -15,32 +19,15 @@ import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.geoquiz.QuizGameSpecificResource;
-import libgdx.implementations.hangman.HangmanCampaignLevelEnum;
-import libgdx.implementations.hangman.HangmanGame;
-import libgdx.implementations.hangman.HangmanQuestionCategoryEnum;
-import libgdx.implementations.hangman.HangmanSpecificResource;
 import libgdx.implementations.kennstde.KennstDeCampaignLevelEnum;
-import libgdx.implementations.kennstde.KennstDeQuestionCategoryEnum;
 import libgdx.implementations.kennstde.KennstDeSpecificResource;
-import libgdx.implementations.skelgame.GameButtonSkin;
-import libgdx.implementations.skelgame.SkelGameLabel;
-import libgdx.implementations.skelgame.gameservice.GameContextService;
-import libgdx.implementations.skelgame.gameservice.QuizStarsService;
-import libgdx.resources.FontManager;
 import libgdx.resources.dimen.MainDimen;
-import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.hangman.HangmanGameScreen;
-import libgdx.screens.implementations.hangman.HangmanLevelFinishedPopup;
 import libgdx.screens.implementations.hangman.HangmanScreenManager;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.model.FontColor;
 import libgdx.utils.model.FontConfig;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager> {
 
@@ -48,7 +35,7 @@ public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager>
     private List<CampaignStoreLevel> allCampaignLevelStores;
 
     public KennstDeCampaignScreen() {
-        allCampaignLevelStores = campaignService.getFinishedCampaignLevels();
+        allCampaignLevelStores = campaignService.processAndGetAllLevels();
     }
 
     @Override
@@ -104,15 +91,27 @@ public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager>
     private Table createCampaignBtn(int cat) {
         Table table = new Table();
         boolean btnUnlocked = false;
+        boolean isBtnCurrent = false;
         for (CampaignStoreLevel campaignStoreLevel : allCampaignLevelStores) {
             if (cat == CampaignLevelEnumService.getCategory(campaignStoreLevel.getName())) {
+                if (campaignStoreLevel.getStatus() == CampaignLevelStatusEnum.IN_PROGRESS.getStatus()) {
+                    isBtnCurrent = true;
+                }
                 btnUnlocked = true;
                 break;
             }
         }
         if (btnUnlocked) {
             MyButton btn = new ButtonBuilder().setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(cat)).build();
-            table.add(btn);
+            float btnDimen = MainDimen.horizontal_general_margin.getDimen() * 7.5f;
+            btn.setHeight(btnDimen);
+            btn.setWidth(btnDimen);
+            btn.setOrigin(Align.center);
+            if (isBtnCurrent) {
+                btn.setTransform(true);
+                new ActorAnimation(btn, this).animateZoomInZoomOut(0.5f);
+            }
+            table.add(btn).width(btn.getWidth()).height(btn.getHeight());
         }
         return table;
     }

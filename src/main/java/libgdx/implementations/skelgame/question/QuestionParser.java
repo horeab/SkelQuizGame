@@ -1,6 +1,8 @@
 package libgdx.implementations.skelgame.question;
 
+import libgdx.campaign.CampaignGame;
 import libgdx.campaign.QuestionDifficulty;
+import libgdx.game.Game;
 import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.implementations.skelgame.gameservice.CreatorDependenciesContainer;
 import libgdx.implementations.skelgame.gameservice.QuizQuestionCategory;
@@ -32,7 +34,7 @@ public class QuestionParser {
     }
 
     public List<Question> getAllQuestions(QuestionDifficulty questionDifficultyLevel, QuizQuestionCategory questionCategory) {
-        return CreatorDependenciesContainer.getCreator(questionCategory.getCreatorDependencies()).getQuestionCreator(questionDifficultyLevel, questionCategory).getAllQuestions(Arrays.asList((QuestionDifficulty[]) EnumUtils.getValues(QuizGame.getInstance().getSubGameDependencyManager().getQuestionDifficultyTypeEnum())), questionCategory);
+        return CreatorDependenciesContainer.getCreator(questionCategory.getCreatorDependencies()).getQuestionCreator(questionDifficultyLevel, questionCategory).getAllQuestions(Arrays.asList((QuestionDifficulty[]) EnumUtils.getValues(CampaignGame.getInstance().getSubGameDependencyManager().getQuestionDifficultyTypeEnum())), questionCategory);
     }
 
     private Question getQuestionForFileId(String fileId, List<Question> allQuestions) {

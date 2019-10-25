@@ -18,7 +18,7 @@ public enum KennstDeScreenTypeEnum implements ScreenType {
 
     CAMPAIGN_GAME_SCREEN {
         public AbstractScreen getScreen(Object... params) {
-            return new HangmanGameScreen((GameContext) params[0], (CampaignLevel) params[1]);
+            return new KennstDeGameScreen((GameContext) params[0], (CampaignLevel) params[1]);
         }
     },
 }
