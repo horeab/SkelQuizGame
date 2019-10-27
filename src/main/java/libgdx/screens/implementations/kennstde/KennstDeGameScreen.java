@@ -1,16 +1,23 @@
 package libgdx.screens.implementations.kennstde;
 
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 
 import libgdx.campaign.CampaignLevel;
+import libgdx.campaign.CampaignService;
+import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.builders.BackButtonBuilder;
+import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.geoquiz.QuizGame;
+import libgdx.implementations.kennstde.KennstDeGame;
+import libgdx.implementations.kennstde.KennstDeSpecificResource;
 import libgdx.implementations.skelgame.gameservice.GameContext;
+import libgdx.implementations.skelgame.gameservice.LevelFinishedService;
 import libgdx.implementations.skelgame.gameservice.QuestionContainerCreatorService;
-import libgdx.implementations.skelgame.gameservice.SinglePlayerLevelFinishedService;
+import libgdx.implementations.skelgame.gameservice.QuizStarsService;
+import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.screens.GameScreen;
-import libgdx.screens.implementations.geoquiz.CampaignLevelFinishedPopup;
-import libgdx.screens.implementations.geoquiz.HeaderCreator;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.RGBColor;
@@ -36,11 +43,8 @@ public class KennstDeGameScreen extends GameScreen<KennstDeScreenManager> {
         QuestionContainerCreatorService questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
-        Table headerTable = new HeaderCreator().createHeaderTable(gameContext);
-        headerTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(5));
         questionTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(45));
         answersTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(50));
-        allTable.add(headerTable).height(headerTable.getHeight()).row();
         allTable.add(questionTable).height(questionTable.getHeight()).row();
         allTable.add(answersTable).height(answersTable.getHeight());
         allTable.setFillParent(true);
@@ -49,6 +53,9 @@ public class KennstDeGameScreen extends GameScreen<KennstDeScreenManager> {
     }
 
     public void goToNextQuestionScreen() {
+        if (levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
+            ActorAnimation.animateImageCenterScreenFadeOut(KennstDeSpecificResource.success, 0.3f);
+        }
         allTable.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRunnableAction(new Runnable() {
             @Override
             public void run() {
@@ -73,6 +80,15 @@ public class KennstDeGameScreen extends GameScreen<KennstDeScreenManager> {
     }
 
     public void executeLevelFinished() {
+        GameUser gameUser = gameContext.getCurrentUserGameUser();
+        if (levelFinishedService.isGameWon(gameUser)) {
+            QuizStarsService starsService = KennstDeGame.getInstance().getDependencyManager().getStarsService();
+            int starsWon = starsService.getStarsWon(LevelFinishedService.getPercentageOfWonQuestions(gameUser));
+            new CampaignService().levelFinished(starsWon, campaignLevel);
+            if (LevelFinishedService.getPercentageOfWonQuestions(gameUser) == 100f) {
+                ActorAnimation.animateImageCenterScreenFadeOut(KennstDeSpecificResource.star, 0.3f);
+            }
+        }
         screenManager.showMainScreen();
     }
 }

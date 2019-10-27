@@ -43,7 +43,7 @@ public abstract class QuizQuestionContainerCreatorService extends QuestionContai
                 myWrappedLabelConfigBuilder.getFontScale(), GameControlsCreatorService.longAnswerButtons(gameService.getAllAnswerOptions())));
         MyWrappedLabel questionLabel = new MyWrappedLabel(myWrappedLabelConfigBuilder.setStyleDependingOnContrast().build());
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
-        questionContainer.add(questionLabel).padBottom(verticalGeneralMarginDimen).row();
+        questionContainer.add(questionLabel).pad(verticalGeneralMarginDimen).row();
         if (questionImage != null) {
             addQuestionImage(questionImage);
         }

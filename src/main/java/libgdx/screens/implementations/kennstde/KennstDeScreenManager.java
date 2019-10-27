@@ -3,6 +3,7 @@ package libgdx.screens.implementations.kennstde;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.QuestionConfig;
 import libgdx.implementations.kennstde.KennstDeCampaignLevelEnum;
+import libgdx.implementations.kennstde.KennstDeQuestionCategoryEnum;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.screen.AbstractScreenManager;
@@ -12,7 +13,7 @@ public class KennstDeScreenManager extends AbstractScreenManager {
 
     @Override
     public void showMainScreen() {
-        showScreen(KennstDeScreenTypeEnum.CAMPAIGN_GAME_SCREEN, new GameContextService().createGameContext(new QuestionConfig(1)), KennstDeCampaignLevelEnum.LEVEL_0_0);
+        showScreen(KennstDeScreenTypeEnum.CAMPAIGN_GAME_SCREEN, new GameContextService().createGameContext(new QuestionConfig(KennstDeQuestionCategoryEnum.cat1, 2)), KennstDeCampaignLevelEnum.LEVEL_0_0);
 //        showScreen(KennstDeScreenTypeEnum.CAMPAIGN_SCREEN);
     }
 

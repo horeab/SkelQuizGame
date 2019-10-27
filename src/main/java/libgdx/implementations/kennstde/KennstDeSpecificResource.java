@@ -20,6 +20,8 @@ public enum KennstDeSpecificResource implements SpecificResource {
     campaign_background_texture("campaign_background_texture.png", Texture.class),
 
     title_background("title_background.png", Texture.class),
+    star("star.png", Texture.class),
+    success("success.png", Texture.class),
     ;
     // @formatter:on
 

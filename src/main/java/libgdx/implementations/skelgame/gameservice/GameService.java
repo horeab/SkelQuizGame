@@ -52,7 +52,7 @@ public abstract class GameService {
         String questionString = question.getQuestionString();
         String questionToBeDisplayed = questionString.contains(":") ? questionString.split(":")[getQuestionToBeDisplayedPositionInString()] : "";
         if (StringUtils.isBlank(questionToBeDisplayed)) {
-            QuizGame game = QuizGame.getInstance();
+            Game game = Game.getInstance();
             String generalQuestionToBeDisplayed = SpecificPropertiesUtils.getText(game.getAppInfoService().getLanguage() + "_" + game.getGameIdPrefix() + "_" + question.getQuestionCategory().name() + "_question");
             questionToBeDisplayed = generalQuestionToBeDisplayed != null ? generalQuestionToBeDisplayed : "";
         }

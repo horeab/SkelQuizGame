@@ -14,10 +14,12 @@ import org.apache.commons.lang3.StringUtils;
 import libgdx.controls.ScreenRunnable;
 import libgdx.controls.button.ButtonSkin;
 import libgdx.controls.button.MyButton;
+import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.question.GameAnswerInfo;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.implementations.skelgame.question.GameUser;
+import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
 import libgdx.screens.GameScreen;
@@ -69,7 +71,7 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
 
     public Table createQuestionTable() {
         Table table = new Table();
-        table.add(questionContainer).pad(MainDimen.horizontal_general_margin.getDimen()).growY();
+        table.add(questionContainer).pad(MainDimen.horizontal_general_margin.getDimen() * 4);
         setContainerBackground();
         return table;
     }
@@ -127,7 +129,7 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
     }
 
     protected void setContainerBackground() {
-//        questionContainer.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
+        questionContainer.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
     }
 
     public Map<String, MyButton> getAllAnswerButtons() {
