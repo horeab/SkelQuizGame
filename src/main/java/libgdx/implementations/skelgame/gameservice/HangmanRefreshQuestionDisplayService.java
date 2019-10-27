@@ -13,8 +13,11 @@ import libgdx.implementations.skelgame.GameDimen;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.resources.FontManager;
 import libgdx.resources.Res;
+import libgdx.resources.dimen.Dimen;
+import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
 import libgdx.screens.implementations.hangman.HangmanGameScreen;
+import libgdx.utils.ActorPositionManager;
 import libgdx.utils.ScreenDimensionsManager;
 
 import org.apache.commons.lang3.StringUtils;
@@ -116,16 +119,16 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
     }
 
     private Table getLettersTableFromStage() {
-        return abstractGameScreen.getRoot().findActor(ACTOR_NAME_HANGMAN_WORD_TABLE);
-//        Table hangmanWordTable = abstractGameScreen.getRoot().findActor(ACTOR_NAME_HANGMAN_WORD_TABLE);
-//        if (hangmanWordTable != null) {
-//        }
-//        hangmanWordTable = new Table();
-//        float yPosition = GameDimen.height_hangman_button.getDimen() * (HangmanQuestionContainerCreatorService.nrOfAnswerRows() + 1) + MainDimen.vertical_general_margin.getDimen() * 2;
-//        hangmanWordTable.setPosition(0, yPosition);
-//        ActorPositionManager.setActorCenterHorizontalOnScreen(hangmanWordTable);
-//        abstractGameScreen.addActor(hangmanWordTable);
-//        return hangmanWordTable;
+        Table hangmanWordTable = abstractGameScreen.getRoot().findActor(ACTOR_NAME_HANGMAN_WORD_TABLE);
+        if (hangmanWordTable != null) {
+            return abstractGameScreen.getRoot().findActor(ACTOR_NAME_HANGMAN_WORD_TABLE);
+        }
+        hangmanWordTable = new Table();
+        float yPosition = GameDimen.width_hangman_button.getDimen() * (HangmanQuestionContainerCreatorService.nrOfAnswerRows() + 1) + MainDimen.vertical_general_margin.getDimen() * 2;
+        hangmanWordTable.setPosition(0, yPosition);
+        ActorPositionManager.setActorCenterHorizontalOnScreen(hangmanWordTable);
+        abstractGameScreen.addActor(hangmanWordTable);
+        return hangmanWordTable;
     }
 
 }

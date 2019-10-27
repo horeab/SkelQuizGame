@@ -29,6 +29,7 @@ public class HangmanQuestionContainerCreatorService extends QuestionContainerCre
 
     public HangmanQuestionContainerCreatorService(GameContext gameContext, GameScreen abstractGameScreen) {
         super(gameContext, abstractGameScreen);
+        refreshWord();
     }
 
     @Override
