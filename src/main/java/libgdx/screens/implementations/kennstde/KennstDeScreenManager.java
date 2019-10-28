@@ -13,7 +13,7 @@ public class KennstDeScreenManager extends AbstractScreenManager {
 
     @Override
     public void showMainScreen() {
-//        showScreen(KennstDeScreenTypeEnum.CAMPAIGN_GAME_SCREEN, new GameContextService().createGameContext(new QuestionConfig(KennstDeQuestionCategoryEnum.cat2, 10)), KennstDeCampaignLevelEnum.LEVEL_0_0);
+//        showScreen(KennstDeScreenTypeEnum.CAMPAIGN_GAME_SCREEN, new GameContextService().createGameContext(new QuestionConfig(KennstDeQuestionCategoryEnum.cat3, 10)), KennstDeCampaignLevelEnum.LEVEL_0_0);
         showScreen(KennstDeScreenTypeEnum.CAMPAIGN_SCREEN);
     }
 

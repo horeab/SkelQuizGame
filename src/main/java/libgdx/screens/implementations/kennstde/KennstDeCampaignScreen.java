@@ -34,6 +34,7 @@ import libgdx.implementations.kennstde.KennstDeQuestionDifficultyLevel;
 import libgdx.implementations.kennstde.KennstDeSpecificResource;
 import libgdx.implementations.skelgame.QuizProVersionPopup;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
+import libgdx.implementations.skelgame.gameservice.QuizStarsService;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
@@ -47,6 +48,7 @@ import libgdx.utils.model.FontConfig;
 
 public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager> {
 
+    public static int TOTAL_QUESTIONS = 3;
     private CampaignService campaignService = new CampaignService();
     private List<CampaignStoreLevel> allCampaignLevelStores;
 
@@ -106,17 +108,21 @@ public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager>
     private Table createCampaignBtn(int cat) {
         Table table = new Table();
         boolean btnUnlocked = false;
+        boolean isStar = false;
         boolean isBtnCurrent = false;
         for (CampaignStoreLevel campaignStoreLevel : allCampaignLevelStores) {
             if (cat == CampaignLevelEnumService.getCategory(campaignStoreLevel.getName())) {
                 if (campaignStoreLevel.getStatus() == CampaignLevelStatusEnum.IN_PROGRESS.getStatus()) {
                     isBtnCurrent = true;
                 }
+                if (campaignStoreLevel.getStarsWon() == QuizStarsService.NR_OF_STARS_TO_DISPLAY) {
+                    isStar = true;
+                }
                 btnUnlocked = true;
                 break;
             }
         }
-//        if (btnUnlocked) {
+        if (btnUnlocked) {
             String label = new SpecificPropertiesUtils().getQuestionCategoryLabel(cat);
             MyButton btn = new ButtonBuilder().setText(label).build();
             float width = new GlyphLayout(Game.getInstance().getFontManager().getFont(), label).width + MainDimen.horizontal_general_margin.getDimen() * 2;
@@ -132,14 +138,18 @@ public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager>
             btnTable.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
             btnTable.add(btn).width(width).height(height);
             table.add(btnTable);
+            if (isStar) {
+                float starDimen = MainDimen.horizontal_general_margin.getDimen() * 6;
+                table.add(GraphicUtils.getImage(KennstDeSpecificResource.star)).width(starDimen).height(starDimen);
+            }
             btn.addListener(new ClickListener() {
                 @Override
                 public void clicked(InputEvent event, float x, float y) {
                     CampaignLevel campaignLevel = CampaignLevelEnumService.getCampaignLevelForDiffAndCat(KennstDeQuestionDifficultyLevel._0, KennstDeQuestionCategoryEnum.valueOf("cat" + cat));
-                    KennstDeGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(new CampaignLevelEnumService(campaignLevel).getQuestionConfig(GeoQuizCampaignScreen.TOTAL_QUESTIONS)), campaignLevel);
+                    KennstDeGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(new CampaignLevelEnumService(campaignLevel).getQuestionConfig(TOTAL_QUESTIONS)), campaignLevel);
                 }
             });
-//        }
+        }
         return table;
     }
 

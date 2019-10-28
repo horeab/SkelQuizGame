@@ -1,10 +1,12 @@
 package libgdx.implementations.skelgame.gameservice;
 
-import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 
 import org.apache.commons.lang3.StringUtils;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.ButtonSkin;
@@ -20,9 +22,6 @@ import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screens.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class HangmanQuestionContainerCreatorService extends QuestionContainerCreatorService {
 

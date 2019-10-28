@@ -21,9 +21,13 @@ public abstract class GameScreen<TScreenManager extends AbstractScreenManager> e
 
     public abstract void goToNextQuestionScreen();
 
+    public void animateGameFinished(){
+    }
+
     public void showPopupAd(Runnable runnable) {
         Game.getInstance().getAppInfoService().showPopupAd(runnable);
     }
+
 
 
 }

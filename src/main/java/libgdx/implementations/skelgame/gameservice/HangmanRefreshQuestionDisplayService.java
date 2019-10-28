@@ -114,7 +114,6 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
     private void refreshHangManImg(int nrOfWrongLettersPressed) {
         Res imgName = Game.getInstance().getMainDependencyManager().createResourceService().getByName("h" + nrOfWrongLettersPressed);
         Image image = GraphicUtils.getImage(imgName);
-        float hangmanImageDimen = GameDimen.side_hangman_image.getDimen() / 1;
         image.setHeight(HangmanGameScreen.getHangmanImgHeight());
         image.setWidth(HangmanGameScreen.getHangmanImgWidth());
         Table table = (Table) abstractGameScreen.getRoot().findActor(ACTOR_NAME_HANGMAN_IMAGE);

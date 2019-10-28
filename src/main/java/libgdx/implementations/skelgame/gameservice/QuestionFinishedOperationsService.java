@@ -109,10 +109,11 @@ public class QuestionFinishedOperationsService {
                 Actor actor = gameScreen.getRoot().findActor(HeaderCreator.HEADER_TABLE_NAME);
                 if (actor != null) {
                     actor.addAction(Actions.fadeOut(0.5f));
-                    gameScreen.executeLevelFinished();
                 }
+                gameScreen.executeLevelFinished();
             }
         });
+        gameScreen.animateGameFinished();
         gameScreen.addAction(Actions.sequence(Actions.delay(1f), ra));
     }
 }

@@ -51,6 +51,7 @@ public class KennstDeGameScreen extends GameScreen<KennstDeScreenManager> {
         allTable.setFillParent(true);
         addActor(allTable);
 
+        questionContainerCreatorService.processGameInfo(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
     }
 
     public void goToNextQuestionScreen() {
@@ -85,15 +86,21 @@ public class KennstDeGameScreen extends GameScreen<KennstDeScreenManager> {
         }
     }
 
+    @Override
+    public void animateGameFinished() {
+        super.animateGameFinished();
+        if (LevelFinishedService.getPercentageOfWonQuestions(gameContext.getCurrentUserGameUser()) == 100f) {
+            ActorAnimation.animateImageCenterScreenFadeOut(KennstDeSpecificResource.star, 0.3f);
+        }
+    }
+
     public void executeLevelFinished() {
         GameUser gameUser = gameContext.getCurrentUserGameUser();
         if (levelFinishedService.isGameWon(gameUser)) {
             QuizStarsService starsService = KennstDeGame.getInstance().getDependencyManager().getStarsService();
             int starsWon = starsService.getStarsWon(LevelFinishedService.getPercentageOfWonQuestions(gameUser));
             new CampaignService().levelFinished(starsWon, campaignLevel);
-            if (LevelFinishedService.getPercentageOfWonQuestions(gameUser) == 100f) {
-                ActorAnimation.animateImageCenterScreenFadeOut(KennstDeSpecificResource.star, 0.3f);
-            }
+
         }
         screenManager.showMainScreen();
     }
