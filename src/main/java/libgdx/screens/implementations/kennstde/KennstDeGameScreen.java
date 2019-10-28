@@ -13,6 +13,7 @@ import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.implementations.kennstde.KennstDeGame;
 import libgdx.implementations.kennstde.KennstDeSpecificResource;
 import libgdx.implementations.skelgame.gameservice.GameContext;
+import libgdx.implementations.skelgame.gameservice.HangmanRefreshQuestionDisplayService;
 import libgdx.implementations.skelgame.gameservice.LevelFinishedService;
 import libgdx.implementations.skelgame.gameservice.QuestionContainerCreatorService;
 import libgdx.implementations.skelgame.gameservice.QuizStarsService;
@@ -55,6 +56,11 @@ public class KennstDeGameScreen extends GameScreen<KennstDeScreenManager> {
     public void goToNextQuestionScreen() {
         if (levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
             ActorAnimation.animateImageCenterScreenFadeOut(KennstDeSpecificResource.success, 0.3f);
+        }
+        Table hangmanWordTable = getRoot().findActor(HangmanRefreshQuestionDisplayService.ACTOR_NAME_HANGMAN_WORD_TABLE);
+        if (hangmanWordTable != null) {
+            hangmanWordTable.addAction(Actions.fadeOut(0.2f));
+            hangmanWordTable.remove();
         }
         allTable.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRunnableAction(new Runnable() {
             @Override

@@ -1,6 +1,7 @@
 package libgdx.implementations.skelgame.gameservice;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 
@@ -38,12 +39,14 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
 
     @Override
     public void refreshQuestion(GameQuestionInfo gameQuestionInfo) {
-        try {
-            String hangmanWord = gameService.getHangmanWord(gameQuestionInfo.getQuestion().getQuestionString());
-            createHangmanWord(hangmanWord, gameQuestionInfo.getAnswerIds(), new HashSet<String>());
-            refreshHangManImg(gameService.getNrOfWrongAnswersPressed(gameQuestionInfo.getAnswerIds()));
-        } catch (Exception e) {
-            int i = 0;
+        String hangmanWord = gameService.getHangmanWord(gameQuestionInfo.getQuestion().getQuestionString());
+        createHangmanWord(hangmanWord, gameQuestionInfo.getAnswerIds(), new HashSet<String>());
+        int nrOfWrongAnswersPressed = gameService.getNrOfWrongAnswersPressed(gameQuestionInfo.getAnswerIds());
+
+        if (gameService.getQuestionImage() == null) {
+            refreshHangManImg(nrOfWrongAnswersPressed);
+        } else {
+            refreshAvailableTriesTableForQuestionWithImage(nrOfWrongAnswersPressed);
         }
     }
 
@@ -96,6 +99,15 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
                     });
                 }
             }).start();
+        }
+    }
+
+    private void refreshAvailableTriesTableForQuestionWithImage(int nrOfWrongLettersPressed) {
+        for (int i = nrOfWrongLettersPressed - 1; i >= 0; i--) {
+            Image image = getAbstractGameScreen().getRoot().findActor(HangmanQuestionContainerCreatorService.AVAILABLE_TRIES_IMAGE_CELL_NAME + i);
+            if (image != null) {
+                image.addAction(Actions.fadeOut(0.5f));
+            }
         }
     }
 

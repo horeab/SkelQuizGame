@@ -1,12 +1,18 @@
 package libgdx.screens.implementations.kennstde;
 
+import com.badlogic.gdx.graphics.g2d.GlyphLayout;
+import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
 
 import java.util.List;
 
+import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.CampaignLevelStatusEnum;
 import libgdx.campaign.CampaignService;
@@ -19,11 +25,21 @@ import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.geoquiz.QuizCampaignLevelEnum;
+import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.implementations.kennstde.KennstDeCampaignLevelEnum;
+import libgdx.implementations.kennstde.KennstDeGame;
+import libgdx.implementations.kennstde.KennstDeQuestionCategoryEnum;
+import libgdx.implementations.kennstde.KennstDeQuestionDifficultyLevel;
 import libgdx.implementations.kennstde.KennstDeSpecificResource;
+import libgdx.implementations.skelgame.QuizProVersionPopup;
+import libgdx.implementations.skelgame.gameservice.GameContextService;
+import libgdx.resources.FontManager;
+import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
+import libgdx.screens.implementations.geoquiz.GeoQuizCampaignScreen;
 import libgdx.screens.implementations.hangman.HangmanScreenManager;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.model.FontColor;
@@ -51,7 +67,6 @@ public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager>
     private Table createAllTable() {
         Table table = new Table();
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
-        Table titleTable = new Table();
         MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setFontConfig(new FontConfig(
                 FontColor.WHITE.getColor(),
                 FontColor.BLACK.getColor(),
@@ -101,18 +116,30 @@ public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager>
                 break;
             }
         }
-        if (btnUnlocked) {
-            MyButton btn = new ButtonBuilder().setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(cat)).build();
-            float btnDimen = MainDimen.horizontal_general_margin.getDimen() * 7.5f;
-            btn.setHeight(btnDimen);
-            btn.setWidth(btnDimen);
-            btn.setOrigin(Align.center);
+//        if (btnUnlocked) {
+            String label = new SpecificPropertiesUtils().getQuestionCategoryLabel(cat);
+            MyButton btn = new ButtonBuilder().setText(label).build();
+            float width = new GlyphLayout(Game.getInstance().getFontManager().getFont(), label).width + MainDimen.horizontal_general_margin.getDimen() * 2;
+            float height = MainDimen.vertical_general_margin.getDimen() * 1.5f;
+            Table btnTable = new Table();
+            btnTable.setHeight(height);
+            btnTable.setWidth(width);
+            btnTable.setOrigin(Align.center);
             if (isBtnCurrent) {
-                btn.setTransform(true);
-                new ActorAnimation(btn, this).animateZoomInZoomOut(0.5f);
+                btnTable.setTransform(true);
+                new ActorAnimation(btnTable, this).animateZoomInZoomOut(0.5f);
             }
-            table.add(btn).width(btn.getWidth()).height(btn.getHeight());
-        }
+            btnTable.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
+            btnTable.add(btn).width(width).height(height);
+            table.add(btnTable);
+            btn.addListener(new ClickListener() {
+                @Override
+                public void clicked(InputEvent event, float x, float y) {
+                    CampaignLevel campaignLevel = CampaignLevelEnumService.getCampaignLevelForDiffAndCat(KennstDeQuestionDifficultyLevel._0, KennstDeQuestionCategoryEnum.valueOf("cat" + cat));
+                    KennstDeGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(new CampaignLevelEnumService(campaignLevel).getQuestionConfig(GeoQuizCampaignScreen.TOTAL_QUESTIONS)), campaignLevel);
+                }
+            });
+//        }
         return table;
     }
 
