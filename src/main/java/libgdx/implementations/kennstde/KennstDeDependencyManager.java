@@ -67,7 +67,7 @@ public class KennstDeDependencyManager extends CampaignGameDependencyManager {
 
     @Override
     public RGBColor getScreenBackgroundColor() {
-        return new RGBColor(1, 123, 206, 188);
+        return new RGBColor(1, 230, 242, 255);
     }
 
     public QuizStarsService getStarsService() {

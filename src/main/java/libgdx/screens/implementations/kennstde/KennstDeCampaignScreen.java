@@ -17,6 +17,7 @@ import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.CampaignLevelStatusEnum;
 import libgdx.campaign.CampaignService;
 import libgdx.campaign.CampaignStoreLevel;
+import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
@@ -32,12 +33,15 @@ import libgdx.implementations.kennstde.KennstDeGame;
 import libgdx.implementations.kennstde.KennstDeQuestionCategoryEnum;
 import libgdx.implementations.kennstde.KennstDeQuestionDifficultyLevel;
 import libgdx.implementations.kennstde.KennstDeSpecificResource;
+import libgdx.implementations.skelgame.LevelFinishedPopup;
 import libgdx.implementations.skelgame.QuizProVersionPopup;
+import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.gameservice.QuizStarsService;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
+import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
 import libgdx.screens.implementations.geoquiz.GeoQuizCampaignScreen;
@@ -84,6 +88,9 @@ public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager>
                 .height(ScreenDimensionsManager.getNewHeightForNewWidth(ScreenDimensionsManager.getScreenWidthValue(90), titleBackr)).row();
 
         table.add(createCampaignButtons()).padTop(ScreenDimensionsManager.getScreenHeightValue(20));
+        if (campaignService.getFinishedCampaignLevels().size()  == KennstDeCampaignLevelEnum.values().length) {
+            new LevelFinishedPopup(this,  SkelGameLabel.game_finished.getText()).addToPopupManager();
+        }
         return table;
     }
 

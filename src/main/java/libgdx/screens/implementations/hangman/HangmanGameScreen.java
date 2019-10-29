@@ -3,24 +3,19 @@ package libgdx.screens.implementations.hangman;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 
-import libgdx.campaign.CampaignGame;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
-import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
-import libgdx.controls.label.MyWrappedLabel;
-import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.implementations.hangman.HangmanGame;
+import libgdx.implementations.skelgame.LevelFinishedPopup;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.dimen.MainDimen;
-import libgdx.screens.implementations.geoquiz.CampaignLevelFinishedPopup;
 import libgdx.screens.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
 
@@ -70,7 +65,7 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
 
     public void goToNextQuestionScreen() {
         if (new SinglePlayerLevelFinishedService().isGameFailed(gameContext.getCurrentUserGameUser())) {
-            new HangmanLevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
+            new LevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
         } else {
             final HangmanGameScreen screen = this;
             allTable.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRunnableAction(new Runnable() {
@@ -96,7 +91,7 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
             new CampaignService().levelFinished(HangmanGame.getInstance().getDependencyManager().getStarsService().getStarsWon(LevelFinishedService.getPercentageOfWonQuestions(gameUser)), campaignLevel);
         }
         if (new SinglePlayerLevelFinishedService().isGameFailed(gameContext.getCurrentUserGameUser())) {
-            new HangmanLevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
+            new LevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
         } else {
             screenManager.showCampaignScreen();
         }

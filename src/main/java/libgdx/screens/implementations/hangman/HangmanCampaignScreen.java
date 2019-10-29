@@ -1,18 +1,14 @@
 package libgdx.screens.implementations.hangman;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 
 import libgdx.campaign.*;
 import libgdx.controls.button.ButtonBuilder;
-import libgdx.controls.button.ButtonSkin;
-import libgdx.controls.button.MainButtonSkin;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
-import libgdx.controls.label.MyWrappedLabelConfig;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.hangman.HangmanCampaignLevelEnum;
@@ -20,17 +16,15 @@ import libgdx.implementations.hangman.HangmanGame;
 import libgdx.implementations.hangman.HangmanQuestionCategoryEnum;
 import libgdx.implementations.hangman.HangmanSpecificResource;
 import libgdx.implementations.skelgame.GameButtonSkin;
+import libgdx.implementations.skelgame.LevelFinishedPopup;
 import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.gameservice.QuizStarsService;
 import libgdx.resources.FontManager;
-import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.geoquiz.GeoQuizCampaignScreen;
-import libgdx.screens.implementations.geoquiz.QuizScreenManager;
 import libgdx.utils.ScreenDimensionsManager;
 
 import java.util.ArrayList;
@@ -115,7 +109,7 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
                 campaignStoreService.updateAllStarsWon(totalStarsWon);
                 gameFinishedText = MainGameLabel.l_score_record.getText(totalStarsWon);
             }
-            new HangmanLevelFinishedPopup(this, gameFinishedText).addToPopupManager();
+            new LevelFinishedPopup(this, gameFinishedText).addToPopupManager();
         }
         return table;
     }
