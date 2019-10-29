@@ -1,5 +1,6 @@
 package libgdx.screens.implementations.kennstde;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
@@ -36,6 +37,7 @@ import libgdx.implementations.kennstde.KennstDeSpecificResource;
 import libgdx.implementations.skelgame.LevelFinishedPopup;
 import libgdx.implementations.skelgame.QuizProVersionPopup;
 import libgdx.implementations.skelgame.SkelGameLabel;
+import libgdx.implementations.skelgame.SkelGameRatingService;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.gameservice.QuizStarsService;
 import libgdx.resources.FontManager;
@@ -62,6 +64,10 @@ public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager>
 
     @Override
     public void buildStage() {
+        if (Game.getInstance().isFirstTimeMainMenuDisplayed()) {
+            new SkelGameRatingService(this).appLaunched();
+        }
+        Game.getInstance().setFirstTimeMainMenuDisplayed(false);
         Table table = new Table();
         table.setFillParent(true);
         table.add(createAllTable()).width(ScreenDimensionsManager.getScreenWidth());
@@ -88,8 +94,8 @@ public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager>
                 .height(ScreenDimensionsManager.getNewHeightForNewWidth(ScreenDimensionsManager.getScreenWidthValue(90), titleBackr)).row();
 
         table.add(createCampaignButtons()).padTop(ScreenDimensionsManager.getScreenHeightValue(20));
-        if (campaignService.getFinishedCampaignLevels().size()  == KennstDeCampaignLevelEnum.values().length) {
-            new LevelFinishedPopup(this,  SkelGameLabel.game_finished.getText()).addToPopupManager();
+        if (campaignService.getFinishedCampaignLevels().size() == KennstDeCampaignLevelEnum.values().length) {
+            new LevelFinishedPopup(this, SkelGameLabel.game_finished.getText()).addToPopupManager();
         }
         return table;
     }
@@ -162,7 +168,7 @@ public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager>
 
     @Override
     public void onBackKeyPress() {
-        screenManager.showMainScreen();
+        Gdx.app.exit();
     }
 
 }
