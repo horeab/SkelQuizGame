@@ -1,15 +1,15 @@
-0 ::Lübeck Marzipan:0
-1 ::North Sea shrimps:1
-2 ::Kale and Pinkel:2
-3 ::Bremer Knipp:3
-4 ::Sea Buckthorn:4
-5 ::Currywurst:5
-6 ::Berliner Weisse:6
-7 ::Stollen:7
-8 ::Weißwurst:8
-9 ::Spätzle:9
-10 ::Sauerbraten:10
-11 ::Black Forest Cake:11
-12 ::Eisbein:12
-13 ::Pretzel:13
-14 ::Rote Grütze:14
+0::Lübeck Marzipan:0
+1::North Sea shrimps:1
+2::Kale and Pinkel:2
+3::Bremer Knipp:3
+4::Sea Buckthorn:4
+5::Currywurst:5
+6::Berliner Weisse:6
+7::Stollen:7
+8::Weisswurst:8
+9::Spätzle:9
+10::Sauerbraten:10
+11::Black Forest Cake:11
+12::Eisbein:12
+13::Pretzel:13
+14::Rote Grütze:14

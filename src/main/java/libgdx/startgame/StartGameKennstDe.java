@@ -32,7 +32,7 @@ public class StartGameKennstDe {
 
                     @Override
                     public String getLanguage() {
-                        return "de";
+                        return "en";
                     }
                 });
         libgdx.utils.startgame.StartGame.main(game, args);
@@ -42,9 +42,9 @@ public class StartGameKennstDe {
     public static String getTitle() {
         switch (Language.valueOf(Game.getInstance().getAppInfoService().getLanguage())) {
             case de:
-                return "Kennst du Deutschland?";
+                return "Deutschland Test";
             case en:
-                return "Do you know Germany?";
+                return "Germany Test";
         }
         return null;
     }
