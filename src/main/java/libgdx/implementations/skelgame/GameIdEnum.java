@@ -3,12 +3,14 @@ package libgdx.implementations.skelgame;
 import libgdx.campaign.CampaignGameDependencyManager;
 import libgdx.game.GameId;
 import libgdx.game.SubGameDependencyManager;
+import libgdx.implementations.anatomy.AnatomyDependencyManager;
 import libgdx.implementations.geoquiz.QuizGameDependencyManager;
 import libgdx.implementations.hangman.HangmanDependencyManager;
 import libgdx.implementations.kennstde.KennstDeDependencyManager;
 
 public enum GameIdEnum implements GameId {
 
+    anatomy(AnatomyDependencyManager.class),
     kennstde(KennstDeDependencyManager.class),
     quizgame(QuizGameDependencyManager.class),
     hangman(HangmanDependencyManager.class),;

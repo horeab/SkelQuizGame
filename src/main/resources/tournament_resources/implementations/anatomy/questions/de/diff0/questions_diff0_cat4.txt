@@ -1,0 +1,20 @@
+0::Berlin:5,4,6:0
+1::Hamburg:5,0,7:1
+2::München:4,3,5:2
+3::Köln:7,1,0:3
+4::Frankfurt am Main:1,6,8:4
+5::Stuttgart:6,11,3:5
+6::Düsseldorf:13,12,8:6
+7::Dortmund:4,14,15:7
+8::Essen:12,6,14:8
+9::Leipzig:3,15,6:9
+10::Bremen:5,15,4:10
+11::Dresden:10,5,14:11
+12::Hannover:4,13,16:12
+13::Nürnberg:8,16,12:13
+14::Duisburg:8,15,19:14
+15::Bochum:17,18,7:15
+16::Wuppertal:13,9,15:16
+17::Bielefeld:11,14,15:17
+18::Bonn:19,12,11:18
+19::Augsburg:17,11,14:19

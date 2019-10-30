@@ -131,7 +131,7 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
     }
 
     protected void setContainerBackground() {
-        questionContainer.setBackground(GraphicUtils.getNinePatch(Resource.question_background));
+//        questionContainer.setBackground(GraphicUtils.getNinePatch(Resource.question_background));
     }
 
     public Map<String, MyButton> getAllAnswerButtons() {
