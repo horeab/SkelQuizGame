@@ -3,7 +3,7 @@
 2:Which of these cities in North Rhine-Westphalia has the most inhabitants?:Bonn##Duisburg##Frankfurt##Dortmund:3:
 3:The largest German island is called ...:Usedom##Fehmarn##Rügen##Föhr:2:3
 4:Which of these rivers does not flow into the Rhine?:Saar##Mosel##Danube##Lahn:0:
-5:Which of these cities is located to the south?:Frankfurt##Berlin##Stuttgart##Augsburg:3:
+5:Which of these cities is more southern?:Frankfurt##Berlin##Stuttgart##Augsburg:3:
 6:To which state does this flag belong?:Thuringia##Niedersachsen##Hessen##Saxony:0:6
 7:By how many federal states does the Elbe flow?:1##5##7##2:1:
 8:Germany has the longest border with...:Poland##Austria##France##Czech Republic:1:8
