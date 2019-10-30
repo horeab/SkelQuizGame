@@ -11,7 +11,7 @@
 10:Die südlichste Großstadt Deutschlands ist...:Konstanz##Freiburg##München##Augsburg:1:
 11:Der größte See, der ausschließlich auf deutschem Staatsgebiet liegt, heißt...:Chiemsee##Steinhuder Meer##Großer Plöner See##Müritz:3:
 12:Welche dieser Städte zählt nicht zum Ruhrgebiet?:Bielefeld##Krefeld##Gelsenkirchen##Hamm:0:
-13:Welches Bundesland ist auf dem Bild gelb hervorgehoben?:Sachsen-Anhalt##Thüringen##Sachsen##Hessen:1:13
+13:Welches Bundesland ist auf dem Bild hervorgehoben?:Sachsen-Anhalt##Thüringen##Sachsen##Hessen:1:13
 14:Das zweitgrößte Bundesland Deutschlands nach Bayern ist...:Nordrhein-Westfalen##Baden-Württemberg##Niedersachsen##Sachsen:2:
 15:Wie wird der alleinstehende Felsen vor der Nordseeinsel Helgoland auch genannt?:Lange Anna##Lange Nadel##Langer Hans##Langer Fritz:0:15
 16:Der größere Teil der Ostseeinsel Usedom gehört zu...:Deutschland##Polen##Denmark##Schweden:0:

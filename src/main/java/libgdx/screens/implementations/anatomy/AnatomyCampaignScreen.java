@@ -100,7 +100,7 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
         return table;
     }
 
-    private Table createCampaignBtn(int cat) {
+    private Table createCampaignBtn(final int cat) {
         Table table = new Table();
         boolean btnUnlocked = false;
         boolean isStar = false;
