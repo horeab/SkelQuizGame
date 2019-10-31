@@ -36,6 +36,10 @@ public class KennstDeGameScreen extends GameScreen<KennstDeScreenManager> {
     @Override
     public void buildStage() {
         createAllTable();
+    }
+
+    @Override
+    public void afterBuildStage() {
         new BackButtonBuilder().addHoverBackButton(this);
     }
 
