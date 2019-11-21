@@ -1,19 +1,7 @@
-0:Which of these three cities is Germany's northernmost?:Rostock##Lübeck##Kiel##Hamburg:2:0
-1:The East Frisian Islands counts ...:Föhr##Norderney##Sylt##Pellworm:1:1
-2:Which of these cities in North Rhine-Westphalia has the most inhabitants?:Bonn##Duisburg##Frankfurt##Dortmund:3:
-3:The largest German island is called ...:Usedom##Fehmarn##Rügen##Föhr:2:3
-4:Which of these rivers does not flow into the Rhine?:Saar##Mosel##Danube##Lahn:0:
-5:Which of these cities is located to the south?:Frankfurt##Berlin##Stuttgart##Augsburg:3:
-6:To which state does this flag belong?:Thuringia##Niedersachsen##Hessen##Saxony:0:6
-7:By how many federal states does the Elbe flow?:1##5##7##2:1:
-8:Germany has the longest border with...:Poland##Austria##France##Czech Republic:1:8
-9:How many cities in Germany are officially Hanseatic cities?:5##3##25##16:2:
-10:The southernmost city in Germany is ...:Konstanz##Freiburg##Munich##Augsburg:1:
-11:The largest lake, which lies exclusively on German territory, is called ...:Chiemsee##Steinhuder Meer##Großer Plöner See##Müritz:3:
-12:Which of these cities does not belong to the Ruhrgebiet?:Bielefeld##Krefeld##Gelsenkirchen##Hamm:0:
-13:Which state is highlighted in yellow on the picture?:Saxony-Anhalt##Thuringia##Saxony##Hesse:1:13
-14:The second largest federal state of Germany after Bavaria is ...:North Rhine-Westphalia##Baden-Wuerttemberg##Niedersachsen##Saxony:2:
-15:What is the name of the isolated rock off the North Sea island of Heligoland?:Long Anna##Long Needle##Long Hans##Long Fritz:0:15
-16:The larger part of the Baltic Sea island of Usedom belongs to ...:Germany##Poland##Denmark##Sweden:0:
-17:Saxony-Anhalt borders Saxony, Lower Saxony, Brandenburg and ...:Hesse##Schleswig-Holstein##Thuringia##Bavaria:2:17
-18:The Berlin office of the Federal President is ...:the Bundestag##Schloss Bellevue##Schloss Charlottenburg##Federal Chancellery:1:
+Deltoid
+Biceps
+Pectoral
+Abdominal
+Trapezius
+External oblique
+Tibialis anterior

@@ -33,7 +33,7 @@ public class StartGameAnatomy {
 
                     @Override
                     public String getLanguage() {
-                        return Language.de.name();
+                        return Language.en.name();
                     }
                 });
         libgdx.utils.startgame.StartGame.main(game, args);
