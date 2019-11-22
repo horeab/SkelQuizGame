@@ -1,0 +1,18 @@
+Aorta
+Superior vena cava
+Inferior vena cava
+Right atrium
+Left atrium
+Mitral valve
+Right ventricle
+Left ventricle
+Aortic valve
+Pulmonary valve
+Tricuspid valve
+
+
+
+
+
+
+

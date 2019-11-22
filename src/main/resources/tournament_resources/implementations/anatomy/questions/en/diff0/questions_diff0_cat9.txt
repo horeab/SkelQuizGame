@@ -1,0 +1,9 @@
+Iris
+Cornea
+Lens
+Retina
+Optic nerve
+Anterior chamber
+Sclera
+Choroid
+Vitreous chamber

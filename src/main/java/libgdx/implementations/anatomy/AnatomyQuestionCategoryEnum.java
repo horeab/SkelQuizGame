@@ -2,17 +2,22 @@ package libgdx.implementations.anatomy;
 
 import libgdx.implementations.hangman.HangmanGameCreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.CreatorDependencies;
-import libgdx.implementations.skelgame.gameservice.DependentQuizGameCreatorDependencies;
+import libgdx.implementations.skelgame.gameservice.ImageClickGameCreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.QuizQuestionCategory;
-import libgdx.implementations.skelgame.gameservice.UniqueQuizGameCreatorDependencies;
+import libgdx.implementations.skelgame.gameservice.ImageClickGameCreatorDependencies;
 
 public enum AnatomyQuestionCategoryEnum implements QuizQuestionCategory {
 
-    cat0(UniqueQuizGameCreatorDependencies.class),
-    cat1(UniqueQuizGameCreatorDependencies.class),
-    cat2(UniqueQuizGameCreatorDependencies.class),
-    cat3(HangmanGameCreatorDependencies.class),
-    cat4(DependentQuizGameCreatorDependencies.class),
+    cat0(ImageClickGameCreatorDependencies.class),
+    cat1(ImageClickGameCreatorDependencies.class),
+    cat2(ImageClickGameCreatorDependencies.class),
+    cat3(ImageClickGameCreatorDependencies.class),
+    cat4(ImageClickGameCreatorDependencies.class),
+    cat5(ImageClickGameCreatorDependencies.class),
+    cat6(ImageClickGameCreatorDependencies.class),
+    cat7(ImageClickGameCreatorDependencies.class),
+    cat8(ImageClickGameCreatorDependencies.class),
+    cat9(ImageClickGameCreatorDependencies.class),
     ;
 
     private Class<? extends CreatorDependencies> questionCreator;
