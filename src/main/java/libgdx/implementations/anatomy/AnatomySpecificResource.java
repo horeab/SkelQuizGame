@@ -2,6 +2,7 @@ package libgdx.implementations.anatomy;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.utils.I18NBundle;
+
 import libgdx.game.Game;
 import libgdx.resources.SpecificResource;
 
@@ -11,18 +12,22 @@ public enum AnatomySpecificResource implements SpecificResource {
 
     specific_labels("labels/labels", I18NBundle.class),
 
-    campaign_level_0_0("campaign/l_0/level_0_0.png", Texture.class),
-    campaign_level_0_1("campaign/l_0/level_0_1.png", Texture.class),
-    campaign_level_0_2("campaign/l_0/level_0_2.png", Texture.class),
-    campaign_level_0_3("campaign/l_0/level_0_3.png", Texture.class),
-    campaign_level_0_4("campaign/l_0/level_0_4.png", Texture.class),
+    background_texture("background_texture.png", Texture.class),
 
-    campaign_background_texture("campaign_background_texture.png", Texture.class),
+    img_cat0_0("questions/images/0.png", Texture.class),
+    img_cat1_1("questions/images/1.png", Texture.class),
+    img_cat2_2("questions/images/2.png", Texture.class),
+    img_cat3_3("questions/images/3.png", Texture.class),
+    img_cat4_4("questions/images/4.png", Texture.class),
+    img_cat5_5("questions/images/5.png", Texture.class),
+    img_cat6_6("questions/images/6.png", Texture.class),
+    img_cat7_7("questions/images/7.png", Texture.class),
+    img_cat8_8("questions/images/8.png", Texture.class),
+    img_cat9_9("questions/images/9.png", Texture.class),
 
     title_background("title_background.png", Texture.class),
     star("star.png", Texture.class),
-    success("success.png", Texture.class),
-    ;
+    success("success.png", Texture.class),;
     // @formatter:on
 
     private String path;

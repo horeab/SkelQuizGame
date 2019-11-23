@@ -3,16 +3,8 @@ package libgdx.implementations.skelgame.gameservice;
 import java.util.Map;
 
 import libgdx.controls.button.MyButton;
-import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.screen.AbstractScreen;
 import libgdx.screens.GameScreen;
-import libgdx.ui.model.game.GameUser;
-import libgdx.ui.screens.game.creator.utils.AbstractGameScreenBackgroundCreator;
-import libgdx.ui.screens.game.screens.AbstractGameScreen;
-import libgdx.ui.services.gametypes.types.imageclickgame.screencreator.ImageClickQuestionContainerCreatorService;
-import libgdx.ui.services.gametypes.types.imageclickgame.screencreator.ImageClickScreenBackgroundCreator;
-import libgdx.ui.services.gametypes.types.imageclickgame.service.ImageClickGameService;
-import libgdx.ui.services.gametypes.types.imageclickgame.service.ImageClickRefreshQuestionDisplayService;
 
 public class ImageClickGameCreatorDependencies extends CreatorDependencies {
 
@@ -28,7 +20,7 @@ public class ImageClickGameCreatorDependencies extends CreatorDependencies {
 
     @Override
     public QuestionContainerCreatorService getQuestionContainerCreatorService(GameContext gameContext,  GameScreen screen) {
-        return new ImageClickQuestionContainerCreatorService(gameUser, screen);
+        return new ImageClickQuestionContainerCreatorService(gameContext, screen);
     }
 
     @Override

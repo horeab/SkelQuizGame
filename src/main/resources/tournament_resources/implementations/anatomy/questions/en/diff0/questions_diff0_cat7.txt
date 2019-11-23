@@ -1,7 +1,7 @@
-Pinna
-Ear canal
-Ear drum
-Ossicles
-Cochlea
-Auditory nerve
-Eustachian tube
+0::Pinna:1,2,3:34,80:7
+1::Ear canal:1,2,3:34,80:7
+2::Ear drum:1,2,3:34,80:7
+3::Ossicles:1,2,3:34,80:7
+4::Cochlea:1,2,3:34,80:7
+5::Auditory nerve:1,2,3:34,80:7
+6::Eustachian tube:1,2,3:34,80:7

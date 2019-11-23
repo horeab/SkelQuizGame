@@ -1,9 +1,9 @@
-Iris
-Cornea
-Lens
-Retina
-Optic nerve
-Anterior chamber
-Sclera
-Choroid
-Vitreous chamber
+0::Iris:1,2,3:34,80:9
+1::Cornea:1,2,3:34,80:9
+2::Lens:1,2,3:34,80:9
+3::Retina:1,2,3:34,80:9
+4::Optic nerve:1,2,3:34,80:9
+5::Anterior chamber:1,2,3:34,80:9
+6::Sclera:1,2,3:34,80:9
+7::Choroid:1,2,3:34,80:9
+8::Vitreous chamber:1,2,3:34,80:9

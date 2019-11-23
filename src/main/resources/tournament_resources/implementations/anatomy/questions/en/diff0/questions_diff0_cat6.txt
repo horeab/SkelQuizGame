@@ -1,15 +1,6 @@
-Frontal lobe
-Temporal lobe
-Parietal lobe
-Occipital lobe
-Cerebellum
-Brainstem
-
-
-
-
-
-
-
-
-
+0::Frontal lobe:1,2,3:34,80:6
+1::Temporal lobe:1,2,3:34,80:6
+2::Parietal lobe:1,2,3:34,80:6
+3::Occipital lobe:1,2,3:34,80:6
+4::Cerebellum:1,2,3:34,80:6
+5::Brainstem:1,2,3:34,80:6

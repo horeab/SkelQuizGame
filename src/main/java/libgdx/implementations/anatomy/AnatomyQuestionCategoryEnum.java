@@ -1,10 +1,8 @@
 package libgdx.implementations.anatomy;
 
-import libgdx.implementations.hangman.HangmanGameCreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.CreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.ImageClickGameCreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.QuizQuestionCategory;
-import libgdx.implementations.skelgame.gameservice.ImageClickGameCreatorDependencies;
 
 public enum AnatomyQuestionCategoryEnum implements QuizQuestionCategory {
 

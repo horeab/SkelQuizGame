@@ -1,18 +1,11 @@
-Aorta
-Superior vena cava
-Inferior vena cava
-Right atrium
-Left atrium
-Mitral valve
-Right ventricle
-Left ventricle
-Aortic valve
-Pulmonary valve
-Tricuspid valve
-
-
-
-
-
-
-
+0::Aorta:1,2,3:34,80:8
+1::Superior vena cava:1,2,3:34,80:8
+2::Inferior vena cava:1,2,3:34,80:8
+3::Right atrium:1,2,3:34,80:8
+4::Left atrium:1,2,3:34,80:8
+5::Mitral valve:1,2,3:34,80:8
+6::Right ventricle:1,2,3:34,80:8
+7::Left ventricle:1,2,3:34,80:8
+8::Aortic valve:1,2,3:34,80:8
+9::Pulmonary valve:1,2,3:34,80:8
+10::Tricuspid valve:1,2,3:34,80:8

@@ -2,6 +2,7 @@ package libgdx.implementations.skelgame;
 
 
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
+
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.geoquiz.QuizGameSpecificResource;
 import libgdx.implementations.hangman.HangmanSpecificResource;
@@ -25,6 +26,10 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     SQUARE(HangmanSpecificResource.btn_hangman_up, HangmanSpecificResource.btn_hangman_down, HangmanSpecificResource.btn_hangman_up, MainResource.btn_lowcolor_down, null),
     SQUARE_CORRECT(HangmanSpecificResource.btn_hangman_correct, HangmanSpecificResource.btn_hangman_correct, HangmanSpecificResource.btn_hangman_correct, HangmanSpecificResource.btn_hangman_correct, null),
     SQUARE_WRONG(HangmanSpecificResource.btn_hangman_wrong, HangmanSpecificResource.btn_hangman_wrong, HangmanSpecificResource.btn_hangman_wrong, HangmanSpecificResource.btn_hangman_wrong, null),
+
+    ANSWER_IMAGE_CLICK(QuizGameSpecificResource.btn_question_up, QuizGameSpecificResource.btn_question_down, QuizGameSpecificResource.btn_question_up, QuizGameSpecificResource.btn_question_disabled, null),
+    ANSWER_IMAGE_CLICK_CORRECT(QuizGameSpecificResource.btn_question_correct, QuizGameSpecificResource.btn_question_correct, QuizGameSpecificResource.btn_question_correct, QuizGameSpecificResource.btn_question_correct, FontColor.GREEN),
+    ANSWER_IMAGE_CLICK_WRONG(QuizGameSpecificResource.btn_question_wrong, QuizGameSpecificResource.btn_question_wrong, QuizGameSpecificResource.btn_question_wrong, QuizGameSpecificResource.btn_question_wrong, FontColor.RED),
     ;
 
     GameButtonSkin(Res imgUp, Res imgDown, Res imgChecked, Res imgDisabled, FontColor buttonDisabledFontColor) {

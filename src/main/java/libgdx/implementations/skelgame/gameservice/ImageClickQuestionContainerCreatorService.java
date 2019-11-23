@@ -22,8 +22,13 @@ import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
+import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.skelgame.GameButtonSize;
+import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.question.Question;
 import libgdx.resources.FontManager;
+import libgdx.resources.MainResource;
+import libgdx.resources.Resource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screens.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
@@ -46,11 +51,18 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
         MyWrappedLabel questionLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setFontScale(FontManager.getNormalBigFontDim())
                 .setText(gameService.getQuestionToBeDisplayed()).build());
+        Table table = new Table();
+        table.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
-        questionContainer.add(questionLabel).padBottom(verticalGeneralMarginDimen).row();
+        table.add(questionLabel);
+        questionContainer.add(table).padBottom(verticalGeneralMarginDimen).row();
         Group group = createGroupWithImageAndAnswerOptions();
-        questionContainer.add(group).height(group.getHeight()).width(group.getWidth()).padBottom(verticalGeneralMarginDimen * 10).center();
+        questionContainer.add(group).height(group.getHeight()).width(group.getWidth()).padBottom(0).center();
         return questionTable;
+    }
+
+    @Override
+    protected void setContainerBackground() {
     }
 
     private Group createGroupWithImageAndAnswerOptions() {
@@ -60,10 +72,10 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
         float imgHeight = image.getHeight();
         float imgWidth = image.getWidth();
         if (imgWidth > imgHeight) {
-            image.setHeight(MainDimen.vertical_general_margin.getDimen() * 18);
+            image.setHeight(MainDimen.vertical_general_margin.getDimen() * 25);
             image.setWidth(ScreenDimensionsManager.getNewWidthForNewHeight(image.getHeight(), imgWidth, imgHeight));
         } else {
-            image.setWidth(MainDimen.horizontal_general_margin.getDimen() * 40);
+            image.setWidth(ScreenDimensionsManager.getScreenWidthValue(130));
             image.setHeight(ScreenDimensionsManager.getNewHeightForNewWidth(image.getWidth(), imgWidth, imgHeight));
         }
         grp.addActor(image);
@@ -89,12 +101,12 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
 
     @Override
     public ButtonSkin correctAnswerSkin() {
-        return ButtonSkin.ANSWER_IMAGE_CLICK_CORRECT;
+        return GameButtonSkin.ANSWER_IMAGE_CLICK_CORRECT;
     }
 
     @Override
     public ButtonSkin wrongAnswerSkin() {
-        return ButtonSkin.ANSWER_IMAGE_CLICK_WRONG;
+        return GameButtonSkin.ANSWER_IMAGE_CLICK_WRONG;
     }
 
     @Override
@@ -109,9 +121,9 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
 
     @Override
     protected MyButton createAnswerButton(final String answer) {
-        final MyButton button = new ImageButtonBuilder(ButtonSkin.ANSWER_IMAGE_CLICK, Game.getInstance().getAbstractScreen())
+        final MyButton button = new ImageButtonBuilder(GameButtonSkin.ANSWER_IMAGE_CLICK, Game.getInstance().getAbstractScreen())
                 .setText(answer)
-                .setFixedButtonSize(ButtonSize.IMAGE_CLICK_ANSWER_OPTION)
+                .setFixedButtonSize(GameButtonSize.IMAGE_CLICK_ANSWER_OPTION)
                 .build();
         button.getCenterRow().setVisible(false);
         button.addListener(new ChangeListener() {

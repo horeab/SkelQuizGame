@@ -35,11 +35,8 @@ public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
         allTable = new Table();
         QuestionContainerCreatorService questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
         Table questionTable = questionContainerCreatorService.createQuestionTable();
-        Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
         questionTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(45));
-        answersTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(50));
         allTable.add(questionTable).height(questionTable.getHeight()).row();
-        allTable.add(answersTable).height(answersTable.getHeight());
         allTable.setFillParent(true);
         addActor(allTable);
 

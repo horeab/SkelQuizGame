@@ -55,7 +55,7 @@ public class ImageClickGameService extends GameService {
 
     @Override
     protected int getQuestionToBeDisplayedPositionInString() {
-        return 1;
+        return 2;
     }
 
     @Override

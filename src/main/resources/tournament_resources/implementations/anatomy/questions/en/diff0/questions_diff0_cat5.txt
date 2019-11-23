@@ -1,8 +1,8 @@
-Lips
-Uvula
-Molars
-Incisor
-Tongue
-Tonsil
-Hard palate
-Soft palate
+0::Lips:1,2,3:34,80:5
+1::Uvula:1,2,3:34,80:5
+2::Molars:1,2,3:34,80:5
+3::Incisor:1,2,3:34,80:5
+4::Tongue:1,2,3:34,80:5
+5::Tonsil:1,2,3:34,80:5
+6::Hard palate:1,2,3:34,80:5
+7::Soft palate:1,2,3:34,80:5
