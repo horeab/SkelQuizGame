@@ -17,6 +17,7 @@ import libgdx.utils.model.RGBColor;
 
 public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
 
+    public static int TOTAL_QUESTIONS = 5;
     private CampaignLevel campaignLevel;
     private Table allTable;
 

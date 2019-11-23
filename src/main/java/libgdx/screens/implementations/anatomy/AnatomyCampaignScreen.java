@@ -19,6 +19,7 @@ import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.controls.labelimage.LabelImageConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.anatomy.*;
@@ -63,8 +64,8 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
     @Override
     public void buildStage() {
         final int maxOpenedLevel = allCampaignLevelStores.size();
-        scrollToLevel = maxOpenedLevel < 3 ? 0 : maxOpenedLevel + 3;
-        levelHeight = getLevelBtnHeight() + MainDimen.horizontal_general_margin.getDimen() * 2;
+        scrollToLevel = maxOpenedLevel < 3 ? 0 : maxOpenedLevel - 1;
+        levelHeight = getLevelBtnHeight() + MainDimen.horizontal_general_margin.getDimen();
 
         scrollPane = new ScrollPane(createAllTable());
         scrollPane.setScrollingDisabled(true, false);
@@ -84,36 +85,51 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
 
 
         int totalCat = AnatomyQuestionCategoryEnum.values().length;
-        table.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setFontScale(FontManager.getBigFontDim()).setText(MainGameLabel.l_level.getText((allCampaignLevelStores.size() + 1))).build())).pad(MainDimen.vertical_general_margin.getDimen()).colspan(2).row();
+        table.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setFontScale(FontManager.getBigFontDim()).setText(Game.getInstance().getAppInfoService().getAppName()).build())).pad(MainDimen.vertical_general_margin.getDimen()).colspan(2).row();
         for (int i = 0; i < totalCat; i++) {
 
             final int finalIndex = i;
             AnatomyQuestionCategoryEnum categoryEnum = AnatomyQuestionCategoryEnum.values()[i];
-            MyButton categBtn = new ButtonBuilder().setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(categoryEnum.getIndex())).setButtonSkin(GameButtonSkin.HANGMAN_CATEG).build();
-            for (CampaignStoreLevel level : allCampaignLevelStores) {
-                if (CampaignLevelEnumService.getCategory(level.getName()) == categoryEnum.getIndex()) {
-                    categBtn.setDisabled(true);
-                }
+            float btnWidth = ScreenDimensionsManager.getScreenWidthValue(50);
+            MyButton categBtn = new ButtonBuilder()
+                    .setWrappedText(
+                            new LabelImageConfigBuilder().setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(categoryEnum.getIndex()))
+                                    .setFontScale(FontManager.getBigFontDim()).setWrappedLineLabel(btnWidth / 1.1f))
+                    .setButtonSkin(GameButtonSkin.HANGMAN_CATEG).build();
+            final int maxOpenedLevel = allCampaignLevelStores.size();
+            if (i >= maxOpenedLevel) {
+                categBtn.setDisabled(true);
             }
             categBtn.addListener(new ChangeListener() {
                 @Override
                 public void changed(ChangeEvent event, Actor actor) {
                     CampaignLevel campaignLevel = AnatomyCampaignLevelEnum.valueOf("LEVEL_0_" + finalIndex);
                     CampaignLevelEnumService enumService = new CampaignLevelEnumService(campaignLevel);
-                    QuestionConfig questionConfig = enumService.getQuestionConfig(HangmanGameScreen.TOTAL_QUESTIONS);
+                    QuestionConfig questionConfig = enumService.getQuestionConfig(AnatomyGameScreen.TOTAL_QUESTIONS);
                     AnatomyGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), campaignLevel);
                 }
             });
 
             float horizontalGeneralMarginDimen = MainDimen.horizontal_general_margin.getDimen();
             Table btnTable = new Table();
+            Image image = GraphicUtils.getImage(AnatomySpecificResource.valueOf("img_cat" + i + "_" + i + "s"));
+            float imgHeight = image.getHeight();
+            float imgWidth = image.getWidth();
+            if (imgWidth > imgHeight) {
+                image.setWidth(ScreenDimensionsManager.getScreenWidthValue(55));
+                image.setHeight(ScreenDimensionsManager.getNewHeightForNewWidth(image.getWidth(), imgWidth, imgHeight));
+            } else {
+                image.setHeight(getLevelBtnHeight());
+                image.setWidth(ScreenDimensionsManager.getNewWidthForNewHeight(image.getHeight(), imgWidth, imgHeight));
+            }
+            Table imgTable = new Table();
+            imgTable.add(image).width(image.getWidth()).height(image.getHeight());
+            btnTable.add(imgTable).width(btnWidth);
             btnTable.add(categBtn)
-                    .height(getLevelBtnHeight())
-                    .width(ScreenDimensionsManager.getScreenWidthValue(45));
-            table.add(btnTable)
                     .pad(horizontalGeneralMarginDimen)
                     .height(getLevelBtnHeight())
-                    .width(ScreenDimensionsManager.getScreenWidthValue(45));
+                    .width(btnWidth);
+            table.add(btnTable).expand().pad(horizontalGeneralMarginDimen);
             table.row();
         }
 
@@ -124,7 +140,7 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
     }
 
     private float getLevelBtnHeight() {
-        return ScreenDimensionsManager.getScreenHeightValue(27);
+        return ScreenDimensionsManager.getScreenHeightValue(43);
     }
 
     @Override
@@ -137,7 +153,7 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
         super.render(dt);
         // scrollPanePositionInit needs to be used otherwise the scrollTo wont work
         if (scrollPane != null && scrollPanePositionInit < 2 && scrollToLevel != null) {
-            scrollPane.setScrollY((scrollToLevel / 2) * levelHeight);
+            scrollPane.setScrollY(scrollToLevel * levelHeight);
             scrollPanePositionInit++;
         }
     }
