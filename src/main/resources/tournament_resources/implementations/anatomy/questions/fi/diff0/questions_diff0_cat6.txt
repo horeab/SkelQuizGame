@@ -1,4 +1,4 @@
-0 :: xxxxxxxxx: 1,2,4: 33,56: 6
+0::Frontal lobe:1,2,4:33,56:6
 1 :: Ajallinen lohko: 0,2,3: 50,43: 6
 2 :: Parietaalikeila: 0,1,3: 61,61: 6
 3 :: Occipital-lohko: 0,1,2: 76,48: 6

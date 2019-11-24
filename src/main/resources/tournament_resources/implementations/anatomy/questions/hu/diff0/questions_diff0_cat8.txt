@@ -5,5 +5,5 @@
 4 :: Bal oldali átrium: 7,6,0: 60,55: 8
 5 :: Mitrális szelep: 8,2,0: 64,46: 8
 6 :: Jobb kamra: 0,1,3: 52,28: 8
-7 :: xxxxxxxxxxx: 1,8,3: 66,35: 8
+7 :: Left ventricle: 1,8,3: 66,35: 8
 8 :: Tricuspid szelep: 1,0,5: 43,33: 8
