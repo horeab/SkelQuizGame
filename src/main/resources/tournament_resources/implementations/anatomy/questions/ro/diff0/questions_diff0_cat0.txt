@@ -1,0 +1,10 @@
+0 :: Ficat: 1,2,3: 44,44: 0
+1 :: Gura: 4,2,9: 39,82: 0
+2 :: Esofag: 1,8,5: 49,60: 0
+3 :: Intestinul gros: 4,2,6: 36,18: 0
+4 :: Intestinul subțire: 8,7,1: 50,18: 0
+5 :: Stomac: 4,6,7: 57,41: 0
+6 :: faringe: 5,2,9: 50,81: 0
+7 :: Gallbladder: 6,9,4: 42,38: 0
+8 :: Pancreas: 2,1,0: 48,32: 0
+9 :: Apendice: 2,8,3: 43,9: 0

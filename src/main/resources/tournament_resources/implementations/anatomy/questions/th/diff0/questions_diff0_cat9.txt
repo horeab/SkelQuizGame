@@ -1,0 +1,7 @@
+0::Iris:6,3,4:26,57:9
+1::Cornea:2,6,4:21,50:9
+2::Lens:1,4,6:32,51:9
+3::Retina:1,6,4:64,63:9
+4::Optic nerve:0,6,3:75,41:9
+5::Anterior chamber:6,4,3:25,51:9
+6::Vitreous chamber:1,4,3:48,54:9

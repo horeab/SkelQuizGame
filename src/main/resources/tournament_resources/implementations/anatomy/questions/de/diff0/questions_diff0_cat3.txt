@@ -1,0 +1,6 @@
+0 :: Herz: 4,2,5: 52,72: 3
+1 :: Aorta: 4,2,5: 51,78: 3
+2 :: Nierenvenen: 0,4,5: 47,59: 3
+3 :: Nierenarterie: 0,5,4: 52,59: 3
+4 :: Halsvenen: 0,2,5: 51,86: 3
+5 :: Vena femoralis: 0,2,4: 53,36: 3
