@@ -1,12 +1,12 @@
-0 :: Skull: 11,8,6: 49,96: 1
-1 :: Scapula: 5,4,3: 54,79: 1
-2 :: Ribs: 11,7,0: 52,74: 1
-3 :: Spine: 8,10,1: 47,65: 1
-4 :: Tibia: 5,9,3: 50,17: 1
-5 :: dijbeen: 4,10,7: 52,38: 1
-6 :: Humerus: 2,7,9: 37,72: 1
-7 :: Metacarpale botten: 6,0,1: 63,45: 1
-8 :: Handwortelbotten: 5,4,2: 61,48: 1
-9 :: Tarsus: 4,3,1: 49,6: 1
-10 :: Middenvoetsbeentjes: 0,3,5: 50,4: 1
-11 :: Bekken: 0,6,9: 43,58: 1
+0::Schedel:11,8,6:49,96:1
+1::Schouderblad:5,4,3:54,79:1
+2::Ribben:11,7,0:52,74:1
+3::Wervelkolom:8,10,1:47,65:1
+4::Scheenbeen:5,9,3:50,17:1
+5::dijbeen:4,10,7:52,38:1
+6::Opperarmbeen:2,7,9:37,72:1
+7::Middenhandsbeen:6,0,1:63,45:1
+8::Handwortelbotten:5,4,2:61,48:1
+9::Voetwortelbeen:4,3,1:49,6:1
+10::Middenvoetsbeentjes:0,3,5:50,4:1
+11::Bekken:0,6,9:43,58:1

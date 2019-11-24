@@ -1,6 +1,6 @@
-0 :: Mózg: 5,4,3: 50,96: 4
-1 :: Móżdżek: 5,4,3: 52,92: 4
-2 :: Rdzeń kręgowy: 0,4,3: 50,87: 4
-3 :: Nerw kulszowy: 0,4,5: 54,43: 4
-4 :: Nerw piszczelowy: 1,5,3: 54,18: 4
-5 :: Ganglion: 4,3,1: 49,70: 4
+0::Mózg:5,4,3:50,96:4
+1::Móżdżek:5,4,3:52,92:4
+2::Rdzeń kręgowy:0,4,3:50,87:4
+3::Nerw kulszowy:0,4,5:54,43:4
+4::Nerw piszczelowy:1,5,3:54,18:4
+5::Ganglion:4,3,1:49,70:4

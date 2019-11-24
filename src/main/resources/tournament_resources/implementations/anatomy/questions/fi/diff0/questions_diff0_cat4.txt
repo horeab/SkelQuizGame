@@ -1,6 +1,6 @@
-0 :: Brain: 5,4,3: 50,96: 4
-1 :: Cerebellum: 5,4,3: 52,92: 4
-2 :: Selkäydin: 0,4,3: 50,87: 4
-3 :: Iskiashermo: 0,4,5: 54,43: 4
-4 :: sääriluun hermo: 1,5,3: 54,18: 4
-5 :: Hermosolmu: 4,3,1: 49,70: 4
+0::Brain:5,4,3:50,96:4
+1::Cerebellum:5,4,3:52,92:4
+2::Selkäydin:0,4,3:50,87:4
+3::Iskiashermo:0,4,5:54,43:4
+4::sääriluun hermo:1,5,3:54,18:4
+5::Hermosolmu:4,3,1:49,70:4

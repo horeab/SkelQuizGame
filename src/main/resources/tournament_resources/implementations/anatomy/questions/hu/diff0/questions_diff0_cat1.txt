@@ -1,12 +1,12 @@
-0 :: Koponya: 11,8,6: 49,96: 1
-1 :: Scapula: 5,4,3: 54,79: 1
-2 :: bordák: 11,7,0: 52,74: 1
-3 :: Spine: 8,10,1: 47,65: 1
-4 :: Sípcsont: 5,9,3: 50,17: 1
-5 :: combcsont: 4,10,7: 52,38: 1
-6 :: Felkarcsont: 2,7,9: 37,72: 1
-7 :: Metakarbális csontok: 6,0,1: 63,45: 1
-8 :: pontycsontok: 5,4,2: 61,48: 1
-9 :: Tarsus: 4,3,1: 49,6: 1
-10 :: Metatarszális csontok: 0,3,5: 50,4: 1
-11 :: Pelvis: 0,6,9: 43,58: 1
+0::Koponya:11,8,6:49,96:1
+1::Lapocka:5,4,3:54,79:1
+2::bordák:11,7,0:52,74:1
+3::Gerinc:8,10,1:47,65:1
+4::Sípcsont:5,9,3:50,17:1
+5::combcsont:4,10,7:52,38:1
+6::Felkarcsont:2,7,9:37,72:1
+7::Metakarbális csontok:6,0,1:63,45:1
+8::pontycsontok:5,4,2:61,48:1
+9::cérnacsontok:4,3,1:49,6:1
+10::Lábközépcsont:0,3,5:50,4:1
+11::Csontos medence:0,6,9:43,58:1

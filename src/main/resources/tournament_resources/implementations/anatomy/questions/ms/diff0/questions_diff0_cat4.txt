@@ -1,6 +1,6 @@
-0 :: Otak: 5,4,3: 50,96: 4
-1 :: Cerebellum: 5,4,3: 52,92: 4
-2 :: Kord tulang belakang: 0,4,3: 50,87: 4
-3 :: Saraf Sciatic: 0,4,5: 54,43: 4
-4 :: Tibial saraf: 1,5,3: 54,18: 4
-5 :: Ganglion: 4,3,1: 49,70: 4
+0::Otak:5,4,3:50,96:4
+1::Cerebellum:5,4,3:52,92:4
+2::Kord tulang belakang:0,4,3:50,87:4
+3::Saraf Sciatic:0,4,5:54,43:4
+4::Tibial saraf:1,5,3:54,18:4
+5::Ganglion:4,3,1:49,70:4
