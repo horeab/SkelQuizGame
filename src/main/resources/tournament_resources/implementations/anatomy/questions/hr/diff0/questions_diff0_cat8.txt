@@ -1,4 +1,4 @@
-0::aorte:8,6,3:51,76:8
+0::Aorta:8,6,3:51,76:8
 1::Superiorna vena kava:6,7,4:34,71:8
 2::Inferior vena cava:1,4,3:34,17:8
 3::Desni atrij:4,7,0:36,52:8

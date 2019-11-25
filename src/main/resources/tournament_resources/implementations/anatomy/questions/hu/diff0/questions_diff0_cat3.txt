@@ -2,5 +2,5 @@
 1::Aorta:4,2,5:51,78:3
 2::Vesevénák:0,4,5:47,59:3
 3::Vese artéria:0,5,4:52,59:3
-4::Jugular veins:0,2,5:51,86:3
+4::Nyaki véna:0,2,5:51,86:3
 5::Femorális véna:0,2,4:53,36:3

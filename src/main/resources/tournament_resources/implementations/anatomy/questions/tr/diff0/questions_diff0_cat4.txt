@@ -3,4 +3,4 @@
 2::Omurilik:0,4,3:50,87:4
 3::Siyatik sinir:0,4,5:54,43:4
 4::Tibial sinir:1,5,3:54,18:4
-5::Ganglion:4,3,1:49,70:4
+5::Gangliyon:4,3,1:49,70:4
