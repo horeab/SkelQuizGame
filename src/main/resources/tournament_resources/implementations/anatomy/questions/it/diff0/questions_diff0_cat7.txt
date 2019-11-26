@@ -1,6 +1,6 @@
-0::Pinna:1,2,3:21,64:7
+0::Padiglione auricolare:1,2,3:21,64:7
 1::Canale uditivo:0,2,6:37,45:7
-2::Ear drum:1,5,6:55,45:7
+2::Timpano:1,5,6:55,45:7
 3::Ossicini:1,0,6:54,53:7
 4::Cochlea:6,1,5:68,46:7
 5::Nervo uditivo:6,2,1:79,49:7
