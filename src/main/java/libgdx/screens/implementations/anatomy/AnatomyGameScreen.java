@@ -2,15 +2,19 @@ package libgdx.screens.implementations.anatomy;
 
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.builders.BackButtonBuilder;
+import libgdx.dbapi.GameStatsDbApiService;
+import libgdx.game.Game;
 import libgdx.implementations.anatomy.AnatomyGame;
 import libgdx.implementations.anatomy.AnatomySpecificResource;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.screens.GameScreen;
+import libgdx.utils.DateUtils;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.RGBColor;
@@ -33,6 +37,10 @@ public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
     }
 
     private void createAllTable() {
+        if (Game.getInstance().getCurrentUser() != null) {
+            new GameStatsDbApiService().incrementGameStatsQuestionsWon(Game.getInstance().getCurrentUser().getId(), Long.valueOf(DateUtils.getNowMillis()).toString());
+        }
+
         allTable = new Table();
         QuestionContainerCreatorService questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
         Table questionTable = questionContainerCreatorService.createQuestionTable();
@@ -44,6 +52,7 @@ public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
         questionContainerCreatorService.processGameInfo(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
     }
 
+    @Override
     public void goToNextQuestionScreen() {
         if (levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
             ActorAnimation.animateImageCenterScreenFadeOut(AnatomySpecificResource.success, 0.3f);

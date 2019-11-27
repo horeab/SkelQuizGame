@@ -42,6 +42,7 @@ import libgdx.screen.AbstractScreen;
 import libgdx.screens.implementations.hangman.HangmanGameScreen;
 import libgdx.screens.implementations.hangman.HangmanScreenManager;
 import libgdx.utils.ScreenDimensionsManager;
+import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
 import libgdx.utils.model.FontConfig;
 
@@ -134,7 +135,7 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
         }
 
         if (campaignService.getFinishedCampaignLevels().size() == AnatomyCampaignLevelEnum.values().length) {
-            new LevelFinishedPopup(this, SkelGameLabel.game_finished.getText()).addToPopupManager();
+//            new LevelFinishedPopup(this, SkelGameLabel.game_finished.getText()).addToPopupManager();
         }
         return table;
     }
@@ -142,6 +143,7 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
     private float getLevelBtnHeight() {
         return ScreenDimensionsManager.getScreenHeightValue(43);
     }
+
 
     @Override
     public void onBackKeyPress() {
@@ -151,10 +153,11 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
     @Override
     public void render(float dt) {
         super.render(dt);
+        Utils.createChangeLangPopup();
         // scrollPanePositionInit needs to be used otherwise the scrollTo wont work
-        if (scrollPane != null && scrollPanePositionInit < 2 && scrollToLevel != null) {
-            scrollPane.setScrollY(scrollToLevel * levelHeight);
-            scrollPanePositionInit++;
-        }
+//        if (scrollPane != null && scrollPanePositionInit < 2 && scrollToLevel != null) {
+//            scrollPane.setScrollY(scrollToLevel * levelHeight);
+//            scrollPanePositionInit++;
+//        }
     }
 }

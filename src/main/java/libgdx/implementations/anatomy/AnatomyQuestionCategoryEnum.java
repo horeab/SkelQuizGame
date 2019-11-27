@@ -12,10 +12,10 @@ public enum AnatomyQuestionCategoryEnum implements QuizQuestionCategory {
     cat3(ImageClickGameCreatorDependencies.class),
     cat4(ImageClickGameCreatorDependencies.class),
     cat5(ImageClickGameCreatorDependencies.class),
-    cat6(ImageClickGameCreatorDependencies.class),
     cat7(ImageClickGameCreatorDependencies.class),
     cat8(ImageClickGameCreatorDependencies.class),
     cat9(ImageClickGameCreatorDependencies.class),
+    cat6(ImageClickGameCreatorDependencies.class),
     ;
 
     private Class<? extends CreatorDependencies> questionCreator;
