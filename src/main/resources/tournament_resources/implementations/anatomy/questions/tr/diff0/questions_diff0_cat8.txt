@@ -1,5 +1,5 @@
 0::Aort:8,6,3:51,76:8
-1::Superior vena cava:6,7,4:34,71:8
+1::Üstün Vena Kava:6,7,4:34,71:8
 2::Düşük vena kava:1,4,3:34,17:8
 3::Sağ atriyum:4,7,0:36,52:8
 4::Sol atriyum:7,6,0:60,55:8

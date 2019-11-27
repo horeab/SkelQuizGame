@@ -1,6 +1,6 @@
 0::Aorta:8,6,3:51,76:8
 1::Höhere Hohlvene:6,7,4:34,71:8
-2::Inferior vena cava:1,4,3:34,17:8
+2::Untere Hohlvene:1,4,3:34,17:8
 3::Rechter Vorhof:4,7,0:36,52:8
 4::Linker Vorhof:7,6,0:60,55:8
 5::Mitralklappe:8,2,0:64,46:8

@@ -1,6 +1,6 @@
 0::Động mạch chủ:8,6,3:51,76:8
-1::tĩnh mạch chủ cao cấp:6,7,4:34,71:8
-2::Inferior vena cava:1,4,3:34,17:8
+1::tĩnh mạch chủ trên:6,7,4:34,71:8
+2::tĩnh mạch chủ dưới:1,4,3:34,17:8
 3::Tâm nhĩ phải:4,7,0:36,52:8
 4::Tâm nhĩ trái:7,6,0:60,55:8
 5::Van hai lá:8,2,0:64,46:8
