@@ -43,63 +43,63 @@ public class StartGameAnatomy {
     public static String getTitle() {
         switch (Language.valueOf(Game.getInstance().getAppInfoService().getLanguage())) {
             case cs:
-                return "Světová geografie";
+                return "Anatomie";
             case da:
-                return "Verdensgeografi";
+                return "Anatomi";
             case de:
-                return "Weltgeografie";
+                return "Anatomie Spiel";
             case el:
-                return "Παγκόσμια γεωγραφία";
+                return "Ανατομία";
             case en:
-                return "World Geography";
+                return "Anatomy Game";
             case es:
-                return "Geografia mundial";
+                return "Anatomía";
             case fi:
-                return "Maailman maantiede";
+                return "Anatomia";
             case fr:
-                return "Géographie du monde";
+                return "Anatomie";
             case hi:
-                return "विश्व का भूगोल";
+                return "एनाटॉमी";
             case hr:
-                return "Svjetska geografija";
+                return "Anatomija";
             case hu:
-                return "Világföldrajz";
+                return "Anatómia";
             case id:
-                return "Geografi dunia";
+                return "Anatomi";
             case it:
-                return "Geografia mondiale";
+                return "Anatomia";
             case ja:
-                return "世界の地理";
+                return "解剖学";
             case ko:
-                return "세계 지리";
+                return "해부";
             case ms:
-                return "Geografi Dunia";
+                return "Anatomi";
             case nl:
-                return "Wereld Aardrijkskunde";
+                return "Anatomie";
             case no:
-                return "Verdensgeografi";
+                return "Anatomi-spill";
             case pl:
-                return "Geografia świata";
+                return "Anatomia";
             case pt:
-                return "Geografia mundial";
+                return "Anatomia";
             case ro:
-                return "Geografia lumii";
+                return "Anatomie";
             case ru:
-                return "Мировая география";
+                return "Игра Анатомия";
             case sk:
-                return "Svetová geografia";
+                return "Anatómia";
             case sv:
-                return "Världsgeografi";
+                return "Anatomi";
             case th:
-                return "ภูมิศาสตร์โลก";
+                return "กายวิภาคศาสตร์";
             case tr:
-                return "Dünya coğrafyası";
+                return "Anatomi Oyunu";
             case uk:
-                return "Світова географія";
+                return "Анатомія";
             case vi:
-                return "Địa lý thế giới";
+                return "Giải phẫu học";
             case zh:
-                return "世界地理";
+                return "解剖学";
         }
         return null;
     }
