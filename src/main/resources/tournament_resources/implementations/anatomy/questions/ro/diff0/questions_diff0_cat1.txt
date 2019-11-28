@@ -4,7 +4,7 @@
 3::Coloană vertebrală:8,10,1:47,65:1
 4::Tibia:5,9,3:50,17:1
 5::Femur:4,10,7:52,38:1
-6::Humerus:2.7.9a:37,72:1
+6::Humerus:2,7,9:37,72:1
 7::Oase metacarpiene:6,0,1:63,45:1
 8::Oase carpiene:5,4,2:61,48:1
 9::Tarsul:4,3,1:49,6:1

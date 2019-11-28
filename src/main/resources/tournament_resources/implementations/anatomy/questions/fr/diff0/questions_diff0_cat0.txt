@@ -7,4 +7,4 @@
 6::Pharynx:5,2,9:50,81:0
 7::Vésicule biliaire:6,9,4:42,38:0
 8::Pancréas:2,1,0:48,32:0
-9::questions_diff0_cat0.txt:2,8,3:43,9:0
+9::Appendice iléo-cæcal:2,8,3:43,9:0

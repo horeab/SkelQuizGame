@@ -154,7 +154,7 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
         Map<String, MyButton> allAnswerButtons = new LinkedHashMap<>();
         for (String answer : allAnswerOptions) {
             MyButton button = createAnswerButton(answer);
-            allAnswerButtons.put(answer, button);
+            allAnswerButtons.put(answer.toLowerCase(), button);
         }
         return allAnswerButtons;
     }

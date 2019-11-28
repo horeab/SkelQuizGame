@@ -9,6 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.ArrayList;
@@ -50,7 +51,7 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
         Table questionTable = super.createQuestionTable();
         MyWrappedLabel questionLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setFontScale(FontManager.getNormalBigFontDim())
-                .setText(gameService.getQuestionToBeDisplayed()).build());
+                .setText(StringUtils.capitalize(gameService.getQuestionToBeDisplayed())).build());
         Table table = new Table();
         table.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
@@ -122,7 +123,7 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
     @Override
     protected MyButton createAnswerButton(final String answer) {
         final MyButton button = new ImageButtonBuilder(GameButtonSkin.ANSWER_IMAGE_CLICK, Game.getInstance().getAbstractScreen())
-                .setText(answer)
+                .setText(StringUtils.capitalize(answer))
                 .setFixedButtonSize(GameButtonSize.IMAGE_CLICK_ANSWER_OPTION)
                 .build();
         button.getCenterRow().setVisible(false);

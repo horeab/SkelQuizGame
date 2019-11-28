@@ -29,7 +29,7 @@ public class ImageClickGameService extends GameService {
         Map<MyButton, Pair<Integer, Integer>> buttonWithCoordinates = new HashMap<>();
         for (Question question : allQuestions) {
             for (MyButton button : allAnswerOptionsButtons) {
-                if (button.getText().equals(questionParser.getAnswers(question.getQuestionString()).get(0))) {
+                if (button.getText().toLowerCase().equals(questionParser.getAnswers(question.getQuestionString()).get(0).toLowerCase())) {
                     buttonWithCoordinates.put(button, getAnswerOptionCoordinates(question.getQuestionString()));
                     break;
                 }
@@ -65,7 +65,7 @@ public class ImageClickGameService extends GameService {
 
     @Override
     public boolean isAnswerCorrectInQuestion(String answer) {
-        return compareAnswerStrings(answer, getAnswers(question).get(0));
+        return compareAnswerStrings(answer.toLowerCase(), getAnswers(question).get(0).toLowerCase());
     }
 
     @Override

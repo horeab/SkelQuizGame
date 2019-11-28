@@ -17,7 +17,9 @@ import libgdx.implementations.skelgame.gameservice.CreatorDependenciesContainer;
 import libgdx.implementations.skelgame.gameservice.DependentAnswersQuizGameService;
 import libgdx.implementations.skelgame.gameservice.GameService;
 import libgdx.implementations.skelgame.gameservice.GameServiceContainer;
+import libgdx.implementations.skelgame.gameservice.ImageClickGameService;
 import libgdx.implementations.skelgame.gameservice.QuestionCreator;
+import libgdx.implementations.skelgame.gameservice.UniqueAnswersQuizGameService;
 import libgdx.implementations.skelgame.question.Question;
 import libgdx.utils.EnumUtils;
 import libgdx.utils.startgame.test.DefaultAppInfoService;
@@ -72,7 +74,7 @@ public abstract class GameServiceTest extends TestMain {
             int imageToBeDisplayedPositionInString = gameService.getImageToBeDisplayedPositionInString();
             if (split.length == imageToBeDisplayedPositionInString + 1 && StringUtils.isNotBlank(split[imageToBeDisplayedPositionInString])) {
                 String imageId = split[split.length - 1];
-                assertTrue(lang + " - " + question.getQuestionString(), split[0].equals(imageId) || Integer.parseInt(imageId) == 999);
+                assertTrue(lang + " - " + question.getQuestionString(), Integer.parseInt(imageId) == question.getQuestionCategory().getIndex());
                 assertNotNull(lang + " - " + question.getQuestionString(), gameService.getQuestionImage());
             }
             String questionToBeDisplayed = gameService.getQuestionToBeDisplayed();
@@ -103,6 +105,11 @@ public abstract class GameServiceTest extends TestMain {
 //            System.out.println(gameService.getAllAnswerOptions().toString());
             assertTrue(((DependentAnswersQuizGameService) gameService).getAnswers().size() == 1);
             assertEquals(lang + " - " + gameService.getAllAnswerOptions().toString(), 4, gameService.getAllAnswerOptions().size());
+        } else if (gameService instanceof ImageClickGameService) {
+            assertEquals(4, gameService.getAllAnswerOptions().size());
+        } else if (gameService instanceof UniqueAnswersQuizGameService) {
+            assertTrue(gameService.getAllAnswerOptions().size() > 2);
+            assertTrue(((UniqueAnswersQuizGameService) gameService).getAnswers().size() == 1);
         }
         for (String answer : gameService.getAllAnswerOptions()) {
             assertTrue(StringUtils.isNotBlank(answer));

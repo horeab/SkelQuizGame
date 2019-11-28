@@ -48,6 +48,8 @@
     <orderEntry type="library" name="Gradle: net.java.jinput:jinput-platform:natives-windows:2.0.5" level="project" />
     <orderEntry type="library" name="Gradle: net.java.jinput:jinput-platform:natives-osx:2.0.5" level="project" />
     <orderEntry type="library" name="Gradle: org.objenesis:objenesis:2.1" level="project" />
+    <orderEntry type="module" module-name="LibGdxControls" />
+    <orderEntry type="module" module-name="SkelGame" />
   </component>
   <component name="TestModuleProperties" production-module="SkelQuizGame_main" />
 </module>

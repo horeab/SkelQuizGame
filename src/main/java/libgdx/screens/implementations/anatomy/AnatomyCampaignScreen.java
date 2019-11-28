@@ -135,7 +135,7 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
         }
 
         if (campaignService.getFinishedCampaignLevels().size() == AnatomyCampaignLevelEnum.values().length) {
-//            new LevelFinishedPopup(this, SkelGameLabel.game_finished.getText()).addToPopupManager();
+            new LevelFinishedPopup(this, SkelGameLabel.game_finished.getText()).addToPopupManager();
         }
         return table;
     }
@@ -154,10 +154,10 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
     public void render(float dt) {
         super.render(dt);
         Utils.createChangeLangPopup();
-        // scrollPanePositionInit needs to be used otherwise the scrollTo wont work
-//        if (scrollPane != null && scrollPanePositionInit < 2 && scrollToLevel != null) {
-//            scrollPane.setScrollY(scrollToLevel * levelHeight);
-//            scrollPanePositionInit++;
-//        }
+//         scrollPanePositionInit needs to be used otherwise the scrollTo wont work
+        if (scrollPane != null && scrollPanePositionInit < 2 && scrollToLevel != null) {
+            scrollPane.setScrollY(scrollToLevel * levelHeight);
+            scrollPanePositionInit++;
+        }
     }
 }

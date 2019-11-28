@@ -6,5 +6,5 @@
 5::Gyomor:4,6,7:57,41:0
 6::Garat:5,2,9:50,81:0
 7::epehólyag:6,9,4:42,38:0
-8::Hasnyálmirigyre 2,1,0:48,32:0
+8::Hasnyálmirigyre:2,1,0:48,32:0
 9::Féregnyúlvány:2,8,3:43,9:0
