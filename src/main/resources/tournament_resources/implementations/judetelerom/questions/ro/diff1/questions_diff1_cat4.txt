@@ -1,0 +1,13 @@
+15:Care este reşedinţa judeţului Dâmboviţa?:Târgovişte
+16:Care este reşedinţa judeţului Dolj?:Craiova
+17:Care este reşedinţa judeţului Galaţi?:Galaţi
+18:Care este reşedinţa judeţului Giurgiu?:Giurgiu
+19:Care este reşedinţa judeţului Gorj?:Târgu Jiu
+20:Care este reşedinţa judeţului Harghita?:Miercurea Ciuc
+21:Care este reşedinţa judeţului Hunedoara?:Deva
+22:Care este reşedinţa judeţului Ialomiţa?:Slobozia
+23:Care este reşedinţa judeţului Iaşi?:Iaşi
+24:Care este reşedinţa judeţului Ilfov?:Buftea
+25:Care este reşedinţa judeţului Maramureş?:Baia Mare
+26:Care este reşedinţa judeţului Mehedinţi?:Drobeta-Turnu Severin
+27:Care este reşedinţa judeţului Mureş?:Târgu Mureş

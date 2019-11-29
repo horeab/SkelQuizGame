@@ -1,0 +1,13 @@
+15:Sfinxul din Bucegi:Dâmboviţa:17,18,22:15
+16:Muzeul Olteniei:Dolj:20,18,12:16
+17:Complexul Muzeal de ştiinţele Naturii „Răsvan Angheluţă”:Galaţi:21,13,11:17
+18:Parcul Natural Comana:Giurgiu:20,26,13:18
+19:Coloana Infinitului:Gorj:27,26,22:19
+20:Lacul Sfânta Ana:Harghita:12,16,25:20
+21:Castelul Corvinilor:Hunedoara:29,25,24:21
+22:Mănăstirea Sfinţii Voievozi din Slobozia:Ialomiţa:16,30,17:22
+23:Palatul Culturii:Iaşi:15,19,20:23
+24:Lacul Snagov:Ilfov:19,18,21:24
+25:Cimitirul Vesel din Săpânţa:Maramureş:28,33,24:25
+26:Chipul lui Decebal:Mehedinţi:29,20,34:26
+27:Centrul istoric din Sighişoara:Mureş:24,33,28:27

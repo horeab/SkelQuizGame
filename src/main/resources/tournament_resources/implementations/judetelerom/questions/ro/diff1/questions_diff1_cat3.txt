@@ -1,0 +1,13 @@
+15:Altitudinea maximă a acestui judeţ se înregistrează în Vârful Omu din Munţii Bucegi, iar cea minimă de cca 120–125 m, în Câmpia Titu:Dâmboviţa:16,17,11:
+16:Judeţ situat în sud-vestul regiunii istorice Oltenia din România, aflat în zona cea mai fertilă a Câmpiei Române:Dolj:24,21,8:
+17:Ambarcaţiunea de pe stema judeţului semnifică faptul că este port la Dunăre:Galaţi:10,12,14:
+18:Primul pod peste Dunăre care leagă România de Bulgaria a fost construit in acest judeţ:Giurgiu:24,23,16:
+19:Sculptorul român Constantin Brâncuşi a fost născut în acest judeţ:Gorj:27,14,20:
+20:Râul Olt izvorăşte de pe teritoriul judeţului:Harghita:16,17,26:
+21:Parcul naţional Retezat se află în judeţul:Hunedoara:25,23,14:
+22:Reşedinţa judeţului este municipiul Slobozia:Ialomiţa:17,24,27:
+23:Judeţul din România cu cea mai mare populaţie este:Iaşi:21,18,31:
+24:Judeţul din România cu cea mai mică suprafaţă este:Ilfov:25,23,18:
+25:Moroşenii sunt locuitorii cărui judeţ:Maramureş:27,19,21:
+26:Podul lui Traian, construit de Apolodor din Damasc, se află în judeţul:Mehedinţi:20,18,28:
+27:Judeţ în care în 1990 a avut loc cel mai grav conflict interetnic:Mureş:23,35,26:

@@ -1,0 +1,15 @@
+0:În reşedinţa acestui judeţ a fost organizată în 1918 „Marea Adunare Naţională”, care a hotărât unirea Transilvaniei cu România:Alba:3,1,8:
+1:Acest judeţ se află în provincia istorică Crişana:Arad:4,3,7:
+2:Cel mai înalt vârf muntos al României, vârful Moldoveanu, se află în judeţul:Argeş:3,1,0:
+3:Prima sonda petrolieră comercială din lume a fost construită în acest judeţ:Bacău:8,2,5:
+4:Cetatea Biharia care este menţionată în izvoare ca aparţinând voievodului Menumorut care a rezistat aici 13 zile asediului maghiar, se afla in judeţul:Bihor:9,12,6:
+5:Se învecinează cu judeţele Cluj, la vest, Maramureş, la nord, Suceava, la est şi Mureş la sud:Bistriţa-Năsăud:11,4,7:
+6:Compozitorul George Enescu s-a născut pe teritoriul acestu judeţ:Botoşani:1,11,9:
+7:Festivalul "Cerbul de Aur" se organizează în reşedinţa acestui judeţ:Braşov:4,2,11:
+8:Acest judeţ are unul dintre cele mai mari porturi fluviale româneşti de pe Dunăre:Brăila:15,1,16:
+9:Situat in sud-estul României, acest judeţ reuneşte trei forme de relief, munţi la nord, câmpii la sud şi in rest zonă de dealuri subcarpatice:Buzău:2,6,17:
+10:Băile Herculane, una dintre cele mai vechi staţiuni din lume se află în acest judeţ:Caraş-Severin:13,7,9:
+11:Judeţul face parte din bazinul hidrografic al fluviului Dunăre, pricipalul curs de apă al judeţului:Călăraşi:19,7,12:
+12:Festivalul de muzică electro, Untold, are loc în judeţul:Cluj:18,16,6:
+13:Judeţul este mărginit la sud de frontiera de stat româno-bulgară ce traversează Podişul Dobrogei de Sud:Constanţa:9,16,8:
+14:Judeţul din România cu cea mai mică populaţie este:Covasna:13,10,8:

@@ -1,0 +1,13 @@
+28:Neamţ:Neamţ:30,31,33:65,75:999
+29:Olt:Olt:33,30,34:45,13:999
+30:Prahova:Prahova:13,10,21:60,33:999
+31:Satu Mare:Satu Mare:21,17,34:28,87:999
+32:Sălaj:Sălaj:33,34,35:30,79:999
+33:Sibiu:Sibiu:3,4,9:42,50:999
+34:Suceava:Suceava:9,12,14:60,85:999
+35:Teleorman:Teleorman:21,13,4:52,11:999
+36:Timiş:Timiş:5,8,7:9,45:999
+37:Tulcea:Tulcea:29,23,12:93,33:999
+38:Vaslui:Vaslui:8,22,27:80,65:999
+39:Vâlcea:Vâlcea:17,31,30:40,30:999
+40:Vrancea:Vrancea:21,11,4:70,47:999

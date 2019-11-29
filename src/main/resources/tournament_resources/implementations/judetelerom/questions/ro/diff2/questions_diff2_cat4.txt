@@ -1,0 +1,13 @@
+28:Care este reşedinţa judeţului Neamţ?:Piatra Neamţ
+29:Care este reşedinţa judeţului Olt?:Slatina
+30:Care este reşedinţa judeţului Prahova?:Ploieşti
+31:Care este reşedinţa judeţului Satu Mare?:Satu Mare
+32:Care este reşedinţa judeţului Sălaj?:Zalău
+33:Care este reşedinţa judeţului Sibiu?:Sibiu
+34:Care este reşedinţa judeţului Suceava?:Suceava
+35:Care este reşedinţa judeţului Teleorman?:Alexandria
+36:Care este reşedinţa judeţului Timiş?:Timişoara
+37:Care este reşedinţa judeţului Tulcea?:Tulcea
+38:Care este reşedinţa judeţului Vaslui?:Vaslui
+39:Care este reşedinţa judeţului Vâlcea?:Râmnicu Vâlcea
+40:Care este reşedinţa judeţului Vrancea?:Focşani
