@@ -6,10 +6,12 @@ import libgdx.game.SubGameDependencyManager;
 import libgdx.implementations.anatomy.AnatomyDependencyManager;
 import libgdx.implementations.geoquiz.QuizGameDependencyManager;
 import libgdx.implementations.hangman.HangmanDependencyManager;
+import libgdx.implementations.judetelerom.JudeteleRomDependencyManager;
 import libgdx.implementations.kennstde.KennstDeDependencyManager;
 
 public enum GameIdEnum implements GameId {
 
+    judetelerom(JudeteleRomDependencyManager.class),
     anatomy(AnatomyDependencyManager.class),
     kennstde(KennstDeDependencyManager.class),
     quizgame(QuizGameDependencyManager.class),
