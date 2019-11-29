@@ -1,0 +1,15 @@
+0:Cetatea Alba Carolina:Alba:1,8,7:0
+1:Castelul Regal de la Săvârşin:Arad:7,0,5:1
+2:Mănăstirea Curtea de Argeş:Argeş:7,0,4:2
+3:Staţiunea Slănic-Moldova:Bacău:4,8,2:3
+4:Peştera Urşilor:Bihor:0,9,11:4
+5:Lacul Colibiţa:Bistriţa-Năsăud:4,7,9:5
+6:Casa Memorială „Mihai Eminescu” din Ipoteşt:Botoşani:7,4,14:6
+7:Castelul Bran:Braşov:15,12,6:7
+8:Insula Mică a Brăilei:Brăila:1,14,12:8
+9:Vulcanii Noroioşi de la Pâclele Mici:Buzău:4,10,3:9
+10:Izvorul Bigăr:Caraş-Severin:12,18,17:10
+11:Muzeul Dunării De Jos:Călăraşi:19,15,5:11
+12:Salina Turda:Cluj:10,7,14:12
+13:Staţiunea Mamaia:Constanţa:11,19,18:13
+14:Muzeul Naţional Secuiesc:Covasna:9,22,6:14

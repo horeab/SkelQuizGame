@@ -1,0 +1,15 @@
+0:Care este reşedinţa judeţului Alba?:Alba Iulia
+1:Care este reşedinţa judeţului Arad?:Arad
+2:Care este reşedinţa judeţului Argeş?:Piteşti
+3:Care este reşedinţa judeţului Bacău?:Bacău
+4:Care este reşedinţa judeţului Bihor?:Oradea
+5:Care este reşedinţa judeţului Bistriţa-Năsăud?:Bistriţa
+6:Care este reşedinţa judeţului Botoşani?:Botoşani
+7:Care este reşedinţa judeţului Braşov?:Braşov
+8:Care este reşedinţa judeţului Brăila?:Brăila
+9:Care este reşedinţa judeţului Buzău?:Buzău
+10:Care este reşedinţa judeţului Caraş-Severin?:Reşiţa
+11:Care este reşedinţa judeţului Călăraşi?:Călăraşi
+12:Care este reşedinţa judeţului Cluj?:Cluj-Napoca
+13:Care este reşedinţa judeţului Constanţa?:Constanţa
+14:Care este reşedinţa judeţului Covasna?:Sfântu Gheorghe
