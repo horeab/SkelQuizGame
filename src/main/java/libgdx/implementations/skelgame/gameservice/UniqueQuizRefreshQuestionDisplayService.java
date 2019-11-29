@@ -21,7 +21,7 @@ public class UniqueQuizRefreshQuestionDisplayService extends RefreshQuestionDisp
     public void gameOverQuestion(GameQuestionInfo gameQuestionInfo) {
         if (gameQuestionInfo != null) {
             for (String answer : gameService.getAnswers()) {
-                allAnswerButtons.get(answer).setButtonSkin(UniqueQuizQuestionContainerCreatorService.getCorrectQuizGameButtonSkin(gameService.getAllAnswerOptions()));
+                allAnswerButtons.get(answer.toLowerCase()).setButtonSkin(UniqueQuizQuestionContainerCreatorService.getCorrectQuizGameButtonSkin(gameService.getAllAnswerOptions()));
             }
         }
     }

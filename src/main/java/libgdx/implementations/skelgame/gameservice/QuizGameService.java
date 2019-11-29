@@ -19,7 +19,7 @@ public abstract class QuizGameService extends GameService {
 
     @Override
     public boolean isAnswerCorrectInQuestion(String answer) {
-        return compareAnswerStrings(answer, getAnswers().get(0));
+        return compareAnswerStrings(answer.toLowerCase(), getAnswers().get(0).toLowerCase());
     }
 
     @Override

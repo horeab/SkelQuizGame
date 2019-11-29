@@ -8,4 +8,7 @@ public class DependentQuizQuestionContainerCreatorService extends QuizQuestionCo
         super(gameContext, abstractGameScreen);
     }
 
+    @Override
+    protected void setContainerBackground() {
+    }
 }
