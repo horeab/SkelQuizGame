@@ -1,0 +1,17 @@
+0 :: En vän i behov: 11,8,1: 0
+1 :: En söndagseftermiddag på ön La Grande Jatte: 7,13,15: 1
+2 :: Amerikansk gotisk: 5,0,3: 2
+3 :: Komposition en rouge, jaune, bleu et noir: 10,2,12: 3
+4 :: Girl with a Pearl Earring: 5,14,1: 4
+5 :: skapelse av Adam: 6,12,8: 5
+6 :: Mona Lisa: 8,14,4: 6
+7 :: Nighthawks : 14,13,15: 7
+8 :: Ambassadörerna: 12,3,5: 8
+9 :: Hare: 0,1,2: 9
+10 :: The Great Wave off Kanagawa: 3,12,16: 10
+11 :: The Kiss: 4,5,2: 11
+12 :: Den nionde vågen: 10,7,3: 12
+13 :: Skriket: 11,7,5: 13
+14 :: The Starry Night: 6,16,7: 14
+15 :: Babelens torn: 1,5,12: 15
+16 :: Vandrare över dimmanhavet: 5,9,8: 16

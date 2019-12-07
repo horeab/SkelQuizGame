@@ -1,0 +1,14 @@
+0 :: Itävalta: 2,8,6: 0
+1 :: Ranska: 4,7,0: 1
+2 :: England: 8,10,9: 2
+3 :: Saksa: 1,7,9: 3
+4 :: Kreikka: 12,1,11: 4
+5 :: Italia: 12,3,13: 5
+6 :: Japani: 8,12,11: 6
+7 :: Brasilia: 6,4,11: 7
+8 :: Hollanti: 2,11,9: 8
+9 :: Norja: 4,10,11: 9
+10 :: Romania: 8,5,4: 10
+11 :: Venäjä: 10,13,9: 11
+12 :: Espanja: 6,10,5: 12
+13 :: Yhdysvallat: 9,8,7: 13

@@ -1,0 +1,14 @@
+0::Österreich:2,8,6:0
+1::Frankreich:4,7,0:1
+2::England:8,10,9:2
+3::Deutschland:1,7,9:3
+4::Griechenland:12,1,11:4
+5::Italien:12,3,13:5
+6::Japan:8,12,11:6
+7::Brasilien:6,4,11:7
+8::Niederlande:2,11,9:8
+9::Norwegen:4,10,11:9
+10::Rumänien:8,5,4:10
+11::Russland:10,13,9:11
+12::Spanien:6,10,5:12
+13::Vereinigte Staaten:9,8,7:13

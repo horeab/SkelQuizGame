@@ -1,0 +1,14 @@
+0 :: Rakousko: 2,8,6: 0
+1 :: Francie: 4,7,0: 1
+2 :: Anglie: 8,10,9: 2
+3 :: Německo: 1,7,9: 3
+4 :: Řecko: 12,1,11: 4
+5 :: Itálie: 12,3,13: 5
+6 :: Japonsko: 8,12,11: 6
+7 :: Brazílie: 6,4,11: 7
+8 :: Nizozemsko: 2,11,9: 8
+9 :: Norsko: 4,10,11: 9
+10 :: Rumunsko: 8,5,4: 10
+11 :: Rusko: 10,13,9: 11
+12 :: Španělsko: 6,10,5: 12
+13 :: Spojené státy: 9,8,7: 13

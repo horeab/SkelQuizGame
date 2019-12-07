@@ -1,0 +1,17 @@
+0 :: Um Amigo em Necessidade: 11,8,1: 0
+1 :: Uma tarde de domingo na ilha de La Grande Jatte: 7,13,15: 1
+2 :: Gótico Americano: 5,0,3: 2
+3 :: Composição em vermelho, amarelo, azul e branco: 10,2,12: 3
+4 :: Menina com Brinco de Pérola: 5,14,1: 4
+5 :: Criação de Adão: 6,12,8: 5
+6 :: Mona Lisa: 8,14,4: 6
+7 :: Nighthawks: 14,13,15: 7
+8 :: Os Embaixadores: 12,3,5: 8
+9 :: Lebre: 0,1,2: 9
+10 :: A Grande Onda de Kanagawa: 3,12,16: 10
+11 :: O Beijo: 4,5,2: 11
+12 :: A Nona Onda: 10,7,3: 12
+13 :: O Grito: 11,7,5: 13
+14 :: A Noite Estrelada: 6,16,7: 14
+15 :: A Torre de Babel: 1,5,12: 15
+16 :: Andarilho acima do mar de neblina: 5,9,8: 16

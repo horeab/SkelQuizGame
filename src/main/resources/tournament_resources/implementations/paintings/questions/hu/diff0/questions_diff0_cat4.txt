@@ -1,0 +1,14 @@
+0 :: Ausztria: 2,8,6: 0
+1 :: Franciaország: 4,7,0: 1
+2 :: Anglia: 8,10,9: 2
+3 :: Németország: 1,7,9: 3
+4 :: Görögország: 12,1,11: 4
+5 :: Olaszország: 12,3,13: 5
+6. :: Japán: 8,12,11: 6
+7 :: Brazília: 6,4,11: 7
+8 :: Hollandia: 2,11,9: 8
+9 :: Norvégia: 4,10,11: 9
+10 :: Románia: 8,5,4: 10
+11 :: Oroszország: 10,13,9: 11
+12 :: Spanyolország: 6,10,5: 12
+13 :: Egyesült Államok: 9,8,7: 13
