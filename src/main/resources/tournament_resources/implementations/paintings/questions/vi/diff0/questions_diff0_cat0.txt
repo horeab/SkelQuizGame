@@ -1,8 +1,8 @@
 0 :: Một người bạn cần: 11,8,1: 0
-1 :: Một chiều chủ nhật trên đảo La Grande Jatte: 7,13,15: 1
-2 :: Gô tích Mỹ: 5,0,3: 2
-3 :: Thành phần en rouge, jaune, bleu et noir: 10,2,12: 3
-4 :: Cô gái đeo bông tai ngọc trai: 5,14,1: 4
+1 :: Chiều Chủ nhật trên đảo Grande Jatte: 7,13,15: 1
+2 :: American Gothic: 5,0,3: 2
+3 :: Thành phần với màu đỏ, vàng, xanh và đen: 10,2,12: 3
+4 :: Cô gái đeo hoa tai ngọc trai: 5,14,1: 4
 5 :: Tạo ra Adam: 6,12,8: 5
 6 :: Mona Lisa: 8,14,4: 6
 7 :: Nighthawks: 14,13,15: 7
@@ -14,4 +14,4 @@
 13 :: Tiếng thét: 11,7,5: 13
 14 :: Đêm đầy sao: 6,16,7: 14
 15 :: Tháp Babel: 1,5,12: 15
-16 :: Người lang thang trên Biển sương mù: 5,9,8: 16
+16 :: Kẻ lãng du trên biển sương mù: 5,9,8: 16

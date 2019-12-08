@@ -1,17 +1,17 @@
-0 :: A Friend in Need: 11,8,1: 0
-1 :: Una domenica pomeriggio sull'isola della Grande Jatte: 7,13,15: 1
+0 :: Un amico bisognoso: 11,8,1: 0
+1 :: Una domenica pomeriggio sull'isola della Grande-Jatte: 7,13,15: 1
 2 :: American Gothic: 5,0,3: 2
-3 :: Composizione en rouge, jaune, bleu et noir: 10,2,12: 3
+3 :: Composizione con rosso, giallo, blu e nero: 10,2,12: 3
 4 :: Ragazza con l'orecchino di perla: 5,14,1: 4
 5 :: Creazione di Adamo: 6,12,8: 5
 6 :: Mona Lisa: 8,14,4: 6
-7 :: Nighthawks: 14,13,15: 7
-8 :: The Ambassadors: 12,3,5: 8
-9 :: Hare: 0,1,2: 9
-10 :: The Great Wave off Kanagawa: 3,12,16: 10
-11 :: The Kiss: 4,5,2: 11
-12 :: The Ninth Wave: 10,7,3: 12
-13 :: The Scream: 11,7,5: 13
+7 :: I nottambuli: 14,13,15: 7
+8 :: Ambasciatori: 12,3,5: 8
+9 :: lepre: 0,1,2: 9
+10 :: La grande onda di Kanagawa: 3,12,16: 10
+11 :: Il bacio: 4,5,2: 11
+12 :: La nona onda: 10,7,3: 12
+13 :: L'urlo: 11,7,5: 13
 14 :: La notte stellata: 6,16,7: 14
-15 :: The Tower of Babel: 1,5,12: 15
+15 :: Torre di Babele: 1,5,12: 15
 16 :: Vagabondo sopra il mare di nebbia: 5,9,8: 16

@@ -1,17 +1,17 @@
 0 :: Přítel v nouzi: 11,8,1: 0
-1 :: Nedělní odpoledne na ostrově La Grande Jatte: 7,13,15: 1
-2 :: Americká gotika: 5,0,3: 2
-3 :: Složení en rouge, jaune, bleu et noir: 10,2,12: 3
-4 :: Dívka s perlou Náušnice: 5,14,1: 4
+1 :: Nedělní odpoledne na ostrově Grande Jatte: 7,13,15: 1
+2 :: American Gothic: 5,0,3: 2
+3 :: Složení s červenou, žlutou, modrou a černou: 10,2,12: 3
+4 :: Dívka s perlou: 5,14,1: 4
 5 :: Stvoření Adama: 6,12,8: 5
 6 :: Mona Lisa: 8,14,4: 6
-7 :: Nighthawks: 14,13,15: 7
-8 :: Ambassadors: 12,3,5: 8
+7 :: Noční ptáci: 14,13,15: 7
+8 :: Vyslanci: 12,3,5: 8
 9 :: Zajíc: 0,1,2: 9
 10 :: Velká vlna mimo Kanagawa: 3,12,16: 10
-11 :: Kiss: 4,5,2: 11
+11 :: Polibek: 4,5,2: 11
 12 :: Devátá vlna: 10,7,3: 12
 13 :: Výkřik: 11,7,5: 13
 14 :: Hvězdná noc: 6,16,7: 14
 15 :: Babellova věž: 1,5,12: 15
-16 :: Wanderer nad mořem mlhy: 5,9,8: 16
+16 :: Poutník nad mořem mlhy: 5,9,8: 16
