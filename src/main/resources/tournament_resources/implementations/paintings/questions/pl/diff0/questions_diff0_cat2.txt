@@ -15,7 +15,7 @@
 14::Georges Seurat:13,16,8:14
 15::Grant Wood:12,23,20:15
 16::Gustav Klimt:15,19,20:16
-17::Hans Holbein the Younger:20,23,25:17
+17::Vincent van Gogh:20,23,25:17
 18::Henri Matisse:24,14,10:18
 19::Pierre-Auguste Renoir:22,24,12:19
 20::Hokusai:17,13,26:20
@@ -27,11 +27,9 @@
 26::Marc Chagall:22,32,18:26
 27::Pablo Picasso:32,33,31:27
 28::Paolo Uccello:23,21,30:28
-29::Paul Cézanne:26,23,35:29
-30::Pieter Bruegel the Elder:26,31,34:30
+29::Paul Cézanne:26,23,28:29
+30::Wassily Kandinsky:26,31,34:30
 31::Rembrandt:34,27,33:31
-32::Albrecht Dürer:26,33,35:32
-33::Salvador Dali:32,26,35:33
-34::Sandro Botticelli:33,27,35:34
-35::Vincent van Gogh:32,33,28:35
-36::Wassily Kandinsky:31,32,30:36
+32::Albrecht Dürer:26,33,28:32
+33::Salvador Dali:32,26,28:33
+34::Sandro Botticelli:33,27,28:34
