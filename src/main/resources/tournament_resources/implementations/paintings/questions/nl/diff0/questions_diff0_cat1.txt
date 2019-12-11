@@ -1,5 +1,5 @@
 0 :: Abstract expressionisme: 8,7,1: 0
-1 :: Art Nouveau: 7,6,4: 1
+1 :: jugendstil: 7,6,4: 1
 2 :: Suprematisme: 9,7,0: 2
 3 :: Kubisme: 2,11,1: 3
 4 :: Dada: 10,0,6: 4
@@ -13,4 +13,4 @@
 12 :: Romantiek: 4,6,13: 12
 13 :: Sociaal realisme: 11,14,9: 13
 14 :: Surrealisme: 7,13,10: 14
-15 :: Symboliek: 8,11,13: 15
+15 :: Symbolisme: 8,11,13: 15

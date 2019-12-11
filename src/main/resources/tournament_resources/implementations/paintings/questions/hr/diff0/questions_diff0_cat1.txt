@@ -1,5 +1,5 @@
 0 :: Sažetak ekspresionizma: 8,7,1: 0
-1 :: Art Nouveau: 7,6,4: 1
+1 :: Secesija: 7,6,4: 1
 2 :: suprematizam: 9,7,0: 2
 3 :: kubizam: 2,11,1: 3
 4 :: Dada: 10,0,6: 4

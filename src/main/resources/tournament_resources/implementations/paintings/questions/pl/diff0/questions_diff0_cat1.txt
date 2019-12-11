@@ -1,5 +1,5 @@
 0 :: Ekspresjonizm abstrakcyjny: 8,7,1: 0
-1 :: Art Nouveau: 7,6,4: 1
+1 :: Secesja: 7,6,4: 1
 2 :: Suprematyzm: 9,7,0: 2
 3 :: Kubizm: 2,11,1: 3
 4 :: Dada: 10,0,6: 4
