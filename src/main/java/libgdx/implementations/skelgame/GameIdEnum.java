@@ -13,6 +13,7 @@ public enum GameIdEnum implements GameId {
 
     judetelerom(JudeteleRomDependencyManager.class),
     anatomy(AnatomyDependencyManager.class),
+    paintings(AnatomyDependencyManager.class),
     kennstde(KennstDeDependencyManager.class),
     quizgame(QuizGameDependencyManager.class),
     hangman(HangmanDependencyManager.class),;

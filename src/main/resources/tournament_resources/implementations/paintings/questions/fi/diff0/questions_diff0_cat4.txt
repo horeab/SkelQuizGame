@@ -1,6 +1,6 @@
 0 :: Itävalta: 2,8,6: 0
 1 :: Ranska: 4,7,0: 1
-2 :: England: 8,10,9: 2
+2 :: Englanti: 8,10,9: 2
 3 :: Saksa: 1,7,9: 3
 4 :: Kreikka: 12,1,11: 4
 5 :: Italia: 12,3,13: 5

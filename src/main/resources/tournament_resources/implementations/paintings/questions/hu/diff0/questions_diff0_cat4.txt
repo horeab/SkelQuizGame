@@ -4,7 +4,7 @@
 3 :: Németország: 1,7,9: 3
 4 :: Görögország: 12,1,11: 4
 5 :: Olaszország: 12,3,13: 5
-6. :: Japán: 8,12,11: 6
+6:: Japán: 8,12,11: 6
 7 :: Brazília: 6,4,11: 7
 8 :: Hollandia: 2,11,9: 8
 9 :: Norvégia: 4,10,11: 9
