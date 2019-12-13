@@ -74,7 +74,7 @@ public abstract class GameServiceTest extends TestMain {
             int imageToBeDisplayedPositionInString = gameService.getImageToBeDisplayedPositionInString();
             if (split.length == imageToBeDisplayedPositionInString + 1 && StringUtils.isNotBlank(split[imageToBeDisplayedPositionInString])) {
                 String imageId = split[split.length - 1];
-                assertTrue(lang + " - " + question.getQuestionString(), Integer.parseInt(imageId) == question.getQuestionCategory().getIndex());
+                assertTrue(lang + " - " + question.getQuestionString(), Integer.parseInt(imageId) == question.getQuestionLineInQuestionFile());
                 assertNotNull(lang + " - " + question.getQuestionString(), gameService.getQuestionImage());
             }
             String questionToBeDisplayed = gameService.getQuestionToBeDisplayed();
@@ -100,7 +100,7 @@ public abstract class GameServiceTest extends TestMain {
     public void assertAnswerOptions(Language lang, GameService gameService) {
         if (gameService instanceof DependentAnswersQuizGameService) {
             for (String answer : gameService.getAllAnswerOptions()) {
-                assertTrue(answer.length() >= 2 || answer.equals("Ý"));//Ý is Italy in vi
+                assertTrue(answer.length() >= 2 || (answer.equals("吻") || answer.equals("Ý")));//Ý is Italy in vi
             }
 //            System.out.println(gameService.getAllAnswerOptions().toString());
             assertTrue(((DependentAnswersQuizGameService) gameService).getAnswers().size() == 1);

@@ -1,16 +1,16 @@
-0 :: Absztrakt expresszionizmus: 8,7,1: 0
-1 :: Szecesszió: 7,6,4: 1
-2 :: szuprematizmus: 9,7,0: 2
-3 :: kubizmus: 2,11,1: 3
-4 :: Dada: 10,0,6: 4
-5 :: expresszionizmus: 10,12,3: 5
-6 :: Fauvizmus: 1,3,7: 6
-7 :: Graffiti: 8,5,0: 7
-8 :: impresszionizmus: 15,1,5: 8
-9 :: Középkori művészet: 15,2,8: 9
-10 :: realizmus: 9,13,3: 10
-11 :: Reneszánsz: 12,15,8: 11
-12 :: romantika: 4,6,13: 12
-13 :: Szociális realizmus: 11,14,9: 13
-14 :: szürrealizmus: 7,13,10: 14
-15 :: szimbolizmus 8,11,13: 15
+0::Absztrakt expresszionizmus:8,7,1:0
+1::Szecesszió:7,6,4:1
+2::szuprematizmus:9,7,0:2
+3::kubizmus:2,11,1:3
+4::Dada:10,0,6:4
+5::expresszionizmus:10,12,3:5
+6::Fauvizmus:1,3,7:6
+7::Graffiti:8,5,0:7
+8::impresszionizmus:15,1,5:8
+9::Középkori művészet:15,2,8:9
+10::realizmus:9,13,3:10
+11::Reneszánsz:12,15,8:11
+12::romantika:4,6,13:12
+13::Szociális realizmus:11,14,9:13
+14::szürrealizmus:7,13,10:14
+15::szimbolizmus:8,11,13:15

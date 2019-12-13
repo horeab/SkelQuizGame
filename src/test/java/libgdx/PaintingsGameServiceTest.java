@@ -5,6 +5,7 @@ import org.junit.Test;
 import libgdx.campaign.CampaignGame;
 import libgdx.constants.Language;
 import libgdx.implementations.geoquiz.QuizGame;
+import libgdx.implementations.paintings.PaintingsGame;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.utils.startgame.test.DefaultAppInfoService;
 import libgdx.utils.startgame.test.DefaultBillingService;
@@ -34,7 +35,7 @@ public class PaintingsGameServiceTest extends GameServiceTest {
 
     @Override
     public CampaignGame createGame() {
-        return new QuizGame(new DefaultFacebookService(), new DefaultBillingService(), getDefaultAppInfoService());
+        return new PaintingsGame(new DefaultFacebookService(), new DefaultBillingService(), getDefaultAppInfoService());
     }
 
     @Override

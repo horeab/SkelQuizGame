@@ -1,14 +1,14 @@
-0 :: Oostenrijk: 2,8,6: 0
-1 :: Frankrijk: 4,7,0: 1
-2 :: Engeland: 8,10,9: 2
-3 :: Duitsland: 1,7,9: 3
-4 :: Griekenland: 12,1,11: 4
-5 :: Italië: 12,3,13: 5
-6 :: Japan: 8,12,11: 6
-7 :: Brazilië: 6,4,11: 7
-8 :: Nederland: 2,11,9: 8
-9 :: Noorwegen: 4,10,11: 9
-10 :: Roemenië: 8,5,4: 10
-11 :: Rusland: 10,13,9: 11
-12 :: Spanje: 6,10,5: 12
-13 :: Verenigde Staten: 9,8,7: 13
+0::Oostenrijk:2,8,6:0
+1::Frankrijk:4,7,0:1
+2::Engeland:8,10,9:2
+3::Duitsland:1,7,9:3
+4::Griekenland:12,1,11:4
+5::Italië:12,3,13:5
+6::Japan:8,12,11:6
+7::Brazilië:6,4,11:7
+8::Nederland:2,11,9:8
+9::Noorwegen:4,10,11:9
+10::Roemenië:8,5,4:10
+11::Rusland:10,13,9:11
+12::Spanje:6,10,5:12
+13::Verenigde Staten:9,8,7:13

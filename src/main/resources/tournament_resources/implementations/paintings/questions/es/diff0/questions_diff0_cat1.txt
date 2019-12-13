@@ -1,16 +1,16 @@
-0 :: Expresionismo abstracto: 8,7,1: 0
-1 :: Modernismo: 7,6,4: 1
-2 :: Suprematismo: 9,7,0: 2
-3 :: Cubismo: 2,11,1: 3
-4 :: Dada: 10,0,6: 4
-5 :: Expresionismo: 10,12,3: 5
-6 :: Fauvismo: 1,3,7: 6
-7 :: Graffiti: 8,5,0: 7
-8 :: Impresionismo: 15,1,5: 8
-9 :: Arte medieval: 15,2,8: 9
-10 :: Realismo: 9,13,3: 10
-11 :: Renacimiento: 12,15,8: 11
-12 :: Romanticismo: 4,6,13: 12
-13 :: Realismo social: 11,14,9: 13
-14 :: Surrealismo: 7,13,10: 14
-15 :: Simbolismo: 8,11,13: 15
+0::Expresionismo abstracto:8,7,1:0
+1::Modernismo:7,6,4:1
+2::Suprematismo:9,7,0:2
+3::Cubismo:2,11,1:3
+4::Dada:10,0,6:4
+5::Expresionismo:10,12,3:5
+6::Fauvismo:1,3,7:6
+7::Graffiti:8,5,0:7
+8::Impresionismo:15,1,5:8
+9::Arte medieval:15,2,8:9
+10::Realismo:9,13,3:10
+11::Renacimiento:12,15,8:11
+12::Romanticismo:4,6,13:12
+13::Realismo social:11,14,9:13
+14::Surrealismo:7,13,10:14
+15::Simbolismo:8,11,13:15

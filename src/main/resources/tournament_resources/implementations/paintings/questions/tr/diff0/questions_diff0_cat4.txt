@@ -1,14 +1,14 @@
-0 :: Avusturya: 2,8,6: 0
-1 :: Fransa: 4,7,0: 1
-2 :: İngiltere: 8,10,9: 2
-3 :: Almanya: 1,7,9: 3
-4 :: Yunanistan: 12,1,11: 4
-5 :: İtalya: 12,3,13: 5
-6 :: Japonya: 8,12,11: 6
-7 :: Brezilya: 6,4,11: 7
-8 :: Hollanda: 2,11,9: 8
-9 :: Norveç: 4,10,11: 9
-10 :: Romanya: 8,5,4: 10
-11 :: Rusya: 10,13,9: 11
-12 :: İspanya: 6,10,5: 12
-13 :: Amerika Birleşik Devletleri: 9,8,7: 13
+0::Avusturya:2,8,6:0
+1::Fransa:4,7,0:1
+2::İngiltere:8,10,9:2
+3::Almanya:1,7,9:3
+4::Yunanistan:12,1,11:4
+5::İtalya:12,3,13:5
+6::Japonya:8,12,11:6
+7::Brezilya:6,4,11:7
+8::Hollanda:2,11,9:8
+9::Norveç:4,10,11:9
+10::Romanya:8,5,4:10
+11::Rusya:10,13,9:11
+12::İspanya:6,10,5:12
+13::Amerika Birleşik Devletleri:9,8,7:13

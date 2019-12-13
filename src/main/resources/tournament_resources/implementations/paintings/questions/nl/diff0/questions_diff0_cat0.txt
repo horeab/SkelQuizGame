@@ -1,17 +1,17 @@
-0 :: Een vriend in nood: 11,8,1: 0
-1 :: Dimanche d'été à la Grande Jatte: 7,13,15: 1
-2 :: American Gothic: 5,0,3: 2
-3 :: Samenstelling met rood, geel, blauw en zwart: 10,2,12: 3
-4 :: Meisje met de parel: 5,14,1: 4
-5 :: De schepping van Adam: 6,12,8: 5
-6 :: Mona Lisa: 8,14,4: 6
-7 :: Nighthawks: 14,13,15: 7
-8 :: De ambassadeurs: 12,3,5: 8
-9 :: Haas: 0,1,2: 9
-10 :: De grote golf van Kanagawa: 3,12,16: 10
-11 :: De kus: 4,5,2: 11
-12 :: De negende golf: 10,7,3: 12
-13 :: De schreeuw: 11,7,5: 13
-14 :: De Sterrennacht: 6,16,7: 14
-15 :: De toren van Babel: 1,5,12: 15
-16 :: Zwerver boven de zee van mist: 5,9,8: 16
+0::Een vriend in nood:11,8,1:0
+1::Dimanche d'été à la Grande Jatte:7,13,15:1
+2::American Gothic:5,0,3:2
+3::Samenstelling met rood, geel, blauw en zwart:10,2,12:3
+4::Meisje met de parel:5,14,1:4
+5::De schepping van Adam:6,12,8:5
+6::Mona Lisa:8,14,4:6
+7::Nighthawks:14,13,15:7
+8::De ambassadeurs:12,3,5:8
+9::Haas:0,1,2:9
+10::De grote golf van Kanagawa:3,12,16:10
+11::De kus:4,5,2:11
+12::De negende golf:10,7,3:12
+13::De schreeuw:11,7,5:13
+14::De Sterrennacht:6,16,7:14
+15::De toren van Babel:1,5,12:15
+16::Zwerver boven de zee van mist:5,9,8:16

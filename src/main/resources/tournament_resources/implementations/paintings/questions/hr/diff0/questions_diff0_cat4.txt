@@ -1,14 +1,14 @@
-0 :: Austrija: 2,8,6: 0
-1 :: Francuska: 4,7,0: 1
-2 :: Engleska: 8,10,9: 2
-3 :: Njemačka: 1,7,9: 3
-4 :: Grčka: 12,1,11: 4
-5 :: Italija: 12,3,13: 5
-6 :: Japan: 8,12,11: 6
-7 :: Brazil: 6,4,11: 7
-8 :: Nizozemska: 2,11,9: 8
-9 :: Norveška: 4,10,11: 9
-10 :: Rumunjska: 8,5,4: 10
-11 :: Rusija: 10,13,9: 11
-12 :: Španjolska: 6,10,5: 12
-13 :: Sjedinjene Države: 9,8,7: 13
+0::Austrija:2,8,6:0
+1::Francuska:4,7,0:1
+2::Engleska:8,10,9:2
+3::Njemačka:1,7,9:3
+4::Grčka:12,1,11:4
+5::Italija:12,3,13:5
+6::Japan:8,12,11:6
+7::Brazil:6,4,11:7
+8::Nizozemska:2,11,9:8
+9::Norveška:4,10,11:9
+10::Rumunjska:8,5,4:10
+11::Rusija:10,13,9:11
+12::Španjolska:6,10,5:12
+13::Sjedinjene Države:9,8,7:13

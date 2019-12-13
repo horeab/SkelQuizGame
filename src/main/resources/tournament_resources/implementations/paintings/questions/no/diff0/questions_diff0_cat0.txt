@@ -1,17 +1,17 @@
-0 :: En venn i nød: 11,8,1: 0
-1 :: Søndag ettermiddag på øya av La Grande Jatte: 7,13,15: 1
-2 :: Amerikansk gotisk: 5,0,3: 2
-3 :: Kompozycja z czerwonym, żółtym, niebieskim i czarnym: 10,2,12: 3
-4 :: Jente med perleørering: 5,14,1: 4
-5 :: Oppretting av Adam: 6,12,8: 5
-6 :: Mona Lisa: 8,14,4: 6
-7 :: Nighthawks: 14,13,15: 7
-8 :: Ambassadørene: 12,3,5: 8
-9 :: Hare: 0,1,2: 9
-10 :: Den store bølgen utenfor Kanagawa: 3,12,16: 10
-11 :: Kyssen: 4,5,2: 11
-12 :: Den niende bølgen: 10,7,3: 12
-13 :: Skriket: 11,7,5: 13
-14 :: Stjernenatt: 6,16,7: 14
-15 :: Tower of Babel: 1,5,12: 15
-16 :: Vandrer over tåkesjøen: 5,9,8: 16
+0::En venn i nød:11,8,1:0
+1::Søndag ettermiddag på øya av La Grande Jatte:7,13,15:1
+2::Amerikansk gotisk:5,0,3:2
+3::Kompozycja z czerwonym, żółtym, niebieskim i czarnym:10,2,12:3
+4::Jente med perleørering:5,14,1:4
+5::Oppretting av Adam:6,12,8:5
+6::Mona Lisa:8,14,4:6
+7::Nighthawks:14,13,15:7
+8::Ambassadørene:12,3,5:8
+9::Hare:0,1,2:9
+10::Den store bølgen utenfor Kanagawa:3,12,16:10
+11::Kyssen:4,5,2:11
+12::Den niende bølgen:10,7,3:12
+13::Skriket:11,7,5:13
+14::Stjernenatt:6,16,7:14
+15::Tower of Babel:1,5,12:15
+16::Vandrer over tåkesjøen:5,9,8:16

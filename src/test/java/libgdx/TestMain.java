@@ -23,15 +23,11 @@ import java.util.Date;
 import libgdx.campaign.CampaignGame;
 import libgdx.controls.popup.RatingService;
 import libgdx.game.Game;
-import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.preferences.PreferencesService;
 import libgdx.preferences.SettingsService;
 import libgdx.screen.AbstractScreen;
 import libgdx.utils.DateUtils;
 import libgdx.utils.ScreenDimensionsManager;
-import libgdx.utils.startgame.test.DefaultAppInfoService;
-import libgdx.utils.startgame.test.DefaultBillingService;
-import libgdx.utils.startgame.test.DefaultFacebookService;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
