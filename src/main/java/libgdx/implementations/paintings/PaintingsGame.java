@@ -8,13 +8,13 @@ import libgdx.game.external.BillingService;
 import libgdx.game.external.FacebookService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.anatomy.AnatomyScreenManager;
+import libgdx.screens.implementations.painting.PaintingsScreenManager;
 
 public class PaintingsGame extends CampaignGame<AppInfoService,
         PaintingsMainDependencyManager,
         PaintingsDependencyManager,
         AbstractScreen,
-        AnatomyScreenManager,
+        PaintingsScreenManager,
         GameIdEnum
         > {
 
@@ -34,7 +34,7 @@ public class PaintingsGame extends CampaignGame<AppInfoService,
 
     @Override
     protected void displayScreenAfterAssetsLoad() {
-        AnatomyScreenManager screenManager = getScreenManager();
+        PaintingsScreenManager screenManager = getScreenManager();
         screenManager.showMainScreen();
     }
 }

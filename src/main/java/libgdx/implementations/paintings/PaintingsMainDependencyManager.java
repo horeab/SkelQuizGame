@@ -9,10 +9,10 @@ import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.resources.Resource;
 import libgdx.resources.ResourceService;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.anatomy.AnatomyScreenManager;
+import libgdx.screens.implementations.painting.PaintingsScreenManager;
 import libgdx.transactions.TransactionsService;
 
-public class PaintingsMainDependencyManager extends MainDependencyManager<AnatomyScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {
+public class PaintingsMainDependencyManager extends MainDependencyManager<PaintingsScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {
 
     @Override
     public Class<Resource> getMainResourcesClass() {
@@ -40,8 +40,8 @@ public class PaintingsMainDependencyManager extends MainDependencyManager<Anatom
     }
 
     @Override
-    public AnatomyScreenManager createScreenManager() {
-        return new AnatomyScreenManager();
+    public PaintingsScreenManager createScreenManager() {
+        return new PaintingsScreenManager();
     }
 
     @Override

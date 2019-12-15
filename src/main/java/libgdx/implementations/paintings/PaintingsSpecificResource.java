@@ -12,6 +12,7 @@ public enum PaintingsSpecificResource implements SpecificResource {
 
     specific_labels("labels/labels", I18NBundle.class),
 
+    question_background("question_background.png", Texture.class),
     background_texture("background_texture.png", Texture.class);
 
     // @formatter:on

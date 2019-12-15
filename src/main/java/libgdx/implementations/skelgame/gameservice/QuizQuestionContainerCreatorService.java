@@ -35,12 +35,7 @@ public abstract class QuizQuestionContainerCreatorService extends QuestionContai
         if (StringUtils.isBlank(questionToBeDisplayed)){
             questionToBeDisplayed = SpecificPropertiesUtils.getQuestionCategoryLabel(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getQuestion().getQuestionCategory().getIndex());
         }
-        MyWrappedLabelConfigBuilder myWrappedLabelConfigBuilder = new MyWrappedLabelConfigBuilder().setText(questionToBeDisplayed);
-        if (questionImage == null) {
-            myWrappedLabelConfigBuilder.setFontScale(FontManager.calculateMultiplierStandardFontSize(1.2f));
-        }
-        myWrappedLabelConfigBuilder.setFontScale(getQuestionFontScale(questionToBeDisplayed,
-                myWrappedLabelConfigBuilder.getFontScale(), GameControlsCreatorService.longAnswerButtons(gameService.getAllAnswerOptions())));
+        MyWrappedLabelConfigBuilder myWrappedLabelConfigBuilder = getMyWrappedLabelConfigBuilder(questionImage, questionToBeDisplayed);
         MyWrappedLabel questionLabel = new MyWrappedLabel(myWrappedLabelConfigBuilder.setStyleDependingOnContrast().build());
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
         questionContainer.add(questionLabel).pad(verticalGeneralMarginDimen).row();
@@ -50,7 +45,17 @@ public abstract class QuizQuestionContainerCreatorService extends QuestionContai
         return questionTable;
     }
 
-    private float getQuestionFontScale(String questionToBeDisplayed, float fontScale, boolean longAnswerButtons) {
+    protected MyWrappedLabelConfigBuilder getMyWrappedLabelConfigBuilder(Image questionImage, String questionToBeDisplayed) {
+        MyWrappedLabelConfigBuilder myWrappedLabelConfigBuilder = new MyWrappedLabelConfigBuilder().setText(questionToBeDisplayed);
+        if (questionImage == null) {
+            myWrappedLabelConfigBuilder.setFontScale(FontManager.calculateMultiplierStandardFontSize(1.2f));
+        }
+        myWrappedLabelConfigBuilder.setFontScale(getQuestionFontScale(questionToBeDisplayed,
+                myWrappedLabelConfigBuilder.getFontScale(), GameControlsCreatorService.longAnswerButtons(gameService.getAllAnswerOptions())));
+        return myWrappedLabelConfigBuilder;
+    }
+
+    protected float getQuestionFontScale(String questionToBeDisplayed, float fontScale, boolean longAnswerButtons) {
         float factor = 1f;
         //if there are long answer buttons, the question fontScale should be smaller
         float increaseFactor = longAnswerButtons ? 0.035f : 0.018f;

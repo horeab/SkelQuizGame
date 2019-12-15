@@ -42,10 +42,15 @@ public class PaintingGameScreen extends GameScreen<PaintingsScreenManager> {
         }
 
         allTable = new Table();
-        QuestionContainerCreatorService questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
+        QuestionContainerCreatorService questionContainerCreatorService = new PaintingsQuizQuestionContainerCreatorService(gameContext, this);
         Table questionTable = questionContainerCreatorService.createQuestionTable();
+        Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
         questionTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(45));
-        allTable.add(questionTable).height(questionTable.getHeight()).row();
+        answersTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(50));
+        allTable.add(questionTable).height(questionTable.getHeight()).padBottom(ScreenDimensionsManager.getScreenHeightValue(3)).row();
+
+        allTable.add(answersTable).height(answersTable.getHeight());
+
         allTable.setFillParent(true);
         addActor(allTable);
 
