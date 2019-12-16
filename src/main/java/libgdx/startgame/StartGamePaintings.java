@@ -43,63 +43,63 @@ public class StartGamePaintings {
     public static String getTitle() {
         switch (Language.valueOf(Game.getInstance().getAppInfoService().getLanguage())) {
             case cs:
-                return "Anatomie";
+                return "Slavné Obrazy";
             case da:
-                return "Anatomi";
+                return "Berømte Malerier";
             case de:
-                return "Anatomie Spiel";
+                return "Berühmte Gemälde";
             case el:
-                return "Ανατομία";
+                return "Διάσημοι πίνακες ζωγραφικής";
             case en:
-                return "Anatomy Game";
+                return "Famous Paintings";
             case es:
-                return "Anatomía";
+                return "Pinturas Famosas";
             case fi:
-                return "Anatomia";
+                return "Kuuluisia Maalauksia";
             case fr:
-                return "Anatomie";
+                return "Tableaux Célèbres";
             case hi:
-                return "एनाटॉमी";
+                return "प्रसिद्ध चित्रकारी";
             case hr:
-                return "Anatomija";
+                return "Poznate Slike";
             case hu:
-                return "Anatómia";
+                return "Híres Festmények";
             case id:
-                return "Anatomi";
+                return "Lukisan Terkenal";
             case it:
-                return "Anatomia";
+                return "Quadri Famosi";
             case ja:
-                return "解剖学";
+                return "有名な絵画";
             case ko:
-                return "해부";
+                return "유명한 그림";
             case ms:
-                return "Anatomi";
+                return "Lukisan Terkenal";
             case nl:
-                return "Anatomie";
+                return "Beroemde Schilderijen";
             case no:
-                return "Anatomi-spill";
+                return "Berømte Malerier";
             case pl:
-                return "Anatomia";
+                return "Znane Obrazy";
             case pt:
-                return "Anatomia";
+                return "Pinturas Famosas";
             case ro:
-                return "Anatomie";
+                return "Picturi Celebre";
             case ru:
-                return "Игра Анатомия";
+                return "Знаменитые картины";
             case sk:
-                return "Anatómia";
+                return "Slávne Maľby";
             case sv:
-                return "Anatomi";
+                return "Berömda Målningar";
             case th:
-                return "กายวิภาคศาสตร์";
+                return "ชื่อภาพเขียน";
             case tr:
-                return "Anatomi Oyunu";
+                return "Ünlü Tablolar";
             case uk:
-                return "Анатомія";
+                return "Відомі картини";
             case vi:
-                return "Giải phẫu học";
+                return "Bức tranh nổi tiếng";
             case zh:
-                return "解剖学";
+                return "名画";
         }
         return null;
     }

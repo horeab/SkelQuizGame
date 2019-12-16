@@ -32,7 +32,8 @@ public class PaintingsQuizQuestionContainerCreatorService extends DependentQuizQ
         if (questionImage == null) {
             myWrappedLabelConfigBuilder.setFontScale(FontManager.calculateMultiplierStandardFontSize(1.2f));
         }
-        myWrappedLabelConfigBuilder.setFontScale(FontManager.getBigFontDim());
+        float bigFontDim = FontManager.getBigFontDim();
+        myWrappedLabelConfigBuilder.setFontScale(questionToBeDisplayed.length() > 43 ? bigFontDim / 1.2f : bigFontDim);
         myWrappedLabelConfigBuilder.setFontConfig(new FontConfig(
                 FontColor.WHITE.getColor(),
                 FontColor.BLACK.getColor(),

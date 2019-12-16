@@ -6,6 +6,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.geoquiz.QuizGameSpecificResource;
 import libgdx.implementations.hangman.HangmanSpecificResource;
+import libgdx.implementations.paintings.PaintingsSpecificResource;
 import libgdx.resources.MainResource;
 import libgdx.resources.Res;
 import libgdx.utils.model.FontColor;
@@ -30,6 +31,15 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     ANSWER_IMAGE_CLICK(QuizGameSpecificResource.btn_question_up, QuizGameSpecificResource.btn_question_down, QuizGameSpecificResource.btn_question_up, QuizGameSpecificResource.btn_question_disabled, null),
     ANSWER_IMAGE_CLICK_CORRECT(QuizGameSpecificResource.btn_question_correct, QuizGameSpecificResource.btn_question_correct, QuizGameSpecificResource.btn_question_correct, QuizGameSpecificResource.btn_question_correct, FontColor.GREEN),
     ANSWER_IMAGE_CLICK_WRONG(QuizGameSpecificResource.btn_question_wrong, QuizGameSpecificResource.btn_question_wrong, QuizGameSpecificResource.btn_question_wrong, QuizGameSpecificResource.btn_question_wrong, FontColor.RED),
+
+    PAINTINGS_COLOR_CATEG0(PaintingsSpecificResource.btn_categ0_up, PaintingsSpecificResource.btn_categ_down, PaintingsSpecificResource.btn_categ0_up, PaintingsSpecificResource.btn_categ_disabled, null),
+    PAINTINGS_COLOR_CATEG1(PaintingsSpecificResource.btn_categ1_up, PaintingsSpecificResource.btn_categ_down, PaintingsSpecificResource.btn_categ1_up, PaintingsSpecificResource.btn_categ_disabled, null),
+    PAINTINGS_COLOR_CATEG2(PaintingsSpecificResource.btn_categ2_up, PaintingsSpecificResource.btn_categ_down, PaintingsSpecificResource.btn_categ2_up, PaintingsSpecificResource.btn_categ_disabled, null),
+    PAINTINGS_COLOR_CATEG3(PaintingsSpecificResource.btn_categ3_up, PaintingsSpecificResource.btn_categ_down, PaintingsSpecificResource.btn_categ3_up, PaintingsSpecificResource.btn_categ_disabled, null),
+    PAINTINGS_COLOR_CATEG4(PaintingsSpecificResource.btn_categ4_up, PaintingsSpecificResource.btn_categ_down, PaintingsSpecificResource.btn_categ4_up, PaintingsSpecificResource.btn_categ_disabled, null),
+
+    PAINTINGS_COLOR_CATEG_FINISHED(PaintingsSpecificResource.btn_categ_finished, PaintingsSpecificResource.btn_categ_down, PaintingsSpecificResource.btn_categ_finished, PaintingsSpecificResource.btn_categ_disabled, null),
+    PAINTINGS_COLOR_CATEG_STAR(PaintingsSpecificResource.btn_categ_star, PaintingsSpecificResource.btn_categ_down, PaintingsSpecificResource.btn_categ_star, PaintingsSpecificResource.btn_categ_disabled, null),
     ;
 
     GameButtonSkin(Res imgUp, Res imgDown, Res imgChecked, Res imgDisabled, FontColor buttonDisabledFontColor) {

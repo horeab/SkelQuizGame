@@ -15,8 +15,8 @@ public class PaintingsScreenManager extends CampaignScreenManager {
 
     @Override
     public void showMainScreen() {
-        showScreen(PaintingsScreenTypeEnum.CAMPAIGN_GAME_SCREEN, new GameContextService().createGameContext(new QuestionConfig(PaintingsQuestionCategoryEnum.cat0, 10)), PaintingsCampaignLevelEnum.LEVEL_0_0);
-//        showCampaignScreen();
+//        showScreen(PaintingsScreenTypeEnum.CAMPAIGN_GAME_SCREEN, new GameContextService().createGameContext(new QuestionConfig(PaintingsQuestionCategoryEnum.cat1, 10)), PaintingsCampaignLevelEnum.LEVEL_0_0);
+        showCampaignScreen();
     }
 
     @Override

@@ -47,7 +47,9 @@ public class PaintingGameScreen extends GameScreen<PaintingsScreenManager> {
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
         questionTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(45));
         answersTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(50));
-        allTable.add(questionTable).height(questionTable.getHeight()).padBottom(ScreenDimensionsManager.getScreenHeightValue(3)).row();
+        allTable.add(questionTable).height(questionTable.getHeight())
+                .padTop(ScreenDimensionsManager.getScreenHeightValue(4))
+                .padBottom(ScreenDimensionsManager.getScreenHeightValue(1)).row();
 
         allTable.add(answersTable).height(answersTable.getHeight());
 
