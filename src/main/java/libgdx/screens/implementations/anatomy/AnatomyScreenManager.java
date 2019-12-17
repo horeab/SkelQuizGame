@@ -12,7 +12,7 @@ public class AnatomyScreenManager extends CampaignScreenManager {
 
     @Override
     public void showMainScreen() {
-//        showScreen(AnatomyScreenTypeEnum.CAMPAIGN_GAME_SCREEN, new GameContextService().createGameContext(new QuestionConfig(AnatomyQuestionCategoryEnum.cat5, 10)), AnatomyCampaignLevelEnum.LEVEL_0_0);
+//        showScreen(AnatomyScreenTypeEnum.CAMPAIGN_GAME_SCREEN, new GameContextService().createGameContext(new QuestionConfig(AnatomyQuestionCategoryEnum.cat5, 10)), MathCampaignLevelEnum.LEVEL_0_0);
         showCampaignScreen();
     }
 

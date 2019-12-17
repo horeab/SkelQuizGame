@@ -8,7 +8,7 @@ public class JudeteleRomScreenManager extends CampaignScreenManager {
 
     @Override
     public void showMainScreen() {
-//        showScreen(JudeteleRomScreenTypeEnum.CAMPAIGN_GAME_SCREEN, new GameContextService().createGameContext(new QuestionConfig(AnatomyQuestionCategoryEnum.cat5, 10)), AnatomyCampaignLevelEnum.LEVEL_0_0);
+//        showScreen(JudeteleRomScreenTypeEnum.CAMPAIGN_GAME_SCREEN, new GameContextService().createGameContext(new QuestionConfig(AnatomyQuestionCategoryEnum.cat5, 10)), MathCampaignLevelEnum.LEVEL_0_0);
         showCampaignScreen();
     }
 
