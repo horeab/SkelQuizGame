@@ -13,5 +13,5 @@
 12::Den niende bølgen:10,7,3:12
 13::Skriket:11,7,5:13
 14::Stjernenatt:6,16,7:14
-15::Tower of Babel:1,5,12:15
+15::Babels tårn:1,5,12:15
 16::Vandrer over tåkesjøen:5,9,8:16

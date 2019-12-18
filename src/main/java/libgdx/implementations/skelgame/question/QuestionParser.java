@@ -1,5 +1,7 @@
 package libgdx.implementations.skelgame.question;
 
+import org.apache.commons.lang3.StringUtils;
+
 import libgdx.campaign.CampaignGame;
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.game.Game;
@@ -30,7 +32,11 @@ public class QuestionParser {
             answerOptions.addAll(getAnswers(getQuestionForFileId(fileId, allQuestions).getQuestionString()));
         }
         Collections.shuffle(answerOptions);
-        return answerOptions;
+        List<String> result = new ArrayList<>();
+        for (String answer : answerOptions) {
+            result.add(StringUtils.capitalize(answer));
+        }
+        return result;
     }
 
     public List<Question> getAllQuestions(QuestionDifficulty questionDifficultyLevel, QuizQuestionCategory questionCategory) {

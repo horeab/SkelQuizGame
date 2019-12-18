@@ -98,12 +98,12 @@ public class PaintingCampaignScreen extends AbstractScreen<PaintingsScreenManage
 
     private float getTitleMultiplier(String appName) {
         if (appName.length() > 16) {
-            return 1.3f;
+            return 1.2f;
         } else if (appName.length() > 13) {
-            return 1.7f;
+            return 1.6f;
         }
         {
-            return 2f;
+            return 1.9f;
         }
     }
 
