@@ -13,3 +13,29 @@
 12:Salina Turda:Cluj:10,7,14:12
 13:Staţiunea Mamaia:Constanţa:11,19,18:13
 14:Muzeul Naţional Secuiesc:Covasna:9,22,6:14
+15:Sfinxul din Bucegi:Dâmboviţa:17,18,22:15
+16:Muzeul Olteniei:Dolj:20,18,12:16
+17:Complexul Muzeal de ştiinţele Naturii „Răsvan Angheluţă”:Galaţi:21,13,11:17
+18:Parcul Natural Comana:Giurgiu:20,26,13:18
+19:Coloana Infinitului:Gorj:27,26,22:19
+20:Lacul Sfânta Ana:Harghita:12,16,25:20
+21:Castelul Corvinilor:Hunedoara:29,25,24:21
+22:Mănăstirea Sfinţii Voievozi din Slobozia:Ialomiţa:16,30,17:22
+23:Palatul Culturii:Iaşi:15,19,20:23
+24:Lacul Snagov:Ilfov:19,18,21:24
+25:Cimitirul Vesel din Săpânţa:Maramureş:28,33,24:25
+26:Chipul lui Decebal:Mehedinţi:29,20,34:26
+27:Centrul istoric din Sighişoara:Mureş:24,33,28:27
+28:Masivul Ceahlău:Neamţ:26,34,32:28
+29:Casa memorială a lui Nicolae Ceauşescu din Scorniceşti:Olt:34,32,24:29
+30:Castelul Peleş:Prahova:38,31,36:30
+31:Muzeul ţării Oaşului:Satu Mare:38,33,27:31
+32:Gradina Zmeilor:Sălaj:31,39,38:32
+33:Lacul Bâlea:Sibiu:25,35,40:33
+34:Mănăstirea Voroneţ:Suceava:33,35,28:34
+35:Centrul Memorial Marin Preda:Teleorman:34,27,28:35
+36:Muzeul Satului Bănăţean:Timiş:38,39,37:36
+37:Delta Dunării:Tulcea:32,33,40:37
+38:Muzeul Judeţean "Ştefan cel Mare":Vaslui:35,36,34:38
+39:Mănăstirea Cozia:Vâlcea:37,32,33:39
+40:Mausoleul de la Mărăşeşti:Vrancea:33,36,34:40

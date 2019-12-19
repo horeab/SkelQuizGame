@@ -13,3 +13,29 @@
 12:Care este reşedinţa judeţului Cluj?:Cluj-Napoca
 13:Care este reşedinţa judeţului Constanţa?:Constanţa
 14:Care este reşedinţa judeţului Covasna?:Sfântu Gheorghe
+15:Care este reşedinţa judeţului Dâmboviţa?:Târgovişte
+16:Care este reşedinţa judeţului Dolj?:Craiova
+17:Care este reşedinţa judeţului Galaţi?:Galaţi
+18:Care este reşedinţa judeţului Giurgiu?:Giurgiu
+19:Care este reşedinţa judeţului Gorj?:Târgu Jiu
+20:Care este reşedinţa judeţului Harghita?:Miercurea Ciuc
+21:Care este reşedinţa judeţului Hunedoara?:Deva
+22:Care este reşedinţa judeţului Ialomiţa?:Slobozia
+23:Care este reşedinţa judeţului Iaşi?:Iaşi
+24:Care este reşedinţa judeţului Ilfov?:Buftea
+25:Care este reşedinţa judeţului Maramureş?:Baia Mare
+26:Care este reşedinţa judeţului Mehedinţi?:Drobeta-Turnu Severin
+27:Care este reşedinţa judeţului Mureş?:Târgu Mureş
+28:Care este reşedinţa judeţului Neamţ?:Piatra Neamţ
+29:Care este reşedinţa judeţului Olt?:Slatina
+30:Care este reşedinţa judeţului Prahova?:Ploieşti
+31:Care este reşedinţa judeţului Satu Mare?:Satu Mare
+32:Care este reşedinţa judeţului Sălaj?:Zalău
+33:Care este reşedinţa judeţului Sibiu?:Sibiu
+34:Care este reşedinţa judeţului Suceava?:Suceava
+35:Care este reşedinţa judeţului Teleorman?:Alexandria
+36:Care este reşedinţa judeţului Timiş?:Timişoara
+37:Care este reşedinţa judeţului Tulcea?:Tulcea
+38:Care este reşedinţa judeţului Vaslui?:Vaslui
+39:Care este reşedinţa judeţului Vâlcea?:Râmnicu Vâlcea
+40:Care este reşedinţa judeţului Vrancea?:Focşani

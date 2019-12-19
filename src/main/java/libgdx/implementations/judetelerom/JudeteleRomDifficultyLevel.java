@@ -4,9 +4,7 @@ import libgdx.campaign.QuestionDifficulty;
 
 public enum JudeteleRomDifficultyLevel implements QuestionDifficulty {
 
-    _0,
-    _1,
-    _2,;
+    _0,;
 
     public int getIndex() {
         return ordinal();

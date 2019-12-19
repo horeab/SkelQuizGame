@@ -12,11 +12,15 @@ import libgdx.implementations.anatomy.AnatomyGame;
 import libgdx.implementations.anatomy.AnatomySpecificResource;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.GameUser;
+import libgdx.implementations.skelgame.question.Question;
 import libgdx.screens.GameScreen;
 import libgdx.utils.DateUtils;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.RGBColor;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class JudeteleRomGameScreen extends GameScreen<JudeteleRomScreenManager> {
 

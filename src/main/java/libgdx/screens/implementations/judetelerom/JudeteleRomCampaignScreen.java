@@ -2,7 +2,6 @@ package libgdx.screens.implementations.judetelerom;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Actor;
-import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
@@ -14,11 +13,9 @@ import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.controls.labelimage.LabelImageConfigBuilder;
 import libgdx.game.Game;
-import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.anatomy.AnatomyCampaignLevelEnum;
-import libgdx.implementations.anatomy.AnatomyGame;
-import libgdx.implementations.anatomy.AnatomyQuestionCategoryEnum;
-import libgdx.implementations.anatomy.AnatomySpecificResource;
+import libgdx.implementations.judetelerom.JudeteleRomCampaignLevelEnum;
+import libgdx.implementations.judetelerom.JudeteleRomCategoryEnum;
+import libgdx.implementations.judetelerom.JudeteleRomGame;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.LevelFinishedPopup;
 import libgdx.implementations.skelgame.SkelGameLabel;
@@ -32,6 +29,7 @@ import libgdx.screens.implementations.hangman.HangmanScreenManager;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class JudeteleRomCampaignScreen extends AbstractScreen<HangmanScreenManager> {
@@ -70,48 +68,31 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<HangmanScreenManag
         Table table = new Table();
 
 
-        int totalCat = AnatomyQuestionCategoryEnum.values().length;
         table.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setFontScale(FontManager.getBigFontDim()).setText(Game.getInstance().getAppInfoService().getAppName()).build())).pad(MainDimen.vertical_general_margin.getDimen()).colspan(2).row();
-        for (int i = 0; i < totalCat; i++) {
-
-            final int finalIndex = i;
-            AnatomyQuestionCategoryEnum categoryEnum = AnatomyQuestionCategoryEnum.values()[i];
+        for (final JudeteleRomCampaignLevelEnum campaignLevelEnum : JudeteleRomCampaignLevelEnum.values()) {
             float btnWidth = ScreenDimensionsManager.getScreenWidthValue(50);
-            MyButton categBtn = new ButtonBuilder()
-                    .setWrappedText(
-                            new LabelImageConfigBuilder().setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(categoryEnum.getIndex()))
-                                    .setFontScale(FontManager.getBigFontDim()).setWrappedLineLabel(btnWidth / 1.1f))
+            MyButton campaignBtn = new ButtonBuilder()
+                    .setWrappedText(new LabelImageConfigBuilder()
+                            .setText(new SpecificPropertiesUtils().getQuestionCampaignLabel(new CampaignLevelEnumService(campaignLevelEnum).getCategory()))
+                            .setFontScale(FontManager.getBigFontDim())
+                            .setWrappedLineLabel(btnWidth / 1.1f))
                     .setButtonSkin(GameButtonSkin.HANGMAN_CATEG).build();
             final int maxOpenedLevel = allCampaignLevelStores.size();
-            if (i >= maxOpenedLevel) {
-                categBtn.setDisabled(true);
+            if (campaignLevelEnum.getIndex() >= maxOpenedLevel) {
+                campaignBtn.setDisabled(true);
             }
-            categBtn.addListener(new ChangeListener() {
+            campaignBtn.addListener(new ChangeListener() {
                 @Override
                 public void changed(ChangeEvent event, Actor actor) {
-                    CampaignLevel campaignLevel = AnatomyCampaignLevelEnum.valueOf("LEVEL_0_" + finalIndex);
-                    CampaignLevelEnumService enumService = new CampaignLevelEnumService(campaignLevel);
-                    QuestionConfig questionConfig = enumService.getQuestionConfig(JudeteleRomGameScreen.TOTAL_QUESTIONS);
-                    AnatomyGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), campaignLevel);
+                    QuestionConfig questionConfig = new QuestionConfig(Arrays.asList(JudeteleRomCategoryEnum.values()), JudeteleRomCategoryEnum.values().length);
+                    JudeteleRomGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), campaignLevelEnum);
                 }
             });
 
             float horizontalGeneralMarginDimen = MainDimen.horizontal_general_margin.getDimen();
             Table btnTable = new Table();
-            Image image = GraphicUtils.getImage(AnatomySpecificResource.valueOf("img_cat" + i + "_" + i + "s"));
-            float imgHeight = image.getHeight();
-            float imgWidth = image.getWidth();
-            if (imgWidth > imgHeight) {
-                image.setWidth(ScreenDimensionsManager.getScreenWidthValue(55));
-                image.setHeight(ScreenDimensionsManager.getNewHeightForNewWidth(image.getWidth(), imgWidth, imgHeight));
-            } else {
-                image.setHeight(getLevelBtnHeight());
-                image.setWidth(ScreenDimensionsManager.getNewWidthForNewHeight(image.getHeight(), imgWidth, imgHeight));
-            }
-            Table imgTable = new Table();
-            imgTable.add(image).width(image.getWidth()).height(image.getHeight());
-            btnTable.add(imgTable).width(btnWidth);
-            btnTable.add(categBtn)
+
+            btnTable.add(campaignBtn)
                     .pad(horizontalGeneralMarginDimen)
                     .height(getLevelBtnHeight())
                     .width(btnWidth);
@@ -119,7 +100,7 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<HangmanScreenManag
             table.row();
         }
 
-        if (campaignService.getFinishedCampaignLevels().size() == AnatomyCampaignLevelEnum.values().length) {
+        if (campaignService.getFinishedCampaignLevels().size() == JudeteleRomCampaignLevelEnum.values().length) {
             new LevelFinishedPopup(this, SkelGameLabel.game_finished.getText()).addToPopupManager();
         }
         return table;
