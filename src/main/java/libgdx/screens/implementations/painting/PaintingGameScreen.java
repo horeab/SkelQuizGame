@@ -6,6 +6,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
 import libgdx.campaign.CampaignStoreService;
+import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.dbapi.GameStatsDbApiService;
 import libgdx.game.Game;
@@ -22,9 +23,10 @@ import libgdx.utils.Utils;
 
 public class PaintingGameScreen extends GameScreen<PaintingsScreenManager> {
 
-    public static int TOTAL_QUESTIONS = 5;
+    public static int TOTAL_QUESTIONS = 2;
     private CampaignLevel campaignLevel;
     private Table allTable;
+    private MyButton hoverBackButton;
 
     public PaintingGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         super(gameContext);
@@ -34,7 +36,7 @@ public class PaintingGameScreen extends GameScreen<PaintingsScreenManager> {
     @Override
     public void buildStage() {
         createAllTable();
-        new BackButtonBuilder().addHoverBackButton(this);
+        hoverBackButton = new BackButtonBuilder().addHoverBackButton(this);
     }
 
     private void createAllTable() {
@@ -58,6 +60,9 @@ public class PaintingGameScreen extends GameScreen<PaintingsScreenManager> {
         addActor(allTable);
 
         questionContainerCreatorService.processGameInfo(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
+        if (hoverBackButton != null) {
+            hoverBackButton.toFront();
+        }
     }
 
     @Override

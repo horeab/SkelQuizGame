@@ -25,6 +25,7 @@ import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.anatomy.AnatomyCampaignLevelEnum;
 import libgdx.implementations.paintings.PaintingsCampaignLevelEnum;
 import libgdx.implementations.paintings.PaintingsGame;
 import libgdx.implementations.paintings.PaintingsQuestionCategoryEnum;
@@ -159,7 +160,7 @@ public class PaintingCampaignScreen extends AbstractScreen<PaintingsScreenManage
                     .width(btnWidth);
             table.row();
         }
-        if (allCampaignLevelStores.size() == totalCat) {
+        if (campaignService.getFinishedCampaignLevels().size() == PaintingsCampaignLevelEnum.values().length) {
             CampaignStoreService campaignStoreService = new CampaignStoreService();
             String gameFinishedText = SkelGameLabel.game_finished.getText();
             if (campaignStoreService.getAllStarsWon() < totalStarsWon) {

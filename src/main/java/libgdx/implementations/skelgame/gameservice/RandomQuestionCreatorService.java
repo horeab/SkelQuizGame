@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionConfig;
 import libgdx.campaign.RandomCategoryAndDifficulty;
 import libgdx.implementations.skelgame.question.Question;
@@ -13,7 +12,7 @@ public class RandomQuestionCreatorService {
 
     public Question[] createRandomQuestions(QuestionConfig questionConfig) {
         int questionAmount = questionConfig.getAmountOfQuestions();
-        List<String> categsToUse = questionConfig.getQuestionCategoryStringList();
+        List<String> categsToUse = new ArrayList<>(questionConfig.getQuestionCategoryStringList());
         List<String> alreadyUsedCategs = new ArrayList<>();
         Question[] randomQuestions = new Question[questionAmount];
         for (int i = 0; i < questionAmount; i++) {

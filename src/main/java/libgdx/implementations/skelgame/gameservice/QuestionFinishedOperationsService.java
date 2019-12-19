@@ -73,7 +73,7 @@ public class QuestionFinishedOperationsService {
             executeGameFinishedOperations();
         }
         if (currentUserGameUser.getGameQuestionInfo(currentUserGameUser.getFinishedQuestions() - 1).getStatus() == GameQuestionInfoStatus.WON && currentUserGameUser.getWonQuestions() == LevelFinishedService.correctAnsweredQuestionsForGameSuccess(currentUserGameUser.getTotalNrOfQuestions())) {
-            SoundUtils.playSound(Resource.sound_success_game_over);
+//            SoundUtils.playSound(Resource.sound_success_game_over);
         }
         gameScreen.goToNextQuestionScreen();
     }
@@ -87,7 +87,7 @@ public class QuestionFinishedOperationsService {
                     @Override
                     public void executeOperations() {
                         boolean gameWon = gameContext.getCurrentUserGameUser().equals(usersWithLevelFinished.getGameUserThatWon());
-                        SoundUtils.playSound(gameWon ? Resource.sound_success_game_over : Resource.sound_fail_game_over);
+//                        SoundUtils.playSound(gameWon ? Resource.sound_success_game_over : Resource.sound_fail_game_over);
                         animateGameFinished(usersWithLevelFinished);
                     }
                 });
