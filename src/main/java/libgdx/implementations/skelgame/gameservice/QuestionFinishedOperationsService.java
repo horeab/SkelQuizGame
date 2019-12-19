@@ -5,17 +5,14 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.actions.RunnableAction;
 
+import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.ScreenRunnable;
-import libgdx.implementations.geoquiz.QuizGameSpecificResource;
-import libgdx.implementations.skelgame.SkelGameSpecificResource;
 import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.Resource;
 import libgdx.screens.GameScreen;
 import libgdx.screens.implementations.geoquiz.HeaderCreator;
 import libgdx.utils.SoundUtils;
-
-import java.util.Random;
 
 public class QuestionFinishedOperationsService {
 
@@ -41,16 +38,13 @@ public class QuestionFinishedOperationsService {
     }
 
     public void executeFinishedQuestionOperations() {
-        if (gameContext.getQuestionConfig().getAmountOfQuestions() == gameContext.getCurrentUserGameUser().getFinishedQuestions()) {
-            gameScreen.showPopupAd(new Runnable() {
-                @Override
-                public void run() {
-                    processLastFinishedQuestion();
-                }
-            });
-        } else {
-            processLastFinishedQuestion();
-        }
+        new CampaignStoreService().incrementQuestionsPlayed();
+        gameScreen.showPopupAd(new Runnable() {
+            @Override
+            public void run() {
+                processLastFinishedQuestion();
+            }
+        });
     }
 
     private void processLastFinishedQuestion() {

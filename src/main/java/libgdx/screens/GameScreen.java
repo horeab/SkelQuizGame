@@ -1,5 +1,6 @@
 package libgdx.screens;
 
+import libgdx.campaign.CampaignStoreService;
 import libgdx.game.Game;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.SinglePlayerLevelFinishedService;
@@ -21,13 +22,17 @@ public abstract class GameScreen<TScreenManager extends AbstractScreenManager> e
 
     public abstract void goToNextQuestionScreen();
 
-    public void animateGameFinished(){
+    public void animateGameFinished() {
     }
 
     public void showPopupAd(Runnable runnable) {
-        Game.getInstance().getAppInfoService().showPopupAd(runnable);
+        int questionsPlayed = new CampaignStoreService().getQuestionsPlayed();
+        if (questionsPlayed > 0 && questionsPlayed % 10 == 0) {
+            Game.getInstance().getAppInfoService().showPopupAd(runnable);
+        } else {
+            runnable.run();
+        }
     }
-
 
 
 }
