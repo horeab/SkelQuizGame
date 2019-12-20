@@ -20,7 +20,10 @@ import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.LevelFinishedPopup;
 import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.implementations.skelgame.SkelGameRatingService;
+import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
+import libgdx.implementations.skelgame.gameservice.QuestionCreator;
+import libgdx.implementations.skelgame.question.Question;
 import libgdx.resources.FontManager;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
@@ -71,9 +74,10 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<HangmanScreenManag
         table.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setFontScale(FontManager.getBigFontDim()).setText(Game.getInstance().getAppInfoService().getAppName()).build())).pad(MainDimen.vertical_general_margin.getDimen()).colspan(2).row();
         for (final JudeteleRomCampaignLevelEnum campaignLevelEnum : JudeteleRomCampaignLevelEnum.values()) {
             float btnWidth = ScreenDimensionsManager.getScreenWidthValue(50);
+            final Integer category = new CampaignLevelEnumService(campaignLevelEnum).getCategory();
             MyButton campaignBtn = new ButtonBuilder()
                     .setWrappedText(new LabelImageConfigBuilder()
-                            .setText(new SpecificPropertiesUtils().getQuestionCampaignLabel(new CampaignLevelEnumService(campaignLevelEnum).getCategory()))
+                            .setText(new SpecificPropertiesUtils().getQuestionCampaignLabel(category))
                             .setFontScale(FontManager.getBigFontDim())
                             .setWrappedLineLabel(btnWidth / 1.1f))
                     .setButtonSkin(GameButtonSkin.HANGMAN_CATEG).build();
@@ -84,8 +88,9 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<HangmanScreenManag
             campaignBtn.addListener(new ChangeListener() {
                 @Override
                 public void changed(ChangeEvent event, Actor actor) {
-                    QuestionConfig questionConfig = new QuestionConfig(Arrays.asList(JudeteleRomCategoryEnum.values()), JudeteleRomCategoryEnum.values().length);
-                    JudeteleRomGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), campaignLevelEnum);
+                    List<Question> questions = new QuestionCreator().getAllQuestionsOnLineNr(category);
+                    GameContext gameContext = new GameContextService().createGameContext(questions.toArray(new Question[questions.size()]));
+                    JudeteleRomGame.getInstance().getScreenManager().showCampaignGameScreen(gameContext, campaignLevelEnum);
                 }
             });
 

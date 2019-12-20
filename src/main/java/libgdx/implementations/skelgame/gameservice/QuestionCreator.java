@@ -1,16 +1,18 @@
 package libgdx.implementations.skelgame.gameservice;
 
+import libgdx.campaign.CampaignGameDependencyManager;
+import libgdx.campaign.QuestionCategory;
+import libgdx.campaign.QuestionConfigFileHandler;
+import libgdx.campaign.QuestionDifficulty;
+import libgdx.game.Game;
+import libgdx.implementations.skelgame.question.Question;
+import libgdx.utils.EnumUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
-
-import libgdx.campaign.QuestionCategory;
-import libgdx.campaign.QuestionConfigFileHandler;
-import libgdx.campaign.QuestionDifficulty;
-import libgdx.implementations.skelgame.question.Question;
 
 public class QuestionCreator {
 
@@ -47,6 +49,26 @@ public class QuestionCreator {
         }
         scanner.close();
         return StringUtils.capitalize(text.toString().trim());
+    }
+
+    public List<Question> getAllQuestionsOnLineNr(int lineNr) {
+        List<Question> questions = new ArrayList<>();
+        CampaignGameDependencyManager subGameDependencyManager = (CampaignGameDependencyManager) Game.getInstance().getSubGameDependencyManager();
+        for (QuestionDifficulty difficulty : (QuestionDifficulty[]) EnumUtils.getValues(subGameDependencyManager.getQuestionDifficultyTypeEnum())) {
+            for (QuestionCategory category : (QuestionCategory[]) EnumUtils.getValues(subGameDependencyManager.getQuestionCategoryTypeEnum())) {
+                Scanner scanner = new Scanner(configFileHandler.getFileText(difficulty, category));
+                int ind = 0;
+                while (scanner.hasNextLine()) {
+                    if (ind == lineNr) {
+                        questions.add(new Question(lineNr, difficulty, category, getQuestionStringForQuestionId(lineNr, difficulty, category)));
+                        break;
+                    }
+                    ind++;
+                    scanner.nextLine();
+                }
+            }
+        }
+        return questions;
     }
 
     public List<Question> getAllQuestions(List<QuestionDifficulty> difficultyLevels, QuestionCategory categoryEnumToCreate) {

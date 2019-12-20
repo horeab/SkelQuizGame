@@ -5,12 +5,28 @@ import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.implementations.skelgame.question.Question;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class GameContextService {
 
     private int AMOUNT_AVAILABLE_HINTS = 2;
 
     public GameContext createGameContext(QuestionConfig questionConfig) {
         return createGameContext(AMOUNT_AVAILABLE_HINTS, questionConfig);
+    }
+
+
+    public GameContext createGameContext(Question... questions) {
+        GameUser gameUser = createGameUser(questions);
+        List<String> categs = new ArrayList<>();
+        List<String> diff = new ArrayList<>();
+        for (Question question : questions) {
+            categs.add(question.getQuestionCategory().name());
+            diff.add(question.getQuestionDifficultyLevel().name());
+        }
+        QuestionConfig questionConfig = new QuestionConfig(diff, categs, questions.length);
+        return createGameContext(gameUser, questionConfig, 0);
     }
 
     public GameContext createGameContext(int availableHints, QuestionConfig questionConfig) {
