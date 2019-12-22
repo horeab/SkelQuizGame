@@ -15,7 +15,7 @@ public enum JudeteleRomScreenTypeEnum implements ScreenType {
 
     CAMPAIGN_GAME_SCREEN {
         public AbstractScreen getScreen(Object... params) {
-            return new JudeteleRomGameScreen((GameContext) params[0], (CampaignLevel) params[1]);
+            return new JudeteleRomGameScreen((GameContext) params[0]);
         }
     },
 }

@@ -24,13 +24,11 @@ import java.util.List;
 
 public class JudeteleRomGameScreen extends GameScreen<JudeteleRomScreenManager> {
 
-    public static int TOTAL_QUESTIONS = 5;
-    private CampaignLevel campaignLevel;
+    private JudeteContainers judeteContainers = new JudeteContainers();
     private Table allTable;
 
-    public JudeteleRomGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
+    public JudeteleRomGameScreen(GameContext gameContext) {
         super(gameContext);
-        this.campaignLevel = campaignLevel;
     }
 
     @Override
@@ -45,10 +43,12 @@ public class JudeteleRomGameScreen extends GameScreen<JudeteleRomScreenManager> 
         }
 
         allTable = new Table();
+        allTable.add(judeteContainers.createAllJudeteFound()).row();
         QuestionContainerCreatorService questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
         Table questionTable = questionContainerCreatorService.createQuestionTable();
-        questionTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(45));
-        allTable.add(questionTable).height(questionTable.getHeight()).row();
+        Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
+        allTable.add(questionTable).growY().row();
+        allTable.add(answersTable).growY();
         allTable.setFillParent(true);
         addActor(allTable);
 
@@ -99,10 +99,6 @@ public class JudeteleRomGameScreen extends GameScreen<JudeteleRomScreenManager> 
     public void executeLevelFinished() {
         GameUser gameUser = gameContext.getCurrentUserGameUser();
         if (levelFinishedService.isGameWon(gameUser)) {
-            QuizStarsService starsService = AnatomyGame.getInstance().getDependencyManager().getStarsService();
-            int starsWon = starsService.getStarsWon(LevelFinishedService.getPercentageOfWonQuestions(gameUser));
-            new CampaignService().levelFinished(starsWon, campaignLevel);
-
         }
         screenManager.showMainScreen();
     }

@@ -26,7 +26,7 @@ public abstract class GameScreen<TScreenManager extends AbstractScreenManager> e
     }
 
     public void showPopupAd(Runnable runnable) {
-        int questionsPlayed = new CampaignStoreService().getQuestionsPlayed();
+        int questionsPlayed = new CampaignStoreService().getNrOfQuestionsPlayed();
         if (questionsPlayed > 0 && questionsPlayed % 10 == 0) {
             Game.getInstance().getAppInfoService().showPopupAd(runnable);
         } else {

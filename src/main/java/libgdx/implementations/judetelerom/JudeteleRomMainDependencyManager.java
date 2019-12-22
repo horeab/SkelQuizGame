@@ -10,10 +10,10 @@ import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.resources.Resource;
 import libgdx.resources.ResourceService;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.geoquiz.QuizScreenManager;
+import libgdx.screens.implementations.judetelerom.JudeteleRomScreenManager;
 import libgdx.transactions.TransactionsService;
 
-public class JudeteleRomMainDependencyManager extends MainDependencyManager<QuizScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {
+public class JudeteleRomMainDependencyManager extends MainDependencyManager<JudeteleRomScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {
 
     @Override
     public Class<Resource> getMainResourcesClass() {
@@ -41,8 +41,8 @@ public class JudeteleRomMainDependencyManager extends MainDependencyManager<Quiz
     }
 
     @Override
-    public QuizScreenManager createScreenManager() {
-        return new QuizScreenManager();
+    public JudeteleRomScreenManager createScreenManager() {
+        return new JudeteleRomScreenManager();
     }
 
     @Override

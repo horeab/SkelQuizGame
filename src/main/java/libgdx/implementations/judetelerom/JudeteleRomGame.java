@@ -9,12 +9,13 @@ import libgdx.game.external.FacebookService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
 import libgdx.screens.implementations.geoquiz.QuizScreenManager;
+import libgdx.screens.implementations.judetelerom.JudeteleRomScreenManager;
 
 public class JudeteleRomGame extends CampaignGame<AppInfoService,
         JudeteleRomMainDependencyManager,
         JudeteleRomDependencyManager,
         AbstractScreen,
-        QuizScreenManager,
+        JudeteleRomScreenManager,
         GameIdEnum
         > {
 
@@ -34,7 +35,7 @@ public class JudeteleRomGame extends CampaignGame<AppInfoService,
 
     @Override
     protected void displayScreenAfterAssetsLoad() {
-        QuizScreenManager screenManager = getScreenManager();
+        JudeteleRomScreenManager screenManager = getScreenManager();
         screenManager.showMainScreen();
     }
 }

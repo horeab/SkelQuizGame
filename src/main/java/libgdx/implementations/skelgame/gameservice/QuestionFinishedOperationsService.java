@@ -9,10 +9,8 @@ import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.ScreenRunnable;
 import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
 import libgdx.implementations.skelgame.question.GameUser;
-import libgdx.resources.Resource;
 import libgdx.screens.GameScreen;
 import libgdx.screens.implementations.geoquiz.HeaderCreator;
-import libgdx.utils.SoundUtils;
 
 public class QuestionFinishedOperationsService {
 
@@ -38,7 +36,7 @@ public class QuestionFinishedOperationsService {
     }
 
     public void executeFinishedQuestionOperations() {
-        new CampaignStoreService().incrementQuestionsPlayed();
+        new CampaignStoreService().incrementNrOfQuestionsPlayed();
         gameScreen.showPopupAd(new Runnable() {
             @Override
             public void run() {

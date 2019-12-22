@@ -51,6 +51,24 @@ public class QuestionCreator {
         return StringUtils.capitalize(text.toString().trim());
     }
 
+
+    public List<Question> getAllQuestions() {
+        List<Question> questions = new ArrayList<>();
+        CampaignGameDependencyManager subGameDependencyManager = (CampaignGameDependencyManager) Game.getInstance().getSubGameDependencyManager();
+        for (QuestionDifficulty difficulty : (QuestionDifficulty[]) EnumUtils.getValues(subGameDependencyManager.getQuestionDifficultyTypeEnum())) {
+            for (QuestionCategory category : (QuestionCategory[]) EnumUtils.getValues(subGameDependencyManager.getQuestionCategoryTypeEnum())) {
+                Scanner scanner = new Scanner(configFileHandler.getFileText(difficulty, category));
+                int ind = 0;
+                while (scanner.hasNextLine()) {
+                    questions.add(new Question(ind, difficulty, category, getQuestionStringForQuestionId(ind, difficulty, category)));
+                    ind++;
+                    scanner.nextLine();
+                }
+            }
+        }
+        return questions;
+    }
+
     public List<Question> getAllQuestionsOnLineNr(int lineNr) {
         List<Question> questions = new ArrayList<>();
         CampaignGameDependencyManager subGameDependencyManager = (CampaignGameDependencyManager) Game.getInstance().getSubGameDependencyManager();

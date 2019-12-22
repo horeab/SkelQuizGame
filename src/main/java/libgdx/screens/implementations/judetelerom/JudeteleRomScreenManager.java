@@ -3,13 +3,24 @@ package libgdx.screens.implementations.judetelerom;
 import libgdx.campaign.CampaignLevel;
 import libgdx.implementations.skelgame.CampaignScreenManager;
 import libgdx.implementations.skelgame.gameservice.GameContext;
+import libgdx.implementations.skelgame.gameservice.GameContextService;
+import libgdx.implementations.skelgame.gameservice.QuestionCreator;
+import libgdx.implementations.skelgame.question.Question;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class JudeteleRomScreenManager extends CampaignScreenManager {
 
     @Override
     public void showMainScreen() {
-//        showScreen(JudeteleRomScreenTypeEnum.CAMPAIGN_GAME_SCREEN, new GameContextService().createGameContext(new QuestionConfig(AnatomyQuestionCategoryEnum.cat5, 10)), MathCampaignLevelEnum.LEVEL_0_0);
-        showCampaignScreen();
+        List<Question> questions = new ArrayList<>();
+        questions.addAll(new QuestionCreator().getAllQuestions());
+        Collections.shuffle(questions);
+        GameContext gameContext = new GameContextService().createGameContext(questions.toArray(new Question[questions.size()]));
+        showCampaignGameScreen(gameContext, null);
+//        showCampaignScreen();
     }
 
     @Override

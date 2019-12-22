@@ -11,6 +11,7 @@ import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.hangman.HangmanLabel;
 import libgdx.implementations.skelgame.GameDimen;
+import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.resources.FontManager;
 import libgdx.resources.Res;
@@ -43,7 +44,7 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
         createHangmanWord(hangmanWord, gameQuestionInfo.getAnswerIds(), new HashSet<String>());
         int nrOfWrongAnswersPressed = gameService.getNrOfWrongAnswersPressed(gameQuestionInfo.getAnswerIds());
 
-        if (gameService.getQuestionImage() == null) {
+        if (gameService.getQuestionImage() == null && !Game.getInstance().getGameIdPrefix().equals(GameIdEnum.judetelerom.name())) {
             refreshHangManImg(nrOfWrongAnswersPressed);
         } else {
             refreshAvailableTriesTableForQuestionWithImage(nrOfWrongAnswersPressed);
