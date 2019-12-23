@@ -24,6 +24,19 @@ public class GameUser {
         }
     }
 
+    public void resetQuestion(GameQuestionInfo gameQuestionInfo) {
+        if (gameQuestionInfo.getStatus() == GameQuestionInfoStatus.LOST) {
+            lostQuestions = lostQuestions - 1;
+        } else if (gameQuestionInfo.getStatus() == GameQuestionInfoStatus.WON) {
+            wonQuestions = wonQuestions - 1;
+        }
+        gameQuestionInfo.setStatus(GameQuestionInfoStatus.OPEN);
+        if (!openQuestionInfos.contains(gameQuestionInfo)) {
+            gameQuestionInfo.getAnswers().clear();
+            openQuestionInfos.add(gameQuestionInfo);
+        }
+    }
+
     private void setLostQuestion(GameQuestionInfo gameQuestionInfo) {
         if (gameQuestionInfo.isQuestionOpen()) {
             gameQuestionInfo.setStatus(GameQuestionInfoStatus.LOST);

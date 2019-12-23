@@ -19,8 +19,8 @@ import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.judetelerom.JudeteleRomCampaignLevelEnum;
 import libgdx.implementations.judetelerom.JudeteleRomCategoryEnum;
-import libgdx.implementations.judetelerom.JudeteleRomDifficultyLevel;
 import libgdx.implementations.judetelerom.JudeteleRomGame;
+import libgdx.implementations.judetelerom.JudeteleRomSpecificResource;
 import libgdx.implementations.skelgame.LevelFinishedPopup;
 import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.implementations.skelgame.SkelGameRatingService;
@@ -79,14 +79,19 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<JudeteleRomScreenM
     }
 
     private MyButton createStartGameBtn() {
-        MyButton button = new ButtonBuilder().setSingleLineText(MainGameLabel.l_new_game.getText(), FontManager.getNormalFontDim()).setButtonSkin(MainButtonSkin.DEFAULT).build();
+        MyButton button = new ButtonBuilder().setSingleLineText(SpecificPropertiesUtils.getText("ro_judetelerom_start_game"), FontManager.getNormalFontDim()).setButtonSkin(MainButtonSkin.DEFAULT).build();
         button.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                List<Question> questions = new ArrayList<>();
-                questions.addAll(new QuestionCreator().getAllQuestions());
-                Collections.shuffle(questions);
-                GameContext gameContext = new GameContextService().createGameContext(questions.toArray(new Question[questions.size()]));
+                List<Question> questions = new ArrayList<>(new QuestionCreator().getAllQuestions());
+                List<Question> notPlayedQuestions = new ArrayList<>();
+                for (Question question : questions) {
+                    if (!campaignStoreService.isQuestionAlreadyPlayed(JudeteContainers.getQuestionId(question.getQuestionLineInQuestionFile(), question.getQuestionCategory(), question.getQuestionDifficultyLevel()))) {
+                        notPlayedQuestions.add(question);
+                    }
+                }
+                Collections.shuffle(notPlayedQuestions);
+                GameContext gameContext = new GameContextService().createGameContext(notPlayedQuestions.toArray(new Question[notPlayedQuestions.size()]));
                 JudeteleRomGame.getInstance().getScreenManager().showCampaignGameScreen(gameContext, null);
             }
         });
@@ -95,29 +100,38 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<JudeteleRomScreenM
 
     private Table createAllTable() {
         Table table = new Table();
-        int i = 1;
+        int rowIndex = 1;
         JudeteleRomCampaignLevelEnum[] allJudete = JudeteleRomCampaignLevelEnum.values();
         for (final JudeteleRomCampaignLevelEnum campaignLevelEnum : allJudete) {
             float btnWidth = ScreenDimensionsManager.getScreenWidthValue(40);
             final Integer category = new CampaignLevelEnumService(campaignLevelEnum).getCategory();
             float horizontalGeneralMarginDimen = MainDimen.horizontal_general_margin.getDimen();
             Table judTable = new Table();
-            judTable.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
             MyWrappedLabel judLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setWrappedLineLabel(btnWidth / 1.1f).setFontScale(FontManager.getNormalFontDim()).setText(new SpecificPropertiesUtils().getQuestionCampaignLabel(category)).build());
             judTable.add(judLabel)
                     .colspan(5)
                     .height(getLevelBtnHeight())
                     .width(btnWidth).row();
-            for (int j = 0; j < 5; j++) {
-                Table q = new Table();
-                q.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
-                judTable.add(q).expand();
+            int correctAnswersForJudet = JudeteContainers.getTotalCorrectAnswersForJudet(category);
+
+            if (correctAnswersForJudet == JudeteleRomCategoryEnum.values().length) {
+                judTable.setBackground(GraphicUtils.getNinePatch(JudeteleRomSpecificResource.correctansw_background));
+            } else {
+                for (int j = 0; j < JudeteleRomCategoryEnum.values().length; j++) {
+                    Table q = new Table();
+                    if (j <= correctAnswersForJudet - 1) {
+                        q.setBackground(GraphicUtils.getNinePatch(JudeteleRomSpecificResource.correctansw_background));
+                    } else {
+                        q.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
+                    }
+                    judTable.add(q).expand();
+                }
             }
             table.add(judTable).expand().pad(horizontalGeneralMarginDimen);
-            if (i % 2 == 0) {
+            if (rowIndex % 2 == 0) {
                 table.row();
             }
-            i++;
+            rowIndex++;
         }
 
         if (campaignService.getFinishedCampaignLevels().size() == allJudete.length) {

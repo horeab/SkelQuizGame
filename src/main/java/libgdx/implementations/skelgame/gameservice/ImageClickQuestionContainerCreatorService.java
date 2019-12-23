@@ -73,7 +73,7 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
         float imgHeight = image.getHeight();
         float imgWidth = image.getWidth();
         if (imgWidth > imgHeight) {
-            image.setHeight(MainDimen.vertical_general_margin.getDimen() * 25);
+            image.setHeight(MainDimen.vertical_general_margin.getDimen() * 18);
             image.setWidth(ScreenDimensionsManager.getNewWidthForNewHeight(image.getHeight(), imgWidth, imgHeight));
         } else {
             image.setWidth(ScreenDimensionsManager.getScreenWidthValue(130));

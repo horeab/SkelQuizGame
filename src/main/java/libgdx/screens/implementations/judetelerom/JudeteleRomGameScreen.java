@@ -4,15 +4,28 @@ import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
+import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.builders.BackButtonBuilder;
+import libgdx.controls.popup.notificationpopup.MyNotificationPopupConfigBuilder;
+import libgdx.controls.popup.notificationpopup.MyNotificationPopupCreator;
 import libgdx.dbapi.GameStatsDbApiService;
 import libgdx.game.Game;
+import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.anatomy.AnatomyGame;
 import libgdx.implementations.anatomy.AnatomySpecificResource;
+import libgdx.implementations.judetelerom.JudeteleRomCampaignLevelEnum;
+import libgdx.implementations.judetelerom.JudeteleRomCategoryEnum;
+import libgdx.implementations.judetelerom.JudeteleRomSpecificResource;
 import libgdx.implementations.skelgame.gameservice.*;
+import libgdx.implementations.skelgame.question.GameQuestionInfo;
+import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.implementations.skelgame.question.Question;
+import libgdx.resources.MainResource;
+import libgdx.resources.dimen.MainDimen;
+import libgdx.resources.gamelabel.GameLabelUtils;
+import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screens.GameScreen;
 import libgdx.utils.DateUtils;
 import libgdx.utils.ScreenDimensionsManager;
@@ -25,6 +38,7 @@ import java.util.List;
 public class JudeteleRomGameScreen extends GameScreen<JudeteleRomScreenManager> {
 
     private JudeteContainers judeteContainers = new JudeteContainers();
+    private CampaignStoreService campaignStoreService = new CampaignStoreService();
     private Table allTable;
 
     public JudeteleRomGameScreen(GameContext gameContext) {
@@ -44,6 +58,9 @@ public class JudeteleRomGameScreen extends GameScreen<JudeteleRomScreenManager> 
 
         allTable = new Table();
         allTable.add(judeteContainers.createAllJudeteFound()).row();
+        float dimen = MainDimen.vertical_general_margin.getDimen();
+        String allQuestionsPlayed = campaignStoreService.getAllQuestionsPlayed();
+        allTable.add(allQuestionsTable(allQuestionsPlayed.split(CampaignStoreService.QUESTION_SPLIT).length - 1)).padBottom(dimen).padTop(dimen).growX().row();
         QuestionContainerCreatorService questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
@@ -55,10 +72,24 @@ public class JudeteleRomGameScreen extends GameScreen<JudeteleRomScreenManager> 
         questionContainerCreatorService.processGameInfo(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
     }
 
+    private Table allQuestionsTable(int nrOfCorrectQuestions) {
+        Table table = new Table();
+        int totalNrOfQuestions = JudeteleRomCampaignLevelEnum.values().length * JudeteleRomCategoryEnum.values().length;
+        float qTableWidth = 100 / Float.valueOf(totalNrOfQuestions);
+        for (int i = 0; i < totalNrOfQuestions; i++) {
+            Table qTable = new Table();
+            if (i <= (nrOfCorrectQuestions - 1) && nrOfCorrectQuestions != 0) {
+                qTable.setBackground(GraphicUtils.getNinePatch(JudeteleRomSpecificResource.allq_bakcground));
+            }
+            table.add(qTable).width(ScreenDimensionsManager.getScreenWidthValue(qTableWidth));
+        }
+        return table;
+    }
+
     @Override
     public void goToNextQuestionScreen() {
+        processPlayedQuestions();
         if (levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
-            ActorAnimation.animateImageCenterScreenFadeOut(AnatomySpecificResource.success, 0.3f);
         }
         Table hangmanWordTable = getRoot().findActor(HangmanRefreshQuestionDisplayService.ACTOR_NAME_HANGMAN_WORD_TABLE);
         if (hangmanWordTable != null) {
@@ -73,6 +104,27 @@ public class JudeteleRomGameScreen extends GameScreen<JudeteleRomScreenManager> 
             }
         })));
     }
+
+    private void processPlayedQuestions() {
+        for (GameQuestionInfo gameQuestionInfo : gameContext.getCurrentUserGameUser().getAllQuestionInfos()) {
+            if (gameQuestionInfo.getStatus() == GameQuestionInfoStatus.LOST) {
+                gameContext.getCurrentUserGameUser().resetQuestion(gameQuestionInfo);
+            } else {
+                Question question = gameQuestionInfo.getQuestion();
+                if (gameQuestionInfo.getStatus() == GameQuestionInfoStatus.WON && !campaignStoreService.isQuestionAlreadyPlayed(JudeteContainers.getQuestionId(question.getQuestionLineInQuestionFile(), question.getQuestionCategory(), question.getQuestionDifficultyLevel()))) {
+                    campaignStoreService.putQuestionPlayed(JudeteContainers.getQuestionId(question.getQuestionLineInQuestionFile(), question.getQuestionCategory(), question.getQuestionDifficultyLevel()));
+                    int questionLineInQuestionFile = question.getQuestionLineInQuestionFile();
+                    if (JudeteContainers.isJudetFound(questionLineInQuestionFile)) {
+                        new MyNotificationPopupCreator(new MyNotificationPopupConfigBuilder().setText(
+                                SpecificPropertiesUtils.getText("ro_judetelerom_judet_found",
+                                        new SpecificPropertiesUtils().getQuestionCampaignLabel
+                                                (questionLineInQuestionFile))).build()).shortNotificationPopup().addToPopupManager();
+                    }
+                }
+            }
+        }
+    }
+
 
     @Override
     public void onBackKeyPress() {
@@ -99,7 +151,8 @@ public class JudeteleRomGameScreen extends GameScreen<JudeteleRomScreenManager> 
     public void executeLevelFinished() {
         GameUser gameUser = gameContext.getCurrentUserGameUser();
         if (levelFinishedService.isGameWon(gameUser)) {
+            screenManager.showMainScreen();
         }
-        screenManager.showMainScreen();
+//        screenManager.showMainScreen();
     }
 }

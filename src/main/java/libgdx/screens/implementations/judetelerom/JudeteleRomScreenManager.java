@@ -15,12 +15,13 @@ public class JudeteleRomScreenManager extends CampaignScreenManager {
 
     @Override
     public void showMainScreen() {
-        List<Question> questions = new ArrayList<>();
-        questions.addAll(new QuestionCreator().getAllQuestions());
-        Collections.shuffle(questions);
-        GameContext gameContext = new GameContextService().createGameContext(questions.toArray(new Question[questions.size()]));
-        showCampaignGameScreen(gameContext, null);
-//        showCampaignScreen();
+//        List<Question> questions = new ArrayList<>();
+//        questions.addAll(new QuestionCreator().getAllQuestions());
+//        Collections.shuffle(questions);
+////        questions = questions.subList(0, 5);
+//        GameContext gameContext = new GameContextService().createGameContext(questions.toArray(new Question[questions.size()]));
+//        showCampaignGameScreen(gameContext, null);
+        showCampaignScreen();
     }
 
     @Override
