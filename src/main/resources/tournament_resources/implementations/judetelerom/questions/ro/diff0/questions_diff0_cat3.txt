@@ -39,3 +39,4 @@
 38:Judeţul este aşezat pe cursul superior şi mijlociu al râului Bârlad:Vaslui:36,35,33:
 39:Primul judeţ atestat documentar pe teritoriul actual al României este:Vâlcea:32,34,37:
 40:În acest judeţ Carpaţii realizează cel mai mare colţ din parcusul lor:Vrancea:34,35,38:
+41:Aici se află cel mai populat oraş al ţarii:București:27,12,31:

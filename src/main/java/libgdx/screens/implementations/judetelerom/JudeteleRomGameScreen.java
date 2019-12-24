@@ -143,8 +143,9 @@ public class JudeteleRomGameScreen extends GameScreen<JudeteleRomScreenManager> 
     @Override
     public void animateGameFinished() {
         super.animateGameFinished();
+        processPlayedQuestions();
         if (LevelFinishedService.getPercentageOfWonQuestions(gameContext.getCurrentUserGameUser()) == 100f) {
-            ActorAnimation.animateImageCenterScreenFadeOut(AnatomySpecificResource.star, 0.3f);
+//            ActorAnimation.animateImageCenterScreenFadeOut(AnatomySpecificResource.star, 0.3f);
         }
     }
 

@@ -39,3 +39,4 @@
 38:Muzeul Judeţean "Ştefan cel Mare":Vaslui:35,36,34:38
 39:Mănăstirea Cozia:Vâlcea:37,32,33:39
 40:Mausoleul de la Mărăşeşti:Vrancea:33,36,34:40
+41:Ateneul Român:București:23,36,34:41

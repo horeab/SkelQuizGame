@@ -39,3 +39,4 @@
 38:Vaslui:Vaslui:8,22,27:80,65:999
 39:Vâlcea:Vâlcea:17,31,30:40,30:999
 40:Vrancea:Vrancea:21,11,4:70,47:999
+41:București:București:21,34,4:62,20:999

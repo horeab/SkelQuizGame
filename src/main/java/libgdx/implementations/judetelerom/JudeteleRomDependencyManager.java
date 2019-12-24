@@ -14,8 +14,8 @@ public class JudeteleRomDependencyManager extends CampaignGameDependencyManager 
     @Override
     public List<? extends IncrementingRes> getIncrementResList() {
         List<ImageCategIncrementRes> list = new ArrayList<>();
-        list.add(new ImageCategIncrementRes(0, 40, JudeteleRomCategoryEnum.cat1, ImageCategIncrementRes.JPG));
-        list.add(new ImageCategIncrementRes(0, 40, JudeteleRomCategoryEnum.cat2, ImageCategIncrementRes.JPG));
+        list.add(new ImageCategIncrementRes(0, 41, JudeteleRomCategoryEnum.cat1, ImageCategIncrementRes.JPG));
+        list.add(new ImageCategIncrementRes(0, 41, JudeteleRomCategoryEnum.cat2, ImageCategIncrementRes.JPG));
         return list;
     }
 
