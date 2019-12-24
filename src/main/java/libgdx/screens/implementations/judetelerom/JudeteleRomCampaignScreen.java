@@ -31,11 +31,12 @@ import libgdx.implementations.skelgame.question.Question;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
-import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
+import libgdx.utils.model.FontColor;
+import libgdx.utils.model.FontConfig;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -56,7 +57,6 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<JudeteleRomScreenM
 
     @Override
     public void buildStage() {
-        final int maxOpenedLevel = allCampaignLevelStores.size();
         levelHeight = getLevelBtnHeight() + MainDimen.horizontal_general_margin.getDimen();
 
         scrollPane = new ScrollPane(createAllTable());
@@ -67,7 +67,13 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<JudeteleRomScreenM
         Game.getInstance().setFirstTimeMainMenuDisplayed(false);
         Table table = new Table();
         table.setFillParent(true);
-        MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setFontScale(FontManager.getBigFontDim()).setText(Game.getInstance().getAppInfoService().getAppName()).build());
+        MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setFontConfig(new FontConfig(
+                FontColor.WHITE.getColor(),
+                FontColor.BLACK.getColor(),
+                2f))
+                .setFontScale(FontManager.calculateMultiplierStandardFontSize(2))
+                .setText(Game.getInstance().getAppInfoService().getAppName()).build());
 
         table.add(titleLabel).pad(MainDimen.vertical_general_margin.getDimen()).colspan(2).row();
         table.add(judeteContainers.createAllJudeteFound()).pad(MainDimen.vertical_general_margin.getDimen()).colspan(2).row();
@@ -102,10 +108,10 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<JudeteleRomScreenM
         Table table = new Table();
         int rowIndex = 1;
         JudeteleRomCampaignLevelEnum[] allJudete = JudeteleRomCampaignLevelEnum.values();
+        float horizontalGeneralMarginDimen = MainDimen.horizontal_general_margin.getDimen();
         for (final JudeteleRomCampaignLevelEnum campaignLevelEnum : allJudete) {
             float btnWidth = ScreenDimensionsManager.getScreenWidthValue(40);
             final Integer category = new CampaignLevelEnumService(campaignLevelEnum).getCategory();
-            float horizontalGeneralMarginDimen = MainDimen.horizontal_general_margin.getDimen();
             Table judTable = new Table();
             MyWrappedLabel judLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setWrappedLineLabel(btnWidth / 1.1f).setFontScale(FontManager.getNormalFontDim()).setText(new SpecificPropertiesUtils().getQuestionCampaignLabel(category)).build());
             judTable.add(judLabel)
@@ -115,8 +121,9 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<JudeteleRomScreenM
             int correctAnswersForJudet = JudeteContainers.getTotalCorrectAnswersForJudet(category);
 
             if (correctAnswersForJudet == JudeteleRomCategoryEnum.values().length) {
-                judTable.setBackground(GraphicUtils.getNinePatch(JudeteleRomSpecificResource.correctansw_background));
+                judTable.setBackground(GraphicUtils.getNinePatch(JudeteleRomSpecificResource.allfound));
             } else {
+                judTable.setBackground(GraphicUtils.getNinePatch(JudeteleRomSpecificResource.notfound));
                 for (int j = 0; j < JudeteleRomCategoryEnum.values().length; j++) {
                     Table q = new Table();
                     if (j <= correctAnswersForJudet - 1) {
@@ -124,7 +131,7 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<JudeteleRomScreenM
                     } else {
                         q.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
                     }
-                    judTable.add(q).expand();
+                    judTable.add(q).width(horizontalGeneralMarginDimen).height(horizontalGeneralMarginDimen).pad(horizontalGeneralMarginDimen / 1.5f).expand();
                 }
             }
             table.add(judTable).expand().pad(horizontalGeneralMarginDimen);
