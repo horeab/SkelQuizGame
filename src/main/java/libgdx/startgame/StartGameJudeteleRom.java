@@ -42,7 +42,7 @@ public class StartGameJudeteleRom {
     public static String getTitle() {
         switch (Language.valueOf(Game.getInstance().getAppInfoService().getLanguage())) {
             case ro:
-                return "Judetele Romaniei";
+                return "Judeţele României";
         }
         return null;
     }

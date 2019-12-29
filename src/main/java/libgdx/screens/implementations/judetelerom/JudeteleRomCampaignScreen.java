@@ -5,6 +5,7 @@ import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+
 import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.CampaignService;
 import libgdx.campaign.CampaignStoreLevel;
@@ -69,13 +70,13 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<JudeteleRomScreenM
         table.setFillParent(true);
         MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setFontConfig(new FontConfig(
-                FontColor.WHITE.getColor(),
-                FontColor.BLACK.getColor(),
-                2f))
-                .setFontScale(FontManager.calculateMultiplierStandardFontSize(2))
+                        FontColor.WHITE.getColor(),
+                        FontColor.BLACK.getColor(),
+                        2f))
+                .setFontScale(FontManager.calculateMultiplierStandardFontSize(2.2f))
                 .setText(Game.getInstance().getAppInfoService().getAppName()).build());
 
-        table.add(titleLabel).pad(MainDimen.vertical_general_margin.getDimen()).colspan(2).row();
+        table.add(titleLabel).padTop(MainDimen.vertical_general_margin.getDimen() * 2).colspan(2).row();
         table.add(judeteContainers.createAllJudeteFound()).pad(MainDimen.vertical_general_margin.getDimen()).colspan(2).row();
         MyButton startGameBtn = createStartGameBtn();
         table.add(startGameBtn).pad(MainDimen.vertical_general_margin.getDimen()).width(ScreenDimensionsManager.getScreenWidthValue(50)).height(ScreenDimensionsManager.getScreenHeightValue(10)).row();
@@ -123,7 +124,7 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<JudeteleRomScreenM
             if (correctAnswersForJudet == JudeteleRomCategoryEnum.values().length) {
                 judTable.setBackground(GraphicUtils.getNinePatch(JudeteleRomSpecificResource.allfound));
             } else {
-                judTable.setBackground(GraphicUtils.getNinePatch(JudeteleRomSpecificResource.notfound));
+                judTable.setBackground(GraphicUtils.getNinePatch(JudeteleRomSpecificResource.notansw_background));
                 for (int j = 0; j < JudeteleRomCategoryEnum.values().length; j++) {
                     Table q = new Table();
                     if (j <= correctAnswersForJudet - 1) {
@@ -131,7 +132,8 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<JudeteleRomScreenM
                     } else {
                         q.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
                     }
-                    judTable.add(q).width(horizontalGeneralMarginDimen).height(horizontalGeneralMarginDimen).pad(horizontalGeneralMarginDimen / 1.5f).expand();
+                    float qSideDimen = horizontalGeneralMarginDimen * 2.2f;
+                    judTable.add(q).width(qSideDimen).height(qSideDimen).pad(horizontalGeneralMarginDimen / 1.5f).expand();
                 }
             }
             table.add(judTable).expand().pad(horizontalGeneralMarginDimen);

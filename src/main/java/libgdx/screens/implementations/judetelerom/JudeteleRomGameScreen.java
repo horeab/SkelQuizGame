@@ -2,6 +2,7 @@ package libgdx.screens.implementations.judetelerom;
 
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
 import libgdx.campaign.CampaignStoreService;
@@ -14,6 +15,7 @@ import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.anatomy.AnatomyGame;
 import libgdx.implementations.anatomy.AnatomySpecificResource;
+import libgdx.implementations.hangman.HangmanGameCreatorDependencies;
 import libgdx.implementations.judetelerom.JudeteleRomCampaignLevelEnum;
 import libgdx.implementations.judetelerom.JudeteleRomCategoryEnum;
 import libgdx.implementations.judetelerom.JudeteleRomSpecificResource;
@@ -57,15 +59,19 @@ public class JudeteleRomGameScreen extends GameScreen<JudeteleRomScreenManager> 
         }
 
         allTable = new Table();
-        allTable.add(judeteContainers.createAllJudeteFound()).row();
         float dimen = MainDimen.vertical_general_margin.getDimen();
+        allTable.add(judeteContainers.createAllJudeteFound()).padTop(dimen * 2).row();
         String allQuestionsPlayed = campaignStoreService.getAllQuestionsPlayed();
         allTable.add(allQuestionsTable(allQuestionsPlayed.split(CampaignStoreService.TEXT_SPLIT).length - 1)).padBottom(dimen).padTop(dimen).growX().row();
         QuestionContainerCreatorService questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
         allTable.add(questionTable).growY().row();
-        allTable.add(answersTable).growY();
+        float topPad = 0;
+        if (gameContext.getCurrentUserCreatorDependencies() instanceof HangmanGameCreatorDependencies) {
+            topPad = ScreenDimensionsManager.getScreenHeightValue(15);
+        }
+        allTable.add(answersTable).padTop(-topPad).growY();
         allTable.setFillParent(true);
         addActor(allTable);
 

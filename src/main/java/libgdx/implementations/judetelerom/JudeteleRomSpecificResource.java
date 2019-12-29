@@ -13,6 +13,7 @@ public enum JudeteleRomSpecificResource implements SpecificResource {
     notfound("notfound.png", Texture.class),
     allfound("allfound.png", Texture.class),
     allq_bakcground("allq_bakcground.png", Texture.class),
+    notansw_background("notansw_background.png", Texture.class),
     correctansw_background("correctansw_background.png", Texture.class),
     img_cat0_999("questions/images/cat0/999.png", Texture.class),
     ;
