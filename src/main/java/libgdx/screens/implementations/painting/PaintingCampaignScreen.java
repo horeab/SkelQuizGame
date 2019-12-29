@@ -119,7 +119,7 @@ public class PaintingCampaignScreen extends AbstractScreen<PaintingsScreenManage
     private Table createAllTable() {
         Table table = new Table();
         int totalCat = PaintingsQuestionCategoryEnum.values().length;
-        int totalStarsWon = 0;
+        long totalStarsWon = 0;
         float btnHeight = ScreenDimensionsManager.getScreenHeightValue(12);
         float btnWidth = ScreenDimensionsManager.getScreenWidthValue(80);
         for (int i = 0; i < totalCat; i++) {
@@ -129,9 +129,9 @@ public class PaintingCampaignScreen extends AbstractScreen<PaintingsScreenManage
                     .setWrappedText(new SpecificPropertiesUtils().getQuestionCategoryLabel(categoryEnum.getIndex()), btnWidth / 1.1f)
                     .setButtonSkin(GameButtonSkin.valueOf("PAINTINGS_COLOR_CATEG" + i)).build();
             for (CampaignStoreLevel level : allCampaignLevelStores) {
-                int starsWon = -1;
+                long starsWon = -1;
                 if (CampaignLevelEnumService.getCategory(level.getName()) == categoryEnum.getIndex()) {
-                    starsWon = level.getStarsWon();
+                    starsWon = level.getScore();
                     totalStarsWon = totalStarsWon + starsWon;
                     if (starsWon == QuizStarsService.NR_OF_STARS_TO_DISPLAY) {
                         categBtn.setButtonSkin(GameButtonSkin.PAINTINGS_COLOR_CATEG_STAR);
@@ -163,8 +163,8 @@ public class PaintingCampaignScreen extends AbstractScreen<PaintingsScreenManage
         if (campaignService.getFinishedCampaignLevels().size() == PaintingsCampaignLevelEnum.values().length) {
             CampaignStoreService campaignStoreService = new CampaignStoreService();
             String gameFinishedText = SkelGameLabel.game_finished.getText();
-            if (campaignStoreService.getAllStarsWon() < totalStarsWon) {
-                campaignStoreService.updateAllStarsWon(totalStarsWon);
+            if (campaignStoreService.getAllScoreWon() < totalStarsWon) {
+                campaignStoreService.updateAllScoreWon(totalStarsWon);
                 gameFinishedText = MainGameLabel.l_score_record.getText(totalStarsWon);
             }
             new LevelFinishedPopup(this, gameFinishedText).addToPopupManager();

@@ -100,7 +100,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         if (levelLocked) {
             levelIcon = MainResource.lock;
         } else if (campaignLevel.getIndex() <= maxOpenedLevel) {
-            int starsWon = campaignService.getCampaignLevel(campaignLevel.getIndex(), allCampaignLevelStores).getStarsWon();
+            long starsWon = campaignService.getCampaignLevel(campaignLevel.getIndex(), allCampaignLevelStores).getScore();
             if (starsWon == QuizStarsService.NR_OF_STARS_TO_DISPLAY) {
                 allTable.setBackground(GraphicUtils.getNinePatch(QuizGameSpecificResource.green_backr));
             } else {
@@ -148,7 +148,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
     private Table createTotalStarsTable() {
         Table table = new Table();
         float imgSideDim = MainDimen.vertical_general_margin.getDimen() * 4f;
-        MyWrappedLabel myLabel = new MyWrappedLabel(campaignService.getTotalWonStars(allCampaignLevelStores) + "/" + TOTAL_STARS);
+        MyWrappedLabel myLabel = new MyWrappedLabel(campaignService.getTotalWonScore(allCampaignLevelStores) + "/" + TOTAL_STARS);
         myLabel.setFontScale(FontManager.getBigFontDim());
         myLabel.padTop(MainDimen.vertical_general_margin.getDimen() / 2);
         myLabel.padRight(MainDimen.vertical_general_margin.getDimen());

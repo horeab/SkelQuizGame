@@ -60,7 +60,7 @@ public class JudeteleRomGameScreen extends GameScreen<JudeteleRomScreenManager> 
         allTable.add(judeteContainers.createAllJudeteFound()).row();
         float dimen = MainDimen.vertical_general_margin.getDimen();
         String allQuestionsPlayed = campaignStoreService.getAllQuestionsPlayed();
-        allTable.add(allQuestionsTable(allQuestionsPlayed.split(CampaignStoreService.QUESTION_SPLIT).length - 1)).padBottom(dimen).padTop(dimen).growX().row();
+        allTable.add(allQuestionsTable(allQuestionsPlayed.split(CampaignStoreService.TEXT_SPLIT).length - 1)).padBottom(dimen).padTop(dimen).growX().row();
         QuestionContainerCreatorService questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();

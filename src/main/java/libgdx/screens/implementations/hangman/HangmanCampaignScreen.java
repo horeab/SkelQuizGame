@@ -51,7 +51,7 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
     private Table createAllTable() {
         Table table = new Table();
         int totalCat = HangmanQuestionCategoryEnum.values().length;
-        int totalStarsWon = 0;
+        long totalStarsWon = 0;
         table.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setFontScale(FontManager.getBigFontDim()).setText(MainGameLabel.l_level.getText((allCampaignLevelStores.size() + 1))).build())).pad(MainDimen.vertical_general_margin.getDimen()).colspan(2).row();
         for (int i = 0; i < totalCat; i++) {
             if (i > 0 && i % 2 == 0) {
@@ -60,12 +60,12 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
             final int maxLevelFinished = allCampaignLevelStores.size() - 1;
             final int finalIndex = i;
             HangmanQuestionCategoryEnum categoryEnum = HangmanQuestionCategoryEnum.values()[i];
-            int starsWon = -1;
+            long starsWon = -1;
             MyButton categBtn = new ButtonBuilder().setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(categoryEnum.getIndex())).setButtonSkin(GameButtonSkin.HANGMAN_CATEG).build();
             for (CampaignStoreLevel level : allCampaignLevelStores) {
                 if (CampaignLevelEnumService.getCategory(level.getName()) == categoryEnum.getIndex()) {
                     categBtn.setDisabled(true);
-                    starsWon = level.getStarsWon();
+                    starsWon = level.getScore();
                     totalStarsWon = totalStarsWon + starsWon;
                 }
             }
@@ -105,8 +105,8 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
         if (allCampaignLevelStores.size() == totalCat) {
             CampaignStoreService campaignStoreService = new CampaignStoreService();
             String gameFinishedText = SkelGameLabel.game_finished.getText();
-            if (campaignStoreService.getAllStarsWon() < totalStarsWon) {
-                campaignStoreService.updateAllStarsWon(totalStarsWon);
+            if (campaignStoreService.getAllScoreWon() < totalStarsWon) {
+                campaignStoreService.updateAllScoreWon(totalStarsWon);
                 gameFinishedText = MainGameLabel.l_score_record.getText(totalStarsWon);
             }
             new LevelFinishedPopup(this, gameFinishedText).addToPopupManager();

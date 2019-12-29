@@ -128,7 +128,7 @@ public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager>
                 if (campaignStoreLevel.getStatus() == CampaignLevelStatusEnum.IN_PROGRESS.getStatus()) {
                     isBtnCurrent = true;
                 }
-                if (campaignStoreLevel.getStarsWon() == QuizStarsService.NR_OF_STARS_TO_DISPLAY) {
+                if (campaignStoreLevel.getScore() == QuizStarsService.NR_OF_STARS_TO_DISPLAY) {
                     isStar = true;
                 }
                 btnUnlocked = true;
