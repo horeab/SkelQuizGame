@@ -5,15 +5,11 @@ import libgdx.game.Game;
 import libgdx.implementations.judetelerom.JudeteleRomGame;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.utils.startgame.test.DefaultAppInfoService;
-import libgdx.utils.startgame.test.DefaultBillingService;
-import libgdx.utils.startgame.test.DefaultFacebookService;
 
 public class StartGameJudeteleRom {
 
     public static void main(String[] args) {
         JudeteleRomGame game = new JudeteleRomGame(
-                new DefaultFacebookService(),
-                new DefaultBillingService(),
                 new DefaultAppInfoService() {
                     @Override
                     public String getGameIdPrefix() {

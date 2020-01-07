@@ -37,7 +37,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
     private CampaignService campaignService = new CampaignService();
     private List<CampaignStoreLevel> allCampaignLevelStores;
     private int TOTAL_STARS = 5;
-    public static int TOTAL_QUESTIONS = 5;
+    public static int TOTAL_QUESTIONS = 1;
     private float ICON_DIMEN = MainDimen.horizontal_general_margin.getDimen() * 7.5f;
 
     public GeoQuizCampaignScreen() {
@@ -134,26 +134,16 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
                 QuizGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(new CampaignLevelEnumService(campaignLevel).getQuestionConfig(GeoQuizCampaignScreen.TOTAL_QUESTIONS)), campaignLevel);
             }
         };
-        if (!Game.getInstance().getAppInfoService().isProVersion() && campaignLevel.getIndex() >= QuizCampaignLevelEnum.values().length / 2) {
+        if (!Utils.isValidExtraContent()
+                && campaignLevel.getIndex() >= QuizCampaignLevelEnum.values().length / 2) {
             listener = new ChangeListener() {
                 @Override
                 public void changed(ChangeEvent event, Actor actor) {
-                    new QuizProVersionPopup(screen).addToPopupManager();
+                    Game.getInstance().getInAppPurchaseManager().displayInAppPurchasesPopup();
                 }
             };
         }
         return listener;
-    }
-
-    private Table createTotalStarsTable() {
-        Table table = new Table();
-        float imgSideDim = MainDimen.vertical_general_margin.getDimen() * 4f;
-        MyWrappedLabel myLabel = new MyWrappedLabel(campaignService.getTotalWonScore(allCampaignLevelStores) + "/" + TOTAL_STARS);
-        myLabel.setFontScale(FontManager.getBigFontDim());
-        myLabel.padTop(MainDimen.vertical_general_margin.getDimen() / 2);
-        myLabel.padRight(MainDimen.vertical_general_margin.getDimen());
-        table.add(myLabel);
-        return table;
     }
 
     @Override

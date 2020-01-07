@@ -4,11 +4,8 @@ package libgdx.implementations.judetelerom;
 import libgdx.campaign.CampaignGame;
 import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
-import libgdx.game.external.BillingService;
-import libgdx.game.external.FacebookService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.geoquiz.QuizScreenManager;
 import libgdx.screens.implementations.judetelerom.JudeteleRomScreenManager;
 
 public class JudeteleRomGame extends CampaignGame<AppInfoService,
@@ -19,10 +16,8 @@ public class JudeteleRomGame extends CampaignGame<AppInfoService,
         GameIdEnum
         > {
 
-    public JudeteleRomGame(FacebookService facebookService,
-                           BillingService billingService,
-                           AppInfoService appInfoService) {
-        super(facebookService, billingService, appInfoService, new JudeteleRomMainDependencyManager());
+    public JudeteleRomGame(AppInfoService appInfoService) {
+        super(appInfoService, new JudeteleRomMainDependencyManager());
     }
 
     public JudeteleRomDependencyManager getDependencyManager() {

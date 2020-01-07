@@ -4,11 +4,8 @@ package libgdx.implementations.kennstde;
 import libgdx.campaign.CampaignGame;
 import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
-import libgdx.game.external.BillingService;
-import libgdx.game.external.FacebookService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.hangman.HangmanScreenManager;
 import libgdx.screens.implementations.kennstde.KennstDeScreenManager;
 
 public class KennstDeGame extends CampaignGame<AppInfoService,
@@ -19,10 +16,8 @@ public class KennstDeGame extends CampaignGame<AppInfoService,
         GameIdEnum
         > {
 
-    public KennstDeGame(FacebookService facebookService,
-                        BillingService billingService,
-                        AppInfoService appInfoService) {
-        super(facebookService, billingService, appInfoService, new KennstDeMainDependencyManager());
+    public KennstDeGame(AppInfoService appInfoService) {
+        super(appInfoService, new KennstDeMainDependencyManager());
     }
 
     public KennstDeDependencyManager getDependencyManager() {

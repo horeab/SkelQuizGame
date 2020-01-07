@@ -5,15 +5,11 @@ import libgdx.game.Game;
 import libgdx.implementations.hangman.HangmanGame;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.utils.startgame.test.DefaultAppInfoService;
-import libgdx.utils.startgame.test.DefaultBillingService;
-import libgdx.utils.startgame.test.DefaultFacebookService;
 
 public class StartGameHangman {
 
     public static void main(String[] args) {
         HangmanGame game = new HangmanGame(
-                new DefaultFacebookService(),
-                new DefaultBillingService(),
                 new DefaultAppInfoService() {
                     @Override
                     public String getGameIdPrefix() {

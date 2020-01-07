@@ -2,19 +2,14 @@ package libgdx.startgame;
 
 import libgdx.constants.Language;
 import libgdx.game.Game;
-import libgdx.implementations.anatomy.AnatomyGame;
 import libgdx.implementations.paintings.PaintingsGame;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.utils.startgame.test.DefaultAppInfoService;
-import libgdx.utils.startgame.test.DefaultBillingService;
-import libgdx.utils.startgame.test.DefaultFacebookService;
 
 public class StartGamePaintings {
 
     public static void main(String[] args) {
         PaintingsGame game = new PaintingsGame(
-                new DefaultFacebookService(),
-                new DefaultBillingService(),
                 new DefaultAppInfoService() {
                     @Override
                     public String getGameIdPrefix() {

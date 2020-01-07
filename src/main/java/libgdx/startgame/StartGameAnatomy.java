@@ -3,18 +3,13 @@ package libgdx.startgame;
 import libgdx.constants.Language;
 import libgdx.game.Game;
 import libgdx.implementations.anatomy.AnatomyGame;
-import libgdx.implementations.kennstde.KennstDeGame;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.utils.startgame.test.DefaultAppInfoService;
-import libgdx.utils.startgame.test.DefaultBillingService;
-import libgdx.utils.startgame.test.DefaultFacebookService;
 
 public class StartGameAnatomy {
 
     public static void main(String[] args) {
         AnatomyGame game = new AnatomyGame(
-                new DefaultFacebookService(),
-                new DefaultBillingService(),
                 new DefaultAppInfoService() {
                     @Override
                     public String getGameIdPrefix() {
