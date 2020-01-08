@@ -5,6 +5,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
 import libgdx.controls.button.builders.BackButtonBuilder;
+import libgdx.dbapi.GameStatsDbApiService;
+import libgdx.game.Game;
 import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.HangmanQuestionContainerCreatorService;
@@ -13,6 +15,7 @@ import libgdx.implementations.skelgame.gameservice.QuestionContainerCreatorServi
 import libgdx.implementations.skelgame.gameservice.SinglePlayerLevelFinishedService;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.screens.GameScreen;
+import libgdx.utils.DateUtils;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.RGBColor;
@@ -34,6 +37,10 @@ public class CampaignGameScreen extends GameScreen<QuizScreenManager> {
     }
 
     private void createAllTable() {
+        if (Game.getInstance().getCurrentUser() != null) {
+            new GameStatsDbApiService().incrementGameStatsQuestionsWon(Game.getInstance().getCurrentUser().getId(), Long.valueOf(DateUtils.getNowMillis()).toString());
+        }
+
         allTable = new Table();
         QuestionContainerCreatorService questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
         Table questionTable = questionContainerCreatorService.createQuestionTable();
