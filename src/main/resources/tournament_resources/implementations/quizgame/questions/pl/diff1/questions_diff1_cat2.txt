@@ -1,6 +1,6 @@
 14:Co to jest stolica Australii?:Canberra:13,12,8:14
 15:Co to jest stolica Portugalii?:Lizbona:19,7,14:15
-16:Co to jest stolica Turcji?:Stambuł:17,20,24:16
+16:Co to jest stolica Turcji?:Ankara:17,20,24:16
 17:Co to jest stolica Bułgarii?:Sofia:10,13,19:17
 18:Co to jest stolica Indii?:New Delhi:15,26,22:18
 19:Co to jest stolica Grecji?:Ateny:17,22,18:19

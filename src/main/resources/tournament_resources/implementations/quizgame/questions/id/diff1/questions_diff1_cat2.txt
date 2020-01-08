@@ -1,6 +1,6 @@
 14:Apa ibukota Australia?:Canberra:13,12,8:14
 15:Apa ibukota Portugal?:Lisbon:19,7,14:15
-16:Apa ibu kota Turki?:Istanbul:17,20,24:16
+16:Apa ibu kota Turki?:Ankara:17,20,24:16
 17:Apa ibu kota Bulgaria?:Sofia:10,13,19:17
 18:Apa ibu kota India?:New Delhi:15,26,22:18
 19:Apa ibu kota Yunani?:Athena:17,22,18:19

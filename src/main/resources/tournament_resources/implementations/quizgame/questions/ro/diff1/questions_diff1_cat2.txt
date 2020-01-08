@@ -1,6 +1,6 @@
 14:Care este capitala Austriei?:Canberra:13,12,8:14
 15:Care este capitala Portugaliei?:Lisabona:19,7,14:15
-16:Care este capitala Turciei?:Istanbul:17,20,24:16
+16:Care este capitala Turciei?:Ankara:17,20,24:16
 17:Care este capitala Bulgariei?:Sofia:10,13,19:17
 18:Care este capitala Indiei?:New Delhi:15,26,22:18
 19:Care este capitala Greciei?:Atena:17,22,18:19

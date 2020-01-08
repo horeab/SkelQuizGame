@@ -1,6 +1,6 @@
 14:What is the capital of Australia?:Canberra:13,12,8:14
 15:What is the capital of Portugal?:Lisbon:19,7,14:15
-16:What is the capital of Turkey?:Istanbul:17,20,24:16
+16:What is the capital of Turkey?:Ankara:17,20,24:16
 17:What is the capital of Bulgaria?:Sofia:10,13,19:17
 18:What is the capital of India?:New Delhi:15,26,22:18
 19:What is the capital of Greece?:Athens:17,22,18:19

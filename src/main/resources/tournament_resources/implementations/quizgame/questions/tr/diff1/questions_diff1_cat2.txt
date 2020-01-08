@@ -1,6 +1,6 @@
 14:Avustralya'nın başkenti nedir?:Canberra:13,12,8:14
 15:Portekiz'in başkenti nedir?:Lizbon:19,7,14:15
-16:Türkiye'nin başkenti neresi?:İstanbul:17,20,24:16
+16:Türkiye'nin başkenti neresi?:Ankara:17,20,24:16
 17:Bulgaristan'ın başkenti nedir?:Sofya:10,13,19:17
 18:Hindistan'ın başkenti nedir?:Yeni Delhi:15,26,22:18
 19:Yunanistan'ın başkenti nedir?:Atina:17,22,18:19

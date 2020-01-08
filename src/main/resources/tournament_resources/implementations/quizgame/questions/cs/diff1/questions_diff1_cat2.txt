@@ -1,6 +1,6 @@
 14:Co je hlavním městem Austrálie?:Canberra:13,12,8:14
 15:Co je hlavním městem Portugalska?:Lisabon:19,7,14:15
-16:Co je hlavním městem Turecka?:Istanbul:17,20,24:16
+16:Co je hlavním městem Turecka?:Ankara:17,20,24:16
 17:Co je hlavním městem Bulharska?:Sofie:10,13,19:17
 18:Co je hlavním městem Indie?:New Delhi:15,26,22:18
 19:Co je hlavním městem Řecka?:Atény:17,22,18:19

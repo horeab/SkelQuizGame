@@ -1,6 +1,6 @@
 14:Thủ đô của Úc là gì?:Canberra:13,12,8:14
 15:Thủ đô của Bồ Đào Nha là gì?:Lisbon:19,7,14:15
-16:Thủ đô của Thổ Nhĩ Kỳ là gì?:Istanbul:17,20,24:16
+16:Thủ đô của Thổ Nhĩ Kỳ là gì?:Ankara:17,20,24:16
 17:Thủ đô của Bulgaria là gì?:Sofia:10,13,19:17
 18:Thủ đô của Ấn Độ là gì?:New Delhi:15,26,22:18
 19:Thủ đô của Hy Lạp là gì?:Athens:17,22,18:19

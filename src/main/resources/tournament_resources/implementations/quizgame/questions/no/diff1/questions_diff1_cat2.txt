@@ -1,6 +1,6 @@
 14:Hva er hovedstaden i Australia?:Canberra:13,12,8:14
 15:Hva er Portugals hovedstad?:Lisboa:19,7,14:15
-16:Hva er hovedstaden i Tyrkia?:Istanbul:17,20,24:16
+16:Hva er hovedstaden i Tyrkia?:Ankara:17,20,24:16
 17:Hva er hovedstaden i Bulgaria?:Sofia:10,13,19:17
 18:Hva er hovedstaden i India?:New Delhi:15,26,22:18
 19:Hva er Hellas hovedstad?:Athen:17,22,18:19
