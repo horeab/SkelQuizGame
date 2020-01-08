@@ -1,8 +1,6 @@
 package libgdx.implementations.geoquiz;
 
 
-import com.badlogic.gdx.pay.PurchaseManager;
-
 import libgdx.campaign.CampaignGame;
 import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;

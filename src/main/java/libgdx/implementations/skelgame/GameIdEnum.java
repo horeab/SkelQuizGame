@@ -8,10 +8,12 @@ import libgdx.implementations.geoquiz.QuizGameDependencyManager;
 import libgdx.implementations.hangman.HangmanDependencyManager;
 import libgdx.implementations.judetelerom.JudeteleRomDependencyManager;
 import libgdx.implementations.kennstde.KennstDeDependencyManager;
+import libgdx.implementations.math.MathDependencyManager;
 import libgdx.implementations.paintings.PaintingsDependencyManager;
 
 public enum GameIdEnum implements GameId {
 
+    math(MathDependencyManager.class),
     judetelerom(JudeteleRomDependencyManager.class),
     anatomy(AnatomyDependencyManager.class),
     paintings(PaintingsDependencyManager.class),

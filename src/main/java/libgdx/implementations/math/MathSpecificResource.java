@@ -9,13 +9,8 @@ public enum MathSpecificResource implements SpecificResource {
 
     // @formatter:off
 
-    specific_labels("labels/labels", I18NBundle.class),
+    specific_labels("labels/labels", I18NBundle.class),;
 
-    background_texture("background_texture.png", Texture.class),
-
-    title_background("title_background.png", Texture.class),
-    star("star.png", Texture.class),
-    success("success.png", Texture.class),;
     // @formatter:on
 
     private String path;

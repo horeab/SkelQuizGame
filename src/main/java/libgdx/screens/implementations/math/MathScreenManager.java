@@ -8,8 +8,7 @@ public class MathScreenManager extends CampaignScreenManager {
 
     @Override
     public void showMainScreen() {
-//        showScreen(MathScreenTypeEnum.CAMPAIGN_GAME_SCREEN, new GameContextService().createGameContext(new QuestionConfig(PaintingsQuestionCategoryEnum.cat1, 10)), PaintingsCampaignLevelEnum.LEVEL_0_0);
-        showCampaignScreen();
+//        showCampaignScreen();
     }
 
     @Override
