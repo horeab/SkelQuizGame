@@ -19,6 +19,7 @@ import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.controls.labelimage.InAppPurchaseTable;
 import libgdx.controls.labelimage.LabelImageConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
@@ -87,8 +88,8 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
 
         int totalCat = AnatomyQuestionCategoryEnum.values().length;
         table.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setFontScale(FontManager.getBigFontDim()).setText(Game.getInstance().getAppInfoService().getAppName()).build())).pad(MainDimen.vertical_general_margin.getDimen()).colspan(2).row();
+        InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
         for (int i = 0; i < totalCat; i++) {
-
             final int finalIndex = i;
             AnatomyQuestionCategoryEnum categoryEnum = AnatomyQuestionCategoryEnum.values()[i];
             float btnWidth = ScreenDimensionsManager.getScreenWidthValue(50);
@@ -130,6 +131,9 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
                     .pad(horizontalGeneralMarginDimen)
                     .height(getLevelBtnHeight())
                     .width(btnWidth);
+            if (i > totalCat / 2 && !Utils.isValidExtraContent()) {
+                btnTable = inAppPurchaseTable.create(btnTable);
+            }
             table.add(btnTable).expand().pad(horizontalGeneralMarginDimen);
             table.row();
         }
