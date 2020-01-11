@@ -73,10 +73,8 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
                 .height(ScreenDimensionsManager.getScreenHeightValue(15))
                 .padTop(titlePadTop)
                 .padBottom(verticalGeneralMarginDimen * 4).row();
-        Table extraContentTable = null;
-        if (!Utils.isValidExtraContent()) {
-            extraContentTable = new Table();
-        }
+        InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
+        Table extraContentTable = inAppPurchaseTable.initExtraContentTable();
         for (QuizQuestionDifficultyLevel difficultyLevel : QuizQuestionDifficultyLevel.values()) {
             if (difficultyLevel.getIndex() > 1 && extraContentTable != null) {
                 extraContentTable.add(createCategoriesTable(difficultyLevel)).padBottom(verticalGeneralMarginDimen * 2);
@@ -87,7 +85,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
             }
         }
         if (extraContentTable != null) {
-            table.add(new InAppPurchaseTable().create(extraContentTable));
+            table.add(inAppPurchaseTable.create(extraContentTable));
         }
         return table;
     }
