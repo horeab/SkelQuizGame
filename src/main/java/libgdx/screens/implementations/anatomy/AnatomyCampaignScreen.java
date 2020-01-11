@@ -133,6 +133,7 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
                     .width(btnWidth);
             if (i >= (totalCat / 2) && !Utils.isValidExtraContent()) {
                 btnTable = inAppPurchaseTable.create(btnTable);
+                categBtn.setDisabled(true);
             }
             table.add(btnTable).expand().pad(horizontalGeneralMarginDimen);
             table.row();
