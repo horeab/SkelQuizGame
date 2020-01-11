@@ -131,7 +131,7 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
                     .pad(horizontalGeneralMarginDimen)
                     .height(getLevelBtnHeight())
                     .width(btnWidth);
-            if (i > totalCat / 2 && !Utils.isValidExtraContent()) {
+            if (i >= (totalCat / 2) && !Utils.isValidExtraContent()) {
                 btnTable = inAppPurchaseTable.create(btnTable);
             }
             table.add(btnTable).expand().pad(horizontalGeneralMarginDimen);
