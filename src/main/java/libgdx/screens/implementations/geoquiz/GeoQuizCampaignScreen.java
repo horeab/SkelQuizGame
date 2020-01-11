@@ -39,7 +39,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
     private CampaignService campaignService = new CampaignService();
     private List<CampaignStoreLevel> allCampaignLevelStores;
     private int TOTAL_STARS = 5;
-    public static int TOTAL_QUESTIONS = 1;
+    public static int TOTAL_QUESTIONS = 5;
     private float ICON_DIMEN = MainDimen.horizontal_general_margin.getDimen() * 7.5f;
 
     public GeoQuizCampaignScreen() {
