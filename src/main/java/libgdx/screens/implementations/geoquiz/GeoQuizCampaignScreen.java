@@ -153,7 +153,6 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
             listener = new ChangeListener() {
                 @Override
                 public void changed(ChangeEvent event, Actor actor) {
-                    Game.getInstance().getInAppPurchaseManager().displayInAppPurchasesPopup();
                 }
             };
         }
