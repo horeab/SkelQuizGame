@@ -79,7 +79,6 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
         table.setFillParent(true);
         table.add(scrollPane).expand();
         addActor(table);
-        new BackButtonBuilder().addHoverBackButton(this);
     }
 
     private Table createAllTable() {
