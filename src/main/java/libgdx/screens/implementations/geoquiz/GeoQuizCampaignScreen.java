@@ -15,6 +15,8 @@ import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.button.builders.ButtonWithIconBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.controls.labelimage.InAppPurchaseTable;
+import libgdx.controls.popup.InAppPurchasesPopup;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.geoquiz.*;
@@ -71,9 +73,21 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
                 .height(ScreenDimensionsManager.getScreenHeightValue(15))
                 .padTop(titlePadTop)
                 .padBottom(verticalGeneralMarginDimen * 4).row();
+        Table extraContentTable = null;
+        if (!Utils.isValidExtraContent()) {
+            extraContentTable = new Table();
+        }
         for (QuizQuestionDifficultyLevel difficultyLevel : QuizQuestionDifficultyLevel.values()) {
-            table.add(createCategoriesTable(difficultyLevel)).padBottom(verticalGeneralMarginDimen * 2);
-            table.row();
+            if (difficultyLevel.getIndex() > 1 && extraContentTable != null) {
+                extraContentTable.add(createCategoriesTable(difficultyLevel)).padBottom(verticalGeneralMarginDimen * 2);
+                extraContentTable.row();
+            } else {
+                table.add(createCategoriesTable(difficultyLevel)).padBottom(verticalGeneralMarginDimen * 2);
+                table.row();
+            }
+        }
+        if (extraContentTable != null) {
+            table.add(new InAppPurchaseTable().create(extraContentTable));
         }
         return table;
     }
