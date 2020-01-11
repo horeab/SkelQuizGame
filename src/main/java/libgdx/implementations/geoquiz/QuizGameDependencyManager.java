@@ -39,6 +39,11 @@ public class QuizGameDependencyManager extends CampaignGameDependencyManager {
     }
 
     @Override
+    public String getExtraContentProductId() {
+        return "extraContent";
+    }
+
+    @Override
     public Class<QuizGameSpecificResource> getSpecificResourceTypeEnum() {
         return QuizGameSpecificResource.class;
     }
