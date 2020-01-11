@@ -121,7 +121,11 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         }
         MyButton myButton = new ButtonWithIconBuilder("", levelIcon).build();
         if (!levelLocked) {
-            ChangeListener listener = getStartLevelListener(this, campaignLevel);
+            ChangeListener listener = getStartLevelListener(this, new Runnable() {
+                @Override
+                public void run() {
+                }
+            }, campaignLevel);
             myButton.addListener(listener);
         } else {
             myButton.setTouchable(Touchable.disabled);
@@ -139,7 +143,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         return allTable;
     }
 
-    public static ChangeListener getStartLevelListener(final AbstractScreen screen, final CampaignLevel campaignLevel) {
+    public static ChangeListener getStartLevelListener(final AbstractScreen screen, final Runnable onLockedLevelClick, final CampaignLevel campaignLevel) {
         ChangeListener listener = new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
@@ -151,6 +155,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
             listener = new ChangeListener() {
                 @Override
                 public void changed(ChangeEvent event, Actor actor) {
+                    onLockedLevelClick.run();
                 }
             };
         }

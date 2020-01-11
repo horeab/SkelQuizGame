@@ -2,11 +2,13 @@ package libgdx.screens.implementations.geoquiz;
 
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
+
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.popup.MyPopup;
+import libgdx.game.Game;
 import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
@@ -36,10 +38,15 @@ public class CampaignLevelFinishedPopup extends MyPopup<AbstractScreen, QuizScre
                 nextLevel.addListener(new ChangeListener() {
                     @Override
                     public void changed(ChangeEvent event, Actor actor) {
-                       hide();
+                        hide();
                     }
                 });
-                nextLevel.addListener(GeoQuizCampaignScreen.getStartLevelListener(getScreen(), nextCampaignLevel));
+                nextLevel.addListener(GeoQuizCampaignScreen.getStartLevelListener(getScreen(), new Runnable() {
+                    @Override
+                    public void run() {
+                        Game.getInstance().getInAppPurchaseManager().displayInAppPurchasesPopup();
+                    }
+                }, nextCampaignLevel));
                 addButton(nextLevel);
             }
         } else {
