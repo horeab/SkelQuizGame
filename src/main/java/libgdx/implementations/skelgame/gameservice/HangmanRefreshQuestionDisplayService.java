@@ -118,8 +118,10 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
         image.setHeight(HangmanGameScreen.getHangmanImgHeight());
         image.setWidth(HangmanGameScreen.getHangmanImgWidth());
         Table table = (Table) abstractGameScreen.getRoot().findActor(ACTOR_NAME_HANGMAN_IMAGE);
-        table.clearChildren();
-        table.add(image).width(image.getWidth()).height(image.getHeight());
+        if (table != null) {
+            table.clearChildren();
+            table.add(image).width(image.getWidth()).height(image.getHeight());
+        }
     }
 
     private float calculateLetterLabelWidth(float standardWidth, String hangmanWord) {
