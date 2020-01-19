@@ -37,6 +37,12 @@ public class HangmanDependencyManager extends CampaignGameDependencyManager {
         return text.toString();
     }
 
+
+    @Override
+    public String getExtraContentProductId() {
+        return "extraContentHangman";
+    }
+
     @Override
     public Class<HangmanSpecificResource> getSpecificResourceTypeEnum() {
         return HangmanSpecificResource.class;
