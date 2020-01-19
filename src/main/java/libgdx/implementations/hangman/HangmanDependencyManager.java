@@ -40,7 +40,7 @@ public class HangmanDependencyManager extends CampaignGameDependencyManager {
 
     @Override
     public String getExtraContentProductId() {
-        return "extraContentHangman";
+        return "extracontent.hangman";
     }
 
     @Override
