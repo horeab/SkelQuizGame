@@ -9,7 +9,7 @@ public class HangmanScreenManager extends CampaignScreenManager {
     @Override
     public void showMainScreen() {
         showScreen(HangmanScreenTypeEnum.MAIN_MENU_SCREEN);
-        showCampaignScreen();
+//        showCampaignScreen();
     }
 
     @Override

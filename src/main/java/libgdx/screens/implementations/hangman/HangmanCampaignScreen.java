@@ -125,7 +125,12 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
                     .height(ScreenDimensionsManager.getScreenHeightValue(27))
                     .width(ScreenDimensionsManager.getScreenWidthValue(45));
             if (!categBtn.isDisabled() && allCampaignLevelStores.size() > 2 && !Utils.isValidExtraContent()) {
-                btnTable = inAppPurchaseTable.create(btnTable);
+                btnTable = inAppPurchaseTable.create(btnTable, new Runnable() {
+                    @Override
+                    public void run() {
+                        screenManager.showCampaignScreen();
+                    }
+                });
                 categBtn.setDisabled(true);
             }
             table.add(btnTable)

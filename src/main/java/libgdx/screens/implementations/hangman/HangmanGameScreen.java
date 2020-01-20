@@ -5,6 +5,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
+import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.dbapi.GameStatsDbApiService;
 import libgdx.game.Game;
@@ -85,6 +86,16 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
                     buildStage();
                 }
             })));
+        }
+    }
+
+    @Override
+    public void showPopupAd(Runnable runnable) {
+        int questionsPlayed = new CampaignStoreService().getNrOfQuestionsPlayed();
+        if (questionsPlayed > 0 && questionsPlayed % 7 == 0) {
+            Game.getInstance().getAppInfoService().showPopupAd(runnable);
+        } else {
+            runnable.run();
         }
     }
 
