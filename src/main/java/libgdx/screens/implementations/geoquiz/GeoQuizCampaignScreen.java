@@ -15,6 +15,8 @@ import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.button.builders.ButtonWithIconBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.controls.labelimage.InAppPurchaseTable;
+import libgdx.controls.popup.InAppPurchasesPopup;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.geoquiz.*;
@@ -37,7 +39,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
     private CampaignService campaignService = new CampaignService();
     private List<CampaignStoreLevel> allCampaignLevelStores;
     private int TOTAL_STARS = 5;
-    public static int TOTAL_QUESTIONS = 1;
+    public static int TOTAL_QUESTIONS = 5;
     private float ICON_DIMEN = MainDimen.horizontal_general_margin.getDimen() * 7.5f;
 
     public GeoQuizCampaignScreen() {
@@ -71,9 +73,19 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
                 .height(ScreenDimensionsManager.getScreenHeightValue(15))
                 .padTop(titlePadTop)
                 .padBottom(verticalGeneralMarginDimen * 4).row();
+        InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
+        Table extraContentTable = inAppPurchaseTable.initExtraContentTable();
         for (QuizQuestionDifficultyLevel difficultyLevel : QuizQuestionDifficultyLevel.values()) {
-            table.add(createCategoriesTable(difficultyLevel)).padBottom(verticalGeneralMarginDimen * 2);
-            table.row();
+            if (difficultyLevel.getIndex() > 1 && extraContentTable != null) {
+                extraContentTable.add(createCategoriesTable(difficultyLevel)).padBottom(verticalGeneralMarginDimen * 2);
+                extraContentTable.row();
+            } else {
+                table.add(createCategoriesTable(difficultyLevel)).padBottom(verticalGeneralMarginDimen * 2);
+                table.row();
+            }
+        }
+        if (extraContentTable != null) {
+            table.add(inAppPurchaseTable.create(extraContentTable));
         }
         return table;
     }
@@ -109,7 +121,11 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         }
         MyButton myButton = new ButtonWithIconBuilder("", levelIcon).build();
         if (!levelLocked) {
-            ChangeListener listener = getStartLevelListener(this, campaignLevel);
+            ChangeListener listener = getStartLevelListener(this, new Runnable() {
+                @Override
+                public void run() {
+                }
+            }, campaignLevel);
             myButton.addListener(listener);
         } else {
             myButton.setTouchable(Touchable.disabled);
@@ -127,7 +143,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         return allTable;
     }
 
-    public static ChangeListener getStartLevelListener(final AbstractScreen screen, final CampaignLevel campaignLevel) {
+    public static ChangeListener getStartLevelListener(final AbstractScreen screen, final Runnable onLockedLevelClick, final CampaignLevel campaignLevel) {
         ChangeListener listener = new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
@@ -139,7 +155,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
             listener = new ChangeListener() {
                 @Override
                 public void changed(ChangeEvent event, Actor actor) {
-                    Game.getInstance().getInAppPurchaseManager().displayInAppPurchasesPopup();
+                    onLockedLevelClick.run();
                 }
             };
         }

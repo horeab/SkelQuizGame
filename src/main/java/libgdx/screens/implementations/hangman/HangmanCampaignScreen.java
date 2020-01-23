@@ -4,12 +4,22 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 
-import libgdx.campaign.*;
+import java.util.ArrayList;
+import java.util.List;
+
+import libgdx.campaign.CampaignLevel;
+import libgdx.campaign.CampaignLevelEnumService;
+import libgdx.campaign.CampaignService;
+import libgdx.campaign.CampaignStoreLevel;
+import libgdx.campaign.CampaignStoreService;
+import libgdx.campaign.QuestionConfig;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
+import libgdx.controls.button.builders.UnlockButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.controls.labelimage.InAppPurchaseTable;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.hangman.HangmanCampaignLevelEnum;
 import libgdx.implementations.hangman.HangmanGame;
@@ -26,9 +36,7 @@ import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
 import libgdx.utils.ScreenDimensionsManager;
-
-import java.util.ArrayList;
-import java.util.List;
+import libgdx.utils.Utils;
 
 public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> {
 
@@ -46,13 +54,33 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
         table.add(createAllTable());
         addActor(table);
         new BackButtonBuilder().addHoverBackButton(this);
+        if (!Utils.isValidExtraContent()) {
+            new UnlockButtonBuilder().addHoverUnlockButton(getAbstractScreen(), new Runnable() {
+                @Override
+                public void run() {
+                    screenManager.showCampaignScreen();
+                }
+            });
+        }
+    }
+
+    private Table createHeaderTable() {
+        Table table = new Table();
+        table.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setFontScale(FontManager.getBigFontDim())
+                .setText(MainGameLabel.l_level.getText((allCampaignLevelStores.size() + 1))).build()))
+                .padBottom(MainDimen.vertical_general_margin.getDimen())
+                .padTop(MainDimen.vertical_general_margin.getDimen())
+                .row();
+        return table;
     }
 
     private Table createAllTable() {
         Table table = new Table();
+        table.add(createHeaderTable()).colspan(2).row();
         int totalCat = HangmanQuestionCategoryEnum.values().length;
         long totalStarsWon = 0;
-        table.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setFontScale(FontManager.getBigFontDim()).setText(MainGameLabel.l_level.getText((allCampaignLevelStores.size() + 1))).build())).pad(MainDimen.vertical_general_margin.getDimen()).colspan(2).row();
+        float dimen = MainDimen.horizontal_general_margin.getDimen();
+        InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
         for (int i = 0; i < totalCat; i++) {
             if (i > 0 && i % 2 == 0) {
                 table.row();
@@ -69,10 +97,9 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
                     totalStarsWon = totalStarsWon + starsWon;
                 }
             }
-            float horizontalGeneralMarginDimen = MainDimen.horizontal_general_margin.getDimen();
             if (starsWon == QuizStarsService.NR_OF_STARS_TO_DISPLAY) {
                 categBtn.getCenterRow().row();
-                categBtn.getCenterRow().add(GraphicUtils.getImage(HangmanSpecificResource.star)).width(horizontalGeneralMarginDimen * 5).height(horizontalGeneralMarginDimen * 5).padTop(horizontalGeneralMarginDimen);
+                categBtn.getCenterRow().add(GraphicUtils.getImage(HangmanSpecificResource.star)).width(dimen * 5).height(dimen * 5).padTop(dimen);
             }
             categBtn.addListener(new ChangeListener() {
                 @Override
@@ -97,8 +124,17 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
             btnTable.add(categBtn)
                     .height(ScreenDimensionsManager.getScreenHeightValue(27))
                     .width(ScreenDimensionsManager.getScreenWidthValue(45));
+            if (!categBtn.isDisabled() && allCampaignLevelStores.size() > 2 && !Utils.isValidExtraContent()) {
+                btnTable = inAppPurchaseTable.create(btnTable, new Runnable() {
+                    @Override
+                    public void run() {
+                        screenManager.showCampaignScreen();
+                    }
+                });
+                categBtn.setDisabled(true);
+            }
             table.add(btnTable)
-                    .pad(horizontalGeneralMarginDimen)
+                    .pad(dimen)
                     .height(ScreenDimensionsManager.getScreenHeightValue(27))
                     .width(ScreenDimensionsManager.getScreenWidthValue(45));
         }

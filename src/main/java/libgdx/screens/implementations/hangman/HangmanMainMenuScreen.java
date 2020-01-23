@@ -45,7 +45,6 @@ public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> 
         Table table = new Table();
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
         float horizontalGeneralMarginDimen = MainDimen.horizontal_general_margin.getDimen();
-        new BackButtonBuilder().addHoverBackButton(this);
         table.setFillParent(true);
         addTitle(table);
         MyButton startGameBtn = createStartGameBtn();

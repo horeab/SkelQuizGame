@@ -47,5 +47,8 @@
     <orderEntry type="library" name="Gradle: org.powermock:powermock-module-junit4-rule:1.6.1" level="project" />
     <orderEntry type="library" name="Gradle: org.powermock:powermock-module-junit4:1.6.1" level="project" />
     <orderEntry type="library" name="Gradle: org.powermock:powermock-reflect:1.6.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.badlogicgames.gdxpay:gdx-pay-client:0.12.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.badlogicgames.gdxpay:gdx-pay:0.12.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
   </component>
 </module>

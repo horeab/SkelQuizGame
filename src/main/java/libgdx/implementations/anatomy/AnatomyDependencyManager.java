@@ -35,6 +35,11 @@ public class AnatomyDependencyManager extends CampaignGameDependencyManager {
     }
 
     @Override
+    public String getExtraContentProductId() {
+        return "extraContentAnatomy";
+    }
+
+    @Override
     public Class<AnatomySpecificResource> getSpecificResourceTypeEnum() {
         return AnatomySpecificResource.class;
     }

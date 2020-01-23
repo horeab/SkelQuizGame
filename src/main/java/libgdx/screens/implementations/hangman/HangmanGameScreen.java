@@ -5,13 +5,17 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
+import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.button.builders.BackButtonBuilder;
+import libgdx.dbapi.GameStatsDbApiService;
+import libgdx.game.Game;
 import libgdx.implementations.hangman.HangmanGame;
 import libgdx.implementations.skelgame.LevelFinishedPopup;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screens.GameScreen;
+import libgdx.utils.DateUtils;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 
@@ -28,16 +32,19 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
     public HangmanGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         super(gameContext);
         this.campaignLevel = campaignLevel;
-        this.hangmanQuestionContainerCreatorService = new HangmanQuestionContainerCreatorService(gameContext, this);
     }
 
     @Override
     public void buildStage() {
+        if (Game.getInstance().getCurrentUser() != null) {
+            new GameStatsDbApiService().incrementGameStatsQuestionsWon(Game.getInstance().getCurrentUser().getId(), Long.valueOf(DateUtils.getNowMillis()).toString());
+        }
         System.out.println(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getQuestion().getQuestionString());
         allTable = new Table();
         allTable.setFillParent(true);
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
-        allTable.add(new HangmanHeaderCreator().createHeaderTable(gameContext, hangmanQuestionContainerCreatorService.getHintButtons(), hangmanQuestionContainerCreatorService.createHintButtonsTable())).padTop(verticalGeneralMarginDimen).row();
+        Table headerTable = new Table();
+        allTable.add(headerTable).padTop(verticalGeneralMarginDimen).row();
         Table wordTable = new Table();
         wordTable.setName(HangmanRefreshQuestionDisplayService.ACTOR_NAME_HANGMAN_WORD_TABLE);
         Table image = new Table();
@@ -48,9 +55,13 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
                 .height(getHangmanImgHeight())
                 .width(getHangmanImgWidth())
                 .row();
-        allTable.add(new HangmanQuestionContainerCreatorService(gameContext, this).createSquareAnswerOptionsTable(new ArrayList<>(hangmanQuestionContainerCreatorService.getAllAnswerButtons().values())))
+        Table squareAnswerOptionsTable = new Table();
+        allTable.add(squareAnswerOptionsTable)
                 .growY();
         addActor(allTable);
+        this.hangmanQuestionContainerCreatorService = new HangmanQuestionContainerCreatorService(gameContext, this);
+        headerTable.add(new HangmanHeaderCreator().createHeaderTable(gameContext, hangmanQuestionContainerCreatorService.getHintButtons(), hangmanQuestionContainerCreatorService.createHintButtonsTable()));
+        squareAnswerOptionsTable.add(new HangmanQuestionContainerCreatorService(gameContext, this).createSquareAnswerOptionsTable(new ArrayList<>(hangmanQuestionContainerCreatorService.getAllAnswerButtons().values())));
         hangmanQuestionContainerCreatorService.processGameInfo(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
         new BackButtonBuilder().addHoverBackButton(this);
     }
@@ -72,10 +83,19 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
                 @Override
                 public void run() {
                     allTable.remove();
-                    screen.hangmanQuestionContainerCreatorService = new HangmanQuestionContainerCreatorService(gameContext, screen);
                     buildStage();
                 }
             })));
+        }
+    }
+
+    @Override
+    public void showPopupAd(Runnable runnable) {
+        int questionsPlayed = new CampaignStoreService().getNrOfQuestionsPlayed();
+        if (questionsPlayed > 0 && questionsPlayed % 7 == 0) {
+            Game.getInstance().getAppInfoService().showPopupAd(runnable);
+        } else {
+            runnable.run();
         }
     }
 
