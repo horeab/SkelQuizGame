@@ -1,0 +1,10 @@
+12::Nicaragua:4,16,13:12
+13::Antigua et Barbuda:11,5,9:13
+14::Trinité-et-Tobago:19,12,20:14
+15::République dominicaine:17,13,11:15
+16::La Barbade:20,15,18:16
+17::El Salvador:10,18,11:17
+18::Grenade:13,19,15:18
+19::Dominique:25,14,22:19
+20::Sainte-Lucie:24,26,22:20
+21::Anguilla (Royaume Uni):20,13,26:21

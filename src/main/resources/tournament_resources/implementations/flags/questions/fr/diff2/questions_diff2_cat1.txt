@@ -1,0 +1,11 @@
+22::Iles Caïman (Royaume Uni):17,16,28:22
+23::Groenland (Danemark):16,31,29:23
+24::Aruba (Pays-Bas):25,26,30:24
+25::Guadeloupe (France):18,32,30:25
+26::Martinique (France):23,32,18:26
+27::Montserrat (Royaume Uni):30,22,26:27
+28::Porto Rico (États-Unis):23,27,22:28
+29::Saint-Kitts-et-Nevis:32,24,27:29
+30::Saint Martin (France):32,29,22:30
+31::Saint-Vincent-et-les Grenadines:30,27,28:31
+32::Sint Maarten (Pays-Bas):31,29,25:32

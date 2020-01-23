@@ -1,0 +1,15 @@
+15::İrlanda:23,8,19:15
+16::Sırbistan:8,9,12:16
+17::Romanya:16,9,19:17
+18::Bulgaristan:19,25,16:18
+19::İsveç:23,12,16:19
+20::Çek Cumhuriyeti:27,21,13:20
+21::Danimarka:22,17,19:21
+22::Norveç:19,14,16:22
+23::Macaristan:18,20,16:23
+24::Finlandiya:28,16,26:24
+25::Arnavutluk:28,20,29:25
+26::İzlanda:29,28,22:26
+27::Bosna Hersek:32,33,31:27
+28::Slovakya:23,32,34:28
+29::Slovenya:21,36,27:29

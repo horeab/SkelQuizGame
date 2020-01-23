@@ -1,0 +1,15 @@
+0::Egyesült Királyság:8,2,6:0
+1::Oroszország:4,7,5:1
+2::Portugália:4,9,6:2
+3::Lengyelország:5,6,0:3
+4::Németország:10,8,7:4
+5::Franciaország:11,3,1:5
+6::Spanyolország:5,11,7:6
+7::Olaszország:10,15,3:7
+8::Ausztria:2,15,4:8
+9::Belgium:7,17,3:9
+10::Horvátország:16,4,2:10
+11::Hollandia:3,8,14:11
+12::Svájc:16,7,20:12
+13::Görögország:5,17,8:13
+14::Ukrajna:12,10,18:14

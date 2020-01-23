@@ -1,0 +1,15 @@
+0::Reino Unido:8,2,6:0
+1::Rusia:4,7,5:1
+2::Portugal:4,9,6:2
+3::Polonia:5,6,0:3
+4::Alemania:10,8,7:4
+5::Francia:11,3,1:5
+6::España:5,11,7:6
+7::Italia:10,15,3:7
+8::Austria:2,15,4:8
+9::Bélgica:7,17,3:9
+10::Croacia:16,4,2:10
+11::Países Bajos:3,8,14:11
+12::Suiza:16,7,20:12
+13::Grecia:5,17,8:13
+14::Ucrania:12,10,18:14
