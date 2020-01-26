@@ -4,6 +4,8 @@ import libgdx.campaign.CampaignGameDependencyManager;
 import libgdx.game.GameId;
 import libgdx.game.SubGameDependencyManager;
 import libgdx.implementations.anatomy.AnatomyDependencyManager;
+import libgdx.implementations.conthistory.ConthistoryDependencyManager;
+import libgdx.implementations.flags.FlagsDependencyManager;
 import libgdx.implementations.geoquiz.QuizGameDependencyManager;
 import libgdx.implementations.hangman.HangmanDependencyManager;
 import libgdx.implementations.judetelerom.JudeteleRomDependencyManager;

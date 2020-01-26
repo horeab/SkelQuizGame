@@ -7,6 +7,8 @@ import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 
 import java.util.List;
 
+import javax.swing.event.ChangeEvent;
+
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.CampaignLevelStatusEnum;
