@@ -82,7 +82,6 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<JudeteleRomScreenM
         table.add(startGameBtn).pad(MainDimen.vertical_general_margin.getDimen()).width(ScreenDimensionsManager.getScreenWidthValue(50)).height(ScreenDimensionsManager.getScreenHeightValue(10)).row();
         table.add(scrollPane).expand();
         addActor(table);
-        new BackButtonBuilder().addHoverBackButton(this);
     }
 
     private MyButton createStartGameBtn() {

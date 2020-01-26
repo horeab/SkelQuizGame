@@ -1,0 +1,10 @@
+0:În ce ţară a luat naştere Revoluţia Industrială?:Spania##Marea Britanie##Franţa##Olanda:1:
+1:Care a fost distanţa dintre Atena şi oraşul Marathon din Grecia antică?:34 Km.##41 Km.##55 Km.##36 Km.:1:
+2:Cine era cunoscut sub numele de "Regele Soarelui"?:Fredrick William I al Prusiei##Louis XVI al Franţei##Louis XIV al Franţei##Henry VIII al Angliei:2:
+3:Cine au fost hughenoţii francezi?:Catolici##Protestanţi##Evrei##Musulmani:1:
+4:Care au fost cele două clase sociale principale din Roma antică?:Plebeii şi Patricieni##Patricienii şi Pablonienii##Patricienii şi Ecuaţii##Plebeieni şi Equiţi:0:
+5:Cine a fost primul monarh european care a fost executat de un parlamentar ales (adică Parlamentul, Congresul, Adunarea Naţională, Adunarea Generală etc.)?:Charles II al Angliei##Louis XVI al Franţei##Mary I a Angliei##Charles I al Angliei:3:
+6:Ce grup de "barbari" a demolat oraşul Roma în 410 CE?:Celţii##Hunii##Galii##Vizigoţii:3:
+7:Care dintre următoarele afirmaţii despre Renaşterea italiană NU este adevărată:Nu este clar când a început##civilizaţia greco-romană a avut o influenţă majoră##Toată lumea a fost direct afectată de ea##Renaissance înseamnă "renaştere":2:
+8:Cum a crezut Martin Luther că se câştigă mântuirea veşnică?:Doar prin fapte bune##Prin credinţă, prin fapte bune şi prin cumpărarea de indulgenţe##Prin credinţă şi fapte bune##Doar prin credinţă:3:
+9:Care a fost viziunea "aristoteliană" a universului?:Convingerea că Soarele era centrul universului##Crezând că universul a fost creat în şase zile##Crezul că totul în univers a fost făcut din patru elemente##Credinţa că pământul era centrul universului:3:

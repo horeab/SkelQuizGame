@@ -1,0 +1,10 @@
+0:In welchem ​​Land hat die industrielle Revolution ihren Ursprung gehabt:Spanien##Großbritannien##Frankreich##Niederlande:1:
+1:Ungefähr wie viele Kilometer war Athen von der Stadt Marathon im antiken Griechenland entfernt?:17##26##32##23:1:
+2:Wer war als "Sonnenkönig" bekannt?:Fredrick William I. von Preußen##Louis XVI. Von Frankreich##Louis XIV. Von Frankreich##Heinrich VIII. Von England:2:
+3:Wer waren die französischen Hugenotten?:Katholiken##Protestanten##Juden##Muslime:1:
+4:Was waren die zwei wichtigsten sozialen Klassen im alten Rom?:Plebejer und Patrizier##Patricians und Pablonians##Patricians und Equites##Plebejer und Equites:0:
+5:Wer war der erste europäische Monarch, der von einer gewählten Legislative hingerichtet wurde (dh Parlament, Kongress, Nationalversammlung, Generalversammlung usw.) ?:Charles II. Von England##Louis XVI von Frankreich##Mary I. von England##Karl I. von England:3:
+6:Welche "Barbarengruppe" hat die Stadt Rom im Jahre 410 v. Chr. geplündert ?:Kelten##Huns##Gauls##Visigoths:3:
+7:Welche der folgenden Aussagen über die italienische Renaissance ist NICHT wahr ?:Es ist nicht klar, wann sie begann##Die griechisch-römische Zivilisation hatte einen großen Einfluss##Alle waren direkt davon betroffen##Renaissance bedeutet "Wiedergeburt":2:
+8:Wie hat Martin Luther geglaubt, dass man ewige Erlösung verdient hat ?:Nur durch gute Werke##Durch Glauben, gute Werke und den Kauf von Ablässen##Durch Glauben und gute Werke##Nur durch Glauben:3:
+9:Was war die "aristotelische" Sicht des Universums ?:Glaube, dass die Sonne das Zentrum des Universums war##Glaube, dass das Universum in sechs Tagen erschaffen wurde##Glaube, dass alles im Universum aus vier Elementen bestand##Glaube, dass die Erde das Zentrum des Universums war:3:

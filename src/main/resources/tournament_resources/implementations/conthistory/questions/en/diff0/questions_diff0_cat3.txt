@@ -1,0 +1,10 @@
+0:Castles were very popular during the Middle Ages. What kind of terrain were castles usually built upon? :On an open plain##On top of a hill##Within a swamp##In a forest or wooded area:1:
+1:Knights in movies and books are often portrayed wearing plate armor. What kind of armor did ordinary soldiers wear? :Chain mail##They wore plate armor too##An early form of metal mesh##They had no body protection at all:0:
+2:The weapon of choice during the Medieval Ages was the sword. Which of these is NOT a kind of sword? :Pointsword##Longsword##Broadsword##Greatsword:0:
+3:During the Middle Ages, kings and queens gave portions of land to nobles in exchange for future military service and loyalty. What were these portions of land called? :Fiefdoms##Fragments##Noble-doms##Fieflands:0:
+4:What was the dominant religion in Western Europe during the medieval period? :Protestantism##Catholicism##Judaism##Islam:1:
+5:The Middle Ages is home to many important historical figures. Who is NOT from the medieval times? :Joan of Arc##Roger Bacon##Vlad Dracula##Homer the Poet:3:
+6:Another common medieval weapon was the bow and arrow. There were two main types of bows, the longbow and crossbow. What was the crossbow primarily used for? :Shooting across long distances##Training for the use of the crossbow##Carrying messeges##Punching through armor:3:
+7:What was the generally accepted timespan of the Middle Ages in English history? :410-1789##1000-1400##1066-1485##1087-1324:2:
+8:Medieval knights were elite fighters. What was the normal birth status of a knight? :Peasants##Burghers##Son of a monarch##Son of landowner or noble:3:
+9:What is another name for the Middle Ages? :The Medieval Period##The First Times##The Stone Age##The Central Ages:0:

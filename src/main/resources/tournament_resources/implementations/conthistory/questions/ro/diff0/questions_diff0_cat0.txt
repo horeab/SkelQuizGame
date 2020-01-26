@@ -1,0 +1,10 @@
+0:În 1852 a început un război care a durat până în 1856, în care Rusia va pierde împotriva unei alianţe formate din Franţa, Marea Britanie, Sardinia şi Imperiul Otoman. Care este numele acestui război?:Primul Război al Burilor##Războiul Crimeii##Războiul coreean##Al Doilea Război al Burilor:1:
+1:În 1859, una dintre cele mai notabile piese de literatură ştiinţifică a fost produs de către Charles Darwin. Care este numele acestei cărţi care a fost controversată la momentul eliberării?:Evoluţia omului##Teoria Big Bang##Marile lanţuri de fiinţe##Originea speciilor:3:
+2:În 1886, primul automobil a fost creat de către Karl Benz, Benz Patent-Motorwagen. Mai târziu, el îşi împrumută numele cărei companii de automobile?:BMW##Volkswagen##Audi##Mercedes:3:
+3:Ca urmare a evenimentelor din primul război mondial, a fost înfiinţată o organizaţie interguvernamentală numită Liga Naţiunilor. În ce oraş elveţian a fost capitala acestei organizaţii?:Lucerna##Zurich##Geneva##Basel:2:
+4:În 1922, acest politician împreună cu fasciştii au preluat puterea în Italia:Benito Mussolini##Luigi Facta##Pietro Badoglio##Victor Emmanuel III:0:
+5:În 1939, va începe cel de-al doilea război mondial. Un eveniment major în timpul războiului a fost "războiul de iarnă" care a avut loc între Uniunea Sovietică şi ce altă ţară europeană?:Finlanda##Danemarca##Suedia##Islanda:0:
+6:Liderul final al Uniunii Sovietice a venit la putere în 1985. Care era numele lui?:Konstantin Chernenko##Vladimir Lenin##Nikita Hruşciov##Mihail Gorbaciov:3:
+7:Dezastrul de la Cernobîl a avut loc în 1986 şi a fost o explozie a centralei nucleare. În ce ţară europeană modernă a avut loc acest lucru?:Rusia##Macedonia##Belarus##Ucraina:3:
+8:Zidul Berlinului a fost sfâşiat în 1989. Acesta a fost iniţial construit pentru a împărţi Berlinul de Vest şi Berlinul de Est. În ce an a fost construit?:1961##1924##1896##1988:0:
+9:La 31 august 1997, Diana, prinţesa de Wales a murit într-un accident de maşină în ce oraş european?:Berlin, Germania##Paris, Franţa##Cardiff, Wales##Madrid, Spania:1:

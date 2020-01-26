@@ -1,0 +1,10 @@
+0:1852 saw the beginning of a war that lasted until 1856, in which Russia would lose to an alliance of France, Britain, Sardinia and The Ottoman Empire. What is the name of this war?:The First Boer War##Crimean War##Korean War##The Second Boer War:1:
+1:In 1859, one of the most notable pieces of scientific literature was produced by Charles Darwin. What is the name of this book which was controversial at its time of release?:The Evolution of Man##The Big Bang Theory##The Great Chain of Being##On the Origin of Species:3:
+2:In 1886, the first automobile/motorcar was created by Karl Benz, the Benz Patent-Motorwagen. He would later go on to lend his name to which car company?:BMW##Volkswagen##Audi##Mercedes:3:
+3:As a result of the events of World War 1, an intergovernmental organisation was founded named the League of Nations. In which Swiss city was the capital of this organisation located?:Lucerne##Zurich##Geneva##Basel:2:
+4:In 1922, which politician along with the Fascists took power in Italy?:Benito Mussolini##Luigi Facta##Pietro Badoglio##Victor Emmanuel III:0:
+5:In 1939, World War II would commence. A major event during the war was the 'Winter War' fought between the Soviet Union and which other European country?:Finland##Denmark##Sweden##Iceland:0:
+6:The final leader of the Soviet Union came to power in 1985. What was his name?:Konstantin Chernenko##Vladimir Lenin##Nikita Khrushchev##Mikhail Gorbachev:3:
+7:The Chernobyl disaster took place in 1986 and was a nuclear power plant explosion. In which modern European country did it take place?:Russia##Macedonia##Belarus##Ukraine:3:
+8:The Berlin Wall was torn down in 1989. It was originally constructed to split West Berlin and East Berlin. In what year was it built?:1961##1924##1896##1988:0:
+9:On the 31st of August 1997, Diana, Princess of Wales died in a car crash in what European city?:Berlin, Germany##Paris, France##Cardiff, Wales##Madrid, Spain:1:

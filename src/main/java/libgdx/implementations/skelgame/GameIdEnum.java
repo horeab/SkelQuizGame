@@ -4,6 +4,7 @@ import libgdx.campaign.CampaignGameDependencyManager;
 import libgdx.game.GameId;
 import libgdx.game.SubGameDependencyManager;
 import libgdx.implementations.anatomy.AnatomyDependencyManager;
+import libgdx.implementations.conthistory.ConthistoryDependencyManager;
 import libgdx.implementations.geoquiz.QuizGameDependencyManager;
 import libgdx.implementations.hangman.HangmanDependencyManager;
 import libgdx.implementations.judetelerom.JudeteleRomDependencyManager;
@@ -19,6 +20,7 @@ public enum GameIdEnum implements GameId {
     paintings(PaintingsDependencyManager.class),
     kennstde(KennstDeDependencyManager.class),
     quizgame(QuizGameDependencyManager.class),
+    conthistory(ConthistoryDependencyManager.class),
     hangman(HangmanDependencyManager.class),;
 
     private Class<? extends SubGameDependencyManager> dependencyManagerClass;

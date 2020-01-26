@@ -1,0 +1,10 @@
+0:Castelele au fost foarte populare în timpul Evului Mediu. Pe ce tip de teren au fost construite castele?:Pe o câmpie deschisă##Pe vârful unui deal##Într-o mlaştină##Într-o pădure sau o zonă împădurită:1:
+1:Cavalerii din filme şi cărţi sunt adesea portretizaţi în îmbrăcăminte. Ce armură au purtat soldaţii obişnuiţi?:Cămaşă cu zale##Armură de placă##O formă veche de plasă de metal##Nu aveau protecţie:0:
+2:Arma populară în timpul Evului Mediu era sabia. Care din următoarele NU este un tip de sabie?:Sabia triunghiulară##Spadă lungă##Sabia lată##Lobera:0:
+3:În Evul Mediu, regii şi reginele au dat porţiuni de pământ nobililor în schimbul serviciului militar şi loialităţii viitoare. Cum au fost numite aceste porţiuni de pământ?:Feudă##Fragment##Domeniu nobil##Pătrat:0:
+4:Care a fost religia dominantă în Europa de Vest în perioada medievală?:Protestantismul##Catolicismul##Iudaismul##Islamul:1:
+5:Evul Mediu cuprinde multe figuri istorice importante. Cine NU este din vremurile medievale?:Ioana d'Arc##Roger Bacon##Vlad Dracul##Homer:3:
+6:O altă arma obişnuită medievală era arcul şi săgeata. Au existat două tipuri principale de arcuri, arcul lung şi arbaleta. Pentru ce a fost folosită în primul rând arbaleta?:Tragerea pe distanţe lungi##Instruirea pentru utilizarea arcului##Trimiterea de mesaje##Perforarea armurii:3:
+7:Care a fost perioada de timp, general acceptată, a Evului Mediu în istoria engleză?:1410-1789##1000-1400##1066-1485##1087-1324:2:
+8:Cavalerii medievali erau luptători de elită. Care era statutul obişnuit la naştere a unui cavaler?:Ţăran##Orăşean##Fiul unui monarh##Fiul unui proprietar de pământ sau nobil:3:
+9:Care este alt nume pentru Evul Mediu?:Perioada medievală##Primele timpuri##Epoca de piatră##Evul central:0:

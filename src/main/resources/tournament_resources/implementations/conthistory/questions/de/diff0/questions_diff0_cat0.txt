@@ -1,0 +1,10 @@
+0:In 1852 begann der Krieg, der bis 1856 andauerte, in dem Russland an ein Bündnis von Frankreich, Großbritannien, Sardinien und dem Osmanischen Reich verlieren würde:Der erste Burenkrieg##Der Krimkrieg##Koreakrieg##Der zweite Burenkrieg:1:
+1:In 1859 wurde von Charles Darwin eines der bemerkenswertesten Stücke wissenschaftlicher Literatur hergestellt. Wie heißt dieses Buch, das zur Zeit seiner Veröffentlichung umstritten war?:Die Evolution des Menschen##The Big Bang Theory##Die große Kette des Seins##Über die Entstehung der Arten:3:
+2:In 1886 wurde das erste Auto von Karl Benz geschaffen, der Benz Patent-Motorwagen. Später würde er dieser Autofirma seinen Namen geben:BMW##Volkswagen##Audi##Mercedes:3:
+3:Infolge der Ereignisse des 1. Weltkrieges wurde als Völkerbund eine zwischenstaatliche Organisation gegründet. In welcher Schweizer Stadt war die Hauptstadt dieser Organisation:Luzern##Zürich##Genf##Basel:2:
+4:Welcher Politiker hat in 1922 zusammen mit den Faschisten in Italien die Macht übernommen ?:Benito Mussolini##Luigi Facta##Pietro Badoglio##Victor Emmanuel III:0:
+5:In 1939 wird der zweite Weltkrieg beginnen. Ein bedeutendes Ereignis während des Krieges war der "Winterkrieg", der zwischen der Sowjetunion und dem anderen europäischen Land ausgetragen wurde:Finnland##Dänemark##Schweden##Island:0:
+6:Der letzte Führer der Sowjetunion kam in 1985 an die Macht. Wie hieß er?:Konstantin Chernenko##Vladimir Lenin##Nikita Chruschtschow##Mikhail Gorbatschow:3:
+7:Die Tschernobyl-Katastrophe ereignete sich 1986 als Explosion eines Atomkraftwerks. In welchem modernen europäischen Land hat es stattgefunden?:Russland##Mazedonien##Weißrussland##Ukraine:3:
+8:Die Berliner Mauer wurde 1989 abgerissen. Es wurde ursprünglich gebaut, um Westberlin und Ostberlin zu spalten. In welchem Jahr wurde es gebaut?:1961##1924##1896##1988:0:
+9:Am 31. August 1997 starb Diana, Prinzessin von Wales, bei einem Autounfall in welcher europäischen Stadt?:Berlin, Deutschland##Paris, Frankreich##Cardiff, Wales##Madrid, Spanien:1:

@@ -1,0 +1,10 @@
+0:Which country did the Industrial Revolution originate in?:Spain##Britain##France##The Netherlands:1:
+1:Approximately how many miles was Athens from the city of Marathon in ancient Greece?:17##26##32##23:1:
+2:Who was known as the "Sun King"?:Fredrick William I of Prussia##Louis XVI of France##Louis XIV of France##Henry VIII of England:2:
+3:Who were the French Huguenots?:Catholics##Protestants##Jews##Muslims:1:
+4:What were the two main social classes in ancient Rome?:Plebeians and Patricians##Patricians and Pablonians##Patricians and Equites##Plebeians and Equites:0:
+5:Who was the first European monarch to be executed by an elected legislature (i.e. Parliament, Congress, National Assembly, General Assembly, etc.)?:Charles II of England##Louis XVI of France##Mary I of England##Charles I of England:3:
+6:Which "barbarian" group sacked the city of Rome in 410 C.E.?:Celts##Huns##Gauls##Visigoths:3:
+7:Which of the following statements about the Italian Renaissance is NOT true?:It is not clear when it began##Greco-Roman civilization had a major influence##Everyone was directly affected by it##Renaissance means "rebirth":2:
+8:How did Martin Luther believe one earned eternal salvation?:Through good works alone##Through faith, good works, and the purchase of indulgences##Through faith and good works##Through faith alone:3:
+9:What was the "Aristotelian" view of the universe?:Belief that the Sun was the center of the universe##Belief that the universe was created in six days##Belief that everything in the universe was made of four elements##Belief that the Earth was the center of the universe:3:

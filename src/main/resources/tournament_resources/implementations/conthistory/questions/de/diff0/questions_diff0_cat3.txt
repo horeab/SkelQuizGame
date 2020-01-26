@@ -1,0 +1,10 @@
+0:Burgen waren im Mittelalter sehr beliebt. Auf welchem Gelände wurden normalerweise Burgen gebaut?:In einer offenen Ebene##Auf einem Hügel##In einem Sumpf##In einem Wald oder Waldgebiet:1:
+1:Ritter in Filmen und Büchern werden oft in Plattenrüstung dargestellt. Welche Art von Rüstung trugen gewöhnliche Soldaten?:Kettenhemd##Sie trugen auch Plattenrüstung##Eine frühe Form aus Metallgeflecht##Sie hatten überhaupt keinen Körperschutz:0:
+2:Die Waffe der Wahl im Mittelalter war das Schwert. Welches ist KEIN Schwert?:Punkteschritt##Langschwert##Breitschwert##Großschwert:0:
+3:Während des Mittelalters gaben Könige und Königinnen Adeligen Teile des Landes zu, um sie für künftigen Militärdienst und Loyalität einzutauschen. Wie hießen diese Landteile?:Lehen##Fragmente##Edle-Doms##Fieflands:0:
+4:Was war die vorherrschende Religion in Westeuropa im Mittelalter?:Protestantismus##Katholizismus##Judentum##Islam:1:
+5:Im Mittelalter gibt es viele wichtige historische Persönlichkeiten. Wer ist NICHT aus dem Mittelalter?:Jeanne d'Arc##Roger Bacon##Vlad Dracula##Der Dichter Homer:3:
+6:Eine andere übliche mittelalterliche Waffe war Pfeil und Bogen. Es gab zwei Haupttypen von Bögen, den Langbogen und die Armbrust. Wofür wurde die Armbrust hauptsächlich verwendet?:Schießen über weite Entfernungen##Training für die Verwendung der Armbrust##Tragen von Messinstrumenten##Durchstechen der Rüstung:3:
+7:Wie war die allgemein anerkannte Zeitspanne des Mittelalters in der englischen Geschichte?:1410-1789##1000-1400##1066-1485##1087-1324:2:
+8:Mittelalterliche Ritter waren Elitekämpfer. Wie war der normale Geburtsstatus eines Ritters?:Bauern##Bürger##Sohn eines Monarchen##Sohn eines Großgrundbesitzers oder Adligen:3:
+9:Wie heißt das Mittelalter?:Middle Ages##Das erste Mal##Die Steinzeit##Das zentrale Zeitalter:0:

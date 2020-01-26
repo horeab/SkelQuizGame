@@ -1,0 +1,10 @@
+0:What country did Hitler take over first in his effort to gain more living space?:Denmark##Austria##France##Hungary:1:
+1:What two countries declared war on Germany when the German army invaded Poland?:The United States and France##Great Britain and Denmark##France and Great Britain##Greece and Spain:2:
+2:What country made a deal with Germany to divide up Poland?:The Soviet Union##Italy##Japan##Hungary:0:
+3:Why did the United States enter World War II to help Great Britain and the Soviet Union?:Because they were eager to join in the war##Because they were good friends with the communist Soviet Union##Because Japan, an ally of Germany, attacked the US at Pearl Harbor##None of the specified:2:
+4:Who were the Germans fighting on the Eastern Front?:France##Great Britain##The Soviet Union##Finland:2:
+5:What was the name of the battle where the Allies attacked the western front on the coast of France on June 6, 1944?:Invasion of Normandy##Battle of the Bulge##Battle of Britain##Liberation of Paris:0:
+6:Why did the Soviet Union change sides and end up fighting for the Allies?:Because they wanted to help France##Because Germany invaded the Soviet Union##Because they liked the United States##None of the specified:1:
+7:What happened to Germany after World War II?:It was left alone to be rebuild##It was wiped off the map and the land given to other countries##It was split between the western Allies and the Soviet Union##It was forced to sign the Treaty of Versailles:2:
+8:What was the last great battle on the western front in Europe?:Battle of Britain##Invasion of Normandy##Battle of Stalingrad##Battle of the Bulge:3:
+9:What United States general was Supreme Commander over the Allied forces in Europe?:George Marshall##Dwight D. Eisenhower##Douglas MacArthur##George S. Patton:1:

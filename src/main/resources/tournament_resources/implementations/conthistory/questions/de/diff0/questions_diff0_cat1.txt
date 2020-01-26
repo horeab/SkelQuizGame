@@ -1,0 +1,10 @@
+0:Welches Land hat Hitler zuerst übernommen, um mehr Wohnraum zu gewinnen?:Dänemark##Österreich##Frankreich##Ungarn:1:
+1:Welche zwei Länder haben Deutschland den Krieg erklärt, als die deutsche Armee in Polen einmarschierte?:Die Vereinigten Staaten und Frankreich##Großbritannien und Dänemark##Frankreich und Großbritannien##Griechenland und Spanien:2:
+2:Welches Land hat mit Deutschland eine Vereinbarung getroffen, um Polen aufzuteilen?:Die Sowjetunion##Italien##Japan##Ungarn:0:
+3:Warum sind die Vereinigten Staaten in den Zweiten Weltkrieg eingedrungen, um Großbritannien und der Sowjetunion zu helfen?:Weil sie mit der kommunistischen Sowjetunion gut befreundet waren##Weil Japan, ein Verbündeter von Deutschland hat die USA in Pearl Harbor angegriffen##Keine der angegebenen:2:
+4:Wer kämpften die Deutschen an der Ostfront?:Frankreich##Großbritannien##Die Sowjetunion##Finnland:2:
+5:Wie hieß die Schlacht, als die Alliierten am 6. Juni 1944 die Westfront der französischen Küste angriffen?:Invasion der Normandie##Ardennenoffensive##Schlacht um Großbritannien##Befreiung von Paris:0:
+6:Warum hat die Sowjetunion die Seiten gewechselt und für die Alliierten gekämpft ?:Weil sie Frankreich helfen wollten##Weil Deutschland in die Sowjetunion eingedrungen war##Weil sie die Vereinigten Staaten mochten##Keine der angegebenen:1:
+7:Was ist mit Deutschland nach dem Zweiten Weltkrieg passiert ?:Es wurde in Ruhe gelassen, um wiederaufgebaut zu werden##Es wurde von der Landkarte weggewischt.##Es wurde zwischen den westlichen Alliierten und der Sowjetunion aufgeteilt##Musste den Vertrag von Versailles unterzeichnen:2:
+8:Was war die letzte große Schlacht an der Westfront in Europa?:Schlacht von Großbritannien##Invasion der Normandie##Schlacht von Stalingrad##Ardennenoffensive:3:
+9:Welcher US-General war der Oberbefehlshaber der Alliierten in Europa?:George Marshall##Dwight D. Eisenhower##Douglas MacArthur##George S. Patton:1:

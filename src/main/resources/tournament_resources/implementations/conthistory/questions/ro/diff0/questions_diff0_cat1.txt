@@ -1,0 +1,10 @@
+0:Ce ţară a cucerit Hitler prima dată în efortul său de a câştiga mai mult spaţiu de locuit?:Danemarca##Austria##Franţa##Ungaria:1:
+1:Care două ţări au declarat război Germaniei când armata germană a invadat Polonia?:Statele Unite şi Franţa##Marea Britanie şi Danemarca##Franţa şi Marea Britanie##Grecia şi Spania:2:
+2:Ce ţară a făcut o înţelegere cu Germania pentru a împărţi Polonia?:Uniunea Sovietică##Italia##Japonia##Ungaria:0:
+3:De ce au intrat Statele Unite în cel de-al doilea război mondial pentru a ajuta Marea Britanie şi Uniunea Sovietică?:Pentru că erau dornici să se alăture războiului##Pentru că erau prieteni buni cu Uniunea Sovietică comunistă##pentru că Japonia, un aliat al Germania, a atacat SUA la Pearl Harbor##Nici unul dintre aceste motive:2:
+4:Împotriva cui luptau germanii pe frontul de est?:Franţa##Marea Britanie##Uniunea Sovietica##Finlanda:2:
+5:Care a fost numele bătăliei în care aliaţii au atacat frontul de vest pe coasta Franţei în 6 iunie 1944?:Invazia din Normandia##Ofensiva din Ardeni##Bătălia de la Marea Britanie##Eliberarea Parisului:0:
+6:De ce a schimbat Uniunea Sovietică taberele şi a ales sa lupte împreună cu Aliaţii?:Pentru că a vrut sa ajute Franta##Pentru ca Germania a invadat Uniunea Sovietică##Pentru că au fost prieteni cu SUA##Nici unul dintre aceste motive:1:
+7:Ce s-a întâmplat cu Germania după cel de-al doilea război mondial?:A fost lăsată singură pentru a fi reconstruită##A fost ştearsă de pe hartă şi terenul dat altor ţări##A fost împărţită între aliaţii occidentali şi Uniunea Sovietică##A fost obligată să semneze Tratatul de la Versailles:2:
+8:Care a fost ultima mare luptă pe frontul de vest din Europa?:Bătălia de la Marea Britanie##Invazia din Normandia##Bătălia de la Stalingrad##Ofensiva din Ardeni:3:
+9:Acest general al Statelor Unite a fost comandantul suprem al forţelor aliate în Europa:George Marshall##Dwight D. Eisenhower##Douglas MacArthur##George S. Patton:1:
