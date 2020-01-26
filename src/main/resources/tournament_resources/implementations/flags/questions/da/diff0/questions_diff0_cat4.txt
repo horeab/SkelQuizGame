@@ -1,0 +1,20 @@
+0::Algeriet:3,8,7:0
+1::Elfenbenskysten:6,7,2:1
+2::Egypten:6,10,1:2
+3::Kenya:0,2,11:3
+4::Sydafrika:7,10,2:4
+5::Angola:9,13,2:5
+6::Tunesien:1,12,7:6
+7::Marokko:12,10,1:7
+8::Uganda:15,12,5:8
+9::Ghana:12,16,6:9
+10::Cameroun:4,9,2:10
+11::Nigeria:16,10,18:11
+12::Republikken Congo:20,8,14:12
+13::Senegal:17,10,14:13
+14::Libyen:20,11,21:14
+15::Somalia:9,14,20:15
+16::Liberia:8,18,17:16
+17::Etiopien:18,19,21:17
+18::Burkina Faso:22,12,26:18
+19::Gabon:20,18,26:19

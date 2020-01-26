@@ -1,0 +1,5 @@
+11::Suriname:13,8,10:11
+12::Guyane française (France):14,13,6:12
+13::Iles Falkland (Royaume Uni):6,7,12:13
+14::Iles Géorgie du Sud et Sandwich du Sud (Royaume Uni):6,7,12:14
+15::Île Bouvet (Norvège):13,14,9:15

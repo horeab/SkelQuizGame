@@ -1,0 +1,11 @@
+22::Insulele Cayman (Regatul Unit):17,16,28:22
+23::Groenlanda (Danemarca):16,31,29:23
+24::Aruba (Ţările de Jos):25,26,30:24
+25::Guadelupa (Franţa):18,32,30:25
+26::Martinica (Franţa):23,32,18:26
+27::Montserrat (Marea Britanie):30,22,26:27
+28::Puerto Rico (Statele Unite):23,27,22:28
+29::Sfântul Kitts şi Nevis:32,24,27:29
+30::Saint Martin (Franţa):32,29,22:30
+31::Sfântul Vincent şi Grenadine:30,27,28:31
+32::Sint Maarten (Ţările de Jos):31,29,25:32

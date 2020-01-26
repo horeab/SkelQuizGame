@@ -1,0 +1,20 @@
+0::Argélia:3,8,7:0
+1::Costa do Marfim:6,7,2:1
+2::Egito:6,10,1:2
+3::Quênia:0,2,11:3
+4::África do Sul:7,10,2:4
+5::Angola:9,13,2:5
+6::Tunísia:1,12,7:6
+7::Marrocos:12,10,1:7
+8::Uganda:15,12,5:8
+9::Gana:12,16,6:9
+10::Camarões:4,9,2:10
+11::Nigéria:16,10,18:11
+12::República do Congo:20,8,14:12
+13::Senegal:17,10,14:13
+14::Líbia:20,11,21:14
+15::Somália:9,14,20:15
+16::Libéria:8,18,17:16
+17::Etiópia:18,19,21:17
+18::Burquina Faso:22,12,26:18
+19::Gabão:20,18,26:19

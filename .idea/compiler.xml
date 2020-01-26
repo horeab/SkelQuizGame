@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Lett.main" target="1.8" />
+      <module name="Lett.test" target="1.8" />
+      <module name="SkelQuizGame.SkelQuizGame.main" target="1.8" />
+      <module name="SkelQuizGame.SkelQuizGame.test" target="1.8" />
+      <module name="test.controls.main" target="1.8" />
+      <module name="test.controls.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

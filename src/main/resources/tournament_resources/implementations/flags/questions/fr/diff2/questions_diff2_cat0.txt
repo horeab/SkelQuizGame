@@ -1,0 +1,12 @@
+30::Lettonie:35,23,38:30
+31::Biélorussie:36,26,23:31
+32::Liechtenstein:35,31,40:32
+33::Estonie:27,37,31:33
+34::Andorre:27,39,31:34
+35::Lituanie:27,34,37:35
+36::Luxembourg:33,34,30:36
+37::Malte:36,34,31:37
+38::Moldavie:34,33,30:38
+39::Monténégro:32,31,33:39
+40::Monaco:38,34,36:40
+41::Saint-Marin:39,38,36:41

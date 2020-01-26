@@ -1,0 +1,19 @@
+20::Togo:18,25,15:20
+21::Zentralafrikanische Republik:14,16,27:21
+22::Mali:18,24,16:22
+23::Niger:26,30,25:23
+24::Guinea:20,29,26:24
+25::Ruanda:24,26,19:25
+26::Tschad:22,33,28:26
+27::Benin:35,26,34:27
+28::Demokratische Republik Kongo:30,25,27:28
+29::Sudan:28,34,22:29
+30::Dschibuti:38,28,33:30
+31::Sambia:34,38,30:31
+32::Äquatorialguinea:24,27,33:32
+33::Eritrea:34,25,30:33
+34::Namibia:28,35,30:34
+35::Simbabwe:36,43,28:35
+36::Burundi:28,37,38:36
+37::Kapverden:30,34,40:37
+38::Gambia:44,41,36:38

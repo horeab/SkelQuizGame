@@ -1,0 +1,5 @@
+11::Suriname:13,8,10:11
+12::French Guiana (France):14,13,6:12
+13::Falkland Islands (United Kingdom):6,7,12:13
+14::South Georgia and the South Sandwich Islands (United Kingdom):6,7,12:14
+15::Bouvet Island (Norway):13,14,9:15

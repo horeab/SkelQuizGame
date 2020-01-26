@@ -1,0 +1,5 @@
+11::Suriname:13,8,10:11
+12::Francia Guyana (Franciaország):14,13,6:12
+13::Falkland-szigetek (Egyesült Királyság):6,7,12:13
+14::Dél-Georgia és Dél-Sandwich-szigetek (Egyesült Királyság):6,7,12:14
+15::Bouvet-sziget (Norvégia):13,14,9:15

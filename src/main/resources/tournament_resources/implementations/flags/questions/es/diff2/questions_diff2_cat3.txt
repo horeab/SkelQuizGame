@@ -1,0 +1,5 @@
+11::Surinam:13,8,10:11
+12::Guayana Francesa (Francia):14,13,6:12
+13::Islas Malvinas (Reino Unido):6,7,12:13
+14::Islas Georgia del Sur y Sandwich del Sur (Reino Unido):6,7,12:14
+15::Isla Bouvet (Noruega):13,14,9:15

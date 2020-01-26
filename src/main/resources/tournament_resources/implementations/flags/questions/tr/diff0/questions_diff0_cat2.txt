@@ -1,0 +1,19 @@
+0::Çin:5,8,4:0
+1::Hindistan:9,4,2:1
+2::Rusya:7,4,6:2
+3::Türkiye:4,2,8:3
+4::Japonya:7,2,6:4
+5::Tayland:3,11,2:5
+6::Afganistan:3,12,10:6
+7::Güney Kore:1,4,12:7
+8::Vietnam:15,5,11:8
+9::Malezya:12,7,14:9
+10::Filipinler:9,5,17:10
+11::Kıbrıs:3,8,9:11
+12::Nepal:5,13,11:12
+13::Kuzey Kore:8,12,6:13
+14::Gürcistan:11,12,21:14
+15::Birleşik Arap Emirlikleri:18,9,21:15
+16::Endonezya:18,9,23:16
+17::İsrail:24,12,23:17
+18::Avustralya:13,16,21:18

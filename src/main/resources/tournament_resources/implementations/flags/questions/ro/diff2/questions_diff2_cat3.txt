@@ -1,0 +1,5 @@
+11::Surinam:13,8,10:11
+12::Guiana Franceză (Franţa):14,13,6:12
+13::Insulele Falkland (Regatul Unit):6,7,12:13
+14::Georgia de Sud şi Insulele Sandwich de Sud (Regatul Unit):6,7,12:14
+15::Insula Bouvet (Norvegia):13,14,9:15

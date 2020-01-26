@@ -1,0 +1,15 @@
+15::Ierland:23,8,19:15
+16::Servië:8,9,12:16
+17::Roemenië:16,9,19:17
+18::Bulgarije:19,25,16:18
+19::Zweden:23,12,16:19
+20::Tsjechische Republiek:27,21,13:20
+21::Denemarken:22,17,19:21
+22::Noorwegen:19,14,16:22
+23::Hongarije:18,20,16:23
+24::Finland:28,16,26:24
+25::Albanië:28,20,29:25
+26::IJsland:29,28,22:26
+27::Bosnië en Herzegovina:32,33,31:27
+28::Slowakije:23,32,34:28
+29::Slovenië:21,36,27:29
