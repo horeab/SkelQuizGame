@@ -3,7 +3,6 @@ package libgdx.startgame;
 import libgdx.constants.Language;
 import libgdx.game.Game;
 import libgdx.implementations.conthistory.ConthistoryGame;
-import libgdx.implementations.paintings.PaintingsGame;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.utils.startgame.test.DefaultAppInfoService;
 

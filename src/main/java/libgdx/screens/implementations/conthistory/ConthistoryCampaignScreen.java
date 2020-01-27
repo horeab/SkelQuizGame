@@ -2,6 +2,9 @@ package libgdx.screens.implementations.conthistory;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.scenes.scene2d.Group;
+import com.badlogic.gdx.scenes.scene2d.ui.Container;
+import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 
@@ -20,6 +23,7 @@ import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.controls.labelimage.LabelImageConfigBuilder;
 import libgdx.game.Game;
 import libgdx.implementations.conthistory.ConthistoryCampaignLevelEnum;
 import libgdx.implementations.conthistory.ConthistoryCategoryEnum;
@@ -30,6 +34,7 @@ import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.implementations.skelgame.SkelGameRatingService;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.gameservice.QuizStarsService;
+import libgdx.resources.FontManager;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
@@ -41,14 +46,20 @@ import libgdx.utils.model.FontConfig;
 
 public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenManager> {
 
-
+    private int scrollPanePositionInit = 0;
     private CampaignService campaignService = new CampaignService();
     private List<CampaignStoreLevel> allCampaignLevelStores;
+    private ScrollPane scrollPane;
+    private Integer scrollToLevel;
+    private float levelHeight;
 
     public ConthistoryCampaignScreen() {
         allCampaignLevelStores = campaignService.processAndGetAllLevels();
     }
 
+    @Override
+    protected void setBackgroundContainer(Container<Group> backgroundContainer) {
+    }
 
     @Override
     public void buildStage() {
@@ -56,33 +67,47 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
             new SkelGameRatingService(this).appLaunched();
         }
         Game.getInstance().setFirstTimeMainMenuDisplayed(false);
+        final int maxOpenedLevel = allCampaignLevelStores.size();
+        scrollToLevel = maxOpenedLevel < 3 ? 0 : maxOpenedLevel - 1;
+        levelHeight = getBtnHeightValue() + MainDimen.horizontal_general_margin.getDimen();
+
         Table table = new Table();
         table.setFillParent(true);
-        MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
-                .setFontConfig(new FontConfig(
-                        FontColor.WHITE.getColor(),
-                        FontColor.BLACK.getColor(),
-                        FontConfig.FONT_SIZE * 3,
-                        3f))
-                .setText(Game.getInstance().getAppInfoService().getAppName()).build());
-
-        table.add(titleLabel).padTop(MainDimen.vertical_general_margin.getDimen() * 2).colspan(2).row();
-        table.add(createAllTable());
+        scrollPane = new ScrollPane(createAllTable());
+        scrollPane.setScrollingDisabled(true, false);
+        table.add(scrollPane).expand();
         addActor(table);
     }
 
 
     private Table createAllTable() {
         Table table = new Table();
+        MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setFontConfig(new FontConfig(
+                        FontColor.LIGHT_GREEN.getColor(),
+                        FontColor.BLACK.getColor(),
+                        FontConfig.FONT_SIZE * 3,
+                        4f))
+                .setText(Game.getInstance().getAppInfoService().getAppName()).build());
+
+        table.add(titleLabel).pad(MainDimen.vertical_general_margin.getDimen() * 2).row();
         int totalCat = ConthistoryCategoryEnum.values().length;
         long totalStarsWon = 0;
-        float btnHeight = ScreenDimensionsManager.getScreenHeightValue(12);
+        float btnHeight = getBtnHeightValue();
         float btnWidth = ScreenDimensionsManager.getScreenWidthValue(80);
         for (int i = 0; i < totalCat; i++) {
             final int finalIndex = i;
             ConthistoryCategoryEnum categoryEnum = ConthistoryCategoryEnum.values()[i];
+            LabelImageConfigBuilder labelImageConfigBuilder = new LabelImageConfigBuilder()
+                    .setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(categoryEnum.getIndex()))
+                    .setWrappedLineLabel(btnWidth)
+                    .setFontConfig(new FontConfig(
+                            FontColor.BLACK.getColor(),
+                            FontColor.DARK_RED .getColor(),
+                            FontConfig.FONT_SIZE * 2.5f,
+                            1f));
             MyButton categBtn = new ButtonBuilder()
-                    .setWrappedText(new SpecificPropertiesUtils().getQuestionCategoryLabel(categoryEnum.getIndex()), btnWidth / 1.1f)
+                    .setWrappedText(labelImageConfigBuilder)
                     .setButtonSkin(GameButtonSkin.valueOf("CONTHISTORY_COLOR_CATEG" + i)).build();
             for (CampaignStoreLevel level : allCampaignLevelStores) {
                 long starsWon = -1;
@@ -128,6 +153,10 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
         return table;
     }
 
+    private float getBtnHeightValue() {
+        return ScreenDimensionsManager.getScreenHeightValue(50);
+    }
+
 
     @Override
     public void onBackKeyPress() {
@@ -138,5 +167,9 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
     public void render(float dt) {
         super.render(dt);
         Utils.createChangeLangPopup();
+        if (scrollPane != null && scrollPanePositionInit < 2 && scrollToLevel != null) {
+            scrollPane.setScrollY(scrollToLevel * levelHeight);
+            scrollPanePositionInit++;
+        }
     }
 }
