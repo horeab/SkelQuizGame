@@ -23,8 +23,9 @@ public enum ConthistorySpecificResource implements SpecificResource {
     btn_categ3_down("buttons/btn_categ3_down.png", Texture.class),
     btn_categ4_down("buttons/btn_categ4_down.png", Texture.class),
     btn_categ_down("buttons/btn_categ_down.png", Texture.class),
-    btn_categ_disabled("buttons/btn_categ_disabled.png", Texture.class),;
-    ;
+    btn_categ_disabled("buttons/btn_categ_disabled.png", Texture.class),
+    title_clouds_background("title_clouds_background.png", Texture.class),
+    ;;
 
     // @formatter:on
 

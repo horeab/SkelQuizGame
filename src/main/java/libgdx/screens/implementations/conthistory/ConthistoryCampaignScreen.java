@@ -3,9 +3,7 @@ package libgdx.screens.implementations.conthistory;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Group;
-import com.badlogic.gdx.scenes.scene2d.ui.Container;
-import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
-import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.ui.*;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 
 import java.util.List;
@@ -25,9 +23,12 @@ import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.controls.labelimage.LabelImageConfigBuilder;
 import libgdx.game.Game;
+import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.conthistory.ConthistoryCampaignLevelEnum;
 import libgdx.implementations.conthistory.ConthistoryCategoryEnum;
 import libgdx.implementations.conthistory.ConthistoryGame;
+import libgdx.implementations.conthistory.ConthistorySpecificResource;
+import libgdx.implementations.paintings.PaintingsSpecificResource;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.LevelFinishedPopup;
 import libgdx.implementations.skelgame.SkelGameLabel;
@@ -79,6 +80,13 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
         addActor(table);
     }
 
+    protected Stack createTitleStack(MyWrappedLabel titleLabel) {
+        Stack stack = new Stack();
+        Image image = GraphicUtils.getImage(ConthistorySpecificResource.title_clouds_background);
+        stack.addActor(image);
+        stack.addActor(titleLabel);
+        return stack;
+    }
 
     private Table createAllTable() {
         Table table = new Table();
@@ -90,7 +98,7 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
                         4f))
                 .setText(Game.getInstance().getAppInfoService().getAppName()).build());
 
-        table.add(titleLabel).pad(MainDimen.vertical_general_margin.getDimen() * 2).row();
+        table.add(createTitleStack(titleLabel)).pad(MainDimen.vertical_general_margin.getDimen() * 2).row();
         int totalCat = ConthistoryCategoryEnum.values().length;
         long totalStarsWon = 0;
         float btnHeight = getBtnHeightValue();

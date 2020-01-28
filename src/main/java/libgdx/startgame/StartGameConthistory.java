@@ -28,7 +28,7 @@ public class StartGameConthistory {
 
                     @Override
                     public String getLanguage() {
-                        return Language.en.name();
+                        return Language.de.name();
                     }
                 });
         libgdx.utils.startgame.StartGame.main(game, args);

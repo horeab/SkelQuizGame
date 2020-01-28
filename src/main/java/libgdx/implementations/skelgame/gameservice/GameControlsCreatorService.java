@@ -25,12 +25,16 @@ public class GameControlsCreatorService {
     public static boolean longAnswerButtons(List<String> allAnswerOptions) {
         boolean containsLongAnswer = false;
         for (String option : allAnswerOptions) {
-            if (option.length() > 35) {
+            if (option.length() > getLongAnswerLimit()) {
                 containsLongAnswer = true;
                 break;
             }
         }
         return containsLongAnswer || allAnswerOptions.size() > 4;
+    }
+
+    public static int getLongAnswerLimit() {
+        return 35;
     }
 
     public Table createSquareAnswerOptionsTable(int nrOfAnswersOnRow,

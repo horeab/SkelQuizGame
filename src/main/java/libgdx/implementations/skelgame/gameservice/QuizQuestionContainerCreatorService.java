@@ -32,7 +32,7 @@ public abstract class QuizQuestionContainerCreatorService extends QuestionContai
         Table questionTable = super.createQuestionTable();
         Image questionImage = gameService.getQuestionImage();
         String questionToBeDisplayed = gameService.getQuestionToBeDisplayed();
-        if (StringUtils.isBlank(questionToBeDisplayed)){
+        if (StringUtils.isBlank(questionToBeDisplayed)) {
             questionToBeDisplayed = SpecificPropertiesUtils.getQuestionCategoryLabel(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getQuestion().getQuestionCategory().getIndex());
         }
         MyWrappedLabelConfigBuilder myWrappedLabelConfigBuilder = getMyWrappedLabelConfigBuilder(questionImage, questionToBeDisplayed);
@@ -109,8 +109,25 @@ public abstract class QuizQuestionContainerCreatorService extends QuestionContai
             buttonSize = GameButtonSize.LONG_QUIZ_OPTION_ANSWER;
             buttonSkin = GameButtonSkin.LONG_ANSWER_OPTION;
         }
-        return new ButtonBuilder().setWrappedText(answer, buttonSize.getWidth() / 1.1f).setFixedButtonSize(buttonSize).setButtonSkin(buttonSkin).build();
+        return getAnswerButtonBuilder(answer, buttonSize, buttonSkin).build();
     }
 
+    protected ButtonBuilder getAnswerButtonBuilder(String answer, ButtonSize buttonSize, GameButtonSkin buttonSkin) {
+        return new ButtonBuilder().setWrappedText(answer, buttonSize.getWidth() / 1.1f, getAnswerFontScale(answer, FontManager.getNormalBigFontDim())).setFixedButtonSize(buttonSize).setButtonSkin(buttonSkin);
+    }
+
+    protected float getAnswerFontScale(String answerToBeDisplayed, float fontScale) {
+        float factor = 1f;
+        //if there are long answer buttons, the question fontScale should be smaller
+        float increaseFactor = 0.05f;
+        int increaseWordCount = 5;
+        for (int standardAnswerLength = GameControlsCreatorService.getLongAnswerLimit(); standardAnswerLength < 100; standardAnswerLength = standardAnswerLength + increaseWordCount)
+            if (answerToBeDisplayed.length() > standardAnswerLength) {
+                factor = factor + increaseFactor;
+            } else {
+                break;
+            }
+        return fontScale / factor;
+    }
 
 }

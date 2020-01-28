@@ -33,7 +33,7 @@ import libgdx.utils.model.RGBColor;
 public class ConthistoryGameScreen extends GameScreen<ConthistoryScreenManager> {
 
     public static int TOTAL_QUESTIONS = 9;
-    private ConthistoryContainers judeteContainers = new ConthistoryContainers();
+    private ConthistoryContainers containers = new ConthistoryContainers();
     private CampaignStoreService campaignStoreService = new CampaignStoreService();
     private Table allTable;
 
@@ -54,10 +54,10 @@ public class ConthistoryGameScreen extends GameScreen<ConthistoryScreenManager> 
 
         allTable = new Table();
         float dimen = MainDimen.vertical_general_margin.getDimen();
-        allTable.add(judeteContainers.createAllJudeteFound()).padTop(dimen * 2).row();
+        allTable.add(containers.createAllJudeteFound()).padTop(dimen * 2).row();
         String allQuestionsPlayed = campaignStoreService.getAllQuestionsPlayed();
         allTable.add(allQuestionsTable(allQuestionsPlayed.split(CampaignStoreService.TEXT_SPLIT).length - 1)).padBottom(dimen).padTop(dimen).growX().row();
-        QuestionContainerCreatorService questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
+        QuestionContainerCreatorService questionContainerCreatorService = new ConthistoryQuestionContainerCreatorService(gameContext, this);
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
         allTable.add(questionTable).growY().row();
