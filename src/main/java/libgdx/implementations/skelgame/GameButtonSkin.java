@@ -39,11 +39,11 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     PAINTINGS_COLOR_CATEG3(PaintingsSpecificResource.btn_categ3_up, PaintingsSpecificResource.btn_categ_down, PaintingsSpecificResource.btn_categ3_up, PaintingsSpecificResource.btn_categ_disabled, null),
     PAINTINGS_COLOR_CATEG4(PaintingsSpecificResource.btn_categ4_up, PaintingsSpecificResource.btn_categ_down, PaintingsSpecificResource.btn_categ4_up, PaintingsSpecificResource.btn_categ_disabled, null),
 
-    CONTHISTORY_COLOR_CATEG0(ConthistorySpecificResource.btn_categ0_up, ConthistorySpecificResource.btn_categ0_down, ConthistorySpecificResource.btn_categ0_up, ConthistorySpecificResource.btn_categ_disabled, null),
-    CONTHISTORY_COLOR_CATEG1(ConthistorySpecificResource.btn_categ1_up, ConthistorySpecificResource.btn_categ1_down, ConthistorySpecificResource.btn_categ1_up, ConthistorySpecificResource.btn_categ_disabled, null),
-    CONTHISTORY_COLOR_CATEG2(ConthistorySpecificResource.btn_categ2_up, ConthistorySpecificResource.btn_categ2_down, ConthistorySpecificResource.btn_categ2_up, ConthistorySpecificResource.btn_categ_disabled, null),
-    CONTHISTORY_COLOR_CATEG3(ConthistorySpecificResource.btn_categ3_up, ConthistorySpecificResource.btn_categ3_down, ConthistorySpecificResource.btn_categ3_up, ConthistorySpecificResource.btn_categ_disabled, null),
-    CONTHISTORY_COLOR_CATEG4(ConthistorySpecificResource.btn_categ4_up, ConthistorySpecificResource.btn_categ4_down, ConthistorySpecificResource.btn_categ4_up, ConthistorySpecificResource.btn_categ_disabled, null),
+    CONTHISTORY_COLOR_CATEG0(ConthistorySpecificResource.btn_categ0_up, ConthistorySpecificResource.btn_categ0_down, ConthistorySpecificResource.btn_categ0_up, ConthistorySpecificResource.btn_categ0_disabled, null),
+    CONTHISTORY_COLOR_CATEG1(ConthistorySpecificResource.btn_categ1_up, ConthistorySpecificResource.btn_categ1_down, ConthistorySpecificResource.btn_categ1_up, ConthistorySpecificResource.btn_categ1_disabled, null),
+    CONTHISTORY_COLOR_CATEG2(ConthistorySpecificResource.btn_categ2_up, ConthistorySpecificResource.btn_categ2_down, ConthistorySpecificResource.btn_categ2_up, ConthistorySpecificResource.btn_categ2_disabled, null),
+    CONTHISTORY_COLOR_CATEG3(ConthistorySpecificResource.btn_categ3_up, ConthistorySpecificResource.btn_categ3_down, ConthistorySpecificResource.btn_categ3_up, ConthistorySpecificResource.btn_categ3_disabled, null),
+    CONTHISTORY_COLOR_CATEG4(ConthistorySpecificResource.btn_categ4_up, ConthistorySpecificResource.btn_categ4_down, ConthistorySpecificResource.btn_categ4_up, ConthistorySpecificResource.btn_categ4_disabled, null),
 
     PAINTINGS_COLOR_CATEG_FINISHED(PaintingsSpecificResource.btn_categ_finished, PaintingsSpecificResource.btn_categ_down, PaintingsSpecificResource.btn_categ_finished, PaintingsSpecificResource.btn_categ_disabled, null),
     PAINTINGS_COLOR_CATEG_STAR(PaintingsSpecificResource.btn_categ_star, PaintingsSpecificResource.btn_categ_down, PaintingsSpecificResource.btn_categ_star, PaintingsSpecificResource.btn_categ_disabled, null),

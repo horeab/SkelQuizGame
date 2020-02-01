@@ -1,8 +1,7 @@
 package libgdx.screens.implementations.conthistory;
 
-import libgdx.controls.button.ButtonBuilder;
-import libgdx.controls.button.ButtonSize;
-import libgdx.implementations.skelgame.GameButtonSkin;
+import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.conthistory.ConthistorySpecificResource;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.UniqueQuizQuestionContainerCreatorService;
 import libgdx.screens.GameScreen;
@@ -17,4 +16,9 @@ public class ConthistoryQuestionContainerCreatorService extends UniqueQuizQuesti
     protected float getQuestionFontScale(String questionToBeDisplayed, float fontScale, boolean longAnswerButtons) {
         return super.getQuestionFontScale(questionToBeDisplayed, fontScale, longAnswerButtons) * 1.2f;
     }
+
+    protected void setContainerBackground() {
+        questionContainer.setBackground(GraphicUtils.getNinePatch(ConthistorySpecificResource.question_background));
+    }
+
 }

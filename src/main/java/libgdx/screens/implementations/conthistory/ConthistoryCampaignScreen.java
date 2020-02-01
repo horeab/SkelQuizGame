@@ -94,11 +94,12 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
                 .setFontConfig(new FontConfig(
                         FontColor.LIGHT_GREEN.getColor(),
                         FontColor.BLACK.getColor(),
-                        FontConfig.FONT_SIZE * 3,
+                        FontConfig.FONT_SIZE * 2.4f,
                         4f))
                 .setText(Game.getInstance().getAppInfoService().getAppName()).build());
 
-        table.add(createTitleStack(titleLabel)).pad(MainDimen.vertical_general_margin.getDimen() * 2).row();
+        float dimen = MainDimen.vertical_general_margin.getDimen();
+        table.add(createTitleStack(titleLabel)).pad(dimen * 2).row();
         int totalCat = ConthistoryCategoryEnum.values().length;
         long totalStarsWon = 0;
         float btnHeight = getBtnHeightValue();
@@ -111,24 +112,28 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
                     .setWrappedLineLabel(btnWidth)
                     .setFontConfig(new FontConfig(
                             FontColor.BLACK.getColor(),
-                            FontColor.DARK_RED .getColor(),
+                            FontColor.DARK_RED.getColor(),
                             FontConfig.FONT_SIZE * 2.5f,
                             1f));
             MyButton categBtn = new ButtonBuilder()
                     .setWrappedText(labelImageConfigBuilder)
                     .setButtonSkin(GameButtonSkin.valueOf("CONTHISTORY_COLOR_CATEG" + i)).build();
+            final int maxOpenedLevel = allCampaignLevelStores.size();
+            if (i >= maxOpenedLevel) {
+                categBtn.setDisabled(true);
+            }
             for (CampaignStoreLevel level : allCampaignLevelStores) {
                 long starsWon = -1;
                 if (CampaignLevelEnumService.getCategory(level.getName()) == categoryEnum.getIndex()) {
                     starsWon = level.getScore();
                     totalStarsWon = totalStarsWon + starsWon;
+                    ConthistorySpecificResource categImg = ConthistorySpecificResource.success;
                     if (starsWon == QuizStarsService.NR_OF_STARS_TO_DISPLAY) {
-                        categBtn.setButtonSkin(GameButtonSkin.PAINTINGS_COLOR_CATEG_STAR);
-                        break;
-                    } else if (level.getStatus() == CampaignLevelStatusEnum.FINISHED.getStatus()) {
-                        categBtn.setButtonSkin(GameButtonSkin.PAINTINGS_COLOR_CATEG_FINISHED);
-                        break;
+                        categImg = ConthistorySpecificResource.success_star;
                     }
+                    Image image = GraphicUtils.getImage(categImg);
+                    float imgDimen = dimen * 7;
+                    categBtn.add(image).padBottom(dimen).width(imgDimen).height(imgDimen);
                 }
             }
             categBtn.addListener(new ChangeListener() {

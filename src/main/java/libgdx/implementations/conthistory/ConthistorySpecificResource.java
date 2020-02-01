@@ -22,9 +22,20 @@ public enum ConthistorySpecificResource implements SpecificResource {
     btn_categ2_down("buttons/btn_categ2_down.png", Texture.class),
     btn_categ3_down("buttons/btn_categ3_down.png", Texture.class),
     btn_categ4_down("buttons/btn_categ4_down.png", Texture.class),
+    btn_categ0_disabled("buttons/btn_categ0_disabled.png", Texture.class),
+    btn_categ1_disabled("buttons/btn_categ1_disabled.png", Texture.class),
+    btn_categ2_disabled("buttons/btn_categ2_disabled.png", Texture.class),
+    btn_categ3_disabled("buttons/btn_categ3_disabled.png", Texture.class),
+    btn_categ4_disabled("buttons/btn_categ4_disabled.png", Texture.class),
     btn_categ_down("buttons/btn_categ_down.png", Texture.class),
+    question_background("question_background.png", Texture.class),
     btn_categ_disabled("buttons/btn_categ_disabled.png", Texture.class),
     title_clouds_background("title_clouds_background.png", Texture.class),
+    star("star.png", Texture.class),
+    star_disabled("star_disabled.png", Texture.class),
+    star_wrong("star_wrong.png", Texture.class),
+    success("success.png", Texture.class),
+    success_star("success_star.png", Texture.class),
     ;;
 
     // @formatter:on
