@@ -56,4 +56,7 @@ public class ConthistoryDependencyManager extends CampaignGameDependencyManager 
     public Class<ConthistoryDifficultyLevel> getQuestionDifficultyTypeEnum() {
         return ConthistoryDifficultyLevel.class;
     }
+    public QuizStarsService getStarsService() {
+        return new QuizStarsService();
+    }
 }

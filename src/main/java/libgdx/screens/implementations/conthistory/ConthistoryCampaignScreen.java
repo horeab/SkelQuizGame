@@ -69,7 +69,7 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
         }
         Game.getInstance().setFirstTimeMainMenuDisplayed(false);
         final int maxOpenedLevel = allCampaignLevelStores.size();
-        scrollToLevel = maxOpenedLevel < 3 ? 0 : maxOpenedLevel - 1;
+        scrollToLevel = maxOpenedLevel > 1 ? maxOpenedLevel - 1 : null;
         levelHeight = getBtnHeightValue() + MainDimen.horizontal_general_margin.getDimen();
 
         Table table = new Table();
@@ -98,11 +98,11 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
                         4f))
                 .setText(Game.getInstance().getAppInfoService().getAppName()).build());
 
+        float btnHeight = getBtnHeightValue();
         float dimen = MainDimen.vertical_general_margin.getDimen();
-        table.add(createTitleStack(titleLabel)).pad(dimen * 2).row();
+        table.add(createTitleStack(titleLabel)).height(btnHeight / 2).pad(dimen * 2).row();
         int totalCat = ConthistoryCategoryEnum.values().length;
         long totalStarsWon = 0;
-        float btnHeight = getBtnHeightValue();
         float btnWidth = ScreenDimensionsManager.getScreenWidthValue(80);
         for (int i = 0; i < totalCat; i++) {
             final int finalIndex = i;
@@ -127,13 +127,18 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
                 if (CampaignLevelEnumService.getCategory(level.getName()) == categoryEnum.getIndex()) {
                     starsWon = level.getScore();
                     totalStarsWon = totalStarsWon + starsWon;
-                    ConthistorySpecificResource categImg = ConthistorySpecificResource.success;
+                    ConthistorySpecificResource categImg = null;
+
                     if (starsWon == QuizStarsService.NR_OF_STARS_TO_DISPLAY) {
                         categImg = ConthistorySpecificResource.success_star;
+                    } else if (level.getStatus() == CampaignLevelStatusEnum.FINISHED.getStatus()) {
+                        categImg = ConthistorySpecificResource.success;
                     }
-                    Image image = GraphicUtils.getImage(categImg);
-                    float imgDimen = dimen * 7;
-                    categBtn.add(image).padBottom(dimen).width(imgDimen).height(imgDimen);
+                    if (categImg != null) {
+                        Image image = GraphicUtils.getImage(categImg);
+                        float imgDimen = dimen * 7;
+                        categBtn.add(image).padBottom(dimen).width(imgDimen).height(imgDimen);
+                    }
                 }
             }
             categBtn.addListener(new ChangeListener() {
@@ -142,7 +147,7 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
                     CampaignLevel campaignLevel = ConthistoryCampaignLevelEnum.valueOf("LEVEL_0_" + finalIndex);
                     CampaignLevelEnumService enumService = new CampaignLevelEnumService(campaignLevel);
                     QuestionConfig questionConfig = enumService.getQuestionConfig(ConthistoryGameScreen.TOTAL_QUESTIONS);
-                    ConthistoryGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), campaignLevel);
+                    ConthistoryGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(0, questionConfig), campaignLevel);
                 }
             });
             Table btnTable = new Table();
@@ -181,7 +186,9 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
         super.render(dt);
         Utils.createChangeLangPopup();
         if (scrollPane != null && scrollPanePositionInit < 2 && scrollToLevel != null) {
-            scrollPane.setScrollY(scrollToLevel * levelHeight);
+            scrollPane.setScrollY(scrollToLevel * levelHeight
+                    //Title height
+                    + getBtnHeightValue() / 2);
             scrollPanePositionInit++;
         }
     }

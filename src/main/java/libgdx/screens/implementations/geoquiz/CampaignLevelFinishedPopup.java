@@ -9,13 +9,15 @@ import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.popup.MyPopup;
 import libgdx.game.Game;
+import libgdx.implementations.skelgame.CampaignScreenManager;
 import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.gameservice.SinglePlayerLevelFinishedService;
 import libgdx.screen.AbstractScreen;
+import libgdx.screen.AbstractScreenManager;
 
-public class CampaignLevelFinishedPopup extends MyPopup<AbstractScreen, QuizScreenManager> {
+public class CampaignLevelFinishedPopup<TScreenManager extends CampaignScreenManager> extends MyPopup<AbstractScreen, TScreenManager> {
 
     private boolean gameOverSuccess;
     private GameContext gameContext;
@@ -54,7 +56,7 @@ public class CampaignLevelFinishedPopup extends MyPopup<AbstractScreen, QuizScre
             playAgain.addListener(new ChangeListener() {
                 @Override
                 public void changed(ChangeEvent event, Actor actor) {
-                    screenManager.showCampaignGameScreen(new GameContextService().createGameContext(gameContext.getQuestionConfig()), currentCampaignLevel);
+                    screenManager.showCampaignGameScreen(new GameContextService().createGameContext(gameContext.getAmountAvailableHints(), gameContext.getQuestionConfig()), currentCampaignLevel);
                 }
             });
             addButton(playAgain);
