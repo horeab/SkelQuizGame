@@ -58,9 +58,6 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
         allCampaignLevelStores = campaignService.processAndGetAllLevels();
     }
 
-    @Override
-    protected void setBackgroundContainer(Container<Group> backgroundContainer) {
-    }
 
     @Override
     public void buildStage() {
