@@ -23,7 +23,7 @@ import libgdx.utils.Utils;
 
 public class PaintingGameScreen extends GameScreen<PaintingsScreenManager> {
 
-    public static int TOTAL_QUESTIONS = 2;
+    public static int TOTAL_QUESTIONS = 10;
     private CampaignLevel campaignLevel;
     private Table allTable;
     private MyButton hoverBackButton;

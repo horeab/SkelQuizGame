@@ -130,7 +130,7 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
                     public void run() {
                         screenManager.showCampaignScreen();
                     }
-                });
+                }, MainDimen.horizontal_general_margin.getDimen() * 15);
                 categBtn.setDisabled(true);
             }
             table.add(btnTable)

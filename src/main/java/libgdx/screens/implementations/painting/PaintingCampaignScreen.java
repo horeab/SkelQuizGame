@@ -20,12 +20,12 @@ import libgdx.campaign.QuestionConfig;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
-import libgdx.controls.button.builders.BackButtonBuilder;
+import libgdx.controls.button.builders.UnlockButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.controls.labelimage.InAppPurchaseTable;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.anatomy.AnatomyCampaignLevelEnum;
 import libgdx.implementations.paintings.PaintingsCampaignLevelEnum;
 import libgdx.implementations.paintings.PaintingsGame;
 import libgdx.implementations.paintings.PaintingsQuestionCategoryEnum;
@@ -38,6 +38,7 @@ import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.gameservice.QuizStarsService;
 import libgdx.resources.FontManager;
 import libgdx.resources.Resource;
+import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
@@ -66,7 +67,6 @@ public class PaintingCampaignScreen extends AbstractScreen<PaintingsScreenManage
         table.add(createAllTable());
         table.setFillParent(true);
         addActor(table);
-        new BackButtonBuilder().addHoverBackButton(this);
     }
 
 
@@ -122,6 +122,7 @@ public class PaintingCampaignScreen extends AbstractScreen<PaintingsScreenManage
         long totalStarsWon = 0;
         float btnHeight = ScreenDimensionsManager.getScreenHeightValue(12);
         float btnWidth = ScreenDimensionsManager.getScreenWidthValue(80);
+        InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
         for (int i = 0; i < totalCat; i++) {
             final int finalIndex = i;
             PaintingsQuestionCategoryEnum categoryEnum = PaintingsQuestionCategoryEnum.values()[i];
@@ -155,6 +156,17 @@ public class PaintingCampaignScreen extends AbstractScreen<PaintingsScreenManage
             btnTable.add(categBtn)
                     .height(btnHeight)
                     .width(btnWidth);
+
+            if (!categBtn.isDisabled() && i >= 2 && !Utils.isValidExtraContent()) {
+                btnTable = inAppPurchaseTable.create(btnTable, new Runnable() {
+                    @Override
+                    public void run() {
+                        screenManager.showCampaignScreen();
+                    }
+                }, btnHeight/1.5f);
+                categBtn.setDisabled(true);
+            }
+
             table.add(btnTable)
                     .height(btnHeight)
                     .width(btnWidth);

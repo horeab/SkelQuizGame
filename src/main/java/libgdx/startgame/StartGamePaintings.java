@@ -28,7 +28,7 @@ public class StartGamePaintings {
 
                     @Override
                     public String getLanguage() {
-                        return Language.it.name();
+                        return Language.en.name();
                     }
                 });
         libgdx.utils.startgame.StartGame.main(game, args);

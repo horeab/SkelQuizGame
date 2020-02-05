@@ -32,7 +32,7 @@ public class HeaderCreator {
         float qTableSideDimen = hm * 3;
         for (int i = 0; i < gameUser.getTotalNrOfQuestions(); i++) {
             Image image = GraphicUtils.getImage(getQuestionTableBackgr(i, gameUser));
-            table.add(image).pad(hm).padTop(hm * 3).height(qTableSideDimen).width(qTableSideDimen);
+            table.add(image).pad(hm / 3).padTop(hm * 3).height(qTableSideDimen).width(qTableSideDimen);
         }
         return table;
     }
