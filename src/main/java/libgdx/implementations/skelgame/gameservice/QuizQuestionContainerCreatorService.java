@@ -3,6 +3,7 @@ package libgdx.implementations.skelgame.gameservice;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 
+import libgdx.constants.Contrast;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
@@ -113,7 +114,7 @@ public abstract class QuizQuestionContainerCreatorService extends QuestionContai
     }
 
     protected ButtonBuilder getAnswerButtonBuilder(String answer, ButtonSize buttonSize, GameButtonSkin buttonSkin) {
-        return new ButtonBuilder().setWrappedText(answer, buttonSize.getWidth() / 1.1f, getAnswerFontScale(answer, FontManager.getNormalBigFontDim())).setFixedButtonSize(buttonSize).setButtonSkin(buttonSkin);
+        return new ButtonBuilder().setWrappedText(answer, buttonSize.getWidth() / 1.1f).setFontScale(getAnswerFontScale(answer, FontManager.getNormalBigFontDim())).setFixedButtonSize(buttonSize).setButtonSkin(buttonSkin);
     }
 
     protected float getAnswerFontScale(String answerToBeDisplayed, float fontScale) {

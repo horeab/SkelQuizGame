@@ -1,0 +1,10 @@
+0:Compared to the other planets in our solar system, where is the Earth? The _____ from the sun?:closest##middle rock##furthest##third rock:3:
+1:About how many individually distinguishable stars could you see WITHOUT the use of a telescope or binoculars, if you were away from the city on a clear night?:20##2 billion##2 million##2000:3:
+2:What is a solar eclipse?:when the sun explodes##when the sun moves between the earth and the moon##when the sun emits solar flares##when the moon moves between the earth and the sun:3:
+3:A group of stars named by ancient people because of heroes or animals they reminded them of is called a ...:galaxy##constellation##nebula##aurora borealis:1:
+4:Why do stars appear to twinkle when we look at them?:stars are different colors##the earth's atmospheric layers bend their light rays##stars fluctuate their sizes##only little stars twinkle:1:
+5:What is the name of the closest star to our Earth?:Sol##Polaris##Alpha Centauri##Andromeda:0:
+6:How far away from the Earth is our sun, approximately...?:93 light years##150 million kilometers##150 billion kilometers##150 trillion kilometers:1:
+7:Why do planets shine?:planets have their own source of energy##they reflect the sun##our galaxy glows##because we are not in a black hole:1:
+8:The word 'planet' comes from a Greek word meaning....?:fuzzy snowball##wanderer##large meteor##atlas:1:
+9:What is a 'nebula'?:a fast moving comet##the shadow of distant stars##a new star##a cloud of gas and dust:3:

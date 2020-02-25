@@ -1,9 +1,6 @@
 package libgdx.implementations.hangman;
 
 import libgdx.campaign.*;
-import libgdx.constants.Contrast;
-import libgdx.game.Game;
-import libgdx.implementations.geoquiz.QuizGame;
 import libgdx.implementations.skelgame.gameservice.QuizStarsService;
 import libgdx.resources.IncrementingRes;
 import libgdx.utils.EnumUtils;

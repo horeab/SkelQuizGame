@@ -1,0 +1,8 @@
+0:How are new stars born?:From clouds of gas and dust##They appear from thin air##From colliding comets##No one knows:0:
+1:How long is a star's life-cycle?:Seventy-eight billion years##Fifty-one trillion years##It depends on the size of the star##Thirty-four million years:2:
+2:Not including the sun, which star is closest to earth?:Pollux##Regulus##Proxima Centauri##Aldebaran:3:
+3:What do astronomers call a star that ends its life via a massive explosion?:Brown Dwarf##Pulsar##Supernova##Quasar:1:
+4:Which of the following stars is classed as a super red giant?:Betelgeuse##Sirius A##Mira##The Sun:0:
+5:Eventually all stars will die. What will happen to the Sun as its life begins to come to an end?:It will slowly disintegrate##The sun won't die##It will go through the red giant stage##It will expand until it explodes:2:
+6:When we go outside on a clear night, we can see that the stars make patterns in the sky. What do we call these patterns?:Symbols##Constellations##Monograms##Hieroglyphs:1:
+7:What name do we give to a large group of stars orbiting a common center of mass?:Colony##Galaxy##Battery##Fraternity:1:

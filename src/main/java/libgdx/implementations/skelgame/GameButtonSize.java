@@ -8,6 +8,7 @@ public enum GameButtonSize implements libgdx.controls.button.ButtonSize {
     LONG_QUIZ_OPTION_ANSWER(GameDimen.width_btn_screen_size.getDimen(), GameDimen.height_btn_menu_big.getDimen() / 1.1f),
     HANGMAN_BUTTON(GameDimen.width_hangman_button.getDimen(), GameDimen.height_hangman_button.getDimen()),
     HANGMAN_SMALL_BUTTON(GameDimen.width_hangman_button.getDimen() / 1.33f, GameDimen.height_hangman_button.getDimen()),
+    ASTRONOMY_MENU_BUTTON(GameDimen.width_btn_menu_normal.getDimen() / 1.9f, GameDimen.width_btn_menu_normal.getDimen() / 1.9f),
     IMAGE_CLICK_ANSWER_OPTION(MainDimen.side_btn_image.getDimen() / 1.1f, MainDimen.side_btn_image.getDimen() / 1.1f),
     ;
     private float width;

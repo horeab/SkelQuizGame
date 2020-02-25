@@ -1,0 +1,8 @@
+0: Wie werden neue Sterne geboren ?: Aus Gas- und Staubwolken ## Sie erscheinen aus dünner Luft ## Aus kollidierenden Kometen ## Niemand weiß: 0:
+1: Wie lang ist der Lebenszyklus eines Sterns ?: Achtundsiebzig Milliarden Jahre ## Einundfünfzig Billionen Jahre ## Es hängt von der Größe des Sterns ab ## Vierunddreißig Millionen Jahre: 2:
+2: Ohne die Sonne, welcher Stern ist der Erde am nächsten ?: Pollux ## Regulus ## Proxima Centauri ## Aldebaran: 3:
+3: Wie nennen Astronomen einen Stern, der sein Leben durch eine massive Explosion beendet?: Brauner Zwerg ## Pulsar ## Supernova ## Quasar: 1:
+4: Welcher der folgenden Sterne wird als superroter Riese eingestuft ?: Betelgeuse ## Sirius A ## Mira ## Die Sonne: 0:
+5: Irgendwann werden alle Sterne sterben. Was wird mit der Sonne geschehen, wenn ihr Leben zu Ende geht?: Sie wird sich langsam auflösen. ## Die Sonne wird nicht sterben. ## Sie wird die rote Riesenbühne durchlaufen. ## Sie wird sich ausdehnen, bis sie explodiert: 2:
+6: Wenn wir in einer klaren Nacht nach draußen gehen, können wir sehen, dass die Sterne Muster am Himmel bilden. Wie nennen wir diese Muster ?: Symbole ## Konstellationen ## Monogramme ## Hieroglyphen: 1:
+7: Welchen Namen geben wir einer großen Gruppe von Sternen, die einen gemeinsamen Massenschwerpunkt umkreisen ?: Kolonie ## Galaxie ## Batterie ## Brüderlichkeit: 1:

@@ -1,0 +1,10 @@
+0:What is a bright streak of light seen in the sky?:Meteor##Meteroid##Meteorite##Asteroid:0:
+1:Light travels at 186,282 miles per _______________.:minute##hour##year##second:3:
+2:What is a depression on a terrestrial planet or satellite called?:Crater##Mountain##Hill##Ridge:0:
+3:The uppermost region of the Sun is called the?:Photosphere##Corona##Chromosphere##Ionosphere:1:
+4:A medium sized icy solar system object is called a?:Planet##Asteroid##Star##Comet:3:
+5:What is a fireball that produces a sonic boom called?:No such object##Bolide##Comet##meteorite:1:
+6:What is the brightness scale of stars called?:Magnitude##Temperature##Albedo##Density:0:
+7:3.26 light years is called?:an astronomical Unit##a parsec##nothing##the distance to the nearest star:1:
+8:What is a bright region in the Sun called?:Sunspot##Plage##Flare##Prominence:1:
+9:What is the technical name for the motion of an object that orbits backwards around another object?:Prograde##Retrograde##Upside down##Normal:1:

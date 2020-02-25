@@ -4,6 +4,7 @@ package libgdx.implementations.skelgame;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 
 import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.astronomy.AstronomySpecificResource;
 import libgdx.implementations.conthistory.ConthistorySpecificResource;
 import libgdx.implementations.geoquiz.QuizGameSpecificResource;
 import libgdx.implementations.hangman.HangmanSpecificResource;
@@ -47,6 +48,12 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
 
     PAINTINGS_COLOR_CATEG_FINISHED(PaintingsSpecificResource.btn_categ_finished, PaintingsSpecificResource.btn_categ_down, PaintingsSpecificResource.btn_categ_finished, PaintingsSpecificResource.btn_categ_disabled, null),
     PAINTINGS_COLOR_CATEG_STAR(PaintingsSpecificResource.btn_categ_star, PaintingsSpecificResource.btn_categ_down, PaintingsSpecificResource.btn_categ_star, PaintingsSpecificResource.btn_categ_disabled, null),
+
+    ASTRONOMY_CATEG0(AstronomySpecificResource.campaign_level_0_0, AstronomySpecificResource.campaign_level_0_0, AstronomySpecificResource.campaign_level_0_0, AstronomySpecificResource.campaign_level_0_0, null),
+    ASTRONOMY_CATEG1(AstronomySpecificResource.campaign_level_0_1, AstronomySpecificResource.campaign_level_0_1, AstronomySpecificResource.campaign_level_0_1, AstronomySpecificResource.campaign_level_0_1, null),
+    ASTRONOMY_CATEG2(AstronomySpecificResource.campaign_level_0_2, AstronomySpecificResource.campaign_level_0_2, AstronomySpecificResource.campaign_level_0_2, AstronomySpecificResource.campaign_level_0_2, null),
+    ASTRONOMY_CATEG3(AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3, null),
+    ASTRONOMY_CATEG4(AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, null),
     ;
 
     GameButtonSkin(Res imgUp, Res imgDown, Res imgChecked, Res imgDisabled, FontColor buttonDisabledFontColor) {

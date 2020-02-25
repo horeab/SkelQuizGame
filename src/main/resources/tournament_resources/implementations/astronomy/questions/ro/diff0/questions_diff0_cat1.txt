@@ -1,0 +1,8 @@
+0: Cum se nasc stelele?: Din nori de gaz si praf ## Ele apar din senin ## Din coliziunea cometelor ## Nimeni nu stie: 0:
+1: Cât timp dureaza un ciclu de viaţă al unei stele?: şaptezeci şi opt miliarde de ani ## Cincizeci şi trei de trilion de ani # Depinde de dimensiunea stelei ## Treizeci şi patru de milioane de ani: 2:
+2: Exculzand soarele, care stea este cea mai apropiată de pământ ?: Pollux ## Regulus ## Proxima Centauri ## Aldebaran: 3:
+3: Cum numesc astronomii o stea care îşi sfârşeşte viaţa printr-o explozie masivă: Pitică cenuşie ## Pulsar ## Supernova ## Quasar: 1:
+4: Care dintre următoarele stele este clasificată ca o supergigantă roşie: Betelgeuse ## Sirius A ## Mira ## Soarele: 0:
+5: În cele din urmă toate stelele vor muri. Ce se va întâmpla cu soarele dupa ce viaţa lui va înceta?: Se va dezintegra încet## Soarele nu va muri## Va trece prin stadiul de gigantă roşie## Se va extinde până va exploda: 2:
+6: Când ieşim afară într-o noapte clară, vedem că stelele fac modele pe cer. Cum numim aceste modele?: Simboluri ## Constelaţii ## Monograme ## Hieroglife: 1:
+7: Cum numim un mare grup de stele care orbitează in jurul unui centru comun: Colonie ## Galaxie ## Baterie ## Fraternitate: 1:

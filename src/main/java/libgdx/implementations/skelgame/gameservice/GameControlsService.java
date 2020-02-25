@@ -3,6 +3,7 @@ package libgdx.implementations.skelgame.gameservice;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyLabel;
+import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
 import libgdx.utils.model.FontColor;
 
@@ -54,16 +55,14 @@ public class GameControlsService {
         for (HintButton hintButton : hintButtons) {
             buttonsToProcess.add(hintButton.getMyButton());
         }
-        FontColor fontColor = FontColor.BLACK;
+        FontColor fontColor = MyWrappedLabelConfigBuilder.getScreenContrastStyle();
         for (MyButton button : buttonsToProcess) {
             List<MyLabel> centerRowLabels = button.getCenterRowLabels();
             for (MyLabel label : centerRowLabels) {
-                if (!button.isDisabled()) {
-                    if (touchable == Touchable.disabled) {
-                        fontColor = button.getButtonSkin().getButtonDisabledFontColor() != null ? button.getButtonSkin().getButtonDisabledFontColor() : FontColor.BLACK;
-                    }
-                    label.getStyle().font = Game.getInstance().getFontManager().getFont(fontColor);
+                if (touchable == Touchable.disabled) {
+                    fontColor = button.getButtonSkin().getButtonDisabledFontColor() != null ? button.getButtonSkin().getButtonDisabledFontColor() : MyWrappedLabelConfigBuilder.getScreenContrastStyle();
                 }
+                label.getStyle().font = Game.getInstance().getFontManager().getFont(fontColor);
             }
             button.setTouchable(touchable);
         }

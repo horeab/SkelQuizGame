@@ -1,0 +1,10 @@
+0: În comparaţie cu celelalte planete din sistemul nostru solar, unde este Pământul? _____ de la soare: cea mai apropiată ## planeta din mijloc ## cea mai îndepărtată ## a treia planeta: 3:
+1: Cât de multe stele, ar putea fi distinse pe cer fără utilizarea unui telescop sau binoclu?: 20 ## 2000000000 ## 2000000 ## 2000: 3:
+2: Ce este o eclipsa soalara?: cand soarele explodeaza ##cand soarele se misca intre pamant si luna ##cand soarele emite flacari solare ##atunci cand luna se misca intre pamant si soare: 3:
+3: Un grup de stele numite de oameni in antichitate din cauza eroilor sau animalelor pe care le-au reamintit este numit ...: galaxia ## constelatie ## nebula ## aurora borealis: 1:
+4: De ce stelele par a clipi cand ne uitam la ele: stelele sunt in culori diferite # straturile atmosferice ale pământului le îndoiesc razele de lumină ## stelele fluctuează dimensiunile lor ## doar stelele mici strălucesc: 1:
+5: Care este numele celei mai apropiate stele de Pamant ?: Sol ## Polaris ## Alpha Centauri ## Andromeda: 0:
+6: Cât de departe de Pământ este soarele nostru, aproximativ ...?: 93 de ani lumină ## 150 milioane kilometri ## 150 miliarde kilometri ## 150 trilioane de kilometri: 1:
+7: De ce planetele strălucesc: planetele au propria lor sursă de energie ## ele reflectă soarele # galaxia noastră străluceşte ## pentru că nu suntem într-o gaură neagră: 1:
+8: Cuvântul "planetă" vine de la un cuvânt grecesc, care înseamnă ....: fuzzy snowball ## wanderer ## mare meteor ## atlas: 1:
+9: Ce este o "nebulă": o cometă care se mişcă rapid ## umbra unor stele îndepărtate ## o stea nouă ## un nor de gaz şi praf: 3:
