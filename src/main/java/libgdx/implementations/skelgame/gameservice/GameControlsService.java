@@ -5,6 +5,7 @@ import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
+import libgdx.resources.FontManager;
 import libgdx.utils.model.FontColor;
 
 import java.util.ArrayList;
@@ -55,12 +56,12 @@ public class GameControlsService {
         for (HintButton hintButton : hintButtons) {
             buttonsToProcess.add(hintButton.getMyButton());
         }
-        FontColor fontColor = MyWrappedLabelConfigBuilder.getScreenContrastStyle();
+        FontColor fontColor = FontManager.getBaseColorForContrast();
         for (MyButton button : buttonsToProcess) {
             List<MyLabel> centerRowLabels = button.getCenterRowLabels();
             for (MyLabel label : centerRowLabels) {
                 if (touchable == Touchable.disabled) {
-                    fontColor = button.getButtonSkin().getButtonDisabledFontColor() != null ? button.getButtonSkin().getButtonDisabledFontColor() : MyWrappedLabelConfigBuilder.getScreenContrastStyle();
+                    fontColor = button.getButtonSkin().getButtonDisabledFontColor() != null ? button.getButtonSkin().getButtonDisabledFontColor() : FontManager.getBaseColorForContrast();
                 }
                 label.getStyle().font = Game.getInstance().getFontManager().getFont(fontColor);
             }

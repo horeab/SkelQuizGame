@@ -1,9 +1,10 @@
-0: Merkur ist der Planet, der der Sonne am nächsten ist, aber warum ist Venus der heißeste Planet?: Venus dreht sich alle 20 Jahre um Merkur ## Venus hat den Treibhauseffekt ## Merkur hat einen starken Wind, der den Planeten abkühlt ## Venus bekommt mehr der Sonnenstrahlen als Merkur: 1:
-1: Welche dieser Aussagen trifft auf Jupiter zu?: Es ist der einzige Planet neben der Erde, der Leben hat ## Es ist einer der terrestrischen Planeten ## Es ist der dichteste Planet ## Es besteht zu 90% aus Wasserstoff und zu 10% aus Helium: 3 ::
-2: Welcher von diesen wurde einst als Asteroid angesehen ?: Jupiter ## Mars ## Neptun ## Pluto: 3:
-3: Welcher Planet außer der Erde hat Jahreszeiten ?: Venus ## Mars ## Merkur ## Jupiter: 1:
-4: Welcher Planet ist als Zwilling der Erde bekannt?: Mars ## Venus ## Jupiter ## Saturn: 1:
-5: Was ist der am weitesten entfernte Planet, der ohne Teleskop oder Fernglas gesehen werden kann?: Saturn ## Jupiter ## Neptun ## Uranus: 3:
-6: Wann erreichte das Raumschiff Ulysses Jupiter?: 1990 ## 1992 ## 1984 ## 1989: 1:
-7: Welche Sonde wurde 1977 an Saturn geschickt?: Pionier ## Huygens ## Saturn Cassini ## Voyager 1 & 2: 3:
-8: In welchem ​​Zeitraum von 20 Jahren blieb Pluto in Neptuns Umlaufbahn ?: 23. Januar 1979 - 11. Februar 1999 ## 31. Dezember 1968 - 1. Januar 1999 ## 1. Januar 1950 - 31. Dezember 1999 ## 13. Juli 1937 - 20. Juli 1999: 0:
+0::The Sun:4,2,5:52,72:3
+1::Mercury:4,2,5:51,78:3
+2::Venus:0,4,5:47,59:3
+3::Earth:0,5,4:52,59:3
+4::Mars:0,2,5:51,86:3
+5::Jupiter:0,2,4:53,36:3
+6::Saturn:2,7,9:37,72:3
+7::Uranus:6,0,1:63,45:3
+8::Neptune:5,4,2:61,48:3
+9::Pluto:4,3,1:49,6:3

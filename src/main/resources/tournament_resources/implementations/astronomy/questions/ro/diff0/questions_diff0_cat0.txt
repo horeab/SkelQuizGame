@@ -1,9 +1,0 @@
-0: Mercur este planeta cea mai apropiata de soare, dar de ce totusi Venus este cea mai fierbinte planeta? Venus se roteste in jurul Mercurului la fiecare 20 de ani ##Venus are efectul de sera## Mercur are un vant puternic care raceste planeta## Venus atrage mai mult din razele soarelui decât Mercur: 1:
-1: Care dintre aceste afirmatii este adevărata despre Jupiter ?: Este singura planetă pe lângă Pământ care are forme de viaţă ## Este una dintre planetele terestre ## Este cea mai densă planetă ## Este 90% hidrogen şi 10% heliu: 3 :
-2: Care dintre aceste planete a fost considerata un asteroid?: Jupiter## Marte## Neptun## Pluto 3:
-3: Ce planetă pe lângă Pământ are anotimpuri?: Venus # Mars # Mercur ## Jupiter: 1:
-4: Ce planetă este cunoscută ca geamăna a Pământului?: Marte ## Venus ## Jupiter ## Saturn: 1:
-5: Care este cea mai indepartata planeta care poate fi vazuta fara telescop sau binoclu ?: Saturn ## Jupiter ## Neptun ## Uranus: 3:
-6: Când a ajuns nava spaţială Ulysses la Jupiter ?: 1990 ## 1992 ## 1984 ## 1989: 1:
-7: Ce sondă a fost trimisă catre Saturn în 1977?: Pioneer ## Huygens ## Saturn Cassini ## Voyager 1 & 2: 3:
-8: In ce perioadă de 20 de ani a rămas Pluto în interiorul orbitei lui Neptun?: 23 Ianuarie 1979 - 11 Februarie 1999 ## 31 Decembrie 1968 - 1 Ianuarie 1989 ## 1 Ianuarie 1950 - 31 Decembrie 1969 ##13 Iulie 1937 - 20 Iulie 1959: 0:

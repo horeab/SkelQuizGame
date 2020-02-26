@@ -1,10 +1,7 @@
-0: Wo ist die Erde im Vergleich zu den anderen Planeten in unserem Sonnensystem? Das _____ von der Sonne ?: Nächster ## mittlerer Felsen ## am weitesten ## dritter Felsen: 3:
-1: Wie viele individuell unterscheidbare Sterne könnten Sie OHNE Verwendung eines Teleskops oder eines Fernglases sehen, wenn Sie in einer klaren Nacht nicht in der Stadt wären?: 20 ## 2 Milliarden ## 2 Millionen ## 2000: 3:
-2: Was ist eine Sonnenfinsternis?: Wenn die Sonne explodiert ## wenn sich die Sonne zwischen Erde und Mond bewegt ## wenn die Sonne Sonneneruptionen abgibt ## wenn sich der Mond zwischen Erde und Sonne bewegt: 3:
-3: Eine Gruppe von Sternen, die von alten Menschen aufgrund von Helden oder Tieren benannt wurden, an die sie sie erinnerten, wird als ...: Galaxie ## Konstellation ## Nebel ## Aurora Borealis: 1:
-4: Warum scheinen Sterne zu funkeln, wenn wir sie betrachten?: Sterne haben unterschiedliche Farben ## Die atmosphärischen Schichten der Erde biegen ihre Lichtstrahlen ## Sterne schwanken in ihrer Größe ## nur kleine Sterne funkeln: 1:
-5: Wie heißt der Stern, der unserer Erde am nächsten liegt?: Sol ## Polaris ## Alpha Centauri ## Andromeda: 0:
-6: Wie weit ist unsere Sonne von der Erde entfernt, ungefähr ...?: 93 Lichtjahre ## 150 Millionen Kilometer ## 150 Milliarden Kilometer ## 150 Billionen Kilometer: 1:
-7: Warum leuchten Planeten ?: Planeten haben ihre eigene Energiequelle ## sie reflektieren die Sonne ## unsere Galaxie leuchtet ## weil wir uns nicht in einem schwarzen Loch befinden: 1:
-8: Das Wort "Planet" kommt von einem griechischen Wort und bedeutet ...?: Fuzzy-Schneeball ## Wanderer ## großer Meteor ## Atlas: 1:
-9: Was ist ein 'Nebel' ?: Ein sich schnell bewegender Komet ## der Schatten entfernter Sterne ## ein neuer Stern ## eine Wolke aus Gas und Staub: 3:
+0:What is the largest known star?:UY Scuti##Betelgeuse##VY Canis majoris##Pollux:0:
+1:What is the most dense kind of star?:Red giant##Neutron star##Black dwarf##White dwarf:1:
+2:What is the closest galaxy to ours?:Barnards galaxy##NGC 24 19##Andromeda##Ic 1101:2:
+3:What is our galaxy called?:Earth##Milky Way##Andromeda##Universe:1:
+4:How many Stars are in our Galaxy?:16 Million##5 Thousand##250 Billion##1 Billion::
+5:What is the universe mostly composed of?:Dark matter##Dark energy##Light##Visible matter:1:
+6:What is the brightest star in the sky?:Sirius##Andromeda##Orion##Polaris::

@@ -24,7 +24,7 @@ public class AstronomyScreenManager extends CampaignScreenManager {
         questions = questions.subList(0, 7);
         GameContext gameContext = new GameContextService().createGameContext(questions.toArray(new Question[questions.size()]));
         showCampaignGameScreen(gameContext, null);
-//        showCampaignScreen();
+        showCampaignScreen();
     }
 
     @Override

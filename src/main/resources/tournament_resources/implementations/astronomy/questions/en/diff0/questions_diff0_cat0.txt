@@ -1,9 +1,10 @@
-0:Mercury is the planet closest to the sun, but why is Venus the hottest planet?:Venus rotates around Mercury every 20 years##Venus has the greenhouse effect##Mercury has a strong wind that cools the planet##Venus gets more of the suns rays than Mercury:1:
-1:Which of these is true about Jupiter?:It is the only planet besides Earth to have life##It is one of the terrestrial planets##It is the densest planet##It is 90% hydrogen and 10% helium:3:
-2:Which of these was once considered an asteroid?:Jupiter##Mars##Neptune##Pluto:3:
-3:What planet besides Earth has seasons?:Venus##Mars##Mercury##Jupiter:1:
-4:What planet is known as the Earth's twin?:Mars##Venus##Jupiter##Saturn:1:
-5:What is the farthest planet that can be seen without a telescope or binoculars?:Saturn##Jupiter##Neptune##Uranus:3:
-6:When did the spacecraft Ulysses reach Jupiter?:1990##1992##1984##1989:1:
-7:What probe was sent to Saturn in 1977?:Pioneer##Huygens##Saturn Cassini##Voyager 1&2:3:
-8:What 20-year period did Pluto stay inside Neptune's orbit?:Jan 23, 1979 - Feb 11, 1999##Dec 31, 1968 - Jan 1, 1989##Jan 1, 1950 - Dec 31, 1969##July 13, 1937 - July 20, 1959:0:
+0::The Sun:1,2,3:44,44:0
+1::Mercury:4,2,9:39,82:0
+2::Venus:1,8,5:49,60:0
+3::Earth:4,2,6:36,18:0
+4::Mars:8,7,1:50,18:0
+5::Jupiter:4,6,7:57,41:0
+6::Saturn:5,2,9:50,81:0
+7::Uranus:6,9,4:42,38:0
+8::Neptune:2,1,0:48,32:0
+9::Pluto:2,8,3:43,9:0

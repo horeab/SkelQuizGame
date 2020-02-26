@@ -1,15 +1,7 @@
-0: Welcher Saturnmond wurde durch das Objekt, das den Herschelkrater auf seiner Oberfläche hervorbrachte, fast zerstört?: Rhea ## Iapetus ## Mimas ## Titan: 2:
-1: 2136 v. Die beiden Astronomen des kaiserlichen Hofes in China wurden hingerichtet, weil sie keine Sonnenfinsternis vorhergesagt hatten. Nennen Sie sie ?: Tsung und Chang ## Hsi und Ho ## Chin und Hsi ## Hoy und Ho: 1:
-2: In welchem ​​Jahr begann Galileo Galilei mit dem kürzlich erfundenen optischen Teleskop den Himmel zu beobachten ?: 1604 ## 1609 ## 1610 ## 1608: 1:
-3: Wie groß ist die Sonne scheinbare Helligkeit von der Erde?: - 26,72 ## - 27,4 ## - 25 ## - 26,36: 0:
-4: Welcher Planet in unserem Sonnensystem ist weniger dicht als Wasser, was bedeutet, dass dieser Planet schweben würde, wenn alle Planeten in einen riesigen Ozean gebracht würden ?: Uranus ## Jupiter ## Saturn ## Pluto: 2:
-5: Welcher der vier großen galiläischen Monde um Jupiter ist dem Planeten am nächsten ?: Ganymed ## Io ## Callisto ## Europa: 1:
-6: Wie lang ist das Sternjahr der Erde?: 365,87 Tage ## 365,256 Tage ## 365,242 Tage ## 364,987 Tage: 1:
-7: Wie lang ist ein durchschnittliches tropisches Jahr ?: 366.012 Tage ## 365.256 Tage ## 365.242 Tage ## 365.687 Tage: 2:
-8: Im Jahr 14.000 wird welcher Stern der Polstern sein ?: Thuban ## Sirius ## Polaris ## Vega: 3:
-9: In welchem ​​weiten Gebiet (50.000-100.000 A.U. im Umfang) stammen vermutlich die meisten langperiodischen Kometen ?: Oort Cloud ## Hubble Belt ## Kuiper Belt ## Schiaparelli Cloud: 0:
-10: Wie lang ist der Sternentag des Mondes ?: 26,6 Erdentage ## 28 Erdentage ## 27,3 Erdentage ## 29,4 Erdentage: 2:
-11: Welcher amerikanische Astronom beschrieb in 1944 erstmals eine Untergruppe von Spiralgalaxien, die durch eine helle zentrale Region mit starken, breiten Emissionslinien gekennzeichnet sind ?: Edwin Hubble ## Carl K. Seyfert ## Percival Lowell ## Clyde Tombaugh: 1:
-12: Mars hat zwei Monde - Phobos und Deimos. Was bedeuten diese Namen wörtlich?: Glück und Freude ## Terror und Blut ## Angst und Terror ## Krieg und Tod: 2:
-13: Wie viele Planeten haben Ringe ?: 4 ## 2 ## 1 ## 3: 0:
-14: Welcher Planet ist der größte der terrestrischen Planeten ?: Erde ## Venus ## Jupiter ## Mars: 0:
+0:What is the hottest planet in the universe?:Venus######::
+1:What is the coldest planet?:Uranus######::
+2:Which planet in our solar system has the most moons?:Jupiter######::
+3:Which planet is the largest of the terrestrial planets?:Earth######::
+4:Which planet has the strongest winds?:Neptune######::
+5:Which planet is a rocky planet?Mercury:######::
+6:What is the 4th planet in the Solar System?:Mars######::
