@@ -54,6 +54,7 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     ASTRONOMY_CATEG2(AstronomySpecificResource.campaign_level_0_2, AstronomySpecificResource.campaign_level_0_2, AstronomySpecificResource.campaign_level_0_2, AstronomySpecificResource.campaign_level_0_2, null),
     ASTRONOMY_CATEG3(AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3, null),
     ASTRONOMY_CATEG4(AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, null),
+    ASTRONOMY_CATEG5(AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5, null),
     ;
 
     GameButtonSkin(Res imgUp, Res imgDown, Res imgChecked, Res imgDisabled, FontColor buttonDisabledFontColor) {

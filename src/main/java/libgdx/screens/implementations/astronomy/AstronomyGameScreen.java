@@ -45,8 +45,12 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
             new GameStatsDbApiService().incrementGameStatsQuestionsWon(Game.getInstance().getCurrentUser().getId(), Long.valueOf(DateUtils.getNowMillis()).toString());
         }
         allTable = new Table();
-        float dimen = MainDimen.vertical_general_margin.getDimen();
-        QuestionContainerCreatorService questionContainerCreatorService = new AstronomyQuestionContainerCreatorService(gameContext, this);
+        QuestionContainerCreatorService questionContainerCreatorService;
+        if (gameContext.getQuestion().getQuestionCategory().getCreatorDependencies() == ImageClickGameCreatorDependencies.class) {
+            questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
+        } else {
+            questionContainerCreatorService = new AstronomyQuestionContainerCreatorService(gameContext, this);
+        }
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
         Table headerTable = new HeaderCreator().createHeaderTable(gameContext);

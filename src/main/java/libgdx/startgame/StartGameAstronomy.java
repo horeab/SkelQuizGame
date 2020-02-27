@@ -39,63 +39,63 @@ public class StartGameAstronomy {
     public static String getTitle() {
         switch (Language.valueOf(Game.getInstance().getAppInfoService().getLanguage())) {
             case cs:
-                return "Anatomie";
+                return "xxx";
             case da:
-                return "Anatomi";
+                return "xxx";
             case de:
-                return "Anatomie Spiel";
+                return "xxx";
             case el:
-                return "Ανατομία";
+                return "xxx";
             case en:
-                return "Anatomy Game";
+                return "Astronomy";
             case es:
-                return "Anatomía";
+                return "xxx";
             case fi:
-                return "Anatomia";
+                return "xxx";
             case fr:
-                return "Anatomie";
+                return "xxx";
             case hi:
-                return "एनाटॉमी";
+                return "xxx";
             case hr:
-                return "Anatomija";
+                return "xxx";
             case hu:
-                return "Anatómia";
+                return "xxx";
             case id:
-                return "Anatomi";
+                return "xxx";
             case it:
-                return "Anatomia";
+                return "xxx";
             case ja:
-                return "解剖学";
+                return "xxx";
             case ko:
-                return "해부";
+                return "xxx";
             case ms:
-                return "Anatomi";
+                return "xxx";
             case nl:
-                return "Anatomie";
+                return "xxx";
             case no:
-                return "Anatomi-spill";
+                return "xxx";
             case pl:
-                return "Anatomia";
+                return "xxx";
             case pt:
-                return "Anatomia";
+                return "xxx";
             case ro:
-                return "Anatomie";
+                return "xxx";
             case ru:
-                return "Игра Анатомия";
+                return "xxx";
             case sk:
-                return "Anatómia";
+                return "xxx";
             case sv:
-                return "Anatomi";
+                return "xxx";
             case th:
-                return "กายวิภาคศาสตร์";
+                return "xxx";
             case tr:
-                return "Anatomi Oyunu";
+                return "xxx";
             case uk:
-                return "Анатомія";
+                return "xxx";
             case vi:
-                return "Giải phẫu học";
+                return "xxx";
             case zh:
-                return "解剖学";
+                return "xxx";
         }
         return null;
     }

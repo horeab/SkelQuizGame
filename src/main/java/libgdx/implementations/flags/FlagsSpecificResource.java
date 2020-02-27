@@ -13,9 +13,9 @@ public enum FlagsSpecificResource implements SpecificResource {
     
     campaign_level_0_0("campaign/level_0_0.png", Texture.class),
     campaign_level_0_1("campaign/level_0_1.png", Texture.class),
-    campaign_level_0_2("campaign/level_0_2.png", Texture.class),
+    campaign_level_0_2("campaign/level_0_5.png", Texture.class),
     campaign_level_0_3("campaign/level_0_3.png", Texture.class),
-    campaign_level_0_4("campaign/level_0_4.png", Texture.class),
+    campaign_level_0_4("campaign/level_0_5.png", Texture.class),
     ;
     // @formatter:on
 

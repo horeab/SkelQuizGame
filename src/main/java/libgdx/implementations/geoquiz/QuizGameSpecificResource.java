@@ -37,9 +37,9 @@ public enum QuizGameSpecificResource implements SpecificResource {
 
     campaign_level_0_0("campaign/l_0/level_0_0.png", Texture.class),
     campaign_level_0_1("campaign/l_0/level_0_1.png", Texture.class),
-    campaign_level_0_2("campaign/l_0/level_0_2.png", Texture.class),
+    campaign_level_0_2("campaign/l_0/level_0_5.png", Texture.class),
     campaign_level_0_3("campaign/l_0/level_0_3.png", Texture.class),
-    campaign_level_0_4("campaign/l_0/level_0_4.png", Texture.class),
+    campaign_level_0_4("campaign/l_0/level_0_5.png", Texture.class),
     campaign_level_1_0("campaign/l_1/level_1_0.png", Texture.class),
     campaign_level_1_1("campaign/l_1/level_1_1.png", Texture.class),
     campaign_level_1_2("campaign/l_1/level_1_2.png", Texture.class),

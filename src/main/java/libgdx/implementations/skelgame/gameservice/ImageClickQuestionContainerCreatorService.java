@@ -1,5 +1,6 @@
 package libgdx.implementations.skelgame.gameservice;
 
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Group;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
@@ -9,6 +10,9 @@ import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
 
+import libgdx.constants.Contrast;
+import libgdx.utils.model.FontColor;
+import libgdx.utils.model.FontConfig;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.tuple.Pair;
 
@@ -51,6 +55,7 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
         Table questionTable = super.createQuestionTable();
         MyWrappedLabel questionLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setFontScale(FontManager.getNormalBigFontDim())
+                .setTextColor(FontColor.BLACK)
                 .setText(StringUtils.capitalize(gameService.getQuestionToBeDisplayed())).build());
         Table table = new Table();
         table.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
@@ -76,7 +81,7 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
             image.setHeight(MainDimen.vertical_general_margin.getDimen() * 18);
             image.setWidth(ScreenDimensionsManager.getNewWidthForNewHeight(image.getHeight(), imgWidth, imgHeight));
         } else {
-            image.setWidth(ScreenDimensionsManager.getScreenWidthValue(130));
+            image.setWidth(ScreenDimensionsManager.getScreenWidthValue(90));
             image.setHeight(ScreenDimensionsManager.getNewHeightForNewWidth(image.getWidth(), imgWidth, imgHeight));
         }
         grp.addActor(image);
@@ -123,6 +128,7 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
     @Override
     protected MyButton createAnswerButton(final String answer) {
         final MyButton button = new ImageButtonBuilder(GameButtonSkin.ANSWER_IMAGE_CLICK, Game.getInstance().getAbstractScreen())
+                .setFontColor(FontColor.BLACK)
                 .setText(StringUtils.capitalize(answer))
                 .setFixedButtonSize(GameButtonSize.IMAGE_CLICK_ANSWER_OPTION)
                 .build();

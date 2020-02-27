@@ -101,18 +101,22 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
 
     private void addCategButtons(Table table) {
         table.row();
-        addButtonToTable(table, AstronomyCampaignLevelEnum.LEVEL_0_0);
+        Table btnTable0 = new Table();
+        addButtonToTable(btnTable0, AstronomyCampaignLevelEnum.LEVEL_0_0);
+        btnTable0.add().width(ScreenDimensionsManager.getScreenWidthValue(10));
+        addButtonToTable(btnTable0, AstronomyCampaignLevelEnum.LEVEL_0_1);
+        table.add(btnTable0);
         table.row();
         Table btnTable1 = new Table();
-        addButtonToTable(btnTable1, AstronomyCampaignLevelEnum.LEVEL_0_1);
-        btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(40));
         addButtonToTable(btnTable1, AstronomyCampaignLevelEnum.LEVEL_0_2);
+        btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(20));
+        addButtonToTable(btnTable1, AstronomyCampaignLevelEnum.LEVEL_0_3);
         table.add(btnTable1);
         table.row();
         Table btnTable2 = new Table();
-        addButtonToTable(btnTable2, AstronomyCampaignLevelEnum.LEVEL_0_3);
-        btnTable2.add().width(ScreenDimensionsManager.getScreenWidthValue(15));
         addButtonToTable(btnTable2, AstronomyCampaignLevelEnum.LEVEL_0_4);
+        btnTable2.add().width(ScreenDimensionsManager.getScreenWidthValue(30));
+        addButtonToTable(btnTable2, AstronomyCampaignLevelEnum.LEVEL_0_5);
         table.add(btnTable2).padBottom(MainDimen.vertical_general_margin.getDimen() * 2);
     }
 
@@ -127,6 +131,7 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
                 .animateZoomInZoomOut()
                 .setAnimateZoomInZoomOutAmount(0.05f)
                 .setFontScale(FontManager.getSmallFontDim())
+                .setFontColor(FontColor.BLACK)
                 .setFixedButtonSize(GameButtonSize.ASTRONOMY_MENU_BUTTON)
                 .setText(new CampaignLevelEnumService(campaignLevel).getLabelText())
                 .build();

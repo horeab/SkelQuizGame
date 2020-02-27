@@ -10,7 +10,7 @@ import java.util.List;
 
 public class GameContextService {
 
-    private int AMOUNT_AVAILABLE_HINTS = 2;
+    private int AMOUNT_AVAILABLE_HINTS = 0;
 
     public GameContext createGameContext(QuestionConfig questionConfig) {
         return createGameContext(AMOUNT_AVAILABLE_HINTS, questionConfig);

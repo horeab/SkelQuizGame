@@ -19,7 +19,7 @@ public class AstronomyScreenManager extends CampaignScreenManager {
     @Override
     public void showMainScreen() {
         List<Question> questions = new ArrayList<>();
-        questions.addAll(new QuestionCreator().getAllQuestions(Arrays.asList(AstronomyDifficultyLevel._0), AstronomyCategoryEnum.cat0));
+        questions.addAll(new QuestionCreator().getAllQuestions(Arrays.asList(AstronomyDifficultyLevel._0), AstronomyCategoryEnum.cat5));
         Collections.shuffle(questions);
         questions = questions.subList(0, 7);
         GameContext gameContext = new GameContextService().createGameContext(questions.toArray(new Question[questions.size()]));
