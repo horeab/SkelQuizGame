@@ -1,37 +1,28 @@
 package libgdx.screens.implementations.astronomy;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
-import com.badlogic.gdx.scenes.scene2d.ui.*;
-import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
+import com.badlogic.gdx.scenes.scene2d.ui.Cell;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.Stack;
+import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import libgdx.campaign.*;
-import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
-import libgdx.controls.button.builders.ButtonWithIconBuilder;
 import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
-import libgdx.controls.labelimage.LabelImageConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.anatomy.AnatomyCampaignLevelEnum;
-import libgdx.implementations.anatomy.AnatomyGame;
 import libgdx.implementations.astronomy.AstronomyCampaignLevelEnum;
 import libgdx.implementations.astronomy.AstronomyGame;
-import libgdx.implementations.conthistory.ConthistoryCampaignLevelEnum;
-import libgdx.implementations.conthistory.ConthistoryCategoryEnum;
-import libgdx.implementations.conthistory.ConthistoryGame;
+import libgdx.implementations.astronomy.AstronomySpecificResource;
 import libgdx.implementations.conthistory.ConthistorySpecificResource;
 import libgdx.implementations.skelgame.*;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
-import libgdx.implementations.skelgame.gameservice.QuizStarsService;
 import libgdx.resources.FontManager;
-import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.MainGameLabel;
-import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
 import libgdx.screens.implementations.anatomy.AnatomyGameScreen;
 import libgdx.utils.ScreenDimensionsManager;
@@ -65,7 +56,7 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
 
     protected Stack createTitleStack(MyWrappedLabel titleLabel) {
         Stack stack = new Stack();
-        Image image = GraphicUtils.getImage(ConthistorySpecificResource.title_clouds_background);
+        Image image = GraphicUtils.getImage(AstronomySpecificResource.title_clouds_background);
         stack.addActor(image);
         stack.addActor(titleLabel);
         return stack;
@@ -87,7 +78,7 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
         long totalStarsWon = 0;
         addCategButtons(table);
 
-        if (campaignService.getFinishedCampaignLevels().size() == ConthistoryCampaignLevelEnum.values().length) {
+        if (campaignService.getFinishedCampaignLevels().size() == AstronomyCampaignLevelEnum.values().length) {
             CampaignStoreService campaignStoreService = new CampaignStoreService();
             String gameFinishedText = SkelGameLabel.game_finished.getText();
             if (campaignStoreService.getAllScoreWon() < totalStarsWon) {
@@ -127,13 +118,19 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
     }
 
     private MyButton createCategButton(final CampaignLevel campaignLevel) {
+        final int maxOpenedLevel = allCampaignLevelStores.size();
+        boolean locked = campaignLevel.getIndex() >= maxOpenedLevel;
+        String labelText = new CampaignLevelEnumService(campaignLevel).getLabelText();
+        if (locked) {
+            labelText = "???";
+        }
         MyButton categBtn = new ImageButtonBuilder(GameButtonSkin.valueOf("ASTRONOMY_CATEG" + campaignLevel.getIndex()), getAbstractScreen())
-                .animateZoomInZoomOut()
+                .animateZoomInZoomOut(!locked && maxOpenedLevel - 1 == campaignLevel.getIndex())
                 .setAnimateZoomInZoomOutAmount(0.05f)
                 .setFontScale(FontManager.getSmallFontDim())
                 .setFontColor(FontColor.BLACK)
                 .setFixedButtonSize(GameButtonSize.ASTRONOMY_MENU_BUTTON)
-                .setText(new CampaignLevelEnumService(campaignLevel).getLabelText())
+                .setText(labelText)
                 .build();
         categBtn.addListener(new ClickListener() {
             @Override
@@ -143,6 +140,9 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
                 AstronomyGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), campaignLevel);
             }
         });
+        if (locked) {
+            categBtn.setDisabled(true);
+        }
         return categBtn;
     }
 

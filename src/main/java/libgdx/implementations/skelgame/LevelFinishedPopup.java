@@ -3,6 +3,7 @@ package libgdx.implementations.skelgame;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 
+import libgdx.utils.model.FontColor;
 import org.apache.commons.lang3.StringUtils;
 
 import libgdx.campaign.CampaignLevel;
@@ -39,7 +40,7 @@ public class LevelFinishedPopup extends MyPopup<AbstractScreen, CampaignScreenMa
 
     @Override
     public void addButtons() {
-        MyButton playAgain = new ButtonBuilder().setDefaultButton().setText(SkelGameLabel.play_again.getText()).build();
+        MyButton playAgain = new ButtonBuilder().setFontColor(FontColor.BLACK).setDefaultButton().setText(SkelGameLabel.play_again.getText()).build();
         playAgain.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {

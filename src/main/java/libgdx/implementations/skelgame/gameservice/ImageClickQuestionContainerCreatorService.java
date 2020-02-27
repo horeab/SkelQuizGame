@@ -1,6 +1,5 @@
 package libgdx.implementations.skelgame.gameservice;
 
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Group;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
@@ -10,9 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
 
-import libgdx.constants.Contrast;
 import libgdx.utils.model.FontColor;
-import libgdx.utils.model.FontConfig;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.tuple.Pair;
 
@@ -20,7 +17,6 @@ import java.util.ArrayList;
 import java.util.Map;
 
 import libgdx.controls.animations.ActorAnimation;
-import libgdx.controls.button.ButtonSize;
 import libgdx.controls.button.ButtonSkin;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ImageButtonBuilder;
@@ -33,7 +29,6 @@ import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.question.Question;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
-import libgdx.resources.Resource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screens.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
@@ -55,7 +50,7 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
         Table questionTable = super.createQuestionTable();
         MyWrappedLabel questionLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setFontScale(FontManager.getNormalBigFontDim())
-                .setTextColor(FontColor.BLACK)
+                .setFontColor(FontColor.BLACK)
                 .setText(StringUtils.capitalize(gameService.getQuestionToBeDisplayed())).build());
         Table table = new Table();
         table.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));

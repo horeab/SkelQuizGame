@@ -16,7 +16,6 @@ import libgdx.controls.button.builders.ButtonWithIconBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.controls.labelimage.InAppPurchaseTable;
-import libgdx.controls.popup.InAppPurchasesPopup;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.geoquiz.*;
@@ -63,7 +62,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         Table table = new Table();
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
         MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
-                .setTextColor(FontColor.BLACK)
+                .setFontColor(FontColor.BLACK)
                 .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.7f))
                 .setText(Game.getInstance().getAppInfoService().getAppName()).build());
         titleLabel.setBackground(GraphicUtils.getNinePatch(QuizGameSpecificResource.title_backgr));
