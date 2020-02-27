@@ -1,7 +1,7 @@
-0:What is the first spacecraft launched into the outer space?:Voyager##Viking 1##Vostok 1##Sputnik:2:
-1:What probe was sent to Saturn in 1977?:Pioneer##Huygens##Saturn Cassini##Voyager 1:3:
-2:What is the farthest planet that can be seen without a telescope or binoculars?:Saturn##Jupiter##Neptune##Uranus:3:
-3:Who was the first person to land on the moon?:Neil Armstrong##Alan Shepard##Buzz Aldrin##Alan Bean:0:
-4:What Spacecraft is Orbiting Around Jupiter?:Juno##Lander##Vostok##Cassini:0:
-5:When was Pluto discovered?:1930##1834##1956##1975:0:
-6:Who is the first man to orbit the earth?:Yuri Gagarin##Neil Armstrong##Buzz Aldrin##Alan Shepard:0:
+0: Was ist das erste Raumschiff, das in den Weltraum gestartet wurde ?: Voyager ## Viking 1 ## Vostok 1 ## Sputnik: 2:
+1: Welche Sonde wurde 1977 an Saturn geschickt?: Pionier ## Huygens ## Saturn Cassini ## Voyager 1: 3:
+2: In welchem Jahr begann Galileo Galilei mit dem Teleskop den Himmel zu erkunden ?: 1704 ## 1609 ## 1510 ## 1653: 1:
+3: Wer war der erste, der auf dem Mond landete?: Neil Armstrong ## Alan Shepard ## Buzz Aldrin ## Alan Bean: 0:
+4: Welches Raumschiff umkreist Jupiter?: Juno ## Lander ## Vostok ## Cassini: 0:
+5: Wann wurde Pluto entdeckt ?: 1930 ## 1834 ## 1956 ## 1975: 0:
+6: Wer ist der erste Mann, der die Erde umkreist?: Yuri Gagarin ## Neil Armstrong ## Buzz Aldrin ## Alan Shepard: 0:

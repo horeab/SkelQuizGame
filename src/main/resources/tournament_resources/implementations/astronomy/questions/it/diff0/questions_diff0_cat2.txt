@@ -1,0 +1,7 @@
+0: Qual è la stella più grande conosciuta?: UY Scuti ## Betelgeuse ## VY Canis majoris ## Pollux: 0:
+1: Qual è il tipo di stella più denso?: Gigante rosso ## Stella di neutroni ## Nano nero ## Nano bianco: 1:
+2: Qual è la galassia più vicina alla nostra?: Galassia di Barnard ## NGC 24 19 ## Andromeda ## Ic 1101: 2:
+3: Come si chiama la nostra galassia?: Terra ## Via Lattea ## Andromeda ## Universo: 1:
+4: Quante stelle ci sono nella nostra galassia?: 16 milioni ## 5 mila ## 250 miliardi ## 1 miliardi: 2:
+5: In che cosa consiste principalmente l'universo?: Materia oscura ## Energia oscura ## Luce ## Materia visibile: 1:
+6: Qual è la stella più luminosa del cielo?: Sirius ## Andromeda ## Orion ## Polaris: 0:

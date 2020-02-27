@@ -1,7 +1,7 @@
-0:What is the largest known star?:UY Scuti##Betelgeuse##VY Canis majoris##Pollux:0:
-1:What is the most dense kind of star?:Red giant##Neutron star##Black dwarf##White dwarf:1:
-2:What is the closest galaxy to ours?:Barnards galaxy##NGC 24 19##Andromeda##Ic 1101:2:
-3:What is our galaxy called?:Earth##Milky Way##Andromeda##Universe:1:
-4:How many Stars are in our Galaxy?:16 Million##5 Thousand##250 Billion##1 Billion::
-5:What is the universe mostly composed of?:Dark matter##Dark energy##Light##Visible matter:1:
-6:What is the brightest star in the sky?:Sirius##Andromeda##Orion##Polaris::
+0: Was ist der größte bekannte Stern ?: UY Scuti ## Betelgeuse ## VY Canis majoris ## Pollux: 0:
+1: Was ist die dichteste Art von Stern?: Roter Riese ## Neutronenstern ## Schwarzer Zwerg ## Weißer Zwerg: 1:
+2: Was ist unsere Galaxie am nächsten?: Barnards Galaxie ## NGC 24 19 ## Andromeda ## Ic 1101: 2:
+3: Wie heißt unsere Galaxie?: Erde ## Milchstraße ## Andromeda ## Universum: 1:
+4: Wie viele Sterne gibt es in unserer Galaxie ?: 16 Millionen ## 5 Tausend ## 250 Milliarden ## 1 Milliarde: 2:
+5: Woraus besteht das Universum hauptsächlich ?: Dunkle Materie ## Dunkle Energie ## Licht ## Sichtbare Materie: 1:
+6: Was ist der hellste Stern am Himmel?: Sirius ## Andromeda ## Orion ## Polaris: 0:

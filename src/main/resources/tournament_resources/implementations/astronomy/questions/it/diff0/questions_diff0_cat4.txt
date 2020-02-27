@@ -1,5 +1,5 @@
-0 :: Hubble-Teleskop: 1,3,6: 0
-1 :: Internationale Raumstation: 0,2,4: 1
+0 :: Telescopio Hubble: 1,3,6: 0
+1 :: Stazione spaziale internazionale: 0,2,4: 1
 2 :: Gran Telescopio Canarias: 3,4,5: 2
 3 :: Sputnik: 1,6,0: 3
 4 :: Apollo 11: 5,1,2: 4

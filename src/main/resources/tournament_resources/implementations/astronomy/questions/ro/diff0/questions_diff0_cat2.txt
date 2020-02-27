@@ -1,0 +1,7 @@
+0: Care este cea mai mare stea cunoscută ?: UY Scuti ## Betelgeuse ## VY Canis majoris ## Pollux: 0:
+1: Care este cel mai dens tip de stea ?: Gigantul roșu ## Steaua neutronă ## Piticul negru ## Piticul alb: 1:
+2: Care este galaxia cea mai apropiată de a noastră ?: Galaxia lui Barnard ## NGC 24 19 ## Andromeda ## Ic 1101: 2:
+3: Cum se numește galaxia noastră ?: Pământ ## Calea Lactee ## Andromeda ## Univers: 1:
+4: Câte stele sunt în galaxia noastră ?: 16 milioane ## 5 mii ## 250 miliarde ## 1 miliarde: 2:
+5: Din ce este format universul în cea mai mare parte ?: materie întunecată ## energie întunecată ## lumină ## Materie vizibilă: 1:
+6: Care este cea mai strălucitoare stea din cer ?: Sirius ## Andromeda ## Orion ## Polaris: 0:

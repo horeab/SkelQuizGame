@@ -1,7 +1,7 @@
 0:How many planets are there in the solar system?:8##9##10##11:0:
-1:How far away from the Earth is our sun, approximately...?:93 light years##150 million kilometers##150 billion kilometers##150 trillion kilometers:1:
-2:What is the moon?:Asteroid##Star##Natural Satellite##Planet:2:
+1:How far away from Terra is our sun, approximately...?:93 light years##150 million kilometers##150 billion kilometers##150 trillion kilometers:1:
+2:What is the moon?:asteroid##star##natural satellite##planet:2:
 3:Approximately how old is the earth?:6 billion years##4 billion years##1 billion years##4 trillion years:1:
-4:What does the earth's tilt cause?:The seasons##Day and Night##Tsunamis##Earthquakes:0:
-5:What is the shape of the earth's orbit around the sun?:Circular##Elliptical##Square to rectangular##Variable:1:
-6:Where is the asteroid belt located?:Beyond Pluto##Around the Sun##Between Mars and Jupiter##Between Earth and Mars:2:
+4:What result does the earth's tilt have?:The seasons##Day and Night##Tsunami##Earthquakes:0:
+5:What is the shape of the earth's orbit around the sun?:Circular##Elliptical##Square##Variable:1:
+6:Where is the asteroid belt located?:beyond Pluto##around the Sun##between Mars and Jupiter##between Earth and Mars:2:

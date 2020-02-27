@@ -1,0 +1,7 @@
+0: ¿Cuántos planetas hay en el sistema solar?: 8 ## 9 ## 10 ## 11: 0:
+1: ¿A qué distancia de la Tierra está nuestro sol, aproximadamente ...?: 93 años luz ## 150 millones de kilómetros ## 150 mil millones de kilómetros ## 150 trillones de kilómetros: 1:
+2: ¿Qué es la luna?: Asteroide ## Estrella ## Satélite natural ## Planeta: 2:
+3: ¿Aproximadamente cuántos años tiene la Tierra ?: 6 mil millones de años ## 4 mil millones de años ## 1 mil millones de años ## 4 billones de años: 1:
+4: ¿Qué resultado tiene la inclinación de la tierra ?: Las estaciones ## Día y noche ## Tsunamis ## Terremotos: 0:
+5: ¿Cuál es la forma de la órbita de la tierra alrededor del sol ?: Circular ## Elíptica ## Cuadrada ## Variable: 1:
+6: ¿Dónde se encuentra el cinturón de asteroides?: Más allá de Plutón ## Alrededor del Sol ## Entre Marte y Júpiter ## Entre la Tierra y Marte: 2:

@@ -1,7 +1,7 @@
-0:How many planets are there in the solar system?:8##9##10##11:0:
-1:How far away from the Earth is our sun, approximately...?:93 light years##150 million kilometers##150 billion kilometers##150 trillion kilometers:1:
-2:What is the moon?:Asteroid##Star##Natural Satellite##Planet:2:
-3:Approximately how old is the earth?:6 billion years##4 billion years##1 billion years##4 trillion years:1:
-4:What does the earth's tilt cause?:The seasons##Day and Night##Tsunamis##Earthquakes:0:
-5:What is the shape of the earth's orbit around the sun?:Circular##Elliptical##Square to rectangular##Variable:1:
-6:Where is the asteroid belt located?:Beyond Pluto##Around the Sun##Between Mars and Jupiter##Between Earth and Mars:2:
+0: Wie viele Planeten gibt es im Sonnensystem ?: 8 ## 9 ## 10 ## 11: 0:
+1: Wie weit ist unsere Sonne von der Erde entfernt, ungefähr ...?: 93 Lichtjahre ## 150 Millionen Kilometer ## 150 Milliarden Kilometer ## 150 Billionen Kilometer: 1:
+2: Was ist der Mond ?: Asteroid ## Stern ## Natürlicher Satellit ## Planet: 2:
+3: Wie alt ist die Erde ungefähr? 6 Milliarden Jahre ## 4 Milliarden Jahre ## 1 Milliarde Jahre ## 4 Billionen Jahre: 1:
+4: Welches Ergebnis hat die Neigung der Erde??: Die Jahreszeiten ## Tag und Nacht ## Tsunamis ## Erdbeben: 0:
+5: Wie ist die Form der Erdumlaufbahn um die Sonne?: Kreisförmig ## Elliptisch ## Quadratisch## Variabel: 1:
+6: Wo befindet sich der Asteroidengürtel? Jenseits von Pluto ## Um die Sonne ## Zwischen Mars und Jupiter ## Zwischen Erde und Mars: 2:

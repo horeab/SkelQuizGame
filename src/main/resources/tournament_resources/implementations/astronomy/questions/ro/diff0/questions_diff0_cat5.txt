@@ -1,0 +1,7 @@
+0: Care este prima navă spațială lansată în spațiu ?: Voyager ## Viking 1 ## Vostok 1 ## Sputnik: 2:
+1: Ce sondă a fost trimisă către Saturn în 1977 ?: Pioneer ## Huygens ## Saturn Cassini ## Voyager 1: 3:
+2: În ce an a început Galileo Galilei să folosească telescopul pentru a explora cerul ?: 1704 ## 1609 ## 1510 ## 1653: 1:
+3: Cine a fost prima persoană care a aterizat pe lună ?: Neil Armstrong ## Alan Shepard ## Buzz Aldrin ## Alan Bean: 0:
+4: Ce navă spațială orbitează în jurul lui Jupiter ?: Juno ## Lander ## Vostok ## Cassini: 0:
+5: Când a fost descoperit Pluto ?: 1930 ## 1834 ## 1956 ## 1975: 0:
+6: Cine a fost primul om care a orbitat în jurul pământului ?: Yuri Gagarin ## Neil Armstrong ## Buzz Aldrin ## Alan Shepard: 0:
