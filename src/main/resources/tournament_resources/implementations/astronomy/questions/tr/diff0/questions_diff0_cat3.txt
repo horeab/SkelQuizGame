@@ -1,0 +1,7 @@
+0:Evrendeki en sıcak gezegen nedir?:Venüs:1,2,3:
+1:En soğuk gezegen nedir?:Uranüs:4,5,6:
+2:Güneş sistemimizde hangi gezegenden en çok uydu var?:Jüpiter:0,3,4:
+3:Hangi gezegen karasal gezegenlerin en büyüğü?:Terra:1,2,5:
+4:Hangi gezegenin en güçlü rüzgarları var?:Neptün:3,5,6:
+5:Hangi gezegen kayalık bir gezegendir?:Merkür:1,2,4:
+6:Güneş sistemindeki 4. gezegen nedir?:Mars:1,4,5:

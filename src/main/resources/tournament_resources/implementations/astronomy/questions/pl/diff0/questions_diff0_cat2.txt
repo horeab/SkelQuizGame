@@ -1,0 +1,7 @@
+0:Jaka jest największa znana gwiazda?:UY Scuti##Betelgeuse##VY Canis majoris##Pollux:0:
+1:Jaka jest najgęstsza gwiazda?:Czerwony gigant##Gwiazda neutronowa##Czarny karzeł##Biały karzeł:1:
+2:Jaka jest galaktyka najbliższa naszej?:Galaktyka Barnarda##NGC 24 19##Andromeda##Ic 1101:2:
+3:Jak nazywa się nasza galaktyka?:Terra##Droga Mleczna##Andromeda##Wszechświat:1:
+4:Ile gwiazd jest w naszej galaktyce?:16 milionów##5 tysięcy##250 miliardów##1 miliard:2:
+5:Z czego składa się wszechświat?:Ciemna materia##Ciemna energia##Światło##Widoczna materia:1:
+6:Jaka jest najjaśniejsza gwiazda na niebie?:Syriusz##Andromeda##Orion##Polaris:0:

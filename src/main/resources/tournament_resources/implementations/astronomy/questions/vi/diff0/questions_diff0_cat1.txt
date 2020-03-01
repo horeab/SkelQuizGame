@@ -1,0 +1,7 @@
+0:Có bao nhiêu hành tinh trong hệ mặt trời?:8##9##10##11:0:
+1:Mặt trời của chúng ta cách mặt trời của chúng ta bao xa, khoảng ...?:93 năm ánh sáng##150 triệu km##150 tỷ km##150 nghìn tỷ km:1:
+2:Mặt trăng là gì?:Tiểu hành tinh##sao##vệ tinh tự nhiên##hành tinh:2:
+3:Trái đất bao nhiêu tuổi?:6 tỷ năm##4 tỷ năm##1 tỷ năm##4 nghìn tỷ năm:1:
+4:Độ nghiêng của trái đất có kết quả gì?:Các mùa##Ngày và Đêm##Sóng thần##Động đất:0:
+5:Hình dạng quỹ đạo của trái đất quanh mặt trời là gì?:Thông tư##Hình elip##Hình vuông##Biến:1:
+6:Vành đai tiểu hành tinh nằm ở đâu?:Ngoài Sao Diêm Vương##quanh Mặt trời##giữa Sao Hỏa và Sao Mộc##giữa Trái Đất và Sao Hỏa:2:

@@ -1,0 +1,7 @@
+0:Berapa banyak planet yang ada di dalam sistem solar?:8##9##10##11:0:
+1:Seberapa jauh Terra adalah matahari kita, kira-kira ...?:93 tahun cahaya##150 juta kilometer##150 bilion kilometer##150 trilion kilometer:1:
+2:Apakah bulan?:Asteroid##bintang##satelit semulajadi##planet:2:
+3:Kira-kira berapa umur bumi:6 bilion tahun##4 bilion tahun##1 bilion tahun##4 triliun tahun:1:
+4:Keputusan apa yang miring bumi mempunyai?:Musim##Hari dan Malam##Tsunami##Gempa Bumi:0:
+5:Apakah bentuk orbit bumi mengelilingi matahari?:Pekeliling##Elliptical##dataran##Variabel:1:
+6:Di mana sabuk asteroid terletak:di luar Pluto##mengelilingi Matahari##antara Marikh dan Jupiter##antara Bumi dan Marikh:2:

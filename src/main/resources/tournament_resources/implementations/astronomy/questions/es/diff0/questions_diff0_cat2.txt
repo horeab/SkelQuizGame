@@ -1,7 +1,7 @@
-0: ¿Cuál es la estrella más grande conocida ?: UY Scuti ## Betelgeuse ## VY Canis majoris ## Pollux: 0:
-1: ¿Cuál es el tipo de estrella más denso ?: Gigante rojo ## Estrella de neutrones ## Enana negra ## Enana blanca: 1:
-2: ¿Cuál es la galaxia más cercana a la nuestra ?: La galaxia de Barnard ## NGC 24 19 ## Andromeda ## Ic 1101: 2:
-3: ¿Cómo se llama nuestra galaxia ?: Tierra ## Vía Láctea ## Andrómeda ## Universo: 1:
-4: ¿Cuántas estrellas hay en nuestra galaxia?: 16 millones ## 5 mil ## 250 mil millones ## 1 mil millones: 2:
-5: ¿De qué está compuesto principalmente el universo?: Materia oscura ## Energía oscura ## Luz ## Materia visible: 1:
-6: ¿Cuál es la estrella más brillante del cielo?: Sirius ## Andromeda ## Orion ## Polaris: 0:
+0:¿Cuál es la estrella más grande conocida?:UY Scuti##Betelgeuse##VY Canis majoris##Pollux:0:
+1:¿Cuál es el tipo de estrella más denso?:Gigante rojo##Estrella de neutrones##Enana negra##Enana blanca:1:
+2:¿Cuál es la galaxia más cercana a la nuestra?:La galaxia de Barnard##NGC 24 19##Andromeda##Ic 1101:2:
+3:¿Cómo se llama nuestra galaxia?:Tierra##Vía Láctea##Andrómeda##Universo:1:
+4:¿Cuántas estrellas hay en nuestra galaxia?:16 millones##5 mil##250 mil millones##1 mil millones:2:
+5:¿De qué está compuesto principalmente el universo?:Materia oscura##Energía oscura##Luz##Materia visible:1:
+6:¿Cuál es la estrella más brillante del cielo?:Sirius##Andromeda##Orion##Polaris:0:

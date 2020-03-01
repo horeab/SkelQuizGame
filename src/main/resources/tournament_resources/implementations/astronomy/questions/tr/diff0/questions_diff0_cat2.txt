@@ -1,0 +1,7 @@
+0:Bilinen en büyük yıldız nedir?:UY Scuti##Betelgeuse##VY Canis majoris##Pollux:0:
+1:En yoğun yıldız türü nedir?:Kırmızı dev##Nötron yıldızı##Kara cüce##Beyaz cüce:1:
+2:Bizimkine en yakın galaksi nedir?:Barnard galaksisi##NGC 24 19##Andromeda##Ic 1101:2:
+3:Galaksimiz ne denir?:Terra##Samanyolu##Andromeda##Evren:1:
+4:Galaksimizde kaç yıldız var?:16 Milyon##5 Bin##250 Milyar##1 Milyar:2:
+5:Evren çoğunlukla neyden oluşur?:Karanlık madde##Karanlık enerji##Işık##Görünür madde:1:
+6:Gökyüzündeki en parlak yıldız nedir?:Sirius##Andromeda##Orion##Polaris:0:

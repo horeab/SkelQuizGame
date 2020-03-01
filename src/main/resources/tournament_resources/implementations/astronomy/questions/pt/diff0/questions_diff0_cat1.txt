@@ -1,7 +1,7 @@
-0: Quantos planetas existem no sistema solar?: 8 ## 9 ## 10 ## 11: 0:
-1: A que distância da Terra está o nosso sol, aproximadamente ...?: 93 anos-luz ## 150 milhões de quilômetros ## 150 bilhões de quilômetros ## 150 trilhões de quilômetros: 1:
-2: O que é a lua?: Asteróide ## Estrela ## Satélite Natural ## Planeta: 2:
-3: Aproximadamente quantos anos tem a Terra?: 6 bilhões de anos ## 4 bilhões de anos ## 1 bilhão de anos ## 4 trilhões de anos: 1:
-4: Qual o resultado da inclinação da Terra?: As estações ## Dia e Noite ## Tsunamis ## Terremotos: 0:
-5: Qual é a forma da órbita da Terra ao redor do Sol?: Circular ## Elíptico ## Quadrado ## Variável: 1:
-6: Onde está localizado o cinturão de asteróides?: Além de Plutão ## Em torno do sol ## Entre Marte e Júpiter ## Entre Terra e Marte: 2:
+0:Quantos planetas existem no sistema solar?:8##9##10##11:0:
+1:A que distância da Terra está o nosso sol, aproximadamente ...?:93 anos-luz##150 milhões de quilômetros##150 bilhões de quilômetros##150 trilhões de quilômetros:1:
+2:O que é a lua?:Asteróide##Estrela##Satélite Natural##Planeta:2:
+3:Aproximadamente quantos anos tem a Terra?:6 bilhões de anos##4 bilhões de anos##1 bilhão de anos##4 trilhões de anos:1:
+4:Qual o resultado da inclinação da Terra?:As estações##Dia e Noite##Tsunamis##Terremotos:0:
+5:Qual é a forma da órbita da Terra ao redor do Sol?:Circular##Elíptico##Quadrado##Variável:1:
+6:Onde está localizado o cinturão de asteróides?:Além de Plutão##Em torno do sol##Entre Marte e Júpiter##Entre Terra e Marte:2:

@@ -1,0 +1,7 @@
+0:Güneş sisteminde kaç gezegen var?:8##9##10##11:0:
+1:Güneşimizden Terra'ya ne kadar uzak, yaklaşık ...?:93 ışık yılı##150 milyon kilometre##150 milyar kilometre##150 trilyon kilometre:1:
+2:Ay nedir?:Asteroit##yıldız##doğal uydu##gezegen:2:
+3:Dünya yaklaşık olarak kaç yaşında?:6 milyar yıl##4 milyar yıl##1 milyar yıl##4 trilyon yıl:1:
+4:Dünyanın eğiminin sonucu nedir?:Mevsimler##Gündüz ve Gece##Tsunami##Depremler:0:
+5:Dünyanın güneş çevresindeki yörüngesinin şekli nedir?:Dairesel##Eliptik##Kare##Değişken:1:
+6:Asteroit kuşağı nerededir?:Mars ve Jüpiter arasında Güneş##etrafında Pluto##ötesinde##Dünya ve Mars arasında:2:

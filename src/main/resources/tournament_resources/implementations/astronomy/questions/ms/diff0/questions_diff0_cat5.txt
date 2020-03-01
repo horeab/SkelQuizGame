@@ -1,0 +1,7 @@
+0:Apa kapal angkasa yang pertama dilancarkan ke angkasa?:Voyager##Viking 1##Vostok 1##Sputnik:2:
+1:Siasatan apa yang dihantar ke Saturnus pada tahun 1977?:Perintis##Huygens##Saturn Cassini##Voyager 1:3:
+2:Dalam tahun apa Galileo Galilei mula menggunakan teleskop untuk meneroka langit?:1704##1609##1510##1653:1:
+3:Siapa orang pertama yang mendarat di bulan?:Neil Armstrong##Alan Shepard##Buzz Aldrin##Alan Bean:0:
+4:Apa kapal angkasa mengorbit sekitar Musytari?:Juno##Lander##Vostok##Cassini:0:
+5:Ketika Pluto ditemui?:1930##1834##1956##1975:0:
+6:Siapa orang pertama yang mengorbit di sekeliling bumi?:Yuri Gagarin##Neil Armstrong##Buzz Aldrin##Alan Shepard:0:

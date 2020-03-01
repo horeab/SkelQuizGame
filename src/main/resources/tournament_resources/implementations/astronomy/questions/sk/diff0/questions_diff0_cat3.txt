@@ -1,0 +1,7 @@
+0:Aká je najhorúcejšia planéta vo vesmíre:Venuša:1,2,3:
+1:Aká je najchladnejšia planéta?:Urán:4,5,6:
+2:Ktorá planéta v našej slnečnej sústave má najviac mesiacov?:Jupiter:0,3,4:
+3:Ktorá planéta je najväčšia z pozemských planét?:Terra:1,2,5:
+4:Ktorá planéta má najsilnejšie vetry?:Neptún:3,5,6:
+5:Ktorá planéta je skalná planéta?:Merkúr:1,2,4:
+6:Aká je 4. planéta v slnečnej sústave?:Mars:1,4,5:

@@ -1,0 +1,7 @@
+0:Wat is de grootste bekende ster?:UY Scuti##Betelgeuse##VY Canis majoris##Pollux:0:
+1:Wat is de dichtste soort ster?:Rode reus##Neutronenster##Zwarte dwerg##Witte dwerg:1:
+2:Wat is het sterrenstelsel dat het dichtst bij het onze ligt:Barnard's sterrenstelsel##NGC 24 19##Andromeda##Ic 1101:2:
+3:Hoe heet onze melkweg?:Terra##Milky Way##Andromeda##Universum:1:
+4:Hoeveel sterren zijn er in onze melkweg?:16 miljoen##5 duizend##250 miljard##1 miljard:2:
+5:Waar bestaat het universum meestal uit?:Donkere materie##Donkere energie##Licht##Zichtbare materie:1:
+6:Wat is de helderste ster aan de hemel?:Sirius##Andromeda##Orion##Polaris:0:

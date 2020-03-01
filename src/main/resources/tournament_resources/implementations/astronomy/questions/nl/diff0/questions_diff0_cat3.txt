@@ -1,0 +1,7 @@
+0:Wat is de heetste planeet in het universum?:Venus:1,2,3:
+1:Wat is de koudste planeet?:Uranus:4,5,6:
+2:Welke planeet in ons zonnestelsel heeft de meeste manen?:Jupiter:0,3,4:
+3:Welke planeet is de grootste van de aardse planeten?:Terra:1,2,5:
+4:Welke planeet heeft de sterkste wind?:Neptunus:3,5,6:
+5:Welke planeet is een rotsachtige planeet?:Mercurius:1,2,4:
+6:Wat is de 4e planeet in het zonnestelsel?:Mars:1,4,5:

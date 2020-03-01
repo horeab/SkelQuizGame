@@ -1,7 +1,7 @@
-0: Quelle est la plus grande étoile connue?: UY Scuti ## Betelgeuse ## VY Canis majoris ## Pollux: 0:
-1: Quelle est l'étoile la plus dense?: Géante rouge ## Étoile à neutrons ## Naine noire ## Naine blanche: 1:
-2: Quelle est la galaxie la plus proche de la nôtre?: La galaxie de Barnard ## NGC 24 19 ## Andromeda ## Ic 1101: 2:
-3: Comment s'appelle notre galaxie?: Terre ## Voie lactée ## Andromède ## Univers: 1:
-4: Combien d'étoiles sont dans notre galaxie?: 16 millions ## 5 mille ## 250 milliards ## 1 milliard: 2:
-5: De quoi l'univers est-il principalement composé?: Matière sombre ## Énergie sombre ## Lumière ## Matière visible: 1:
-6: Quelle est l'étoile la plus brillante du ciel?: Sirius ## Andromeda ## Orion ## Polaris: 0:
+0:Quelle est la plus grande étoile connue?:UY Scuti##Betelgeuse##VY Canis majoris##Pollux:0:
+1:Quelle est l'étoile la plus dense?:Géante rouge##Étoile à neutrons##Naine noire##Naine blanche:1:
+2:Quelle est la galaxie la plus proche de la nôtre?:La galaxie de Barnard##NGC 24 19##Andromeda##Ic 1101:2:
+3:Comment s'appelle notre galaxie?:Terre##Voie lactée##Andromède##Univers:1:
+4:Combien d'étoiles sont dans notre galaxie?:16 millions##5 mille##250 milliards##1 milliard:2:
+5:De quoi l'univers est-il principalement composé?:Matière sombre##Énergie sombre##Lumière##Matière visible:1:
+6:Quelle est l'étoile la plus brillante du ciel?:Sirius##Andromeda##Orion##Polaris:0:

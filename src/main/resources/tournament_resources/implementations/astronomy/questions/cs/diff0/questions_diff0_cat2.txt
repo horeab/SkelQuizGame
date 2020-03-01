@@ -1,7 +1,7 @@
-0: Jaká je největší známá hvězda?: UY Scuti ## Betelgeuse ## VY Canis majoris ## Pollux: 0:
-1: Jaký je nejhustší druh hvězdy ?: Červený gigant ## Neutronová hvězda ## Černý trpaslík ## Bílý trpaslík: 1:
-2: Jaká je nejbližší galaxie k naší?: Barnardova galaxie ## NGC 24 19 ## Andromeda ## Ic 1101: 2:
-3: Jak se nazývá naše galaxie?: Země ## Mléčná dráha ## Andromeda ## Vesmír: 1:
-4: Kolik hvězd je v naší galaxii?: 16 milionů ## 5 tisíc ## 250 miliard ## 1 miliarda: 2:
-5: Z čeho je vesmír většinou složen?: Temná hmota ## Temná energie ## Světelná ## Viditelná hmota: 1:
-6: Jaká je nejjasnější hvězda na obloze?: Sirius ## Andromeda ## Orion ## Polaris: 0:
+0:Jaká je největší známá hvězda?:UY Scuti##Betelgeuse##VY Canis majoris##Pollux:0:
+1:Jaký je nejhustší druh hvězdy?:Červený gigant##Neutronová hvězda##Černý trpaslík##Bílý trpaslík:1:
+2:Jaká je nejbližší galaxie k naší?:Barnardova galaxie##NGC 24 19##Andromeda##Ic 1101:2:
+3:Jak se nazývá naše galaxie?:Země##Mléčná dráha##Andromeda##Vesmír:1:
+4:Kolik hvězd je v naší galaxii?:16 milionů##5 tisíc##250 miliard##1 miliarda:2:
+5:Z čeho je vesmír většinou složen?:Temná hmota##Temná energie##Světelná##Viditelná hmota:1:
+6:Jaká je nejjasnější hvězda na obloze?:Sirius##Andromeda##Orion##Polaris:0:

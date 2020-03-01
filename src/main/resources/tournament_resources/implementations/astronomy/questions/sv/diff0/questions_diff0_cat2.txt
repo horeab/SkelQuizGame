@@ -1,0 +1,7 @@
+0:Vad är den största kända stjärnan?:UY Scuti##Betelgeuse##VY Canis majoris##Pollux:0:
+1:Vad är den tätaste typen av stjärna?:Röd jätte##Neutron stjärna##Svart dvärg##Vit dvärg:1:
+2:Vad är vår närmaste galax?:Barnards galax##NGC 24 19##Andromeda##Ic 1101:2:
+3:Vad heter vår galax?:Terra##Vintergatan##Andromeda##Universum:1:
+4:Hur många stjärnor finns i vår galax?:16 miljoner##5 tusen##250 miljarder##1 miljarder:2:
+5:Vad består universumet mest av?:Mörk materia##Mörk energi##Ljus##Synlig materia:1:
+6:Vad är den ljusaste stjärnan på himlen?:Sirius##Andromeda##Orion##Polaris:0:

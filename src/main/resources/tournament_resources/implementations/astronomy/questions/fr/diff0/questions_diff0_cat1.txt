@@ -1,7 +1,7 @@
-0: Combien de planètes y a-t-il dans le système solaire?: 8 ## 9 ## 10 ## 11: 0:
-1: À quelle distance de la Terre est notre soleil, environ ...?: 93 années-lumière ## 150 millions de kilomètres ## 150 milliards de kilomètres ## 150 billions de kilomètres: 1:
-2: Qu'est-ce que la lune?: Astéroïde ## Étoile ## Satellite naturel ## Planète: 2:
-3: Quel âge a approximativement la terre?: 6 milliards d'années ## 4 milliards d'années ## 1 milliard d'années ## 4 billions d'années: 1:
-4: Quel est le résultat de l'inclinaison de la Terre?: Les saisons ## Jour et nuit ## Tsunamis ## Tremblements de terre: 0:
-5: Quelle est la forme de l'orbite terrestre autour du soleil?: Circulaire ## Elliptique ## Carré ## Variable: 1:
-6: Où se trouve la ceinture d'astéroïdes?: Au-delà de Pluton ## Autour du Soleil ## Entre Mars et Jupiter ## Entre la Terre et Mars: 2:
+0:Combien de planètes y a-t-il dans le système solaire?:8##9##10##11:0:
+1:À quelle distance de la Terre est notre soleil, environ ...?:93 années-lumière##150 millions de kilomètres##150 milliards de kilomètres##150 billions de kilomètres:1:
+2:Qu'est-ce que la lune?:Astéroïde##Étoile##Satellite naturel##Planète:2:
+3:Quel âge a approximativement la terre?:6 milliards d'années##4 milliards d'années##1 milliard d'années##4 billions d'années:1:
+4:Quel est le résultat de l'inclinaison de la Terre?:Les saisons##Jour et nuit##Tsunamis##Tremblements de terre:0:
+5:Quelle est la forme de l'orbite terrestre autour du soleil?:Circulaire##Elliptique##Carré##Variable:1:
+6:Où se trouve la ceinture d'astéroïdes?:Au-delà de Pluton##Autour du Soleil##Entre Mars et Jupiter##Entre la Terre et Mars:2:

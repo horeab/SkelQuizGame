@@ -1,0 +1,7 @@
+0:Hvor mange planeter er det i solsystemet?:8##9##10##11:0:
+1:Hvor langt unna Terra er solen vår, omtrent ...?:93 lysår##150 millioner kilometer##150 milliarder kilometer##150 billioner kilometer:1:
+2:Hva er månen?:Asteroide##stjerne##naturlig satellitt##planet:2:
+3:Omtrent hvor gammel er jorden?:6 milliarder år##4 milliarder år##1 milliard år##4 billioner år:1:
+4:Hvilket resultat har jordens vippe?:Årstidene##Dag og natt##Tsunami##Jordskjelv:0:
+5:Hva er formen på jordens bane rundt solen?:Sirkulær##Elliptisk##Torget##Variabel:1:
+6:Hvor ligger asteroidebeltet?:utover Pluto##rundt solen##mellom Mars og Jupiter##mellom Jorden og Mars:2:

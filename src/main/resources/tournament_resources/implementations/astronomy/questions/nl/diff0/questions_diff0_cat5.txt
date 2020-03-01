@@ -1,0 +1,7 @@
+0:Wat is het eerste ruimtevaartuig dat in de ruimte wordt gelanceerd?:Voyager##Viking 1##Vostok 1##Sputnik:2:
+1:Welke sonde werd in 1977 naar Saturn gestuurd?:Pioneer##Huygens##Saturn Cassini##Voyager 1:3:
+2:In welk jaar begon Galileo Galilei de telescoop te gebruiken om de hemel te verkennen?:1704##1609##1510##1653:1:
+3:Wie was de eerste persoon die op de maan landde?:Neil Armstrong##Alan Shepard##Buzz Aldrin##Alan Bean:0:
+4:Welk ruimteschip draait rond Jupiter?:Juno##Lander##Vostok##Cassini:0:
+5:Wanneer werd Pluto ontdekt?:1930##1834##1956##1975:0:
+6:Wie was de eerste man die rond de aarde cirkelde?:Yuri Gagarin##Neil Armstrong##Buzz Aldrin##Alan Shepard:0:

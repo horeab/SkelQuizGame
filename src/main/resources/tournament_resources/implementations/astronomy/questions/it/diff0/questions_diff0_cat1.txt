@@ -1,7 +1,7 @@
-0: Quanti pianeti ci sono nel sistema solare?: 8 ## 9 ## 10 ## 11: 0:
-1: Quanto è lontano il nostro sole dalla Terra, circa ...?: 93 anni luce # 150 milioni di chilometri # 150 miliardi di chilometri # 150 trilioni di chilometri: 1:
-2: Cos'è la luna?: Asteroide ## Stella ## Satellite naturale ## Pianeta: 2:
-3: Circa quanti anni ha la terra?: 6 miliardi di anni ## 4 miliardi di anni ## 1 miliardo di anni ## 4 trilioni di anni: 1:
-4: Quale risultato ha l'inclinazione della terra?: Le stagioni ## Giorno e notte ## Gli tsunami ## Terremoti: 0:
-5: Qual è la forma dell'orbita terrestre attorno al sole?: Circolare ## Ellittica ## Piazza ## Variabile: 1:
-6: Dove si trova la cintura degli asteroidi?: Oltre Plutone ## Intorno al sole ## Tra Marte e Giove ## Tra Terra e Marte: 2:
+0:Quanti pianeti ci sono nel sistema solare?:8##9##10##11:0:
+1:Quanto è lontano il nostro sole dalla Terra, circa ...?:93 anni luce##150 milioni di chilometri##150 miliardi di chilometri##150 trilioni di chilometri:1:
+2:Cos'è la luna?:Asteroide##Stella##Satellite naturale##Pianeta:2:
+3:Circa quanti anni ha la terra?:6 miliardi di anni##4 miliardi di anni##1 miliardo di anni##4 trilioni di anni:1:
+4:Quale risultato ha l'inclinazione della terra?:Le stagioni##Giorno e notte##Gli tsunami##Terremoti:0:
+5:Qual è la forma dell'orbita terrestre attorno al sole?:Circolare##Ellittica##Piazza##Variabile:1:
+6:Dove si trova la cintura degli asteroidi?:Oltre Plutone##Intorno al sole##Tra Marte e Giove##Tra Terra e Marte:2:

@@ -1,7 +1,7 @@
-0: ¿Cuál es la primera nave espacial lanzada al espacio ?: Voyager ## Viking 1 ## Vostok 1 ## Sputnik: 2:
-1: ¿Qué sonda se envió hacia Saturno en 1977?: Pioneer ## Huygens ## Saturn Cassini ## Voyager 1: 3:
-2: ¿En qué año comenzó a usar Galileo Galilei el telescopio para explorar el cielo?: 1704 ## 1609 ## 1510 ## 1653: 1:
-3: ¿Quién fue la primera persona en aterrizar en la luna ?: Neil Armstrong ## Alan Shepard ## Buzz Aldrin ## Alan Bean: 0:
-4: ¿Qué nave espacial está orbitando alrededor de Júpiter?: Juno ## Lander ## Vostok ## Cassini: 0:
-5: ¿Cuándo se descubrió Plutón?: 1930 ## 1834 ## 1956 ## 1975: 0:
-6: ¿Quién fue el primer hombre en orbitar alrededor de la Tierra ?: Yuri Gagarin ## Neil Armstrong ## Buzz Aldrin ## Alan Shepard: 0:
+0:¿Cuál es la primera nave espacial lanzada al espacio?:Voyager##Viking 1##Vostok 1##Sputnik:2:
+1:¿Qué sonda se envió hacia Saturno en 1977?:Pioneer##Huygens##Saturn Cassini##Voyager 1:3:
+2:¿En qué año comenzó a usar Galileo Galilei el telescopio para explorar el cielo?:1704##1609##1510##1653:1:
+3:¿Quién fue la primera persona en aterrizar en la luna?:Neil Armstrong##Alan Shepard##Buzz Aldrin##Alan Bean:0:
+4:¿Qué nave espacial está orbitando alrededor de Júpiter?:Juno##Lander##Vostok##Cassini:0:
+5:¿Cuándo se descubrió Plutón?:1930##1834##1956##1975:0:
+6:¿Quién fue el primer hombre en orbitar alrededor de la Tierra?:Yuri Gagarin##Neil Armstrong##Buzz Aldrin##Alan Shepard:0:

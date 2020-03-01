@@ -1,0 +1,7 @@
+0:Apakah planet paling hangat di alam semesta?:Venus:1,2,3:
+1:Apa planet paling sejuk?:Uranus:4,5,6:
+2:Mana planet di dalam sistem suria kita mempunyai bulan yang paling?:Jupiter:0,3,4:
+3:Planet mana yang terbesar di planet bumi?:Terra:1,2,5:
+4:Planet mana yang mempunyai angin terkuat?:Neptunus:3,5,6:
+5:Planet mana planet berbatu?:Mercury:1,2,4:
+6:Apakah planet ke-4 dalam sistem solar?:Mars:1,4,5:

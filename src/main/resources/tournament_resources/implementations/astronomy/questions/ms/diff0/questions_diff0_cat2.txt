@@ -1,0 +1,7 @@
+0:Apa bintang yang paling terkenal?:UY Scuti##Betelgeuse##VY Canis majoris##Pollux:0:
+1:Apakah jenis bintang yang paling padat?:Raksasa merah##Neutron star##Kurcaci hitam##Kurcaci putih:1:
+2:Apakah galaksi yang paling dekat dengan kita?:Galaksi Barnard##NGC 24 19##Andromeda##Ic 1101:2:
+3:Apakah galaksi kami dipanggil?:Terra##Bima Sakti##Andromeda##Alam semesta:1:
+4:Berapa banyak bintang dalam galaksi kita?:16 Juta##5 Ribu##250 Bilion##1 Miliar:2:
+5:Apakah alam semesta yang kebanyakannya terdiri daripada:Bahan gelap##Tenaga gelap##Cahaya##Masalah yang dapat dilihat:1:
+6:Apakah bintang yang paling terang di langit?:Sirius##Andromeda##Orion##Polaris:0:

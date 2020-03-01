@@ -1,0 +1,7 @@
+0:Aká je najväčšia známa hviezda?:UY Scuti##Betelgeuse##VY Canis majoris##Pollux:0:
+1:Aký je najhustejší druh hviezdy?:Červený gigant##Neutronová hviezda##Čierny trpaslík##Biely trpaslík:1:
+2:Aká je naša najbližšia galaxia?:Barnardova galaxia##NGC 24 19##Andromeda##Ic 1101:2:
+3:Ako sa volá naša galaxia?:Terra##mliečna dráha##Andromeda##vesmír:1:
+4:Koľko hviezd je v našej galaxii?:16 miliónov##5 Tisíc##250 miliárd##1 milión:2:
+5:Z čoho vesmír väčšinou pozostáva?:Temná hmota##Temná energia##Svetlá##Viditeľná hmota:1:
+6:Aká je najjasnejšia hviezda na oblohe?:Sirius##Andromeda##Orion##Polaris:0:

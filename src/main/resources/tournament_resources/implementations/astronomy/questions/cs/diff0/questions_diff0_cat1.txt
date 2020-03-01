@@ -1,7 +1,7 @@
-0: Kolik planet je ve sluneční soustavě?: 8 ## 9 ## 10 ## 11: 0:
-1: Jak daleko od Země je naše slunce, přibližně ...?: 93 světelných let ## 150 miliónů kilometrů ## 150 miliard kilometrů ## 150 trilionů kilometrů: 1:
-2: Co je Měsíc?: Asteroidní ## Hvězda ## Přírodní satelit ## Planeta: 2:
-3: Přibližně jak stará je Země?: 6 miliard let ## 4 miliardy let ## 1 miliarda let ## 4 bilionů let: 1:
-4: Jaký výsledek má náklon země?: Roční období ## Den a noc ## Tsunamis ## Zemětřesení: 0:
-5: Jaký je tvar zemské oběžné dráhy kolem Slunce?: Kruhový ## Eliptický ## Náměstí ## Proměnná: 1:
-6: Kde je umístěn asteroidní pás?: Za Plutem ## Kolem Slunce ## Mezi Marsem a Jupiterem ## Mezi Zemí a Marsem: 2:
+0:Kolik planet je ve sluneční soustavě?:8##9##10##11:0:
+1:Jak daleko od Země je naše slunce, přibližně ...?:93 světelných let##150 miliónů kilometrů##150 miliard kilometrů##150 trilionů kilometrů:1:
+2:Co je Měsíc?:Asteroidní##Hvězda##Přírodní satelit##Planeta:2:
+3:Přibližně jak stará je Země?:6 miliard let##4 miliardy let##1 miliarda let##4 bilionů let:1:
+4:Jaký výsledek má náklon země?:Roční období##Den a noc##Tsunamis##Zemětřesení:0:
+5:Jaký je tvar zemské oběžné dráhy kolem Slunce?:Kruhový##Eliptický##Náměstí##Proměnná:1:
+6:Kde je umístěn asteroidní pás?:Za Plutem##Kolem Slunce##Mezi Marsem a Jupiterem##Mezi Zemí a Marsem:2:
