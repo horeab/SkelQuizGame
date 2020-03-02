@@ -1,6 +1,5 @@
 package libgdx;
 
-import libgdx.constants.Language;
 import libgdx.game.external.AppInfoService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.utils.startgame.test.DefaultAppInfoService;

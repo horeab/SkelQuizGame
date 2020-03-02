@@ -11,6 +11,7 @@ import libgdx.implementations.skelgame.gameservice.QuizQuestionContainerCreatorS
 import libgdx.implementations.skelgame.gameservice.UniqueQuizQuestionContainerCreatorService;
 import libgdx.resources.FontManager;
 import libgdx.screens.GameScreen;
+import org.apache.commons.lang3.StringUtils;
 
 public class AstronomyQuestionContainerCreatorService extends QuizQuestionContainerCreatorService {
 
@@ -25,7 +26,7 @@ public class AstronomyQuestionContainerCreatorService extends QuizQuestionContai
 
     @Override
     protected ButtonBuilder getAnswerButtonBuilder(String answer, ButtonSize buttonSize, GameButtonSkin buttonSkin) {
-        return new ButtonBuilder().setContrast(Contrast.DARK).setWrappedText(answer, buttonSize.getWidth() / 1.1f).setFontScale(getAnswerFontScale(answer, FontManager.getNormalBigFontDim())).setFixedButtonSize(buttonSize).setButtonSkin(buttonSkin);
+        return new ButtonBuilder().setContrast(Contrast.DARK).setWrappedText(StringUtils.capitalize(answer), buttonSize.getWidth() / 1.1f).setFontScale(getAnswerFontScale(answer, FontManager.getNormalBigFontDim())).setFixedButtonSize(buttonSize).setButtonSkin(buttonSkin);
     }
 
     protected void setContainerBackground() {

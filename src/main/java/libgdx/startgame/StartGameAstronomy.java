@@ -29,7 +29,7 @@ public class StartGameAstronomy {
 
                     @Override
                     public String getLanguage() {
-                        return Language.en.name();
+                        return Language.cs.name();
                     }
                 });
         libgdx.utils.startgame.StartGame.main(game, args);
@@ -39,63 +39,63 @@ public class StartGameAstronomy {
     public static String getTitle() {
         switch (Language.valueOf(Game.getInstance().getAppInfoService().getLanguage())) {
             case cs:
-                return "xxx";
+                return "Astronomie";
             case da:
-                return "xxx";
+                return "Astronomi";
             case de:
-                return "xxx";
+                return "Astronomie";
             case el:
-                return "xxx";
+                return "Αστρονομία";
             case en:
                 return "Astronomy";
             case es:
-                return "xxx";
+                return "Astronomía";
             case fi:
-                return "xxx";
+                return "Tähtitiede";
             case fr:
-                return "xxx";
+                return "Astronomie";
             case hi:
-                return "xxx";
+                return "खगोल";
             case hr:
-                return "xxx";
+                return "Astronomija";
             case hu:
-                return "xxx";
+                return "Csillagászat";
             case id:
-                return "xxx";
+                return "Astronomi";
             case it:
-                return "xxx";
+                return "Astronomia";
             case ja:
-                return "xxx";
+                return "天文学";
             case ko:
-                return "xxx";
+                return "천문학";
             case ms:
-                return "xxx";
+                return "Astronomi";
             case nl:
-                return "xxx";
+                return "Astronomie";
             case no:
-                return "xxx";
+                return "Astronomi";
             case pl:
-                return "xxx";
+                return "Astronomia";
             case pt:
-                return "xxx";
+                return "Astronomia";
             case ro:
-                return "xxx";
+                return "Astronomie";
             case ru:
-                return "xxx";
+                return "Астрономия";
             case sk:
-                return "xxx";
+                return "Astronómie";
             case sv:
-                return "xxx";
+                return "Astronomi";
             case th:
-                return "xxx";
+                return "ดาราศาสตร์";
             case tr:
-                return "xxx";
+                return "Astronomi";
             case uk:
-                return "xxx";
+                return "Астрономія";
             case vi:
-                return "xxx";
+                return "Thiên văn học";
             case zh:
-                return "xxx";
+                return "天文学";
         }
         return null;
     }
