@@ -10,6 +10,7 @@ import libgdx.implementations.conthistory.ConthistoryDependencyManager;
 import libgdx.implementations.flags.FlagsDependencyManager;
 import libgdx.implementations.geoquiz.QuizGameDependencyManager;
 import libgdx.implementations.hangman.HangmanDependencyManager;
+import libgdx.implementations.hangmanarena.HangmanArenaDependencyManager;
 import libgdx.implementations.judetelerom.JudeteleRomDependencyManager;
 import libgdx.implementations.kennstde.KennstDeDependencyManager;
 import libgdx.implementations.math.MathDependencyManager;
@@ -26,6 +27,7 @@ public enum GameIdEnum implements GameId {
     kennstde(KennstDeDependencyManager.class),
     quizgame(QuizGameDependencyManager.class),
     conthistory(ConthistoryDependencyManager.class),
+    hangmanarena(HangmanArenaDependencyManager.class),
     hangman(HangmanDependencyManager.class),;
 
     private Class<? extends SubGameDependencyManager> dependencyManagerClass;

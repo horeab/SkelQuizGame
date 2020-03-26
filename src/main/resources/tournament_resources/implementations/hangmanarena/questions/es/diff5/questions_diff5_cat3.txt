@@ -1,0 +1,7 @@
+cocina
+cuchillo
+servilleta
+refrigerador
+tetera
+termómetro
+lavabo

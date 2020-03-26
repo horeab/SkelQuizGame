@@ -1,0 +1,7 @@
+cucina
+coltello
+tovagliolo
+frigorifero
+teiera
+termometro
+Lavello

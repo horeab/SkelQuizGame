@@ -8,6 +8,7 @@ import libgdx.implementations.astronomy.AstronomySpecificResource;
 import libgdx.implementations.conthistory.ConthistorySpecificResource;
 import libgdx.implementations.geoquiz.QuizGameSpecificResource;
 import libgdx.implementations.hangman.HangmanSpecificResource;
+import libgdx.implementations.hangmanarena.HangmanArenaSpecificResource;
 import libgdx.implementations.paintings.PaintingsSpecificResource;
 import libgdx.resources.MainResource;
 import libgdx.resources.Res;
@@ -22,6 +23,8 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     SQUARE_ANSWER_OPTION(QuizGameSpecificResource.btn_answer_opt_up, QuizGameSpecificResource.btn_answer_opt_down, QuizGameSpecificResource.btn_answer_opt_up, QuizGameSpecificResource.btn_answer_opt_disabled, FontColor.BLACK),
     LONG_ANSWER_OPTION(QuizGameSpecificResource.btn_long_answer_opt_up, QuizGameSpecificResource.btn_long_answer_opt_down, QuizGameSpecificResource.btn_long_answer_opt_up, QuizGameSpecificResource.btn_long_answer_opt_disabled, FontColor.BLACK),
     HINT(QuizGameSpecificResource.btn_hint, QuizGameSpecificResource.btn_hint, QuizGameSpecificResource.btn_hint, QuizGameSpecificResource.btn_hint_disabled, null),
+
+    HANGMANARENA_BACKGROUND_CIRCLE(HangmanArenaSpecificResource.btn_background_circle_up, HangmanArenaSpecificResource.btn_background_circle_down, HangmanArenaSpecificResource.btn_background_circle_up, HangmanArenaSpecificResource.btn_background_circle_up, null),
 
     HANGMAN_HINT(HangmanSpecificResource.btn_hint, HangmanSpecificResource.btn_hint, HangmanSpecificResource.btn_hint, HangmanSpecificResource.btn_hint_disabled, null),
     HANGMAN_MENU(HangmanSpecificResource.btn_menu_up, HangmanSpecificResource.btn_menu_down, HangmanSpecificResource.btn_menu_up, HangmanSpecificResource.btn_menu_up, null),

@@ -1,0 +1,7 @@
+congelatore
+padella
+bollitore
+tavolo
+tostapane
+Colino
+Spatola

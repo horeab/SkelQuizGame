@@ -1,0 +1,7 @@
+cocinar
+lavavajillas
+comida
+basura
+exprimidor
+horno
+receta

@@ -1,0 +1,7 @@
+keuken
+mes
+servet
+koelkast
+theepot
+thermometer
+wastafel

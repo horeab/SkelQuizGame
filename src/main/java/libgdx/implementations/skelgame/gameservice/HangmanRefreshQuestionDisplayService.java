@@ -42,13 +42,6 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
     public void refreshQuestion(GameQuestionInfo gameQuestionInfo) {
         String hangmanWord = gameService.getHangmanWord(gameQuestionInfo.getQuestion().getQuestionString());
         createHangmanWord(hangmanWord, gameQuestionInfo.getAnswerIds(), new HashSet<String>());
-        int nrOfWrongAnswersPressed = gameService.getNrOfWrongAnswersPressed(gameQuestionInfo.getAnswerIds());
-
-        if (gameService.getQuestionImage() == null && !Game.getInstance().getGameIdPrefix().equals(GameIdEnum.judetelerom.name())) {
-            refreshHangManImg(nrOfWrongAnswersPressed);
-        } else {
-            refreshAvailableTriesTableForQuestionWithImage(nrOfWrongAnswersPressed);
-        }
     }
 
     private void createHangmanWord(String hangmanWord, Set<String> pressedLetters, Set<String> redLetters) {

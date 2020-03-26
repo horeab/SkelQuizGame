@@ -1,0 +1,7 @@
+cozinha
+faca
+guardanapo
+geladeira
+chaleira
+termômetro
+Pia

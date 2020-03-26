@@ -1,0 +1,7 @@
+grembiule
+bottiglia
+apri bottiglia
+ciotola
+ricettario
+posate
+forchetta

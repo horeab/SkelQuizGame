@@ -1,0 +1,7 @@
+keittiö
+veitsi
+lautasliina
+jääkaappi
+teekannu
+lämpömittari
+pesuallas

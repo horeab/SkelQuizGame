@@ -1,0 +1,7 @@
+tablier
+bouteille
+ouvre-bouteille
+bol
+livre de recettes
+coutellerie
+fourchette

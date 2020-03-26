@@ -1,0 +1,7 @@
+karafka
+tarka
+perkolator
+mydło
+szpatułka
+gąbka
+łyżka

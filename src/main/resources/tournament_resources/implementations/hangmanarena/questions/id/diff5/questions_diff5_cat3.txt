@@ -1,0 +1,7 @@
+dapur
+pisau
+serbet
+kulkas
+teko
+termometer
+wastafel

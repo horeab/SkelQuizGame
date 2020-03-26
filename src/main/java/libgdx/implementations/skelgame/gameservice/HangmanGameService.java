@@ -21,7 +21,7 @@ public class HangmanGameService extends GameService {
 
     public HangmanGameService(Question question) {
         super(question);
-        availableLetters = SpecificPropertiesUtils.getText(Game.getInstance().getAppInfoService().getLanguage() + "_hangman_available_letters");
+        availableLetters = SpecificPropertiesUtils.getText(Game.getInstance().getAppInfoService().getLanguage() + "_" + Game.getInstance().getGameIdPrefix() + "_available_letters");
         normalizedWordLetters = getNormalizedWordLetters(getHangmanWord(question.getQuestionString()));
     }
 

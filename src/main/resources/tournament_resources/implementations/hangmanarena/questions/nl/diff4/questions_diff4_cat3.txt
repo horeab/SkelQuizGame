@@ -1,0 +1,7 @@
+karaf
+rasp
+filtreerkan
+zeep
+spatel
+spons
+lepel
