@@ -42,6 +42,13 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
     public void refreshQuestion(GameQuestionInfo gameQuestionInfo) {
         String hangmanWord = gameService.getHangmanWord(gameQuestionInfo.getQuestion().getQuestionString());
         createHangmanWord(hangmanWord, gameQuestionInfo.getAnswerIds(), new HashSet<String>());
+        int nrOfWrongAnswersPressed = gameService.getNrOfWrongAnswersPressed(gameQuestionInfo.getAnswerIds());
+
+        if (gameService.getQuestionImage() == null && !Game.getInstance().getGameIdPrefix().equals(GameIdEnum.judetelerom.name())) {
+            refreshHangManImg(nrOfWrongAnswersPressed);
+        } else {
+            refreshAvailableTriesTableForQuestionWithImage(nrOfWrongAnswersPressed);
+        }
     }
 
     private void createHangmanWord(String hangmanWord, Set<String> pressedLetters, Set<String> redLetters) {
@@ -110,10 +117,12 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
         Image image = GraphicUtils.getImage(imgName);
         image.setHeight(HangmanGameScreen.getHangmanImgHeight());
         image.setWidth(HangmanGameScreen.getHangmanImgWidth());
-        Table table = (Table) abstractGameScreen.getRoot().findActor(ACTOR_NAME_HANGMAN_IMAGE);
-        if (table != null) {
-            table.clearChildren();
-            table.add(image).width(image.getWidth()).height(image.getHeight());
+        if (abstractGameScreen.getRoot().findActor(ACTOR_NAME_HANGMAN_IMAGE) instanceof Table) {
+            Table table = (Table) abstractGameScreen.getRoot().findActor(ACTOR_NAME_HANGMAN_IMAGE);
+            if (table != null) {
+                table.clearChildren();
+                table.add(image).width(image.getWidth()).height(image.getHeight());
+            }
         }
     }
 

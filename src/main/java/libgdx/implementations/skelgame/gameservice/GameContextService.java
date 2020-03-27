@@ -18,6 +18,10 @@ public class GameContextService {
 
 
     public GameContext createGameContext(Question... questions) {
+        return createGameContext(AMOUNT_AVAILABLE_HINTS, questions);
+    }
+
+    public GameContext createGameContext(int amountAvailableHints, Question... questions) {
         GameUser gameUser = createGameUser(questions);
         List<String> categs = new ArrayList<>();
         List<String> diff = new ArrayList<>();
@@ -26,7 +30,7 @@ public class GameContextService {
             diff.add(question.getQuestionDifficultyLevel().name());
         }
         QuestionConfig questionConfig = new QuestionConfig(diff, categs, questions.length);
-        return createGameContext(gameUser, questionConfig, 0);
+        return createGameContext(gameUser, questionConfig, amountAvailableHints);
     }
 
     public GameContext createGameContext(int availableHints, QuestionConfig questionConfig) {

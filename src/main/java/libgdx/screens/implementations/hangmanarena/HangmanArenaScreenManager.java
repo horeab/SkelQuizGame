@@ -24,7 +24,8 @@ public class HangmanArenaScreenManager extends CampaignScreenManager {
         questions.addAll(new QuestionCreator().getAllQuestions(Arrays.asList(HangmanArenaQuestionDifficultyLevel._0), HangmanArenaQuestionCategoryEnum.cat5));
         Collections.shuffle(questions);
         questions = questions.subList(0, 7);
-        GameContext gameContext = new GameContextService().createGameContext(questions.toArray(new Question[questions.size()]));
+        GameContext gameContext = new GameContextService().createGameContext
+                (3, questions.toArray(new Question[questions.size()]));
         showCampaignGameScreen(gameContext, null);
 //        showScreen(HangmanArenaScreenTypeEnum.MAIN_MENU_SCREEN);
 //        showCampaignScreen();

@@ -20,7 +20,7 @@ public class HangmanHeaderCreator {
 
     public static String HEADER_TABLE_NAME = "HEADER_TABLE_NAME";
 
-    public Table createHeaderTable(GameContext gameContext, List<HintButton> hintButtonList, Table hintTable) {
+    public Table createHeaderTable(GameContext gameContext, Table hintTable) {
         Table table = new Table();
         table.setName(HEADER_TABLE_NAME);
         GameUser gameUser = gameContext.getCurrentUserGameUser();

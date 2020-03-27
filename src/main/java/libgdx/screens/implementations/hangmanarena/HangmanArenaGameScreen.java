@@ -6,9 +6,10 @@ import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.HangmanQuestionContainerCreatorService;
 import libgdx.implementations.skelgame.gameservice.HangmanRefreshQuestionDisplayService;
+import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screens.GameScreen;
-import libgdx.screens.implementations.hangman.HangmanHeaderCreator;
+import libgdx.screens.implementations.hangmanarena.spec.HangmanHeaderCreator;
 import libgdx.screens.implementations.hangmanarena.spec.HangmanScreenBackgroundCreator;
 import libgdx.utils.ScreenDimensionsManager;
 
@@ -29,9 +30,15 @@ public class HangmanArenaGameScreen extends GameScreen<HangmanArenaScreenManager
 
     @Override
     public void buildStage() {
-        new HangmanScreenBackgroundCreator(getAbstractScreen(), gameContext.getCurrentUserGameUser()).createBackground();
+        createGameTable(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
+        new BackButtonBuilder().addHoverBackButton(this);
+    }
 
-        System.out.println(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getQuestion().getQuestionString());
+    private void createGameTable(GameQuestionInfo gameQuestionInfo) {
+        HangmanScreenBackgroundCreator hangmanScreenBackgroundCreator = new HangmanScreenBackgroundCreator(getAbstractScreen(), gameContext.getCurrentUserGameUser());
+        hangmanScreenBackgroundCreator.createBackground();
+
+        System.out.println(gameQuestionInfo.getQuestion().getQuestionString());
         allTable = new Table();
         allTable.setFillParent(true);
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
@@ -51,11 +58,21 @@ public class HangmanArenaGameScreen extends GameScreen<HangmanArenaScreenManager
         allTable.add(squareAnswerOptionsTable)
                 .growY();
         addActor(allTable);
-        this.hangmanQuestionContainerCreatorService = new HangmanQuestionContainerCreatorService(gameContext, this);
-        headerTable.add(new HangmanHeaderCreator().createHeaderTable(gameContext, hangmanQuestionContainerCreatorService.getHintButtons(), hangmanQuestionContainerCreatorService.createHintButtonsTable()));
-        squareAnswerOptionsTable.add(new HangmanQuestionContainerCreatorService(gameContext, this).createSquareAnswerOptionsTable(new ArrayList<>(hangmanQuestionContainerCreatorService.getAllAnswerButtons().values())));
-        hangmanQuestionContainerCreatorService.processGameInfo(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
-        new BackButtonBuilder().addHoverBackButton(this);
+        this.hangmanQuestionContainerCreatorService = new HangmanQuestionContainerCreatorService(gameContext, this) {
+            @Override
+            public void processGameInfo(GameQuestionInfo gameQuestionInfo) {
+                hangmanScreenBackgroundCreator.refreshBackground(gameService.getNrOfWrongAnswersPressed(gameQuestionInfo.getAnswerIds()));
+                super.processGameInfo(gameQuestionInfo);
+              }
+        };
+        HangmanHeaderCreator hangmanHeaderCreator = new HangmanHeaderCreator();
+        headerTable.add(hangmanHeaderCreator.createHeaderTable(gameContext,
+                hangmanQuestionContainerCreatorService.createHintButtonsTable()));
+        squareAnswerOptionsTable.add(hangmanHeaderCreator
+                .refreshRemainingAnswersTable(gameContext)).padBottom(MainDimen.vertical_general_margin.getDimen()).row();
+        squareAnswerOptionsTable.add(new HangmanQuestionContainerCreatorService(gameContext, this)
+                .createSquareAnswerOptionsTable(new ArrayList<>(hangmanQuestionContainerCreatorService.getAllAnswerButtons().values())));
+        hangmanQuestionContainerCreatorService.processGameInfo(gameQuestionInfo);
     }
 
     public static float getHangmanImgWidth() {
