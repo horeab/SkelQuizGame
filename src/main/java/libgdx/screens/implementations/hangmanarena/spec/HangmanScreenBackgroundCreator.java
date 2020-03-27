@@ -2,6 +2,7 @@ package libgdx.screens.implementations.hangmanarena.spec;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
+import com.badlogic.gdx.scenes.scene2d.actions.AlphaAction;
 import com.badlogic.gdx.scenes.scene2d.actions.RunnableAction;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import libgdx.controls.ScreenRunnable;
@@ -45,7 +46,7 @@ public class HangmanScreenBackgroundCreator extends AbstractGameScreenBackground
     @Override
     public void refreshBackground(int nrOfWrongAnswersPressed) {
         if (gameService.getQuestionImage() == null) {
-            refreshSkyImages(nrOfWrongAnswersPressed);
+            refreshSkyImages(nrOfWrongAnswersPressed, true);
             refreshHangManImg(nrOfWrongAnswersPressed);
         } else {
             refreshAvailableTriesTableForQuestionWithImage(nrOfWrongAnswersPressed);
@@ -61,11 +62,12 @@ public class HangmanScreenBackgroundCreator extends AbstractGameScreenBackground
         }
     }
 
-    private void refreshSkyImages(int nrOfWrongLettersPressed) {
+    public void refreshSkyImages(int nrOfWrongLettersPressed, boolean fadeOut) {
         for (int i = nrOfWrongLettersPressed - 1; i >= 0; i--) {
             Image image = getAbstractGameScreen().getRoot().findActor(ACTOR_NAME_SKY_BACKGROUND + i);
             if (image != null) {
-                image.addAction(Actions.fadeOut(0.5f));
+                AlphaAction action = fadeOut ? Actions.fadeOut(0.5f) : Actions.fadeIn(1.5f);
+                image.addAction(action);
             }
         }
     }

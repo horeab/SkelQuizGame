@@ -1,17 +1,19 @@
 package libgdx.screens.implementations.hangmanarena;
 
+import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.campaign.CampaignLevel;
 import libgdx.controls.button.builders.BackButtonBuilder;
-import libgdx.implementations.skelgame.gameservice.GameContext;
-import libgdx.implementations.skelgame.gameservice.HangmanQuestionContainerCreatorService;
-import libgdx.implementations.skelgame.gameservice.HangmanRefreshQuestionDisplayService;
+import libgdx.implementations.skelgame.LevelFinishedPopup;
+import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screens.GameScreen;
+import libgdx.screens.implementations.hangman.HangmanGameScreen;
 import libgdx.screens.implementations.hangmanarena.spec.HangmanHeaderCreator;
 import libgdx.screens.implementations.hangmanarena.spec.HangmanScreenBackgroundCreator;
 import libgdx.utils.ScreenDimensionsManager;
+import libgdx.utils.Utils;
 
 import java.util.ArrayList;
 
@@ -22,22 +24,22 @@ public class HangmanArenaGameScreen extends GameScreen<HangmanArenaScreenManager
     private CampaignLevel campaignLevel;
     private Table allTable;
     private HangmanQuestionContainerCreatorService hangmanQuestionContainerCreatorService;
+    private HangmanScreenBackgroundCreator hangmanScreenBackgroundCreator;
 
     public HangmanArenaGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         super(gameContext);
         this.campaignLevel = campaignLevel;
+        hangmanScreenBackgroundCreator = new HangmanScreenBackgroundCreator(getAbstractScreen(), gameContext.getCurrentUserGameUser());
     }
 
     @Override
     public void buildStage() {
+        hangmanScreenBackgroundCreator.createBackground();
         createGameTable(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
         new BackButtonBuilder().addHoverBackButton(this);
     }
 
     private void createGameTable(GameQuestionInfo gameQuestionInfo) {
-        HangmanScreenBackgroundCreator hangmanScreenBackgroundCreator = new HangmanScreenBackgroundCreator(getAbstractScreen(), gameContext.getCurrentUserGameUser());
-        hangmanScreenBackgroundCreator.createBackground();
-
         System.out.println(gameQuestionInfo.getQuestion().getQuestionString());
         allTable = new Table();
         allTable.setFillParent(true);
@@ -46,9 +48,9 @@ public class HangmanArenaGameScreen extends GameScreen<HangmanArenaScreenManager
         allTable.add(headerTable).padTop(verticalGeneralMarginDimen).row();
         Table wordTable = new Table();
         wordTable.setName(HangmanRefreshQuestionDisplayService.ACTOR_NAME_HANGMAN_WORD_TABLE);
+        allTable.add(wordTable).growY().row();
         Table image = new Table();
         image.setName(HangmanRefreshQuestionDisplayService.ACTOR_NAME_HANGMAN_IMAGE);
-        allTable.add(wordTable).growY().row();
         allTable.add(image)
                 .padTop(verticalGeneralMarginDimen)
                 .height(getHangmanImgHeight())
@@ -63,7 +65,7 @@ public class HangmanArenaGameScreen extends GameScreen<HangmanArenaScreenManager
             public void processGameInfo(GameQuestionInfo gameQuestionInfo) {
                 hangmanScreenBackgroundCreator.refreshBackground(gameService.getNrOfWrongAnswersPressed(gameQuestionInfo.getAnswerIds()));
                 super.processGameInfo(gameQuestionInfo);
-              }
+            }
         };
         HangmanHeaderCreator hangmanHeaderCreator = new HangmanHeaderCreator();
         headerTable.add(hangmanHeaderCreator.createHeaderTable(gameContext,
@@ -82,6 +84,7 @@ public class HangmanArenaGameScreen extends GameScreen<HangmanArenaScreenManager
     public static float getHangmanImgHeight() {
         return ScreenDimensionsManager.getScreenHeightValue(35);
     }
+
     @Override
     public void onBackKeyPress() {
         screenManager.showCampaignScreen();
@@ -94,6 +97,17 @@ public class HangmanArenaGameScreen extends GameScreen<HangmanArenaScreenManager
 
     @Override
     public void goToNextQuestionScreen() {
-
+        if (new SinglePlayerLevelFinishedService().isGameFailed(gameContext.getCurrentUserGameUser())) {
+            new LevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
+        } else {
+            allTable.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRunnableAction(new Runnable() {
+                @Override
+                public void run() {
+                    allTable.remove();
+                    hangmanScreenBackgroundCreator.refreshSkyImages(HangmanGameService.GAME_OVER_WRONG_LETTERS, false);
+                    createGameTable(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
+                }
+            })));
+        }
     }
 }
