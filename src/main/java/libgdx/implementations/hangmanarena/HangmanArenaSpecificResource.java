@@ -84,6 +84,9 @@ public enum HangmanArenaSpecificResource implements SpecificResource {
     btn_hangman_down("buttons/btn_hangman_down.png", Texture.class),
     btn_hint("buttons/btn_hint.png", Texture.class),
     btn_hint_disabled("buttons/btn_hint_disabled.png", Texture.class),
+    correctq("correctq.png", Texture.class),
+    unkownq("unkownq.png", Texture.class),
+    wrongq("wrongq.png", Texture.class),
 
     btn_campaign("buttons/mainmenu/btn_campaign.png", Texture.class),
     btn_background_circle_up("buttons/background_circle/btn_background_circle_up.png", Texture.class),

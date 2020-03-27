@@ -17,6 +17,7 @@ import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
+import libgdx.resources.Res;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.model.FontColor;
@@ -42,16 +43,16 @@ public class HangmanHeaderCreator {
         table.clearChildren();
         table.setName(remainingAnswersTableName);
         float horizontalGeneralMarginDimen = MainDimen.horizontal_general_margin.getDimen();
-        float imgSide = horizontalGeneralMarginDimen * 5;
+        float imgSide = horizontalGeneralMarginDimen * 6;
         for (int i = 0; i < gameUser.getTotalNrOfQuestions(); i++) {
-            HangmanArenaSpecificResource resource = HangmanArenaSpecificResource.btn_hint;
+            Res resource = HangmanArenaSpecificResource.unkownq;
             if (gameUser.getGameQuestionInfo(i).getStatus() == GameQuestionInfoStatus.WON) {
-                resource= HangmanArenaSpecificResource.btn_hint_disabled;
+                resource = HangmanArenaSpecificResource.correctq;
             } else if (gameUser.getGameQuestionInfo(i).getStatus() == GameQuestionInfoStatus.LOST) {
-                resource= HangmanArenaSpecificResource.bomb;
+                resource = HangmanArenaSpecificResource.wrongq;
             }
             table.add(GraphicUtils.getImage(resource)).width(imgSide)
-                    .height(imgSide).pad(horizontalGeneralMarginDimen);
+                    .height(imgSide).pad(horizontalGeneralMarginDimen / 3);
         }
         return table;
     }
