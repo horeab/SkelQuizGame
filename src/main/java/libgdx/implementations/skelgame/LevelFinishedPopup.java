@@ -27,7 +27,9 @@ public class LevelFinishedPopup extends MyPopup<AbstractScreen, CampaignScreenMa
     private String gameOverSuccessText;
     private CampaignLevel currentCampaignLevel;
 
-    public LevelFinishedPopup(AbstractScreen abstractScreen, CampaignLevel currentCampaignLevel, GameContext gameContext) {
+    public LevelFinishedPopup(AbstractScreen abstractScreen,
+                              CampaignLevel currentCampaignLevel,
+                              GameContext gameContext) {
         super(abstractScreen);
         this.gameContext = gameContext;
         this.currentCampaignLevel = currentCampaignLevel;
@@ -48,7 +50,8 @@ public class LevelFinishedPopup extends MyPopup<AbstractScreen, CampaignScreenMa
                     new CampaignStoreService().reset();
                     screenManager.showMainScreen();
                 } else {
-                    screenManager.showCampaignGameScreen(new GameContextService().createGameContext(gameContext.getQuestionConfig()), currentCampaignLevel);
+                    screenManager.showCampaignGameScreen(new GameContextService().createGameContext(
+                            gameContext.getQuestionConfig()), currentCampaignLevel);
                 }
             }
         });

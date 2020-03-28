@@ -56,7 +56,7 @@ public class CampaignLevelFinishedPopup<TScreenManager extends CampaignScreenMan
             playAgain.addListener(new ChangeListener() {
                 @Override
                 public void changed(ChangeEvent event, Actor actor) {
-                    screenManager.showCampaignGameScreen(new GameContextService().createGameContext(gameContext.getAmountAvailableHints(), gameContext.getQuestionConfig()), currentCampaignLevel);
+                    screenManager.showCampaignGameScreen(new GameContextService().createGameContext(gameContext.getQuestionConfig()), currentCampaignLevel);
                 }
             });
             addButton(playAgain);

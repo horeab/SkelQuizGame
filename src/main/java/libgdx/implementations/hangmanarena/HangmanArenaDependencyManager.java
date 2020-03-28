@@ -60,11 +60,6 @@ public class HangmanArenaDependencyManager extends CampaignGameDependencyManager
         return HangmanArenaQuestionDifficultyLevel.class;
     }
 
-    @Override
-    public RGBColor getScreenBackgroundColor() {
-        return new RGBColor(1, 123, 206, 188);
-    }
-
     public QuizStarsService getStarsService() {
         return new QuizStarsService();
     }

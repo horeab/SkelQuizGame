@@ -35,7 +35,7 @@ public class RoundButtonBuilder extends ButtonBuilder {
     }
 
     public RoundButtonBuilder setCampaignButton() {
-        this.icon = HangmanArenaSpecificResource.btn_campaign;
+        this.icon = HangmanArenaSpecificResource.sun;
         withSparkle = true;
         setup(MainGameLabel.l_play);
         return this;

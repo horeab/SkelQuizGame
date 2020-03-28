@@ -10,7 +10,6 @@ public enum HangmanArenaQuestionCategoryEnum implements QuizQuestionCategory {
     cat2(HangmanArenaGameCreatorDependencies.class),
     cat3(HangmanArenaGameCreatorDependencies.class),
     cat4(HangmanArenaGameCreatorDependencies.class),
-    cat5(HangmanArenaGameCreatorDependencies.class),
     ;
 
     private Class<? extends CreatorDependencies> questionCreator;

@@ -115,7 +115,7 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
                                 questionCategoryStringList.add(categ.name());
                             }
                         }
-                        questionConfig = new QuestionConfig(questionConfig.getQuestionDifficultyStringList(), questionCategoryStringList, questionConfig.getAmount());
+                        questionConfig = new QuestionConfig(questionConfig.getQuestionDifficultyStringList(), questionCategoryStringList, questionConfig.getAmount(), questionConfig.getAmountHints());
                     }
                     HangmanGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), campaignLevel);
                 }

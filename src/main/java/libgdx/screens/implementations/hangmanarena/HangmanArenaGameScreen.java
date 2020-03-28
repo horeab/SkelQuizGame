@@ -3,13 +3,15 @@ package libgdx.screens.implementations.hangmanarena;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.campaign.CampaignLevel;
+import libgdx.campaign.CampaignService;
 import libgdx.controls.button.builders.BackButtonBuilder;
+import libgdx.implementations.hangmanarena.HangmanArenaGame;
 import libgdx.implementations.skelgame.LevelFinishedPopup;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
+import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screens.GameScreen;
-import libgdx.screens.implementations.hangman.HangmanGameScreen;
 import libgdx.screens.implementations.hangmanarena.spec.HangmanHeaderCreator;
 import libgdx.screens.implementations.hangmanarena.spec.HangmanScreenBackgroundCreator;
 import libgdx.utils.ScreenDimensionsManager;
@@ -63,6 +65,7 @@ public class HangmanArenaGameScreen extends GameScreen<HangmanArenaScreenManager
         this.hangmanQuestionContainerCreatorService = new HangmanQuestionContainerCreatorService(gameContext, this) {
             @Override
             public void processGameInfo(GameQuestionInfo gameQuestionInfo) {
+                new HangmanHeaderCreator().refreshRemainingAnswersTable(gameContext);
                 hangmanScreenBackgroundCreator.refreshBackground(gameService.getNrOfWrongAnswersPressed(gameQuestionInfo.getAnswerIds()));
                 super.processGameInfo(gameQuestionInfo);
             }
@@ -86,13 +89,17 @@ public class HangmanArenaGameScreen extends GameScreen<HangmanArenaScreenManager
     }
 
     @Override
-    public void onBackKeyPress() {
-        screenManager.showCampaignScreen();
-    }
-
-    @Override
     public void executeLevelFinished() {
-
+        SinglePlayerLevelFinishedService levelFinishedService = new SinglePlayerLevelFinishedService();
+        GameUser gameUser = gameContext.getCurrentUserGameUser();
+        if (levelFinishedService.isGameWon(gameUser)) {
+            new CampaignService().levelFinished(HangmanArenaGame.getInstance().getDependencyManager().getStarsService().getStarsWon(LevelFinishedService.getPercentageOfWonQuestions(gameUser)), campaignLevel);
+        }
+        if (new SinglePlayerLevelFinishedService().isGameFailed(gameContext.getCurrentUserGameUser())) {
+            new LevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
+        } else {
+            screenManager.showCampaignScreen();
+        }
     }
 
     @Override
@@ -109,5 +116,9 @@ public class HangmanArenaGameScreen extends GameScreen<HangmanArenaScreenManager
                 }
             })));
         }
+    }
+    @Override
+    public void onBackKeyPress() {
+        screenManager.showCampaignScreen();
     }
 }

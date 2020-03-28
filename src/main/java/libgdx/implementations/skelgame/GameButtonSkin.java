@@ -25,6 +25,13 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     HINT(QuizGameSpecificResource.btn_hint, QuizGameSpecificResource.btn_hint, QuizGameSpecificResource.btn_hint, QuizGameSpecificResource.btn_hint_disabled, null),
 
     HANGMANARENA_BACKGROUND_CIRCLE(HangmanArenaSpecificResource.btn_background_circle_up, HangmanArenaSpecificResource.btn_background_circle_down, HangmanArenaSpecificResource.btn_background_circle_up, HangmanArenaSpecificResource.btn_background_circle_up, null),
+    CAMPAIGN_LEVEL_0(HangmanArenaSpecificResource.btn_campaign_0_up, HangmanArenaSpecificResource.btn_campaign_0_down, HangmanArenaSpecificResource.btn_campaign_0_up, HangmanArenaSpecificResource.btn_campaign_disabled, null),
+    CAMPAIGN_LEVEL_1(HangmanArenaSpecificResource.btn_campaign_1_up, HangmanArenaSpecificResource.btn_campaign_1_down, HangmanArenaSpecificResource.btn_campaign_1_up, HangmanArenaSpecificResource.btn_campaign_disabled, null),
+    CAMPAIGN_LEVEL_2(HangmanArenaSpecificResource.btn_campaign_2_up, HangmanArenaSpecificResource.btn_campaign_2_down, HangmanArenaSpecificResource.btn_campaign_2_up, HangmanArenaSpecificResource.btn_campaign_disabled, null),
+    CAMPAIGN_LEVEL_3(HangmanArenaSpecificResource.btn_campaign_3_up, HangmanArenaSpecificResource.btn_campaign_3_down, HangmanArenaSpecificResource.btn_campaign_3_up, HangmanArenaSpecificResource.btn_campaign_disabled, null),
+    CAMPAIGN_LEVEL_4(HangmanArenaSpecificResource.btn_campaign_4_up, HangmanArenaSpecificResource.btn_campaign_4_down, HangmanArenaSpecificResource.btn_campaign_4_up, HangmanArenaSpecificResource.btn_campaign_disabled, null),
+    CAMPAIGN_LEVEL_5(HangmanArenaSpecificResource.btn_campaign_5_up, HangmanArenaSpecificResource.btn_campaign_5_down, HangmanArenaSpecificResource.btn_campaign_5_up, HangmanArenaSpecificResource.btn_campaign_disabled, null),
+    CAMPAIGN_LEVEL_WALL(HangmanArenaSpecificResource.btn_campaign_wall_up, HangmanArenaSpecificResource.btn_campaign_wall_down, HangmanArenaSpecificResource.btn_campaign_wall_up, HangmanArenaSpecificResource.btn_campaign_disabled, null),
 
     HANGMAN_HINT(HangmanSpecificResource.btn_hint, HangmanSpecificResource.btn_hint, HangmanSpecificResource.btn_hint, HangmanSpecificResource.btn_hint_disabled, null),
     HANGMAN_MENU(HangmanSpecificResource.btn_menu_up, HangmanSpecificResource.btn_menu_down, HangmanSpecificResource.btn_menu_up, HangmanSpecificResource.btn_menu_up, null),

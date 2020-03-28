@@ -13,15 +13,20 @@ import libgdx.controls.labelimage.LabelImage;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.hangman.HangmanSpecificResource;
+import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.SkelGameButtonSize;
+import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.resources.*;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
+import libgdx.screens.implementations.hangman.HangmanGameScreen;
+import libgdx.screens.implementations.hangmanarena.HangmanArenaGameScreen;
 import libgdx.utils.EnumUtils;
 import org.apache.commons.lang3.StringUtils;
 
 public class CampaignLevelButtonBuilder extends ButtonBuilder {
 
+    public static final int AVAILABLE_HINTS = 2;
     private AbstractScreen abstractScreen;
     private CampaignStoreLevel level;
     private CampaignLevel levelEnum;
@@ -44,12 +49,16 @@ public class CampaignLevelButtonBuilder extends ButtonBuilder {
     @Override
     public MyButton build() {
         setFixedButtonSize(SkelGameButtonSize.CAMPAIGN_LEVEL_ROUND_IMAGE);
-        setButtonSkin(campaignLevelEnumService.getButtonSkin());
+        setButtonSkin(campaignLevelEnumService.getButtonSkin(GameButtonSkin.class));
         addLevelInfo();
+        CampaignLevelEnumService enumService = new CampaignLevelEnumService(levelEnum);
+        QuestionConfig questionConfig = enumService.getQuestionConfig(HangmanArenaGameScreen.TOTAL_QUESTIONS, 2);
         addClickListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                HangmanArenaGame.getInstance().getScreenManager().showMainScreen();
+                HangmanArenaGame.getInstance().getScreenManager().showCampaignGameScreen(
+                        new GameContextService().createGameContext(questionConfig), levelEnum
+                );
             }
         });
         MyButton myButton = super.build();
@@ -120,7 +129,7 @@ public class CampaignLevelButtonBuilder extends ButtonBuilder {
 
     private Res getIcon() {
         Res res = HangmanArenaSpecificResource.bomb;
-        CampaignLevelEnumService enumService=new CampaignLevelEnumService(levelEnum);
+        CampaignLevelEnumService enumService = new CampaignLevelEnumService(levelEnum);
         if (enumService.getCategory() != null) {
             res = (SpecificResource) EnumUtils.getEnumValue(HangmanArenaGame.getInstance().getSubGameDependencyManager().getSpecificResourceTypeEnum(), "campaign_level_" + enumService.getDifficulty() + "_" + enumService.getCategory());
         }

@@ -144,7 +144,7 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
                     CampaignLevel campaignLevel = ConthistoryCampaignLevelEnum.valueOf("LEVEL_0_" + finalIndex);
                     CampaignLevelEnumService enumService = new CampaignLevelEnumService(campaignLevel);
                     QuestionConfig questionConfig = enumService.getQuestionConfig(ConthistoryGameScreen.TOTAL_QUESTIONS);
-                    ConthistoryGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(0, questionConfig), campaignLevel);
+                    ConthistoryGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), campaignLevel);
                 }
             });
             Table btnTable = new Table();

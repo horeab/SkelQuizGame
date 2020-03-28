@@ -15,10 +15,10 @@ public class GameContext {
     private int amountAvailableHints;
     private QuestionConfig questionConfig;
 
-    GameContext(GameUser currentUserGameUser, QuestionConfig questionConfig, int amountAvailableHints) {
+    GameContext(GameUser currentUserGameUser, QuestionConfig questionConfig) {
         this.currentUserGameUser = currentUserGameUser;
         this.questionConfig = questionConfig;
-        this.amountAvailableHints = amountAvailableHints;
+        this.amountAvailableHints = questionConfig.getAmountHints();
     }
 
     public GameUser getCurrentUserGameUser() {
