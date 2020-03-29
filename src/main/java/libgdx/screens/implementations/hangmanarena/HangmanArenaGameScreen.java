@@ -89,6 +89,11 @@ public class HangmanArenaGameScreen extends GameScreen<HangmanArenaScreenManager
     }
 
     @Override
+    protected int getQuestionsPlayedForPopupAd() {
+        return 7;
+    }
+
+    @Override
     public void executeLevelFinished() {
         SinglePlayerLevelFinishedService levelFinishedService = new SinglePlayerLevelFinishedService();
         GameUser gameUser = gameContext.getCurrentUserGameUser();
