@@ -76,7 +76,7 @@ public class StartGameHangmanArena {
             case pt:
                 return "Jogo da forca";
             case ro:
-                return "Spânzurătoare";
+                return "Spânzurătoarea";
             case ru:
                 return "Виселица";
             case sk:
