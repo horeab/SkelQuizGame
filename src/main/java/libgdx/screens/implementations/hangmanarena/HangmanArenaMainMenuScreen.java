@@ -7,6 +7,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
+
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ButtonWithIconBuilder;
@@ -39,6 +40,7 @@ public class HangmanArenaMainMenuScreen extends AbstractScreen<HangmanArenaScree
 
 
     private void createGameControls() {
+        MyButton extraContentButton = null;
         Table table = new Table();
         table.setFillParent(true);
         table.add().padTop(MainDimen.vertical_general_margin.getDimen() * 2).row();
@@ -49,15 +51,13 @@ public class HangmanArenaMainMenuScreen extends AbstractScreen<HangmanArenaScree
         if (!Utils.isValidExtraContent()) {
             table.row();
             float dimen = MainDimen.horizontal_general_margin.getDimen();
-            float mugDimen = dimen * 10;
-            MyButton myButton = new ButtonWithIconBuilder("", MainResource.mug_color)
+            extraContentButton = new ButtonWithIconBuilder("", MainResource.mug_color)
                     .setFixedButtonSize(GameButtonSize.NORMAL_MENU_ROUND_IMAGE).build();
-            myButton.setWidth(mugDimen);
-            myButton.setHeight(mugDimen);
-            new ActorAnimation(myButton, Game.getInstance().getAbstractScreen()).animateZoomInZoomOut();
-            table.add(myButton).padTop(dimen * 5).width(mugDimen).height(mugDimen);
-            myButton.setTransform(true);
-            myButton.addListener(new ClickListener() {
+            new ActorAnimation(extraContentButton, Game.getInstance().getAbstractScreen()).animateZoomInZoomOut();
+            table.add(extraContentButton).padTop(dimen * 5).width(GameButtonSize.NORMAL_MENU_ROUND_IMAGE.getWidth())
+                    .height(GameButtonSize.NORMAL_MENU_ROUND_IMAGE.getHeight());
+            extraContentButton.setTransform(true);
+            extraContentButton.addListener(new ClickListener() {
                 @Override
                 public void clicked(InputEvent event, float x, float y) {
                     displayInAppPurchasesPopup(new Runnable() {
@@ -74,8 +74,12 @@ public class HangmanArenaMainMenuScreen extends AbstractScreen<HangmanArenaScree
         table.row();
         table.add().growY().row();
         Image image = GraphicUtils.getImage(HangmanArenaSpecificResource.forest_texture);
-        table.add(image).width(ScreenDimensionsManager.getScreenWidth()).height(ScreenDimensionsManager.getNewHeightForNewWidth(ScreenDimensionsManager.getScreenWidth(), image));
+        table.add(image).width(ScreenDimensionsManager.getScreenWidth())
+                .height(ScreenDimensionsManager.getNewHeightForNewWidth(ScreenDimensionsManager.getScreenWidth(), image));
         addActor(table);
+        if (extraContentButton != null) {
+            extraContentButton.toFront();
+        }
     }
 
     public static void displayInAppPurchasesPopup(Runnable redirectAfterBoughtScreen) {
