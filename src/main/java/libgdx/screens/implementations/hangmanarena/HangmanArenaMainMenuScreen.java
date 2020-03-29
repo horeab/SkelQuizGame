@@ -9,6 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
+import libgdx.controls.button.builders.ButtonWithIconBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
@@ -16,6 +17,7 @@ import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.hangman.HangmanSpecificResource;
 import libgdx.implementations.hangmanarena.HangmanArenaGame;
 import libgdx.implementations.hangmanarena.HangmanArenaSpecificResource;
+import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
 import libgdx.resources.Resource;
@@ -47,13 +49,15 @@ public class HangmanArenaMainMenuScreen extends AbstractScreen<HangmanArenaScree
         if (!Utils.isValidExtraContent()) {
             table.row();
             float dimen = MainDimen.horizontal_general_margin.getDimen();
-            final Image mug = GraphicUtils.getImage(MainResource.mug_color);
             float mugDimen = dimen * 10;
-            mug.setWidth(mugDimen);
-            mug.setHeight(mugDimen);
-            new ActorAnimation(mug, Game.getInstance().getAbstractScreen()).animateZoomInZoomOut();
-            table.add(mug).padTop(dimen*5).width(mugDimen).height(mugDimen);
-            mug.addListener(new ClickListener() {
+            MyButton myButton = new ButtonWithIconBuilder("", MainResource.mug_color)
+                    .setFixedButtonSize(GameButtonSize.NORMAL_MENU_ROUND_IMAGE).build();
+            myButton.setWidth(mugDimen);
+            myButton.setHeight(mugDimen);
+            new ActorAnimation(myButton, Game.getInstance().getAbstractScreen()).animateZoomInZoomOut();
+            table.add(myButton).padTop(dimen * 5).width(mugDimen).height(mugDimen);
+            myButton.setTransform(true);
+            myButton.addListener(new ClickListener() {
                 @Override
                 public void clicked(InputEvent event, float x, float y) {
                     displayInAppPurchasesPopup(new Runnable() {
@@ -123,7 +127,8 @@ public class HangmanArenaMainMenuScreen extends AbstractScreen<HangmanArenaScree
     }
 
     private MyButton createCampaignButton() {
-        MyButton button = new RoundButtonBuilder(getAbstractScreen()).setCampaignButton().setFontDimen(FontManager.calculateMultiplierStandardFontSize(1.2f)).build();
+        MyButton button = new RoundButtonBuilder(getAbstractScreen())
+                .setCampaignButton().setFontDimen(FontManager.calculateMultiplierStandardFontSize(1.2f)).build();
         button.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
