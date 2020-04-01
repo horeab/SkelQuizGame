@@ -3,6 +3,7 @@ package libgdx.implementations.skelgame;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 
+import libgdx.constants.Contrast;
 import libgdx.utils.model.FontColor;
 import org.apache.commons.lang3.StringUtils;
 
@@ -42,7 +43,10 @@ public class LevelFinishedPopup extends MyPopup<AbstractScreen, CampaignScreenMa
 
     @Override
     public void addButtons() {
-        MyButton playAgain = new ButtonBuilder().setFontColor(FontColor.BLACK).setDefaultButton().setText(SkelGameLabel.play_again.getText()).build();
+        MyButton playAgain = new ButtonBuilder()
+                .setFontColor(FontColor.BLACK)
+                .setContrast(Contrast.LIGHT)
+                .setDefaultButton().setText(SkelGameLabel.play_again.getText()).build();
         playAgain.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
@@ -58,7 +62,10 @@ public class LevelFinishedPopup extends MyPopup<AbstractScreen, CampaignScreenMa
         addButton(playAgain);
 
         if (StringUtils.isBlank(gameOverSuccessText)) {
-            MyButton campaignScreenBtn = new ButtonBuilder().setDefaultButton().setText(SkelGameLabel.go_back.getText()).build();
+            MyButton campaignScreenBtn = new ButtonBuilder().setDefaultButton()
+                    .setContrast(Contrast.LIGHT)
+                    .setFontColor(FontColor.BLACK)
+                    .setText(SkelGameLabel.go_back.getText()).build();
             addButton(campaignScreenBtn);
             campaignScreenBtn.addListener(new ChangeListener() {
                 @Override

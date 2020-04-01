@@ -120,7 +120,7 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
     private MyButton createCategButton(final CampaignLevel campaignLevel) {
         final int maxOpenedLevel = allCampaignLevelStores.size();
         boolean locked = campaignLevel.getIndex() >= maxOpenedLevel;
-        locked=false;
+//        locked=false;
         String labelText = new CampaignLevelEnumService(campaignLevel).getLabelText();
         if (locked) {
             labelText = "???";

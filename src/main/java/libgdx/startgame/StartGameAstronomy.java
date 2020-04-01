@@ -29,7 +29,7 @@ public class StartGameAstronomy {
 
                     @Override
                     public String getLanguage() {
-                        return Language.cs.name();
+                        return Language.en.name();
                     }
                 });
         libgdx.utils.startgame.StartGame.main(game, args);
