@@ -1,20 +1,10 @@
-package libgdx.screens.implementations.astronomy;
+package libgdx.screens.implementations.periodictable;
 
 import libgdx.campaign.CampaignLevel;
-import libgdx.implementations.astronomy.AstronomyCategoryEnum;
-import libgdx.implementations.astronomy.AstronomyDifficultyLevel;
 import libgdx.implementations.skelgame.CampaignScreenManager;
 import libgdx.implementations.skelgame.gameservice.GameContext;
-import libgdx.implementations.skelgame.gameservice.GameContextService;
-import libgdx.implementations.skelgame.question.Question;
-import libgdx.implementations.skelgame.gameservice.QuestionCreator;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
-public class AstronomyScreenManager extends CampaignScreenManager {
+public class PeriodicTableScreenManager extends CampaignScreenManager {
 
     @Override
     public void showMainScreen() {
@@ -29,11 +19,11 @@ public class AstronomyScreenManager extends CampaignScreenManager {
 
     @Override
     public void showCampaignScreen() {
-        showScreen(AstronomyScreenTypeEnum.CAMPAIGN_SCREEN);
+        showScreen(PeriodicTableScreenTypeEnum.CAMPAIGN_SCREEN);
     }
 
     @Override
     public void showCampaignGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
-        showScreen(AstronomyScreenTypeEnum.CAMPAIGN_GAME_SCREEN, gameContext, campaignLevel);
+        showScreen(PeriodicTableScreenTypeEnum.CAMPAIGN_GAME_SCREEN, gameContext, campaignLevel);
     }
 }
