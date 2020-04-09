@@ -1,10 +1,12 @@
 package libgdx.implementations.periodictable;
 
-import libgdx.campaign.*;
+import libgdx.campaign.CampaignGameDependencyManager;
+import libgdx.campaign.ImageCategIncrementRes;
+import libgdx.campaign.QuestionConfigFileHandler;
 import libgdx.constants.Contrast;
+import libgdx.implementations.periodictable.spec.ChemicalElementsUtil;
 import libgdx.implementations.skelgame.gameservice.QuizStarsService;
 import libgdx.resources.IncrementingRes;
-import libgdx.utils.EnumUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,17 +22,12 @@ public class PeriodicTableDependencyManager extends CampaignGameDependencyManage
 
     @Override
     protected String allQuestionText() {
-        QuestionConfigFileHandler questionConfigFileHandler = new QuestionConfigFileHandler();
         StringBuilder text = new StringBuilder();
-        for (QuestionCategory category : (QuestionCategory[]) EnumUtils.getValues(PeriodicTableGame.getInstance().getSubGameDependencyManager().getQuestionCategoryTypeEnum())) {
-            for (QuestionDifficulty difficultyLevel : (QuestionDifficulty[]) EnumUtils.getValues(PeriodicTableGame.getInstance().getSubGameDependencyManager().getQuestionDifficultyTypeEnum())) {
-                Scanner scanner = new Scanner(questionConfigFileHandler.getFileText(difficultyLevel, category));
-                while (scanner.hasNextLine()) {
-                    text.append(scanner.nextLine());
-                }
-                scanner.close();
-            }
+        Scanner scanner = new Scanner(ChemicalElementsUtil.getAllFileText());
+        while (scanner.hasNextLine()) {
+            text.append(scanner.nextLine());
         }
+        scanner.close();
         return text.toString();
     }
 
@@ -58,6 +55,7 @@ public class PeriodicTableDependencyManager extends CampaignGameDependencyManage
     public Class<PeriodicTableDifficultyLevel> getQuestionDifficultyTypeEnum() {
         return PeriodicTableDifficultyLevel.class;
     }
+
     public QuizStarsService getStarsService() {
         return new QuizStarsService();
     }

@@ -1,20 +1,30 @@
 package libgdx.screens.implementations.periodictable;
 
 import libgdx.campaign.CampaignLevel;
+import libgdx.implementations.periodictable.PeriodicTableCategoryEnum;
+import libgdx.implementations.periodictable.PeriodicTableDifficultyLevel;
 import libgdx.implementations.skelgame.CampaignScreenManager;
 import libgdx.implementations.skelgame.gameservice.GameContext;
+import libgdx.implementations.skelgame.gameservice.GameContextService;
+import libgdx.implementations.skelgame.question.Question;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class PeriodicTableScreenManager extends CampaignScreenManager {
 
     @Override
     public void showMainScreen() {
-//        List<Question> questions = new ArrayList<>();
-//        questions.addAll(new QuestionCreator().getAllQuestions(Arrays.asList(PeriodicTableDifficultyLevel._0), PeriodicTableCategoryEnum.cat5));
-//        Collections.shuffle(questions);
-//        questions = questions.subList(0, 7);
-//        GameContext gameContext = new GameContextService().createGameContext(questions.toArray(new Question[questions.size()]));
-//        showCampaignGameScreen(gameContext, null);
-        showPeriodicTableScreen();
+        List<Question> questions = new ArrayList<>();
+        questions.addAll(new libgdx.implementations.skelgame.gameservice.QuestionCreator().getAllQuestions());
+        Collections.shuffle(questions);
+        questions = questions.subList(0, 5);
+        GameContext gameContext = new GameContextService().createGameContext(questions.toArray(new Question[questions.size()]));
+        showCampaignGameScreen(gameContext, null);
+//        showPeriodicTableScreen();
+//        showCampaignScreen();
     }
 
     public void showPeriodicTableScreen() {

@@ -10,6 +10,7 @@ import libgdx.implementations.geoquiz.QuizGameSpecificResource;
 import libgdx.implementations.hangman.HangmanSpecificResource;
 import libgdx.implementations.hangmanarena.HangmanArenaSpecificResource;
 import libgdx.implementations.paintings.PaintingsSpecificResource;
+import libgdx.implementations.periodictable.PeriodicTableSpecificResource;
 import libgdx.resources.MainResource;
 import libgdx.resources.Res;
 import libgdx.utils.model.FontColor;
@@ -65,6 +66,9 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     ASTRONOMY_CATEG3(AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3d, null),
     ASTRONOMY_CATEG4(AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4d, null),
     ASTRONOMY_CATEG5(AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5d, null),
+
+    PERIODICTABLE_STARTGAME(PeriodicTableSpecificResource.play_up, PeriodicTableSpecificResource.play_down, PeriodicTableSpecificResource.play_up, PeriodicTableSpecificResource.play_up, null),
+    PERIODICTABLE_PT(PeriodicTableSpecificResource.pt_up, PeriodicTableSpecificResource.pt_down, PeriodicTableSpecificResource.pt_up, PeriodicTableSpecificResource.pt_up, null),
     ;
 
     GameButtonSkin(Res imgUp, Res imgDown, Res imgChecked, Res imgDisabled, FontColor buttonDisabledFontColor) {

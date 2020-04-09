@@ -13,6 +13,7 @@ import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.periodictable.PeriodicTableSpecificResource;
 import libgdx.implementations.periodictable.spec.ChemicalElement;
+import libgdx.implementations.periodictable.spec.ChemicalElementsUtil;
 import libgdx.resources.MainResource;
 import libgdx.resources.Res;
 import libgdx.resources.dimen.MainDimen;
@@ -32,34 +33,7 @@ public class PeriodicTableScreen extends AbstractScreen<PeriodicTableScreenManag
 
     public PeriodicTableScreen() {
         allCampaignLevelStores = campaignService.processAndGetAllLevels();
-        chemicalElements = processTextForChemicalElements();
-    }
-
-    private List<ChemicalElement> processTextForChemicalElements() {
-        List<ChemicalElement> chemicalElements = new ArrayList<>();
-        Scanner scanner = new Scanner(new QuestionConfigFileHandler().getFileText("questions/all.txt"));
-        while (scanner.hasNextLine()) {
-            chemicalElements.add(new Gson().fromJson(scanner.nextLine(), ChemicalElement.class));
-        }
-        return chemicalElements;
-    }
-
-    private ChemicalElement getElement(int period, int group) {
-        for (ChemicalElement e : chemicalElements) {
-            if (e.getPeriod() == period && e.getGroup() == group) {
-                return e;
-            }
-        }
-        return null;
-    }
-
-    private ChemicalElement getElementByNr(int aNr) {
-        for (ChemicalElement e : chemicalElements) {
-            if (e.getAtomicNumber() == aNr) {
-                return e;
-            }
-        }
-        return null;
+        chemicalElements = ChemicalElementsUtil.processTextForChemicalElements();
     }
 
     @Override
@@ -92,13 +66,13 @@ public class PeriodicTableScreen extends AbstractScreen<PeriodicTableScreenManag
             Table row = new Table();
             for (int c = 0; c < cols; c++) {
                 Table col = new Table();
-                ChemicalElement e = getElementByNr(atomicNr);
+                ChemicalElement e = ChemicalElementsUtil.getElementByNr(atomicNr, chemicalElements);
                 boolean isNotElement = e == null;
                 if (atomicNr == 72) {
                     atomicNr = 89;
                     c--;
                 } else if (!isNotElement) {
-                    Res background =PeriodicTableSpecificResource.valueOf("eltype_" + e.getType() + "_background");
+                    Res background = PeriodicTableSpecificResource.valueOf("eltype_" + e.getType() + "_background");
                     col.add(createElementInfoTable(e));
                     atomicNr++;
                     col.setBackground(GraphicUtils.getNinePatch(background));
@@ -119,7 +93,7 @@ public class PeriodicTableScreen extends AbstractScreen<PeriodicTableScreenManag
             Table row = new Table();
             for (int group = 1; group <= groups; group++) {
                 Table col = new Table();
-                ChemicalElement e = getElement(period, group);
+                ChemicalElement e = ChemicalElementsUtil.getElement(period, group, chemicalElements);
                 boolean isNotElement = e == null;
                 Res background = MainResource.transparent_background;
                 if (atomicNr == 57) {
@@ -128,7 +102,7 @@ public class PeriodicTableScreen extends AbstractScreen<PeriodicTableScreenManag
                     atomicNr = 104;
                 } else if (atomicNr <= 118 && !isNotElement) {
                     background = PeriodicTableSpecificResource.valueOf("eltype_" + e.getType() + "_background");
-                    ChemicalElement toDisplay = getElementByNr(atomicNr);
+                    ChemicalElement toDisplay = ChemicalElementsUtil.getElementByNr(atomicNr, chemicalElements);
                     col.add(createElementInfoTable(toDisplay));
                     atomicNr++;
                 }
@@ -160,7 +134,7 @@ public class PeriodicTableScreen extends AbstractScreen<PeriodicTableScreenManag
 
     @Override
     public void onBackKeyPress() {
-        Gdx.app.exit();
+        screenManager.showCampaignScreen();
     }
 
     @Override

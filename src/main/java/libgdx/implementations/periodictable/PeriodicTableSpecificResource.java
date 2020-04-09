@@ -20,8 +20,14 @@ public enum PeriodicTableSpecificResource implements SpecificResource {
     eltype_6_background("backgrounds/eltype_6_background.png", Texture.class),
     eltype_7_background("backgrounds/eltype_7_background.png", Texture.class),
     eltype_8_background("backgrounds/eltype_8_background.png", Texture.class),
-    eltype_9_background("backgrounds/eltype_9_background.png", Texture.class),
-    ;;
+    notfound("backgrounds/notfound.png", Texture.class),
+    success("backgrounds/success.png", Texture.class),
+
+    play_down("buttons/play_down.png", Texture.class),
+    play_up("buttons/play_up.png", Texture.class),
+    pt_down("buttons/pt_down.png", Texture.class),
+    pt_up("buttons/pt_up.png", Texture.class),
+    ;
 
     // @formatter:on
 
