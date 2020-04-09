@@ -6,13 +6,13 @@ import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.astronomy.AstronomyScreenManager;
+import libgdx.screens.implementations.periodictable.PeriodicTableScreenManager;
 
 public class PeriodicTableGame extends CampaignGame<AppInfoService,
         PeriodicTableMainDependencyManager,
         PeriodicTableDependencyManager,
         AbstractScreen,
-        AstronomyScreenManager,
+        PeriodicTableScreenManager,
         GameIdEnum
         > {
 
@@ -30,7 +30,7 @@ public class PeriodicTableGame extends CampaignGame<AppInfoService,
 
     @Override
     protected void displayScreenAfterAssetsLoad() {
-        AstronomyScreenManager screenManager = getScreenManager();
+        PeriodicTableScreenManager screenManager = getScreenManager();
         screenManager.showMainScreen();
     }
 }

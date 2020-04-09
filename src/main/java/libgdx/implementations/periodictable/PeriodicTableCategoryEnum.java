@@ -4,12 +4,6 @@ import libgdx.implementations.skelgame.gameservice.*;
 
 public enum PeriodicTableCategoryEnum implements QuizQuestionCategory {
 
-    cat0(ImageClickGameCreatorDependencies.class),
-    cat1(UniqueQuizGameCreatorDependencies.class),
-    cat2(UniqueQuizGameCreatorDependencies.class),
-    cat3(DependentQuizGameCreatorDependencies.class),
-    cat4(DependentQuizGameCreatorDependencies.class),
-    cat5(UniqueQuizGameCreatorDependencies.class),
     ;
 
     private Class<? extends CreatorDependencies> questionCreator;

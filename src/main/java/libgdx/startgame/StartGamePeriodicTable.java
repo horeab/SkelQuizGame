@@ -10,11 +10,20 @@ import libgdx.utils.startgame.test.DefaultAppInfoService;
 public class StartGamePeriodicTable {
 
     public static void main(String[] args) {
+
+        //TODO CHANGE////**********//////////////////////////////////////
+        //**********//////////////////////////////////////
+        //**********//////////////////////////////////////
+        //**********//////////////////////////////////////
         PeriodicTableGame game = new PeriodicTableGame(
                 new DefaultAppInfoService() {
                     @Override
+                    //TODO CHANGE//////////////////////////////////////////
+                    //**********//////////////////////////////////////
+                    //**********//////////////////////////////////////
+                    //**********//////////////////////////////////////
                     public String getGameIdPrefix() {
-                        return GameIdEnum.astronomy.name();
+                        return GameIdEnum.periodictable.name();
                     }
 
                     @Override
@@ -30,6 +39,11 @@ public class StartGamePeriodicTable {
                     @Override
                     public String getLanguage() {
                         return Language.en.name();
+                    }
+
+                    @Override
+                    public boolean isPortraitMode() {
+                        return false;
                     }
                 });
         libgdx.utils.startgame.StartGame.main(game, args);
@@ -47,7 +61,7 @@ public class StartGamePeriodicTable {
             case el:
                 return "Αστρονομία";
             case en:
-                return "Astronomy";
+                return "The Periodic Table Quiz";
             case es:
                 return "Astronomía";
             case fi:

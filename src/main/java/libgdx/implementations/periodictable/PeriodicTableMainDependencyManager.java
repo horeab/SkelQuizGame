@@ -10,10 +10,10 @@ import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.resources.Resource;
 import libgdx.resources.ResourceService;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.astronomy.AstronomyScreenManager;
+import libgdx.screens.implementations.periodictable.PeriodicTableScreenManager;
 import libgdx.transactions.TransactionsService;
 
-public class PeriodicTableMainDependencyManager extends MainDependencyManager<AstronomyScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {
+public class PeriodicTableMainDependencyManager extends MainDependencyManager<PeriodicTableScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {
 
     @Override
     public Class<Resource> getMainResourcesClass() {
@@ -41,8 +41,8 @@ public class PeriodicTableMainDependencyManager extends MainDependencyManager<As
     }
 
     @Override
-    public AstronomyScreenManager createScreenManager() {
-        return new AstronomyScreenManager();
+    public PeriodicTableScreenManager createScreenManager() {
+        return new PeriodicTableScreenManager();
     }
 
     @Override

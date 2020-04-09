@@ -6,7 +6,7 @@ import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
 import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.button.builders.BackButtonBuilder;
-import libgdx.implementations.astronomy.AstronomyGame;
+import libgdx.implementations.periodictable.PeriodicTableGame;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.screens.GameScreen;
@@ -107,7 +107,7 @@ public class PeriodicTableGameScreen extends GameScreen<PeriodicTableScreenManag
     public void executeLevelFinished() {
         GameUser gameUser = gameContext.getCurrentUserGameUser();
         if (levelFinishedService.isGameWon(gameUser)) {
-            QuizStarsService starsService = AstronomyGame.getInstance().getDependencyManager().getStarsService();
+            QuizStarsService starsService = PeriodicTableGame.getInstance().getDependencyManager().getStarsService();
             int starsWon = starsService.getStarsWon(LevelFinishedService.getPercentageOfWonQuestions(gameUser));
             new CampaignService().levelFinished(starsWon, campaignLevel);
             screenManager.showMainScreen();

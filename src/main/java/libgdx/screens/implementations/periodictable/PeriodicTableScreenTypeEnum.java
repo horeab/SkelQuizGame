@@ -13,6 +13,12 @@ public enum PeriodicTableScreenTypeEnum implements ScreenType {
         }
     },
 
+    PERIODICTABLE_SCREEN {
+        public AbstractScreen getScreen(Object... params) {
+            return new PeriodicTableScreen();
+        }
+    },
+
     CAMPAIGN_GAME_SCREEN {
         public AbstractScreen getScreen(Object... params) {
             return new PeriodicTableGameScreen((GameContext) params[0], (CampaignLevel) params[1]);

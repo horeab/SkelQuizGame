@@ -10,6 +10,17 @@ public enum PeriodicTableSpecificResource implements SpecificResource {
 
     // @formatter:off
     specific_labels("labels/labels", I18NBundle.class),
+
+    eltype_0_background("backgrounds/eltype_0_background.png", Texture.class),
+    eltype_1_background("backgrounds/eltype_1_background.png", Texture.class),
+    eltype_2_background("backgrounds/eltype_2_background.png", Texture.class),
+    eltype_3_background("backgrounds/eltype_3_background.png", Texture.class),
+    eltype_4_background("backgrounds/eltype_4_background.png", Texture.class),
+    eltype_5_background("backgrounds/eltype_5_background.png", Texture.class),
+    eltype_6_background("backgrounds/eltype_6_background.png", Texture.class),
+    eltype_7_background("backgrounds/eltype_7_background.png", Texture.class),
+    eltype_8_background("backgrounds/eltype_8_background.png", Texture.class),
+    eltype_9_background("backgrounds/eltype_9_background.png", Texture.class),
     ;;
 
     // @formatter:on

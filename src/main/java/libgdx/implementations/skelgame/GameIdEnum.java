@@ -15,6 +15,7 @@ import libgdx.implementations.judetelerom.JudeteleRomDependencyManager;
 import libgdx.implementations.kennstde.KennstDeDependencyManager;
 import libgdx.implementations.math.MathDependencyManager;
 import libgdx.implementations.paintings.PaintingsDependencyManager;
+import libgdx.implementations.periodictable.PeriodicTableDependencyManager;
 
 public enum GameIdEnum implements GameId {
 
@@ -23,12 +24,14 @@ public enum GameIdEnum implements GameId {
     judetelerom(JudeteleRomDependencyManager.class),
     anatomy(AnatomyDependencyManager.class),
     astronomy(AstronomyDependencyManager.class),
+    periodictable(PeriodicTableDependencyManager.class),
     paintings(PaintingsDependencyManager.class),
     kennstde(KennstDeDependencyManager.class),
     quizgame(QuizGameDependencyManager.class),
     conthistory(ConthistoryDependencyManager.class),
     hangmanarena(HangmanArenaDependencyManager.class),
-    hangman(HangmanDependencyManager.class),;
+    hangman(HangmanDependencyManager.class),
+    ;
 
     private Class<? extends SubGameDependencyManager> dependencyManagerClass;
 

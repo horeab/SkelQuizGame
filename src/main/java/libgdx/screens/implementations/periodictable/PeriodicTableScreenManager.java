@@ -14,7 +14,11 @@ public class PeriodicTableScreenManager extends CampaignScreenManager {
 //        questions = questions.subList(0, 7);
 //        GameContext gameContext = new GameContextService().createGameContext(questions.toArray(new Question[questions.size()]));
 //        showCampaignGameScreen(gameContext, null);
-        showCampaignScreen();
+        showPeriodicTableScreen();
+    }
+
+    public void showPeriodicTableScreen() {
+        showScreen(PeriodicTableScreenTypeEnum.PERIODICTABLE_SCREEN);
     }
 
     @Override
