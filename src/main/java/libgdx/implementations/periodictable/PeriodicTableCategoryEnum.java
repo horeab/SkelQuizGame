@@ -1,16 +1,15 @@
 package libgdx.implementations.periodictable;
 
 import libgdx.implementations.skelgame.gameservice.CreatorDependencies;
-import libgdx.implementations.skelgame.gameservice.DependentQuizGameCreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.QuizQuestionCategory;
 
 public enum PeriodicTableCategoryEnum implements QuizQuestionCategory {
 
-    cat0(DependentQuizGameCreatorDependencies.class),//symbol
-    cat1(DependentQuizGameCreatorDependencies.class),//discoveredBy
-    cat2(DependentQuizGameCreatorDependencies.class),//yearOfDiscovery
-    cat3(DependentQuizGameCreatorDependencies.class),//atomicWeight
-    cat4(DependentQuizGameCreatorDependencies.class),//density
+    cat0(PeriodicTableCreatorDependencies.class),//symbol
+    cat1(PeriodicTableCreatorDependencies.class),//discoveredBy
+    cat2(PeriodicTableCreatorDependencies.class),//yearOfDiscovery
+    cat3(PeriodicTableCreatorDependencies.class),//atomicWeight
+    cat4(PeriodicTableCreatorDependencies.class),//density
     ;
 
     private Class<? extends CreatorDependencies> questionCreator;
