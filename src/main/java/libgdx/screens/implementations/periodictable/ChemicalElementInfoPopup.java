@@ -1,6 +1,9 @@
 package libgdx.screens.implementations.periodictable;
 
+import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.popup.MyPopup;
+import libgdx.implementations.periodictable.PeriodicTableCategoryEnum;
+import libgdx.implementations.periodictable.PeriodicTableDifficultyLevel;
 import libgdx.implementations.periodictable.spec.ChemicalElement;
 import libgdx.implementations.skelgame.CampaignScreenManager;
 import libgdx.screen.AbstractScreen;
@@ -10,6 +13,7 @@ public class ChemicalElementInfoPopup extends MyPopup<AbstractScreen, CampaignSc
 
 
     private ChemicalElement chemicalElement;
+    private CampaignStoreService campaignStoreService = new CampaignStoreService();
 
     public ChemicalElementInfoPopup(AbstractScreen abstractScreen, ChemicalElement chemicalElement) {
         super(abstractScreen);
@@ -27,16 +31,23 @@ public class ChemicalElementInfoPopup extends MyPopup<AbstractScreen, CampaignSc
 
     @Override
     protected String getLabelText() {
+
         StringBuilder text = new StringBuilder();
         text.append(chemicalElement.getName()).append("\n");
         text.append(" ").append("\n");
-        text.append("Symbol: ").append(chemicalElement.getSymbol()).append("\n");
-        text.append("Discovered by: ").append(chemicalElement.getDiscoveredBy()).append("\n");
-        text.append("Year of discovery: ").append(chemicalElement.getYearOfDiscovery()).append("\n");
-        text.append("Atomic weight: ").append(chemicalElement.getAtomicWeight()).append(" u").append("\n");
-        text.append("Density: ").append(chemicalElement.getDensity()).append(" g/cm3").append("\n");
+        text.append("Symbol: ").append(getInfoString(PeriodicTableCategoryEnum.cat0, chemicalElement.getSymbol())).append("\n");
+        text.append("Discovered by: ").append(getInfoString(PeriodicTableCategoryEnum.cat1, chemicalElement.getDiscoveredBy())).append("\n");
+        text.append("Year of discovery: ").append(getInfoString(PeriodicTableCategoryEnum.cat2, String.valueOf(chemicalElement.getYearOfDiscovery()))).append("\n");
+        text.append("Atomic weight: ").append(getInfoString(PeriodicTableCategoryEnum.cat3, chemicalElement.getAtomicWeight())).append("\n");
+        text.append("Density: ").append(getInfoString(PeriodicTableCategoryEnum.cat4, chemicalElement.getDensity())).append("\n");
         return text.toString();
     }
 
-
+    private String getInfoString(PeriodicTableCategoryEnum categoryEnum, String val) {
+        String suffix = categoryEnum == PeriodicTableCategoryEnum.cat4 ? " g/cm3" : "";
+        suffix = categoryEnum == PeriodicTableCategoryEnum.cat3 ? " u" : suffix;
+        return campaignStoreService.isQuestionAlreadyPlayed(PeriodicTableContainers.getQuestionId(chemicalElement.getAtomicNumber(), categoryEnum, PeriodicTableDifficultyLevel._0))
+                ? val + suffix :
+                "???";
+    }
 }

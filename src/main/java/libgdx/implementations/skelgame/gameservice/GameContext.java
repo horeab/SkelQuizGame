@@ -37,6 +37,10 @@ public class GameContext {
         amountAvailableHints--;
     }
 
+    public void addHint() {
+            amountAvailableHints++;
+    }
+
     public int getAmountAvailableHints() {
         return amountAvailableHints;
     }

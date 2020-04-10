@@ -8,42 +8,40 @@ import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
 import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import libgdx.campaign.*;
-import libgdx.controls.button.ButtonBuilder;
-import libgdx.controls.button.MainButtonSize;
-import libgdx.controls.button.MainButtonSkin;
+import libgdx.campaign.CampaignService;
+import libgdx.campaign.CampaignStoreLevel;
+import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.astronomy.AstronomyGame;
-import libgdx.implementations.periodictable.PeriodicTableCampaignLevelEnum;
-import libgdx.implementations.periodictable.PeriodicTableCategoryEnum;
-import libgdx.implementations.periodictable.PeriodicTableGame;
-import libgdx.implementations.periodictable.PeriodicTableSpecificResource;
+import libgdx.implementations.periodictable.*;
 import libgdx.implementations.periodictable.spec.ChemicalElement;
 import libgdx.implementations.periodictable.spec.ChemicalElementsUtil;
 import libgdx.implementations.skelgame.*;
+import libgdx.implementations.skelgame.gameservice.CreatorDependenciesContainer;
+import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
-import libgdx.resources.FontManager;
+import libgdx.implementations.skelgame.question.Question;
 import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.MainGameLabel;
-import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.anatomy.AnatomyGameScreen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
 import libgdx.utils.model.FontConfig;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class PeriodicTableCampaignScreen extends AbstractScreen<PeriodicTableScreenManager> {
 
     private CampaignService campaignService = new CampaignService();
+    private CampaignStoreService campaignStoreService = new CampaignStoreService();
     private List<CampaignStoreLevel> allCampaignLevelStores;
     private List<ChemicalElement> chemicalElements;
 
@@ -89,6 +87,21 @@ public class PeriodicTableCampaignScreen extends AbstractScreen<PeriodicTableScr
                 .animateZoomInZoomOut()
                 .setFixedButtonSize(GameButtonSize.PERIODICTABLE_MENU_BUTTON)
                 .build();
+        startGameBtn.addListener(new ClickListener() {
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+                List<Question> questions = new ArrayList<>(CreatorDependenciesContainer.getCreator(PeriodicTableCreatorDependencies.class).getQuestionCreator().getAllQuestions());
+                List<Question> notPlayedQuestions = new ArrayList<>();
+                for (Question question : questions) {
+                    if (!campaignStoreService.isQuestionAlreadyPlayed(PeriodicTableContainers.getQuestionId(question.getQuestionLineInQuestionFile(), question.getQuestionCategory(), question.getQuestionDifficultyLevel()))) {
+                        notPlayedQuestions.add(question);
+                    }
+                }
+                Collections.shuffle(notPlayedQuestions);
+                GameContext gameContext = new GameContextService().createGameContext(notPlayedQuestions.toArray(new Question[notPlayedQuestions.size()]));
+                PeriodicTableGame.getInstance().getScreenManager().showCampaignGameScreen(gameContext, null);
+            }
+        });
 
         MyButton periodicTableBtn = new ImageButtonBuilder(GameButtonSkin.PERIODICTABLE_PT, getAbstractScreen())
                 .setFixedButtonSize(GameButtonSize.PERIODICTABLE_MENU_BUTTON)
@@ -162,12 +175,23 @@ public class PeriodicTableCampaignScreen extends AbstractScreen<PeriodicTableScr
         table.row();
         Table categsTable = new Table();
         float sideDimen = pad * 9;
-        for (PeriodicTableCategoryEnum categoryEnum : PeriodicTableCategoryEnum.values()) {
-            Table cat = new Table();
-            cat.add(GraphicUtils.getImage(PeriodicTableSpecificResource.notfound));
-            categsTable.add(cat).width(sideDimen).height(sideDimen).pad(pad);
+        int correctAnswersForElement = PeriodicTableContainers.getTotalCorrectAnswersForElement(e.getAtomicNumber());
+        if (correctAnswersForElement == PeriodicTableCategoryEnum.values().length) {
+            table.setBackground(GraphicUtils.getNinePatch(PeriodicTableSpecificResource.all_found));
+        } else {
+            table.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
+            for (int j = 0; j < PeriodicTableCategoryEnum.values().length; j++) {
+                Table cat = new Table();
+                if (j <= correctAnswersForElement - 1) {
+                    cat.setBackground(GraphicUtils.getNinePatch(PeriodicTableSpecificResource.success));
+                } else {
+                    cat.setBackground(GraphicUtils.getNinePatch(PeriodicTableSpecificResource.notfound));
+                }
+                cat.add(GraphicUtils.getImage(PeriodicTableSpecificResource.notfound));
+                categsTable.add(cat).width(sideDimen).height(sideDimen).pad(pad);
+            }
         }
-        table.add(categsTable);
+        table.add(categsTable).width(getElSideDimen()).height(sideDimen);
         return table;
     }
 

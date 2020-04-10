@@ -19,6 +19,10 @@ public abstract class CreatorDependencies {
         return new QuestionCreator(questionDifficulty, questionCategory);
     }
 
+    public QuestionCreator getQuestionCreator() {
+        return new QuestionCreator();
+    }
+
     public abstract Class<? extends GameService> getGameServiceClass();
 
     public abstract RefreshQuestionDisplayService getRefreshQuestionDisplayService(AbstractScreen screen, GameContext gameContext, Map<String, MyButton> allAnswerButtons);

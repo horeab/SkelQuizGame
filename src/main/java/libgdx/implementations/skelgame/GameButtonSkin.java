@@ -67,6 +67,7 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     ASTRONOMY_CATEG4(AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4d, null),
     ASTRONOMY_CATEG5(AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5d, null),
 
+    PERIODICTABLE_ANSWER(QuizGameSpecificResource.btn_answer_opt_up, QuizGameSpecificResource.btn_answer_opt_down, QuizGameSpecificResource.btn_answer_opt_up, QuizGameSpecificResource.btn_answer_opt_disabled, FontColor.BLACK),
     PERIODICTABLE_STARTGAME(PeriodicTableSpecificResource.play_up, PeriodicTableSpecificResource.play_down, PeriodicTableSpecificResource.play_up, PeriodicTableSpecificResource.play_up, null),
     PERIODICTABLE_PT(PeriodicTableSpecificResource.pt_up, PeriodicTableSpecificResource.pt_down, PeriodicTableSpecificResource.pt_up, PeriodicTableSpecificResource.pt_up, null),
     ;

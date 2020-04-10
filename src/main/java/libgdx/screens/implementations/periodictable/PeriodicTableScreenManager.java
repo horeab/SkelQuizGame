@@ -23,11 +23,12 @@ public class PeriodicTableScreenManager extends CampaignScreenManager {
         questions.addAll(CreatorDependenciesContainer.getCreator(PeriodicTableCreatorDependencies.class).getQuestionCreator(PeriodicTableDifficultyLevel._0,
                 PeriodicTableCategoryEnum.cat0).getAllQuestions());
         Collections.shuffle(questions);
-        questions = questions.subList(0, 5);
-        GameContext gameContext = new GameContextService().createGameContext(questions.toArray(new Question[questions.size()]));
+        questions = questions.subList(0, 15);
+        GameContext gameContext = new GameContextService().createGameContext
+                (0, questions.toArray(new Question[questions.size()]));
         showCampaignGameScreen(gameContext, null);
-//        showPeriodicTableScreen();
-//        showCampaignScreen();
+        showPeriodicTableScreen();
+        showCampaignScreen();
     }
 
     public void showPeriodicTableScreen() {

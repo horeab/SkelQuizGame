@@ -1,9 +1,6 @@
 package libgdx.implementations.skelgame.gameservice;
 
-import libgdx.campaign.CampaignGameDependencyManager;
-import libgdx.campaign.QuestionCategory;
-import libgdx.campaign.QuestionConfigFileHandler;
-import libgdx.campaign.QuestionDifficulty;
+import libgdx.campaign.*;
 import libgdx.game.Game;
 import libgdx.implementations.skelgame.question.Question;
 import libgdx.utils.EnumUtils;
@@ -118,7 +115,7 @@ public class QuestionCreator {
         return new Random().nextInt(count);
     }
 
-    protected QuestionConfigFileHandler getConfigFileHandler() {
-        return new QuestionConfigFileHandler();
+    public QuestionConfigFileHandler getConfigFileHandler() {
+        return CampaignGame.getInstance().getSubGameDependencyManager().getQuestionConfigFileHandler();
     }
 }

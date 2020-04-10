@@ -23,6 +23,9 @@ public class GameControlsService {
     }
 
     public void disableButton(MyButton btn) {
+        if(btn==null){
+            int i=0;
+        }
         if (!btn.isDisabled()) {
             btn.setDisabled(true);
         }

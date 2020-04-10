@@ -11,7 +11,7 @@ public enum JudeteleRomSpecificResource implements SpecificResource {
 
     specific_labels("labels/labels", I18NBundle.class),
     notfound("notfound.png", Texture.class),
-    allfound("allfound.png", Texture.class),
+    allfound("all_found.png", Texture.class),
     allq_bakcground("allq_bakcground.png", Texture.class),
     notansw_background("notansw_background.png", Texture.class),
     correctansw_background("correctansw_background.png", Texture.class),

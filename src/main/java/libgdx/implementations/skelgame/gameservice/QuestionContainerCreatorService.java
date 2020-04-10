@@ -145,9 +145,14 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
     private List<HintButton> createHintButtons(AbstractScreen abstractGameScreen) {
         List<HintButton> hintButtons = new ArrayList<>();
         for (HintButtonType hintButtonType : gameContext.getAvailableHints()) {
-            hintButtons.add(new HintButtonBuilder(hintButtonType, abstractGameScreen).build());
+            HintButtonBuilder hintButtonBuilder = new HintButtonBuilder(hintButtonType, abstractGameScreen);
+            enrichHintButtonBuilder(hintButtonBuilder);
+            hintButtons.add(hintButtonBuilder.build());
         }
         return hintButtons;
+    }
+
+    protected void enrichHintButtonBuilder(HintButtonBuilder hintButtonBuilder) {
     }
 
     private Map<String, MyButton> createAnswerOptionsButtons(List<String> allAnswerOptions) {
@@ -174,10 +179,35 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
     private Runnable getHintButtonOnClick(HintButton hintButton) {
         if (hintButton.getHintButtonType().equals(HintButtonType.HINT_PRESS_RANDOM_ANSWER)) {
             return createRandomAnswerHintButtonOnClick();
+        } else if (hintButton.getHintButtonType().equals(HintButtonType.HINT_DISABLE_TWO_ANSWERS)) {
+            return createHintDisableTwoAnswersButtonOnClick();
         }
         return new Runnable() {
             @Override
             public void run() {
+            }
+        };
+    }
+
+
+    private Runnable createHintDisableTwoAnswersButtonOnClick() {
+        return new Runnable() {
+            @Override
+            public void run() {
+                List<String> originalAnswerOptions = gameService.getAllAnswerOptions();
+                List<String> answerOptions = new ArrayList<>(originalAnswerOptions);
+                answerOptions.removeAll(gameService.getUnpressedCorrectAnswers(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getAnswerIds()));
+                List<String> answersToDisable = new ArrayList<>();
+                if (answerOptions.size() > 0 && originalAnswerOptions.size() > 2) {
+                    answersToDisable.add(answerOptions.get(0));
+                }
+                if (answerOptions.size() > 1 && originalAnswerOptions.size() > 3) {
+                    answersToDisable.add(answerOptions.get(1));
+                }
+                for (String answer : answersToDisable) {
+                    gameControlsService.disableButton((MyButton) getAllAnswerButtons().get(answer.toLowerCase()));
+                }
+                gameControlsService.disableAllHintButtons();
             }
         };
     }

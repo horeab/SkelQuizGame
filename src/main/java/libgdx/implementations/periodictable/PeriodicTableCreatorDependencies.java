@@ -1,6 +1,7 @@
 package libgdx.implementations.periodictable;
 
 import libgdx.campaign.QuestionCategory;
+import libgdx.campaign.QuestionConfigFileHandler;
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.implementations.periodictable.spec.ChemicalElement;
 import libgdx.implementations.periodictable.spec.ChemicalElementsUtil;
@@ -9,6 +10,7 @@ import libgdx.implementations.skelgame.question.Question;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -22,7 +24,7 @@ public class PeriodicTableCreatorDependencies extends DependentQuizGameCreatorDe
     }
 
     @Override
-    public QuestionCreator getQuestionCreator(QuestionDifficulty questionDifficulty, QuestionCategory questionCategory) {
+    public QuestionCreator getQuestionCreator() {
         return new QuestionCreator() {
             @Override
             public List<Question> getAllQuestions() {
@@ -33,15 +35,20 @@ public class PeriodicTableCreatorDependencies extends DependentQuizGameCreatorDe
                         for (PeriodicTableCategoryEnum categoryEnum : PeriodicTableCategoryEnum.values()) {
                             String qString = "";
                             if (categoryEnum == PeriodicTableCategoryEnum.cat0) {
-                                qString = formQuestionString(e.getSymbol(), e.getAtomicNumber(), "symbol", "Symbol");
+                                qString = formQuestionString(e.getSymbol(),
+                                        e.getName(), e.getAtomicNumber(), "symbol");
                             } else if (categoryEnum == PeriodicTableCategoryEnum.cat1) {
-                                qString = formQuestionString(e.getDiscoveredBy(), e.getAtomicNumber(), "discoveredBy", "Discovered by");
+                                qString = formQuestionString(e.getDiscoveredBy(),
+                                        e.getName(), e.getAtomicNumber(), "discoveredBy");
                             } else if (categoryEnum == PeriodicTableCategoryEnum.cat2) {
-                                qString = formQuestionString(String.valueOf(e.getYearOfDiscovery()), e.getAtomicNumber(), "yearOfDiscovery", "Year of discovery");
+                                qString = formQuestionString(String.valueOf(e.getYearOfDiscovery()),
+                                        e.getName(), e.getAtomicNumber(), "yearOfDiscovery");
                             } else if (categoryEnum == PeriodicTableCategoryEnum.cat3) {
-                                qString = formQuestionString(e.getAtomicWeight(), e.getAtomicNumber(), "atomicWeight", "Atomic weight");
+                                qString = formQuestionString(e.getAtomicWeight()+ " u",
+                                        e.getName(), e.getAtomicNumber(), "atomicWeight");
                             } else if (categoryEnum == PeriodicTableCategoryEnum.cat4) {
-                                qString = formQuestionString(e.getDensity(), e.getAtomicNumber(), "density", "Density");
+                                qString = formQuestionString(e.getDensity() + " g/cm3",
+                                        e.getName(), e.getAtomicNumber(), "density");
                             }
                             Question question = new Question(e.getAtomicNumber(), PeriodicTableDifficultyLevel._0, categoryEnum, qString);
                             allQuestions.add(question);
@@ -49,6 +56,16 @@ public class PeriodicTableCreatorDependencies extends DependentQuizGameCreatorDe
                     }
                     return allQuestions;
                 }
+            }
+
+            @Override
+            public QuestionConfigFileHandler getConfigFileHandler() {
+                return new QuestionConfigFileHandler() {
+                    @Override
+                    public List<QuestionCategory> getQuestionCategoriesForDifficulty(QuestionDifficulty questionDifficulty) {
+                        return Arrays.asList(PeriodicTableCategoryEnum.values());
+                    }
+                };
             }
 
             @Override
@@ -73,12 +90,19 @@ public class PeriodicTableCreatorDependencies extends DependentQuizGameCreatorDe
         };
     }
 
-    private String formQuestionString(String answer, int atomicNumber, String fieldName, final String questionLabel) {
+    @Override
+    public QuestionCreator getQuestionCreator(QuestionDifficulty questionDifficulty, QuestionCategory questionCategory) {
+        return getQuestionCreator();
+    }
+
+    private String formQuestionString(String answer, String elementName, int atomicNumber, String fieldName) {
         return atomicNumber +
-                ":" + questionLabel + ":" +
+                ":" +
+                elementName +
+                ":" +
                 answer +
                 ":" +
-                StringUtils.join(getAnswerOptions(3, fieldName, answer), ",");
+                StringUtils.join(getAnswerOptions(4, fieldName, answer), ",");
     }
 
     private List<Integer> getAnswerOptions(int nrOfOptions, String fieldName, String answer) {
@@ -106,8 +130,8 @@ public class PeriodicTableCreatorDependencies extends DependentQuizGameCreatorDe
             }
             if (isOptionValid) {
                 options.add(e.getAtomicNumber());
-            }else {
-                int i=0;
+            } else {
+                int i = 0;
             }
             if (options.size() == nrOfOptions) {
                 break;
