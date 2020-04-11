@@ -34,6 +34,7 @@ public class PeriodicTableQuestionContainerCreatorService extends QuizQuestionCo
         Table questionTable = new Table();
         questionTable.add(questionContainer).pad(MainDimen.horizontal_general_margin.getDimen() * 4);
         setContainerBackground();
+        System.out.println(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getQuestion().getQuestionString());
         String elName = gameService.getQuestionToBeDisplayed();
         String categoryText = SpecificPropertiesUtils.getQuestionCategoryLabel(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getQuestion().getQuestionCategory().getIndex());
         MyWrappedLabel elNameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()

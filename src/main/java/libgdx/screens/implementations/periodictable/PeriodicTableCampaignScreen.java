@@ -9,7 +9,6 @@ import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import libgdx.campaign.CampaignService;
-import libgdx.campaign.CampaignStoreLevel;
 import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ImageButtonBuilder;
@@ -19,7 +18,6 @@ import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.periodictable.*;
 import libgdx.implementations.periodictable.spec.ChemicalElement;
-import libgdx.implementations.periodictable.spec.ChemicalElementsUtil;
 import libgdx.implementations.skelgame.*;
 import libgdx.implementations.skelgame.gameservice.CreatorDependenciesContainer;
 import libgdx.implementations.skelgame.gameservice.GameContext;
@@ -36,18 +34,17 @@ import libgdx.utils.model.FontConfig;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class PeriodicTableCampaignScreen extends AbstractScreen<PeriodicTableScreenManager> {
 
     private CampaignService campaignService = new CampaignService();
     private CampaignStoreService campaignStoreService = new CampaignStoreService();
-    private List<CampaignStoreLevel> allCampaignLevelStores;
     private List<ChemicalElement> chemicalElements;
 
     public PeriodicTableCampaignScreen() {
-        allCampaignLevelStores = campaignService.processAndGetAllLevels();
-        chemicalElements = ChemicalElementsUtil.processTextForChemicalElements();
+        chemicalElements = ((PeriodicTableCreatorDependencies) CreatorDependenciesContainer.getCreator(PeriodicTableCreatorDependencies.class)).getElements();
     }
 
 
@@ -129,7 +126,15 @@ public class PeriodicTableCampaignScreen extends AbstractScreen<PeriodicTableScr
         int i = 0;
         Table elementsTable = new Table();
         int elementsPerRow = (int) Math.floor(ScreenDimensionsManager.getScreenWidth() / btnSide);
-        for (ChemicalElement e : chemicalElements) {
+        List<ChemicalElement> sortedAlphaElements = new ArrayList<>(chemicalElements);
+        Collections.sort(sortedAlphaElements, new Comparator<ChemicalElement>() {
+            @Override
+            public int compare(ChemicalElement r1, ChemicalElement r2) {
+                return r1.getName().compareTo(r2.getName());
+            }
+        });
+
+        for (ChemicalElement e : sortedAlphaElements) {
             if (i % elementsPerRow == 0) {
                 elementsTable.row();
             }
@@ -161,10 +166,13 @@ public class PeriodicTableCampaignScreen extends AbstractScreen<PeriodicTableScr
         Table table = new Table();
         float pad = MainDimen.horizontal_general_margin.getDimen() / 7;
         table.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
-        table.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+        float elSideDimen = getElSideDimen();
+        MyWrappedLabel nameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setFontConfig(new FontConfig(Color.BLACK, FontConfig.FONT_SIZE / 1.4f))
                 .setText(e.getName())
-                .build())).padBottom(pad * 4);
+                .setWidth(elSideDimen)
+                .build());
+        table.add(nameLabel).padBottom(pad * 4);
         table.setTouchable(Touchable.enabled);
         table.addListener(new ClickListener() {
             @Override
@@ -190,8 +198,8 @@ public class PeriodicTableCampaignScreen extends AbstractScreen<PeriodicTableScr
                 cat.add(GraphicUtils.getImage(PeriodicTableSpecificResource.notfound));
                 categsTable.add(cat).width(sideDimen).height(sideDimen).pad(pad);
             }
+            table.add(categsTable).width(elSideDimen).height(sideDimen);
         }
-        table.add(categsTable).width(getElSideDimen()).height(sideDimen);
         return table;
     }
 

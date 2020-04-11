@@ -5,7 +5,9 @@ import libgdx.controls.popup.MyPopup;
 import libgdx.implementations.periodictable.PeriodicTableCategoryEnum;
 import libgdx.implementations.periodictable.PeriodicTableDifficultyLevel;
 import libgdx.implementations.periodictable.spec.ChemicalElement;
+import libgdx.implementations.periodictable.spec.ChemicalElementsUtil;
 import libgdx.implementations.skelgame.CampaignScreenManager;
+import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
 import libgdx.utils.ScreenDimensionsManager;
 
@@ -35,19 +37,25 @@ public class ChemicalElementInfoPopup extends MyPopup<AbstractScreen, CampaignSc
         StringBuilder text = new StringBuilder();
         text.append(chemicalElement.getName()).append("\n");
         text.append(" ").append("\n");
-        text.append("Symbol: ").append(getInfoString(PeriodicTableCategoryEnum.cat0, chemicalElement.getSymbol())).append("\n");
-        text.append("Discovered by: ").append(getInfoString(PeriodicTableCategoryEnum.cat1, chemicalElement.getDiscoveredBy())).append("\n");
-        text.append("Year of discovery: ").append(getInfoString(PeriodicTableCategoryEnum.cat2, String.valueOf(chemicalElement.getYearOfDiscovery()))).append("\n");
-        text.append("Atomic weight: ").append(getInfoString(PeriodicTableCategoryEnum.cat3, chemicalElement.getAtomicWeight())).append("\n");
-        text.append("Density: ").append(getInfoString(PeriodicTableCategoryEnum.cat4, chemicalElement.getDensity())).append("\n");
+        text.append(SpecificPropertiesUtils.getText("periodictable_question_category_0")).append(": ")
+                .append(getInfoString(PeriodicTableCategoryEnum.cat0, chemicalElement.getSymbol())).append("\n");
+        text.append(SpecificPropertiesUtils.getText("periodictable_question_category_1")).append(": ")
+                .append(getInfoString(PeriodicTableCategoryEnum.cat1, ChemicalElementsUtil.getDiscoveredBy(chemicalElement.getDiscoveredBy()))).append("\n");
+        text.append(SpecificPropertiesUtils.getText("periodictable_question_category_2")).append(": ")
+                .append(getInfoString(PeriodicTableCategoryEnum.cat2,ChemicalElementsUtil.getYear(String.valueOf(chemicalElement.getYearOfDiscovery())))).append("\n");
+        text.append(SpecificPropertiesUtils.getText("periodictable_question_category_3")).append(": ")
+                .append(getInfoString(PeriodicTableCategoryEnum.cat3, chemicalElement.getAtomicWeight())).append("\n");
+        text.append(SpecificPropertiesUtils.getText("periodictable_question_category_4")).append(": ")
+                .append(getInfoString(PeriodicTableCategoryEnum.cat4, chemicalElement.getDensity())).append("\n");
         return text.toString();
     }
 
     private String getInfoString(PeriodicTableCategoryEnum categoryEnum, String val) {
         String suffix = categoryEnum == PeriodicTableCategoryEnum.cat4 ? " g/cm3" : "";
         suffix = categoryEnum == PeriodicTableCategoryEnum.cat3 ? " u" : suffix;
-        return campaignStoreService.isQuestionAlreadyPlayed(PeriodicTableContainers.getQuestionId(chemicalElement.getAtomicNumber(), categoryEnum, PeriodicTableDifficultyLevel._0))
-                ? val + suffix :
-                "???";
+//        return campaignStoreService.isQuestionAlreadyPlayed(PeriodicTableContainers.getQuestionId(chemicalElement.getAtomicNumber(), categoryEnum, PeriodicTableDifficultyLevel._0))
+//                ? val + suffix :
+//                "???";
+        return val + suffix;
     }
 }

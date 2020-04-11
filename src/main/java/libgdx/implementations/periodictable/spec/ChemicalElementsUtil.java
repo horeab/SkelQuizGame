@@ -2,6 +2,7 @@ package libgdx.implementations.periodictable.spec;
 
 import com.google.gson.Gson;
 import libgdx.campaign.QuestionConfigFileHandler;
+import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +18,38 @@ public class ChemicalElementsUtil {
             chemicalElements.add(new Gson().fromJson(scanner.nextLine(), ChemicalElement.class));
         }
         return chemicalElements;
+    }
+
+
+    public static String getDiscoveredBy(String val) {
+        switch (val) {
+            case "Middle East":
+                val = SpecificPropertiesUtils.getText("periodictable_middle_east");
+                break;
+            case "Egyptians and Sumerians":
+                val = SpecificPropertiesUtils.getText("periodictable_egypt_sum");
+                break;
+            case "Indian metallurgists":
+                val = SpecificPropertiesUtils.getText("periodictable_indianmet");
+                break;
+            case "Middle-Eastern alchemists":
+                val = SpecificPropertiesUtils.getText("periodictable_mideast_alch");
+                break;
+            case "Asia Minor":
+                val = SpecificPropertiesUtils.getText("periodictable_asia_minor");
+                break;
+            case "Egyptians":
+                val = SpecificPropertiesUtils.getText("periodictable_egypt");
+                break;
+        }
+        return val;
+    }
+
+    public static String getYear(String year) {
+        if (year.contains("-")) {
+            year = SpecificPropertiesUtils.getText("periodictable_year", year.replace("-", ""));
+        }
+        return year;
     }
 
     public static String getAllFileText() {

@@ -21,7 +21,7 @@ public enum PeriodicTableScreenTypeEnum implements ScreenType {
 
     CAMPAIGN_GAME_SCREEN {
         public AbstractScreen getScreen(Object... params) {
-            return new PeriodicTableGameScreen((GameContext) params[0], (CampaignLevel) params[1]);
+            return new PeriodicTableGameScreen((GameContext) params[0]);
         }
     },
 }

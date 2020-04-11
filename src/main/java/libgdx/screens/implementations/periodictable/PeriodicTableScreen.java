@@ -7,13 +7,16 @@ import com.google.gson.Gson;
 import libgdx.campaign.CampaignService;
 import libgdx.campaign.CampaignStoreLevel;
 import libgdx.campaign.QuestionConfigFileHandler;
+import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfig;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.periodictable.PeriodicTableCreatorDependencies;
 import libgdx.implementations.periodictable.PeriodicTableSpecificResource;
 import libgdx.implementations.periodictable.spec.ChemicalElement;
 import libgdx.implementations.periodictable.spec.ChemicalElementsUtil;
+import libgdx.implementations.skelgame.gameservice.CreatorDependenciesContainer;
 import libgdx.resources.MainResource;
 import libgdx.resources.Res;
 import libgdx.resources.dimen.MainDimen;
@@ -33,7 +36,7 @@ public class PeriodicTableScreen extends AbstractScreen<PeriodicTableScreenManag
 
     public PeriodicTableScreen() {
         allCampaignLevelStores = campaignService.processAndGetAllLevels();
-        chemicalElements = ChemicalElementsUtil.processTextForChemicalElements();
+        chemicalElements = ((PeriodicTableCreatorDependencies) CreatorDependenciesContainer.getCreator(PeriodicTableCreatorDependencies.class)).getElements();
     }
 
     @Override
@@ -42,6 +45,7 @@ public class PeriodicTableScreen extends AbstractScreen<PeriodicTableScreenManag
         table.setFillParent(true);
         table.add(createAllTable()).expand();
         addActor(table);
+        new BackButtonBuilder().addHoverBackButton(getAbstractScreen());
     }
 
     private Table createAllTable() {

@@ -7,6 +7,7 @@ import libgdx.implementations.periodictable.spec.ChemicalElement;
 import libgdx.implementations.periodictable.spec.ChemicalElementsUtil;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.Question;
+import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
@@ -38,13 +39,13 @@ public class PeriodicTableCreatorDependencies extends DependentQuizGameCreatorDe
                                 qString = formQuestionString(e.getSymbol(),
                                         e.getName(), e.getAtomicNumber(), "symbol");
                             } else if (categoryEnum == PeriodicTableCategoryEnum.cat1) {
-                                qString = formQuestionString(e.getDiscoveredBy(),
+                                qString = formQuestionString(ChemicalElementsUtil.getDiscoveredBy(e.getDiscoveredBy()),
                                         e.getName(), e.getAtomicNumber(), "discoveredBy");
                             } else if (categoryEnum == PeriodicTableCategoryEnum.cat2) {
-                                qString = formQuestionString(String.valueOf(e.getYearOfDiscovery()),
+                                qString = formQuestionString(ChemicalElementsUtil.getYear(String.valueOf(e.getYearOfDiscovery())),
                                         e.getName(), e.getAtomicNumber(), "yearOfDiscovery");
                             } else if (categoryEnum == PeriodicTableCategoryEnum.cat3) {
-                                qString = formQuestionString(e.getAtomicWeight()+ " u",
+                                qString = formQuestionString(e.getAtomicWeight() + " u",
                                         e.getName(), e.getAtomicNumber(), "atomicWeight");
                             } else if (categoryEnum == PeriodicTableCategoryEnum.cat4) {
                                 qString = formQuestionString(e.getDensity() + " g/cm3",
@@ -88,6 +89,10 @@ public class PeriodicTableCreatorDependencies extends DependentQuizGameCreatorDe
                 return result;
             }
         };
+    }
+
+    public List<ChemicalElement> getElements() {
+        return elements;
     }
 
     @Override

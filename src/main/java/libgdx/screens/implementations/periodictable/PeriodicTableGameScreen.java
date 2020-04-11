@@ -4,8 +4,6 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
-import libgdx.campaign.CampaignLevel;
-import libgdx.campaign.CampaignService;
 import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.button.MainButtonSize;
 import libgdx.controls.button.builders.BackButtonBuilder;
@@ -14,8 +12,10 @@ import libgdx.controls.popup.notificationpopup.MyNotificationPopupCreator;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.periodictable.PeriodicTableCampaignLevelEnum;
 import libgdx.implementations.periodictable.PeriodicTableCategoryEnum;
-import libgdx.implementations.periodictable.PeriodicTableGame;
+import libgdx.implementations.periodictable.PeriodicTableCreatorDependencies;
 import libgdx.implementations.periodictable.PeriodicTableSpecificResource;
+import libgdx.implementations.periodictable.spec.ChemicalElement;
+import libgdx.implementations.periodictable.spec.ChemicalElementsUtil;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
@@ -24,21 +24,24 @@ import libgdx.implementations.skelgame.question.Question;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screens.GameScreen;
-import libgdx.screens.implementations.geoquiz.CampaignLevelFinishedPopup;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
+import libgdx.utils.model.FontColor;
 import libgdx.utils.model.RGBColor;
+
+import java.util.List;
 
 public class PeriodicTableGameScreen extends GameScreen<PeriodicTableScreenManager> {
 
     public static int TOTAL_QUESTIONS = 9;
-    private PeriodicTableContainers containers = new PeriodicTableContainers();
     private CampaignStoreService campaignStoreService = new CampaignStoreService();
     private Table allTable;
     private Table hintButtonsTable;
+    private List<ChemicalElement> chemicalElements;
 
-    public PeriodicTableGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
+    public PeriodicTableGameScreen(GameContext gameContext) {
         super(gameContext);
+        chemicalElements = ((PeriodicTableCreatorDependencies) CreatorDependenciesContainer.getCreator(PeriodicTableCreatorDependencies.class)).getElements();
     }
 
     @Override
@@ -63,7 +66,7 @@ public class PeriodicTableGameScreen extends GameScreen<PeriodicTableScreenManag
             }
         });
         hintButton.getMyButton().setDisabled(!hintButtonEnabled);
-        if(!hintButtonEnabled){
+        if (!hintButtonEnabled) {
             hintButton.getMyButton().getActions().clear();
         }
         allTable.add(new PeriodicTableContainers().createAllElementsFound()).padTop(dimen * 2).row();
@@ -168,9 +171,9 @@ public class PeriodicTableGameScreen extends GameScreen<PeriodicTableScreenManag
                     campaignStoreService.putQuestionPlayed(PeriodicTableContainers.getQuestionId(question.getQuestionLineInQuestionFile(), question.getQuestionCategory(), question.getQuestionDifficultyLevel()));
                     int questionLineInQuestionFile = question.getQuestionLineInQuestionFile();
                     if (PeriodicTableContainers.isElementFound(questionLineInQuestionFile)) {
-                        new MyNotificationPopupCreator(new MyNotificationPopupConfigBuilder().setText(
+                        new MyNotificationPopupCreator(new MyNotificationPopupConfigBuilder().setTextColor(FontColor.BLACK).setText(
                                 SpecificPropertiesUtils.getText("periodictable_element_discovered",
-                                        new SpecificPropertiesUtils().getQuestionCampaignLabel(questionLineInQuestionFile)))
+                                        ChemicalElementsUtil.getElementByNr(question.getQuestionLineInQuestionFile(), chemicalElements).getName()))
                                 .build()).shortNotificationPopup().addToPopupManager();
                     }
                 }
