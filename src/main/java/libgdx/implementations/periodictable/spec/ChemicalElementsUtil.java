@@ -3,6 +3,7 @@ package libgdx.implementations.periodictable.spec;
 import com.google.gson.Gson;
 import libgdx.campaign.QuestionConfigFileHandler;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,7 +43,7 @@ public class ChemicalElementsUtil {
                 val = SpecificPropertiesUtils.getText("periodictable_egypt");
                 break;
         }
-        return val;
+        return StringUtils.capitalize(val);
     }
 
     public static String getYear(String year) {
