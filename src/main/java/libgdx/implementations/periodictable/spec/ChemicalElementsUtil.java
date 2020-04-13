@@ -22,6 +22,10 @@ public class ChemicalElementsUtil {
     }
 
 
+    public static String getName( int atomicNr) {
+        return SpecificPropertiesUtils.getText("periodictable_" + atomicNr);
+    }
+
     public static String getDiscoveredBy(String val) {
         switch (val) {
             case "Middle East":

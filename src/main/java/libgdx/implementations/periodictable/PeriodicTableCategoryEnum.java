@@ -8,8 +8,7 @@ public enum PeriodicTableCategoryEnum implements QuizQuestionCategory {
     cat0(PeriodicTableCreatorDependencies.class),//symbol
     cat1(PeriodicTableCreatorDependencies.class),//discoveredBy
     cat2(PeriodicTableCreatorDependencies.class),//yearOfDiscovery
-    cat3(PeriodicTableCreatorDependencies.class),//atomicWeight
-    cat4(PeriodicTableCreatorDependencies.class),//density
+    cat3(PeriodicTableCreatorDependencies.class),//atomicNumber
     ;
 
     private Class<? extends CreatorDependencies> questionCreator;

@@ -38,7 +38,7 @@ public class StartGamePeriodicTable {
 
                     @Override
                     public String getLanguage() {
-                        return Language.en.name();
+                        return Language.id.name();
                     }
 
                     @Override
@@ -53,63 +53,63 @@ public class StartGamePeriodicTable {
     public static String getTitle() {
         switch (Language.valueOf(Game.getInstance().getAppInfoService().getLanguage())) {
             case cs:
-                return "Astronomie";
+                return "Periodická Tabulka";
             case da:
-                return "Astronomi";
+                return "Periodiske System";
             case de:
-                return "Astronomie";
+                return "Periodensystem";
             case el:
-                return "Αστρονομία";
+                return "Περιοδικός πίνακας";
             case en:
                 return "The Periodic Table Quiz";
             case es:
-                return "Astronomía";
+                return "Tabla Periódica";
             case fi:
-                return "Tähtitiede";
+                return "Jaksollinen Järjestelmä";
             case fr:
-                return "Astronomie";
+                return "Tableau Périodique";
             case hi:
-                return "खगोल";
+                return "आवर्त सारणी";
             case hr:
-                return "Astronomija";
+                return "Periodni Sustav Elemenata";
             case hu:
-                return "Csillagászat";
+                return "Periódusos Rendszere";
             case id:
-                return "Astronomi";
+                return "Tabel Periodik";
             case it:
-                return "Astronomia";
+                return "Tavola Periodica";
             case ja:
-                return "天文学";
+                return "周期表";
             case ko:
-                return "천문학";
+                return "주기율표";
             case ms:
-                return "Astronomi";
+                return "Jadual Berkala";
             case nl:
-                return "Astronomie";
+                return "Periodiek Systeem";
             case no:
-                return "Astronomi";
+                return "Periodesystemet";
             case pl:
-                return "Astronomia";
+                return "Układ Okresowy Pierwiastków";
             case pt:
-                return "Astronomia";
+                return "Tabela Periódica";
             case ro:
-                return "Astronomie";
+                return "Tabelul Periodic";
             case ru:
-                return "Астрономия";
+                return "Периодическая таблица";
             case sk:
-                return "Astronómie";
+                return "Periodická Tabuľka";
             case sv:
-                return "Astronomi";
+                return "Periodiska Systemet";
             case th:
-                return "ดาราศาสตร์";
+                return "ตารางธาตุ";
             case tr:
-                return "Astronomi";
+                return "Periyodik Tablo";
             case uk:
-                return "Астрономія";
+                return "Періодична таблиця";
             case vi:
-                return "Thiên văn học";
+                return "Bảng Tuần Hoàn  ";
             case zh:
-                return "天文学";
+                return "元素周期表测验";
         }
         return null;
     }

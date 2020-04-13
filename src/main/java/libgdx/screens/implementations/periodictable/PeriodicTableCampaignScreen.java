@@ -10,6 +10,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import libgdx.campaign.CampaignService;
 import libgdx.campaign.CampaignStoreService;
+import libgdx.constants.Language;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
@@ -18,6 +19,7 @@ import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.periodictable.*;
 import libgdx.implementations.periodictable.spec.ChemicalElement;
+import libgdx.implementations.periodictable.spec.ChemicalElementsUtil;
 import libgdx.implementations.skelgame.*;
 import libgdx.implementations.skelgame.gameservice.CreatorDependenciesContainer;
 import libgdx.implementations.skelgame.gameservice.GameContext;
@@ -32,19 +34,17 @@ import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
 import libgdx.utils.model.FontConfig;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class PeriodicTableCampaignScreen extends AbstractScreen<PeriodicTableScreenManager> {
 
     private CampaignService campaignService = new CampaignService();
     private CampaignStoreService campaignStoreService = new CampaignStoreService();
     private List<ChemicalElement> chemicalElements;
+    private PeriodicTableCreatorDependencies creator = (PeriodicTableCreatorDependencies) CreatorDependenciesContainer.getCreator(PeriodicTableCreatorDependencies.class);
 
     public PeriodicTableCampaignScreen() {
-        chemicalElements = ((PeriodicTableCreatorDependencies) CreatorDependenciesContainer.getCreator(PeriodicTableCreatorDependencies.class)).getElements();
+        chemicalElements = creator.getElements();
     }
 
 
@@ -117,7 +117,7 @@ public class PeriodicTableCampaignScreen extends AbstractScreen<PeriodicTableScr
         controlsTable.add(periodicTableBtn).width(periodicTableBtn.getWidth()).height(periodicTableBtn.getHeight()).padRight(dimen);
         controlsTable.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setFontConfig(new FontConfig(Color.LIGHT_GRAY, FontConfig.FONT_SIZE * 1.2f))
-                .setText("0/" + chemicalElements.size())
+                .setText(PeriodicTableContainers.getTotalNrOfElementsFound() + "/" + chemicalElements.size())
                 .setWidth(extraWidth)
                 .build()));
         table.add(controlsTable).padBottom(dimen).row();
@@ -130,7 +130,7 @@ public class PeriodicTableCampaignScreen extends AbstractScreen<PeriodicTableScr
         Collections.sort(sortedAlphaElements, new Comparator<ChemicalElement>() {
             @Override
             public int compare(ChemicalElement r1, ChemicalElement r2) {
-                return r1.getName().compareTo(r2.getName());
+                return creator.getNameText(r1.getAtomicNumber()).compareTo(creator.getNameText(r2.getAtomicNumber()));
             }
         });
 
@@ -168,8 +168,8 @@ public class PeriodicTableCampaignScreen extends AbstractScreen<PeriodicTableScr
         table.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
         float elSideDimen = getElSideDimen();
         MyWrappedLabel nameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
-                .setFontConfig(new FontConfig(Color.BLACK, FontConfig.FONT_SIZE / 1.4f))
-                .setText(e.getName())
+                .setFontConfig(new FontConfig(Color.BLACK, getNameFontSize()))
+                .setText(creator.getNameText(e.getAtomicNumber()))
                 .setWidth(elSideDimen)
                 .build());
         table.add(nameLabel).padBottom(pad * 4);
@@ -201,6 +201,14 @@ public class PeriodicTableCampaignScreen extends AbstractScreen<PeriodicTableScr
             table.add(categsTable).width(elSideDimen).height(sideDimen);
         }
         return table;
+    }
+
+    private float getNameFontSize() {
+        float factor = Arrays.asList(Language.zh, Language.ko).contains(Language.valueOf(Game.getInstance().getAppInfoService().getLanguage()))
+                ? 0.9f : 1.2f;
+        factor = Arrays.asList(Language.ja).contains(Language.valueOf(Game.getInstance().getAppInfoService().getLanguage()))
+                ? 1.6f : factor;
+        return FontConfig.FONT_SIZE / factor;
     }
 
 

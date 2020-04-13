@@ -75,8 +75,7 @@ public class PeriodicTableGameScreen extends GameScreen<PeriodicTableScreenManag
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
         allTable.add(questionTable).growY().row();
-        float topPad = 0;
-        allTable.add(answersTable).padTop(-topPad).growY();
+        allTable.add(answersTable).padBottom(dimen * 3).growY();
         allTable.setFillParent(true);
         hintButtonsTable = questionContainerCreatorService.createHintButtonsTable();
         hintButtonsTable.setX(ScreenDimensionsManager.getScreenWidth() - hintButtonsTable.getPrefWidth() / 2);
@@ -97,6 +96,7 @@ public class PeriodicTableGameScreen extends GameScreen<PeriodicTableScreenManag
     }
 
     private Table allQuestionsTable(int nrOfCorrectQuestions) {
+        nrOfCorrectQuestions = 342;
         Table table = new Table();
         int totalNrOfQuestions = PeriodicTableCampaignLevelEnum.values().length * PeriodicTableCategoryEnum.values().length;
         float qTableWidth = 100 / Float.valueOf(totalNrOfQuestions);
