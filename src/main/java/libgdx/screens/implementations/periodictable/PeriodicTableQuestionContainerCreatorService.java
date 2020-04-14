@@ -83,7 +83,7 @@ public class PeriodicTableQuestionContainerCreatorService extends QuizQuestionCo
 
     protected float getAnswerFontScale(String answerToBeDisplayed, float fontScale) {
         float factor = 1f;
-        factor = Arrays.asList(Language.th).contains(Language.valueOf(Game.getInstance().getAppInfoService().getLanguage())) ? 1.5f : factor;
+//        factor = Arrays.asList(Language.th).contains(Language.valueOf(Game.getInstance().getAppInfoService().getLanguage())) ? 1.5f : factor;
         //if there are long answer buttons, the question fontScale should be smaller
         float increaseFactor = 0.05f;
         int increaseWordCount = 5;

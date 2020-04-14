@@ -190,12 +190,13 @@ public class PeriodicTableCampaignScreen extends AbstractScreen<PeriodicTableScr
             table.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
             for (int j = 0; j < PeriodicTableCategoryEnum.values().length; j++) {
                 Table cat = new Table();
+                cat.setWidth(sideDimen);
+                cat.setHeight(sideDimen);
                 if (j <= correctAnswersForElement - 1) {
                     cat.setBackground(GraphicUtils.getNinePatch(PeriodicTableSpecificResource.success));
                 } else {
                     cat.setBackground(GraphicUtils.getNinePatch(PeriodicTableSpecificResource.notfound));
                 }
-                cat.add(GraphicUtils.getImage(PeriodicTableSpecificResource.notfound));
                 categsTable.add(cat).width(sideDimen).height(sideDimen).pad(pad);
             }
             table.add(categsTable).width(elSideDimen).height(sideDimen);

@@ -96,7 +96,6 @@ public class PeriodicTableGameScreen extends GameScreen<PeriodicTableScreenManag
     }
 
     private Table allQuestionsTable(int nrOfCorrectQuestions) {
-        nrOfCorrectQuestions = 342;
         Table table = new Table();
         int totalNrOfQuestions = PeriodicTableCampaignLevelEnum.values().length * PeriodicTableCategoryEnum.values().length;
         float qTableWidth = 100 / Float.valueOf(totalNrOfQuestions);

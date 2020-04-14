@@ -35,7 +35,7 @@ public class ChemicalElementInfoPopup extends MyPopup<AbstractScreen, CampaignSc
         text.append(ChemicalElementsUtil.getName(chemicalElement.getAtomicNumber())).append("\n");
         text.append(" ").append("\n");
         text.append(SpecificPropertiesUtils.getText("periodictable_question_category_3")).append(": ")
-                .append(getInfoString(chemicalElement.getSymbol())).append("\n");
+                .append(getInfoString(chemicalElement.getAtomicNumber()+"")).append("\n");
         text.append(SpecificPropertiesUtils.getText("periodictable_question_category_0")).append(": ")
                 .append(getInfoString(chemicalElement.getSymbol())).append("\n");
         text.append(SpecificPropertiesUtils.getText("periodictable_question_category_1")).append(": ")
