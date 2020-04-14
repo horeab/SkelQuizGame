@@ -34,7 +34,6 @@ import java.util.List;
 public class PeriodicTableGameScreen extends GameScreen<PeriodicTableScreenManager> {
 
     public static int TOTAL_QUESTIONS = 9;
-    private CampaignStoreService campaignStoreService = new CampaignStoreService();
     private Table allTable;
     private Table hintButtonsTable;
     private List<ChemicalElement> chemicalElements;
@@ -55,6 +54,7 @@ public class PeriodicTableGameScreen extends GameScreen<PeriodicTableScreenManag
         if (gameContext.getAmountAvailableHints() < 1) {
             gameContext.addHint();
         }
+        CampaignStoreService campaignStoreService = new CampaignStoreService();
         boolean hintButtonEnabled = isHintButtonEnabled();
         PeriodicTableQuestionContainerCreatorService questionContainerCreatorService = new PeriodicTableQuestionContainerCreatorService(gameContext, this);
         HintButton hintButton = questionContainerCreatorService.getHintButtons().get(0);
@@ -88,6 +88,7 @@ public class PeriodicTableGameScreen extends GameScreen<PeriodicTableScreenManag
     }
 
     private boolean isHintButtonEnabled() {
+        CampaignStoreService campaignStoreService = new CampaignStoreService();
         int questionDifferenceUntilNewHint = 4;
         int hintPlayedAtQuestion = campaignStoreService.getHintPlayedAtQuestion();
         int nrOfQuestionsPlayed = campaignStoreService.getNrOfQuestionsPlayed();
@@ -138,7 +139,7 @@ public class PeriodicTableGameScreen extends GameScreen<PeriodicTableScreenManag
 
     @Override
     protected int getQuestionsPlayedForPopupAd() {
-        return 7;
+        return 10;
     }
 
     @Override
@@ -161,6 +162,7 @@ public class PeriodicTableGameScreen extends GameScreen<PeriodicTableScreenManag
 
 
     private void processPlayedQuestions() {
+        CampaignStoreService campaignStoreService = new CampaignStoreService();
         for (GameQuestionInfo gameQuestionInfo : gameContext.getCurrentUserGameUser().getAllQuestionInfos()) {
             if (gameQuestionInfo.getStatus() == GameQuestionInfoStatus.LOST) {
                 gameContext.getCurrentUserGameUser().resetQuestion(gameQuestionInfo);

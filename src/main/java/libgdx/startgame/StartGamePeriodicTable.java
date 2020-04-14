@@ -107,7 +107,7 @@ public class StartGamePeriodicTable {
             case uk:
                 return "Періодична таблиця";
             case vi:
-                return "Bảng Tuần Hoàn  ";
+                return "Bảng Tuần Hoàn";
             case zh:
                 return "元素周期表测验";
         }
