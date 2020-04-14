@@ -104,7 +104,7 @@ public class PeriodicTableGameScreen extends GameScreen<PeriodicTableScreenManag
             if (i <= (nrOfCorrectQuestions - 1) && nrOfCorrectQuestions != 0) {
                 qTable.setBackground(GraphicUtils.getNinePatch(PeriodicTableSpecificResource.allq_bakcground));
             }
-            table.add(qTable).width(ScreenDimensionsManager.getScreenWidthValue(qTableWidth));
+            table.add(qTable).height(ScreenDimensionsManager.getScreenHeightValue(5)).width(ScreenDimensionsManager.getScreenWidthValue(qTableWidth));
         }
         System.out.println(nrOfCorrectQuestions + "");
         return table;

@@ -38,7 +38,7 @@ public class StartGamePeriodicTable {
 
                     @Override
                     public String getLanguage() {
-                        return Language.id.name();
+                        return Language.en.name();
                     }
 
                     @Override
