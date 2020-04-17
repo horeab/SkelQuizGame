@@ -33,7 +33,7 @@ public class StartGameHangmanArena {
 
                     @Override
                     public String getLanguage() {
-                        return Language.en.name();
+                        return Language.it.name();
                     }
                 });
         libgdx.utils.startgame.StartGame.main(game, args);
@@ -46,7 +46,7 @@ public class StartGameHangmanArena {
             case da:
                 return "Galgespil";
             case de:
-                return "Galgenmännchen";
+                return "Galgenmännchen 2";
             case el:
                 return "Κρεμάλα";
             case en:

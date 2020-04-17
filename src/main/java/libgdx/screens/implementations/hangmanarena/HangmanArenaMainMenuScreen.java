@@ -49,25 +49,25 @@ public class HangmanArenaMainMenuScreen extends AbstractScreen<HangmanArenaScree
         addStartGameButtons(table);
 
         if (!Utils.isValidExtraContent()) {
-            table.row();
-            float dimen = MainDimen.horizontal_general_margin.getDimen();
-            extraContentButton = new ButtonWithIconBuilder("", MainResource.mug_color)
-                    .setFixedButtonSize(GameButtonSize.NORMAL_MENU_ROUND_IMAGE).build();
-            new ActorAnimation(extraContentButton, Game.getInstance().getAbstractScreen()).animateZoomInZoomOut();
-            table.add(extraContentButton).padTop(dimen * 5).width(GameButtonSize.NORMAL_MENU_ROUND_IMAGE.getWidth())
-                    .height(GameButtonSize.NORMAL_MENU_ROUND_IMAGE.getHeight());
-            extraContentButton.setTransform(true);
-            extraContentButton.addListener(new ClickListener() {
-                @Override
-                public void clicked(InputEvent event, float x, float y) {
-                    displayInAppPurchasesPopup(new Runnable() {
-                        @Override
-                        public void run() {
-                            screenManager.showMainScreen();
-                        }
-                    });
-                }
-            });
+//            table.row();
+//            float dimen = MainDimen.horizontal_general_margin.getDimen();
+//            extraContentButton = new ButtonWithIconBuilder("", MainResource.mug_color)
+//                    .setFixedButtonSize(GameButtonSize.NORMAL_MENU_ROUND_IMAGE).build();
+//            new ActorAnimation(extraContentButton, Game.getInstance().getAbstractScreen()).animateZoomInZoomOut();
+//            table.add(extraContentButton).padTop(dimen * 5).width(GameButtonSize.NORMAL_MENU_ROUND_IMAGE.getWidth())
+//                    .height(GameButtonSize.NORMAL_MENU_ROUND_IMAGE.getHeight());
+//            extraContentButton.setTransform(true);
+//            extraContentButton.addListener(new ClickListener() {
+//                @Override
+//                public void clicked(InputEvent event, float x, float y) {
+//                    displayInAppPurchasesPopup(new Runnable() {
+//                        @Override
+//                        public void run() {
+//                            screenManager.showMainScreen();
+//                        }
+//                    });
+//                }
+//            });
         }
 
 
