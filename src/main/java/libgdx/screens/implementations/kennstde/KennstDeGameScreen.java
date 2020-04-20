@@ -77,6 +77,11 @@ public class KennstDeGameScreen extends GameScreen<KennstDeScreenManager> {
     }
 
     @Override
+    protected int getQuestionsPlayedForPopupAd() {
+        return 6;
+    }
+
+    @Override
     public void onBackKeyPress() {
         screenManager.showMainScreen();
     }

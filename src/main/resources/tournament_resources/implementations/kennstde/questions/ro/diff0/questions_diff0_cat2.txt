@@ -1,0 +1,7 @@
+0:Care sunt cei mai vechi munţi din România?:Munţii Apuseni##Munţii Bucegi##Munţii Rodnei##Munţii Măcin:3:
+1:În câte judeţe este împărţită România?:41##43##44##45:0:
+2:Cum se numeşte arcul muntos ce ocupă 30% din suprafaţa României?:Munţii Alpi##Munţii Dolomiţi##Munţii Carpaţi##Munţii Pirinei:2:
+3:Cum se numeşte cel mai înalt vârf muntos din România?:Vârful Viştea Mare##Vârful Omu##Vârful Negoiu##Vârful Moldoveanu:3:
+4:Cum se numeşte fluviul ce străbate la sud România?:Tisa##Dunărea##Prut##Someş:1:
+5:Acest râu trece prin Timişoara?:Mureş##Someş##Bega##Olt:2:
+6:Care este singurul lac de origine vulcanică din ţara noastră?:Lacul Sfânta Ana##Lacul Roşu##Lacul Bâlea##Lacul Capra:0:

@@ -1,0 +1,12 @@
+0::Cluj-Napoca:6,7,5:0
+1::Bucureşti:2,6,7:1
+2::Iaşi:4,8,3:2
+3::Timişoara:8,6,9:3
+4::Constanţa:11,8,9:4
+5::Braşov:4,7,2:5
+6::Curtea de Argeş:10,2,3:6
+7::Târgu Jiu:0,5,2:7
+8::Suceava:10,6,4:8
+9::Târgovişte:2,8,1:9
+10::Alba Iulia:7,6,5:10
+11::Sighişoara:8,5,7:11

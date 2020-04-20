@@ -1,0 +1,8 @@
+0:Cine a scris comedia "O scrisoare pierdută"?:George Călinescu##Vasile Alecsandri##Ion Luca Caragiale##Mihai Eminescu:2:
+1:Cine a pictat opera "Car cu boi"?:Nicolae Tonitza##Nicolae Grigorescu##Camil Ressu##Ştefan Luchian:1:1
+2:Cine este autorul poeziei "Revedere"?:Ion Barbu##Nichita Stanescu##George Bacovia##Mihai Eminescu:3:
+3:Cine este autorul poeziei "Luceafărul"?:Octavian Goga##Mihai Eminescu##Ion Creangă##Vasile Alecsandri:1:
+4:Cine este autorul operei literare "Amintiri din copilărie"?:Liviu Rebreanu##Ion Creangă##Lucian Blaga##Mihai Eminescu:1:
+5:Cine a scris romanul "Baltagul"?:Ion Barbu##Marin Preda##Mihail Sadoveanu##Lucian Blaga:2:
+6:Cine a compus muzica pentru imnul naţional al României?:Andrei Mureşanu##Anton Pann##George Enescu##Mihai Eminescu:1:
+7:Cine a compus "Rapsodia Română"?:Sergiu Celibidache##Ciprian Porumbescu##Johann Strauss##George Enescu:3:

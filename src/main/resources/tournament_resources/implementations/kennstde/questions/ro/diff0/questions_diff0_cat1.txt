@@ -1,0 +1,7 @@
+0:Care este singură cetate medievală încă locuită din Europa?:Sibiu##Cluj Napoca##Sighişoara##Alba Iulia:2:
+1:Care este cetatea de scaun a Moldovei?:Suceava##Iaşi##Vaslui##Neamţ:0:
+2:Cine s-au luptat în bătălia de la Călugăreni?:Mircea cel Bătrân şi Mohamed I##Vlad ţepeş şi Radu cel Frumos##Mihai Viteazul si Sinan Paşa##Ştefan cel Mare si Petru Aron:2:
+3:Când a devenit România membră a Uniunii Europene?:2001##2007##2009##2004:1:
+4:Cine este considerat primul cronicar român?:Mircea cel Bătrân##Grigore Ureche##Vasile Lupu##Mihail Kogălniceanu:1:
+5:Cine a fost primul şef de stat al României?:Carol I##Ferdinand I##Alexandru Ioan Cuza##Mihai I:2:
+6:In ce an a avut loc revoluţia lui Tudor Vladimirescu?:1821##1905##1883##1751:0:

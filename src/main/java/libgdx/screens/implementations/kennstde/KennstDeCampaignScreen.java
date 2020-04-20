@@ -54,7 +54,7 @@ import libgdx.utils.model.FontConfig;
 
 public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager> {
 
-    public static int TOTAL_QUESTIONS = 23;
+    public static int TOTAL_QUESTIONS = 6;
     private CampaignService campaignService = new CampaignService();
     private List<CampaignStoreLevel> allCampaignLevelStores;
 

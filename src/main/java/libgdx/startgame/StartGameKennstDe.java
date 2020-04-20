@@ -28,7 +28,7 @@ public class StartGameKennstDe {
 
                     @Override
                     public String getLanguage() {
-                        return "en";
+                        return Language.ro.name();
                     }
                 });
         libgdx.utils.startgame.StartGame.main(game, args);
@@ -41,6 +41,8 @@ public class StartGameKennstDe {
                 return "Deutschland Test";
             case en:
                 return "Germany Test";
+            case ro:
+                return "Cunoaște România";
         }
         return null;
     }

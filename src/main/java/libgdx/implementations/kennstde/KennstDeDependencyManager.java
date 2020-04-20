@@ -1,6 +1,8 @@
 package libgdx.implementations.kennstde;
 
 import libgdx.campaign.*;
+import libgdx.constants.Language;
+import libgdx.game.Game;
 import libgdx.implementations.skelgame.gameservice.QuizStarsService;
 import libgdx.resources.IncrementingRes;
 import libgdx.utils.EnumUtils;
@@ -15,17 +17,24 @@ public class KennstDeDependencyManager extends CampaignGameDependencyManager {
     @Override
     public List<? extends IncrementingRes> getIncrementResList() {
         List<ImageCategIncrementRes> list = new ArrayList<>();
-        list.add(new ImageCategIncrementRes(0, 1, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
-        list.add(new ImageCategIncrementRes(3, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
-        list.add(new ImageCategIncrementRes(6, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
-        list.add(new ImageCategIncrementRes(8, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
-        list.add(new ImageCategIncrementRes(13, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
-        list.add(new ImageCategIncrementRes(15, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
-        list.add(new ImageCategIncrementRes(17, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
+        if (Game.getInstance().getAppInfoService().getLanguage().equals(Language.ro.name())) {
+            //RO
+            list.add(new ImageCategIncrementRes(1, KennstDeQuestionCategoryEnum.cat0, ImageCategIncrementRes.JPG, "images_ro"));
+            list.add(new ImageCategIncrementRes(0, 9, KennstDeQuestionCategoryEnum.cat3, ImageCategIncrementRes.JPG, "images_ro"));
+            list.add(new ImageCategIncrementRes(0, 11, KennstDeQuestionCategoryEnum.cat4, ImageCategIncrementRes.JPG, "images_ro"));
+        } else {
+            list.add(new ImageCategIncrementRes(0, 1, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
+            list.add(new ImageCategIncrementRes(3, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
+            list.add(new ImageCategIncrementRes(6, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
+            list.add(new ImageCategIncrementRes(8, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
+            list.add(new ImageCategIncrementRes(13, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
+            list.add(new ImageCategIncrementRes(15, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
+            list.add(new ImageCategIncrementRes(17, KennstDeQuestionCategoryEnum.cat2, ImageCategIncrementRes.JPG));
 
-        list.add(new ImageCategIncrementRes(0, 14, KennstDeQuestionCategoryEnum.cat3, ImageCategIncrementRes.JPG));
+            list.add(new ImageCategIncrementRes(0, 14, KennstDeQuestionCategoryEnum.cat3, ImageCategIncrementRes.JPG));
 
-        list.add(new ImageCategIncrementRes(0, 19, KennstDeQuestionCategoryEnum.cat4, ImageCategIncrementRes.JPG));
+            list.add(new ImageCategIncrementRes(0, 14, KennstDeQuestionCategoryEnum.cat3, ImageCategIncrementRes.JPG));
+        }
         return list;
     }
 

@@ -1,0 +1,10 @@
+0::Sarmale:0
+1::Zacuscă:1
+2::Langoşi:2
+3::Colivă:3
+4::Ciorbă de burtă:4
+5::Cozonac:5
+6::Iahnie de fasole:6
+7::Găluşte cu prune:7
+8::Socată:8
+9::Mititei:9
