@@ -20,8 +20,13 @@ public class HangmanLabel extends Table {
     }
 
     public void setRedColor() {
-        label.setTextColor(FontColor.YELLOW);
+        setRedColor(FontColor.YELLOW);
     }
+
+    public void setRedColor(FontColor fontColor) {
+        label.setTextColor(fontColor);
+    }
+
 
     public void setGreenColor() {
         label.setTextColor(FontColor.LIGHT_BLUE);

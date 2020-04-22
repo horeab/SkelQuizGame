@@ -22,6 +22,7 @@ import libgdx.screens.implementations.hangman.HangmanGameScreen;
 import libgdx.utils.ActorPositionManager;
 import libgdx.utils.ScreenDimensionsManager;
 
+import libgdx.utils.model.FontColor;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.HashSet;
@@ -70,6 +71,9 @@ public class HangmanRefreshQuestionDisplayService extends RefreshQuestionDisplay
             letterLabel.setFontScale(fontScale);
             if (redLetters.contains(letter.toLowerCase())) {
                 letterLabel.setRedColor();
+                if (gameService.getQuestionImage() != null) {
+                    letterLabel.setRedColor(FontColor.RED);
+                }
             }
             if (pressedLetters.containsAll(wordLetters) && redLetters.size() == 0) {
                 letterLabel.setGreenColor();
