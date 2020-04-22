@@ -7,6 +7,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
 import libgdx.controls.animations.ActorAnimation;
+import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.geoquiz.QuizGame;
@@ -27,6 +28,7 @@ public class KennstDeGameScreen extends GameScreen<KennstDeScreenManager> {
 
     private CampaignLevel campaignLevel;
     private Table allTable;
+    private MyButton backButton;
 
     public KennstDeGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         super(gameContext);
@@ -40,7 +42,7 @@ public class KennstDeGameScreen extends GameScreen<KennstDeScreenManager> {
 
     @Override
     public void afterBuildStage() {
-        new BackButtonBuilder().addHoverBackButton(this);
+        backButton = new BackButtonBuilder().addHoverBackButton(this);
     }
 
     private void createAllTable() {
@@ -56,6 +58,9 @@ public class KennstDeGameScreen extends GameScreen<KennstDeScreenManager> {
         addActor(allTable);
 
         questionContainerCreatorService.processGameInfo(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
+        if(backButton!=null){
+            backButton.toFront();
+        }
     }
 
     public void goToNextQuestionScreen() {
