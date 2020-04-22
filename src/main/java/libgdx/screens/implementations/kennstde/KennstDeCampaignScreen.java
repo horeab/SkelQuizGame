@@ -73,6 +73,7 @@ public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager>
         table.add(createAllTable()).width(ScreenDimensionsManager.getScreenWidth());
         table.setBackground(GraphicUtils.getNinePatch(KennstDeSpecificResource.campaign_background_texture));
         addActor(table);
+        new BackButtonBuilder().addHoverBackButton(this);
     }
 
     private Table createAllTable() {
