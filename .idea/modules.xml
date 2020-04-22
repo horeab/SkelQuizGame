@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lett.iml" filepath="$PROJECT_DIR$/.idea/modules/Lett.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lett.iml" filepath="$PROJECT_DIR$/.idea/modules/Lett.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lett.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lett.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lett.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lett.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lett.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lett.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lett.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lett.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/LibGdxControls.iml" filepath="$PROJECT_DIR$/.idea/modules/LibGdxControls.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SkelGame.iml" filepath="$PROJECT_DIR$/.idea/modules/SkelGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SkelQuizGame.iml" filepath="$PROJECT_DIR$/.idea/modules/SkelQuizGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test.controls.iml" filepath="$PROJECT_DIR$/.idea/modules/test.controls.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test.controls.main.iml" filepath="$PROJECT_DIR$/.idea/modules/test.controls.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test.controls.test.iml" filepath="$PROJECT_DIR$/.idea/modules/test.controls.test.iml" />
     </modules>
   </component>
 </project>
