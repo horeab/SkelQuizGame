@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="SkelGame" external.linked.project.path="$MODULE_DIR$/../../../SkelGame" external.root.project.path="$MODULE_DIR$/../../../SkelGame" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
+<module version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../SkelGame" />
     <content url="file://$MODULE_DIR$/../../../SkelGame">
       <sourceFolder url="file://$MODULE_DIR$/../../../SkelGame/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../SkelGame/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../SkelGame/src/test" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="LibGdxControls" />
+    <orderEntry type="module" module-name="test.controls.main" />
     <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-backend-headless:1.9.8" level="project" />
     <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-backend-lwjgl:1.9.8" level="project" />
     <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-box2d-platform:natives-desktop:1.9.8" level="project" />
@@ -17,7 +17,10 @@
     <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-freetype:1.9.8" level="project" />
     <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-platform:natives-desktop:1.9.8" level="project" />
     <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx:1.9.8" level="project" />
+    <orderEntry type="library" name="Gradle: com.badlogicgames.gdxpay:gdx-pay-client:0.12.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.badlogicgames.gdxpay:gdx-pay:0.12.1" level="project" />
     <orderEntry type="library" name="Gradle: com.badlogicgames.jlayer:jlayer:1.0.1-gdx" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: net.java.jinput:jinput-platform:natives-linux:2.0.5" level="project" />
@@ -47,8 +50,5 @@
     <orderEntry type="library" name="Gradle: org.powermock:powermock-module-junit4-rule:1.6.1" level="project" />
     <orderEntry type="library" name="Gradle: org.powermock:powermock-module-junit4:1.6.1" level="project" />
     <orderEntry type="library" name="Gradle: org.powermock:powermock-reflect:1.6.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.badlogicgames.gdxpay:gdx-pay-client:0.12.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.badlogicgames.gdxpay:gdx-pay:0.12.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
   </component>
 </module>

@@ -6,6 +6,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.astronomy.AstronomySpecificResource;
 import libgdx.implementations.conthistory.ConthistorySpecificResource;
+import libgdx.implementations.flags.FlagsSpecificResource;
 import libgdx.implementations.geoquiz.QuizGameSpecificResource;
 import libgdx.implementations.hangman.HangmanSpecificResource;
 import libgdx.implementations.hangmanarena.HangmanArenaSpecificResource;
@@ -66,6 +67,12 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     ASTRONOMY_CATEG3(AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3d, null),
     ASTRONOMY_CATEG4(AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4d, null),
     ASTRONOMY_CATEG5(AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5d, null),
+
+    FLAGS_CATEG0(FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, null),
+    FLAGS_CATEG1(FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, null),
+    FLAGS_CATEG2(FlagsSpecificResource.campaign_level_0_2, FlagsSpecificResource.campaign_level_0_2, FlagsSpecificResource.campaign_level_0_2, FlagsSpecificResource.campaign_level_0_2, null),
+    FLAGS_CATEG3(FlagsSpecificResource.campaign_level_0_3, FlagsSpecificResource.campaign_level_0_3, FlagsSpecificResource.campaign_level_0_3, FlagsSpecificResource.campaign_level_0_3, null),
+    FLAGS_CATEG4(FlagsSpecificResource.campaign_level_0_4, FlagsSpecificResource.campaign_level_0_4, FlagsSpecificResource.campaign_level_0_4, FlagsSpecificResource.campaign_level_0_4, null),
 
     PERIODICTABLE_ANSWER(QuizGameSpecificResource.btn_answer_opt_up, QuizGameSpecificResource.btn_answer_opt_down, QuizGameSpecificResource.btn_answer_opt_up, QuizGameSpecificResource.btn_answer_opt_disabled, FontColor.BLACK),
     PERIODICTABLE_STARTGAME(PeriodicTableSpecificResource.play_up, PeriodicTableSpecificResource.play_down, PeriodicTableSpecificResource.play_up, PeriodicTableSpecificResource.play_up, null),

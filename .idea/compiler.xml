@@ -4,10 +4,16 @@
     <bytecodeTargetLevel>
       <module name="Lett.main" target="1.8" />
       <module name="Lett.test" target="1.8" />
+      <module name="SkelGame.Lett.main" target="1.8" />
+      <module name="SkelGame.Lett.test" target="1.8" />
       <module name="SkelQuizGame.SkelQuizGame.main" target="1.8" />
       <module name="SkelQuizGame.SkelQuizGame.test" target="1.8" />
+      <module name="SkelQuizGame_main" target="1.8" />
+      <module name="SkelQuizGame_test" target="1.8" />
       <module name="test.controls.main" target="1.8" />
       <module name="test.controls.test" target="1.8" />
+      <module name="test.controls_main" target="1.8" />
+      <module name="test.controls_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

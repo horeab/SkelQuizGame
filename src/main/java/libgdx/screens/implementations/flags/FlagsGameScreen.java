@@ -1,42 +1,54 @@
 package libgdx.screens.implementations.flags;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import libgdx.campaign.CampaignStoreService;
+import libgdx.controls.ScreenRunnable;
 import libgdx.controls.button.builders.BackButtonBuilder;
-import libgdx.controls.popup.notificationpopup.MyNotificationPopupConfigBuilder;
-import libgdx.controls.popup.notificationpopup.MyNotificationPopupCreator;
-import libgdx.dbapi.GameStatsDbApiService;
-import libgdx.game.Game;
+import libgdx.controls.label.MyWrappedLabel;
+import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.hangman.HangmanGameCreatorDependencies;
-import libgdx.implementations.judetelerom.JudeteleRomCampaignLevelEnum;
-import libgdx.implementations.judetelerom.JudeteleRomCategoryEnum;
-import libgdx.implementations.judetelerom.JudeteleRomSpecificResource;
-import libgdx.implementations.skelgame.gameservice.GameContext;
-import libgdx.implementations.skelgame.gameservice.HangmanRefreshQuestionDisplayService;
-import libgdx.implementations.skelgame.gameservice.LevelFinishedService;
-import libgdx.implementations.skelgame.gameservice.QuestionContainerCreatorService;
+import libgdx.implementations.skelgame.gameservice.*;
+import libgdx.implementations.skelgame.question.GameAnswerInfo;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
-import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
 import libgdx.implementations.skelgame.question.GameUser;
-import libgdx.implementations.skelgame.question.Question;
+import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
-import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screens.GameScreen;
-import libgdx.utils.DateUtils;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.RGBColor;
+import org.apache.commons.lang3.mutable.MutableLong;
+
+import java.util.*;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
 
-    private FlagsContainers judeteContainers = new FlagsContainers();
     private CampaignStoreService campaignStoreService = new CampaignStoreService();
     private Table allTable;
+    private ScheduledExecutorService executorService;
+    private MyWrappedLabel countryNameLabel;
+
+    private int div = 2;
+    private float durationFlagUpToDown = 15f / div;
+    private float durationNextFlag = 3f / div;
+
+    private int numberOfWrongAnswers = 5;
+
+    private List<GameQuestionInfo> displayedQuestionInfos = new ArrayList<>();
+    private List<GameQuestionInfo> availableGameQuestionInfosToPlay;
 
     public FlagsGameScreen(GameContext gameContext) {
         super(gameContext);
+        availableGameQuestionInfosToPlay = new ArrayList<>(gameContext.getCurrentUserGameUser().getAllQuestionInfos());
     }
 
     @Override
@@ -46,83 +58,170 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
     }
 
     private void createAllTable() {
-        if (Game.getInstance().getCurrentUser() != null) {
-            new GameStatsDbApiService().incrementGameStatsQuestionsWon(Game.getInstance().getCurrentUser().getId(), Long.valueOf(DateUtils.getNowMillis()).toString());
-        }
-
         allTable = new Table();
-        float dimen = MainDimen.vertical_general_margin.getDimen();
-        allTable.add(judeteContainers.createAllJudeteFound()).padTop(dimen * 2).row();
-        String allQuestionsPlayed = campaignStoreService.getAllQuestionsPlayed();
-        allTable.add(allQuestionsTable(allQuestionsPlayed.split(CampaignStoreService.TEXT_SPLIT).length - 1)).padBottom(dimen).padTop(dimen).growX().row();
-        QuestionContainerCreatorService questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
-        Table questionTable = questionContainerCreatorService.createQuestionTable();
-        Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
-        allTable.add(questionTable).growY().row();
-        float topPad = 0;
-        if (gameContext.getCurrentUserCreatorDependencies() instanceof HangmanGameCreatorDependencies) {
-            topPad = ScreenDimensionsManager.getScreenHeightValue(15);
-        }
-        allTable.add(answersTable).padTop(-topPad).growY();
         allTable.setFillParent(true);
+        allTable.add().growY().row();
         addActor(allTable);
-
-        questionContainerCreatorService.processGameInfo(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
+        displayCountryName(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
+        displayFlag();
     }
 
-    private Table allQuestionsTable(int nrOfCorrectQuestions) {
-        Table table = new Table();
-        int totalNrOfQuestions = JudeteleRomCampaignLevelEnum.values().length * JudeteleRomCategoryEnum.values().length;
-        float qTableWidth = 100 / Float.valueOf(totalNrOfQuestions);
-        for (int i = 0; i < totalNrOfQuestions; i++) {
-            Table qTable = new Table();
-            if (i <= (nrOfCorrectQuestions - 1) && nrOfCorrectQuestions != 0) {
-                qTable.setBackground(GraphicUtils.getNinePatch(JudeteleRomSpecificResource.allq_bakcground));
-            }
-            table.add(qTable).width(ScreenDimensionsManager.getScreenWidthValue(qTableWidth));
+    private void displayCountryName(GameQuestionInfo gameQuestionInfo) {
+        String text = gameQuestionInfo.getQuestion().getQuestionString().split(":")[2];
+        if (countryNameLabel != null) {
+            countryNameLabel.setText(text);
+        } else {
+            int labelWidth = ScreenDimensionsManager.getScreenWidth() / 2;
+            countryNameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                    .setWrappedLineLabel(labelWidth).setText(
+                            text).build());
+            countryNameLabel.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
+            countryNameLabel.setX(ScreenDimensionsManager.getScreenWidth() / 2 - labelWidth / 2);
+            countryNameLabel.setY(MainDimen.vertical_general_margin.getDimen() * 2);
+            countryNameLabel.setWidth(labelWidth);
+            countryNameLabel.setHeight(ScreenDimensionsManager.getScreenHeightValue(10));
+            addActor(countryNameLabel);
         }
-        return table;
+    }
+
+    private List<GameQuestionInfo> getAvailableGameQuestionInfosToPlay() {
+        List<GameQuestionInfo> list = new ArrayList<>(availableGameQuestionInfosToPlay);
+        Collections.shuffle(list);
+        ArrayDeque<GameQuestionInfo> modifList = new ArrayDeque<>(list);
+        GameQuestionInfo currentQ = null;
+        for (GameQuestionInfo gameQuestionInfo : list) {
+            if (questionCorrectAnswered(gameQuestionInfo)) {
+                modifList.remove(gameQuestionInfo);
+                currentQ = gameQuestionInfo;
+                break;
+            }
+        }
+        if (new Random().nextInt(100) > 60) {
+            modifList.addFirst(currentQ);
+        }
+        return new ArrayList<>(modifList);
+    }
+
+    private void displayFlag() {
+        List<GameQuestionInfo> availableGameQuestionInfosToPlay = getAvailableGameQuestionInfosToPlay();
+        for (final GameQuestionInfo gameQuestionInfo : availableGameQuestionInfosToPlay) {
+            if (!displayedQuestionInfos.contains(gameQuestionInfo)) {
+                displayedQuestionInfos.add(gameQuestionInfo);
+                int screenWidth = ScreenDimensionsManager.getScreenWidth();
+                float maxWidth = screenWidth / 2.5f;
+                QuizGameService gameService = (QuizGameService) GameServiceContainer.getGameService(gameQuestionInfo);
+                final Image image = gameService.getQuestionImage();
+                image.setHeight(ScreenDimensionsManager.getNewHeightForNewWidth(maxWidth, image));
+                image.setWidth(maxWidth);
+
+                int randomX = new Random().nextInt(screenWidth);
+                while (randomX + image.getWidth() > screenWidth) {
+                    randomX = new Random().nextInt(screenWidth);
+                }
+                image.setName(gameQuestionInfo.getQuestion().getQuestionString());
+                image.setX(randomX);
+                image.setY(ScreenDimensionsManager.getScreenHeight());
+                image.addAction(Actions.sequence(Actions.moveTo(image.getX(), 0, durationFlagUpToDown), Utils.createRunnableAction(new Runnable() {
+                    @Override
+                    public void run() {
+                        removeFlagFromScreen(image, gameQuestionInfo, false);
+                        if (questionCorrectAnswered(gameQuestionInfo)) {
+                            gameService.addAnswerToGameInfo(gameContext.getCurrentUserGameUser(),
+                                    new GameAnswerInfo("x", getMillisPassedSinceScreenDisplayed()));
+                            goToNextQuestionScreen();
+                        }
+                    }
+                })));
+                image.setTouchable(Touchable.enabled);
+                image.addListener(new ClickListener() {
+                    @Override
+                    public void clicked(InputEvent event, float x, float y) {
+                        ArrayList<GameQuestionInfo> copyDisplayedQuestionInfos = new ArrayList<>(displayedQuestionInfos);
+                        removeFlagFromScreen(image, gameQuestionInfo, true);
+                        if (questionCorrectAnswered(gameQuestionInfo)) {
+                            boolean areBeforeCorrectAnswer = true;
+                            for (GameQuestionInfo dispQi : copyDisplayedQuestionInfos) {
+                                if (questionCorrectAnswered(dispQi)) {
+                                    areBeforeCorrectAnswer = false;
+                                }
+                                if (areBeforeCorrectAnswer) {
+                                    removeFlagFromScreen(getRoot().findActor(dispQi.getQuestion().getQuestionString()),
+                                            dispQi, false);
+                                }
+                            }
+                            gameService.addAnswerToGameInfo(gameContext.getCurrentUserGameUser(),
+                                    new GameAnswerInfo(gameService.getAnswers().get(0), getMillisPassedSinceScreenDisplayed()));
+                            goToNextQuestionScreen();
+                        }
+                    }
+                });
+                image.toFront();
+                addActor(image);
+                displayNextFlag();
+                break;
+            }
+        }
+        if (countryNameLabel != null) {
+            countryNameLabel.toFront();
+        }
+    }
+
+    private boolean questionCorrectAnswered(GameQuestionInfo gameQuestionInfo) {
+        return gameQuestionInfo.getQuestion().getQuestionString().equals(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getQuestion().getQuestionString());
+    }
+
+    private void removeFlagFromScreen(Image image, GameQuestionInfo gameQuestionInfo, boolean onClick) {
+        if (questionCorrectAnswered(gameQuestionInfo) && !onClick
+                ||
+                !questionCorrectAnswered(gameQuestionInfo) && onClick) {
+            Table wrongAnswerTable = new Table();
+            wrongAnswerTable.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
+            allTable.add(wrongAnswerTable)
+                    .height(ScreenDimensionsManager.getScreenHeightValue(100 / numberOfWrongAnswers))
+                    .width(ScreenDimensionsManager.getScreenWidth())
+                    .bottom()
+                    .row();
+        }
+        image.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRunnableAction(new Runnable() {
+            @Override
+            public void run() {
+                image.remove();
+            }
+        })));
+        displayedQuestionInfos.remove(gameQuestionInfo);
+    }
+
+    private void displayNextFlag() {
+        executorService = Executors.newSingleThreadScheduledExecutor();
+        MutableLong countdownAmountMillis = new MutableLong(durationNextFlag * 1000);
+        final int period = 1000;
+        executorService.scheduleAtFixedRate(new ScreenRunnable(getAbstractScreen()) {
+            @Override
+            public void executeOperations() {
+                if (countdownAmountMillis.getValue() <= 0) {
+                    countdownAmountMillis.setValue(durationNextFlag * 1000);
+                    Gdx.app.postRunnable(new Runnable() {
+                        @Override
+                        public void run() {
+                            displayFlag();
+                            executorService.shutdown();
+                        }
+                    });
+                }
+                countdownAmountMillis.subtract(period);
+            }
+
+            @Override
+            public void executeOperationsAfterScreenChanged() {
+                executorService.shutdown();
+            }
+        }, 0, period, TimeUnit.MILLISECONDS);
     }
 
     @Override
     public void goToNextQuestionScreen() {
-        processPlayedQuestions();
-        if (levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
-        }
-        Table hangmanWordTable = getRoot().findActor(HangmanRefreshQuestionDisplayService.ACTOR_NAME_HANGMAN_WORD_TABLE);
-        if (hangmanWordTable != null) {
-            hangmanWordTable.addAction(Actions.fadeOut(0.2f));
-            hangmanWordTable.remove();
-        }
-        allTable.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRunnableAction(new Runnable() {
-            @Override
-            public void run() {
-                allTable.remove();
-                createAllTable();
-            }
-        })));
+        displayCountryName(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
     }
-
-    private void processPlayedQuestions() {
-        for (GameQuestionInfo gameQuestionInfo : gameContext.getCurrentUserGameUser().getAllQuestionInfos()) {
-            if (gameQuestionInfo.getStatus() == GameQuestionInfoStatus.LOST) {
-                gameContext.getCurrentUserGameUser().resetQuestion(gameQuestionInfo);
-            } else {
-                Question question = gameQuestionInfo.getQuestion();
-                if (gameQuestionInfo.getStatus() == GameQuestionInfoStatus.WON && !campaignStoreService.isQuestionAlreadyPlayed(FlagsContainers.getQuestionId(question.getQuestionLineInQuestionFile(), question.getQuestionCategory(), question.getQuestionDifficultyLevel()))) {
-                    campaignStoreService.putQuestionPlayed(FlagsContainers.getQuestionId(question.getQuestionLineInQuestionFile(), question.getQuestionCategory(), question.getQuestionDifficultyLevel()));
-                    int questionLineInQuestionFile = question.getQuestionLineInQuestionFile();
-                    if (FlagsContainers.isContinentFound(questionLineInQuestionFile)) {
-                        new MyNotificationPopupCreator(new MyNotificationPopupConfigBuilder().setText(
-                                SpecificPropertiesUtils.getText("ro_judetelerom_judet_found",
-                                        new SpecificPropertiesUtils().getQuestionCampaignLabel
-                                                (questionLineInQuestionFile))).build()).shortNotificationPopup().addToPopupManager();
-                    }
-                }
-            }
-        }
-    }
-
 
     @Override
     public void onBackKeyPress() {
@@ -141,7 +240,6 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
     @Override
     public void animateGameFinished() {
         super.animateGameFinished();
-        processPlayedQuestions();
         if (LevelFinishedService.getPercentageOfWonQuestions(gameContext.getCurrentUserGameUser()) == 100f) {
 //            ActorAnimation.animateImageCenterScreenFadeOut(AnatomySpecificResource.star, 0.3f);
         }

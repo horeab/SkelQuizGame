@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="SkelQuizGame" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+<module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../..">
-      <sourceFolder url="file://$MODULE_DIR$/../../src/main" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="main1" />
+    <orderEntry type="module" module-name="main2" />
+    <orderEntry type="library" name="gradle-wrapper" level="project" />
     <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-backend-headless:1.9.8" level="project" />
     <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-backend-lwjgl:1.9.8" level="project" />
     <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-box2d-platform:natives-desktop:1.9.8" level="project" />
@@ -49,7 +51,6 @@
     <orderEntry type="library" name="Gradle: org.powermock:powermock-module-junit4-rule:1.6.1" level="project" />
     <orderEntry type="library" name="Gradle: org.powermock:powermock-module-junit4:1.6.1" level="project" />
     <orderEntry type="library" name="Gradle: org.powermock:powermock-reflect:1.6.1" level="project" />
-    <orderEntry type="module" module-name="Lett.main" />
-    <orderEntry type="module" module-name="LibGdxControls" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
