@@ -12,14 +12,16 @@ import libgdx.controls.ScreenRunnable;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.controls.popup.notificationpopup.MyNotificationPopupConfigBuilder;
+import libgdx.controls.popup.notificationpopup.MyNotificationPopupCreator;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.skelgame.gameservice.*;
-import libgdx.implementations.skelgame.question.GameAnswerInfo;
-import libgdx.implementations.skelgame.question.GameQuestionInfo;
-import libgdx.implementations.skelgame.question.GameUser;
+import libgdx.implementations.skelgame.question.*;
 import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
+import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screens.GameScreen;
+import libgdx.screens.implementations.judetelerom.JudeteContainers;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.RGBColor;
@@ -35,7 +37,7 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
     private CampaignStoreService campaignStoreService = new CampaignStoreService();
     private Table allTable;
     private ScheduledExecutorService executorService;
-    private MyWrappedLabel countryNameLabel;
+    private Table countryNameTable;
 
     private int div = 2;
     private float durationFlagUpToDown = 15f / div;
@@ -68,20 +70,24 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
 
     private void displayCountryName(GameQuestionInfo gameQuestionInfo) {
         String text = gameQuestionInfo.getQuestion().getQuestionString().split(":")[2];
-        if (countryNameLabel != null) {
-            countryNameLabel.setText(text);
-        } else {
-            int labelWidth = ScreenDimensionsManager.getScreenWidth() / 2;
-            countryNameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
-                    .setWrappedLineLabel(labelWidth).setText(
-                            text).build());
-            countryNameLabel.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
-            countryNameLabel.setX(ScreenDimensionsManager.getScreenWidth() / 2 - labelWidth / 2);
-            countryNameLabel.setY(MainDimen.vertical_general_margin.getDimen() * 2);
-            countryNameLabel.setWidth(labelWidth);
-            countryNameLabel.setHeight(ScreenDimensionsManager.getScreenHeightValue(10));
-            addActor(countryNameLabel);
+        if (countryNameTable != null) {
+            countryNameTable.remove();
         }
+        countryNameTable = new Table();
+        countryNameTable.setName("countryNameTable");
+        int labelWidth = ScreenDimensionsManager.getScreenWidth() / 2;
+        MyWrappedLabel countryNameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setWrappedLineLabel(labelWidth).setText(
+                        text).build());
+        countryNameLabel.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
+        countryNameLabel.setWidth(labelWidth);
+        countryNameLabel.setHeight(ScreenDimensionsManager.getScreenHeightValue(10));
+        countryNameTable.setWidth(countryNameLabel.getWidth());
+        countryNameTable.setHeight(countryNameLabel.getHeight());
+        countryNameTable.add(countryNameLabel);
+        countryNameTable.setX(ScreenDimensionsManager.getScreenWidth() / 2 - labelWidth / 2);
+        countryNameTable.setY(MainDimen.vertical_general_margin.getDimen() * 2);
+        addActor(countryNameTable);
     }
 
     private List<GameQuestionInfo> getAvailableGameQuestionInfosToPlay() {
@@ -161,8 +167,8 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
                 break;
             }
         }
-        if (countryNameLabel != null) {
-            countryNameLabel.toFront();
+        if (countryNameTable != null) {
+            countryNameTable.toFront();
         }
     }
 
@@ -216,6 +222,26 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
                 executorService.shutdown();
             }
         }, 0, period, TimeUnit.MILLISECONDS);
+    }
+
+    private void processPlayedQuestions() {
+        for (GameQuestionInfo gameQuestionInfo : gameContext.getCurrentUserGameUser().getAllQuestionInfos()) {
+            if (gameQuestionInfo.getStatus() == GameQuestionInfoStatus.LOST) {
+                gameContext.getCurrentUserGameUser().resetQuestion(gameQuestionInfo);
+            } else {
+                Question question = gameQuestionInfo.getQuestion();
+                if (gameQuestionInfo.getStatus() == GameQuestionInfoStatus.WON && !campaignStoreService.isQuestionAlreadyPlayed(JudeteContainers.getQuestionId(question.getQuestionLineInQuestionFile(), question.getQuestionCategory(), question.getQuestionDifficultyLevel()))) {
+                    campaignStoreService.putQuestionPlayed(JudeteContainers.getQuestionId(question.getQuestionLineInQuestionFile(), question.getQuestionCategory(), question.getQuestionDifficultyLevel()));
+                    int questionLineInQuestionFile = question.getQuestionLineInQuestionFile();
+                    if (JudeteContainers.isJudetFound(questionLineInQuestionFile)) {
+                        new MyNotificationPopupCreator(new MyNotificationPopupConfigBuilder().setText(
+                                SpecificPropertiesUtils.getText("ro_judetelerom_judet_found",
+                                        new SpecificPropertiesUtils().getQuestionCampaignLabel
+                                                (questionLineInQuestionFile))).build()).shortNotificationPopup().addToPopupManager();
+                    }
+                }
+            }
+        }
     }
 
     @Override

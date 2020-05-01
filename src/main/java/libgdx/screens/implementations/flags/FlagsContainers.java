@@ -2,58 +2,44 @@ package libgdx.screens.implementations.flags;
 
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.campaign.CampaignStoreService;
-import libgdx.campaign.QuestionCategory;
-import libgdx.campaign.QuestionDifficulty;
-import libgdx.controls.label.MyWrappedLabel;
-import libgdx.controls.label.MyWrappedLabelConfigBuilder;
-import libgdx.implementations.flags.FlagsCategoryEnum;
-import libgdx.implementations.flags.FlagsDifficultyLevel;
-import libgdx.implementations.judetelerom.JudeteleRomCampaignLevelEnum;
-import libgdx.resources.FontManager;
-import libgdx.resources.gamelabel.SpecificPropertiesUtils;
+import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.flags.FlagsSpecificResource;
+import libgdx.implementations.skelgame.question.Question;
+import libgdx.resources.MainResource;
+import libgdx.utils.ScreenDimensionsManager;
+
+import java.util.List;
 
 public class FlagsContainers {
 
-    public Table createAllJudeteFound() {
-        String allQPlayed = getTotalNrOfJudetFound() + "/" + JudeteleRomCampaignLevelEnum.values().length + " " + SpecificPropertiesUtils.getText("ro_judetelerom_found");
-        MyWrappedLabel allQuestions = new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setFontScale(FontManager.getBigFontDim()).setText(allQPlayed).build());
-        return allQuestions;
-    }
-
-
-    public Table createAllQuestionsFound() {
-        String allQPlayed = getTotalNrOfJudetFound() + "/" + JudeteleRomCampaignLevelEnum.values().length + " " + SpecificPropertiesUtils.getText("ro_judetelerom_found");
-        MyWrappedLabel allQuestions = new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setFontScale(FontManager.getBigFontDim()).setText(allQPlayed).build());
-        return allQuestions;
-    }
-
-    public static int getTotalNrOfJudetFound() {
-        int totalNrOfJudetFound = 0;
-        for (int i = 0; i < JudeteleRomCampaignLevelEnum.values().length; i++) {
-            totalNrOfJudetFound = totalNrOfJudetFound + (isContinentFound(i) ? 1 : 0);
-        }
-        return totalNrOfJudetFound;
-    }
-
-    public static boolean isContinentFound(int continentNr) {
-        return getTotalCorrectAnswersForContinent(continentNr) == FlagsCategoryEnum.values().length;
-    }
-
-    public static int getTotalCorrectAnswersForContinent(int continentNr) {
+    public static int getTotalCorrectAnswers(List<Question> questions) {
         CampaignStoreService campaignStoreService = new CampaignStoreService();
         int totalAnswers = 0;
-        for (FlagsDifficultyLevel difficultyLevel : FlagsDifficultyLevel.values()) {
-            for (FlagsCategoryEnum categoryEnum : FlagsCategoryEnum.values()) {
-                boolean questionAlreadyPlayed = campaignStoreService.isQuestionAlreadyPlayed(getQuestionId(continentNr, categoryEnum, difficultyLevel));
-                if (questionAlreadyPlayed) {
-                    totalAnswers++;
-                }
+        for (Question question : questions) {
+            boolean questionAlreadyPlayed = campaignStoreService.isQuestionAlreadyPlayed(getQuestionId(question));
+            if (questionAlreadyPlayed) {
+                totalAnswers++;
             }
         }
         return totalAnswers;
     }
 
-    public static String getQuestionId(int questionLineInQuestionFile, QuestionCategory categName, QuestionDifficulty diffName) {
-        return questionLineInQuestionFile + "_" + categName.name() + "_" + diffName.name();
+    public static Table allQuestionsTable(List<Question> questions) {
+        Table table = new Table();
+        float qTableWidth = 100 / Float.valueOf(questions.size());
+        double nrOfCorrectQuestions = getTotalCorrectAnswers(questions);
+        for (int i = 0; i < questions.size(); i++) {
+            Table qTable = new Table();
+            if (i <= (nrOfCorrectQuestions - 1) && nrOfCorrectQuestions != 0) {
+                qTable.setBackground(GraphicUtils.getNinePatch(FlagsSpecificResource.allq_bakcground));
+            }
+            table.add(qTable).width(ScreenDimensionsManager.getScreenWidthValue(qTableWidth));
+        }
+        table.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
+        return table;
+    }
+
+    public static String getQuestionId(Question question) {
+        return question.getQuestionString();
     }
 }

@@ -10,6 +10,7 @@ public enum FlagsSpecificResource implements SpecificResource {
     // @formatter:off
 
     specific_labels("labels/labels", I18NBundle.class),
+    allq_bakcground("allq_bakcground.png", Texture.class),
 
     campaign_level_0_0("campaign/level_0_0.png", Texture.class),
     campaign_level_0_1("campaign/level_0_1.png", Texture.class),

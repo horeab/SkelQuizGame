@@ -9,6 +9,7 @@ import libgdx.campaign.*;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.game.Game;
+import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.flags.FlagsCampaignLevelEnum;
 import libgdx.implementations.flags.FlagsGame;
 import libgdx.implementations.skelgame.GameButtonSize;
@@ -16,8 +17,10 @@ import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.SkelGameRatingService;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.gameservice.QuizQuestionCategory;
+import libgdx.implementations.skelgame.question.Question;
 import libgdx.implementations.skelgame.question.QuestionParser;
 import libgdx.resources.FontManager;
+import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
 import libgdx.utils.ScreenDimensionsManager;
@@ -66,11 +69,12 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
         addButtonToTable(btnTable0, FlagsCampaignLevelEnum.LEVEL_0_0);
         btnTable0.add().width(ScreenDimensionsManager.getScreenWidthValue(5));
         addButtonToTable(btnTable0, FlagsCampaignLevelEnum.LEVEL_0_2);
-        table.add(btnTable0);
+        table.add(btnTable0).padBottom(MainDimen.vertical_general_margin.getDimen());
         table.row();
         Table btnTable1 = new Table();
+        btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(10));
         addButtonToTable(btnTable1, FlagsCampaignLevelEnum.LEVEL_0_3);
-        btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(15));
+        btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(10));
         addButtonToTable(btnTable1, FlagsCampaignLevelEnum.LEVEL_0_4);
         btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(30));
         table.add(btnTable1);
@@ -101,26 +105,39 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
         return btn;
     }
 
-    private Cell<MyButton> addButtonToTable(Table table, FlagsCampaignLevelEnum campaignLevel) {
-        MyButton categButton = createCategButton(campaignLevel);
-        return table.add(categButton).width(categButton.getWidth()).height(categButton.getHeight())
-                .padBottom(MainDimen.vertical_general_margin.getDimen() * 5f);
+    private void addButtonToTable(Table table, FlagsCampaignLevelEnum campaignLevel) {
+        QuestionParser questionParser = new QuestionParser();
+        CampaignLevelEnumService enumService = new CampaignLevelEnumService(campaignLevel);
+        List<Question> allQuestions = questionParser.getAllQuestions(enumService.getDifficultyEnum(), (QuizQuestionCategory) enumService.getCategoryEnum());
+        MyButton categButton = createCategButton(campaignLevel, allQuestions);
+
+        Table containerTable = new Table();
+        containerTable.add(categButton).width(categButton.getWidth()).height(categButton.getHeight()).row();
+        Table allQuestionsTable = FlagsContainers.allQuestionsTable(allQuestions);
+        containerTable.add(allQuestionsTable)
+                .padTop(MainDimen.vertical_general_margin.getDimen() * 3)
+                .width(categButton.getWidth()).height(categButton.getHeight() / 5);
+
+
+        table.add(containerTable).padBottom(MainDimen.vertical_general_margin.getDimen() * 5f)
+                .width(categButton.getWidth()).height(categButton.getHeight());
     }
 
-    private MyButton createCategButton(final CampaignLevel campaignLevel) {
+    private MyButton createCategButton(final CampaignLevel campaignLevel, List<Question> allQuestions) {
         String labelText = new CampaignLevelEnumService(campaignLevel).getLabelText();
         MyButton categBtn = new ImageButtonBuilder(GameButtonSkin.valueOf("FLAGS_CATEG" + campaignLevel.getIndex()), getAbstractScreen())
-                .setFontScale(FontManager.getSmallFontDim())
+                .padBetweenImageAndText(1.4f)
+                .textBackground(null)
+                .setFontScale(FontManager.calculateMultiplierStandardFontSize(0.9f))
+                .setText(labelText)
                 .setFontColor(FontColor.BLACK)
                 .setFixedButtonSize(GameButtonSize.FLAGS_MENU_BUTTON)
-                .setWrappedText(labelText, ScreenDimensionsManager.getScreenWidthValue(GameButtonSize.FLAGS_MENU_BUTTON.getWidth()))
                 .build();
         categBtn.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 CampaignLevelEnumService enumService = new CampaignLevelEnumService(campaignLevel);
-                QuestionParser questionParser = new QuestionParser();
-                QuestionConfig questionConfig = enumService.getQuestionConfig(questionParser.getAllQuestions(enumService.getDifficultyEnum(), (QuizQuestionCategory) enumService.getCategoryEnum()).size());
+                QuestionConfig questionConfig = enumService.getQuestionConfig(allQuestions.size());
                 FlagsGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), campaignLevel);
             }
         });
