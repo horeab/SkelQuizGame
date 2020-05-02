@@ -54,8 +54,7 @@ public class LevelFinishedPopup extends MyPopup<AbstractScreen, CampaignScreenMa
                     new CampaignStoreService().reset();
                     screenManager.showMainScreen();
                 } else {
-                    screenManager.showCampaignGameScreen(new GameContextService().createGameContext(
-                            gameContext.getQuestionConfig()), currentCampaignLevel);
+                    screenManager.showCampaignGameScreen(getGameContext(), currentCampaignLevel);
                 }
             }
         });
@@ -76,11 +75,20 @@ public class LevelFinishedPopup extends MyPopup<AbstractScreen, CampaignScreenMa
         }
     }
 
+    protected GameContext getGameContext() {
+        return new GameContextService().createGameContext(
+                gameContext.getQuestionConfig());
+    }
+
     @Override
     public void onBackKeyPress() {
         if (StringUtils.isNotBlank(gameOverSuccessText)) {
             screenManager.showMainScreen();
         }
+    }
+
+    public CampaignLevel getCurrentCampaignLevel() {
+        return currentCampaignLevel;
     }
 
     @Override

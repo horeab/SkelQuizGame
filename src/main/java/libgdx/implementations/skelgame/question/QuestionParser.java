@@ -40,7 +40,11 @@ public class QuestionParser {
     }
 
     public List<Question> getAllQuestions(QuestionDifficulty questionDifficultyLevel, QuizQuestionCategory questionCategory) {
-        return CreatorDependenciesContainer.getCreator(questionCategory.getCreatorDependencies()).getQuestionCreator(questionDifficultyLevel, questionCategory).getAllQuestions(Arrays.asList((QuestionDifficulty[]) EnumUtils.getValues(CampaignGame.getInstance().getSubGameDependencyManager().getQuestionDifficultyTypeEnum())), questionCategory);
+        return CreatorDependenciesContainer.getCreator(questionCategory.getCreatorDependencies())
+                .getQuestionCreator(questionDifficultyLevel, questionCategory)
+                .getAllQuestions(Arrays.asList((QuestionDifficulty[])
+                                EnumUtils.getValues(CampaignGame.getInstance().getSubGameDependencyManager().getQuestionDifficultyTypeEnum())),
+                        questionCategory);
     }
 
     private Question getQuestionForFileId(String fileId, List<Question> allQuestions) {

@@ -6,13 +6,18 @@ import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.implementations.skelgame.question.Question;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class GameContextService {
 
-    public GameContext createGameContext(Question... questions) {
+    public GameContext createGameContext(List<Question> questions) {
         int AMOUNT_AVAILABLE_HINTS = 0;
-        return createGameContext(AMOUNT_AVAILABLE_HINTS, questions);
+        return createGameContext(AMOUNT_AVAILABLE_HINTS, questions.toArray(new Question[questions.size()]));
+    }
+
+    public GameContext createGameContext(Question... questions) {
+        return createGameContext(new ArrayList<>(Arrays.asList(questions)));
     }
 
     public GameContext createGameContext(int amountAvailableHints, Question... questions) {

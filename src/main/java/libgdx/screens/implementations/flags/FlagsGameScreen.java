@@ -4,27 +4,32 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
+import com.badlogic.gdx.scenes.scene2d.actions.RunnableAction;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.google.gson.Gson;
+import libgdx.campaign.CampaignLevel;
+import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.ScreenRunnable;
+import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
-import libgdx.controls.popup.notificationpopup.MyNotificationPopupConfigBuilder;
-import libgdx.controls.popup.notificationpopup.MyNotificationPopupCreator;
 import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.anatomy.AnatomySpecificResource;
+import libgdx.implementations.flags.FlagsCampaignLevelEnum;
+import libgdx.implementations.flags.FlagsDifficultyLevel;
+import libgdx.implementations.flags.FlagsSpecificResource;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.*;
 import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
-import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screens.GameScreen;
-import libgdx.screens.implementations.judetelerom.JudeteContainers;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
-import libgdx.utils.model.RGBColor;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.mutable.MutableLong;
 
 import java.util.*;
@@ -39,18 +44,50 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
     private ScheduledExecutorService executorService;
     private Table countryNameTable;
 
-    private int div = 2;
-    private float durationFlagUpToDown = 15f / div;
-    private float durationNextFlag = 3f / div;
+    private float durationFlagUpToDown;
+    private float durationNextFlag;
+    private CampaignLevel campaignLevel;
+    private CampaignLevelEnumService enumService;
 
-    private int numberOfWrongAnswers = 5;
+    private int maxNumberOfWrongAnswers = 5;
+    private int numberOfWrongAnswersPressed = 0;
 
     private List<GameQuestionInfo> displayedQuestionInfos = new ArrayList<>();
     private List<GameQuestionInfo> availableGameQuestionInfosToPlay;
+    private int leftCountriesToPlay;
+    private FlagsSettings flagsSettings;
 
-    public FlagsGameScreen(GameContext gameContext) {
+    public FlagsGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         super(gameContext);
+        initFlagsSettings();
+        setFlagSpeed();
         availableGameQuestionInfosToPlay = new ArrayList<>(gameContext.getCurrentUserGameUser().getAllQuestionInfos());
+        this.campaignLevel = campaignLevel;
+        enumService = new CampaignLevelEnumService(campaignLevel);
+        leftCountriesToPlay = FlagsContainers.getAllQuestions(campaignLevel).size();
+    }
+
+    private void setFlagSpeed() {
+        float div = 2;
+        maxNumberOfWrongAnswers = 6;
+        if (flagsSettings.getFlagsDifficultyLevel() == FlagsDifficultyLevel._1) {
+            maxNumberOfWrongAnswers = 5;
+            div = 2.5f;
+        } else if (flagsSettings.getFlagsDifficultyLevel() == FlagsDifficultyLevel._2) {
+            maxNumberOfWrongAnswers = 4;
+            div = 3f;
+        }
+        durationFlagUpToDown = 15f / div;
+        durationNextFlag = 3f / div;
+    }
+
+    private void initFlagsSettings() {
+        String json = campaignStoreService.getJson();
+        if (StringUtils.isNotBlank(json)) {
+            flagsSettings = new Gson().fromJson(json, FlagsSettings.class);
+        } else {
+            flagsSettings = new FlagsSettings();
+        }
     }
 
     @Override
@@ -84,28 +121,41 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
         countryNameLabel.setHeight(ScreenDimensionsManager.getScreenHeightValue(10));
         countryNameTable.setWidth(countryNameLabel.getWidth());
         countryNameTable.setHeight(countryNameLabel.getHeight());
-        countryNameTable.add(countryNameLabel);
         countryNameTable.setX(ScreenDimensionsManager.getScreenWidth() / 2 - labelWidth / 2);
         countryNameTable.setY(MainDimen.vertical_general_margin.getDimen() * 2);
+        countryNameTable.add(countryNameLabel).row();
+
+
+        countryNameLabel.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
+        countryNameLabel.setWidth(labelWidth);
+        countryNameLabel.setHeight(ScreenDimensionsManager.getScreenHeightValue(10));
+        countryNameTable.add(FlagsContainers.createFlagsCounter(leftCountriesToPlay, labelWidth, null))
+                .padBottom(MainDimen.vertical_general_margin.getDimen() * 3)
+                .width(countryNameLabel.getWidth()).height(countryNameLabel.getWidth() / 5);
         addActor(countryNameTable);
     }
 
     private List<GameQuestionInfo> getAvailableGameQuestionInfosToPlay() {
-        List<GameQuestionInfo> list = new ArrayList<>(availableGameQuestionInfosToPlay);
-        Collections.shuffle(list);
-        ArrayDeque<GameQuestionInfo> modifList = new ArrayDeque<>(list);
-        GameQuestionInfo currentQ = null;
-        for (GameQuestionInfo gameQuestionInfo : list) {
-            if (questionCorrectAnswered(gameQuestionInfo)) {
-                modifList.remove(gameQuestionInfo);
-                currentQ = gameQuestionInfo;
-                break;
+        if (gameContext.getCurrentUserGameUser().getGameQuestionInfo() == null) {
+            return new ArrayList<>();
+        } else {
+            List<GameQuestionInfo> list = new ArrayList<>(availableGameQuestionInfosToPlay);
+            Collections.shuffle(list);
+            ArrayDeque<GameQuestionInfo> modifList = new ArrayDeque<>(list);
+            GameQuestionInfo currentQ = null;
+            for (GameQuestionInfo gameQuestionInfo : list) {
+                if (questionCorrectAnswered(gameQuestionInfo)) {
+                    modifList.remove(gameQuestionInfo);
+                    currentQ = gameQuestionInfo;
+                    break;
+                }
             }
+            if (new Random().nextInt(100) > 1) {
+//            if (new Random().nextInt(100) > 60) {
+                modifList.addFirst(currentQ);
+            }
+            return new ArrayList<>(modifList);
         }
-        if (new Random().nextInt(100) > 60) {
-            modifList.addFirst(currentQ);
-        }
-        return new ArrayList<>(modifList);
     }
 
     private void displayFlag() {
@@ -130,7 +180,7 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
                 image.addAction(Actions.sequence(Actions.moveTo(image.getX(), 0, durationFlagUpToDown), Utils.createRunnableAction(new Runnable() {
                     @Override
                     public void run() {
-                        removeFlagFromScreen(image, gameQuestionInfo, false);
+                        removeFlagFromScreen(gameQuestionInfo, false, 0.2f);
                         if (questionCorrectAnswered(gameQuestionInfo)) {
                             gameService.addAnswerToGameInfo(gameContext.getCurrentUserGameUser(),
                                     new GameAnswerInfo("x", getMillisPassedSinceScreenDisplayed()));
@@ -143,7 +193,7 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
                     @Override
                     public void clicked(InputEvent event, float x, float y) {
                         ArrayList<GameQuestionInfo> copyDisplayedQuestionInfos = new ArrayList<>(displayedQuestionInfos);
-                        removeFlagFromScreen(image, gameQuestionInfo, true);
+                        removeFlagFromScreen(gameQuestionInfo, true, 0.2f);
                         if (questionCorrectAnswered(gameQuestionInfo)) {
                             boolean areBeforeCorrectAnswer = true;
                             for (GameQuestionInfo dispQi : copyDisplayedQuestionInfos) {
@@ -151,10 +201,10 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
                                     areBeforeCorrectAnswer = false;
                                 }
                                 if (areBeforeCorrectAnswer) {
-                                    removeFlagFromScreen(getRoot().findActor(dispQi.getQuestion().getQuestionString()),
-                                            dispQi, false);
+                                    removeFlagFromScreen(dispQi, false, 0.05f);
                                 }
                             }
+                            leftCountriesToPlay = leftCountriesToPlay - 1;
                             gameService.addAnswerToGameInfo(gameContext.getCurrentUserGameUser(),
                                     new GameAnswerInfo(gameService.getAnswers().get(0), getMillisPassedSinceScreenDisplayed()));
                             goToNextQuestionScreen();
@@ -176,25 +226,40 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
         return gameQuestionInfo.getQuestion().getQuestionString().equals(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getQuestion().getQuestionString());
     }
 
-    private void removeFlagFromScreen(Image image, GameQuestionInfo gameQuestionInfo, boolean onClick) {
+    private void removeFlagFromScreen(GameQuestionInfo gameQuestionInfo, boolean onClick, float duration) {
+        Image image = getRoot().findActor(gameQuestionInfo.getQuestion().getQuestionString());
         if (questionCorrectAnswered(gameQuestionInfo) && !onClick
                 ||
                 !questionCorrectAnswered(gameQuestionInfo) && onClick) {
             Table wrongAnswerTable = new Table();
             wrongAnswerTable.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
             allTable.add(wrongAnswerTable)
-                    .height(ScreenDimensionsManager.getScreenHeightValue(100 / numberOfWrongAnswers))
+                    .height(ScreenDimensionsManager.getScreenHeightValue(100f / maxNumberOfWrongAnswers))
                     .width(ScreenDimensionsManager.getScreenWidth())
                     .bottom()
                     .row();
+            numberOfWrongAnswersPressed++;
+            if (gameOver()) {
+                new FlagsLevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
+                executorService.shutdown();
+                countryNameTable.remove();
+                for (GameQuestionInfo gq : new ArrayList<>(displayedQuestionInfos)) {
+                    Image img = getRoot().findActor(gq.getQuestion().getQuestionString());
+                    img.remove();
+                }
+            }
         }
-        image.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRunnableAction(new Runnable() {
+        image.addAction(Actions.sequence(Actions.fadeOut(duration), Utils.createRunnableAction(new Runnable() {
             @Override
             public void run() {
                 image.remove();
             }
         })));
         displayedQuestionInfos.remove(gameQuestionInfo);
+    }
+
+    private boolean gameOver() {
+        return numberOfWrongAnswersPressed >= maxNumberOfWrongAnswers;
     }
 
     private void displayNextFlag() {
@@ -209,7 +274,9 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
                     Gdx.app.postRunnable(new Runnable() {
                         @Override
                         public void run() {
-                            displayFlag();
+                            if (!gameOver()) {
+                                displayFlag();
+                            }
                             executorService.shutdown();
                         }
                     });
@@ -228,25 +295,28 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
         for (GameQuestionInfo gameQuestionInfo : gameContext.getCurrentUserGameUser().getAllQuestionInfos()) {
             if (gameQuestionInfo.getStatus() == GameQuestionInfoStatus.LOST) {
                 gameContext.getCurrentUserGameUser().resetQuestion(gameQuestionInfo);
-            } else {
-                Question question = gameQuestionInfo.getQuestion();
-                if (gameQuestionInfo.getStatus() == GameQuestionInfoStatus.WON && !campaignStoreService.isQuestionAlreadyPlayed(JudeteContainers.getQuestionId(question.getQuestionLineInQuestionFile(), question.getQuestionCategory(), question.getQuestionDifficultyLevel()))) {
-                    campaignStoreService.putQuestionPlayed(JudeteContainers.getQuestionId(question.getQuestionLineInQuestionFile(), question.getQuestionCategory(), question.getQuestionDifficultyLevel()));
-                    int questionLineInQuestionFile = question.getQuestionLineInQuestionFile();
-                    if (JudeteContainers.isJudetFound(questionLineInQuestionFile)) {
-                        new MyNotificationPopupCreator(new MyNotificationPopupConfigBuilder().setText(
-                                SpecificPropertiesUtils.getText("ro_judetelerom_judet_found",
-                                        new SpecificPropertiesUtils().getQuestionCampaignLabel
-                                                (questionLineInQuestionFile))).build()).shortNotificationPopup().addToPopupManager();
-                    }
-                }
             }
         }
     }
 
     @Override
     public void goToNextQuestionScreen() {
-        displayCountryName(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
+        processPlayedQuestions();
+        if (gameContext.getCurrentUserGameUser().getWonQuestions() == gameContext.getCurrentUserGameUser().getAllQuestionInfos().size()) {
+            for (int i = 0; i <= enumService.getDifficulty(); i++) {
+                campaignStoreService.putQuestionPlayed(FlagsCampaignLevelEnum.valueOf("LEVEL_" + i + "_" + enumService.getCategory()).getName());
+            }
+            RunnableAction runnableAction = Utils.createRunnableAction(new Runnable() {
+                @Override
+                public void run() {
+                    screenManager.showMainScreen();
+                }
+            });
+            ActorAnimation.animateImageCenterScreenFadeOut(FlagsSpecificResource.star, 0.7f);
+            addAction(Actions.sequence(Actions.delay(0.7f), runnableAction));
+        } else {
+            displayCountryName(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
+        }
     }
 
     @Override
@@ -255,27 +325,13 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
     }
 
     @Override
-    protected void setBackgroundColor(RGBColor backgroundColor) {
-        if (levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
-            super.setBackgroundColor(RGBColor.RED);
-        } else {
-            super.setBackgroundColor(backgroundColor);
-        }
+    public void animateGameFinished() {
+        super.animateGameFinished();
+        processPlayedQuestions();
     }
 
     @Override
-    public void animateGameFinished() {
-        super.animateGameFinished();
-        if (LevelFinishedService.getPercentageOfWonQuestions(gameContext.getCurrentUserGameUser()) == 100f) {
-//            ActorAnimation.animateImageCenterScreenFadeOut(AnatomySpecificResource.star, 0.3f);
-        }
-    }
-
     public void executeLevelFinished() {
-        GameUser gameUser = gameContext.getCurrentUserGameUser();
-        if (levelFinishedService.isGameWon(gameUser)) {
-            screenManager.showMainScreen();
-        }
-//        screenManager.showMainScreen();
+
     }
 }
