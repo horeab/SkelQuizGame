@@ -73,6 +73,9 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     FLAGS_CATEG2(FlagsSpecificResource.campaign_level_0_2, FlagsSpecificResource.campaign_level_0_2, FlagsSpecificResource.campaign_level_0_2, FlagsSpecificResource.campaign_level_0_2, null),
     FLAGS_CATEG3(FlagsSpecificResource.campaign_level_0_3, FlagsSpecificResource.campaign_level_0_3, FlagsSpecificResource.campaign_level_0_3, FlagsSpecificResource.campaign_level_0_3, null),
     FLAGS_CATEG4(FlagsSpecificResource.campaign_level_0_4, FlagsSpecificResource.campaign_level_0_4, FlagsSpecificResource.campaign_level_0_4, FlagsSpecificResource.campaign_level_0_4, null),
+    FLAGS_DIFF_LEVEL_0(FlagsSpecificResource.btn_campaign_0_up, FlagsSpecificResource.btn_campaign_0_down, FlagsSpecificResource.btn_campaign_0_up, FlagsSpecificResource.btn_campaign_0_up, null),
+    FLAGS_DIFF_LEVEL_1(FlagsSpecificResource.btn_campaign_1_up, FlagsSpecificResource.btn_campaign_1_down, FlagsSpecificResource.btn_campaign_1_up, FlagsSpecificResource.btn_campaign_0_up, null),
+    FLAGS_DIFF_LEVEL_2(FlagsSpecificResource.btn_campaign_2_up, FlagsSpecificResource.btn_campaign_2_down, FlagsSpecificResource.btn_campaign_2_up, FlagsSpecificResource.btn_campaign_0_up, null),
 
     PERIODICTABLE_ANSWER(QuizGameSpecificResource.btn_answer_opt_up, QuizGameSpecificResource.btn_answer_opt_down, QuizGameSpecificResource.btn_answer_opt_up, QuizGameSpecificResource.btn_answer_opt_disabled, FontColor.BLACK),
     PERIODICTABLE_STARTGAME(PeriodicTableSpecificResource.play_up, PeriodicTableSpecificResource.play_down, PeriodicTableSpecificResource.play_up, PeriodicTableSpecificResource.play_up, null),

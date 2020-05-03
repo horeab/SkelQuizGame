@@ -106,33 +106,35 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
     }
 
     private void displayCountryName(GameQuestionInfo gameQuestionInfo) {
-        String text = gameQuestionInfo.getQuestion().getQuestionString().split(":")[2];
-        if (countryNameTable != null) {
-            countryNameTable.remove();
+        if (!gameOver()) {
+            String text = gameQuestionInfo.getQuestion().getQuestionString().split(":")[2];
+            if (countryNameTable != null) {
+                countryNameTable.remove();
+            }
+            countryNameTable = new Table();
+            countryNameTable.setName("countryNameTable");
+            int labelWidth = ScreenDimensionsManager.getScreenWidth() / 2;
+            MyWrappedLabel countryNameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                    .setWrappedLineLabel(labelWidth).setText(
+                            text).build());
+            countryNameLabel.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
+            countryNameLabel.setWidth(labelWidth);
+            countryNameLabel.setHeight(ScreenDimensionsManager.getScreenHeightValue(10));
+            countryNameTable.setWidth(countryNameLabel.getWidth());
+            countryNameTable.setHeight(countryNameLabel.getHeight());
+            countryNameTable.setX(ScreenDimensionsManager.getScreenWidth() / 2 - labelWidth / 2);
+            countryNameTable.setY(MainDimen.vertical_general_margin.getDimen() * 2);
+            countryNameTable.add(countryNameLabel).row();
+
+
+            countryNameLabel.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
+            countryNameLabel.setWidth(labelWidth);
+            countryNameLabel.setHeight(ScreenDimensionsManager.getScreenHeightValue(10));
+            countryNameTable.add(FlagsContainers.createFlagsCounter(leftCountriesToPlay, labelWidth, null))
+                    .padBottom(MainDimen.vertical_general_margin.getDimen() * 3)
+                    .width(countryNameLabel.getWidth()).height(countryNameLabel.getWidth() / 5);
+            addActor(countryNameTable);
         }
-        countryNameTable = new Table();
-        countryNameTable.setName("countryNameTable");
-        int labelWidth = ScreenDimensionsManager.getScreenWidth() / 2;
-        MyWrappedLabel countryNameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
-                .setWrappedLineLabel(labelWidth).setText(
-                        text).build());
-        countryNameLabel.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
-        countryNameLabel.setWidth(labelWidth);
-        countryNameLabel.setHeight(ScreenDimensionsManager.getScreenHeightValue(10));
-        countryNameTable.setWidth(countryNameLabel.getWidth());
-        countryNameTable.setHeight(countryNameLabel.getHeight());
-        countryNameTable.setX(ScreenDimensionsManager.getScreenWidth() / 2 - labelWidth / 2);
-        countryNameTable.setY(MainDimen.vertical_general_margin.getDimen() * 2);
-        countryNameTable.add(countryNameLabel).row();
-
-
-        countryNameLabel.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
-        countryNameLabel.setWidth(labelWidth);
-        countryNameLabel.setHeight(ScreenDimensionsManager.getScreenHeightValue(10));
-        countryNameTable.add(FlagsContainers.createFlagsCounter(leftCountriesToPlay, labelWidth, null))
-                .padBottom(MainDimen.vertical_general_margin.getDimen() * 3)
-                .width(countryNameLabel.getWidth()).height(countryNameLabel.getWidth() / 5);
-        addActor(countryNameTable);
     }
 
     private List<GameQuestionInfo> getAvailableGameQuestionInfosToPlay() {
@@ -240,9 +242,9 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
                     .row();
             numberOfWrongAnswersPressed++;
             if (gameOver()) {
+                countryNameTable.remove();
                 new FlagsLevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
                 executorService.shutdown();
-                countryNameTable.remove();
                 for (GameQuestionInfo gq : new ArrayList<>(displayedQuestionInfos)) {
                     Image img = getRoot().findActor(gq.getQuestion().getQuestionString());
                     img.remove();

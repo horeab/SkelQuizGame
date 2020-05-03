@@ -1,0 +1,44 @@
+0 :: Velká Británie: 8,2,6: 0
+1 :: Rusko: 4,7,5: 1
+2 :: Portugalsko: 4,9,6: 2
+3 :: Polsko: 5,6,0: 3
+4 :: Německo: 10,8,7: 4
+5 :: Francie: 11,3,1: 5
+6 :: Španělsko: 5,11,7: 6
+7 :: Itálie: 10,15,3: 7
+8 :: Rakousko: 2,15,4: 8
+9 :: Belgie: 7,17,3: 9
+10 :: Chorvatsko: 16,4,2: 10
+11 :: Nizozemsko: 3,8,14: 11
+12 :: Švýcarsko: 16,7,20: 12
+13 :: Řecko: 5,17,8: 13
+14 :: Ukrajina: 12,10,18: 14
+----------------------
+15 :: Irsko: 23,8,19: 15
+16 :: Srbsko: 8,9,12: 16
+17 :: Rumunsko: 16,9,19: 17
+18 :: Bulharsko: 19,25,16: 18
+19 :: Švédsko: 23,12,16: 19
+20 :: Česká republika: 27,21,13: 20
+21 :: Dánsko: 22,17,19: 21
+22 :: Norsko: 19,14,16: 22
+23 :: Maďarsko: 18,20,16: 23
+24 :: Finsko: 28,16,26: 24
+25 :: Albánie: 28,20,29: 25
+26 :: Island: 29,28,22: 26
+27 :: Bosna a Hercegovina: 32,33,31: 27
+28 :: Slovensko: 23,32,34: 28
+29 :: Slovinsko: 21,36,27: 29
+-----------------------
+30 :: Lotyšsko: 35,23,38: 30
+31 :: Bělorusko: 36,26,23: 31
+32 :: Lichtenštejnsko: 35,31,40: 32
+33 :: Estonsko: 27,37,31: 33
+34 :: Andorra: 27,39,31: 34
+35 :: Litva: 27,34,37: 35
+36 :: Lucembursko: 33,34,30: 36
+37 :: Malta: 36,34,31: 37
+38 :: Moldavsko: 34,33,30: 38
+39 :: Černá Hora: 32,31,33: 39
+40 :: Monako: 38,34,36: 40
+41 :: San Marino: 39,38,36: 41

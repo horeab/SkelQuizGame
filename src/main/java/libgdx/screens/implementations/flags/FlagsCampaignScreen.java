@@ -14,9 +14,7 @@ import libgdx.implementations.flags.FlagsCampaignLevelEnum;
 import libgdx.implementations.flags.FlagsDifficultyLevel;
 import libgdx.implementations.flags.FlagsGame;
 import libgdx.implementations.flags.FlagsSpecificResource;
-import libgdx.implementations.skelgame.GameButtonSize;
-import libgdx.implementations.skelgame.GameButtonSkin;
-import libgdx.implementations.skelgame.SkelGameRatingService;
+import libgdx.implementations.skelgame.*;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.question.Question;
@@ -76,6 +74,16 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
         }
         allTable.setFillParent(true);
         allTable.add(createCategButtons());
+        boolean allLevelsFinished = true;
+        for (FlagsCampaignLevelEnum flagsCampaignLevelEnum : FlagsCampaignLevelEnum.values()) {
+            if (!campaignStoreService.isQuestionAlreadyPlayed(flagsCampaignLevelEnum.getName())) {
+                allLevelsFinished = false;
+                break;
+            }
+        }
+        if (allLevelsFinished) {
+            new LevelFinishedPopup(this, SkelGameLabel.game_finished.getText()).addToPopupManager();
+        }
         return allTable;
     }
 
@@ -118,9 +126,9 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
 
     private MyButton createDifficultyButton(final int diff) {
         String labelText = diff + " ";
-        MyButton btn = new ImageButtonBuilder(GameButtonSkin.valueOf("FLAGS_CATEG" + diff), getAbstractScreen())
+        MyButton btn = new ImageButtonBuilder(GameButtonSkin.valueOf("FLAGS_DIFF_LEVEL_" + diff), getAbstractScreen())
                 .setFontScale(FontManager.getSmallFontDim())
-                .setFontColor(FontColor.BLACK)
+                .setFontColor(flagsSettings.getFlagsDifficultyLevel().getIndex() == diff ? FontColor.RED : FontColor.BLACK)
                 .setFixedButtonSize(GameButtonSize.FLAGS_MENU_BUTTON)
                 .setWrappedText(labelText, ScreenDimensionsManager.getScreenWidthValue(GameButtonSize.FLAGS_MENU_BUTTON.getWidth()))
                 .build();

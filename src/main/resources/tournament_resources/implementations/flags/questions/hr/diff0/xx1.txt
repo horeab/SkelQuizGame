@@ -1,0 +1,166 @@
+0 :: Ujedinjeno Kraljevstvo: 8,2,6: 0
+1 :: Rusija: 4,7,5: 1
+2 :: Portugal: 4,9,6: 2
+3 :: Poljska: 5,6,0: 3
+4 :: Njemačka: 10,8,7: 4
+5 :: Francuska: 11,3,1: 5
+6 :: Španjolska: 5,11,7: 6
+7 :: Italija: 10,15,3: 7
+8 :: Austrija: 2,15,4: 8
+9 :: Belgija: 7,17,3: 9
+10 :: Hrvatska: 16,4,2: 10
+11 :: Nizozemska: 3,8,14: 11
+12 :: Švicarska: 16,7,20: 12
+13 :: Grčka: 5,17,8: 13
+14 :: Ukrajina: 12,10,18: 14
+----------------------
+15 :: Irska: 23,8,19: 15
+16 :: Srbija: 8,9,12: 16
+17 :: Rumunjska: 16,9,19: 17
+18 :: Bugarska: 19,25,16: 18
+19 :: Švedska: 23,12,16: 19
+20 :: Češka: 27,21,13: 20
+21 :: Danska: 22,17,19: 21
+22 :: Norveška: 19,14,16: 22
+23 :: Mađarska: 18,20,16: 23
+24 :: Finska: 28,16,26: 24
+25 :: Albanija: 28,20,29: 25
+26 :: Island: 29,28,22: 26
+27 :: Bosna i Hercegovina: 32,33,31: 27
+28 :: Slovačka: 23,32,34: 28
+29 :: Slovenija: 21,36,27: 29
+-----------------------
+30 :: Latvija: 35,23,38: 30
+31 :: Bjelorusija: 36,26,23: 31
+32 :: Lihtenštajn: 35,31,40: 32
+33 :: Estonija: 27,37,31: 33
+34 :: Andora: 27,39,31: 34
+35 :: Litva: 27,34,37: 35
+36 :: Luksemburg: 33,34,30: 36
+37 :: Malta: 36,34,31: 37
+38 :: Moldavija: 34,33,30: 38
+39 :: Crna Gora: 32,31,33: 39
+40 :: Monaco: 38,34,36: 40
+41 :: San Marino: 39,38,36: 41
+---------------------
+0 :: Sjedinjene Države: 6,7,1: 0
+1 :: Kanada: 0,4,8: 1
+2 :: Meksiko: 0,4,3: 2
+3 :: Kuba: 9,8,10: 3
+4 :: Jamajka: 10,11,5: 4
+5 :: Honduras: 10,0,9: 5
+6 :: Haiti: 2,0,8: 6
+7 :: Kostarika: 15,6,11: 7
+8 :: Belize: 13,6,5: 8
+9 :: Bahami: 16,12,7: 9
+10 :: Panama: 17,7,6: 10
+11 :: Gvatemala: 13,17,19: 11
+----------------
+12 :: Nikaragva: 4,16,13: 12
+13 :: Antigva i Barbuda: 11,5,9: 13
+14 :: Trinidad i Tobago: 19,12,20: 14
+15 :: Dominikanska Republika: 17,13,11: 15
+16 :: Barbados: 20,15,18: 16
+17 :: El Salvador: 10,18,11: 17
+18 :: Grenada: 13,19,15: 18
+19 :: Dominika: 25,14,22: 19
+20 :: Sveta Lucija: 24,26,22: 20
+21 :: Angvila (Ujedinjeno Kraljevstvo): 20,13,26: 21
+-----------------------
+22 :: Kajmanski otoci (Ujedinjeno Kraljevstvo): 17,16,28: 22
+23 :: Grenland (Danska): 16,31,29: 23
+24 :: Aruba (Nizozemska): 25,26,30: 24
+25 :: Guadeloupe (Francuska): 18,32,30: 25
+26 :: Martinique (Francuska): 23,32,18: 26
+27 :: Montserrat (Ujedinjeno Kraljevstvo): 30,22,26: 27
+28 :: Portoriko (Sjedinjene Države): 23,27,22: 28
+29 :: Saint Kitts i Nevis: 32,24,27: 29
+30 :: Sveti Martin (Francuska): 32,29,22: 30
+31 :: Sveti Vincent i Grenadini: 30,27,28: 31
+32 :: Sint Maarten (Nizozemska): 31,29,25: 32
+---------------------
+0 :: Kina: 5,8,4: 0
+1 :: Indija: 9,4,2: 1
+2 :: Rusija: 7,4,6: 2
+3 :: Turska: 4,2,8: 3
+4 :: Japan: 7,2,6: 4
+5 :: Tajland: 3,11,2: 5
+6 :: Afganistan: 3,12,10: 6
+7 :: Južna Koreja: 1,4,12: 7
+8 :: Vijetnam: 15,5,11: 8
+9 :: Malezija: 12,7,14: 9
+10 :: Filipini: 9,5,17: 10
+11 :: Cipar: 3,8,9: 11
+12 :: Nepal: 5,13,11: 12
+13 :: Sjeverna Koreja: 8,12,6: 13
+14 :: Gruzija: 11,12,21: 14
+15 :: Ujedinjeni Arapski Emirati: 18,9,21: 15
+16 :: Indonezija: 18,9,23: 16
+17 :: Izrael: 24,12,23: 17
+18 :: Australija: 13,16,21: 18
+----------------------
+19 :: Saudijska Arabija: 11,23,14: 19
+20 :: Mongolija: 18,19,14: 20
+21 :: Iran: 29,28,24: 21
+22 :: Irak: 18,16,30: 22
+23 :: Kazahstan: 24,27,19: 23
+24 :: Mianmar: 25,23,20: 24
+25 :: Katar: 29,22,26: 25
+26 :: Bangladeš: 19,27,30: 26
+27 :: Armenija: 20,29,34: 27
+28 :: Jordan: 30,31,36: 28
+29 :: Šri Lanka: 26.30,24: 29
+30 :: Singapur: 32,24,23: 30
+31 :: Azerbajdžan: 34,38,36: 31
+32 :: Tajvan: 35,40,24: 32
+33 :: Kambodža: 30,29,38: 33
+34 :: Kuvajt: 29,37,40: 34
+35 :: Turkmenistan: 39,37,41: 35
+36 :: Papua Nova Gvineja: 43,40,28: 36
+37 :: Novi Zeland: 45,40,44: 37
+-----------------------
+38 :: Kirgistan: 45,40,30: 38
+39 :: Bahrein: 31,37,35: 39
+40 :: Uzbekistan: 48,41,44: 40
+41 :: Maldivi: 44,39,40: 41
+42 :: Laos: 44,40,49: 42
+43 :: Oman: 48,45,49: 43
+44 :: Tadžikistan: 52,49,39: 44
+45 :: Pakistan: 48,37,43: 45
+46 :: Palestina: 54,48,49: 46
+47 :: Libanon: 42,48,54: 47
+48 :: Brunej: 52,56,50: 48
+49 :: Butan: 51,53,46: 49
+50 :: Sirija: 51,46,52: 50
+51 :: Jemen: 58,43,56: 51
+52 :: Istočni Timor: 59,49,51: 52
+53 :: Fidži: 51,45,58: 53
+54 :: Salomonovi otoci: 47,56,51: 54
+55 :: Vanuatu: 52,54,58: 55
+56 :: Samoa: 55,50,53: 56
+57 :: Kiribati: 52,60,50: 57
+58 :: Mikronezija: 54,56,60: 58
+59 :: Tonga: 60,52,61: 59
+60 :: Maršalovi Otoci: 62,61,52: 60
+61 :: Palau: 56,62,58: 61
+62 :: Tuvalu: 59,56,63: 62
+63 :: Nauru: 62,61,56: 63
+---------------------
+0 :: Brazil: 8,7,3: 0
+1 :: Argentina: 5,0,9: 1
+2 :: Čile: 0,8,7: 2
+3 :: Kolumbija: 0,7,6: 3
+4 :: Urugvaj: 3,2,6: 4
+5 :: Ekvador: 13,7,3: 5
+----------
+6 :: Peru: 8,9,2: 6
+7 :: Paragvaj: 4,10,6: 7
+8 :: Bolivija: 14,4,7: 8
+9 :: Venecuela: 4,12,3: 9
+10 :: Gvajana: 9,13,6: 10
+-------------
+11 :: Surinam: 13,8,10: 11
+12 :: Francuska Gijana (Francuska): 14,13,6: 12
+13 :: Falklandski otoci (Ujedinjeno Kraljevstvo): 6,7,12: 13
+14 :: Južna Džordžija i Otoci Južni Sendvič (Ujedinjeno Kraljevstvo): 6,7,12: 14
+15 :: Otok Bouvet (Norveška): 13,14,9: 15

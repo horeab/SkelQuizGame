@@ -46,7 +46,7 @@ public class FlagsContainers {
                 .setFontScale(FontManager.getSmallFontDim())
                 .setFontColor(FontColor.GRAY)
                 .setWrappedLineLabel(labelWidth).setText(
-                        leftCountriesToPlay + "").build());
+                        leftCountriesToPlay + " flags").build());
         if (background != null) {
             countryCounter.setBackground(GraphicUtils.getNinePatch(background));
         }

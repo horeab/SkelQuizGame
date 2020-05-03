@@ -1,0 +1,222 @@
+0::United Kingdom:8,2,6:0
+1::Russia:4,7,5:1
+2::Portugal:4,9,6:2
+3::Poland:5,6,0:3
+4::Germany:10,8,7:4
+5::France:11,3,1:5
+6::Spain:5,11,7:6
+7::Italy:10,15,3:7
+8::Austria:2,15,4:8
+9::Belgium:7,17,3:9
+10::Croatia:16,4,2:10
+11::Netherlands:3,8,14:11
+12::Switzerland:16,7,20:12
+13::Greece:5,17,8:13
+14::Ukraine:12,10,18:14
+----------------------
+15::Ireland:23,8,19:15
+16::Serbia:8,9,12:16
+17::Romania:16,9,19:17
+18::Bulgaria:19,25,16:18
+19::Sweden:23,12,16:19
+20::Czech Republic:27,21,13:20
+21::Denmark:22,17,19:21
+22::Norway:19,14,16:22
+23::Hungary:18,20,16:23
+24::Finland:28,16,26:24
+25::Albania:28,20,29:25
+26::Iceland:29,28,22:26
+27::Bosnia and Herzegovina:32,33,31:27
+28::Slovakia:23,32,34:28
+29::Slovenia:21,36,27:29
+-----------------------
+30::Latvia:35,23,38:30
+31::Belarus:36,26,23:31
+32::Liechtenstein:35,31,40:32
+33::Estonia:27,37,31:33
+34::Andorra:27,39,31:34
+35::Lithuania:27,34,37:35
+36::Luxembourg:33,34,30:36
+37::Malta:36,34,31:37
+38::Moldova:34,33,30:38
+39::Montenegro:32,31,33:39
+40::Monaco:38,34,36:40
+41::San Marino:39,38,36:41
+---------------------
+0::United States:6,7,1:0
+1::Canada:0,4,8:1
+2::Mexico:0,4,3:2
+3::Cuba:9,8,10:3
+4::Jamaica:10,11,5:4
+5::Honduras:10,0,9:5
+6::Haiti:2,0,8:6
+7::Costa Rica:15,6,11:7
+8::Belize:13,6,5:8
+9::The Bahamas:16,12,7:9
+10::Panama:17,7,6:10
+11::Guatemala:13,17,19:11
+----------------
+12::Nicaragua:4,16,13:12
+13::Antigua and Barbuda:11,5,9:13
+14::Trinidad and Tobago:19,12,20:14
+15::Dominican Republic:17,13,11:15
+16::Barbados:20,15,18:16
+17::El Salvador:10,18,11:17
+18::Grenada:13,19,15:18
+19::Dominica:25,14,22:19
+20::Saint Lucia:24,26,22:20
+21::Anguilla (United Kingdom):20,13,26:21
+-----------------------
+22::Cayman Islands (United Kingdom):17,16,28:22
+23::Greenland (Denmark):16,31,29:23
+24::Aruba (Netherlands):25,26,30:24
+25::Guadeloupe (France):18,32,30:25
+26::Martinique (France):23,32,18:26
+27::Montserrat (United Kingdom):30,22,26:27
+28::Puerto Rico (United States):23,27,22:28
+29::Saint Kitts and Nevis:32,24,27:29
+30::Saint Martin (France):32,29,22:30
+31::Saint Vincent and the Grenadines:30,27,28:31
+32::Sint Maarten (Netherlands):31,29,25:32
+---------------------
+0::China:5,8,4:0
+1::India:9,4,2:1
+2::Russia:7,4,6:2
+3::Turkey:4,2,8:3
+4::Japan:7,2,6:4
+5::Thailand:3,11,2:5
+6::Afghanistan:3,12,10:6
+7::South Korea:1,4,12:7
+8::Vietnam:15,5,11:8
+9::Malaysia:12,7,14:9
+10::Philippines:9,5,17:10
+11::Cyprus:3,8,9:11
+12::Nepal:5,13,11:12
+13::North Korea:8,12,6:13
+14::Georgia:11,12,21:14
+15::United Arab Emirates:18,9,21:15
+16::Indonesia:18,9,23:16
+17::Israel:24,12,23:17
+18::Australia:13,16,21:18
+----------------------
+19::Saudi Arabia:11,23,14:19
+20::Mongolia:18,19,14:20
+21::Iran:29,28,24:21
+22::Iraq:18,16,30:22
+23::Kazakhstan:24,27,19:23
+24::Myanmar:25,23,20:24
+25::Qatar:29,22,26:25
+26::Bangladesh:19,27,30:26
+27::Armenia:20,29,34:27
+28::Jordan:30,31,36:28
+29::Sri Lanka:26,30,24:29
+30::Singapore:32,24,23:30
+31::Azerbaijan:34,38,36:31
+32::Taiwan:35,40,24:32
+33::Cambodia:30,29,38:33
+34::Kuwait:29,37,40:34
+35::Turkmenistan:39,37,41:35
+36::Papua New Guinea:43,40,28:36
+37::New Zealand:45,40,44:37
+-----------------------
+38::Kyrgyzstan:45,40,30:38
+39::Bahrain:31,37,35:39
+40::Uzbekistan:48,41,44:40
+41::Maldives:44,39,40:41
+42::Laos:44,40,49:42
+43::Oman:48,45,49:43
+44::Tajikistan:52,49,39:44
+45::Pakistan:48,37,43:45
+46::Palestine:54,48,49:46
+47::Lebanon:42,48,54:47
+48::Brunei:52,56,50:48
+49::Bhutan:51,53,46:49
+50::Syria:51,46,52:50
+51::Yemen:58,43,56:51
+52::East Timor:59,49,51:52
+53::Fiji:51,45,58:53
+54::Solomon Islands:47,56,51:54
+55::Vanuatu:52,54,58:55
+56::Samoa:55,50,53:56
+57::Kiribati:52,60,50:57
+58::Micronesia:54,56,60:58
+59::Tonga:60,52,61:59
+60::Marshall Islands:62,61,52:60
+61::Palau:56,62,58:61
+62::Tuvalu:59,56,63:62
+63::Nauru:62,61,56:63
+---------------------
+0::Brazil:8,7,3:0
+1::Argentina:5,0,9:1
+2::Chile:0,8,7:2
+3::Colombia:0,7,6:3
+4::Uruguay:3,2,6:4
+5::Ecuador:13,7,3:5
+----------
+6::Peru:8,9,2:6
+7::Paraguay:4,10,6:7
+8::Bolivia:14,4,7:8
+9::Venezuela:4,12,3:9
+10::Guyana:9,13,6:10
+-------------
+11::Suriname:13,8,10:11
+12::French Guiana (France):14,13,6:12
+13::Falkland Islands (United Kingdom):6,7,12:13
+14::South Georgia and the South Sandwich Islands (United Kingdom):6,7,12:14
+15::Bouvet Island (Norway):13,14,9:15
+---------------------
+0::Algeria:3,8,7:0
+1::Ivory Coast:6,7,2:1
+2::Egypt:6,10,1:2
+3::Kenya:0,2,11:3
+4::South Africa:7,10,2:4
+5::Angola:9,13,2:5
+6::Tunisia:1,12,7:6
+7::Morocco:12,10,1:7
+8::Uganda:15,12,5:8
+9::Ghana:12,16,6:9
+10::Cameroon:4,9,2:10
+11::Nigeria:16,10,18:11
+12::Republic of the Congo:20,8,14:12
+13::Senegal:17,10,14:13
+14::Libya:20,11,21:14
+15::Somalia:9,14,20:15
+16::Liberia:8,18,17:16
+17::Ethiopia:18,19,21:17
+18::Burkina Faso:22,12,26:18
+---------------------
+19::Gabon:20,18,26:19
+20::Togo:18,25,15:20
+21::Central African Republic:14,16,27:21
+22::Mali:18,24,16:22
+23::Niger:26,30,25:23
+24::Guinea:20,29,26:24
+25::Rwanda:24,26,19:25
+26::Chad:22,33,28:26
+27::Benin:35,26,34:27
+28::Democratic Republic of Congo:30,25,27:28
+29::Sudan:28,34,22:29
+30::Djibouti:38,28,33:30
+31::Zambia:34,38,30:31
+32::Equatorial Guinea:24,27,33:32
+33::Eritrea:34,25,30:33
+34::Namibia:28,35,30:34
+35::Zimbabwe:36,43,28:35
+36::Burundi:28,37,38:36
+37::Cape Verde:30,34,40:37
+------------------------
+38::Gambia:44,41,36:38
+39::Guinea-Bissau:38,45,46:39
+40::Sierra Leone:35,41,44:40
+41::Lesotho:48,35,37:41
+42::Botswana:37,45,47:42
+43::Madagascar:38,39,49:43
+44::Malawi:36,46,43:44
+45::Mauritius:46,39,50:45
+46::Comoros:38,42,51:46
+47::Mozambique:42,45,39:47
+48::Seychelles:47,41,51:48
+49::South Sudan:43,44,45:49
+50::Mauritania:49,52,42:50
+51::Swaziland:44,48,52:51
+52::Tanzania:49,47,44:52

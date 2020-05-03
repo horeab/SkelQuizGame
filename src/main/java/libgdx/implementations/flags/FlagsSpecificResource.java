@@ -13,6 +13,13 @@ public enum FlagsSpecificResource implements SpecificResource {
     allq_bakcground("allq_bakcground.png", Texture.class),
     star("star.png", Texture.class),
 
+    btn_campaign_0_down("buttons/btn_0_down.png", Texture.class),
+    btn_campaign_0_up("buttons/btn_0_up.png", Texture.class),
+    btn_campaign_1_down("buttons/btn_1_down.png", Texture.class),
+    btn_campaign_1_up("buttons/btn_1_up.png", Texture.class),
+    btn_campaign_2_down("buttons/btn_2_down.png", Texture.class),
+    btn_campaign_2_up("buttons/btn_2_up.png", Texture.class),
+
     campaign_level_0_0("campaign/level_0_0.png", Texture.class),
     campaign_level_0_1("campaign/level_0_1.png", Texture.class),
     campaign_level_0_2("campaign/level_0_2.png", Texture.class),

@@ -1,0 +1,18 @@
+0 :: Brazílie: 8,7,3: 0
+1 :: Argentina: 5,0,9: 1
+2 :: Chile: 0,8,7: 2
+3 :: Kolumbie: 0,7,6: 3
+4 :: Uruguay: 3,2,6: 4
+5 :: Ekvádor: 13,7,3: 5
+----------
+6 :: Peru: 8,9,2: 6
+7 :: Paraguay: 4,10,6: 7
+8 :: Bolívie: 14,4,7: 8
+9 :: Venezuela: 4,12,3: 9
+10 :: Guyana: 9,13,6: 10
+-------------
+11 :: Surinam: 13,8,10: 11
+12 :: Francouzská Guyana (Francie): 14,13,6: 12
+13 :: Falklandské ostrovy (Velká Británie): 6,7,12: 13
+14 :: Jižní Georgie a Jižní Sandwichovy ostrovy (Velká Británie): 6,7,12: 14
+15 :: Bouvet Island (Norsko): 13,14,9: 15
