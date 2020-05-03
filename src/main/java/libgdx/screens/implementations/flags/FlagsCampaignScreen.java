@@ -1,13 +1,20 @@
 package libgdx.screens.implementations.flags;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.ui.Container;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.google.gson.Gson;
-import libgdx.campaign.*;
+import libgdx.campaign.CampaignLevel;
+import libgdx.campaign.CampaignLevelEnumService;
+import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ImageButtonBuilder;
+import libgdx.controls.label.MyWrappedLabel;
+import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.flags.FlagsCampaignLevelEnum;
@@ -20,33 +27,44 @@ import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.question.Question;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
+import libgdx.resources.Res;
 import libgdx.resources.dimen.MainDimen;
+import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.screen.AbstractScreen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
+import libgdx.utils.model.FontConfig;
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
 
-    private CampaignService campaignService = new CampaignService();
     private CampaignStoreService campaignStoreService = new CampaignStoreService();
-    private List<CampaignStoreLevel> allCampaignLevelStores;
     private Table allTable;
     private FlagsSettings flagsSettings;
 
     public FlagsCampaignScreen() {
         initFlagsSettings();
-        allCampaignLevelStores = campaignService.processAndGetAllLevels();
         FlagsContainers.init();
     }
 
+
     @Override
     public void buildStage() {
+        Res backgr = MainResource.background_texture;
+        Container backgrContainer = findActor(BACKGROUND_CONTAINER_NAME);
+        if (flagsSettings.getFlagsDifficultyLevel().getIndex() == 0) {
+            backgr = FlagsSpecificResource.background_texture_0;
+        } else if (flagsSettings.getFlagsDifficultyLevel().getIndex() == 1) {
+            backgr = FlagsSpecificResource.background_texture_1;
+        } else if (flagsSettings.getFlagsDifficultyLevel().getIndex() == 2) {
+            backgr = FlagsSpecificResource.background_texture_2;
+        }
+        backgrContainer.setBackground(GraphicUtils.addTiledImage(backgr, 0, Texture.TextureWrap.Repeat, ScreenDimensionsManager.getExternalDeviceHeightValue(60))
+                .getDrawable());
         if (Game.getInstance().isFirstTimeMainMenuDisplayed()) {
             new SkelGameRatingService(this).appLaunched();
         }
@@ -58,11 +76,13 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
     }
 
     private void initFlagsSettings() {
-        String json = campaignStoreService.getJson();
-        if (StringUtils.isNotBlank(json)) {
-            flagsSettings = new Gson().fromJson(json, FlagsSettings.class);
-        } else {
-            flagsSettings = new FlagsSettings();
+        if (flagsSettings == null) {
+            String json = new CampaignStoreService().getJson();
+            if (StringUtils.isNotBlank(json)) {
+                flagsSettings = new Gson().fromJson(json, FlagsSettings.class);
+            } else {
+                flagsSettings = new FlagsSettings();
+            }
         }
     }
 
@@ -90,23 +110,35 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
 
     private Table createCategButtons() {
         Table table = new Table();
+
+        MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setFontConfig(new FontConfig(
+                        FontColor.WHITE.getColor(),
+                        FontColor.BLACK.getColor(),
+                        FontConfig.FONT_SIZE * 2.3f,
+                        5f))
+                .setText(Game.getInstance().getAppInfoService().getAppName()).build());
+
+        float marginDimen = MainDimen.vertical_general_margin.getDimen();
+        table.add(titleLabel).padTop(marginDimen * 2).padBottom(marginDimen * 2).colspan(1).row();
+
         table.row();
-        table.add(addDifficultyButtons()).padBottom(MainDimen.vertical_general_margin.getDimen() * 5);
+        table.add(addDifficultyButtons()).padBottom(marginDimen * 7);
         table.row();
         Table btnTable0 = new Table();
-        addButtonToTable(btnTable0, getCampaignLevel(1));
-        btnTable0.add().width(ScreenDimensionsManager.getScreenWidthValue(5));
         addButtonToTable(btnTable0, getCampaignLevel(0));
         btnTable0.add().width(ScreenDimensionsManager.getScreenWidthValue(5));
         addButtonToTable(btnTable0, getCampaignLevel(2));
-        table.add(btnTable0).padBottom(MainDimen.vertical_general_margin.getDimen() * 3);
+        btnTable0.add().width(ScreenDimensionsManager.getScreenWidthValue(5));
+        addButtonToTable(btnTable0, getCampaignLevel(1));
+        table.add(btnTable0).padBottom(marginDimen * 2);
         table.row();
         Table btnTable1 = new Table();
-        btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(10));
-        addButtonToTable(btnTable1, getCampaignLevel(3));
-        btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(10));
+        btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(20));
         addButtonToTable(btnTable1, getCampaignLevel(4));
-        btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(30));
+        btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(15));
+        addButtonToTable(btnTable1, getCampaignLevel(3));
+        btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(20));
         table.add(btnTable1);
         return table;
     }
@@ -117,15 +149,23 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
 
     private Table addDifficultyButtons() {
         Table table = new Table();
+        float marginDimen = MainDimen.horizontal_general_margin.getDimen();
         for (int diff = 0; diff < 3; diff++) {
             MyButton difficultyButton = createDifficultyButton(diff);
-            table.add(difficultyButton).width(difficultyButton.getWidth()).height(difficultyButton.getHeight());
+            table.add(difficultyButton).width(difficultyButton.getWidth()).pad(marginDimen).height(difficultyButton.getHeight());
         }
         return table;
     }
 
     private MyButton createDifficultyButton(final int diff) {
-        String labelText = diff + " ";
+        String labelText = diff + "";
+        if (diff == 0) {
+            labelText = MainGameLabel.l_easy.getText();
+        } else if (diff == 1) {
+            labelText = MainGameLabel.l_normal.getText();
+        } else if (diff == 2) {
+            labelText = MainGameLabel.l_difficult.getText();
+        }
         MyButton btn = new ImageButtonBuilder(GameButtonSkin.valueOf("FLAGS_DIFF_LEVEL_" + diff), getAbstractScreen())
                 .setFontScale(FontManager.getSmallFontDim())
                 .setFontColor(flagsSettings.getFlagsDifficultyLevel().getIndex() == diff ? FontColor.RED : FontColor.BLACK)

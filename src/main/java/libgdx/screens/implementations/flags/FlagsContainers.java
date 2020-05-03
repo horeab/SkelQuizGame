@@ -13,6 +13,7 @@ import libgdx.implementations.skelgame.question.Question;
 import libgdx.implementations.skelgame.question.QuestionParser;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
+import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.utils.model.FontColor;
 
 import java.util.*;
@@ -45,8 +46,7 @@ public class FlagsContainers {
         MyWrappedLabel countryCounter = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setFontScale(FontManager.getSmallFontDim())
                 .setFontColor(FontColor.GRAY)
-                .setWrappedLineLabel(labelWidth).setText(
-                        leftCountriesToPlay + " flags").build());
+                .setWrappedLineLabel(labelWidth).setText(SpecificPropertiesUtils.getText("flags_amount", leftCountriesToPlay)).build());
         if (background != null) {
             countryCounter.setBackground(GraphicUtils.getNinePatch(background));
         }

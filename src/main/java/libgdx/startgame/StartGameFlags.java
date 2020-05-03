@@ -39,63 +39,63 @@ public class StartGameFlags {
     public static String getTitle() {
         switch (Language.valueOf(Game.getInstance().getAppInfoService().getLanguage())) {
             case cs:
-                return "Anatomie";
+                return "Světové Vlajky";
             case da:
-                return "Anatomi";
+                return "Verdensflagg";
             case de:
-                return "Anatomie Spiel";
+                return "Weltflaggen";
             case el:
-                return "Ανατομία";
+                return "Παγκόσμιες σημαίες";
             case en:
-                return "Anatomy Game";
+                return "World Flags";
             case es:
-                return "Anatomía";
+                return "Banderas del Mundo";
             case fi:
-                return "Anatomia";
+                return "Maailman Liput";
             case fr:
-                return "Anatomie";
+                return "Drapeaux du Monde";
             case hi:
-                return "एनाटॉमी";
+                return "विश्व झंडे";
             case hr:
-                return "Anatomija";
+                return "Svjetske Zastave";
             case hu:
-                return "Anatómia";
+                return "Világ Zászlók";
             case id:
-                return "Anatomi";
+                return "Bendera Dunia";
             case it:
-                return "Anatomia";
+                return "Bandiere del Mondo";
             case ja:
-                return "解剖学";
+                return "世界の旗";
             case ko:
-                return "해부";
+                return "세계 플래그";
             case ms:
-                return "Anatomi";
+                return "Bendera Dunia";
             case nl:
-                return "Anatomie";
+                return "Wereld Vlaggen";
             case no:
-                return "Anatomi-spill";
+                return "Verdensflagg";
             case pl:
-                return "Anatomia";
+                return "Flagi Świata";
             case pt:
-                return "Anatomia";
+                return "Bandeiras do Mundo";
             case ro:
-                return "Anatomie";
+                return "Steagurile Lumii";
             case ru:
-                return "Игра Анатомия";
+                return "Флаги мира";
             case sk:
-                return "Anatómia";
+                return "Svetové Vlajky";
             case sv:
-                return "Anatomi";
+                return "Världsflaggor";
             case th:
-                return "กายวิภาคศาสตร์";
+                return "ธงโลก";
             case tr:
-                return "Anatomi Oyunu";
+                return "Dünya Bayrakları";
             case uk:
-                return "Анатомія";
+                return "Світові прапори";
             case vi:
-                return "Giải phẫu học";
+                return "Cờ thế giới";
             case zh:
-                return "解剖学";
+                return "世界国旗";
         }
         return null;
     }

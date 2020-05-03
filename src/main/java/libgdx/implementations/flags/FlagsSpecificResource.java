@@ -20,6 +20,10 @@ public enum FlagsSpecificResource implements SpecificResource {
     btn_campaign_2_down("buttons/btn_2_down.png", Texture.class),
     btn_campaign_2_up("buttons/btn_2_up.png", Texture.class),
 
+    background_texture_0("background_texture_0.png", Texture.class),
+    background_texture_1("background_texture_1.png", Texture.class),
+    background_texture_2("background_texture_2.png", Texture.class),
+
     campaign_level_0_0("campaign/level_0_0.png", Texture.class),
     campaign_level_0_1("campaign/level_0_1.png", Texture.class),
     campaign_level_0_2("campaign/level_0_2.png", Texture.class),
