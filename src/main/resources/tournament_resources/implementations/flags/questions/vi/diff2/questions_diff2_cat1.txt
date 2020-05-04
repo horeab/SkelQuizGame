@@ -1,0 +1,11 @@
+22::Quần đảo Cayman (Vương quốc Anh):17,16,28:22
+23::Greenland (Đan Mạch):16,31,29:23
+24::Argentina (Hà Lan):25,26,30:24
+25::Guadeloupe (Pháp):18,32,30:25
+26::Martinique (Pháp):23,32,18:26
+27::Montserrat (Vương quốc Anh):30,22,26:27
+28::Puerto Rico (Hoa Kỳ):23,27,22:28
+29::Saint Kitts và Nevis:32,24,27:29
+30::Saint Martin (Pháp):32,29,22:30
+31::Saint Vincent và Grenadines:30,27,28:31
+32::Sint Maarten (Hà Lan):31,29,25:32

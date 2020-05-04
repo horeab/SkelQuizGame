@@ -29,6 +29,7 @@ import libgdx.resources.dimen.MainDimen;
 import libgdx.screens.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
+import libgdx.utils.model.RGBColor;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.mutable.MutableLong;
 
@@ -49,7 +50,7 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
     private CampaignLevel campaignLevel;
     private CampaignLevelEnumService enumService;
 
-    private int maxNumberOfWrongAnswers = 5;
+    private int maxNumberOfWrongAnswers;
     private int numberOfWrongAnswersPressed = 0;
 
     private List<GameQuestionInfo> displayedQuestionInfos = new ArrayList<>();
@@ -93,6 +94,7 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
     @Override
     public void buildStage() {
         createAllTable();
+        FlagsContainers.setBackgroundDiff(flagsSettings, getBackgroundStage());
         new BackButtonBuilder().addHoverBackButton(this);
     }
 
@@ -152,8 +154,8 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
                     break;
                 }
             }
-            if (new Random().nextInt(100) > 1) {
-//            if (new Random().nextInt(100) > 60) {
+//            if (new Random().nextInt(100) > 1) {
+            if (new Random().nextInt(100) > 60) {
                 modifList.addFirst(currentQ);
             }
             return new ArrayList<>(modifList);
@@ -233,14 +235,20 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
         if (questionCorrectAnswered(gameQuestionInfo) && !onClick
                 ||
                 !questionCorrectAnswered(gameQuestionInfo) && onClick) {
+            new ActorAnimation(getAbstractScreen()).animatePulse();
             Table wrongAnswerTable = new Table();
-            wrongAnswerTable.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
-            allTable.add(wrongAnswerTable)
-                    .height(ScreenDimensionsManager.getScreenHeightValue(100f / maxNumberOfWrongAnswers))
-                    .width(ScreenDimensionsManager.getScreenWidth())
-                    .bottom()
-                    .row();
+            wrongAnswerTable.setBackground(GraphicUtils.getNinePatch(FlagsSpecificResource.wall_texture));
+            allTable.clearChildren();
             numberOfWrongAnswersPressed++;
+            if (numberOfWrongAnswersPressed > 0) {
+                allTable.add().growY();
+                allTable.add(wrongAnswerTable)
+                        .height(ScreenDimensionsManager.getScreenHeightValue((100f / maxNumberOfWrongAnswers)
+                                * numberOfWrongAnswersPressed))
+                        .width(ScreenDimensionsManager.getScreenWidth())
+                        .bottom()
+                        .row();
+            }
             if (gameOver()) {
                 countryNameTable.remove();
                 new FlagsLevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();

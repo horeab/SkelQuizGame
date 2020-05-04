@@ -6,4 +6,4 @@
 18::Grenada:13,19,15:18
 19::Dominica:25,14,22:19
 20::Saint Lucia:24,26,22:20
-21::Anguilla (Det Forenede Kongerige):20,13,26:21
+21::Anguilla (Storbritannien):20,13,26:21

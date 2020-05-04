@@ -4,4 +4,3 @@
 3::Colombia:0,7,6:3
 4::Uruguay:3,2,6:4
 5::Ecuador:13,7,3:5
-

@@ -1,0 +1,5 @@
+11::Suriname:13,8,10:11
+12::Guiana thuộc Pháp (Pháp):14,13,6:12
+13::Quần đảo Falkland (Vương quốc Anh):6,7,12:13
+14::Nam Georgia và Quần đảo Nam Sandwich (Vương quốc Anh):6,7,12:14
+15::Đảo Bouvet (Na Uy):13,14,9:15

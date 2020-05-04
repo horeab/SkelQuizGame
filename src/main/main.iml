@@ -23,7 +23,6 @@
     <orderEntry type="library" name="Gradle: com.badlogicgames.jlayer:jlayer:1.0.1-gdx" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.7" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: net.java.jinput:jinput-platform:natives-linux:2.0.5" level="project" />
     <orderEntry type="library" name="Gradle: net.java.jinput:jinput-platform:natives-osx:2.0.5" level="project" />
     <orderEntry type="library" name="Gradle: net.java.jinput:jinput-platform:natives-windows:2.0.5" level="project" />
@@ -52,5 +51,6 @@
     <orderEntry type="library" name="Gradle: org.powermock:powermock-module-junit4:1.6.1" level="project" />
     <orderEntry type="library" name="Gradle: org.powermock:powermock-reflect:1.6.1" level="project" />
     <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
   </component>
 </module>

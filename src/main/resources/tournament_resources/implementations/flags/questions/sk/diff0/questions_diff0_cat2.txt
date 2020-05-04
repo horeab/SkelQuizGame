@@ -1,0 +1,19 @@
+0::Čína:5,8,4:0
+1::India:9,4,2:1
+2::Rusko:7,4,6:2
+3::Turecko:4,2,8:3
+4::Japonsko:7,2,6:4
+5::Thajsko:3,11,2:5
+6::Afganistan:3,12,10:6
+7::Južná Kórea:1,4,12:7
+8::Vietnam:15,5,11:8
+9::Malajzia:12,7,14:9
+10::Filipíny:9,5,17:10
+11::Cyprus:3,8,9:11
+12::Nepál:5,13,11:12
+13::Severná Kórea:8,12,6:13
+14::Georgia:11,12,21:14
+15::Spojené arabské emiráty:18,9,21:15
+16::Indonesia:18,9,23:16
+17::Izrael:24,12,23:17
+18::Austrália:13,16,21:18

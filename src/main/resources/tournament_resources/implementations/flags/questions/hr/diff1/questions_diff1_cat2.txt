@@ -1,0 +1,19 @@
+19::Saudijska Arabija:11,23,14:19
+20::Mongolija:18,19,14:20
+21::Iran:29,28,24:21
+22::Irak:18,16,30:22
+23::Kazahstan:24,27,19:23
+24::Mianmar:25,23,20:24
+25::Katar:29,22,26:25
+26::Bangladeš:19,27,30:26
+27::Armenija:20,29,34:27
+28::Jordan:30,31,36:28
+29::Šri Lanka:26,30,24:29
+30::Singapur:32,24,23:30
+31::Azerbajdžan:34,38,36:31
+32::Tajvan:35,40,24:32
+33::Kambodža:30,29,38:33
+34::Kuvajt:29,37,40:34
+35::Turkmenistan:39,37,41:35
+36::Papua Nova Gvineja:43,40,28:36
+37::Novi Zeland:45,40,44:37

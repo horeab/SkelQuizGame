@@ -11,6 +11,7 @@ import com.google.gson.Gson;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.CampaignStoreService;
+import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
@@ -35,6 +36,7 @@ import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
 import libgdx.utils.model.FontConfig;
+import libgdx.utils.model.RGBColor;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Collections;
@@ -54,17 +56,6 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
 
     @Override
     public void buildStage() {
-        Res backgr = MainResource.background_texture;
-        Container backgrContainer = findActor(BACKGROUND_CONTAINER_NAME);
-        if (flagsSettings.getFlagsDifficultyLevel().getIndex() == 0) {
-            backgr = FlagsSpecificResource.background_texture_0;
-        } else if (flagsSettings.getFlagsDifficultyLevel().getIndex() == 1) {
-            backgr = FlagsSpecificResource.background_texture_1;
-        } else if (flagsSettings.getFlagsDifficultyLevel().getIndex() == 2) {
-            backgr = FlagsSpecificResource.background_texture_2;
-        }
-        backgrContainer.setBackground(GraphicUtils.addTiledImage(backgr, 0, Texture.TextureWrap.Repeat, ScreenDimensionsManager.getExternalDeviceHeightValue(60))
-                .getDrawable());
         if (Game.getInstance().isFirstTimeMainMenuDisplayed()) {
             new SkelGameRatingService(this).appLaunched();
         }
@@ -73,7 +64,9 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
         table.setFillParent(true);
         table.add(createAllTable()).expand();
         addActor(table);
+        FlagsContainers.setBackgroundDiff(flagsSettings, getBackgroundStage());
     }
+
 
     private void initFlagsSettings() {
         if (flagsSettings == null) {
@@ -159,16 +152,23 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
 
     private MyButton createDifficultyButton(final int diff) {
         String labelText = diff + "";
+        FontColor fontColor = FontColor.WHITE;
         if (diff == 0) {
             labelText = MainGameLabel.l_easy.getText();
+            fontColor = FontColor.LIGHT_GREEN;
         } else if (diff == 1) {
             labelText = MainGameLabel.l_normal.getText();
+            fontColor = FontColor.LIGHT_BLUE;
         } else if (diff == 2) {
             labelText = MainGameLabel.l_difficult.getText();
+            fontColor = FontColor.RED;
         }
         MyButton btn = new ImageButtonBuilder(GameButtonSkin.valueOf("FLAGS_DIFF_LEVEL_" + diff), getAbstractScreen())
-                .setFontScale(FontManager.getSmallFontDim())
-                .setFontColor(flagsSettings.getFlagsDifficultyLevel().getIndex() == diff ? FontColor.RED : FontColor.BLACK)
+                .setFontConfig(new FontConfig(
+                        flagsSettings.getFlagsDifficultyLevel().getIndex() == diff ? fontColor.getColor() : FontColor.WHITE.getColor(),
+                        FontColor.BLACK.getColor(),
+                        FontConfig.FONT_SIZE * 1f,
+                        3f))
                 .setFixedButtonSize(GameButtonSize.FLAGS_MENU_BUTTON)
                 .setWrappedText(labelText, ScreenDimensionsManager.getScreenWidthValue(GameButtonSize.FLAGS_MENU_BUTTON.getWidth()))
                 .build();
@@ -177,6 +177,7 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
             public void clicked(InputEvent event, float x, float y) {
                 flagsSettings.setFlagsDifficultyLevel(FlagsDifficultyLevel.valueOf("_" + diff));
                 campaignStoreService.putJson(new Gson().toJson(flagsSettings));
+                FlagsContainers.setBackgroundDiff(flagsSettings, getBackgroundStage());
                 createAllTable();
             }
         });

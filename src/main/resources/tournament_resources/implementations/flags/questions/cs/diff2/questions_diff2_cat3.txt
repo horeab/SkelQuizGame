@@ -1,0 +1,5 @@
+11::Surinam:13,8,10:11
+12::Francouzská Guyana (Francie):14,13,6:12
+13::Falklandské ostrovy (Velká Británie):6,7,12:13
+14::Jižní Georgie a Jižní Sandwichovy ostrovy (Velká Británie):6,7,12:14
+15::Bouvet Island (Norsko):13,14,9:15

@@ -1,5 +1,8 @@
 package libgdx.screens.implementations.flags;
 
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.ui.Container;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.CampaignStoreService;
@@ -8,13 +11,18 @@ import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.flags.FlagsCampaignLevelEnum;
 import libgdx.implementations.flags.FlagsDifficultyLevel;
+import libgdx.implementations.flags.FlagsSpecificResource;
 import libgdx.implementations.skelgame.gameservice.QuizQuestionCategory;
 import libgdx.implementations.skelgame.question.Question;
 import libgdx.implementations.skelgame.question.QuestionParser;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
+import libgdx.resources.Res;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
+import libgdx.screen.AbstractScreen;
+import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.model.FontColor;
+import libgdx.utils.model.RGBColor;
 
 import java.util.*;
 
@@ -40,6 +48,20 @@ public class FlagsContainers {
                 }
             }
         }
+    }
+
+    static void setBackgroundDiff(FlagsSettings flagsSettings, Stage backgroundStage) {
+        Res backgr = MainResource.background_texture;
+        Container backgrContainer = backgroundStage.getRoot().findActor(AbstractScreen.BACKGROUND_CONTAINER_NAME);
+        if (flagsSettings.getFlagsDifficultyLevel().getIndex() == 0) {
+            backgr = FlagsSpecificResource.background_texture_0;
+        } else if (flagsSettings.getFlagsDifficultyLevel().getIndex() == 1) {
+            backgr = FlagsSpecificResource.background_texture_1;
+        } else if (flagsSettings.getFlagsDifficultyLevel().getIndex() == 2) {
+            backgr = FlagsSpecificResource.background_texture_2;
+        }
+        backgrContainer.setBackground(GraphicUtils.addTiledImage(backgr, 0, Texture.TextureWrap.Repeat, ScreenDimensionsManager.getExternalDeviceHeightValue(60))
+                .getDrawable());
     }
 
     public static MyWrappedLabel createFlagsCounter(int leftCountriesToPlay, float labelWidth, MainResource background) {

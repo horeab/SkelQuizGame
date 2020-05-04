@@ -1,0 +1,11 @@
+22::Kajmanski otoci (Ujedinjeno Kraljevstvo):17,16,28:22
+23::Grenland (Danska):16,31,29:23
+24::Aruba (Nizozemska):25,26,30:24
+25::Guadeloupe (Francuska):18,32,30:25
+26::Martinique (Francuska):23,32,18:26
+27::Montserrat (Ujedinjeno Kraljevstvo):30,22,26:27
+28::Portoriko (Sjedinjene Države):23,27,22:28
+29::Saint Kitts i Nevis:32,24,27:29
+30::Sveti Martin (Francuska):32,29,22:30
+31::Sveti Vincent i Grenadini:30,27,28:31
+32::Sint Maarten (Nizozemska):31,29,25:32

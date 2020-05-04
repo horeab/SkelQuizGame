@@ -1,0 +1,11 @@
+22::Caymansaaret (Iso-Britannia):17,16,28:22
+23::Grönlanti (Tanska):16,31,29:23
+24::Aruba (Alankomaat):25,26,30:24
+25::Guadeloupe (Ranska):18,32,30:25
+26::Martinique (Ranska):23,32,18:26
+27::Montserrat (Iso-Britannia):30,22,26:27
+28::Puerto Rico (Yhdysvallat):23,27,22:28
+29::Saint Kitts ja Nevis:32,24,27:29
+30::Saint Martin (Ranska):32,29,22:30
+31::Saint Vincent ja Grenadiinit:30,27,28:31
+32::Sint Maarten (Alankomaat):31,29,25:32

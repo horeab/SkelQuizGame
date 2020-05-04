@@ -1,0 +1,5 @@
+11::Surinam:13,8,10:11
+12::Franska Guyana (Frankrike):14,13,6:12
+13::Falklandsöarna (Storbritannien):6,7,12:13
+14::Södra Georgien och södra Sandwichöarna (Storbritannien):6,7,12:14
+15::Bouvetön (Norge):13,14,9:15

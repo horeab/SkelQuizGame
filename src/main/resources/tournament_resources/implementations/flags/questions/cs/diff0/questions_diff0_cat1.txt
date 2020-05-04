@@ -1,35 +1,12 @@
-0 :: Spojené státy: 6,7,1: 0
-1 :: Kanada: 0,4,8: 1
-2 :: Mexiko: 0,4,3: 2
-3 :: Kuba: 9,8,10: 3
-4 :: Jamajka: 10,11,5: 4
-5 :: Honduras: 10,0,9: 5
-6 :: Haiti: 2,0,8: 6
-7 :: Kostarika: 15,6,11: 7
-8 :: Belize: 13,6,5: 8
-9 :: Bahamy: 16,12,7: 9
-10 :: Panama: 17,7,6: 10
-11 :: Guatemala: 13,17,19: 11
-----------------
-12 :: Nikaragua: 4,16,13: 12
-13 :: Antigua a Barbuda: 11,5,9: 13
-14 :: Trinidad a Tobago: 19,12,20: 14
-15 :: Dominikánská republika: 17,13,11: 15
-16 :: Barbados: 20,15,18: 16
-17 :: Salvador: 10,18,11: 17
-18 :: Grenada: 13,19,15: 18
-19 :: Dominika: 25,14,22: 19
-20 :: Svatá Lucie: 24,26,22: 20
-21 :: Anguilla (Velké Británie): 20,13,26: 21
------------------------
-22 :: Kajmanské ostrovy (Velké Británie): 17,16,28: 22
-23 :: Grónsko (Dánsko): 16,31,29: 23
-24 :: Aruba (Nizozemsko): 25,26,30: 24
-25 :: Guadeloupe (Francie): 18,32,30: 25
-26 :: Martinik (Francie): 23,32,18: 26
-27 :: Montserrat (Velká Británie): 30,22,26: 27
-28 :: Portoriko (Spojené státy): 23,27,22: 28
-29 :: Svatý Kryštof a Nevis: 32,24,27: 29
-30 :: Svatý Martin (Francie): 32,29,22: 30
-31 :: Svatý Vincenc a Grenadiny: 30,27,28: 31
-32 :: Sint Maarten (Nizozemsko): 31,29,25: 32
+0::Spojené státy:6,7,1:0
+1::Kanada:0,4,8:1
+2::Mexiko:0,4,3:2
+3::Kuba:9,8,10:3
+4::Jamajka:10,11,5:4
+5::Honduras:10,0,9:5
+6::Haiti:2,0,8:6
+7::Kostarika:15,6,11:7
+8::Belize:13,6,5:8
+9::Bahamy:16,12,7:9
+10::Panama:17,7,6:10
+11::Guatemala:13,17,19:11

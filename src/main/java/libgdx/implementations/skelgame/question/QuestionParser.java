@@ -29,7 +29,11 @@ public class QuestionParser {
         List<String> answerOptions = new ArrayList<>(getAnswers(question.getQuestionString()));
         List<Question> allQuestions = getAllQuestions(question.getQuestionDifficultyLevel(), question.getQuestionCategory());
         for (String fileId : new QuestionParser().getAnswerIds(question.getQuestionString(), 3)) {
-            answerOptions.addAll(getAnswers(getQuestionForFileId(fileId, allQuestions).getQuestionString()));
+            try {
+                answerOptions.addAll(getAnswers(getQuestionForFileId(fileId, allQuestions).getQuestionString()));
+            } catch (Exception e) {
+                throw new RuntimeException();
+            }
         }
         Collections.shuffle(answerOptions);
         List<String> result = new ArrayList<>();

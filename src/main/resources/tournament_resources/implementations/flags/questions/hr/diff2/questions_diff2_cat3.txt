@@ -1,0 +1,5 @@
+11::Surinam:13,8,10:11
+12::Francuska Gijana (Francuska):14,13,6:12
+13::Falklandski otoci (Ujedinjeno Kraljevstvo):6,7,12:13
+14::Južna Džordžija i Otoci Južni Sendvič (Ujedinjeno Kraljevstvo):6,7,12:14
+15::Otok Bouvet (Norveška):13,14,9:15

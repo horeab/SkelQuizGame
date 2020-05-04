@@ -1,0 +1,11 @@
+22::Kajmanské ostrovy (Velká Británie):17,16,28:22
+23::Grónsko (Dánsko):16,31,29:23
+24::Aruba (Nizozemsko):25,26,30:24
+25::Guadeloupe (Francie):18,32,30:25
+26::Martinik (Francie):23,32,18:26
+27::Montserrat (Velká Británie):30,22,26:27
+28::Portoriko (Spojené státy):23,27,22:28
+29::Svatý Kryštof a Nevis:32,24,27:29
+30::Svatý Martin (Francie):32,29,22:30
+31::Svatý Vincenc a Grenadiny:30,27,28:31
+32::Sint Maarten (Nizozemsko):31,29,25:32

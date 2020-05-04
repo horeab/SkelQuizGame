@@ -1,0 +1,6 @@
+0::Brazil:8,7,3:0
+1::Argentina:5,0,9:1
+2::Čile:0,8,7:2
+3::Kolumbija:0,7,6:3
+4::Urugvaj:3,2,6:4
+5::Ekvador:13,7,3:5

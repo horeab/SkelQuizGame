@@ -1,0 +1,12 @@
+0::Amerika Serikat:6,7,1:0
+1::Kanada:0,4,8:1
+2::Meksiko:0,4,3:2
+3::Kuba:9,8,10:3
+4::Jamaika:10,11,5:4
+5::Honduras:10,0,9:5
+6::Haiti:2,0,8:6
+7::Kosta Rika:15,6,11:7
+8::Belize:13,6,5:8
+9::Bahama:16,12,7:9
+10::Panama:17,7,6:10
+11::Guatemala:13,17,19:11

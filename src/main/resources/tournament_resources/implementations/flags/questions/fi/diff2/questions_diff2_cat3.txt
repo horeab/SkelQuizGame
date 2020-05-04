@@ -1,0 +1,5 @@
+11::Suriname:13,8,10:11
+12::Ranskan Guayana (Ranska):14,13,6:12
+13::Falklandinsaaret (Iso-Britannia):6,7,12:13
+14::Etelä-Georgia ja Eteläiset Sandwichsaaret (Iso-Britannia):6,7,12:14
+15::Bouvet Island (Norja):13,14,9:15

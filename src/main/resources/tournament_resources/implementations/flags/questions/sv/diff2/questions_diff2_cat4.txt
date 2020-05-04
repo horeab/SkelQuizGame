@@ -1,0 +1,15 @@
+38::Gambia:44,41,36:38
+39::Guinea-Bissau:38,45,46:39
+40::Sierra Leone:35,41,44:40
+41::Lesotho:48,35,37:41
+42::Botswana:37,45,47:42
+43::Madagaskar:38,39,49:43
+44::Malawi:36,46,43:44
+45::Mauritius:46,39,50:45
+46::Komorerna:38,42,51:46
+47::Mocambique:42,45,39:47
+48::Seychellerna:47,41,51:48
+49::Sydsudan:43,44,45:49
+50::Mauretanien:49,52,42:50
+51::Swaziland:44,48,52:51
+52::Tanzania:49,47,44:52

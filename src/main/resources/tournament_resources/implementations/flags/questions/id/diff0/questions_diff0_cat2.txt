@@ -1,0 +1,19 @@
+0::Cina:5,8,4:0
+1::India:9,4,2:1
+2::Rusia:7,4,6:2
+3::Turki:4,2,8:3
+4::Jepang:7,2,6:4
+5::Thailand:3,11,2:5
+6::Afghanistan:3,12,10:6
+7::Korea Selatan:1,4,12:7
+8::Vietnam:15,5,11:8
+9::Malaysia:12,7,14:9
+10::Filipina:9,5,17:10
+11::Siprus:3,8,9:11
+12::Nepal:5,13,11:12
+13::Korea Utara:8,12,6:13
+14::Georgia:11,12,21:14
+15::Uni Emirat Arab:18,9,21:15
+16::Indonesia:18,9,23:16
+17::Israel:24,12,23:17
+18::Australia:13,16,21:18

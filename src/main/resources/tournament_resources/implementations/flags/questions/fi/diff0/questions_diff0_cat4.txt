@@ -1,0 +1,19 @@
+0::Algeria:3,8,7:0
+1::Norsunluurannikko:6,7,2:1
+2::Egypti:6,10,1:2
+3::Kenia:0,2,11:3
+4::Etelä-Afrikka:7,10,2:4
+5::Angola:9,13,2:5
+6::Tunisia:1,12,7:6
+7::Marokko:12,10,1:7
+8::Uganda:15,12,5:8
+9::Ghana:12,16,6:9
+10::Kamerun:4,9,2:10
+11::Nigeria:16,10,18:11
+12::Kongon tasavalta:20,8,14:12
+13::Senegal:17,10,14:13
+14::Libya:20,11,21:14
+15::Somalia:9,14,20:15
+16::Liberia:8,18,17:16
+17::Etiopia:18,19,21:17
+18::Burkina Faso:22,12,26:18

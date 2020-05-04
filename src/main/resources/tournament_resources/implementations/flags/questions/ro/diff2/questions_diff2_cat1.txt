@@ -3,7 +3,7 @@
 24::Aruba (Ţările de Jos):25,26,30:24
 25::Guadelupa (Franţa):18,32,30:25
 26::Martinica (Franţa):23,32,18:26
-27::Montserrat (Marea Britanie):30,22,26:27
+27::Montserrat (Regatul Unit):30,22,26:27
 28::Puerto Rico (Statele Unite):23,27,22:28
 29::Sfântul Kitts şi Nevis:32,24,27:29
 30::Saint Martin (Franţa):32,29,22:30

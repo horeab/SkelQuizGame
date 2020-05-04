@@ -1,0 +1,5 @@
+6::Peru:8,9,2:6
+7::Paragvaj:4,10,6:7
+8::Bolivija:14,4,7:8
+9::Venecuela:4,12,3:9
+10::Gvajana:9,13,6:10

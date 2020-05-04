@@ -1,0 +1,19 @@
+19::Gabon:20,18,26:19
+20::Togo:18,25,15:20
+21::Srednjoafrička republika:14,16,27:21
+22::Mali:18,24,16:22
+23::Niger:26,30,25:23
+24::Gvineja:20,29,26:24
+25::Ruanda:24,26,19:25
+26::Čad:22,33,28:26
+27::Benin:35,26,34:27
+28::Demokratska Republika Kongo:30,25,27:28
+29::Sudan:28,34,22:29
+30::Džibuti:38,28,33:30
+31::Zambija:34,38,30:31
+32::Ekvatorijalna Gvineja:24,27,33:32
+33::Eritreja:34,25,30:33
+34::Namibija:28,35,30:34
+35::Zimbabve:36,43,28:35
+36::Burundi:28,37,38:36
+37::Zelenortski otoci:30,34,40:37

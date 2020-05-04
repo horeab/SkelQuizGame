@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/src/SkelQuizGame.iml" filepath="$PROJECT_DIR$/src/SkelQuizGame.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/../LibGdxControls/src/main/main1.iml" filepath="$PROJECT_DIR$/../LibGdxControls/src/main/main1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../SkelGame/src/main/main2.iml" filepath="$PROJECT_DIR$/../SkelGame/src/main/main2.iml" />
     </modules>

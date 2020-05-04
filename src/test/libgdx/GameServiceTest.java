@@ -126,7 +126,7 @@ public abstract class GameServiceTest implements ApplicationListener {
     public void assertAnswerOptions(String lang, GameService gameService) {
         if (gameService instanceof DependentAnswersQuizGameService) {
             for (String answer : gameService.getAllAnswerOptions()) {
-                assertTrue(answer.length() >= 2);
+                assertTrue(answer.length() >= 1);
             }
 //            System.out.println(gameService.getAllAnswerOptions().toString());
             assertTrue(((DependentAnswersQuizGameService) gameService).getAnswers().size() == 1);
