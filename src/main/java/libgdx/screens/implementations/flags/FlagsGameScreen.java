@@ -69,11 +69,11 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
     }
 
     private void setFlagSpeed() {
-        float div = 2;
+        float div = 2.2f;
         maxNumberOfWrongAnswers = 6;
         if (flagsSettings.getFlagsDifficultyLevel() == FlagsDifficultyLevel._1) {
             maxNumberOfWrongAnswers = 5;
-            div = 2.5f;
+            div = 2.7f;
         } else if (flagsSettings.getFlagsDifficultyLevel() == FlagsDifficultyLevel._2) {
             maxNumberOfWrongAnswers = 4;
             div = 3f;
@@ -118,7 +118,7 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
             int labelWidth = ScreenDimensionsManager.getScreenWidth() / 2;
             MyWrappedLabel countryNameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                     .setWrappedLineLabel(labelWidth).setText(
-                            text).build());
+                            StringUtils.capitalize(text)).build());
             countryNameLabel.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
             countryNameLabel.setWidth(labelWidth);
             countryNameLabel.setHeight(ScreenDimensionsManager.getScreenHeightValue(10));
@@ -319,7 +319,12 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
             RunnableAction runnableAction = Utils.createRunnableAction(new Runnable() {
                 @Override
                 public void run() {
-                    screenManager.showMainScreen();
+                    showPopupAd(new Runnable() {
+                        @Override
+                        public void run() {
+                            screenManager.showMainScreen();
+                        }
+                    });
                 }
             });
             ActorAnimation.animateImageCenterScreenFadeOut(FlagsSpecificResource.star, 0.7f);

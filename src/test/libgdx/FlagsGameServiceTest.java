@@ -25,6 +25,6 @@ public class FlagsGameServiceTest extends GameServiceTest {
 
     @Override
     protected Language getStartLang() {
-        return Language.zh;
+        return Language.cs;
     }
 }

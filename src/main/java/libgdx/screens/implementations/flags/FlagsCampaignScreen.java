@@ -11,6 +11,7 @@ import com.google.gson.Gson;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.CampaignStoreService;
+import libgdx.constants.Language;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ImageButtonBuilder;
@@ -108,7 +109,8 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
                 .setFontConfig(new FontConfig(
                         FontColor.WHITE.getColor(),
                         FontColor.BLACK.getColor(),
-                        FontConfig.FONT_SIZE * 2.3f,
+                        FontConfig.FONT_SIZE * (Game.getInstance().getAppInfoService().getLanguage().equals(Language.sv.name()) ?
+                                2.0f : 2.3f),
                         5f))
                 .setText(Game.getInstance().getAppInfoService().getAppName()).build());
 
@@ -196,9 +198,11 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
                     .padTop(MainDimen.vertical_general_margin.getDimen() * 3)
                     .width(categButton.getHeight() / 2).height(categButton.getHeight() / 2);
         } else {
-            containerTable.add(FlagsContainers.createFlagsCounter(leftCountriesToPlay, categButton.getWidth(), MainResource.popup_background))
+            float labelWidth = categButton.getWidth() * 1.15f;
+            containerTable
+                    .add(FlagsContainers.createFlagsCounter(leftCountriesToPlay, labelWidth, MainResource.popup_background))
                     .padTop(MainDimen.vertical_general_margin.getDimen() * 3)
-                    .width(categButton.getWidth()).height(categButton.getHeight() / 5);
+                    .width(labelWidth).height(categButton.getHeight() / 3);
         }
 
 
@@ -237,6 +241,11 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
     @Override
     public void render(float dt) {
         super.render(dt);
-        Utils.createChangeLangPopup();
+        Utils.createChangeLangPopup(new Runnable() {
+            @Override
+            public void run() {
+                FlagsContainers.reset();
+            }
+        });
     }
 }

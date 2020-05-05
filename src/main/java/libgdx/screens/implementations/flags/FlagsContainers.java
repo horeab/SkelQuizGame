@@ -30,6 +30,11 @@ public class FlagsContainers {
 
     private static Map<CampaignLevel, List<Question>> allQuestions = new HashMap<>();
 
+    public static void reset() {
+        allQuestions.clear();
+        init();
+    }
+
     public static void init() {
         if (allQuestions == null || allQuestions.isEmpty()) {
             QuestionParser questionParser = new QuestionParser();

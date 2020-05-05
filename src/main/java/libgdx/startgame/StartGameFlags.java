@@ -29,7 +29,7 @@ public class StartGameFlags {
 
                     @Override
                     public String getLanguage() {
-                        return Language.ro.name();
+                        return Language.en.name();
                     }
                 });
         libgdx.utils.startgame.StartGame.main(game, args);
