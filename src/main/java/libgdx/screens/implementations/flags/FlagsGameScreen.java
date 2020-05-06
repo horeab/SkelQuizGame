@@ -18,7 +18,6 @@ import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.anatomy.AnatomySpecificResource;
 import libgdx.implementations.flags.FlagsCampaignLevelEnum;
 import libgdx.implementations.flags.FlagsDifficultyLevel;
 import libgdx.implementations.flags.FlagsSpecificResource;
@@ -29,7 +28,7 @@ import libgdx.resources.dimen.MainDimen;
 import libgdx.screens.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
-import libgdx.utils.model.RGBColor;
+
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.mutable.MutableLong;
 
@@ -57,6 +56,7 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
     private List<GameQuestionInfo> availableGameQuestionInfosToPlay;
     private int leftCountriesToPlay;
     private FlagsSettings flagsSettings;
+    boolean gameOverExecuted = false;
 
     public FlagsGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         super(gameContext);
@@ -312,10 +312,11 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
     @Override
     public void goToNextQuestionScreen() {
         processPlayedQuestions();
-        if (gameContext.getCurrentUserGameUser().getWonQuestions() == gameContext.getCurrentUserGameUser().getAllQuestionInfos().size()) {
+        if (!gameOverExecuted && gameContext.getCurrentUserGameUser().getWonQuestions() == gameContext.getCurrentUserGameUser().getAllQuestionInfos().size()) {
             for (int i = 0; i <= enumService.getDifficulty(); i++) {
                 campaignStoreService.putQuestionPlayed(FlagsCampaignLevelEnum.valueOf("LEVEL_" + i + "_" + enumService.getCategory()).getName());
             }
+            gameOverExecuted = true;
             RunnableAction runnableAction = Utils.createRunnableAction(new Runnable() {
                 @Override
                 public void run() {
