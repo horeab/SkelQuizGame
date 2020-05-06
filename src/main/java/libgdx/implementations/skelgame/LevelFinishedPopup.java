@@ -75,6 +75,12 @@ public class LevelFinishedPopup extends MyPopup<AbstractScreen, CampaignScreenMa
         }
     }
 
+    @Override
+    public void hide() {
+        super.hide();
+        screenManager.showCampaignScreen();
+    }
+
     protected GameContext getGameContext() {
         return new GameContextService().createGameContext(
                 gameContext.getQuestionConfig());
