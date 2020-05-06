@@ -17,6 +17,7 @@ import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.flags.FlagsCampaignLevelEnum;
 import libgdx.implementations.flags.FlagsDifficultyLevel;
@@ -320,7 +321,7 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
             RunnableAction runnableAction = Utils.createRunnableAction(new Runnable() {
                 @Override
                 public void run() {
-                    showPopupAd(new Runnable() {
+                    Game.getInstance().getAppInfoService().showPopupAd(new Runnable() {
                         @Override
                         public void run() {
                             screenManager.showMainScreen();
