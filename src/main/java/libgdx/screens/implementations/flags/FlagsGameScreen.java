@@ -70,17 +70,21 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
     }
 
     private void setFlagSpeed() {
-        float div = 2.2f;
+        float div = 2.8f;
+        durationFlagUpToDown = 16f / div;
+        durationNextFlag = 2.8f / div;
         maxNumberOfWrongAnswers = 6;
         if (flagsSettings.getFlagsDifficultyLevel() == FlagsDifficultyLevel._1) {
             maxNumberOfWrongAnswers = 5;
-            div = 2.7f;
+            div = 2.9f;
+            durationFlagUpToDown = 15f / div;
+            durationNextFlag = 3f / div;
         } else if (flagsSettings.getFlagsDifficultyLevel() == FlagsDifficultyLevel._2) {
             maxNumberOfWrongAnswers = 4;
             div = 3f;
+            durationFlagUpToDown = 15f / div;
+            durationNextFlag = 3f / div;
         }
-        durationFlagUpToDown = 15f / div;
-        durationNextFlag = 3f / div;
     }
 
     private void initFlagsSettings() {

@@ -4,6 +4,7 @@ import libgdx.campaign.CampaignGameDependencyManager;
 import libgdx.game.GameId;
 import libgdx.game.SubGameDependencyManager;
 import libgdx.implementations.anatomy.AnatomyDependencyManager;
+import libgdx.implementations.animals.AnimalsDependencyManager;
 import libgdx.implementations.astronomy.AstronomyDependencyManager;
 import libgdx.implementations.astronomy.AstronomyGame;
 import libgdx.implementations.conthistory.ConthistoryDependencyManager;
@@ -23,6 +24,7 @@ public enum GameIdEnum implements GameId {
     math(MathDependencyManager.class),
     judetelerom(JudeteleRomDependencyManager.class),
     anatomy(AnatomyDependencyManager.class),
+    animals(AnimalsDependencyManager.class),
     astronomy(AstronomyDependencyManager.class),
     periodictable(PeriodicTableDependencyManager.class),
     paintings(PaintingsDependencyManager.class),

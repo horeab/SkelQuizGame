@@ -104,7 +104,7 @@ public class HangmanArenaCampaignScreen extends AbstractScreen<HangmanArenaScree
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
         float padTopAllTable = verticalGeneralMarginDimen;
 
-//        boolean extraContentLocked = (i >= (HangmanArenaQuestionCategoryEnum.values().length)) && !Utils.isValidExtraContent();
+//        boolean extraContentLocked = (i >= (AnimalsQuestionCategoryEnum.values().length)) && !Utils.isValidExtraContent();
         boolean extraContentLocked = false;
         InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
         if (level1 != null) {

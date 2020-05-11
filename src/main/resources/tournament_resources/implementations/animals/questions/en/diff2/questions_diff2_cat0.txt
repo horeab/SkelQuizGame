@@ -1,0 +1,20 @@
+Goose
+Badger
+Boar
+Stork
+Kangaroo
+Anaconda
+Squirrel
+Parrot
+Hamster
+Hedgehog
+Hippo
+Beetle
+Panther
+Octopus
+Python
+Baboon
+Ferret
+Brown bear
+Pelican
+Raven
