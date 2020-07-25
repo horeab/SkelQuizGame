@@ -1,0 +1,195 @@
+Kiina
+Intia
+Yhdysvallat
+Brasilia
+Venäjä
+Meksiko
+Japani
+Iran
+Saksa
+Turkki
+Ranska
+Yhdistynyt kuningaskunta
+Thaimaa
+Italia
+Egypti
+Etelä-Afrikka
+Etelä-Korea
+Espanja
+Argentiina
+Belgia
+Ukraina
+Puola
+Kanada
+Itävalta
+Sveitsi
+Alankomaat
+Indonesia
+Kreikka
+Portugali
+Australia
+Kolumbia
+Algeria
+Kroatia
+Marokko
+Vietnam
+Ruotsi
+Nigeria
+Chile
+Unkari
+Romania
+Saudi-Arabia
+Bulgaria
+Tanska
+Suomi
+Irlanti
+Norja
+Serbia
+Malesia
+Peru
+Georgia
+Kuuba
+Ghana
+Kazakstan
+Irak
+Afganistan
+Israel
+Islanti
+Bosnia ja Hertsegovina
+Armenia
+Slovenia
+Uusi Seelanti
+Albania
+slovakia
+Venezuela
+Tšekki
+Ecuador
+Senegal
+Nepal
+somalia
+azerbaijan
+Tunisia
+Mongolia
+Pakistan
+Filippiinit
+Sri Lanka
+Kenia
+Kambodza
+Liettua
+mali
+montenegro
+Valko-Venäjä
+Kamerun
+Uzbekistan
+Myanmar
+Uruguay
+Jamaika
+Bolivia
+Uganda
+Norsunluurannikko
+Kypros
+Madagaskar
+Haiti
+Angola
+Qatar
+Pohjois-Korea
+Tansania
+Jemen
+Niger
+Etiopia
+Costa Rica
+Syyria
+Jordania
+Dominikaaninen tasavalta
+Yhdistyneet Arabiemiirikunnat
+Honduras
+Tadžikistan
+Monaco
+Chad
+Mosambik
+Togo
+Singapore
+Sambia
+Benin
+Papua-Uusi-Guinea
+Guinea
+Mennä
+Paraguay
+Laos
+Bangladesh
+Ruanda
+Burkina Faso
+Libya
+Libanon
+Kirgisia
+Turkmenistan
+Malawi
+Sudan
+Keski-Afrikan tasavalta
+Palestiina
+Kongon demokraattinen tasavalta
+Oman
+Liechtenstein
+Guatemala
+eteläsudan
+Burundi
+Liberia
+Zimbabwe
+Kuwait
+Panama
+Sierra Leone
+Luxemburg
+Eritrea
+San Marino
+Moldova
+namibia
+Gambia
+Mauritania
+Botswana
+Gabon
+Kongo
+Pohjois-Makedonia
+lesotho
+Latvia
+Guinea-Bissau
+Bahrain
+Päiväntasaajan Guinea
+Itä-Timor
+Trinidad ja Tobago
+Mauritius
+Djibouti
+Eswatini
+Komorit
+Fidži
+Guyana
+El Salvador
+nicaragua
+Bhutan
+Solomonsaaret
+suriname
+Kap Verde
+Malta
+Brunei
+Belize
+Bahama
+Malediivit
+Vanuatu
+Vatikaani
+Barbados
+Sao Tome ja Principe
+Samoa
+Saint Lucia
+Kiribati
+Grenada
+Saint Vincent ja Grenadiinit
+Mikronesia
+Tonga
+Seychellit
+Antigua ja Barbuda
+Andorra
+dominica
+Marshallsaaret
+Saint Kitts ja Nevis
+Palau
+Nauru
+Tuvalu

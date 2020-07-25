@@ -1,0 +1,195 @@
+China
+India
+United States
+Brazil
+Russia
+Mexico
+Japan
+Iran
+Germany
+Turkey
+France
+United Kingdom
+Thailand
+Italy
+Egypt
+South Africa
+South Korea
+Spain
+Argentina
+Belgium
+Ukraine
+Poland
+Canada
+Austria
+Switzerland
+Netherlands
+Indonesia
+Greece
+Portugal
+Australia
+Colombia
+Algeria
+Croatia
+Morocco
+Vietnam
+Sweden
+Nigeria
+Chile
+Hungary
+Romania
+Saudi Arabia
+Bulgaria
+Denmark
+Finland
+Ireland
+Norway
+Serbia
+Malaysia
+Peru
+Georgia
+Cuba
+Ghana
+Kazakhstan
+Iraq
+Afghanistan
+Israel
+Iceland
+Bosnia and Herzegovina
+Armenia
+Slovenia
+New Zealand
+Albania
+Slovakia
+Venezuela
+Czech Republic
+Ecuador
+Senegal
+Nepal
+Somalia
+Azerbaijan
+Tunisia
+Mongolia
+Pakistan
+Philippines
+Sri Lanka
+Kenya
+Cambodia
+Lithuania
+Mali
+Montenegro
+Belarus
+Cameroon
+Uzbekistan
+Myanmar
+Uruguay
+Jamaica
+Bolivia
+Uganda
+Ivory Coast
+Cyprus
+Madagascar
+Haiti
+Angola
+Qatar
+North Korea
+Tanzania
+Yemen
+Niger
+Ethiopia
+Costa Rica
+Syria
+Jordan
+Dominican Republic
+United Arab Emirates
+Honduras
+Tajikistan
+Monaco
+Chad
+Mozambique
+Estonia
+Singapore
+Zambia
+Benin
+Papua New Guinea
+Guinea
+Togo
+Paraguay
+Laos
+Bangladesh
+Rwanda
+Burkina Faso
+Libya
+Lebanon
+Kyrgyzstan
+Turkmenistan
+Malawi
+Sudan
+Central African Republic
+Palestine
+Democratic Republic of the Congo
+Oman
+Liechtenstein
+Guatemala
+South Sudan
+Burundi
+Liberia
+Zimbabwe
+Kuwait
+Panama
+Sierra Leone
+Luxembourg
+Eritrea
+San Marino
+Moldova
+Namibia
+Gambia
+Mauritania
+Botswana
+Gabon
+Congo
+North Macedonia
+Lesotho
+Latvia
+Guinea-Bissau
+Bahrain
+Equatorial Guinea
+East Timor
+Trinidad and Tobago
+Mauritius
+Djibouti
+Eswatini
+Comoros
+Fiji
+Guyana
+El Salvador
+Nicaragua
+Bhutan
+Solomon Islands
+Suriname
+Cape Verde
+Malta
+Brunei
+Belize
+Bahamas
+Maldives
+Vanuatu
+Vatican City
+Barbados
+São Tomé and Príncipe
+Samoa
+Saint Lucia
+Kiribati
+Grenada
+Saint Vincent and the Grenadines
+Micronesia
+Tonga
+Seychelles
+Antigua and Barbuda
+Andorra
+Dominica
+Marshall Islands
+Saint Kitts and Nevis
+Palau
+Nauru
+Tuvalu

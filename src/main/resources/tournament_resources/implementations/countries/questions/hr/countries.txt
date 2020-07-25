@@ -1,0 +1,195 @@
+Kina
+Indija
+Ujedinjene države
+Brazil
+Rusija
+Meksiko
+Japan
+Iran
+Njemačka
+Turska
+Francuska
+Ujedinjeno Kraljevstvo
+Tajland
+Italija
+Egipat
+Južna Afrika
+Južna Korea
+Španija
+Argentina
+Belgija
+Ukrajina
+Poljska
+Kanada
+Austrija
+Švicarska
+Nizozemska
+Indonezija
+Grčka
+Portugal
+Australija
+Kolumbija
+Alžir
+Hrvatska
+Maroko
+Vijetnam
+Švedska
+Nigerija
+Čile
+Mađarska
+Rumunjska
+Saudijska Arabija
+Bugarska
+Danska
+Finska
+Irska
+Norveška
+Srbija
+Malezija
+Peru
+Gruzija
+Kuba
+Gana
+Kazahstan
+Irak
+Avganistan
+Izrael
+Island
+Bosna i Hercegovina
+Armenija
+Slovenija
+Novi Zeland
+Albanija
+Slovačka
+Venecuela
+Češka Republika
+Ekvador
+Senegal
+Nepal
+Somalija
+Azerbejdžan
+Tunis
+Mongolija
+Pakistan
+Filipini
+Šri Lanka
+Kenija
+Kambodža
+Litva
+Mali
+Crna Gora
+Bjelorusija
+Kamerun
+Uzbekistan
+Mjanmar
+Urugvaj
+Jamajka
+Bolivija
+Uganda
+Obala Slonovače
+Kipar
+Madagaskar
+Haiti
+Angola
+Katar
+Sjeverna Koreja
+Tanzanija
+Jemen
+Niger
+Etiopija
+Kostarika
+Sirija
+Jordan
+Dominikanska Republika
+Ujedinjeni Arapski Emirati
+Honduras
+Tadžikistan
+Monaco
+Čad
+Mozambik
+Estonija
+Singapur
+Zambija
+Benin
+Papua Nova Gvineja
+Gvineja
+Togo
+Paragvaj
+Laos
+Bangladeš
+Ruanda
+Burkina Faso
+Libija
+Liban
+Kirgistan
+Turkmenistan
+Malavi
+Sudan
+Centralna Afrička Republika
+Palestina
+Demokratska Republika Kongo
+Oman
+Lihtenštajn
+Gvatemala
+Južni Sudan
+Burundi
+Liberija
+Zimbabve
+Kuvajt
+Panama
+Sierra Leone
+Luksemburg
+Eritreja
+San Marino
+Moldavija
+Namibija
+Gambija
+Mauritanija
+Bocvana
+Gabon
+Kongo
+Sjeverna Makedonija
+Lesoto
+Letonija
+Gvineja Bisau
+Bahrein
+Ekvatorijalna Gvineja
+Istočni Timor
+Trinidad i Tobago
+Mauricijus
+Džibuti
+Eswatini
+Komori
+Fidži
+Gvajana
+El Salvador
+Nikaragva
+Butan
+Salomonovi otoci
+Surinam
+Zelenortski otoci
+Malta
+Brunei
+Belize
+Bahami
+Maldivi
+Vanuatu
+Vatikan
+Barbados
+São Tomé i Principe
+Samoa
+Sveta Lucija
+Kiribati
+Grenada
+Sveti Vincent i Grenadini
+Mikronezija
+Laka dvokolica
+Sejšeli
+Antigva i Barbuda
+Andora
+Dominika
+Maršalovi otoci
+Saint Kitts i Nevis
+Palau
+Nauru
+Tuvalu

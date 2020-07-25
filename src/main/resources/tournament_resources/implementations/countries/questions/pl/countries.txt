@@ -1,0 +1,195 @@
+Chiny
+Indie
+Stany Zjednoczone
+Brazylia
+Rosja
+Meksyk
+Japonia
+Iran
+Niemcy
+Turcja
+Francja
+Zjednoczone Królestwo
+Tajlandia
+Włochy
+Egipt
+Afryka Południowa
+Korea Południowa
+Hiszpania
+Argentyna
+Belgia
+Ukraina
+Polska
+Kanada
+Austria
+Szwajcaria
+Holandia
+Indonezja
+Grecja
+Portugalia
+Australia
+Kolumbia
+Algieria
+Chorwacja
+Maroko
+Wietnam
+Szwecja
+Nigeria
+Chile
+Węgry
+Rumunia
+Arabia Saudyjska
+Bułgaria
+Dania
+Finlandia
+Irlandia
+Norwegia
+Serbia
+Malezja
+Peru
+Gruzja
+Kuba
+Ghana
+Kazachstan
+Irak
+Afganistan
+Izrael
+Islandia
+Bośnia i Hercegowina
+Armenia
+Słowenia
+Nowa Zelandia
+Albania
+Słowacja
+Wenezuela
+Republika Czeska
+Ekwador
+Senegal
+Nepal
+Somali
+Azerbejdżan
+Tunezja
+Mongolia
+Pakistan
+Filipiny
+Sri Lanka
+Kenia
+Kambodża
+Litwa
+Mali
+Czarnogóra
+Białoruś
+Kamerun
+Uzbekistan
+Myanmar
+Urugwaj
+Jamajka
+Boliwia
+Uganda
+Wybrzeże Kości Słoniowej
+Cypr
+Madagaskar
+Haiti
+Angola
+Katar
+Korea Północna
+Tanzania
+Jemen
+Niger
+Etiopia
+Kostaryka
+Syria
+Jordania
+Republika Dominikany
+Zjednoczone Emiraty Arabskie
+Honduras
+Tadżykistan
+Monako
+Czad
+Mozambik
+Estonia
+Singapur
+Zambia
+Benin
+Papua Nowa Gwinea
+Gwinea
+Togo
+Paragwaj
+Laos
+Bangladesz
+Rwanda
+Burkina Faso
+Libia
+Liban
+Kirgistan
+Turkmenia
+Malawi
+Sudan
+Republika Środkowoafrykańska
+Palestyna
+Demokratyczna Republika Konga
+Oman
+Liechtenstein
+Gwatemala
+Południowy Sudan
+Burundi
+Liberia
+Zimbabwe
+Kuwejt
+Panama
+Sierra Leone
+Luksemburg
+Erytrea
+San Marino
+Moldova
+Namibia
+Gambia
+Mauretania
+Botswana
+Gabon
+Kongo
+Macedonia Północna
+Lesotho
+Łotwa
+Gwinea Bissau
+Bahrajn
+Gwinea Równikowa
+Wschodni Timor
+Trynidad i Tobago
+Mauritius
+Dżibuti
+Eswatini
+Komory
+Fidżi
+Gujana
+Salwador
+Nikaragua
+Bhutan
+Wyspy Salomona
+Surinam
+Wyspy Zielonego Przylądka
+Malta
+Brunei
+Belize
+Bahamy
+Malediwy
+Vanuatu
+Watykan
+Barbados
+Wyspy Świętego Tomasza i Książęca
+Samoa
+święta Lucia
+Kiribati
+Grenada
+Saint Vincent i Grenadyny
+Mikronezja
+Tonga
+Seszele
+Antigua i Barbuda
+Andora
+Dominika
+Wyspy Marshalla
+Saint Kitts i Nevis
+Palau
+Nauru
+Tuvalu

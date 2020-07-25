@@ -1,0 +1,195 @@
+Kina
+Indien
+Forenede Stater
+Brasilien
+Rusland
+Mexico
+Japan
+Iran
+Tyskland
+Tyrkiet
+Frankrig
+Det Forenede Kongerige
+Thailand
+Italien
+Egypten
+Sydafrika
+Sydkorea
+Spanien
+Argentina
+Belgien
+Ukraine
+Polen
+Canada
+Østrig
+Schweiz
+Holland
+Indonesien
+Grækenland
+Portugal
+Australien
+Colombia
+Algeriet
+Kroatien
+Marokko
+Vietnam
+Sverige
+Nigeria
+Chile
+Ungarn
+Rumænien
+Saudi Arabien
+Bulgarien
+Danmark
+Finland
+Irland
+Norge
+Serbien
+Malaysia
+Peru
+Georgien
+Cuba
+Ghana
+Kasakhstan
+Irak
+Afghanistan
+Israel
+Island
+Bosnien-Hercegovina
+Armenien
+Slovenien
+New Zealand
+Albanien
+Slovakiet
+Venezuela
+Tjekkiet
+Ecuador
+Senegal
+Nepal
+Somalia
+Aserbajdsjan
+Tunesien
+Mongoliet
+Pakistan
+Filippinerne
+Sri Lanka
+Kenya
+Cambodja
+Litauen
+Mali
+Montenegro
+Hviderusland
+Cameroun
+Usbekistan
+Myanmar
+Uruguay
+Jamaica
+Bolivia
+Uganda
+Elfenbenskysten
+Cypern
+Madagaskar
+Haiti
+Angola
+Qatar
+Nordkorea
+Tanzania
+Yemen
+Niger
+Etiopien
+Costa Rica
+Syrien
+Jordan
+Dominikanske republik
+Forenede Arabiske Emirater
+Honduras
+Tadsjikistan
+Monaco
+Tchad
+Mozambique
+Estland
+Singapore
+Zambia
+Benin
+Papua Ny Guinea
+Guinea
+Togo
+Paraguay
+Laos
+Bangladesh
+Rwanda
+Burkina Faso
+Libyen
+Libanon
+Kirgisistan
+Turkmenistan
+Malawi
+Sudan
+Den Centralafrikanske Republik
+Palæstina
+Den Demokratiske Republik Congo
+Oman
+Liechtenstein
+Guatemala
+Sydsudan
+Burundi
+Liberia
+Zimbabwe
+Kuwait
+Panama
+Sierra Leone
+Luxembourg
+Eritrea
+San Marino
+Moldova
+Namibia
+Gambia
+Mauretanien
+Botswana
+Gabon
+Congo
+Nordlige Makedonien
+Lesotho
+Letland
+Guinea-Bissau
+Bahrain
+Ækvatorial Guinea
+Øst Timor
+Trinidad og Tobago
+Mauritius
+Djibouti
+Eswatini
+Comorerne
+Fiji
+Guyana
+El Salvador
+Nicaragua
+Bhutan
+Salomonøerne
+Surinam
+Kap Verde
+Malta
+Brunei
+Belize
+Bahamas
+Maldiverne
+Vanuatu
+Vatikanet
+Barbados
+São Tomé og Príncipe
+Samoa
+Saint Lucia
+Kiribati
+Grenada
+Saint Vincent og Grenadinerne
+Mikronesien
+Tonga
+Seychellerne
+Antigua og Barbuda
+Andorra
+Dominica
+Marshalløerne
+Saint Kitts og Nevis
+Palau
+Nauru
+Tuvalu

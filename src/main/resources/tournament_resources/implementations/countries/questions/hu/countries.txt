@@ -1,0 +1,195 @@
+Kína
+India
+Egyesült Államok
+Brazília
+Oroszország
+Mexikó
+Japán
+Irán
+Németország
+Törökország
+Franciaország
+Egyesült Királyság
+Thaiföld
+Olaszország
+Egyiptom
+Dél-Afrika
+Dél-Korea
+Spanyolország
+Argentína
+Belgium
+Ukrajna
+Lengyelország
+Kanada
+Ausztria
+Svájc
+Hollandia
+Indonézia
+Görögország
+Portugália
+Ausztrália
+Colombia
+Algéria
+Horvátország
+Marokkó
+Vietnam
+Svédország
+Nigéria
+Chile
+Magyarország
+Románia
+Szaud-Arábia
+Bulgária
+Dánia
+Finnország
+Írország
+Norvégia
+Szerbia
+Malaysia
+Peru
+Grúzia
+Kuba
+Ghána
+Kazahsztán
+Irak
+Afganisztán
+Izrael
+Izland
+Bosznia és Hercegovina
+Örményország
+Szlovénia
+Új Zéland
+Albánia
+Szlovákia
+Venezuela
+Cseh Köztársaság
+Ecuador
+Szenegál
+Nepál
+Szomáliában
+Azerbajdzsán
+Tunézia
+Mongólia
+Pakisztán
+Fülöp-szigetek
+Srí Lanka
+Kenya
+Kambodzsa
+Litvánia
+Mali
+Montenegró
+Fehéroroszország
+Kamerun
+Üzbegisztán
+Myanmar
+Uruguay
+Jamaica
+Bolívia
+Uganda
+Elefántcsontpart
+Ciprus
+Madagaszkár
+Haiti
+Angola
+Katar
+Észak Kórea
+Tanzánia
+Jemen
+Niger
+Etiópia
+Costa Rica
+Szíria
+Jordánia
+Dominikai Köztársaság
+Egyesült Arab Emírségek
+Honduras
+Tádzsikisztán
+Monaco
+Csád
+Mozambik
+Észtország
+Singapore
+Zambia
+Benin
+Pápua Új-Guinea
+Guinea
+Togo
+Paraguay
+Laosz
+Banglades
+Ruanda
+Burkina Faso
+Líbia
+Libanon
+Kirgizisztán
+Türkmenisztán
+Malawi
+Szudán
+Közép-Afrikai Köztársaság
+Palesztina
+Kongói Demokratikus Köztársaság
+Omán
+Liechtenstein
+Guatemala
+Dél Szudán
+Burundi
+Libéria
+Zimbabwe
+Kuvait
+Panama
+Sierra Leone
+Luxemburg
+Eritrea
+San Marino
+Moldova
+Namíbia
+Gambia
+Mauritánia
+Botswana
+Gabon
+Kongó
+Észak-Macedónia
+Lesotho
+Lettország
+Bissau-Guinea
+Bahrein
+Egyenlítői-Guinea
+Kelet-Timor
+Trinidad és Tobago
+Mauritius
+Dzsibuti
+Eswatini
+Comore-szigetek
+Fiji
+Guyana
+El Salvador
+Nicaragua
+Bhután
+Salamon-szigetek
+Suriname
+zöld-fok
+Málta
+Brunei
+Belize
+Bahamák
+Maldív-szigetek
+Vanuatu
+Vatikán
+Barbados
+São Tomé és Príncipe
+Szamoa
+Saint Lucia
+Kiribati
+Grenada
+Saint Vincent és a Grenadine-szigetek
+Mikronézia
+Tonga
+Seychelles
+Antigua és Barbuda
+Andorra
+Dominika
+Marshall-szigetek
+Saint Kitts és Nevis
+Palau
+Nauru
+Tuvalu

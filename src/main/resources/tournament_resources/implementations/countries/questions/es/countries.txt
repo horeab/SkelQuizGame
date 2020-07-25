@@ -1,0 +1,195 @@
+China
+India
+Estados Unidos
+Brasil
+Rusia
+Mexico
+Japón
+Iran
+Alemania
+Turquía
+Francia
+Reino Unido
+Tailandia
+Italia
+Egipto
+Sudáfrica
+Corea del Sur
+España
+Argentina
+Bélgica
+Ucrania
+Polonia
+Canadá
+Austria
+Suiza
+Países Bajos
+Indonesia
+Grecia
+Portugal
+Australia
+Colombia
+Argelia
+Croacia
+Marruecos
+Vietnam
+Suecia
+Nigeria
+Chile
+Hungría
+Rumania
+Arabia Saudita
+Bulgaria
+Dinamarca
+Finlandia
+Irlanda
+Noruega
+Serbia
+Malasia
+Perú
+Georgia
+Cuba
+Ghana
+Kazajstán
+Irak
+Afganistán
+Israel
+Islandia
+Bosnia y Herzegovina
+Armenia
+Eslovenia
+Nueva Zelanda
+Albania
+Eslovaquia
+Venezuela
+Republica checa
+Ecuador
+Senegal
+Nepal
+Somalia
+Azerbaiyán
+Túnez
+Mongolia
+Pakistán
+Filipinas
+Sri Lanka
+Kenia
+Camboya
+Lituania
+Mali
+Montenegro
+Bielorrusia
+Camerún
+Uzbekistán
+Myanmar
+Uruguay
+Jamaica
+Bolivia
+Uganda
+Costa de Marfil
+Chipre
+Madagascar
+Haití
+Angola
+Katar
+Corea del Norte
+Tanzania
+Yemen
+Níger
+Etiopía
+Costa Rica
+Siria
+Jordán
+República Dominicana
+Emiratos Árabes Unidos
+Honduras
+Tayikistán
+Mónaco
+Chad
+Mozambique
+Estonia
+Singapur
+Zambia
+Benin
+Papúa Nueva Guinea
+Guinea
+Togo
+Paraguay
+Laos
+Bangladesh
+Ruanda
+Burkina Faso
+Libia
+Líbano
+Kirguistán
+Turkmenistán
+Malawi
+Sudán
+República Centroafricana
+Palestina
+República Democrática del Congo
+Omán
+Liechtenstein
+Guatemala
+Sudán del Sur
+Burundi
+Liberia
+Zimbabue
+Kuwait
+Panamá
+Sierra Leona
+Luxemburgo
+Eritrea
+San Marino
+Moldavia
+Namibia
+Gambia
+Mauritania
+Botsuana
+Gabón
+Congo
+Macedonia del norte
+Lesoto
+Letonia
+Guinea-Bissau
+Bahrein
+Guinea Ecuatorial
+Timor Oriental
+Trinidad y Tobago
+Mauricio
+Djibouti
+Eswatini
+Comoras
+Fiyi
+Guayana
+El Salvador
+Nicaragua
+Bután
+Islas Salomón
+Surinam
+Cabo Verde
+Malta
+Brunei
+Belice
+Bahamas
+Maldivas
+Vanuatu
+Ciudad del Vaticano
+Barbados
+Santo Tomé y Príncipe
+Samoa
+Santa Lucía
+Kiribati
+Granada
+San Vicente y las Granadinas
+Micronesia
+Tonga
+Seychelles
+Antigua y Barbuda
+Andorra
+Dominica
+Islas Marshall
+San Cristóbal y Nieves
+Palau
+Nauru
+Tuvalu
