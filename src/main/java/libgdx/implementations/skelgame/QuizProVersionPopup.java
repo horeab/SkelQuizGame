@@ -31,6 +31,6 @@ public class QuizProVersionPopup extends ProVersionPopup {
     @Override
     public void hide() {
         super.hide();
-        QuizGame.getInstance().getScreenManager().showMainScreen();
+        Game.getInstance().getScreenManager().showMainScreen();
     }
 }

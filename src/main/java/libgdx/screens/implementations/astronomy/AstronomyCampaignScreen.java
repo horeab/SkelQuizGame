@@ -7,11 +7,13 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+
 import libgdx.campaign.*;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.controls.labelimage.InAppPurchaseTable;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.astronomy.AstronomyCampaignLevelEnum;
@@ -108,7 +110,14 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
         addButtonToTable(btnTable2, AstronomyCampaignLevelEnum.LEVEL_0_4);
         btnTable2.add().width(ScreenDimensionsManager.getScreenWidthValue(30));
         addButtonToTable(btnTable2, AstronomyCampaignLevelEnum.LEVEL_0_5);
-        table.add(btnTable2).padBottom(MainDimen.vertical_general_margin.getDimen() * 2);
+        InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
+        if (!Utils.isValidExtraContent()) {
+            btnTable2 = inAppPurchaseTable.createForProVersion(btnTable2);
+            btnTable2.setWidth(ScreenDimensionsManager.getScreenWidth());
+        }
+        table.add(btnTable2).width(btnTable2.getWidth()).padBottom(MainDimen.vertical_general_margin.getDimen() * 2);
+
+
     }
 
     private Cell<MyButton> addButtonToTable(Table table, AstronomyCampaignLevelEnum campaignLevel) {
