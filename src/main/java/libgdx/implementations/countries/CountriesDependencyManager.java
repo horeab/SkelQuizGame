@@ -6,15 +6,13 @@ import java.util.Scanner;
 
 import libgdx.campaign.CampaignGameDependencyManager;
 import libgdx.campaign.ImageCategIncrementRes;
-import libgdx.campaign.QuestionCategory;
-import libgdx.campaign.QuestionConfigFileHandler;
-import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Contrast;
 import libgdx.implementations.skelgame.gameservice.QuizStarsService;
 import libgdx.resources.IncrementingRes;
-import libgdx.utils.EnumUtils;
 
 public class CountriesDependencyManager extends CampaignGameDependencyManager {
+
+    private List<String> allCountries = new ArrayList<>();
 
     @Override
     public List<? extends IncrementingRes> getIncrementResList() {
@@ -24,16 +22,13 @@ public class CountriesDependencyManager extends CampaignGameDependencyManager {
 
     @Override
     protected String allQuestionText() {
-        QuestionConfigFileHandler questionConfigFileHandler = new QuestionConfigFileHandler();
+        Scanner scanner = new Scanner(new CountriesQuestionCreator().getCountriesFileText());
+        while (scanner.hasNextLine()) {
+            allCountries.add(scanner.nextLine());
+        }
         StringBuilder text = new StringBuilder();
-        for (QuestionCategory category : (QuestionCategory[]) EnumUtils.getValues(CountriesGame.getInstance().getSubGameDependencyManager().getQuestionCategoryTypeEnum())) {
-            for (QuestionDifficulty difficultyLevel : (QuestionDifficulty[]) EnumUtils.getValues(CountriesGame.getInstance().getSubGameDependencyManager().getQuestionDifficultyTypeEnum())) {
-                Scanner scanner = new Scanner(questionConfigFileHandler.getFileText(difficultyLevel, category));
-                while (scanner.hasNextLine()) {
-                    text.append(scanner.nextLine());
-                }
-                scanner.close();
-            }
+        for (String c : allCountries) {
+            text.append(c);
         }
         return text.toString();
     }
@@ -55,14 +50,19 @@ public class CountriesDependencyManager extends CampaignGameDependencyManager {
 
     @Override
     public Contrast getScreenContrast() {
-        return Contrast.DARK;
+        return Contrast.LIGHT;
     }
 
     @Override
     public Class<CountriesDifficultyLevel> getQuestionDifficultyTypeEnum() {
         return CountriesDifficultyLevel.class;
     }
+
     public QuizStarsService getStarsService() {
         return new QuizStarsService();
+    }
+
+    public List<String> getAllCountries() {
+        return allCountries;
     }
 }

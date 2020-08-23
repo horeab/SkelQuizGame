@@ -4,7 +4,7 @@ package libgdx.implementations.countries;
 import libgdx.campaign.CampaignGame;
 import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
-import libgdx.implementations.screens.implementations.astronomy.AstronomyScreenManager;
+import libgdx.implementations.screens.implementations.countries.CountriesScreenManager;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
 
@@ -12,7 +12,7 @@ public class CountriesGame extends CampaignGame<AppInfoService,
         CountriesMainDependencyManager,
         CountriesDependencyManager,
         AbstractScreen,
-        AstronomyScreenManager,
+        CountriesScreenManager,
         GameIdEnum
         > {
 
@@ -30,7 +30,7 @@ public class CountriesGame extends CampaignGame<AppInfoService,
 
     @Override
     protected void displayScreenAfterAssetsLoad() {
-        AstronomyScreenManager screenManager = getScreenManager();
+        CountriesScreenManager screenManager = getScreenManager();
         screenManager.showMainScreen();
     }
 }
