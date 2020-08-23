@@ -12,7 +12,7 @@ import libgdx.controls.button.MyButton;
 import libgdx.controls.labelimage.LabelImage;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.skelgame.GameButtonSkin;
-import libgdx.implementations.skelgame.SkelGameButtonSize;
+import libgdx.skelgameimpl.skelgame.SkelGameButtonSize;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.resources.*;
 import libgdx.resources.dimen.MainDimen;

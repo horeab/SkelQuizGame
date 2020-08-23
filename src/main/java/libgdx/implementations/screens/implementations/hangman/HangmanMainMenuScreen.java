@@ -18,7 +18,7 @@ import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.hangman.HangmanSpecificResource;
 import libgdx.implementations.skelgame.GameButtonSkin;
-import libgdx.implementations.skelgame.SkelGameRatingService;
+import libgdx.skelgameimpl.skelgame.SkelGameRatingService;
 import libgdx.resources.FontManager;
 import libgdx.resources.Resource;
 import libgdx.resources.dimen.MainDimen;

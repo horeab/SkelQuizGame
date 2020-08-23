@@ -11,7 +11,7 @@ import libgdx.controls.button.MyButton;
 import libgdx.controls.popup.MyPopup;
 import libgdx.game.Game;
 import libgdx.implementations.skelgame.CampaignScreenManager;
-import libgdx.implementations.skelgame.SkelGameLabel;
+import libgdx.skelgameimpl.skelgame.SkelGameLabel;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.gameservice.SinglePlayerLevelFinishedService;

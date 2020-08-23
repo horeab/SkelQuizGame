@@ -27,7 +27,7 @@ import libgdx.implementations.hangman.HangmanQuestionCategoryEnum;
 import libgdx.implementations.hangman.HangmanSpecificResource;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.LevelFinishedPopup;
-import libgdx.implementations.skelgame.SkelGameLabel;
+import libgdx.skelgameimpl.skelgame.SkelGameLabel;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.gameservice.QuizStarsService;
 import libgdx.resources.FontManager;

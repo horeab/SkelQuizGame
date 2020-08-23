@@ -26,6 +26,8 @@ import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.screen.AbstractScreen;
 import libgdx.implementations.screens.implementations.anatomy.AnatomyGameScreen;
+import libgdx.skelgameimpl.skelgame.SkelGameLabel;
+import libgdx.skelgameimpl.skelgame.SkelGameRatingService;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;

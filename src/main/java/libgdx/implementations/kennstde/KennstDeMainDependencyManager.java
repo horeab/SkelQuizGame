@@ -5,7 +5,7 @@ import libgdx.controls.popup.RatingService;
 import libgdx.game.MainDependencyManager;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.implementations.skelgame.GameRatingService;
-import libgdx.implementations.skelgame.SkelGameLabel;
+import libgdx.skelgameimpl.skelgame.SkelGameLabel;
 import libgdx.resources.Resource;
 import libgdx.resources.ResourceService;
 import libgdx.screen.AbstractScreen;
