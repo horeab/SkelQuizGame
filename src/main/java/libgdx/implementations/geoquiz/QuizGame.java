@@ -6,7 +6,7 @@ import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.geoquiz.QuizScreenManager;
+import libgdx.implementations.screens.implementations.geoquiz.QuizScreenManager;
 
 public class QuizGame extends CampaignGame<AppInfoService,
         QuizGameMainDependencyManager,

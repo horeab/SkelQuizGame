@@ -6,7 +6,7 @@ import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.anatomy.AnatomyScreenManager;
+import libgdx.implementations.screens.implementations.anatomy.AnatomyScreenManager;
 
 public class AnatomyGame extends CampaignGame<AppInfoService,
         AnatomyMainDependencyManager,

@@ -7,8 +7,7 @@ import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.hangman.HangmanScreenManager;
-import libgdx.screens.implementations.hangmanarena.HangmanArenaScreenManager;
+import libgdx.implementations.screens.implementations.hangmanarena.HangmanArenaScreenManager;
 
 public class HangmanArenaGame extends CampaignGame<AppInfoService,
         HangmanArenaGameMainDependencyManager,

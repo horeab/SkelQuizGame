@@ -6,7 +6,7 @@ import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.periodictable.PeriodicTableScreenManager;
+import libgdx.implementations.screens.implementations.periodictable.PeriodicTableScreenManager;
 
 public class PeriodicTableGame extends CampaignGame<AppInfoService,
         PeriodicTableMainDependencyManager,

@@ -1,6 +1,6 @@
 package libgdx.implementations.skelgame.gameservice;
 
-import libgdx.screens.GameScreen;
+import libgdx.implementations.screens.GameScreen;
 
 public class UniqueQuizQuestionContainerCreatorService extends QuizQuestionContainerCreatorService {
 

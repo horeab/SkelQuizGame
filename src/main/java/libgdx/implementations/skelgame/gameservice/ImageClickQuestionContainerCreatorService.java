@@ -30,7 +30,7 @@ import libgdx.implementations.skelgame.question.Question;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
-import libgdx.screens.GameScreen;
+import libgdx.implementations.screens.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
 
 public class ImageClickQuestionContainerCreatorService extends QuestionContainerCreatorService<ImageClickGameService> {

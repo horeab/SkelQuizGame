@@ -6,7 +6,7 @@ import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.painting.PaintingsScreenManager;
+import libgdx.implementations.screens.implementations.painting.PaintingsScreenManager;
 
 public class PaintingsGame extends CampaignGame<AppInfoService,
         PaintingsMainDependencyManager,

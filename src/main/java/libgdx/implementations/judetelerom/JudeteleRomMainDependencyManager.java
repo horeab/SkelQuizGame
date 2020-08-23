@@ -10,7 +10,7 @@ import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.resources.Resource;
 import libgdx.resources.ResourceService;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.judetelerom.JudeteleRomScreenManager;
+import libgdx.implementations.screens.implementations.judetelerom.JudeteleRomScreenManager;
 import libgdx.transactions.TransactionsService;
 
 public class JudeteleRomMainDependencyManager extends MainDependencyManager<JudeteleRomScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {

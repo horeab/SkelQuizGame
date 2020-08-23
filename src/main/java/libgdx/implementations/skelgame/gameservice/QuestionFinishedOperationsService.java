@@ -9,8 +9,8 @@ import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.ScreenRunnable;
 import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
 import libgdx.implementations.skelgame.question.GameUser;
-import libgdx.screens.GameScreen;
-import libgdx.screens.implementations.geoquiz.HeaderCreator;
+import libgdx.implementations.screens.GameScreen;
+import libgdx.implementations.screens.implementations.geoquiz.HeaderCreator;
 
 public class QuestionFinishedOperationsService {
 

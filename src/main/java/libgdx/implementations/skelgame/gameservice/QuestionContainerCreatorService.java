@@ -15,16 +15,13 @@ import libgdx.controls.ScreenRunnable;
 import libgdx.controls.button.ButtonSkin;
 import libgdx.controls.button.MyButton;
 import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.kennstde.KennstDeSpecificResource;
-import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.question.GameAnswerInfo;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.implementations.skelgame.question.GameUser;
-import libgdx.resources.MainResource;
 import libgdx.resources.Resource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.GameScreen;
+import libgdx.implementations.screens.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
 
 import java.util.*;

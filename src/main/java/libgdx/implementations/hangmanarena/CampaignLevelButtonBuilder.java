@@ -10,17 +10,14 @@ import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.labelimage.LabelImage;
-import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.hangman.HangmanSpecificResource;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.SkelGameButtonSize;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.resources.*;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.hangman.HangmanGameScreen;
-import libgdx.screens.implementations.hangmanarena.HangmanArenaGameScreen;
+import libgdx.implementations.screens.implementations.hangmanarena.HangmanArenaGameScreen;
 import libgdx.utils.EnumUtils;
 import org.apache.commons.lang3.StringUtils;
 

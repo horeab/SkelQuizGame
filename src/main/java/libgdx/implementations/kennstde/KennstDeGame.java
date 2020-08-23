@@ -6,7 +6,7 @@ import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.kennstde.KennstDeScreenManager;
+import libgdx.implementations.screens.implementations.kennstde.KennstDeScreenManager;
 
 public class KennstDeGame extends CampaignGame<AppInfoService,
         KennstDeMainDependencyManager,

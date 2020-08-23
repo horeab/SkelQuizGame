@@ -3,7 +3,6 @@ package libgdx.implementations.skelgame.gameservice;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 
-import libgdx.constants.Contrast;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
@@ -14,13 +13,12 @@ import libgdx.controls.button.ButtonSize;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
-import libgdx.implementations.geoquiz.QuizQuestionCategoryEnum;
 import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.resources.FontManager;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
-import libgdx.screens.GameScreen;
+import libgdx.implementations.screens.GameScreen;
 
 public abstract class QuizQuestionContainerCreatorService extends QuestionContainerCreatorService<QuizGameService> {
 

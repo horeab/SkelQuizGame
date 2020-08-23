@@ -4,7 +4,7 @@ import java.util.Map;
 
 import libgdx.controls.button.MyButton;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.GameScreen;
+import libgdx.implementations.screens.GameScreen;
 
 public class ImageClickGameCreatorDependencies extends CreatorDependencies {
 

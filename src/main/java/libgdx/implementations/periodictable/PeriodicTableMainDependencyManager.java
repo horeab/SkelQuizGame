@@ -10,7 +10,7 @@ import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.resources.Resource;
 import libgdx.resources.ResourceService;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.periodictable.PeriodicTableScreenManager;
+import libgdx.implementations.screens.implementations.periodictable.PeriodicTableScreenManager;
 import libgdx.transactions.TransactionsService;
 
 public class PeriodicTableMainDependencyManager extends MainDependencyManager<PeriodicTableScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {

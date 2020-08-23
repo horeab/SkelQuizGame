@@ -10,8 +10,7 @@ import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.resources.Resource;
 import libgdx.resources.ResourceService;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.conthistory.ConthistoryScreenManager;
-import libgdx.screens.implementations.judetelerom.JudeteleRomScreenManager;
+import libgdx.implementations.screens.implementations.conthistory.ConthistoryScreenManager;
 import libgdx.transactions.TransactionsService;
 
 public class ConthistoryMainDependencyManager extends MainDependencyManager<ConthistoryScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {

@@ -10,8 +10,7 @@ import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.resources.Resource;
 import libgdx.resources.ResourceService;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.animals.AnimalsScreenManager;
-import libgdx.screens.implementations.hangmanarena.HangmanArenaScreenManager;
+import libgdx.implementations.screens.implementations.animals.AnimalsScreenManager;
 import libgdx.transactions.TransactionsService;
 
 public class AnimalsGameMainDependencyManager extends MainDependencyManager<AnimalsScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {

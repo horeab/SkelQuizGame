@@ -15,10 +15,9 @@ import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.resources.FontManager;
 import libgdx.resources.Res;
-import libgdx.resources.dimen.Dimen;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.hangman.HangmanGameScreen;
+import libgdx.implementations.screens.implementations.hangman.HangmanGameScreen;
 import libgdx.utils.ActorPositionManager;
 import libgdx.utils.ScreenDimensionsManager;
 

@@ -6,8 +6,7 @@ import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.astronomy.AstronomyScreenManager;
-import libgdx.screens.implementations.conthistory.ConthistoryScreenManager;
+import libgdx.implementations.screens.implementations.astronomy.AstronomyScreenManager;
 
 public class AstronomyGame extends CampaignGame<AppInfoService,
         AstronomyMainDependencyManager,

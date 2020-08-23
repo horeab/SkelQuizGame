@@ -6,8 +6,7 @@ import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.flags.FlagsScreenManager;
-import libgdx.screens.implementations.judetelerom.JudeteleRomScreenManager;
+import libgdx.implementations.screens.implementations.flags.FlagsScreenManager;
 
 public class FlagsGame extends CampaignGame<AppInfoService,
         FlagsMainDependencyManager,

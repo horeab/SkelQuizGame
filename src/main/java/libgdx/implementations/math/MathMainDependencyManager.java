@@ -9,7 +9,7 @@ import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.resources.Resource;
 import libgdx.resources.ResourceService;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.math.MathScreenManager;
+import libgdx.implementations.screens.implementations.math.MathScreenManager;
 import libgdx.transactions.TransactionsService;
 
 public class MathMainDependencyManager extends MainDependencyManager<MathScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {

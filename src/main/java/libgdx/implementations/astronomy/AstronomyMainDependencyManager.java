@@ -10,8 +10,7 @@ import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.resources.Resource;
 import libgdx.resources.ResourceService;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.astronomy.AstronomyScreenManager;
-import libgdx.screens.implementations.conthistory.ConthistoryScreenManager;
+import libgdx.implementations.screens.implementations.astronomy.AstronomyScreenManager;
 import libgdx.transactions.TransactionsService;
 
 public class AstronomyMainDependencyManager extends MainDependencyManager<AstronomyScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {

@@ -20,7 +20,7 @@ import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
-import libgdx.screens.GameScreen;
+import libgdx.implementations.screens.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
 
 public class HangmanQuestionContainerCreatorService extends QuestionContainerCreatorService {

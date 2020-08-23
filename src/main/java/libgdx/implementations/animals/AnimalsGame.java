@@ -6,7 +6,7 @@ import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.animals.AnimalsScreenManager;
+import libgdx.implementations.screens.implementations.animals.AnimalsScreenManager;
 
 public class AnimalsGame extends CampaignGame<AppInfoService,
         AnimalsGameMainDependencyManager,

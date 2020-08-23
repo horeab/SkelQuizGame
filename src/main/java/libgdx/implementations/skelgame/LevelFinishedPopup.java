@@ -8,19 +8,13 @@ import libgdx.utils.model.FontColor;
 import org.apache.commons.lang3.StringUtils;
 
 import libgdx.campaign.CampaignLevel;
-import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.popup.MyPopup;
-import libgdx.implementations.skelgame.CampaignScreenManager;
-import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
-import libgdx.implementations.skelgame.gameservice.SinglePlayerLevelFinishedService;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.geoquiz.GeoQuizCampaignScreen;
-import libgdx.screens.implementations.geoquiz.QuizScreenManager;
 
 public class LevelFinishedPopup extends MyPopup<AbstractScreen, CampaignScreenManager> {
 

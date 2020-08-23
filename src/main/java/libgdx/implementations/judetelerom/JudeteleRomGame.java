@@ -6,7 +6,7 @@ import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.judetelerom.JudeteleRomScreenManager;
+import libgdx.implementations.screens.implementations.judetelerom.JudeteleRomScreenManager;
 
 public class JudeteleRomGame extends CampaignGame<AppInfoService,
         JudeteleRomMainDependencyManager,

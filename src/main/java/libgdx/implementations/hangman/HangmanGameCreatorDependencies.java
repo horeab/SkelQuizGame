@@ -6,7 +6,7 @@ import libgdx.controls.button.MyButton;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.Question;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.GameScreen;
+import libgdx.implementations.screens.GameScreen;
 
 import java.util.Map;
 

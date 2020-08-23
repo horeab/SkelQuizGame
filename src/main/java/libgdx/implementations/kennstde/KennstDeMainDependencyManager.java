@@ -9,7 +9,7 @@ import libgdx.implementations.skelgame.SkelGameLabel;
 import libgdx.resources.Resource;
 import libgdx.resources.ResourceService;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.kennstde.KennstDeScreenManager;
+import libgdx.implementations.screens.implementations.kennstde.KennstDeScreenManager;
 import libgdx.transactions.TransactionsService;
 
 public class KennstDeMainDependencyManager extends MainDependencyManager<KennstDeScreenManager, AbstractScreen, SkelGameLabel, Resource, GameIdEnum> {

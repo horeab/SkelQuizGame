@@ -6,7 +6,7 @@ import libgdx.game.Game;
 import libgdx.game.external.AppInfoService;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.screen.AbstractScreen;
-import libgdx.screens.implementations.math.MathScreenManager;
+import libgdx.implementations.screens.implementations.math.MathScreenManager;
 
 public class MathGame extends CampaignGame<AppInfoService,
         MathMainDependencyManager,
