@@ -11,30 +11,46 @@ import java.util.Set;
 
 import libgdx.game.Game;
 import libgdx.implementations.skelgame.gameservice.GameService;
+import libgdx.implementations.skelgame.question.GameAnswerInfo;
 import libgdx.implementations.skelgame.question.Question;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 
 public class CountriesHangmanGameService extends GameService {
-
 
     public static final String STANDARD_LETTERS = "abcdefghijklmnopqrstuvwxyz";
     public static final int GAME_OVER_WRONG_LETTERS = 6;
     private static final List<String> CHARS_TO_BE_IGNORED = Arrays.asList(" ", "-", "'");
     private Set<String> normalizedWordLetters = new HashSet<>();
     private String availableLetters;
-
+    private List<String> possibleAnswers;
 
     public CountriesHangmanGameService(Question question, List<String> possibleAnswers) {
         super(question);
+        this.possibleAnswers = possibleAnswers;
         availableLetters = SpecificPropertiesUtils.getText(Game.getInstance().getAppInfoService().getLanguage() + "_" + Game.getInstance().getGameIdPrefix() + "_available_letters");
         for (String answer : possibleAnswers) {
             normalizedWordLetters.addAll(getNormalizedWordLetters(answer));
         }
     }
 
+    public List<String> getPossibleAnswers() {
+        return possibleAnswers;
+    }
+
     @Override
     public boolean isAnswerCorrectInQuestion(String answer) {
         return true;
+    }
+
+    public List<String> getPressedCorrectAnswers(ArrayList<GameAnswerInfo> pressedAnswers) {
+        String pressedAnswer = getPressedAnswers(pressedAnswers);
+        List<String> correctAnswers = new ArrayList<>();
+        for (String possibleAnswer : possibleAnswers) {
+            if (possibleAnswer.toLowerCase().startsWith(pressedAnswer)) {
+                correctAnswers.add(possibleAnswer);
+            }
+        }
+        return correctAnswers;
     }
 
     private boolean isLetterCorrectInWord(String hangmanWord, String answer) {
@@ -72,10 +88,10 @@ public class CountriesHangmanGameService extends GameService {
         return answerIds.size();
     }
 
-    public String getPressedAnswers(List<String> pressedAnswers) {
+    public String getPressedAnswers(ArrayList<GameAnswerInfo> pressedAnswers) {
         StringBuilder answers = new StringBuilder();
-        for (String answer : pressedAnswers) {
-            answers.append(answer);
+        for (GameAnswerInfo answer : pressedAnswers) {
+            answers.append(answer.getAnswer());
         }
         return answers.toString();
     }
