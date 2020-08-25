@@ -11,6 +11,7 @@ import libgdx.implementations.hangman.HangmanGameCreatorDependencies;
 import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.resources.FontManager;
+import libgdx.resources.dimen.MainDimen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.model.FontColor;
 
@@ -40,9 +41,10 @@ public class CountriesHangmanGameScreen extends GameScreen<CountriesScreenManage
         if (gameContext.getCurrentUserCreatorDependencies() instanceof HangmanGameCreatorDependencies) {
             topPad = ScreenDimensionsManager.getScreenHeightValue(15);
         }
-        allTable.add(createHeaderTable()).width(ScreenDimensionsManager.getScreenWidth()).row();
-        allTable.add(questionContainerCreatorService.createTopCountriesTable()).row();
-        allTable.add(questionContainerCreatorService.getPressedLettersLabel()).row();
+        float margins = MainDimen.vertical_general_margin.getDimen();
+        allTable.add(createHeaderTable()).padBottom(margins / 1.1f).width(ScreenDimensionsManager.getScreenWidth()).row();
+        allTable.add(questionContainerCreatorService.createTopCountriesTable()).padBottom(margins).row();
+        allTable.add(questionContainerCreatorService.getPressedLettersLabel()).padBottom(margins * 1.5f).row();
         allTable.add(answersTable).padTop(-topPad).growY();
         allTable.setFillParent(true);
 

@@ -2,12 +2,16 @@ package libgdx.implementations.countries.hangman;
 
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.utils.NinePatchDrawable;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.geoquiz.QuizGameSpecificResource;
 import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.screens.implementations.countries.CountriesHangmanGameScreen;
 import libgdx.implementations.skelgame.gameservice.GameContext;
@@ -16,6 +20,8 @@ import libgdx.implementations.skelgame.gameservice.HangmanQuestionContainerCreat
 import libgdx.implementations.skelgame.question.GameAnswerInfo;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.resources.FontManager;
+import libgdx.resources.MainResource;
+import libgdx.resources.Res;
 import libgdx.utils.ScreenDimensionsManager;
 
 public class CountriesHangmanQuestionContainerCreatorService extends HangmanQuestionContainerCreatorService {
@@ -30,7 +36,7 @@ public class CountriesHangmanQuestionContainerCreatorService extends HangmanQues
         gameService = (CountriesHangmanGameService) GameServiceContainer.getGameService(gameContext.getQuestion());
         pressedLettersLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setText(" ")
-                .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.2f)).build());
+                .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.7f)).build());
     }
 
     @Override
@@ -44,7 +50,7 @@ public class CountriesHangmanQuestionContainerCreatorService extends HangmanQues
         String pressedAnswers = gameService.getPressedAnswers(new ArrayList<>(gameQuestionInfo.getAnswers()));
         pressedLettersLabel.setText(pressedAnswers);
         if (pressedAnswers.length() > 2) {
-            List<String> pressedCorrectAnswers = gameService.getPressedCorrectAnswers(new ArrayList<>(gameQuestionInfo.getAnswers()));
+            List<String> pressedCorrectAnswers = gameService.getPressedCorrectAnswers(new ArrayList<>(gameQuestionInfo.getAnswers()), foundCountries);
             if (pressedCorrectAnswers.size() == 1) {
                 foundCountries.add(pressedCorrectAnswers.get(0));
                 pressedLettersLabel.setText("");
@@ -82,15 +88,27 @@ public class CountriesHangmanQuestionContainerCreatorService extends HangmanQues
             String countryName = gameService.getPossibleAnswers().get(i - 1);
             MyWrappedLabel countryNameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                     .setText(foundCountries.contains(countryName) ? countryName : "")
-                    .setFontScale(FontManager.calculateMultiplierStandardFontSize(fontSize)).build());
+                    .setFontScale(FontManager.calculateMultiplierStandardFontSize(fontSize * 1.3f)).build());
             Table countryContainer = new Table();
+            boolean lastCountryFound = !foundCountries.isEmpty() && foundCountries.get(foundCountries.size() - 1).equals(countryName);
+            Res backgr = lastCountryFound ? MainResource.btn_menu_down : MainResource.btn_lowcolor_up;
+            if (lastCountryFound) {
+                new ActorAnimation(countryNameLabel, getAbstractGameScreen()).animateFastFadeIn();
+            }
+            countryContainer.setBackground(GraphicUtils.getNinePatch(backgr));
             countryContainer.add(topNr).width(ScreenDimensionsManager.getScreenWidthValue(10));
-            countryContainer.add(countryNameLabel).width(ScreenDimensionsManager.getScreenWidthValue(40));
+            countryContainer.add(countryNameLabel).width(ScreenDimensionsManager.getScreenWidthValue(30));
+            countryContainer.add().width(ScreenDimensionsManager.getScreenWidthValue(10));
+            float rowHeight = 3.7f;
             if (i <= CountriesHangmanGameScreen.TOP_COUNTRIES_TO_BE_FOUND / 2) {
-                firstColumn.add(countryContainer).width(ScreenDimensionsManager.getScreenWidthValue(countryInfoWidth));
+                firstColumn.add(countryContainer)
+                        .height(ScreenDimensionsManager.getScreenHeightValue(rowHeight))
+                        .width(ScreenDimensionsManager.getScreenWidthValue(countryInfoWidth));
                 firstColumn.row();
             } else {
-                secondColumn.add(countryContainer).width(ScreenDimensionsManager.getScreenWidthValue(countryInfoWidth));
+                secondColumn.add(countryContainer)
+                        .height(ScreenDimensionsManager.getScreenHeightValue(rowHeight))
+                        .width(ScreenDimensionsManager.getScreenWidthValue(countryInfoWidth));
                 secondColumn.row();
             }
         }

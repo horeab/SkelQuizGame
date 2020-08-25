@@ -42,11 +42,17 @@ public class CountriesHangmanGameService extends GameService {
         return true;
     }
 
-    public List<String> getPressedCorrectAnswers(ArrayList<GameAnswerInfo> pressedAnswers) {
+    public List<String> getPressedCorrectAnswers(ArrayList<GameAnswerInfo> pressedAnswers, List<String> foundCountries) {
         String pressedAnswer = getPressedAnswers(pressedAnswers);
         List<String> correctAnswers = new ArrayList<>();
-        for (String possibleAnswer : possibleAnswers) {
-            if (possibleAnswer.toLowerCase().startsWith(pressedAnswer)) {
+        List<String> possibleAnswersList = new ArrayList<>(possibleAnswers);
+        possibleAnswersList.removeAll(foundCountries);
+        for (String possibleAnswer : possibleAnswersList) {
+            String posAnsw = possibleAnswer.toLowerCase();
+            for (String charToBeIgnored : CHARS_TO_BE_IGNORED) {
+                posAnsw = posAnsw.replace(charToBeIgnored, "");
+            }
+            if (posAnsw.startsWith(pressedAnswer)) {
                 correctAnswers.add(possibleAnswer);
             }
         }
