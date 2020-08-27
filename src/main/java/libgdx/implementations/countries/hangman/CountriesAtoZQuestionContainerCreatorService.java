@@ -9,7 +9,6 @@ import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.screens.GameScreen;
-import libgdx.implementations.screens.implementations.countries.CountriesHangmanGameScreen;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameServiceContainer;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
@@ -72,7 +71,7 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
             MyWrappedLabel countryNameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                     .setWidth(countryLabelWidth)
                     .setText(getCountryForFirstLetter(letter))
-                    .setFontScale(FontManager.calculateMultiplierStandardFontSize(fontSize * 1.3f)).build());
+                    .setFontScale(FontManager.calculateMultiplierStandardFontSize(fontSize)).build());
             Table countryContainer = new Table();
             boolean lastCountryFound = !foundCountries.isEmpty() && foundCountries.get(foundCountries.size() - 1).substring(0, 1).toLowerCase().equals(letter.toLowerCase());
             Res backgr = lastCountryFound ? MainResource.btn_menu_down : MainResource.btn_lowcolor_up;
@@ -83,8 +82,8 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
             countryContainer.add(topNr).width(ScreenDimensionsManager.getScreenWidthValue(10));
             countryContainer.add(countryNameLabel.fitToContainer()).width(countryLabelWidth);
             countryContainer.add().width(ScreenDimensionsManager.getScreenWidthValue(10));
-            float rowHeight = 3.7f;
-            if (i <= startingLetters.size() / 2) {
+            float rowHeight = 3f;
+            if (i < startingLetters.size() / 2) {
                 firstColumn.add(countryContainer)
                         .height(ScreenDimensionsManager.getScreenHeightValue(rowHeight))
                         .width(ScreenDimensionsManager.getScreenWidthValue(countryInfoWidth));

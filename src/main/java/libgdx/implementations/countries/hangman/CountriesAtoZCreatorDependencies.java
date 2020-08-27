@@ -1,13 +1,16 @@
 package libgdx.implementations.countries.hangman;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import libgdx.controls.button.MyButton;
+import libgdx.implementations.countries.CountriesCategoryEnum;
+import libgdx.implementations.countries.CountriesDifficultyLevel;
 import libgdx.implementations.countries.CountriesGame;
 import libgdx.implementations.countries.CountriesQuestionCreator;
 import libgdx.implementations.screens.GameScreen;
-import libgdx.implementations.screens.implementations.countries.CountriesHangmanGameScreen;
 import libgdx.implementations.skelgame.gameservice.CreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameService;
@@ -26,9 +29,23 @@ public class CountriesAtoZCreatorDependencies extends CreatorDependencies {
         allCountries = CountriesGame.getInstance().getSubGameDependencyManager().getAllCountries();
     }
 
+    public List<Question> getQuestions() {
+        List<Question> questions = new ArrayList<>();
+        CountriesDifficultyLevel difficultyLevelToCreate = CountriesDifficultyLevel._0;
+        CountriesCategoryEnum categoryEnum = CountriesCategoryEnum.cat1;
+        int ind = 0;
+        for (String country : allCountries) {
+            questions.add(new Question(ind, difficultyLevelToCreate, categoryEnum, country));
+            ind++;
+        }
+        return questions;
+    }
+
     @Override
     public GameService getGameService(Question question) {
-        return new CountriesAtoZGameService(question, allCountries.subList(0, CountriesHangmanGameScreen.TOP_COUNTRIES_TO_BE_FOUND));
+        HashMap<Integer, List<String>> q = new HashMap<>();
+        q.put(0, allCountries);
+        return new CountriesAtoZGameService(question, allCountries, q);
     }
 
     @Override
@@ -38,7 +55,7 @@ public class CountriesAtoZCreatorDependencies extends CreatorDependencies {
 
     @Override
     public RefreshQuestionDisplayService getRefreshQuestionDisplayService(AbstractScreen screen, GameContext gameContext, Map<String, MyButton> allAnswerButtons) {
-        return new CountriesHangmanRefreshQuestionDisplayService(screen, gameContext, allAnswerButtons);
+        return new CountriesPressedLettersRefreshQuestionDisplayService(screen, gameContext, allAnswerButtons);
     }
 
     @Override

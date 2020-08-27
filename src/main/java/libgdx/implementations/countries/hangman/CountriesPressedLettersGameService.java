@@ -5,8 +5,10 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import libgdx.game.Game;
@@ -22,19 +24,44 @@ public class CountriesPressedLettersGameService extends GameService {
     private static final List<String> CHARS_TO_BE_IGNORED = Arrays.asList(" ", "-", "'");
     private Set<String> normalizedWordLetters = new HashSet<>();
     private String availableLetters;
-    private List<String> possibleAnswers;
+    private List<String> possibleAnswers = new ArrayList<>();
+    private List<String> allCountries;
+    private List<String> possibleAnswersLowerCase = new ArrayList<>();
+    private Integer possAnswersLine;
 
-    public CountriesPressedLettersGameService(Question question, List<String> possibleAnswers) {
+    public CountriesPressedLettersGameService(Question question, List<String> allCountries, HashMap<Integer, List<String>> possibleAnswers) {
         super(question);
-        this.possibleAnswers = possibleAnswers;
+        this.allCountries = allCountries;
+        Map.Entry<Integer, List<String>> firstEntry = possibleAnswers.entrySet().iterator().next();
+        possAnswersLine = firstEntry.getKey();
+        populateCountryNamesFromIndexes(firstEntry.getValue());
         availableLetters = SpecificPropertiesUtils.getText(Game.getInstance().getAppInfoService().getLanguage() + "_" + Game.getInstance().getGameIdPrefix() + "_available_letters");
-        for (String answer : possibleAnswers) {
+        for (String answer : this.possibleAnswers) {
             normalizedWordLetters.addAll(getNormalizedWordLetters(answer));
+            possibleAnswersLowerCase.add(answer.toLowerCase());
         }
+    }
+
+    private void populateCountryNamesFromIndexes(List<String> indexes) {
+        for (String index : indexes) {
+            possibleAnswers.add(getCountryName(Integer.parseInt(index)));
+        }
+    }
+
+    public Integer getPossAnswersLine() {
+        return possAnswersLine;
+    }
+
+    public String getCountryName(int index) {
+        return allCountries.get(index - 1);
     }
 
     public List<String> getPossibleAnswers() {
         return possibleAnswers;
+    }
+
+    public List<String> getPossibleAnswersLowerCase() {
+        return possibleAnswersLowerCase;
     }
 
     @Override

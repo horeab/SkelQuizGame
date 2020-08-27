@@ -7,7 +7,7 @@ import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.screens.GameScreen;
-import libgdx.implementations.screens.implementations.countries.CountriesHangmanGameScreen;
+import libgdx.implementations.screens.implementations.countries.CountriesGameScreen;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameServiceContainer;
 import libgdx.resources.FontManager;
@@ -15,12 +15,12 @@ import libgdx.resources.MainResource;
 import libgdx.resources.Res;
 import libgdx.utils.ScreenDimensionsManager;
 
-public class CountriesHangmanQuestionContainerCreatorService extends CountriesPressedLettersQuestionContainerCreatorService<CountriesHangmanGameService> {
+public class CountriesPopulationAreaNeighbQuestionContainerCreatorService extends CountriesPressedLettersQuestionContainerCreatorService<CountriesPopulationAreaNeighbGameService> {
 
     private static final String TOP_COUNTRIES_TABLE = "TopCountriesTable";
 
-    public CountriesHangmanQuestionContainerCreatorService(GameContext gameContext, GameScreen abstractGameScreen) {
-        super(gameContext, abstractGameScreen, (CountriesHangmanGameService) GameServiceContainer.getGameService(gameContext.getQuestion()));
+    public CountriesPopulationAreaNeighbQuestionContainerCreatorService(GameContext gameContext, GameScreen abstractGameScreen) {
+        super(gameContext, abstractGameScreen, (CountriesPopulationAreaNeighbGameService) GameServiceContainer.getGameService(gameContext.getQuestion()));
     }
 
     @Override
@@ -44,7 +44,7 @@ public class CountriesHangmanQuestionContainerCreatorService extends CountriesPr
         Table firstColumn = new Table();
         Table secondColumn = new Table();
         int countryInfoWidth = 50;
-        for (int i = 1; i <= CountriesHangmanGameScreen.TOP_COUNTRIES_TO_BE_FOUND; i++) {
+        for (int i = 1; i <= gameService.getPossibleAnswers().size(); i++) {
             MyWrappedLabel topNr = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                     .setText("" + i)
                     .setFontScale(FontManager.calculateMultiplierStandardFontSize(fontSize)).build());
@@ -65,7 +65,7 @@ public class CountriesHangmanQuestionContainerCreatorService extends CountriesPr
             countryContainer.add(countryNameLabel.fitToContainer()).width(countryLabelWidth);
             countryContainer.add().width(ScreenDimensionsManager.getScreenWidthValue(10));
             float rowHeight = 3.7f;
-            if (i <= CountriesHangmanGameScreen.TOP_COUNTRIES_TO_BE_FOUND / 2) {
+            if (i <= CountriesGameScreen.TOP_COUNTRIES_TO_BE_FOUND / 2) {
                 firstColumn.add(countryContainer)
                         .height(ScreenDimensionsManager.getScreenHeightValue(rowHeight))
                         .width(ScreenDimensionsManager.getScreenWidthValue(countryInfoWidth));
