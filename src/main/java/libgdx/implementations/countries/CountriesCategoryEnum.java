@@ -1,5 +1,6 @@
 package libgdx.implementations.countries;
 
+import libgdx.implementations.countries.hangman.CountriesAtoZCreatorDependencies;
 import libgdx.implementations.countries.hangman.CountriesHangmanCreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.CreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.DependentQuizGameCreatorDependencies;
@@ -9,7 +10,7 @@ import libgdx.implementations.skelgame.gameservice.UniqueQuizGameCreatorDependen
 public enum CountriesCategoryEnum implements QuizQuestionCategory {
 
     cat0(CountriesHangmanCreatorDependencies.class),
-    cat1(UniqueQuizGameCreatorDependencies.class),
+    cat1(CountriesAtoZCreatorDependencies.class),
     cat2(UniqueQuizGameCreatorDependencies.class),
     cat3(DependentQuizGameCreatorDependencies.class),
     cat4(DependentQuizGameCreatorDependencies.class),
