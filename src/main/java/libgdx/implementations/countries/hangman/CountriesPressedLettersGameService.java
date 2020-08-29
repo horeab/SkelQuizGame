@@ -12,6 +12,7 @@ import java.util.Map;
 import java.util.Set;
 
 import libgdx.game.Game;
+import libgdx.implementations.countries.CountriesCategoryEnum;
 import libgdx.implementations.skelgame.gameservice.GameService;
 import libgdx.implementations.skelgame.question.GameAnswerInfo;
 import libgdx.implementations.skelgame.question.Question;
@@ -28,12 +29,14 @@ public class CountriesPressedLettersGameService extends GameService {
     private List<String> allCountries;
     private List<String> possibleAnswersLowerCase = new ArrayList<>();
     private Integer possAnswersLine;
+    HashMap<Integer, List<String>> questionEntries;
 
-    public CountriesPressedLettersGameService(Question question, List<String> allCountries, HashMap<Integer, List<String>> possibleAnswers) {
+    public CountriesPressedLettersGameService(Question question, List<String> allCountries, HashMap<Integer, List<String>> questionEntries) {
         super(question);
         this.allCountries = allCountries;
-        Map.Entry<Integer, List<String>> firstEntry = possibleAnswers.entrySet().iterator().next();
+        Map.Entry<Integer, List<String>> firstEntry = getQuestionsEntry(questionEntries);
         possAnswersLine = firstEntry.getKey();
+        this.questionEntries = questionEntries;
         populateCountryNamesFromIndexes(firstEntry.getValue());
         availableLetters = SpecificPropertiesUtils.getText(Game.getInstance().getAppInfoService().getLanguage() + "_" + Game.getInstance().getGameIdPrefix() + "_available_letters");
         for (String answer : this.possibleAnswers) {
@@ -42,13 +45,28 @@ public class CountriesPressedLettersGameService extends GameService {
         }
     }
 
+    public List<String> getAllCountries() {
+        return allCountries;
+    }
+
+    public HashMap<Integer, List<String>> getQuestionEntries() {
+        return questionEntries;
+    }
+
+    Map.Entry<Integer, List<String>> getQuestionsEntry(HashMap<Integer, List<String>> questionEntries) {
+        return questionEntries.entrySet().iterator().next();
+    }
+
     private void populateCountryNamesFromIndexes(List<String> indexes) {
         for (String index : indexes) {
             possibleAnswers.add(getCountryName(Integer.parseInt(index)));
         }
+        if (question.getQuestionCategory() == CountriesCategoryEnum.cat3) {
+            Collections.sort(possibleAnswers);
+        }
     }
 
-    public Integer getPossAnswersLine() {
+    public Integer getQuestionIndex() {
         return possAnswersLine;
     }
 
