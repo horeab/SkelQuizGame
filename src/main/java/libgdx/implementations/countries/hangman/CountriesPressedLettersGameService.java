@@ -26,6 +26,7 @@ public class CountriesPressedLettersGameService extends GameService {
     private Set<String> normalizedWordLetters = new HashSet<>();
     private String availableLetters;
     private List<String> possibleAnswers = new ArrayList<>();
+    private List<String> possibleAnswersRaw = new ArrayList<>();
     private List<String> allCountries;
     private List<String> possibleAnswersLowerCase = new ArrayList<>();
     private Integer possAnswersLine;
@@ -37,7 +38,7 @@ public class CountriesPressedLettersGameService extends GameService {
         Map.Entry<Integer, List<String>> firstEntry = getQuestionsEntry(questionEntries);
         possAnswersLine = firstEntry.getKey();
         this.questionEntries = questionEntries;
-        populateCountryNamesFromIndexes(firstEntry.getValue());
+        populatePossibleAnswersFromIndexes(firstEntry.getValue());
         availableLetters = SpecificPropertiesUtils.getText(Game.getInstance().getAppInfoService().getLanguage() + "_" + Game.getInstance().getGameIdPrefix() + "_available_letters");
         for (String answer : this.possibleAnswers) {
             normalizedWordLetters.addAll(getNormalizedWordLetters(answer));
@@ -57,13 +58,19 @@ public class CountriesPressedLettersGameService extends GameService {
         return questionEntries.entrySet().iterator().next();
     }
 
-    private void populateCountryNamesFromIndexes(List<String> indexes) {
+    private void populatePossibleAnswersFromIndexes(List<String> indexes) {
         for (String index : indexes) {
-            possibleAnswers.add(getCountryName(Integer.parseInt(index)));
+            String countryName = getCountryName(Integer.parseInt(index));
+            possibleAnswers.add(countryName);
         }
-        if (question.getQuestionCategory() == CountriesCategoryEnum.cat3) {
+        possibleAnswersRaw = new ArrayList<>(possibleAnswers);
+        if (question.getQuestionCategory() == CountriesCategoryEnum.cat2) {
             Collections.sort(possibleAnswers);
         }
+    }
+
+    public List<String> getPossibleAnswersRaw() {
+        return possibleAnswersRaw;
     }
 
     public Integer getQuestionIndex() {

@@ -27,7 +27,7 @@ public class CountriesPopulationAreaNeighbQuestionContainerCreatorService extend
         int countryInfoWidth = 50;
         for (int i = 1; i <= gameService.getPossibleAnswers().size(); i++) {
             String countryName = gameService.getPossibleAnswers().get(i - 1);
-            Table countryContainer = super.createCountryTopTable(foundCountries.contains(countryName) ? countryName : " ", i + "");
+            Table countryContainer = super.createCountryTopTable(foundCountries.contains(countryName) ? countryName : " ", i + "", " ");
             float rowHeight = 3.7f;
             if (i <= CountriesGameScreen.TOP_COUNTRIES_TO_BE_FOUND / 2) {
                 firstColumn.add(countryContainer)

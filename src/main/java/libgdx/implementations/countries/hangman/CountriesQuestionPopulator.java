@@ -2,7 +2,6 @@ package libgdx.implementations.countries.hangman;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -12,7 +11,6 @@ import java.util.TreeMap;
 import libgdx.implementations.countries.CountriesCategoryEnum;
 import libgdx.implementations.countries.CountriesDifficultyLevel;
 import libgdx.implementations.countries.CountriesQuestionCreator;
-import libgdx.implementations.screens.implementations.countries.CountriesGameScreen;
 
 public class CountriesQuestionPopulator {
 
@@ -20,7 +18,7 @@ public class CountriesQuestionPopulator {
     private List<String> allCountries;
     private CountriesCategoryEnum categoryEnum;
 
-    private static final int CATEG_0_QUESTIONS_NR = 20;
+    private static final int CATEG_0_1_QUESTIONS_NR = 20;
     private static final int CATEG_3_QUESTIONS_NR = 5;
 
     public CountriesQuestionPopulator(List<String> allCountries, CountriesCategoryEnum categoryEnum) {
@@ -34,24 +32,49 @@ public class CountriesQuestionPopulator {
 
     public HashMap<Integer, List<String>> getQuestions() {
         HashMap<Integer, List<String>> q = new HashMap<>();
-        if (categoryEnum == CountriesCategoryEnum.cat0) {
-            getCat0(q);
+        if (categoryEnum == CountriesCategoryEnum.cat0 || categoryEnum == CountriesCategoryEnum.cat1) {
+            getCat01(q);
+        } else if (categoryEnum == CountriesCategoryEnum.cat2) {
+            getCat2(q);
         } else if (categoryEnum == CountriesCategoryEnum.cat3) {
             sortCat3Q(getCat3(q));
         }
         return q;
     }
 
-    private HashMap<Integer, List<String>> getCat0(HashMap<Integer, List<String>> q) {
+    private HashMap<Integer, List<String>> getCat2(HashMap<Integer, List<String>> q) {
+        List<String> azCountries = new ArrayList<>();
+        q.put(0, azCountries);
+        int i = 1;
+        for (String country : allCountries) {
+            boolean isValidC = true;
+            for (String c : azCountries) {
+                String addedC = allCountries.get(Integer.parseInt(c) - 1);
+                if (addedC.substring(0, 1).equals(country.substring(0, 1))) {
+                    if (addedC.substring(addedC.length() - 1).equals(country.substring(country.length() - 1))) {
+                        break;
+                    }
+                    isValidC = false;
+                    break;
+                }
+            }
+            if (isValidC) {
+                azCountries.add(String.valueOf(i));
+            }
+            i++;
+        }
+        return q;
+    }
+
+    private HashMap<Integer, List<String>> getCat01(HashMap<Integer, List<String>> q) {
         CountriesDifficultyLevel difficultyLevelToCreate = CountriesDifficultyLevel._0;
-        CountriesCategoryEnum categoryEnum = CountriesCategoryEnum.cat0;
         Scanner scanner = new Scanner(questionCreator.getFileText(difficultyLevelToCreate, categoryEnum));
         int i = 0;
         List<String> topCountries = new ArrayList<>();
         q.put(0, topCountries);
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
-            if (i < CATEG_0_QUESTIONS_NR) {
+            if (i < CATEG_0_1_QUESTIONS_NR) {
                 topCountries.add(line.split(":")[0]);
             }
             i++;
@@ -62,7 +85,6 @@ public class CountriesQuestionPopulator {
     private HashMap<Integer, List<String>> getCat3(HashMap<Integer, List<String>> q) {
         List<Integer> excludeCountries = Arrays.asList(6, 8, 15, 16);
         CountriesDifficultyLevel difficultyLevelToCreate = CountriesDifficultyLevel._0;
-        CountriesCategoryEnum categoryEnum = CountriesCategoryEnum.cat3;
         Scanner scanner = new Scanner(questionCreator.getFileText(difficultyLevelToCreate, categoryEnum));
         Map<Integer, List<String>> c = new TreeMap<>();
         while (scanner.hasNextLine()) {

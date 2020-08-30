@@ -111,17 +111,21 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
 
     public Table createAllGameView() {
         Table table = new Table();
+        table.setFillParent(true);
         table.setName(ALL_GAME_VIEW);
         addAllGameContainers(table);
         return table;
     }
 
-    public Table createCountryTopTable(String countryName, String topText) {
+    public Table createCountryTopTable(String countryName, String topText, String endText) {
         float fontSize = 0.9f;
         Table countryContainer = new Table();
         countriesTop.add(countryContainer);
         MyWrappedLabel topNr = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setText(topText.toUpperCase())
+                .setFontScale(FontManager.calculateMultiplierStandardFontSize(fontSize)).build());
+        MyWrappedLabel endNr = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setText(endText)
                 .setFontScale(FontManager.calculateMultiplierStandardFontSize(fontSize)).build());
         float countryLabelWidth = ScreenDimensionsManager.getScreenWidthValue(30);
         MyWrappedLabel countryNameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
@@ -137,7 +141,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         countryContainer.setBackground(GraphicUtils.getNinePatch(backgr));
         countryContainer.add(topNr).width(ScreenDimensionsManager.getScreenWidthValue(10));
         countryContainer.add(countryNameLabel.fitToContainer()).width(countryLabelWidth);
-        countryContainer.add().width(ScreenDimensionsManager.getScreenWidthValue(10));
+        countryContainer.add(endNr).width(ScreenDimensionsManager.getScreenWidthValue(10));
         return countryContainer;
     }
 
@@ -145,6 +149,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         float margins = MainDimen.vertical_general_margin.getDimen();
         table.add(createHeaderTable()).padBottom(margins / 1.1f).width(ScreenDimensionsManager.getScreenWidth()).row();
         table.add(createTopCountriesTable()).padBottom(margins).row();
+        table.add().growY().row();
         Table pressedLettersTable = new Table();
         pressedLettersTable.add(getPressedLettersLabel());
         FontConfig fontConfig = new FontConfig(Color.RED);
@@ -161,12 +166,11 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         clearPressedBtn.setVisible(false);
         table.add(pressedLettersTable).padBottom(margins * 1.5f).row();
         Table answerOptionsTable = createAnswerOptionsTable();
-        table.add(answerOptionsTable).growY();
+        table.add(answerOptionsTable);
     }
 
     public Table createHeaderTable() {
         Table table = new Table();
-
         MyWrappedLabel categLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setText(getCategText())
                 .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.1f)).build());
@@ -217,7 +221,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         if (countdownAmountMillis.getValue() <= 0) {
             qOver = true;
             displayAllCountryNames();
-        } else if (gameService.getPossibleAnswers().size() == foundCountries.size()) {
+        } else if (allCountriesFound()) {
             qOver = true;
             greenBackgroundCountries();
         }
@@ -241,6 +245,10 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         }
     }
 
+    public boolean allCountriesFound() {
+        return gameService.getPossibleAnswers().size() == foundCountries.size();
+    }
+
     private void displayAllCountryNames() {
         int i = 0;
         for (Table table : countriesTop) {
@@ -248,11 +256,15 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
             MainResource backgr = getCorrectAnswBackgr();
             if (StringUtils.isBlank(label.getText())) {
                 backgr = MainResource.btn_lowcolor_down;
-                label.setText(gameService.getPossibleAnswers().get(i));
+                label.setText(getCorrectAnswerLevelFinished(i));
             }
             table.setBackground(GraphicUtils.getNinePatch(backgr));
             i++;
         }
+    }
+
+    public String getCorrectAnswerLevelFinished(int i) {
+        return gameService.getPossibleAnswers().get(i);
     }
 
     private void greenBackgroundCountries() {
