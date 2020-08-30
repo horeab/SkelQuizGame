@@ -36,7 +36,7 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
 
     @Override
     public int getCounterSeconds() {
-        return Math.round(startingLettersOfCountries.size() * 10f);
+        return Math.round(startingLettersOfCountries.size() * 1f);
     }
 
     @Override
@@ -46,11 +46,11 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
         Table secondColumn = new Table();
         int countryInfoWidth = 50;
         int i = 0;
+        float rowHeight = 3.2f;
         for (String letter : startingLettersOfCountries) {
             String countryForFirstLetter = getCountryForFirstLetter(letter);
             Table countryContainer = createCountryTopTable(getCountryToDisplay(letter), letter,
                     countryForFirstLetter.substring(countryForFirstLetter.length() - 1));
-            float rowHeight = 3f;
             if (i < startingLettersOfCountries.size() / 2) {
                 firstColumn.add(countryContainer)
                         .height(ScreenDimensionsManager.getScreenHeightValue(rowHeight))
@@ -66,6 +66,11 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
         }
         table.add(firstColumn);
         table.add(secondColumn);
+    }
+
+    @Override
+    public float getCountryContainerFontsize() {
+        return super.getCountryContainerFontsize() * 1.2f;
     }
 
     @Override

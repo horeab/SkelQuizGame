@@ -1,12 +1,11 @@
 package libgdx.implementations.screens.implementations.countries;
 
-import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 import libgdx.campaign.CampaignLevel;
 import libgdx.implementations.conthistory.ConthistoryCampaignLevelEnum;
-import libgdx.implementations.countries.hangman.CountriesHangmanCreatorDependencies;
+import libgdx.implementations.countries.CountriesCategoryEnum;
+import libgdx.implementations.countries.CountriesDifficultyLevel;
 import libgdx.implementations.skelgame.CampaignScreenManager;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
@@ -16,12 +15,10 @@ public class CountriesScreenManager extends CampaignScreenManager {
 
     @Override
     public void showMainScreen() {
-        List<Question> questions = new ArrayList<>();
-        questions.addAll(new CountriesHangmanCreatorDependencies().getPopulationQuestions());
-        Collections.shuffle(questions);
+        Question question = new Question(0, CountriesDifficultyLevel._0, CountriesCategoryEnum.cat2, "");
 //        questions = questions.subList(0, 65);
-        GameContext gameContext = new GameContextService().createGameContext(questions.toArray(new Question[questions.size()]));
-        showCampaignGameScreen(gameContext, ConthistoryCampaignLevelEnum.LEVEL_0_0);
+        GameContext gameContext = new GameContextService().createGameContext(Collections.singletonList(question));
+        showCampaignGameScreen(gameContext, ConthistoryCampaignLevelEnum.LEVEL_0_2);
 //        showCampaignScreen();
     }
 

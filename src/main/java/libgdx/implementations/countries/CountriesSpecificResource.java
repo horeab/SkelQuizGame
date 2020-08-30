@@ -11,6 +11,8 @@ public enum CountriesSpecificResource implements SpecificResource {
 
     // @formatter:off
     specific_labels("labels/labels", I18NBundle.class),
+
+    moving_background("moving_background.png", Texture.class),
     ;
 
     // @formatter:on

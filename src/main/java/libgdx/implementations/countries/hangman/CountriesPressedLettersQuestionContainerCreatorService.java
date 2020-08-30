@@ -41,7 +41,6 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
 
     private static final String TOP_COUNTRIES_TABLE = "TopCountriesTable";
     private static final String ALL_GAME_VIEW = "ALL_GAME_VIEW";
-    public static final String COUNTRY_NAME_LABEL = "countryNameLabel";
     private MyWrappedLabel pressedLettersLabel;
     List<String> foundCountries = new ArrayList<>();
     private MutableLong countdownAmountMillis;
@@ -118,7 +117,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     }
 
     public Table createCountryTopTable(String countryName, String topText, String endText) {
-        float fontSize = 0.9f;
+        float fontSize = getCountryContainerFontsize();
         Table countryContainer = new Table();
         countriesTop.add(countryContainer);
         MyWrappedLabel topNr = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
@@ -132,7 +131,6 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
                 .setWidth(countryLabelWidth)
                 .setText(countryName)
                 .setFontScale(FontManager.calculateMultiplierStandardFontSize(fontSize)).build());
-        countryNameLabel.setName(COUNTRY_NAME_LABEL);
         boolean lastCountryFound = !foundCountries.isEmpty() && foundCountries.get(foundCountries.size() - 1).equals(countryName);
         Res backgr = lastCountryFound ? MainResource.btn_menu_down : MainResource.btn_lowcolor_up;
         if (lastCountryFound) {
@@ -143,6 +141,10 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         countryContainer.add(countryNameLabel.fitToContainer()).width(countryLabelWidth);
         countryContainer.add(endNr).width(ScreenDimensionsManager.getScreenWidthValue(10));
         return countryContainer;
+    }
+
+    public float getCountryContainerFontsize() {
+        return 0.9f;
     }
 
     private void addAllGameContainers(Table table) {
@@ -252,7 +254,8 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     private void displayAllCountryNames() {
         int i = 0;
         for (Table table : countriesTop) {
-            MyWrappedLabel label = table.findActor(COUNTRY_NAME_LABEL);
+            //the country text is displayed in the second label
+            MyWrappedLabel label = (MyWrappedLabel) table.getChildren().get(1);
             MainResource backgr = getCorrectAnswBackgr();
             if (StringUtils.isBlank(label.getText())) {
                 backgr = MainResource.btn_lowcolor_down;
