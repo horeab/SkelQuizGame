@@ -36,7 +36,7 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
 
     @Override
     public int getCounterSeconds() {
-        return Math.round(startingLettersOfCountries.size() * 1f);
+        return Math.round(startingLettersOfCountries.size() * 10f);
     }
 
     @Override
@@ -44,13 +44,13 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
         super.fillCountriesTopTable(table);
         Table firstColumn = new Table();
         Table secondColumn = new Table();
-        int countryInfoWidth = 50;
+        int countryInfoWidth = 45;
         int i = 0;
         float rowHeight = 3.2f;
         for (String letter : startingLettersOfCountries) {
             String countryForFirstLetter = getCountryForFirstLetter(letter);
             Table countryContainer = createCountryTopTable(getCountryToDisplay(letter), letter,
-                    countryForFirstLetter.substring(countryForFirstLetter.length() - 1));
+                    countryForFirstLetter.substring(countryForFirstLetter.length() - 1),countryInfoWidth);
             if (i < startingLettersOfCountries.size() / 2) {
                 firstColumn.add(countryContainer)
                         .height(ScreenDimensionsManager.getScreenHeightValue(rowHeight))
@@ -65,6 +65,7 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
             i++;
         }
         table.add(firstColumn);
+        table.add().width(100 - countryInfoWidth * 2);
         table.add(secondColumn);
     }
 
@@ -81,11 +82,6 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
             }
         }
         return "";
-    }
-
-    @Override
-    public boolean allCountriesFound() {
-        return startingLettersOfCountries.size() == foundCountries.size();
     }
 
     private String getCountryToDisplay(String firstLetter) {

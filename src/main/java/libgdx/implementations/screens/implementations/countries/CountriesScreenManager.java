@@ -15,10 +15,10 @@ public class CountriesScreenManager extends CampaignScreenManager {
 
     @Override
     public void showMainScreen() {
-        Question question = new Question(0, CountriesDifficultyLevel._0, CountriesCategoryEnum.cat2, "");
+        Question question = new Question(0, CountriesDifficultyLevel._0, CountriesCategoryEnum.cat3, "");
 //        questions = questions.subList(0, 65);
         GameContext gameContext = new GameContextService().createGameContext(Collections.singletonList(question));
-        showCampaignGameScreen(gameContext, ConthistoryCampaignLevelEnum.LEVEL_0_2);
+        showCampaignGameScreen(gameContext, ConthistoryCampaignLevelEnum.LEVEL_0_3);
 //        showCampaignScreen();
     }
 

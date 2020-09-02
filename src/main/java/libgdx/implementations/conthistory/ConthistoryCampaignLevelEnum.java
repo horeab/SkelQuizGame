@@ -9,6 +9,7 @@ public enum ConthistoryCampaignLevelEnum implements CampaignLevel {
     LEVEL_0_2,
     LEVEL_0_3,
     LEVEL_0_4,
+    LEVEL_0_5,
     ;
     ////;
 

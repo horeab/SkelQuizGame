@@ -58,7 +58,7 @@ public class CountriesGameScreen extends GameScreen<CountriesScreenManager> {
         table.setFillParent(true);
         table.add().growY().row();
         CountriesPressedLettersQuestionContainerCreatorService questionContainerCreatorService = null;
-        if (Arrays.asList(CountriesCategoryEnum.cat0, CountriesCategoryEnum.cat1, CountriesCategoryEnum.cat3)
+        if (Arrays.asList(CountriesCategoryEnum.cat0, CountriesCategoryEnum.cat1, CountriesCategoryEnum.cat3, CountriesCategoryEnum.cat4, CountriesCategoryEnum.cat5)
                 .contains(campaignLevelEnumService.getCategoryEnum())) {
             questionContainerCreatorService = new CountriesPopulationAreaNeighbQuestionContainerCreatorService(gameContext, this);
         } else if (campaignLevelEnumService.getCategoryEnum() == CountriesCategoryEnum.cat2) {
@@ -69,7 +69,7 @@ public class CountriesGameScreen extends GameScreen<CountriesScreenManager> {
     }
 
     private void createBackground() {
-        int scrollSpeed = 55;
+        int scrollSpeed = 5;
         Image image1 = GraphicUtils.getImage(CountriesSpecificResource.moving_background);
         image1.setY(0);
         image1.setFillParent(true);
@@ -89,7 +89,6 @@ public class CountriesGameScreen extends GameScreen<CountriesScreenManager> {
             public void executeOperations() {
                 animateMoveUp(amount, actor);
                 int screenHeight = ScreenDimensionsManager.getScreenHeight();
-                System.out.println(actor.getY() + "");
                 if (actor.getY() > screenHeight) {
                     actor.setY(-screenHeight);
                 }

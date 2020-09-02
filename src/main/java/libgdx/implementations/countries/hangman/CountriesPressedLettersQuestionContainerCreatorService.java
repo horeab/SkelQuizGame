@@ -116,7 +116,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         return table;
     }
 
-    public Table createCountryTopTable(String countryName, String topText, String endText) {
+    public Table createCountryTopTable(String countryName, String topText, String endText, int width) {
         float fontSize = getCountryContainerFontsize();
         Table countryContainer = new Table();
         countriesTop.add(countryContainer);
@@ -126,7 +126,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         MyWrappedLabel endNr = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setText(endText)
                 .setFontScale(FontManager.calculateMultiplierStandardFontSize(fontSize)).build());
-        float countryLabelWidth = ScreenDimensionsManager.getScreenWidthValue(30);
+        float countryLabelWidth = ScreenDimensionsManager.getScreenWidthValue(width / 1.7f);
         MyWrappedLabel countryNameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setWidth(countryLabelWidth)
                 .setText(countryName)
@@ -137,9 +137,9 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
             new ActorAnimation(countryNameLabel, getAbstractGameScreen()).animateFastFadeIn();
         }
         countryContainer.setBackground(GraphicUtils.getNinePatch(backgr));
-        countryContainer.add(topNr).width(ScreenDimensionsManager.getScreenWidthValue(10));
+        countryContainer.add(topNr).width(ScreenDimensionsManager.getScreenWidthValue(width / 5f));
         countryContainer.add(countryNameLabel.fitToContainer()).width(countryLabelWidth);
-        countryContainer.add(endNr).width(ScreenDimensionsManager.getScreenWidthValue(10));
+        countryContainer.add(endNr).width(ScreenDimensionsManager.getScreenWidthValue(width / 5f));
         return countryContainer;
     }
 
@@ -247,8 +247,8 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         }
     }
 
-    public boolean allCountriesFound() {
-        return gameService.getPossibleAnswers().size() == foundCountries.size();
+    private boolean allCountriesFound() {
+        return countriesTop.size() == foundCountries.size();
     }
 
     private void displayAllCountryNames() {

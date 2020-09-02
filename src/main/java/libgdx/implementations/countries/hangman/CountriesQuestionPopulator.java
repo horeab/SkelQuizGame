@@ -20,6 +20,8 @@ public class CountriesQuestionPopulator {
 
     private static final int CATEG_0_1_QUESTIONS_NR = 20;
     private static final int CATEG_3_QUESTIONS_NR = 5;
+    private static final int CATEG_4_5_MIN_QUESTIONS_NR = 20;
+    private static final int CATEG_4_5_QUESTIONS_NR = 5;
 
     public CountriesQuestionPopulator(List<String> allCountries, CountriesCategoryEnum categoryEnum) {
         this.allCountries = allCountries;
@@ -33,17 +35,40 @@ public class CountriesQuestionPopulator {
     public HashMap<Integer, List<String>> getQuestions() {
         HashMap<Integer, List<String>> q = new HashMap<>();
         if (categoryEnum == CountriesCategoryEnum.cat0 || categoryEnum == CountriesCategoryEnum.cat1) {
-            getCat01(q);
+            getCat0_1(q);
         } else if (categoryEnum == CountriesCategoryEnum.cat2) {
             getCat2(q);
         } else if (categoryEnum == CountriesCategoryEnum.cat3) {
             sortCat3Q(getCat3(q));
+        } else if (categoryEnum == CountriesCategoryEnum.cat4 || categoryEnum == CountriesCategoryEnum.cat5) {
+            getCat4_5(q);
+        }
+        return q;
+    }
+
+    private HashMap<Integer, List<String>> getCat4_5(HashMap<Integer, List<String>> q) {
+        CountriesDifficultyLevel difficultyLevelToCreate = CountriesDifficultyLevel._0;
+        Scanner scanner = new Scanner(questionCreator.getFileText(difficultyLevelToCreate, categoryEnum));
+        Map<Integer, List<String>> c = new TreeMap<>();
+        while (scanner.hasNextLine()) {
+            String line = scanner.nextLine();
+            c.put(Integer.parseInt(line.split(":")[0]), Arrays.asList(line.split(":")[1].split(",")));
+        }
+        int qAdded = 0;
+        for (Map.Entry<Integer, List<String>> e : c.entrySet()) {
+            if (qAdded < CATEG_4_5_QUESTIONS_NR) {
+                q.put(e.getKey(), e.getValue());
+                qAdded++;
+            } else if (qAdded == CATEG_4_5_QUESTIONS_NR) {
+                break;
+            }
         }
         return q;
     }
 
     private HashMap<Integer, List<String>> getCat2(HashMap<Integer, List<String>> q) {
         List<String> azCountries = new ArrayList<>();
+        List<Integer> excludeIndexes = Arrays.asList(3, 12, 16, 17);
         q.put(0, azCountries);
         int i = 1;
         for (String country : allCountries) {
@@ -58,7 +83,7 @@ public class CountriesQuestionPopulator {
                     break;
                 }
             }
-            if (isValidC) {
+            if (isValidC && !excludeIndexes.contains(i)) {
                 azCountries.add(String.valueOf(i));
             }
             i++;
@@ -66,7 +91,7 @@ public class CountriesQuestionPopulator {
         return q;
     }
 
-    private HashMap<Integer, List<String>> getCat01(HashMap<Integer, List<String>> q) {
+    private HashMap<Integer, List<String>> getCat0_1(HashMap<Integer, List<String>> q) {
         CountriesDifficultyLevel difficultyLevelToCreate = CountriesDifficultyLevel._0;
         Scanner scanner = new Scanner(questionCreator.getFileText(difficultyLevelToCreate, categoryEnum));
         int i = 0;

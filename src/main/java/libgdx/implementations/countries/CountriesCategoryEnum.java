@@ -13,8 +13,8 @@ public enum CountriesCategoryEnum implements QuizQuestionCategory {
     cat1(CountriesPopulationAreaNeighbCreatorDependencies.class),
     cat2(CountriesAtoZCreatorDependencies.class),
     cat3(CountriesPopulationAreaNeighbCreatorDependencies.class),
-    cat4(DependentQuizGameCreatorDependencies.class),
-    cat5(UniqueQuizGameCreatorDependencies.class),
+    cat4(CountriesPopulationAreaNeighbCreatorDependencies.class),
+    cat5(CountriesPopulationAreaNeighbCreatorDependencies.class),
     ;
 
     private Class<? extends CreatorDependencies> questionCreator;
