@@ -32,8 +32,19 @@ public class CountriesQuestionPopulator {
         return categoryEnum;
     }
 
-    public HashMap<Integer, List<String>> getQuestions() {
-        HashMap<Integer, List<String>> q = new HashMap<>();
+    public HashMap<Integer, List<String>> getSynonyms() {
+        Scanner scanner = new Scanner(new CountriesQuestionCreator().getSynonymsFileText());
+        HashMap<Integer, List<String>> syn = new HashMap<>();
+        while (scanner.hasNextLine()) {
+            String line = scanner.nextLine();
+            String[] split = line.split(":");
+            syn.put(Integer.parseInt(split[0]), Arrays.asList(split[1].split(",")));
+        }
+        return syn;
+    }
+
+    public HashMap<Integer, List<Integer>> getQuestions() {
+        HashMap<Integer, List<Integer>> q = new HashMap<>();
         if (categoryEnum == CountriesCategoryEnum.cat0 || categoryEnum == CountriesCategoryEnum.cat1) {
             getCat0_1(q);
         } else if (categoryEnum == CountriesCategoryEnum.cat2) {
@@ -46,16 +57,16 @@ public class CountriesQuestionPopulator {
         return q;
     }
 
-    private HashMap<Integer, List<String>> getCat4_5(HashMap<Integer, List<String>> q) {
+    private HashMap<Integer, List<Integer>> getCat4_5(HashMap<Integer, List<Integer>> q) {
         CountriesDifficultyLevel difficultyLevelToCreate = CountriesDifficultyLevel._0;
         Scanner scanner = new Scanner(questionCreator.getFileText(difficultyLevelToCreate, categoryEnum));
-        Map<Integer, List<String>> c = new TreeMap<>();
+        Map<Integer, List<Integer>> c = new TreeMap<>();
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
-            c.put(Integer.parseInt(line.split(":")[0]), Arrays.asList(line.split(":")[1].split(",")));
+            c.put(Integer.parseInt(line.split(":")[0]), toInt(line.split(":")[1].split(",")));
         }
         int qAdded = 0;
-        for (Map.Entry<Integer, List<String>> e : c.entrySet()) {
+        for (Map.Entry<Integer, List<Integer>> e : c.entrySet()) {
             if (qAdded < CATEG_4_5_QUESTIONS_NR) {
                 q.put(e.getKey(), e.getValue());
                 qAdded++;
@@ -66,15 +77,23 @@ public class CountriesQuestionPopulator {
         return q;
     }
 
-    private HashMap<Integer, List<String>> getCat2(HashMap<Integer, List<String>> q) {
-        List<String> azCountries = new ArrayList<>();
+    private List<Integer> toInt(String... string) {
+        List<Integer> res = new ArrayList<>();
+        for (String s : string) {
+            res.add(Integer.parseInt(s));
+        }
+        return res;
+    }
+
+    private HashMap<Integer, List<Integer>> getCat2(HashMap<Integer, List<Integer>> q) {
+        List<Integer> azCountries = new ArrayList<>();
         List<Integer> excludeIndexes = Arrays.asList(3, 12, 16, 17);
         q.put(0, azCountries);
         int i = 1;
         for (String country : allCountries) {
             boolean isValidC = true;
-            for (String c : azCountries) {
-                String addedC = allCountries.get(Integer.parseInt(c) - 1);
+            for (Integer c : azCountries) {
+                String addedC = allCountries.get(c - 1);
                 if (addedC.substring(0, 1).equals(country.substring(0, 1))) {
                     if (addedC.substring(addedC.length() - 1).equals(country.substring(country.length() - 1))) {
                         break;
@@ -84,40 +103,40 @@ public class CountriesQuestionPopulator {
                 }
             }
             if (isValidC && !excludeIndexes.contains(i)) {
-                azCountries.add(String.valueOf(i));
+                azCountries.add(i);
             }
             i++;
         }
         return q;
     }
 
-    private HashMap<Integer, List<String>> getCat0_1(HashMap<Integer, List<String>> q) {
+    private HashMap<Integer, List<Integer>> getCat0_1(HashMap<Integer, List<Integer>> q) {
         CountriesDifficultyLevel difficultyLevelToCreate = CountriesDifficultyLevel._0;
         Scanner scanner = new Scanner(questionCreator.getFileText(difficultyLevelToCreate, categoryEnum));
         int i = 0;
-        List<String> topCountries = new ArrayList<>();
+        List<Integer> topCountries = new ArrayList<>();
         q.put(0, topCountries);
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
             if (i < CATEG_0_1_QUESTIONS_NR) {
-                topCountries.add(line.split(":")[0]);
+                topCountries.add(Integer.parseInt(line.split(":")[0]));
             }
             i++;
         }
         return q;
     }
 
-    private HashMap<Integer, List<String>> getCat3(HashMap<Integer, List<String>> q) {
+    private HashMap<Integer, List<Integer>> getCat3(HashMap<Integer, List<Integer>> q) {
         List<Integer> excludeCountries = Arrays.asList(6, 8, 15, 16);
         CountriesDifficultyLevel difficultyLevelToCreate = CountriesDifficultyLevel._0;
         Scanner scanner = new Scanner(questionCreator.getFileText(difficultyLevelToCreate, categoryEnum));
-        Map<Integer, List<String>> c = new TreeMap<>();
+        Map<Integer, List<Integer>> c = new TreeMap<>();
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
-            c.put(Integer.parseInt(line.split(":")[0]), Arrays.asList(line.split(":")[1].split(",")));
+            c.put(Integer.parseInt(line.split(":")[0]), toInt(line.split(":")[1].split(",")));
         }
         int qAdded = 0;
-        for (Map.Entry<Integer, List<String>> e : c.entrySet()) {
+        for (Map.Entry<Integer, List<Integer>> e : c.entrySet()) {
             if (qAdded < CATEG_3_QUESTIONS_NR && e.getValue().size() >= 2 && !excludeCountries.contains(e.getKey())) {
                 q.put(e.getKey(), e.getValue());
                 qAdded++;
@@ -128,12 +147,12 @@ public class CountriesQuestionPopulator {
         return q;
     }
 
-    private HashMap<Integer, List<String>> sortCat3Q(HashMap<Integer, List<String>> q) {
+    private HashMap<Integer, List<Integer>> sortCat3Q(HashMap<Integer, List<Integer>> q) {
         Map<Integer, Integer> c = new TreeMap<>();
-        for (Map.Entry<Integer, List<String>> e : q.entrySet()) {
+        for (Map.Entry<Integer, List<Integer>> e : q.entrySet()) {
             c.put(e.getValue().size(), e.getKey());
         }
-        HashMap<Integer, List<String>> res = new HashMap<>();
+        HashMap<Integer, List<Integer>> res = new HashMap<>();
         for (Map.Entry<Integer, Integer> e : c.entrySet()) {
             res.put(e.getKey(), q.get(e.getKey()));
         }

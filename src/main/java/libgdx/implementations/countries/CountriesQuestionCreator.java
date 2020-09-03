@@ -25,6 +25,10 @@ public class CountriesQuestionCreator {
         return Gdx.files.internal(Game.getInstance().getAppInfoService().getImplementationGameResourcesFolder() + "questions/" + getLanguage() + "/countries.txt").readString();
     }
 
+    public String getSynonymsFileText() {
+        return Gdx.files.internal(Game.getInstance().getAppInfoService().getImplementationGameResourcesFolder() + "questions/" + getLanguage() + "/synonyms.txt").readString();
+    }
+
     protected String getLanguage() {
         return Game.getInstance().getAppInfoService().getLanguage();
     }

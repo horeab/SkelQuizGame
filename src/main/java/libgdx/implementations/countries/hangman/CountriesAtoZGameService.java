@@ -11,8 +11,8 @@ import libgdx.implementations.skelgame.question.Question;
 
 public class CountriesAtoZGameService extends CountriesPressedLettersGameService {
 
-    public CountriesAtoZGameService(Question question, List<String> allCountries, HashMap<Integer, List<String>> possibleAnswers) {
-        super(question, allCountries, possibleAnswers);
+    public CountriesAtoZGameService(Question question, List<String> allCountries, HashMap<Integer, List<Integer>> questionEntries, HashMap<Integer, List<String>> synonyms) {
+        super(question, allCountries, questionEntries, new HashMap<>());
     }
 
     @Override
@@ -38,4 +38,5 @@ public class CountriesAtoZGameService extends CountriesPressedLettersGameService
         java.util.Collections.sort(list);
         return list;
     }
+
 }

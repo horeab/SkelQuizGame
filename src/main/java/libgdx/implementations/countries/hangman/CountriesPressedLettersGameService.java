@@ -30,12 +30,20 @@ public class CountriesPressedLettersGameService extends GameService {
     private List<String> allCountries;
     private List<String> possibleAnswersLowerCase = new ArrayList<>();
     private Integer possAnswersLine;
-    HashMap<Integer, List<String>> questionEntries;
+    HashMap<Integer, List<Integer>> questionEntries;
+    HashMap<Integer, List<String>> synonyms;
+    List<String> allSynonymCountries = new ArrayList<>();
 
-    public CountriesPressedLettersGameService(Question question, List<String> allCountries, HashMap<Integer, List<String>> questionEntries) {
+    public CountriesPressedLettersGameService(Question question, List<String> allCountries, HashMap<Integer, List<Integer>> questionEntries, HashMap<Integer, List<String>> synonyms) {
         super(question);
         this.allCountries = allCountries;
-        Map.Entry<Integer, List<String>> firstEntry = getQuestionsEntry(questionEntries);
+        this.synonyms = synonyms;
+        for (Map.Entry<Integer, List<String>> e : synonyms.entrySet()) {
+            for (String c : e.getValue()) {
+                allSynonymCountries.add(c.toLowerCase());
+            }
+        }
+        Map.Entry<Integer, List<Integer>> firstEntry = getQuestionsEntry(questionEntries);
         possAnswersLine = firstEntry.getKey();
         this.questionEntries = questionEntries;
         populatePossibleAnswersFromIndexes(firstEntry.getValue());
@@ -50,17 +58,25 @@ public class CountriesPressedLettersGameService extends GameService {
         return allCountries;
     }
 
-    public HashMap<Integer, List<String>> getQuestionEntries() {
+    public HashMap<Integer, List<Integer>> getQuestionEntries() {
         return questionEntries;
     }
 
-    Map.Entry<Integer, List<String>> getQuestionsEntry(HashMap<Integer, List<String>> questionEntries) {
+    public HashMap<Integer, List<String>> getSynonyms() {
+        return synonyms;
+    }
+
+    public List<String> getAllSynonymCountries() {
+        return allSynonymCountries;
+    }
+
+    Map.Entry<Integer, List<Integer>> getQuestionsEntry(HashMap<Integer, List<Integer>> questionEntries) {
         return questionEntries.entrySet().iterator().next();
     }
 
-    private void populatePossibleAnswersFromIndexes(List<String> indexes) {
-        for (String index : indexes) {
-            String countryName = getCountryName(Integer.parseInt(index));
+    private void populatePossibleAnswersFromIndexes(List<Integer> indexes) {
+        for (Integer index : indexes) {
+            String countryName = getCountryName(index);
             possibleAnswers.add(countryName);
         }
         possibleAnswersRaw = new ArrayList<>(possibleAnswers);
@@ -96,11 +112,16 @@ public class CountriesPressedLettersGameService extends GameService {
 
     public List<String> getPressedCorrectAnswers(ArrayList<GameAnswerInfo> pressedAnswers, List<String> foundCountries) {
         String pressedAnswer = getPressedAnswers(pressedAnswers);
-        List<String> correctAnswers = new ArrayList<>();
+        Set<String> correctAnswers = new HashSet<>();
         List<String> possibleAnswersList = new ArrayList<>(possibleAnswers);
         possibleAnswersList.removeAll(foundCountries);
         for (String possibleAnswer : possibleAnswersList) {
             String posAnsw = possibleAnswer.toLowerCase();
+            int cIndex = allCountries.indexOf(possibleAnswer);
+            boolean synFound = processSynonyms(pressedAnswer, correctAnswers, possibleAnswer, cIndex);
+            if (synFound) {
+                continue;
+            }
             for (String charToBeIgnored : CHARS_TO_BE_IGNORED) {
                 posAnsw = posAnsw.replace(charToBeIgnored, "");
             }
@@ -108,7 +129,22 @@ public class CountriesPressedLettersGameService extends GameService {
                 correctAnswers.add(possibleAnswer);
             }
         }
-        return correctAnswers;
+        return new ArrayList<>(correctAnswers);
+    }
+
+    private boolean processSynonyms(String pressedAnswer, Set<String> correctAnswers, String possibleAnswer, int cIndex) {
+        if (synonyms.containsKey(cIndex + 1)) {
+            for (String syn : synonyms.get(cIndex + 1)) {
+                for (String charToBeIgnored : CHARS_TO_BE_IGNORED) {
+                    syn = syn.replace(charToBeIgnored, "");
+                }
+                if (syn.toLowerCase().startsWith(pressedAnswer)) {
+                    correctAnswers.add(possibleAnswer);
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     private boolean isLetterCorrectInWord(String hangmanWord, String answer) {

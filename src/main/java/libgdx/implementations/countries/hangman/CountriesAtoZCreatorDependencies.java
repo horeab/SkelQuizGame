@@ -28,7 +28,7 @@ public class CountriesAtoZCreatorDependencies extends CreatorDependencies {
     @Override
     public GameService getGameService(Question question) {
         countriesQuestionCreator = new CountriesQuestionPopulator(allCountries, (CountriesCategoryEnum) question.getQuestionCategory());
-        return new CountriesAtoZGameService(question, allCountries, countriesQuestionCreator.getQuestions());
+        return new CountriesAtoZGameService(question, allCountries, countriesQuestionCreator.getQuestions(), countriesQuestionCreator.getSynonyms());
     }
 
     @Override

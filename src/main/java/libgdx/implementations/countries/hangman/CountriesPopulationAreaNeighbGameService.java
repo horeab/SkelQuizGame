@@ -9,15 +9,15 @@ import libgdx.implementations.skelgame.question.Question;
 
 public class CountriesPopulationAreaNeighbGameService extends CountriesPressedLettersGameService {
 
-    public CountriesPopulationAreaNeighbGameService(Question question, List<String> allCountries, HashMap<Integer, List<String>> possibleAnswers) {
-        super(question, allCountries, possibleAnswers);
+    public CountriesPopulationAreaNeighbGameService(Question question, List<String> allCountries, HashMap<Integer, List<Integer>> questionEntries, HashMap<Integer, List<String>> synonyms) {
+        super(question, allCountries, questionEntries,synonyms);
     }
 
     @Override
-    Map.Entry<Integer, List<String>> getQuestionsEntry(HashMap<Integer, List<String>> questionEntries) {
+    Map.Entry<Integer, List<Integer>> getQuestionsEntry(HashMap<Integer, List<Integer>> questionEntries) {
         if (question.getQuestionCategory() == CountriesCategoryEnum.cat3) {
-            Map.Entry<Integer, List<String>> entry = null;
-            for (Map.Entry<Integer, List<String>> e : questionEntries.entrySet()) {
+            Map.Entry<Integer, List<Integer>> entry = null;
+            for (Map.Entry<Integer, List<Integer>> e : questionEntries.entrySet()) {
                 if (entry == null || entry.getValue().size() > e.getValue().size()) {
                     entry = e;
                 }

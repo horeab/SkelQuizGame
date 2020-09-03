@@ -35,8 +35,22 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
     }
 
     @Override
+    public String getCorrectAnswerLevelFinished(int i) {
+        for (String country : gameService.getPossibleAnswersRaw()) {
+            if (country.toLowerCase().startsWith(startingLettersOfCountries.get(i - 1).toLowerCase())) {
+                return country;
+            }
+        }
+        return "";
+    }
+
+    //    @Override
+//    public int getCounterSeconds() {
+//        return Math.round(startingLettersOfCountries.size() * 10f);
+//    }
+    @Override
     public int getCounterSeconds() {
-        return Math.round(startingLettersOfCountries.size() * 10f);
+        return 2;
     }
 
     @Override
@@ -44,13 +58,13 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
         super.fillCountriesTopTable(table);
         Table firstColumn = new Table();
         Table secondColumn = new Table();
-        int countryInfoWidth = 45;
+        float countryInfoWidth = getCountryContainerWidth();
         int i = 0;
         float rowHeight = 3.2f;
         for (String letter : startingLettersOfCountries) {
             String countryForFirstLetter = getCountryForFirstLetter(letter);
-            Table countryContainer = createCountryTopTable(getCountryToDisplay(letter), letter,
-                    countryForFirstLetter.substring(countryForFirstLetter.length() - 1),countryInfoWidth);
+            Table countryContainer = createCountryContainerInGame(getCountryToDisplay(letter), letter,
+                    countryForFirstLetter.substring(countryForFirstLetter.length() - 1), i);
             if (i < startingLettersOfCountries.size() / 2) {
                 firstColumn.add(countryContainer)
                         .height(ScreenDimensionsManager.getScreenHeightValue(rowHeight))
@@ -70,18 +84,8 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
     }
 
     @Override
-    public float getCountryContainerFontsize() {
-        return super.getCountryContainerFontsize() * 1.2f;
-    }
-
-    @Override
-    public String getCorrectAnswerLevelFinished(int i) {
-        for (String country : gameService.getPossibleAnswersRaw()) {
-            if (country.toLowerCase().startsWith(startingLettersOfCountries.get(i).toLowerCase())) {
-                return country;
-            }
-        }
-        return "";
+    public float getCountryContainerWidth() {
+        return 45f;
     }
 
     private String getCountryToDisplay(String firstLetter) {

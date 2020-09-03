@@ -28,7 +28,7 @@ public class CountriesPopulationAreaNeighbCreatorDependencies extends CreatorDep
     @Override
     public GameService getGameService(Question question) {
         countriesQuestionCreator = new CountriesQuestionPopulator(allCountries, (CountriesCategoryEnum) question.getQuestionCategory());
-        return new CountriesPopulationAreaNeighbGameService(question, allCountries, countriesQuestionCreator.getQuestions());
+        return new CountriesPopulationAreaNeighbGameService(question, allCountries, countriesQuestionCreator.getQuestions(), countriesQuestionCreator.getSynonyms());
     }
 
     @Override
