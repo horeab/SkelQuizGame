@@ -22,7 +22,11 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
     @Override
     public void processGameInfo(GameQuestionInfo gameQuestionInfo) {
         super.processGameInfo(gameQuestionInfo);
+    }
 
+    @Override
+    public CountriesAtoZGameService getGameService() {
+        return new CountriesAtoZGameService(gameContext.getQuestion(), gameService.getAllCountries(), gameService.getQuestionEntries(), gameService.getSynonyms());
     }
 
     private String getCountryForFirstLetter(String letter) {

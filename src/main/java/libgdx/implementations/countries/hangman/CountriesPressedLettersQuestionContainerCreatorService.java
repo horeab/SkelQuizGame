@@ -122,9 +122,18 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     public Table createCountryContainerInGame(String countryName, String topText, String endText, int index) {
         Table countryContainer = createCountryContainer(countryName, topText, endText, index);
         boolean lastCountryFound = !foundCountries.isEmpty() && foundCountries.get(foundCountries.size() - 1).equals(countryName);
-        Res backgr = lastCountryFound ? MainResource.btn_menu_down : MainResource.btn_lowcolor_up;
+        final MainResource normalBackground = MainResource.btn_lowcolor_up;
+        Res backgr = lastCountryFound ? MainResource.btn_menu_down : normalBackground;
         if (lastCountryFound) {
             new ActorAnimation(countryContainer.getChildren().get(1), getAbstractGameScreen()).animateFastFadeIn();
+            RunnableAction ra = new RunnableAction();
+            ra.setRunnable(new ScreenRunnable(getAbstractGameScreen()) {
+                @Override
+                public void executeOperations() {
+                    countryContainer.setBackground(GraphicUtils.getNinePatch(normalBackground));
+                }
+            });
+            getAbstractGameScreen().addAction(Actions.sequence(Actions.delay(1), ra));
         }
         countryContainer.setBackground(GraphicUtils.getNinePatch(backgr));
         return countryContainer;
@@ -147,7 +156,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         MyWrappedLabel countryNameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setWidth(countryLabelWidth)
                 .setSingleLineLabel()
-                .setText(toDisplay)
+                .setText(StringUtils.capitalize(toDisplay))
                 .setFontScale(fontScale).build());
         countryNameLabel.setFontScale(getCountryNameFontScale(toDisplay, countryNameLabel.getLabels().get(0).getFontScaleY()));
         countryNameLabel.setEllipsis(countryLabelWidth);
@@ -282,16 +291,20 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
                 public void executeOperations() {
                     Table allGameTable = gameScreen.getRoot().findActor(ALL_GAME_VIEW);
                     allGameTable.clear();
-                    gameService = (TGameService) new CountriesAtoZGameService(gameContext.getQuestion(), gameService.getAllCountries(), gameService.getQuestionEntries(), gameService.getSynonyms());
+                    gameService = getGameService();
                     addAllGameContainers(allGameTable);
                 }
             });
-            gameScreen.addAction(Actions.sequence(Actions.delay(4), ra));
+            gameScreen.addAction(Actions.sequence(Actions.delay(3), ra));
             gameContext.getCurrentUserGameUser().getGameQuestionInfo().getAnswers().clear();
             pressedLettersLabel.setText("");
             foundCountries.clear();
             executorService.shutdown();
         }
+    }
+
+    public TGameService getGameService() {
+        return null;
     }
 
     private boolean allCountriesFound() {
@@ -319,7 +332,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     }
 
     public String getCorrectAnswerLevelFinished(int i) {
-        return  getSynonymNameIfLongOrCountry(gameService.getPossibleAnswers().get(i - 1), i);
+        return getSynonymNameIfLongOrCountry(gameService.getPossibleAnswers().get(i - 1), i);
     }
 
     public String getSynonymNameIfLongOrCountry(String countryName, int index) {
@@ -327,14 +340,13 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         if (synonyms.isEmpty()) {
             return countryName;
         }
-        String name = gameService.getPossibleAnswers().get(index - 1);
-        List<String> syn = synonyms.getOrDefault(gameService.getAllCountries().indexOf(name) + 1, Collections.emptyList());
+        List<String> syn = synonyms.getOrDefault(gameService.getAllCountries().indexOf(countryName) + 1, Collections.emptyList());
         for (String s : syn) {
-            if (name.length() > 22 && s.length() < name.length() && s.length() > 4) {
-                name = s;
+            if (countryName.length() > 22 && s.length() < countryName.length() && s.length() > 4) {
+                countryName = s;
             }
         }
-        return name;
+        return countryName;
     }
 
     private void greenBackgroundCountries() {

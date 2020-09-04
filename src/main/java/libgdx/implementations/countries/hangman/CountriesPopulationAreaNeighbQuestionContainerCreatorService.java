@@ -19,14 +19,20 @@ public class CountriesPopulationAreaNeighbQuestionContainerCreatorService extend
         super(gameContext, abstractGameScreen, (CountriesPopulationAreaNeighbGameService) GameServiceContainer.getGameService(gameContext.getQuestion()));
     }
 
-//    @Override
-//    public int getCounterSeconds() {
-//        return gameService.getPossibleAnswers().size() * 10;
-//    }
-
     @Override
     public int getCounterSeconds() {
-        return 22;
+        return gameService.getPossibleAnswers().size() * 10;
+    }
+
+//    @Override
+//    public int getCounterSeconds() {
+//        return 22;
+//    }
+
+
+    @Override
+    public CountriesPopulationAreaNeighbGameService getGameService() {
+        return new CountriesPopulationAreaNeighbGameService(gameContext.getQuestion(), gameService.getAllCountries(), gameService.getQuestionEntries(), gameService.getSynonyms());
     }
 
     @Override
@@ -42,10 +48,11 @@ public class CountriesPopulationAreaNeighbQuestionContainerCreatorService extend
         super.fillCountriesTopTable(table);
         Table firstColumn = new Table();
         Table secondColumn = new Table();
-        for (int i = 1; i <= gameService.getPossibleAnswers().size(); i++) {
+        int nrOfQuestions = gameService.getPossibleAnswers().size();
+        for (int i = 1; i <= nrOfQuestions; i++) {
             String countryName = gameService.getPossibleAnswers().get(i - 1);
             Table countryContainer = super.createCountryContainerInGame(foundCountries.contains(countryName) ? countryName : " ", i + "", " ", i);
-            addToColumns(firstColumn, secondColumn, i, countryContainer);
+            addToColumns(firstColumn, secondColumn, i, countryContainer, nrOfQuestions);
         }
         table.add(firstColumn);
         table.add(secondColumn);
@@ -57,18 +64,18 @@ public class CountriesPopulationAreaNeighbQuestionContainerCreatorService extend
         Table secondColumn = new Table();
         int nrOfQuestions = Math.min(gameService.getPossibleAnswers().size(), CountriesGameScreen.TOP_COUNTRIES_TO_BE_FOUND);
         for (int i = 1; i <= nrOfQuestions; i++) {
-            String countryName = foundCountries.size() >= i && StringUtils.isNotBlank(foundCountries.get(i - 1)) ? foundCountries.get(i - 1) : " ";
-            Table countryContainer = super.createCountryContainerInGame(countryName, i + "", " ", i);
-            addToColumns(firstColumn, secondColumn, i, countryContainer);
+            String countryName = gameService.getPossibleAnswers().get(i - 1);
+            Table countryContainer = super.createCountryContainerInGame(foundCountries.contains(countryName) ? countryName : " ", i + "", " ", i);
+            addToColumns(firstColumn, secondColumn, i, countryContainer, nrOfQuestions);
         }
         table.add(firstColumn);
         table.add(secondColumn);
     }
 
-    private void addToColumns(Table firstColumn, Table secondColumn, int i, Table countryContainer) {
+    private void addToColumns(Table firstColumn, Table secondColumn, int i, Table countryContainer, int nrOfQuestions) {
         float rowHeight = 4f;
         float countryInfoWidth = getCountryContainerWidth();
-        if (i <= CountriesGameScreen.TOP_COUNTRIES_TO_BE_FOUND / 2) {
+        if (i <= Math.ceil((float) (nrOfQuestions / 2f))) {
             firstColumn.add(countryContainer)
                     .height(ScreenDimensionsManager.getScreenHeightValue(rowHeight))
                     .width(ScreenDimensionsManager.getScreenWidthValue(countryInfoWidth));
