@@ -11,6 +11,7 @@ import java.util.TreeMap;
 import libgdx.implementations.countries.CountriesCategoryEnum;
 import libgdx.implementations.countries.CountriesDifficultyLevel;
 import libgdx.implementations.countries.CountriesQuestionCreator;
+import libgdx.implementations.screens.implementations.countries.CountriesGameScreen;
 
 public class CountriesQuestionPopulator {
 
@@ -18,9 +19,7 @@ public class CountriesQuestionPopulator {
     private List<String> allCountries;
     private CountriesCategoryEnum categoryEnum;
 
-    private static final int CATEG_0_1_QUESTIONS_NR = 20;
     private static final int CATEG_3_QUESTIONS_NR = 5;
-    private static final int CATEG_4_5_MIN_QUESTIONS_NR = 20;
     private static final int CATEG_4_5_QUESTIONS_NR = 5;
 
     public CountriesQuestionPopulator(List<String> allCountries, CountriesCategoryEnum categoryEnum) {
@@ -118,7 +117,7 @@ public class CountriesQuestionPopulator {
         q.put(0, topCountries);
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
-            if (i < CATEG_0_1_QUESTIONS_NR) {
+            if (i < CountriesGameScreen.TOP_COUNTRIES_TO_BE_FOUND) {
                 topCountries.add(Integer.parseInt(line.split(":")[0]));
             }
             i++;

@@ -4,9 +4,6 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.Arrays;
-
-import libgdx.implementations.countries.CountriesCategoryEnum;
 import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.screens.implementations.countries.CountriesGameScreen;
 import libgdx.implementations.skelgame.gameservice.GameContext;
@@ -21,7 +18,7 @@ public class CountriesPopulationAreaNeighbQuestionContainerCreatorService extend
 
     @Override
     public int getCounterSeconds() {
-        return gameService.getPossibleAnswers().size() * 10;
+        return Math.min(CountriesGameScreen.TOP_COUNTRIES_TO_BE_FOUND, gameService.getPossibleAnswers().size()) * 10;
     }
 
 //    @Override
@@ -37,18 +34,21 @@ public class CountriesPopulationAreaNeighbQuestionContainerCreatorService extend
 
     @Override
     public void fillCountriesTopTable(Table table) {
-        if (Arrays.asList(CountriesCategoryEnum.cat0, CountriesCategoryEnum.cat1, CountriesCategoryEnum.cat3).contains(gameContext.getQuestion().getQuestionCategory())) {
-            cat_0_1_3_table(table);
-        } else if (Arrays.asList(CountriesCategoryEnum.cat4, CountriesCategoryEnum.cat5).contains(gameContext.getQuestion().getQuestionCategory())) {
-            cat_4_5_table(table);
+        if (morePossibleAnswersThanMax()) {
+            containerWithMaxQuestions(table, CountriesGameScreen.TOP_COUNTRIES_TO_BE_FOUND);
+        } else {
+            underMaxQuestions(table, gameService.getPossibleAnswers().size());
         }
     }
 
-    private void cat_0_1_3_table(Table table) {
+    private boolean morePossibleAnswersThanMax() {
+        return gameService.getPossibleAnswers().size() > CountriesGameScreen.TOP_COUNTRIES_TO_BE_FOUND;
+    }
+
+    private void underMaxQuestions(Table table, int nrOfQuestions) {
         super.fillCountriesTopTable(table);
         Table firstColumn = new Table();
         Table secondColumn = new Table();
-        int nrOfQuestions = gameService.getPossibleAnswers().size();
         for (int i = 1; i <= nrOfQuestions; i++) {
             String countryName = gameService.getPossibleAnswers().get(i - 1);
             Table countryContainer = super.createCountryContainerInGame(foundCountries.contains(countryName) ? countryName : " ", i + "", " ", i);
@@ -58,14 +58,13 @@ public class CountriesPopulationAreaNeighbQuestionContainerCreatorService extend
         table.add(secondColumn);
     }
 
-    private void cat_4_5_table(Table table) {
+    private void containerWithMaxQuestions(Table table, int nrOfQuestions) {
         super.fillCountriesTopTable(table);
         Table firstColumn = new Table();
         Table secondColumn = new Table();
-        int nrOfQuestions = Math.min(gameService.getPossibleAnswers().size(), CountriesGameScreen.TOP_COUNTRIES_TO_BE_FOUND);
         for (int i = 1; i <= nrOfQuestions; i++) {
-            String countryName = gameService.getPossibleAnswers().get(i - 1);
-            Table countryContainer = super.createCountryContainerInGame(foundCountries.contains(countryName) ? countryName : " ", i + "", " ", i);
+            String countryName = foundCountries.size() >= i && StringUtils.isNotBlank(foundCountries.get(i - 1)) ? foundCountries.get(i - 1) : " ";
+            Table countryContainer = super.createCountryContainerInGame(countryName, i + "", " ", i);
             addToColumns(firstColumn, secondColumn, i, countryContainer, nrOfQuestions);
         }
         table.add(firstColumn);
@@ -73,9 +72,9 @@ public class CountriesPopulationAreaNeighbQuestionContainerCreatorService extend
     }
 
     private void addToColumns(Table firstColumn, Table secondColumn, int i, Table countryContainer, int nrOfQuestions) {
-        float rowHeight = 4f;
+        float rowHeight = 3.5f;
         float countryInfoWidth = getCountryContainerWidth();
-        if (i <= Math.ceil((float) (nrOfQuestions / 2f))) {
+        if (i <= Math.ceil((float) (nrOfQuestions / 2f)) || nrOfQuestions <= CountriesGameScreen.TOP_COUNTRIES_TO_BE_FOUND / 2) {
             firstColumn.add(countryContainer)
                     .height(ScreenDimensionsManager.getScreenHeightValue(rowHeight))
                     .width(ScreenDimensionsManager.getScreenWidthValue(countryInfoWidth));

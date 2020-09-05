@@ -24,15 +24,18 @@ import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.countries.CountriesCategoryEnum;
 import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.HangmanQuestionContainerCreatorService;
+import libgdx.implementations.skelgame.gameservice.QuizQuestionCategory;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
 import libgdx.resources.Res;
+import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.model.FontColor;
@@ -44,6 +47,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     private static final String ALL_GAME_VIEW = "ALL_GAME_VIEW";
     private MyWrappedLabel pressedLettersLabel;
     List<String> foundCountries = new ArrayList<>();
+    boolean questionOver = false;
     private MutableLong countdownAmountMillis;
     private MyWrappedLabel counterLabel;
     TGameService gameService;
@@ -130,7 +134,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
             ra.setRunnable(new ScreenRunnable(getAbstractGameScreen()) {
                 @Override
                 public void executeOperations() {
-                    countryContainer.setBackground(GraphicUtils.getNinePatch(normalBackground));
+                    countryContainer.setBackground(GraphicUtils.getNinePatch(questionOver ? getCorrectAnswBackgr() : normalBackground));
                 }
             });
             getAbstractGameScreen().addAction(Actions.sequence(Actions.delay(1), ra));
@@ -206,8 +210,8 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     }
 
     private void addAllGameContainers(Table table) {
-        table.add(createHeaderTable()).height(ScreenDimensionsManager.getScreenHeightValue(10)).width(ScreenDimensionsManager.getScreenWidth()).row();
-        table.add(createTopCountriesTable()).height(ScreenDimensionsManager.getScreenHeightValue(40)).row();
+        table.add(createHeaderTable()).height(ScreenDimensionsManager.getScreenHeightValue(15)).width(ScreenDimensionsManager.getScreenWidth()).row();
+        table.add(createTopCountriesTable()).height(ScreenDimensionsManager.getScreenHeightValue(35)).row();
         Table pressedLettersTable = new Table();
         pressedLettersTable.add(getPressedLettersLabel());
         FontConfig fontConfig = new FontConfig(Color.RED);
@@ -228,11 +232,20 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     }
 
     public Table createHeaderTable() {
+        String questionName = getQuestionName();
         Table table = new Table();
+        Table categContainer = new Table();
+        String categText = StringUtils.isNotBlank(questionName) ? getCategText() + ": " : getCategText();
         MyWrappedLabel categLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
-                .setText(getCategText())
+                .setText(categText)
                 .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.1f)).build());
-        table.add(categLabel).width(ScreenDimensionsManager.getScreenWidthValue(60));
+        MyWrappedLabel actualQName = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setText(questionName)
+                .setFontColor(FontColor.RED)
+                .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.1f)).build());
+        categContainer.add(categLabel).row();
+        categContainer.add(actualQName);
+        table.add(categContainer).width(ScreenDimensionsManager.getScreenWidthValue(60));
         counterLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setText("1")
                 .setFontColor(FontColor.RED)
@@ -242,14 +255,23 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         return table;
     }
 
-    String getCategText() {
-        String categText = "";
-        if (gameContext.getQuestion().getQuestionCategory() == CountriesCategoryEnum.cat0) {
-            categText = "Populous";
-        } else if (gameContext.getQuestion().getQuestionCategory() == CountriesCategoryEnum.cat3) {
-            categText = gameService.getCountryName(gameService.getQuestionIndex());
+    private String getQuestionName() {
+        QuizQuestionCategory questionCategory = gameContext.getQuestion().getQuestionCategory();
+        String suffix = "";
+        String gameIdPrefix = Game.getInstance().getAppInfoService().getGameIdPrefix();
+        String language = Game.getInstance().getAppInfoService().getLanguage();
+        if (questionCategory == CountriesCategoryEnum.cat4) {
+            suffix = SpecificPropertiesUtils.getText(language + "_" + gameIdPrefix + "_emp_" + gameService.getMapQuestionIndex());
+        } else if (questionCategory == CountriesCategoryEnum.cat5) {
+            suffix = SpecificPropertiesUtils.getText(language + "_" + gameIdPrefix + "_geo_" + gameService.getMapQuestionIndex());
+        } else if (questionCategory == CountriesCategoryEnum.cat3) {
+            suffix = gameService.getAllCountries().get(gameService.getMapQuestionIndex() - 1);
         }
-        return categText;
+        return suffix;
+    }
+
+    String getCategText() {
+        return SpecificPropertiesUtils.getQuestionCategoryLabel(gameContext.getQuestion().getQuestionCategory().getIndex());
     }
 
     private void countdownProcess() {
@@ -275,20 +297,20 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     }
 
     private void isQuestionOver() {
-        boolean qOver = false;
         if (countdownAmountMillis.getValue() <= 0) {
-            qOver = true;
+            questionOver = true;
             displayAllCountryNames();
         } else if (allCountriesFound()) {
-            qOver = true;
+            questionOver = true;
             greenBackgroundCountries();
         }
-        if (qOver) {
+        if (questionOver) {
             AbstractScreen gameScreen = getAbstractGameScreen();
             RunnableAction ra = new RunnableAction();
             ra.setRunnable(new ScreenRunnable(gameScreen) {
                 @Override
                 public void executeOperations() {
+                    clearQuestionInfo();
                     Table allGameTable = gameScreen.getRoot().findActor(ALL_GAME_VIEW);
                     allGameTable.clear();
                     gameService = getGameService();
@@ -296,11 +318,15 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
                 }
             });
             gameScreen.addAction(Actions.sequence(Actions.delay(3), ra));
-            gameContext.getCurrentUserGameUser().getGameQuestionInfo().getAnswers().clear();
-            pressedLettersLabel.setText("");
-            foundCountries.clear();
             executorService.shutdown();
         }
+    }
+
+    private void clearQuestionInfo() {
+        questionOver = false;
+        gameContext.getCurrentUserGameUser().getGameQuestionInfo().getAnswers().clear();
+        pressedLettersLabel.setText("");
+        foundCountries.clear();
     }
 
     public TGameService getGameService() {

@@ -29,7 +29,7 @@ public class CountriesPressedLettersGameService extends GameService {
     private List<String> possibleAnswersRaw = new ArrayList<>();
     private List<String> allCountries;
     private List<String> possibleAnswersLowerCase = new ArrayList<>();
-    private Integer possAnswersLine;
+    private Integer mapQuestionIndex;
     HashMap<Integer, List<Integer>> questionEntries;
     HashMap<Integer, List<String>> synonyms;
     List<String> allSynonymCountries = new ArrayList<>();
@@ -44,7 +44,7 @@ public class CountriesPressedLettersGameService extends GameService {
             }
         }
         Map.Entry<Integer, List<Integer>> firstEntry = getQuestionsEntry(questionEntries);
-        possAnswersLine = firstEntry.getKey();
+        mapQuestionIndex = firstEntry.getKey();
         this.questionEntries = questionEntries;
         populatePossibleAnswersFromIndexes(firstEntry.getValue());
         availableLetters = SpecificPropertiesUtils.getText(Game.getInstance().getAppInfoService().getLanguage() + "_" + Game.getInstance().getGameIdPrefix() + "_available_letters");
@@ -52,6 +52,7 @@ public class CountriesPressedLettersGameService extends GameService {
             normalizedWordLetters.addAll(getNormalizedWordLetters(answer));
             possibleAnswersLowerCase.add(answer.toLowerCase());
         }
+        System.out.println(possibleAnswersLowerCase);
     }
 
     public List<String> getAllCountries() {
@@ -89,8 +90,8 @@ public class CountriesPressedLettersGameService extends GameService {
         return possibleAnswersRaw;
     }
 
-    public Integer getQuestionIndex() {
-        return possAnswersLine;
+    public Integer getMapQuestionIndex() {
+        return mapQuestionIndex;
     }
 
     public String getCountryName(int index) {

@@ -1,9 +1,11 @@
 package libgdx.implementations.screens.implementations.countries;
 
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 
 import libgdx.campaign.CampaignLevel;
-import libgdx.implementations.conthistory.ConthistoryCampaignLevelEnum;
+import libgdx.implementations.countries.CountriesCampaignLevelEnum;
 import libgdx.implementations.countries.CountriesCategoryEnum;
 import libgdx.implementations.countries.CountriesDifficultyLevel;
 import libgdx.implementations.skelgame.CampaignScreenManager;
@@ -15,10 +17,20 @@ public class CountriesScreenManager extends CampaignScreenManager {
 
     @Override
     public void showMainScreen() {
-        Question question = new Question(0, CountriesDifficultyLevel._0, CountriesCategoryEnum.cat2, "");
+        Map<CountriesCampaignLevelEnum, CountriesCategoryEnum> m = new HashMap<>();
+        m.put(CountriesCampaignLevelEnum.LEVEL_0_0, CountriesCategoryEnum.cat0);
+        m.put(CountriesCampaignLevelEnum.LEVEL_0_1, CountriesCategoryEnum.cat1);
+        m.put(CountriesCampaignLevelEnum.LEVEL_0_2, CountriesCategoryEnum.cat2);
+        m.put(CountriesCampaignLevelEnum.LEVEL_0_3, CountriesCategoryEnum.cat3);
+        m.put(CountriesCampaignLevelEnum.LEVEL_0_4, CountriesCategoryEnum.cat4);
+        m.put(CountriesCampaignLevelEnum.LEVEL_0_5, CountriesCategoryEnum.cat5);
+
+        CountriesCampaignLevelEnum campL = CountriesCampaignLevelEnum.LEVEL_0_3;
+
+        Question question = new Question(0, CountriesDifficultyLevel._0, m.get(campL), "");
 //        questions = questions.subList(0, 65);
         GameContext gameContext = new GameContextService().createGameContext(Collections.singletonList(question));
-        showCampaignGameScreen(gameContext, ConthistoryCampaignLevelEnum.LEVEL_0_2);
+        showCampaignGameScreen(gameContext, campL);
 //        showCampaignScreen();
     }
 
