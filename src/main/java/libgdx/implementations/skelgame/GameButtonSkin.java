@@ -6,6 +6,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.astronomy.AstronomySpecificResource;
 import libgdx.implementations.conthistory.ConthistorySpecificResource;
+import libgdx.implementations.countries.CountriesSpecificResource;
 import libgdx.implementations.flags.FlagsSpecificResource;
 import libgdx.implementations.geoquiz.QuizGameSpecificResource;
 import libgdx.implementations.hangman.HangmanSpecificResource;
@@ -67,6 +68,13 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     ASTRONOMY_CATEG3(AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3d, null),
     ASTRONOMY_CATEG4(AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4d, null),
     ASTRONOMY_CATEG5(AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5d, null),
+
+    COUNTRIES_CATEG0(CountriesSpecificResource.campaign_level_0_0, CountriesSpecificResource.campaign_level_0_0, CountriesSpecificResource.campaign_level_0_0, CountriesSpecificResource.campaign_level_0_0, null),
+    COUNTRIES_CATEG1(CountriesSpecificResource.campaign_level_0_1, CountriesSpecificResource.campaign_level_0_1, CountriesSpecificResource.campaign_level_0_1, CountriesSpecificResource.campaign_level_0_1, null),
+    COUNTRIES_CATEG2(CountriesSpecificResource.campaign_level_0_2, CountriesSpecificResource.campaign_level_0_2, CountriesSpecificResource.campaign_level_0_2, CountriesSpecificResource.campaign_level_0_2, null),
+    COUNTRIES_CATEG3(CountriesSpecificResource.campaign_level_0_3, CountriesSpecificResource.campaign_level_0_3, CountriesSpecificResource.campaign_level_0_3, CountriesSpecificResource.campaign_level_0_3, null),
+    COUNTRIES_CATEG4(CountriesSpecificResource.campaign_level_0_4, CountriesSpecificResource.campaign_level_0_4, CountriesSpecificResource.campaign_level_0_4, CountriesSpecificResource.campaign_level_0_4, null),
+    COUNTRIES_CATEG5(CountriesSpecificResource.campaign_level_0_5, CountriesSpecificResource.campaign_level_0_5, CountriesSpecificResource.campaign_level_0_5, CountriesSpecificResource.campaign_level_0_5, null),
 
     FLAGS_CATEG0(FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, null),
     FLAGS_CATEG1(FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, null),

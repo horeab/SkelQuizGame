@@ -13,6 +13,14 @@ public enum CountriesSpecificResource implements SpecificResource {
     specific_labels("labels/labels", I18NBundle.class),
 
     moving_background("moving_background.png", Texture.class),
+    title_clouds_background("title_clouds_background.png", Texture.class),
+
+    campaign_level_0_0("campaign/l_0/level_0_0.png", Texture.class),
+    campaign_level_0_1("campaign/l_0/level_0_1.png", Texture.class),
+    campaign_level_0_2("campaign/l_0/level_0_2.png", Texture.class),
+    campaign_level_0_3("campaign/l_0/level_0_3.png", Texture.class),
+    campaign_level_0_4("campaign/l_0/level_0_4.png", Texture.class),
+    campaign_level_0_5("campaign/l_0/level_0_5.png", Texture.class),
     ;
 
     // @formatter:on

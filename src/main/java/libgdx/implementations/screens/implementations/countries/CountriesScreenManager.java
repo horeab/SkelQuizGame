@@ -17,6 +17,18 @@ public class CountriesScreenManager extends CampaignScreenManager {
 
     @Override
     public void showMainScreen() {
+
+//        showCampaignGameScreen(gameContext, campL);
+        showCampaignScreen();
+    }
+
+    @Override
+    public void showCampaignScreen() {
+        showScreen(CountriesScreenTypeEnum.CAMPAIGN_SCREEN);
+    }
+
+    @Override
+    public void showCampaignGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         Map<CountriesCampaignLevelEnum, CountriesCategoryEnum> m = new HashMap<>();
         m.put(CountriesCampaignLevelEnum.LEVEL_0_0, CountriesCategoryEnum.cat0);
         m.put(CountriesCampaignLevelEnum.LEVEL_0_1, CountriesCategoryEnum.cat1);
@@ -29,18 +41,8 @@ public class CountriesScreenManager extends CampaignScreenManager {
 
         Question question = new Question(0, CountriesDifficultyLevel._0, m.get(campL), "");
 //        questions = questions.subList(0, 65);
-        GameContext gameContext = new GameContextService().createGameContext(Collections.singletonList(question));
-        showCampaignGameScreen(gameContext, campL);
-//        showCampaignScreen();
-    }
+        gameContext = new GameContextService().createGameContext(Collections.singletonList(question));
 
-    @Override
-    public void showCampaignScreen() {
-        showScreen(CountriesScreenTypeEnum.CAMPAIGN_SCREEN);
-    }
-
-    @Override
-    public void showCampaignGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         showScreen(CountriesScreenTypeEnum.CAMPAIGN_GAME_SCREEN, gameContext, campaignLevel);
     }
 }
