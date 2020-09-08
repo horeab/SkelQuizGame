@@ -12,8 +12,8 @@ import libgdx.utils.ScreenDimensionsManager;
 
 public class CountriesPopulationAreaNeighbQuestionContainerCreatorService extends CountriesPressedLettersQuestionContainerCreatorService<CountriesPopulationAreaNeighbGameService> {
 
-    public CountriesPopulationAreaNeighbQuestionContainerCreatorService(GameContext gameContext, GameScreen abstractGameScreen) {
-        super(gameContext, abstractGameScreen, (CountriesPopulationAreaNeighbGameService) GameServiceContainer.getGameService(gameContext.getQuestion()));
+    public CountriesPopulationAreaNeighbQuestionContainerCreatorService(GameContext gameContext, CountriesGameScreen countriesGameScreen) {
+        super(gameContext, countriesGameScreen, (CountriesPopulationAreaNeighbGameService) GameServiceContainer.getGameService(gameContext.getQuestion()));
     }
 
     @Override

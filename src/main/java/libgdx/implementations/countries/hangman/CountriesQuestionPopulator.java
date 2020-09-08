@@ -31,7 +31,7 @@ public class CountriesQuestionPopulator {
         return categoryEnum;
     }
 
-    public HashMap<Integer, List<String>> getSynonyms() {
+    public static HashMap<Integer, List<String>> getSynonyms() {
         Scanner scanner = new Scanner(new CountriesQuestionCreator().getSynonymsFileText());
         HashMap<Integer, List<String>> syn = new HashMap<>();
         while (scanner.hasNextLine()) {

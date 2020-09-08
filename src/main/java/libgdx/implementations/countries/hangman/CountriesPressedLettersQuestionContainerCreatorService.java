@@ -19,6 +19,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
+import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.ScreenRunnable;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.ButtonBuilder;
@@ -28,7 +29,7 @@ import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.countries.CountriesCategoryEnum;
-import libgdx.implementations.screens.GameScreen;
+import libgdx.implementations.screens.implementations.countries.CountriesGameScreen;
 import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.gameservice.GameContext;
@@ -59,14 +60,21 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     List<Table> countriesTop = new ArrayList<>();
     ScheduledExecutorService executorService;
     MyButton clearPressedBtn;
+    private CampaignStoreService campaignStoreService = new CampaignStoreService();
     int score = 0;
+    CountriesGameScreen countriesGameScreen;
 
-    public CountriesPressedLettersQuestionContainerCreatorService(GameContext gameContext, GameScreen abstractGameScreen, TGameService gameService) {
-        super(gameContext, abstractGameScreen);
+    public CountriesPressedLettersQuestionContainerCreatorService(GameContext gameContext, CountriesGameScreen countriesGameScreen, TGameService gameService) {
+        super(gameContext, countriesGameScreen);
         pressedLettersLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setText(" ")
                 .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.7f)).build());
         this.gameService = gameService;
+        this.countriesGameScreen = countriesGameScreen;
+    }
+
+    public CountriesGameScreen getCountriesGameScreen() {
+        return countriesGameScreen;
     }
 
     @Override
@@ -100,7 +108,6 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         pressedLettersLabel.setText("");
         clearPressedBtn.setButtonSkin(GameButtonSkin.COUNTRIES_NEXTLEVEL);
     }
-
 
     public void refreshCountries() {
         Table countriesTable = getAbstractGameScreen().getRoot().findActor(TOP_COUNTRIES_TABLE);
@@ -137,13 +144,16 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         final MainResource normalBackground = MainResource.btn_lowcolor_up;
         Res backgr = lastCountryFound ? MainResource.btn_menu_down : normalBackground;
         if (lastCountryFound) {
+            score = score + 1;
+            if (score > campaignStoreService.getScoreWon(countriesGameScreen.getCampaignLevel())) {
+                campaignStoreService.updateScoreWon(countriesGameScreen.getCampaignLevel(), score);
+            }
             new ActorAnimation(countryContainer.getChildren().get(1), getAbstractGameScreen()).animateFastFadeIn();
             RunnableAction ra = new RunnableAction();
             ra.setRunnable(new ScreenRunnable(getAbstractGameScreen()) {
                 @Override
                 public void executeOperations() {
                     countryContainer.setBackground(GraphicUtils.getNinePatch(questionOver ? getCorrectAnswBackgr() : normalBackground));
-                    score = score + 1;
                     scoreLabel.setText("+" + score);
                 }
             });

@@ -5,6 +5,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import java.util.List;
 
 import libgdx.implementations.screens.GameScreen;
+import libgdx.implementations.screens.implementations.countries.CountriesGameScreen;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameServiceContainer;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
@@ -14,8 +15,8 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
 
     List<String> startingLettersOfCountries;
 
-    public CountriesAtoZQuestionContainerCreatorService(GameContext gameContext, GameScreen abstractGameScreen) {
-        super(gameContext, abstractGameScreen, (CountriesAtoZGameService) GameServiceContainer.getGameService(gameContext.getQuestion()));
+    public CountriesAtoZQuestionContainerCreatorService(GameContext gameContext, CountriesGameScreen countriesGameScreen) {
+        super(gameContext, countriesGameScreen, (CountriesAtoZGameService) GameServiceContainer.getGameService(gameContext.getQuestion()));
         startingLettersOfCountries = gameService.getStartingLettersOfCountries();
     }
 

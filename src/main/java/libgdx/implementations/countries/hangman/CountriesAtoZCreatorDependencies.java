@@ -1,12 +1,13 @@
 package libgdx.implementations.countries.hangman;
 
-import java.util.List;
 import java.util.Map;
 
 import libgdx.controls.button.MyButton;
 import libgdx.implementations.countries.CountriesCategoryEnum;
+import libgdx.implementations.countries.CountriesDependencyManager;
 import libgdx.implementations.countries.CountriesGame;
 import libgdx.implementations.screens.GameScreen;
+import libgdx.implementations.screens.implementations.countries.CountriesGameScreen;
 import libgdx.implementations.skelgame.gameservice.CreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameService;
@@ -18,17 +19,10 @@ import libgdx.screen.AbstractScreen;
 
 public class CountriesAtoZCreatorDependencies extends CreatorDependencies {
 
-    private CountriesQuestionPopulator countriesQuestionCreator;
-    private List<String> allCountries;
-
-    public CountriesAtoZCreatorDependencies() {
-        allCountries = CountriesGame.getInstance().getSubGameDependencyManager().getAllCountries();
-    }
-
     @Override
     public GameService getGameService(Question question) {
-        countriesQuestionCreator = new CountriesQuestionPopulator(allCountries, (CountriesCategoryEnum) question.getQuestionCategory());
-        return new CountriesAtoZGameService(question, allCountries, countriesQuestionCreator.getQuestions(), countriesQuestionCreator.getSynonyms());
+        CountriesDependencyManager manager = CountriesGame.getInstance().getSubGameDependencyManager();
+        return new CountriesAtoZGameService(question, manager.getAllCountries(), manager.getCategQuestions((CountriesCategoryEnum) question.getQuestionCategory()), manager.getSynonyms());
     }
 
     @Override
@@ -43,7 +37,7 @@ public class CountriesAtoZCreatorDependencies extends CreatorDependencies {
 
     @Override
     public QuestionContainerCreatorService getQuestionContainerCreatorService(GameContext gameContext, GameScreen screen) {
-        return new CountriesAtoZQuestionContainerCreatorService(gameContext, screen);
+        return new CountriesAtoZQuestionContainerCreatorService(gameContext, (CountriesGameScreen) screen);
     }
 
     @Override

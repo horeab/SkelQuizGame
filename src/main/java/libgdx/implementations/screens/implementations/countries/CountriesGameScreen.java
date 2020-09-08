@@ -30,10 +30,16 @@ public class CountriesGameScreen extends GameScreen<CountriesScreenManager> {
     public static final int TOP_COUNTRIES_TO_BE_FOUND = 20;
     private Table allTable;
     private CampaignLevelEnumService campaignLevelEnumService;
+    private CampaignLevel campaignLevel;
 
     public CountriesGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         super(gameContext);
         campaignLevelEnumService = new CampaignLevelEnumService(campaignLevel);
+        this.campaignLevel=campaignLevel;
+    }
+
+    public CampaignLevel getCampaignLevel() {
+        return campaignLevel;
     }
 
     @Override
