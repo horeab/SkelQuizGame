@@ -58,7 +58,8 @@ public class CountriesGameScreen extends GameScreen<CountriesScreenManager> {
         table.setFillParent(true);
         table.add().growY().row();
         CountriesPressedLettersQuestionContainerCreatorService questionContainerCreatorService = null;
-        if (Arrays.asList(CountriesCategoryEnum.cat0, CountriesCategoryEnum.cat1, CountriesCategoryEnum.cat3, CountriesCategoryEnum.cat4, CountriesCategoryEnum.cat5)
+        if (Arrays.asList(CountriesCategoryEnum.cat0, CountriesCategoryEnum.cat1,
+                CountriesCategoryEnum.cat3, CountriesCategoryEnum.cat4, CountriesCategoryEnum.cat5)
                 .contains(campaignLevelEnumService.getCategoryEnum())) {
             questionContainerCreatorService = new CountriesPopulationAreaNeighbQuestionContainerCreatorService(gameContext, this);
         } else if (campaignLevelEnumService.getCategoryEnum() == CountriesCategoryEnum.cat2) {

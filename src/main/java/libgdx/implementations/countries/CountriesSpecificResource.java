@@ -21,6 +21,13 @@ public enum CountriesSpecificResource implements SpecificResource {
     campaign_level_0_3("campaign/l_0/level_0_3.png", Texture.class),
     campaign_level_0_4("campaign/l_0/level_0_4.png", Texture.class),
     campaign_level_0_5("campaign/l_0/level_0_5.png", Texture.class),
+
+    all_found("all_found.png", Texture.class),
+    notansw_background("notansw_background.png", Texture.class),
+    correctansw_background("correctansw_background.png", Texture.class),
+
+    play_down("buttons/play_down.png", Texture.class),
+    play_up("buttons/play_up.png", Texture.class),
     ;
 
     // @formatter:on

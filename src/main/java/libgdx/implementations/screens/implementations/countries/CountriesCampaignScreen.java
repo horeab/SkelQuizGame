@@ -6,9 +6,10 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.badlogic.gdx.utils.Align;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
@@ -23,8 +24,10 @@ import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.countries.CountriesCampaignLevelEnum;
+import libgdx.implementations.countries.CountriesCategoryEnum;
 import libgdx.implementations.countries.CountriesGame;
 import libgdx.implementations.countries.CountriesSpecificResource;
+import libgdx.implementations.countries.hangman.CountriesQuestionPopulator;
 import libgdx.implementations.screens.implementations.anatomy.AnatomyGameScreen;
 import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.GameButtonSkin;
@@ -46,6 +49,8 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
 
     private CampaignService campaignService = new CampaignService();
     private List<CampaignStoreLevel> allCampaignLevelStores;
+    private Table bigCategTable;
+    private Map<CountriesCategoryEnum, HashMap<Integer, List<Integer>>> categQuestions = new HashMap<>();
 
     public CountriesCampaignScreen() {
         allCampaignLevelStores = campaignService.processAndGetAllLevels();
@@ -77,13 +82,12 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
                 .setFontConfig(new FontConfig(
                         FontColor.LIGHT_GREEN.getColor(),
                         FontColor.BLACK.getColor(),
-                        FontConfig.FONT_SIZE * 2.4f,
+                        FontConfig.FONT_SIZE * 2.0f,
                         4f))
                 .setText(Game.getInstance().getAppInfoService().getAppName()).build());
 
-        float btnHeight = getBtnHeightValue();
         float dimen = MainDimen.vertical_general_margin.getDimen();
-        table.add(createTitleStack(titleLabel)).height(btnHeight / 2).padTop(dimen * 2).row();
+        table.add(createTitleStack(titleLabel)).height(ScreenDimensionsManager.getScreenHeightValue(20)).padTop(dimen * 2).row();
         long totalStarsWon = 0;
         table.add(createCategTable()).expand();
 
@@ -104,7 +108,7 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
         Table categButton = createBigCategButton(CountriesCampaignLevelEnum.LEVEL_0_0);
         categButton.setBackground(GraphicUtils.getNinePatch(MainResource.btn_lowcolor_down));
         table.add(categButton).fill();
-        table.add(createSmallCategButtons());
+        table.add(createSmallCategButtons()).padLeft(MainDimen.horizontal_general_margin.getDimen());
         return table;
     }
 
@@ -115,6 +119,7 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
         addButtonToTable(table, CountriesCampaignLevelEnum.LEVEL_0_2);
         addButtonToTable(table, CountriesCampaignLevelEnum.LEVEL_0_3);
         addButtonToTable(table, CountriesCampaignLevelEnum.LEVEL_0_4);
+        addButtonToTable(table, CountriesCampaignLevelEnum.LEVEL_0_5);
         return table;
     }
 
@@ -133,23 +138,33 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
         categBtn.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                CampaignLevelEnumService enumService = new CampaignLevelEnumService(campaignLevel);
-                QuestionConfig questionConfig = enumService.getQuestionConfig(AnatomyGameScreen.TOTAL_QUESTIONS);
-                CountriesGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), campaignLevel);
+                bigCategTable.clear();
+                bigCategTable.setVisible(false);
+                createBigCategButton(campaignLevel);
+                Utils.fadeInActor(bigCategTable, 0.6f);
             }
         });
         return categBtn;
     }
 
     private Table createBigCategButton(final CampaignLevel campaignLevel) {
-        Table table = new Table();
+        CountriesCategoryEnum categoryEnum = (CountriesCategoryEnum) CampaignLevelEnumService.getCategoryEnum(campaignLevel.getName());
+        if (categQuestions.get(categoryEnum) == null) {
+            categQuestions.put(categoryEnum, new CountriesQuestionPopulator(CountriesGame.getInstance().getSubGameDependencyManager().getAllCountries(), categoryEnum).getQuestions());
+        }
+        HashMap<Integer, List<Integer>> questions = categQuestions.get(categoryEnum);
+        if (bigCategTable == null) {
+            bigCategTable = new Table();
+        }
         String labelText = new CampaignLevelEnumService(campaignLevel).getLabelText();
         MyButton categBtn = new ImageButtonBuilder(GameButtonSkin.valueOf("COUNTRIES_CATEG" + campaignLevel.getIndex()), getAbstractScreen())
-                .setFontScale(FontManager.getSmallFontDim())
+                .textButtonWidth(GameButtonSize.COUNTRIES_BIG_MENU_BUTTON.getWidth() * 1.6f)
+                .setFontScale(FontManager.getNormalFontDim())
                 .setFontColor(FontColor.BLACK)
                 .setFixedButtonSize(GameButtonSize.COUNTRIES_BIG_MENU_BUTTON)
                 .setText(labelText)
                 .build();
+        categBtn.setDisabled(true);
         categBtn.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -158,17 +173,34 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
                 CountriesGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), campaignLevel);
             }
         });
-        table.setWidth(categBtn.getWidth());
-        table.setHeight(categBtn.getHeight());
-        table.add(categBtn).padTop(MainDimen.vertical_general_margin.getDimen() * 4).width(categBtn.getWidth()).height(categBtn.getHeight()).row();
-        table.add().growY();
-        return table;
+        categBtn.setVisible(false);
+        Utils.fadeInActor(categBtn, 0.6f);
+        MainDimen vertical_general_margin = MainDimen.vertical_general_margin;
+        float dimen = vertical_general_margin.getDimen();
+        bigCategTable.setWidth(categBtn.getWidth());
+        bigCategTable.setHeight(categBtn.getHeight());
+        bigCategTable.add(createAchTable()).height(dimen * 4).row();
+        bigCategTable.add(categBtn).padTop(dimen * 3).width(categBtn.getWidth()).height(categBtn.getHeight()).row();
+        MyButton startGameBtn = new ImageButtonBuilder(GameButtonSkin.COUNTRIES_STARTGAME, getAbstractScreen())
+                .animateZoomInZoomOut()
+                .setFixedButtonSize(GameButtonSize.COUNTRIES_START_GAME_BUTTON)
+                .build();
+        bigCategTable.add(startGameBtn).padTop(dimen * 6).width(startGameBtn.getWidth()).height(startGameBtn.getHeight());
+        bigCategTable.add().growY();
+        return bigCategTable;
     }
 
-    private float getBtnHeightValue() {
-        return ScreenDimensionsManager.getScreenHeightValue(50);
+    private Table createAchTable() {
+//        int totalQuestions =
+        Table achTable = new Table();
+        MyWrappedLabel foundC = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setFontConfig(new FontConfig(
+                        FontColor.BLACK.getColor(),
+                        FontConfig.FONT_SIZE * 1.0f))
+                .setText("You found 12 countries out of 20").build());
+        achTable.add(foundC).expand();
+        return achTable;
     }
-
 
     @Override
     public void onBackKeyPress() {

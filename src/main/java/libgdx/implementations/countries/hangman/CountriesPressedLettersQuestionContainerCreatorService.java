@@ -4,6 +4,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.actions.RunnableAction;
+import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 
@@ -28,6 +29,8 @@ import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.countries.CountriesCategoryEnum;
 import libgdx.implementations.screens.GameScreen;
+import libgdx.implementations.skelgame.GameButtonSize;
+import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.HangmanQuestionContainerCreatorService;
 import libgdx.implementations.skelgame.gameservice.QuizQuestionCategory;
@@ -35,6 +38,7 @@ import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
 import libgdx.resources.Res;
+import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
 import libgdx.utils.ScreenDimensionsManager;
@@ -50,10 +54,12 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     boolean questionOver = false;
     private MutableLong countdownAmountMillis;
     private MyWrappedLabel counterLabel;
+    private MyWrappedLabel scoreLabel;
     TGameService gameService;
     List<Table> countriesTop = new ArrayList<>();
     ScheduledExecutorService executorService;
     MyButton clearPressedBtn;
+    int score = 0;
 
     public CountriesPressedLettersQuestionContainerCreatorService(GameContext gameContext, GameScreen abstractGameScreen, TGameService gameService) {
         super(gameContext, abstractGameScreen);
@@ -67,7 +73,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     public void processGameInfo(GameQuestionInfo gameQuestionInfo) {
         String pressedAnswers = gameService.getPressedAnswers(new ArrayList<>(gameQuestionInfo.getAnswers()));
         pressedLettersLabel.setText(pressedAnswers);
-        clearPressedBtn.setVisible(true);
+        clearPressedBtn.setButtonSkin(GameButtonSkin.COUNTRIES_CLEAR_LETTERS);
         if (pressedAnswers.length() > 3
                 || gameService.getPossibleAnswersLowerCase().contains(pressedAnswers)
                 || gameService.getAllSynonymCountries().contains(pressedAnswers)) {
@@ -79,18 +85,20 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
             }
             if (pressedCorrectAnswers.size() == 1) {
                 foundCountries.add(pressedCorrectAnswers.get(0));
-                pressedLettersLabel.setText("");
-                clearPressedBtn.setVisible(false);
-                gameQuestionInfo.getAnswers().clear();
+                clearPressedLetters();
                 refreshCountries();
             } else if (pressedCorrectAnswers.isEmpty()) {
                 new ActorAnimation(getAbstractGameScreen()).animatePulse();
-                pressedLettersLabel.setText("");
-                clearPressedBtn.setVisible(false);
-                gameQuestionInfo.getAnswers().clear();
+                clearPressedLetters();
             }
         }
         isQuestionOver();
+    }
+
+    private void clearPressedLetters() {
+        gameContext.getCurrentUserGameUser().getGameQuestionInfo().getAnswers().clear();
+        pressedLettersLabel.setText("");
+        clearPressedBtn.setButtonSkin(GameButtonSkin.COUNTRIES_NEXTLEVEL);
     }
 
 
@@ -135,6 +143,8 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
                 @Override
                 public void executeOperations() {
                     countryContainer.setBackground(GraphicUtils.getNinePatch(questionOver ? getCorrectAnswBackgr() : normalBackground));
+                    score = score + 1;
+                    scoreLabel.setText("+" + score);
                 }
             });
             getAbstractGameScreen().addAction(Actions.sequence(Actions.delay(1), ra));
@@ -156,7 +166,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         float fontScale = FontManager.calculateMultiplierStandardFontSize(getCountryContainerFontSize());
         MyWrappedLabel topNr = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setText(topText.toUpperCase())
-                .setFontScale(fontScale / 1.2f).build());
+                .setFontScale(fontScale / getTopEndFontSize()).build());
         MyWrappedLabel countryNameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setWidth(countryLabelWidth)
                 .setSingleLineLabel()
@@ -169,7 +179,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         if (!dontShowEndColumn) {
             MyWrappedLabel endNr = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                     .setText(endText)
-                    .setFontScale(fontScale / 1.2f).build());
+                    .setFontScale(fontScale / getTopEndFontSize()).build());
             countryContainer.add(endNr).width(marginTableWidth);
         }
         return countryContainer;
@@ -209,23 +219,33 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         return 1f;
     }
 
+    public float getTopEndFontSize() {
+        return 1.2f;
+    }
+
     private void addAllGameContainers(Table table) {
         table.add(createHeaderTable()).height(ScreenDimensionsManager.getScreenHeightValue(15)).width(ScreenDimensionsManager.getScreenWidth()).row();
         table.add(createTopCountriesTable()).height(ScreenDimensionsManager.getScreenHeightValue(35)).row();
         Table pressedLettersTable = new Table();
         pressedLettersTable.add(getPressedLettersLabel());
         FontConfig fontConfig = new FontConfig(Color.RED);
-        clearPressedBtn = new ButtonBuilder().setFontConfig(fontConfig).setText("X").build();
+        clearPressedBtn = new ButtonBuilder()
+                .setFixedButtonSize(GameButtonSize.COUNTRIES_CLEAR_LETTERS_BUTTON)
+                .setButtonSkin(GameButtonSkin.COUNTRIES_NEXTLEVEL)
+                .setFontConfig(fontConfig).build();
         clearPressedBtn.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
-                gameContext.getCurrentUserGameUser().getGameQuestionInfo().getAnswers().clear();
-                pressedLettersLabel.setText("");
-                clearPressedBtn.setVisible(false);
+                if (gameContext.getCurrentUserGameUser().getGameQuestionInfo().getAnswers().size() == 0) {
+                    new ActorAnimation(getAbstractGameScreen()).animatePulse();
+                    clearPressedBtn.setDisabled(true);
+                    goToNextLevel(1);
+                } else {
+                    clearPressedLetters();
+                }
             }
         });
-        pressedLettersTable.add(clearPressedBtn);
-        clearPressedBtn.setVisible(false);
+        pressedLettersTable.add(clearPressedBtn).width(clearPressedBtn.getWidth()).height(clearPressedBtn.getHeight());
         table.add(pressedLettersTable).height(ScreenDimensionsManager.getScreenHeightValue(10)).bottom().row();
         Table answerOptionsTable = createAnswerOptionsTable();
         table.add(answerOptionsTable).height(ScreenDimensionsManager.getScreenHeightValue(40)).bottom();
@@ -236,23 +256,53 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         Table table = new Table();
         Table categContainer = new Table();
         String categText = StringUtils.isNotBlank(questionName) ? getCategText() + ": " : getCategText();
+        float borderWidth = 3.1f;
+        float categFontScale = 1.05f;
+        float dimen = MainDimen.horizontal_general_margin.getDimen();
+        float categTextWidth = ScreenDimensionsManager.getScreenWidthValue(60);
         MyWrappedLabel categLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setWrappedLineLabel(categTextWidth - dimen * 2)
                 .setText(categText)
-                .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.1f)).build());
+                .setFontConfig(new FontConfig(
+                        FontColor.BLACK.getColor(),
+                        FontConfig.FONT_SIZE * categFontScale)).build());
         MyWrappedLabel actualQName = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setText(questionName)
-                .setFontColor(FontColor.RED)
-                .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.1f)).build());
+                .setFontConfig(new FontConfig(
+                        FontColor.LIGHT_BLUE.getColor(),
+                        FontConfig.FONT_SIZE * categFontScale * 1.1f)).build());
         categContainer.add(categLabel).row();
         categContainer.add(actualQName);
-        table.add(categContainer).width(ScreenDimensionsManager.getScreenWidthValue(60));
+        Table infoContainer = new Table();
+        float fontScale = 2f;
         counterLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setText("1")
-                .setFontColor(FontColor.RED)
-                .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.8f)).build());
-        table.add(counterLabel).width(ScreenDimensionsManager.getScreenWidthValue(40));
+                .setFontConfig(new FontConfig(
+                        FontColor.ORANGE.getColor(),
+                        FontColor.BLACK.getColor(),
+                        FontConfig.FONT_SIZE * fontScale,
+                        borderWidth)).build());
+        counterLabel.setBackground(GraphicUtils.getNinePatch(MainResource.refresh_up));
+        scoreLabel = createScoreLabel(borderWidth, fontScale);
+        Stack animateScoreStack = new Stack();
+        animateScoreStack.add(scoreLabel);
+        infoContainer.add(counterLabel).width(ScreenDimensionsManager.getScreenWidthValue(20));
+        infoContainer.add(categContainer).padLeft(dimen).padRight(dimen).width(categTextWidth);
+        infoContainer.add(animateScoreStack).width(ScreenDimensionsManager.getScreenWidthValue(20));
+        table.add(infoContainer).expandX().row();
         countdownProcess();
         return table;
+    }
+
+    private MyWrappedLabel createScoreLabel(float borderWidth, float fontScale) {
+        String prefix = score > 0 ? "+" : "";
+        return new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setText(prefix + score)
+                .setFontConfig(new FontConfig(
+                        FontColor.LIGHT_GREEN.getColor(),
+                        FontColor.BLACK.getColor(),
+                        FontConfig.FONT_SIZE * fontScale,
+                        borderWidth)).build());
     }
 
     private String getQuestionName() {
@@ -299,33 +349,37 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     private void isQuestionOver() {
         if (countdownAmountMillis.getValue() <= 0) {
             questionOver = true;
+            new ActorAnimation(getAbstractGameScreen()).animatePulse();
             displayAllCountryNames();
         } else if (allCountriesFound()) {
             questionOver = true;
             greenBackgroundCountries();
         }
         if (questionOver) {
-            AbstractScreen gameScreen = getAbstractGameScreen();
-            RunnableAction ra = new RunnableAction();
-            ra.setRunnable(new ScreenRunnable(gameScreen) {
-                @Override
-                public void executeOperations() {
-                    clearQuestionInfo();
-                    Table allGameTable = gameScreen.getRoot().findActor(ALL_GAME_VIEW);
-                    allGameTable.clear();
-                    gameService = getGameService();
-                    addAllGameContainers(allGameTable);
-                }
-            });
-            gameScreen.addAction(Actions.sequence(Actions.delay(3), ra));
-            executorService.shutdown();
+            goToNextLevel(3);
         }
+    }
+
+    private void goToNextLevel(int delay) {
+        executorService.shutdown();
+        AbstractScreen gameScreen = getAbstractGameScreen();
+        RunnableAction ra = new RunnableAction();
+        ra.setRunnable(new ScreenRunnable(gameScreen) {
+            @Override
+            public void executeOperations() {
+                clearQuestionInfo();
+                Table allGameTable = gameScreen.getRoot().findActor(ALL_GAME_VIEW);
+                allGameTable.clear();
+                gameService = getGameService();
+                addAllGameContainers(allGameTable);
+            }
+        });
+        gameScreen.addAction(Actions.sequence(Actions.delay(delay), ra));
     }
 
     private void clearQuestionInfo() {
         questionOver = false;
-        gameContext.getCurrentUserGameUser().getGameQuestionInfo().getAnswers().clear();
-        pressedLettersLabel.setText("");
+        clearPressedLetters();
         foundCountries.clear();
     }
 

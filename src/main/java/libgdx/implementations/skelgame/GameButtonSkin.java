@@ -75,6 +75,9 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     COUNTRIES_CATEG3(CountriesSpecificResource.campaign_level_0_3, CountriesSpecificResource.campaign_level_0_3, CountriesSpecificResource.campaign_level_0_3, CountriesSpecificResource.campaign_level_0_3, null),
     COUNTRIES_CATEG4(CountriesSpecificResource.campaign_level_0_4, CountriesSpecificResource.campaign_level_0_4, CountriesSpecificResource.campaign_level_0_4, CountriesSpecificResource.campaign_level_0_4, null),
     COUNTRIES_CATEG5(CountriesSpecificResource.campaign_level_0_5, CountriesSpecificResource.campaign_level_0_5, CountriesSpecificResource.campaign_level_0_5, CountriesSpecificResource.campaign_level_0_5, null),
+    COUNTRIES_STARTGAME(CountriesSpecificResource.play_up, CountriesSpecificResource.play_down, CountriesSpecificResource.play_up, CountriesSpecificResource.play_up, null),
+    COUNTRIES_NEXTLEVEL(CountriesSpecificResource.campaign_level_0_0, CountriesSpecificResource.campaign_level_0_0, CountriesSpecificResource.campaign_level_0_0, CountriesSpecificResource.campaign_level_0_0, null),
+    COUNTRIES_CLEAR_LETTERS(CountriesSpecificResource.campaign_level_0_1, CountriesSpecificResource.campaign_level_0_1, CountriesSpecificResource.campaign_level_0_1, CountriesSpecificResource.campaign_level_0_1, null),
 
     FLAGS_CATEG0(FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, null),
     FLAGS_CATEG1(FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, null),

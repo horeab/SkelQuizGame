@@ -18,8 +18,8 @@ public class CountriesScreenManager extends CampaignScreenManager {
     @Override
     public void showMainScreen() {
 
-//        showCampaignGameScreen(gameContext, campL);
-        showCampaignScreen();
+        showCampaignGameScreen(null, CountriesCampaignLevelEnum.LEVEL_0_2);
+//        showCampaignScreen();
     }
 
     @Override
@@ -37,9 +37,7 @@ public class CountriesScreenManager extends CampaignScreenManager {
         m.put(CountriesCampaignLevelEnum.LEVEL_0_4, CountriesCategoryEnum.cat4);
         m.put(CountriesCampaignLevelEnum.LEVEL_0_5, CountriesCategoryEnum.cat5);
 
-        CountriesCampaignLevelEnum campL = CountriesCampaignLevelEnum.LEVEL_0_3;
-
-        Question question = new Question(0, CountriesDifficultyLevel._0, m.get(campL), "");
+        Question question = new Question(0, CountriesDifficultyLevel._0, m.get(campaignLevel), "");
 //        questions = questions.subList(0, 65);
         gameContext = new GameContextService().createGameContext(Collections.singletonList(question));
 

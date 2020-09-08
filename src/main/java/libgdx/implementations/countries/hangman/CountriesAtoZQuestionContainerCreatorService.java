@@ -48,14 +48,14 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
         return "";
     }
 
-    //    @Override
-//    public int getCounterSeconds() {
-//        return Math.round(startingLettersOfCountries.size() * 10f);
-//    }
     @Override
     public int getCounterSeconds() {
-        return 2;
+        return Math.round(startingLettersOfCountries.size() * 10f);
     }
+//    @Override
+//    public int getCounterSeconds() {
+//        return 2;
+//    }
 
     @Override
     public void fillCountriesTopTable(Table table) {
@@ -85,6 +85,11 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
         table.add(firstColumn);
         table.add().width(100 - countryInfoWidth * 2);
         table.add(secondColumn);
+    }
+
+    @Override
+    public float getTopEndFontSize() {
+        return 1f;
     }
 
     @Override
