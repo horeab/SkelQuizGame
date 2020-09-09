@@ -1,9 +1,5 @@
 package libgdx.implementations.screens.implementations.countries;
 
-import com.badlogic.gdx.scenes.scene2d.Actor;
-import com.badlogic.gdx.scenes.scene2d.actions.Actions;
-import com.badlogic.gdx.scenes.scene2d.actions.RunnableAction;
-import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 
@@ -11,19 +7,15 @@ import java.util.Arrays;
 
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
-import libgdx.controls.ScreenRunnable;
+import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.builders.BackButtonBuilder;
-import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.countries.CountriesCategoryEnum;
 import libgdx.implementations.countries.CountriesSpecificResource;
 import libgdx.implementations.countries.hangman.CountriesAtoZQuestionContainerCreatorService;
 import libgdx.implementations.countries.hangman.CountriesPopulationAreaNeighbQuestionContainerCreatorService;
 import libgdx.implementations.countries.hangman.CountriesPressedLettersQuestionContainerCreatorService;
-import libgdx.implementations.hangman.HangmanGameCreatorDependencies;
 import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.skelgame.gameservice.GameContext;
-import libgdx.resources.dimen.MainDimen;
-import libgdx.utils.ScreenDimensionsManager;
 
 public class CountriesGameScreen extends GameScreen<CountriesScreenManager> {
 
@@ -35,7 +27,7 @@ public class CountriesGameScreen extends GameScreen<CountriesScreenManager> {
     public CountriesGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         super(gameContext);
         campaignLevelEnumService = new CampaignLevelEnumService(campaignLevel);
-        this.campaignLevel=campaignLevel;
+        this.campaignLevel = campaignLevel;
     }
 
     public CampaignLevel getCampaignLevel() {
@@ -55,7 +47,7 @@ public class CountriesGameScreen extends GameScreen<CountriesScreenManager> {
         stack.add(createContentTable());
         stack.setFillParent(true);
         allTable.add(stack);
-        createBackground();
+        new ActorAnimation(getAbstractScreen()).createScrollingBackground(CountriesSpecificResource.moving_background);
         addActor(allTable);
     }
 
@@ -74,37 +66,6 @@ public class CountriesGameScreen extends GameScreen<CountriesScreenManager> {
         table.add(questionContainerCreatorService.createAllGameView()).row();
         return table;
     }
-
-    private void createBackground() {
-        int scrollSpeed = 5;
-        Image image1 = GraphicUtils.getImage(CountriesSpecificResource.moving_background);
-        image1.setY(0);
-        image1.setFillParent(true);
-        Image image2 = GraphicUtils.getImage(CountriesSpecificResource.moving_background);
-        image2.setY(-ScreenDimensionsManager.getScreenHeight());
-        image2.setFillParent(true);
-        addActor(image1);
-        addActor(image2);
-        animateMoveUp(scrollSpeed, image1);
-        animateMoveUp(scrollSpeed, image2);
-    }
-
-    public void animateMoveUp(final float amount, final Actor actor) {
-        RunnableAction run = new RunnableAction();
-        run.setRunnable(new ScreenRunnable(getAbstractScreen()) {
-            @Override
-            public void executeOperations() {
-                animateMoveUp(amount, actor);
-                int screenHeight = ScreenDimensionsManager.getScreenHeight();
-                if (actor.getY() > screenHeight) {
-                    actor.setY(-screenHeight);
-                }
-            }
-        });
-        float duration = 0.5f;
-        actor.addAction(Actions.sequence(Actions.moveBy(0, amount, duration), run));
-    }
-
 
     @Override
     public void onBackKeyPress() {

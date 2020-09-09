@@ -5,8 +5,8 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -25,17 +25,18 @@ public class CountriesPressedLettersGameService extends GameService {
     private static final List<String> CHARS_TO_BE_IGNORED = Arrays.asList(" ", "-", "'");
     private Set<String> normalizedWordLetters = new HashSet<>();
     private String availableLetters;
-    private List<String> possibleAnswers = new ArrayList<>();
-    private List<String> possibleAnswersRaw = new ArrayList<>();
+    private List<String> possibleAnswers;
+    private List<String> possibleAnswersRaw;
     private List<String> allCountries;
-    private List<String> possibleAnswersLowerCase = new ArrayList<>();
+    private List<String> possibleAnswersLowerCase;
     private Integer mapQuestionIndex;
-    HashMap<Integer, List<Integer>> questionEntries;
-    HashMap<Integer, List<String>> synonyms;
+    Map<Integer, List<Integer>> questionEntries;
+    Map<Integer, List<String>> synonyms;
     List<String> allSynonymCountries = new ArrayList<>();
 
-    public CountriesPressedLettersGameService(Question question, List<String> allCountries, HashMap<Integer, List<Integer>> questionEntries, HashMap<Integer, List<String>> synonyms) {
+    public CountriesPressedLettersGameService(Question question, List<String> allCountries, Map<Integer, List<Integer>> questionEntries, Map<Integer, List<String>> synonyms) {
         super(question);
+        availableLetters = SpecificPropertiesUtils.getText(Game.getInstance().getAppInfoService().getLanguage() + "_" + Game.getInstance().getGameIdPrefix() + "_available_letters");
         this.allCountries = allCountries;
         this.synonyms = synonyms;
         for (Map.Entry<Integer, List<String>> e : synonyms.entrySet()) {
@@ -43,27 +44,33 @@ public class CountriesPressedLettersGameService extends GameService {
                 allSynonymCountries.add(c.toLowerCase());
             }
         }
-        Map.Entry<Integer, List<Integer>> firstEntry = getQuestionsEntry(questionEntries);
-        mapQuestionIndex = firstEntry.getKey();
         this.questionEntries = questionEntries;
-        populatePossibleAnswersFromIndexes(firstEntry.getValue());
-        availableLetters = SpecificPropertiesUtils.getText(Game.getInstance().getAppInfoService().getLanguage() + "_" + Game.getInstance().getGameIdPrefix() + "_available_letters");
+        goToQuestion(0);
+    }
+
+    public void goToQuestion(int i) {
+        possibleAnswers = new ArrayList<>();
+        possibleAnswersRaw = new ArrayList<>();
+        possibleAnswersLowerCase = new ArrayList<>();
+        normalizedWordLetters = new HashSet<>();
+        Map.Entry<Integer, List<Integer>> entry = getQuestionsEntry(i, questionEntries);
+        mapQuestionIndex = entry.getKey();
+        populatePossibleAnswersFromIndexes(entry.getValue());
         for (String answer : this.possibleAnswers) {
             normalizedWordLetters.addAll(getNormalizedWordLetters(answer));
             possibleAnswersLowerCase.add(answer.toLowerCase());
         }
-        System.out.println(possibleAnswersLowerCase);
     }
 
     public List<String> getAllCountries() {
         return allCountries;
     }
 
-    public HashMap<Integer, List<Integer>> getQuestionEntries() {
+    public Map<Integer, List<Integer>> getQuestionEntries() {
         return questionEntries;
     }
 
-    public HashMap<Integer, List<String>> getSynonyms() {
+    public Map<Integer, List<String>> getSynonyms() {
         return synonyms;
     }
 
@@ -71,8 +78,15 @@ public class CountriesPressedLettersGameService extends GameService {
         return allSynonymCountries;
     }
 
-    Map.Entry<Integer, List<Integer>> getQuestionsEntry(HashMap<Integer, List<Integer>> questionEntries) {
-        return questionEntries.entrySet().iterator().next();
+    Map.Entry<Integer, List<Integer>> getQuestionsEntry(int i, Map<Integer, List<Integer>> questionEntries) {
+        int j = 0;
+        Iterator<Map.Entry<Integer, List<Integer>>> iterator = questionEntries.entrySet().iterator();
+        Map.Entry<Integer, List<Integer>> next = iterator.next();
+        while (j < i) {
+            next = iterator.next();
+            j++;
+        }
+        return next;
     }
 
     private void populatePossibleAnswersFromIndexes(List<Integer> indexes) {
@@ -81,7 +95,7 @@ public class CountriesPressedLettersGameService extends GameService {
             possibleAnswers.add(countryName);
         }
         possibleAnswersRaw = new ArrayList<>(possibleAnswers);
-        if (question.getQuestionCategory() == CountriesCategoryEnum.cat2) {
+        if (Arrays.asList(CountriesCategoryEnum.cat2, CountriesCategoryEnum.cat3, CountriesCategoryEnum.cat4, CountriesCategoryEnum.cat5).contains(question.getQuestionCategory())) {
             Collections.sort(possibleAnswers);
         }
     }

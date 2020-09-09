@@ -1,9 +1,10 @@
 package libgdx.implementations.countries.hangman;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import libgdx.implementations.skelgame.question.GameAnswerInfo;
@@ -11,8 +12,8 @@ import libgdx.implementations.skelgame.question.Question;
 
 public class CountriesAtoZGameService extends CountriesPressedLettersGameService {
 
-    public CountriesAtoZGameService(Question question, List<String> allCountries, HashMap<Integer, List<Integer>> questionEntries, HashMap<Integer, List<String>> synonyms) {
-        super(question, allCountries, questionEntries, new HashMap<>());
+    public CountriesAtoZGameService(Question question, List<String> allCountries, Map<Integer, List<Integer>> questionEntries, Map<Integer, List<String>> synonyms) {
+        super(question, allCountries, questionEntries, new LinkedHashMap<>());
     }
 
     @Override

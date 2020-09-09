@@ -26,12 +26,6 @@ public class CountriesPopulationAreaNeighbQuestionContainerCreatorService extend
 //        return 22;
 //    }
 
-
-    @Override
-    public CountriesPopulationAreaNeighbGameService getGameService() {
-        return new CountriesPopulationAreaNeighbGameService(gameContext.getQuestion(), gameService.getAllCountries(), gameService.getQuestionEntries(), gameService.getSynonyms());
-    }
-
     @Override
     public void fillCountriesTopTable(Table table) {
         if (morePossibleAnswersThanMax()) {

@@ -2,7 +2,7 @@ package libgdx.implementations.countries.hangman;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
@@ -31,9 +31,9 @@ public class CountriesQuestionPopulator {
         return categoryEnum;
     }
 
-    public static HashMap<Integer, List<String>> getSynonyms() {
+    public static Map<Integer, List<String>> getSynonyms() {
         Scanner scanner = new Scanner(new CountriesQuestionCreator().getSynonymsFileText());
-        HashMap<Integer, List<String>> syn = new HashMap<>();
+        Map<Integer, List<String>> syn = new LinkedHashMap<>();
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
             String[] split = line.split(":");
@@ -42,21 +42,21 @@ public class CountriesQuestionPopulator {
         return syn;
     }
 
-    public HashMap<Integer, List<Integer>> getQuestions() {
-        HashMap<Integer, List<Integer>> q = new HashMap<>();
+    public Map<Integer, List<Integer>> getQuestions() {
+        Map<Integer, List<Integer>> q = new LinkedHashMap<>();
         if (categoryEnum == CountriesCategoryEnum.cat0 || categoryEnum == CountriesCategoryEnum.cat1) {
             getCat0_1(q);
         } else if (categoryEnum == CountriesCategoryEnum.cat2) {
             getCat2(q);
         } else if (categoryEnum == CountriesCategoryEnum.cat3) {
-            sortCat3Q(getCat3(q));
+            getCat3(q);
         } else if (categoryEnum == CountriesCategoryEnum.cat4 || categoryEnum == CountriesCategoryEnum.cat5) {
             getCat4_5(q);
         }
         return q;
     }
 
-    private HashMap<Integer, List<Integer>> getCat4_5(HashMap<Integer, List<Integer>> q) {
+    private Map<Integer, List<Integer>> getCat4_5(Map<Integer, List<Integer>> q) {
         CountriesDifficultyLevel difficultyLevelToCreate = CountriesDifficultyLevel._0;
         Scanner scanner = new Scanner(questionCreator.getFileText(difficultyLevelToCreate, categoryEnum));
         Map<Integer, List<Integer>> c = new TreeMap<>();
@@ -84,7 +84,7 @@ public class CountriesQuestionPopulator {
         return res;
     }
 
-    private HashMap<Integer, List<Integer>> getCat2(HashMap<Integer, List<Integer>> q) {
+    private Map<Integer, List<Integer>> getCat2(Map<Integer, List<Integer>> q) {
         List<Integer> azCountries = new ArrayList<>();
         List<Integer> excludeIndexes = Arrays.asList(3, 12, 16, 17);
         q.put(0, azCountries);
@@ -109,7 +109,7 @@ public class CountriesQuestionPopulator {
         return q;
     }
 
-    private HashMap<Integer, List<Integer>> getCat0_1(HashMap<Integer, List<Integer>> q) {
+    private Map<Integer, List<Integer>> getCat0_1(Map<Integer, List<Integer>> q) {
         CountriesDifficultyLevel difficultyLevelToCreate = CountriesDifficultyLevel._0;
         Scanner scanner = new Scanner(questionCreator.getFileText(difficultyLevelToCreate, categoryEnum));
         int i = 0;
@@ -125,18 +125,17 @@ public class CountriesQuestionPopulator {
         return q;
     }
 
-    private HashMap<Integer, List<Integer>> getCat3(HashMap<Integer, List<Integer>> q) {
-        List<Integer> excludeCountries = Arrays.asList(6, 8, 15, 16);
+    private Map<Integer, List<Integer>> getCat3(Map<Integer, List<Integer>> q) {
         CountriesDifficultyLevel difficultyLevelToCreate = CountriesDifficultyLevel._0;
         Scanner scanner = new Scanner(questionCreator.getFileText(difficultyLevelToCreate, categoryEnum));
-        Map<Integer, List<Integer>> c = new TreeMap<>();
+        Map<Integer, List<Integer>> c = new LinkedHashMap<>();
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
             c.put(Integer.parseInt(line.split(":")[0]), toInt(line.split(":")[1].split(",")));
         }
         int qAdded = 0;
         for (Map.Entry<Integer, List<Integer>> e : c.entrySet()) {
-            if (qAdded < CATEG_3_QUESTIONS_NR && e.getValue().size() >= 2 && !excludeCountries.contains(e.getKey())) {
+            if (qAdded < CATEG_3_QUESTIONS_NR) {
                 q.put(e.getKey(), e.getValue());
                 qAdded++;
             } else if (qAdded == CATEG_3_QUESTIONS_NR) {
@@ -146,15 +145,4 @@ public class CountriesQuestionPopulator {
         return q;
     }
 
-    private HashMap<Integer, List<Integer>> sortCat3Q(HashMap<Integer, List<Integer>> q) {
-        Map<Integer, Integer> c = new TreeMap<>();
-        for (Map.Entry<Integer, List<Integer>> e : q.entrySet()) {
-            c.put(e.getValue().size(), e.getKey());
-        }
-        HashMap<Integer, List<Integer>> res = new HashMap<>();
-        for (Map.Entry<Integer, Integer> e : c.entrySet()) {
-            res.put(e.getKey(), q.get(e.getKey()));
-        }
-        return res;
-    }
 }

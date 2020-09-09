@@ -1,5 +1,6 @@
 package libgdx.implementations.countries.hangman;
 
+import java.util.HashMap;
 import java.util.Map;
 
 import libgdx.controls.button.MyButton;
@@ -19,10 +20,16 @@ import libgdx.screen.AbstractScreen;
 
 public class CountriesAtoZCreatorDependencies extends CreatorDependencies {
 
+    private Map<Integer, CountriesAtoZGameService> gameService = new HashMap<>();
+
     @Override
     public GameService getGameService(Question question) {
         CountriesDependencyManager manager = CountriesGame.getInstance().getSubGameDependencyManager();
-        return new CountriesAtoZGameService(question, manager.getAllCountries(), manager.getCategQuestions((CountriesCategoryEnum) question.getQuestionCategory()), manager.getSynonyms());
+        int l = question.getQuestionLineInQuestionFile();
+        if (gameService.get(l) == null) {
+            gameService.put(l, new CountriesAtoZGameService(question, manager.getAllCountries(), manager.getCategQuestions((CountriesCategoryEnum) question.getQuestionCategory()), manager.getSynonyms()));
+        }
+        return gameService.get(l);
     }
 
     @Override

@@ -8,6 +8,7 @@ import libgdx.preferences.SettingsService;
 public class CountriesSettingsService extends SettingsService {
 
     private static final String SELECTED_LEVEL = "selectedLevel";
+    private static final String HIGH_SCORE = "highScore";
 
 
     CampaignLevel getSelectedLevel() {
@@ -21,5 +22,13 @@ public class CountriesSettingsService extends SettingsService {
 
     void setSelectedLevel(CampaignLevel campaignLevelEnum) {
         preferencesService.putString(SELECTED_LEVEL, campaignLevelEnum.getName());
+    }
+
+    boolean isHighScore() {
+        return preferencesService.getPreferences().getBoolean(HIGH_SCORE, false);
+    }
+
+    public void setHighScore(boolean hs) {
+        preferencesService.putBoolean(HIGH_SCORE, hs);
     }
 }

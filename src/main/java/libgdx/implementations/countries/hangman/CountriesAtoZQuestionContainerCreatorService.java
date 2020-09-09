@@ -25,11 +25,6 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
         super.processGameInfo(gameQuestionInfo);
     }
 
-    @Override
-    public CountriesAtoZGameService getGameService() {
-        return new CountriesAtoZGameService(gameContext.getQuestion(), gameService.getAllCountries(), gameService.getQuestionEntries(), gameService.getSynonyms());
-    }
-
     private String getCountryForFirstLetter(String letter) {
         for (String country : gameService.getPossibleAnswers()) {
             if (country.substring(0, 1).toLowerCase().equals(letter.toLowerCase())) {

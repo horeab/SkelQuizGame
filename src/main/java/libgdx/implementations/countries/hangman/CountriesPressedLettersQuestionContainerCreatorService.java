@@ -1,6 +1,7 @@
 package libgdx.implementations.countries.hangman;
 
 import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.scenes.scene2d.Action;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.actions.RunnableAction;
@@ -13,8 +14,8 @@ import org.apache.commons.lang3.mutable.MutableLong;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -30,6 +31,7 @@ import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.countries.CountriesCategoryEnum;
 import libgdx.implementations.screens.implementations.countries.CountriesGameScreen;
+import libgdx.implementations.screens.implementations.countries.CountriesSettingsService;
 import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.gameservice.GameContext;
@@ -62,6 +64,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     MyButton clearPressedBtn;
     private CampaignStoreService campaignStoreService = new CampaignStoreService();
     int score = 0;
+    int currentQuestion = 0;
     CountriesGameScreen countriesGameScreen;
 
     public CountriesPressedLettersQuestionContainerCreatorService(GameContext gameContext, CountriesGameScreen countriesGameScreen, TGameService gameService) {
@@ -144,23 +147,32 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         final MainResource normalBackground = MainResource.btn_lowcolor_up;
         Res backgr = lastCountryFound ? MainResource.btn_menu_down : normalBackground;
         if (lastCountryFound) {
-            score = score + 1;
-            if (score > campaignStoreService.getScoreWon(countriesGameScreen.getCampaignLevel())) {
-                campaignStoreService.updateScoreWon(countriesGameScreen.getCampaignLevel(), score);
-            }
+            updateScore();
             new ActorAnimation(countryContainer.getChildren().get(1), getAbstractGameScreen()).animateFastFadeIn();
             RunnableAction ra = new RunnableAction();
             ra.setRunnable(new ScreenRunnable(getAbstractGameScreen()) {
                 @Override
                 public void executeOperations() {
                     countryContainer.setBackground(GraphicUtils.getNinePatch(questionOver ? getCorrectAnswBackgr() : normalBackground));
-                    scoreLabel.setText("+" + score);
                 }
             });
             getAbstractGameScreen().addAction(Actions.sequence(Actions.delay(1), ra));
         }
         countryContainer.setBackground(GraphicUtils.getNinePatch(backgr));
         return countryContainer;
+    }
+
+    private void updateScore() {
+        score = score + 1;
+        if (score > campaignStoreService.getScoreWon(countriesGameScreen.getCampaignLevel())) {
+            campaignStoreService.updateScoreWon(countriesGameScreen.getCampaignLevel(), score);
+            new CountriesSettingsService().setHighScore(true);
+        }
+        float scaleFactor = 1f;
+        float duration = 0.2f;
+        scoreLabel.addAction(Actions.sequence(Actions.scaleBy(scaleFactor, scaleFactor, duration),
+                Actions.scaleBy(-scaleFactor, -scaleFactor, duration)));
+        scoreLabel.setText("+" + score);
     }
 
     private Table createCountryContainer(String countryName, String topText, String endText, int index) {
@@ -296,9 +308,9 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         scoreLabel = createScoreLabel(borderWidth, fontScale);
         Stack animateScoreStack = new Stack();
         animateScoreStack.add(scoreLabel);
-        infoContainer.add(counterLabel).width(ScreenDimensionsManager.getScreenWidthValue(20));
-        infoContainer.add(categContainer).padLeft(dimen).padRight(dimen).width(categTextWidth);
         infoContainer.add(animateScoreStack).width(ScreenDimensionsManager.getScreenWidthValue(20));
+        infoContainer.add(categContainer).padLeft(dimen).padRight(dimen).width(categTextWidth);
+        infoContainer.add(counterLabel).width(ScreenDimensionsManager.getScreenWidthValue(20));
         table.add(infoContainer).expandX().row();
         countdownProcess();
         return table;
@@ -306,13 +318,15 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
 
     private MyWrappedLabel createScoreLabel(float borderWidth, float fontScale) {
         String prefix = score > 0 ? "+" : "";
-        return new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+        MyWrappedLabel label = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setText(prefix + score)
                 .setFontConfig(new FontConfig(
                         FontColor.LIGHT_GREEN.getColor(),
                         FontColor.BLACK.getColor(),
                         FontConfig.FONT_SIZE * fontScale,
                         borderWidth)).build());
+        label.setTransform(true);
+        return label;
     }
 
     private String getQuestionName() {
@@ -380,8 +394,13 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
                 clearQuestionInfo();
                 Table allGameTable = gameScreen.getRoot().findActor(ALL_GAME_VIEW);
                 allGameTable.clear();
-                gameService = getGameService();
-                addAllGameContainers(allGameTable);
+                currentQuestion++;
+                if (currentQuestion > gameService.getQuestionEntries().size() - 1) {
+                    getAbstractGameScreen().getScreenManager().showMainScreen();
+                } else {
+                    gameService.goToQuestion(currentQuestion);
+                    addAllGameContainers(allGameTable);
+                }
             }
         });
         gameScreen.addAction(Actions.sequence(Actions.delay(delay), ra));
@@ -391,10 +410,6 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         questionOver = false;
         clearPressedLetters();
         foundCountries.clear();
-    }
-
-    public TGameService getGameService() {
-        return null;
     }
 
     private boolean allCountriesFound() {
@@ -426,7 +441,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     }
 
     public String getSynonymNameIfLongOrCountry(String countryName, int index) {
-        HashMap<Integer, List<String>> synonyms = gameService.getSynonyms();
+        Map<Integer, List<String>> synonyms = gameService.getSynonyms();
         if (synonyms.isEmpty()) {
             return countryName;
         }

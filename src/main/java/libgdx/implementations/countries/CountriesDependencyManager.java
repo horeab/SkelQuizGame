@@ -2,6 +2,7 @@ package libgdx.implementations.countries;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
@@ -16,14 +17,14 @@ import libgdx.resources.IncrementingRes;
 public class CountriesDependencyManager extends CampaignGameDependencyManager {
 
     private List<String> allCountries = new ArrayList<>();
-    private Map<CountriesCategoryEnum, HashMap<Integer, List<Integer>>> categQuestions = new HashMap<>();
-    private HashMap<Integer, List<String>> synonyms = new HashMap<>();
+    private Map<CountriesCategoryEnum, Map<Integer, List<Integer>>> categQuestions = new LinkedHashMap<>();
+    private Map<Integer, List<String>> synonyms = new LinkedHashMap<>();
 
-    public HashMap<Integer, List<Integer>> getCategQuestions(CountriesCategoryEnum questionCategory) {
+    public Map<Integer, List<Integer>> getCategQuestions(CountriesCategoryEnum questionCategory) {
         return categQuestions.get(questionCategory);
     }
 
-    public HashMap<Integer, List<String>> getSynonyms() {
+    public Map<Integer, List<String>> getSynonyms() {
         return synonyms;
     }
 

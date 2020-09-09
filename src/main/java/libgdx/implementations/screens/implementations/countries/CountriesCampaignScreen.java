@@ -2,6 +2,7 @@ package libgdx.implementations.screens.implementations.countries;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
@@ -9,6 +10,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
@@ -16,6 +18,7 @@ import libgdx.campaign.CampaignService;
 import libgdx.campaign.CampaignStoreLevel;
 import libgdx.campaign.CampaignStoreService;
 import libgdx.campaign.QuestionConfig;
+import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
@@ -69,6 +72,10 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
         table.setFillParent(true);
         table.add(createAllTable());
         addActor(table);
+        if (settingsService.isHighScore()) {
+            settingsService.setHighScore(false);
+            ActorAnimation.animateImageCenterScreenFadeOut(MainResource.btn_back_down, 2f);
+        }
     }
 
     protected Stack createTitleStack(MyWrappedLabel titleLabel) {
@@ -80,6 +87,7 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
     }
 
     private Table createAllTable() {
+        new ActorAnimation(getAbstractScreen()).createScrollingBackground(CountriesSpecificResource.moving_background);
         Table table = new Table();
         MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setFontConfig(new FontConfig(
@@ -178,7 +186,7 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
         float dimen = vertical_general_margin.getDimen();
         bigCategTable.setWidth(categBtn.getWidth());
         bigCategTable.setHeight(categBtn.getHeight());
-        bigCategTable.add(createAchTable(campaignLevel)).height(dimen * 4).row();
+        bigCategTable.add(createAchTable(campaignLevel)).width(categBtn.getWidth()).height(dimen * 4).row();
         bigCategTable.add(categBtn).padTop(dimen * 3).width(categBtn.getWidth()).height(categBtn.getHeight()).row();
         MyButton startGameBtn = new ImageButtonBuilder(GameButtonSkin.COUNTRIES_STARTGAME, getAbstractScreen())
                 .animateZoomInZoomOut()
@@ -187,7 +195,7 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
         startGameBtn.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                Question question = new Question(0, CountriesDifficultyLevel._0, categoryEnum, "");
+                Question question = new Question(new Random().nextInt(), CountriesDifficultyLevel._0, categoryEnum, "");
                 GameContext gameContext = new GameContextService().createGameContext(Collections.singletonList(question));
                 screenManager.showCampaignGameScreen(gameContext, campaignLevel);
                 settingsService.setSelectedLevel(campaignLevel);
@@ -200,10 +208,21 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
 
     private Table createAchTable(CampaignLevel campaignLevel) {
         Table achTable = new Table();
+        long scoreWon = campaignStoreService.getScoreWon(campaignLevel);
+        String prefix = scoreWon > 0 ? "+" : "";
         MyWrappedLabel foundC = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setFontConfig(new FontConfig(FontColor.BLACK.getColor(), FontConfig.FONT_SIZE * 1.0f))
-                .setText(MainGameLabel.l_highscore.getText(campaignStoreService.getScoreWon(campaignLevel))).build());
+                .setText(MainGameLabel.l_highscore.getText("")).build());
+        MyWrappedLabel score = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setFontConfig(new FontConfig(FontColor.GREEN.getColor(), FontConfig.FONT_SIZE * 1.3f))
+                .setText(prefix + scoreWon).build());
+        score.setTransform(true);
+        float scaleFactor = 0.3f;
+        float duration = 0.2f;
+        score.addAction(Actions.sequence(Actions.scaleBy(scaleFactor, scaleFactor, duration),
+                Actions.scaleBy(-scaleFactor, -scaleFactor, duration)));
         achTable.add(foundC).expand();
+        achTable.add(score).padLeft(MainDimen.horizontal_general_margin.getDimen()).expand();
         return achTable;
     }
 
