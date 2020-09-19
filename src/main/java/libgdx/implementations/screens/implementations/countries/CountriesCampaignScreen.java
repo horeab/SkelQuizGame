@@ -8,6 +8,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
@@ -169,7 +171,7 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
                 .setFontScale(FontManager.getNormalFontDim())
                 .setFontColor(FontColor.BLACK)
                 .setFixedButtonSize(GameButtonSize.COUNTRIES_BIG_MENU_BUTTON)
-                .setText(labelText)
+                .setText(StringUtils.capitalize(labelText))
                 .build();
         categBtn.setDisabled(true);
         categBtn.addListener(new ClickListener() {
