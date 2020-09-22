@@ -6,6 +6,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Cell;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
+import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -17,6 +18,7 @@ import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.history.HistoryPreferencesService;
 import libgdx.implementations.history.HistorySpecificResource;
 import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.GameButtonSkin;
@@ -33,6 +35,7 @@ import libgdx.utils.model.FontColor;
 public class HistoryQuestionContainerCreatorService extends QuestionContainerCreatorService<HistoryGameService> {
 
     private HistoryGameScreen historyGameScreen;
+    private HistoryPreferencesService historyPreferencesService = new HistoryPreferencesService();
 
     public HistoryQuestionContainerCreatorService(GameContext gameContext, HistoryGameScreen abstractGameScreen) {
         super(gameContext, abstractGameScreen);
@@ -63,10 +66,11 @@ public class HistoryQuestionContainerCreatorService extends QuestionContainerCre
         int i = 0;
         float historyTimelineArrowWidth = GameButtonSize.HISTORY_TIMELINE_ARROW.getWidth();
         for (GameQuestionInfo q : gameContext.getCurrentUserGameUser().getAllQuestionInfos()) {
-            String optionText = HistoryGameService.getOptionText(q.getQuestion().getQuestionString());
+            String questionString = q.getQuestion().getQuestionString();
+            String optionText = HistoryGameService.getOptionText(questionString);
             Table timeLineTable = new Table();
             Table qTable = new Table();
-            Table optionBtn = createOptionBtn(optionText);
+            Table optionBtn = createOptionBtn(optionText, i);
             Table leftContainer = new Table();
             Cell leftCell = leftContainer.add().height(optionBtn.getHeight()).width(optionBtn.getWidth());
             Cell leftArrowCell = leftContainer.add().width(historyTimelineArrowWidth);
@@ -80,7 +84,8 @@ public class HistoryQuestionContainerCreatorService extends QuestionContainerCre
             }
             qTable.add(leftContainer).width(optionSideWidth);
             qTable.add(timeLineTable).height(optionHeight).width(timelineLineWidth);
-            timeLineTable.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
+            timeLineTable.setBackground(historyGameScreen.getBackgroundForTimeline(questionString));
+            timeLineTable.setName(getTimelineItemName(i));
             Table rightContainer = new Table();
             Cell rightArrowCell = rightContainer.add().width(historyTimelineArrowWidth);
             Cell rightCell = rightContainer.add().height(optionBtn.getHeight()).width(optionBtn.getWidth());
@@ -93,11 +98,15 @@ public class HistoryQuestionContainerCreatorService extends QuestionContainerCre
                 rightCell.setActor(createAnswImg(i));
             }
             qTable.add(rightContainer).width(optionSideWidth);
-            qTable.setBackground(GraphicUtils.getNinePatch(MainResource.btn_lowcolor_down));
+            qTable.setBackground(getTimelineItemBackgr(questionString, i));
             table.add(qTable).width(optionSideWidth * 2).height(optionHeight).row();
             i++;
         }
         return table;
+    }
+
+    private String getTimelineItemName(int i) {
+        return "timeLineTable" + i;
     }
 
     public static float optionHeight() {
@@ -109,14 +118,16 @@ public class HistoryQuestionContainerCreatorService extends QuestionContainerCre
         Image img = createOptImg(index);
         table.add(img);
         table.add(img).width(img.getWidth()).height(img.getHeight());
-        table.setName("i" + index);
+        table.setName(getOptionImageName(index));
         return table;
     }
 
     private Image createOptImg(int index) {
-        Res res = MainResource.question;
+        Res res = HistorySpecificResource.timeline_opt_unknown;
         try {
-            res = HistorySpecificResource.valueOf("i" + index);
+            if (historyPreferencesService.getAllLevelsPlayed().contains(index)) {
+                res = HistorySpecificResource.valueOf("i" + index);
+            }
         } catch (Exception ignore) {
         }
         Image image = GraphicUtils.getImage(res);
@@ -132,22 +143,24 @@ public class HistoryQuestionContainerCreatorService extends QuestionContainerCre
         return image;
     }
 
-    private Table createOptionBtn(String optionText) {
+    private Table createOptionBtn(String optionText, int index) {
         Table table = new Table();
         MyButton btn = new ButtonBuilder()
                 .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.2f))
                 .setWrappedText(optionText, GameButtonSize.HISTORY_CLICK_ANSWER_OPTION.getWidth())
                 .setFontColor(FontColor.BLACK)
                 .setButtonSkin(MainButtonSkin.DEFAULT)
+                .setDisabled(historyPreferencesService.getAllLevelsPlayed().contains(index))
                 .setFixedButtonSize(GameButtonSize.HISTORY_CLICK_ANSWER_OPTION)
                 .build();
         btn.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
-                String currentQuestionCorrectAnswer = HistoryGameService.getOptionText(historyGameScreen.getCurrentGameQuestionInfo().getQuestion().getQuestionString());
+                String questionString = historyGameScreen.getCurrentGameQuestionInfo().getQuestion().getQuestionString();
+                String currentQuestionCorrectAnswer = HistoryGameService.getOptionText(questionString);
+                Integer currentQuestion = historyGameScreen.getCurrentQuestion();
                 if (currentQuestionCorrectAnswer.equals(optionText)) {
-                    Integer currentQuestion = historyGameScreen.getCurrentQuestion();
-                    Table imgTable = historyGameScreen.getRoot().findActor("i" + currentQuestion);
+                    Table imgTable = historyGameScreen.getRoot().findActor(getOptionImageName(currentQuestion));
                     Actor oldImg = imgTable.getChildren().get(0);
                     oldImg.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRemoveActorAction(oldImg)));
                     Image img = createOptImg(currentQuestion);
@@ -155,12 +168,34 @@ public class HistoryQuestionContainerCreatorService extends QuestionContainerCre
                     img.setVisible(false);
                     imgTable.add(img).width(img.getWidth()).height(img.getHeight());
                     new ActorAnimation(img, historyGameScreen).animateFastFadeIn();
+                    historyPreferencesService.setLevelWon(currentQuestion);
+                } else {
+                    historyPreferencesService.setLevelLost(currentQuestion);
                 }
+                Table item = historyGameScreen.getRoot().findActor(getTimelineItemName(currentQuestion));
+                item.setBackground(getTimelineItemBackgr(questionString, currentQuestion));
             }
         });
         table.add(btn).width(btn.getWidth()).height(btn.getHeight());
         return btn;
     }
+
+    private String getOptionImageName(Integer currentQuestion) {
+        return "optImage" + currentQuestion;
+    }
+
+    private Drawable getTimelineItemBackgr(String questionString, Integer questionNr) {
+        Res res;
+        if (historyPreferencesService.getLevelsLost().contains(questionNr)) {
+            res = HistorySpecificResource.timeline_opt_wrong;
+        } else if (historyPreferencesService.getLevelsWon().contains(questionNr)) {
+            res = HistorySpecificResource.timeline_opt_correct;
+        } else {
+            res = HistorySpecificResource.valueOf("timeline" + historyGameScreen.getTimelineForYear(HistoryGameService.getOptionRawText(questionString)) + "_opt_background");
+        }
+        return GraphicUtils.getNinePatch(res);
+    }
+
 
     @Override
     public ButtonSkin correctAnswerSkin() {

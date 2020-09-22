@@ -23,10 +23,14 @@ public class HistoryGameService extends UniqueAnswersQuizGameService {
     }
 
     public static String getOptionText(String s) {
-        int nr = Integer.parseInt(s.split(":")[2]);
+        int nr = getOptionRawText(s);
         String val = Math.abs(nr) > 9999 ? formatNrToCurrency(Math.abs(nr)) : String.valueOf(Math.abs(nr));
         val = nr < 0 ? MainGameLabel.l_bc_year.getText(val) : val;
         return val;
+    }
+
+    public static int getOptionRawText(String s) {
+        return Integer.parseInt(s.split(":")[2]);
     }
 
     private static String formatNrToCurrency(int nr) {

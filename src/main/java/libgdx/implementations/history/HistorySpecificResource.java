@@ -5,6 +5,7 @@ import com.badlogic.gdx.utils.I18NBundle;
 
 import libgdx.game.Game;
 import libgdx.resources.SpecificResource;
+import sun.net.www.content.image.png;
 
 public enum HistorySpecificResource implements SpecificResource {
 
@@ -43,7 +44,22 @@ public enum HistorySpecificResource implements SpecificResource {
 
     arrow_left("arrow_left.png", Texture.class),
     arrow_right("arrow_right.png", Texture.class),
-    ;;
+    timeline0_line_background("timeline0_line_background.png", Texture.class),
+    timeline1_line_background("timeline1_line_background.png", Texture.class),
+    timeline2_line_background("timeline2_line_background.png", Texture.class),
+    timeline3_line_background("timeline3_line_background.png", Texture.class),
+    timeline0_opt_background("timeline0_opt_background.png", Texture.class),
+    timeline1_opt_background("timeline1_opt_background.png", Texture.class),
+    timeline2_opt_background("timeline2_opt_background.png", Texture.class),
+    timeline3_opt_background("timeline3_opt_background.png", Texture.class),
+    timeline_opt_unknown("timeline_opt_unknown.png", Texture.class),
+    timeline_opt_correct("timeline_opt_correct.png", Texture.class),
+    timeline_opt_wrong("timeline_opt_wrong.png", Texture.class),
+    score_icon("score_icon.png", Texture.class),
+
+    i0("questions/images/i0.png", Texture.class),
+    i1("questions/images/i1.png", Texture.class),
+    ;
 
     // @formatter:on
 

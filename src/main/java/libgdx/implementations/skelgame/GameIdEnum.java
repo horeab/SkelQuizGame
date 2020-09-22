@@ -13,6 +13,7 @@ import libgdx.implementations.flags.FlagsDependencyManager;
 import libgdx.implementations.geoquiz.QuizGameDependencyManager;
 import libgdx.implementations.hangman.HangmanDependencyManager;
 import libgdx.implementations.hangmanarena.HangmanArenaDependencyManager;
+import libgdx.implementations.history.HistoryDependencyManager;
 import libgdx.implementations.judetelerom.JudeteleRomDependencyManager;
 import libgdx.implementations.kennstde.KennstDeDependencyManager;
 import libgdx.implementations.math.MathDependencyManager;
@@ -33,6 +34,7 @@ public enum GameIdEnum implements GameId {
     kennstde(KennstDeDependencyManager.class),
     quizgame(QuizGameDependencyManager.class),
     conthistory(ConthistoryDependencyManager.class),
+    history(HistoryDependencyManager.class),
     hangmanarena(HangmanArenaDependencyManager.class),
     hangman(HangmanDependencyManager.class),
     ;

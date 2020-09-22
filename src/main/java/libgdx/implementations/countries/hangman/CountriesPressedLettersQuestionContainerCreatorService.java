@@ -284,12 +284,12 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         float categTextWidth = ScreenDimensionsManager.getScreenWidthValue(60);
         MyWrappedLabel categLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setWrappedLineLabel(categTextWidth - dimen * 2)
-                .setText(categText)
+                .setText(StringUtils.capitalize(categText))
                 .setFontConfig(new FontConfig(
                         FontColor.BLACK.getColor(),
                         FontConfig.FONT_SIZE * categFontScale)).build());
         MyWrappedLabel actualQName = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
-                .setText(questionName)
+                .setText(StringUtils.capitalize(questionName))
                 .setFontConfig(new FontConfig(
                         FontColor.LIGHT_BLUE.getColor(),
                         FontConfig.FONT_SIZE * categFontScale * 1.1f)).build());

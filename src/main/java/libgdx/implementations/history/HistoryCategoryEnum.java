@@ -1,5 +1,6 @@
 package libgdx.implementations.history;
 
+import libgdx.implementations.screens.implementations.history.HistoryGameCreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.CreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.ImageClickGameCreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.QuizQuestionCategory;
@@ -7,11 +8,7 @@ import libgdx.implementations.skelgame.gameservice.UniqueQuizGameCreatorDependen
 
 public enum HistoryCategoryEnum implements QuizQuestionCategory {
 
-    cat0(ImageClickGameCreatorDependencies.class),
-    cat1(ImageClickGameCreatorDependencies.class),
-    cat2(ImageClickGameCreatorDependencies.class),
-    cat3(ImageClickGameCreatorDependencies.class),
-    cat4(ImageClickGameCreatorDependencies.class),
+    cat0(HistoryGameCreatorDependencies.class),
     ;
 
     private Class<? extends CreatorDependencies> questionCreator;
