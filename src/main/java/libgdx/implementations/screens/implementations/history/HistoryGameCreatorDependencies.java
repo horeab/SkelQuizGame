@@ -27,7 +27,7 @@ public class HistoryGameCreatorDependencies extends CreatorDependencies {
 
     @Override
     public QuestionContainerCreatorService getQuestionContainerCreatorService(GameContext gameContext, GameScreen screen) {
-        return new HistoryQuestionContainerCreatorService(gameContext, (HistoryGameScreen) screen);
+        return new HistoryTimelineQuestionContainerCreatorService(gameContext, (HistoryGameScreen) screen);
     }
 
     @Override

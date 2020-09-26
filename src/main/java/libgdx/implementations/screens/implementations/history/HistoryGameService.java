@@ -18,7 +18,7 @@ public class HistoryGameService extends UniqueAnswersQuizGameService {
 
     @Override
     public List<String> getAnswers() {
-        String[] answersArray = question.getQuestionString().split(":")[2].split(",");
+        String[] answersArray = question.getQuestionString().split(":")[1].split(",");
         return new ArrayList<>(Arrays.asList(answersArray));
     }
 
@@ -30,7 +30,7 @@ public class HistoryGameService extends UniqueAnswersQuizGameService {
     }
 
     public static int getOptionRawText(String s) {
-        return Integer.parseInt(s.split(":")[2]);
+        return Integer.parseInt(s.split(":")[1]);
     }
 
     private static String formatNrToCurrency(int nr) {
@@ -57,11 +57,7 @@ public class HistoryGameService extends UniqueAnswersQuizGameService {
     }
 
     public static String getQuestionText(String s) {
-        return s.split(":")[1];
-    }
-
-    public static Integer getQuestionNr(String s) {
-        return Integer.valueOf(s.split(":")[0]);
+        return s.split(":")[0];
     }
 
     @Override
