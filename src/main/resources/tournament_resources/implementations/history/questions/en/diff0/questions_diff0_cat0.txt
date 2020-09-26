@@ -1,80 +1,46 @@
-1:Homo erectus leaves Africa:-1800000
-2:Humans learn to control fire:-400000
-3:Neanderthals become extinct:-40000
-4:The development of agriculture:-9000
-5:First civilizations develop in Sumer:-3500
-6:The Pyramids and Great Sphinx were built in Giza, Egypt:-2500
-7:The making of iron began:-1400
-8:The first Olympic Games were held in Greece:-776
-9:Cyrus builds the Persian Empire:-550
-10:Romans establish a republic:-500
-11:Buddha, Confucius, Socrates:-500
-12:Golden Age of Athens:-450
-13:Julius Caesar of Rome was assassinated:-44
-14:The Chinese invented paper:1
-15:Spread of Christianity :1
-16:Constantine issued the Edict of Milan, which accepted Christianity in the Roman Empire:313
-17:The Roman Empire split into the East Roman, or Byzantine Empire and the West Roman Empire:395
-18:Birth of Prophet Muhammad, the founder of Islam:570
-19:Maya civilization thrives:600
-20:Vladimir I converted the Russians to Christianity:988
-21:Split of Christian Church:1054
-22:First Christian Crusade:1096
-23:Angkor Wat is built:1100
-24:The Chinese invented the magnetic compass:1100
-25:Rise of Feudalism in Japan:1200
-26:The Mongols gained control of all China:1279
-27:The Renaissance began in Italy:1300
-28:Rise of Aztec Empire:1325
-29:Bubonic plague spreads to Europe:1347
-30:The Ottoman Turks captured Constantinople:1453
-31:Columbus discovered America:1492
-32:Vasco da Gama discovered sea route to India:1498
-33:Cortez conquers the Aztecs:1524
-34:Founding of the Mughal Empire:1526
-35:Nicolas Copernicus proposed that the sun was the centre of the universe:1543
-36:Taj Mahal completed:1643
-37:Mozart (aged eight) writes first symphony:1764
-38:The Declaration of Independence was adopted, establishing the United States of America:1776
-39:The French Revolution began:1789
-40:Napoleon Bonaparte was defeated in the Battle of Waterloo, ending his attempt to rule Europe:1815
-41:British abolish slavery:1833
-42:Opium Wars:1839
-43:Great Britain took over the rule of India:1858
-44:The Suez Canal opened:1869
-45:Germany became united under the Prussian king:1871
-46:Bell patents the telephone:1876
-47:Edison invents electric light:1879
-48:Trans-Siberian Railway opened:1901
-49:Einstein announces theory of relativity:1905
-50:Beginning of the the Chinese Revolution that ended 1000 years of imperial rule:1911
-51:Titanic, world’s biggest ship, sinks in North Atlantic:1912
-52:World War 1 begins:1914
-53:Russian Revolution. Russia becomes a republic.:1917
-54:Hitler rises to power in Germany:1933
-55:World War 2 begins:1939
-56:The Japanese attack Pearl Harbour:1941
-57:Creation of the United Nations:1945
-58:End of World War 2:1945
-59:Communist victory in China under Mao Zedong:1949
-60:Russia launches first satellite, Sputnik 1:1957
-61:Vietnam War begins:1957
-62:Soviet Union’s Yuri Gagarin, becomes the first man to fly in space:1961
-63:US President John F.Kennedy assassinated:1963
-64:Neil Armstrong becomes the first man to set foot on the moon:1969
-65:Kingdom of Cambodia becomes the Khmer Republic:1970
-66:Scientists identify AIDS:1981
-67:Chernobyl disaster:1986
-68:Fall of Communism in Eastern Europe:1989
-69:Unification of Germany:1990
-70:Soviet Union breaks up:1991
-71:End of Apartheid in South Africa:1994
-72:Google is founded:1998
-73:12 European countries launch single currency, the Euro:1999
-74:September 11 Terrorist Attacks:2001
-75:Introduction of the iPhone:2007
-76:End of Monarchy in Nepal:2008
-77:Meltdown of the Fukushima Nuclear Power Plant:2011
-78:Francis becomes Pope:2013
-79:Liquid water is found on Mars:2015
-80:COVID-19 pandemic:2020
+Homo erectus leaves Africa:-1800000
+Humans learn to control fire:-400000
+Neanderthals become extinct:-40000
+Neolithic Revolution:-9000
+First civilizations develop in Sumeria:-3500
+The Pyramids and Great Sphinx were built:-2500
+Birth of Buddha:-486
+Founding of the Roman Empire:-27
+Julius Caesar of Rome was assassinated:-44
+Spread of Christianity :1
+Split of the the Roman Empire:395
+Birth of Prophet Muhammad, the founder of Islam:570
+Printing invented in China:730
+Split of the Christian Church:1054
+Magna Carta signed by King John:1215
+Bubonic plague spreads to Europe:1347
+The Ottoman Turks captured Constantinople:1453
+Columbus discovered America:1492
+Taj Mahal completed:1643
+Mozart writes his first symphony:1764
+United States Declaration of Independence:1776
+Napoleon defeated at the Battle of Waterloo:1815
+First Steam Locomotive:1825
+Great Britain took over the rule of India:1858
+Edison invents electric light:1879
+Benz develops first petrol-driven car:1885
+Einstein announces the theory of relativity:1905
+Titanic, world’s biggest ship, sinks in North Atlantic:1912
+World War 1 begins:1914
+Russian Revolution:1917
+Hitler rises to power in Germany:1933
+World War 2 begins:1939
+End of World War 2:1945
+Communist China founded:1949
+Russia launches first satellite, Sputnik 1:1957
+Yuri Gagarin becomes the first man to fly in space:1961
+Neil Armstrong becomes the first man to set foot on the moon:1969
+Chernobyl disaster:1986
+Fall of Communism in Eastern Europe:1989
+Unification of Germany:1990
+Soviet Union breaks up:1991
+End of Apartheid in South Africa:1994
+Google is founded:1998
+September 11 Terrorist Attacks:2001
+Introduction of the iPhone:2007
+COVID-19 pandemic:2020
