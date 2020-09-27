@@ -17,7 +17,7 @@ public class HistoryGameCreatorDependencies extends CreatorDependencies {
 
     @Override
     public Class<? extends GameService> getGameServiceClass() {
-        return HistoryGameService.class;
+        return HistoryTimelineGameService.class;
     }
 
     @Override

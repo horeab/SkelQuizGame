@@ -8,9 +8,8 @@ import java.util.Set;
 
 import libgdx.implementations.skelgame.gameservice.UniqueAnswersQuizGameService;
 import libgdx.implementations.skelgame.question.Question;
-import libgdx.resources.gamelabel.MainGameLabel;
 
-public class HistoryGameService extends UniqueAnswersQuizGameService {
+public abstract class HistoryGameService extends UniqueAnswersQuizGameService {
 
     public HistoryGameService(Question question) {
         super(question);
@@ -22,18 +21,13 @@ public class HistoryGameService extends UniqueAnswersQuizGameService {
         return new ArrayList<>(Arrays.asList(answersArray));
     }
 
-    public static String getOptionText(String s) {
-        int nr = getOptionRawText(s);
-        String val = Math.abs(nr) > 9999 ? formatNrToCurrency(Math.abs(nr)) : String.valueOf(Math.abs(nr));
-        val = nr < 0 ? MainGameLabel.l_bc_year.getText(val) : val;
-        return val;
+    public abstract int getSortYear(String s);
+
+    public String getQuestionText(String s) {
+        return s.split(":")[0];
     }
 
-    public static int getOptionRawText(String s) {
-        return Integer.parseInt(s.split(":")[1]);
-    }
-
-    private static String formatNrToCurrency(int nr) {
+    protected String formatNrToCurrency(int nr) {
         char[] nrArray = Integer.toString(nr).toCharArray();
         int j = 0;
         String result = Integer.toString(nr);
@@ -54,10 +48,6 @@ public class HistoryGameService extends UniqueAnswersQuizGameService {
             result = result.substring(1);
         }
         return result;
-    }
-
-    public static String getQuestionText(String s) {
-        return s.split(":")[0];
     }
 
     @Override

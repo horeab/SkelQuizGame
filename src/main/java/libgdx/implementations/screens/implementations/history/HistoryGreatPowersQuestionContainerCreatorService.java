@@ -4,43 +4,76 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 
+import org.apache.commons.lang3.tuple.Pair;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MainButtonSkin;
 import libgdx.controls.button.MyButton;
+import libgdx.controls.label.MyWrappedLabel;
+import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.implementations.history.HistoryCampaignLevelEnum;
 import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.resources.FontManager;
-import libgdx.resources.dimen.MainDimen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.model.FontColor;
 
-public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQuestionContainerCreatorService {
+public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQuestionContainerCreatorService<HistoryGreatPowersGameService> {
 
     private HistoryCampaignLevelEnum campaignLevelEnum;
+
+    private Map<Integer, Integer> qNrMaxYear;
 
     public HistoryGreatPowersQuestionContainerCreatorService(GameContext gameContext, HistoryGameScreen abstractGameScreen) {
         super(gameContext, abstractGameScreen);
         this.campaignLevelEnum = HistoryCampaignLevelEnum.LEVEL_0_1;
+        initQuestionNrMaxYear();
     }
 
     protected Table createOptionsTable() {
         Table table = new Table();
-        float optionHeight = optionHeight(1920, 1934);
-        float optionSideWidth = ScreenDimensionsManager.getScreenWidthValue(45);
+        float optionBtnHeight = ScreenDimensionsManager.getScreenHeightValue(9);
+        float optionWidth = ScreenDimensionsManager.getScreenWidthValue(70);
         int i = 0;
-        int optionsPerRow = 4;
-        float optionWidth = ScreenDimensionsManager.getScreenWidthValue(100 / optionsPerRow - 2);
-        for (GameQuestionInfo q : gameContext.getCurrentUserGameUser().getAllQuestionInfos()) {
-            Table optionBtn = createOptionBtn("1923\n-\n1935", i);
-            table.add(optionBtn).width(optionWidth).height(optionHeight);
+        for (Integer qNr : qNrMaxYear.keySet()) {
+            Pair<String, String> years = getGameService().getOptionText(gameContext.getCurrentUserGameUser().getGameQuestionInfo(i).getQuestion().getQuestionString());
+            Table optionBtn = createOptionBtn(years.getLeft(), years.getRight(), i, optionWidth);
+            Table qTable = new Table();
+            qTable.add(optionBtn).width(optionWidth).height(optionBtnHeight);
+            Table answImg = createAnswImg(i);
+            qTable.add(answImg).height(getOptionHeight());
+            qTable.setName(getTimelineItemName(i));
+            table.add(qTable).height(getOptionHeight()).row();
             i++;
-            if (i % optionsPerRow == 0) {
-                table.row();
-            }
         }
         return table;
+    }
+
+    protected List<Integer> getQuestionNrInOrder() {
+        return new ArrayList<>(qNrMaxYear.keySet());
+    }
+
+    private void initQuestionNrMaxYear() {
+        int i = 0;
+        Map<Integer, Integer> map = new HashMap<>();
+        for (GameQuestionInfo q : gameContext.getCurrentUserGameUser().getAllQuestionInfos()) {
+            map.put(i, getGameService().getOptionRawText(q.getQuestion().getQuestionString()).getRight());
+            i++;
+        }
+        qNrMaxYear = map;
+    }
+
+    @Override
+    protected HistoryGreatPowersGameService getGameService() {
+        return new HistoryGreatPowersGameService(gameContext.getQuestion());
     }
 
     @Override
@@ -48,12 +81,15 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
         return HistoryCampaignLevelEnum.LEVEL_0_1;
     }
 
-    private Table createOptionBtn(String optionText, int index) {
+    private Table createOptionBtn(String minYear, String maxYear, int index, float btnWidth) {
         Table table = new Table();
+        float yearWidth = btnWidth / 2.5f;
+        float fontScale = FontManager.calculateMultiplierStandardFontSize(1.2f);
+        FontColor fontColor = FontColor.BLACK;
         MyButton btn = new ButtonBuilder()
-                .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.2f))
-                .setWrappedText(optionText, GameButtonSize.HISTORY_CLICK_ANSWER_OPTION.getWidth())
-                .setFontColor(FontColor.BLACK)
+                .setFontScale(fontScale)
+                .setWrappedText(minYear, yearWidth)
+                .setFontColor(fontColor)
                 .setButtonSkin(MainButtonSkin.DEFAULT)
                 .setDisabled(historyPreferencesService.getAllLevelsPlayed(campaignLevelEnum).contains(index))
                 .setButtonName(getOptionBtnName(index))
@@ -63,33 +99,48 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
             public void changed(ChangeEvent event, Actor actor) {
             }
         });
-        btn.getCenterRow().setFillParent(true);
-        ((Table) btn.getCenterRow().getChildren().get(0)).getCells().get(0).padTop(MainDimen.vertical_general_margin.getDimen());
+        MyWrappedLabel questionLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setText(maxYear)
+                .setWrappedLineLabel(yearWidth)
+                .setFontColor(fontColor)
+                .setFontScale(fontScale).build());
+        ((Table) btn.getCenterRow().getChildren().get(0))
+                .add(createTimelineArrow(false)).growX();
+        ((Table) btn.getCenterRow().getChildren().get(0)).add(questionLabel).width(yearWidth);
         table.add(btn).width(btn.getWidth()).height(btn.getHeight());
+        btn.addListener(new ChangeListener() {
+            @Override
+            public void changed(ChangeEvent event, Actor actor) {
+                Integer currentQuestion = historyGameScreen.getCurrentQuestion();
+                String questionString = historyGameScreen.getCurrentGameQuestionInfo().getQuestion().getQuestionString();
+                Pair<String, String> optionText = getGameService().getOptionText(questionString);
+                String cqMinY = optionText.getLeft();
+                String cqMaxY = optionText.getRight();
+                if (minYear.equals(cqMinY) && maxYear.equals(cqMaxY)) {
+                    processWonQuestion(currentQuestion);
+                } else {
+                    processLostQuestion(currentQuestion);
+                }
+                updateControlsAfterAnswPressed(questionString, currentQuestion);
+            }
+        });
         return btn;
     }
 
-
-    private String getOptionBtnName(Integer currentQuestion) {
-        return "optBtn" + currentQuestion;
-    }
-
-    private String getTimelineItemName(int i) {
-        return "timeLineTable" + i;
+    @Override
+    protected int getOptionYear(String qString) {
+        return getGameService().getOptionRawText(qString).getRight();
     }
 
     @Override
     protected void initOptionHeight() {
-        optionHeight = ScreenDimensionsManager.getScreenHeightValue(1);
+        optionHeight = GameButtonSize.HISTORY_GREATPOWERS_ANSW_IMG.getHeight();
     }
 
-    public float optionHeight(int minYear, int maxYear) {
-        int i1 = getIncrementForYear(minYear);
-        int i2 = getIncrementForYear(maxYear);
-
-        return ScreenDimensionsManager.getScreenHeightValue(40);
+    @Override
+    protected float getAnswerImgSideDimen() {
+        return GameButtonSize.HISTORY_GREATPOWERS_ANSW_IMG.getHeight();
     }
-
 
     public int getIncrementForYear(int year) {
         if (year > 1900) {

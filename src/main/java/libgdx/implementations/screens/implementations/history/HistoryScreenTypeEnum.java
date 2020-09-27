@@ -10,7 +10,7 @@ public enum HistoryScreenTypeEnum implements ScreenType {
 
     CAMPAIGN_GAME_SCREEN {
         public AbstractScreen getScreen(Object... params) {
-            return new HistoryGameScreen((GameContext) params[0], (CampaignLevel) params[1]);
+            return new HistoryGameScreen((GameContext) params[0], null);
 //            return new HistoryGameScreen((GameContext) params[0], (CampaignLevel) params[1]);
         }
     },

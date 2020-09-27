@@ -9,6 +9,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
+import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 import java.util.Set;
 
@@ -23,6 +25,7 @@ import libgdx.controls.popup.MyPopup;
 import libgdx.controls.textfield.MyTextFieldBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.history.HistoryCategoryEnum;
 import libgdx.implementations.history.HistoryPreferencesService;
 import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.skelgame.gameservice.GameContext;
@@ -40,7 +43,7 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
     private Integer scrollToOption;
     private float optionHeight;
     private GameContext gameContext;
-    private Integer firstOpenQuestion = 0;
+    private Integer firstOpenQuestionIndex = 0;
     private Integer currentQuestion = 0;
     private Table questionTable;
     private HistoryPreferencesService historyPreferencesService = new HistoryPreferencesService();
@@ -49,14 +52,19 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
     public HistoryGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         super(gameContext);
         this.gameContext = gameContext;
-        questionContainerCreatorService = new HistoryGreatPowersQuestionContainerCreatorService(gameContext, this);
+        if (gameContext.getQuestion().getQuestionCategory() == HistoryCategoryEnum.cat0) {
+            questionContainerCreatorService = new HistoryTimelineQuestionContainerCreatorService(gameContext, this);
+        } else {
+            questionContainerCreatorService = new HistoryGreatPowersQuestionContainerCreatorService(gameContext, this);
+        }
+        Collections.reverse(gameContext.getCurrentUserGameUser().getAllQuestionInfos());
         initNextQuestion();
     }
 
     private Integer getRandomNextQuestion() {
-        int nr = new Random().nextInt(5) + firstOpenQuestion;
-        int size = gameContext.getCurrentUserGameUser().getAllQuestionInfos().size();
-        return Math.min(nr, size - 1);
+        int nr = new Random().nextInt(5) + firstOpenQuestionIndex;
+        int size = questionContainerCreatorService.getQuestionNrInOrder().size();
+        return ((List<Integer>) questionContainerCreatorService.getQuestionNrInOrder()).get(Math.min(nr, size - 1));
     }
 
     public void goToNextQuestion() {
@@ -70,36 +78,35 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
             addAction(Actions.sequence(Actions.delay(Math.max(qFadeOutDuration, qMoveDuration)), Utils.createRunnableAction(new Runnable() {
                 @Override
                 public void run() {
-                    addLabelToQuestionTable();
+                    addQuestionText();
                 }
             })));
         } else {
-            addLabelToQuestionTable();
+            addQuestionText();
         }
     }
 
     private void initNextQuestion() {
         Set<Integer> allQPlayed = historyPreferencesService.getAllLevelsPlayed(questionContainerCreatorService.getCampaignLevelEnum());
-        for (int i = 0; i < gameContext.getCurrentUserGameUser().getAllQuestionInfos().size(); i++) {
+        for (Integer i : (List<Integer>) questionContainerCreatorService.getQuestionNrInOrder()) {
             if (!allQPlayed.contains(i)) {
-                firstOpenQuestion = i;
+                firstOpenQuestionIndex = questionContainerCreatorService.getQuestionNrInOrder().indexOf(i);
                 currentQuestion = getRandomNextQuestion();
                 while (allQPlayed.contains(currentQuestion)) {
                     currentQuestion = getRandomNextQuestion();
                 }
-                scrollToOption = firstOpenQuestion;
+                scrollToOption = firstOpenQuestionIndex;
                 scrollPanePositionInit = 0;
                 break;
             }
         }
     }
 
-
     @Override
     public void buildStage() {
         scrollToOption = 0;
-        scrollPane = new ScrollPane(createAllScroll());
-        optionHeight = questionContainerCreatorService.optionHeight();
+        scrollPane = new ScrollPane(questionContainerCreatorService.createQuestionTable());
+        optionHeight = questionContainerCreatorService.getOptionHeight();
         Table table = new Table();
         table.setFillParent(true);
         scrollPane.setScrollingDisabled(true, false);
@@ -119,25 +126,16 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
     }
 
     public GameQuestionInfo getCurrentGameQuestionInfo() {
-        return gameContext.getCurrentUserGameUser().getAllQuestionInfos().get(currentQuestion);
+        return gameContext.getCurrentUserGameUser().getAllQuestionInfos().get(questionContainerCreatorService.getQuestionNrInOrder().indexOf(currentQuestion));
     }
 
-    private String getQuestionText() {
-        return HistoryGameService.getQuestionText(getCurrentGameQuestionInfo().getQuestion().getQuestionString());
-    }
-
-    private void addLabelToQuestionTable() {
+    private void addQuestionText() {
         MyWrappedLabel questionLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
-                .setText(getQuestionText())
+                .setText(questionContainerCreatorService.getGameService().getQuestionText(getCurrentGameQuestionInfo().getQuestion().getQuestionString()))
                 .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.2f)).build());
         questionTable.add(questionLabel);
         questionLabel.setVisible(false);
         Utils.fadeInActor(questionLabel, 0.1f);
-    }
-
-    private Table createAllScroll() {
-        Table questionTable = questionContainerCreatorService.createQuestionTable();
-        return questionTable;
     }
 
     @Override
@@ -157,12 +155,12 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
     public void render(float dt) {
         super.render(dt);
         if (questionContainerCreatorService != null) {
-//            questionContainerCreatorService.refreshTitleTable(scrollPane);
+            questionContainerCreatorService.refreshTitleTable(scrollPane);
         }
 //        createScrollTo();
 //         scrollPanePositionInit needs to be used otherwise the scrollTo wont work
         if (scrollPane != null && scrollPanePositionInit < 2) {
-            scrollPane.setScrollY((scrollToOption - 1) * optionHeight);
+            scrollPane.setScrollY((scrollToOption) * optionHeight);
             scrollPanePositionInit++;
         }
     }
