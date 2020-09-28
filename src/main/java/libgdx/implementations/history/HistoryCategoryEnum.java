@@ -9,6 +9,7 @@ import libgdx.implementations.skelgame.gameservice.UniqueQuizGameCreatorDependen
 public enum HistoryCategoryEnum implements QuizQuestionCategory {
 
     cat0(HistoryGameCreatorDependencies.class),
+    cat1(HistoryGameCreatorDependencies.class),
     ;
 
     private Class<? extends CreatorDependencies> questionCreator;

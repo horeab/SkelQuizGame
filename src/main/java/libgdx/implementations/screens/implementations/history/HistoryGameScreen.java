@@ -110,7 +110,6 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
         Table table = new Table();
         table.setFillParent(true);
         scrollPane.setScrollingDisabled(true, false);
-//        table.add(createAnswersTable()).width(ScreenDimensionsManager.getScreenWidth()).row();
         table.add(questionContainerCreatorService.createHeader()).width(ScreenDimensionsManager.getScreenWidth()).row();
         questionTable = new Table();
         table.add(questionTable).height(ScreenDimensionsManager.getScreenHeightValue(10)).padBottom(MainDimen.vertical_general_margin.getDimen()).row();

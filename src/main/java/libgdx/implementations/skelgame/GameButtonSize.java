@@ -20,9 +20,11 @@ public enum GameButtonSize implements libgdx.controls.button.ButtonSize {
     PERIODICTABLE_MENU_BUTTON(MainDimen.horizontal_general_margin.getDimen() * 5, MainDimen.horizontal_general_margin.getDimen() * 5),
     PERIODICTABLE_ANSWER_BUTTON(MainDimen.horizontal_general_margin.getDimen() * 15, MainDimen.horizontal_general_margin.getDimen() * 5),
     IMAGE_CLICK_ANSWER_OPTION(MainDimen.side_btn_image.getDimen() / 1.1f, MainDimen.side_btn_image.getDimen() / 1.1f),
+    HISTORY_MENU_BTN(MainDimen.side_btn_image.getDimen() * 1.1f, MainDimen.side_btn_image.getDimen() / 1.4f),
     HISTORY_CLICK_ANSWER_OPTION(MainDimen.side_btn_image.getDimen() * 2.0f, MainDimen.side_btn_image.getDimen() * 1.3f),
     HISTORY_TIMELINE_ARROW(MainDimen.side_btn_image.getDimen() * 1.1f, MainDimen.side_btn_image.getDimen() / 1.4f),
-    HISTORY_ANSW_IMG(MainDimen.side_btn_image.getDimen() * 2.0f, MainDimen.side_btn_image.getDimen() * 2.0f),
+    HISTORY_TIMELINE_ANSW_IMG(MainDimen.side_btn_image.getDimen() * 2.0f, MainDimen.side_btn_image.getDimen() * 2.0f),
+    HISTORY_GREATPOWERS_ANSW_IMG(MainDimen.side_btn_image.getDimen() * 1.7f, MainDimen.side_btn_image.getDimen() * 1.7f),
     ;
     private float width;
     private float height;

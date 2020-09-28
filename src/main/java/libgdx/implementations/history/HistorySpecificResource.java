@@ -56,6 +56,7 @@ public enum HistorySpecificResource implements SpecificResource {
     timeline_opt_correct("timeline_opt_correct.png", Texture.class),
     timeline_opt_wrong("timeline_opt_wrong.png", Texture.class),
     score_icon("score_icon.png", Texture.class),
+    title_clouds_background("title_clouds_background.png", Texture.class),
 
     i0("questions/images/i0.png", Texture.class),
     i1("questions/images/i1.png", Texture.class),
