@@ -1,0 +1,35 @@
+Akkadiske Imperium: -2300, -2200
+Babyloniske Imperium: -1900, -1600
+Egyptisk Imperium: -1550, -1077
+Assyrien: -2025, -609
+Kongeriget Juda: -1050, -586
+Achæmenidiske rige: -550, -330
+Mauryan Imperium: -322, -184
+Karthago: -814, -146
+Seleukiderne: -312, -63
+Han-dynastiet: -202,220
+Sassaniderne: 224,651
+Tang-dynastiet: 618.907
+Abbasidisk kalifat: 750,1258
+Kongeriget Pagan: 849,1297
+Mongolske kejserdømme: 1206.1368
+Khmerriget: 802,1431
+Romerriget: -27,1453
+Det Byzantinske Rige: 395,1453
+Inkariget: 1438,1533
+Mogulriget: 1526,1758
+Qing-dynastiet: 1644,1912
+Det Russiske Kejserrige: 1721,1917
+Østrig-Ungarsk: 1867,1918
+Det tyske Imperium: 1871,1918
+Det Osmanniske Rige: 1299,1922
+Tredje Rige: 1933,1945
+Kejserriget Japan: 1868,1947
+Spanske Imperium: 1402,1975
+Fransk Imperium: 1534,1980
+Sovjetunionen: 1922,1991
+Britiske Imperium: 1603,1997
+Portugisisk Imperium: 1415,1999
+USA: 1776, x
+Kina: 1949, x
+Den Europæiske Union: 1993, x

@@ -1,0 +1,35 @@
+Imperiul Akkadian: -2300, -2200
+Imperiul Babilonian: -1900, -1600
+Imperiul Egiptean: -1550, -1077
+Asiria: -2025, -609
+Regatul Iuda: -1050, -586
+Imperiul Ahemenid: -550, -330
+Dinastia Maurya: -322, -184
+Imperiul Cartaginei: -814, -146
+Imperiul Seleucid: -312, -63
+Dinastia Han: -202,220
+Imperiul Sasanid: 224,651
+Dinastia Tang: 618,907
+Califatul Abbasid: 750.1258
+Regatul Pagan: 849.197
+Imperiul Mongol: 1206,1368
+Imperiul Khmer: 802,1431
+Imperiul Roman: -27.1453
+Imperiul Bizantin: 395.1453
+Imperiul Inca: 1438,1533
+Imperiul Mogul: 1526.1758
+Dinastia Qing: 1644,1912
+Imperiul Rus: 1721,1917
+Imperiul Austro-Ungar: 1867,1918
+Imperiul German: 1871,1918
+Imperiul Otoman: 1299,1922
+Al treilea Reich: 1933,1945
+Imperiul Japoniei: 1868,1947
+Imperiul Spaniol: 1402,1975
+Imperiul Francez: 1534,1980
+Uniunea Sovietică: 1922,1991
+Imperiul Britanic: 1603,1997
+Imperiul Portughez: 1415.1999
+Statele Unite: 1776, x
+China: 1949, x
+Uniunea Europeană: 1993, x
