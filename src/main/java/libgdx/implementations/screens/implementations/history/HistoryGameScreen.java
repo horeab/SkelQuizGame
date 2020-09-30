@@ -7,6 +7,7 @@ import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 import java.util.Collections;
@@ -15,6 +16,7 @@ import java.util.Random;
 import java.util.Set;
 
 import libgdx.campaign.CampaignLevel;
+import libgdx.constants.Contrast;
 import libgdx.controls.MyTextField;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
@@ -25,6 +27,7 @@ import libgdx.controls.popup.MyPopup;
 import libgdx.controls.textfield.MyTextFieldBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.history.HistoryCampaignLevelEnum;
 import libgdx.implementations.history.HistoryCategoryEnum;
 import libgdx.implementations.history.HistoryPreferencesService;
 import libgdx.implementations.screens.GameScreen;
@@ -33,8 +36,12 @@ import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
+import libgdx.resources.gamelabel.MainGameLabel;
+import libgdx.screen.AbstractScreen;
+import libgdx.skelgameimpl.skelgame.SkelGameLabel;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
+import libgdx.utils.model.FontColor;
 
 public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
 
@@ -68,6 +75,9 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
     }
 
     public void goToNextQuestion() {
+        if (isGameOver()) {
+            processGameOver();
+        }
         initNextQuestion();
         if (questionTable.getChildren().size > 0) {
             Actor label = questionTable.getChildren().get(0);
@@ -84,6 +94,64 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
         } else {
             addQuestionText();
         }
+    }
+
+    private boolean isGameOver() {
+        return historyPreferencesService.getAllLevelsPlayed(questionContainerCreatorService.getCampaignLevelEnum()).size() ==
+                questionContainerCreatorService.getQuestionNrInOrder().size();
+    }
+
+    private void processGameOver() {
+        new MyPopup<AbstractScreen, HistoryScreenManager>(getAbstractScreen()) {
+            @Override
+            protected String getLabelText() {
+                String text = "";
+                HistoryCampaignLevelEnum campaignLevelEnum = questionContainerCreatorService.getCampaignLevelEnum();
+                if (historyPreferencesService.isHighScore(campaignLevelEnum)) {
+                    text = MainGameLabel.l_congratulations.getText();
+                    text = text + "\n";
+                    text = text + MainGameLabel.l_highscore_record.getText();
+                    text = text + "\n";
+                    text = text + "\n";
+                }
+                text = text + MainGameLabel.l_score.getText(
+                        historyPreferencesService.getLevelsWon(campaignLevelEnum).size() + ""
+                );
+                return text;
+            }
+
+            @Override
+            protected void addButtons() {
+                MyButton playAgain = new ButtonBuilder()
+                        .setFontColor(FontColor.BLACK)
+                        .setContrast(Contrast.LIGHT)
+                        .setDefaultButton().setText(SkelGameLabel.play_again.getText()).build();
+                playAgain.addListener(new ChangeListener() {
+                    @Override
+                    public void changed(ChangeEvent event, Actor actor) {
+                        HistoryCampaignScreen.goToLevel(questionContainerCreatorService.getCampaignLevelEnum(), historyPreferencesService, screenManager);
+                    }
+                });
+                addButton(playAgain);
+                MyButton campaignScreenBtn = new ButtonBuilder().setDefaultButton()
+                        .setContrast(Contrast.LIGHT)
+                        .setFontColor(FontColor.BLACK)
+                        .setText(SkelGameLabel.go_back.getText()).build();
+                addButton(campaignScreenBtn);
+                campaignScreenBtn.addListener(new ChangeListener() {
+                    @Override
+                    public void changed(ChangeEvent event, Actor actor) {
+                        screenManager.showMainScreen();
+                    }
+                });
+            }
+
+            @Override
+            public void hide() {
+                super.hide();
+                screenManager.showMainScreen();
+            }
+        }.addToPopupManager();
     }
 
     private void initNextQuestion() {

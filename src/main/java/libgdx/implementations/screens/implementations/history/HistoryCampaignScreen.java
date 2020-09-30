@@ -20,7 +20,6 @@ import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.astronomy.AstronomySpecificResource;
 import libgdx.implementations.history.HistoryCampaignLevelEnum;
-import libgdx.implementations.history.HistoryCategoryEnum;
 import libgdx.implementations.history.HistoryDifficultyLevel;
 import libgdx.implementations.history.HistoryPreferencesService;
 import libgdx.implementations.history.HistorySpecificResource;
@@ -96,8 +95,6 @@ public class HistoryCampaignScreen extends AbstractScreen<HistoryScreenManager> 
     }
 
     private MyButton createCategButton(final HistoryCampaignLevelEnum campaignLevel) {
-        CampaignLevelEnumService service = new CampaignLevelEnumService(campaignLevel);
-        HistoryCategoryEnum cat = (HistoryCategoryEnum) service.getCategoryEnum();
         String labelText = new CampaignLevelEnumService(campaignLevel).getLabelText();
         MyButton categBtn = new ButtonBuilder()
                 .setButtonSkin(MainButtonSkin.DEFAULT)
@@ -108,10 +105,7 @@ public class HistoryCampaignScreen extends AbstractScreen<HistoryScreenManager> 
         categBtn.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                QuestionCreator questionCreator = new QuestionCreator();
-                GameContext gameContext = new GameContextService().createGameContext(questionCreator.getAllQuestions(Arrays.asList(HistoryDifficultyLevel.values()), cat));
-                historyPreferencesService.clearLevelsPlayed(campaignLevel);
-                screenManager.showCampaignGameScreen(gameContext);
+                goToLevel(campaignLevel, historyPreferencesService, screenManager);
             }
         });
         Table highScoreTable = new Table();
@@ -129,6 +123,14 @@ public class HistoryCampaignScreen extends AbstractScreen<HistoryScreenManager> 
         highScoreTable.add(highScoreLabel).width(getBtnWidthValue() / 1.5f);
         highScoreTable.add(image).width(scoreIconDimen).height(scoreIconDimen);
         return categBtn;
+    }
+
+    public static void goToLevel(HistoryCampaignLevelEnum campaignLevel, HistoryPreferencesService historyPreferencesService, HistoryScreenManager screenManager) {
+        QuestionCreator questionCreator = new QuestionCreator();
+        GameContext gameContext = new GameContextService().createGameContext(questionCreator.getAllQuestions(Arrays.asList(HistoryDifficultyLevel.values()),
+                new CampaignLevelEnumService(campaignLevel).getCategoryEnum()));
+        historyPreferencesService.clearLevelsPlayed(campaignLevel);
+        screenManager.showCampaignGameScreen(gameContext);
     }
 
     private Stack createTitleStack(MyWrappedLabel titleLabel) {
