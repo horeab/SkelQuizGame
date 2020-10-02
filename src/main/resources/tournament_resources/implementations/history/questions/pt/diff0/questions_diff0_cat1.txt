@@ -1,0 +1,35 @@
+Império Acádio: -2300, -2200
+Império Babilônico: -1900, -1600
+Império Egípcio: -1550, -1077
+Assíria: -2025, -609
+Reino de Judá: -1050, -586
+Império Aquemênida: -550, -330
+Império Máuria: -322, -184
+Império Cartaginês: -814, -146
+Império Selêucida: -312, -63
+Dinastia Han: -202.220
+Império Sassânida: 224.651
+Dinastia Tang: 618.907
+Califado Abássida: 750,1258
+Reino Pagão: 849.1297
+Império Mongol: 1206,1368
+Império Quemer: 802,1431
+Império Romano: -27.1453
+Império Bizantino: 395.1453
+Império Inca: 1438,1533
+Império Mogol: 1526,1758
+Dinastia Qing: 1644,1912
+Império Russo: 1721,1917
+Império Austro-Húngaro: 1867,1918
+Império Alemão: 1871,1918
+Império Otomano: 1299,1922
+Terceiro Reich: 1933,1945
+Império do Japão: 1868,1947
+Império Espanhol: 1402,1975
+Império Francês: 1534,1980
+União Soviética: 1922,1991
+Império Britânico: 1603,1997
+Império Português: 1415,1999
+Estados Unidos: 1776, x
+China: 1949, x
+União Europeia: 1993, x

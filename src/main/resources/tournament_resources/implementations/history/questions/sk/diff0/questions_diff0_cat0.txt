@@ -1,0 +1,46 @@
+Homo erectus opúšťa Afriku: -1800000
+Ľudia sa naučia ovládať oheň: -400 000
+Neandertálci vyhynuli: -40000
+Neolitická revolúcia: -9000
+Prvé civilizácie sa rozvíjajú na Sumérii: -3500
+Boli postavené pyramídy a veľká sfinga: -2500
+Narodenie Budhu: -486
+Založenie Rímskej ríše: -27
+Július Cézar z Ríma bol zavraždený: -44
+Šírenie kresťanstva: 1
+Rozdelenie Rímskej ríše: 395
+Narodenie proroka Mohameda, zakladateľa islamu: 570
+Tlač bola vynájdená v Číne: 730
+Rozdelenie kresťanskej cirkvi: 1054
+Magna Carta podpísaná kráľom Janom: 1215
+Dýmějový mor sa šíri do Európy: 1347
+Osmanskí Turci zajali Konštantínopol: 1453
+Kolumbus objavuje Ameriku: 1492
+Budova Taj Mahal dokončená: 1643
+Mozart píše svoju prvú symfóniu: 1764
+Deklarácia nezávislosti USA: 1776
+Napoleon je porazený v bitke pri Waterloo: 1815
+Prvá parná lokomotíva: 1825
+Vládu nad Indiou prevzala Veľká Británia: 1858
+Edison vynašiel elektrické svetlo: 1879
+Benz vyvíja prvé auto na benzín: 1885
+Einstein ohlasuje teóriu relativity: 1905
+Titanic, najväčšia loď na svete, sa potápa v severnom Atlantiku: 1912
+Prvá svetová vojna sa začína: 1914
+Ruská revolúcia: 1917
+Hitler získava moc v Nemecku: 1933
+Druhá svetová vojna sa začína: 1939
+Koniec druhej svetovej vojny: 1945
+Komunistická Čína bola založená: 1949
+Rusko vysiela do vesmíru prvý satelit Sputnik 1: 1957
+Jurij Gagarin sa stal prvým človekom, ktorý letel vo vesmíre: 1961
+Neil Armstrong sa stáva prvým človekom, ktorý vstúpil na Mesiac: 1969
+Černobyľská katastrofa: 1986
+Pád komunizmu vo východnej Európe: 1989
+Zjednotenie Nemecka: 1990
+Rozpad Sovietskeho zväzu: 1991
+Koniec apartheidu v Južnej Afrike: 1994
+Google je založený: 1998
+11. september Teroristické útoky: 2001
+Predstavenie iPhonu: 2007
+Pandémia COVID-19: 2020

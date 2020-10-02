@@ -1,0 +1,35 @@
+Empayar Akkadia: -2300, -2200
+Empayar Babylon: -1900, -1600
+Empayar Mesir: -1550, -1077
+Assyria: -2025, -609
+Kerajaan Yehuda: -1050, -586
+Empayar Achaemenid: -550, -330
+Empayar Maurya: -322, -184
+Empayar Carthage: -814, -146
+Empayar Seleucid: -312, -63
+Dinasti Han: -202,220
+Empayar Sasan: 224,651
+Dinasti Tang: 618,907
+Kekhalifahan Abbasiyah: 750,1258
+Kerajaan Pagan: 849,1297
+Empayar Mongol: 1206,1368
+Empayar Khmer: 802,1431
+Empayar Rom: -27,1453
+Empayar Byzantine: 395,1453
+Empayar Inka: 1438,1533
+Empayar Mughal: 1526,1758
+Dinasti Qing: 1644,1912
+Empayar Rusia: 1721,1917
+Empayar Austria-Hungary: 1867,1918
+Empayar Jerman: 1871,1918
+Kerajaan Uthmaniyyah: 1299,1922
+Reich Ketiga: 1933,1945
+Empayar Jepun: 1868,1947
+Empayar Sepanyol: 1402,1975
+Empayar Perancis: 1534,1980
+Kesatuan Soviet: 1922,1991
+Empayar Inggeris: 1603,1997
+Empayar Portugis: 1415,1999
+Amerika Syarikat: 1776, x
+China: 1949, x
+Kesatuan Eropah: 1993, x

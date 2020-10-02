@@ -1,0 +1,35 @@
+Akkadisch Rijk: -2300, -2200
+Babylonische Rijk: -1900, -1600
+Egyptisch Rijk: -1550, -1077
+Assyrië: -2025, -609
+Koninkrijk Juda: -1050, -586
+Achaemenidisch Rijk: -550, -330
+Mauryadynastie: -322, -184
+Carthaagse Rijk: -814, -146
+Seleucidische Rijk: -312, -63
+Han-dynastie: -202.220
+Sassaniden: 224.651
+Tang-dynastie: 618.907
+Kalifaat van de Abbasiden: 750.1258
+Pagan Rijk: 849,1297
+Mongoolse Rijk: 1206,1368
+Khmer-rijk: 802,1431
+Romeinse Rijk: -27.1453
+Byzantijnse Rijk: 395.1453
+Inca-rijk: 1438,1533
+Mogolrijk: 1526,1758
+Qing-dynastie: 1644,1912
+Russische Rijk: 1721,1917
+Oostenrijk-Hongarije: 1867,1918
+Duitse Rijk: 1871,1918
+Ottomaanse Rijk: 1299,1922
+Derde Rijk: 1933,1945
+Japans Keizerrijk: 1868,1947
+Spaanse Rijk: 1402,1975
+Frans Rijk: 1534,1980
+Sovjet-Unie: 1922,1991
+Britse Rijk: 1603,1997
+Portugese Rijk: 1415,1999
+Verenigde Staten: 1776, x
+China: 1949, x
+Europese Unie: 1993, x

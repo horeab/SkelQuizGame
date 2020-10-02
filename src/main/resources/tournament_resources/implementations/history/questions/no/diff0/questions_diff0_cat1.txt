@@ -1,0 +1,35 @@
+Det akkadiske rike: -2300, -2200
+Babylonia: -1900, -1600
+Egyptisk imperium: -1550, -1077
+Assyria: -2025, -609
+Riket Juda: -1050, -586
+Akamenidedynastiet: -550, -330
+Mauryariket: -322, -184
+Kartago: -814, -146
+Selevkideriket: -312, -63
+Han-dynastiet: -202 220
+Sasanideriket: 224,651
+Tang-dynastiet: 618 907
+Abbasidene: 750,1258
+Paganriket: 849,1297
+Mongolriket: 1206,1368
+Khmerriket: 802,1431
+Romerriket: -27,1453
+Det bysantinske riket: 395,1453
+Inkariket: 1438,1533
+Mogulriket: 1526,1758
+Qing-dynastiet: 1644,1912
+Det russiske imperiet: 1721,1917
+Østerrike-Ungarn: 1867,1918
+Det tyske imperiet: 1871,1918
+Det osmanske riket: 1299,1922
+Tredje riket: 1933,1945
+Keiserriket Japan: 1868,1947
+Det spanske imperiet: 1402,1975
+Det franske koloniriket: 1534,1980
+Sovjetunionen: 1922,1991
+Det britiske imperiet: 1603,1997
+Det portugisiske imperiet: 1415,1999
+USA: 1776, x
+Kina: 1949, x
+EU: 1993, x

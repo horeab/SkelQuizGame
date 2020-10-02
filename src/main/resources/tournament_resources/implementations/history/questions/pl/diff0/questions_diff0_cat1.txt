@@ -1,0 +1,35 @@
+Imperium akadyjskie: -2300, -2200
+Imperium Babilońskie: -1900, -1600
+Imperium Egipskie: -1550, -1077
+Asyria: -2025, -609
+Królestwo Judy: -1050, -586
+Imperium Achemenidów: -550, -330
+Dynastia Maurjów: -322, -184
+Imperium Kartagińskie: -814, -146
+Seleucydzi: -312, -63
+Dynastia Han: -202,220
+Sasanidzi: 224,651
+Dynastia Tang: 618,907
+Abbasydzi: 750,1258
+Królestwo Paganu: 849,1297
+Imperium mongolskie: 1206,1368
+Imperium Khmerów: 802,1431
+Cesarstwo Rzymskie: -27,1453
+Cesarstwo Bizantyjskie: 395,1453
+Imperium Inków: 1438,1533
+Wielcy Mogołowie: 1526,1758
+Dynastia Qing: 1644,1912
+Imperium Rosyjskie: 1721,1917
+Cesarstwo austro-węgierskie: 1867,1918
+Cesarstwo Niemieckie: 1871,1918
+Imperium Osmańskie: 1299,1922
+Trzecia Rzesza: 1933,1945
+Cesarstwo Japonii: 1868,1947
+Imperium hiszpańskie: 1402,1975
+Cesarstwo francuskie: 1534,1980
+Związek Radziecki: 1922,1991
+Imperium brytyjskie: 1603,1997
+Imperium portugalskie: 1415,1999
+Stany Zjednoczone: 1776, x
+Chiny: 1949, x
+Unia Europejska: 1993, x
