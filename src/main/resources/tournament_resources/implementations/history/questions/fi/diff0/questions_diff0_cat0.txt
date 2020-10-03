@@ -1,46 +1,46 @@
-Homo erectus lähtee Afrikasta: -1800000
-Ihmiset oppivat hallitsemaan tulta: -400000
-Neandertalit kuolevat sukupuuttoon: -40000
-Neoliittinen vallankumous: -9000
-Ensimmäiset sivilisaatiot kehittyvät Sumeriassa: -3500
-Pyramidit ja suuri sfinksi rakennettiin: -2500
-Buddhan syntymä: -486
-Rooman valtakunnan perustaminen: -27
-Roomalainen Julius Caesar murhattiin: -44
-Kristinuskon leviäminen: 1
-Rooman valtakunnan jakautuminen: 395
-Islamin perustajan profeetta Muhammadin syntymä: 570
-Painatus keksittiin Kiinassa: 730
-Kristillisen kirkon jako: 1054
-Kuningas Johanneksen allekirjoittama Magna Carta: 1215
-Buboninen rutto leviää Eurooppaan: 1347
-Ottomaanien turkkilaiset valloittivat Konstantinopolin: 1453
-Columbus löytää Amerikan: 1492
-Taj Mahalin rakennus valmistui: 1643
-Mozart kirjoittaa ensimmäisen sinfoniansa: 1764
-Yhdysvaltojen itsenäisyysjulistus: 1776
-Napoleon kukistetaan Waterloon taistelussa: 1815
-Ensimmäinen höyryveturi: 1825
-Iso-Britannia otti Intian vallan: 1858
-Edison keksi sähkövalon: 1879
-Benz kehittää ensimmäisen bensiinikäyttöisen auton: 1885
-Einstein julkistaa suhteellisuusteorian: 1905
-Titanic, maailman suurin alus, uppoaa Pohjois-Atlantilla: 1912
-Ensimmäinen maailmansota alkaa: 1914
-Venäjän vallankumous: 1917
-Hitler nousee valtaan Saksassa: 1933
-Toinen maailmansota alkaa: 1939
-Toisen maailmansodan loppu: 1945
-Kommunistinen Kiina on perustettu: 1949
-Venäjä lähettää avaruuteen ensimmäisen satelliitin, Sputnik 1: 1957
-Yuri Gagarinista tulee ensimmäinen ihminen, joka lentää avaruudessa: 1961
-Neil Armstrongista tulee ensimmäinen ihminen, joka on asettanut jalkansa kuuhun: 1969
-Tšernobylin katastrofi: 1986
-Kommunismin kaatuminen Itä-Euroopassa: 1989
-Saksan yhdistyminen: 1990
-Neuvostoliitto hajoaa: 1991
-Apartheidin loppu Etelä-Afrikassa: 1994
-Google on perustettu: 1998
-Syyskuun 11. päivän terroriteot: 2001
-IPhonen esittely: 2007
-COVID-19-pandemia: 2020
+Homo erectus lähtee Afrikasta:-1800000
+Ihmiset oppivat hallitsemaan tulta:-400000
+Neandertalit kuolevat sukupuuttoon:-40000
+Neoliittinen vallankumous:-9000
+Ensimmäiset sivilisaatiot kehittyvät Sumeriassa:-3500
+Pyramidit ja suuri sfinksi rakennettiin:-2500
+Buddhan syntymä:-486
+Rooman valtakunnan perustaminen:-27
+Roomalainen Julius Caesar murhattiin:-44
+Kristinuskon leviäminen:1
+Rooman valtakunnan jakautuminen:395
+Islamin perustajan profeetta Muhammadin syntymä:570
+Painatus keksittiin Kiinassa:730
+Kristillisen kirkon jako:1054
+Kuningas Johanneksen allekirjoittama Magna Carta:1215
+Buboninen rutto leviää Eurooppaan:1347
+Ottomaanien turkkilaiset valloittivat Konstantinopolin:1453
+Columbus löytää Amerikan:1492
+Taj Mahalin rakennus valmistui:1643
+Mozart kirjoittaa ensimmäisen sinfoniansa:1764
+Yhdysvaltojen itsenäisyysjulistus:1776
+Napoleon kukistetaan Waterloon taistelussa:1815
+Ensimmäinen höyryveturi:1825
+Iso-Britannia otti Intian vallan:1858
+Edison keksi sähkövalon:1879
+Benz kehittää ensimmäisen bensiinikäyttöisen auton:1885
+Einstein julkistaa suhteellisuusteorian:1905
+Titanic, maailman suurin alus, uppoaa Pohjois-Atlantilla:1912
+Ensimmäinen maailmansota alkaa:1914
+Venäjän vallankumous:1917
+Hitler nousee valtaan Saksassa:1933
+Toinen maailmansota alkaa:1939
+Toisen maailmansodan loppu:1945
+Kommunistinen Kiina on perustettu:1949
+Venäjä lähettää avaruuteen ensimmäisen satelliitin, Sputnik 1:1957
+Yuri Gagarinista tulee ensimmäinen ihminen, joka lentää avaruudessa:1961
+Neil Armstrongista tulee ensimmäinen ihminen, joka on asettanut jalkansa kuuhun:1969
+Tšernobylin katastrofi:1986
+Kommunismin kaatuminen Itä-Euroopassa:1989
+Saksan yhdistyminen:1990
+Neuvostoliitto hajoaa:1991
+Apartheidin loppu Etelä-Afrikassa:1994
+Google on perustettu:1998
+Syyskuun 11. päivän terroriteot:2001
+IPhonen esittely:2007
+COVID-19-pandemia:2020

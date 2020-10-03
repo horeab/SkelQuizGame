@@ -1,35 +1,35 @@
-Imperio acadio: -2300, -2200
-Imperio babilónico: -1900, -1600
-Imperio egipcio: -1550, -1077
-Asiria: -2025, -609
-Reino de Judá: -1050, -586
-Imperio aqueménida: -550, -330
-Imperio maurya: -322, -184
-Imperio cartaginés: -814, -146
-Imperio seléucida: -312, -63
-Dinastía Han: -202,220
-Imperio sasánida: 224,651
-Dinastía Tang: 618,907
-Califato abasí: 750,1258
-Reino de Pagan: 849,1297
-Imperio mongol: 1206,1368
-Imperio jemer: 802,1431
-Imperio romano: -27,1453
-Imperio bizantino: 395,1453
-Imperio inca: 1438,1533
-Imperio mogol: 1526,1758
-Dinastía Qing: 1644,1912
-Imperio ruso: 1721,1917
-Imperio austro-húngaro: 1867,1918
-Imperio alemán: 1871,1918
-Imperio otomano: 1299,1922
-Tercer Reich: 1933,1945
-Imperio del Japón: 1868,1947
-Imperio español: 1402,1975
-Imperio francés: 1534,1980
-Unión Soviética: 1922,1991
-Imperio británico: 1603,1997
-Imperio portugués: 1415,1999
-Estados Unidos: 1776, x
-China: 1949, x
-Unión Europea: 1993, x
+Imperio acadio:-2300,-2200
+Imperio babilónico:-1900,-1600
+Imperio egipcio:-1550,-1077
+Asiria:-2025,-609
+Reino de Judá:-1050,-586
+Imperio aqueménida:-550,-330
+Imperio maurya:-322,-184
+Imperio cartaginés:-814,-146
+Imperio seléucida:-312,-63
+Dinastía Han:-202,220
+Imperio sasánida:224,651
+Dinastía Tang:618,907
+Califato abasí:750,1258
+Reino de Pagan:849,1297
+Imperio mongol:1206,1368
+Imperio jemer:802,1431
+Imperio romano:-27,1453
+Imperio bizantino:395,1453
+Imperio inca:1438,1533
+Imperio mogol:1526,1758
+Dinastía Qing:1644,1912
+Imperio ruso:1721,1917
+Imperio austro-húngaro:1867,1918
+Imperio alemán:1871,1918
+Imperio otomano:1299,1922
+Tercer Reich:1933,1945
+Imperio del Japón:1868,1947
+Imperio español:1402,1975
+Imperio francés:1534,1980
+Unión Soviética:1922,1991
+Imperio británico:1603,1997
+Imperio portugués:1415,1999
+Estados Unidos:1776,x
+China:1949,x
+Unión Europea:1993,x

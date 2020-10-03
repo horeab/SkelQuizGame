@@ -1,46 +1,46 @@
-Homo erectus opuszcza Afrykę: -1800000
-Ludzie uczą się kontrolować ogień: -400000
-Neandertalczycy wymarli: -40000
-Rewolucja neolityczna: -9000
-W Sumerii rozwijają się pierwsze cywilizacje: -3500
-Zbudowano piramidy i Wielki Sfinks: -2500
-Narodziny Buddy: -486
-Powstanie Cesarstwa Rzymskiego: -27
-Juliusz Cezar z Rzymu został zamordowany: -44
-Rozprzestrzenianie się chrześcijaństwa: 1
-Podział Cesarstwa Rzymskiego: 395
-Narodziny Proroka Mahometa, założyciela islamu: 570
-Druk został wynaleziony w Chinach: 730
-Podział kościoła chrześcijańskiego: 1054
-Magna Carta podpisana przez króla Jana: 1215
-Dżuma dymienicza rozprzestrzenia się w Europie: 1347
-Turcy osmańscy zdobyli Konstantynopol: 1453
-Columbus odkrywa Amerykę: 1492
-Ukończenie budowy Tadż Mahal: 1643
-Mozart pisze swoją pierwszą symfonię: 1764
-Deklaracja niepodległości Stanów Zjednoczonych: 1776
-Napoleon zostaje pokonany w bitwie pod Waterloo: 1815
-Pierwsza lokomotywa parowa: 1825
-Wielka Brytania przejęła rządy Indii: 1858
-Edison wynalazł światło elektryczne: 1879
-Benz opracowuje pierwszy samochód benzynowy: 1885
-Einstein ogłasza teorię względności: 1905
-Titanic, największy statek świata, tonie na północnym Atlantyku: 1912
-Początek I wojny światowej: 1914
-Rewolucja rosyjska: 1917
-Hitler dochodzi do władzy w Niemczech: 1933
-Rozpoczyna się druga wojna światowa: 1939
-Koniec drugiej wojny światowej: 1945
-Powstanie komunistycznych Chin: 1949
-Rosja wysyła w kosmos pierwszego satelitę, Sputnika 1: 1957
-Yuri Gagarin jako pierwszy człowiek leci w kosmos: 1961
-Neil Armstrong jako pierwszy człowiek postawił stopę na Księżycu: 1969
-Katastrofa w Czarnobylu: 1986
-Upadek komunizmu w Europie Wschodniej: 1989
-Zjednoczenie Niemiec: 1990
-Rozpad Związku Radzieckiego: 1991
-Koniec apartheidu w RPA: 1994
-Założenie Google: 1998
-Ataki terrorystyczne z 11 września: 2001
-Wprowadzenie iPhone'a: ​​2007
-Pandemia COVID-19: 2020
+Homo erectus opuszcza Afrykę:-1800000
+Ludzie uczą się kontrolować ogień:-400000
+Neandertalczycy wymarli:-40000
+Rewolucja neolityczna:-9000
+W Sumerii rozwijają się pierwsze cywilizacje:-3500
+Zbudowano piramidy i Wielki Sfinks:-2500
+Narodziny Buddy:-486
+Powstanie Cesarstwa Rzymskiego:-27
+Juliusz Cezar z Rzymu został zamordowany:-44
+Rozprzestrzenianie się chrześcijaństwa:1
+Podział Cesarstwa Rzymskiego:395
+Narodziny Proroka Mahometa, założyciela islamu:570
+Druk został wynaleziony w Chinach:730
+Podział kościoła chrześcijańskiego:1054
+Magna Carta podpisana przez króla Jana:1215
+Dżuma dymienicza rozprzestrzenia się w Europie:1347
+Turcy osmańscy zdobyli Konstantynopol:1453
+Columbus odkrywa Amerykę:1492
+Ukończenie budowy Tadż Mahal:1643
+Mozart pisze swoją pierwszą symfonię:1764
+Deklaracja niepodległości Stanów Zjednoczonych:1776
+Napoleon zostaje pokonany w bitwie pod Waterloo:1815
+Pierwsza lokomotywa parowa:1825
+Wielka Brytania przejęła rządy Indii:1858
+Edison wynalazł światło elektryczne:1879
+Benz opracowuje pierwszy samochód benzynowy:1885
+Einstein ogłasza teorię względności:1905
+Titanic, największy statek świata, tonie na północnym Atlantyku:1912
+Początek I wojny światowej:1914
+Rewolucja rosyjska:1917
+Hitler dochodzi do władzy w Niemczech:1933
+Rozpoczyna się druga wojna światowa:1939
+Koniec drugiej wojny światowej:1945
+Powstanie komunistycznych Chin:1949
+Rosja wysyła w kosmos pierwszego satelitę, Sputnika 1:1957
+Yuri Gagarin jako pierwszy człowiek leci w kosmos:1961
+Neil Armstrong jako pierwszy człowiek postawił stopę na Księżycu:1969
+Katastrofa w Czarnobylu:1986
+Upadek komunizmu w Europie Wschodniej:1989
+Zjednoczenie Niemiec:1990
+Rozpad Związku Radzieckiego:1991
+Koniec apartheidu w RPA:1994
+Założenie Google:1998
+Ataki terrorystyczne z 11 września:2001
+Wprowadzenie iPhone'a:2007
+Pandemia COVID-19:2020

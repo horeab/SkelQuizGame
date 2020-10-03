@@ -1,0 +1,35 @@
+Akkadiska imperiet:-2300,-2200
+Babylonien:-1900,-1600
+Egyptiska riket:-1550,-1077
+Assyrien:-2025,-609
+Juda rike:-1050,-586
+Akemeniderna:-550,-330
+Mauryariket:-322,-184
+Karthago:-814,-146
+Seleukiderriket:-312,-63
+Han-dynastin:-202,220
+Sasaniderna:224,651
+Tang-dynastin:618,907
+Abbasidkalifatet:750,1258
+Kungariket Pagan:849,1297
+Mongolväldet:1206,1368
+Khmerriket:802,1431
+Romerska riket:-27,1453
+Bysantinska riket:395,1453
+Inkariket:1438,1533
+Mogulriket:1526,1758
+Qing-dynastin:1644,1912
+Ryska imperiet:1721,1917
+Österrike-Ungern:1867,1918
+Tyska riket:1871,1918
+Osmanska riket:1299,1922
+Tredje riket:1933,1945
+Japanska imperiet:1868,1947
+Spanska imperiet:1402,1975
+Franska imperiet:1534,1980
+Sovjetunionen:1922,1991
+Brittiska imperiet:1603,1997
+Portugisiska riket:1415,1999
+USA:1776,x
+Kina:1949,x
+Europeiska unionen:1993,x

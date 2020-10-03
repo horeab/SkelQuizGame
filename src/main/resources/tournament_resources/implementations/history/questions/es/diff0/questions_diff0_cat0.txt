@@ -1,46 +1,46 @@
-Homo erectus abandona África: -1800000
-Los humanos aprenden a controlar el fuego: -400000
-Los neandertales se extinguen: -40000
-Revolución neolítica: -9000
-Las primeras civilizaciones se desarrollan en Sumeria: -3500
-Se construyeron las pirámides y la gran esfinge: -2500
-Nacimiento de Buda: -486
-Fundación del Imperio Romano: -27
-Julio César de Roma fue asesinado: -44
-Propagación del cristianismo: 1
-División del Imperio Romano: 395
-Nacimiento del Profeta Muhammad, el fundador del Islam: 570
-La impresión se inventó en China: 730
-División de la Iglesia cristiana: 1054
-Carta Magna firmada por el Rey Juan: 1215
-La peste bubónica se propaga a Europa: 1347
-Los turcos otomanos capturaron Constantinopla: 1453
-Colón descubre América: 1492
-Construcción del Taj Mahal terminado: 1643
-Mozart escribe su primera sinfonía: 1764
-Declaración de Independencia de Estados Unidos: 1776
-Napoleón es derrotado en la batalla de Waterloo: 1815
-Primera locomotora de vapor: 1825
-Gran Bretaña asumió el dominio de la India: 1858
-Edison inventa la luz eléctrica: 1879
-Benz desarrolla el primer automóvil de gasolina: 1885
-Einstein anuncia la teoría de la relatividad: 1905
-Titanic, el barco más grande del mundo, se hunde en el Atlántico norte: 1912
-Comienza la Primera Guerra Mundial: 1914
-Revolución rusa: 1917
-Hitler llega al poder en Alemania: 1933
-Comienza la Segunda Guerra Mundial: 1939
-Fin de la Segunda Guerra Mundial: 1945
-Se funda la China comunista: 1949
-Rusia envía al espacio el primer satélite, Sputnik 1: 1957
-Yuri Gagarin se convierte en el primer hombre en volar al espacio: 1961
-Neil Armstrong se convierte en el primer hombre en poner un pie en la luna: 1969
-Desastre de Chernobyl: 1986
-Caída del comunismo en Europa del Este: 1989
-Unificación de Alemania: 1990
-Desintegración de la Unión Soviética: 1991
-Fin del apartheid en Sudáfrica: 1994
-Se funda Google: 1998
-Ataques terroristas del 11 de septiembre: 2001
-Introducción del iPhone: 2007
-Pandemia de COVID-19: 2020
+Homo erectus abandona África:-1800000
+Los humanos aprenden a controlar el fuego:-400000
+Los neandertales se extinguen:-40000
+Revolución neolítica:-9000
+Las primeras civilizaciones se desarrollan en Sumeria:-3500
+Se construyeron las pirámides y la gran esfinge:-2500
+Nacimiento de Buda:-486
+Fundación del Imperio Romano:-27
+Julio César de Roma fue asesinado:-44
+Propagación del cristianismo:1
+División del Imperio Romano:395
+Nacimiento del Profeta Muhammad, el fundador del Islam:570
+La impresión se inventó en China:730
+División de la Iglesia cristiana:1054
+Carta Magna firmada por el Rey Juan:1215
+La peste bubónica se propaga a Europa:1347
+Los turcos otomanos capturaron Constantinopla:1453
+Colón descubre América:1492
+Construcción del Taj Mahal terminado:1643
+Mozart escribe su primera sinfonía:1764
+Declaración de Independencia de Estados Unidos:1776
+Napoleón es derrotado en la batalla de Waterloo:1815
+Primera locomotora de vapor:1825
+Gran Bretaña asumió el dominio de la India:1858
+Edison inventa la luz eléctrica:1879
+Benz desarrolla el primer automóvil de gasolina:1885
+Einstein anuncia la teoría de la relatividad:1905
+Titanic, el barco más grande del mundo, se hunde en el Atlántico norte:1912
+Comienza la Primera Guerra Mundial:1914
+Revolución rusa:1917
+Hitler llega al poder en Alemania:1933
+Comienza la Segunda Guerra Mundial:1939
+Fin de la Segunda Guerra Mundial:1945
+Se funda la China comunista:1949
+Rusia envía al espacio el primer satélite, Sputnik 1:1957
+Yuri Gagarin se convierte en el primer hombre en volar al espacio:1961
+Neil Armstrong se convierte en el primer hombre en poner un pie en la luna:1969
+Desastre de Chernobyl:1986
+Caída del comunismo en Europa del Este:1989
+Unificación de Alemania:1990
+Desintegración de la Unión Soviética:1991
+Fin del apartheid en Sudáfrica:1994
+Se funda Google:1998
+Ataques terroristas del 11 de septiembre:2001
+Introducción del iPhone:2007
+Pandemia de COVID-19:2020

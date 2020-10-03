@@ -1,35 +1,35 @@
-Kekaisaran Akkadia: -2300, -2200
-Kekaisaran Babilonia: -1900, -1600
-Kekaisaran Mesir: -1550, -1077
-Assyria: -2025, -609
-Kerajaan Yehuda: -1050, -586
-Kekaisaran Akhemeniyah: -550, -330
-Kekaisaran Maurya: -322, -184
-Kekaisaran Kartago: -814, -146
-Kekaisaran Seleukia: -312, -63
-Dinasti Han: -202,220
-Kekaisaran Sasanian: 224.651
-Dinasti Tang: 618.907
-Kekhalifahan Abbasiyah: 750,1258
-Kerajaan Pagan: 849,1297
-Kekaisaran Mongol: 1206.1368
-Kerajaan Khmer: 802,1431
-Kekaisaran Romawi: -27,1453
-Kekaisaran Bizantium: 395.1453
-Kekaisaran Inca: 1438,1533
-Kekaisaran Mughal: 1526,1758
-Dinasti Qing: 1644,1912
-Kekaisaran Rusia: 1721,1917
-Kekaisaran Austro-Hongaria: 1867,1918
-Kekaisaran Jerman: 1871,1918
-Kekaisaran Ottoman: 1299,1922
-Reich Ketiga: 1933,1945
-Kekaisaran Jepang: 1868,1947
-Kekaisaran Spanyol: 1402,1975
-Kekaisaran Prancis: 1534,1980
-Uni Soviet: 1922,1991
-Kerajaan Inggris: 1603,1997
-Kekaisaran Portugis: 1415,1999
-Amerika Serikat: 1776, x
-Tiongkok: 1949, x
-Uni Eropa: 1993, x
+Kekaisaran Akkadia:-2300,-2200
+Kekaisaran Babilonia:-1900,-1600
+Kekaisaran Mesir:-1550,-1077
+Assyria:-2025,-609
+Kerajaan Yehuda:-1050,-586
+Kekaisaran Akhemeniyah:-550,-330
+Kekaisaran Maurya:-322,-184
+Kekaisaran Kartago:-814,-146
+Kekaisaran Seleukia:-312,-63
+Dinasti Han:-202,220
+Kekaisaran Sasanian:224,651
+Dinasti Tang:618,907
+Kekhalifahan Abbasiyah:750,1258
+Kerajaan Pagan:849,1297
+Kekaisaran Mongol:1206,1368
+Kerajaan Khmer:802,1431
+Kekaisaran Romawi:-27,1453
+Kekaisaran Bizantium:395,1453
+Kekaisaran Inca:1438,1533
+Kekaisaran Mughal:1526,1758
+Dinasti Qing:1644,1912
+Kekaisaran Rusia:1721,1917
+Kekaisaran Austro-Hongaria:1867,1918
+Kekaisaran Jerman:1871,1918
+Kekaisaran Ottoman:1299,1922
+Reich Ketiga:1933,1945
+Kekaisaran Jepang:1868,1947
+Kekaisaran Spanyol:1402,1975
+Kekaisaran Prancis:1534,1980
+Uni Soviet:1922,1991
+Kerajaan Inggris:1603,1997
+Kekaisaran Portugis:1415,1999
+Amerika Serikat:1776,x
+Tiongkok:1949,x
+Uni Eropa:1993,x

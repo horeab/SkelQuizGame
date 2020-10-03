@@ -1,35 +1,35 @@
-Empire d'Akkad: -2300, -2200
-Empire babylonien: -1900, -1600
-Empire égyptien: -1550, -1077
-Assyrie: -2025, -609
-Royaume d'Israël: -1050, -586
-Empire achéménide: -550, -330
-Empire maurya: -322, -184
-Empire carthaginois: -814, -146
-Empire séleucide: -312, -63
-Dynastie des Han: -202220
-Sassanides: 224,651
-Dynastie Tang: 618907
-Califat abbasside: 750,1258
-Royaume de Pagan: 849,1297
-Empire mongol: 1206,1368
-Empire khmer: 802,1431
-Empire romain: -27.1453
-Empire byzantin: 395.1453
-Empire inca: 1438,1533
-Empire moghol: 1526,1758
-Dynastie Qing: 1644,1912
-Empire russe: 1721,1917
-Empire austro-hongrois: 1867,1918
-Empire allemand: 1871,1918
-Empire ottoman: 1299,1922
-Troisième Reich: 1933,1945
-Empire du Japon: 1868, 1947
-Empire espagnol: 1402,1975
-Empire français: 1534,1980
-Union soviétique: 1922,1991
-Empire britannique: 1603,1997
-Empire portugais: 1415,1999
-États-Unis: 1776, x
-Chine: 1949, x
-Union européenne: 1993, x
+Empire d'Akkad:-2300,-2200
+Empire babylonien:-1900,-1600
+Empire égyptien:-1550,-1077
+Assyrie:-2025,-609
+Royaume d'Israël:-1050,-586
+Empire achéménide:-550,-330
+Empire maurya:-322,-184
+Empire carthaginois:-814,-146
+Empire séleucide:-312,-63
+Dynastie des Han:-202,220
+Sassanides:224,651
+Dynastie Tang:618,907
+Califat abbasside:750,1258
+Royaume de Pagan:849,1297
+Empire mongol:1206,1368
+Empire khmer:802,1431
+Empire romain:-27,1453
+Empire byzantin:395,1453
+Empire inca:1438,1533
+Empire moghol:1526,1758
+Dynastie Qing:1644,1912
+Empire russe:1721,1917
+Empire austro-hongrois:1867,1918
+Empire allemand:1871,1918
+Empire ottoman:1299,1922
+Troisième Reich:1933,1945
+Empire du Japon:1868,1947
+Empire espagnol:1402,1975
+Empire français:1534,1980
+Union soviétique:1922,1991
+Empire britannique:1603,1997
+Empire portugais:1415,1999
+États-Unis:1776,x
+Chine:1949,x
+Union européenne:1993,x

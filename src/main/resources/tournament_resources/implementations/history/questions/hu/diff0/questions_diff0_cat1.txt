@@ -1,35 +1,35 @@
-Akkád Birodalom: -2300, -2200
-Babiloni Birodalom: -1900, -1600
-Egyiptomi Birodalom: -1550, -1077
-Asszíria: -2025, -609
-Júda Királyság: -1050, -586
-Achaemenid Birodalom: -550, -330
-Maurja Birodalom: -322, -184
-Karthágó: -814, -146
-Szeleukida Birodalom: -312, -63
-Han-dinasztia: -202,220
-Szászánida Birodalom: 224 651
-Tang-dinasztia: 618 907
-Abbászidák: 750 1258
-Pagan Birodalom: 849,1297
-Mongol Birodalom: 1206 1368
-Khmer Birodalom: 802 1431
-Római Birodalom: -27,1453
-Bizánci Birodalom: 395 1453
-Inka Birodalom: 1438,1533
-Mogul Birodalom: 1526,1758
-Csing-dinasztia: 1644,1912
-Orosz Birodalom: 1721,1917
-Osztrák-Magyar Birodalom: 1867,1918
-Német Birodalom: 1871,1918
-Oszmán Birodalom: 1299,1922
-Harmadik Birodalom: 1933,1945
-Japán Birodalom: 1868,1947
-Spanyol Birodalom: 1402, 1975
-Francia Birodalom: 1534,1980
-Szovjetunió: 1922, 1991
-Brit Birodalom: 1603, 1997
-Portugál Birodalom: 1415,1999
-Egyesült Államok: 1776, x
-Kína: 1949, x
-Európai Unió: 1993, x
+Akkád Birodalom:-2300,-2200
+Babiloni Birodalom:-1900,-1600
+Egyiptomi Birodalom:-1550,-1077
+Asszíria:-2025,-609
+Júda Királyság:-1050,-586
+Achaemenid Birodalom:-550,-330
+Maurja Birodalom:-322,-184
+Karthágó:-814,-146
+Szeleukida Birodalom:-312,-63
+Han-dinasztia:-202,220
+Szászánida Birodalom:224,651
+Tang-dinasztia:618,907
+Abbászidák:750,1258
+Pagan Birodalom:849,1297
+Mongol Birodalom:1206,1368
+Khmer Birodalom:802,1431
+Római Birodalom:-27,1453
+Bizánci Birodalom:395,1453
+Inka Birodalom:1438,1533
+Mogul Birodalom:1526,1758
+Csing-dinasztia:1644,1912
+Orosz Birodalom:1721,1917
+Osztrák-Magyar Birodalom:1867,1918
+Német Birodalom:1871,1918
+Oszmán Birodalom:1299,1922
+Harmadik Birodalom:1933,1945
+Japán Birodalom:1868,1947
+Spanyol Birodalom:1402,1975
+Francia Birodalom:1534,1980
+Szovjetunió:1922,1991
+Brit Birodalom:1603,1997
+Portugál Birodalom:1415,1999
+Egyesült Államok:1776,x
+Kína:1949,x
+Európai Unió:1993,x

@@ -1,35 +1,35 @@
-Akkadská říše: -2300, -2200
-Babylonská říše: -1900, -1600
-Starověký Egypt: -1550, -1077
-Asýrie: -2025, -609
-Judské království: -1050, -586
-Achaemenidská říše: -550, -330
-Maurjovská říše: -322, -184
-Kartáginská říše: -814, -146
-Seleucidská říše: -312, -63
-Dynastie Han: -202 220
-Sásánovská říše: 224 651
-Dynastie Tchang: 618 907
-Abbasid kalifát: 750,1258
-Pugamská říše: 849 1297
-Mongolská říše: 1206 136
-Khmérská říše: 802,1431
-Římská říše: -27,1453
-Byzantská říše: 395 1453
-Incká říše: 1438 1533
-Mughalská říše: 1526 1758
-Dynastie Čching: 1644 1912
-Ruská říše: 1721,1917
-Rakousko-uherské císařství: 1867,1918
-Německá říše: 1871,1918
-Osmanská říše: 1299,1922
-Třetí říše: 1933,1945
-Japonské císařství: 1868,1947
-Španělská říše: 1402,1975
-Francouzská říše: 1534,1980
-Sovětský svaz: 1922,1991
-Britské impérium: 1603, 1997
-Portugalská říše: 1415,999
-Spojené státy: 1776, x
-Čína: 1949, x
-Evropská unie: 1993, x
+Akkadská říše:-2300,-2200
+Babylonská říše:-1900,-1600
+Starověký Egypt:-1550,-1077
+Asýrie:-2025,-609
+Judské království:-1050,-586
+Achaemenidská říše:-550,-330
+Maurjovská říše:-322,-184
+Kartáginská říše:-814,-146
+Seleucidská říše:-312,-63
+Dynastie Han:-202,220
+Sásánovská říše:224,651
+Dynastie Tchang:618,907
+Abbasid kalifát:750,1258
+Pugamská říše:849,1297
+Mongolská říše:1206,1368
+Khmérská říše:802,1431
+Římská říše:-27,1453
+Byzantská říše:395,1453
+Incká říše:1438,1533
+Mughalská říše:1526,1758
+Dynastie Čching:1644,1912
+Ruská říše:1721,1917
+Rakousko-uherské císařství:1867,1918
+Německá říše:1871,1918
+Osmanská říše:1299,1922
+Třetí říše:1933,1945
+Japonské císařství:1868,1947
+Španělská říše:1402,1975
+Francouzská říše:1534,1980
+Sovětský svaz:1922,1991
+Britské impérium:1603,1997
+Portugalská říše:1415,1999
+Spojené státy:1776,x
+Čína:1949,x
+Evropská unie:1993,x

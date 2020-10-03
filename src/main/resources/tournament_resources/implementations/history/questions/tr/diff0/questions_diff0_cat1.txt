@@ -1,0 +1,35 @@
+Akad İmparatorluğu:-2300,-2200
+Babil İmparatorluğu:-1900,-1600
+Mısır İmparatorluğu:-1550,-1077
+Asur:-2025,-609
+Yahuda Krallığı:-1050,-586
+Ahameniş İmparatorluğu:-550,-330
+Maurya İmparatorluğu:-322,-184
+Kartaca İmparatorluğu:-814,-146
+Selevkos İmparatorluğu:-312,-63
+Han Hanedanı:-202,220
+Sasani İmparatorluğu:224,651
+Tang Hanedanı:618,907
+Abbasi Halifeliği:750,1258
+Pagan Krallık:849,1297
+Moğol İmparatorluğu:1206,1368
+Khmer İmparatorluğu:802,1431
+Roma İmparatorluğu:-27,1453
+Bizans İmparatorluğu:395,1453
+İnka İmparatorluğu:1438,1533
+Babür İmparatorluğu:1526,1758
+Qing Hanedanı:1644,1912
+Rusya İmparatorluğu:1721,1917
+Avusturya-Macaristan İmparatorluğu:1867,1918
+Alman İmparatorluğu:1871,1918
+Osmanlı İmparatorluğu:1299,1922
+Üçüncü Reich:1933,1945
+Japonya İmparatorluğu:1868,1947
+İspanyol İmparatorluğu:1402,1975
+Fransız imparatorluğu:1534,1980
+Sovyetler Birliği:1922,1991
+İngiliz İmparatorluğu:1603,1997
+Portekiz İmparatorluğu:1415,1999
+Amerika Birleşik Devletleri:1776,x
+Çin:1949,x
+Avrupa Birliği:1993,x

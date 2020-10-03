@@ -1,46 +1,46 @@
-Homo erectus meninggalkan Afrika: -1800000
-Manusia belajar mengawal api: -400000
-Neanderthal menjadi pupus: -40000
-Revolusi Neolitik: -9000
-Tamadun pertama berkembang di Sumeria: -3500
-Piramid dan Sphinx Besar dibina: -2500
-Kelahiran Buddha: -486
-Penubuhan Empayar Rom: -27
-Julius Caesar dari Rom dibunuh: -44
-Penyebaran agama Kristian: 1
-Perpecahan Empayar Rom: 395
-Kelahiran Nabi Muhammad, pengasas Islam: 570
-Percetakan dicipta di China: 730
-Perpecahan Gereja Kristian: 1054
-Magna Carta ditandatangani oleh Raja John: 1215
-Wabak Bubonic merebak ke Eropah: 1347
-Turki Uthmaniyyah menawan Konstantinopel: 1453
-Columbus menemui Amerika: 1492
-Bangunan Taj Mahal selesai: 1643
-Mozart menulis simfoni pertamanya: 1764
-Pengisytiharan Kemerdekaan Amerika Syarikat: 1776
-Napoleon dikalahkan pada Pertempuran Waterloo: 1815
-Lokomotif Steam Pertama: 1825
-Great Britain mengambil alih pemerintahan India: 1858
-Edison mencipta lampu elektrik: 1879
-Benz membangunkan kereta api petrol pertama: 1885
-Einstein mengumumkan teori relativiti: 1905
-Titanic, kapal terbesar di dunia, tenggelam di Atlantik Utara: 1912
-Perang Dunia Pertama bermula: 1914
-Revolusi Rusia: 1917
-Hitler berkuasa di Jerman: 1933
-Perang Dunia Kedua bermula: 1939
-Akhir Perang Dunia Kedua: 1945
-Komunis China ditubuhkan: 1949
-Rusia menghantar ke angkasa satelit pertama, Sputnik 1: 1957
-Yuri Gagarin menjadi lelaki pertama yang terbang di angkasa: 1961
-Neil Armstrong menjadi lelaki pertama yang menjejakkan kaki di bulan: 1969
-Bencana Chernobyl: 1986
-Kejatuhan Komunisme di Eropah Timur: 1989
-Penyatuan Jerman: 1990
-Kesatuan Soviet pecah: 1991
-Akhir Apartheid di Afrika Selatan: 1994
-Google ditubuhkan: 1998
-11 September Serangan Pengganas: 2001
-Pengenalan iPhone: 2007
-Pandemik COVID-19: 2020
+Homo erectus meninggalkan Afrika:-1800000
+Manusia belajar mengawal api:-400000
+Neanderthal menjadi pupus:-40000
+Revolusi Neolitik:-9000
+Tamadun pertama berkembang di Sumeria:-3500
+Piramid dan Sphinx Besar dibina:-2500
+Kelahiran Buddha:-486
+Penubuhan Empayar Rom:-27
+Julius Caesar dari Rom dibunuh:-44
+Penyebaran agama Kristian:1
+Perpecahan Empayar Rom:395
+Kelahiran Nabi Muhammad, pengasas Islam:570
+Percetakan dicipta di China:730
+Perpecahan Gereja Kristian:1054
+Magna Carta ditandatangani oleh Raja John:1215
+Wabak Bubonic merebak ke Eropah:1347
+Turki Uthmaniyyah menawan Konstantinopel:1453
+Columbus menemui Amerika:1492
+Bangunan Taj Mahal selesai:1643
+Mozart menulis simfoni pertamanya:1764
+Pengisytiharan Kemerdekaan Amerika Syarikat:1776
+Napoleon dikalahkan pada Pertempuran Waterloo:1815
+Lokomotif Steam Pertama:1825
+Great Britain mengambil alih pemerintahan India:1858
+Edison mencipta lampu elektrik:1879
+Benz membangunkan kereta api petrol pertama:1885
+Einstein mengumumkan teori relativiti:1905
+Titanic, kapal terbesar di dunia, tenggelam di Atlantik Utara:1912
+Perang Dunia Pertama bermula:1914
+Revolusi Rusia:1917
+Hitler berkuasa di Jerman:1933
+Perang Dunia Kedua bermula:1939
+Akhir Perang Dunia Kedua:1945
+Komunis China ditubuhkan:1949
+Rusia menghantar ke angkasa satelit pertama, Sputnik 1:1957
+Yuri Gagarin menjadi lelaki pertama yang terbang di angkasa:1961
+Neil Armstrong menjadi lelaki pertama yang menjejakkan kaki di bulan:1969
+Bencana Chernobyl:1986
+Kejatuhan Komunisme di Eropah Timur:1989
+Penyatuan Jerman:1990
+Kesatuan Soviet pecah:1991
+Akhir Apartheid di Afrika Selatan:1994
+Google ditubuhkan:1998
+11 September Serangan Pengganas:2001
+Pengenalan iPhone:2007
+Pandemik COVID-19:2020

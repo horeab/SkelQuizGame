@@ -1,46 +1,46 @@
-Homo erectus forlater Afrika: -1800000
-Mennesker lærer å kontrollere brann: -400000
-Neandertalerne blir utryddet: -40000
-Neolitisk revolusjon: -9000
-De første sivilisasjonene utvikler seg i Sumeria: -3500
-Pyramidene og Great Sphinx ble bygget: -2500
-Buddhas fødsel: -486
-Grunnleggende av Romerriket: -27
-Julius Caesar fra Roma ble myrdet: -44
-Spredning av kristendommen: 1
-Splitt av Romerriket: 395
-Fødsel av profeten Muhammad, grunnleggeren av Islam: 570
-Utskrift ble oppfunnet i Kina: 730
-Splitt av den kristne kirken: 1054
-Magna Carta signert av King John: 1215
-Bubonic pest sprer seg til Europa: 1347
-De osmanske tyrkerne erobret Konstantinopel: 1453
-Columbus oppdager Amerika: 1492
-Bygningen av Taj Mahal fullført: 1643
-Mozart skriver sin første symfoni: 1764
-USAs uavhengighetserklæring: 1776
-Napoleon blir beseiret i slaget ved Waterloo: 1815
-Første damplokomotiv: 1825
-Storbritannia overtok Indias styre: 1858
-Edison oppfinner elektrisk lys: 1879
-Benz utvikler den første bensindrevne bilen: 1885
-Einstein kunngjør relativitetsteorien: 1905
-Titanic, verdens største skip, synker i Nord-Atlanteren: 1912
-Første verdenskrig begynner: 1914
-Russisk revolusjon: 1917
-Hitler stiger til makten i Tyskland: 1933
-Andre verdenskrig begynner: 1939
-Slutten av andre verdenskrig: 1945
-Det kommunistiske Kina ble grunnlagt: 1949
-Russland sender ut den første satellitten, Sputnik 1: 1957, i verdensrommet
-Yuri Gagarin blir den første mannen som flyr i verdensrommet: 1961
-Neil Armstrong blir det første mennesket som setter foten på månen: 1969
-Tsjernobyl-katastrofen: 1986
-Kommunismens fall i Øst-Europa: 1989
-Forening av Tyskland: 1990
-Sovjetunionen går i stykker: 1991
-Slutten på apartheid i Sør-Afrika: 1994
-Google ble grunnlagt: 1998
-11. september Terrorangrep: 2001
-Introduksjon av iPhone: 2007
-COVID-19-pandemi: 2020
+Homo erectus forlater Afrika:-1800000
+Mennesker lærer å kontrollere brann:-400000
+Neandertalerne blir utryddet:-40000
+Neolitisk revolusjon:-9000
+De første sivilisasjonene utvikler seg i Sumeria:-3500
+Pyramidene og Great Sphinx ble bygget:-2500
+Buddhas fødsel:-486
+Grunnleggende av Romerriket:-27
+Julius Caesar fra Roma ble myrdet:-44
+Spredning av kristendommen:1
+Splitt av Romerriket:395
+Fødsel av profeten Muhammad, grunnleggeren av Islam:570
+Utskrift ble oppfunnet i Kina:730
+Splitt av den kristne kirken:1054
+Magna Carta signert av King John:1215
+Bubonic pest sprer seg til Europa:1347
+De osmanske tyrkerne erobret Konstantinopel:1453
+Columbus oppdager Amerika:1492
+Bygningen av Taj Mahal fullført:1643
+Mozart skriver sin første symfoni:1764
+USAs uavhengighetserklæring:1776
+Napoleon blir beseiret i slaget ved Waterloo:1815
+Første damplokomotiv:1825
+Storbritannia overtok Indias styre:1858
+Edison oppfinner elektrisk lys:1879
+Benz utvikler den første bensindrevne bilen:1885
+Einstein kunngjør relativitetsteorien:1905
+Titanic, verdens største skip, synker i Nord-Atlanteren:1912
+Første verdenskrig begynner:1914
+Russisk revolusjon:1917
+Hitler stiger til makten i Tyskland:1933
+Andre verdenskrig begynner:1939
+Slutten av andre verdenskrig:1945
+Det kommunistiske Kina ble grunnlagt:1949
+Russland sender den første satellitten, Sputnik 1, ut i verdensrommet:1957
+Yuri Gagarin blir den første mannen som flyr i verdensrommet:1961
+Neil Armstrong blir det første mennesket som setter foten på månen:1969
+Tsjernobyl-katastrofen:1986
+Kommunismens fall i Øst-Europa:1989
+Forening av Tyskland:1990
+Sovjetunionen går i stykker:1991
+Slutten på apartheid i Sør-Afrika:1994
+Google ble grunnlagt:1998
+11. september Terrorangrep:2001
+Introduksjon av iPhone:2007
+COVID-19-pandemi:2020

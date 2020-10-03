@@ -1,35 +1,35 @@
-Akkadin valtakunta: -2300, -2200
-Babylonia: -1900, -1600
-Muinainen Egypti: -1550, -1077
-Assyria: -2025, -609
-Juudan kuningaskunta: -1050, -586
-Achaemenid-valtakunta: -550, -330
-Maurya-valtakunta: -322, -184
-Karthagonin imperiumi: -814, -146
-Seleucid-imperiumi: -312, -63
-Han-dynastia: -202220
-Sassanidit: 224 651
-Tang-dynastia: 618907
-Abbasidikalifaatti: 750,1258
-Pakanallinen valtakunta: 8491297
-Mongolien valtakunta: 1206,1368
-Khmerien valtakunta: 802 1431
-Rooman valtakunta: -27,1453
-Bysantin valtakunta: 395 1453
-Inkavaltakunta: 1438,1533
-Mughal-imperiumi: 1526,1758
-Qing-dynastia: 1644,1912
-Venäjän valtakunta: 1721,1917
-Itävalta-Unkari: 1867,1918
-Saksan valtakunta: 1871,1918
-Ottomaanien valtakunta: 1299,1922
-Kolmas valtakunta: 1933,1945
-Japanin keisarikunta: 1868,1947
-Espanjan imperiumi: 1402,1975
-Espanjan siirtomaat: 1534,1980
-Neuvostoliitto: 1922, 1991
-Brittiläinen imperiumi: 1603, 1997
-Portugalin valtakunta: 1415,1999
-Yhdysvallat: 1776, x
-Kiina: 1949, x
-Euroopan unioni: 1993, x
+Akkadin valtakunta:-2300,-2200
+Babylonia:-1900,-1600
+Muinainen Egypti:-1550,-1077
+Assyria:-2025,-609
+Juudan kuningaskunta:-1050,-586
+Achaemenid-valtakunta:-550,-330
+Maurya-valtakunta:-322,-184
+Karthagonin imperiumi:-814,-146
+Seleucid-imperiumi:-312,-63
+Han-dynastia:-202,220
+Sassanidit:224,651
+Tang-dynastia:618,907
+Abbasidikalifaatti:750,1258
+Pakanallinen valtakunta:849,1297
+Mongolien valtakunta:1206,1368
+Khmerien valtakunta:802,1431
+Rooman valtakunta:-27,1453
+Bysantin valtakunta:395,1453
+Inkavaltakunta:1438,1533
+Mughal-imperiumi:1526,1758
+Qing-dynastia:1644,1912
+Venäjän valtakunta:1721,1917
+Itävalta-Unkari:1867,1918
+Saksan valtakunta:1871,1918
+Ottomaanien valtakunta:1299,1922
+Kolmas valtakunta:1933,1945
+Japanin keisarikunta:1868,1947
+Espanjan imperiumi:1402,1975
+Espanjan siirtomaat:1534,1980
+Neuvostoliitto:1922,1991
+Brittiläinen imperiumi:1603,1997
+Portugalin valtakunta:1415,1999
+Yhdysvallat:1776,x
+Kiina:1949,x
+Euroopan unioni:1993,x

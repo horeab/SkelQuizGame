@@ -1,0 +1,35 @@
+Đế quốc Akkad:-2300,-2200
+Đế quốc Babylon:-1900,-1600
+Đế quốc Ai Cập:-1550,-1077
+Assyria:-2025,-609
+Vương quốc Judah:-1050,-586
+Đế quốc Achaemenes:-550,-330
+Đế quốc Maurya:-322,-184
+Carthage cổ đại:-814,-146
+Vương quốc Seleukos:-312,-63
+Thời Hán:-202,220
+Đế quốc Sasan:224,651
+Nhà Đường:618,907
+Nhà Abbas:750,1258
+Triều Pagan:849,1297
+Đế quốc Mông Cổ:1206,1368
+Đế quốc Khmer:802,1431
+Đế quốc La Mã:-27,1453
+Đế quốc Byzantine:395,1453
+Đế quốc Inca:1438,1533
+Đế quốc Mogul:1526,1758
+Nhà Thanh:1644,1912
+Đế quốc Nga:1721,1917
+Đế quốc Áo-Hung:1867,1918
+Đế quốc Đức:1871,1918
+Đế quốc Ottoman:1299,1922
+Đệ tam dế quốc:1933,1945
+Đế quốc Nhật Bản:1868,1947
+Đế quốc Tây Ban Nha:1402,1975
+Đế quốc Pháp:1534,1980
+Liên Xô:1922,1991
+Đế quốc Anh:1603,1997
+Đế quốc Bồ Đào Nha:1415,1999
+Hoa Kỳ:1776,x
+Trung Quốc:1949,x
+Liên minh Châu Âu:1993,x

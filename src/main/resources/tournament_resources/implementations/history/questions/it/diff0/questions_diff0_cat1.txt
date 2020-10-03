@@ -1,35 +1,35 @@
-Impero di Akkad: -2300, -2200
-Impero babilonese: -1900, -1600
-Antico Egitto: -1550, -1077
-Assiria: -2025, -609
-Regno di Giuda: -1050, -586
-Impero achemenide: -550, -330
-Impero Maurya: -322, -184
-Impero cartaginese: -814, -146
-Impero seleucide: -312, -63
-Dinastia Han: -202,220
-Impero sasanide: 224.651
-Dinastia Tang: 618,907
-Califfato abbaside: 750,1258
-Regno Pagan: 849,1297
-Impero mongolo: 1206,1368
-Impero Khmer: 802,1431
-Impero romano: -27,1453
-Impero bizantino: 395,1453
-Impero inca: 1438,1533
-Impero Moghul: 1526,1758
-Dinastia Qing: 1644,1912
-Impero russo: 1721,1917
-Impero austro-ungarico: 1867,1918
-Impero tedesco: 1871,1918
-Impero ottomano: 1299,1922
-Terzo Reich: 1933,1945
-Impero del Giappone: 1868,1947
-Impero spagnolo: 1402,1975
-Impero francese: 1534,1980
-Unione Sovietica: 1922,1991
-Impero britannico: 1603,1997
-Impero portoghese: 1415,1999
-Stati Uniti: 1776, x
-Cina: 1949, x
-Unione Europea: 1993, x
+Impero di Akkad:-2300,-2200
+Impero babilonese:-1900,-1600
+Antico Egitto:-1550,-1077
+Assiria:-2025,-609
+Regno di Giuda:-1050,-586
+Impero achemenide:-550,-330
+Impero Maurya:-322,-184
+Impero cartaginese:-814,-146
+Impero seleucide:-312,-63
+Dinastia Han:-202,220
+Impero sasanide:224,651
+Dinastia Tang:618,907
+Califfato abbaside:750,1258
+Regno Pagan:849,1297
+Impero mongolo:1206,1368
+Impero Khmer:802,1431
+Impero romano:-27,1453
+Impero bizantino:395,1453
+Impero inca:1438,1533
+Impero Moghul:1526,1758
+Dinastia Qing:1644,1912
+Impero russo:1721,1917
+Impero austro-ungarico:1867,1918
+Impero tedesco:1871,1918
+Impero ottomano:1299,1922
+Terzo Reich:1933,1945
+Impero del Giappone:1868,1947
+Impero spagnolo:1402,1975
+Impero francese:1534,1980
+Unione Sovietica:1922,1991
+Impero britannico:1603,1997
+Impero portoghese:1415,1999
+Stati Uniti:1776,x
+Cina:1949,x
+Unione Europea:1993,x
