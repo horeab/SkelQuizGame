@@ -38,63 +38,51 @@ public class StartGameCountries {
     public static String getTitle() {
         switch (Language.valueOf(Game.getInstance().getAppInfoService().getLanguage())) {
             case cs:
-                return "Astronomie";
+                return "Země světa";
             case da:
-                return "Astronomi";
+                return "Lande i Verden";
             case de:
-                return "Astronomie";
+                return "Länder der Welt";
             case el:
-                return "Αστρονομία";
+                return "Χώρες του Κόσμου";
             case en:
-                return "Astronomy";
+                return "World Countries";
             case es:
-                return "Astronomía";
+                return "Países del Mundo";
             case fi:
-                return "Tähtitiede";
+                return "Maailman maat";
             case fr:
-                return "Astronomie";
-            case hi:
-                return "खगोल";
+                return "Pays du Monde";
             case hr:
-                return "Astronomija";
+                return "Zemlje svjetskog";
             case hu:
-                return "Csillagászat";
+                return "A Világ Országai";
             case id:
-                return "Astronomi";
+                return "Negara di Dunia";
             case it:
-                return "Astronomia";
-            case ja:
-                return "天文学";
-            case ko:
-                return "천문학";
+                return "Paesi del Mondo";
             case ms:
-                return "Astronomi";
+                return "Negara-negara di Dunia";
             case nl:
-                return "Astronomie";
+                return "Landen van de Wereld";
             case no:
-                return "Astronomi";
+                return "Verdens land";
             case pl:
-                return "Astronomia";
+                return "Państwa Świata";
             case pt:
-                return "Astronomia";
+                return "Países do Mundo";
             case ro:
-                return "Astronomie";
+                return "Țările lumii";
             case ru:
-                return "Астрономия";
+                return "Страны Мира";
             case sk:
-                return "Astronómie";
+                return "Štáty sveta";
             case sv:
-                return "Astronomi";
-            case th:
-                return "ดาราศาสตร์";
+                return "Världens länder";
             case tr:
-                return "Astronomi";
+                return "Dünya Ülkeleri";
             case uk:
-                return "Астрономія";
-            case vi:
-                return "Thiên văn học";
-            case zh:
-                return "天文学";
+                return "Країни світу";
         }
         return null;
     }

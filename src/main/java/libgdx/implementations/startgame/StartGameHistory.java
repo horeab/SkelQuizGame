@@ -29,7 +29,7 @@ public class StartGameHistory {
 
                     @Override
                     public String getLanguage() {
-                        return Language.en.name();
+                        return Language.ro.name();
                     }
                 });
         libgdx.utils.startgame.StartGame.main(game, args);
@@ -38,12 +38,64 @@ public class StartGameHistory {
 
     public static String getTitle() {
         switch (Language.valueOf(Game.getInstance().getAppInfoService().getLanguage())) {
-            case en:
-                return "European History";
-            case ro:
-                return "Istoria Europei";
+            case cs:
+                return "Dějiny";
+            case da:
+                return "Historie spil";
             case de:
-                return "Europäische\nGeschichte";
+                return "Geschichtsspiel";
+            case el:
+                return "Παιχνίδι Ιστορίας";
+            case en:
+                return "History Game";
+            case es:
+                return "Juego de historia";
+            case fi:
+                return "Historiapeli";
+            case fr:
+                return "Jeu d'histoire";
+            case hi:
+                return "इतिहास";
+            case hr:
+                return "Povijest";
+            case hu:
+                return "Történelem";
+            case id:
+                return "Sejarah Game";
+            case it:
+                return "Gioco di storia";
+            case ja:
+                return "歴史ゲーム";
+            case ko:
+                return "역사 게임";
+            case ms:
+                return "Permainan Sejarah";
+            case nl:
+                return "Geschiedenis spel";
+            case no:
+                return "Historie spill";
+            case pl:
+                return "Gra Historia";
+            case pt:
+                return "Jogo de História";
+            case ro:
+                return "Joc de istorie";
+            case ru:
+                return "История игры";
+            case sk:
+                return "História";
+            case sv:
+                return "Historia spel";
+            case th:
+                return "ประวัติศาสตร์";
+            case tr:
+                return "Tarih Oyunu";
+            case uk:
+                return "Історія гри";
+            case vi:
+                return "Lịch sử";
+            case zh:
+                return "历史游戏";
         }
         return null;
     }
