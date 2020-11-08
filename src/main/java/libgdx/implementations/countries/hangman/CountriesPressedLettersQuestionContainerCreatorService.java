@@ -1,7 +1,6 @@
 package libgdx.implementations.countries.hangman;
 
 import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.scenes.scene2d.Action;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.actions.RunnableAction;
@@ -30,6 +29,7 @@ import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.countries.CountriesCategoryEnum;
+import libgdx.implementations.countries.CountriesSpecificResource;
 import libgdx.implementations.screens.implementations.countries.CountriesGameScreen;
 import libgdx.implementations.screens.implementations.countries.CountriesSettingsService;
 import libgdx.implementations.skelgame.GameButtonSize;
@@ -45,6 +45,7 @@ import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
 import libgdx.utils.ScreenDimensionsManager;
+import libgdx.utils.SoundUtils;
 import libgdx.utils.model.FontColor;
 import libgdx.utils.model.FontConfig;
 
@@ -100,6 +101,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
                 refreshCountries();
             } else if (pressedCorrectAnswers.isEmpty()) {
                 new ActorAnimation(getAbstractGameScreen()).animatePulse();
+                SoundUtils.playSound(CountriesSpecificResource.level_fail);
                 clearPressedLetters();
             }
         }
@@ -164,6 +166,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
 
     private void updateScore() {
         score = score + 1;
+        SoundUtils.playSound(CountriesSpecificResource.level_success);
         if (score > campaignStoreService.getScoreWon(countriesGameScreen.getCampaignLevel())) {
             campaignStoreService.updateScoreWon(countriesGameScreen.getCampaignLevel(), score);
             new CountriesSettingsService().setHighScore(true);
@@ -304,13 +307,14 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
                         FontColor.BLACK.getColor(),
                         FontConfig.FONT_SIZE * fontScale,
                         borderWidth)).build());
-        counterLabel.setBackground(GraphicUtils.getNinePatch(MainResource.refresh_up));
+        counterLabel.setBackground(GraphicUtils.getNinePatchIdentical(CountriesSpecificResource.clock));
         scoreLabel = createScoreLabel(borderWidth, fontScale);
         Stack animateScoreStack = new Stack();
         animateScoreStack.add(scoreLabel);
         infoContainer.add(animateScoreStack).width(ScreenDimensionsManager.getScreenWidthValue(20));
         infoContainer.add(categContainer).padLeft(dimen).padRight(dimen).width(categTextWidth);
-        infoContainer.add(counterLabel).width(ScreenDimensionsManager.getScreenWidthValue(20));
+        float counterSide = ScreenDimensionsManager.getScreenWidthValue(20);
+        infoContainer.add(counterLabel).width(counterSide).height(counterSide);
         table.add(infoContainer).expandX().row();
         countdownProcess();
         return table;
@@ -322,7 +326,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
                 .setText(prefix + score)
                 .setFontConfig(new FontConfig(
                         FontColor.LIGHT_GREEN.getColor(),
-                        FontColor.BLACK.getColor(),
+                        FontColor.GREEN.getColor(),
                         FontConfig.FONT_SIZE * fontScale,
                         borderWidth)).build());
         label.setTransform(true);

@@ -1,5 +1,6 @@
 package libgdx.implementations.countries;
 
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.utils.I18NBundle;
 
@@ -22,12 +23,20 @@ public enum CountriesSpecificResource implements SpecificResource {
     campaign_level_0_4("campaign/l_0/level_0_4.png", Texture.class),
     campaign_level_0_5("campaign/l_0/level_0_5.png", Texture.class),
 
+    level_fail("sound/level_fail.mp3", Sound.class),
+    level_success("sound/level_success.mp3", Sound.class),
+
     all_found("all_found.png", Texture.class),
     notansw_background("notansw_background.png", Texture.class),
     correctansw_background("correctansw_background.png", Texture.class),
 
     play_down("buttons/play_down.png", Texture.class),
     play_up("buttons/play_up.png", Texture.class),
+    btn_clear("buttons/btn_clear.png", Texture.class),
+    btn_clear_down("buttons/btn_clear_down.png", Texture.class),
+    btn_next("buttons/btn_next.png", Texture.class),
+    btn_next_down("buttons/btn_next_down.png", Texture.class),
+    clock("clock.png", Texture.class),
     ;
 
     // @formatter:on
