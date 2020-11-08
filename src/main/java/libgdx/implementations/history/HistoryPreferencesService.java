@@ -47,6 +47,7 @@ public class HistoryPreferencesService extends SettingsService {
         preferencesService.putString(getLevelsWonFieldName(campaignLevelEnum), StringUtils.join(l, ","));
         int levelsWonSize = getLevelsWon(campaignLevelEnum).size();
         if (levelsWonSize > getHighScore(campaignLevelEnum)) {
+            setIsHighScore(campaignLevelEnum, true);
             setHighScore(levelsWonSize, campaignLevelEnum);
         }
     }
@@ -55,6 +56,14 @@ public class HistoryPreferencesService extends SettingsService {
         Set<Integer> l = getLevelsLost(campaignLevelEnum);
         l.add(level);
         preferencesService.putString(getLevelsLostFieldName(campaignLevelEnum), StringUtils.join(l, ","));
+    }
+
+    public boolean isHighScore(HistoryCampaignLevelEnum campaignLevelEnum) {
+        return preferencesService.getPreferences().getBoolean(getIsHighScoreFieldName(campaignLevelEnum), false);
+    }
+
+    public void setIsHighScore(HistoryCampaignLevelEnum campaignLevelEnum, boolean val) {
+        preferencesService.putBoolean(getIsHighScoreFieldName(campaignLevelEnum), val);
     }
 
     public void setHighScore(int score, HistoryCampaignLevelEnum campaignLevelEnum) {
@@ -77,7 +86,12 @@ public class HistoryPreferencesService extends SettingsService {
         return campaignLevelEnum.name() + "highScore";
     }
 
+    private String getIsHighScoreFieldName(HistoryCampaignLevelEnum campaignLevelEnum) {
+        return campaignLevelEnum.name() + "isHighScore";
+    }
+
     public void clearLevelsPlayed(HistoryCampaignLevelEnum campaignLevelEnum) {
+        setIsHighScore(campaignLevelEnum, false);
         preferencesService.putString(getLevelsWonFieldName(campaignLevelEnum), "");
         preferencesService.putString(getLevelsLostFieldName(campaignLevelEnum), "");
     }
