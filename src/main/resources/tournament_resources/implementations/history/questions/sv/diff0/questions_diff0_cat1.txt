@@ -23,7 +23,6 @@ Ryska imperiet:1721,1917
 Österrike-Ungern:1867,1918
 Tyska riket:1871,1918
 Osmanska riket:1299,1922
-Tredje riket:1933,1945
 Japanska imperiet:1868,1947
 Spanska imperiet:1402,1975
 Franska imperiet:1534,1980

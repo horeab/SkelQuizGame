@@ -23,7 +23,6 @@ Empayar Rusia:1721,1917
 Empayar Austria-Hungary:1867,1918
 Empayar Jerman:1871,1918
 Kerajaan Uthmaniyyah:1299,1922
-Reich Ketiga:1933,1945
 Empayar Jepun:1868,1947
 Empayar Sepanyol:1402,1975
 Empayar Perancis:1534,1980

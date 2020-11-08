@@ -23,7 +23,6 @@ Russische Rijk:1721,1917
 Oostenrijk-Hongarije:1867,1918
 Duitse Rijk:1871,1918
 Ottomaanse Rijk:1299,1922
-Derde Rijk:1933,1945
 Japans Keizerrijk:1868,1947
 Spaanse Rijk:1402,1975
 Frans Rijk:1534,1980

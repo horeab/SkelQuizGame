@@ -23,7 +23,6 @@ Orosz Birodalom:1721,1917
 Osztrák-Magyar Birodalom:1867,1918
 Német Birodalom:1871,1918
 Oszmán Birodalom:1299,1922
-Harmadik Birodalom:1933,1945
 Japán Birodalom:1868,1947
 Spanyol Birodalom:1402,1975
 Francia Birodalom:1534,1980

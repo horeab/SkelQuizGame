@@ -23,7 +23,6 @@ Venäjän valtakunta:1721,1917
 Itävalta-Unkari:1867,1918
 Saksan valtakunta:1871,1918
 Ottomaanien valtakunta:1299,1922
-Kolmas valtakunta:1933,1945
 Japanin keisarikunta:1868,1947
 Espanjan imperiumi:1402,1975
 Espanjan siirtomaat:1534,1980

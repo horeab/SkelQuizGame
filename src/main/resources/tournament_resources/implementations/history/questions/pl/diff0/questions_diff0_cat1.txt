@@ -23,7 +23,6 @@ Imperium Rosyjskie:1721,1917
 Cesarstwo austro-węgierskie:1867,1918
 Cesarstwo Niemieckie:1871,1918
 Imperium Osmańskie:1299,1922
-Trzecia Rzesza:1933,1945
 Cesarstwo Japonii:1868,1947
 Imperium hiszpańskie:1402,1975
 Cesarstwo francuskie:1534,1980

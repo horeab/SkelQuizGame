@@ -23,7 +23,6 @@ Empire russe:1721,1917
 Empire austro-hongrois:1867,1918
 Empire allemand:1871,1918
 Empire ottoman:1299,1922
-Troisième Reich:1933,1945
 Empire du Japon:1868,1947
 Empire espagnol:1402,1975
 Empire français:1534,1980

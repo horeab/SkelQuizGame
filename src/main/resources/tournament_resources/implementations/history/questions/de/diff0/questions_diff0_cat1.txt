@@ -23,7 +23,6 @@ Russisches Reich:1721,1917
 Österreichisch-Ungarisches Reich:1867,1918
 Deutsches Reich:1871,1918
 Osmanisches Reich:1299,1922
-Drittes Reich:1933,1945
 Japanisches Kaiserreich:1868,1947
 Spanisches Reich:1402,1975
 Französisches Reich:1534,1980

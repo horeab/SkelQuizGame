@@ -23,7 +23,6 @@ Rusko Carstvo:1721,1917
 Austro-Ugarska:1867,1918
 Njemačko Carstvo:1871,1918
 Osmansko Carstvo:1299,1922
-Treći Reich:1933,1945
 Japansko Carstvo:1868,1947
 Španjolsko Carstvo:1402,1975
 Francusko Carstvo:1534,1980

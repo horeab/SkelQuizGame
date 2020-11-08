@@ -23,7 +23,6 @@ Imperiul Rus:1721,1917
 Imperiul Austro-Ungar:1867,1918
 Imperiul German:1871,1918
 Imperiul Otoman:1299,1922
-Al treilea Reich:1933,1945
 Imperiul Japoniei:1868,1947
 Imperiul Spaniol:1402,1975
 Imperiul Francez:1534,1980

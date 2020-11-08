@@ -23,7 +23,6 @@ Ruská ríša:1721,1917
 Rakúsko-uhorské cisárstvo:1867,1918
 Nemecká ríša:1871,1918
 Osmanská ríša:1299,1922
-Tretia ríša:1933,1945
 Japonské cisárstvo:1868,1947
 Španielska ríša:1402,1975
 Francúzska ríša:1534,1980

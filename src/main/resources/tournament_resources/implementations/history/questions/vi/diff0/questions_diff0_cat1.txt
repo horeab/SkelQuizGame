@@ -23,7 +23,6 @@ Nhà Thanh:1644,1912
 Đế quốc Áo-Hung:1867,1918
 Đế quốc Đức:1871,1918
 Đế quốc Ottoman:1299,1922
-Đệ tam dế quốc:1933,1945
 Đế quốc Nhật Bản:1868,1947
 Đế quốc Tây Ban Nha:1402,1975
 Đế quốc Pháp:1534,1980

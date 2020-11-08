@@ -23,7 +23,6 @@ Ruská říše:1721,1917
 Rakousko-uherské císařství:1867,1918
 Německá říše:1871,1918
 Osmanská říše:1299,1922
-Třetí říše:1933,1945
 Japonské císařství:1868,1947
 Španělská říše:1402,1975
 Francouzská říše:1534,1980

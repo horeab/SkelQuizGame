@@ -23,7 +23,6 @@ Det Russiske Kejserrige:1721,1917
 Østrig-Ungarsk:1867,1918
 Det tyske Imperium:1871,1918
 Det Osmanniske Rige:1299,1922
-Tredje Rige:1933,1945
 Kejserriget Japan:1868,1947
 Spanske Imperium:1402,1975
 Fransk Imperium:1534,1980

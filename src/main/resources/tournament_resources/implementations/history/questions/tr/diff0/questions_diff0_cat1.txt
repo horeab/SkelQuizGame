@@ -23,7 +23,6 @@ Rusya İmparatorluğu:1721,1917
 Avusturya-Macaristan İmparatorluğu:1867,1918
 Alman İmparatorluğu:1871,1918
 Osmanlı İmparatorluğu:1299,1922
-Üçüncü Reich:1933,1945
 Japonya İmparatorluğu:1868,1947
 İspanyol İmparatorluğu:1402,1975
 Fransız imparatorluğu:1534,1980
