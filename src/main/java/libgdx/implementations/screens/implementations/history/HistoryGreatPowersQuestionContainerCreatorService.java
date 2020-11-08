@@ -1,5 +1,6 @@
 package libgdx.implementations.screens.implementations.history;
 
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
@@ -7,9 +8,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -18,11 +17,13 @@ import libgdx.controls.button.MainButtonSkin;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.history.HistoryCampaignLevelEnum;
 import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.resources.FontManager;
+import libgdx.resources.dimen.MainDimen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.model.FontColor;
 
@@ -40,7 +41,7 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
 
     protected Table createOptionsTable() {
         Table table = new Table();
-        float optionBtnHeight = ScreenDimensionsManager.getScreenHeightValue(9);
+        float optionBtnHeight = getOptionHeight();
         float optionWidth = ScreenDimensionsManager.getScreenWidthValue(70);
         int i = 0;
         for (Integer qNr : qNrMaxYear.keySet()) {
@@ -48,10 +49,10 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
             Table optionBtn = createOptionBtn(years.getLeft(), years.getRight(), i, optionWidth);
             Table qTable = new Table();
             qTable.add(optionBtn).width(optionWidth).height(optionBtnHeight);
-            Table answImg = createAnswImg(i);
-            qTable.add(answImg).height(getOptionHeight());
+            Table answImg = createAnswImg(i, "j");
+            qTable.add(answImg).width(ScreenDimensionsManager.getScreenWidth() - optionWidth).center().height(optionBtnHeight);
             qTable.setName(getTimelineItemName(i));
-            table.add(qTable).height(getOptionHeight()).row();
+            table.add(qTable).height(optionBtnHeight).row();
             i++;
         }
         return table;
@@ -105,7 +106,7 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
                 .setFontColor(fontColor)
                 .setFontScale(fontScale).build());
         ((Table) btn.getCenterRow().getChildren().get(0))
-                .add(createTimelineArrow(false)).growX();
+                .add(createTimelineArrow(true)).growX();
         ((Table) btn.getCenterRow().getChildren().get(0)).add(questionLabel).width(yearWidth);
         table.add(btn).width(btn.getWidth()).height(btn.getHeight());
         btn.addListener(new ChangeListener() {
@@ -117,7 +118,7 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
                 String cqMinY = optionText.getLeft();
                 String cqMaxY = optionText.getRight();
                 if (minYear.equals(cqMinY) && maxYear.equals(cqMaxY)) {
-                    processWonQuestion(currentQuestion);
+                    processWonQuestion(currentQuestion, "j");
                 } else {
                     processLostQuestion(currentQuestion);
                 }

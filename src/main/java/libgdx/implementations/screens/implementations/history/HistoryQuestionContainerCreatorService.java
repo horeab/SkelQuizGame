@@ -7,6 +7,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 
+import org.apache.commons.lang3.tuple.Pair;
+
 import java.util.List;
 
 import libgdx.controls.animations.ActorAnimation;
@@ -70,26 +72,27 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
         return optionHeight;
     }
 
-    protected Table createAnswImg(int index) {
+    protected Table createAnswImg(int index, String prefix) {
         Table table = new Table();
-        Image img = createOptImg(index);
-        table.add(img);
+        Image img = createOptImg(index, prefix);
         table.add(img).width(img.getWidth()).height(img.getHeight());
         table.setName(getOptionImageName(index));
         return table;
     }
 
-    protected Image createOptImg(int index) {
+    protected Image createOptImg(int index, String prefix) {
         Res res = HistorySpecificResource.timeline_opt_unknown;
         try {
-            if (historyPreferencesService.getAllLevelsPlayed(getCampaignLevelEnum()).contains(index)) {
-                res = HistorySpecificResource.valueOf("i" + index);
-            }
+//            if (historyPreferencesService.getAllLevelsPlayed(getCampaignLevelEnum()).contains(index)) {
+            res = HistorySpecificResource.valueOf(prefix + index);
+//            }
         } catch (Exception ignore) {
         }
         Image image = GraphicUtils.getImage(res);
-        image.setWidth(getAnswerImgSideDimen());
-        image.setHeight(getAnswerImgSideDimen());
+        float answerImgSideDimen = getAnswerImgSideDimen();
+        Pair<Float, Float> size = ScreenDimensionsManager.resize(answerImgSideDimen, answerImgSideDimen, image);
+        image.setWidth(size.getLeft());
+        image.setHeight(size.getRight());
         return image;
     }
 
@@ -105,17 +108,17 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
         return GraphicUtils.getNinePatch(res);
     }
 
-    protected void processWonQuestion(Integer currentQuestion) {
+    protected void processWonQuestion(Integer currentQuestion, String prefix) {
         int index = getQuestionNrInOrder().indexOf(currentQuestion);
         Table imgTable = historyGameScreen.getRoot().findActor(getOptionImageName(index));
         Actor oldImg = imgTable.getChildren().get(0);
         oldImg.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRemoveActorAction(oldImg)));
-        Image img = createOptImg(index);
+        historyPreferencesService.setLevelWon(currentQuestion, getCampaignLevelEnum());
+        Image img = createOptImg(index, prefix);
         imgTable.clear();
         img.setVisible(false);
         imgTable.add(img).width(img.getWidth()).height(img.getHeight());
         new ActorAnimation(img, historyGameScreen).animateFastFadeIn();
-        historyPreferencesService.setLevelWon(currentQuestion, getCampaignLevelEnum());
     }
 
     protected Drawable getBackgroundForTimeline(String questionString) {
@@ -154,7 +157,7 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
     }
 
     protected Image createTimelineArrow(boolean left) {
-        Image image = GraphicUtils.getImage(left ? HistorySpecificResource.arrow_left : HistorySpecificResource.arrow_right);
+        Image image = GraphicUtils.getImage(left ? HistorySpecificResource.arrow_right : HistorySpecificResource.arrow_left);
         image.setWidth(GameButtonSize.HISTORY_TIMELINE_ARROW.getWidth());
         image.setHeight(GameButtonSize.HISTORY_TIMELINE_ARROW.getHeight());
         return image;
@@ -172,12 +175,14 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
     public void refreshTitleTable(ScrollPane scrollPane) {
         if (scrollPane != null && epochNameLabel != null) {
             int option = getOptionDisplayed(scrollPane);
-            int answYear = getGameService().getSortYear(gameContext.getCurrentUserGameUser().getAllQuestionInfos().get(option).getQuestion().getQuestionString());
-            int timelineForYear = getTimelineForYear(answYear);
-            if (timelineDisplayed == null || timelineForYear != timelineDisplayed) {
-                timelineDisplayed = timelineForYear;
-                String text = SpecificPropertiesUtils.getText(Game.getInstance().getAppInfoService().getLanguage() + "_" + Game.getInstance().getGameIdPrefix() + "_timeline_" + timelineForYear);
-                epochNameLabel.setText(text);
+            if (gameContext.getCurrentUserGameUser().getAllQuestionInfos().size() > option) {
+                int answYear = getGameService().getSortYear(gameContext.getCurrentUserGameUser().getAllQuestionInfos().get(option).getQuestion().getQuestionString());
+                int timelineForYear = getTimelineForYear(answYear);
+                if (timelineDisplayed == null || timelineForYear != timelineDisplayed) {
+                    timelineDisplayed = timelineForYear;
+                    String text = SpecificPropertiesUtils.getText(Game.getInstance().getAppInfoService().getLanguage() + "_" + Game.getInstance().getGameIdPrefix() + "_timeline_" + timelineForYear);
+                    epochNameLabel.setText(text);
+                }
             }
         }
     }
@@ -222,7 +227,7 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
         Table scoreTable = new Table();
         scoreTable.add(scoreLabel).width(scoreIconDimen);
         Image image = GraphicUtils.getImage(HistorySpecificResource.score_icon);
-        scoreTable.add(image).width(scoreIconDimen).padRight(MainDimen.horizontal_general_margin.getDimen()).height(scoreIconDimen);
+        scoreTable.add(image).width(scoreIconDimen).padRight(MainDimen.horizontal_general_margin.getDimen() * 2).height(scoreIconDimen);
         table.add(scoreTable).width(sideDimen);
         table.setBackground(GraphicUtils.getNinePatch(MainResource.btn_menu_up));
         return table;

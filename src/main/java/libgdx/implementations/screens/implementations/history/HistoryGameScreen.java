@@ -163,8 +163,13 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
                 while (allQPlayed.contains(currentQuestion)) {
                     currentQuestion = getRandomNextQuestion();
                 }
-                scrollToOption = firstOpenQuestionIndex;
-                scrollPanePositionInit = 0;
+                addAction(Actions.sequence(Actions.delay(1f), Utils.createRunnableAction(new Runnable() {
+                    @Override
+                    public void run() {
+                        scrollToOption = firstOpenQuestionIndex;
+                        scrollPanePositionInit = 0;
+                    }
+                })));
                 break;
             }
         }
@@ -224,7 +229,7 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
         if (questionContainerCreatorService != null) {
             questionContainerCreatorService.refreshTitleTable(scrollPane);
         }
-//        createScrollTo();
+        createScrollTo();
 //         scrollPanePositionInit needs to be used otherwise the scrollTo wont work
         if (scrollPane != null && scrollPanePositionInit < 2) {
             scrollPane.setScrollY((scrollToOption) * optionHeight);

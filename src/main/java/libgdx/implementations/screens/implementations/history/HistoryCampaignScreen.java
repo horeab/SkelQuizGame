@@ -32,6 +32,7 @@ import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.screen.AbstractScreen;
 import libgdx.skelgameimpl.skelgame.SkelGameRatingService;
 import libgdx.utils.ScreenDimensionsManager;
+import libgdx.utils.SoundUtils;
 import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
 import libgdx.utils.model.FontConfig;
@@ -121,7 +122,7 @@ public class HistoryCampaignScreen extends AbstractScreen<HistoryScreenManager> 
         Image image = GraphicUtils.getImage(HistorySpecificResource.score_icon);
         float scoreIconDimen = ScreenDimensionsManager.getScreenWidthValue(10);
         highScoreTable.add(highScoreLabel).width(getBtnWidthValue() / 1.5f);
-        highScoreTable.add(image).width(scoreIconDimen).height(scoreIconDimen);
+        highScoreTable.add(image).width(scoreIconDimen).height(scoreIconDimen).padLeft(MainDimen.horizontal_general_margin.getDimen());
         return categBtn;
     }
 
