@@ -11,6 +11,7 @@ import libgdx.implementations.flags.FlagsSpecificResource;
 import libgdx.implementations.geoquiz.QuizGameSpecificResource;
 import libgdx.implementations.hangman.HangmanSpecificResource;
 import libgdx.implementations.hangmanarena.HangmanArenaSpecificResource;
+import libgdx.implementations.history.HistorySpecificResource;
 import libgdx.implementations.paintings.PaintingsSpecificResource;
 import libgdx.implementations.periodictable.PeriodicTableSpecificResource;
 import libgdx.resources.MainResource;
@@ -76,8 +77,10 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     COUNTRIES_CATEG4(CountriesSpecificResource.campaign_level_0_4, CountriesSpecificResource.campaign_level_0_4, CountriesSpecificResource.campaign_level_0_4, CountriesSpecificResource.campaign_level_0_4, null),
     COUNTRIES_CATEG5(CountriesSpecificResource.campaign_level_0_5, CountriesSpecificResource.campaign_level_0_5, CountriesSpecificResource.campaign_level_0_5, CountriesSpecificResource.campaign_level_0_5, null),
     COUNTRIES_STARTGAME(CountriesSpecificResource.play_up, CountriesSpecificResource.play_down, CountriesSpecificResource.play_up, CountriesSpecificResource.play_up, null),
-    COUNTRIES_NEXTLEVEL(CountriesSpecificResource.campaign_level_0_0, CountriesSpecificResource.campaign_level_0_0, CountriesSpecificResource.campaign_level_0_0, CountriesSpecificResource.campaign_level_0_0, null),
-    COUNTRIES_CLEAR_LETTERS(CountriesSpecificResource.campaign_level_0_1, CountriesSpecificResource.campaign_level_0_1, CountriesSpecificResource.campaign_level_0_1, CountriesSpecificResource.campaign_level_0_1, null),
+    COUNTRIES_NEXTLEVEL(CountriesSpecificResource.btn_next, CountriesSpecificResource.btn_next_down, CountriesSpecificResource.btn_next, CountriesSpecificResource.btn_next, null),
+    COUNTRIES_CLEAR_LETTERS(CountriesSpecificResource.btn_clear, CountriesSpecificResource.btn_clear_down, CountriesSpecificResource.btn_clear, CountriesSpecificResource.btn_clear, null),
+
+    HISTORY_TIMELINE_LEVEL(HistorySpecificResource.btn_timeline, HistorySpecificResource.btn_timeline_clicked, HistorySpecificResource.btn_timeline, HistorySpecificResource.btn_timeline_disabled, null),
 
     FLAGS_CATEG0(FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, null),
     FLAGS_CATEG1(FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, null),
