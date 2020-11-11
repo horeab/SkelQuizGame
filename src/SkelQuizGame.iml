@@ -10,7 +10,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="main1" />
-    <orderEntry type="module" module-name="main2" />
     <orderEntry type="library" name="gradle-wrapper" level="project" />
     <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-backend-headless:1.9.8" level="project" />
     <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-backend-lwjgl:1.9.8" level="project" />
@@ -54,5 +53,6 @@
     <orderEntry type="library" name="Gradle: org.powermock:powermock-module-junit4:1.6.1" level="project" />
     <orderEntry type="library" name="Gradle: org.powermock:powermock-reflect:1.6.1" level="project" />
     <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="module" module-name="Lett_main" />
   </component>
 </module>

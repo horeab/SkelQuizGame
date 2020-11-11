@@ -23,6 +23,13 @@ public enum CountriesSpecificResource implements SpecificResource {
     campaign_level_0_4("campaign/l_0/level_0_4.png", Texture.class),
     campaign_level_0_5("campaign/l_0/level_0_5.png", Texture.class),
 
+    level_0_0_backgr("campaign/level_0_0_backgr.png", Texture.class),
+    level_0_1_backgr("campaign/level_0_0_backgr.png", Texture.class),
+    level_0_2_backgr("campaign/level_0_0_backgr.png", Texture.class),
+    level_0_3_backgr("campaign/level_0_0_backgr.png", Texture.class),
+    level_0_4_backgr("campaign/level_0_0_backgr.png", Texture.class),
+    level_0_5_backgr("campaign/level_0_0_backgr.png", Texture.class),
+
     level_fail("sound/level_fail.mp3", Sound.class),
     level_success("sound/level_success.mp3", Sound.class),
 

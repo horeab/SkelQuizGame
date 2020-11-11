@@ -299,21 +299,20 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         categContainer.add(categLabel).row();
         categContainer.add(actualQName);
         Table infoContainer = new Table();
-        float fontScale = 2f;
         counterLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setText("1")
                 .setFontConfig(new FontConfig(
                         FontColor.ORANGE.getColor(),
                         FontColor.BLACK.getColor(),
-                        FontConfig.FONT_SIZE * fontScale,
+                        FontConfig.FONT_SIZE * 1.5f,
                         borderWidth)).build());
         counterLabel.setBackground(GraphicUtils.getNinePatchIdentical(CountriesSpecificResource.clock));
-        scoreLabel = createScoreLabel(borderWidth, fontScale);
+        scoreLabel = createScoreLabel(borderWidth, 2f);
         Stack animateScoreStack = new Stack();
         animateScoreStack.add(scoreLabel);
         infoContainer.add(animateScoreStack).width(ScreenDimensionsManager.getScreenWidthValue(20));
         infoContainer.add(categContainer).padLeft(dimen).padRight(dimen).width(categTextWidth);
-        float counterSide = ScreenDimensionsManager.getScreenWidthValue(20);
+        float counterSide = ScreenDimensionsManager.getScreenWidthValue(12);
         infoContainer.add(counterLabel).width(counterSide).height(counterSide);
         table.add(infoContainer).expandX().row();
         countdownProcess();

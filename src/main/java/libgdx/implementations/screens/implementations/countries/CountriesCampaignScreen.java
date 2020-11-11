@@ -123,7 +123,6 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
     private Table createCategTable() {
         Table table = new Table();
         Table categButton = createBigCategButton(settingsService.getSelectedLevel());
-        categButton.setBackground(GraphicUtils.getNinePatch(MainResource.btn_lowcolor_down));
         table.add(categButton).fill();
         table.add(createSmallCategButtons()).padLeft(MainDimen.horizontal_general_margin.getDimen());
         return table;
@@ -196,6 +195,7 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
         bigCategTable.setHeight(categBtn.getHeight());
         bigCategTable.add(createAchTable(campaignLevel)).width(scoreWidth()).height(dimen * 4).row();
         bigCategTable.add(categBtn).padTop(dimen * 3).width(categBtn.getWidth()).height(categBtn.getHeight()).row();
+        bigCategTable.setBackground(GraphicUtils.getNinePatch(CountriesSpecificResource.valueOf("level_0_" + campaignLevel.getIndex() + "_backgr")));
         MyButton startGameBtn = new ImageButtonBuilder(GameButtonSkin.COUNTRIES_STARTGAME, getAbstractScreen())
                 .animateZoomInZoomOut()
                 .setFixedButtonSize(GameButtonSize.COUNTRIES_START_GAME_BUTTON)
