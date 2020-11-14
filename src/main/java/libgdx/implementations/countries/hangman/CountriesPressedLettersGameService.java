@@ -140,7 +140,7 @@ public class CountriesPressedLettersGameService extends GameService {
             for (String charToBeIgnored : CHARS_TO_BE_IGNORED) {
                 posAnsw = posAnsw.replace(charToBeIgnored, "");
             }
-            if (posAnsw.startsWith(pressedAnswer)) {
+            if (processQuestionString(posAnsw).startsWith(pressedAnswer)) {
                 correctAnswers.add(possibleAnswer);
             }
         }
@@ -153,17 +153,13 @@ public class CountriesPressedLettersGameService extends GameService {
                 for (String charToBeIgnored : CHARS_TO_BE_IGNORED) {
                     syn = syn.replace(charToBeIgnored, "");
                 }
-                if (syn.toLowerCase().startsWith(pressedAnswer)) {
+                if (processQuestionString(syn).toLowerCase().startsWith(pressedAnswer)) {
                     correctAnswers.add(possibleAnswer);
                     return true;
                 }
             }
         }
         return false;
-    }
-
-    private boolean isLetterCorrectInWord(String hangmanWord, String answer) {
-        return compareAnswerStrings(hangmanWord, answer);
     }
 
     @Override
@@ -176,7 +172,7 @@ public class CountriesPressedLettersGameService extends GameService {
         return 3;
     }
 
-    private String processHangmanString(String string) {
+    private String processQuestionString(String string) {
         return !availableLettersHaveSpecialCharacters() ? normalize(string) : string;
     }
 
@@ -229,7 +225,7 @@ public class CountriesPressedLettersGameService extends GameService {
     }
 
     public Set<String> getNormalizedWordLetters(String hangmanWord) {
-        return getWordLetters(processHangmanString(hangmanWord));
+        return getWordLetters(processQuestionString(hangmanWord));
     }
 
     @Override
@@ -265,8 +261,8 @@ public class CountriesPressedLettersGameService extends GameService {
 
     @Override
     public boolean compareAnswerStrings(String hangmanWord, String answer) {
-        hangmanWord = processHangmanString(hangmanWord);
-        answer = processHangmanString(answer);
+        hangmanWord = processQuestionString(hangmanWord);
+        answer = processQuestionString(answer);
         return hangmanWord.toLowerCase().contains(answer.toLowerCase());
     }
 

@@ -8,6 +8,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 import com.badlogic.gdx.utils.Align;
 
 import org.apache.commons.lang3.StringUtils;
@@ -41,7 +42,6 @@ import libgdx.implementations.skelgame.LevelFinishedPopup;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.question.Question;
-import libgdx.preferences.SettingsService;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
@@ -79,9 +79,15 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
         addActor(table);
         if (settingsService.isHighScore()) {
             settingsService.setHighScore(false);
-            ActorAnimation.animateImageCenterScreenFadeOut(MainResource.btn_back_down, 2f);
+            ActorAnimation.animateImageCenterScreenFadeOut(CountriesSpecificResource.star, 2f);
         }
         SoundUtils.addSoundTable(getAbstractScreen(), null);
+        Table smallTable = getRoot().findActor(getSmallCategTableName(settingsService.getSelectedLevel().getIndex()));
+        smallTable.setBackground(getSmallTableBackground());
+    }
+
+    private Drawable getSmallTableBackground() {
+        return GraphicUtils.getColorBackground(FontColor.LIGHT_BLUE.getColor());
     }
 
     protected Stack createTitleStack(MyWrappedLabel titleLabel) {
@@ -95,13 +101,15 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
     private Table createAllTable() {
         new ActorAnimation(getAbstractScreen()).createScrollingBackground(CountriesSpecificResource.moving_background);
         Table table = new Table();
+        String appName = Game.getInstance().getAppInfoService().getAppName();
+        float mult = appName.length() > 16 ? 2 : 2.5f;
         MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setFontConfig(new FontConfig(
                         FontColor.WHITE.getColor(),
                         FontColor.BLACK.getColor(),
-                        FontConfig.FONT_SIZE * 2.0f,
+                        FontConfig.FONT_SIZE * mult,
                         4f))
-                .setText(Game.getInstance().getAppInfoService().getAppName()).build());
+                .setText(appName).build());
 
         float dimen = MainDimen.vertical_general_margin.getDimen();
         table.add(createTitleStack(titleLabel)).height(ScreenDimensionsManager.getScreenHeightValue(20)).padTop(dimen * 2).row();
@@ -122,7 +130,8 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
 
     private Table createCategTable() {
         Table table = new Table();
-        Table categButton = createBigCategButton(settingsService.getSelectedLevel());
+        CampaignLevel selectedLevel = settingsService.getSelectedLevel();
+        Table categButton = createBigCategButton(selectedLevel);
         table.add(categButton).fill();
         table.add(createSmallCategButtons()).padLeft(MainDimen.horizontal_general_margin.getDimen());
         return table;
@@ -142,9 +151,21 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
     private void addButtonToTable(Table table, CountriesCampaignLevelEnum campaignLevel) {
         MyButton categButton = createSmallCategButton(campaignLevel);
         Table btnTable = new Table();
+        btnTable.setName(getSmallCategTableName(campaignLevel.getIndex()));
         btnTable.add(categButton).width(categButton.getWidth()).height(categButton.getHeight());
         table.add(btnTable).width(categButton.getWidth()).height(categButton.getHeight()).
                 padBottom(MainDimen.vertical_general_margin.getDimen()).row();
+    }
+
+    private void resetSmallCategTableBackgr() {
+        for (CountriesCampaignLevelEnum campaignLevelEnum : CountriesCampaignLevelEnum.values()) {
+            Table table = getRoot().findActor(getSmallCategTableName(campaignLevelEnum.getIndex()));
+            table.setBackground(GraphicUtils.getNinePatch(MainResource.transparent_background));
+        }
+    }
+
+    private String getSmallCategTableName(int index) {
+        return "smallCategTable" + index;
     }
 
     private MyButton createSmallCategButton(final CampaignLevel campaignLevel) {
@@ -160,6 +181,10 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
                 bigCategTable.setVisible(false);
                 createBigCategButton(campaignLevel);
                 Utils.fadeInActor(bigCategTable, 0.6f);
+                resetSmallCategTableBackgr();
+                Table table = getRoot().findActor(getSmallCategTableName(campaignLevel.getIndex()));
+                table.setBackground(getSmallTableBackground());
+
             }
         });
         return categBtn;

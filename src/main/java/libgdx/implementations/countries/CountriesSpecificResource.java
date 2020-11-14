@@ -44,6 +44,7 @@ public enum CountriesSpecificResource implements SpecificResource {
     btn_next("buttons/btn_next.png", Texture.class),
     btn_next_down("buttons/btn_next_down.png", Texture.class),
     clock("clock.png", Texture.class),
+    star("star.png", Texture.class),
     ;
 
     // @formatter:on

@@ -37,7 +37,7 @@ public class CountriesAtoZGameService extends CountriesPressedLettersGameService
         }
         ArrayList<String> list = new ArrayList<>(firstLetters);
         java.util.Collections.sort(list);
-        return list;
+        return list.size() > 24 ? list.subList(0, 24) : list;
     }
 
 }
