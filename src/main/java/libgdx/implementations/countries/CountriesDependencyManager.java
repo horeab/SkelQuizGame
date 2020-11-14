@@ -82,11 +82,6 @@ public class CountriesDependencyManager extends CampaignGameDependencyManager {
     }
 
     public List<String> getAllCountries() {
-        allCountries.clear();
-        Scanner scanner = new Scanner(new CountriesQuestionCreator().getCountriesFileText());
-        while (scanner.hasNextLine()) {
-            allCountries.add(scanner.nextLine());
-        }
         return allCountries;
     }
 }

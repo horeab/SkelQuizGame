@@ -15,7 +15,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -76,14 +75,6 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
                 .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.7f)).build());
         this.gameService = gameService;
         this.countriesGameScreen = countriesGameScreen;
-
-        for (int i = 0; i < 8; i++) {
-            String w = gameService.getPossibleAnswers().get(new Random().nextInt(gameService.getPossibleAnswers().size()));
-            while (foundCountries.contains(w)) {
-                w = gameService.getPossibleAnswers().get(new Random().nextInt(gameService.getPossibleAnswers().size()));
-            }
-            foundCountries.add(w);
-        }
     }
 
     public CountriesGameScreen getCountriesGameScreen() {
