@@ -8,6 +8,7 @@ import java.util.Arrays;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.controls.animations.ActorAnimation;
+import libgdx.controls.button.MainButtonSize;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.implementations.countries.CountriesCategoryEnum;
 import libgdx.implementations.countries.CountriesSpecificResource;
@@ -16,6 +17,8 @@ import libgdx.implementations.countries.hangman.CountriesPopulationAreaNeighbQue
 import libgdx.implementations.countries.hangman.CountriesPressedLettersQuestionContainerCreatorService;
 import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.skelgame.gameservice.GameContext;
+import libgdx.resources.dimen.MainDimen;
+import libgdx.utils.ScreenDimensionsManager;
 
 public class CountriesGameScreen extends GameScreen<CountriesScreenManager> {
 
@@ -37,7 +40,8 @@ public class CountriesGameScreen extends GameScreen<CountriesScreenManager> {
     @Override
     public void buildStage() {
         createAllTable();
-        new BackButtonBuilder().addHoverBackButton(this);
+        new BackButtonBuilder().addHoverBackButton(this, MainDimen.horizontal_general_margin.getDimen() * 2,
+                ScreenDimensionsManager.getScreenHeight() - MainButtonSize.BACK_BUTTON.getHeight() / 1.2f);
     }
 
     private void createAllTable() {
