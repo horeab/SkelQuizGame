@@ -41,7 +41,7 @@ public class CountriesGameScreen extends GameScreen<CountriesScreenManager> {
     public void buildStage() {
         createAllTable();
         new BackButtonBuilder().addHoverBackButton(this, MainDimen.horizontal_general_margin.getDimen() * 2,
-                ScreenDimensionsManager.getScreenHeight() - MainButtonSize.BACK_BUTTON.getHeight() / 1.2f);
+                ScreenDimensionsManager.getScreenHeightValue(41));
     }
 
     private void createAllTable() {
