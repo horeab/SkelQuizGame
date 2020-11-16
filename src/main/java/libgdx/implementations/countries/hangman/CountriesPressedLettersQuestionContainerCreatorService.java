@@ -401,22 +401,21 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         ra.setRunnable(new ScreenRunnable(gameScreen) {
             @Override
             public void executeOperations() {
-                Game.getInstance().getAppInfoService().showPopupAd(new Runnable() {
-                    @Override
-                    public void run() {
-                        clearQuestionInfo();
-                        Table allGameTable = gameScreen.getRoot().findActor(ALL_GAME_VIEW);
-                        allGameTable.clear();
-                        currentQuestion++;
-
-                        if (currentQuestion > gameService.getQuestionEntries().size() - 1) {
+                clearQuestionInfo();
+                Table allGameTable = gameScreen.getRoot().findActor(ALL_GAME_VIEW);
+                allGameTable.clear();
+                currentQuestion++;
+                if (currentQuestion > gameService.getQuestionEntries().size() - 1) {
+                    Game.getInstance().getAppInfoService().showPopupAd(new Runnable() {
+                        @Override
+                        public void run() {
                             getAbstractGameScreen().getScreenManager().showMainScreen();
-                        } else {
-                            gameService.goToQuestion(currentQuestion);
-                            addAllGameContainers(allGameTable);
                         }
-                    }
-                });
+                    });
+                } else {
+                    gameService.goToQuestion(currentQuestion);
+                    addAllGameContainers(allGameTable);
+                }
             }
         });
         gameScreen.addAction(Actions.sequence(Actions.delay(delay), ra));
