@@ -8,7 +8,13 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 import libgdx.campaign.CampaignStoreService;
+import libgdx.campaign.QuestionConfig;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
@@ -16,14 +22,22 @@ import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.hangman.HangmanCampaignLevelEnum;
+import libgdx.implementations.hangman.HangmanGame;
+import libgdx.implementations.hangman.HangmanQuestionCategoryEnum;
+import libgdx.implementations.hangman.HangmanQuestionDifficultyLevel;
 import libgdx.implementations.hangman.HangmanSpecificResource;
 import libgdx.implementations.skelgame.GameButtonSkin;
-import libgdx.skelgameimpl.skelgame.SkelGameRatingService;
+import libgdx.implementations.skelgame.gameservice.GameContext;
+import libgdx.implementations.skelgame.gameservice.GameContextService;
+import libgdx.implementations.skelgame.gameservice.RandomQuestionCreatorService;
+import libgdx.implementations.skelgame.question.Question;
 import libgdx.resources.FontManager;
 import libgdx.resources.Resource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.screen.AbstractScreen;
+import libgdx.skelgameimpl.skelgame.SkelGameRatingService;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
@@ -111,10 +125,42 @@ public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> 
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 new CampaignStoreService().reset();
-                screenManager.showCampaignScreen();
+                GameContext gameContext = new GameContextService().createGameContext(5, getQuestions(HangmanGameScreen.TOTAL_QUESTIONS));
+                HangmanGame.getInstance().getScreenManager().showCampaignGameScreen(gameContext, HangmanCampaignLevelEnum.LEVEL_0_0);
+
             }
         });
         return button;
+    }
+
+    private Question[] getQuestions(int nr) {
+        List<Question> res = new ArrayList<>();
+        int diff0 = 4;
+        int diff1 = 3;
+        int diff2 = 3;
+        int diff3 = 2;
+        int diff4 = 2;
+        int diff5 = 1;
+
+        List<String> questionCategoryStringList = new ArrayList<>();
+        for (HangmanQuestionCategoryEnum categ : HangmanQuestionCategoryEnum.values()) {
+            if (categ != HangmanQuestionCategoryEnum.cat5) {
+                questionCategoryStringList.add(categ.name());
+            }
+        }
+        QuestionConfig questionConfig = new QuestionConfig(Collections.singletonList(HangmanQuestionDifficultyLevel._0.name()), questionCategoryStringList, diff0, 5);
+        res.addAll(Arrays.asList(new RandomQuestionCreatorService().createRandomQuestions(questionConfig)));
+        questionConfig = new QuestionConfig(Collections.singletonList(HangmanQuestionDifficultyLevel._1.name()), questionCategoryStringList, diff1, 5);
+        res.addAll(Arrays.asList(new RandomQuestionCreatorService().createRandomQuestions(questionConfig)));
+        questionConfig = new QuestionConfig(Collections.singletonList(HangmanQuestionDifficultyLevel._2.name()), questionCategoryStringList, diff2, 5);
+        res.addAll(Arrays.asList(new RandomQuestionCreatorService().createRandomQuestions(questionConfig)));
+        questionConfig = new QuestionConfig(Collections.singletonList(HangmanQuestionDifficultyLevel._3.name()), questionCategoryStringList, diff3, 5);
+        res.addAll(Arrays.asList(new RandomQuestionCreatorService().createRandomQuestions(questionConfig)));
+        questionConfig = new QuestionConfig(Collections.singletonList(HangmanQuestionDifficultyLevel._4.name()), questionCategoryStringList, diff4, 5);
+        res.addAll(Arrays.asList(new RandomQuestionCreatorService().createRandomQuestions(questionConfig)));
+        questionConfig = new QuestionConfig(Collections.singletonList(HangmanQuestionDifficultyLevel._5.name()), questionCategoryStringList, diff5, 5);
+        res.addAll(Arrays.asList(new RandomQuestionCreatorService().createRandomQuestions(questionConfig)));
+        return res.toArray(new Question[0]);
     }
 
     @Override

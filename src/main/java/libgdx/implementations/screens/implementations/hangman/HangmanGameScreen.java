@@ -35,6 +35,7 @@ import libgdx.implementations.skelgame.gameservice.LevelFinishedService;
 import libgdx.implementations.skelgame.gameservice.SinglePlayerLevelFinishedService;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.dimen.MainDimen;
+import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.utils.DateUtils;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
@@ -44,7 +45,7 @@ import libgdx.utils.model.RGBColor;
 
 public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
 
-    public static int TOTAL_QUESTIONS = 5;
+    public static int TOTAL_QUESTIONS = 15;
 
     private CampaignLevel campaignLevel;
     private Table allTable;
@@ -64,6 +65,7 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
         if (Game.getInstance().getCurrentUser() != null) {
             new GameStatsDbApiService().incrementGameStatsQuestionsWon(Game.getInstance().getCurrentUser().getId(), Long.valueOf(DateUtils.getNowMillis()).toString());
         }
+        System.out.println(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getQuestion().getQuestionDifficultyLevel());
         System.out.println(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getQuestion().getQuestionString());
         allTable = new Table();
         allTable.setFillParent(true);
@@ -181,8 +183,7 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
         float margin = MainDimen.vertical_general_margin.getDimen() / 3;
         int percent = 70;
         int r = 255;
-        int totalQ = 15;
-        for (int i = totalQ; i >= 1; i--) {
+        for (int i = TOTAL_QUESTIONS; i >= 1; i--) {
             Table lvlTable = new Table();
             Color color = gameContext.getCurrentUserGameUser().getWonQuestions() >= i ? Color.GREEN : new RGBColor(r, 255, 230).toColor();
             lvlTable.setBackground(GraphicUtils.getColorBackground(color));
@@ -195,10 +196,10 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
 
     private Table createCategHintTable() {
         Table table = new Table();
-        MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setText("Countries").setFontConfig(
-                new FontConfig(
-                        FontColor.BLACK.getColor(),
-                        FontConfig.FONT_SIZE * 1.7f)).setWrappedLineLabel(ScreenDimensionsManager.getScreenWidthValue(90)).build());
+        MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setText(
+                new SpecificPropertiesUtils().getQuestionCategoryLabel(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getQuestion().getQuestionCategory().getIndex())).setFontConfig(new FontConfig(
+                FontColor.BLACK.getColor(),
+                FontConfig.FONT_SIZE * 1.7f)).setWrappedLineLabel(ScreenDimensionsManager.getScreenWidthValue(90)).build());
         table.add(titleLabel);
         table.addAction(Actions.sequence(Actions.delay(15f), Actions.fadeOut(1f)));
         table.setWidth(ScreenDimensionsManager.getScreenWidth());
