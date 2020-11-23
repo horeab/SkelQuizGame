@@ -85,6 +85,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     public void processGameInfo(GameQuestionInfo gameQuestionInfo) {
         String pressedAnswers = gameService.getPressedAnswers(new ArrayList<>(gameQuestionInfo.getAnswers()));
         pressedLettersLabel.setText(pressedAnswers);
+        clearPressedBtn.setVisible(true);
         clearPressedBtn.setButtonSkin(GameButtonSkin.COUNTRIES_CLEAR_LETTERS);
         if (pressedAnswers.length() > 3
                 || gameService.getPossibleAnswersLowerCase().contains(pressedAnswers)
@@ -111,6 +112,9 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     private void clearPressedLetters() {
         gameContext.getCurrentUserGameUser().getGameQuestionInfo().getAnswers().clear();
         pressedLettersLabel.setText("");
+        if (gameService.getQuestionEntries().size() == 1) {
+            clearPressedBtn.setVisible(false);
+        }
         clearPressedBtn.setButtonSkin(GameButtonSkin.COUNTRIES_NEXTLEVEL);
     }
 
@@ -258,6 +262,9 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
                 .setFixedButtonSize(GameButtonSize.COUNTRIES_CLEAR_LETTERS_BUTTON)
                 .setButtonSkin(GameButtonSkin.COUNTRIES_NEXTLEVEL)
                 .setFontConfig(fontConfig).build();
+        if (gameService.getQuestionEntries().size() == 1) {
+            clearPressedBtn.setVisible(false);
+        }
         clearPressedBtn.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
@@ -399,7 +406,12 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
                 allGameTable.clear();
                 currentQuestion++;
                 if (currentQuestion > gameService.getQuestionEntries().size() - 1) {
-                    getAbstractGameScreen().getScreenManager().showMainScreen();
+                    Game.getInstance().getAppInfoService().showPopupAd(new Runnable() {
+                        @Override
+                        public void run() {
+                            getAbstractGameScreen().getScreenManager().showMainScreen();
+                        }
+                    });
                 } else {
                     gameService.goToQuestion(currentQuestion);
                     addAllGameContainers(allGameTable);
@@ -448,7 +460,10 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         if (synonyms.isEmpty()) {
             return countryName;
         }
-        List<String> syn = synonyms.getOrDefault(gameService.getAllCountries().indexOf(countryName) + 1, Collections.emptyList());
+        List<String> syn = new ArrayList<>();
+        if (synonyms.containsKey(gameService.getAllCountries().indexOf(countryName) + 1)) {
+            syn.addAll(synonyms.get(gameService.getAllCountries().indexOf(countryName) + 1));
+        }
         for (String s : syn) {
             if (countryName.length() > 22 && s.length() < countryName.length() && s.length() > 4) {
                 countryName = s;

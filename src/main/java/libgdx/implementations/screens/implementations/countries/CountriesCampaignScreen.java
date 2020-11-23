@@ -1,7 +1,6 @@
 package libgdx.implementations.screens.implementations.countries;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
@@ -25,7 +24,6 @@ import libgdx.campaign.CampaignStoreService;
 import libgdx.campaign.QuestionConfig;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
-import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
@@ -85,7 +83,6 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
         SoundUtils.addSoundTable(getAbstractScreen(), null);
         Table smallTable = getRoot().findActor(getSmallCategTableName(settingsService.getSelectedLevel().getIndex()));
         smallTable.setBackground(getSmallTableBackground());
-        new BackButtonBuilder().addHoverBackButton(this);
     }
 
     private Drawable getSmallTableBackground() {
