@@ -31,6 +31,8 @@ public enum HangmanSpecificResource implements SpecificResource {
     btn_categ_disabled("buttons/btn_categ_disabled.png", Texture.class),
     btn_hint("buttons/btn_hint.png", Texture.class),
     btn_hint_disabled("buttons/btn_hint_disabled.png", Texture.class),
+    btn_hint2("buttons/btn_hint2.png", Texture.class),
+    btn_hint2_disabled("buttons/btn_hint2_disabled.png", Texture.class),
 
     title_background("title_background.png", Texture.class),
 

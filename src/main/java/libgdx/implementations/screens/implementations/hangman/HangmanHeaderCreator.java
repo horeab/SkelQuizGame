@@ -20,14 +20,6 @@ public class HangmanHeaderCreator {
     public Table createHeaderTable(GameContext gameContext, Table hintTable) {
         Table table = new Table();
         table.setName(HEADER_TABLE_NAME);
-        GameUser gameUser = gameContext.getCurrentUserGameUser();
-        MyWrappedLabel wrappedLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
-                .setFontColor(new SinglePlayerLevelFinishedService().isGameWon(gameUser) ? FontColor.GREEN : FontColor.BLACK)
-                .setText(gameUser.getFinishedQuestions() + "/" + gameUser.getTotalNrOfQuestions())
-                .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.2f)).build());
-        wrappedLabel.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
-        table.add().width(ScreenDimensionsManager.getScreenWidthValue(40));
-        table.add(wrappedLabel).width(ScreenDimensionsManager.getScreenWidthValue(20));
         table.add(hintTable).width(ScreenDimensionsManager.getScreenWidthValue(40));
         return table;
     }

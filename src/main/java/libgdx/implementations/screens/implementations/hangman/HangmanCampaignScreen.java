@@ -106,7 +106,7 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
                 public void changed(ChangeEvent event, Actor actor) {
                     CampaignLevel campaignLevel = getHangmanCampaignLevelEnum(maxLevelFinished, finalIndex);
                     CampaignLevelEnumService enumService = new CampaignLevelEnumService(campaignLevel);
-                    QuestionConfig questionConfig = enumService.getQuestionConfig(HangmanGameScreen.TOTAL_QUESTIONS);
+                    QuestionConfig questionConfig = enumService.getQuestionConfig(HangmanGameScreen.TOTAL_QUESTIONS, 5);
                     //if this category, the questions should be mixed from all other categs
                     if (enumService.getCategory() == HangmanQuestionCategoryEnum.cat5.getIndex()) {
                         List<String> questionCategoryStringList = new ArrayList<>();

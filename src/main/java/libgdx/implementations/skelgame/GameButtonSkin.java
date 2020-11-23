@@ -38,6 +38,7 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     CAMPAIGN_LEVEL_WALL(HangmanArenaSpecificResource.btn_campaign_wall_up, HangmanArenaSpecificResource.btn_campaign_wall_down, HangmanArenaSpecificResource.btn_campaign_wall_up, HangmanArenaSpecificResource.btn_campaign_disabled, null),
 
     HANGMAN_HINT(HangmanSpecificResource.btn_hint, HangmanSpecificResource.btn_hint, HangmanSpecificResource.btn_hint, HangmanSpecificResource.btn_hint_disabled, null),
+    HANGMAN_HINT2(HangmanSpecificResource.btn_hint2, HangmanSpecificResource.btn_hint2, HangmanSpecificResource.btn_hint2, HangmanSpecificResource.btn_hint2_disabled, null),
     HANGMAN_MENU(HangmanSpecificResource.btn_menu_up, HangmanSpecificResource.btn_menu_down, HangmanSpecificResource.btn_menu_up, HangmanSpecificResource.btn_menu_up, null),
     HANGMAN_CATEG(HangmanSpecificResource.btn_categ_up, HangmanSpecificResource.btn_categ_down, HangmanSpecificResource.btn_categ_up, HangmanSpecificResource.btn_categ_disabled, null),
     SQUARE(HangmanSpecificResource.btn_hangman_up, HangmanSpecificResource.btn_hangman_down, HangmanSpecificResource.btn_hangman_up, MainResource.btn_lowcolor_down, null),

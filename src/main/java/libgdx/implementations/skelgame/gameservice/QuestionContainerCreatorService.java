@@ -87,7 +87,7 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
         }
     }
 
-    private void answerClick(final String answer) {
+    protected void answerClick(final String answer) {
         GameUser currentUserGameUser = gameContext.getCurrentUserGameUser();
         GameQuestionInfo gameQuestionInfo = currentUserGameUser.getGameQuestionInfo();
         gameService.addAnswerToGameInfo(currentUserGameUser, new GameAnswerInfo(answer, abstractGameScreen.getMillisPassedSinceScreenDisplayed()));
