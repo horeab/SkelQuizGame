@@ -24,6 +24,7 @@ import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.hangman.HangmanCampaignLevelEnum;
 import libgdx.implementations.hangman.HangmanGame;
+import libgdx.implementations.hangman.HangmanPreferencesService;
 import libgdx.implementations.hangman.HangmanQuestionCategoryEnum;
 import libgdx.implementations.hangman.HangmanQuestionDifficultyLevel;
 import libgdx.implementations.hangman.HangmanSpecificResource;
@@ -63,7 +64,7 @@ public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> 
         MyButton startGameBtn = createStartGameBtn();
         table.add(startGameBtn).height(ScreenDimensionsManager.getScreenHeightValue(13)).width(ScreenDimensionsManager.getScreenWidthValue(70)).padTop(verticalGeneralMarginDimen * 4).row();
         Table maxLevelTable = new Table();
-        maxLevelTable.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setSingleLineLabel().setText(MainGameLabel.l_level_record.getText(new CampaignStoreService().getAllScoreWon())).build()));
+        maxLevelTable.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setSingleLineLabel().setText(MainGameLabel.l_level_record.getText(new HangmanPreferencesService().getHighScore() + "")).build()));
         maxLevelTable.add(GraphicUtils.getImage(HangmanSpecificResource.star)).padLeft(horizontalGeneralMarginDimen).width(horizontalGeneralMarginDimen * 5).height(horizontalGeneralMarginDimen * 5);
         table.add(maxLevelTable).padTop(horizontalGeneralMarginDimen * 2);
         addActor(table);

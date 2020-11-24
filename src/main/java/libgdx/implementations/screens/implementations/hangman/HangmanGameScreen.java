@@ -1,10 +1,14 @@
 package libgdx.implementations.screens.implementations.hangman;
 
 import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,18 +16,24 @@ import java.util.List;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
 import libgdx.campaign.CampaignStoreService;
+import libgdx.constants.Contrast;
 import libgdx.controls.animations.ActorAnimation;
+import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MainButtonSize;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.controls.popup.MyPopup;
 import libgdx.dbapi.GameStatsDbApiService;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.hangman.HangmanGame;
+import libgdx.implementations.hangman.HangmanPreferencesService;
 import libgdx.implementations.screens.GameScreen;
+import libgdx.implementations.screens.implementations.history.HistoryCampaignScreen;
+import libgdx.implementations.screens.implementations.history.HistoryScreenManager;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.LevelFinishedPopup;
 import libgdx.implementations.skelgame.gameservice.GameContext;
@@ -35,7 +45,10 @@ import libgdx.implementations.skelgame.gameservice.LevelFinishedService;
 import libgdx.implementations.skelgame.gameservice.SinglePlayerLevelFinishedService;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.dimen.MainDimen;
+import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
+import libgdx.screen.AbstractScreen;
+import libgdx.skelgameimpl.skelgame.SkelGameLabel;
 import libgdx.utils.DateUtils;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
@@ -88,11 +101,16 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
                 int beforeLostG = gameContext.getCurrentUserGameUser().getLostQuestions();
                 super.answerClick(answer);
                 int afterLostG = gameContext.getCurrentUserGameUser().getLostQuestions();
-                int afterNrOfWrongAnswersPressed = GameServiceContainer.getGameService(gameContext.getCurrentUserGameUser().getGameQuestionInfo()).getNrOfWrongAnswersPressed(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getAnswerIds());
-                if (afterNrOfWrongAnswersPressed != 0) {
-                    resetHangmanAnswersTable(afterNrOfWrongAnswersPressed);
-                } else if (beforeLostG != afterLostG) {
-                    resetHangmanAnswersTable(HangmanGameService.GAME_OVER_WRONG_LETTERS);
+                if (gameContext.getCurrentUserGameUser().getWonQuestions() < TOTAL_QUESTIONS) {
+                    int afterNrOfWrongAnswersPressed = GameServiceContainer.getGameService(gameContext.getCurrentUserGameUser().getGameQuestionInfo()).getNrOfWrongAnswersPressed(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getAnswerIds());
+                    if (afterNrOfWrongAnswersPressed != 0) {
+                        resetHangmanAnswersTable(afterNrOfWrongAnswersPressed);
+                    } else if (beforeLostG != afterLostG) {
+                        resetHangmanAnswersTable(HangmanGameService.GAME_OVER_WRONG_LETTERS);
+                    }
+                } else {
+                    new HangmanPreferencesService().setHighScore(gameContext.getCurrentUserGameUser().getWonQuestions());
+                    processGameOver();
                 }
             }
 
@@ -209,11 +227,27 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
     }
 
     public void goToNextQuestionScreen() {
+        new HangmanPreferencesService().setHighScore(gameContext.getCurrentUserGameUser().getWonQuestions());
         if (hanganAnswersTable != null) {
             hanganAnswersTable.addAction(Actions.fadeOut(0.2f));
         }
-        if (new SinglePlayerLevelFinishedService().isGameFailed(gameContext.getCurrentUserGameUser())) {
-            new LevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
+        if (gameContext.getCurrentUserGameUser().getLostQuestions() > 0) {
+            new LevelFinishedPopup(this, campaignLevel, gameContext) {
+                @Override
+                public void addButtons() {
+                    MyButton campaignScreenBtn = new ButtonBuilder().setDefaultButton()
+                            .setContrast(Contrast.LIGHT)
+                            .setFontColor(FontColor.BLACK)
+                            .setText(SkelGameLabel.go_back.getText()).build();
+                    addButton(campaignScreenBtn);
+                    campaignScreenBtn.addListener(new ChangeListener() {
+                        @Override
+                        public void changed(ChangeEvent event, Actor actor) {
+                            screenManager.showCampaignScreen();
+                        }
+                    });
+                }
+            }.addToPopupManager();
         } else {
             float durationFadeOut = 0.2f;
             for (MyButton button : categHintBtnList) {
@@ -248,7 +282,7 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
 
     @Override
     public void onBackKeyPress() {
-        screenManager.showCampaignScreen();
+        screenManager.showMainScreen();
     }
 
     public void executeLevelFinished() {
@@ -260,7 +294,29 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
         if (new SinglePlayerLevelFinishedService().isGameFailed(gameContext.getCurrentUserGameUser())) {
             new LevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
         } else {
-            screenManager.showCampaignScreen();
+            screenManager.showMainScreen();
         }
+    }
+
+    private void processGameOver() {
+        new MyPopup<AbstractScreen, HangmanScreenManager>(getAbstractScreen()) {
+            @Override
+            protected String getLabelText() {
+                String text = MainGameLabel.l_congratulations.getText();
+                text = text + "\n";
+                text = text + MainGameLabel.l_you_win.getText();
+                return text;
+            }
+
+            @Override
+            protected void addButtons() {
+            }
+
+            @Override
+            public void hide() {
+                super.hide();
+                screenManager.showMainScreen();
+            }
+        }.addToPopupManager();
     }
 }
