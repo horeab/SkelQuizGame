@@ -228,46 +228,51 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
 
     public void goToNextQuestionScreen() {
         new HangmanPreferencesService().setHighScore(gameContext.getCurrentUserGameUser().getWonQuestions());
-        if (hanganAnswersTable != null) {
-            hanganAnswersTable.addAction(Actions.fadeOut(0.2f));
-        }
-        if (gameContext.getCurrentUserGameUser().getLostQuestions() > 0) {
-            new LevelFinishedPopup(this, campaignLevel, gameContext) {
-                @Override
-                public void addButtons() {
-                    MyButton campaignScreenBtn = new ButtonBuilder().setDefaultButton()
-                            .setContrast(Contrast.LIGHT)
-                            .setFontColor(FontColor.BLACK)
-                            .setText(SkelGameLabel.go_back.getText()).build();
-                    addButton(campaignScreenBtn);
-                    campaignScreenBtn.addListener(new ChangeListener() {
+        showPopupAd(new Runnable() {
+            @Override
+            public void run() {
+                if (hanganAnswersTable != null) {
+                    hanganAnswersTable.addAction(Actions.fadeOut(0.2f));
+                }
+                if (gameContext.getCurrentUserGameUser().getLostQuestions() > 0) {
+                    new LevelFinishedPopup(getAbstractScreen(), campaignLevel, gameContext) {
                         @Override
-                        public void changed(ChangeEvent event, Actor actor) {
-                            screenManager.showCampaignScreen();
+                        public void addButtons() {
+                            MyButton campaignScreenBtn = new ButtonBuilder().setDefaultButton()
+                                    .setContrast(Contrast.LIGHT)
+                                    .setFontColor(FontColor.BLACK)
+                                    .setText(SkelGameLabel.go_back.getText()).build();
+                            addButton(campaignScreenBtn);
+                            campaignScreenBtn.addListener(new ChangeListener() {
+                                @Override
+                                public void changed(ChangeEvent event, Actor actor) {
+                                    screenManager.showCampaignScreen();
+                                }
+                            });
                         }
-                    });
-                }
-            }.addToPopupManager();
-        } else {
-            float durationFadeOut = 0.2f;
-            for (MyButton button : categHintBtnList) {
-                button.addAction(Actions.sequence(Actions.fadeOut(durationFadeOut), Utils.createRemoveActorAction(button)));
-            }
-            categHintBtnList.clear();
-            if (categHintTable != null) {
-                categHintTable.remove();
-            }
-            allTable.addAction(Actions.sequence(Actions.fadeOut(durationFadeOut), Utils.createRunnableAction(new Runnable() {
-                @Override
-                public void run() {
-                    allTable.remove();
-                    buildStage();
-                    if (hanganAnswersTable != null) {
-                        hanganAnswersTable.addAction(Actions.fadeIn(durationFadeOut));
+                    }.addToPopupManager();
+                } else {
+                    float durationFadeOut = 0.2f;
+                    for (MyButton button : categHintBtnList) {
+                        button.addAction(Actions.sequence(Actions.fadeOut(durationFadeOut), Utils.createRemoveActorAction(button)));
                     }
+                    categHintBtnList.clear();
+                    if (categHintTable != null) {
+                        categHintTable.remove();
+                    }
+                    allTable.addAction(Actions.sequence(Actions.fadeOut(durationFadeOut), Utils.createRunnableAction(new Runnable() {
+                        @Override
+                        public void run() {
+                            allTable.remove();
+                            buildStage();
+                            if (hanganAnswersTable != null) {
+                                hanganAnswersTable.addAction(Actions.fadeIn(durationFadeOut));
+                            }
+                        }
+                    })));
                 }
-            })));
-        }
+            }
+        });
     }
 
     @Override
