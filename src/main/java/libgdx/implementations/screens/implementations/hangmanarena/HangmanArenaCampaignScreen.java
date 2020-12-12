@@ -3,17 +3,21 @@ package libgdx.implementations.screens.implementations.hangmanarena;
 import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
 import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+
 import libgdx.campaign.*;
+import libgdx.constants.Language;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.labelimage.InAppPurchaseTable;
 import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.animals.AnimalsQuestionCategoryEnum;
 import libgdx.implementations.hangmanarena.*;
 import libgdx.resources.Res;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
 import libgdx.utils.EnumUtils;
 import libgdx.utils.ScreenDimensionsManager;
+import libgdx.utils.Utils;
 
 import java.util.List;
 
@@ -102,13 +106,13 @@ public class HangmanArenaCampaignScreen extends AbstractScreen<HangmanArenaScree
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
         float padTopAllTable = verticalGeneralMarginDimen;
 
-//        boolean extraContentLocked = (i >= (AnimalsQuestionCategoryEnum.values().length)) && !Utils.isValidExtraContent();
-        boolean extraContentLocked = false;
+        boolean extraContentLocked = (i >= (17)) && !Utils.isValidExtraContent();
+//        boolean extraContentLocked = false;
         InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
         if (level1 != null) {
             Table buttonTable = createButtonTable(level1, extraContentLocked);
             levelsTable.add(extraContentLocked ? inAppPurchaseTable
-                    .create(buttonTable, new Runnable() {
+                    .create(buttonTable, HangmanArenaMainMenuScreen.DEFAULT_LANGUAGE, HangmanArenaMainMenuScreen.DEFAULT_EXTRA_CONTENT_TEXT, new Runnable() {
                         @Override
                         public void run() {
                             screenManager.showCampaignScreen();
@@ -118,7 +122,7 @@ public class HangmanArenaCampaignScreen extends AbstractScreen<HangmanArenaScree
         if (level2 != null) {
             Table buttonTable = createButtonTable(level2, extraContentLocked);
             levelsTable.add(extraContentLocked ? inAppPurchaseTable
-                    .create(buttonTable, new Runnable() {
+                    .create(buttonTable, HangmanArenaMainMenuScreen.DEFAULT_LANGUAGE, HangmanArenaMainMenuScreen.DEFAULT_EXTRA_CONTENT_TEXT, new Runnable() {
                         @Override
                         public void run() {
                             screenManager.showCampaignScreen();

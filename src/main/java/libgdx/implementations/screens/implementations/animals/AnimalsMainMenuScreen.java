@@ -7,6 +7,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
+
+import libgdx.constants.Language;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
@@ -78,7 +80,7 @@ public class AnimalsMainMenuScreen extends AbstractScreen<AnimalsScreenManager> 
     }
 
     public static void displayInAppPurchasesPopup(Runnable redirectAfterBoughtScreen) {
-        Game.getInstance().getInAppPurchaseManager().displayInAppPurchasesPopup(MainGameLabel.l_extracontent.getText(), redirectAfterBoughtScreen);
+        Game.getInstance().getInAppPurchaseManager().displayInAppPurchasesPopup(Language.en.name(), "Unlock extra categories and remove Ads", redirectAfterBoughtScreen);
     }
 
     private void addTitle(Table table) {

@@ -9,6 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.utils.Align;
 
 import libgdx.campaign.*;
+import libgdx.constants.Language;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
@@ -84,7 +85,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
             }
         }
         if (extraContentTable != null) {
-            table.add(inAppPurchaseTable.create(extraContentTable));
+            table.add(inAppPurchaseTable.create(extraContentTable, Language.en.name(), "Unlock extra categories and remove Ads"));
         }
         return table;
     }

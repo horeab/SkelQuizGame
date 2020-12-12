@@ -8,6 +8,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 
 import libgdx.campaign.*;
+import libgdx.constants.Language;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
@@ -113,7 +114,7 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
                     .height(getLevelBtnHeight())
                     .width(btnWidth);
             if (i >= (totalCat / 2) && !Utils.isValidExtraContent()) {
-                btnTable = inAppPurchaseTable.create(btnTable);
+                btnTable = inAppPurchaseTable.create(btnTable, Language.en.name(), "Unlock extra categories and remove Ads");
                 categBtn.setDisabled(true);
             }
             table.add(btnTable).expand().pad(horizontalGeneralMarginDimen);

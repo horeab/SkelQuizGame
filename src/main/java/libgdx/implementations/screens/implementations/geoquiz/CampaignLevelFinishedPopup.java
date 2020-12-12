@@ -6,6 +6,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.constants.Contrast;
+import libgdx.constants.Language;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.popup.MyPopup;
@@ -47,7 +48,7 @@ public class CampaignLevelFinishedPopup<TScreenManager extends CampaignScreenMan
                 nextLevel.addListener(GeoQuizCampaignScreen.getStartLevelListener(getScreen(), new Runnable() {
                     @Override
                     public void run() {
-                        Game.getInstance().getInAppPurchaseManager().displayInAppPurchasesPopup();
+                        Game.getInstance().getInAppPurchaseManager().displayInAppPurchasesPopup(Language.en.name(), "Unlock extra categories and remove Ads");
                     }
                 }, nextCampaignLevel));
                 addButton(nextLevel);

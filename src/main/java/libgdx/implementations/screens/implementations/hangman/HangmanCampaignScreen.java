@@ -13,6 +13,7 @@ import libgdx.campaign.CampaignService;
 import libgdx.campaign.CampaignStoreLevel;
 import libgdx.campaign.CampaignStoreService;
 import libgdx.campaign.QuestionConfig;
+import libgdx.constants.Language;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
@@ -55,7 +56,7 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
         addActor(table);
         new BackButtonBuilder().addHoverBackButton(this);
         if (!Utils.isValidExtraContent()) {
-            new UnlockButtonBuilder().addHoverUnlockButton(getAbstractScreen(), new Runnable() {
+            new UnlockButtonBuilder().addHoverUnlockButton(getAbstractScreen(), Language.en.name(), "Unlock extra categories and remove Ads", new Runnable() {
                 @Override
                 public void run() {
                     screenManager.showCampaignScreen();
@@ -125,7 +126,7 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
                     .height(ScreenDimensionsManager.getScreenHeightValue(27))
                     .width(ScreenDimensionsManager.getScreenWidthValue(45));
             if (!categBtn.isDisabled() && allCampaignLevelStores.size() > 2 && !Utils.isValidExtraContent()) {
-                btnTable = inAppPurchaseTable.create(btnTable, new Runnable() {
+                btnTable = inAppPurchaseTable.create(btnTable, Language.en.name(), "Unlock extra categories and remove Ads", new Runnable() {
                     @Override
                     public void run() {
                         screenManager.showCampaignScreen();

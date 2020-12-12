@@ -8,15 +8,19 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
 
+import libgdx.constants.Language;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
+import libgdx.controls.button.builders.ButtonWithIconBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.hangmanarena.HangmanArenaGame;
 import libgdx.implementations.hangmanarena.HangmanArenaSpecificResource;
+import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.resources.FontManager;
+import libgdx.resources.MainResource;
 import libgdx.resources.Resource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.MainGameLabel;
@@ -26,6 +30,9 @@ import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 
 public class HangmanArenaMainMenuScreen extends AbstractScreen<HangmanArenaScreenManager> {
+
+    public static final String DEFAULT_LANGUAGE = Language.en.name();
+    public static final String DEFAULT_EXTRA_CONTENT_TEXT = "Unlock extra categories and remove Ads!";
 
     @Override
     public void buildStage() {
@@ -45,25 +52,25 @@ public class HangmanArenaMainMenuScreen extends AbstractScreen<HangmanArenaScree
         addStartGameButtons(table);
 
         if (!Utils.isValidExtraContent()) {
-//            table.row();
-//            float dimen = MainDimen.horizontal_general_margin.getDimen();
-//            extraContentButton = new ButtonWithIconBuilder("", MainResource.mug_color)
-//                    .setFixedButtonSize(GameButtonSize.NORMAL_MENU_ROUND_IMAGE).build();
-//            new ActorAnimation(extraContentButton, Game.getInstance().getAbstractScreen()).animateZoomInZoomOut();
-//            table.add(extraContentButton).padTop(dimen * 5).width(GameButtonSize.NORMAL_MENU_ROUND_IMAGE.getWidth())
-//                    .height(GameButtonSize.NORMAL_MENU_ROUND_IMAGE.getHeight());
-//            extraContentButton.setTransform(true);
-//            extraContentButton.addListener(new ClickListener() {
-//                @Override
-//                public void clicked(InputEvent event, float x, float y) {
-//                    displayInAppPurchasesPopup(new Runnable() {
-//                        @Override
-//                        public void run() {
-//                            screenManager.showMainScreen();
-//                        }
-//                    });
-//                }
-//            });
+            table.row();
+            float dimen = MainDimen.horizontal_general_margin.getDimen();
+            extraContentButton = new ButtonWithIconBuilder("", MainResource.mug_color)
+                    .setFixedButtonSize(GameButtonSize.NORMAL_MENU_ROUND_IMAGE).build();
+            new ActorAnimation(extraContentButton, Game.getInstance().getAbstractScreen()).animateZoomInZoomOut();
+            table.add(extraContentButton).padTop(dimen * 5).width(GameButtonSize.NORMAL_MENU_ROUND_IMAGE.getWidth())
+                    .height(GameButtonSize.NORMAL_MENU_ROUND_IMAGE.getHeight());
+            extraContentButton.setTransform(true);
+            extraContentButton.addListener(new ClickListener() {
+                @Override
+                public void clicked(InputEvent event, float x, float y) {
+                    displayInAppPurchasesPopup(new Runnable() {
+                        @Override
+                        public void run() {
+                            screenManager.showMainScreen();
+                        }
+                    });
+                }
+            });
         }
 
 
@@ -79,7 +86,7 @@ public class HangmanArenaMainMenuScreen extends AbstractScreen<HangmanArenaScree
     }
 
     public static void displayInAppPurchasesPopup(Runnable redirectAfterBoughtScreen) {
-        Game.getInstance().getInAppPurchaseManager().displayInAppPurchasesPopup(MainGameLabel.l_extracontent.getText(), redirectAfterBoughtScreen);
+        Game.getInstance().getInAppPurchaseManager().displayInAppPurchasesPopup(DEFAULT_LANGUAGE, DEFAULT_EXTRA_CONTENT_TEXT, MainGameLabel.l_extracontent, redirectAfterBoughtScreen);
     }
 
     private void addTitle(Table table) {

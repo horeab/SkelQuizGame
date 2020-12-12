@@ -46,7 +46,7 @@ public class StartGameHangmanArena {
             case da:
                 return "Galgespil";
             case de:
-                return "Galgenmännchen 2";
+                return "Galgenmännchen";
             case el:
                 return "Κρεμάλα";
             case en:

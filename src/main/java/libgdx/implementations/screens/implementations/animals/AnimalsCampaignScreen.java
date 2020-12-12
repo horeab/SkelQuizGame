@@ -111,25 +111,25 @@ public class AnimalsCampaignScreen extends AbstractScreen<AnimalsScreenManager> 
         boolean extraContentLocked = false;
         InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
         if (level1 != null) {
-            Table buttonTable = createButtonTable(level1, extraContentLocked);
-            levelsTable.add(extraContentLocked ? inAppPurchaseTable
-                    .create(buttonTable, new Runnable() {
-                        @Override
-                        public void run() {
-                            screenManager.showCampaignScreen();
-                        }
-                    }) : buttonTable).row();
-        }
-        if (level2 != null) {
-            Table buttonTable = createButtonTable(level2, extraContentLocked);
-            levelsTable.add(extraContentLocked ? inAppPurchaseTable
-                    .create(buttonTable, new Runnable() {
-                        @Override
-                        public void run() {
-                            screenManager.showCampaignScreen();
-                        }
-                    }) : buttonTable).padTop(verticalGeneralMarginDimen).padRight(sidePadDirection * MainDimen.horizontal_general_margin.getDimen() * 26).row();
-            padTopAllTable = verticalGeneralMarginDimen * 9;
+//            Table buttonTable = createButtonTable(level1, extraContentLocked);
+//            levelsTable.add(extraContentLocked ? inAppPurchaseTable
+//                    .create(buttonTable, new Runnable() {
+//                        @Override
+//                        public void run() {
+//                            screenManager.showCampaignScreen();
+//                        }
+//                    }) : buttonTable).row();
+//        }
+//        if (level2 != null) {
+//            Table buttonTable = createButtonTable(level2, extraContentLocked);
+//            levelsTable.add(extraContentLocked ? inAppPurchaseTable
+//                    .create(buttonTable, new Runnable() {
+//                        @Override
+//                        public void run() {
+//                            screenManager.showCampaignScreen();
+//                        }
+//                    }) : buttonTable).padTop(verticalGeneralMarginDimen).padRight(sidePadDirection * MainDimen.horizontal_general_margin.getDimen() * 26).row();
+//            padTopAllTable = verticalGeneralMarginDimen * 9;
         }
 
         lineTable.add(levelsTable).padTop(padTopAllTable).fillX();
