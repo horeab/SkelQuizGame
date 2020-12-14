@@ -37,7 +37,7 @@ public class HangmanArenaDependencyManager extends CampaignGameDependencyManager
 
     @Override
     public String getExtraContentProductId() {
-        return "extracontent.hangmanarena";
+        return "extracontent.hangmanclassic";
     }
 
     @Override

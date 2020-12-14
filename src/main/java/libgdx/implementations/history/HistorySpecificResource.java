@@ -72,7 +72,7 @@ public enum HistorySpecificResource implements SpecificResource {
     i33("questions/images/i33.jpg", Texture.class),
     i34("questions/images/i34.jpg", Texture.class),
     i35("questions/images/i35.png", Texture.class),
-    i36("questions/images/i36.jpeg", Texture.class),
+    i36("questions/images/i36.png", Texture.class),
     i37("questions/images/i37.jpeg", Texture.class),
     i38("questions/images/i38.jpg", Texture.class),
     i39("questions/images/i39.png", Texture.class),
