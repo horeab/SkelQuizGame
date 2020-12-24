@@ -30,11 +30,10 @@ import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.history.HistoryCampaignLevelEnum;
 import libgdx.implementations.history.HistoryCategoryEnum;
 import libgdx.implementations.history.HistoryPreferencesService;
+import libgdx.implementations.history.HistorySpecificResource;
 import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
-import libgdx.resources.FontManager;
-import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.screen.AbstractScreen;
@@ -42,6 +41,7 @@ import libgdx.skelgameimpl.skelgame.SkelGameLabel;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
+import libgdx.utils.model.FontConfig;
 
 public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
 
@@ -88,11 +88,11 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
             addAction(Actions.sequence(Actions.delay(Math.max(qFadeOutDuration, qMoveDuration)), Utils.createRunnableAction(new Runnable() {
                 @Override
                 public void run() {
-                    addQuestionText();
+                    addQuestionText(0.1f);
                 }
             })));
         } else {
-            addQuestionText();
+            addQuestionText(1.5f);
         }
     }
 
@@ -190,7 +190,7 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
         table.add(scrollPane).expand();
         addActor(table);
         new BackButtonBuilder().addHoverBackButton(this);
-        table.setBackground(GraphicUtils.getNinePatch(MainResource.btn_menu_up));
+        table.setBackground(GraphicUtils.getNinePatch(HistorySpecificResource.timeline2_opt_background_odd));
     }
 
     public Integer getCurrentQuestion() {
@@ -201,13 +201,17 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
         return gameContext.getCurrentUserGameUser().getAllQuestionInfos().get(questionContainerCreatorService.getQuestionNrInOrder().indexOf(currentQuestion));
     }
 
-    private void addQuestionText() {
+    private void addQuestionText(float duration) {
+        String questionText = questionContainerCreatorService.getGameService().getQuestionText(getCurrentGameQuestionInfo().getQuestion().getQuestionString());
         MyWrappedLabel questionLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
-                .setText(questionContainerCreatorService.getGameService().getQuestionText(getCurrentGameQuestionInfo().getQuestion().getQuestionString()))
-                .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.2f)).build());
+                .setText(questionText)
+                .setWrappedLineLabel(ScreenDimensionsManager.getScreenWidth())
+                .setFontConfig(new FontConfig(
+                        FontColor.BLACK.getColor(),
+                        FontConfig.FONT_SIZE * (questionText.length() > 45 ? 1.1f : 1.4f))).build());
         questionTable.add(questionLabel);
         questionLabel.setVisible(false);
-        Utils.fadeInActor(questionLabel, 0.1f);
+        Utils.fadeInActor(questionLabel, duration);
     }
 
     @Override

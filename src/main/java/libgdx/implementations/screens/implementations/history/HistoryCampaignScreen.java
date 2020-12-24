@@ -110,19 +110,20 @@ public class HistoryCampaignScreen extends AbstractScreen<HistoryScreenManager> 
             }
         });
         Table highScoreTable = new Table();
+        float width = getBtnWidthValue() / 1.1f;
         MyWrappedLabel highScoreLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setFontConfig(new FontConfig(
-                        FontColor.LIGHT_GREEN.getColor(),
+                        FontColor.YELLOW.getColor(),
                         FontColor.BLACK.getColor(),
                         FontConfig.FONT_SIZE * 1.3f,
                         3f))
+                .setWrappedLineLabel(width)
                 .setText(MainGameLabel.l_highscore.getText(historyPreferencesService.getHighScore(campaignLevel))).build());
         categBtn.getCenterRow().row();
         categBtn.add(highScoreTable).width(getBtnWidthValue()).padBottom(MainDimen.vertical_general_margin.getDimen() * 2);
-        Image image = GraphicUtils.getImage(HistorySpecificResource.score_icon);
-        float scoreIconDimen = ScreenDimensionsManager.getScreenWidthValue(10);
-        highScoreTable.add(highScoreLabel).width(getBtnWidthValue() / 1.5f);
-        highScoreTable.add(image).width(scoreIconDimen).height(scoreIconDimen).padLeft(MainDimen.horizontal_general_margin.getDimen());
+        Table scoreImg = new Table();
+        scoreImg.add(highScoreLabel).width(width);
+        highScoreTable.add(scoreImg).width(width);
         return categBtn;
     }
 

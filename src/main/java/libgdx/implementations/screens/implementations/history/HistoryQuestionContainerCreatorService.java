@@ -1,5 +1,6 @@
 package libgdx.implementations.screens.implementations.history;
 
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
@@ -25,13 +26,14 @@ import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.QuestionContainerCreatorService;
-import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
 import libgdx.resources.Res;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
+import libgdx.utils.model.FontColor;
+import libgdx.utils.model.FontConfig;
 
 public abstract class HistoryQuestionContainerCreatorService<TGameService extends HistoryGameService> extends QuestionContainerCreatorService<TGameService> {
 
@@ -56,7 +58,7 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
     @Override
     public Table createQuestionTable() {
         Table questionTable = createOptionsTable();
-        questionTable.setBackground(GraphicUtils.getNinePatch(MainResource.btn_lowcolor_up));
+        questionTable.setBackground(GraphicUtils.getNinePatch(MainResource.transparent_background));
         return questionTable;
     }
 
@@ -83,9 +85,9 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
     protected Image createOptImg(int index, String prefix) {
         Res res = HistorySpecificResource.timeline_opt_unknown;
         try {
-//            if (historyPreferencesService.getAllLevelsPlayed(getCampaignLevelEnum()).contains(index)) {
-            res = HistorySpecificResource.valueOf(prefix + index);
-//            }
+            if (historyPreferencesService.getAllLevelsPlayed(getCampaignLevelEnum()).contains(index)) {
+                res = HistorySpecificResource.valueOf(prefix + index);
+            }
         } catch (Exception ignore) {
         }
         Image image = GraphicUtils.getImage(res);
@@ -103,7 +105,8 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
         } else if (historyPreferencesService.getLevelsWon(getCampaignLevelEnum()).contains(questionNr)) {
             res = HistorySpecificResource.timeline_opt_correct;
         } else {
-            res = HistorySpecificResource.valueOf("timeline" + getTimelineForYear(getOptionYear(questionString)) + "_opt_background");
+            res = HistorySpecificResource.valueOf("timeline" + getTimelineForYear(getOptionYear(questionString)) + "_opt_background"
+                    + (questionNr % 2 == 0 ? "_odd" : ""));
         }
         return GraphicUtils.getNinePatch(res);
     }
@@ -122,13 +125,15 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
     }
 
     protected Drawable getBackgroundForTimeline(String questionString) {
-        return GraphicUtils.getNinePatch(HistorySpecificResource.valueOf("timeline" + getTimelineForYear(getOptionYear(questionString)) + "_line_background"));
+        return GraphicUtils.getNinePatch(HistorySpecificResource.valueOf("timeline3_line_background"));
     }
 
     protected void updateControlsAfterAnswPressed(String questionString, Integer currentQuestion) {
         int index = getQuestionNrInOrder().indexOf(currentQuestion);
         Table item = historyGameScreen.getRoot().findActor(getTimelineItemName(index));
         MyButton optBtn = historyGameScreen.getRoot().findActor(getOptionBtnName(index));
+        optBtn.setButtonSkin(getButtonSkin(currentQuestion));
+        optBtn.setTransform(false);
         optBtn.setDisabled(true);
         item.setBackground(getTimelineItemBackgr(questionString, index));
         historyGameScreen.goToNextQuestion();
@@ -147,7 +152,15 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
 
 
     protected void processLostQuestion(Integer currentQuestion) {
+        int index = getQuestionNrInOrder().indexOf(currentQuestion);
+        Table imgTable = historyGameScreen.getRoot().findActor(getOptionImageName(index));
         historyPreferencesService.setLevelLost(currentQuestion, getCampaignLevelEnum());
+        Image img = GraphicUtils.getImage(HistorySpecificResource.hist_answ_wrong);
+        imgTable.clear();
+        img.setVisible(false);
+        float imgDimen = getAnswerImgSideDimen() / 2;
+        imgTable.add(img).width(imgDimen).height(imgDimen);
+        new ActorAnimation(img, historyGameScreen).animateFastFadeIn();
     }
 
     protected abstract int getOptionYear(String qString);
@@ -162,6 +175,8 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
         image.setHeight(GameButtonSize.HISTORY_TIMELINE_ARROW.getHeight());
         return image;
     }
+
+    protected abstract ButtonSkin getButtonSkin(Integer questionNr);
 
     protected abstract void initOptionHeight();
 
@@ -210,7 +225,7 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
         Table table = new Table();
         epochNameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setText("0")
-                .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.2f)).build());
+                .setFontConfig(new FontConfig(Color.FOREST, FontConfig.FONT_SIZE * 1.1f)).build());
         table.add(epochNameLabel);
         return table;
     }
@@ -219,7 +234,7 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
         Table table = new Table();
         scoreLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setText(historyPreferencesService.getLevelsWon(getCampaignLevelEnum()).size() + "")
-                .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.2f)).build());
+                .setFontConfig(new FontConfig(FontColor.YELLOW.getColor(), Color.BLACK, FontConfig.FONT_SIZE * 1.5f, 3f)).build());
         float scoreIconDimen = ScreenDimensionsManager.getScreenWidthValue(10);
         float sideDimen = scoreIconDimen * 2;
         table.add().width(sideDimen).height(scoreIconDimen).padLeft(MainDimen.horizontal_general_margin.getDimen());
@@ -229,7 +244,7 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
         Image image = GraphicUtils.getImage(HistorySpecificResource.score_icon);
         scoreTable.add(image).width(scoreIconDimen).padRight(MainDimen.horizontal_general_margin.getDimen() * 2).height(scoreIconDimen);
         table.add(scoreTable).width(sideDimen);
-        table.setBackground(GraphicUtils.getNinePatch(MainResource.btn_menu_up));
+        table.setBackground(GraphicUtils.getNinePatch(HistorySpecificResource.timeline2_opt_background));
         return table;
     }
 

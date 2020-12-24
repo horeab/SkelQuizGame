@@ -8,16 +8,20 @@ import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import java.util.ArrayList;
 import java.util.List;
 
+import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.ButtonBuilder;
+import libgdx.controls.button.ButtonSkin;
 import libgdx.controls.button.MyButton;
+import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.history.HistoryCampaignLevelEnum;
 import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
+import libgdx.resources.FontManager;
+import libgdx.resources.MainResource;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.model.FontColor;
-import libgdx.utils.model.FontConfig;
 
 public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuestionContainerCreatorService<HistoryTimelineGameService> {
 
@@ -42,7 +46,8 @@ public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuest
         float optionSideWidth = ScreenDimensionsManager.getScreenWidthValue(45);
         float timelineLineWidth = ScreenDimensionsManager.getScreenWidthValue(3);
         int i = 0;
-        float historyTimelineArrowWidth = GameButtonSize.HISTORY_TIMELINE_ARROW.getWidth();
+//        float historyTimelineArrowWidth = GameButtonSize.HISTORY_TIMELINE_ARROW.getWidth();
+        float historyTimelineArrowWidth = 0;
         for (GameQuestionInfo q : gameContext.getCurrentUserGameUser().getAllQuestionInfos()) {
             String questionString = q.getQuestion().getQuestionString();
             String optionText = getGameService().getOptionText(questionString);
@@ -53,13 +58,13 @@ public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuest
             Cell leftCell = leftContainer.add().height(optionBtn.getHeight()).width(optionBtn.getWidth());
             Cell leftArrowCell = leftContainer.add().width(historyTimelineArrowWidth);
             leftContainer.row();
-            if (i % 2 == 0) {
-                leftCell.setActor(optionBtn);
-                leftArrowCell.setActor(createTimelineArrow(true));
-            } else {
-                leftArrowCell.reset();
-                leftCell.setActor(createAnswImg(i, "i"));
-            }
+//            if (i % 2 == 0) {
+            leftCell.setActor(optionBtn);
+//                leftArrowCell.setActor(createTimelineArrow(true));
+//            } else {
+//                leftArrowCell.reset();
+//                leftCell.setActor(createAnswImg(i, "i"));
+//            }
             qTable.add(leftContainer).width(optionSideWidth);
             qTable.add(timeLineTable).height(optionHeight).width(timelineLineWidth);
             timeLineTable.setBackground(getBackgroundForTimeline(questionString));
@@ -68,19 +73,29 @@ public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuest
             Cell rightArrowCell = rightContainer.add().width(historyTimelineArrowWidth);
             Cell rightCell = rightContainer.add().height(optionBtn.getHeight()).width(optionBtn.getWidth());
             rightContainer.row();
-            if (i % 2 != 0) {
-                rightArrowCell.setActor(createTimelineArrow(false));
-                rightCell.setActor(optionBtn);
-            } else {
-                rightArrowCell.reset();
-                rightCell.setActor(createAnswImg(i, "i"));
-            }
+//            if (i % 2 != 0) {
+////                rightArrowCell.setActor(createTimelineArrow(false));
+//                rightCell.setActor(optionBtn);
+//            } else {
+            rightArrowCell.reset();
+            rightCell.setActor(createAnswImg(i, "i"));
+//            }
             qTable.add(rightContainer).width(optionSideWidth);
             qTable.setBackground(getTimelineItemBackgr(questionString, i));
-            table.add(qTable).width(optionSideWidth * 2).height(optionHeight).row();
+            table.add(qTable).width(optionSideWidth * 2.2f).height(optionHeight).row();
+            table.setBackground(GraphicUtils.getNinePatch(MainResource.transparent_background));
             i++;
         }
         return table;
+    }
+
+
+    @Override
+    protected ButtonSkin getButtonSkin(Integer questionNr) {
+        if (historyPreferencesService.getLevelsLost(getCampaignLevelEnum()).contains(questionNr)) {
+            return GameButtonSkin.HISTORY_TIMELINE_LEVEL_WRONG;
+        }
+        return GameButtonSkin.HISTORY_TIMELINE_LEVEL_CORRECT;
     }
 
     protected List<Integer> getQuestionNrInOrder() {
@@ -114,12 +129,13 @@ public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuest
 
     private Table createOptionBtn(String optionText, int index) {
         Table table = new Table();
-        float mult = optionText.length() > 13 ? 1.0f : 1.2f;
+        float fontScale = FontManager.calculateMultiplierStandardFontSize(optionText.length() >= 12 ? 0.9f : (optionText.length() >= 9 ? 1.1f : 1.2f));
+        FontColor fontColor = FontColor.BLACK;
         MyButton btn = new ButtonBuilder()
-                .setFontConfig(new FontConfig(FontColor.BLACK.getColor(), FontColor.GREEN.getColor(),
-                        FontConfig.FONT_SIZE * mult, 3f))
-                .setWrappedText(optionText, GameButtonSize.HISTORY_CLICK_ANSWER_OPTION.getWidth())
-                .setButtonSkin(GameButtonSkin.HISTORY_TIMELINE_LEVEL)
+                .setFontScale(fontScale)
+                .setFontColor(fontColor)
+                .setWrappedText(optionText, GameButtonSize.HISTORY_CLICK_ANSWER_OPTION.getWidth() / 1.4f)
+                .setButtonSkin(GameButtonSkin.HISTORY_TIMELINE_LEVEL_CORRECT)
                 .setDisabled(historyPreferencesService.getAllLevelsPlayed(getCampaignLevelEnum()).contains(index))
                 .setFixedButtonSize(GameButtonSize.HISTORY_CLICK_ANSWER_OPTION)
                 .setButtonName(getOptionBtnName(index))
@@ -138,9 +154,10 @@ public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuest
                 updateControlsAfterAnswPressed(questionString, currentQuestion);
             }
         });
+        btn.setTransform(true);
+        new ActorAnimation(btn, getAbstractGameScreen()).animateZoomInZoomOut(0.05f);
         table.add(btn).width(btn.getWidth()).height(btn.getHeight());
         return btn;
     }
-
 
 }

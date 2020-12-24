@@ -81,7 +81,10 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     COUNTRIES_NEXTLEVEL(CountriesSpecificResource.btn_next, CountriesSpecificResource.btn_next_down, CountriesSpecificResource.btn_next, CountriesSpecificResource.btn_next, null),
     COUNTRIES_CLEAR_LETTERS(CountriesSpecificResource.btn_clear, CountriesSpecificResource.btn_clear_down, CountriesSpecificResource.btn_clear, CountriesSpecificResource.btn_clear, null),
 
-    HISTORY_TIMELINE_LEVEL(HistorySpecificResource.btn_timeline, HistorySpecificResource.btn_timeline_clicked, HistorySpecificResource.btn_timeline, HistorySpecificResource.btn_timeline_disabled, null),
+    HISTORY_TIMELINE_LEVEL_CORRECT(HistorySpecificResource.btn_timeline, HistorySpecificResource.btn_timeline_clicked, HistorySpecificResource.btn_timeline, HistorySpecificResource.btn_timeline_disabled_correct, null),
+    HISTORY_TIMELINE_LEVEL_WRONG(HistorySpecificResource.btn_timeline, HistorySpecificResource.btn_timeline_clicked, HistorySpecificResource.btn_timeline, HistorySpecificResource.btn_timeline_disabled_wrong, null),
+    HISTORY_GREAT_LEVEL_CORRECT(HistorySpecificResource.btn_great, HistorySpecificResource.btn_great_clicked, HistorySpecificResource.btn_great, HistorySpecificResource.btn_great_disabled_correct, null),
+    HISTORY_GREAT_LEVEL_WRONG(HistorySpecificResource.btn_great, HistorySpecificResource.btn_great_clicked, HistorySpecificResource.btn_great, HistorySpecificResource.btn_great_disabled_wrong, null),
 
     FLAGS_CATEG0(FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, null),
     FLAGS_CATEG1(FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, null),

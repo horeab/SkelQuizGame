@@ -6,6 +6,7 @@ import com.badlogic.gdx.utils.I18NBundle;
 
 import libgdx.game.Game;
 import libgdx.resources.SpecificResource;
+import sun.net.www.content.image.png;
 
 public enum HistorySpecificResource implements SpecificResource {
 
@@ -15,7 +16,13 @@ public enum HistorySpecificResource implements SpecificResource {
 
     btn_timeline("buttons/btn_timeline.png", Texture.class),
     btn_timeline_clicked("buttons/btn_timeline_clicked.png", Texture.class),
-    btn_timeline_disabled("buttons/btn_timeline_disabled.png", Texture.class),
+    btn_timeline_disabled_correct("buttons/btn_timeline_disabled_correct.png", Texture.class),
+    btn_timeline_disabled_wrong("buttons/btn_timeline_disabled_wrong.png", Texture.class),
+
+    btn_great("buttons/btn_great.png", Texture.class),
+    btn_great_clicked("buttons/btn_great_clicked.png", Texture.class),
+    btn_great_disabled_correct("buttons/btn_great_disabled_correct.png", Texture.class),
+    btn_great_disabled_wrong("buttons/btn_great_disabled_wrong.png", Texture.class),
 
     arrow_left("arrow_left.png", Texture.class),
     arrow_right("arrow_right.png", Texture.class),
@@ -24,10 +31,15 @@ public enum HistorySpecificResource implements SpecificResource {
     timeline2_line_background("timeline2_line_background.png", Texture.class),
     timeline3_line_background("timeline3_line_background.png", Texture.class),
     timeline0_opt_background("timeline0_opt_background.png", Texture.class),
+    timeline0_opt_background_odd("timeline3_opt_background_odd.png", Texture.class),
     timeline1_opt_background("timeline1_opt_background.png", Texture.class),
+    timeline1_opt_background_odd("timeline3_opt_background_odd.png", Texture.class),
     timeline2_opt_background("timeline2_opt_background.png", Texture.class),
+    timeline2_opt_background_odd("timeline3_opt_background_odd.png", Texture.class),
     timeline3_opt_background("timeline3_opt_background.png", Texture.class),
+    timeline3_opt_background_odd("timeline3_opt_background_odd.png", Texture.class),
     timeline_opt_unknown("timeline_opt_unknown.png", Texture.class),
+    hist_answ_wrong("hist_answ_wrong.png", Texture.class),
     timeline_opt_correct("timeline_opt_correct.png", Texture.class),
     timeline_opt_wrong("timeline_opt_wrong.png", Texture.class),
     score_icon("score_icon.png", Texture.class),

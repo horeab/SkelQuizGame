@@ -4,6 +4,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
+import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 
 import org.apache.commons.lang3.tuple.Pair;
 
@@ -12,7 +13,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.ButtonBuilder;
+import libgdx.controls.button.ButtonSkin;
 import libgdx.controls.button.MainButtonSkin;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
@@ -20,9 +23,11 @@ import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.history.HistoryCampaignLevelEnum;
 import libgdx.implementations.skelgame.GameButtonSize;
+import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.resources.FontManager;
+import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.model.FontColor;
@@ -84,14 +89,16 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
 
     private Table createOptionBtn(String minYear, String maxYear, int index, float btnWidth) {
         Table table = new Table();
-        float yearWidth = btnWidth / 2.5f;
-        float fontScale = FontManager.calculateMultiplierStandardFontSize(1.2f);
+        float yearWidth = btnWidth / 4f;
         FontColor fontColor = FontColor.BLACK;
+        float minScale = 1.2f;
+        float maxScale = 1.2f;
+        int minLength = 9;
         MyButton btn = new ButtonBuilder()
-                .setFontScale(fontScale)
+                .setFontScale(FontManager.calculateMultiplierStandardFontSize(minYear.length() >= minLength ? minScale : maxScale))
                 .setWrappedText(minYear, yearWidth)
                 .setFontColor(fontColor)
-                .setButtonSkin(MainButtonSkin.DEFAULT)
+                .setButtonSkin(GameButtonSkin.HISTORY_GREAT_LEVEL_CORRECT)
                 .setDisabled(historyPreferencesService.getAllLevelsPlayed(campaignLevelEnum).contains(index))
                 .setButtonName(getOptionBtnName(index))
                 .build();
@@ -104,7 +111,7 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
                 .setText(maxYear)
                 .setWrappedLineLabel(yearWidth)
                 .setFontColor(fontColor)
-                .setFontScale(fontScale).build());
+                .setFontScale(FontManager.calculateMultiplierStandardFontSize(maxYear.length() >= minLength ? minScale : maxScale)).build());
         ((Table) btn.getCenterRow().getChildren().get(0))
                 .add(createTimelineArrow(true)).growX();
         ((Table) btn.getCenterRow().getChildren().get(0)).add(questionLabel).width(yearWidth);
@@ -125,7 +132,22 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
                 updateControlsAfterAnswPressed(questionString, currentQuestion);
             }
         });
+        btn.setTransform(true);
+        new ActorAnimation(btn, getAbstractGameScreen()).animateZoomInZoomOut(0.01f);
         return btn;
+    }
+
+    @Override
+    protected ButtonSkin getButtonSkin(Integer questionNr) {
+        if (historyPreferencesService.getLevelsLost(getCampaignLevelEnum()).contains(questionNr)) {
+            return GameButtonSkin.HISTORY_GREAT_LEVEL_WRONG;
+        }
+        return GameButtonSkin.HISTORY_GREAT_LEVEL_CORRECT;
+    }
+
+    @Override
+    protected Drawable getTimelineItemBackgr(String questionString, Integer questionNr) {
+        return GraphicUtils.getNinePatch(MainResource.transparent_background);
     }
 
     @Override
