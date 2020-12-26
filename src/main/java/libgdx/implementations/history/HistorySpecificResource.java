@@ -23,6 +23,11 @@ public enum HistorySpecificResource implements SpecificResource {
     btn_great_clicked("buttons/btn_great_clicked.png", Texture.class),
     btn_great_disabled_correct("buttons/btn_great_disabled_correct.png", Texture.class),
     btn_great_disabled_wrong("buttons/btn_great_disabled_wrong.png", Texture.class),
+    btn_categ0_up("buttons/btn_categ0_up.png", Texture.class),
+    btn_categ1_up("buttons/btn_categ1_up.png", Texture.class),
+    btn_categ0_down("buttons/btn_categ0_down.png", Texture.class),
+    btn_categ1_down("buttons/btn_categ1_down.png", Texture.class),
+    hist_btn_hint("buttons/hist_btn_hint.png", Texture.class),
 
     arrow_left("arrow_left.png", Texture.class),
     arrow_right("arrow_right.png", Texture.class),

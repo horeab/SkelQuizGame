@@ -2,19 +2,28 @@ package libgdx.implementations.screens.implementations.history;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
+import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
+import com.badlogic.gdx.utils.Align;
 
 import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.List;
 
+import libgdx.constants.Contrast;
 import libgdx.controls.animations.ActorAnimation;
+import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.ButtonSkin;
+import libgdx.controls.button.MainButtonSize;
 import libgdx.controls.button.MyButton;
+import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
@@ -30,6 +39,7 @@ import libgdx.resources.MainResource;
 import libgdx.resources.Res;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
+import libgdx.skelgameimpl.skelgame.SkelGameLabel;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
@@ -41,6 +51,7 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
     HistoryGameScreen historyGameScreen;
     HistoryPreferencesService historyPreferencesService = new HistoryPreferencesService();
     MyWrappedLabel scoreLabel;
+    MyWrappedLabel totalHintsLabel;
     private Integer timelineDisplayed = null;
     private MyWrappedLabel epochNameLabel;
 
@@ -85,7 +96,8 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
     protected Image createOptImg(int index, String prefix) {
         Res res = HistorySpecificResource.timeline_opt_unknown;
         try {
-            if (historyPreferencesService.getAllLevelsPlayed(getCampaignLevelEnum()).contains(index)) {
+            if (historyPreferencesService.getAllLevelsPlayed(getCampaignLevelEnum()).contains(index)
+                    || historyPreferencesService.getLevelsImgShown(getCampaignLevelEnum()).contains(index)) {
                 res = HistorySpecificResource.valueOf(prefix + index);
             }
         } catch (Exception ignore) {
@@ -112,16 +124,22 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
     }
 
     protected void processWonQuestion(Integer currentQuestion, String prefix) {
-        int index = getQuestionNrInOrder().indexOf(currentQuestion);
-        Table imgTable = historyGameScreen.getRoot().findActor(getOptionImageName(index));
-        Actor oldImg = imgTable.getChildren().get(0);
-        oldImg.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRemoveActorAction(oldImg)));
         historyPreferencesService.setLevelWon(currentQuestion, getCampaignLevelEnum());
-        Image img = createOptImg(index, prefix);
-        imgTable.clear();
-        img.setVisible(false);
-        imgTable.add(img).width(img.getWidth()).height(img.getHeight());
-        new ActorAnimation(img, historyGameScreen).animateFastFadeIn();
+        int index = getQuestionNrInOrder().indexOf(currentQuestion);
+        displayAnswerImage(prefix, index);
+    }
+
+    private void displayAnswerImage(String prefix, int index) {
+        Table imgTable = historyGameScreen.getRoot().findActor(getOptionImageName(index));
+        if (imgTable != null) {
+            Actor oldImg = imgTable.getChildren().get(0);
+            oldImg.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRemoveActorAction(oldImg)));
+            Image img = createOptImg(index, prefix);
+            imgTable.clear();
+            img.setVisible(false);
+            imgTable.add(img).width(img.getWidth()).height(img.getHeight());
+            new ActorAnimation(img, historyGameScreen).animateFastFadeIn();
+        }
     }
 
     protected Drawable getBackgroundForTimeline(String questionString) {
@@ -138,6 +156,10 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
         item.setBackground(getTimelineItemBackgr(questionString, index));
         historyGameScreen.goToNextQuestion();
         if (scoreLabel != null) {
+            float scaleFactor = 0.3f;
+            float duration = 0.2f;
+            scoreLabel.addAction(Actions.sequence(Actions.scaleBy(scaleFactor, scaleFactor, duration),
+                    Actions.scaleBy(-scaleFactor, -scaleFactor, duration)));
             scoreLabel.setText(historyPreferencesService.getLevelsWon(getCampaignLevelEnum()).size() + "");
         }
     }
@@ -221,12 +243,13 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
         }
     }
 
-    protected Table createTitleTable() {
+    protected Table createTitleTable(float width) {
         Table table = new Table();
         epochNameLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setWrappedLineLabel(width)
                 .setText("0")
                 .setFontConfig(new FontConfig(Color.FOREST, FontConfig.FONT_SIZE * 1.1f)).build());
-        table.add(epochNameLabel);
+        table.add(epochNameLabel).width(width);
         return table;
     }
 
@@ -234,19 +257,72 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
         Table table = new Table();
         scoreLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setText(historyPreferencesService.getLevelsWon(getCampaignLevelEnum()).size() + "")
-                .setFontConfig(new FontConfig(FontColor.YELLOW.getColor(), Color.BLACK, FontConfig.FONT_SIZE * 1.5f, 3f)).build());
-        float scoreIconDimen = ScreenDimensionsManager.getScreenWidthValue(10);
+                .setFontConfig(new FontConfig(FontColor.YELLOW.getColor(), Color.BLACK, FontConfig.FONT_SIZE * 1.3f, 3f)).build());
+        scoreLabel.setTransform(true);
+        float hintIconDimen = ScreenDimensionsManager.getScreenWidthValue(12);
+        totalHintsLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setWrappedLineLabel(hintIconDimen)
+                .setText(historyGameScreen.totalHints + "")
+                .setFontConfig(new FontConfig(FontColor.LIGHT_GREEN.getColor(), Color.BLACK, FontConfig.FONT_SIZE * 1.5f, 3f)).build());
+        float scoreIconDimen = ScreenDimensionsManager.getScreenWidthValue(6);
+        Table hintTable = new Table();
+        Stack stack = createHintBtn(hintIconDimen);
+        hintTable.add(stack).width(stack.getWidth()).height(stack.getHeight());
         float sideDimen = scoreIconDimen * 2;
-        table.add().width(sideDimen).height(scoreIconDimen).padLeft(MainDimen.horizontal_general_margin.getDimen());
-        table.add(createTitleTable()).width(ScreenDimensionsManager.getScreenWidth() - sideDimen * 2).height(ScreenDimensionsManager.getScreenHeightValue(5));
-        Table scoreTable = new Table();
-        scoreTable.add(scoreLabel).width(scoreIconDimen);
-        Image image = GraphicUtils.getImage(HistorySpecificResource.score_icon);
-        scoreTable.add(image).width(scoreIconDimen).padRight(MainDimen.horizontal_general_margin.getDimen() * 2).height(scoreIconDimen);
-        table.add(scoreTable).width(sideDimen);
+        float titleWidth = ScreenDimensionsManager.getScreenWidthValue(45);
+        table.add(createScoreTable(scoreIconDimen)).padLeft(MainDimen.horizontal_general_margin.getDimen() * 5).width(sideDimen);
+        table.add(createTitleTable(titleWidth)).width(titleWidth).height(ScreenDimensionsManager.getScreenHeightValue(5));
+        table.add(hintTable).padLeft(MainDimen.horizontal_general_margin.getDimen() * 2).width(hintIconDimen).height(hintIconDimen);
         table.setBackground(GraphicUtils.getNinePatch(HistorySpecificResource.timeline2_opt_background));
         return table;
     }
+
+    private Stack createHintBtn(float hintIconDimen) {
+        final Stack stack = new Stack();
+        final MyButton hintBtn = new ButtonBuilder()
+                .setFontColor(FontColor.BLACK)
+                .setButtonSkin(GameButtonSkin.HISTORY_HINT).setText("").build();
+        stack.setTransform(true);
+        hintBtn.setWidth(hintIconDimen);
+        hintBtn.setHeight(hintIconDimen);
+        stack.setWidth(hintIconDimen);
+        stack.setHeight(hintIconDimen);
+        ClickListener clickListener = new ClickListener() {
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+                historyGameScreen.totalHints = historyGameScreen.totalHints - 1;
+                if (historyGameScreen.totalHints == 0) {
+                    stack.setTouchable(Touchable.disabled);
+                    stack.addAction(Actions.fadeOut(0.2f));
+                }
+                totalHintsLabel.setText(historyGameScreen.totalHints + "");
+                for (int i = historyGameScreen.firstOpenQuestionIndex; i <= historyGameScreen.firstOpenQuestionIndex + 4; i++) {
+                    historyPreferencesService.setLeveImgShown(i, getCampaignLevelEnum());
+                    displayAnswerImage(getPrefix(), i);
+                }
+            }
+        };
+        hintBtn.addListener(clickListener);
+        totalHintsLabel.addListener(clickListener);
+        new ActorAnimation(stack, getAbstractGameScreen()).animateZoomInZoomOut(0.3f);
+        stack.add(hintBtn);
+        float pad = MainDimen.vertical_general_margin.getDimen() * 2;
+        totalHintsLabel.padTop(pad);
+        totalHintsLabel.padLeft(pad);
+        stack.add(totalHintsLabel);
+        return stack;
+    }
+
+    private Table createScoreTable(float scoreIconDimen) {
+        Table scoreTable = new Table();
+        float dimen = MainDimen.horizontal_general_margin.getDimen();
+        scoreTable.add(scoreLabel).width(scoreIconDimen).padRight(dimen);
+        Image image = GraphicUtils.getImage(HistorySpecificResource.score_icon);
+        scoreTable.add(image).width(scoreIconDimen).padRight(dimen * 2).height(scoreIconDimen);
+        return scoreTable;
+    }
+
+    protected abstract String getPrefix();
 
     @Override
     public ButtonSkin correctAnswerSkin() {

@@ -23,6 +23,22 @@ public class HistoryPreferencesService extends SettingsService {
         return convertToInt(getLevelsLostFieldName(campaignLevelEnum));
     }
 
+    public void setLevelLost(int level, HistoryCampaignLevelEnum campaignLevelEnum) {
+        Set<Integer> l = getLevelsLost(campaignLevelEnum);
+        l.add(level);
+        preferencesService.putString(getLevelsLostFieldName(campaignLevelEnum), StringUtils.join(l, ","));
+    }
+
+    public Set<Integer> getLevelsImgShown(HistoryCampaignLevelEnum campaignLevelEnum) {
+        return convertToInt(getLevelsImageShownFieldName(campaignLevelEnum));
+    }
+
+    public void setLeveImgShown(int level, HistoryCampaignLevelEnum campaignLevelEnum) {
+        Set<Integer> l = getLevelsImgShown(campaignLevelEnum);
+        l.add(level);
+        preferencesService.putString(getLevelsImageShownFieldName(campaignLevelEnum), StringUtils.join(l, ","));
+    }
+
     public Set<Integer> getAllLevelsPlayed(HistoryCampaignLevelEnum campaignLevelEnum) {
         Set<Integer> all = new HashSet<>();
         all.addAll(getLevelsLost(campaignLevelEnum));
@@ -52,12 +68,6 @@ public class HistoryPreferencesService extends SettingsService {
         }
     }
 
-    public void setLevelLost(int level, HistoryCampaignLevelEnum campaignLevelEnum) {
-        Set<Integer> l = getLevelsLost(campaignLevelEnum);
-        l.add(level);
-        preferencesService.putString(getLevelsLostFieldName(campaignLevelEnum), StringUtils.join(l, ","));
-    }
-
     public boolean isHighScore(HistoryCampaignLevelEnum campaignLevelEnum) {
         return preferencesService.getPreferences().getBoolean(getIsHighScoreFieldName(campaignLevelEnum), false);
     }
@@ -72,6 +82,10 @@ public class HistoryPreferencesService extends SettingsService {
 
     public int getHighScore(HistoryCampaignLevelEnum campaignLevelEnum) {
         return preferencesService.getPreferences().getInteger(getHighScoreFieldName(campaignLevelEnum), 0);
+    }
+
+    private String getLevelsImageShownFieldName(HistoryCampaignLevelEnum campaignLevelEnum) {
+        return campaignLevelEnum.name() + "imgShown";
     }
 
     private String getLevelsWonFieldName(HistoryCampaignLevelEnum campaignLevelEnum) {
@@ -94,6 +108,7 @@ public class HistoryPreferencesService extends SettingsService {
         setIsHighScore(campaignLevelEnum, false);
         preferencesService.putString(getLevelsWonFieldName(campaignLevelEnum), "");
         preferencesService.putString(getLevelsLostFieldName(campaignLevelEnum), "");
+        preferencesService.putString(getLevelsImageShownFieldName(campaignLevelEnum), "");
     }
 
 

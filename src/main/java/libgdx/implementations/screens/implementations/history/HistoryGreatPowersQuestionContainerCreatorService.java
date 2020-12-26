@@ -1,6 +1,5 @@
 package libgdx.implementations.screens.implementations.history;
 
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
@@ -16,7 +15,6 @@ import java.util.Map;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.ButtonSkin;
-import libgdx.controls.button.MainButtonSkin;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
@@ -28,7 +26,6 @@ import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
-import libgdx.resources.dimen.MainDimen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.model.FontColor;
 
@@ -54,13 +51,18 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
             Table optionBtn = createOptionBtn(years.getLeft(), years.getRight(), i, optionWidth);
             Table qTable = new Table();
             qTable.add(optionBtn).width(optionWidth).height(optionBtnHeight);
-            Table answImg = createAnswImg(i, "j");
+            Table answImg = createAnswImg(i, getPrefix());
             qTable.add(answImg).width(ScreenDimensionsManager.getScreenWidth() - optionWidth).center().height(optionBtnHeight);
             qTable.setName(getTimelineItemName(i));
             table.add(qTable).height(optionBtnHeight).row();
             i++;
         }
         return table;
+    }
+
+    @Override
+    protected String getPrefix() {
+        return "j";
     }
 
     protected List<Integer> getQuestionNrInOrder() {
@@ -125,7 +127,7 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
                 String cqMinY = optionText.getLeft();
                 String cqMaxY = optionText.getRight();
                 if (minYear.equals(cqMinY) && maxYear.equals(cqMaxY)) {
-                    processWonQuestion(currentQuestion, "j");
+                    processWonQuestion(currentQuestion, getPrefix());
                 } else {
                     processLostQuestion(currentQuestion);
                 }

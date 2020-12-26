@@ -50,11 +50,12 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
     private Integer scrollToOption;
     private float optionHeight;
     private GameContext gameContext;
-    private Integer firstOpenQuestionIndex = 0;
+    public Integer firstOpenQuestionIndex = 0;
     private Integer currentQuestion = 0;
     private Table questionTable;
     private HistoryPreferencesService historyPreferencesService = new HistoryPreferencesService();
     private HistoryQuestionContainerCreatorService questionContainerCreatorService;
+    public int totalHints = 6;
 
     public HistoryGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         super(gameContext);
@@ -183,14 +184,14 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
         Table table = new Table();
         table.setFillParent(true);
         scrollPane.setScrollingDisabled(true, false);
-        table.add(questionContainerCreatorService.createHeader()).width(ScreenDimensionsManager.getScreenWidth()).row();
+        table.add(questionContainerCreatorService.createHeader()).width(ScreenDimensionsManager.getScreenWidth()).height(ScreenDimensionsManager.getScreenHeightValue(10)).row();
         questionTable = new Table();
         table.add(questionTable).height(ScreenDimensionsManager.getScreenHeightValue(10)).padBottom(MainDimen.vertical_general_margin.getDimen()).row();
         goToNextQuestion();
         table.add(scrollPane).expand();
         addActor(table);
-        new BackButtonBuilder().addHoverBackButton(this);
-        table.setBackground(GraphicUtils.getNinePatch(HistorySpecificResource.timeline2_opt_background_odd));
+        new BackButtonBuilder().addHoverBackButton(this, MainDimen.horizontal_general_margin.getDimen() / 2, BackButtonBuilder.getY()
+                - MainDimen.vertical_general_margin.getDimen() / 2);
     }
 
     public Integer getCurrentQuestion() {

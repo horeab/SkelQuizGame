@@ -12,6 +12,7 @@ import java.util.Arrays;
 
 import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.controls.button.ButtonBuilder;
+import libgdx.controls.button.ButtonSkin;
 import libgdx.controls.button.MainButtonSkin;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
@@ -22,7 +23,7 @@ import libgdx.implementations.astronomy.AstronomySpecificResource;
 import libgdx.implementations.history.HistoryCampaignLevelEnum;
 import libgdx.implementations.history.HistoryDifficultyLevel;
 import libgdx.implementations.history.HistoryPreferencesService;
-import libgdx.implementations.history.HistorySpecificResource;
+import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.gameservice.QuestionCreator;
@@ -32,7 +33,6 @@ import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.screen.AbstractScreen;
 import libgdx.skelgameimpl.skelgame.SkelGameRatingService;
 import libgdx.utils.ScreenDimensionsManager;
-import libgdx.utils.SoundUtils;
 import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
 import libgdx.utils.model.FontConfig;
@@ -59,13 +59,26 @@ public class HistoryCampaignScreen extends AbstractScreen<HistoryScreenManager> 
 
     private Table createAllTable() {
         Table table = new Table();
+        String appName = Game.getInstance().getAppInfoService().getAppName();
+        boolean titleContainsLongText = false;
+        float smallScale = 1.9f;
+        for (String t : appName.split(" ")) {
+            if (t.length() >= 15) {
+                smallScale = 1.5f;
+            }
+            if (t.length() >= 10) {
+                titleContainsLongText = true;
+                break;
+            }
+        }
         MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setWrappedLineLabel(ScreenDimensionsManager.getScreenWidthValue(68))
                 .setFontConfig(new FontConfig(
                         FontColor.LIGHT_GREEN.getColor(),
-                        FontColor.BLACK.getColor(),
-                        FontConfig.FONT_SIZE * 2.4f,
+                        FontColor.GREEN.getColor(),
+                        FontConfig.FONT_SIZE * (titleContainsLongText ? smallScale : 2.4f),
                         4f))
-                .setText(Game.getInstance().getAppInfoService().getAppName()).build());
+                .setText(appName).build());
         float dimen = MainDimen.vertical_general_margin.getDimen();
         table.add(createTitleStack(titleLabel)).height(dimen * 16).padTop(dimen * 2).row();
         addCategButtons(table);
@@ -75,14 +88,14 @@ public class HistoryCampaignScreen extends AbstractScreen<HistoryScreenManager> 
     private void addCategButtons(Table table) {
         table.row();
         Table btnTable0 = new Table();
-        addButtonToTable(btnTable0, HistoryCampaignLevelEnum.LEVEL_0_0);
+        addButtonToTable(btnTable0, HistoryCampaignLevelEnum.LEVEL_0_0, GameButtonSkin.HISTORY_CATEG0);
         btnTable0.row();
-        addButtonToTable(btnTable0, HistoryCampaignLevelEnum.LEVEL_0_1);
+        addButtonToTable(btnTable0, HistoryCampaignLevelEnum.LEVEL_0_1, GameButtonSkin.HISTORY_CATEG1);
         table.add(btnTable0);
     }
 
-    private Cell<MyButton> addButtonToTable(Table table, HistoryCampaignLevelEnum campaignLevel) {
-        MyButton categButton = createCategButton(campaignLevel);
+    private Cell<MyButton> addButtonToTable(Table table, HistoryCampaignLevelEnum campaignLevel, ButtonSkin buttonSkin) {
+        MyButton categButton = createCategButton(campaignLevel, buttonSkin);
         return table.add(categButton).width(getBtnWidthValue()).height(getBtnHeightValue())
                 .padBottom(MainDimen.vertical_general_margin.getDimen() * 3f);
     }
@@ -95,11 +108,11 @@ public class HistoryCampaignScreen extends AbstractScreen<HistoryScreenManager> 
         return ScreenDimensionsManager.getScreenWidthValue(80);
     }
 
-    private MyButton createCategButton(final HistoryCampaignLevelEnum campaignLevel) {
+    private MyButton createCategButton(final HistoryCampaignLevelEnum campaignLevel, ButtonSkin buttonSkin) {
         String labelText = new CampaignLevelEnumService(campaignLevel).getLabelText();
         MyButton categBtn = new ButtonBuilder()
-                .setButtonSkin(MainButtonSkin.DEFAULT)
-                .setFontScale(FontManager.getNormalBigFontDim())
+                .setButtonSkin(buttonSkin)
+                .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.5f))
                 .setFontColor(FontColor.BLACK)
                 .setWrappedText(labelText, getBtnWidthValue() / 1.2f)
                 .build();

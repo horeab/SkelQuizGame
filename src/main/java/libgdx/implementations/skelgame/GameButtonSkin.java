@@ -85,6 +85,9 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     HISTORY_TIMELINE_LEVEL_WRONG(HistorySpecificResource.btn_timeline, HistorySpecificResource.btn_timeline_clicked, HistorySpecificResource.btn_timeline, HistorySpecificResource.btn_timeline_disabled_wrong, null),
     HISTORY_GREAT_LEVEL_CORRECT(HistorySpecificResource.btn_great, HistorySpecificResource.btn_great_clicked, HistorySpecificResource.btn_great, HistorySpecificResource.btn_great_disabled_correct, null),
     HISTORY_GREAT_LEVEL_WRONG(HistorySpecificResource.btn_great, HistorySpecificResource.btn_great_clicked, HistorySpecificResource.btn_great, HistorySpecificResource.btn_great_disabled_wrong, null),
+    HISTORY_CATEG0(HistorySpecificResource.btn_categ0_up, HistorySpecificResource.btn_categ0_down, HistorySpecificResource.btn_categ0_up, HistorySpecificResource.btn_categ0_up, null),
+    HISTORY_CATEG1(HistorySpecificResource.btn_categ1_up, HistorySpecificResource.btn_categ1_down, HistorySpecificResource.btn_categ1_up, HistorySpecificResource.btn_categ0_up, null),
+    HISTORY_HINT(HistorySpecificResource.hist_btn_hint, HistorySpecificResource.hist_btn_hint, HistorySpecificResource.hist_btn_hint, HistorySpecificResource.hist_btn_hint, null),
 
     FLAGS_CATEG0(FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, FlagsSpecificResource.campaign_level_0_0, null),
     FLAGS_CATEG1(FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, FlagsSpecificResource.campaign_level_0_1, null),

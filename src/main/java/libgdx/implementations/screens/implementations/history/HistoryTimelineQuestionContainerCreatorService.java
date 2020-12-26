@@ -56,15 +56,8 @@ public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuest
             Table optionBtn = createOptionBtn(optionText, i);
             Table leftContainer = new Table();
             Cell leftCell = leftContainer.add().height(optionBtn.getHeight()).width(optionBtn.getWidth());
-            Cell leftArrowCell = leftContainer.add().width(historyTimelineArrowWidth);
             leftContainer.row();
-//            if (i % 2 == 0) {
             leftCell.setActor(optionBtn);
-//                leftArrowCell.setActor(createTimelineArrow(true));
-//            } else {
-//                leftArrowCell.reset();
-//                leftCell.setActor(createAnswImg(i, "i"));
-//            }
             qTable.add(leftContainer).width(optionSideWidth);
             qTable.add(timeLineTable).height(optionHeight).width(timelineLineWidth);
             timeLineTable.setBackground(getBackgroundForTimeline(questionString));
@@ -73,13 +66,8 @@ public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuest
             Cell rightArrowCell = rightContainer.add().width(historyTimelineArrowWidth);
             Cell rightCell = rightContainer.add().height(optionBtn.getHeight()).width(optionBtn.getWidth());
             rightContainer.row();
-//            if (i % 2 != 0) {
-////                rightArrowCell.setActor(createTimelineArrow(false));
-//                rightCell.setActor(optionBtn);
-//            } else {
             rightArrowCell.reset();
-            rightCell.setActor(createAnswImg(i, "i"));
-//            }
+            rightCell.setActor(createAnswImg(i, getPrefix()));
             qTable.add(rightContainer).width(optionSideWidth);
             qTable.setBackground(getTimelineItemBackgr(questionString, i));
             table.add(qTable).width(optionSideWidth * 2.2f).height(optionHeight).row();
@@ -90,6 +78,10 @@ public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuest
     }
 
 
+    @Override
+    protected String getPrefix() {
+        return "i";
+    }
     @Override
     protected ButtonSkin getButtonSkin(Integer questionNr) {
         if (historyPreferencesService.getLevelsLost(getCampaignLevelEnum()).contains(questionNr)) {
@@ -147,7 +139,7 @@ public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuest
                 String currentQuestionCorrectAnswer = getGameService().getOptionText(questionString);
                 Integer currentQuestion = historyGameScreen.getCurrentQuestion();
                 if (currentQuestionCorrectAnswer.equals(optionText)) {
-                    processWonQuestion(currentQuestion, "i");
+                    processWonQuestion(currentQuestion, getPrefix());
                 } else {
                     processLostQuestion(currentQuestion);
                 }
