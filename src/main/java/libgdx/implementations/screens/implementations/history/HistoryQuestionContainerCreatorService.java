@@ -185,6 +185,15 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
         new ActorAnimation(img, historyGameScreen).animateFastFadeIn();
     }
 
+    protected void showPopupAd(Runnable runnable) {
+        int size = historyPreferencesService.getAllLevelsPlayed(getCampaignLevelEnum()).size();
+        if (size > 0 && size % 15 == 0) {
+            Game.getInstance().getAppInfoService().showPopupAd(runnable);
+        } else {
+            runnable.run();
+        }
+    }
+
     protected abstract int getOptionYear(String qString);
 
     protected String getOptionImageName(Integer index) {

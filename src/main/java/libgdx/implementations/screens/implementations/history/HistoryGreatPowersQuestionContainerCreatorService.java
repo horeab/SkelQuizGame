@@ -131,7 +131,12 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
                 } else {
                     processLostQuestion(currentQuestion);
                 }
-                updateControlsAfterAnswPressed(questionString, currentQuestion);
+                showPopupAd(new Runnable() {
+                    @Override
+                    public void run() {
+                        updateControlsAfterAnswPressed(questionString, currentQuestion);
+                    }
+                });
             }
         });
         btn.setTransform(true);

@@ -143,7 +143,12 @@ public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuest
                 } else {
                     processLostQuestion(currentQuestion);
                 }
-                updateControlsAfterAnswPressed(questionString, currentQuestion);
+                showPopupAd(new Runnable() {
+                    @Override
+                    public void run() {
+                        updateControlsAfterAnswPressed(questionString, currentQuestion);
+                    }
+                });
             }
         });
         btn.setTransform(true);
