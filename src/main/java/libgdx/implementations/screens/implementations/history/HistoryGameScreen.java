@@ -53,17 +53,18 @@ public class HistoryGameScreen extends GameScreen<HistoryScreenManager> {
     public Integer firstOpenQuestionIndex = 0;
     private Integer currentQuestion = 0;
     private Table questionTable;
-    private HistoryPreferencesService historyPreferencesService = new HistoryPreferencesService();
+    public HistoryPreferencesService historyPreferencesService;
     private HistoryQuestionContainerCreatorService questionContainerCreatorService;
     public int totalHints = 6;
 
     public HistoryGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         super(gameContext);
+        historyPreferencesService = new HistoryPreferencesService();
         this.gameContext = gameContext;
         if (gameContext.getQuestion().getQuestionCategory() == HistoryCategoryEnum.cat0) {
-            questionContainerCreatorService = new HistoryTimelineQuestionContainerCreatorService(gameContext, this);
+            questionContainerCreatorService = new HistoryTimelineQuestionContainerCreatorService(gameContext, this, historyPreferencesService);
         } else {
-            questionContainerCreatorService = new HistoryGreatPowersQuestionContainerCreatorService(gameContext, this);
+            questionContainerCreatorService = new HistoryGreatPowersQuestionContainerCreatorService(gameContext, this, historyPreferencesService);
         }
         Collections.reverse(gameContext.getCurrentUserGameUser().getAllQuestionInfos());
         initNextQuestion();

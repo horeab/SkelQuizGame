@@ -11,19 +11,15 @@ import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
-import com.badlogic.gdx.utils.Align;
 
 import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.List;
 
-import libgdx.constants.Contrast;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.ButtonSkin;
-import libgdx.controls.button.MainButtonSize;
 import libgdx.controls.button.MyButton;
-import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
@@ -39,7 +35,6 @@ import libgdx.resources.MainResource;
 import libgdx.resources.Res;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
-import libgdx.skelgameimpl.skelgame.SkelGameLabel;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
@@ -49,15 +44,16 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
 
     float optionHeight;
     HistoryGameScreen historyGameScreen;
-    HistoryPreferencesService historyPreferencesService = new HistoryPreferencesService();
+    HistoryPreferencesService historyPreferencesService;
     MyWrappedLabel scoreLabel;
     MyWrappedLabel totalHintsLabel;
     private Integer timelineDisplayed = null;
     private MyWrappedLabel epochNameLabel;
 
-    public HistoryQuestionContainerCreatorService(GameContext gameContext, HistoryGameScreen abstractGameScreen) {
+    public HistoryQuestionContainerCreatorService(GameContext gameContext, HistoryGameScreen abstractGameScreen, HistoryPreferencesService historyPreferencesService) {
         super(gameContext, abstractGameScreen);
         this.historyGameScreen = abstractGameScreen;
+        this.historyPreferencesService = historyPreferencesService;
         initOptionHeight();
     }
 
