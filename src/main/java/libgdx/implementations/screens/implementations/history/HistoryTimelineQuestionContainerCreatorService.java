@@ -14,6 +14,7 @@ import libgdx.controls.button.ButtonSkin;
 import libgdx.controls.button.MyButton;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.history.HistoryCampaignLevelEnum;
+import libgdx.implementations.history.HistoryPreferencesService;
 import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.gameservice.GameContext;
@@ -27,8 +28,8 @@ public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuest
 
     private List<Integer> questionNrInOrder;
 
-    public HistoryTimelineQuestionContainerCreatorService(GameContext gameContext, HistoryGameScreen abstractGameScreen) {
-        super(gameContext, abstractGameScreen);
+    public HistoryTimelineQuestionContainerCreatorService(GameContext gameContext, HistoryGameScreen abstractGameScreen, HistoryPreferencesService historyPreferencesService) {
+        super(gameContext, abstractGameScreen,historyPreferencesService);
         initQuestionNrInOrder();
     }
 

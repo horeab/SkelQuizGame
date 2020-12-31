@@ -20,6 +20,7 @@ import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.history.HistoryCampaignLevelEnum;
+import libgdx.implementations.history.HistoryPreferencesService;
 import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.gameservice.GameContext;
@@ -35,8 +36,8 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
 
     private Map<Integer, Integer> qNrMaxYear;
 
-    public HistoryGreatPowersQuestionContainerCreatorService(GameContext gameContext, HistoryGameScreen abstractGameScreen) {
-        super(gameContext, abstractGameScreen);
+    public HistoryGreatPowersQuestionContainerCreatorService(GameContext gameContext, HistoryGameScreen abstractGameScreen, HistoryPreferencesService historyPreferencesService) {
+        super(gameContext, abstractGameScreen,historyPreferencesService);
         this.campaignLevelEnum = HistoryCampaignLevelEnum.LEVEL_0_1;
         initQuestionNrMaxYear();
     }
