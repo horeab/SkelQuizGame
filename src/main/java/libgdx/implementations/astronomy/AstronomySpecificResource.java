@@ -19,6 +19,23 @@ public enum AstronomySpecificResource implements SpecificResource {
     img_cat4_5("questions/images/cat4/5.jpg", Texture.class),
     img_cat4_6("questions/images/cat4/6.jpg", Texture.class),
 
+    planet_1("planets/1.png", Texture.class),
+    planet_2("planets/2.png", Texture.class),
+    planet_3("planets/3.png", Texture.class),
+    planet_4("planets/4.png", Texture.class),
+    planet_5("planets/5.png", Texture.class),
+    planet_6("planets/6.png", Texture.class),
+    planet_7("planets/7.png", Texture.class),
+    planet_8("planets/8.png", Texture.class),
+    planet_9("planets/9.png", Texture.class),
+
+    correct_drag("correct_drag.png", Texture.class),
+    wrong_drag("wrong_drag.png", Texture.class),
+    orbital_period("orbital_period.png", Texture.class),
+    radius("radius.png", Texture.class),
+    speed_light("speed_light.png", Texture.class),
+    temperature("temperature.png", Texture.class),
+
     specific_labels("labels/labels", I18NBundle.class),
     campaign_level_0_0("campaign/l_0/level_0_0.png", Texture.class),
     campaign_level_0_1("campaign/l_0/level_0_1.png", Texture.class),

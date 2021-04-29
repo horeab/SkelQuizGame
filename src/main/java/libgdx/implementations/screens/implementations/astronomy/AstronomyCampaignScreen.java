@@ -9,6 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 import libgdx.campaign.*;
+import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
@@ -19,9 +20,11 @@ import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.astronomy.AstronomyCampaignLevelEnum;
 import libgdx.implementations.astronomy.AstronomyGame;
 import libgdx.implementations.astronomy.AstronomySpecificResource;
+import libgdx.implementations.countries.CountriesSpecificResource;
 import libgdx.implementations.skelgame.*;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.resources.FontManager;
+import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.MainGameLabel;
 import libgdx.screen.AbstractScreen;
@@ -66,6 +69,7 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
     }
 
     private Table createAllTable() {
+        new ActorAnimation(getAbstractScreen()).createScrollingBackground(MainResource.background_texture);
         Table table = new Table();
         MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setFontConfig(new FontConfig(
@@ -130,7 +134,7 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
     private MyButton createCategButton(final CampaignLevel campaignLevel) {
         final int maxOpenedLevel = allCampaignLevelStores.size();
         boolean locked = campaignLevel.getIndex() >= maxOpenedLevel;
-//        locked=false;
+        locked=false;
         String labelText = new CampaignLevelEnumService(campaignLevel).getLabelText();
         if (locked) {
             labelText = "???";

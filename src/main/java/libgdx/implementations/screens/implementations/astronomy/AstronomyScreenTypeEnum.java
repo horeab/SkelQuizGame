@@ -18,4 +18,10 @@ public enum AstronomyScreenTypeEnum implements ScreenType {
             return new AstronomyGameScreen((GameContext) params[0], (CampaignLevel) params[1]);
         }
     },
+
+    CAMPAIGN_DRAG_DROP_GAME_SCREEN {
+        public AbstractScreen getScreen(Object... params) {
+            return new AstronomyDragDropPlanetsScreen();
+        }
+    },
 }

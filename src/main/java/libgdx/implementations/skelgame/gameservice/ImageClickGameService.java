@@ -24,9 +24,9 @@ public class ImageClickGameService extends GameService {
         super(question);
     }
 
-    public Map<MyButton, Pair<Integer, Integer>> getAnswerOptionsCoordinates(List<MyButton> allAnswerOptionsButtons, QuestionDifficulty questionDifficultyLevel, QuizQuestionCategory questionCategory) {
+    public Map<MyButton, Pair<Float, Float>> getAnswerOptionsCoordinates(List<MyButton> allAnswerOptionsButtons, QuestionDifficulty questionDifficultyLevel, QuizQuestionCategory questionCategory) {
         List<Question> allQuestions = questionParser.getAllQuestions(questionDifficultyLevel, questionCategory);
-        Map<MyButton, Pair<Integer, Integer>> buttonWithCoordinates = new HashMap<>();
+        Map<MyButton, Pair<Float, Float>> buttonWithCoordinates = new HashMap<>();
         for (Question question : allQuestions) {
             for (MyButton button : allAnswerOptionsButtons) {
                 if (button.getText().toLowerCase().equals(questionParser.getAnswers(question.getQuestionString()).get(0).toLowerCase())) {
@@ -38,9 +38,9 @@ public class ImageClickGameService extends GameService {
         return buttonWithCoordinates;
     }
 
-    private Pair<Integer, Integer> getAnswerOptionCoordinates(String questionString) {
+    private Pair<Float, Float> getAnswerOptionCoordinates(String questionString) {
         String[] s = questionString.split(":")[4].split(",");
-        return new MutablePair<Integer, Integer>(Integer.parseInt(s[0]), Integer.parseInt(s[1]));
+        return new MutablePair<Float, Float>(Float.parseFloat(s[0]), Float.parseFloat(s[1]));
     }
 
 

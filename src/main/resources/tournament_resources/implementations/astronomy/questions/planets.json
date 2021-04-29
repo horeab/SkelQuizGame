@@ -1,0 +1,92 @@
+[
+  {
+    "pName": "Mercury",
+    "id": 1,
+    "radius":2439.7,
+    "orbitalPeriodInDays": 88,
+    "massInRelationToEarth": 0.055,
+    "lightFromSunInSec": 193,
+    "gravityInRelationToEarth": 0.38,
+    "meanTempInC": 167
+  },
+  {
+    "pName": "Venus",
+    "id": 2,
+    "radius": 6052,
+    "orbitalPeriodInDays": 225,
+    "massInRelationToEarth": 0.815,
+    "lightFromSunInSec": 360,
+    "gravityInRelationToEarth": 0.9,
+    "meanTempInC": 464
+  },
+  {
+    "pName": "Terra",
+    "id": 3,
+    "radius":6371,
+    "orbitalPeriodInDays": 365,
+    "massInRelationToEarth": 1,
+    "lightFromSunInSec": 499,
+    "gravityInRelationToEarth": 1,
+    "meanTempInC": 15
+  },
+  {
+    "pName": "Mars",
+    "id": 4,
+    "radius": 3389,
+    "orbitalPeriodInDays": 687,
+    "massInRelationToEarth": 0.107,
+    "lightFromSunInSec": 759,
+    "gravityInRelationToEarth": 0.38,
+    "meanTempInC": -65
+  },
+  {
+    "pName": "Jupiter",
+    "id": 5,
+    "radius": 69911,
+    "orbitalPeriodInDays": 4332,
+    "massInRelationToEarth": 317.8,
+    "lightFromSunInSec": 2595,
+    "gravityInRelationToEarth": 2.4,
+    "meanTempInC": -110
+  },
+  {
+    "pName": "Saturn",
+    "id": 6,
+    "radius": 58232,
+    "orbitalPeriodInDays": 10747,
+    "massInRelationToEarth": 95.16,
+    "lightFromSunInSec": 4759,
+    "gravityInRelationToEarth": 0.9,
+    "meanTempInC": -140
+  },
+  {
+    "pName": "Uranus",
+    "id": 7,
+    "radius": 25362,
+    "orbitalPeriodInDays": 30589,
+    "massInRelationToEarth": 14.54,
+    "lightFromSunInSec": 9575,
+    "gravityInRelationToEarth": 0.9,
+    "meanTempInC": -195
+  },
+  {
+    "pName": "Neptune",
+    "id": 8,
+    "radius": 24622,
+    "orbitalPeriodInDays": 59800,
+    "massInRelationToEarth": 17.15,
+    "lightFromSunInSec": 14998,
+    "gravityInRelationToEarth": 1.1,
+    "meanTempInC": -200
+  },
+  {
+    "pName": "Pluto",
+    "id": 9,
+    "radius": 1188,
+    "orbitalPeriodInDays": 90560,
+    "massInRelationToEarth": 0.0022,
+    "lightFromSunInSec": 19680,
+    "gravityInRelationToEarth": 0.07,
+    "meanTempInC": -225
+  }
+]

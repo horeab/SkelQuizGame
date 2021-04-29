@@ -82,12 +82,13 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
         grp.addActor(image);
         grp.setHeight(image.getHeight());
         grp.setWidth(image.getWidth());
-        Map<MyButton, Pair<Integer, Integer>> buttonWithCoordinates = gameService.getAnswerOptionsCoordinates(new ArrayList<>(getAllAnswerButtons().values()), question.getQuestionDifficultyLevel(), question.getQuestionCategory());
-        for (Map.Entry<MyButton, Pair<Integer, Integer>> entry : buttonWithCoordinates.entrySet()) {
+        Map<MyButton, Pair<Float, Float>> buttonWithCoordinates = gameService.getAnswerOptionsCoordinates(new ArrayList<>(getAllAnswerButtons().values()), question.getQuestionDifficultyLevel(), question.getQuestionCategory());
+        for (Map.Entry<MyButton, Pair<Float, Float>> entry : buttonWithCoordinates.entrySet()) {
             MyButton button = entry.getKey();
             grp.addActor(button);
-            Pair<Integer, Integer> coord = entry.getValue();
+            Pair<Float, Float> coord = entry.getValue();
             button.setTransform(true);
+//            button.setVisible(false);
             button.setPosition(image.getWidth() / 100 * coord.getKey(), image.getHeight() / 100 * coord.getValue(), Align.center);
             new ActorAnimation(button, Game.getInstance().getAbstractScreen()).animateZoomInZoomOut();
         }

@@ -5,12 +5,14 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
 import libgdx.campaign.CampaignStoreService;
+import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.implementations.astronomy.AstronomyGame;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.screens.implementations.geoquiz.CampaignLevelFinishedPopup;
+import libgdx.resources.MainResource;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.RGBColor;
@@ -36,6 +38,7 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
 
     private void createAllTable() {
         allTable = new Table();
+        new ActorAnimation(getAbstractScreen()).createScrollingBackground(MainResource.background_texture);
         QuestionContainerCreatorService questionContainerCreatorService;
         if (gameContext.getQuestion().getQuestionCategory().getCreatorDependencies() == ImageClickGameCreatorDependencies.class) {
             questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
@@ -104,6 +107,7 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
         }
     }
 
+    @Override
     public void executeLevelFinished() {
         GameUser gameUser = gameContext.getCurrentUserGameUser();
         if (levelFinishedService.isGameWon(gameUser)) {
