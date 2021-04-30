@@ -1,8 +1,18 @@
 [
   {
+    "pName": "Sun",
+    "id": 0,
+    "radius": 696340,
+    "orbitalPeriodInDays": 0,
+    "massInRelationToEarth": 333000,
+    "lightFromSunInSec": 0,
+    "gravityInRelationToEarth": 27,
+    "meanTempInC": 5500
+  },
+  {
     "pName": "Mercury",
     "id": 1,
-    "radius":2439.7,
+    "radius": 2439.7,
     "orbitalPeriodInDays": 88,
     "massInRelationToEarth": 0.055,
     "lightFromSunInSec": 193,
@@ -22,7 +32,7 @@
   {
     "pName": "Terra",
     "id": 3,
-    "radius":6371,
+    "radius": 6371,
     "orbitalPeriodInDays": 365,
     "massInRelationToEarth": 1,
     "lightFromSunInSec": 499,
@@ -88,5 +98,15 @@
     "lightFromSunInSec": 19680,
     "gravityInRelationToEarth": 0.07,
     "meanTempInC": -225
+  },
+  {
+    "pName": "Moon",
+    "id": 10,
+    "radius": 1737,
+    "orbitalPeriodInDays": 0,
+    "massInRelationToEarth": 0.012,
+    "lightFromSunInSec": 0,
+    "gravityInRelationToEarth": 0.16,
+    "meanTempInC": -20
   }
 ]

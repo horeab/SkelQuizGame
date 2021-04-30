@@ -19,6 +19,7 @@ public enum AstronomySpecificResource implements SpecificResource {
     img_cat4_5("questions/images/cat4/5.jpg", Texture.class),
     img_cat4_6("questions/images/cat4/6.jpg", Texture.class),
 
+    planet_0("planets/0.png", Texture.class),
     planet_1("planets/1.png", Texture.class),
     planet_2("planets/2.png", Texture.class),
     planet_3("planets/3.png", Texture.class),
@@ -28,6 +29,8 @@ public enum AstronomySpecificResource implements SpecificResource {
     planet_7("planets/7.png", Texture.class),
     planet_8("planets/8.png", Texture.class),
     planet_9("planets/9.png", Texture.class),
+    planet_10("planets/10.png", Texture.class),
+    earth_stroke("planets/earth_stroke.png", Texture.class),
 
     correct_drag("correct_drag.png", Texture.class),
     wrong_drag("wrong_drag.png", Texture.class),
@@ -35,6 +38,8 @@ public enum AstronomySpecificResource implements SpecificResource {
     radius("radius.png", Texture.class),
     speed_light("speed_light.png", Texture.class),
     temperature("temperature.png", Texture.class),
+
+    planet_option_backgr("planet_option_backgr.png", Texture.class),
 
     specific_labels("labels/labels", I18NBundle.class),
     campaign_level_0_0("campaign/l_0/level_0_0.png", Texture.class),
@@ -49,7 +54,7 @@ public enum AstronomySpecificResource implements SpecificResource {
     campaign_level_0_5("campaign/l_0/level_0_5.png", Texture.class),
     campaign_level_0_5d("campaign/l_0/level_0_5d.png", Texture.class),
     title_clouds_background("title_clouds_background.png", Texture.class),
-    ;;
+    ;
 
     // @formatter:on
 

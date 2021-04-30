@@ -41,19 +41,31 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
 
     private final static String IMG_NAME = "PlanetImgName";
     public static final String ANSWER_LABEL_TEXT_NAME = "answerLabelTextName";
-    private CampaignLevel campaignLevel;
+    public static final String PLANET_STACK_NAME = "PLANET_STACK_NAME";
     private Table allTable;
     private int TOTAL_OPTIONS = 4;
+    private CampaignLevel campaignLevel;
     private List<Planet> allPlanets;
-    private int correctPlanetId = 9;
+    private int correctPlanetId;
     private List<Integer> allOptPlanetIndex;
-    private PlanetsGameType planetsGameType = PlanetsGameType.MASS;
+    private PlanetsGameType planetsGameType;
 
     public AstronomyDragDropPlanetsScreen() {
         super(null);
-        this.campaignLevel = campaignLevel;
+        Random random = new Random();
+        planetsGameType = PlanetsGameType.values()[random.nextInt(PlanetsGameType.values().length)];
+//        planetsGameType = PlanetsGameType.GRAVITY;
         allPlanets = PlanetsUtil.getAllPlanets();
+        correctPlanetId = getCorrectPlanetId(random);
         allOptPlanetIndex = getAllOptPlanetIndex();
+    }
+
+    private int getCorrectPlanetId(Random random) {
+        int correctPlanetId = random.nextInt(allPlanets.size());
+        while (!PlanetsUtil.isValidOption(correctPlanetId, planetsGameType, allPlanets)) {
+            correctPlanetId = random.nextInt(allPlanets.size());
+        }
+        return correctPlanetId;
     }
 
     @Override
@@ -67,19 +79,36 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
         allTable.setFillParent(true);
         new ActorAnimation(getAbstractScreen()).createScrollingBackground(MainResource.background_texture);
         float margin = ScreenDimensionsManager.getScreenWidthValue(10);
-        allTable.add(createQuestionTable()).padTop(margin / 2).padBottom(margin / 2);
+        allTable.add(createLevelTitle()).height(ScreenDimensionsManager.getScreenHeightValue(20)).row();
+        allTable.add(createQuestionTable()).padBottom(margin / 2);
         addActor(allTable);
+    }
+
+    private MyWrappedLabel createLevelTitle() {
+        return new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
+                .setFontConfig(new FontConfig(RGBColor.WHITE.toColor(),
+                        Color.BLACK, Math.round(FontConfig.FONT_SIZE * 1.5f),
+                        3f, 3, 3, RGBColor.BLACK.toColor(0.4f)))
+                .setWrappedLineLabel(ScreenDimensionsManager.getScreenWidthValue(90))
+                .setText(planetsGameType.levelName).build());
     }
 
     private List<Integer> getAllOptPlanetIndex() {
         List<Integer> res = new ArrayList<>();
+        List<String> optTextList = new ArrayList<>();
         res.add(correctPlanetId);
+        optTextList.add(getOptionsText(correctPlanetId));
         Random random = new Random();
         while (res.size() < TOTAL_OPTIONS) {
-            int randI = random.nextInt(allPlanets.size()) + 1;
-            while (res.contains(randI)) {
-                randI = random.nextInt(allPlanets.size()) + 1;
+            int randI = random.nextInt(allPlanets.size());
+            String optText = getOptionsText(randI);
+            while (res.contains(randI)
+                    || !PlanetsUtil.isValidOption(randI, planetsGameType, allPlanets)
+                    || optTextList.contains(optText)) {
+                randI = random.nextInt(allPlanets.size());
+                optText = getOptionsText(randI);
             }
+            optTextList.add(optText);
             res.add(randI);
         }
         Collections.shuffle(res);
@@ -90,7 +119,7 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
         float optImgDimen = getOptImgDimen();
         float planetImgDimen = getPlanetImgDimen();
         Table imgTable = new Table();
-        Res optRes = AstronomySpecificResource.planet_3;
+        Res optRes = AstronomySpecificResource.planet_option_backgr;
         imgTable.add(creatAnswerImg(optRes, allOptPlanetIndex.get(0)))
                 .height(optImgDimen)
                 .width(optImgDimen);
@@ -146,7 +175,7 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
         processAnswerTextTable(answerText);
         Table answer = new Table();
         answer.add(answerText);
-        answerText.setBackground(GraphicUtils.getColorBackground(Color.RED));
+        answerText.setBackground(GraphicUtils.getColorBackground(new RGBColor(0.8f, 230, 242, 255).toColor()));
         Stack stack = new Stack();
         stack.add(GraphicUtils.getImage(background));
         stack.add(answer);
@@ -160,8 +189,8 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
             answerText.row();
             Image unit = GraphicUtils.getImage(AstronomySpecificResource.speed_light);
             answerText.add(unit).width(unitImgSideDimen * 2 * 1.2f).height(unitImgSideDimen * 1.2f);
-        } else if (planetsGameType == PlanetsGameType.MASS) {
-            Image unit = GraphicUtils.getImage(AstronomySpecificResource.planet_3);
+        } else if (planetsGameType == PlanetsGameType.MASS || planetsGameType == PlanetsGameType.RADIUS) {
+            Image unit = GraphicUtils.getImage(AstronomySpecificResource.earth_stroke);
             answerText.add(unit).width(unitImgSideDimen).height(unitImgSideDimen);
         } else if (planetsGameType == PlanetsGameType.MEAN_TEMPERATURE) {
             Image unit = GraphicUtils.getImage(AstronomySpecificResource.temperature);
@@ -170,10 +199,6 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
             Image unit = GraphicUtils.getImage(AstronomySpecificResource.orbital_period);
             answerText.row();
             answerText.add(unit).padTop(unitImgSideDimen / 5).width(unitImgSideDimen).height(unitImgSideDimen);
-        } else if (planetsGameType == PlanetsGameType.RADIUS) {
-            answerText.row();
-            Image unit = GraphicUtils.getImage(AstronomySpecificResource.radius);
-//            answerText.add(unit).width(unitImgSideDimen).height(unitImgSideDimen);
         }
     }
 
@@ -200,6 +225,7 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
 
     private Stack createQuestionImg(Res res, int correctIndex) {
         Stack stack = new Stack();
+        stack.setName(PLANET_STACK_NAME);
         stack.add(GraphicUtils.getImage(res));
         float labelWidth = ScreenDimensionsManager.getScreenWidthValue(30);
         float labelHeight = ScreenDimensionsManager.getScreenHeightValue(7);
@@ -236,7 +262,7 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
                     stack.setTouchable(Touchable.disabled);
                     moveToResponseImg(correctIndex, stack);
                     displayImgOverAnswer(AstronomySpecificResource.correct_drag, correctIndex);
-                    hideAnswerTexts(correctIndex);
+                    hidePlanetIcon();
 
                 } else {
 
@@ -248,8 +274,7 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
                             moveToResponseImg(i, stack);
                             displayImgOverAnswer(AstronomySpecificResource.wrong_drag, i);
                             displayImgOverAnswer(AstronomySpecificResource.correct_drag, correctIndex);
-                            hideAnswerTexts(i);
-                            hideAnswerTexts(correctIndex);
+                            hidePlanetIcon();
                             break;
                         }
                     }
@@ -262,8 +287,8 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
         return stack;
     }
 
-    private void hideAnswerTexts(int index) {
-        getRoot().findActor(ANSWER_LABEL_TEXT_NAME + index).addAction(Actions.fadeOut(fadeInCorrectWrongImgDuration()));
+    private void hidePlanetIcon() {
+        getRoot().findActor(PLANET_STACK_NAME).addAction(Actions.fadeOut(0.6f));
     }
 
     private void displayImgOverAnswer(Res res, int answerIndex) {

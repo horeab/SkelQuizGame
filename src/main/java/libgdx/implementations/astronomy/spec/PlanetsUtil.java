@@ -5,6 +5,7 @@ import libgdx.campaign.QuestionConfigFileHandler;
 import libgdx.implementations.astronomy.AstronomyCategoryEnum;
 import libgdx.implementations.astronomy.AstronomyDifficultyLevel;
 import libgdx.implementations.periodictable.spec.ChemicalElement;
+import libgdx.implementations.screens.implementations.astronomy.PlanetsGameType;
 import libgdx.implementations.skelgame.gameservice.QuestionContainerCreatorService;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 
@@ -18,14 +19,13 @@ public class PlanetsUtil {
 
     public static List<Planet> getAllPlanets() {
         List<Planet> planets = Arrays.asList(new Gson().fromJson(getAllFileText(), Planet[].class));
+        planets.get(10).setName(SpecificPropertiesUtils.getText("astronomy_moon"));
         String file = new QuestionConfigFileHandler().getFileText(AstronomyDifficultyLevel._0, AstronomyCategoryEnum.cat0);
         Scanner scanner = new Scanner(file);
         int i = 0;
         while (scanner.hasNextLine()) {
             String[] info = scanner.nextLine().split(":");
-            if (i > 0) {
-                planets.get(i - 1).setName(info[2]);
-            }
+            planets.get(i).setName(info[2]);
             i++;
         }
         return planets;
@@ -39,6 +39,23 @@ public class PlanetsUtil {
             }
         }
         return null;
+    }
+
+    public static boolean isValidOption(int id, PlanetsGameType planetsGameType, List<Planet> planets) {
+        if (planetsGameType == PlanetsGameType.SUN_LIGHT_DURATION) {
+            return getById(id, planets).getLightFromSunInSec() > 0;
+        } else if (planetsGameType == PlanetsGameType.MASS) {
+            return true;
+        } else if (planetsGameType == PlanetsGameType.GRAVITY) {
+            return true;
+        } else if (planetsGameType == PlanetsGameType.MEAN_TEMPERATURE) {
+            return true;
+        } else if (planetsGameType == PlanetsGameType.ORBITAL_PERIOD) {
+            return getById(id, planets).getOrbitalPeriodInDays() > 0;
+        } else if (planetsGameType == PlanetsGameType.RADIUS) {
+            return true;
+        }
+        return false;
     }
 
     public static String getLightFromSunInSec(int id, List<Planet> planets) {
@@ -106,8 +123,17 @@ public class PlanetsUtil {
     public static String getRadius(int id, List<Planet> planets) {
         for (Planet e : planets) {
             if (e.getId() == id) {
-                NumberFormat nf = NumberFormat.getInstance(Locale.US);
-                return nf.format((int) Math.round(e.getRadius())) + " km";
+                float earthRadius = getById(3, planets).getRadius();
+                return formatDecimalValue(e.getRadius() / earthRadius);
+            }
+        }
+        return null;
+    }
+
+    public static Planet getById(int id, List<Planet> planets) {
+        for (Planet e : planets) {
+            if (e.getId() == id) {
+                return e;
             }
         }
         return null;
@@ -127,21 +153,26 @@ public class PlanetsUtil {
             if (e.getId() == id) {
                 String res;
                 float massInRelationToEarth = e.getMassInRelationToEarth();
-                if (massInRelationToEarth >= 1) {
-                    res = ((int) Math.round(massInRelationToEarth)) + "";
-                } else {
-                    String dedcimalPlaces = "%.01f";
-                    if (massInRelationToEarth < 0.009f) {
-                        dedcimalPlaces = "%.03f";
-                    } else if (massInRelationToEarth < 0.09f) {
-                        dedcimalPlaces = "%.02f";
-                    }
-                    res = String.format(dedcimalPlaces, massInRelationToEarth);
-                }
-                return res + " x ";
+                return formatDecimalValue(massInRelationToEarth);
             }
         }
         return null;
+    }
+
+    private static String formatDecimalValue(float massInRelationToEarth) {
+        String res;
+        if (massInRelationToEarth >= 1) {
+            res = ((int) Math.round(massInRelationToEarth)) + "";
+        } else {
+            String dedcimalPlaces = "%.01f";
+            if (massInRelationToEarth < 0.009f) {
+                dedcimalPlaces = "%.03f";
+            } else if (massInRelationToEarth < 0.09f) {
+                dedcimalPlaces = "%.02f";
+            }
+            res = String.format(dedcimalPlaces, massInRelationToEarth);
+        }
+        return res + " x ";
     }
 
 
