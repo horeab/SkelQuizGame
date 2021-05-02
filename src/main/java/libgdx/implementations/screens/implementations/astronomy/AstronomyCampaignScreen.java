@@ -116,10 +116,10 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
         btnTable2.add().width(ScreenDimensionsManager.getScreenWidthValue(30));
         addButtonToTable(btnTable2, AstronomyCampaignLevelEnum.LEVEL_0_5);
         InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
-        if (!Utils.isValidExtraContent()) {
-            btnTable2 = inAppPurchaseTable.createForProVersion(btnTable2, false);
-            btnTable2.setWidth(ScreenDimensionsManager.getScreenWidth());
-        }
+//        if (!Utils.isValidExtraContent()) {
+//            btnTable2 = inAppPurchaseTable.createForProVersion(btnTable2, false);
+//            btnTable2.setWidth(ScreenDimensionsManager.getScreenWidth());
+//        }
         table.add(btnTable2).width(btnTable2.getWidth()).padBottom(MainDimen.vertical_general_margin.getDimen() * 2);
 
 

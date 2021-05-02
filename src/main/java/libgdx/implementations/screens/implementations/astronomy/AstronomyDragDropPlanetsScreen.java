@@ -8,62 +8,56 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
-import libgdx.campaign.CampaignLevel;
-import libgdx.campaign.CampaignService;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.astronomy.AstronomyGame;
 import libgdx.implementations.astronomy.AstronomySpecificResource;
+import libgdx.implementations.astronomy.spec.AstronomyPreferencesManager;
 import libgdx.implementations.astronomy.spec.Planet;
 import libgdx.implementations.astronomy.spec.PlanetsUtil;
 import libgdx.implementations.screens.GameScreen;
-import libgdx.implementations.screens.implementations.geoquiz.CampaignLevelFinishedPopup;
-import libgdx.implementations.skelgame.gameservice.LevelFinishedService;
-import libgdx.implementations.skelgame.gameservice.QuizStarsService;
-import libgdx.implementations.skelgame.question.GameUser;
+import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
 import libgdx.resources.MainResource;
 import libgdx.resources.Res;
+import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.utils.ScreenDimensionsManager;
+import libgdx.utils.SoundUtils;
 import libgdx.utils.Utils;
 import libgdx.utils.model.FontConfig;
 import libgdx.utils.model.RGBColor;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenManager> {
 
 
     private final static String IMG_NAME = "PlanetImgName";
-    public static final String ANSWER_LABEL_TEXT_NAME = "answerLabelTextName";
-    public static final String PLANET_STACK_NAME = "PLANET_STACK_NAME";
+    private static final String ANSWER_LABEL_TEXT_NAME = "answerLabelTextName";
+    private static final String PLANET_STACK_NAME = "PLANET_STACK_NAME";
     private Table allTable;
-    private int TOTAL_OPTIONS = 4;
-    private CampaignLevel campaignLevel;
     private List<Planet> allPlanets;
     private int correctPlanetId;
     private List<Integer> allOptPlanetIndex;
-    private PlanetsGameType planetsGameType;
+    private Map<Integer, GameQuestionInfoStatus> allQuestionsValidToPlay;
+    private AstronomyPlanetsGameType planetsGameType;
+    private AstronomyPreferencesManager astronomyPreferencesManager = new AstronomyPreferencesManager();
 
-    public AstronomyDragDropPlanetsScreen() {
+    public AstronomyDragDropPlanetsScreen(AstronomyPlanetsGameType planetsGameType, List<Planet> allPlanets) {
         super(null);
-        Random random = new Random();
-        planetsGameType = PlanetsGameType.values()[random.nextInt(PlanetsGameType.values().length)];
-//        planetsGameType = PlanetsGameType.GRAVITY;
-        allPlanets = PlanetsUtil.getAllPlanets();
-        correctPlanetId = getCorrectPlanetId(random);
-        allOptPlanetIndex = getAllOptPlanetIndex();
+        this.planetsGameType = planetsGameType;
+        this.allPlanets = allPlanets;
+        Collections.shuffle(allPlanets);
+        allQuestionsValidToPlay = PlanetsUtil.getAllAvailableLevelsToPlay(allPlanets, planetsGameType);
     }
 
-    private int getCorrectPlanetId(Random random) {
-        int correctPlanetId = random.nextInt(allPlanets.size());
-        while (!PlanetsUtil.isValidOption(correctPlanetId, planetsGameType, allPlanets)) {
-            correctPlanetId = random.nextInt(allPlanets.size());
+    private int getCorrectPlanetIdForQuestion() {
+        int correctPlanetId = -1;
+        for (Map.Entry<Integer, GameQuestionInfoStatus> e : allQuestionsValidToPlay.entrySet()) {
+            if (e.getValue() == GameQuestionInfoStatus.OPEN) {
+                return e.getKey();
+            }
         }
         return correctPlanetId;
     }
@@ -75,8 +69,20 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
     }
 
     private void createAllTable() {
+        correctPlanetId = getCorrectPlanetIdForQuestion();
+        if (correctPlanetId == -1) {
+            onBackKeyPress();
+            return;
+        }
+        allOptPlanetIndex = getAllOptPlanetIndex(correctPlanetId);
+
         allTable = new Table();
         allTable.setFillParent(true);
+
+        Table headerTable = new HeaderCreator().createHeaderTable(allQuestionsValidToPlay);
+        headerTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(5));
+        allTable.add(headerTable).height(headerTable.getHeight()).row();
+
         new ActorAnimation(getAbstractScreen()).createScrollingBackground(MainResource.background_texture);
         float margin = ScreenDimensionsManager.getScreenWidthValue(10);
         allTable.add(createLevelTitle()).height(ScreenDimensionsManager.getScreenHeightValue(20)).row();
@@ -90,15 +96,16 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
                         Color.BLACK, Math.round(FontConfig.FONT_SIZE * 1.5f),
                         3f, 3, 3, RGBColor.BLACK.toColor(0.4f)))
                 .setWrappedLineLabel(ScreenDimensionsManager.getScreenWidthValue(90))
-                .setText(planetsGameType.levelName).build());
+                .setText(SpecificPropertiesUtils.getText(planetsGameType.levelName)).build());
     }
 
-    private List<Integer> getAllOptPlanetIndex() {
+    private List<Integer> getAllOptPlanetIndex(int correctPlanetId) {
         List<Integer> res = new ArrayList<>();
         List<String> optTextList = new ArrayList<>();
         res.add(correctPlanetId);
         optTextList.add(getOptionsText(correctPlanetId));
         Random random = new Random();
+        int TOTAL_OPTIONS = 4;
         while (res.size() < TOTAL_OPTIONS) {
             int randI = random.nextInt(allPlanets.size());
             String optText = getOptionsText(randI);
@@ -185,17 +192,17 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
 
     private void processAnswerTextTable(Table answerText) {
         float unitImgSideDimen = ScreenDimensionsManager.getScreenWidthValue(10);
-        if (planetsGameType == PlanetsGameType.SUN_LIGHT_DURATION) {
+        if (planetsGameType == AstronomyPlanetsGameType.SUN_LIGHT_DURATION) {
             answerText.row();
             Image unit = GraphicUtils.getImage(AstronomySpecificResource.speed_light);
             answerText.add(unit).width(unitImgSideDimen * 2 * 1.2f).height(unitImgSideDimen * 1.2f);
-        } else if (planetsGameType == PlanetsGameType.MASS || planetsGameType == PlanetsGameType.RADIUS) {
+        } else if (planetsGameType == AstronomyPlanetsGameType.MASS || planetsGameType == AstronomyPlanetsGameType.RADIUS) {
             Image unit = GraphicUtils.getImage(AstronomySpecificResource.earth_stroke);
             answerText.add(unit).width(unitImgSideDimen).height(unitImgSideDimen);
-        } else if (planetsGameType == PlanetsGameType.MEAN_TEMPERATURE) {
+        } else if (planetsGameType == AstronomyPlanetsGameType.MEAN_TEMPERATURE) {
             Image unit = GraphicUtils.getImage(AstronomySpecificResource.temperature);
             answerText.add(unit).width(unitImgSideDimen).height(unitImgSideDimen);
-        } else if (planetsGameType == PlanetsGameType.ORBITAL_PERIOD) {
+        } else if (planetsGameType == AstronomyPlanetsGameType.ORBITAL_PERIOD) {
             Image unit = GraphicUtils.getImage(AstronomySpecificResource.orbital_period);
             answerText.row();
             answerText.add(unit).padTop(unitImgSideDimen / 5).width(unitImgSideDimen).height(unitImgSideDimen);
@@ -203,17 +210,17 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
     }
 
     private String getOptionsText(int index) {
-        if (planetsGameType == PlanetsGameType.SUN_LIGHT_DURATION) {
+        if (planetsGameType == AstronomyPlanetsGameType.SUN_LIGHT_DURATION) {
             return PlanetsUtil.getLightFromSunInSec(index, allPlanets);
-        } else if (planetsGameType == PlanetsGameType.MASS) {
+        } else if (planetsGameType == AstronomyPlanetsGameType.MASS) {
             return PlanetsUtil.getMassInRelationToEarth(index, allPlanets);
-        } else if (planetsGameType == PlanetsGameType.GRAVITY) {
+        } else if (planetsGameType == AstronomyPlanetsGameType.GRAVITY) {
             return PlanetsUtil.getGravityInRelationToEarth(index, allPlanets);
-        } else if (planetsGameType == PlanetsGameType.MEAN_TEMPERATURE) {
+        } else if (planetsGameType == AstronomyPlanetsGameType.MEAN_TEMPERATURE) {
             return PlanetsUtil.getMeanTemp(index, allPlanets);
-        } else if (planetsGameType == PlanetsGameType.ORBITAL_PERIOD) {
+        } else if (planetsGameType == AstronomyPlanetsGameType.ORBITAL_PERIOD) {
             return PlanetsUtil.getOrbitalPeriod(index, allPlanets);
-        } else if (planetsGameType == PlanetsGameType.RADIUS) {
+        } else if (planetsGameType == AstronomyPlanetsGameType.RADIUS) {
             return PlanetsUtil.getRadius(index, allPlanets);
         }
         return "";
@@ -240,6 +247,15 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
         planetName.setHeight(labelHeight);
         planetName.padTop(labelHeight / 1.5f);
         stack.add(planetName);
+
+        float moveBy = ScreenDimensionsManager.getScreenWidthValue(2);
+        float moveByDuration = 0.1f;
+        stack.addAction(
+                Actions.sequence(Actions.delay(0.2f),
+                        Actions.moveBy(moveBy, 0, moveByDuration),
+                        Actions.moveBy(-moveBy * 2, 0, moveByDuration),
+                        Actions.moveBy(moveBy * 2, 0, moveByDuration)));
+
         stack.addListener(new DragListener() {
             float initialX;
             float initialY;
@@ -259,22 +275,13 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
             @Override
             public void dragStop(InputEvent event, float x, float y, int pointer) {
                 if (responseDraggedOverImage(stack, correctIndex)) {
-                    stack.setTouchable(Touchable.disabled);
-                    moveToResponseImg(correctIndex, stack);
-                    displayImgOverAnswer(AstronomySpecificResource.correct_drag, correctIndex);
-                    hidePlanetIcon();
-
+                    questionCorrectAnswered(stack, correctIndex);
                 } else {
-
                     boolean isResponse = false;
                     for (Integer i : allOptPlanetIndex) {
                         if (responseDraggedOverImage(stack, i)) {
+                            questionWrongAnswered(i, stack, correctIndex);
                             isResponse = true;
-                            stack.setTouchable(Touchable.disabled);
-                            moveToResponseImg(i, stack);
-                            displayImgOverAnswer(AstronomySpecificResource.wrong_drag, i);
-                            displayImgOverAnswer(AstronomySpecificResource.correct_drag, correctIndex);
-                            hidePlanetIcon();
                             break;
                         }
                     }
@@ -287,8 +294,50 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
         return stack;
     }
 
+    private void questionWrongAnswered(Integer i, Stack stack, int correctIndex) {
+        allQuestionsValidToPlay.put(correctPlanetId, GameQuestionInfoStatus.LOST);
+        SoundUtils.playSound(AstronomySpecificResource.level_fail);
+        stack.setTouchable(Touchable.disabled);
+        moveToResponseImg(i, stack);
+        displayImgOverAnswer(AstronomySpecificResource.wrong_drag, i);
+        displayImgOverAnswer(AstronomySpecificResource.correct_drag, correctIndex);
+        hidePlanetIcon();
+    }
+
+    private void questionCorrectAnswered(Stack stack, int correctIndex) {
+        allQuestionsValidToPlay.put(correctPlanetId, GameQuestionInfoStatus.WON);
+        astronomyPreferencesManager.putLevelScore(planetsGameType, getTotalWonQuestions());
+        SoundUtils.playSound(AstronomySpecificResource.level_success);
+        stack.setTouchable(Touchable.disabled);
+        moveToResponseImg(correctIndex, stack);
+        displayImgOverAnswer(AstronomySpecificResource.correct_drag, correctIndex);
+        hidePlanetIcon();
+    }
+
+    private int getTotalWonQuestions() {
+        int res = 0;
+        for (Map.Entry<Integer, GameQuestionInfoStatus> e : allQuestionsValidToPlay.entrySet()) {
+            if (e.getValue() == GameQuestionInfoStatus.WON) {
+                res++;
+            }
+        }
+        return res;
+    }
+
     private void hidePlanetIcon() {
-        getRoot().findActor(PLANET_STACK_NAME).addAction(Actions.fadeOut(0.6f));
+        getRoot().findActor(PLANET_STACK_NAME).addAction(Actions.sequence(Actions.fadeOut(0.6f),
+                Utils.createRunnableAction(new Runnable() {
+                    @Override
+                    public void run() {
+                        allTable.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRunnableAction(new Runnable() {
+                            @Override
+                            public void run() {
+                                allTable.remove();
+                                createAllTable();
+                            }
+                        })));
+                    }
+                })));
     }
 
     private void displayImgOverAnswer(Res res, int answerIndex) {
@@ -331,36 +380,16 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
 
     @Override
     public void goToNextQuestionScreen() {
-        GameUser gameUser = gameContext.getCurrentUserGameUser();
-        if (levelFinishedService.isGameFailed(gameUser)) {
-            new CampaignLevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
-        }
-        allTable.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRunnableAction(new Runnable() {
-            @Override
-            public void run() {
-                allTable.remove();
-                createAllTable();
-            }
-        })));
     }
 
     @Override
     public void executeLevelFinished() {
-        GameUser gameUser = gameContext.getCurrentUserGameUser();
-        if (levelFinishedService.isGameWon(gameUser)) {
-            QuizStarsService starsService = AstronomyGame.getInstance().getDependencyManager().getStarsService();
-            int starsWon = starsService.getStarsWon(LevelFinishedService.getPercentageOfWonQuestions(gameUser));
-            new CampaignService().levelFinished(starsWon, campaignLevel);
-            screenManager.showMainScreen();
-        } else if (levelFinishedService.isGameFailed(gameUser)) {
-            new CampaignLevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
-        }
 //        screenManager.showMainScreen();
     }
 
     @Override
     public void onBackKeyPress() {
-        screenManager.showMainScreen();
+        screenManager.showDetailedCampaignScreen(AstronomyGameType.SOLAR_SYSTEM);
     }
 
 }

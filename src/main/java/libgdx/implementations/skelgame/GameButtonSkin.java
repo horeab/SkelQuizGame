@@ -70,6 +70,12 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     ASTRONOMY_CATEG3(AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3, AstronomySpecificResource.campaign_level_0_3d, null),
     ASTRONOMY_CATEG4(AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4, AstronomySpecificResource.campaign_level_0_4d, null),
     ASTRONOMY_CATEG5(AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5, AstronomySpecificResource.campaign_level_0_5d, null),
+    ASTRONOMY_PLANET_GAME_0(AstronomySpecificResource.radius, AstronomySpecificResource.radius, AstronomySpecificResource.radius, AstronomySpecificResource.radius, null),
+    ASTRONOMY_PLANET_GAME_1(AstronomySpecificResource.weight, AstronomySpecificResource.weight, AstronomySpecificResource.weight, AstronomySpecificResource.weight, null),
+    ASTRONOMY_PLANET_GAME_2(AstronomySpecificResource.distance_sun, AstronomySpecificResource.distance_sun, AstronomySpecificResource.distance_sun, AstronomySpecificResource.distance_sun, null),
+    ASTRONOMY_PLANET_GAME_3(AstronomySpecificResource.mass, AstronomySpecificResource.mass, AstronomySpecificResource.mass, AstronomySpecificResource.mass, null),
+    ASTRONOMY_PLANET_GAME_4(AstronomySpecificResource.orbital_period, AstronomySpecificResource.orbital_period, AstronomySpecificResource.orbital_period, AstronomySpecificResource.orbital_period, null),
+    ASTRONOMY_PLANET_GAME_5(AstronomySpecificResource.temperature, AstronomySpecificResource.temperature, AstronomySpecificResource.temperature, AstronomySpecificResource.temperature, null),
 
     COUNTRIES_CATEG0(CountriesSpecificResource.campaign_level_0_0, CountriesSpecificResource.campaign_level_0_0, CountriesSpecificResource.campaign_level_0_0, CountriesSpecificResource.campaign_level_0_0, null),
     COUNTRIES_CATEG1(CountriesSpecificResource.campaign_level_0_1, CountriesSpecificResource.campaign_level_0_1, CountriesSpecificResource.campaign_level_0_1, CountriesSpecificResource.campaign_level_0_1, null),

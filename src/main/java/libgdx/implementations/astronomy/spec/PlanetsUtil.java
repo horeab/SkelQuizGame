@@ -4,18 +4,15 @@ import com.google.gson.Gson;
 import libgdx.campaign.QuestionConfigFileHandler;
 import libgdx.implementations.astronomy.AstronomyCategoryEnum;
 import libgdx.implementations.astronomy.AstronomyDifficultyLevel;
-import libgdx.implementations.periodictable.spec.ChemicalElement;
-import libgdx.implementations.screens.implementations.astronomy.PlanetsGameType;
-import libgdx.implementations.skelgame.gameservice.QuestionContainerCreatorService;
+import libgdx.implementations.screens.implementations.astronomy.AstronomyPlanetsGameType;
+import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
-import java.text.NumberFormat;
 import java.util.*;
 
 public class PlanetsUtil {
-
 
     public static List<Planet> getAllPlanets() {
         List<Planet> planets = Arrays.asList(new Gson().fromJson(getAllFileText(), Planet[].class));
@@ -32,6 +29,16 @@ public class PlanetsUtil {
     }
 
 
+    public static Map<Integer, GameQuestionInfoStatus> getAllAvailableLevelsToPlay(List<Planet> allPlanets, AstronomyPlanetsGameType planetsGameType) {
+        Map<Integer, GameQuestionInfoStatus> res = new LinkedHashMap<>();
+        for (Planet planet : allPlanets) {
+            if (PlanetsUtil.isValidOption(planet.getId(), planetsGameType, allPlanets)) {
+                res.put(planet.getId(), GameQuestionInfoStatus.OPEN);
+            }
+        }
+        return res;
+    }
+
     public static String getName(int id, List<Planet> planets) {
         for (Planet e : planets) {
             if (e.getId() == id) {
@@ -41,18 +48,18 @@ public class PlanetsUtil {
         return null;
     }
 
-    public static boolean isValidOption(int id, PlanetsGameType planetsGameType, List<Planet> planets) {
-        if (planetsGameType == PlanetsGameType.SUN_LIGHT_DURATION) {
+    public static boolean isValidOption(int id, AstronomyPlanetsGameType planetsGameType, List<Planet> planets) {
+        if (planetsGameType == AstronomyPlanetsGameType.SUN_LIGHT_DURATION) {
             return getById(id, planets).getLightFromSunInSec() > 0;
-        } else if (planetsGameType == PlanetsGameType.MASS) {
+        } else if (planetsGameType == AstronomyPlanetsGameType.MASS) {
             return true;
-        } else if (planetsGameType == PlanetsGameType.GRAVITY) {
+        } else if (planetsGameType == AstronomyPlanetsGameType.GRAVITY) {
             return true;
-        } else if (planetsGameType == PlanetsGameType.MEAN_TEMPERATURE) {
+        } else if (planetsGameType == AstronomyPlanetsGameType.MEAN_TEMPERATURE) {
             return true;
-        } else if (planetsGameType == PlanetsGameType.ORBITAL_PERIOD) {
+        } else if (planetsGameType == AstronomyPlanetsGameType.ORBITAL_PERIOD) {
             return getById(id, planets).getOrbitalPeriodInDays() > 0;
-        } else if (planetsGameType == PlanetsGameType.RADIUS) {
+        } else if (planetsGameType == AstronomyPlanetsGameType.RADIUS) {
             return true;
         }
         return false;
@@ -151,7 +158,6 @@ public class PlanetsUtil {
     public static String getMassInRelationToEarth(int id, List<Planet> planets) {
         for (Planet e : planets) {
             if (e.getId() == id) {
-                String res;
                 float massInRelationToEarth = e.getMassInRelationToEarth();
                 return formatDecimalValue(massInRelationToEarth);
             }

@@ -1,6 +1,7 @@
 package libgdx.implementations.screens.implementations.astronomy;
 
 import libgdx.campaign.CampaignLevel;
+import libgdx.implementations.astronomy.spec.Planet;
 import libgdx.implementations.periodictable.PeriodicTableCategoryEnum;
 import libgdx.implementations.periodictable.PeriodicTableDifficultyLevel;
 import libgdx.implementations.skelgame.CampaignScreenManager;
@@ -23,8 +24,9 @@ public class AstronomyScreenManager extends CampaignScreenManager {
 //        questions = questions.subList(0, 7);
 //        GameContext gameContext = new GameContextService().createGameContext(questions.toArray(new Question[questions.size()]));
 //        showCampaignGameScreen(gameContext, null);
-        showCampaignScreen();
+//        showCampaignScreen();
 //        showCampaignDragDropGameScreen(null, null);
+        showDetailedCampaignScreen(AstronomyGameType.SOLAR_SYSTEM);
     }
 
     @Override
@@ -32,8 +34,12 @@ public class AstronomyScreenManager extends CampaignScreenManager {
         showScreen(AstronomyScreenTypeEnum.CAMPAIGN_SCREEN);
     }
 
-    public void showCampaignDragDropGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
-        showScreen(AstronomyScreenTypeEnum.CAMPAIGN_DRAG_DROP_GAME_SCREEN);
+    public void showDetailedCampaignScreen(AstronomyGameType astronomyGameType) {
+        showScreen(AstronomyScreenTypeEnum.CAMPAIGN_DETAILED_SCREEN, astronomyGameType);
+    }
+
+    public void showCampaignDragDropGameScreen(AstronomyPlanetsGameType planetsGameType, List<Planet> allPlanets) {
+        showScreen(AstronomyScreenTypeEnum.CAMPAIGN_DRAG_DROP_GAME_SCREEN, planetsGameType, allPlanets);
     }
 
     @Override

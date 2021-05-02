@@ -9,6 +9,8 @@ import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.implementations.astronomy.AstronomyGame;
 import libgdx.implementations.skelgame.gameservice.*;
+import libgdx.implementations.skelgame.question.GameQuestionInfo;
+import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.screens.implementations.geoquiz.CampaignLevelFinishedPopup;
@@ -16,6 +18,9 @@ import libgdx.resources.MainResource;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.RGBColor;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
 
@@ -47,7 +52,7 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
         }
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
-        Table headerTable = new HeaderCreator().createHeaderTable(gameContext);
+        Table headerTable = new HeaderCreator().createHeaderTable(createAllQuestionsMap());
         headerTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(5));
         allTable.add(headerTable).height(headerTable.getHeight()).row();
         allTable.add(questionTable).growY().row();
@@ -57,6 +62,14 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
         addActor(allTable);
 
         questionContainerCreatorService.processGameInfo(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
+    }
+
+    private Map<Integer, GameQuestionInfoStatus> createAllQuestionsMap() {
+        Map<Integer, GameQuestionInfoStatus> map = new HashMap<>();
+        for (GameQuestionInfo gameQuestionInfo : gameContext.getCurrentUserGameUser().getAllQuestionInfos()) {
+            map.put(gameQuestionInfo.getQuestion().getQuestionLineInQuestionFile(), gameQuestionInfo.getStatus());
+        }
+        return map;
     }
 
     @Override

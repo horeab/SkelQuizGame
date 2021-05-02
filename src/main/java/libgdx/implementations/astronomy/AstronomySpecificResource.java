@@ -1,5 +1,7 @@
 package libgdx.implementations.astronomy;
 
+import com.badlogic.gdx.audio.Music;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.utils.I18NBundle;
 import libgdx.game.Game;
@@ -34,10 +36,19 @@ public enum AstronomySpecificResource implements SpecificResource {
 
     correct_drag("correct_drag.png", Texture.class),
     wrong_drag("wrong_drag.png", Texture.class),
-    orbital_period("orbital_period.png", Texture.class),
-    radius("radius.png", Texture.class),
-    speed_light("speed_light.png", Texture.class),
-    temperature("temperature.png", Texture.class),
+
+    orbital_period("campaign/planets_game_type/orbital_period.png", Texture.class),
+    radius("campaign/planets_game_type/radius.png", Texture.class),
+    speed_light("campaign/planets_game_type/speed_light.png", Texture.class),
+    distance_sun("campaign/planets_game_type/distance_sun.png", Texture.class),
+    temperature("campaign/planets_game_type/temperature.png", Texture.class),
+    mass("campaign/planets_game_type/mass.png", Texture.class),
+    weight("campaign/planets_game_type/weight.png", Texture.class),
+
+
+    background_music("sounds/background.mp3", Music.class),
+    level_fail("sounds/level_fail.mp3", Sound.class),
+    level_success("sounds/level_success.mp3", Sound.class),
 
     planet_option_backgr("planet_option_backgr.png", Texture.class),
 
