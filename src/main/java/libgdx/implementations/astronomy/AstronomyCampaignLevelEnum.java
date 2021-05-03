@@ -10,6 +10,8 @@ public enum AstronomyCampaignLevelEnum implements CampaignLevel {
     LEVEL_0_3,
     LEVEL_0_4,
     LEVEL_0_5,
+    LEVEL_0_6,
+    LEVEL_0_7,
     ;
     ////;
 

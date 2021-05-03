@@ -8,13 +8,14 @@ import libgdx.implementations.skelgame.CampaignScreenManager;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.implementations.skelgame.question.Question;
+import libgdx.screen.AbstractScreenManager;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class AstronomyScreenManager extends CampaignScreenManager {
+public class AstronomyScreenManager extends AbstractScreenManager {
 
     @Override
     public void showMainScreen() {
@@ -24,12 +25,11 @@ public class AstronomyScreenManager extends CampaignScreenManager {
 //        questions = questions.subList(0, 7);
 //        GameContext gameContext = new GameContextService().createGameContext(questions.toArray(new Question[questions.size()]));
 //        showCampaignGameScreen(gameContext, null);
-//        showCampaignScreen();
+        showCampaignScreen();
 //        showCampaignDragDropGameScreen(null, null);
-        showDetailedCampaignScreen(AstronomyGameType.SOLAR_SYSTEM);
+//        showDetailedCampaignScreen(AstronomyGameType.SOLAR_SYSTEM);
     }
 
-    @Override
     public void showCampaignScreen() {
         showScreen(AstronomyScreenTypeEnum.CAMPAIGN_SCREEN);
     }
@@ -42,8 +42,7 @@ public class AstronomyScreenManager extends CampaignScreenManager {
         showScreen(AstronomyScreenTypeEnum.CAMPAIGN_DRAG_DROP_GAME_SCREEN, planetsGameType, allPlanets);
     }
 
-    @Override
-    public void showCampaignGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
-        showScreen(AstronomyScreenTypeEnum.CAMPAIGN_GAME_SCREEN, gameContext, campaignLevel);
+    public void showCampaignGameScreen(GameContext gameContext, CampaignLevel campaignLevel, AstronomyGameType astronomyGameType) {
+        showScreen(AstronomyScreenTypeEnum.CAMPAIGN_GAME_SCREEN, gameContext, campaignLevel, astronomyGameType);
     }
 }

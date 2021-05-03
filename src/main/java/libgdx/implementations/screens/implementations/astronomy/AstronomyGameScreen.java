@@ -20,19 +20,21 @@ import libgdx.utils.Utils;
 import libgdx.utils.model.RGBColor;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
 
-    public static int TOTAL_QUESTIONS = 9;
     private AstronomyContainers containers = new AstronomyContainers();
     private CampaignStoreService campaignStoreService = new CampaignStoreService();
     private Table allTable;
     private CampaignLevel campaignLevel;
+    private AstronomyGameType astronomyGameType;
 
-    public AstronomyGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
+    public AstronomyGameScreen(GameContext gameContext, CampaignLevel campaignLevel, AstronomyGameType astronomyGameType) {
         super(gameContext);
         this.campaignLevel = campaignLevel;
+        this.astronomyGameType = astronomyGameType;
     }
 
     @Override
@@ -65,7 +67,7 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
     }
 
     private Map<Integer, GameQuestionInfoStatus> createAllQuestionsMap() {
-        Map<Integer, GameQuestionInfoStatus> map = new HashMap<>();
+        Map<Integer, GameQuestionInfoStatus> map = new LinkedHashMap<>();
         for (GameQuestionInfo gameQuestionInfo : gameContext.getCurrentUserGameUser().getAllQuestionInfos()) {
             map.put(gameQuestionInfo.getQuestion().getQuestionLineInQuestionFile(), gameQuestionInfo.getStatus());
         }
@@ -95,7 +97,7 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
 
     @Override
     public void onBackKeyPress() {
-        screenManager.showMainScreen();
+        screenManager.showDetailedCampaignScreen(astronomyGameType);
     }
 
     @Override
@@ -127,7 +129,7 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
             QuizStarsService starsService = AstronomyGame.getInstance().getDependencyManager().getStarsService();
             int starsWon = starsService.getStarsWon(LevelFinishedService.getPercentageOfWonQuestions(gameUser));
             new CampaignService().levelFinished(starsWon, campaignLevel);
-            screenManager.showMainScreen();
+            screenManager.showDetailedCampaignScreen(astronomyGameType);
         } else if (levelFinishedService.isGameFailed(gameUser)) {
             new CampaignLevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
         }

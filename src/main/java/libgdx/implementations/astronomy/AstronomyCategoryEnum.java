@@ -10,6 +10,8 @@ public enum AstronomyCategoryEnum implements QuizQuestionCategory {
     cat3(DependentQuizGameCreatorDependencies.class),
     cat4(DependentQuizGameCreatorDependencies.class),
     cat5(UniqueQuizGameCreatorDependencies.class),
+    cat6(DependentQuizGameCreatorDependencies.class),
+    cat7(DependentQuizGameCreatorDependencies.class),
     ;
 
     private Class<? extends CreatorDependencies> questionCreator;
