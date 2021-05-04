@@ -4,29 +4,25 @@ import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
-import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.implementations.astronomy.AstronomyGame;
+import libgdx.implementations.screens.GameScreen;
+import libgdx.implementations.screens.implementations.geoquiz.CampaignLevelFinishedPopup;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
 import libgdx.implementations.skelgame.question.GameUser;
-import libgdx.implementations.screens.GameScreen;
-import libgdx.implementations.screens.implementations.geoquiz.CampaignLevelFinishedPopup;
 import libgdx.resources.MainResource;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.RGBColor;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
 
-    private AstronomyContainers containers = new AstronomyContainers();
-    private CampaignStoreService campaignStoreService = new CampaignStoreService();
     private Table allTable;
     private CampaignLevel campaignLevel;
     private AstronomyGameType astronomyGameType;
@@ -78,7 +74,7 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
     public void goToNextQuestionScreen() {
         GameUser gameUser = gameContext.getCurrentUserGameUser();
         if (levelFinishedService.isGameFailed(gameUser)) {
-            new CampaignLevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
+            new AstronomyCampaignLevelFinishedPopup(this, campaignLevel, astronomyGameType, gameContext).addToPopupManager();
         }
         Table table = getRoot().findActor(HangmanRefreshQuestionDisplayService.ACTOR_NAME_HANGMAN_WORD_TABLE);
         if (table != null) {
@@ -94,10 +90,13 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
         })));
     }
 
-
     @Override
     public void onBackKeyPress() {
-        screenManager.showDetailedCampaignScreen(astronomyGameType);
+        if (astronomyGameType == AstronomyGameType.FIND_PLANET) {
+            screenManager.showMainScreen();
+        } else {
+            screenManager.showDetailedCampaignScreen(astronomyGameType);
+        }
     }
 
     @Override
@@ -131,7 +130,7 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
             new CampaignService().levelFinished(starsWon, campaignLevel);
             screenManager.showDetailedCampaignScreen(astronomyGameType);
         } else if (levelFinishedService.isGameFailed(gameUser)) {
-            new CampaignLevelFinishedPopup(this, campaignLevel, gameContext).addToPopupManager();
+            new AstronomyCampaignLevelFinishedPopup(this, campaignLevel, astronomyGameType, gameContext).addToPopupManager();
         }
 //        screenManager.showMainScreen();
     }
