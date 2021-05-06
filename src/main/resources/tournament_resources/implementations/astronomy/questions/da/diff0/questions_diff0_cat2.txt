@@ -1,7 +1,7 @@
 0:Hvad er den største kendte stjerne?:UY Scuti##Betelgeuse##VY Canis majoris##Pollux:0:
 1:Hvad er den mest tætte slags stjerne?:Rød kæmpe##Neutronstjerne##Sort dværg##Hvid dværg:1:
 2:Hvad er den nærmeste galakse til vores?:Barnards galakse##NGC 24 19##Andromeda##Ic 1101:2:
-3:Hvad hedder vores galakse?:Terra##Mælkevejen##Andromeda##Universum:1:
+3:Hvad hedder vores galakse?:Jorden##Mælkevejen##Andromeda##Universum:1:
 4:Hvor mange stjerner er der i vores galakse?:16 millioner##5 tusinder##250 milliarder##1 milliard:2:
 5:Hvad består universet mest af?:Mørk materie##Mørk energi##Lys##Synlig stof:1:
 6:Hvad er den lyseste stjerne på himlen?:Sirius##Andromeda##Orion##Polaris:0:

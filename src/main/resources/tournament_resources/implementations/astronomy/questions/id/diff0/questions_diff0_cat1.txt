@@ -1,5 +1,5 @@
 0:Ada berapa banyak planet di tata surya?:8##9##10##11:0:
-1:Seberapa jauh dari Terra adalah matahari kita, kira-kira ...?:93 tahun cahaya##150 juta kilometer##150 miliar kilometer##150 triliun kilometer:1:
+1:Seberapa jauh dari Bumi adalah matahari kita, kira-kira ...?:93 tahun cahaya##150 juta kilometer##150 miliar kilometer##150 triliun kilometer:1:
 2:Apa itu bulan?:Asteroid##bintang##satelit alami##planet:2:
 3:Kira-kira berapa umur bumi?:6 miliar tahun##4 miliar tahun##1 miliar tahun##4 triliun tahun:1:
 4:Apa akibat kemiringan bumi?:Musim##Siang dan Malam##Tsunami##Gempa Bumi:0:

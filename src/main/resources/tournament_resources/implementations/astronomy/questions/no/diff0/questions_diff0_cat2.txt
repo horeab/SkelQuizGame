@@ -1,7 +1,7 @@
 0:Hva er den største kjente stjernen?:UY Scuti##Betelgeuse##VY Canis majoris##Pollux:0:
 1:Hva er den tetteste typen stjerne?:Rød kjempe##Neutronstjerne##Svart dverg##Hvit dverg:1:
 2:Hva er den nærmeste galaksen til vår?:Barnards galakse##NGC 24 19##Andromeda##Ic 1101:2:
-3:Hva heter galaksen vår?:Terra##Melkeveien##Andromeda##Universet:1:
+3:Hva heter galaksen vår?:Jorden##Melkeveien##Andromeda##Universet:1:
 4:Hvor mange stjerner er det i galaksen vår?:16 millioner##5 Tusen##250 milliarder##1 milliard:2:
 5:Hva består universet mest av?:Mørk materie##Mørk energi##Lys##Synlig materie:1:
 6:Hva er den lyseste stjernen på himmelen?:Sirius##Andromeda##Orion##Polaris:0:

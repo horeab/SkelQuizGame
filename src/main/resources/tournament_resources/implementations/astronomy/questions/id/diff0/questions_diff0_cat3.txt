@@ -1,7 +1,7 @@
 0:Apa planet terpanas di alam semesta?:Venus:1,2,3:
 1:Apa planet terdingin?:Uranus:4,5,6:
 2:Planet mana di tata surya kita yang memiliki bulan terbanyak?:Jupiter:0,3,4:
-3:Planet mana yang merupakan planet terestrial terbesar?:Terra:1,2,5:
+3:Planet mana yang merupakan planet terestrial terbesar?:Bumi:1,2,5:
 4:Planet mana yang memiliki angin terkuat?:Neptunus:3,5,6:
 5:Planet mana yang merupakan planet berbatu?:Merkurius:1,2,4:
 6:Apa planet ke-4 di tata surya?:Mars:1,4,5:

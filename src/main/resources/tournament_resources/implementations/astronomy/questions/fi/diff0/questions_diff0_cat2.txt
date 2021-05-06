@@ -1,7 +1,7 @@
 0:Mikä on suurin tunnettu tähti?:UY Scuti##Betelgeuse##VY Canis majoris##Pollux:0:
 1:Mikä on kaikkein tihein tähti?:Punainen jättiläinen##Neutronitähti##Musta kääpiö##Valkoinen kääpiö:1:
 2:Mikä on lähimpänä oleva galaksiamme?:Barnardin galaksi##NGC 24 19##Andromeda##Ic 1101:2:
-3:Mitä galaksiamme kutsutaan?:Terra##Linnunrata##Andromeda##Universumi:1:
+3:Mitä galaksiamme kutsutaan?:Maa##Linnunrata##Andromeda##Universumi:1:
 4:Kuinka monta tähteä on galaksissamme?:16 miljoonaa##5 tuhatta##250 miljardia##1 miljardia:2:
 5:Mistä maailmankaikkeus koostuu enimmäkseen?:Tumma aine##Tumma energia##Valo##Näkyvä aine:1:
 6:Mikä on taivaan kirkkain tähti?:Sirius##Andromeda##Orion##Polaris:0:

@@ -1,7 +1,7 @@
 0:Mi a legnagyobb ismert csillag?:UY Scuti##Betelgeuse##VY Canis majoris##Pollux:0:
 1:Mi a legsűrűbb csillag?:Vörös óriás##Neutron csillag##Fekete törpe##Fehér törpe:1:
 2:Mi a legközelebbi galaxis a miénkhez?:Barnard galaxis##NGC 24 19##Andromeda##Ic 1101:2:
-3:Mi a galaxisunk neve?:Terra##Tejút##Andromeda##Univerzum:1:
+3:Mi a galaxisunk neve?:Föld##Tejút##Andromeda##Univerzum:1:
 4:Hány csillag van galaxisunkban?:16 millió##5 ezer##250 milliárd##1 milliárd:2:
 5:Miből áll az univerzum leginkább?:Sötét anyag##Sötét energia##Fény##Látható anyag:1:
 6:Mi a legfényesebb csillag az égen?:Sirius##Andromeda##Orion##Polaris:0:

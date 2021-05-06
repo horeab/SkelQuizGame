@@ -1,5 +1,5 @@
 0:Hoeveel planeten zijn er in het zonnestelsel?:8##9##10##11:0:
-1:Hoe ver van Terra is onze zon, ongeveer ...?:93 lichtjaar##150 miljoen kilometer##150 miljard kilometer##150 triljoen kilometer:1:
+1:Hoe ver van Aarde is onze zon, ongeveer ...?:93 lichtjaar##150 miljoen kilometer##150 miljard kilometer##150 triljoen kilometer:1:
 2:Wat is de maan?:Asteroïde##ster##natuurlijke satelliet##planeet:2:
 3:Hoe oud is de aarde ongeveer?:6 miljard jaar##4 miljard jaar##1 miljard jaar##4 biljoen jaar:1:
 4:Welk resultaat heeft de kanteling van de aarde?:De seizoenen##Dag en nacht##Tsunami##Aardbevingen:0:

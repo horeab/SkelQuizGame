@@ -1,7 +1,7 @@
 0:Mikä on maailmankaikkeuden kuumin planeetta?:Venus:1,2,3:
 1:Mikä on kylmin planeetta?:Uranus:4,5,6:
 2:Millä aurinkokuntamme planeetalla on eniten kuut?:Jupiter:0,3,4:
-3:Mikä planeetta on suurin maanpäällisistä planeetoista?:Terra:1,2,5:
+3:Mikä planeetta on suurin maanpäällisistä planeetoista?:Maa:1,2,5:
 4:Millä planeetalla on voimakkaimmat tuulet?:Neptunus:3,5,6:
 5:Mikä planeetta on kallioinen planeetta?:Merkurius:1,2,4:
 6:Mikä on aurinkokunnan neljäs planeetta?:Mars:1,4,5:

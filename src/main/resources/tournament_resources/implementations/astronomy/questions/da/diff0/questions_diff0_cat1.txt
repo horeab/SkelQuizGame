@@ -1,5 +1,5 @@
 0:Hvor mange planeter er der i solsystemet?:8##9##10##11:0:
-1:Hvor langt væk fra Terra er vores sol, cirka ...?:93 lysår##150 millioner kilometer##150 milliarder kilometer##150 billioner kilometer:1:
+1:Hvor langt væk fra Jorden er vores sol, cirka ...?:93 lysår##150 millioner kilometer##150 milliarder kilometer##150 billioner kilometer:1:
 2:Hvad er månen?:Asteroide##Stjerne##Naturlig satellit##Planet:2:
 3:Cirka hvor gammel er jorden?:6 milliarder år##4 milliarder år##1 milliard år##4 billioner år:1:
 4:Hvilket resultat har jordens hældning?:Sæsonerne##Dag og nat##Tsunamis##Jordskælv:0:
