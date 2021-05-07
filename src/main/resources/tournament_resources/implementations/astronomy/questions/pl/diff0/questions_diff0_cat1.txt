@@ -1,5 +1,5 @@
 0:Ile planet jest w Układzie Słonecznym?:8##9##10##11:0:
-1:Jak daleko od Terry jest nasze Słońce, około ...?:93 lata świetlne##150 milionów kilometrów##150 miliardów kilometrów##150 bilionów kilometrów:1:
+1:Jak daleko od Ziemi jest nasze Słońce, w przybliżeniu ...?:93 lata świetlne##150 milionów kilometrów##150 miliardów kilometrów##150 bilionów kilometrów:1:
 2:Czym jest księżyc?:Asteroida##gwiazda##naturalny satelita##planeta:2:
 3:W przybliżeniu ile lat ma Ziemia?:6 miliardów lat##4 miliardy lat##1 miliard lat##4 biliony lat:1:
 4:Jaki skutek ma przechylenie ziemi?:Pory roku##Dzień i noc##Tsunami##Trzęsienia ziemi:0:

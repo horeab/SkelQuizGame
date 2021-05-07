@@ -1,5 +1,5 @@
 0:Koliko planeta postoji u Sunčevom sustavu?:8##9##10##11:0:
-1:Koliko je udaljeno od Tere naše sunce, otprilike ...?:93 svjetlosne godine##150 milijuna kilometara##150 milijardi kilometara##150 bilijuna kilometara:1:
+1:Koliko je udaljeno od Zemlje naše sunce, otprilike ...?:93 svjetlosne godine##150 milijuna kilometara##150 milijardi kilometara##150 bilijuna kilometara:1:
 2:Što je mjesec?:Asteroid##star##prirodni satelit##planet:2:
 3:Otprilike koliko je stara zemlja?:6 milijardi godina##4 milijarde godina##1 milijarda godina##4 bilijuna godina:1:
 4:Kakav rezultat ima nagib zemlje?:Sezone##Dan i noć##Tsunami##Potresi:0:

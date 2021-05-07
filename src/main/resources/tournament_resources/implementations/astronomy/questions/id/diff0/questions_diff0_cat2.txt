@@ -3,5 +3,5 @@
 2:Apa galaksi terdekat dengan galaksi kita?:Galaksi Barnard##NGC 24 19##Andromeda##Ic 1101:2:
 3:Apa yang disebut galaksi kita?:Bumi##Bima Sakti##Andromeda##Alam Semesta:1:
 4:Berapa banyak bintang di galaksi kita?:16 Juta##5 Ribu##250 Miliar##1 Miliar:2:
-5:Dari manakah alam semesta sebagian besar terdiri dari:Materi gelap##Energi gelap##Cahaya##Materi yang terlihat:1:
+5:Sebagian besar alam semesta terdiri dari apa?:Materi gelap##Energi gelap##Cahaya##Materi yang terlihat:1:
 6:Apa bintang paling terang di langit?:Sirius##Andromeda##Orion##Polaris:0:

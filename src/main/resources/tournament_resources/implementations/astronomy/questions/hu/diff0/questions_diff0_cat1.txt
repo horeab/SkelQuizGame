@@ -2,6 +2,6 @@
 1:Mennyire messze van a Nap a Föld-tól?:93 fényév##150 millió kilométer##150 milliárd kilométer##150 billió kilométer:1:
 2:Mi a hold?:Aszteroida##csillag##természetes műholdas##bolygó:2:
 3:Körülbelül hány éves a Föld?:6 milliárd év##4 milliárd év##1 milliárd év##4 billió év:1:
-4:Milyen eredményekkel jár a Föld dőlése:Az évszakok##Nappali és éjszakai##Cunami##Földrengések:0:
+4:Milyen eredményekkel jár a Föld dőlése?:Az évszakok##Nappali és éjszakai##Cunami##Földrengések:0:
 5:Milyen a Föld körüli pályája a nap körül?:Kör alakú##elliptikus##Négyzet alakú##Változó:1:
-6:Hol található az aszteroida öv?:Plútón túl # # a Nap körül##Mars és Jupiter között##a Föld és a Mars között:2:
+6:Hol található az aszteroida öv?:Plútón túl##a Nap körül##Mars és Jupiter között##a Föld és a Mars között:2:

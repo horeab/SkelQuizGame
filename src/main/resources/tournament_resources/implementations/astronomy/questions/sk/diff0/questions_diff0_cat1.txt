@@ -1,5 +1,5 @@
 0:Koľko planét je v slnečnej sústave?:8##9##10##11:0:
-1:Ako ďaleko od Terry je naše slnko, približne ...?:93 svetelných rokov##150 miliónov kilometrov##150 miliárd kilometrov##150 biliónov kilometrov:1:
+1:Ako ďaleko od Zeme je naše slnko, približne ...?:93 svetelných rokov##150 miliónov kilometrov##150 miliárd kilometrov##150 biliónov kilometrov:1:
 2:Aký je mesiac?:Asteroid##hviezda##prírodný satelit##planéta:2:
 3:Približne ako stará je Zem?:6 miliárd rokov##4 miliárd rokov##1 miliarda rokov##4 bilióny rokov:1:
 4:Aký výsledok má náklon Zeme?:Ročné obdobia##Deň a Noc##Tsunami##Zemetrasenia:0:

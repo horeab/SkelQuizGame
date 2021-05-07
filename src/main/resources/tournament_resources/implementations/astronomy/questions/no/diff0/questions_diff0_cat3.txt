@@ -1,6 +1,6 @@
-0:Hva er universets hotteste planet?:Venus:1,2,3:
+0:Hva er den hotteste planeten i solsystemet vårt?:Venus:1,2,3:
 1:Hva er den kaldeste planeten?:Uranus:4,5,6:
-2:Hvilken planet i solsystemet vårt har flest måner?:Jupiter:0,3,4:
+2:Hvilken planet i solsystemet vårt har flest måner?:Saturn:0,3,4:
 3:Hvilken planet er den største av de terrestriske planetene?:Jorden:1,2,5:
 4:Hvilken planet har sterkest vind?:Neptun:3,5,6:
 5:Hvilken planet er en steinete planet?:Merkur:1,2,4:

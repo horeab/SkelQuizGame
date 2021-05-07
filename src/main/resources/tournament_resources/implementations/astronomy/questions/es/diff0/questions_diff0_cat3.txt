@@ -1,6 +1,6 @@
-0:¿Cuál es el planeta más caliente del universo?:Venus:1,2,3:
+0:¿Cuál es el planeta más caliente de nuestro sistema solar?:Venus:1,2,3:
 1:¿Cuál es el planeta más frío?:Urano:4,5,6:
-2:¿Qué planeta en nuestro sistema solar tiene más lunas?:Júpiter:0,3,4:
+2:¿Qué planeta en nuestro sistema solar tiene más lunas?:Saturno:0,3,4:
 3:¿Qué planeta es el más grande de los planetas terrestres?:Tierra:1,2,5:
 4:¿Qué planeta tiene los vientos más fuertes?:Neptuno:3,5,6:
 5:¿Qué planeta es un planeta rocoso?:Mercurio:1,2,4:

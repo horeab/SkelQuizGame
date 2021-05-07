@@ -1,6 +1,6 @@
-0:Qual è il pianeta più caldo dell'universo?:Venere:1,2,3:
+0:Qual è il pianeta più caldo del nostro sistema solare?:Venere:1,2,3:
 1:Qual è il pianeta più freddo?:Urano:4,5,6:
-2:Quale pianeta nel nostro sistema solare ha il maggior numero di lune?:Giove:0,3,4:
+2:Quale pianeta nel nostro sistema solare ha il maggior numero di lune?:Saturno:0,3,4:
 3:Quale pianeta è il più grande dei pianeti terrestri?:Terra:1,2,5:
 4:Quale pianeta ha i venti più forti?:Nettuno:3,5,6:
 5:Quale pianeta è un pianeta roccioso?:Mercurio:1,2,4:

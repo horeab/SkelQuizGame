@@ -1,7 +1,7 @@
 0:Ngôi sao lớn nhất được biết đến là gì?:UY Scuti##Betelgeuse##VY Canis Majoris##Pollux:0:
-1:Loại sao dày đặc nhất là gì:Người khổng lồ đỏ##Sao neutron##Sao lùn đen##Sao lùn trắng:1:
+1:Loại sao dày đặc nhất là gì?:Người khổng lồ đỏ##Sao neutron##Sao lùn đen##Sao lùn trắng:1:
 2:Thiên hà gần nhất với chúng ta là gì?:Thiên hà của Barnard##NGC 24 19##Andromeda##Ic 1101:2:
-3:Thiên hà của chúng ta được gọi là gì?:Terra##dải Ngân Hà##Andromeda##Universe:1:
+3:Thiên hà của chúng ta được gọi là gì?:Trái Đất##dải Ngân Hà##Andromeda##Universe:1:
 4:Có bao nhiêu ngôi sao trong thiên hà của chúng ta?:16 Triệu##5 Ngàn##250 Tỷ##1 Tỷ:2:
 5:Vũ trụ chủ yếu bao gồm những gì?:Vật chất tối##Năng lượng tối##Ánh sáng##Vật chất hữu hình:1:
 6:Ngôi sao sáng nhất trên bầu trời là gì?:Sirius##Andromeda##Orion##Polaris:0:

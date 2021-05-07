@@ -1,7 +1,7 @@
 0:Mi az első űrhajó, amelyet az űrbe dobtak?:Voyager##Viking 1##Vostok 1##Sputnik:2:
 1:Milyen szondát küldtek a Saturn felé 1977-ben?:Pioneer##Huygens##Saturn Cassini##Voyager 1:3:
 2:Melyik évben kezdte Galileo Galilei a távcsövet használni az ég felfedezéséhez?:1704##1609##1510##1653:1:
-3:Ki volt az első, aki a földre szállt?:Neil Armstrong##Alan Shepard##Buzz Aldrin##Alan Bean:0:
-4:Milyen űrhajó jár a Jupiter körül?:Juno##Lander##Vostok##Cassini:0:
+3:Ki szállt le először a Holdra?:Neil Armstrong##Alan Shepard##Buzz Aldrin##Alan Bean:0:
+4:Milyen űrhajó kering a Jupiter körül?:Juno##Lander##Vostok##Cassini:0:
 5:Mikor fedezték fel Plutont?:1930##1834##1956##1975:0:
 6:Ki volt az első ember, aki a föld körül kering?:Juri Gagarin##Neil Armstrong##Buzz Aldrin##Alan Shepard:0:

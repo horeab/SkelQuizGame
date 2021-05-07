@@ -1,6 +1,6 @@
-0:Quelle est la planète la plus chaude de l'univers?:Vénus:1,2,3:
+0:Quelle est la planète la plus chaude de notre système solaire?:Vénus:1,2,3:
 1:Quelle est la planète la plus froide?:Uranus:4,5,6:
-2:Quelle planète de notre système solaire a le plus de lunes?:Jupiter:0,3,4:
+2:Quelle planète de notre système solaire a le plus de lunes?:Saturne:0,3,4:
 3:Quelle planète est la plus grande des planètes terrestres?:Terre:1,2,5:
 4:Quelle planète a les vents les plus forts?:Neptune:3,5,6:
 5:Quelle planète est une planète rocheuse?:Mercure:1,2,4:

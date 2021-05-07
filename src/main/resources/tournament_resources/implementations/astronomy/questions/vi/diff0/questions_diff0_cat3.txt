@@ -1,7 +1,7 @@
-0:Hành tinh nóng nhất trong vũ trụ là gì?:Sao Kim:1,2,3:
+0:Hành tinh nóng nhất trong hệ mặt trời của chúng ta là gì?:Sao Kim:1,2,3:
 1:Hành tinh lạnh nhất là gì?:Thiên vương tinh:4,5,6:
-2:Hành tinh nào trong hệ mặt trời của chúng ta có nhiều mặt trăng nhất?:Sao Mộc:0,3,4:
-3:Hành tinh nào lớn nhất trong số các hành tinh trên mặt đất?:Terra:1,2,5:
+2:Hành tinh nào trong hệ mặt trời của chúng ta có nhiều mặt trăng nhất?:Sao Thổ:0,3,4:
+3:Hành tinh nào lớn nhất trong số các hành tinh trên cạn?:Trái Đất:1,2,5:
 4:Hành tinh nào có gió mạnh nhất?:Sao Hải Vương:3,5,6:
 5:Hành tinh nào là hành tinh đá?:Sao Thủy:1,2,4:
 6:Hành tinh thứ 4 trong hệ mặt trời là gì?:Sao Hỏa:1,4,5:

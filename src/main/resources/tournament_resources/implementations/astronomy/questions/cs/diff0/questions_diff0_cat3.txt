@@ -1,7 +1,7 @@
-0:Jaká je nejžhavější planeta ve vesmíru?:Venuše:1,2,3:
+0:Jaká je nejžhavější planeta v naší sluneční soustavě?:Venuše:1,2,3:
 1:Co je nejchladnější planeta?:Uran:4,5,6:
-2:Která planeta v naší sluneční soustavě má nejvíce měsíců?:Jupiter:0,3,4:
-3:Která planeta je největší z pozemských planet?:Země:1,2,5:
+2:Která planeta v naší sluneční soustavě má nejvíce měsíců?:Saturn:0,3,4:
+3:Která planeta je největší ze suchozemských planet?:Země:1,2,5:
 4:Která planeta má nejsilnější větry?:Neptun:3,5,6:
 5:Která planeta je skalní planeta?:Merkur:1,2,4:
 6:Jaká je 4. planeta ve sluneční soustavě?:Mars:1,4,5:

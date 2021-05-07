@@ -3,5 +3,5 @@
 2::Gran Telescopio Canarias:3,4,5:2
 3::Sputnik:1,6,0:3
 4::Απόλλων 11:5,1,2:4
-5::Mars Rover:4,2,6:5
+5::Άρης rover:4,2,6:5
 6::Vostok 1:5,2,0:6

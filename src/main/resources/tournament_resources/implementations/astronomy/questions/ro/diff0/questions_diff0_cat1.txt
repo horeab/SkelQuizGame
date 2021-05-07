@@ -2,6 +2,6 @@
 1:Cât de departe de Pământ este soarele nostru, aproximativ ...?:93 de ani lumină##150 milioane de kilometri##150 miliarde de kilometri##150 trilioane de kilometri:1:
 2:Ce este luna?:Asteroid##Stea##Satelit natural##Planeta:2:
 3:Aproximativ cât de vechi este pământul?:6 miliarde de ani##4 miliarde de ani##1 miliard de ani##4 trilioane de ani:1:
-4:Ce rezultat are înclinarea pământului?:Anotimpurile##Ziua și Noaptea##Tsunami##Cutremure:0:
+4:Ce rezultat are înclinarea axială a pământului?:Anotimpurile##Ziua și Noaptea##Tsunami##Cutremure:0:
 5:Care este forma orbitei pământului în jurul soarelui?:Circular##Eliptic##Pătrat##Variabil:1:
 6:Unde se află centura de asteroizi?:Dincolo de Pluto##În jurul Soarelui##Între Marte și Jupiter##Între Pământ și Marte:2:

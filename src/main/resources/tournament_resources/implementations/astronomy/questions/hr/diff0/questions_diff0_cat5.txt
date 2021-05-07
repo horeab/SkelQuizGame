@@ -1,7 +1,7 @@
 0:Koja je prva svemirska letjelica lansirana u svemir?:Voyager##Viking 1##Vostok 1##Sputnik:2:
 1:Koja je sonda poslana prema Saturnu 1977?:Pioneer##Huygens##Saturn Cassini##Voyager 1:3:
 2:Koje godine je Galileo Galilei počeo koristiti teleskop za istraživanje neba?:1704##1609##1510##1653:1:
-3:Tko je prva osoba sletila na Mjesec?:Neil Armstrong##Alan Shepard##Buzz Aldrin##Alan Bean:0:
+3:Tko je prva osoba sletjela na Mjesec?:Neil Armstrong##Alan Shepard##Buzz Aldrin##Alan Bean:0:
 4:Koja svemirska letjelica kruži oko Jupitera?:Juno##Lander##Vostok##Cassini:0:
 5:Kada je otkriven Pluton?:1930##1834##1956##1975:0:
 6:Tko je bio prvi čovjek koji je orbitirao oko Zemlje?:Yuri Gagarin##Neil Armstrong##Buzz Aldrin##Alan Shepard:0:

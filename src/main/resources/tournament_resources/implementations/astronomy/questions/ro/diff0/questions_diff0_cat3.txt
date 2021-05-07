@@ -1,6 +1,6 @@
-0:Care este cea mai fierbinte planetă din univers?:Venus:1,2,3:
+0:Care este cea mai fierbinte planetă din sistemul nostru solar?:Venus:1,2,3:
 1:Care este cea mai rece planetă?:Uranus:4,5,6:
-2:Ce planetă din sistemul nostru solar are cele mai multe luni?:Jupiter:0,3,4:
+2:Ce planetă din sistemul nostru solar are cele mai multe luni?:Saturn:0,3,4:
 3:Care planetă este cea mai mare dintre planetele terestre?:Pământ:1,2,5:
 4:Care planetă are cele mai puternice vânturi?:Neptun:3,5,6:
 5:Care planetă este o planetă stâncoasă?:Mercur:1,2,4:

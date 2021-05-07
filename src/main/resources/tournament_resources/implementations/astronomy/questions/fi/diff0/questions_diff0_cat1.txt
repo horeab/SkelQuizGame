@@ -1,5 +1,5 @@
 0:Kuinka monta planeettaa aurinkokunnassa on?:8##9##10##11:0:
-1:Kuinka kaukana Terrasta on aurinko, suunnilleen ...?:93 valovuotta##150 miljoonaa kilometriä##150 miljardia kilometriä##150 biljoonaa kilometriä:1:
+1:Kuinka kaukana maasta aurinkomme on, noin ...?:93 valovuotta##150 miljoonaa kilometriä##150 miljardia kilometriä##150 biljoonaa kilometriä:1:
 2:Mikä on kuu?:Asteroidi##tähti##luonnollinen satelliitti##planeetta:2:
 3:Noin kuinka vanha on maa?:6 miljardia vuotta##4 miljardia vuotta##1 miljardia vuotta##4 biljoonaa vuotta:1:
 4:Mitä tuloksia maan kallistumisella on?:Vuodenajat##Päivä ja yö##Tsunami##Maanjäristykset:0:

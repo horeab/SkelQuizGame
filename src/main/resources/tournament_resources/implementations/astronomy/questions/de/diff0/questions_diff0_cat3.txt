@@ -1,6 +1,6 @@
-0:Was ist der heißeste Planet im Universum?:Venus:1,2,3:
+0:Welches ist der heißeste Planet in unserem Sonnensystem?:Venus:1,2,3:
 1:Was ist der kälteste Planet?:Uranus:4,5,6:
-2:Welcher Planet in unserem Sonnensystem hat die meisten Monde?:Jupiter:0,3,4:
+2:Welcher Planet in unserem Sonnensystem hat die meisten Monde?:Saturn:0,3,4:
 3:Welcher Planet ist der größte der terrestrischen Planeten?:Erde:1,2,5:
 4:Welcher Planet hat die stärksten Winde?:Neptun:3,5,6:
 5:Welcher Planet ist ein felsiger Planet?:Merkur:1,2,4:

@@ -1,6 +1,6 @@
-0::Celestial sphere:1,3,5:0
-1::Sundial:0,2,4:1
-2::Telescope:3,4,0:2
-3::Astronomical clock:1,2,0:3
-4::Photometer:5,1,2:4
-5::Space telescope:4,1,0:5
+0::Thiên cầu:1,3,5:0
+1::Đồng hồ Mặt Trời:0,2,4:1
+2::Kính viễn vọng:3,4,0:2
+3::Đồng hồ thiên văn:1,2,0:3
+4::Lux kế:5,1,2:4
+5::Kính viễn vọng không gian:4,1,0:5
