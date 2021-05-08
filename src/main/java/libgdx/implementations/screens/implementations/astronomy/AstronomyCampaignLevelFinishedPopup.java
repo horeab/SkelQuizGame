@@ -69,12 +69,16 @@ public class AstronomyCampaignLevelFinishedPopup<TScreenManager extends Astronom
             addButton(playAgain);
         }
 
-        MyButton campaignScreenBtn = new ButtonBuilder().setContrast(Contrast.LIGHT).setFontColor(FontColor.BLACK).setDefaultButton().setText(SkelGameLabel.go_back.getText()).build();
-        addButton(campaignScreenBtn);
-        campaignScreenBtn.addListener(new ChangeListener() {
+        MyButton goBackBtn = new ButtonBuilder().setContrast(Contrast.LIGHT).setFontColor(FontColor.BLACK).setDefaultButton().setText(SkelGameLabel.go_back.getText()).build();
+        addButton(goBackBtn);
+        goBackBtn.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
-                screenManager.showMainScreen();
+                if (astronomyGameType == AstronomyGameType.FIND_PLANET) {
+                    screenManager.showMainScreen();
+                } else {
+                    screenManager.showDetailedCampaignScreen(astronomyGameType);
+                }
             }
         });
     }

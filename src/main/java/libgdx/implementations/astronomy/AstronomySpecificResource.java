@@ -51,6 +51,10 @@ public enum AstronomySpecificResource implements SpecificResource {
     correct_drag("correct_drag.png", Texture.class),
     wrong_drag("wrong_drag.png", Texture.class),
 
+    game_type_solar_system("campaign/game_type/solar_system.png", Texture.class),
+    game_type_astronomy_quiz("campaign/game_type/astronomy_quiz.png", Texture.class),
+    game_type_astronomy_images_quiz("campaign/game_type/astronomy_images_quiz.png", Texture.class),
+
     orbital_period("campaign/planets_game_type/orbital_period.png", Texture.class),
     radius("campaign/planets_game_type/radius.png", Texture.class),
     speed_light("campaign/planets_game_type/speed_light.png", Texture.class),
@@ -59,8 +63,13 @@ public enum AstronomySpecificResource implements SpecificResource {
     mass("campaign/planets_game_type/mass.png", Texture.class),
     weight("campaign/planets_game_type/weight.png", Texture.class),
 
+    star("star.png", Texture.class),
+    star_green("star_green.png", Texture.class),
+    star_disabled("star_disabled.png", Texture.class),
+    star_wrong("star_wrong.png", Texture.class),
 
-    background_music("sounds/background.mp3", Music.class),
+
+    background_music("sounds/background.wav", Music.class),
     level_fail("sounds/level_fail.mp3", Sound.class),
     level_success("sounds/level_success.mp3", Sound.class),
 

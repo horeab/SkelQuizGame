@@ -23,7 +23,6 @@ public class AstronomyPreferencesManager {
         return preferencesService.getPreferences().getInteger(getScoreKey(level), 0);
     }
 
-
     private String getScoreKey(Enum level) {
         return "Score" + getLevelKey(level);
     }

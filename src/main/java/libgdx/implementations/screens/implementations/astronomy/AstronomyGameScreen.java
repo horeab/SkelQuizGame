@@ -3,16 +3,14 @@ package libgdx.implementations.screens.implementations.astronomy;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.campaign.CampaignLevel;
-import libgdx.campaign.CampaignService;
+import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.builders.BackButtonBuilder;
-import libgdx.implementations.astronomy.AstronomyGame;
+import libgdx.game.Game;
 import libgdx.implementations.screens.GameScreen;
-import libgdx.implementations.screens.implementations.geoquiz.CampaignLevelFinishedPopup;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
-import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.MainResource;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
@@ -23,28 +21,27 @@ import java.util.Map;
 
 public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
 
+    public static int TOTAL_QUESTIONS = 6;
     private Table allTable;
-    private CampaignLevel campaignLevel;
     private AstronomyGameType astronomyGameType;
 
     public AstronomyGameScreen(GameContext gameContext, CampaignLevel campaignLevel, AstronomyGameType astronomyGameType) {
         super(gameContext);
-        this.campaignLevel = campaignLevel;
         this.astronomyGameType = astronomyGameType;
     }
 
     @Override
     public void buildStage() {
+        new ActorAnimation(getAbstractScreen()).createScrollingBackground(MainResource.background_texture);
         createAllTable();
         new BackButtonBuilder().addHoverBackButton(this);
     }
 
     private void createAllTable() {
         allTable = new Table();
-        new ActorAnimation(getAbstractScreen()).createScrollingBackground(MainResource.background_texture);
         QuestionContainerCreatorService questionContainerCreatorService;
         if (gameContext.getQuestion().getQuestionCategory().getCreatorDependencies() == ImageClickGameCreatorDependencies.class) {
-            questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
+            questionContainerCreatorService = new AstronomyImageQuestionContainerCreatorService(gameContext, this);
         } else {
             questionContainerCreatorService = new AstronomyQuestionContainerCreatorService(gameContext, this);
         }
@@ -72,16 +69,12 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
 
     @Override
     public void goToNextQuestionScreen() {
-        GameUser gameUser = gameContext.getCurrentUserGameUser();
-        if (levelFinishedService.isGameFailed(gameUser)) {
-            new AstronomyCampaignLevelFinishedPopup(this, campaignLevel, astronomyGameType, gameContext).addToPopupManager();
-        }
         Table table = getRoot().findActor(HangmanRefreshQuestionDisplayService.ACTOR_NAME_HANGMAN_WORD_TABLE);
         if (table != null) {
             table.addAction(Actions.fadeOut(0.2f));
             table.remove();
         }
-        allTable.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRunnableAction(new Runnable() {
+        allTable.addAction(Actions.sequence(Actions.delay(1.2f), Actions.fadeOut(0.2f), Utils.createRunnableAction(new Runnable() {
             @Override
             public void run() {
                 allTable.remove();
@@ -105,6 +98,16 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
     }
 
     @Override
+    public void showPopupAd(Runnable runnable) {
+        int questionsPlayed = new CampaignStoreService().getNrOfQuestionsPlayed();
+        if (questionsPlayed > 0 && questionsPlayed % getQuestionsPlayedForPopupAd() == 0) {
+            Game.getInstance().getAppInfoService().showPopupAd(runnable);
+        } else {
+            runnable.run();
+        }
+    }
+
+    @Override
     protected void setBackgroundColor(RGBColor backgroundColor) {
         if (levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
             super.setBackgroundColor(RGBColor.RED);
@@ -114,24 +117,12 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
     }
 
     @Override
-    public void animateGameFinished() {
-        super.animateGameFinished();
-        if (LevelFinishedService.getPercentageOfWonQuestions(gameContext.getCurrentUserGameUser()) == 100f) {
-//            ActorAnimation.animateImageCenterScreenFadeOut(AnatomySpecificResource.star, 0.3f);
-        }
-    }
-
-    @Override
     public void executeLevelFinished() {
-        GameUser gameUser = gameContext.getCurrentUserGameUser();
-        if (levelFinishedService.isGameWon(gameUser)) {
-            QuizStarsService starsService = AstronomyGame.getInstance().getDependencyManager().getStarsService();
-            int starsWon = starsService.getStarsWon(LevelFinishedService.getPercentageOfWonQuestions(gameUser));
-            new CampaignService().levelFinished(starsWon, campaignLevel);
-            screenManager.showDetailedCampaignScreen(astronomyGameType);
-        } else if (levelFinishedService.isGameFailed(gameUser)) {
-            new AstronomyCampaignLevelFinishedPopup(this, campaignLevel, astronomyGameType, gameContext).addToPopupManager();
-        }
-//        screenManager.showMainScreen();
+        Game.getInstance().getAppInfoService().showPopupAd(new Runnable() {
+            @Override
+            public void run() {
+                onBackKeyPress();
+            }
+        });
     }
 }

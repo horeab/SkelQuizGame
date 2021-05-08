@@ -12,6 +12,7 @@ import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
+import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.astronomy.AstronomySpecificResource;
 import libgdx.implementations.astronomy.spec.AstronomyPreferencesManager;
@@ -64,6 +65,7 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
 
     @Override
     public void buildStage() {
+        new ActorAnimation(getAbstractScreen()).createScrollingBackground(MainResource.background_texture);
         createAllTable();
         new BackButtonBuilder().addHoverBackButton(this);
     }
@@ -71,7 +73,12 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
     private void createAllTable() {
         correctPlanetId = getCorrectPlanetIdForQuestion();
         if (correctPlanetId == -1) {
-            onBackKeyPress();
+            Game.getInstance().getAppInfoService().showPopupAd(new Runnable() {
+                @Override
+                public void run() {
+                    onBackKeyPress();
+                }
+            });
             return;
         }
         allOptPlanetIndex = getAllOptPlanetIndex(correctPlanetId);
@@ -83,7 +90,6 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
         headerTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(5));
         allTable.add(headerTable).height(headerTable.getHeight()).row();
 
-        new ActorAnimation(getAbstractScreen()).createScrollingBackground(MainResource.background_texture);
         float margin = ScreenDimensionsManager.getScreenWidthValue(10);
         allTable.add(createLevelTitle()).height(ScreenDimensionsManager.getScreenHeightValue(20)).row();
         allTable.add(createQuestionTable()).padBottom(margin / 2);
@@ -329,13 +335,14 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
                 Utils.createRunnableAction(new Runnable() {
                     @Override
                     public void run() {
-                        allTable.addAction(Actions.sequence(Actions.fadeOut(0.2f), Utils.createRunnableAction(new Runnable() {
-                            @Override
-                            public void run() {
-                                allTable.remove();
-                                createAllTable();
-                            }
-                        })));
+                        allTable.addAction(Actions.sequence(Actions.delay(2f), Actions.fadeOut(0.2f),
+                                Utils.createRunnableAction(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        allTable.remove();
+                                        createAllTable();
+                                    }
+                                })));
                     }
                 })));
     }
@@ -384,7 +391,6 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
 
     @Override
     public void executeLevelFinished() {
-//        screenManager.showMainScreen();
     }
 
     @Override

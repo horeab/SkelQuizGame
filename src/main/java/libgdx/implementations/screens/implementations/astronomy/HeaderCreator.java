@@ -3,7 +3,7 @@ package libgdx.implementations.screens.implementations.astronomy;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.conthistory.ConthistorySpecificResource;
+import libgdx.implementations.astronomy.AstronomySpecificResource;
 import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
 import libgdx.resources.Res;
 import libgdx.resources.dimen.MainDimen;
@@ -36,11 +36,11 @@ public class HeaderCreator {
     }
 
     private Res getQuestionTableBackgr(GameQuestionInfoStatus gameQuestionInfoStatus) {
-        Res background = ConthistorySpecificResource.star_disabled;
+        Res background = AstronomySpecificResource.star_disabled;
         if (gameQuestionInfoStatus == GameQuestionInfoStatus.WON) {
-            background = ConthistorySpecificResource.star;
+            background = AstronomySpecificResource.star;
         } else if (gameQuestionInfoStatus == GameQuestionInfoStatus.LOST) {
-            background = ConthistorySpecificResource.star_wrong;
+            background = AstronomySpecificResource.star_wrong;
         }
         return background;
     }

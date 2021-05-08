@@ -8,21 +8,19 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-
-import org.apache.commons.lang3.StringUtils;
-
 import libgdx.controls.ScreenRunnable;
 import libgdx.controls.button.ButtonSkin;
 import libgdx.controls.button.MyButton;
 import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.skelgame.question.GameAnswerInfo;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.Resource;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.screen.AbstractScreen;
-import libgdx.implementations.screens.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.*;
 
@@ -113,6 +111,7 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
                 @Override
                 public void executeOperations() {
                     gameControlsService.disableTouchableAllControls();
+                    processAfterAnswerPressed(gameQuestionInfo);
                     refreshQuestionDisplayService.gameOverQuestion(gameQuestionInfo);
                 }
             });
@@ -125,6 +124,9 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
             });
             abstractGameScreen.addAction(Actions.sequence(action1, Actions.delay(1f), action2));
         }
+    }
+
+    protected void processAfterAnswerPressed(GameQuestionInfo gameQuestionInfo) {
     }
 
     protected void setContainerBackground() {
