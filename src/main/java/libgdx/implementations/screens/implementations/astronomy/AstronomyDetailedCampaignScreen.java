@@ -7,6 +7,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.QuestionConfig;
+import libgdx.constants.Language;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ImageButtonBuilder;
@@ -33,23 +34,28 @@ import libgdx.utils.model.FontConfig;
 import libgdx.utils.model.RGBColor;
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class AstronomyDetailedCampaignScreen extends AbstractScreen<AstronomyScreenManager> {
 
-    public static final List<AstronomyCampaignLevelEnum> ASTRONOMY_QUIZ_CAMPAIGN_LEVELS = Arrays.asList(
-            AstronomyCampaignLevelEnum.LEVEL_0_1,
-            AstronomyCampaignLevelEnum.LEVEL_0_2,
-            AstronomyCampaignLevelEnum.LEVEL_0_3,
-            AstronomyCampaignLevelEnum.LEVEL_0_5
-    );
-    public static final List<AstronomyCampaignLevelEnum> ASTRONOMY_IMAGES_QUIZ_CAMPAIGN_LEVELS = Arrays.asList(
-            AstronomyCampaignLevelEnum.LEVEL_0_4,
-            AstronomyCampaignLevelEnum.LEVEL_0_6,
-            AstronomyCampaignLevelEnum.LEVEL_0_7
-    );
+    public static final Map<AstronomyCampaignLevelEnum, Boolean> ASTRONOMY_QUIZ_CAMPAIGN_LEVELS;
+    public static final Map<AstronomyCampaignLevelEnum, Boolean> ASTRONOMY_IMAGES_QUIZ_CAMPAIGN_LEVELS;
+
+    static {
+        Map<AstronomyCampaignLevelEnum, Boolean> map1 = new LinkedHashMap<>();
+        map1.put(AstronomyCampaignLevelEnum.LEVEL_0_1, false);
+        map1.put(AstronomyCampaignLevelEnum.LEVEL_0_2, false);
+        map1.put(AstronomyCampaignLevelEnum.LEVEL_0_3, true);
+        map1.put(AstronomyCampaignLevelEnum.LEVEL_0_5, true);
+        ASTRONOMY_QUIZ_CAMPAIGN_LEVELS = Collections.unmodifiableMap(map1);
+
+        Map<AstronomyCampaignLevelEnum, Boolean> map2 = new LinkedHashMap<>();
+        map2.put(AstronomyCampaignLevelEnum.LEVEL_0_4, false);
+        map2.put(AstronomyCampaignLevelEnum.LEVEL_0_6, false);
+        map2.put(AstronomyCampaignLevelEnum.LEVEL_0_7, true);
+        ASTRONOMY_IMAGES_QUIZ_CAMPAIGN_LEVELS = Collections.unmodifiableMap(map2);
+    }
+
     private AstronomyGameType astronomyGameType;
     private AstronomyPreferencesManager astronomyPreferencesManager = new AstronomyPreferencesManager();
 
@@ -94,9 +100,9 @@ public class AstronomyDetailedCampaignScreen extends AbstractScreen<AstronomyScr
         } else {
             List<AstronomyCampaignLevelEnum> campaignLevelEnums = new ArrayList<>();
             if (astronomyGameType == AstronomyGameType.ASTRONOMY_QUIZ) {
-                campaignLevelEnums = ASTRONOMY_QUIZ_CAMPAIGN_LEVELS;
+                campaignLevelEnums = new ArrayList<>(ASTRONOMY_QUIZ_CAMPAIGN_LEVELS.keySet());
             } else if (astronomyGameType == AstronomyGameType.ASTRONOMY_IMAGES_QUIZ) {
-                campaignLevelEnums = ASTRONOMY_IMAGES_QUIZ_CAMPAIGN_LEVELS;
+                campaignLevelEnums = new ArrayList<>(ASTRONOMY_IMAGES_QUIZ_CAMPAIGN_LEVELS.keySet());
             }
             int i = 0;
             for (AstronomyCampaignLevelEnum campaignLevelEnum : campaignLevelEnums) {
@@ -115,9 +121,15 @@ public class AstronomyDetailedCampaignScreen extends AbstractScreen<AstronomyScr
     }
 
     private Table createQuizGameButton(final CampaignLevel campaignLevel) {
+        boolean isExtraContent = !Utils.isValidExtraContent()
+                &&
+                (ASTRONOMY_QUIZ_CAMPAIGN_LEVELS.containsKey(campaignLevel) && ASTRONOMY_QUIZ_CAMPAIGN_LEVELS.get(campaignLevel)
+                        ||
+                        ASTRONOMY_IMAGES_QUIZ_CAMPAIGN_LEVELS.containsKey(campaignLevel) && ASTRONOMY_IMAGES_QUIZ_CAMPAIGN_LEVELS.get(campaignLevel)
+                );
         String labelText = new CampaignLevelEnumService(campaignLevel).getLabelText();
         MyButton categBtn = new ImageButtonBuilder(GameButtonSkin.valueOf("ASTRONOMY_CATEG" + campaignLevel.getIndex()), getAbstractScreen())
-                .padBetweenImageAndText(1f)
+                .padBetweenImageAndText(getPadBetweenImageAndText(isExtraContent))
                 .setFontScale(FontManager.getNormalFontDim())
                 .setFontColor(FontColor.BLACK)
                 .setFixedButtonSize(GameButtonSize.ASTRONOMY_MENU_BUTTON)
@@ -132,20 +144,22 @@ public class AstronomyDetailedCampaignScreen extends AbstractScreen<AstronomyScr
                 AstronomyGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), campaignLevel, astronomyGameType);
             }
         });
-        return createTableWithBtnAndScore(categBtn, levelScoreLabel);
+        Table tableWithBtnAndScore = createTableWithBtnAndScore(categBtn, levelScoreLabel);
+        InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
+        if (isExtraContent) {
+            tableWithBtnAndScore = inAppPurchaseTable.create(tableWithBtnAndScore,
+                    Language.en.name(), "Unlock extra categories and remove Ads", GameButtonSize.ASTRONOMY_MENU_BUTTON.getWidth() * 1.5f);
+        }
+        return tableWithBtnAndScore;
+    }
+
+    private float getPadBetweenImageAndText(boolean isExtraContent) {
+        return isExtraContent ? 0.4f : 1f;
     }
 
     private void addStartGameToTable(Table allButtonTable, Table planetGameTypeGameButton, int colspan) {
         float planetsGameSideDimen = getStartGameButtonSideDimen();
         float pad = planetsGameSideDimen / 3f;
-
-        InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
-        Table extraContentTable = inAppPurchaseTable.initExtraContentTable();
-        if (!Utils.isValidExtraContent()) {
-            planetGameTypeGameButton = inAppPurchaseTable.initExtraContentTable();
-            planetGameTypeGameButton.setWidth(planetsGameSideDimen);
-        }
-
         allButtonTable.add(planetGameTypeGameButton)
                 .colspan(colspan)
                 .width(planetsGameSideDimen).height(planetsGameSideDimen)
@@ -159,7 +173,11 @@ public class AstronomyDetailedCampaignScreen extends AbstractScreen<AstronomyScr
     }
 
     private Table createPlanetGameTypeGameButton(final AstronomyPlanetsGameType planetsGameType, int index, List<Planet> allPlanets) {
-        MyButton categBtn = createGameBtn(planetsGameType.levelName, GameButtonSkin.valueOf("ASTRONOMY_PLANET_GAME_" + index));
+        AstronomyPlanetsGameType[] values = AstronomyPlanetsGameType.values();
+        int indexOf = Arrays.asList(values).indexOf(planetsGameType);
+        int length = values.length;
+        boolean isExtraContent = indexOf == length - 2 || indexOf == length - 1;
+        MyButton categBtn = createGameBtn(planetsGameType.levelName, GameButtonSkin.valueOf("ASTRONOMY_PLANET_GAME_" + index), isExtraContent);
         categBtn.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -167,7 +185,14 @@ public class AstronomyDetailedCampaignScreen extends AbstractScreen<AstronomyScr
             }
         });
         MyWrappedLabel levelScoreLabel = createLevelScoreLabel(PlanetsUtil.getAllAvailableLevelsToPlay(allPlanets, planetsGameType).size(), astronomyPreferencesManager.getLevelScore(planetsGameType));
-        return createTableWithBtnAndScore(categBtn, levelScoreLabel);
+        Table tableWithBtnAndScore = createTableWithBtnAndScore(categBtn, levelScoreLabel);
+        InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
+        if (isExtraContent) {
+            tableWithBtnAndScore = inAppPurchaseTable.create(tableWithBtnAndScore,
+                    Language.en.name(), "Unlock extra categories and remove Ads", GameButtonSize.ASTRONOMY_MENU_BUTTON.getWidth() * 1.5f);
+        }
+
+        return tableWithBtnAndScore;
     }
 
     private Table createTableWithBtnAndScore(MyButton categBtn, MyWrappedLabel levelScoreLabel) {
@@ -178,13 +203,13 @@ public class AstronomyDetailedCampaignScreen extends AbstractScreen<AstronomyScr
         return table;
     }
 
-    private MyButton createGameBtn(String labelName, GameButtonSkin buttonSkin) {
+    private MyButton createGameBtn(String labelName, GameButtonSkin buttonSkin, boolean isExtraContent) {
         String labelText = SpecificPropertiesUtils.getText(labelName + "_short");
         if (StringUtils.isBlank(labelText)) {
             labelText = SpecificPropertiesUtils.getText(labelName);
         }
         return new ImageButtonBuilder(buttonSkin, getAbstractScreen())
-                .padBetweenImageAndText(1f)
+                .padBetweenImageAndText(getPadBetweenImageAndText(isExtraContent))
                 .setFontScale(FontManager.getNormalFontDim())
                 .setFontColor(FontColor.BLACK)
                 .setFixedButtonSize(GameButtonSize.ASTRONOMY_MENU_BUTTON)

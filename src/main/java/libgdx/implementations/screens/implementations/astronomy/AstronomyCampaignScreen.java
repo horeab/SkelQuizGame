@@ -38,6 +38,7 @@ import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
 import libgdx.utils.model.FontConfig;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManager> {
@@ -174,11 +175,11 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
 
     private int getLevelNrOfStars(AstronomyGameType astronomyGameType) {
         if (astronomyGameType == AstronomyGameType.ASTRONOMY_QUIZ) {
-            List<AstronomyCampaignLevelEnum> list = AstronomyDetailedCampaignScreen.ASTRONOMY_QUIZ_CAMPAIGN_LEVELS;
+            List<AstronomyCampaignLevelEnum> list = new ArrayList<>(AstronomyDetailedCampaignScreen.ASTRONOMY_QUIZ_CAMPAIGN_LEVELS.keySet());
             int maxLevels = getMaxLevelsForCampaignList(list, AstronomyGameScreen.TOTAL_QUESTIONS);
             return getStarsBasedOnTotalLevels(maxLevels, list.size());
         } else if (astronomyGameType == AstronomyGameType.ASTRONOMY_IMAGES_QUIZ) {
-            List<AstronomyCampaignLevelEnum> list = AstronomyDetailedCampaignScreen.ASTRONOMY_IMAGES_QUIZ_CAMPAIGN_LEVELS;
+            List<AstronomyCampaignLevelEnum> list = new ArrayList<>(AstronomyDetailedCampaignScreen.ASTRONOMY_IMAGES_QUIZ_CAMPAIGN_LEVELS.keySet());
             int maxLevels = getMaxLevelsForCampaignList(list, AstronomyGameScreen.TOTAL_QUESTIONS);
             return getStarsBasedOnTotalLevels(maxLevels, list.size());
         } else if (astronomyGameType == AstronomyGameType.FIND_PLANET) {

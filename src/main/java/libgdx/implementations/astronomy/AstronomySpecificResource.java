@@ -50,6 +50,7 @@ public enum AstronomySpecificResource implements SpecificResource {
 
     correct_drag("correct_drag.png", Texture.class),
     wrong_drag("wrong_drag.png", Texture.class),
+    unlock("unlock.png", Texture.class),
 
     game_type_solar_system("campaign/game_type/solar_system.png", Texture.class),
     game_type_astronomy_quiz("campaign/game_type/astronomy_quiz.png", Texture.class),
