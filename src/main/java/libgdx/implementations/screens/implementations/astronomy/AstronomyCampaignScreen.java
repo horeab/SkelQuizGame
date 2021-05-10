@@ -74,13 +74,14 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
     private Table createAllTable() {
         new ActorAnimation(getAbstractScreen()).createScrollingBackground(MainResource.background_texture);
         Table table = new Table();
+        String appName = Game.getInstance().getAppInfoService().getAppName();
         MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setFontConfig(new FontConfig(
                         FontColor.LIGHT_GREEN.getColor(),
                         FontColor.BLACK.getColor(),
-                        FontConfig.FONT_SIZE * 2.4f,
+                        FontConfig.FONT_SIZE * (appName.length() >= 10 ? 2 : 2.4f),
                         4f))
-                .setText(Game.getInstance().getAppInfoService().getAppName()).build());
+                .setText(appName).build());
 
         float btnHeight = getBtnHeightValue();
         float dimen = MainDimen.vertical_general_margin.getDimen();
@@ -204,6 +205,7 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
     private MyButton createCategButton(AstronomyGameType astronomyGameType) {
         String labelText = SpecificPropertiesUtils.getText(astronomyGameType.levelName);
         MyButton categBtn = new ImageButtonBuilder(astronomyGameType.buttonSkin, getAbstractScreen())
+                .textButtonWidth(GameButtonSize.ASTRONOMY_MENU_BUTTON.getWidth() * 1.4f)
                 .padBetweenImageAndText(1.3f)
                 .setFontScale(FontManager.getNormalFontDim())
                 .setFontColor(FontColor.BLACK)

@@ -129,6 +129,7 @@ public class AstronomyDetailedCampaignScreen extends AbstractScreen<AstronomyScr
                 );
         String labelText = new CampaignLevelEnumService(campaignLevel).getLabelText();
         MyButton categBtn = new ImageButtonBuilder(GameButtonSkin.valueOf("ASTRONOMY_CATEG" + campaignLevel.getIndex()), getAbstractScreen())
+                .textButtonWidth(GameButtonSize.ASTRONOMY_MENU_BUTTON.getWidth() * 1.3f)
                 .padBetweenImageAndText(getPadBetweenImageAndText(isExtraContent))
                 .setFontScale(FontManager.getNormalFontDim())
                 .setFontColor(FontColor.BLACK)
@@ -176,7 +177,8 @@ public class AstronomyDetailedCampaignScreen extends AbstractScreen<AstronomyScr
         AstronomyPlanetsGameType[] values = AstronomyPlanetsGameType.values();
         int indexOf = Arrays.asList(values).indexOf(planetsGameType);
         int length = values.length;
-        boolean isExtraContent = indexOf == length - 2 || indexOf == length - 1;
+        boolean isExtraContent = !Utils.isValidExtraContent()
+                && (indexOf == length - 2 || indexOf == length - 1);
         MyButton categBtn = createGameBtn(planetsGameType.levelName, GameButtonSkin.valueOf("ASTRONOMY_PLANET_GAME_" + index), isExtraContent);
         categBtn.addListener(new ClickListener() {
             @Override
@@ -209,6 +211,7 @@ public class AstronomyDetailedCampaignScreen extends AbstractScreen<AstronomyScr
             labelText = SpecificPropertiesUtils.getText(labelName);
         }
         return new ImageButtonBuilder(buttonSkin, getAbstractScreen())
+                .textButtonWidth(GameButtonSize.ASTRONOMY_MENU_BUTTON.getWidth() * 1.3f)
                 .padBetweenImageAndText(getPadBetweenImageAndText(isExtraContent))
                 .setFontScale(FontManager.getNormalFontDim())
                 .setFontColor(FontColor.BLACK)
