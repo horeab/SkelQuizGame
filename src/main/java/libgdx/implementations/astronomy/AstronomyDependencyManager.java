@@ -55,6 +55,11 @@ public class AstronomyDependencyManager extends CampaignGameDependencyManager {
     }
 
     @Override
+    public String getExtraContentProductId() {
+        return "extracontent.astronomy";
+    }
+
+    @Override
     public Class<AstronomyDifficultyLevel> getQuestionDifficultyTypeEnum() {
         return AstronomyDifficultyLevel.class;
     }
