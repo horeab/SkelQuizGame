@@ -336,15 +336,21 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
                 Utils.createRunnableAction(new Runnable() {
                     @Override
                     public void run() {
-                        allTable.addAction(Actions.sequence(Actions.delay(2f), Actions.fadeOut(0.2f),
+                        float fadeOutD = 0.2f;
+                        float delayD = 2f;
+                        for (Image image : new ArrayList<>(displayedWrongCorrectImages)) {
+                            image.addAction(Actions.sequence(Actions.delay(delayD), Actions.fadeOut(fadeOutD), Utils.createRunnableAction(new Runnable() {
+                                @Override
+                                public void run() {
+                                    displayedWrongCorrectImages.remove(image);
+                                    image.remove();
+                                }
+                            })));
+                        }
+                        allTable.addAction(Actions.sequence(Actions.delay(delayD), Actions.fadeOut(fadeOutD),
                                 Utils.createRunnableAction(new Runnable() {
                                     @Override
                                     public void run() {
-                                        for (Image image : new ArrayList<>(displayedWrongCorrectImages)) {
-                                            image.addAction(Actions.fadeOut(0.1f));
-                                            displayedWrongCorrectImages.remove(image);
-                                            image.remove();
-                                        }
                                         allTable.remove();
                                         createAllTable();
                                     }
