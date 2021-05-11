@@ -68,6 +68,7 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
         Image image = GraphicUtils.getImage(AstronomySpecificResource.title_clouds_background);
         stack.addActor(image);
         stack.addActor(titleLabel);
+        stack.setWidth(ScreenDimensionsManager.getScreenWidth());
         return stack;
     }
 
@@ -85,7 +86,8 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
 
         float btnHeight = getBtnHeightValue();
         float dimen = MainDimen.vertical_general_margin.getDimen();
-        table.add(createTitleStack(titleLabel)).height(btnHeight / 2).padTop(dimen * 3).row();
+        Stack titleStack = createTitleStack(titleLabel);
+        table.add(titleStack).height(btnHeight / 2).width(titleStack.getWidth()).padTop(dimen * 3).row();
         long totalStarsWon = 0;
         table.row();
         table.add(addCategButtons()).height(ScreenDimensionsManager.getScreenHeightValue(80));
