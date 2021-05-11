@@ -44,6 +44,7 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
     private Map<Integer, GameQuestionInfoStatus> allQuestionsValidToPlay;
     private AstronomyPlanetsGameType planetsGameType;
     private AstronomyPreferencesManager astronomyPreferencesManager = new AstronomyPreferencesManager();
+    private List<Image> displayedWrongCorrectImages = new ArrayList<>();
 
     public AstronomyDragDropPlanetsScreen(AstronomyPlanetsGameType planetsGameType, List<Planet> allPlanets) {
         super(null);
@@ -339,6 +340,11 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
                                 Utils.createRunnableAction(new Runnable() {
                                     @Override
                                     public void run() {
+                                        for (Image image : new ArrayList<>(displayedWrongCorrectImages)) {
+                                            image.addAction(Actions.fadeOut(0.1f));
+                                            displayedWrongCorrectImages.remove(image);
+                                            image.remove();
+                                        }
                                         allTable.remove();
                                         createAllTable();
                                     }
@@ -357,6 +363,7 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
         image.setHeight(imgDimen);
         new ActorAnimation(image, getAbstractScreen()).animateFadeIn(fadeInCorrectWrongImgDuration());
         addActor(image);
+        displayedWrongCorrectImages.add(image);
     }
 
     private float fadeInCorrectWrongImgDuration() {

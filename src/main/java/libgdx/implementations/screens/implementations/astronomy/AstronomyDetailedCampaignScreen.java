@@ -10,6 +10,7 @@ import libgdx.campaign.QuestionConfig;
 import libgdx.constants.Language;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
+import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
@@ -70,6 +71,7 @@ public class AstronomyDetailedCampaignScreen extends AbstractScreen<AstronomyScr
         table.setFillParent(true);
         table.add(createAllTable()).expand();
         addActor(table);
+        new BackButtonBuilder().addHoverBackButton(this);
     }
 
     private Table createAllTable() {
@@ -149,7 +151,7 @@ public class AstronomyDetailedCampaignScreen extends AbstractScreen<AstronomyScr
         InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
         if (isExtraContent) {
             tableWithBtnAndScore = inAppPurchaseTable.create(tableWithBtnAndScore,
-                    Language.en.name(), "Unlock extra categories and remove Ads", GameButtonSize.ASTRONOMY_MENU_BUTTON.getWidth() * 1.5f);
+                    Language.en.name(), "Unlock extra questions \n+ Remove Ads", GameButtonSize.ASTRONOMY_MENU_BUTTON.getWidth() * 1.5f);
         }
         return tableWithBtnAndScore;
     }
@@ -191,7 +193,7 @@ public class AstronomyDetailedCampaignScreen extends AbstractScreen<AstronomyScr
         InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
         if (isExtraContent) {
             tableWithBtnAndScore = inAppPurchaseTable.create(tableWithBtnAndScore,
-                    Language.en.name(), "Unlock extra categories and remove Ads", GameButtonSize.ASTRONOMY_MENU_BUTTON.getWidth() * 1.5f);
+                    Language.en.name(), "Unlock extra questions \n+ Remove Ads", GameButtonSize.ASTRONOMY_MENU_BUTTON.getWidth() * 1.5f);
         }
 
         return tableWithBtnAndScore;
