@@ -2,5 +2,5 @@
 1::Biceps:5,0,4:67.3,71.5:2
 2::Borstspier:5,0,4:52.5,76.4:2
 3::Trapezius:1,5,4:51.4,85.5:2
-4::Abdominale externe schuine:1,5,0:54.2,65.9:2
+4::buitenste schuine buikspier:1,5,0:54.2,65.9:2
 5::Tibialis anterior:1,0,3:59.7,21.8:2

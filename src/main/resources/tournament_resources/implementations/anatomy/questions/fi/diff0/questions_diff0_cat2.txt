@@ -2,5 +2,5 @@
 1::hauis:5,0,4:67.3,71.5:2
 2::Rintakehän lihakset:5,0,4:52.5,76.4:2
 3::Epäkäslihas:1,5,4:51.4,85.5:2
-4::Vatsan ulkoinen vino:1,5,0:54.2,65.9:2
+4::Ulompi vino vatsalihas:1,5,0:54.2,65.9:2
 5::Tibialis etuosa:1,0,3:59.7,21.8:2

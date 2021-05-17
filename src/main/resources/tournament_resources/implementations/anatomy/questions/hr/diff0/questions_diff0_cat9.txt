@@ -4,4 +4,4 @@
 3::mrežnice:1,6,4:64.6,76.8:9
 4::optički živac:0,6,3:87.9,36.2:9
 5::Prednja komora:6,4,3:7.2,51.4:9
-6::staklena komora:1,4,3:49.3,65:9
+6::Staklasto tijelo:1,4,3:49.3,65:9

@@ -3,5 +3,5 @@
 2::Linse:1,4,6:19,51.3:9
 3::nethinde:1,6,4:64.6,76.8:9
 4::Optisk nerv:0,6,3:87.9,36.2:9
-5::Forkammer:6,4,3:7.2,51.4:9
-6::Glasagtige kammer:1,4,3:49.3,65:9
+5::forreste kammer:6,4,3:7.2,51.4:9
+6::Glaslegemet:1,4,3:49.3,65:9

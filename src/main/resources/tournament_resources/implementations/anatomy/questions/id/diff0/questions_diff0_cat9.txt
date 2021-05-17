@@ -3,5 +3,5 @@
 2::Lensa:1,4,6:19,51.3:9
 3::Retina:1,6,4:64.6,76.8:9
 4::Saraf optik:0,6,3:87.9,36.2:9
-5::Kamar anterior:6,4,3:7.2,51.4:9
-6::Kamar Vitreous:1,4,3:49.3,65:9
+5::bilik anterior:6,4,3:7.2,51.4:9
+6::Badan bening:1,4,3:49.3,65:9

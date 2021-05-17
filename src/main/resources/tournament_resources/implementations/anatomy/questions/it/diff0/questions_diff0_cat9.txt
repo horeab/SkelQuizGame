@@ -4,4 +4,4 @@
 3::Retina:1,6,4:64.6,76.8:9
 4::Nervo ottico:0,6,3:87.9,36.2:9
 5::Camera anteriore:6,4,3:7.2,51.4:9
-6::Camera vetrosa:1,4,3:49.3,65:9
+6::Corpo vitreo:1,4,3:49.3,65:9

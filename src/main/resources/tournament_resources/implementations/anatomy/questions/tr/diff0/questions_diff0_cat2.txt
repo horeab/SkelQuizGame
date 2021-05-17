@@ -3,4 +3,4 @@
 2::Göğüs kası:5,0,4:52.5,76.4:2
 3::Trapezius:1,5,4:51.4,85.5:2
 4::Karın dış eğik kas:1,5,0:54.2,65.9:2
-5::Tibialis anterior:1,0,3:59.7,21.8:2
+5::Musculus tibialis anterior:1,0,3:59.7,21.8:2
