@@ -1,6 +1,6 @@
-0::Otak:5,4,3:50,96:4
-1::Otak kecil:5,4,3:52,92:4
-2::sumsum tulang belakang:0,4,3:50,87:4
-3::Saraf siatik:0,4,5:54,43:4
-4::Saraf Tibial:1,5,3:54,18:4
+0::Otak:5,4,3:50.4,96.8:4
+1::Otak kecil:5,4,3:56,92.6:4
+2::sumsum tulang belakang:0,4,3:50.7,86.8:4
+3::Saraf siatik:0,4,5:59.4,37.6:4
+4::Saraf Tibial:1,5,3:61.1,19.4:4
 5::Ganglion:4,3,1:49,70:4

@@ -8,14 +8,6 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
-
-import libgdx.utils.model.FontColor;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.tuple.Pair;
-
-import java.util.ArrayList;
-import java.util.Map;
-
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.ButtonSkin;
 import libgdx.controls.button.MyButton;
@@ -24,14 +16,21 @@ import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
+import libgdx.implementations.anatomy.AnatomySpecificResource;
+import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.question.Question;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
 import libgdx.resources.dimen.MainDimen;
-import libgdx.implementations.screens.GameScreen;
 import libgdx.utils.ScreenDimensionsManager;
+import libgdx.utils.model.FontColor;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.tuple.Pair;
+
+import java.util.ArrayList;
+import java.util.Map;
 
 public class ImageClickQuestionContainerCreatorService extends QuestionContainerCreatorService<ImageClickGameService> {
 
@@ -52,23 +51,109 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
                 .setFontScale(FontManager.getNormalBigFontDim())
                 .setFontColor(FontColor.BLACK)
                 .setText(StringUtils.capitalize(gameService.getQuestionToBeDisplayed())).build());
-        Table table = new Table();
-        table.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
+        Table tableQuestionLabel = new Table();
+        tableQuestionLabel.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();
-        table.add(questionLabel);
-        questionContainer.add(table).padBottom(verticalGeneralMarginDimen).row();
-        Group group = createGroupWithImageAndAnswerOptions();
-        questionContainer.add(group).height(group.getHeight()).width(group.getWidth()).padBottom(0).center();
+        tableQuestionLabel.add(questionLabel).width(ScreenDimensionsManager.getScreenWidth());
+        questionContainer.add(tableQuestionLabel).padBottom(verticalGeneralMarginDimen).row();
+        Image image = gameService.getQuestionImage();
+        addQuestionImgTableToContainer(image);
         return questionTable;
+    }
+
+    protected void addQuestionImgTableToContainer(Image image) {
+        Table questionImgTable = createGroupWithImageAndAnswerOptionsForSideAnswers(image);
+        questionContainer.add(questionImgTable)
+                .height(questionImgTable.getHeight()).width(questionImgTable.getWidth()).padBottom(0).center();
     }
 
     @Override
     protected void setContainerBackground() {
     }
 
-    private Group createGroupWithImageAndAnswerOptions() {
+
+    protected Table createGroupWithImageAndAnswerOptionsForSideAnswers(Image image) {
         Question question = getGameQuestionInfo().getQuestion();
-        final Image image = gameService.getQuestionImage();
+        Group grp = createInitialGroupAndAdjustImageForSideAnswers(image);
+        Map<MyButton, Pair<Float, Float>> buttonWithCoordinates = gameService.getAnswerOptionsCoordinates(new ArrayList<>(getAllAnswerButtons().values()), question.getQuestionDifficultyLevel(), question.getQuestionCategory());
+        for (Map.Entry<MyButton, Pair<Float, Float>> entry : buttonWithCoordinates.entrySet()) {
+            grp.addActor(createRespArrow(entry.getValue(), image, grp, entry.getKey()));
+        }
+        image.addListener(new ClickListener() {
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+                System.out.print((x / image.getWidth()) * 100 + "," + (y / image.getHeight()) * 100 + "\n");
+            }
+        });
+        Table table = new Table();
+        table.setWidth(grp.getWidth());
+        table.setHeight(grp.getHeight());
+        table.add(grp).width(grp.getWidth()).height(grp.getHeight());
+        return table;
+    }
+
+    private Table createRespArrow(Pair<Float, Float> coord, Image image, Group group, MyButton respBtn) {
+        float arrowWidth = ScreenDimensionsManager.getScreenWidthValue(30);
+        Image arrowLeft = GraphicUtils.getImage(AnatomySpecificResource.arrow_left);
+        arrowLeft.setWidth(arrowWidth);
+        arrowLeft.setHeight(GameButtonSize.ANATOMY_RESPONSE_ARROW.getHeight());
+        float pointerSideDimen = MainDimen.horizontal_general_margin.getDimen();
+        Image arrowPointer = GraphicUtils.getImage(AnatomySpecificResource.arrow_left_pointer);
+        arrowPointer.setWidth(pointerSideDimen);
+        arrowPointer.setHeight(pointerSideDimen);
+        Table arrowTable = new Table();
+        arrowTable.setHeight(arrowLeft.getHeight());
+        arrowTable.setWidth(arrowLeft.getWidth() + pointerSideDimen);
+        arrowTable.add(arrowPointer).width(pointerSideDimen).height(pointerSideDimen);
+        arrowTable.add(arrowLeft).width(arrowLeft.getWidth()).height(arrowLeft.getHeight());
+        arrowTable.add(respBtn).width(respBtn.getWidth()).height(respBtn.getHeight());
+        setSideArrowPosition(coord, image, group, respBtn, arrowTable);
+        return arrowTable;
+    }
+
+    protected void setSideArrowPosition(Pair<Float, Float> coord, Image image, Group group, MyButton respBtn, Table arrowTable) {
+        arrowTable.setX(image.getWidth() / 100 * coord.getKey() + respBtn.getWidth() / 2);
+        arrowTable.setY(image.getHeight() / 100 * coord.getValue() - respBtn.getHeight() / 2);
+    }
+
+    protected Table createGroupWithImageAndAnswerOptionsForExactAnswers(Image image) {
+        Question question = getGameQuestionInfo().getQuestion();
+        Group grp = createInitialGroupAndAdjustImageForExactAnswers(image);
+        Map<MyButton, Pair<Float, Float>> buttonWithCoordinates = gameService.getAnswerOptionsCoordinates(new ArrayList<>(getAllAnswerButtons().values()), question.getQuestionDifficultyLevel(), question.getQuestionCategory());
+        for (Map.Entry<MyButton, Pair<Float, Float>> entry : buttonWithCoordinates.entrySet()) {
+            MyButton button = entry.getKey();
+            grp.addActor(button);
+            Pair<Float, Float> coord = entry.getValue();
+            button.setTransform(true);
+            setExactAnswerButtonPosition(image, grp, button, coord);
+            new ActorAnimation(button, Game.getInstance().getAbstractScreen()).animateZoomInZoomOut();
+        }
+        image.addListener(new ClickListener() {
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+                System.out.print((x / image.getWidth()) * 100 + "," + (y / image.getHeight()) * 100 + "\n");
+            }
+        });
+        Table table = new Table();
+        table.setWidth(grp.getWidth());
+        table.setHeight(grp.getHeight());
+        table.add(grp).width(grp.getWidth()).height(grp.getHeight());
+        return table;
+    }
+
+    protected void setExactAnswerButtonPosition(Image image, Group group, MyButton button, Pair<Float, Float> coord) {
+        button.setPosition(image.getWidth() / 100 * coord.getKey(), image.getHeight() / 100 * coord.getValue(), Align.center);
+    }
+
+    protected Group createInitialGroupAndAdjustImageForExactAnswers(Image image) {
+        return createInitialGroupAndAdjustImageForAnswers(image);
+    }
+
+    protected Group createInitialGroupAndAdjustImageForSideAnswers(Image image) {
+        return createInitialGroupAndAdjustImageForAnswers(image);
+    }
+
+    private Group createInitialGroupAndAdjustImageForAnswers(Image image) {
         Group grp = new Group();
         float imgHeight = image.getHeight();
         float imgWidth = image.getWidth();
@@ -82,22 +167,6 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
         grp.addActor(image);
         grp.setHeight(image.getHeight());
         grp.setWidth(image.getWidth());
-        Map<MyButton, Pair<Float, Float>> buttonWithCoordinates = gameService.getAnswerOptionsCoordinates(new ArrayList<>(getAllAnswerButtons().values()), question.getQuestionDifficultyLevel(), question.getQuestionCategory());
-        for (Map.Entry<MyButton, Pair<Float, Float>> entry : buttonWithCoordinates.entrySet()) {
-            MyButton button = entry.getKey();
-            grp.addActor(button);
-            Pair<Float, Float> coord = entry.getValue();
-            button.setTransform(true);
-//            button.setVisible(false);
-            button.setPosition(image.getWidth() / 100 * coord.getKey(), image.getHeight() / 100 * coord.getValue(), Align.center);
-            new ActorAnimation(button, Game.getInstance().getAbstractScreen()).animateZoomInZoomOut();
-        }
-        image.addListener(new ClickListener() {
-            @Override
-            public void clicked(InputEvent event, float x, float y) {
-                System.out.print((x / image.getWidth()) * 100 + "," + (y / image.getHeight()) * 100 + "\n");
-            }
-        });
         return grp;
     }
 
@@ -128,7 +197,7 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
                 .setText(StringUtils.capitalize(answer))
                 .setFixedButtonSize(GameButtonSize.IMAGE_CLICK_ANSWER_OPTION)
                 .build();
-        button.getCenterRow().setVisible(false);
+        button.getCenterRow().setVisible(true);
         button.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {

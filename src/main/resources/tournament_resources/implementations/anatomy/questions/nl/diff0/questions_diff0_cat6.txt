@@ -1,6 +1,6 @@
-0::Frontale lob:1,2,4:33,56:6
-1::Temporale kwab:0,2,3:50,43:6
-2::Pariëtale lob:0,1,3:61,61:6
-3::Occipitale lob:0,1,2:76,48:6
-4::Kleine hersenen:1,2,0:66,34:6
-5::Hersenstam:1,2,0:57,30:6
+0::Frontale kwab:1,2,4:25,58.5:6
+1::Temporale kwab:0,2,3:51.2,42.2:6
+2::Pariëtale kwab:0,1,3:66,69:6
+3::Occipitale kwab:0,1,2:91,46:6
+4::Kleine hersenen:1,2,0:72.8,26.1:6
+5::Hersenstam:1,2,0:63.3,17.6:6

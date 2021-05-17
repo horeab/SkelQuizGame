@@ -35,6 +35,9 @@ public enum AnatomySpecificResource implements SpecificResource {
     img_cat8_8s("questions/images/8s.png", Texture.class),
     img_cat9_9s("questions/images/9s.png", Texture.class),
 
+    arrow_left("arrow_left.png", Texture.class),
+    arrow_left_pointer("arrow_left_pointer.png", Texture.class),
+
     title_background("title_background.png", Texture.class),
     star("star.png", Texture.class),
     success("success.png", Texture.class),;

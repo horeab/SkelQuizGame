@@ -1,7 +1,7 @@
-0::Øremusling:1,2,3:21,64:7
-1::Øregang:0,2,6:37,45:7
-2::Ørtrommel:1,5,6:55,45:7
-3::ossicles:1,0,6:54,53:7
-4::Sneglehuset:6,1,5:68,46:7
-5::Auditive nerv:6,2,1:79,49:7
-6::Øretrompeten:5,1,3:71,33:7
+0::Øremusling:1,2,3:8,31:7
+1::Øregang:0,2,6:33.5,42.1:7
+2::Ørtrommel:1,5,6:55.6,42:7
+3::ossicles:1,0,6:54.3,52.9:7
+4::Sneglehuset:6,1,5:75.8,45.7:7
+5::Auditive nerv:6,2,1:91.8,48:7
+6::Øretrompeten:5,1,3:77.3,28.3:7

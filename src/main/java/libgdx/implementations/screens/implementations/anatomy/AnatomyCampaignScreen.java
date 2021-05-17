@@ -82,7 +82,7 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
                     .setButtonSkin(GameButtonSkin.HANGMAN_CATEG).build();
             final int maxOpenedLevel = allCampaignLevelStores.size();
             if (i >= maxOpenedLevel) {
-                categBtn.setDisabled(true);
+//                categBtn.setDisabled(true);
             }
             categBtn.addListener(new ChangeListener() {
                 @Override
@@ -99,24 +99,29 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
             Image image = GraphicUtils.getImage(AnatomySpecificResource.valueOf("img_cat" + i + "_" + i + "s"));
             float imgHeight = image.getHeight();
             float imgWidth = image.getWidth();
+            float levelBtnHeight = getLevelBtnHeight();
             if (imgWidth > imgHeight) {
                 image.setWidth(ScreenDimensionsManager.getScreenWidthValue(55));
                 image.setHeight(ScreenDimensionsManager.getNewHeightForNewWidth(image.getWidth(), imgWidth, imgHeight));
             } else {
-                image.setHeight(getLevelBtnHeight());
+                image.setHeight(levelBtnHeight);
                 image.setWidth(ScreenDimensionsManager.getNewWidthForNewHeight(image.getHeight(), imgWidth, imgHeight));
             }
             Table imgTable = new Table();
             imgTable.add(image).width(image.getWidth()).height(image.getHeight());
             btnTable.add(imgTable).width(btnWidth);
-            btnTable.add(categBtn)
-                    .pad(horizontalGeneralMarginDimen)
-                    .height(getLevelBtnHeight())
-                    .width(btnWidth);
+            Table categBtnTable = new Table();
+            categBtnTable.add(categBtn).height(levelBtnHeight).width(btnWidth);
             if (i >= (totalCat / 2) && !Utils.isValidExtraContent()) {
-                btnTable = inAppPurchaseTable.create(btnTable, Language.en.name(), "Unlock extra categories and remove Ads");
+                categBtnTable = inAppPurchaseTable.create(categBtnTable,
+                        Language.en.name(), "Unlock extra categories and remove Ads", btnWidth, levelBtnHeight);
                 categBtn.setDisabled(true);
             }
+            btnTable.add(categBtnTable)
+                    .pad(horizontalGeneralMarginDimen)
+                    .height(levelBtnHeight)
+                    .width(btnWidth);
+
             table.add(btnTable).expand().pad(horizontalGeneralMarginDimen);
             table.row();
         }

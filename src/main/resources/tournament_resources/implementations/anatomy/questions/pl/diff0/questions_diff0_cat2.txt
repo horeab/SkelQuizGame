@@ -1,6 +1,6 @@
-0::Mięsień naramienny:4,1,5:34,80:2
-1::Biceps:5,0,4:57,71:2
-2::piersiowe:5,0,4:50,76:2
-3::Mięsień czworoboczny:1,5,4:49,84:2
-4::Zewnętrzny skośny brzuch:1,5,0:40,62:2
-5::Tibialis przedni:1,0,3:54,21:2
+0::Mięsień naramienny:4,1,5:65.3,80.2:2
+1::Mięsień dwugłowy ramienia:5,0,4:67.3,71.5:2
+2::Mięsień piersiowy większy:5,0,4:52.5,76.4:2
+3::Mięsień czworoboczny:1,5,4:51.4,85.5:2
+4::Mięsień skośny zewnętrzny:1,5,0:54.2,65.9:2
+5::Mięsień piszczelowy przedni:1,0,3:59.7,21.8:2

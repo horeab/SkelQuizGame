@@ -6,6 +6,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignService;
 import libgdx.controls.animations.ActorAnimation;
+import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.dbapi.GameStatsDbApiService;
 import libgdx.game.Game;
@@ -24,6 +25,7 @@ public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
     public static int TOTAL_QUESTIONS = 5;
     private CampaignLevel campaignLevel;
     private Table allTable;
+    private MyButton backButton;
 
     public AnatomyGameScreen(GameContext gameContext, CampaignLevel campaignLevel) {
         super(gameContext);
@@ -33,7 +35,7 @@ public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
     @Override
     public void buildStage() {
         createAllTable();
-        new BackButtonBuilder().addHoverBackButton(this);
+        backButton = new BackButtonBuilder().addHoverBackButton(this);
     }
 
     private void createAllTable() {
@@ -42,7 +44,7 @@ public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
         }
 
         allTable = new Table();
-        QuestionContainerCreatorService questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
+        QuestionContainerCreatorService questionContainerCreatorService = new AnatomyImageQuestionContainerCreatorService(gameContext, this);
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         questionTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(45));
         allTable.add(questionTable).height(questionTable.getHeight()).row();
@@ -50,6 +52,9 @@ public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
         addActor(allTable);
 
         questionContainerCreatorService.processGameInfo(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
+        if (backButton != null) {
+            backButton.toFront();
+        }
     }
 
     @Override

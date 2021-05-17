@@ -1,0 +1,102 @@
+package libgdx.implementations.screens.implementations.anatomy;
+
+import com.badlogic.gdx.scenes.scene2d.Group;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.utils.Align;
+import libgdx.controls.button.MyButton;
+import libgdx.implementations.screens.GameScreen;
+import libgdx.implementations.skelgame.gameservice.GameContext;
+import libgdx.implementations.skelgame.gameservice.ImageClickQuestionContainerCreatorService;
+import libgdx.utils.ScreenDimensionsManager;
+import org.apache.commons.lang3.tuple.Pair;
+
+public class AnatomyImageQuestionContainerCreatorService extends ImageClickQuestionContainerCreatorService {
+
+    public AnatomyImageQuestionContainerCreatorService(GameContext gameContext, GameScreen abstractGameScreen) {
+        super(gameContext, abstractGameScreen);
+    }
+
+    @Override
+    protected Group createInitialGroupAndAdjustImageForSideAnswers(Image image) {
+        Group grp = new Group();
+        float imgHeight = image.getHeight();
+        float imgWidth = image.getWidth();
+        float groupHeight = getGroupHeightValue();
+        float groupWidth = getGroupWidthValue();
+        image.setWidth(ScreenDimensionsManager.getScreenWidthValue(60));
+        image.setHeight(ScreenDimensionsManager.getNewHeightForNewWidth(image.getWidth(), imgWidth, imgHeight));
+        image.setPosition(getQuestionImageLeftMarginWithSideAnswers(image, groupWidth), getQuestionImageTopMargin(image, groupHeight));
+        grp.addActor(image);
+        grp.setHeight(groupHeight);
+        grp.setWidth(groupWidth);
+        return grp;
+    }
+
+    @Override
+    protected Group createInitialGroupAndAdjustImageForExactAnswers(Image image) {
+        Group grp = new Group();
+        float imgHeight = image.getHeight();
+        float imgWidth = image.getWidth();
+        float groupHeight = getGroupHeightValue();
+        float groupWidth = getGroupWidthValue();
+        image.setWidth(ScreenDimensionsManager.getScreenWidthValue(85));
+        image.setHeight(ScreenDimensionsManager.getNewHeightForNewWidth(image.getWidth(), imgWidth, imgHeight));
+        image.setPosition(getQuestionImageLeftMarginWithExactAnswers(image, groupWidth), getQuestionImageTopMargin(image, groupHeight));
+        grp.addActor(image);
+        grp.setHeight(groupHeight);
+        grp.setWidth(groupWidth);
+        return grp;
+    }
+
+    private float getQuestionImageLeftMarginWithExactAnswers(Image image, float groupWidth) {
+        return (groupWidth - image.getWidth()) / 2;
+    }
+
+    private float getGroupWidthValue() {
+        return ScreenDimensionsManager.getScreenWidthValue(98);
+    }
+
+    private float getGroupHeightValue() {
+        return ScreenDimensionsManager.getScreenHeightValue(82);
+    }
+
+    @Override
+    protected void setSideArrowPosition(Pair<Float, Float> coord, Image image, Group group, MyButton respBtn, Table arrowTable) {
+        float leftMargin = getQuestionImageLeftMarginWithSideAnswers(image, group.getWidth());
+        float topMargin = getQuestionImageTopMargin(image, group.getHeight());
+        arrowTable.setX(leftMargin + ((image.getWidth() / 100) * coord.getKey()) + respBtn.getWidth() / 2);
+        arrowTable.setY(topMargin + (image.getHeight() / 100 * coord.getValue() - respBtn.getWidth() / 2));
+//        arrowTable.setVisible(false);
+    }
+
+    @Override
+    protected void setExactAnswerButtonPosition(Image image, Group group, MyButton button, Pair<Float, Float> coord) {
+        float leftMargin = getQuestionImageLeftMarginWithExactAnswers(image, group.getWidth());
+        float topMargin = getQuestionImageTopMargin(image, group.getHeight());
+        button.setPosition(
+                leftMargin + (image.getWidth() / 100 * coord.getKey()),
+                topMargin + (image.getHeight() / 100 * coord.getValue()),
+                Align.center);
+    }
+
+    private float getQuestionImageTopMargin(Image image, float groupHeight) {
+        return (groupHeight - image.getHeight()) / 2;
+    }
+
+    private float getQuestionImageLeftMarginWithSideAnswers(Image image, float groupWidth) {
+        return ((groupWidth / 1.3f) - image.getWidth()) / 2;
+    }
+
+    @Override
+    protected void addQuestionImgTableToContainer(Image image) {
+        Table questionImgTable;
+        if (image.getWidth() != image.getHeight()) {
+            questionImgTable = createGroupWithImageAndAnswerOptionsForSideAnswers(image);
+        } else {
+            questionImgTable = createGroupWithImageAndAnswerOptionsForExactAnswers(image);
+        }
+        questionContainer.add(questionImgTable)
+                .height(questionImgTable.getHeight()).width(questionImgTable.getWidth()).padBottom(0).center();
+    }
+}
