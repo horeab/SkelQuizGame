@@ -69,8 +69,8 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         titleLabel.setBackground(GraphicUtils.getNinePatch(QuizGameSpecificResource.title_backgr));
         float titlePadTop = Gdx.app.getType() == Application.ApplicationType.iOS ? verticalGeneralMarginDimen * 4 : verticalGeneralMarginDimen * 2;
         table.add(titleLabel)
-                .width(ScreenDimensionsManager.getScreenWidthValue(90))
-                .height(ScreenDimensionsManager.getScreenHeightValue(15))
+                .width(ScreenDimensionsManager.getScreenWidth(90))
+                .height(ScreenDimensionsManager.getScreenHeight(15))
                 .padTop(titlePadTop)
                 .padBottom(verticalGeneralMarginDimen * 4).row();
         InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
@@ -132,7 +132,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         }
         if ((maxOpenedLevel + 1) == campaignLevel.getIndex()) {
             myButton.setTransform(true);
-            new ActorAnimation(myButton, this).animateZoomInZoomOut(0.5f);
+            new ActorAnimation(this).animateZoomInZoomOut(myButton, 0.5f);
         }
         myButton.setHeight(ICON_DIMEN);
         myButton.setWidth(ICON_DIMEN);

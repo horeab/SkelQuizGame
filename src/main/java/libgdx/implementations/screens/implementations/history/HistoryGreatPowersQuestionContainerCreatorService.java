@@ -37,7 +37,7 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
     private Map<Integer, Integer> qNrMaxYear;
 
     public HistoryGreatPowersQuestionContainerCreatorService(GameContext gameContext, HistoryGameScreen abstractGameScreen, HistoryPreferencesService historyPreferencesService) {
-        super(gameContext, abstractGameScreen,historyPreferencesService);
+        super(gameContext, abstractGameScreen, historyPreferencesService);
         this.campaignLevelEnum = HistoryCampaignLevelEnum.LEVEL_0_1;
         initQuestionNrMaxYear();
     }
@@ -45,7 +45,7 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
     protected Table createOptionsTable() {
         Table table = new Table();
         float optionBtnHeight = getOptionHeight();
-        float optionWidth = ScreenDimensionsManager.getScreenWidthValue(70);
+        float optionWidth = ScreenDimensionsManager.getScreenWidth(70);
         int i = 0;
         for (Integer qNr : qNrMaxYear.keySet()) {
             Pair<String, String> years = getGameService().getOptionText(gameContext.getCurrentUserGameUser().getGameQuestionInfo(i).getQuestion().getQuestionString());
@@ -141,7 +141,7 @@ public class HistoryGreatPowersQuestionContainerCreatorService extends HistoryQu
             }
         });
         btn.setTransform(true);
-        new ActorAnimation(btn, getAbstractGameScreen()).animateZoomInZoomOut(0.01f);
+        new ActorAnimation(getAbstractGameScreen()).animateZoomInZoomOut(btn, 0.01f);
         return btn;
     }
 

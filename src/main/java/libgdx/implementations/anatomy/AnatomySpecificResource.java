@@ -34,12 +34,30 @@ public enum AnatomySpecificResource implements SpecificResource {
     img_cat7_7s("questions/images/7s.png", Texture.class),
     img_cat8_8s("questions/images/8s.png", Texture.class),
     img_cat9_9s("questions/images/9s.png", Texture.class),
+    img_cat0_0t("questions/images/0t.png", Texture.class),
+    img_cat1_1t("questions/images/1t.png", Texture.class),
+    img_cat2_2t("questions/images/2t.png", Texture.class),
+    img_cat3_3t("questions/images/3t.png", Texture.class),
+    img_cat4_4t("questions/images/4t.png", Texture.class),
+    img_cat5_5t("questions/images/5t.png", Texture.class),
+    img_cat6_6t("questions/images/6t.png", Texture.class),
+    img_cat7_7t("questions/images/7t.png", Texture.class),
+    img_cat8_8t("questions/images/8t.png", Texture.class),
+    img_cat9_9t("questions/images/9t.png", Texture.class),
+
+    btn_generalk_down("buttons/btn_generalk_down.png", Texture.class),
+    btn_generalk_up("buttons/btn_generalk_up.png", Texture.class),
+    btn_identify_down("buttons/btn_identify_down.png", Texture.class),
+    btn_identify_up("buttons/btn_identify_up.png", Texture.class),
 
     arrow_left("arrow_left.png", Texture.class),
     arrow_left_pointer("arrow_left_pointer.png", Texture.class),
 
     title_background("title_background.png", Texture.class),
     star("star.png", Texture.class),
+    star_level("star_level.png", Texture.class),
+    star_green("star_green.png", Texture.class),
+    star_disabled("star_disabled.png", Texture.class),
     success("success.png", Texture.class),;
     // @formatter:on
 

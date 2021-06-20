@@ -24,7 +24,7 @@ public class ChemicalElementInfoPopup extends MyPopup<AbstractScreen, CampaignSc
 
     @Override
     public float getPrefWidth() {
-        return ScreenDimensionsManager.getScreenWidthValue(60);
+        return ScreenDimensionsManager.getScreenWidth(60);
     }
 
     @Override

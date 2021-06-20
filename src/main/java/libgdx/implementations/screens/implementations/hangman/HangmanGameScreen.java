@@ -141,7 +141,7 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
         int gameOverWrongLetters = HangmanGameService.GAME_OVER_WRONG_LETTERS;
         float partWidth = allWidth / gameOverWrongLetters;
         hanganAnswersTable.setWidth(allWidth);
-        float heightValue = ScreenDimensionsManager.getScreenHeightValue(2f);
+        float heightValue = ScreenDimensionsManager.getScreenHeight(2f);
         hanganAnswersTable.setHeight(heightValue);
         for (int i = gameOverWrongLetters; i >= 1; i--) {
             Table aTable = new Table();
@@ -153,10 +153,10 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
     }
 
     private void addCategHintBtn(int i) {
-        float x1 = ScreenDimensionsManager.getScreenWidthValue(15);
-        float x2 = ScreenDimensionsManager.getScreenWidthValue(85);
-        float y1 = ScreenDimensionsManager.getScreenHeightValue(46);
-        float y2 = ScreenDimensionsManager.getScreenHeightValue(58);
+        float x1 = ScreenDimensionsManager.getScreenWidth(15);
+        float x2 = ScreenDimensionsManager.getScreenWidth(85);
+        float y1 = ScreenDimensionsManager.getScreenHeight(46);
+        float y2 = ScreenDimensionsManager.getScreenHeight(58);
 
         float x = i % 2 == 0 ? x1 : x2;
         float y = i == 0 || i == 1 ? y1 : y2;
@@ -178,26 +178,26 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
                 }
                 categHintTable = createCategHintTable();
                 categHintTable.setX(0);
-                categHintTable.setY(ScreenDimensionsManager.getScreenHeightValue(70));
+                categHintTable.setY(ScreenDimensionsManager.getScreenHeight(70));
                 addActor(categHintTable);
                 hintCategAvailable = hintCategAvailable - 1;
             }
         });
-        new ActorAnimation(categHintBtn, getAbstractScreen()).animateZoomInZoomOut();
+        new ActorAnimation(getAbstractScreen()).animateZoomInZoomOut(categHintBtn);
         addActor(categHintBtn);
     }
 
     public static float getHangmanImgWidth() {
-        return ScreenDimensionsManager.getScreenWidthValue(55);
+        return ScreenDimensionsManager.getScreenWidth(55);
     }
 
     public static float getHangmanImgHeight() {
-        return ScreenDimensionsManager.getScreenHeightValue(35);
+        return ScreenDimensionsManager.getScreenHeight(35);
     }
 
     public Table createLevelsTable() {
         Table table = new Table();
-        float lvlHeight = ScreenDimensionsManager.getScreenHeightValue(1.5f);
+        float lvlHeight = ScreenDimensionsManager.getScreenHeight(1.5f);
         float margin = MainDimen.vertical_general_margin.getDimen() / 3;
         int percent = 70;
         int r = 255;
@@ -205,7 +205,7 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
             Table lvlTable = new Table();
             Color color = gameContext.getCurrentUserGameUser().getWonQuestions() >= i ? Color.GREEN : new RGBColor(r, 255, 230).toColor();
             lvlTable.setBackground(GraphicUtils.getColorBackground(color));
-            table.add(lvlTable).height(lvlHeight).width(ScreenDimensionsManager.getScreenWidthValue(percent)).padTop(margin).row();
+            table.add(lvlTable).height(lvlHeight).width(ScreenDimensionsManager.getScreenWidth(percent)).padTop(margin).row();
             percent = percent - 4;
             r = r - 10;
         }
@@ -217,11 +217,11 @@ public class HangmanGameScreen extends GameScreen<HangmanScreenManager> {
         MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setText(
                 new SpecificPropertiesUtils().getQuestionCategoryLabel(gameContext.getCurrentUserGameUser().getGameQuestionInfo().getQuestion().getQuestionCategory().getIndex())).setFontConfig(new FontConfig(
                 FontColor.BLACK.getColor(),
-                FontConfig.FONT_SIZE * 1.7f)).setWrappedLineLabel(ScreenDimensionsManager.getScreenWidthValue(90)).build());
+                FontConfig.FONT_SIZE * 1.7f)).setWrappedLineLabel(ScreenDimensionsManager.getScreenWidth(90)).build());
         table.add(titleLabel);
         table.addAction(Actions.sequence(Actions.delay(15f), Actions.fadeOut(1f)));
         table.setWidth(ScreenDimensionsManager.getScreenWidth());
-        table.setHeight(ScreenDimensionsManager.getScreenHeightValue(5));
+        table.setHeight(ScreenDimensionsManager.getScreenHeight(5));
         table.setBackground(GraphicUtils.getColorBackground(RGBColor.LIGHT_BLUE.toColor(0.7f)));
         return table;
     }

@@ -104,15 +104,15 @@ public class HangmanScreenBackgroundCreator extends AbstractGameScreenBackground
     }
 
     private void createGrassTexture() {
-        getAbstractGameScreen().addActor(GraphicUtils.addTiledImage(HangmanArenaSpecificResource.grass_texture, -getHangmanImageYPosition() + ScreenDimensionsManager.getScreenHeightValue(4), Texture.TextureWrap.MirroredRepeat));
+        getAbstractGameScreen().addActor(GraphicUtils.addTiledImage(HangmanArenaSpecificResource.grass_texture, -getHangmanImageYPosition() + ScreenDimensionsManager.getScreenHeight(4), Texture.TextureWrap.MirroredRepeat));
     }
 
     private static void animateSmokeImage(final AbstractScreen abstractScreen, final int y) {
         try {
             Image image = GraphicUtils.getImage(HangmanArenaSpecificResource.smoke);
-            image.setPosition(ScreenDimensionsManager.getScreenWidthValue(87), ScreenDimensionsManager.getScreenHeightValue(y));
-            image.setHeight(ScreenDimensionsManager.getScreenWidthValue(2f));
-            image.setWidth(ScreenDimensionsManager.getScreenWidthValue(2f));
+            image.setPosition(ScreenDimensionsManager.getScreenWidth(87), ScreenDimensionsManager.getScreenHeight(y));
+            image.setHeight(ScreenDimensionsManager.getScreenWidth(2f));
+            image.setWidth(ScreenDimensionsManager.getScreenWidth(2f));
             RunnableAction run = new RunnableAction();
             run.setRunnable(new ScreenRunnable(abstractScreen) {
                 @Override
@@ -138,6 +138,6 @@ public class HangmanScreenBackgroundCreator extends AbstractGameScreenBackground
     }
 
     private float getHangmanImageYPosition() {
-        return ScreenDimensionsManager.getScreenHeightValue(52);
+        return ScreenDimensionsManager.getScreenHeight(52);
     }
 }

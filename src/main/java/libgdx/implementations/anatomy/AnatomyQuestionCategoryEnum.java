@@ -1,6 +1,7 @@
 package libgdx.implementations.anatomy;
 
 import libgdx.implementations.skelgame.gameservice.CreatorDependencies;
+import libgdx.implementations.skelgame.gameservice.UniqueQuizGameCreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.ImageClickGameCreatorDependencies;
 import libgdx.implementations.skelgame.gameservice.QuizQuestionCategory;
 
@@ -16,6 +17,17 @@ public enum AnatomyQuestionCategoryEnum implements QuizQuestionCategory {
     cat7(ImageClickGameCreatorDependencies.class),
     cat8(ImageClickGameCreatorDependencies.class),
     cat9(ImageClickGameCreatorDependencies.class),
+
+    cat10(UniqueQuizGameCreatorDependencies.class),
+    cat11(UniqueQuizGameCreatorDependencies.class),
+    cat12(UniqueQuizGameCreatorDependencies.class),
+    cat13(UniqueQuizGameCreatorDependencies.class),
+    cat14(UniqueQuizGameCreatorDependencies.class),
+    cat15(UniqueQuizGameCreatorDependencies.class),
+    cat16(UniqueQuizGameCreatorDependencies.class),
+    cat17(UniqueQuizGameCreatorDependencies.class),
+    cat18(UniqueQuizGameCreatorDependencies.class),
+    cat19(UniqueQuizGameCreatorDependencies.class),
     ;
 
     private Class<? extends CreatorDependencies> questionCreator;

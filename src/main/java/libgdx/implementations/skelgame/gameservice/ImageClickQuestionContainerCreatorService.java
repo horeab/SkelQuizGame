@@ -34,8 +34,11 @@ import java.util.Map;
 
 public class ImageClickQuestionContainerCreatorService extends QuestionContainerCreatorService<ImageClickGameService> {
 
+    private ActorAnimation actorAnimation;
+
     public ImageClickQuestionContainerCreatorService(GameContext gameContext, GameScreen abstractGameScreen) {
         super(gameContext, abstractGameScreen);
+        actorAnimation = new ActorAnimation(getAbstractGameScreen());
     }
 
 
@@ -93,7 +96,7 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
     }
 
     private Table createRespArrow(Pair<Float, Float> coord, Image image, Group group, MyButton respBtn) {
-        float arrowWidth = ScreenDimensionsManager.getScreenWidthValue(30);
+        float arrowWidth = ScreenDimensionsManager.getScreenWidth(30);
         Image arrowLeft = GraphicUtils.getImage(AnatomySpecificResource.arrow_left);
         arrowLeft.setWidth(arrowWidth);
         arrowLeft.setHeight(GameButtonSize.ANATOMY_RESPONSE_ARROW.getHeight());
@@ -101,6 +104,7 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
         Image arrowPointer = GraphicUtils.getImage(AnatomySpecificResource.arrow_left_pointer);
         arrowPointer.setWidth(pointerSideDimen);
         arrowPointer.setHeight(pointerSideDimen);
+        actorAnimation.animateZoomInZoomOut(arrowPointer, 0.7f);
         Table arrowTable = new Table();
         arrowTable.setHeight(arrowLeft.getHeight());
         arrowTable.setWidth(arrowLeft.getWidth() + pointerSideDimen);
@@ -126,7 +130,7 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
             Pair<Float, Float> coord = entry.getValue();
             button.setTransform(true);
             setExactAnswerButtonPosition(image, grp, button, coord);
-            new ActorAnimation(button, Game.getInstance().getAbstractScreen()).animateZoomInZoomOut();
+            new ActorAnimation(Game.getInstance().getAbstractScreen()).animateZoomInZoomOut(button);
         }
         image.addListener(new ClickListener() {
             @Override
@@ -161,7 +165,7 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
             image.setHeight(MainDimen.vertical_general_margin.getDimen() * 18);
             image.setWidth(ScreenDimensionsManager.getNewWidthForNewHeight(image.getHeight(), imgWidth, imgHeight));
         } else {
-            image.setWidth(ScreenDimensionsManager.getScreenWidthValue(90));
+            image.setWidth(ScreenDimensionsManager.getScreenWidth(90));
             image.setHeight(ScreenDimensionsManager.getNewHeightForNewWidth(image.getWidth(), imgWidth, imgHeight));
         }
         grp.addActor(image);

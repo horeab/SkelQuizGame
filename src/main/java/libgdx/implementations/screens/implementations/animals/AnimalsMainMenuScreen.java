@@ -42,7 +42,7 @@ public class AnimalsMainMenuScreen extends AbstractScreen<AnimalsScreenManager> 
         table.setFillParent(true);
         table.add().padTop(MainDimen.vertical_general_margin.getDimen() * 2).row();
         addTitle(table);
-        table.add().height(ScreenDimensionsManager.getScreenHeightValue(10)).row();
+        table.add().height(ScreenDimensionsManager.getScreenHeight(10)).row();
         addStartGameButtons(table);
 
         if (!Utils.isValidExtraContent()) {
@@ -85,18 +85,18 @@ public class AnimalsMainMenuScreen extends AbstractScreen<AnimalsScreenManager> 
 
     private void addTitle(Table table) {
         Image titleRaysImage = GraphicUtils.getImage(Resource.title_rays);
-        new ActorAnimation(titleRaysImage, getAbstractScreen()).animateFastFadeInFadeOut();
+        new ActorAnimation(getAbstractScreen()).animateFastFadeInFadeOut(titleRaysImage);
         float titleWidth = ScreenDimensionsManager.getScreenWidth();
         float titleHeight = ScreenDimensionsManager.getNewHeightForNewWidth(titleWidth,
                 titleRaysImage.getWidth(), titleRaysImage.getHeight());
         titleRaysImage.setWidth(titleWidth);
         titleRaysImage.setHeight(titleHeight);
-        titleRaysImage.setY(ScreenDimensionsManager.getScreenHeightValue(49));
+        titleRaysImage.setY(ScreenDimensionsManager.getScreenHeight(49));
         addActor(titleRaysImage);
         Stack titleLabel = createTitleLabel();
         table.add(titleLabel)
                 .width(titleWidth)
-                .height(ScreenDimensionsManager.getScreenHeightValue(30))
+                .height(ScreenDimensionsManager.getScreenHeight(30))
                 .row();
     }
 

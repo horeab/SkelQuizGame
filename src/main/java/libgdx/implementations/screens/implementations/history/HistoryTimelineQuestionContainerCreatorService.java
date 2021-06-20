@@ -4,10 +4,6 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.ui.Cell;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
-
-import java.util.ArrayList;
-import java.util.List;
-
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.ButtonSkin;
@@ -23,6 +19,9 @@ import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.model.FontColor;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuestionContainerCreatorService<HistoryTimelineGameService> {
 
@@ -44,8 +43,8 @@ public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuest
     protected Table createOptionsTable() {
         Table table = new Table();
         float optionHeight = getOptionHeight();
-        float optionSideWidth = ScreenDimensionsManager.getScreenWidthValue(45);
-        float timelineLineWidth = ScreenDimensionsManager.getScreenWidthValue(3);
+        float optionSideWidth = ScreenDimensionsManager.getScreenWidth(45);
+        float timelineLineWidth = ScreenDimensionsManager.getScreenWidth(3);
         int i = 0;
 //        float historyTimelineArrowWidth = GameButtonSize.HISTORY_TIMELINE_ARROW.getWidth();
         float historyTimelineArrowWidth = 0;
@@ -117,7 +116,7 @@ public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuest
 
     @Override
     protected void initOptionHeight() {
-        optionHeight = ScreenDimensionsManager.getScreenHeightValue(15);
+        optionHeight = ScreenDimensionsManager.getScreenHeight(15);
     }
 
     private Table createOptionBtn(String optionText, int index) {
@@ -153,7 +152,7 @@ public class HistoryTimelineQuestionContainerCreatorService extends HistoryQuest
             }
         });
         btn.setTransform(true);
-        new ActorAnimation(btn, getAbstractGameScreen()).animateZoomInZoomOut(0.05f);
+        new ActorAnimation(getAbstractGameScreen()).animateZoomInZoomOut(btn,0.05f);
         table.add(btn).width(btn.getWidth()).height(btn.getHeight());
         return btn;
     }

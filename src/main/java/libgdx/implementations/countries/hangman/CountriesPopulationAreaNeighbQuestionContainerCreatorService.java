@@ -1,14 +1,11 @@
 package libgdx.implementations.countries.hangman;
 
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
-
-import org.apache.commons.lang3.StringUtils;
-
-import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.screens.implementations.countries.CountriesGameScreen;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameServiceContainer;
 import libgdx.utils.ScreenDimensionsManager;
+import org.apache.commons.lang3.StringUtils;
 
 public class CountriesPopulationAreaNeighbQuestionContainerCreatorService extends CountriesPressedLettersQuestionContainerCreatorService<CountriesPopulationAreaNeighbGameService> {
 
@@ -70,13 +67,13 @@ public class CountriesPopulationAreaNeighbQuestionContainerCreatorService extend
         float countryInfoWidth = getCountryContainerWidth();
         if (i <= Math.ceil((float) (nrOfQuestions / 2f)) || nrOfQuestions <= CountriesGameScreen.TOP_COUNTRIES_TO_BE_FOUND / 2) {
             firstColumn.add(countryContainer)
-                    .height(ScreenDimensionsManager.getScreenHeightValue(rowHeight))
-                    .width(ScreenDimensionsManager.getScreenWidthValue(countryInfoWidth));
+                    .height(ScreenDimensionsManager.getScreenHeight(rowHeight))
+                    .width(ScreenDimensionsManager.getScreenWidth(countryInfoWidth));
             firstColumn.row();
         } else {
             secondColumn.add(countryContainer)
-                    .height(ScreenDimensionsManager.getScreenHeightValue(rowHeight))
-                    .width(ScreenDimensionsManager.getScreenWidthValue(countryInfoWidth));
+                    .height(ScreenDimensionsManager.getScreenHeight(rowHeight))
+                    .width(ScreenDimensionsManager.getScreenWidth(countryInfoWidth));
             secondColumn.row();
         }
     }

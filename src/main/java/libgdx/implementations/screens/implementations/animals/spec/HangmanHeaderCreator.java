@@ -18,7 +18,7 @@ public class HangmanHeaderCreator {
     public Table createHeaderTable(GameContext gameContext, Table hintTable) {
         Table table = new Table();
         table.setName(HEADER_TABLE_NAME);
-        table.add(hintTable).width(ScreenDimensionsManager.getScreenWidthValue(40));
+        table.add(hintTable).width(ScreenDimensionsManager.getScreenWidth(40));
         return table;
     }
 

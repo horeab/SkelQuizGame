@@ -49,12 +49,12 @@ public class ConthistoryGameScreen extends GameScreen<ConthistoryScreenManager> 
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
         Table headerTable = new HeaderCreator().createHeaderTable(gameContext);
-        headerTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(5));
+        headerTable.setHeight(ScreenDimensionsManager.getScreenHeight(5));
         allTable.add(headerTable).height(headerTable.getHeight()).row();
         allTable.add(questionTable).growY().row();
         float topPad = 0;
         if (gameContext.getCurrentUserCreatorDependencies() instanceof HangmanGameCreatorDependencies) {
-            topPad = ScreenDimensionsManager.getScreenHeightValue(15);
+            topPad = ScreenDimensionsManager.getScreenHeight(15);
         }
         allTable.add(answersTable).padTop(-topPad).growY();
         allTable.setFillParent(true);
@@ -90,7 +90,7 @@ public class ConthistoryGameScreen extends GameScreen<ConthistoryScreenManager> 
     }
 
     @Override
-    protected void setBackgroundColor(RGBColor backgroundColor) {
+    public void setBackgroundColor(RGBColor backgroundColor) {
         if (levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
             super.setBackgroundColor(RGBColor.RED);
         } else {

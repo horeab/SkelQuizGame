@@ -6,8 +6,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
-
-import libgdx.campaign.*;
+import libgdx.campaign.CampaignService;
+import libgdx.campaign.CampaignStoreLevel;
 import libgdx.constants.Language;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
@@ -17,23 +17,23 @@ import libgdx.controls.labelimage.InAppPurchaseTable;
 import libgdx.controls.labelimage.LabelImageConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.anatomy.*;
+import libgdx.implementations.anatomy.AnatomyCampaignLevelEnum;
+import libgdx.implementations.anatomy.AnatomyQuestionCategoryEnum;
+import libgdx.implementations.anatomy.AnatomySpecificResource;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.LevelFinishedPopup;
-import libgdx.skelgameimpl.skelgame.SkelGameLabel;
-import libgdx.skelgameimpl.skelgame.SkelGameRatingService;
-import libgdx.implementations.skelgame.gameservice.GameContextService;
 import libgdx.resources.FontManager;
 import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
-import libgdx.implementations.screens.implementations.hangman.HangmanScreenManager;
+import libgdx.skelgameimpl.skelgame.SkelGameLabel;
+import libgdx.skelgameimpl.skelgame.SkelGameRatingService;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 
 import java.util.List;
 
-public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> {
+public class AnatomyCampaignScreen extends AbstractScreen<AnatomyScreenManager> {
 
     private int scrollPanePositionInit = 0;
     private CampaignService campaignService = new CampaignService();
@@ -74,7 +74,7 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
         for (int i = 0; i < totalCat; i++) {
             final int finalIndex = i;
             AnatomyQuestionCategoryEnum categoryEnum = AnatomyQuestionCategoryEnum.values()[i];
-            float btnWidth = ScreenDimensionsManager.getScreenWidthValue(50);
+            float btnWidth = ScreenDimensionsManager.getScreenWidth(50);
             MyButton categBtn = new ButtonBuilder()
                     .setWrappedText(
                             new LabelImageConfigBuilder().setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(categoryEnum.getIndex()))
@@ -87,10 +87,7 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
             categBtn.addListener(new ChangeListener() {
                 @Override
                 public void changed(ChangeEvent event, Actor actor) {
-                    CampaignLevel campaignLevel = AnatomyCampaignLevelEnum.valueOf("LEVEL_0_" + finalIndex);
-                    CampaignLevelEnumService enumService = new CampaignLevelEnumService(campaignLevel);
-                    QuestionConfig questionConfig = enumService.getQuestionConfig(AnatomyGameScreen.TOTAL_QUESTIONS);
-                    AnatomyGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), campaignLevel);
+                    screenManager.showLevelScreen(AnatomyCampaignLevelEnum.valueOf("LEVEL_0_" + finalIndex));
                 }
             });
 
@@ -101,7 +98,7 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
             float imgWidth = image.getWidth();
             float levelBtnHeight = getLevelBtnHeight();
             if (imgWidth > imgHeight) {
-                image.setWidth(ScreenDimensionsManager.getScreenWidthValue(55));
+                image.setWidth(ScreenDimensionsManager.getScreenWidth(55));
                 image.setHeight(ScreenDimensionsManager.getNewHeightForNewWidth(image.getWidth(), imgWidth, imgHeight));
             } else {
                 image.setHeight(levelBtnHeight);
@@ -133,7 +130,7 @@ public class AnatomyCampaignScreen extends AbstractScreen<HangmanScreenManager> 
     }
 
     private float getLevelBtnHeight() {
-        return ScreenDimensionsManager.getScreenHeightValue(43);
+        return ScreenDimensionsManager.getScreenHeight(43);
     }
 
 

@@ -106,7 +106,7 @@ public class PeriodicTableQuestionContainerCreatorService extends QuizQuestionCo
             for (int j = 0; j < nrAnswersOnRow; j++) {
                 if (answerIndex < answersBtn.size()) {
                     MyButton button = answersBtn.get(answerIndex);
-                    buttonRow.add(button).width(button.getWidth()).height(button.getHeight()).padRight(ScreenDimensionsManager.getScreenWidthValue(0.65f));
+                    buttonRow.add(button).width(button.getWidth()).height(button.getHeight()).padRight(ScreenDimensionsManager.getScreenWidth(0.65f));
                     answerIndex++;
                 }
             }

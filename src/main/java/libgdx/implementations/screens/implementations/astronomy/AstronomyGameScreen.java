@@ -48,7 +48,7 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
         Table headerTable = new HeaderCreator().createHeaderTable(createAllQuestionsMap());
-        headerTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(5));
+        headerTable.setHeight(ScreenDimensionsManager.getScreenHeight(5));
         allTable.add(headerTable).height(headerTable.getHeight()).row();
         allTable.add(questionTable).growY().row();
         float topPad = 0;
@@ -108,7 +108,7 @@ public class AstronomyGameScreen extends GameScreen<AstronomyScreenManager> {
     }
 
     @Override
-    protected void setBackgroundColor(RGBColor backgroundColor) {
+    public void setBackgroundColor(RGBColor backgroundColor) {
         if (levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
             super.setBackgroundColor(RGBColor.RED);
         } else {

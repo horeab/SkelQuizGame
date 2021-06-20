@@ -112,7 +112,7 @@ public class PeriodicTableCampaignScreen extends AbstractScreen<PeriodicTableScr
         });
 
         float pad = MainDimen.horizontal_general_margin.getDimen() / 7;
-        float extraWidth = ScreenDimensionsManager.getScreenWidthValue(15);
+        float extraWidth = ScreenDimensionsManager.getScreenWidth(15);
         controlsTable.add().width(extraWidth + GameButtonSize.PERIODICTABLE_MENU_BUTTON.getWidth() * 2 - dimen * 4);
         controlsTable.add(startGameBtn).width(startGameBtn.getWidth()).height(startGameBtn.getHeight()).padRight(dimen * 4);
         controlsTable.add(periodicTableBtn).width(periodicTableBtn.getWidth()).height(periodicTableBtn.getHeight()).padRight(dimen);
@@ -160,7 +160,7 @@ public class PeriodicTableCampaignScreen extends AbstractScreen<PeriodicTableScr
     }
 
     private float getElSideDimen() {
-        return ScreenDimensionsManager.getScreenWidthValue(18);
+        return ScreenDimensionsManager.getScreenWidth(18);
     }
 
     private Table createElementInfoTable(ChemicalElement e) {

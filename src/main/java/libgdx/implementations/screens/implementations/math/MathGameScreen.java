@@ -44,11 +44,11 @@ public class MathGameScreen extends GameScreen<MathScreenManager> {
         QuestionContainerCreatorService questionContainerCreatorService = new MathQuizQuestionContainerCreatorService(gameContext, this);
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
-        questionTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(45));
-        answersTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(50));
+        questionTable.setHeight(ScreenDimensionsManager.getScreenHeight(45));
+        answersTable.setHeight(ScreenDimensionsManager.getScreenHeight(50));
         allTable.add(questionTable).height(questionTable.getHeight())
-                .padTop(ScreenDimensionsManager.getScreenHeightValue(4))
-                .padBottom(ScreenDimensionsManager.getScreenHeightValue(1)).row();
+                .padTop(ScreenDimensionsManager.getScreenHeight(4))
+                .padBottom(ScreenDimensionsManager.getScreenHeight(1)).row();
 
         allTable.add(answersTable).height(answersTable.getHeight());
 

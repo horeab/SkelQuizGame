@@ -1,0 +1,6 @@
+0:What is an organ that serves as the center of the nervous system?:Brain##Cerebellum##Spinal cord##Ganglion:0:
+1:What is a major feature of the hindbrain of all vertebrates?:Cerebellum##Ganglion##Brain##Spinal cord:0:
+2:What is a long, thin, tubular structure made up of nervous tissue?:Spinal cord##Cerebellum##Sciatic nerve##Tibial nerve:0:
+3:What is a large nerve that runs alongside the hip joint?:Sciatic nerve##Spinal cord##Cerebellum##Ganglion:0:
+4:What is a branch of the sciatic nerve?:Tibial nerve##Ganglion##Spinal cord##Cerebellum:0:
+5:What is a group of neuron cell bodies in the peripheral nervous system?:Ganglion##Cerebellum##Brain##Spinal cord:0:

@@ -24,7 +24,7 @@ public class AnatomyImageQuestionContainerCreatorService extends ImageClickQuest
         float imgWidth = image.getWidth();
         float groupHeight = getGroupHeightValue();
         float groupWidth = getGroupWidthValue();
-        image.setWidth(ScreenDimensionsManager.getScreenWidthValue(60));
+        image.setWidth(ScreenDimensionsManager.getScreenWidth(60));
         image.setHeight(ScreenDimensionsManager.getNewHeightForNewWidth(image.getWidth(), imgWidth, imgHeight));
         image.setPosition(getQuestionImageLeftMarginWithSideAnswers(image, groupWidth), getQuestionImageTopMargin(image, groupHeight));
         grp.addActor(image);
@@ -40,7 +40,7 @@ public class AnatomyImageQuestionContainerCreatorService extends ImageClickQuest
         float imgWidth = image.getWidth();
         float groupHeight = getGroupHeightValue();
         float groupWidth = getGroupWidthValue();
-        image.setWidth(ScreenDimensionsManager.getScreenWidthValue(85));
+        image.setWidth(ScreenDimensionsManager.getScreenWidth(85));
         image.setHeight(ScreenDimensionsManager.getNewHeightForNewWidth(image.getWidth(), imgWidth, imgHeight));
         image.setPosition(getQuestionImageLeftMarginWithExactAnswers(image, groupWidth), getQuestionImageTopMargin(image, groupHeight));
         grp.addActor(image);
@@ -54,11 +54,11 @@ public class AnatomyImageQuestionContainerCreatorService extends ImageClickQuest
     }
 
     private float getGroupWidthValue() {
-        return ScreenDimensionsManager.getScreenWidthValue(98);
+        return ScreenDimensionsManager.getScreenWidth(98);
     }
 
     private float getGroupHeightValue() {
-        return ScreenDimensionsManager.getScreenHeightValue(82);
+        return ScreenDimensionsManager.getScreenHeight(82);
     }
 
     @Override

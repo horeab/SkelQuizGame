@@ -1,12 +1,12 @@
 package libgdx.implementations.skelgame.gameservice;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import libgdx.campaign.QuestionConfig;
 import libgdx.campaign.RandomCategoryAndDifficulty;
 import libgdx.implementations.skelgame.question.Question;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class RandomQuestionCreatorService {
 
@@ -18,12 +18,14 @@ public class RandomQuestionCreatorService {
         for (int i = 0; i < questionAmount; i++) {
             RandomCategoryAndDifficulty randomCategoryAndDifficulty = questionConfig.getRandomCategoryAndDifficulty();
             int repeats1 = 0;
-            while (alreadyUsedCategs.contains(randomCategoryAndDifficulty.getQuestionCategory().name())) {
-                randomCategoryAndDifficulty = questionConfig.getRandomCategoryAndDifficulty();
-                if (repeats1 > 100) {
-                    break;
+            if (!configContainsSingleCategAndDiff(questionConfig)) {
+                while (alreadyUsedCategs.contains(randomCategoryAndDifficulty.getQuestionCategory().name())) {
+                    randomCategoryAndDifficulty = questionConfig.getRandomCategoryAndDifficulty();
+                    if (repeats1 > 100) {
+                        break;
+                    }
+                    repeats1++;
                 }
-                repeats1++;
             }
             QuizQuestionCategory randomQuestionCategory = (QuizQuestionCategory) randomCategoryAndDifficulty.getQuestionCategory();
             QuestionCreator questionCreator = CreatorDependenciesContainer.getCreator(randomQuestionCategory.getCreatorDependencies()).getQuestionCreator(randomCategoryAndDifficulty.getQuestionDifficulty(), randomQuestionCategory);
@@ -32,7 +34,8 @@ public class RandomQuestionCreatorService {
             while (Arrays.asList(randomQuestions).contains(randomQuestion)
                     || !questionCreator.isQuestionValid(randomQuestion)
                     //try to use all question categories
-                    || (alreadyUsedCategs.contains(randomQuestion.getQuestionCategory().name()) && !categsToUse.isEmpty())) {
+                    || (!configContainsSingleCategAndDiff(questionConfig)
+                    && alreadyUsedCategs.contains(randomQuestion.getQuestionCategory().name()) && !categsToUse.isEmpty())) {
                 if (repeats2 > 100) {
                     break;
                 }
@@ -45,5 +48,10 @@ public class RandomQuestionCreatorService {
             categsToUse.remove(qCategName);
         }
         return randomQuestions;
+    }
+
+    private boolean configContainsSingleCategAndDiff(QuestionConfig questionConfig) {
+        return questionConfig.getQuestionDifficultyStringList().size() == 1
+                && questionConfig.getQuestionCategoryStringList().size() == 1;
     }
 }

@@ -59,7 +59,7 @@ public class JudeteleRomGameScreen extends GameScreen<JudeteleRomScreenManager> 
         allTable.add(questionTable).growY().row();
         float topPad = 0;
         if (gameContext.getCurrentUserCreatorDependencies() instanceof HangmanGameCreatorDependencies) {
-            topPad = ScreenDimensionsManager.getScreenHeightValue(15);
+            topPad = ScreenDimensionsManager.getScreenHeight(15);
         }
         allTable.add(answersTable).padTop(-topPad).growY();
         allTable.setFillParent(true);
@@ -77,7 +77,7 @@ public class JudeteleRomGameScreen extends GameScreen<JudeteleRomScreenManager> 
             if (i <= (nrOfCorrectQuestions - 1) && nrOfCorrectQuestions != 0) {
                 qTable.setBackground(GraphicUtils.getNinePatch(JudeteleRomSpecificResource.allq_bakcground));
             }
-            table.add(qTable).width(ScreenDimensionsManager.getScreenWidthValue(qTableWidth));
+            table.add(qTable).width(ScreenDimensionsManager.getScreenWidth(qTableWidth));
         }
         return table;
     }
@@ -128,7 +128,7 @@ public class JudeteleRomGameScreen extends GameScreen<JudeteleRomScreenManager> 
     }
 
     @Override
-    protected void setBackgroundColor(RGBColor backgroundColor) {
+    public void setBackgroundColor(RGBColor backgroundColor) {
         if (levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
             super.setBackgroundColor(RGBColor.RED);
         } else {

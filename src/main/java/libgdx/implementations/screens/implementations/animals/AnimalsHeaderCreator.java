@@ -28,9 +28,9 @@ public class AnimalsHeaderCreator {
                 .setText(gameUser.getFinishedQuestions() + "/" + gameUser.getTotalNrOfQuestions())
                 .setFontScale(FontManager.calculateMultiplierStandardFontSize(1.2f)).build());
         wrappedLabel.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
-        table.add().width(ScreenDimensionsManager.getScreenWidthValue(40));
-        table.add(wrappedLabel).width(ScreenDimensionsManager.getScreenWidthValue(20));
-        table.add(hintTable).width(ScreenDimensionsManager.getScreenWidthValue(40));
+        table.add().width(ScreenDimensionsManager.getScreenWidth(40));
+        table.add(wrappedLabel).width(ScreenDimensionsManager.getScreenWidth(20));
+        table.add(hintTable).width(ScreenDimensionsManager.getScreenWidth(40));
         return table;
     }
 

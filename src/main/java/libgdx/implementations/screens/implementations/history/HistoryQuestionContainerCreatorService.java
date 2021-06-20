@@ -11,11 +11,6 @@ import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
-
-import org.apache.commons.lang3.tuple.Pair;
-
-import java.util.List;
-
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.ButtonSkin;
@@ -39,6 +34,9 @@ import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
 import libgdx.utils.model.FontConfig;
+import org.apache.commons.lang3.tuple.Pair;
+
+import java.util.List;
 
 public abstract class HistoryQuestionContainerCreatorService<TGameService extends HistoryGameService> extends QuestionContainerCreatorService<TGameService> {
 
@@ -134,7 +132,7 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
             imgTable.clear();
             img.setVisible(false);
             imgTable.add(img).width(img.getWidth()).height(img.getHeight());
-            new ActorAnimation(img, historyGameScreen).animateFastFadeIn();
+            new ActorAnimation(historyGameScreen).animateFastFadeIn(img);
         }
     }
 
@@ -178,7 +176,7 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
         img.setVisible(false);
         float imgDimen = getAnswerImgSideDimen() / 2;
         imgTable.add(img).width(imgDimen).height(imgDimen);
-        new ActorAnimation(img, historyGameScreen).animateFastFadeIn();
+        new ActorAnimation(historyGameScreen).animateFastFadeIn(img);
     }
 
     protected void showPopupAd(Runnable runnable) {
@@ -264,19 +262,19 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
                 .setText(historyPreferencesService.getLevelsWon(getCampaignLevelEnum()).size() + "")
                 .setFontConfig(new FontConfig(FontColor.YELLOW.getColor(), Color.BLACK, FontConfig.FONT_SIZE * 1.3f, 3f)).build());
         scoreLabel.setTransform(true);
-        float hintIconDimen = ScreenDimensionsManager.getScreenWidthValue(12);
+        float hintIconDimen = ScreenDimensionsManager.getScreenWidth(12);
         totalHintsLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setWrappedLineLabel(hintIconDimen)
                 .setText(historyGameScreen.totalHints + "")
                 .setFontConfig(new FontConfig(FontColor.LIGHT_GREEN.getColor(), Color.BLACK, FontConfig.FONT_SIZE * 1.5f, 3f)).build());
-        float scoreIconDimen = ScreenDimensionsManager.getScreenWidthValue(6);
+        float scoreIconDimen = ScreenDimensionsManager.getScreenWidth(6);
         Table hintTable = new Table();
         Stack stack = createHintBtn(hintIconDimen);
         hintTable.add(stack).width(stack.getWidth()).height(stack.getHeight());
         float sideDimen = scoreIconDimen * 2;
-        float titleWidth = ScreenDimensionsManager.getScreenWidthValue(45);
+        float titleWidth = ScreenDimensionsManager.getScreenWidth(45);
         table.add(createScoreTable(scoreIconDimen)).padLeft(MainDimen.horizontal_general_margin.getDimen() * 5).width(sideDimen);
-        table.add(createTitleTable(titleWidth)).width(titleWidth).height(ScreenDimensionsManager.getScreenHeightValue(5));
+        table.add(createTitleTable(titleWidth)).width(titleWidth).height(ScreenDimensionsManager.getScreenHeight(5));
         table.add(hintTable).padLeft(MainDimen.horizontal_general_margin.getDimen() * 2).width(hintIconDimen).height(hintIconDimen);
         table.setBackground(GraphicUtils.getNinePatch(HistorySpecificResource.timeline2_opt_background));
         return table;
@@ -309,7 +307,7 @@ public abstract class HistoryQuestionContainerCreatorService<TGameService extend
         };
         hintBtn.addListener(clickListener);
         totalHintsLabel.addListener(clickListener);
-        new ActorAnimation(stack, getAbstractGameScreen()).animateZoomInZoomOut(0.3f);
+        new ActorAnimation(getAbstractGameScreen()).animateZoomInZoomOut(stack, 0.3f);
         stack.add(hintBtn);
         float pad = MainDimen.vertical_general_margin.getDimen() * 2;
         totalHintsLabel.padTop(pad);

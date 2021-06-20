@@ -90,7 +90,7 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
         table.add(titleStack).height(btnHeight / 2).width(titleStack.getWidth()).padTop(dimen * 3).row();
         long totalStarsWon = 0;
         table.row();
-        table.add(addCategButtons()).height(ScreenDimensionsManager.getScreenHeightValue(80));
+        table.add(addCategButtons()).height(ScreenDimensionsManager.getScreenHeight(80));
 
         if (campaignService.getFinishedCampaignLevels().size() == AstronomyCampaignLevelEnum.values().length) {
             CampaignStoreService campaignStoreService = new CampaignStoreService();
@@ -130,15 +130,15 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
         Table table = new Table();
         Table btnTable0 = new Table();
         addButtonToTable(btnTable0, AstronomyGameType.SOLAR_SYSTEM);
-        btnTable0.add().width(ScreenDimensionsManager.getScreenWidthValue(20));
+        btnTable0.add().width(ScreenDimensionsManager.getScreenWidth(20));
         addButtonToTable(btnTable0, AstronomyGameType.ASTRONOMY_QUIZ);
-        table.add(btnTable0).padBottom(ScreenDimensionsManager.getScreenHeightValue(5));
+        table.add(btnTable0).padBottom(ScreenDimensionsManager.getScreenHeight(5));
         table.row();
         Table btnTable1 = new Table();
         addButtonToTable(btnTable1, AstronomyGameType.ASTRONOMY_IMAGES_QUIZ);
-        btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(20));
+        btnTable1.add().width(ScreenDimensionsManager.getScreenWidth(20));
         addButtonToTable(btnTable1, AstronomyGameType.FIND_PLANET);
-        table.add(btnTable1).padBottom(ScreenDimensionsManager.getScreenHeightValue(20));
+        table.add(btnTable1).padBottom(ScreenDimensionsManager.getScreenHeight(20));
         return table;
 
     }
@@ -156,7 +156,7 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
     private Table createStarsTable(AstronomyGameType astronomyGameType) {
         int levelStars = getLevelNrOfStars(astronomyGameType);
         Table table = new Table();
-        float sideDimen = ScreenDimensionsManager.getScreenWidthValue(7);
+        float sideDimen = ScreenDimensionsManager.getScreenWidth(7);
         if (levelStars == TOTAL_STARS_TO_DISPLAY) {
             addStarToTable(TOTAL_STARS_TO_DISPLAY, table, sideDimen, AstronomySpecificResource.star_green);
         } else {
@@ -232,7 +232,7 @@ public class AstronomyCampaignScreen extends AbstractScreen<AstronomyScreenManag
     }
 
     private float getBtnHeightValue() {
-        return ScreenDimensionsManager.getScreenHeightValue(50);
+        return ScreenDimensionsManager.getScreenHeight(50);
     }
 
 

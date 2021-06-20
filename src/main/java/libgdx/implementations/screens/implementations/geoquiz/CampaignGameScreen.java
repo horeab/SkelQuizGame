@@ -45,9 +45,9 @@ public class CampaignGameScreen extends GameScreen<QuizScreenManager> {
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
         Table headerTable = new HeaderCreator().createHeaderTable(gameContext);
-        headerTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(5));
-        questionTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(45));
-        answersTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(50));
+        headerTable.setHeight(ScreenDimensionsManager.getScreenHeight(5));
+        questionTable.setHeight(ScreenDimensionsManager.getScreenHeight(45));
+        answersTable.setHeight(ScreenDimensionsManager.getScreenHeight(50));
         allTable.add(headerTable).height(headerTable.getHeight()).row();
         allTable.add(questionTable).height(questionTable.getHeight()).row();
         allTable.add(answersTable).height(answersTable.getHeight());
@@ -72,7 +72,7 @@ public class CampaignGameScreen extends GameScreen<QuizScreenManager> {
     }
 
     @Override
-    protected void setBackgroundColor(RGBColor backgroundColor) {
+    public void setBackgroundColor(RGBColor backgroundColor) {
         if (levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
             super.setBackgroundColor(RGBColor.RED);
         } else {

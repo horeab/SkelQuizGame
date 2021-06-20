@@ -15,6 +15,17 @@ public enum AnatomyCampaignLevelEnum implements CampaignLevel {
     LEVEL_0_7,
     LEVEL_0_8,
     LEVEL_0_9,
+
+    LEVEL_0_10,
+    LEVEL_0_11,
+    LEVEL_0_12,
+    LEVEL_0_13,
+    LEVEL_0_14,
+    LEVEL_0_15,
+    LEVEL_0_16,
+    LEVEL_0_17,
+    LEVEL_0_18,
+    LEVEL_0_19,
     ////
     ;
 

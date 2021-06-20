@@ -72,7 +72,7 @@ public class HistoryCampaignScreen extends AbstractScreen<HistoryScreenManager> 
             }
         }
         MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
-                .setWrappedLineLabel(ScreenDimensionsManager.getScreenWidthValue(68))
+                .setWrappedLineLabel(ScreenDimensionsManager.getScreenWidth(68))
                 .setFontConfig(new FontConfig(
                         FontColor.LIGHT_GREEN.getColor(),
                         FontColor.GREEN.getColor(),
@@ -101,11 +101,11 @@ public class HistoryCampaignScreen extends AbstractScreen<HistoryScreenManager> 
     }
 
     private float getBtnHeightValue() {
-        return ScreenDimensionsManager.getScreenHeightValue(26);
+        return ScreenDimensionsManager.getScreenHeight(26);
     }
 
     private float getBtnWidthValue() {
-        return ScreenDimensionsManager.getScreenWidthValue(80);
+        return ScreenDimensionsManager.getScreenWidth(80);
     }
 
     private MyButton createCategButton(final HistoryCampaignLevelEnum campaignLevel, ButtonSkin buttonSkin) {

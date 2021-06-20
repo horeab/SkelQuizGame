@@ -7,18 +7,6 @@ import com.badlogic.gdx.scenes.scene2d.actions.RunnableAction;
 import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
-
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.mutable.MutableLong;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
-
 import libgdx.campaign.CampaignStoreService;
 import libgdx.controls.ScreenRunnable;
 import libgdx.controls.animations.ActorAnimation;
@@ -48,6 +36,15 @@ import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.SoundUtils;
 import libgdx.utils.model.FontColor;
 import libgdx.utils.model.FontConfig;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.mutable.MutableLong;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 public class CountriesPressedLettersQuestionContainerCreatorService<TGameService extends CountriesPressedLettersGameService> extends HangmanQuestionContainerCreatorService {
 
@@ -154,7 +151,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         Res backgr = lastCountryFound ? MainResource.btn_menu_down : normalBackground;
         if (lastCountryFound) {
             updateScore();
-            new ActorAnimation(countryContainer.getChildren().get(1), getAbstractGameScreen()).animateFastFadeIn();
+            new ActorAnimation(getAbstractGameScreen()).animateFastFadeIn(countryContainer.getChildren().get(1));
             RunnableAction ra = new RunnableAction();
             ra.setRunnable(new ScreenRunnable(getAbstractGameScreen()) {
                 @Override
@@ -215,7 +212,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     }
 
     private float getMarginColumnWidth() {
-        return ScreenDimensionsManager.getScreenWidthValue(getCountryContainerWidth() / 5f);
+        return ScreenDimensionsManager.getScreenWidth(getCountryContainerWidth() / 5f);
     }
 
     private boolean dontShowEndColumn(String countryName, String endText) {
@@ -237,7 +234,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     }
 
     private float getCountryLabelWidth() {
-        return ScreenDimensionsManager.getScreenWidthValue(getCountryContainerWidth() / 1.5f);
+        return ScreenDimensionsManager.getScreenWidth(getCountryContainerWidth() / 1.5f);
     }
 
     public float getCountryContainerWidth() {
@@ -253,8 +250,8 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
     }
 
     private void addAllGameContainers(Table table) {
-        table.add(createHeaderTable()).height(ScreenDimensionsManager.getScreenHeightValue(15)).width(ScreenDimensionsManager.getScreenWidth()).row();
-        table.add(createTopCountriesTable()).height(ScreenDimensionsManager.getScreenHeightValue(35)).row();
+        table.add(createHeaderTable()).height(ScreenDimensionsManager.getScreenHeight(15)).width(ScreenDimensionsManager.getScreenWidth()).row();
+        table.add(createTopCountriesTable()).height(ScreenDimensionsManager.getScreenHeight(35)).row();
         Table pressedLettersTable = new Table();
         pressedLettersTable.add(getPressedLettersLabel());
         FontConfig fontConfig = new FontConfig(Color.RED);
@@ -278,9 +275,9 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
             }
         });
         pressedLettersTable.add(clearPressedBtn).width(clearPressedBtn.getWidth()).height(clearPressedBtn.getHeight());
-        table.add(pressedLettersTable).height(ScreenDimensionsManager.getScreenHeightValue(10)).bottom().row();
+        table.add(pressedLettersTable).height(ScreenDimensionsManager.getScreenHeight(10)).bottom().row();
         Table answerOptionsTable = createAnswerOptionsTable();
-        table.add(answerOptionsTable).height(ScreenDimensionsManager.getScreenHeightValue(40)).bottom();
+        table.add(answerOptionsTable).height(ScreenDimensionsManager.getScreenHeight(40)).bottom();
     }
 
     public Table createHeaderTable() {
@@ -291,7 +288,7 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         float borderWidth = 3.1f;
         float categFontScale = 1.05f;
         float dimen = MainDimen.horizontal_general_margin.getDimen();
-        float categTextWidth = ScreenDimensionsManager.getScreenWidthValue(60);
+        float categTextWidth = ScreenDimensionsManager.getScreenWidth(60);
         MyWrappedLabel categLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setWrappedLineLabel(categTextWidth - dimen * 2)
                 .setText(StringUtils.capitalize(categText))
@@ -317,9 +314,9 @@ public class CountriesPressedLettersQuestionContainerCreatorService<TGameService
         scoreLabel = createScoreLabel(borderWidth, 2f);
         Stack animateScoreStack = new Stack();
         animateScoreStack.add(scoreLabel);
-        infoContainer.add(animateScoreStack).width(ScreenDimensionsManager.getScreenWidthValue(20));
+        infoContainer.add(animateScoreStack).width(ScreenDimensionsManager.getScreenWidth(20));
         infoContainer.add(categContainer).padLeft(dimen).padRight(dimen).width(categTextWidth);
-        float counterSide = ScreenDimensionsManager.getScreenWidthValue(12);
+        float counterSide = ScreenDimensionsManager.getScreenWidth(12);
         infoContainer.add(counterLabel).width(counterSide).height(counterSide);
         table.add(infoContainer).expandX().row();
         countdownProcess();

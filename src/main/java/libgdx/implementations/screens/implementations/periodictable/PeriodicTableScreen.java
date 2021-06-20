@@ -127,7 +127,7 @@ public class PeriodicTableScreen extends AbstractScreen<PeriodicTableScreenManag
     }
 
     private float getElSideDimen() {
-        return ScreenDimensionsManager.getScreenHeightValue(9);
+        return ScreenDimensionsManager.getScreenHeight(9);
     }
 
 

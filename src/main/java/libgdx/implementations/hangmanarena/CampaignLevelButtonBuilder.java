@@ -106,7 +106,7 @@ public class CampaignLevelButtonBuilder extends ButtonBuilder {
             Image image = GraphicUtils.getImage(HangmanArenaSpecificResource.fire);
             Table animTable = new Table();
             float animDimen = iconDimen / 2.3f;
-            new ActorAnimation(image, abstractScreen).animateZoomInZoomOut(0.3f);
+            new ActorAnimation(abstractScreen).animateZoomInZoomOut(image, 0.3f);
             animTable.add(image).padLeft(MainDimen.horizontal_general_margin.getDimen() * 4).padBottom(MainDimen.vertical_general_margin.getDimen() * 5).width(animDimen).height(animDimen);
             bombWithFire.addActor(animTable);
             iconTable.add(bombWithFire).width(iconDimen / 1.5f).height(iconDimen / 1.5f);

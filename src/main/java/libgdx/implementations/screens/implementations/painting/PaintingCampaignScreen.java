@@ -71,12 +71,12 @@ public class PaintingCampaignScreen extends AbstractScreen<PaintingsScreenManage
 
     private void addTitle(Table table) {
         Image titleRaysImage = GraphicUtils.getImage(Resource.title_rays);
-        new ActorAnimation(titleRaysImage, this).animateFastFadeInFadeOut();
+        new ActorAnimation(this).animateFastFadeInFadeOut(titleRaysImage);
         float titleWidth = ScreenDimensionsManager.getScreenWidth();
         float titleHeight = ScreenDimensionsManager.getNewHeightForNewWidth(titleWidth, titleRaysImage.getWidth(), titleRaysImage.getHeight());
         titleRaysImage.setWidth(titleWidth);
         titleRaysImage.setHeight(titleHeight);
-        titleRaysImage.setY(ScreenDimensionsManager.getScreenHeightValue(49));
+        titleRaysImage.setY(ScreenDimensionsManager.getScreenHeight(49));
         addActor(titleRaysImage);
         Stack titleLabel = createTitleLabel();
         table.add(titleLabel)
@@ -90,7 +90,7 @@ public class PaintingCampaignScreen extends AbstractScreen<PaintingsScreenManage
         MyWrappedLabel titleLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setText(appName).setFontConfig(new FontConfig(
                 FontColor.WHITE.getColor(),
                 FontColor.DARK_RED.getColor(),
-                2f)).setWrappedLineLabel(ScreenDimensionsManager.getScreenWidthValue(40)).build());
+                2f)).setWrappedLineLabel(ScreenDimensionsManager.getScreenWidth(40)).build());
         titleLabel.setFontScale(FontManager.calculateMultiplierStandardFontSize(getTitleMultiplier(appName)));
         titleLabel.setAlignment(Align.center);
         return createTitleStack(titleLabel);
@@ -119,8 +119,8 @@ public class PaintingCampaignScreen extends AbstractScreen<PaintingsScreenManage
         Table table = new Table();
         int totalCat = PaintingsQuestionCategoryEnum.values().length;
         long totalStarsWon = 0;
-        float btnHeight = ScreenDimensionsManager.getScreenHeightValue(12);
-        float btnWidth = ScreenDimensionsManager.getScreenWidthValue(80);
+        float btnHeight = ScreenDimensionsManager.getScreenHeight(12);
+        float btnWidth = ScreenDimensionsManager.getScreenWidth(80);
         InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
         for (int i = 0; i < totalCat; i++) {
             final int finalIndex = i;

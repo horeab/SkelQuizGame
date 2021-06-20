@@ -81,11 +81,11 @@ public class HangmanArenaGameScreen extends GameScreen<HangmanArenaScreenManager
     }
 
     public static float getHangmanImgWidth() {
-        return ScreenDimensionsManager.getScreenWidthValue(55);
+        return ScreenDimensionsManager.getScreenWidth(55);
     }
 
     public static float getHangmanImgHeight() {
-        return ScreenDimensionsManager.getScreenHeightValue(35);
+        return ScreenDimensionsManager.getScreenHeight(35);
     }
 
     @Override

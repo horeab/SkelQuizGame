@@ -9,19 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 import com.badlogic.gdx.utils.Align;
-
-import org.apache.commons.lang3.StringUtils;
-
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
-
-import libgdx.campaign.CampaignLevel;
-import libgdx.campaign.CampaignLevelEnumService;
-import libgdx.campaign.CampaignService;
-import libgdx.campaign.CampaignStoreLevel;
-import libgdx.campaign.CampaignStoreService;
-import libgdx.campaign.QuestionConfig;
+import libgdx.campaign.*;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.ImageButtonBuilder;
@@ -29,12 +17,7 @@ import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
-import libgdx.implementations.countries.CountriesCampaignLevelEnum;
-import libgdx.implementations.countries.CountriesCategoryEnum;
-import libgdx.implementations.countries.CountriesDifficultyLevel;
-import libgdx.implementations.countries.CountriesGame;
-import libgdx.implementations.countries.CountriesSpecificResource;
-import libgdx.implementations.screens.implementations.anatomy.AnatomyGameScreen;
+import libgdx.implementations.countries.*;
 import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.LevelFinishedPopup;
@@ -53,6 +36,11 @@ import libgdx.utils.SoundUtils;
 import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
 import libgdx.utils.model.FontConfig;
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
 
 public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManager> {
 
@@ -111,7 +99,7 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
                 .setText(appName).build());
 
         float dimen = MainDimen.vertical_general_margin.getDimen();
-        table.add(createTitleStack(titleLabel)).height(ScreenDimensionsManager.getScreenHeightValue(20)).padTop(dimen * 2).row();
+        table.add(createTitleStack(titleLabel)).height(ScreenDimensionsManager.getScreenHeight(20)).padTop(dimen * 2).row();
         long totalStarsWon = 0;
         table.add(createCategTable()).expand();
 
@@ -207,7 +195,7 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 CampaignLevelEnumService enumService = new CampaignLevelEnumService(campaignLevel);
-                QuestionConfig questionConfig = enumService.getQuestionConfig(AnatomyGameScreen.TOTAL_QUESTIONS);
+                QuestionConfig questionConfig = enumService.getQuestionConfig(5);
                 CountriesGame.getInstance().getScreenManager().showCampaignGameScreen(new GameContextService().createGameContext(questionConfig), campaignLevel);
             }
         });
@@ -239,7 +227,7 @@ public class CountriesCampaignScreen extends AbstractScreen<CountriesScreenManag
     }
 
     private float scoreWidth() {
-        return ScreenDimensionsManager.getScreenWidthValue(70);
+        return ScreenDimensionsManager.getScreenWidth(70);
     }
 
     private Table createAchTable(CampaignLevel campaignLevel) {

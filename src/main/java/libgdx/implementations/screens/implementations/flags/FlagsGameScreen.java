@@ -126,7 +126,7 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
                             StringUtils.capitalize(text)).build());
             countryNameLabel.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
             countryNameLabel.setWidth(labelWidth);
-            countryNameLabel.setHeight(ScreenDimensionsManager.getScreenHeightValue(10));
+            countryNameLabel.setHeight(ScreenDimensionsManager.getScreenHeight(10));
             countryNameTable.setWidth(countryNameLabel.getWidth());
             countryNameTable.setHeight(countryNameLabel.getHeight());
             countryNameTable.setX(ScreenDimensionsManager.getScreenWidth() / 2 - labelWidth / 2);
@@ -136,7 +136,7 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
 
             countryNameLabel.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
             countryNameLabel.setWidth(labelWidth);
-            countryNameLabel.setHeight(ScreenDimensionsManager.getScreenHeightValue(10));
+            countryNameLabel.setHeight(ScreenDimensionsManager.getScreenHeight(10));
             countryNameTable.add(FlagsContainers.createFlagsCounter(leftCountriesToPlay, labelWidth, null))
                     .padBottom(MainDimen.vertical_general_margin.getDimen() * 3)
                     .width(countryNameLabel.getWidth()).height(countryNameLabel.getWidth() / 5);
@@ -248,7 +248,7 @@ public class FlagsGameScreen extends GameScreen<FlagsScreenManager> {
             if (numberOfWrongAnswersPressed > 0) {
                 allTable.add().growY();
                 allTable.add(wrongAnswerTable)
-                        .height(ScreenDimensionsManager.getScreenHeightValue((100f / maxNumberOfWrongAnswers)
+                        .height(ScreenDimensionsManager.getScreenHeight((100f / maxNumberOfWrongAnswers)
                                 * numberOfWrongAnswersPressed))
                         .width(ScreenDimensionsManager.getScreenWidth())
                         .bottom()

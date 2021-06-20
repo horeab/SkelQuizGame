@@ -45,8 +45,8 @@ public class KennstDeGameScreen extends GameScreen<KennstDeScreenManager> {
         QuestionContainerCreatorService questionContainerCreatorService = gameContext.getCurrentUserCreatorDependencies().getQuestionContainerCreatorService(gameContext, this);
         Table questionTable = questionContainerCreatorService.createQuestionTable();
         Table answersTable = questionContainerCreatorService.createAnswerOptionsTable();
-        questionTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(45));
-        answersTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(50));
+        questionTable.setHeight(ScreenDimensionsManager.getScreenHeight(45));
+        answersTable.setHeight(ScreenDimensionsManager.getScreenHeight(50));
         allTable.add(questionTable).height(questionTable.getHeight()).row();
         allTable.add(answersTable).height(answersTable.getHeight());
         allTable.setFillParent(true);
@@ -84,7 +84,7 @@ public class KennstDeGameScreen extends GameScreen<KennstDeScreenManager> {
     }
 
     @Override
-    protected void setBackgroundColor(RGBColor backgroundColor) {
+    public void setBackgroundColor(RGBColor backgroundColor) {
         if (levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
             super.setBackgroundColor(RGBColor.RED);
         } else {

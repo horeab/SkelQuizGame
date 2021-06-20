@@ -48,7 +48,7 @@ public class HangmanArenaMainMenuScreen extends AbstractScreen<HangmanArenaScree
         table.setFillParent(true);
         table.add().padTop(MainDimen.vertical_general_margin.getDimen() * 2).row();
         addTitle(table);
-        table.add().height(ScreenDimensionsManager.getScreenHeightValue(10)).row();
+        table.add().height(ScreenDimensionsManager.getScreenHeight(10)).row();
         addStartGameButtons(table);
 
         if (!Utils.isValidExtraContent()) {
@@ -56,7 +56,7 @@ public class HangmanArenaMainMenuScreen extends AbstractScreen<HangmanArenaScree
             float dimen = MainDimen.horizontal_general_margin.getDimen();
             extraContentButton = new ButtonWithIconBuilder("", MainResource.mug_color)
                     .setFixedButtonSize(GameButtonSize.NORMAL_MENU_ROUND_IMAGE).build();
-            new ActorAnimation(extraContentButton, Game.getInstance().getAbstractScreen()).animateZoomInZoomOut();
+            new ActorAnimation(Game.getInstance().getAbstractScreen()).animateZoomInZoomOut(extraContentButton);
             table.add(extraContentButton).padTop(dimen * 5).width(GameButtonSize.NORMAL_MENU_ROUND_IMAGE.getWidth())
                     .height(GameButtonSize.NORMAL_MENU_ROUND_IMAGE.getHeight());
             extraContentButton.setTransform(true);
@@ -86,23 +86,23 @@ public class HangmanArenaMainMenuScreen extends AbstractScreen<HangmanArenaScree
     }
 
     public static void displayInAppPurchasesPopup(Runnable redirectAfterBoughtScreen) {
-        Game.getInstance().getInAppPurchaseManager().displayInAppPurchasesPopup(DEFAULT_LANGUAGE, DEFAULT_EXTRA_CONTENT_TEXT, MainGameLabel.l_extracontent, redirectAfterBoughtScreen);
+        Game.getInstance().getInAppPurchaseManager().displayInAppPurchasesPopup(DEFAULT_LANGUAGE, DEFAULT_EXTRA_CONTENT_TEXT, MainGameLabel.l_extracontent.getText(), redirectAfterBoughtScreen);
     }
 
     private void addTitle(Table table) {
         Image titleRaysImage = GraphicUtils.getImage(Resource.title_rays);
-        new ActorAnimation(titleRaysImage, getAbstractScreen()).animateFastFadeInFadeOut();
+        new ActorAnimation(getAbstractScreen()).animateFastFadeInFadeOut(titleRaysImage);
         float titleWidth = ScreenDimensionsManager.getScreenWidth();
         float titleHeight = ScreenDimensionsManager.getNewHeightForNewWidth(titleWidth,
                 titleRaysImage.getWidth(), titleRaysImage.getHeight());
         titleRaysImage.setWidth(titleWidth);
         titleRaysImage.setHeight(titleHeight);
-        titleRaysImage.setY(ScreenDimensionsManager.getScreenHeightValue(49));
+        titleRaysImage.setY(ScreenDimensionsManager.getScreenHeight(49));
         addActor(titleRaysImage);
         Stack titleLabel = createTitleLabel();
         table.add(titleLabel)
                 .width(titleWidth)
-                .height(ScreenDimensionsManager.getScreenHeightValue(30))
+                .height(ScreenDimensionsManager.getScreenHeight(30))
                 .row();
     }
 

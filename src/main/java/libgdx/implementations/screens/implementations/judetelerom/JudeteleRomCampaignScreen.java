@@ -78,7 +78,7 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<JudeteleRomScreenM
         table.add(titleLabel).padTop(MainDimen.vertical_general_margin.getDimen() * 2).colspan(2).row();
         table.add(judeteContainers.createAllJudeteFound()).pad(MainDimen.vertical_general_margin.getDimen()).colspan(2).row();
         MyButton startGameBtn = createStartGameBtn();
-        table.add(startGameBtn).pad(MainDimen.vertical_general_margin.getDimen()).width(ScreenDimensionsManager.getScreenWidthValue(50)).height(ScreenDimensionsManager.getScreenHeightValue(10)).row();
+        table.add(startGameBtn).pad(MainDimen.vertical_general_margin.getDimen()).width(ScreenDimensionsManager.getScreenWidth(50)).height(ScreenDimensionsManager.getScreenHeight(10)).row();
         table.add(scrollPane).expand();
         addActor(table);
     }
@@ -109,7 +109,7 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<JudeteleRomScreenM
         JudeteleRomCampaignLevelEnum[] allJudete = JudeteleRomCampaignLevelEnum.values();
         float horizontalGeneralMarginDimen = MainDimen.horizontal_general_margin.getDimen();
         for (final JudeteleRomCampaignLevelEnum campaignLevelEnum : allJudete) {
-            float btnWidth = ScreenDimensionsManager.getScreenWidthValue(40);
+            float btnWidth = ScreenDimensionsManager.getScreenWidth(40);
             final Integer category = new CampaignLevelEnumService(campaignLevelEnum).getCategory();
             Table judTable = new Table();
             MyWrappedLabel judLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setWrappedLineLabel(btnWidth / 1.1f).setFontScale(FontManager.getNormalFontDim()).setText(new SpecificPropertiesUtils().getQuestionCampaignLabel(category)).build());
@@ -148,7 +148,7 @@ public class JudeteleRomCampaignScreen extends AbstractScreen<JudeteleRomScreenM
     }
 
     private float getLevelBtnHeight() {
-        return ScreenDimensionsManager.getScreenHeightValue(10);
+        return ScreenDimensionsManager.getScreenHeight(10);
     }
 
 

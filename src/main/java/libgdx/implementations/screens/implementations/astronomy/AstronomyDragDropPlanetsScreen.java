@@ -88,11 +88,11 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
         allTable.setFillParent(true);
 
         Table headerTable = new HeaderCreator().createHeaderTable(allQuestionsValidToPlay);
-        headerTable.setHeight(ScreenDimensionsManager.getScreenHeightValue(5));
+        headerTable.setHeight(ScreenDimensionsManager.getScreenHeight(5));
         allTable.add(headerTable).height(headerTable.getHeight()).row();
 
-        float margin = ScreenDimensionsManager.getScreenWidthValue(10);
-        allTable.add(createLevelTitle()).height(ScreenDimensionsManager.getScreenHeightValue(20)).row();
+        float margin = ScreenDimensionsManager.getScreenWidth(10);
+        allTable.add(createLevelTitle()).height(ScreenDimensionsManager.getScreenHeight(20)).row();
         allTable.add(createQuestionTable()).padBottom(margin / 2);
         addActor(allTable);
     }
@@ -102,7 +102,7 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
                 .setFontConfig(new FontConfig(RGBColor.WHITE.toColor(),
                         Color.BLACK, Math.round(FontConfig.FONT_SIZE * 1.5f),
                         3f, 3, 3, RGBColor.BLACK.toColor(0.4f)))
-                .setWrappedLineLabel(ScreenDimensionsManager.getScreenWidthValue(90))
+                .setWrappedLineLabel(ScreenDimensionsManager.getScreenWidth(90))
                 .setText(SpecificPropertiesUtils.getText(planetsGameType.levelName)).build());
     }
 
@@ -161,16 +161,16 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
     }
 
     private float getPlanetImgDimen() {
-        return ScreenDimensionsManager.getScreenWidthValue(25);
+        return ScreenDimensionsManager.getScreenWidth(25);
     }
 
     private float getOptImgDimen() {
-        return ScreenDimensionsManager.getScreenWidthValue(30);
+        return ScreenDimensionsManager.getScreenWidth(30);
     }
 
     private Stack creatAnswerImg(Res background, int index) {
-        float labelWidth = ScreenDimensionsManager.getScreenWidthValue(30);
-        float labelHeight = ScreenDimensionsManager.getScreenHeightValue(7);
+        float labelWidth = ScreenDimensionsManager.getScreenWidth(30);
+        float labelHeight = ScreenDimensionsManager.getScreenHeight(7);
         String optionsText = getOptionsText(index);
         float fontFactor = optionsText.length() > 10 ? 1.1f : 1.3f;
         MyWrappedLabel answerText = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
@@ -198,7 +198,7 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
     }
 
     private void processAnswerTextTable(Table answerText) {
-        float unitImgSideDimen = ScreenDimensionsManager.getScreenWidthValue(10);
+        float unitImgSideDimen = ScreenDimensionsManager.getScreenWidth(10);
         if (planetsGameType == AstronomyPlanetsGameType.SUN_LIGHT_DURATION) {
             answerText.row();
             Image unit = GraphicUtils.getImage(AstronomySpecificResource.speed_light);
@@ -241,8 +241,8 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
         Stack stack = new Stack();
         stack.setName(PLANET_STACK_NAME);
         stack.add(GraphicUtils.getImage(res));
-        float labelWidth = ScreenDimensionsManager.getScreenWidthValue(30);
-        float labelHeight = ScreenDimensionsManager.getScreenHeightValue(7);
+        float labelWidth = ScreenDimensionsManager.getScreenWidth(30);
+        float labelHeight = ScreenDimensionsManager.getScreenHeight(7);
         MyWrappedLabel planetName = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
                 .setFontConfig(new FontConfig(RGBColor.WHITE.toColor(),
                         Color.BLACK, Math.round(FontConfig.FONT_SIZE * 1.5f),
@@ -255,7 +255,7 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
         planetName.padTop(labelHeight / 1.5f);
         stack.add(planetName);
 
-        float moveBy = ScreenDimensionsManager.getScreenWidthValue(2);
+        float moveBy = ScreenDimensionsManager.getScreenWidth(2);
         float moveByDuration = 0.1f;
         stack.addAction(
                 Actions.sequence(Actions.delay(0.2f),
@@ -367,7 +367,7 @@ public class AstronomyDragDropPlanetsScreen extends GameScreen<AstronomyScreenMa
         float imgDimen = getOptImgDimen();
         image.setWidth(imgDimen);
         image.setHeight(imgDimen);
-        new ActorAnimation(image, getAbstractScreen()).animateFadeIn(fadeInCorrectWrongImgDuration());
+        new ActorAnimation(getAbstractScreen()).animateFadeIn(image, fadeInCorrectWrongImgDuration());
         addActor(image);
         displayedWrongCorrectImages.add(image);
     }

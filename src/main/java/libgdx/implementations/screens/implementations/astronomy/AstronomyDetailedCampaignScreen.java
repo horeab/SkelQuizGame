@@ -77,7 +77,7 @@ public class AstronomyDetailedCampaignScreen extends AbstractScreen<AstronomyScr
     private Table createAllTable() {
         new ActorAnimation(getAbstractScreen()).createScrollingBackground(MainResource.background_texture);
         Table table = new Table();
-        float levelTableHeight = ScreenDimensionsManager.getScreenHeightValue(90);
+        float levelTableHeight = ScreenDimensionsManager.getScreenHeight(90);
         table.add(createTitleLabel())
                 .height(ScreenDimensionsManager.getScreenHeight() - levelTableHeight / 1.05f)
                 .row();
@@ -172,7 +172,7 @@ public class AstronomyDetailedCampaignScreen extends AbstractScreen<AstronomyScr
     }
 
     private float getStartGameButtonSideDimen() {
-        return ScreenDimensionsManager.getScreenHeightValue(15);
+        return ScreenDimensionsManager.getScreenHeight(15);
     }
 
     private Table createPlanetGameTypeGameButton(final AstronomyPlanetsGameType planetsGameType, int index, List<Planet> allPlanets) {

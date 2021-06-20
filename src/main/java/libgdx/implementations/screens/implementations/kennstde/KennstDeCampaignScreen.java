@@ -81,10 +81,10 @@ public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager>
         stack.addActor(titleLabel);
         table.add(stack)
                 .padBottom(-verticalGeneralMarginDimen * 10)
-                .width(ScreenDimensionsManager.getScreenWidthValue(90))
-                .height(ScreenDimensionsManager.getNewHeightForNewWidth(ScreenDimensionsManager.getScreenWidthValue(90), titleBackr)).row();
+                .width(ScreenDimensionsManager.getScreenWidth(90))
+                .height(ScreenDimensionsManager.getNewHeightForNewWidth(ScreenDimensionsManager.getScreenWidth(90), titleBackr)).row();
 
-        table.add(createCampaignButtons()).padTop(ScreenDimensionsManager.getScreenHeightValue(20));
+        table.add(createCampaignButtons()).padTop(ScreenDimensionsManager.getScreenHeight(20));
         if (campaignService.getFinishedCampaignLevels().size() == KennstDeCampaignLevelEnum.values().length) {
             new LevelFinishedPopup(this, SkelGameLabel.game_finished.getText()).addToPopupManager();
         }
@@ -96,7 +96,7 @@ public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager>
         int totalLevels = KennstDeCampaignLevelEnum.values().length;
         for (int i = 0; i < totalLevels; i++) {
             Integer category = CampaignLevelEnumService.getCategory(KennstDeCampaignLevelEnum.values()[i].name());
-            float rowHeight = ScreenDimensionsManager.getScreenHeightValue(15);
+            float rowHeight = ScreenDimensionsManager.getScreenHeight(15);
             if (i % 2 == 0) {
                 table.add(createCampaignBtn(category)).width(ScreenDimensionsManager.getScreenWidth() / 2).height(rowHeight);
                 table.add().width(ScreenDimensionsManager.getScreenWidth() / 2);
@@ -137,7 +137,7 @@ public class KennstDeCampaignScreen extends AbstractScreen<HangmanScreenManager>
             btnTable.setOrigin(Align.center);
             if (isBtnCurrent) {
                 btnTable.setTransform(true);
-                new ActorAnimation(btnTable, this).animateZoomInZoomOut(0.5f);
+                new ActorAnimation(this).animateZoomInZoomOut(btnTable, 0.5f);
             }
             btnTable.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
             btnTable.add(btn).width(width).height(height);

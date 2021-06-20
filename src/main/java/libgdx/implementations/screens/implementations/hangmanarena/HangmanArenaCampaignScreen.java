@@ -58,7 +58,7 @@ public class HangmanArenaCampaignScreen extends AbstractScreen<HangmanArenaScree
         CampaignLevel[] levels = (CampaignLevel[]) EnumUtils.getValues(HangmanArenaGame.getInstance().getSubGameDependencyManager().getCampaignLevelTypeEnum());
         boolean leftToRight = true;
         int i = 0;
-        float itemTableWidth = ScreenDimensionsManager.getScreenWidthValue(95);
+        float itemTableWidth = ScreenDimensionsManager.getScreenWidth(95);
         while (i < nrOfLevels) {
             Table backgroundTable = new Table();
             Table dottedLineTable = new Table();

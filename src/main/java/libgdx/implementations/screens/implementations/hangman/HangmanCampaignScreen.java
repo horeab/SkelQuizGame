@@ -123,8 +123,8 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
             });
             Table btnTable = new Table();
             btnTable.add(categBtn)
-                    .height(ScreenDimensionsManager.getScreenHeightValue(27))
-                    .width(ScreenDimensionsManager.getScreenWidthValue(45));
+                    .height(ScreenDimensionsManager.getScreenHeight(27))
+                    .width(ScreenDimensionsManager.getScreenWidth(45));
             if (!categBtn.isDisabled() && allCampaignLevelStores.size() > 2 && !Utils.isValidExtraContent()) {
                 btnTable = inAppPurchaseTable.create(btnTable, Language.en.name(), "Unlock extra categories and remove Ads", new Runnable() {
                     @Override
@@ -136,8 +136,8 @@ public class HangmanCampaignScreen extends AbstractScreen<HangmanScreenManager> 
             }
             table.add(btnTable)
                     .pad(dimen)
-                    .height(ScreenDimensionsManager.getScreenHeightValue(27))
-                    .width(ScreenDimensionsManager.getScreenWidthValue(45));
+                    .height(ScreenDimensionsManager.getScreenHeight(27))
+                    .width(ScreenDimensionsManager.getScreenWidth(45));
         }
         if (allCampaignLevelStores.size() == totalCat) {
             CampaignStoreService campaignStoreService = new CampaignStoreService();

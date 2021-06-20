@@ -95,7 +95,7 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
         table.add(createTitleStack(titleLabel)).height(btnHeight / 2).pad(dimen * 2).row();
         int totalCat = ConthistoryCategoryEnum.values().length;
         long totalStarsWon = 0;
-        float btnWidth = ScreenDimensionsManager.getScreenWidthValue(80);
+        float btnWidth = ScreenDimensionsManager.getScreenWidth(80);
         for (int i = 0; i < totalCat; i++) {
             final int finalIndex = i;
             ConthistoryCategoryEnum categoryEnum = ConthistoryCategoryEnum.values()[i];
@@ -164,7 +164,7 @@ public class ConthistoryCampaignScreen extends AbstractScreen<ConthistoryScreenM
     }
 
     private float getBtnHeightValue() {
-        return ScreenDimensionsManager.getScreenHeightValue(50);
+        return ScreenDimensionsManager.getScreenHeight(50);
     }
 
 

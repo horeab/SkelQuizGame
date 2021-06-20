@@ -105,7 +105,7 @@ public class PeriodicTableGameScreen extends GameScreen<PeriodicTableScreenManag
             if (i <= (nrOfCorrectQuestions - 1) && nrOfCorrectQuestions != 0) {
                 qTable.setBackground(GraphicUtils.getNinePatch(PeriodicTableSpecificResource.allq_bakcground));
             }
-            table.add(qTable).height(ScreenDimensionsManager.getScreenHeightValue(5)).width(ScreenDimensionsManager.getScreenWidthValue(qTableWidth));
+            table.add(qTable).height(ScreenDimensionsManager.getScreenHeight(5)).width(ScreenDimensionsManager.getScreenWidth(qTableWidth));
         }
         System.out.println(nrOfCorrectQuestions + "");
         return table;
@@ -143,7 +143,7 @@ public class PeriodicTableGameScreen extends GameScreen<PeriodicTableScreenManag
     }
 
     @Override
-    protected void setBackgroundColor(RGBColor backgroundColor) {
+    public void setBackgroundColor(RGBColor backgroundColor) {
         if (levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
             super.setBackgroundColor(RGBColor.RED);
         } else {

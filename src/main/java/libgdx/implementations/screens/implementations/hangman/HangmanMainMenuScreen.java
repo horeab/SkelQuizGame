@@ -62,7 +62,7 @@ public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> 
         table.setFillParent(true);
         addTitle(table);
         MyButton startGameBtn = createStartGameBtn();
-        table.add(startGameBtn).height(ScreenDimensionsManager.getScreenHeightValue(13)).width(ScreenDimensionsManager.getScreenWidthValue(70)).padTop(verticalGeneralMarginDimen * 4).row();
+        table.add(startGameBtn).height(ScreenDimensionsManager.getScreenHeight(13)).width(ScreenDimensionsManager.getScreenWidth(70)).padTop(verticalGeneralMarginDimen * 4).row();
         Table maxLevelTable = new Table();
         maxLevelTable.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setSingleLineLabel().setText(MainGameLabel.l_level_record.getText(new HangmanPreferencesService().getHighScore() + "")).build()));
         maxLevelTable.add(GraphicUtils.getImage(HangmanSpecificResource.star)).padLeft(horizontalGeneralMarginDimen).width(horizontalGeneralMarginDimen * 5).height(horizontalGeneralMarginDimen * 5);
@@ -73,12 +73,12 @@ public class HangmanMainMenuScreen extends AbstractScreen<HangmanScreenManager> 
 
     private void addTitle(Table table) {
         Image titleRaysImage = GraphicUtils.getImage(Resource.title_rays);
-        new ActorAnimation(titleRaysImage, this).animateFastFadeInFadeOut();
+        new ActorAnimation(this).animateFastFadeInFadeOut(titleRaysImage);
         float titleWidth = ScreenDimensionsManager.getScreenWidth();
         float titleHeight = ScreenDimensionsManager.getNewHeightForNewWidth(titleWidth, titleRaysImage.getWidth(), titleRaysImage.getHeight());
         titleRaysImage.setWidth(titleWidth);
         titleRaysImage.setHeight(titleHeight);
-        titleRaysImage.setY(ScreenDimensionsManager.getScreenHeightValue(49));
+        titleRaysImage.setY(ScreenDimensionsManager.getScreenHeight(49));
         addActor(titleRaysImage);
         Stack titleLabel = createTitleLabel();
         float verticalGeneralMarginDimen = MainDimen.vertical_general_margin.getDimen();

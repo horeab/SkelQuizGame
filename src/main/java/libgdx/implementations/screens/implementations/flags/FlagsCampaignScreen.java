@@ -119,18 +119,18 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
         table.row();
         Table btnTable0 = new Table();
         addButtonToTable(btnTable0, getCampaignLevel(0));
-        btnTable0.add().width(ScreenDimensionsManager.getScreenWidthValue(5));
+        btnTable0.add().width(ScreenDimensionsManager.getScreenWidth(5));
         addButtonToTable(btnTable0, getCampaignLevel(2));
-        btnTable0.add().width(ScreenDimensionsManager.getScreenWidthValue(5));
+        btnTable0.add().width(ScreenDimensionsManager.getScreenWidth(5));
         addButtonToTable(btnTable0, getCampaignLevel(1));
         table.add(btnTable0).padBottom(marginDimen * 2);
         table.row();
         Table btnTable1 = new Table();
-        btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(20));
+        btnTable1.add().width(ScreenDimensionsManager.getScreenWidth(20));
         addButtonToTable(btnTable1, getCampaignLevel(4));
-        btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(15));
+        btnTable1.add().width(ScreenDimensionsManager.getScreenWidth(15));
         addButtonToTable(btnTable1, getCampaignLevel(3));
-        btnTable1.add().width(ScreenDimensionsManager.getScreenWidthValue(20));
+        btnTable1.add().width(ScreenDimensionsManager.getScreenWidth(20));
         table.add(btnTable1);
         return table;
     }
@@ -169,7 +169,7 @@ public class FlagsCampaignScreen extends AbstractScreen<FlagsScreenManager> {
                         FontConfig.FONT_SIZE * 1f,
                         3f))
                 .setFixedButtonSize(GameButtonSize.FLAGS_MENU_BUTTON)
-                .setWrappedText(labelText, ScreenDimensionsManager.getScreenWidthValue(GameButtonSize.FLAGS_MENU_BUTTON.getWidth()))
+                .setWrappedText(labelText, ScreenDimensionsManager.getScreenWidth(GameButtonSize.FLAGS_MENU_BUTTON.getWidth()))
                 .build();
         btn.addListener(new ClickListener() {
             @Override

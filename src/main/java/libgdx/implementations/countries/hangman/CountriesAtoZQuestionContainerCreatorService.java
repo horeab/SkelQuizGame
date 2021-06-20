@@ -67,13 +67,13 @@ public class CountriesAtoZQuestionContainerCreatorService extends CountriesPress
                     countryForFirstLetter.substring(countryForFirstLetter.length() - 1), i);
             if (i < startingLettersOfCountries.size() / 2) {
                 firstColumn.add(countryContainer)
-                        .height(ScreenDimensionsManager.getScreenHeightValue(rowHeight))
-                        .width(ScreenDimensionsManager.getScreenWidthValue(countryInfoWidth));
+                        .height(ScreenDimensionsManager.getScreenHeight(rowHeight))
+                        .width(ScreenDimensionsManager.getScreenWidth(countryInfoWidth));
                 firstColumn.row();
             } else {
                 secondColumn.add(countryContainer)
-                        .height(ScreenDimensionsManager.getScreenHeightValue(rowHeight))
-                        .width(ScreenDimensionsManager.getScreenWidthValue(countryInfoWidth));
+                        .height(ScreenDimensionsManager.getScreenHeight(rowHeight))
+                        .width(ScreenDimensionsManager.getScreenWidth(countryInfoWidth));
                 secondColumn.row();
             }
             i++;

@@ -1,0 +1,8 @@
+0:What organ produces biochemicals necessary for digestion and growth?:Liver##Gallbladder##Pharynx##Pancreas:0:
+1:Through which organ food passes from the pharynx to the stomach?:Esophagus##Pharynx##Appendix##Gallbladder:0:
+2:What organ is the last part of the digestive system?:Large intestine##Small intestine##Gallbladder##Pancreas:0:
+3:Where does the most absorption of nutrients and minerals from food take place?:Small intestine##Stomach##Large intestine##Liver:0:
+4:What organ secretes digestive enzymes and gastric acid to aid in food digestion?:Stomach##Small intestine##Gallbladder##Large intestine:0:
+5:What is the part of the throat behind the mouth and nasal cavity named?:Pharynx##Esophagus##Appendix##Pancreas:0:
+6:What is a small hollow organ where bile is stored and concentrated before it is released into the small intestine?:Gallbladder##Pharynx##Appendix##Pancreas:0:
+7:Where is insulin secreted from?:Pancreas##Liver##Gallbladder##Pharynx:0:

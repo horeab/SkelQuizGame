@@ -65,7 +65,7 @@ public class HangmanQuestionContainerCreatorService extends QuestionContainerCre
         } else if (questionImage != null) {
             MyWrappedLabel questionLabel = new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(gameContext.getQuestion().getQuestionCategory().getIndex())).build());
             questionContainer.add(questionLabel).padBottom(MainDimen.vertical_general_margin.getDimen()).row();
-            Table imageTable = createQuestionImage(questionImage, ScreenDimensionsManager.getScreenWidthValue(80), ScreenDimensionsManager.getScreenHeightValue(25));
+            Table imageTable = createQuestionImage(questionImage, ScreenDimensionsManager.getScreenWidth(80), ScreenDimensionsManager.getScreenHeight(25));
             questionContainer.add(imageTable);
             questionContainer.add(createAvailableTriesTableForQuestionWithImage()).padLeft(MainDimen.horizontal_general_margin.getDimen());
         }
@@ -115,7 +115,7 @@ public class HangmanQuestionContainerCreatorService extends QuestionContainerCre
             for (int j = 0; j < getNrOfAnswersOnRow(); j++) {
                 if (answerIndex < allAnswerButtons.size()) {
                     MyButton button = allAnswerButtons.get(answerIndex);
-                    buttonRow.add(button).width(button.getWidth()).height(button.getHeight()).padRight(ScreenDimensionsManager.getScreenWidthValue(0.65f));
+                    buttonRow.add(button).width(button.getWidth()).height(button.getHeight()).padRight(ScreenDimensionsManager.getScreenWidth(0.65f));
                     answerIndex++;
                 }
             }
