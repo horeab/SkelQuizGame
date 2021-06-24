@@ -1,11 +1,11 @@
 package libgdx.implementations.skelgame.gameservice;
 
+import libgdx.implementations.skelgame.question.Question;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Set;
-
-import libgdx.implementations.skelgame.question.Question;
 
 //id:question:answer_options:answer:image
 //0:Question Question Question?:Answer 1##Answer 2##Answer 3##Answer 4##Answer 5:0,2:3
@@ -18,7 +18,7 @@ public class UniqueAnswersQuizGameService extends QuizGameService {
     @Override
     public List<String> getAnswers() {
         List<String> answers = new ArrayList<>();
-        String[] answersIdsArray = question.getQuestionString().split(":")[3].split(",");
+        String[] answersIdsArray = getCorrectAnswerIds();
         String[] answerOptionsArray = getAnswerOptionsArray();
         for (String answerId : answersIdsArray) {
             answers.add(answerOptionsArray[Integer.parseInt(answerId)]);
@@ -42,7 +42,11 @@ public class UniqueAnswersQuizGameService extends QuizGameService {
         return answerOptions;
     }
 
-    private String[] getAnswerOptionsArray() {
+    protected String[] getCorrectAnswerIds() {
+        return question.getQuestionString().split(":")[3].split(",");
+    }
+
+    protected String[] getAnswerOptionsArray() {
         return question.getQuestionString().split(":")[2].split("##");
     }
 }

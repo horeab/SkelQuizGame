@@ -6,6 +6,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
+import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.CampaignService;
 import libgdx.campaign.CampaignStoreLevel;
 import libgdx.constants.Language;
@@ -31,6 +32,7 @@ import libgdx.skelgameimpl.skelgame.SkelGameRatingService;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class AnatomyCampaignScreen extends AbstractScreen<AnatomyScreenManager> {
@@ -68,12 +70,12 @@ public class AnatomyCampaignScreen extends AbstractScreen<AnatomyScreenManager> 
         Table table = new Table();
 
 
-        int totalCat = AnatomyQuestionCategoryEnum.values().length;
+        int totalCat = AnatomyLevelScreen.campaign0AllLevels.size();
         table.add(new MyWrappedLabel(new MyWrappedLabelConfigBuilder().setFontScale(FontManager.getBigFontDim()).setText(Game.getInstance().getAppInfoService().getAppName()).build())).pad(MainDimen.vertical_general_margin.getDimen()).colspan(2).row();
         InAppPurchaseTable inAppPurchaseTable = new InAppPurchaseTable();
         for (int i = 0; i < totalCat; i++) {
             final int finalIndex = i;
-            AnatomyQuestionCategoryEnum categoryEnum = AnatomyQuestionCategoryEnum.values()[i];
+            AnatomyQuestionCategoryEnum categoryEnum = (AnatomyQuestionCategoryEnum) CampaignLevelEnumService.getCategoryEnum(new ArrayList<>(AnatomyLevelScreen.campaign0AllLevels.keySet()).get(i).getName());
             float btnWidth = ScreenDimensionsManager.getScreenWidth(50);
             MyButton categBtn = new ButtonBuilder()
                     .setWrappedText(

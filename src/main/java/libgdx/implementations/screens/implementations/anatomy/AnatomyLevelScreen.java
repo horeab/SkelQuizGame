@@ -1,6 +1,5 @@
 package libgdx.implementations.screens.implementations.anatomy;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
@@ -10,6 +9,7 @@ import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionConfig;
 import libgdx.controls.button.MyButton;
+import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.button.builders.ImageButtonBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
@@ -30,6 +30,7 @@ import libgdx.resources.dimen.MainDimen;
 import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.screen.AbstractScreen;
 import libgdx.utils.ScreenDimensionsManager;
+import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
 
 import java.util.*;
@@ -40,11 +41,12 @@ public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
 
     private AnatomyCampaignLevelEnum campaignLevelEnum;
     public static final int TOTAL_STARS_TO_DISPLAY = 3;
+    private MyButton backButton;
     public static Map<CampaignLevel, List<CampaignLevel>> campaign0AllLevels;
     private AnatomyPreferencesManager anatomyPreferencesManager = new AnatomyPreferencesManager();
 
     static {
-        Map<CampaignLevel, List<CampaignLevel>> aMap = new HashMap<>();
+        Map<CampaignLevel, List<CampaignLevel>> aMap = new LinkedHashMap<>();
         aMap.put(LEVEL_0_0, Arrays.asList(LEVEL_0_0, LEVEL_0_10));
         aMap.put(LEVEL_0_1, Arrays.asList(LEVEL_0_1, LEVEL_0_11));
         aMap.put(LEVEL_0_2, Arrays.asList(LEVEL_0_2, LEVEL_0_12));
@@ -70,6 +72,7 @@ public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
         table.setFillParent(true);
         table.add(createAllTable()).expand();
         addActor(table);
+        backButton = new BackButtonBuilder().addHoverBackButton(this);
     }
 
     private Table createAllTable() {
@@ -81,12 +84,22 @@ public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
         Table titleTable = new Table();
         titleTable.add(title);
         titleTable.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));
-        table.add(titleTable).width(ScreenDimensionsManager.getScreenWidth())
-                .height(ScreenDimensionsManager.getScreenHeight(10))
+        table.add(titleTable).width(ScreenDimensionsManager.getScreenWidth(110))
+                .height(ScreenDimensionsManager.getScreenHeight(8))
                 .row();
 
-        addLevelBtn(table, AnatomyGameType.GENERALK);
-        addLevelBtn(table, AnatomyGameType.IDENTIFY);
+        Table levelBtn1 = createLevelBtn(AnatomyGameType.GENERALK);
+        Table levelBtn2 = createLevelBtn(AnatomyGameType.IDENTIFY);
+
+        Table allBtnTable = new Table();
+        allBtnTable.add(levelBtn1).width(levelBtn1.getWidth()).height(levelBtn1.getHeight())
+                .pad(MainDimen.vertical_general_margin.getDimen() * 5).row();
+        allBtnTable.add(levelBtn2).width(levelBtn1.getWidth()).height(levelBtn1.getHeight())
+                .pad(MainDimen.vertical_general_margin.getDimen() * 5).row();
+        table.add(allBtnTable).height(ScreenDimensionsManager.getScreenHeight(84));
+        if (backButton != null) {
+            backButton.toFront();
+        }
 
         return table;
     }
@@ -111,14 +124,14 @@ public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
         }
     }
 
-    private void addLevelBtn(Table table, AnatomyGameType anatomyGameType) {
+    private Table createLevelBtn(AnatomyGameType anatomyGameType) {
         int totalNrOfQuestions = getTotalNrOfQuestions(anatomyGameType);
         MyButton btn = createCategButton(anatomyGameType, totalNrOfQuestions);
         Table btnTable = new Table();
         btnTable.add(createStarsTable(anatomyGameType, totalNrOfQuestions)).row();
         btnTable.add(btn).width(btn.getWidth()).height(btn.getHeight());
-        table.add(btnTable).width(btn.getWidth()).height(btn.getHeight())
-                .pad(MainDimen.vertical_general_margin.getDimen() * 5).row();
+        btnTable.setHeight(ScreenDimensionsManager.getScreenHeight(20));
+        return btnTable;
     }
 
     private int getStarsBasedOnTotalLevels(int currentMaxLevels, int totalLevels) {
@@ -203,8 +216,13 @@ public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
 
     @Override
     public void onBackKeyPress() {
-        Gdx.app.exit();
+        screenManager.showMainScreen();
     }
 
+    @Override
+    public void render(float dt) {
+        super.render(dt);
+        Utils.createChangeLangPopup();
+    }
 
 }

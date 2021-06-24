@@ -7,8 +7,6 @@ import libgdx.campaign.CampaignService;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
-import libgdx.dbapi.GameStatsDbApiService;
-import libgdx.game.Game;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.anatomy.AnatomyCampaignLevelEnum;
 import libgdx.implementations.anatomy.AnatomyGame;
@@ -19,7 +17,6 @@ import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.skelgame.gameservice.*;
 import libgdx.implementations.skelgame.question.GameUser;
 import libgdx.resources.dimen.MainDimen;
-import libgdx.utils.DateUtils;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.RGBColor;
@@ -34,6 +31,7 @@ public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
     private MyButton backButton;
     private AnatomyGameType anatomyGameType;
     private AnatomyPreferencesManager anatomyPreferencesManager = new AnatomyPreferencesManager();
+    private boolean gamWonSuccessAlreadyDisplayed = false;
 
     public AnatomyGameScreen(GameContext gameContext, CampaignLevel campaignLevel, AnatomyGameType anatomyGameType) {
         super(gameContext);
@@ -44,16 +42,13 @@ public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
     @Override
     public void buildStage() {
         if (anatomyGameType == AnatomyGameType.GENERALK) {
-            AnatomyLevelScreen.addScreenBackground(getRootCampaignLevelForValue(), this);
+            AnatomyLevelScreen.addScreenBackground(getRootCampaignLevelForValue(campaignLevel), this);
         }
         createAllTable();
         backButton = new BackButtonBuilder().addHoverBackButton(this);
     }
 
     private void createAllTable() {
-        if (Game.getInstance().getCurrentUser() != null) {
-            new GameStatsDbApiService().incrementGameStatsQuestionsWon(Game.getInstance().getCurrentUser().getId(), Long.valueOf(DateUtils.getNowMillis()).toString());
-        }
 
         allTable = new Table();
         QuestionContainerCreatorService questionContainerCreatorService;
@@ -85,7 +80,7 @@ public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
         }
     }
 
-    private CampaignLevel getRootCampaignLevelForValue() {
+    public static CampaignLevel getRootCampaignLevelForValue(CampaignLevel campaignLevel) {
         for (Map.Entry<CampaignLevel, List<CampaignLevel>> e : AnatomyLevelScreen.campaign0AllLevels.entrySet()) {
             if (e.getValue().contains(campaignLevel)) {
                 return e.getKey();
@@ -96,7 +91,8 @@ public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
 
     @Override
     public void goToNextQuestionScreen() {
-        if (levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
+        if (!gamWonSuccessAlreadyDisplayed && levelFinishedService.isGameWon(gameContext.getCurrentUserGameUser())) {
+            gamWonSuccessAlreadyDisplayed = true;
             ActorAnimation.animateImageCenterScreenFadeOut(AnatomySpecificResource.success, 0.3f);
         }
         anatomyPreferencesManager.putLevelScore((AnatomyCampaignLevelEnum) campaignLevel, gameContext.getCurrentUserGameUser().getWonQuestions());
@@ -116,7 +112,7 @@ public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
 
     @Override
     public void onBackKeyPress() {
-        screenManager.showMainScreen();
+        screenManager.showLevelScreen((AnatomyCampaignLevelEnum) getRootCampaignLevelForValue(campaignLevel));
     }
 
     @Override

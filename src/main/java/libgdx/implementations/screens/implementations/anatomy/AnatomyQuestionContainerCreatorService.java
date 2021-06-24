@@ -6,6 +6,7 @@ import libgdx.implementations.astronomy.AstronomySpecificResource;
 import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.gameservice.GameContext;
+import libgdx.implementations.skelgame.gameservice.QuizGameService;
 import libgdx.implementations.skelgame.gameservice.QuizQuestionContainerCreatorService;
 import libgdx.implementations.skelgame.question.GameQuestionInfo;
 import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
@@ -44,4 +45,8 @@ public class AnatomyQuestionContainerCreatorService extends QuizQuestionContaine
         }
     }
 
+    @Override
+    protected QuizGameService getGameService(GameContext gameContext) {
+        return new AnatomyUniqueQuizGameService(gameContext.getQuestion());
+    }
 }

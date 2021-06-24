@@ -38,7 +38,7 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
 
     public QuestionContainerCreatorService(GameContext gameContext, GameScreen abstractGameScreen) {
         this.gameQuestionInfo = gameContext.getCurrentUserGameUser().getGameQuestionInfo();
-        this.gameService = (TGameService) GameServiceContainer.getGameService(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
+        this.gameService = getGameService(gameContext);
         this.questionContainer = new Table();
         this.abstractGameScreen = abstractGameScreen;
         this.gameContext = gameContext;
@@ -48,6 +48,10 @@ public abstract class QuestionContainerCreatorService<TGameService extends GameS
         this.gameControlsService = new GameControlsService(allAnswerButtons, hintButtons);
         addOnAnswerClick();
         addOnHintClick();
+    }
+
+    protected TGameService getGameService(GameContext gameContext) {
+        return (TGameService) GameServiceContainer.getGameService(gameContext.getCurrentUserGameUser().getGameQuestionInfo());
     }
 
     public AbstractScreen getAbstractGameScreen() {
