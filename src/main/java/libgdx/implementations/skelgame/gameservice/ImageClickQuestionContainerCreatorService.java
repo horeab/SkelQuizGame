@@ -79,9 +79,15 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
         Question question = getGameQuestionInfo().getQuestion();
         Group grp = createInitialGroupAndAdjustImageForSideAnswers(image);
         Map<MyButton, Pair<Float, Float>> buttonWithCoordinates = gameService.getAnswerOptionsCoordinates(new ArrayList<>(getAllAnswerButtons().values()), question.getQuestionDifficultyLevel(), question.getQuestionCategory());
+        ////////////////////
+        ////////////////////
+        ////////////////////
         for (Map.Entry<MyButton, Pair<Float, Float>> entry : buttonWithCoordinates.entrySet()) {
             grp.addActor(createRespArrow(entry.getValue(), image, grp, entry.getKey()));
         }
+        ////////////////////
+        ////////////////////
+        ////////////////////
         image.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {

@@ -9,7 +9,6 @@ import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.CampaignService;
 import libgdx.campaign.CampaignStoreLevel;
-import libgdx.constants.Language;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
@@ -111,11 +110,11 @@ public class AnatomyCampaignScreen extends AbstractScreen<AnatomyScreenManager> 
             btnTable.add(imgTable).width(btnWidth);
             Table categBtnTable = new Table();
             categBtnTable.add(categBtn).height(levelBtnHeight).width(btnWidth);
-            if (i >= (totalCat / 2) && !Utils.isValidExtraContent()) {
-                categBtnTable = inAppPurchaseTable.create(categBtnTable,
-                        Language.en.name(), "Unlock extra categories and remove Ads", btnWidth, levelBtnHeight);
-                categBtn.setDisabled(true);
-            }
+//            if (i >= (totalCat / 2) && !Utils.isValidExtraContent()) {
+//                categBtnTable = inAppPurchaseTable.create(categBtnTable,
+//                        Language.en.name(), "Unlock extra categories and remove Ads", btnWidth, levelBtnHeight);
+//                categBtn.setDisabled(true);
+//            }
             btnTable.add(categBtnTable)
                     .pad(horizontalGeneralMarginDimen)
                     .height(levelBtnHeight)

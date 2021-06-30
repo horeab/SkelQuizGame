@@ -1,6 +1,8 @@
-0:What is a muscular organ which pumps blood through the blood vessels of the circulatory system?:0##1##3##5:0:
-1:What is the main and largest artery in the human body?:1##4##3##2:0:
-2:What are veins that drain the kidney?:2##5##4##1:0:
-3:What are paired arteries that supply the kidneys with blood?:3##2##1##5:0:
-4:What are veins that take deoxygenated blood from the head back to the heart?:4##2##5##1:0:
-5:What is a large vein located deep within the thigh?:5##2##1##4:0:
+0:What is a bone structure that forms the head?:0##1##9##7:0:
+1:What is known also as the shoulder bone?:1##9##11##6:0:
+2:What is a semi-rigid bony and cartilaginous structure which surrounds the thoracic cavity?:2##7##8##11:0:
+3:What is the defining characteristic of a vertebrate?:3##0##11##2:0:
+4:What is the larger of the two bones in the leg below the knee?:4##6##9##5:0:
+5:What is a long bone in the arm that runs from the shoulder to the elbow?:6##5##1##7:0:
+6:What is a cluster of seven articulating bones in each foot?:9##7##8##1:0:
+7:What is the lower part of the torso?:11##6##3##2:0:

@@ -1,8 +1,6 @@
-0:What is a bone structure that forms the head?:0##1##9##7:0:
-1:What is known also as the shoulder bone?:1##9##11##6:0:
-2:What is a semi-rigid bony and cartilaginous structure which surrounds the thoracic cavity?:2##7##8##11:0:
-3:What is the defining characteristic of a vertebrate?:3##0##11##2:0:
-4:What is the larger of the two bones in the leg below the knee?:4##6##9##5:0:
-5:What is a long bone in the arm that runs from the shoulder to the elbow?:6##5##1##7:0:
-6:What is a cluster of seven articulating bones in each foot?:9##7##8##1:0:
-7:What is the lower part of the torso?:11##6##3##2:0:
+0::Oxygen:6,3,4:11.3,57:11
+1::Carbon:2,6,4:1.7,50.5:11
+2::Hydrogen:1,4,6:19,51.3:11
+3::Nitrogen:1,6,4:64.6,76.8:11
+4::Calcium:0,6,3:87.9,36.2:11
+5::Phosphorus:6,4,3:7.2,51.4:11

@@ -47,16 +47,18 @@ public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
 
     static {
         Map<CampaignLevel, List<CampaignLevel>> aMap = new LinkedHashMap<>();
-        aMap.put(LEVEL_0_0, Arrays.asList(LEVEL_0_0, LEVEL_0_10));
-        aMap.put(LEVEL_0_1, Arrays.asList(LEVEL_0_1, LEVEL_0_11));
-        aMap.put(LEVEL_0_2, Arrays.asList(LEVEL_0_2, LEVEL_0_12));
-        aMap.put(LEVEL_0_3, Arrays.asList(LEVEL_0_3, LEVEL_0_13));
-        aMap.put(LEVEL_0_4, Arrays.asList(LEVEL_0_4, LEVEL_0_14));
-        aMap.put(LEVEL_0_5, Arrays.asList(LEVEL_0_5, LEVEL_0_15));
-        aMap.put(LEVEL_0_6, Arrays.asList(LEVEL_0_6, LEVEL_0_16));
-        aMap.put(LEVEL_0_7, Arrays.asList(LEVEL_0_7, LEVEL_0_17));
-        aMap.put(LEVEL_0_8, Arrays.asList(LEVEL_0_8, LEVEL_0_18));
-        aMap.put(LEVEL_0_9, Arrays.asList(LEVEL_0_9, LEVEL_0_19));
+        aMap.put(LEVEL_0_0, Arrays.asList(LEVEL_0_0, LEVEL_0_12));
+        aMap.put(LEVEL_0_1, Arrays.asList(LEVEL_0_1, LEVEL_0_13));
+        aMap.put(LEVEL_0_2, Arrays.asList(LEVEL_0_2, LEVEL_0_14));
+        aMap.put(LEVEL_0_3, Arrays.asList(LEVEL_0_3, LEVEL_0_15));
+        aMap.put(LEVEL_0_4, Arrays.asList(LEVEL_0_4, LEVEL_0_16));
+        aMap.put(LEVEL_0_5, Arrays.asList(LEVEL_0_5, LEVEL_0_17));
+        aMap.put(LEVEL_0_6, Arrays.asList(LEVEL_0_6, LEVEL_0_18));
+        aMap.put(LEVEL_0_7, Arrays.asList(LEVEL_0_7, LEVEL_0_19));
+        aMap.put(LEVEL_0_8, Arrays.asList(LEVEL_0_8, LEVEL_0_20));
+        aMap.put(LEVEL_0_9, Arrays.asList(LEVEL_0_9, LEVEL_0_21));
+        aMap.put(LEVEL_0_10, Arrays.asList(LEVEL_0_10, LEVEL_0_22));
+        aMap.put(LEVEL_0_11, Arrays.asList(LEVEL_0_11, LEVEL_0_23));
         campaign0AllLevels = Collections.unmodifiableMap(aMap);
     }
 
@@ -111,15 +113,17 @@ public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
             float imgHeight = image.getHeight();
             float imgWidth = image.getWidth();
             if (imgWidth > imgHeight) {
-                image.setWidth(ScreenDimensionsManager.getScreenWidth(75));
+                image.setWidth(ScreenDimensionsManager.getScreenWidth(100));
                 image.setHeight(ScreenDimensionsManager.getNewHeightForNewWidth(image.getWidth(), imgWidth, imgHeight));
+                image.setPosition(ScreenDimensionsManager.getScreenWidth(95) - image.getWidth(),
+                        ScreenDimensionsManager.getScreenHeight(25));
             } else {
                 image.setHeight(ScreenDimensionsManager.getScreenHeight(75));
                 image.setWidth(ScreenDimensionsManager.getNewWidthForNewHeight(image.getHeight(), imgWidth, imgHeight));
+                image.setPosition(ScreenDimensionsManager.getScreenWidth(95) - image.getWidth(),
+                        ScreenDimensionsManager.getScreenHeight(3));
             }
             image.toBack();
-            image.setPosition(ScreenDimensionsManager.getScreenWidth(95) - image.getWidth(),
-                    ScreenDimensionsManager.getScreenHeight(3));
             abstractScreen.addActor(image);
         }
     }

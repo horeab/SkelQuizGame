@@ -7,12 +7,13 @@ import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.utils.Align;
-
-import libgdx.campaign.*;
+import libgdx.campaign.CampaignLevel;
+import libgdx.campaign.CampaignLevelEnumService;
+import libgdx.campaign.CampaignService;
+import libgdx.campaign.CampaignStoreLevel;
 import libgdx.constants.Language;
 import libgdx.controls.animations.ActorAnimation;
 import libgdx.controls.button.MyButton;
-import libgdx.controls.button.builders.BackButtonBuilder;
 import libgdx.controls.button.builders.ButtonWithIconBuilder;
 import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
@@ -55,7 +56,6 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         table.setFillParent(true);
         table.add(createAllTable());
         addActor(table);
-        new BackButtonBuilder().addHoverBackButton(this);
         Game.getInstance().setFirstTimeMainMenuDisplayed(false);
     }
 
@@ -78,6 +78,7 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
         for (QuizQuestionDifficultyLevel difficultyLevel : QuizQuestionDifficultyLevel.values()) {
             if (difficultyLevel.getIndex() > 1 && extraContentTable != null) {
                 extraContentTable.add(createCategoriesTable(difficultyLevel)).padBottom(verticalGeneralMarginDimen * 2);
+                extraContentTable.setHeight(ScreenDimensionsManager.getScreenHeight(40));
                 extraContentTable.row();
             } else {
                 table.add(createCategoriesTable(difficultyLevel)).padBottom(verticalGeneralMarginDimen * 2);
@@ -85,7 +86,8 @@ public class GeoQuizCampaignScreen extends AbstractScreen<QuizScreenManager> {
             }
         }
         if (extraContentTable != null) {
-            table.add(inAppPurchaseTable.create(extraContentTable, Language.en.name(), "Unlock extra categories and remove Ads"));
+            table.add(inAppPurchaseTable.create(extraContentTable, Language.en.name(),
+                    "Unlock extra categories and remove Ads")).height(extraContentTable.getHeight());
         }
         return table;
     }

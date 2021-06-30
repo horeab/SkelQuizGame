@@ -1,8 +1,7 @@
-0:What organ produces bile necessary for digestion?:0##7##6##8:0:
-1:Through which organ food passes from the pharynx to the stomach?:2##6##9##7:0:
-2:What organ is the last part of the digestive system?:3##4##7##8:0:
-3:Where does the most absorption of nutrients and minerals from food take place?:4##5##3##0:0:
-4:What organ secretes digestive enzymes and gastric acid to aid in food digestion?:5##4##7##3:0:
-5:What is the part of the throat behind the mouth and nasal cavity named?:6##2##9##8:0:
-6:Where is bile stored and concentrated before it is released into the small intestine?:7##6##9##8:0:
-7:Where is insulin secreted from?:8##0##7##6:0:
+0::Nucleus:6,3,4:57.3,75.5:10
+1::Nucleolus:2,6,4:44.5,67.9:10
+2::Cytoplasm:1,4,6:89.6,67.1:10
+3::Cell membrane:1,6,4:90.0,24:10
+4::Ribosome:0,6,3:86.83,53.72:10
+5::Mitochondrion:6,4,3:51.4,90.35:10
+6::Endoplasmic reticulum:1,4,3:63.9,25:10

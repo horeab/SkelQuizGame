@@ -1,0 +1,5 @@
+0:What is a thin structure in the eye, responsible for controlling the diameter and size of the pupil?:0##1##3##2:0:
+1:What is the transparent front part of the eye that covers the iris?:1##2##3##0:0:
+2:What is a transparent structure in the eye that helps to refract light to be focused on the retina?:2##3##0##1:0:
+3:What is the innermost, light-sensitive layer of tissue of the eye?:3##1##0##2:0:
+4:What transmits visual information from the retina to the brain?:4##6##5##3:0:
