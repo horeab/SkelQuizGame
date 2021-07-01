@@ -5,11 +5,14 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.utils.Align;
 import libgdx.controls.button.MyButton;
+import libgdx.game.Game;
 import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.skelgame.gameservice.GameContext;
+import libgdx.implementations.skelgame.gameservice.ImageClickInfo;
 import libgdx.implementations.skelgame.gameservice.ImageClickQuestionContainerCreatorService;
+import libgdx.resources.gamelabel.GameLabelUtils;
+import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.utils.ScreenDimensionsManager;
-import org.apache.commons.lang3.tuple.Pair;
 
 public class AnatomyImageQuestionContainerCreatorService extends ImageClickQuestionContainerCreatorService {
 
@@ -49,6 +52,14 @@ public class AnatomyImageQuestionContainerCreatorService extends ImageClickQuest
         return grp;
     }
 
+    @Override
+    protected String getQuestionTopTitle() {
+        int catNr = gameContext.getQuestion().getQuestionCategory().getIndex();
+        String language = Game.getInstance().getAppInfoService().getLanguage();
+        String key = language + "_" + Game.getInstance().getAppInfoService().getGameIdPrefix() + "_question_category_" + catNr + "_sub";
+        return GameLabelUtils.getText(key, language, SpecificPropertiesUtils.getLabelFilePath());
+    }
+
     private float getQuestionImageLeftMarginWithExactAnswers(Image image, float groupWidth) {
         return (groupWidth - image.getWidth()) / 2;
     }
@@ -62,21 +73,21 @@ public class AnatomyImageQuestionContainerCreatorService extends ImageClickQuest
     }
 
     @Override
-    protected void setSideArrowPosition(Pair<Float, Float> coord, Image image, Group group, MyButton respBtn, Table arrowTable) {
+    protected void setSideArrowPosition(ImageClickInfo coord, Image image, Group group, MyButton respBtn, Table arrowTable) {
         float leftMargin = getQuestionImageLeftMarginWithSideAnswers(image, group.getWidth());
         float topMargin = getQuestionImageTopMargin(image, group.getHeight());
-        arrowTable.setX(leftMargin + ((image.getWidth() / 100) * coord.getKey()) + respBtn.getWidth() / 2);
-        arrowTable.setY(topMargin + (image.getHeight() / 100 * coord.getValue() - respBtn.getWidth() / 2));
+        arrowTable.setX(leftMargin + ((image.getWidth() / 100) * coord.x) + respBtn.getWidth() / 2 - getSideAnswerResponsePointerDimen() / 2);
+        arrowTable.setY(topMargin + (image.getHeight() / 100 * coord.y - respBtn.getHeight() / 2 + arrowTable.getHeight()));
 //        arrowTable.setVisible(false);
     }
 
     @Override
-    protected void setExactAnswerButtonPosition(Image image, Group group, MyButton button, Pair<Float, Float> coord) {
+    protected void setExactAnswerButtonPosition(Image image, Group group, MyButton button, ImageClickInfo coord) {
         float leftMargin = getQuestionImageLeftMarginWithExactAnswers(image, group.getWidth());
         float topMargin = getQuestionImageTopMargin(image, group.getHeight());
         button.setPosition(
-                leftMargin + (image.getWidth() / 100 * coord.getKey()),
-                topMargin + (image.getHeight() / 100 * coord.getValue()),
+                leftMargin + (image.getWidth() / 100 * coord.x),
+                topMargin + (image.getHeight() / 100 * coord.y),
                 Align.center);
     }
 

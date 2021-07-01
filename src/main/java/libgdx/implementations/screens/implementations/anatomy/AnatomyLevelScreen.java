@@ -32,6 +32,7 @@ import libgdx.screen.AbstractScreen;
 import libgdx.utils.ScreenDimensionsManager;
 import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
+import libgdx.utils.model.FontConfig;
 
 import java.util.*;
 
@@ -74,15 +75,20 @@ public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
         table.setFillParent(true);
         table.add(createAllTable()).expand();
         addActor(table);
-        backButton = new BackButtonBuilder().addHoverBackButton(this);
+        backButton = new BackButtonBuilder().addHoverBackButton(this, ScreenDimensionsManager.getScreenWidth(0.5f),
+                BackButtonBuilder.getY());
     }
 
     private Table createAllTable() {
         Table table = new Table();
 
+        float categFontScale = 1.25f;
         MyWrappedLabel title = new MyWrappedLabel(new MyWrappedLabelConfigBuilder()
-                .setFontScale(FontManager.getBigFontDim())
-                .setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(campaignLevelEnum.getIndex())).build());
+                .setFontConfig(new FontConfig(
+                        FontColor.BLACK.getColor(),
+                        FontConfig.FONT_SIZE * categFontScale))
+                .setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(campaignLevelEnum.getIndex()))
+                .build());
         Table titleTable = new Table();
         titleTable.add(title);
         titleTable.setBackground(GraphicUtils.getNinePatch(MainResource.popup_background));

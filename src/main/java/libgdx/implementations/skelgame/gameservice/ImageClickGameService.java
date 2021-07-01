@@ -1,20 +1,11 @@
 package libgdx.implementations.skelgame.gameservice;
 
-import org.apache.commons.lang3.tuple.MutablePair;
-import org.apache.commons.lang3.tuple.Pair;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
-import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.controls.button.MyButton;
 import libgdx.implementations.skelgame.question.Question;
 import libgdx.implementations.skelgame.question.QuestionParser;
+
+import java.util.*;
 
 public class ImageClickGameService extends GameService {
 
@@ -24,9 +15,9 @@ public class ImageClickGameService extends GameService {
         super(question);
     }
 
-    public Map<MyButton, Pair<Float, Float>> getAnswerOptionsCoordinates(List<MyButton> allAnswerOptionsButtons, QuestionDifficulty questionDifficultyLevel, QuizQuestionCategory questionCategory) {
+    public Map<MyButton, ImageClickInfo> getAnswerOptionsCoordinates(List<MyButton> allAnswerOptionsButtons, QuestionDifficulty questionDifficultyLevel, QuizQuestionCategory questionCategory) {
         List<Question> allQuestions = questionParser.getAllQuestions(questionDifficultyLevel, questionCategory);
-        Map<MyButton, Pair<Float, Float>> buttonWithCoordinates = new HashMap<>();
+        Map<MyButton, ImageClickInfo> buttonWithCoordinates = new HashMap<>();
         for (Question question : allQuestions) {
             for (MyButton button : allAnswerOptionsButtons) {
                 if (button.getText().toLowerCase().equals(questionParser.getAnswers(question.getQuestionString()).get(0).toLowerCase())) {
@@ -38,9 +29,15 @@ public class ImageClickGameService extends GameService {
         return buttonWithCoordinates;
     }
 
-    private Pair<Float, Float> getAnswerOptionCoordinates(String questionString) {
+    private ImageClickInfo getAnswerOptionCoordinates(String questionString) {
         String[] s = questionString.split(":")[4].split(",");
-        return new MutablePair<Float, Float>(Float.parseFloat(s[0]), Float.parseFloat(s[1]));
+        ImageClickInfo imageClickInfo = new ImageClickInfo();
+        imageClickInfo.x = Float.parseFloat(s[0]);
+        imageClickInfo.y = Float.parseFloat(s[1]);
+        if (s.length == 3) {
+            imageClickInfo.arrowWidth = Float.parseFloat(s[2]);
+        }
+        return imageClickInfo;
     }
 
 

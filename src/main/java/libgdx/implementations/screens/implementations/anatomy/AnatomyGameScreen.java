@@ -45,7 +45,8 @@ public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
             AnatomyLevelScreen.addScreenBackground(getRootCampaignLevelForValue(campaignLevel), this);
         }
         createAllTable();
-        backButton = new BackButtonBuilder().addHoverBackButton(this);
+        backButton = new BackButtonBuilder().addHoverBackButton(this, ScreenDimensionsManager.getScreenWidth(0.5f),
+                BackButtonBuilder.getY());
     }
 
     private void createAllTable() {

@@ -4,7 +4,7 @@ import libgdx.resources.dimen.MainDimen;
 
 public enum GameButtonSize implements libgdx.controls.button.ButtonSize {
 
-    ANATOMY_RESPONSE_ARROW(MainDimen.side_btn_image.getDimen() * 3f, MainDimen.side_btn_image.getDimen() / 1.4f),
+    ANATOMY_RESPONSE_ARROW(MainDimen.side_btn_image.getDimen() * 3f, MainDimen.side_btn_image.getDimen() / 3.4f),
     CAMPAIGN_LEVEL_ROUND_IMAGE(MainDimen.side_btn_image.getDimen() * 2f, MainDimen.side_btn_image.getDimen() * 2f),
     SQUARE_QUIZ_OPTION_ANSWER(GameDimen.width_btn_menu_normal.getDimen() / 1.1f, GameDimen.height_btn_menu_big.getDimen() * 1.5f),
     LONG_QUIZ_OPTION_ANSWER(GameDimen.width_btn_screen_size.getDimen(), GameDimen.height_btn_menu_big.getDimen() / 1.1f),
