@@ -37,9 +37,11 @@ public class QuizGameDependencyManager extends CampaignGameDependencyManager {
         }
         return text.toString();
     }
-
     @Override
     public String getExtraContentProductId() {
+        // Android
+//        return "extracontent.geoquiz";
+        //IOS
         return "extraContent";
     }
 
