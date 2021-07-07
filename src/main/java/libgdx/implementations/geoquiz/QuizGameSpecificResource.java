@@ -30,6 +30,8 @@ public enum QuizGameSpecificResource implements SpecificResource {
     btn_question_wrong("buttons/btn_question_wrong.png", Texture.class),
     btn_question_up("buttons/btn_question_up.png", Texture.class),
     btn_question_down("buttons/btn_question_down.png", Texture.class),
+    btn_question_exact_answer_up("buttons/btn_question_exact_answer_up.png", Texture.class),
+    btn_question_exact_answer_down("buttons/btn_question_exact_answer_down.png", Texture.class),
     btn_question_disabled("buttons/btn_question_disabled.png", Texture.class),
 
     specific_labels("labels/labels", I18NBundle.class),

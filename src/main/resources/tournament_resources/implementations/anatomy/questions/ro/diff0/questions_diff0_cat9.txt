@@ -3,5 +3,5 @@
 2::cristalin:1,4,6:19,51.3:9
 3::Retină:1,6,4:64.6,76.8:9
 4::Nervul optic:0,6,3:87.9,36.2:9
-5::camera anterioară:6,4,3:7.2,51.4:9
+5::Camera anterioară:6,4,3:7.2,51.4:9
 6::Umoare vitroasă:1,4,3:49.3,65:9

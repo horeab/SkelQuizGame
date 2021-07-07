@@ -7,6 +7,7 @@ import com.badlogic.gdx.utils.Align;
 import libgdx.controls.button.MyButton;
 import libgdx.game.Game;
 import libgdx.implementations.screens.GameScreen;
+import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.ImageClickInfo;
 import libgdx.implementations.skelgame.gameservice.ImageClickQuestionContainerCreatorService;
@@ -100,14 +101,27 @@ public class AnatomyImageQuestionContainerCreatorService extends ImageClickQuest
     }
 
     @Override
+    protected GameButtonSkin getAnswerButtonSkin() {
+        if (isSideAnswers(gameService.getQuestionImage())) {
+            return GameButtonSkin.ANSWER_IMAGE_CLICK;
+        } else {
+            return GameButtonSkin.ANSWER_IMAGE_EXACT_ANSWER_CLICK;
+        }
+    }
+
+    @Override
     protected void addQuestionImgTableToContainer(Image image) {
         Table questionImgTable;
-        if (image.getWidth() != image.getHeight()) {
+        if (isSideAnswers(image)) {
             questionImgTable = createGroupWithImageAndAnswerOptionsForSideAnswers(image);
         } else {
             questionImgTable = createGroupWithImageAndAnswerOptionsForExactAnswers(image);
         }
         questionContainer.add(questionImgTable)
                 .height(questionImgTable.getHeight()).width(questionImgTable.getWidth()).padBottom(0).center();
+    }
+
+    private boolean isSideAnswers(Image image) {
+        return image.getWidth() != image.getHeight();
     }
 }

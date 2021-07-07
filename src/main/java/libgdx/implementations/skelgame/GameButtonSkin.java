@@ -47,6 +47,7 @@ public enum GameButtonSkin implements libgdx.controls.button.ButtonSkin {
     SQUARE_WRONG(HangmanSpecificResource.btn_hangman_wrong, HangmanSpecificResource.btn_hangman_wrong, HangmanSpecificResource.btn_hangman_wrong, HangmanSpecificResource.btn_hangman_wrong, null),
 
     ANSWER_IMAGE_CLICK(QuizGameSpecificResource.btn_question_up, QuizGameSpecificResource.btn_question_down, QuizGameSpecificResource.btn_question_up, QuizGameSpecificResource.btn_question_disabled, null),
+    ANSWER_IMAGE_EXACT_ANSWER_CLICK(QuizGameSpecificResource.btn_question_exact_answer_up, QuizGameSpecificResource.btn_question_exact_answer_down, QuizGameSpecificResource.btn_question_exact_answer_up, QuizGameSpecificResource.btn_question_disabled, null),
     ANSWER_IMAGE_CLICK_CORRECT(QuizGameSpecificResource.btn_question_correct, QuizGameSpecificResource.btn_question_correct, QuizGameSpecificResource.btn_question_correct, QuizGameSpecificResource.btn_question_correct, FontColor.GREEN),
     ANSWER_IMAGE_CLICK_WRONG(QuizGameSpecificResource.btn_question_wrong, QuizGameSpecificResource.btn_question_wrong, QuizGameSpecificResource.btn_question_wrong, QuizGameSpecificResource.btn_question_wrong, FontColor.RED),
 

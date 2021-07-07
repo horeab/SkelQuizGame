@@ -88,7 +88,8 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
     protected Table createGroupWithImageAndAnswerOptionsForSideAnswers(Image image) {
         Question question = getGameQuestionInfo().getQuestion();
         Group grp = createInitialGroupAndAdjustImageForSideAnswers(image);
-        Map<MyButton, ImageClickInfo> buttonWithCoordinates = gameService.getAnswerOptionsCoordinates(new ArrayList<>(getAllAnswerButtons().values()), question.getQuestionDifficultyLevel(), question.getQuestionCategory());
+        Map<MyButton, ImageClickInfo> buttonWithCoordinates = gameService.getAnswerOptionsCoordinates(
+                new ArrayList<>(getAllAnswerButtons().values()), question.getQuestionDifficultyLevel(), question.getQuestionCategory());
         ////////////////////
         ////////////////////
         ////////////////////
@@ -224,9 +225,13 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
         return 2;
     }
 
+    protected GameButtonSkin getAnswerButtonSkin() {
+        return GameButtonSkin.ANSWER_IMAGE_CLICK;
+    }
+
     @Override
     protected MyButton createAnswerButton(final String answer) {
-        final MyButton button = new ImageButtonBuilder(GameButtonSkin.ANSWER_IMAGE_CLICK, Game.getInstance().getAbstractScreen())
+        final MyButton button = new ImageButtonBuilder(getAnswerButtonSkin(), Game.getInstance().getAbstractScreen())
                 .setFontColor(FontColor.BLACK)
                 .setText(StringUtils.capitalize(answer))
                 .setFixedButtonSize(GameButtonSize.IMAGE_CLICK_ANSWER_OPTION)
