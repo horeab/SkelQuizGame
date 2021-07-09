@@ -1,6 +1,6 @@
-What is found in the middle of the cell and contains DNA?
-What region within the cell is concerned with producing the ribosomes?
-What is a gelatinous liquid that fills the inside of a cell?
-What protects the cell from the external environment?
-What is a cell structure that produces protein?
-What converts chemical energy into an energy form that the cell can use?
+細胞の真ん中に何があり、DNAが含まれていますか？
+細胞内のどの領域がリボソームの生成に関係していますか？
+セルの内部を満たすゼラチン状の液体とは何ですか？
+細胞を外部環境から保護するものは何ですか？
+タンパク質を生成する細胞構造とは何ですか？
+化学エネルギーを細胞が使用できるエネルギー形態に変換するものは何ですか？
