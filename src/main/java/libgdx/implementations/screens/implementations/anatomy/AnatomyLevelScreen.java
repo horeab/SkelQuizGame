@@ -186,13 +186,17 @@ public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
 
 
     private MyButton createCategButton(AnatomyGameType anatomyGameType, final int totalNrOfQuestions) {
+        String text = anatomyGameType.getLevelName().getText();
+        float fontDim = Utils.containsWordWithLength(text, 13) ? FontManager.getSmallFontDim() : FontManager.getNormalFontDim();
+        fontDim = Utils.containsWordWithLength(text, 15) ? FontManager.calculateMultiplierStandardFontSize(0.85f) : fontDim;
+
         MyButton categBtn = new ImageButtonBuilder(anatomyGameType.getButtonSkin(), getAbstractScreen())
                 .textButtonWidth(GameButtonSize.ASTRONOMY_MENU_BUTTON.getWidth() * 1.4f)
                 .padBetweenImageAndText(1.3f)
-                .setFontScale(FontManager.getNormalFontDim())
+                .setFontScale(fontDim)
                 .setFontColor(FontColor.BLACK)
                 .setFixedButtonSize(GameButtonSize.ASTRONOMY_MENU_BUTTON)
-                .setText(anatomyGameType.getLevelName().getText())
+                .setText(text)
                 .build();
         categBtn.addListener(new ClickListener() {
             @Override

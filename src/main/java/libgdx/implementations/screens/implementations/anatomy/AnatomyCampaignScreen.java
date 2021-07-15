@@ -9,6 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.CampaignService;
 import libgdx.campaign.CampaignStoreLevel;
+import libgdx.constants.Language;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
@@ -76,10 +77,17 @@ public class AnatomyCampaignScreen extends AbstractScreen<AnatomyScreenManager> 
             final int finalIndex = i;
             AnatomyQuestionCategoryEnum categoryEnum = (AnatomyQuestionCategoryEnum) CampaignLevelEnumService.getCategoryEnum(new ArrayList<>(AnatomyLevelScreen.campaign0AllLevels.keySet()).get(i).getName());
             float btnWidth = ScreenDimensionsManager.getScreenWidth(50);
+            String btnText = new SpecificPropertiesUtils()
+                    .getQuestionCategoryLabel(categoryEnum.getIndex());
+
+            float btnFontDimen = Utils.containsWordWithLength(btnText, 11) ? FontManager.getNormalBigFontDim() : FontManager.getBigFontDim();
+            btnFontDimen = Utils.containsWordWithLength(btnText, 15) ? FontManager.getNormalFontDim() : btnFontDimen;
+
+
             MyButton categBtn = new ButtonBuilder()
                     .setWrappedText(
-                            new LabelImageConfigBuilder().setText(new SpecificPropertiesUtils().getQuestionCategoryLabel(categoryEnum.getIndex()))
-                                    .setFontScale(FontManager.getBigFontDim()).setWrappedLineLabel(btnWidth / 1.1f))
+                            new LabelImageConfigBuilder().setText(btnText)
+                                    .setFontScale(btnFontDimen).setWrappedLineLabel(btnWidth / 1.1f))
                     .setButtonSkin(GameButtonSkin.HANGMAN_CATEG).build();
             final int maxOpenedLevel = allCampaignLevelStores.size();
             if (i >= maxOpenedLevel) {
@@ -110,11 +118,11 @@ public class AnatomyCampaignScreen extends AbstractScreen<AnatomyScreenManager> 
             btnTable.add(imgTable).width(btnWidth);
             Table categBtnTable = new Table();
             categBtnTable.add(categBtn).height(levelBtnHeight).width(btnWidth);
-//            if (i >= (totalCat / 2) && !Utils.isValidExtraContent()) {
-//                categBtnTable = inAppPurchaseTable.create(categBtnTable,
-//                        Language.en.name(), "Unlock extra categories and remove Ads", btnWidth, levelBtnHeight);
-//                categBtn.setDisabled(true);
-//            }
+            if (i >= (totalCat / 2) && !Utils.isValidExtraContent()) {
+                categBtnTable = inAppPurchaseTable.create(categBtnTable,
+                        Language.en.name(), "Unlock extra categories and remove Ads", btnWidth, levelBtnHeight);
+                categBtn.setDisabled(true);
+            }
             btnTable.add(categBtnTable)
                     .pad(horizontalGeneralMarginDimen)
                     .height(levelBtnHeight)

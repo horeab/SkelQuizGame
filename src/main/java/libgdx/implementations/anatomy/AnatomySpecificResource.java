@@ -58,6 +58,7 @@ public enum AnatomySpecificResource implements SpecificResource {
 
     arrow_left("arrow_left.png", Texture.class),
     arrow_left_pointer("arrow_left_pointer.png", Texture.class),
+    unlock("unlock.png", Texture.class),
 
     title_background("title_background.png", Texture.class),
     star("star.png", Texture.class),

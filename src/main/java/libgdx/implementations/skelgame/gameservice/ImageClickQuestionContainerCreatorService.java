@@ -248,6 +248,9 @@ public class ImageClickQuestionContainerCreatorService extends QuestionContainer
             @Override
             public void changed(ChangeEvent event, Actor actor) {
                 button.toFront();
+                button.getCenterRow().toFront();
+                button.getParent().toFront();
+                button.getParent().getParent().toFront();
                 button.getCenterRow().setVisible(true);
             }
         });
