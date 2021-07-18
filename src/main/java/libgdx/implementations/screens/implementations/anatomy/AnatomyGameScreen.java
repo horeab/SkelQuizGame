@@ -82,7 +82,7 @@ public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
     }
 
     public static CampaignLevel getRootCampaignLevelForValue(CampaignLevel campaignLevel) {
-        for (Map.Entry<CampaignLevel, List<CampaignLevel>> e : AnatomyLevelScreen.campaign0AllLevels.entrySet()) {
+        for (Map.Entry<AnatomyCampaignLevelEnum, List<CampaignLevel>> e : AnatomyCampaignScreen.campaign0AllLevels.entrySet()) {
             if (e.getValue().contains(campaignLevel)) {
                 return e.getKey();
             }
@@ -142,6 +142,6 @@ public class AnatomyGameScreen extends GameScreen<AnatomyScreenManager> {
             new CampaignService().levelFinished(starsWon, campaignLevel);
 
         }
-        screenManager.showMainScreen();
+        screenManager.showLevelScreen((AnatomyCampaignLevelEnum) getRootCampaignLevelForValue(campaignLevel));
     }
 }

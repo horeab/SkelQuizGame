@@ -2,16 +2,12 @@ package libgdx.implementations.screens.implementations.anatomy;
 
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.ButtonSize;
-import libgdx.implementations.astronomy.AstronomySpecificResource;
 import libgdx.implementations.screens.GameScreen;
 import libgdx.implementations.skelgame.GameButtonSkin;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.QuizGameService;
 import libgdx.implementations.skelgame.gameservice.QuizQuestionContainerCreatorService;
-import libgdx.implementations.skelgame.question.GameQuestionInfo;
-import libgdx.implementations.skelgame.question.GameQuestionInfoStatus;
 import libgdx.resources.FontManager;
-import libgdx.utils.SoundUtils;
 import org.apache.commons.lang3.StringUtils;
 
 public class AnatomyQuestionContainerCreatorService extends QuizQuestionContainerCreatorService {
@@ -36,14 +32,6 @@ public class AnatomyQuestionContainerCreatorService extends QuizQuestionContaine
     protected void setContainerBackground() {
     }
 
-    @Override
-    protected void processAfterAnswerPressed(GameQuestionInfo gameQuestionInfo) {
-        if (gameQuestionInfo.getStatus() == GameQuestionInfoStatus.WON) {
-            SoundUtils.playSound(AstronomySpecificResource.level_success);
-        } else if (gameQuestionInfo.getStatus() == GameQuestionInfoStatus.LOST) {
-            SoundUtils.playSound(AstronomySpecificResource.level_fail);
-        }
-    }
 
     @Override
     protected QuizGameService getGameService(GameContext gameContext) {

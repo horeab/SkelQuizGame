@@ -62,6 +62,7 @@ public enum AnatomySpecificResource implements SpecificResource {
 
     title_background("title_background.png", Texture.class),
     star("star.png", Texture.class),
+    star_half("star_half.png", Texture.class),
     star_level("star_level.png", Texture.class),
     star_green("star_green.png", Texture.class),
     star_disabled("star_disabled.png", Texture.class),

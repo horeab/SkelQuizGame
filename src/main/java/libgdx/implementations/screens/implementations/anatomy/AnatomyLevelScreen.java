@@ -6,7 +6,6 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
-import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionConfig;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.button.builders.BackButtonBuilder;
@@ -15,14 +14,12 @@ import libgdx.controls.label.MyWrappedLabel;
 import libgdx.controls.label.MyWrappedLabelConfigBuilder;
 import libgdx.graphics.GraphicUtils;
 import libgdx.implementations.anatomy.AnatomyCampaignLevelEnum;
-import libgdx.implementations.anatomy.AnatomyQuestionDifficultyLevel;
 import libgdx.implementations.anatomy.AnatomySpecificResource;
 import libgdx.implementations.anatomy.spec.AnatomyGameType;
 import libgdx.implementations.anatomy.spec.AnatomyPreferencesManager;
 import libgdx.implementations.skelgame.GameButtonSize;
 import libgdx.implementations.skelgame.gameservice.GameContext;
 import libgdx.implementations.skelgame.gameservice.GameContextService;
-import libgdx.implementations.skelgame.gameservice.QuestionCreator;
 import libgdx.resources.FontManager;
 import libgdx.resources.MainResource;
 import libgdx.resources.Res;
@@ -34,34 +31,13 @@ import libgdx.utils.Utils;
 import libgdx.utils.model.FontColor;
 import libgdx.utils.model.FontConfig;
 
-import java.util.*;
-
-import static libgdx.implementations.anatomy.AnatomyCampaignLevelEnum.*;
-
 public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
 
     private AnatomyCampaignLevelEnum campaignLevelEnum;
     public static final int TOTAL_STARS_TO_DISPLAY = 3;
     private MyButton backButton;
-    public static Map<CampaignLevel, List<CampaignLevel>> campaign0AllLevels;
     private AnatomyPreferencesManager anatomyPreferencesManager = new AnatomyPreferencesManager();
 
-    static {
-        Map<CampaignLevel, List<CampaignLevel>> aMap = new LinkedHashMap<>();
-        aMap.put(LEVEL_0_0, Arrays.asList(LEVEL_0_0, LEVEL_0_12));
-        aMap.put(LEVEL_0_1, Arrays.asList(LEVEL_0_1, LEVEL_0_13));
-        aMap.put(LEVEL_0_2, Arrays.asList(LEVEL_0_2, LEVEL_0_14));
-        aMap.put(LEVEL_0_3, Arrays.asList(LEVEL_0_3, LEVEL_0_15));
-        aMap.put(LEVEL_0_4, Arrays.asList(LEVEL_0_4, LEVEL_0_16));
-        aMap.put(LEVEL_0_5, Arrays.asList(LEVEL_0_5, LEVEL_0_17));
-        aMap.put(LEVEL_0_6, Arrays.asList(LEVEL_0_6, LEVEL_0_18));
-        aMap.put(LEVEL_0_7, Arrays.asList(LEVEL_0_7, LEVEL_0_19));
-        aMap.put(LEVEL_0_8, Arrays.asList(LEVEL_0_8, LEVEL_0_20));
-        aMap.put(LEVEL_0_9, Arrays.asList(LEVEL_0_9, LEVEL_0_21));
-        aMap.put(LEVEL_0_10, Arrays.asList(LEVEL_0_10, LEVEL_0_22));
-        aMap.put(LEVEL_0_11, Arrays.asList(LEVEL_0_11, LEVEL_0_23));
-        campaign0AllLevels = Collections.unmodifiableMap(aMap);
-    }
 
     public AnatomyLevelScreen(AnatomyCampaignLevelEnum campaignLevelEnum) {
         this.campaignLevelEnum = campaignLevelEnum;
@@ -135,7 +111,7 @@ public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
     }
 
     private Table createLevelBtn(AnatomyGameType anatomyGameType) {
-        int totalNrOfQuestions = getTotalNrOfQuestions(anatomyGameType);
+        int totalNrOfQuestions = AnatomyCampaignScreen.nrOfQuestionsMap.get(campaignLevelEnum).getNrOfQuestions(anatomyGameType);
         MyButton btn = createCategButton(anatomyGameType, totalNrOfQuestions);
         Table btnTable = new Table();
         btnTable.add(createStarsTable(anatomyGameType, totalNrOfQuestions)).row();
@@ -144,7 +120,7 @@ public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
         return btnTable;
     }
 
-    private int getStarsBasedOnTotalLevels(int currentMaxLevels, int totalLevels) {
+    public static int getStarsBasedOnTotalLevels(int currentMaxLevels, int totalLevels) {
         if (currentMaxLevels >= totalLevels) {
             return TOTAL_STARS_TO_DISPLAY;
         } else if (currentMaxLevels * 2 >= totalLevels) {
@@ -157,7 +133,7 @@ public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
     }
 
     private Table createStarsTable(AnatomyGameType anatomyGameType, int totalNrOfQuestions) {
-        int levelStars = getLevelNrOfStars(anatomyGameType, totalNrOfQuestions);
+        int levelStars = getLevelNrOfStars(anatomyGameType, totalNrOfQuestions, campaignLevelEnum);
         Table table = new Table();
         float sideDimen = ScreenDimensionsManager.getScreenWidth(7);
         if (levelStars == TOTAL_STARS_TO_DISPLAY) {
@@ -169,9 +145,9 @@ public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
         return table;
     }
 
-    private int getLevelNrOfStars(AnatomyGameType anatomyGameType, int totalNrOfQuestions) {
+    private int getLevelNrOfStars(AnatomyGameType anatomyGameType, int totalNrOfQuestions, AnatomyCampaignLevelEnum campaignLevelEnum) {
         return getStarsBasedOnTotalLevels(anatomyPreferencesManager
-                .getLevelScore((AnatomyCampaignLevelEnum) getActualCampaignLevel(anatomyGameType)), totalNrOfQuestions);
+                .getLevelScore((AnatomyCampaignLevelEnum) AnatomyCampaignScreen.getActualCampaignLevel(anatomyGameType, campaignLevelEnum)), totalNrOfQuestions);
     }
 
     private void addStarToTable(int to, Table table, float sideDimen, Res res) {
@@ -201,7 +177,7 @@ public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
         categBtn.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                CampaignLevel campaignLevel = getActualCampaignLevel(anatomyGameType);
+                CampaignLevel campaignLevel = AnatomyCampaignScreen.getActualCampaignLevel(anatomyGameType, campaignLevelEnum);
                 CampaignLevelEnumService enumService = new CampaignLevelEnumService(campaignLevel);
                 QuestionConfig questionConfig = enumService.getQuestionConfig(totalNrOfQuestions);
                 GameContext gameContext = new GameContextService().createGameContext(questionConfig);
@@ -210,22 +186,6 @@ public class AnatomyLevelScreen extends AbstractScreen<AnatomyScreenManager> {
         });
 
         return categBtn;
-    }
-
-    private int getTotalNrOfQuestions(AnatomyGameType anatomyGameType) {
-        QuestionCategory categoryEnum = CampaignLevelEnumService.getCategoryEnum(getActualCampaignLevel(anatomyGameType).getName());
-        QuestionCreator questionCreator = new QuestionCreator(AnatomyQuestionDifficultyLevel._0,
-                categoryEnum);
-        return questionCreator.getAllQuestions(Collections.singletonList(AnatomyQuestionDifficultyLevel._0),
-                categoryEnum).size();
-    }
-
-    private CampaignLevel getActualCampaignLevel(AnatomyGameType anatomyGameType) {
-        int levelPosition = 0;
-        if (anatomyGameType == AnatomyGameType.GENERALK) {
-            levelPosition = 1;
-        }
-        return campaign0AllLevels.get(campaignLevelEnum).get(levelPosition);
     }
 
     @Override
