@@ -36,6 +36,9 @@ public class AnatomyDependencyManager extends CampaignGameDependencyManager {
 
     @Override
     public String getExtraContentProductId() {
+        // Android
+//        return "extracontent.anatomy";
+        //IOS
         return "extraContentAnatomy";
     }
 
