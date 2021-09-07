@@ -10,6 +10,7 @@ import libgdx.campaign.CampaignLevel;
 import libgdx.campaign.CampaignLevelEnumService;
 import libgdx.campaign.CampaignService;
 import libgdx.campaign.QuestionCategory;
+import libgdx.constants.Language;
 import libgdx.controls.button.ButtonBuilder;
 import libgdx.controls.button.MyButton;
 import libgdx.controls.label.MyWrappedLabel;
@@ -147,9 +148,9 @@ public class AnatomyCampaignScreen extends AbstractScreen<AnatomyScreenManager> 
 //            categBtnTable.add().row();
             categBtnTable.add(categBtn).height(levelBtnHeight).width(btnWidth);
             if (i >= (totalCat / 2) && !Utils.isValidExtraContent()) {
-//                categBtnTable = inAppPurchaseTable.create(categBtnTable,
-//                        Language.en.name(), "Unlock extra categories and remove Ads", btnWidth, levelBtnHeight);
-//                categBtn.setDisabled(true);
+                categBtnTable = inAppPurchaseTable.create(categBtnTable,
+                        Language.en.name(), "Unlock extra categories and remove Ads", btnWidth, levelBtnHeight);
+                categBtn.setDisabled(true);
             }
             btnTable.add(categBtnTable)
                     .pad(horizontalGeneralMarginDimen)
