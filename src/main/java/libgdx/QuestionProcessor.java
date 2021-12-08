@@ -18,8 +18,8 @@ class QuestionProcessor {
     public static void main(String[] args) {
 
         StringBuilder res = new StringBuilder();
-//        List<Language> languages = Arrays.asList(Language.en, Language.ro, Language.de);
-        List<Language> languages = Arrays.asList(Language.values());
+        List<Language> languages = Arrays.asList(Language.en);
+//        List<Language> languages = Arrays.asList(Language.values());
 
 
         for (Language language : languages) {
@@ -51,7 +51,6 @@ class QuestionProcessor {
 
                         reader.close();
                     } catch (IOException e) {
-                        e.printStackTrace();
                     }
                 }
             }

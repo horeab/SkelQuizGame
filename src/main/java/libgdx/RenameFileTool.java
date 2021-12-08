@@ -1,0 +1,55 @@
+package libgdx;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Objects;
+import java.util.Scanner;
+import java.util.stream.Collectors;
+
+class RenameFileTool {
+
+    public static void main(String[] args) throws IOException {
+        String pathname = "/Users/macbook/Documents/flutter_workspace/flutter_app_quiz_game/assets/implementations/history/questions/images/diff1/cat0";
+        File folder = new File(pathname);
+        new File(pathname + "/temp").mkdirs();
+        List<File> listOfFiles = Arrays.stream(Objects.requireNonNull(folder.listFiles()))
+                .filter(e->e.getName().contains(".png"))
+                .sorted(Comparator.comparing(File::getName))
+                .collect(Collectors.toList());
+        for (int i = 0; i < listOfFiles.size(); i++) {
+            if (listOfFiles.get(i).isFile()) {
+                String fileName = listOfFiles.get(i).getName();
+                int fileIndex = Integer.parseInt(fileName.substring(1).replace(".png", ""));
+                System.out.println(fileName);
+                File oldFile = new File(pathname + "/" + fileName);
+
+                File newFile = new File(pathname + "/temp/i" + i + ".png");
+
+                InputStream is = null;
+                OutputStream os = null;
+                try {
+                    is = new FileInputStream(oldFile);
+                    os = new FileOutputStream(newFile);
+                    byte[] buffer = new byte[1024];
+                    int length;
+                    while ((length = is.read(buffer)) > 0) {
+                        os.write(buffer, 0, length);
+                    }
+                } finally {
+                    is.close();
+                    os.close();
+                }
+
+            }
+        }
+    }
+}
