@@ -1,4 +1,4 @@
-package libgdx;
+package libgdx.xxutils;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -13,7 +13,7 @@ import libgdx.constants.Language;
 import libgdx.implementations.history.HistoryCategoryEnum;
 import libgdx.implementations.history.HistoryDifficultyLevel;
 
-class QuestionProcessor {
+class FlutterQuestionProcessor {
 
     public static void main(String[] args) {
 
@@ -21,6 +21,8 @@ class QuestionProcessor {
         List<Language> languages = Arrays.asList(Language.en);
 //        List<Language> languages = Arrays.asList(Language.values());
 
+
+        System.out.println("aaaa" + ":abc:".split(":")[0].isEmpty());
 
         for (Language language : languages) {
             res.append("add" + language.name().toUpperCase() + "(result, questionConfig);\n");

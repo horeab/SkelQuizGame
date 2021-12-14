@@ -1,4 +1,4 @@
-package libgdx;
+package libgdx.xxutils;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -18,12 +18,12 @@ import java.util.stream.Collectors;
 class RenameFileTool {
 
     public static void main(String[] args) throws IOException {
-        String pathname = "/Users/macbook/Documents/flutter_workspace/flutter_app_quiz_game/assets/implementations/history/questions/images/diff1/cat0";
+        String pathname = "/Users/macbook/Documents/flutter_workspace/flutter_app_quiz_game/assets/implementations/history/questions/images/diff3/cat0";
         File folder = new File(pathname);
         new File(pathname + "/temp").mkdirs();
         List<File> listOfFiles = Arrays.stream(Objects.requireNonNull(folder.listFiles()))
-                .filter(e->e.getName().contains(".png"))
-                .sorted(Comparator.comparing(File::getName))
+                .filter(e -> e.getName().contains(".png"))
+                .sorted(Comparator.comparing(e -> Integer.parseInt(e.getName().substring(1).replace(".png", ""))))
                 .collect(Collectors.toList());
         for (int i = 0; i < listOfFiles.size(); i++) {
             if (listOfFiles.get(i).isFile()) {
@@ -32,7 +32,7 @@ class RenameFileTool {
                 System.out.println(fileName);
                 File oldFile = new File(pathname + "/" + fileName);
 
-                File newFile = new File(pathname + "/temp/i" + i + ".png");
+                File newFile = new File(pathname + "/temp/i" + Math.abs(i - listOfFiles.size() + 1) + ".png");
 
                 InputStream is = null;
                 OutputStream os = null;

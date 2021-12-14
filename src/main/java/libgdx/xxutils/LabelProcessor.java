@@ -1,4 +1,4 @@
-package libgdx;
+package libgdx.xxutils;
 
 import com.google.gson.Gson;
 
@@ -26,7 +26,7 @@ class LabelProcessor {
 
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
 
-        Map<Pair<String, String>, String> labels = getLabelsForLanguage(gameIds, defaultLabels, Language.ro);
+        Map<Pair<String, String>, String> labels = getLabelsForLanguage(gameIds, defaultLabels, Language.en);
 
         if (labels.size() != defaultLabels.size()) {
             throw new RuntimeException("missing keys");
