@@ -32,7 +32,10 @@ class TranslateQuestionProcessor {
 
     public static void main(String[] args) throws IOException {
 
-        List<Language> languages = Arrays.asList(Language.ro);
+        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+        languages.remove(Language.ro);
+        languages.remove(Language.en);
+//        List<Language> languages = Arrays.asList(Language.ro);
         String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/history/questions/";
 
         Map<Pair<QuestionDifficulty, QuestionCategory>, Pair<Integer, Integer>> questionsConfigToMove = new HashMap<>();
@@ -78,8 +81,6 @@ class TranslateQuestionProcessor {
         qParsers.put(HistoryCategoryEnum.cat4, new DependentQuestionParser());
 
         for (Language lang : languages) {
-
-            translateCountry(Language.de, "Belgium");
 
             for (QuestionDifficulty diff : HistoryDifficultyLevel.values()) {
 
@@ -178,7 +179,7 @@ class TranslateQuestionProcessor {
         if (res == null) {
             nrOfTranslations++;
 //            res = text;
-            res = TranslateTool.translate(Language.en.toString(), translateTo.toString(), text);
+            res = TranslateTool.translate(Language.en.toString(), translateTo.toString(), text).trim();
             System.out.println("translated: " + text + " ___to___ " + res + " ----- as nr " + nrOfTranslations);
         }
         return res;

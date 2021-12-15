@@ -17,12 +17,15 @@ class FlutterQuestionProcessor {
 
     public static void main(String[] args) {
 
+        ///
+        boolean fromTemp = true;
+        ///
+
+        String tempDir = "aaatemp/";
         StringBuilder res = new StringBuilder();
-        List<Language> languages = Arrays.asList(Language.en);
-//        List<Language> languages = Arrays.asList(Language.values());
+//        List<Language> languages = Arrays.asList(Language.en, Language.ro);
+        List<Language> languages = Arrays.asList(Language.values());
 
-
-        System.out.println("aaaa" + ":abc:".split(":")[0].isEmpty());
 
         for (Language language : languages) {
             res.append("add" + language.name().toUpperCase() + "(result, questionConfig);\n");
@@ -36,7 +39,7 @@ class FlutterQuestionProcessor {
             for (QuestionDifficulty diff : HistoryDifficultyLevel.values()) {
                 for (QuestionCategory category : HistoryCategoryEnum.values()) {
                     String qPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/history/questions/"
-                            + language + "/diff" + diff.getIndex() + "/questions_diff" + diff.getIndex() +
+                            + (fromTemp ? tempDir : "") + language + "/diff" + diff.getIndex() + "/questions_diff" + diff.getIndex() +
                             "_cat" + category.getIndex() + ".txt";
 
                     BufferedReader reader;

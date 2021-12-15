@@ -1,12 +1,17 @@
 package libgdx.xxutils;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
 
 import org.apache.commons.lang3.tuple.MutablePair;
 import org.apache.commons.lang3.tuple.Pair;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,29 +19,60 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.stream.Collectors;
 
 import libgdx.constants.Language;
 import libgdx.implementations.skelgame.GameIdEnum;
 
 class LabelProcessor {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         List<GameIdEnum> gameIds = Arrays.asList(GameIdEnum.history);
 
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
 
-        Map<Pair<String, String>, String> labels = getLabelsForLanguage(gameIds, defaultLabels, Language.en);
+        //
+        ////
+        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+//        List<Language> languages = Arrays.asList(Language.en);
+        ////
+        //
 
-        if (labels.size() != defaultLabels.size()) {
-            throw new RuntimeException("missing keys");
-        }
+        for (Language translateTo : languages) {
+            Map<Pair<String, String>, String> labels = getLabelsForLanguage(gameIds, defaultLabels, translateTo);
 
-        Map<String, String> labelsWithKeys = new TreeMap<>();
-        for (Map.Entry<Pair<String, String>, String> e : labels.entrySet()) {
-            labelsWithKeys.put(e.getKey().getRight(), e.getValue());
+            List<String> missingKeys = defaultLabels.keySet().stream().map(Pair::getRight)
+                    .collect(Collectors.toList());
+            missingKeys.removeAll(
+                    labels.keySet().stream().map(Pair::getRight).collect(Collectors.toList()));
+            if (!missingKeys.isEmpty()) {
+                System.out.println();
+                missingKeys.forEach(System.out::println);
+                System.out.println();
+                throw new RuntimeException("missing keys for lang " + translateTo);
+            }
+
+            Map<String, String> labelsWithKeys = new TreeMap<>();
+            for (Map.Entry<Pair<String, String>, String> e : labels.entrySet()) {
+                labelsWithKeys.put(e.getKey().getRight(), e.getValue());
+            }
+            System.out.println(new Gson().toJson(labelsWithKeys));
+            writeToFile(new Gson().toJson(labelsWithKeys), translateTo);
         }
-        System.out.println(new Gson().toJson(labelsWithKeys));
+    }
+
+    public static void writeToFile(String json, Language language) throws IOException {
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        JsonParser jp = new JsonParser();
+        JsonElement je = jp.parse(json);
+        String prettyJsonString = gson.toJson(je);
+
+        File myObj = new File("/Users/macbook/IdeaProjects/SkelQuizGame/src/main/java/libgdx/xxutils/labels/app_" + language + ".arb");
+        myObj.createNewFile();
+        FileWriter myWriter = new FileWriter(myObj);
+        myWriter.write(prettyJsonString);
+        myWriter.close();
     }
 
     private static Map<Pair<String, String>, String> getLabelsForLanguage(List<GameIdEnum> gameIds, Map<Pair<String, String>, String> defaultLabels, Language lang) {

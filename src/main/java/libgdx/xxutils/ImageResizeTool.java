@@ -1,16 +1,12 @@
 package libgdx.xxutils;
 
-import com.badlogic.gdx.scenes.scene2d.ui.Image;
-
 import org.imgscalr.Scalr;
 
-import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
@@ -38,6 +34,7 @@ class ImageResizeTool {
                     continue;
                 }
                 String pathname = rootPath + "diff" + diff.getIndex() + "/cat" + category.getIndex();
+                deleteTemp(pathname);
                 new File(MACBOOK_ROOT_PATH + pathname + "/temp").mkdirs();
                 File folder = new File("/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources" + pathname);
                 List<File> listOfFiles = Arrays.stream(Objects.requireNonNull(folder.listFiles()))
@@ -54,6 +51,12 @@ class ImageResizeTool {
         }
     }
 
+    private static void deleteTemp(String pathname) {
+        File folder = new File(MACBOOK_ROOT_PATH + pathname + "/temp");
+        Arrays.stream(Objects.requireNonNull(folder.listFiles())).forEach(File::delete);
+        folder.delete();
+    }
+
     private static void resize(String imgName, String pathName) throws IOException {
         ImageLoadSaveService imageLoadSaveService = new ImageLoadSaveService();
         BufferedImage image = imageLoadSaveService.load(pathName + "/" + imgName);
@@ -62,7 +65,8 @@ class ImageResizeTool {
         }
         BufferedImage resizedImage = Scalr.resize(image, Scalr.Mode.FIT_EXACT, getWidth(image), getHeight(image));
 
-        imageLoadSaveService.save(resizedImage, pathName + "/temp/" + imgName.split("\\.")[0] + ".png");
+        String ext = "jpeg";
+        imageLoadSaveService.save(resizedImage, pathName + "/temp/" + imgName.split("\\.")[0] + "." + ext, ext);
     }
 
     static int getWidth(BufferedImage image) {
@@ -113,9 +117,9 @@ class ImageResizeTool {
             return i;
         }
 
-        void save(BufferedImage image, String name) throws IOException {
+        void save(BufferedImage image, String name, String ext) throws IOException {
             try {
-                ImageIO.write(image, "png", new FileOutputStream(MACBOOK_ROOT_PATH + name));
+                ImageIO.write(image, ext, new FileOutputStream(MACBOOK_ROOT_PATH + name));
             } catch (Exception ignored) {
                 throw ignored;
             }
