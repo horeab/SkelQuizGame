@@ -1,0 +1,10 @@
+Akkadin valtakunta:-2300,-2200
+Babylonia:-1900,-1600
+Muinainen Egypti:-1550,-1077
+Assyria:-2025,-609
+Juudan kuningaskunta:-1050,-586
+Achaemenid-valtakunta:-550,-330
+Maurya-valtakunta:-322,-184
+Karthagonin imperiumi:-814,-146
+Seleucid-imperiumi:-312,-63
+Han-dynastia:-202,220

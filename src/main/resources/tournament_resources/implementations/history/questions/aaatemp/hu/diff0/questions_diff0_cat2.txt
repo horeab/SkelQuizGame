@@ -1,0 +1,10 @@
+Waterloo-i csata:Belgium:2,3,5:0
+Gettysburgi csata:Egyesült Államok:5,6,7:0
+Sztálingrád ostroma:Oroszország:6,8,9:0
+Normandia inváziója:Franciaország:5,6,8:0
+Az okinavai csata:Japán:1,8,9:0
+A bécsi csata:Ausztria:6,0,3:0
+A berlini fal leomlása:Németország:0,5,3:0
+Versailles-i békeszerződés:Franciaország:1,0,5:0
+Ferenc Ferdinánd főherceg meggyilkolása:Bosznia és Hercegovina:1,5,6:0
+csernobili katasztrófa:Ukrajna:1,2,8:0

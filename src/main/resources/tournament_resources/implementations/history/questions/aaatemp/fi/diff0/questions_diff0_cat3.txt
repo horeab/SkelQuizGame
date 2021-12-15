@@ -1,0 +1,11 @@
+Mikä maa pääsi ensimmäisenä etelänavalle?::Norja##Yhdistynyt kuningaskunta##Tanska##Venäjä::0
+Millä Euroopan maalla oli historian suurin imperiumi?::Venäjä##Yhdistynyt kuningaskunta##Italia##Espanja::1
+Mikä näistä Afrikan maista oli Saksan hallinnassa?::Benin##Angola##Djibouti##Tansania::3
+Kuka oli Venäjän ensimmäinen tsaari?::Tsaari Nikolai I##Tsaari Aleksanteri II##Tsaari Ivan Julma##Tsaari Paavali I::2
+Mikä oli taistelu, joka päätti Napoleonin sodat?::Wienin taistelu##Valmyn taistelu##Verdunin taistelu##Waterloon taistelu::3
+Mikä näistä maista oli osa Neuvostoliittoa?::slovakia##Mongolia##Afganistan##azerbaijan::3
+Mikä näistä maista ei ole koskaan ollut Yhdistyneen kuningaskunnan hallinnassa?::Pakistan##Afganistan##Nigeria##Jordania::1
+Mitä Euroopan maata syytettiin ensimmäisestä maailmansodasta?::Venäjä##Yhdistynyt kuningaskunta##Saksa::2
+Mikä maa oli neutraali toisen maailmansodan alussa?::Ranska##Yhdysvallat##Saksa##Puola::1
+Kuka afrikkalainen apartheidin vastainen johtaja vapautettiin vankilasta vuonna 1990 yli 27 vuoden jälkeen?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
+Kuka Yhdysvaltain presidentistä valittiin virkaan neljä kertaa?::George Washington##Gerald Ford##Franklin D Roosevelt##Abraham Lincoln::2

@@ -1,0 +1,6 @@
+Mikä oli muinaisen Egyptin ensimmäinen pääkaupunki?::Memphis##Thebes##Aleksandria##Baltimore::0
+Millä saarella antiikin kreikkalainen sivilisaatio syntyi?::Samos##Kreeta##Olympia##Rodos::1
+Kuinka monta muinaisen maailman seitsemästä ihmeestä on vielä olemassa?::3##2##1##0::2
+Kenen ansioksi luetaan ensimmäisen tunnetun maailman kartan tekeminen?::Archimedes##Anaksimander##Euclid##Kristoffer Kolumbus::1
+Mitä kutsutaan muinaisessa Roomassa konsulin oikeudeksi hylätä toistensa päätökset?::Verottaa##Veto##Valvoa##Vahvista::1
+Kuinka vanha Kiinan muuri suunnilleen on?::1000 vuotta##2000 vuotta##3000 vuotta##5000 vuotta::2

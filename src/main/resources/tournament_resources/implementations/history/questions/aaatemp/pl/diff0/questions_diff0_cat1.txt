@@ -1,0 +1,15 @@
+Wielcy Mogołowie:1526,1758
+Dynastia Qing:1644,1912
+Imperium Rosyjskie:1721,1917
+Cesarstwo austro-węgierskie:1867,1918
+Cesarstwo Niemieckie:1871,1918
+Imperium Osmańskie:1299,1922
+Cesarstwo Japonii:1868,1947
+Imperium hiszpańskie:1402,1975
+Cesarstwo francuskie:1534,1980
+Związek Radziecki:1922,1991
+Imperium brytyjskie:1603,1997
+Imperium portugalskie:1415,1999
+Stany Zjednoczone:1776,x
+Chiny:1949,x
+Unia Europejska:1993,x

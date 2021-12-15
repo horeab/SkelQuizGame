@@ -1,0 +1,11 @@
+¿Qué país fue el primero en llegar al polo sur?::Noruega##Reino Unido##Dinamarca##Rusia::0
+¿Qué país europeo tuvo el imperio más grande de la historia?::Rusia##Reino Unido##Italia##España::1
+¿Cuál de estos países africanos estaba controlado por Alemania?::Benin##Angola##Djibouti##Tanzania::3
+¿Quién fue el primer zar de Rusia?::Zar Nicolás I##Zar Alejandro II##Zar Iván el Terrible##Zar Pablo I::2
+¿Cuál fue la batalla que puso fin a las guerras napoleónicas?::Batalla de Viena##Batalla de Valmy##Batalla de Verdun##Batalla de Waterloo::3
+¿Cuál de estos países formaba parte de la URSS?::Eslovaquia##Mongolia##Afganistán##Azerbaiyán::3
+¿Cuál de estos países nunca estuvo controlado por el Reino Unido?::Pakistán##Afganistán##Nigeria##Jordán::1
+¿A qué país europeo se culpó de la Primera Guerra Mundial?::Rusia##Reino Unido##Alemania::2
+¿Qué país era neutral al comienzo de la Segunda Guerra Mundial?::Francia##Estados Unidos##Alemania##Polonia::1
+¿Qué líder africano anti-apartheid salió de la cárcel en 1990, después de más de 27 años?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
+¿Qué presidente de los Estados Unidos fue elegido para el cargo cuatro veces?::George Washington##Gerald Ford##Franklin D. Roosevelt##Abraham Lincoln::2

@@ -1,0 +1,10 @@
+Bitwa pod Waterloo:Belgia:2,3,5:0
+Bitwa pod Gettysburgiem:Stany Zjednoczone:5,6,7:0
+Oblężenie Stalingradu:Rosja:6,8,9:0
+Inwazja Normandii:Francja:5,6,8:0
+Bitwa pod Okinawą:Japonia:1,8,9:0
+Bitwa pod Wiedniem:Austria:6,0,3:0
+Upadek muru berlińskiego:Niemcy:0,5,3:0
+Traktat wersalski:Francja:1,0,5:0
+Zabójstwo arcyksięcia Franciszka Ferdynanda:Bośnia i Hercegowina:1,5,6:0
+Katastrofa w Czarnobylu:Ukraina:1,2,8:0

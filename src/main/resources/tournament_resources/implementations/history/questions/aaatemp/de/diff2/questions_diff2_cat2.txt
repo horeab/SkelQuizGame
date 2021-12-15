@@ -1,0 +1,7 @@
+Schlacht von Marathon:Griechenland::0
+Schlacht von Zama:Tunesien::0
+Schlacht von Gaugamela:Irak::0
+Pyramiden von Gizeh:Ägypten::1
+Petra:Jordanien::1
+Pompeji:Italien::1
+Bibliothek von Alexandria:Ägypten::1

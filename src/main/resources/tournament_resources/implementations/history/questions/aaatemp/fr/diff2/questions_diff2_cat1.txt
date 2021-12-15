@@ -1,0 +1,10 @@
+Empire d'Akkad:-2300,-2200
+Empire babylonien:-1900,-1600
+Empire égyptien:-1550,-1077
+Assyrie:-2025,-609
+Royaume d'Israël:-1050,-586
+Empire achéménide:-550,-330
+Empire maurya:-322,-184
+Empire carthaginois:-814,-146
+Empire séleucide:-312,-63
+Dynastie des Han:-202,220

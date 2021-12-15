@@ -1,0 +1,7 @@
+Oblężenie Orleanu:Francja:1,2,6:0
+Upadek Konstantynopola:Turcja:0,2,7:0
+Bitwa pod Hastings:Zjednoczone Królestwo:0,1,5:0
+Machu Picchu:Peru:4,5,6:1
+Bagan:Myanmar:3,5,7:1
+Angkor:Kambodża:3,4,6:1
+Taj Mahal:Indie:4,5,7:1

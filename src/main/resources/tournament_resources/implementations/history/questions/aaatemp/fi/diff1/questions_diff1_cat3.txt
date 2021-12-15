@@ -1,0 +1,7 @@
+Minkä kaupungin ensimmäisen ristiretken tarkoitus oli valloittaa?::Jerusalem##Kairo##Mekka##Rooma::0
+Mitä Magna Carta saavutti?::se rajoitti herrojen valtaa##se rajoitti ritarien valtaa##se lisäsi talonpoikien ja maaorjien valtaa##se rajoitti monarkin valtaa::3
+Miten Bubonic Rutto levisi?::Huono vesi##Kirput rotista##Saastunut ilma##Tulivuoren tuhka::1
+Tämä kaupunki oli Euroopan ja Lähi-idän risteyksessä::Kairo##Konstantinopoli##Pariisi##Moskova::1
+Mikä oli ristiretkien syy?::Vapauttaakseen pyhän maan Jerusalemin muslimeista##Talonpoikien kapina##Musta kuolema leviää Euroopassa##Kauppasodat Silkkitien varrella::0
+Muslimien uskonnon pyhä profeetta?::Jeesus Kristus##Buddha##Muhammed::2
+Keskiajan yhteiskuntarakenne::Kastijärjestelmä##Feodalismi##Manorismi::1

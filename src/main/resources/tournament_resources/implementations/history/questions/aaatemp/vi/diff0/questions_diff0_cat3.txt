@@ -1,0 +1,11 @@
+Nước nào đầu tiên đến cực nam?::Na Uy##Vương quốc Anh##Đan mạch##Nga::0
+Quốc gia Châu Âu nào có đế chế lớn nhất trong lịch sử?::Nga##Vương quốc Anh##Nước Ý##Tây Ban Nha::1
+Đức nào trong số các quốc gia châu Phi này do Đức kiểm soát?::Bénin##Ăng-gô##Djibouti##Tanzania::3
+Sa hoàng đầu tiên của Nga là ai?::Sa hoàng Nicholas I##Sa hoàng Alexander II##Sa hoàng Ivan Bạo chúa##Sa hoàng Paul I::2
+Trận chiến kết thúc Chiến tranh Napoléon là gì?::Trận chiến Vienna##Trận chiến của Valmy##Trận Verdun##Trận Waterloo::3
+Quốc gia nào sau đây là một phần của Liên Xô?::Slovakia##Mông Cổ##Afghanistan##Ailen::3
+Quốc gia nào trong số những quốc gia này chưa từng bị Vương quốc Anh kiểm soát?::Pakistan##Afghanistan##Nigeria##Jordan::1
+Quốc gia châu Âu nào bị đổ lỗi cho Thế chiến 1?::Nga##Vương quốc Anh##nước Đức::2
+Nước nào trung lập vào đầu Thế chiến 2?::Pháp##Hoa Kỳ##nước Đức##Ba Lan::1
+Nhà lãnh đạo chống chủ nghĩa phân biệt chủng tộc Châu Phi nào đã được ra tù vào năm 1990, sau hơn 27 năm?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
+Tổng thống Mỹ nào đã được bầu vào chức vụ bốn lần?::George Washington##Gerald Ford##Franklin D Roosevelt##Abraham Lincoln::2

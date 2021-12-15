@@ -1,0 +1,7 @@
+Cieľom prvej križiackej výpravy bolo dobyť ktoré mesto?::Jeruzalem##Káhira##Mekka##Rím::0
+Čo dokázala Magna Charta?::obmedzovala moc vrchnosti##obmedzovala moc rytierov##zvýšila moc roľníkov a nevoľníkov##obmedzovala moc panovníka::3
+Ako sa šíril bubonický mor?::Zlá voda##Blchy z potkanov##Znečistený vzduch##Sopečný popol::1
+Toto mesto bolo na križovatke medzi Európou a Blízkym východom::Káhira##Konštantínopol##Paríž##Moskva::1
+Čo bolo príčinou križiackych výprav?::Oslobodiť Svätú zem Jeruzalem od moslimov##Vzbura roľníkov##Čierna smrť sa šíri Európou##Obchodné vojny pozdĺž Hodvábnej cesty::0
+Svätý prorok moslimského náboženstva?::Ježiš Kristus##Budha##Mohamed::2
+Sociálna štruktúra stredoveku::Kastový systém##feudalizmus##Manorizmus::1

@@ -1,0 +1,5 @@
+Koja je životinja iz kamenog doba sada izumrla?::gepard##Mamut##antilopa##Mravojed::1
+Koja je faza došla prije kamenog doba?::Doba blata##Doba dinosaura##Ledeno doba##Veliki prasak::2
+Što je hominid?::alat##rani predak ljudi##zbirka drevnih kostiju##udica za ribu::1
+S kojeg su kontinenta ljudi migrirali diljem svijeta?::Afrika##Azija##Australija##Europa::0
+Što od sljedećeg definira Homo erectusa?::misleći čovjek##modernog čovjeka##mudar čovjek##uspravan čovjek::3

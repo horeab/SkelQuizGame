@@ -1,0 +1,10 @@
+Akad İmparatorluğu:-2300,-2200
+Babil İmparatorluğu:-1900,-1600
+Mısır İmparatorluğu:-1550,-1077
+Asur:-2025,-609
+Yahuda Krallığı:-1050,-586
+Ahameniş İmparatorluğu:-550,-330
+Maurya İmparatorluğu:-322,-184
+Kartaca İmparatorluğu:-814,-146
+Selevkos İmparatorluğu:-312,-63
+Han Hanedanı:-202,220

@@ -1,0 +1,7 @@
+Pertempuran Marathon:Yunani::0
+Pertempuran Zama:Tunisia::0
+Pertempuran Gaugamela:Irak::0
+Piramida Giza:Mesir::1
+petra:Yordania::1
+Pompeii:Italia::1
+Perpustakaan Alexandria:Mesir::1

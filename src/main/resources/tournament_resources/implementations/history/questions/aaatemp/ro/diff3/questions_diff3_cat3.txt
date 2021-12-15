@@ -1,0 +1,5 @@
+Ce animal din epoca de piatră a dispărut acum?::ghepard##mamut##antilope##Furnic::1
+Ce etapă a venit înainte de epoca de piatră?::Epoca noroiului##Epoca dinozaurilor##Epoca de gheata##Big Bang-ul::2
+Ce este un hominid?::o unealta##un strămoș timpuriu al oamenilor ##o colecție de oase antice ##un cârlig::1
+Oamenii au migrat în jurul lumii de pe ce continent?::Africa##Asia##Australia ##Europa::0
+Care dintre următoarele definește Homo erectus?::om gânditor##omul modern##om înțelept##om drept::3

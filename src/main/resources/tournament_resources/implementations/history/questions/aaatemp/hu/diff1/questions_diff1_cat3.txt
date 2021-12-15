@@ -1,0 +1,7 @@
+Melyik város elfoglalása volt az első keresztes hadjárat tervezett célja?::Jeruzsálem##Kairó##Mekka##Róma::0
+Mit ért el a Magna Carta?::korlátozta az urak hatalmát##korlátozta a lovagok hatalmát##növelte a parasztok és jobbágyok hatalmát##korlátozta az uralkodó hatalmát::3
+Hogyan terjedt el a bubópestis?::Rossz víz##Bolhák patkányoktól##Szennyezett levegő##Vulkán hamu::1
+Ez a város Európa és a Közel-Kelet válaszútján volt::Kairó##Konstantinápoly##Párizs##Moszkva::1
+Mi volt a keresztes hadjáratok oka?::Megszabadítani a szent földet, Jeruzsálemet a muszlimoktól##Parasztlázadás##A fekete halál terjed Európára##Kereskedelmi háborúk a Selyemút mentén::0
+A muszlim vallás szent prófétája?::Jézus Krisztus##Buddha##Mohamed::2
+A középkor társadalmi szerkezete::Kaszt rendszer##Feudalizmus##Manorizmus::1

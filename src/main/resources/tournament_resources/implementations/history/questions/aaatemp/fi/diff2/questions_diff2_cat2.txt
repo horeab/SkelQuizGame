@@ -1,0 +1,7 @@
+Marathonin taistelu:Kreikka::0
+Zaman taistelu:Tunisia::0
+Gaugamelan taistelu:Irak::0
+Gizan pyramidit:Egypti::1
+Petra:Jordania::1
+Pompeji:Italia::1
+Aleksandrian kirjasto:Egypti::1

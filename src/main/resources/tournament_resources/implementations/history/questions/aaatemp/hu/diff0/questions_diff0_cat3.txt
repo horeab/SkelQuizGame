@@ -1,0 +1,11 @@
+Melyik ország érte el először a déli sarkot?::Norvégia##Egyesült Királyság##Dánia##Oroszország::0
+Melyik európai országnak volt a történelem legnagyobb birodalma?::Oroszország##Egyesült Királyság##Olaszország##Spanyolország::1
+Az afrikai országok közül melyiket irányította Németország?::Benin##Angola##Dzsibuti##Tanzánia::3
+Ki volt Oroszország első cárja?::I. Miklós cár##Sándor cár II##Rettegett Iván cár##I. Pál cár::2
+Mi volt az a csata, amely véget vetett a napóleoni háborúknak?::Bécsi csata##Valmy-i csata##Verduni csata##Waterloo-i csata::3
+Melyik ország volt a Szovjetunió része?::Szlovákia##Mongólia##Afganisztán##Azerbajdzsán::3
+Melyik ország volt soha az Egyesült Királyság ellenőrzése alatt?::Pakisztán##Afganisztán##Nigéria##Jordánia::1
+Melyik európai országot okolták az első világháborúért?::Oroszország##Egyesült Királyság##Németország::2
+Melyik ország volt semleges a második világháború elején?::Franciaország##Egyesült Államok##Németország##Lengyelország::1
+Melyik afrikai apartheidellenes vezetőt engedték ki a börtönből 1990-ben, több mint 27 év után?::Idi Amin##Nelson Mandela##Ferdinánd Marcos##Joseph Atkinson::1
+Melyik amerikai elnököt választották meg négyszer?::George Washington##Gerald Ford##Franklin D Roosevelt##Abraham Lincoln::2

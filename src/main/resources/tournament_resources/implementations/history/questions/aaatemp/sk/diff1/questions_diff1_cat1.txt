@@ -1,0 +1,9 @@
+Novoperzská ríša:224,651
+Dynastia Tchang:618,907
+Abbásid Kalifát:750,1258
+Pagansko kraljevstvo:849,1297
+Mongolská ríša:1206,1368
+Khmérska ríša:802,1431
+Rímska ríša:-27,1453
+Byzantská ríša:395,1453
+Inkská ríša:1438,1533

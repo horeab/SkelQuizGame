@@ -1,0 +1,5 @@
+Které zvíře z doby kamenné je nyní vyhynulé?::Gepard##mamut##antilopa##Mravenečník::1
+Jaká etapa přišla před dobou kamennou?::Bahenní věk##Dinosauří věk##Doba ledová##Velký třesk::2
+Co je to hominid?::nástroj##raný předek lidí##sbírka starověkých kostí##rybí háček::1
+Z jakého kontinentu lidé migrovali po celém světě?::Afrika##Asie##Austrálie##Evropa::0
+Která z následujících možností definuje Homo erectus?::myslící člověk##moderní muž##moudrý muž##vzpřímený muž::3

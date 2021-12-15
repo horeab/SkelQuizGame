@@ -1,0 +1,11 @@
+Który kraj jako pierwszy dotarł do bieguna południowego?::Norwegia##Zjednoczone Królestwo##Dania##Rosja::0
+Który kraj europejski miał największe imperium w historii?::Rosja##Zjednoczone Królestwo##Włochy##Hiszpania::1
+Który z tych krajów afrykańskich był kontrolowany przez Niemcy?::Benin##Angola##Dżibuti##Tanzania::3
+Kto był pierwszym carem Rosji?::Car Mikołaj I##car Aleksander II##Car Iwan Groźny##Car Paweł I::2
+Jaka była bitwa, która zakończyła wojny napoleońskie?::Bitwa pod Wiedniem##Bitwa pod Valmy##Bitwa pod Verdun##Bitwa pod Waterloo::3
+Który z tych krajów był częścią ZSRR?::Słowacja##Mongolia##Afganistan##Azerbejdżan::3
+Który z tych krajów nigdy nie był kontrolowany przez Wielką Brytanię?::Pakistan##Afganistan##Nigeria##Jordania::1
+Jaki kraj europejski został obwiniony za I wojnę światową?::Rosja##Zjednoczone Królestwo##Niemcy::2
+Który kraj był neutralny na początku II wojny światowej?::Francja##Stany Zjednoczone##Niemcy##Polska::1
+Który afrykański przywódca walczący z apartheidem został zwolniony z więzienia w 1990 roku, po ponad 27 latach?::Idi Amin##Nelson Mandela##Ferdynand Marcos##Joseph Atkinson::1
+Który prezydent USA został wybrany na urząd cztery razy?::Jerzy Waszyngton##Geralda Forda##Franklin D. Roosevelt##Abraham Lincoln::2

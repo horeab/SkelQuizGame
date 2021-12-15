@@ -1,0 +1,10 @@
+Bitka kod Waterlooa:Belgija:2,3,5:0
+Bitka kod Gettysburga:Sjedinjene Američke Države:5,6,7:0
+Opsada Staljingrada:Rusija:6,8,9:0
+Invazija na Normandiju:Francuska:5,6,8:0
+Bitka za Okinawu:Japan:1,8,9:0
+Bitka kod Beča:Austrija:6,0,3:0
+Pad Berlinskog zida:Njemačka:0,5,3:0
+Versajski ugovor:Francuska:1,0,5:0
+Ubojstvo nadvojvode Franje Ferdinanda:Bosna i Hercegovina:1,5,6:0
+Černobilska katastrofa:Ukrajina:1,2,8:0

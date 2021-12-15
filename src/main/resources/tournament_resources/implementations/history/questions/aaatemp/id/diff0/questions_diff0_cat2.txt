@@ -1,0 +1,10 @@
+Pertempuran Waterloo:Belgium:2,3,5:0
+Pertempuran Gettysburg:Amerika Serikat:5,6,7:0
+Pengepungan Stalingrad:Rusia:6,8,9:0
+Invasi Normandia:Perancis:5,6,8:0
+Pertempuran Okinawa:Jepang:1,8,9:0
+Pertempuran Wina:Austria:6,0,3:0
+Runtuhnya Tembok Berlin:Jerman:0,5,3:0
+Perjanjian Versailles:Perancis:1,0,5:0
+Pembunuhan Archduke Franz Ferdinand:Bosnia dan Herzegovina:1,5,6:0
+bencana Chernobyl:Ukraina:1,2,8:0

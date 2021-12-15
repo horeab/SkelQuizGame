@@ -1,0 +1,10 @@
+Akadsko Carstvo:-2300,-2200
+Babilonsko Carstvo:-1900,-1600
+Egipatsko Carstvo:-1550,-1077
+Asirija:-2025,-609
+Kraljevstvo Juda:-1050,-586
+Ahemenidsko Carstvo:-550,-330
+Maurijsko Carstvo:-322,-184
+Kartaginsko Carstvo:-814,-146
+Seleukovići:-312,-63
+Dinastija Han:-202,220

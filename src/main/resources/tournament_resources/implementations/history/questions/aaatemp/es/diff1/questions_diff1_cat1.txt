@@ -1,0 +1,9 @@
+Imperio sasánida:224,651
+Dinastía Tang:618,907
+Califato abasí:750,1258
+Reino de Pagan:849,1297
+Imperio mongol:1206,1368
+Imperio jemer:802,1431
+Imperio romano:-27,1453
+Imperio bizantino:395,1453
+Imperio inca:1438,1533

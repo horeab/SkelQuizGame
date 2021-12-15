@@ -1,0 +1,9 @@
+Sasanidzi:224,651
+Dynastia Tang:618,907
+Abbasydzi:750,1258
+Królestwo Paganu:849,1297
+Imperium mongolskie:1206,1368
+Imperium Khmerów:802,1431
+Cesarstwo Rzymskie:-27,1453
+Cesarstwo Bizantyjskie:395,1453
+Imperium Inków:1438,1533

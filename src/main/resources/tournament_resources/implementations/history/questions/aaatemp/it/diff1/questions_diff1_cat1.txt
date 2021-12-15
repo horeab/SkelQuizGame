@@ -1,0 +1,9 @@
+Impero sasanide:224,651
+Dinastia Tang:618,907
+Califfato abbaside:750,1258
+Regno Pagan:849,1297
+Impero mongolo:1206,1368
+Impero Khmer:802,1431
+Impero romano:-27,1453
+Impero bizantino:395,1453
+Impero inca:1438,1533

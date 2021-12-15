@@ -1,0 +1,11 @@
+Welches Land hat als erstes den Südpol erreicht?::Norwegen##Großbritannien##Dänemark##Russland::0
+Welches europäische Land hatte das größte Reich der Geschichte?::Russland##Großbritannien##Italien##Spanien::1
+Welches dieser afrikanischen Länder wurde von Deutschland kontrolliert?::Benin##Angola##Dschibuti##Tansania::3
+Wer war der erste Zar Russlands?::Zar Nikolaus I##Zar Alexander II##Zar Iwan der Schreckliche##Zar Paul I::2
+Was war die Schlacht, die die Napoleonischen Kriege beendete?::Schlacht um Wien##Schlacht von Valmy##Schlacht von Verdun##Schlacht von Waterloo::3
+Welches dieser Länder war Teil der UdSSR?::Slowakei##Mongolei##Afghanistan##Aserbaidschan::3
+Welches dieser Länder wurde nie von Großbritannien kontrolliert?::Pakistan##Afghanistan##Nigeria##Jordanien::1
+Welches europäische Land wurde für den Ersten Weltkrieg verantwortlich gemacht?::Russland##Großbritannien##Deutschland::2
+Welches Land war zu Beginn des Zweiten Weltkriegs neutral?::Frankreich##Vereinigte Staaten##Deutschland##Polen::1
+Welcher afrikanische Anti-Apartheid-Führer wurde 1990 nach mehr als 27 Jahren aus dem Gefängnis entlassen?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
+Welcher US-Präsident wurde viermal ins Amt gewählt?::George Washington##Gerald Ford##Franklin D. Roosevelt##Abraham Lincoln::2

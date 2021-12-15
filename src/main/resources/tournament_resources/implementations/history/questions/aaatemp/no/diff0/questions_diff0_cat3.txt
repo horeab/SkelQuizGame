@@ -1,0 +1,11 @@
+Hvilket land var det første som nådde sørpolen?::Norge##Storbritannia##Danmark##Russland::0
+Hvilket europeisk land hadde det største imperiet i historien?::Russland##Storbritannia##Italia##Spania::1
+Hvilket av disse afrikanske landene ble kontrollert av Tyskland?::Benin##Angola##Djibouti##Tanzania::3
+Hvem var den første tsaren i Russland?::Tsar Nicholas I##Tsar Alexander II##Tsar Ivan den grusomme##Tsar Paul I::2
+Hva var slaget som avsluttet Napoleonskrigene?::Slaget ved Wien##Slaget ved Valmy##Slaget ved Verdun##Slaget ved Waterloo::3
+Hvilket av disse landene var en del av USSR?::Slovakia##Mongolia##Afghanistan##Aserbajdsjan::3
+Hvilket av disse landene ble aldri kontrollert av Storbritannia?::Pakistan##Afghanistan##Nigeria##Jordan::1
+Hvilket europeisk land fikk skylden for første verdenskrig?::Russland##Storbritannia##Tyskland::2
+Hvilket land var nøytralt i begynnelsen av andre verdenskrig?::Frankrike##Forente Stater##Tyskland##Polen::1
+Hvilken afrikansk anti-apartheid-leder ble løslatt fra fengsel i 1990, etter mer enn 27 år?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
+Hvilken amerikansk president ble valgt til vervet fire ganger?::George Washington##Gerald Ford##Franklin D Roosevelt##Abraham Lincoln::2

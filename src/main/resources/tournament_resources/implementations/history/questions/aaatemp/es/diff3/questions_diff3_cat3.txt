@@ -1,0 +1,5 @@
+¿Qué animal de la edad de piedra está extinto ahora?::leopardo##mamut##antílope##Oso hormiguero::1
+¿Qué etapa llegó antes de la edad de piedra?::Edad del barro##Edad de los dinosaurios##Era de Hielo##El Big Bang::2
+¿Qué es un homínido?::una herramienta##un antepasado temprano de los humanos##una colección de huesos antiguos##un anzuelo::1
+¿Los humanos emigraron alrededor del mundo desde qué continente?::África##Asia##Australia##Europa::0
+¿Cuál de los siguientes define al Homo erectus?::hombre pensante##hombre moderno##hombre sabio##hombre recto::3

@@ -1,0 +1,6 @@
+¿Cuál fue la primera capital del antiguo Egipto?::Memphis##Tebas##Alejandría##Baltimore::0
+¿En qué isla se originó la antigua civilización griega?::Samos##Creta##Olimpia##Rodas::1
+¿Cuántas de las Siete Maravillas del Mundo Antiguo aún existen?::3##2##1##0::2
+¿A quién se le atribuye haber realizado el primer mapa del mundo conocido?::Arquímedes##Anaximandro##Euclides##Cristobal colon::1
+En la antigua Roma, ¿cómo se llamaba el derecho de un cónsul a rechazar las decisiones de los demás?::Impuesto##Veto##Supervisar##Afirmar::1
+¿Aproximadamente cuántos años tiene la Gran Muralla China?::1000 años##2000 años##3000 años##5000 años::2

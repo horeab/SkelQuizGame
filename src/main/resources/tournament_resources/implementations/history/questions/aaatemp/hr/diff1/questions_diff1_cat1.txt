@@ -1,0 +1,9 @@
+Sasanidsko Carstvo:224,651
+Dinastija Tang:618,907
+Abasidski Kalifat:750,1258
+Pagan Kraljevstvo:849,1297
+Mongolsko Carstvo:1206,1368
+Kmersko Carstvo:802,1431
+Rimsko Carstvo:-27,1453
+Bizantsko Carstvo:395,1453
+Carstvo Inka:1438,1533

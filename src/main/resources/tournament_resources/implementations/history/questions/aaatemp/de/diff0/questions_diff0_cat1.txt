@@ -1,0 +1,15 @@
+Mogulreich:1526,1758
+Qing-Dynastie:1644,1912
+Russisches Reich:1721,1917
+Österreichisch-Ungarisches Reich:1867,1918
+Deutsches Reich:1871,1918
+Osmanisches Reich:1299,1922
+Japanisches Kaiserreich:1868,1947
+Spanisches Reich:1402,1975
+Französisches Reich:1534,1980
+Sowjetunion:1922,1991
+Britisches Empire:1603,1997
+Portugiesisches Reich:1415,1999
+Vereinigte Staaten:1776,x
+China:1949,x
+Europäische Union:1993,x

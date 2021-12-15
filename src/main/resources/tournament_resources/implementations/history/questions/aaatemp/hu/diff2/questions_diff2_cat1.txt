@@ -1,0 +1,10 @@
+Akkád Birodalom:-2300,-2200
+Babiloni Birodalom:-1900,-1600
+Egyiptomi Birodalom:-1550,-1077
+Asszíria:-2025,-609
+Júda Királyság:-1050,-586
+Achaemenid Birodalom:-550,-330
+Maurja Birodalom:-322,-184
+Karthágó:-814,-146
+Szeleukida Birodalom:-312,-63
+Han-dinasztia:-202,220

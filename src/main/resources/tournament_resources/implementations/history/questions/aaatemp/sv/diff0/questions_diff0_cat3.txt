@@ -1,0 +1,11 @@
+Vilket land var det första som nådde sydpolen?::Norge##Storbritannien##Danmark##ryssland::0
+Vilket europeiskt land hade historiens största imperium?::ryssland##Storbritannien##Italien##Spanien::1
+Vilket av dessa afrikanska länder kontrollerades av Tyskland?::Benin##Angola##Djibouti##Tanzania::3
+Vem var den första tsaren i Ryssland?::Tsar Nicholas I##Tsar Alexander II##Tsar Ivan den förskräcklige##Tsar Paul I::2
+Vad var slaget som avslutade Napoleonkrigen?::Slaget vid Wien##Slaget vid Valmy##Slaget vid Verdun##Slaget vid Waterloo::3
+Vilket av dessa länder var en del av Sovjetunionen?::Slovakien##mongoliet##Afghanistan##Azerbajdzjan::3
+Vilket av dessa länder kontrollerades aldrig av Storbritannien?::pakistan##Afghanistan##nigeria##Jordanien::1
+Vilket europeiskt land fick skulden för första världskriget?::ryssland##Storbritannien##Tyskland::2
+Vilket land var neutralt i början av andra världskriget?::Frankrike##Förenta staterna##Tyskland##polen::1
+Vilken afrikansk anti-apartheidledare släpptes från fängelset 1990, efter mer än 27 år?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
+Vilken amerikansk president valdes in fyra gånger?::George Washington##Gerald Ford##Franklin D Roosevelt##Abraham Lincoln::2

@@ -1,0 +1,5 @@
+Hvilket dyr fra stenalderen er uddødt nu?::gepard##mammut##antilope##Myresluger::1
+Hvilken fase kom før stenalderen?::Mudder Alder##Dinosaurs tidsalder##Istid##Det store brag::2
+Hvad er en hominid?::et værktøj##en tidlig forfader til mennesker##en samling af gamle knogler##en fiskekrog::1
+Mennesker migrerede rundt i verden fra hvilket kontinent?::Afrika##Asien##Australien##Europa::0
+Hvilken af ​​følgende definerer Homo erectus?::tænkende mand##moderne mand##Vis mand##oprejst mand::3

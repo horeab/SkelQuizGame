@@ -1,0 +1,7 @@
+Cuộc vây hãm Orleans:Pháp:1,2,6:0
+Sự sụp đổ của Constantinople:Thổ Nhĩ Kỳ:0,2,7:0
+Trận chiến Hastings:Vương quốc Anh:0,1,5:0
+Machu picchu:Peru:4,5,6:1
+Bagan:Myanmar:3,5,7:1
+Angkor:Campuchia:3,4,6:1
+Taj Mahal:Ấn Độ:4,5,7:1

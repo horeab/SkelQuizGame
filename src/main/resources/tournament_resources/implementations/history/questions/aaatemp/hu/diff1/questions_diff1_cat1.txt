@@ -1,0 +1,9 @@
+Szászánida Birodalom:224,651
+Tang-dinasztia:618,907
+Abbászidák:750,1258
+Pagan Birodalom:849,1297
+Mongol Birodalom:1206,1368
+Khmer Birodalom:802,1431
+Római Birodalom:-27,1453
+Bizánci Birodalom:395,1453
+Inka Birodalom:1438,1533

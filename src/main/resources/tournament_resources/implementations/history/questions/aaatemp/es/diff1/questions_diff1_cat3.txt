@@ -1,0 +1,7 @@
+¿La Primera Cruzada tenía el objetivo previsto de capturar qué ciudad?::Jerusalén##El Cairo##la meca##Roma::0
+¿Qué logró la Carta Magna?::limitó el poder de los señores##limitó el poder de los caballeros##aumentó el poder de los campesinos y los siervos##limitó el poder del monarca::3
+¿Cómo se propagó la peste bubónica?::Agua mala##Pulgas de ratas##Aire contaminado##Ceniza de volcán::1
+Esta ciudad estaba en una encrucijada entre Europa y Oriente Medio::El Cairo##Constantinopla##París##Moscú::1
+¿Cuál fue la causa de las Cruzadas?::Liberar la Tierra Santa de Jerusalén de los musulmanes.##Una revuelta de campesinos##La peste negra se extiende por Europa##Guerras comerciales a lo largo de la Ruta de la Seda::0
+¿Santo profeta de la religión musulmana?::Jesucristo##Buda##Mahoma::2
+Estructura social de la Edad Media::Sistema de castas##Feudalismo##Señorío::1

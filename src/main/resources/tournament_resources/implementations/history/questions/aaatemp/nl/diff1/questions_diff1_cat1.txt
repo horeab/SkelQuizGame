@@ -1,0 +1,9 @@
+Sassaniden:224,651
+Tang-dynastie:618,907
+Kalifaat van de Abbasiden:750,1258
+Pagan Rijk:849,1297
+Mongoolse Rijk:1206,1368
+Khmer-rijk:802,1431
+Romeinse Rijk:-27,1453
+Byzantijnse Rijk:395,1453
+Inca-rijk:1438,1533

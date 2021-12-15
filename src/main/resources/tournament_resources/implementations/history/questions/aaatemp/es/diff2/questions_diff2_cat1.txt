@@ -1,0 +1,10 @@
+Imperio acadio:-2300,-2200
+Imperio babilónico:-1900,-1600
+Imperio egipcio:-1550,-1077
+Asiria:-2025,-609
+Reino de Judá:-1050,-586
+Imperio aqueménida:-550,-330
+Imperio maurya:-322,-184
+Imperio cartaginés:-814,-146
+Imperio seléucida:-312,-63
+Dinastía Han:-202,220

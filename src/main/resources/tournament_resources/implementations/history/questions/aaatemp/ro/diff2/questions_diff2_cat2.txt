@@ -1,0 +1,7 @@
+Bătălia de la Maraton:Grecia::0
+Bătălia de la Zama:Tunisia::0
+Bătălia de la Gaugamela:Irak::0
+Piramidele din Giza:Egipt::1
+Petra:Iordania::1
+Pompeii:Italia::1
+Biblioteca din Alexandria:Egipt::1

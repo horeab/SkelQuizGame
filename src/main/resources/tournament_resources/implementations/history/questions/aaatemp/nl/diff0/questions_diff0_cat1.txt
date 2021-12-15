@@ -1,0 +1,15 @@
+Mogolrijk:1526,1758
+Qing-dynastie:1644,1912
+Russische Rijk:1721,1917
+Oostenrijk-Hongarije:1867,1918
+Duitse Rijk:1871,1918
+Ottomaanse Rijk:1299,1922
+Japans Keizerrijk:1868,1947
+Spaanse Rijk:1402,1975
+Frans Rijk:1534,1980
+Sovjet-Unie:1922,1991
+Britse Rijk:1603,1997
+Portugese Rijk:1415,1999
+Verenigde Staten:1776,x
+China:1949,x
+Europese Unie:1993,x

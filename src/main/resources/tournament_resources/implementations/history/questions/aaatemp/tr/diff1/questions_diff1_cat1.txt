@@ -1,0 +1,9 @@
+Sasani İmparatorluğu:224,651
+Tang Hanedanı:618,907
+Abbasi Halifeliği:750,1258
+Pagan Krallık:849,1297
+Moğol İmparatorluğu:1206,1368
+Khmer İmparatorluğu:802,1431
+Roma İmparatorluğu:-27,1453
+Bizans İmparatorluğu:395,1453
+İnka İmparatorluğu:1438,1533

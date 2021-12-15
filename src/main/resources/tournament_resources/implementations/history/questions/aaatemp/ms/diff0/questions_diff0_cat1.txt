@@ -1,0 +1,15 @@
+Empayar Mughal:1526,1758
+Dinasti Qing:1644,1912
+Empayar Rusia:1721,1917
+Empayar Austria-Hungary:1867,1918
+Empayar Jerman:1871,1918
+Kerajaan Uthmaniyyah:1299,1922
+Empayar Jepun:1868,1947
+Empayar Sepanyol:1402,1975
+Empayar Perancis:1534,1980
+Kesatuan Soviet:1922,1991
+Empayar Inggeris:1603,1997
+Empayar Portugis:1415,1999
+Amerika Syarikat:1776,x
+China:1949,x
+Kesatuan Eropah:1993,x

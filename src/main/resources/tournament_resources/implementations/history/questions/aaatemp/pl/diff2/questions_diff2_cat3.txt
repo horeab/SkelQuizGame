@@ -1,0 +1,6 @@
+Jaka była pierwsza stolica starożytnego Egiptu?::Memphis##Teby##Aleksandria##Baltimore::0
+Na jakiej wyspie powstała starożytna cywilizacja grecka?::Samos##Kreta##Olimpia##Rodos::1
+Ile z siedmiu cudów starożytnego świata nadal istnieje?::3##2##1##0::2
+Komu przypisuje się wykonanie pierwszej mapy znanego świata?::Archimedesa##Anaksymander##Euklides##Krzysztof Kolumb::1
+Jak nazywa się w starożytnym Rzymie prawo konsula do wzajemnego odrzucania swoich decyzji?::Podatek##Weto##Nadzorować##Potwierdzać::1
+Ile lat ma w przybliżeniu Wielki Mur Chiński?::1000 lat##2000 lat##3000 lat##5000 lat::2

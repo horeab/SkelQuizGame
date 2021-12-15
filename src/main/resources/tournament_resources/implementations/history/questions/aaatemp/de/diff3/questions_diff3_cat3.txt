@@ -1,0 +1,5 @@
+Welches Tier aus der Steinzeit ist heute ausgestorben?::Gepard##Mammut-##Antilope##Ameisenbär::1
+Welche Phase kam vor der Steinzeit?::Schlammalter##Dinosaurier-Zeitalter##Eiszeit##Der Urknall::2
+Was ist ein Hominide?::ein Werkzeug##ein früher Vorfahr des Menschen##eine Sammlung alter Knochen##ein Angelhaken::1
+Von welchem ​​Kontinent sind die Menschen um die Welt gewandert?::Afrika##Asien##Australien##Europa::0
+Welche der folgenden Definitionen definiert Homo erectus?::denkender Mann##moderner Mann##weiser Mann##aufrechter Mann::3

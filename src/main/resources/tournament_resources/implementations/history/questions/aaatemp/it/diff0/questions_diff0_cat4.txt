@@ -1,0 +1,6 @@
+:Napoleone Bonaparte::
+:William Shakespeare::
+:Abraham Lincoln::
+:George Washington::
+:Carlo Darwin::
+:Isaac Newton::

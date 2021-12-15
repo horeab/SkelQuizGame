@@ -1,0 +1,11 @@
+Koja je država prva stigla do južnog pola?::Norveška##Ujedinjeno Kraljevstvo##Danska##Rusija::0
+Koja je europska država imala najveće carstvo u povijesti?::Rusija##Ujedinjeno Kraljevstvo##Italija##Španija::1
+Koju je od ovih afričkih zemalja kontrolirala Njemačka?::Benin##Angola##Džibuti##Tanzanija::3
+Tko je bio prvi car Rusije?::car Nikola I##Car Aleksandar II##Car Ivan Grozni##Car Pavao I::2
+Koja je bitka kojom su okončani Napoleonovi ratovi?::Bitka kod Beča##Bitka kod Valmyja##Bitka kod Verduna##Bitka kod Waterlooa::3
+Koja je od ovih zemalja bila dio SSSR-a?::Slovačka##Mongolija##Avganistan##Azerbejdžan::3
+Koju od ovih zemalja nikada nije kontrolirala Ujedinjeno Kraljevstvo?::Pakistan##Avganistan##Nigerija##Jordan::1
+Koja je europska država okrivljena za Prvi svjetski rat?::Rusija##Ujedinjeno Kraljevstvo##Njemačka::2
+Koja je država bila neutralna na početku Drugog svjetskog rata?::Francuska##Sjedinjene Američke Države##Njemačka##Poljska::1
+Koji je afrički vođa protiv aparthejda pušten iz zatvora 1990., nakon više od 27 godina?::Idi Amin##Nelson Mandela##Ferdinand Markos##Joseph Atkinson::1
+Koji je američki predsjednik četiri puta biran na dužnost?::George Washington##Gerald Ford##Franklin D. Roosevelt##Abraham Lincoln::2

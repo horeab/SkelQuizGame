@@ -1,0 +1,15 @@
+Mughalská ríša:1526,1758
+Dynastia Čching:1644,1912
+Ruská ríša:1721,1917
+Rakúsko-uhorské cisárstvo:1867,1918
+Nemecká ríša:1871,1918
+Osmanská ríša:1299,1922
+Japonské cisárstvo:1868,1947
+Španielska ríša:1402,1975
+Francúzska ríša:1534,1980
+Sovietsky zväz:1922,1991
+Britské impérium:1603,1997
+Portugalská ríša:1415,1999
+USA:1776,x
+Čína:1949,x
+Európska únia:1993,x

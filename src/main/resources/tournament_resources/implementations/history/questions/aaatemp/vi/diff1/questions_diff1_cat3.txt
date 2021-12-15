@@ -1,0 +1,7 @@
+Cuộc Thập tự chinh thứ nhất có mục tiêu đánh chiếm thành phố nào?::Jerusalem##Cairo##Thánh địa##la Mã::0
+Magna Carta đã làm được gì?::nó hạn chế quyền lực của các lãnh chúa##nó hạn chế sức mạnh của các hiệp sĩ##nó làm tăng sức mạnh của nông dân và nông nô##nó hạn chế quyền lực của quân vương::3
+Làm thế nào mà bệnh dịch hạch lây lan?::Nước xấu##Bọ chét từ chuột##Ô nhiễm không khí##Tro núi lửa::1
+Thành phố này nằm trên ngã tư giữa Châu Âu và Trung Đông::Cairo##Constantinople##Paris##Matxcova::1
+Nguyên nhân của các cuộc Thập tự chinh là gì?::Giải phóng Thánh địa Jerusalem khỏi người Hồi giáo##Một cuộc nổi dậy của nông dân##Cái chết đen lan rộng khắp châu Âu##Các cuộc chiến tranh thương mại dọc theo Con đường Tơ lụa::0
+Thánh tiên tri của đạo Hồi?::Chúa giêsu##Đức phật##Muhammad::2
+Cơ cấu xã hội thời Trung cổ::Hệ thống đẳng cấp##Chế độ phong kiến##Manorism::1

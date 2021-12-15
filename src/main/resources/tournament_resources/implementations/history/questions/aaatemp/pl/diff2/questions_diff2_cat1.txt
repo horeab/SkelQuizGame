@@ -1,0 +1,10 @@
+Imperium akadyjskie:-2300,-2200
+Imperium Babilońskie:-1900,-1600
+Imperium Egipskie:-1550,-1077
+Asyria:-2025,-609
+Królestwo Judy:-1050,-586
+Imperium Achemenidów:-550,-330
+Dynastia Maurjów:-322,-184
+Imperium Kartagińskie:-814,-146
+Seleucydzi:-312,-63
+Dynastia Han:-202,220

@@ -1,0 +1,7 @@
+Maratoni csata:Görögország::0
+Zamai csata:Tunézia::0
+Gaugamelai csata:Irak::0
+Gízai piramisok:Egyiptom::1
+Petra:Jordánia::1
+Pompeji:Olaszország::1
+Alexandriai könyvtár:Egyiptom::1

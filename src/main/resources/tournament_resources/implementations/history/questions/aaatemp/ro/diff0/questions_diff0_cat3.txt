@@ -1,0 +1,11 @@
+Care țară a ajuns prima la polul sud?::Norvegia##Regatul Unit##Danemarca##Rusia::0
+Care țară europeană a avut cel mai mare imperiu din istorie?::Rusia##Regatul Unit##Italia##Spania::1
+Care dintre aceste țări africane era controlată de Germania?::Benin##Angola##Djibouti##Tanzania::3
+Cine a fost primul țar al Rusiei?::Țarul Nicolae I##Țarul Alexandru al II-lea##Țarul Ivan cel Groaznic##Țarul Paul I::2
+Care a fost bătălia care a pus capăt războaielor napoleoniene?::Bătălia de la Viena##Bătălia de la Valmy##Bătălia de la Verdun##Bătălia de la Waterloo::3
+Care dintre aceste țări făcea parte din URSS?::Slovacia##Mongolia##Afganistan##Azerbaidjan::3
+Care dintre aceste țări nu a fost niciodată controlată de Regatul Unit?::Pakistan##Afganistan##Nigeria##Iordania::1
+Ce țară europeană a fost învinuită pentru Primul Război Mondial?::Rusia##Regatul Unit##Germania::2
+Ce țară a fost neutră la începutul celui de-al Doilea Război Mondial?::Franţa##Statele Unite##Germania##Polonia::1
+Care lider african anti-apartheid a fost eliberat din închisoare în 1990, după mai bine de 27 de ani?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
+Care președinte american a fost ales în funcție de patru ori?::George Washington##Gerald Ford##Franklin D Roosevelt##Abraham Lincoln::2

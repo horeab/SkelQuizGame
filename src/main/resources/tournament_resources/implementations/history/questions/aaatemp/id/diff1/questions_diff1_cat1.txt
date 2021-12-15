@@ -1,0 +1,9 @@
+Kekaisaran Sasanian:224,651
+Dinasti Tang:618,907
+Kekhalifahan Abbasiyah:750,1258
+Kerajaan Pagan:849,1297
+Kekaisaran Mongol:1206,1368
+Kerajaan Khmer:802,1431
+Kekaisaran Romawi:-27,1453
+Kekaisaran Bizantium:395,1453
+Kekaisaran Inca:1438,1533

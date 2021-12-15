@@ -1,0 +1,9 @@
+Imperiul Sasanid:224,651
+Dinastia Tang:618,907
+Califatul Abbasid:750,1258
+Regatul Pagan:849,1297
+Imperiul Mongol:1206,1368
+Imperiul Khmer:802,1431
+Imperiul Roman:-27,1453
+Imperiul Bizantin:395,1453
+Imperiul Inca:1438,1533

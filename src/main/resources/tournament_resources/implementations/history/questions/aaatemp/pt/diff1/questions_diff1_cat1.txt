@@ -1,0 +1,9 @@
+Império Sassânida:224,651
+Dinastia Tang:618,907
+Califado Abássida:750,1258
+Reino Pagão:849,1297
+Império Mongol:1206,1368
+Império Quemer:802,1431
+Império Romano:-27,1453
+Império Bizantino:395,1453
+Império Inca:1438,1533

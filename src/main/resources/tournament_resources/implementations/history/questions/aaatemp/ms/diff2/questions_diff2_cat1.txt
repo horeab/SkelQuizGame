@@ -1,0 +1,10 @@
+Empayar Akkadia:-2300,-2200
+Empayar Babylon:-1900,-1600
+Empayar Mesir:-1550,-1077
+Assyria:-2025,-609
+Kerajaan Yehuda:-1050,-586
+Empayar Achaemenid:-550,-330
+Empayar Maurya:-322,-184
+Empayar Carthage:-814,-146
+Empayar Seleucid:-312,-63
+Dinasti Han:-202,220

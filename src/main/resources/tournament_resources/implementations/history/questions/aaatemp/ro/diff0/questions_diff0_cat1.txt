@@ -1,0 +1,15 @@
+Imperiul Mogul:1526,1758
+Dinastia Qing:1644,1912
+Imperiul Rus:1721,1917
+Imperiul Austro-Ungar:1867,1918
+Imperiul German:1871,1918
+Imperiul Otoman:1299,1922
+Imperiul Japoniei:1868,1947
+Imperiul Spaniol:1402,1975
+Imperiul Francez:1534,1980
+Uniunea Sovietică:1922,1991
+Imperiul Britanic:1603,1997
+Imperiul Portughez:1415,1999
+Statele Unite:1776,x
+China:1949,x
+Uniunea Europeană:1993,x

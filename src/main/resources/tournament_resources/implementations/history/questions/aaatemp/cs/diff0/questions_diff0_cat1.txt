@@ -1,0 +1,15 @@
+Mughalská říše:1526,1758
+Dynastie Čching:1644,1912
+Ruská říše:1721,1917
+Rakousko-uherské císařství:1867,1918
+Německá říše:1871,1918
+Osmanská říše:1299,1922
+Japonské císařství:1868,1947
+Španělská říše:1402,1975
+Francouzská říše:1534,1980
+Sovětský svaz:1922,1991
+Britské impérium:1603,1997
+Portugalská říše:1415,1999
+Spojené státy:1776,x
+Čína:1949,x
+Evropská unie:1993,x

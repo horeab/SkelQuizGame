@@ -1,0 +1,9 @@
+Đế quốc Sasan:224,651
+Nhà Đường:618,907
+Nhà Abbas:750,1258
+Triều Pagan:849,1297
+Đế quốc Mông Cổ:1206,1368
+Đế quốc Khmer:802,1431
+Đế quốc La Mã:-27,1453
+Đế quốc Byzantine:395,1453
+Đế quốc Inca:1438,1533

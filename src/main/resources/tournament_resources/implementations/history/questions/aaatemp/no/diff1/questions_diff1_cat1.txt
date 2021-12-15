@@ -1,0 +1,9 @@
+Sasanideriket:224,651
+Tang-dynastiet:618,907
+Abbasidene:750,1258
+Paganriket:849,1297
+Mongolriket:1206,1368
+Khmerriket:802,1431
+Romerriket:-27,1453
+Det bysantinske riket:395,1453
+Inkariket:1438,1533

@@ -1,0 +1,11 @@
+Která země jako první dosáhla jižního pólu?::Norsko##Spojené království##Dánsko##Rusko::0
+Která evropská země měla největší impérium v ​​historii?::Rusko##Spojené království##Itálie##Španělsko::1
+Kterou z těchto afrických zemí ovládalo Německo?::Benin##Angola##Džibutsko##Tanzanie::3
+Kdo byl prvním ruským carem?::Car Mikuláš I##Car Alexandr II##Car Ivan Hrozný##Car Pavel I::2
+Jaká byla bitva, která ukončila napoleonské války?::Bitva o Vídeň##Bitva o Valmy##Bitva u Verdunu##Bitva u Waterloo::3
+Která z těchto zemí byla součástí SSSR?::Slovensko##Mongolsko##Afghánistán##Ázerbajdžán::3
+Které z těchto zemí nebyly nikdy kontrolovány Spojeným královstvím?::Pákistán##Afghánistán##Nigérie##Jordán::1
+Která evropská země byla obviněna z 1. světové války?::Rusko##Spojené království##Německo::2
+Která země byla na začátku 2. světové války neutrální?::Francie##Spojené státy##Německo##Polsko::1
+Který africký vůdce boje proti apartheidu byl propuštěn z vězení v roce 1990, po více než 27 letech?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
+Který americký prezident byl zvolen do úřadu čtyřikrát?::George Washington##Geralda Forda##Franklin D Roosevelt##Abraham Lincoln::2

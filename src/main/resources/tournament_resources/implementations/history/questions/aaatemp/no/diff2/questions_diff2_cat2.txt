@@ -1,0 +1,7 @@
+Slaget ved Marathon:Hellas::0
+Slaget ved Zama:Tunisia::0
+Slaget ved Gaugamela:Irak::0
+Pyramidene i Giza:Egypt::1
+Petra:Jordan::1
+Pompeii:Italia::1
+Biblioteket i Alexandria:Egypt::1

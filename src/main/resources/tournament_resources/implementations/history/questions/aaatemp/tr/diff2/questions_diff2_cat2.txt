@@ -1,0 +1,7 @@
+Maraton Savaşı:Yunanistan::0
+Zama Savaşı:Tunus::0
+Gaugamela Savaşı:Irak::0
+Giza piramitleri:Mısır::1
+Petra:Ürdün::1
+Pompei:İtalya::1
+İskenderiye Kütüphanesi:Mısır::1

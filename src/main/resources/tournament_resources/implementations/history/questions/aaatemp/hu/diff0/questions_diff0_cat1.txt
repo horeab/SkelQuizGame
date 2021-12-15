@@ -1,0 +1,15 @@
+Mogul Birodalom:1526,1758
+Csing-dinasztia:1644,1912
+Orosz Birodalom:1721,1917
+Osztrák-Magyar Birodalom:1867,1918
+Német Birodalom:1871,1918
+Oszmán Birodalom:1299,1922
+Japán Birodalom:1868,1947
+Spanyol Birodalom:1402,1975
+Francia Birodalom:1534,1980
+Szovjetunió:1922,1991
+Brit Birodalom:1603,1997
+Portugál Birodalom:1415,1999
+Egyesült Államok:1776,x
+Kína:1949,x
+Európai Unió:1993,x

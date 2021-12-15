@@ -1,0 +1,5 @@
+Taş devrinden hangi hayvanın soyu şimdi tükendi?::çita##mamut##antilop##karıncayiyen::1
+Taş devrinden önce hangi aşama geldi?::Çamur Çağı##dinozor yaşı##Buz Devri##Büyük patlama::2
+hominid nedir?::bir araç##insanların erken atası##antik kemikler topluluğu##bir olta::1
+İnsanlar dünyaya hangi kıtadan göç etmiştir?::Afrika##Asya##Avustralya##Avrupa::0
+Aşağıdakilerden hangisi Homo erectus&#39;u tanımlar?::düşünen Adam##modern adam##Bilge Adam##dürüst adam::3

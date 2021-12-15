@@ -1,0 +1,15 @@
+Mogulriket:1526,1758
+Qing-dynastin:1644,1912
+Ryska imperiet:1721,1917
+Österrike-Ungern:1867,1918
+Tyska riket:1871,1918
+Osmanska riket:1299,1922
+Japanska imperiet:1868,1947
+Spanska imperiet:1402,1975
+Franska imperiet:1534,1980
+Sovjetunionen:1922,1991
+Brittiska imperiet:1603,1997
+Portugisiska riket:1415,1999
+USA:1776,x
+Kina:1949,x
+Europeiska unionen:1993,x

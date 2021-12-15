@@ -1,0 +1,11 @@
+Quel pays a été le premier à atteindre le pôle sud ?::Norvège##Royaume-Uni##Danemark##Russie::0
+Quel pays européen avait le plus grand empire de l&#39;histoire ?::Russie##Royaume-Uni##Italie##Espagne::1
+Lequel de ces pays africains était contrôlé par l&#39;Allemagne ?::Bénin##Angola##Djibouti##Tanzanie::3
+Qui fut le premier tsar de Russie ?::Tsar Nicolas Ier##Tsar Alexandre II##Tsar Ivan le Terrible##Tsar Paul Ier::2
+Quelle a été la bataille qui a mis fin aux guerres napoléoniennes ?::Bataille de Vienne##Bataille de Valmy##Bataille de Verdun##Bataille de Waterloo::3
+Lequel de ces pays faisait partie de l&#39;URSS ?::Slovaquie##Mongolie##Afghanistan##Azerbaïdjan::3
+Lequel de ces pays n&#39;a jamais été contrôlé par le Royaume-Uni ?::Pakistan##Afghanistan##Nigeria##Jordan::1
+Quel pays européen a été blâmé pour la Première Guerre mondiale ?::Russie##Royaume-Uni##Allemagne::2
+Quel pays était neutre au début de la Seconde Guerre mondiale ?::France##États Unis##Allemagne##Pologne::1
+Quel leader africain anti-apartheid a été libéré de prison en 1990, après plus de 27 ans ?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
+Quel président américain a été élu quatre fois ?::George Washington##Gérald Ford##Franklin D Roosevelt##Abraham Lincoln::2

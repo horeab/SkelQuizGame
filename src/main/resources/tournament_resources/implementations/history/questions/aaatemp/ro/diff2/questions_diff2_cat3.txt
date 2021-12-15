@@ -1,0 +1,6 @@
+Care a fost prima capitală a Egiptului antic?::Memphis##Teba##Alexandria##Baltimore::0
+Pe ce insulă și-a luat naștere civilizația greacă antică?::Samos##Creta##Olimpia##Rodos::1
+Câte dintre cele șapte minuni ale lumii antice mai există?::3##2##1##0::2
+Cui i se atribuie prima hartă a lumii cunoscute?::Arhimede##Anaximandru##Euclid##Cristofor Columb::1
+În Roma antică, cum se numește dreptul unui consul de a respinge deciziile celuilalt?::Impozit##Veto##Supraveghea##Afirma::1
+Aproximativ câți ani are Marele Zid Chinezesc?::1000 de ani##2000 de ani##3000 de ani##5000 de ani::2

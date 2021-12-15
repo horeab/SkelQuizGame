@@ -1,0 +1,10 @@
+Slaget ved Waterloo:Belgien:2,3,5:0
+Slaget ved Gettysburg:Forenede Stater:5,6,7:0
+Belejring af Stalingrad:Rusland:6,8,9:0
+Invasion af Normandiet:Frankrig:5,6,8:0
+Slaget ved Okinawa:Japan:1,8,9:0
+Slaget ved Wien:Østrig:6,0,3:0
+Berlinmurens fald:Tyskland:0,5,3:0
+Versailles-traktaten:Frankrig:1,0,5:0
+Mordet på ærkehertug Franz Ferdinand:Bosnien-Hercegovina:1,5,6:0
+Tjernobyl-katastrofen:Ukraine:1,2,8:0

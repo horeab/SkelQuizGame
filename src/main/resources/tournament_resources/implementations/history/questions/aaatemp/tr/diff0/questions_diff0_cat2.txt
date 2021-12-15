@@ -1,0 +1,10 @@
+Waterloo Savaşı:Belçika:2,3,5:0
+Gettysburg Savaşı:Amerika Birleşik Devletleri:5,6,7:0
+Stalingrad Kuşatması:Rusya:6,8,9:0
+Normandiya&#39;nın işgali:Fransa:5,6,8:0
+Okinawa Savaşı:Japonya:1,8,9:0
+Viyana Savaşı:Avusturya:6,0,3:0
+Berlin Duvarı&#39;nın Yıkılışı:Almanya:0,5,3:0
+Versay antlaşması:Fransa:1,0,5:0
+Arşidük Franz Ferdinand suikastı:Bosna Hersek:1,5,6:0
+Çernobil felaketi:Ukrayna:1,2,8:0

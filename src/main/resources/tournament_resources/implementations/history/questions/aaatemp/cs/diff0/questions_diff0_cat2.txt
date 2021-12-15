@@ -1,0 +1,10 @@
+Bitva u Waterloo:Belgie:2,3,5:0
+Bitva u Gettysburgu:Spojené státy:5,6,7:0
+Obléhání Stalingradu:Rusko:6,8,9:0
+Invaze do Normandie:Francie:5,6,8:0
+Bitva o Okinawu:Japonsko:1,8,9:0
+Bitva o Vídeň:Rakousko:6,0,3:0
+Pád Berlínské zdi:Německo:0,5,3:0
+Versailleská smlouva:Francie:1,0,5:0
+Atentát na arcivévodu Františka Ferdinanda:Bosna a Hercegovina:1,5,6:0
+Černobylská katastrofa:Ukrajina:1,2,8:0

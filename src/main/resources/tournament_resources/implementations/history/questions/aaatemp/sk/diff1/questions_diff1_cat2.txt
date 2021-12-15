@@ -1,0 +1,7 @@
+Obliehanie Orleansu:Francúzsko:1,2,6:0
+Pád Konštantínopolu:Turecko:0,2,7:0
+Bitka pri Hastingse:Spojene kralovstvo:0,1,5:0
+Machu Picchu:peru:4,5,6:1
+Bagan:Mjanmarsko:3,5,7:1
+Angkor:Kambodža:3,4,6:1
+Taj Mahal:India:4,5,7:1

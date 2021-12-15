@@ -1,0 +1,5 @@
+Apakah haiwan dari zaman batu yang telah pupus sekarang?::cheetah##raksasa##antelop##Anteater::1
+Tahap apakah yang datang sebelum zaman batu?::Zaman Lumpur##Zaman Dinosaur##Zaman ais##Letupan Besar::2
+Apakah hominid?::sebuah alat##nenek moyang awal manusia##koleksi tulang purba##mata kail::1
+Manusia berhijrah ke seluruh dunia dari benua apakah?::Afrika##Asia##Australia##Eropah::0
+Antara berikut, yang manakah mentakrifkan Homo erectus?::lelaki yang berfikir##manusia moden##lelaki bijak##lelaki tegak::3

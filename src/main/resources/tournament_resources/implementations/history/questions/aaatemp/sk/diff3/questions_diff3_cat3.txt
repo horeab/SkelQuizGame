@@ -1,0 +1,5 @@
+Ktoré zviera z doby kamennej je už vyhynuté?::gepard##mamut##antilopa##mravčiar::1
+Aké štádium bolo pred dobou kamennou?::Bahenný vek##Vek dinosaurov##Doba ľadová##Veľký tresk::2
+Čo je to hominid?::nástroj##raný predchodca ľudí##zbierka starých kostí##háčik na ryby::1
+Z akého kontinentu ľudia migrovali do celého sveta?::Afriky##Ázie##Austrália##Európe::0
+Ktorá z nasledujúcich možností definuje Homo erectus?::mysliaci človek##moderný človek##múdry muž##vzpriamený človek::3

@@ -1,0 +1,15 @@
+Imperio mogol:1526,1758
+Dinastía Qing:1644,1912
+Imperio ruso:1721,1917
+Imperio austro-húngaro:1867,1918
+Imperio alemán:1871,1918
+Imperio otomano:1299,1922
+Imperio del Japón:1868,1947
+Imperio español:1402,1975
+Imperio francés:1534,1980
+Unión Soviética:1922,1991
+Imperio británico:1603,1997
+Imperio portugués:1415,1999
+Estados Unidos:1776,x
+China:1949,x
+Unión Europea:1993,x

@@ -1,0 +1,9 @@
+Sassaniderne:224,651
+Tang-dynastiet:618,907
+Abbasidisk kalifat:750,1258
+Kongeriget Pagan:849,1297
+Mongolske kejserdømme:1206,1368
+Khmerriget:802,1431
+Romerriget:-27,1453
+Det Byzantinske Rige:395,1453
+Inkariget:1438,1533

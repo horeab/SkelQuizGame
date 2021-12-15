@@ -1,0 +1,7 @@
+Bitka pri Maratóne:Grécko::0
+Bitka pri Zame:Tunisko::0
+Bitka pri Gaugamele:Irak::0
+Pyramídy v Gíze:egypt::1
+Petra:Jordán::1
+Pompeje:Taliansko::1
+Alexandrijská knižnica:egypt::1

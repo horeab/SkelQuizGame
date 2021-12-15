@@ -1,0 +1,10 @@
+Reich von Akkad:-2300,-2200
+Babylonisches Reich:-1900,-1600
+Ägyptisches Reich:-1550,-1077
+Assyrien:-2025,-609
+Königreich Juda:-1050,-586
+Achämenidenreich:-550,-330
+Maurya Reich:-322,-184
+Karthagisches Reich:-814,-146
+Seleukidenreich:-312,-63
+Han-Dynastie:-202,220

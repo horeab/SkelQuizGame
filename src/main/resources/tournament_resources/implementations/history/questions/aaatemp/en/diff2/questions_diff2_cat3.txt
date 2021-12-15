@@ -1,0 +1,6 @@
+What was the first capital of ancient Egypt?::Memphis##Thebes##Alexandria##Baltimore::0
+On what island did ancient Greek civilization originate?::Samos##Crete##Olympia##Rhodes::1
+How many of the Seven Wonders of the Ancient World still exist?::3##2##1##0::2
+Who is credited with making the first map of the known world?::Archimedes##Anaximander##Euclid##Christopher Columbus::1
+In ancient Rome what does a consul's right to reject each other's decisions called?::Tax##Veto##Oversee##Affirm::1
+Approximately how old is the Great Wall of China?::1000 years##2000 years##3000 years##5000 years::2

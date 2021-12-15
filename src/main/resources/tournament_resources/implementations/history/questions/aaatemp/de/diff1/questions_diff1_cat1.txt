@@ -1,0 +1,9 @@
+Sassanidenreich:224,651
+Tang-Dynastie:618,907
+Abbasidisches Kalifat:750,1258
+Königreich Bagan:849,1297
+Mongolisches Reich:1206,1368
+Khmer-Reich:802,1431
+Römisches Reich:-27,1453
+Byzantinisches Reich:395,1453
+Inka-Reich:1438,1533

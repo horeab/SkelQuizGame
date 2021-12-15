@@ -1,0 +1,9 @@
+Sassanides:224,651
+Dynastie Tang:618,907
+Califat abbasside:750,1258
+Royaume de Pagan:849,1297
+Empire mongol:1206,1368
+Empire khmer:802,1431
+Empire romain:-27,1453
+Empire byzantin:395,1453
+Empire inca:1438,1533

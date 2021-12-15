@@ -1,0 +1,15 @@
+Đế quốc Mogul:1526,1758
+Nhà Thanh:1644,1912
+Đế quốc Nga:1721,1917
+Đế quốc Áo-Hung:1867,1918
+Đế quốc Đức:1871,1918
+Đế quốc Ottoman:1299,1922
+Đế quốc Nhật Bản:1868,1947
+Đế quốc Tây Ban Nha:1402,1975
+Đế quốc Pháp:1534,1980
+Liên Xô:1922,1991
+Đế quốc Anh:1603,1997
+Đế quốc Bồ Đào Nha:1415,1999
+Hoa Kỳ:1776,x
+Trung Quốc:1949,x
+Liên minh Châu Âu:1993,x

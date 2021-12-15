@@ -1,0 +1,7 @@
+Batalla de maratón:Grecia::0
+Batalla de Zama:Túnez::0
+Batalla de Gaugamela:Irak::0
+Pirámides de giza:Egipto::1
+Petra:Jordán::1
+Pompeya:Italia::1
+Biblioteca de Alejandría:Egipto::1

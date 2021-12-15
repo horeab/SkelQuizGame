@@ -1,0 +1,9 @@
+Sassanidit:224,651
+Tang-dynastia:618,907
+Abbasidikalifaatti:750,1258
+Pakanallinen valtakunta:849,1297
+Mongolien valtakunta:1206,1368
+Khmerien valtakunta:802,1431
+Rooman valtakunta:-27,1453
+Bysantin valtakunta:395,1453
+Inkavaltakunta:1438,1533

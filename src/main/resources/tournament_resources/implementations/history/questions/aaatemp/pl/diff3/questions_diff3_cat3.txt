@@ -1,0 +1,5 @@
+Jakie zwierzę z epoki kamienia wymarło teraz?::gepard##mamut##antylopa##Mrówkojad::1
+Jaki etap nastąpił przed epoką kamienia łupanego?::Epoka błotna##Epoka dinozaurów##Epoka lodowcowa##Big Bang::2
+Czym jest hominid?::narzędzie##wczesny przodek człowieka##zbiór starożytnych kości##haczyk wędkarski::1
+Z jakiego kontynentu ludzie migrowali na całym świecie?::Afryka##Azja##Australia##Europa::0
+Które z poniższych określa Homo erectus?::myślący człowiek##nowoczesny mężczyzna##mądry człowiek##wyprostowany człowiek::3

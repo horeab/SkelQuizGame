@@ -1,0 +1,7 @@
+Beleg van Orléans:Frankrijk:1,2,6:0
+Val van Constantinopel:Turkije:0,2,7:0
+Slag bij Hastings:Verenigd Koningkrijk:0,1,5:0
+Machu Picchu:Peru:4,5,6:1
+Bagan:Myanmar:3,5,7:1
+Angkor:Cambodja:3,4,6:1
+Taj Mahal:India:4,5,7:1

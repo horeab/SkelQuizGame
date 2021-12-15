@@ -1,0 +1,5 @@
+Hvilket dyr fra steinalderen er utryddet nå?::gepard##mammut##antilope##Myrsluker::1
+Hvilket stadium kom før steinalderen?::Mud Age##Dinosaurens alder##Istid##Det store smellet::2
+Hva er en hominid?::et verktøy##en tidlig stamfar til mennesker##en samling av eldgamle bein##en fiskekrok::1
+Mennesker migrerte rundt i verden fra hvilket kontinent?::Afrika##Asia##Australia##Europa::0
+Hvilket av følgende definerer Homo erectus?::tenkende mann##moderne mann##Vis mann##oppreist mann::3

@@ -1,0 +1,10 @@
+Bătălia de la Waterloo:Belgia:2,3,5:0
+Bătălia de la Gettysburg:Statele Unite:5,6,7:0
+Asediul Stalingradului:Rusia:6,8,9:0
+Invazia Normandiei:Franţa:5,6,8:0
+Bătălia de la Okinawa:Japonia:1,8,9:0
+Bătălia de la Viena:Austria:6,0,3:0
+Căderea Zidului Berlinului:Germania:0,5,3:0
+Tratatul De La Versailles:Franţa:1,0,5:0
+Asasinarea arhiducelui Franz Ferdinand:Bosnia si Hertegovina:1,5,6:0
+Dezastrul de la Cernobîl:Ucraina:1,2,8:0
