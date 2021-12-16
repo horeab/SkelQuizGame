@@ -1,6 +1,6 @@
-Qual è stata la prima capitale dell&#39;antico Egitto?::Menfi##Tebe##Alessandria##Baltimora::0
-Su quale isola ha avuto origine l&#39;antica civiltà greca?::Samos##Creta##Olimpia##Rodi::1
+Qual è stata la prima capitale dell'antico Egitto?::Menfi##Tebe##Alessandria##Baltimora::0
+Su quale isola ha avuto origine l'antica civiltà greca?::Samos##Creta##Olimpia##Rodi::1
 Quante delle Sette Meraviglie del Mondo Antico esistono ancora?::3##2##1##0::2
 A chi è attribuito il merito di aver realizzato la prima mappa del mondo conosciuto?::Archimede##Anassimandro##Euclide##Cristoforo Colombo::1
-Nell&#39;antica Roma come si chiamava il diritto di un console di respingere le decisioni dell&#39;altro?::Imposta##Veto##Sorvegliare##Affermare::1
+Nell'antica Roma come si chiamava il diritto di un console di respingere le decisioni dell'altro?::Imposta##Veto##Sorvegliare##Affermare::1
 Quanti anni ha approssimativamente la Grande Muraglia Cinese?::1000 anni##2000 anni##3000 anni##5000 anni::2

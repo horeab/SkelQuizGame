@@ -1,4 +1,4 @@
-Welk dier uit het stenen tijdperk is nu uitgestorven?::Jachtluipaard##mammoet-##antilope##Miereneter::1
+Welk dier uit het stenen tijdperk is nu uitgestorven?::Jachtluipaard##mammoet##antilope##Miereneter::1
 Welk stadium kwam er vóór het stenen tijdperk?::Moddertijd:##dinosaurus tijdperk##Ijstijd##De oerknal::2
 Wat is een hominide?::een gereedschap##een vroege voorouder van de mens##een verzameling oude botten##een vishaak::1
 Vanuit welk continent migreerden mensen over de hele wereld?::Afrika##Azië##Australië##Europa::0

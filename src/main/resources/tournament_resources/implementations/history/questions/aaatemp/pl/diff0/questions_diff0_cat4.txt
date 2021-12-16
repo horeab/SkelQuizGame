@@ -1,6 +1,6 @@
 :Napoleon Bonaparte::
-:William Szekspir::
+:William Shakespeare::
 :Abraham Lincoln::
-:Jerzy Waszyngton::
+:George Washington::
 :Karol Darwin::
 :Izaak Newton::

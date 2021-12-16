@@ -1,7 +1,7 @@
 La première croisade avait pour objectif de capturer quelle ville ?::Jérusalem##Caire##Mecque##Rome::0
-Qu&#39;a accompli la Magna Carta ?::il limitait le pouvoir des seigneurs##il a limité le pouvoir des chevaliers##il a augmenté le pouvoir des paysans et des serfs##il a limité le pouvoir du monarque::3
-Comment la peste bubonique s&#39;est-elle propagée ?::Mauvaise eau##Puces de rats##Air pollué##Cendres de volcan::1
-Cette ville était à la croisée des chemins entre l&#39;Europe et le Moyen-Orient::Caire##Constantinople##Paris##Moscou::1
+Qu'a accompli la Magna Carta ?::il limitait le pouvoir des seigneurs##il a limité le pouvoir des chevaliers##il a augmenté le pouvoir des paysans et des serfs##il a limité le pouvoir du monarque::3
+Comment la peste bubonique s'est-elle propagée ?::Mauvaise eau##Puces de rats##Air pollué##Cendres de volcan::1
+Cette ville était à la croisée des chemins entre l'Europe et le Moyen-Orient::Caire##Constantinople##Paris##Moscou::1
 Quelle était la cause des croisades ?::Libérer la Terre Sainte de Jérusalem des musulmans##Une révolte de paysans##La peste noire se répand en Europe##Guerres commerciales le long de la route de la soie::0
 Saint prophète de la religion musulmane ?::Jésus Christ##Bouddha##Mahomet::2
 Structure sociale du Moyen Âge::Système de castes##Féodalisme##Manoir::1

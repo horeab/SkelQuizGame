@@ -8,4 +8,4 @@ Care dintre aceste țări nu a fost niciodată controlată de Regatul Unit?::Pak
 Ce țară europeană a fost învinuită pentru Primul Război Mondial?::Rusia##Regatul Unit##Germania::2
 Ce țară a fost neutră la începutul celui de-al Doilea Război Mondial?::Franţa##Statele Unite##Germania##Polonia::1
 Care lider african anti-apartheid a fost eliberat din închisoare în 1990, după mai bine de 27 de ani?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
-Care președinte american a fost ales în funcție de patru ori?::George Washington##Gerald Ford##Franklin D Roosevelt##Abraham Lincoln::2
+Care președinte american a fost ales în funcție de patru ori?::George Washington##Gerald Ford##Franklin D. Roosevelt##Abraham Lincoln::2

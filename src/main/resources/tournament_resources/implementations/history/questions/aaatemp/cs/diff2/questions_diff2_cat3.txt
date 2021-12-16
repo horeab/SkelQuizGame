@@ -1,6 +1,6 @@
-Jaké bylo první hlavní město starověkého Egypta?::Memphis##Thebes##Alexandrie##Baltimore::0
+Jaké bylo první hlavní město starověkého Egypta?::Mennofer##Veset##Alexandrie##Baltimore::0
 Na jakém ostrově vznikla starověká řecká civilizace?::Samos##Kréta##Olympia##Rhodos::1
 Kolik ze sedmi divů starověkého světa ještě existuje?::3##2##1##0::2
-Kdo se zasloužil o vytvoření první mapy známého světa?::Archimedes##Anaximander##Euklides##Kryštof Kolumbus::1
-Jak se ve starém Římě nazývalo právo konzula odmítat vzájemná rozhodnutí?::Daň##Vetovat##Dohlížet##Potvrdit::1
+Kdo se zasloužil o vytvoření první mapy známého světa?::Archimedes##Anaximandros##Euklides##Kryštof Kolumbus::1
+Jak se ve starém Římě nazývalo právo konzula odmítat vzájemná rozhodnutí?::Daň##Veto##Dohlížet##Potvrdit::1
 Jak stará je přibližně Velká čínská zeď?::1000 let##2000 let##3000 let##5000 let::2

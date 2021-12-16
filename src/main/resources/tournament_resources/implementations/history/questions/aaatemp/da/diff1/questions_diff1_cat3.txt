@@ -1,7 +1,7 @@
 Det første korstog havde det tilsigtede mål at erobre hvilken by?::Jerusalem##Cairo##Mekka##Rom::0
 Hvad udrettede Magna Carta?::det begrænsede herrernes magt##det begrænsede riddernes magt##det øgede bøndernes og livegnes magt##det begrænsede monarkens magt::3
 Hvordan spredte byllepesten sig?::Dårligt vand##Lopper fra rotter##Forurenet luft##Vulkanaske::1
-Denne by var på en korsvej mellem Europa og Mellemøsten::Cairo##Konstantinopel##Paris##Moskva::1
+Denne by var på en korsvej mellem Europa og Mellemøsten::Kairo##Konstantinopel##Paris##Moskva::1
 Hvad var årsagen til korstogene?::At befri det hellige land Jerusalem fra muslimerne##Et oprør af bønder##Den sorte død breder sig over Europa##Handelskrige langs Silkevejen::0
 Den muslimske religions hellige profet?::Jesus Kristus##Buddha##Muhammed::2
 Middelalderens sociale struktur::Kastesystem##Feudalisme##Herregård::1

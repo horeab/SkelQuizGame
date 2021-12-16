@@ -8,4 +8,4 @@ Melyik ország volt soha az Egyesült Királyság ellenőrzése alatt?::Pakiszt�
 Melyik európai országot okolták az első világháborúért?::Oroszország##Egyesült Királyság##Németország::2
 Melyik ország volt semleges a második világháború elején?::Franciaország##Egyesült Államok##Németország##Lengyelország::1
 Melyik afrikai apartheidellenes vezetőt engedték ki a börtönből 1990-ben, több mint 27 év után?::Idi Amin##Nelson Mandela##Ferdinánd Marcos##Joseph Atkinson::1
-Melyik amerikai elnököt választották meg négyszer?::George Washington##Gerald Ford##Franklin D Roosevelt##Abraham Lincoln::2
+Melyik amerikai elnököt választották meg négyszer?::George Washington##Gerald Ford##Franklin D. Roosevelt##Abraham Lincoln::2

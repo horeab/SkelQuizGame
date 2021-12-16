@@ -4,4 +4,4 @@ Bataille de Gaugamela:Irak::0
 Pyramides de Gizeh:Egypte::1
 Pétra:Jordan::1
 Pompéi:Italie::1
-Bibliothèque d&#39;Alexandrie:Egypte::1
+Bibliothèque d'Alexandrie:Egypte::1

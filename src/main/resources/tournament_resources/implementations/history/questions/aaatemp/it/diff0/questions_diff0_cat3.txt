@@ -3,9 +3,9 @@ Quale paese europeo ha avuto il più grande impero della storia?::Russia##Regno 
 Quale di questi paesi africani era controllato dalla Germania?::Benin##angola##Gibuti##Tanzania::3
 Chi fu il primo zar di Russia?::lo zar Nicola I##lo zar Alessandro II##Lo zar Ivan il Terribile##lo zar Paolo I::2
 Qual è stata la battaglia che pose fine alle guerre napoleoniche?::Battaglia di Vienna##Battaglia di Valmy##Battaglia di Verdun##Battaglia di Waterloo::3
-Quale di questi paesi faceva parte dell&#39;URSS?::Slovacchia##Mongolia##afghanistan##Azerbaijan::3
+Quale di questi paesi faceva parte dell'URSS?::Slovacchia##Mongolia##afghanistan##Azerbaijan::3
 Quale di questi paesi non è mai stato controllato dal Regno Unito?::Pakistan##afghanistan##Nigeria##Giordania::1
 Quale paese europeo è stato accusato della prima guerra mondiale?::Russia##Regno Unito##Germania::2
-Quale paese era neutrale all&#39;inizio della seconda guerra mondiale?::Francia##Stati Uniti##Germania##Polonia::1
+Quale paese era neutrale all'inizio della seconda guerra mondiale?::Francia##Stati Uniti##Germania##Polonia::1
 Quale leader africano anti-apartheid è uscito di prigione nel 1990, dopo più di 27 anni?::Idi Amin##Nelson Mandela##Ferdinando Marcos##Joseph Atkinson::1
-Quale presidente degli Stati Uniti è stato eletto quattro volte?::George Washington##Gerald Ford##Franklin D Roosevelt##Abraham Lincoln::2
+Quale presidente degli Stati Uniti è stato eletto quattro volte?::George Washington##Gerald Ford##Franklin D. Roosevelt##Abraham Lincoln::2

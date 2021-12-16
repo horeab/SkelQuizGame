@@ -1,4 +1,4 @@
-Hva var den første hovedstaden i det gamle Egypt?::Memphis##Theben##Alexandria##Baltimore::0
+Hva var den første hovedstaden i det gamle Egypt?::Memfis##Teben##Alexandria##Baltimore::0
 På hvilken øy oppsto den gamle greske sivilisasjonen?::Samos##Kreta##Olympia##Rhodos::1
 Hvor mange av de syv underverkene i den antikke verden eksisterer fortsatt?::3##2##1##0::2
 Hvem er kreditert med å lage det første kartet over den kjente verden?::Arkimedes##Anaximander##Euklid##Christopher Columbus::1

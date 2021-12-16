@@ -8,4 +8,4 @@ Quốc gia nào trong số những quốc gia này chưa từng bị Vương qu�
 Quốc gia châu Âu nào bị đổ lỗi cho Thế chiến 1?::Nga##Vương quốc Anh##nước Đức::2
 Nước nào trung lập vào đầu Thế chiến 2?::Pháp##Hoa Kỳ##nước Đức##Ba Lan::1
 Nhà lãnh đạo chống chủ nghĩa phân biệt chủng tộc Châu Phi nào đã được ra tù vào năm 1990, sau hơn 27 năm?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
-Tổng thống Mỹ nào đã được bầu vào chức vụ bốn lần?::George Washington##Gerald Ford##Franklin D Roosevelt##Abraham Lincoln::2
+Tổng thống Mỹ nào đã được bầu vào chức vụ bốn lần?::George Washington##Gerald Ford##Franklin D. Roosevelt##Abraham Lincoln::2

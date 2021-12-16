@@ -1,4 +1,4 @@
-Mikä oli muinaisen Egyptin ensimmäinen pääkaupunki?::Memphis##Thebes##Aleksandria##Baltimore::0
+Mikä oli muinaisen Egyptin ensimmäinen pääkaupunki?::Memfis##Theba##Aleksandria##Baltimore::0
 Millä saarella antiikin kreikkalainen sivilisaatio syntyi?::Samos##Kreeta##Olympia##Rodos::1
 Kuinka monta muinaisen maailman seitsemästä ihmeestä on vielä olemassa?::3##2##1##0::2
 Kenen ansioksi luetaan ensimmäisen tunnetun maailman kartan tekeminen?::Archimedes##Anaksimander##Euclid##Kristoffer Kolumbus::1

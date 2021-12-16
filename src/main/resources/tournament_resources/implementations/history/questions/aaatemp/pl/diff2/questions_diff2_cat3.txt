@@ -1,4 +1,4 @@
-Jaka była pierwsza stolica starożytnego Egiptu?::Memphis##Teby##Aleksandria##Baltimore::0
+Jaka była pierwsza stolica starożytnego Egiptu?::Memfis##Teby##Aleksandria##Baltimore::0
 Na jakiej wyspie powstała starożytna cywilizacja grecka?::Samos##Kreta##Olimpia##Rodos::1
 Ile z siedmiu cudów starożytnego świata nadal istnieje?::3##2##1##0::2
 Komu przypisuje się wykonanie pierwszej mapy znanego świata?::Archimedesa##Anaksymander##Euklides##Krzysztof Kolumb::1

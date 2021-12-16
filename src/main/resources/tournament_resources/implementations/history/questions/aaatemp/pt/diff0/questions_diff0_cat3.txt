@@ -8,4 +8,4 @@ Qual desses países nunca foi controlado pelo Reino Unido?::Paquistão##Afeganis
 Qual país europeu foi culpado pela Primeira Guerra Mundial?::Rússia##Reino Unido##Alemanha::2
 Que país era neutro no início da 2ª Guerra Mundial?::França##Estados Unidos##Alemanha##Polônia::1
 Qual líder africano anti-apartheid foi libertado da prisão em 1990, depois de mais de 27 anos?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
-Qual presidente dos EUA foi eleito quatro vezes?::George washington##Gerald Ford##Franklin D Roosevelt##Abraham Lincoln::2
+Qual presidente dos EUA foi eleito quatro vezes?::George washington##Gerald Ford##Franklin D. Roosevelt##Abraham Lincoln::2

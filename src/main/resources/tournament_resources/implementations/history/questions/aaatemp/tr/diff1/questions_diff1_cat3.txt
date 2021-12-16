@@ -2,6 +2,6 @@ Birinci Haçlı Seferinin amacı hangi şehri ele geçirmekti?::Kudüs##Kahire##
 Magna Carta neyi başardı?::lordların gücünü sınırladı##şövalyelerin gücünü sınırladı##köylülerin ve serflerin gücünü artırdı##hükümdarın gücünü sınırladı::3
 Hıyarcıklı Veba nasıl yayıldı?::Kötü su##Farelerden gelen pireler##Kirli hava##volkan külü::1
 Bu şehir, Avrupa ile Orta Doğu arasında bir yol ayrımındaydı.::Kahire##İstanbul##Paris##Moskova::1
-Haçlı Seferlerinin nedeni neydi?::Kudüs&#39;ün kutsal topraklarını Müslümanlardan kurtarmak için##Köylülerin isyanı##Avrupa&#39;ya yayılan Kara Ölüm##İpek Yolu boyunca ticaret savaşları::0
+Haçlı Seferlerinin nedeni neydi?::Kudüs'ün kutsal topraklarını Müslümanlardan kurtarmak için##Köylülerin isyanı##Avrupa'ya yayılan Kara Ölüm##İpek Yolu boyunca ticaret savaşları::0
 İslam dininin kutsal peygamberi?::İsa Mesih##Buda##Muhammed::2
-Ortaçağ&#39;ın sosyal yapısı::Kast sistemi##feodalizm##malikane::1
+Ortaçağ'ın sosyal yapısı::Kast sistemi##feodalizm##malikane::1

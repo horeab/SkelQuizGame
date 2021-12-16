@@ -8,4 +8,4 @@ Which one of these countries were never controlled by The United Kingdom?::Pakis
 What European country was blamed for World War 1?::Russia##United Kingdom##Germany::2
 What country was neutral at the beginning of World War 2?::France##United States##Germany##Poland::1
 Which African anti-apartheid leader was released from jail in 1990, after more than 27 years?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
-Which US president was elected to office four times?::George Washington##Gerald Ford##Franklin D Roosevelt##Abraham Lincoln::2
+Which US president was elected to office four times?::George Washington##Gerald Ford##Franklin D. Roosevelt##Abraham Lincoln::2

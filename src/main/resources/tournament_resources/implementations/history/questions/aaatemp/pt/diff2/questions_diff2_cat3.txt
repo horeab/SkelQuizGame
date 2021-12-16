@@ -1,4 +1,4 @@
-Qual foi a primeira capital do antigo Egito?::Memphis##Tebas##Alexandria##Baltimore::0
+Qual foi a primeira capital do antigo Egito?::Mênfis##Tebas##Alexandria##Baltimore::0
 Em que ilha se originou a antiga civilização grega?::Samos##Creta##Olympia##Rodes::1
 Quantas das Sete Maravilhas do Mundo Antigo ainda existem?::3##2##1##0::2
 Quem é responsável por fazer o primeiro mapa do mundo conhecido?::Arquimedes##Anaximandro##Euclides##Cristóvão Colombo::1

@@ -1,4 +1,4 @@
-:Alexander the Great::
+:Alexander Agung::
 :Julius Caesar::
-:Aristotle::
-:Confucius::
+:Aristoteles::
+:Kongzi::

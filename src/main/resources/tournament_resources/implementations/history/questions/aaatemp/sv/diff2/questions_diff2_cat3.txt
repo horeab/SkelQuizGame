@@ -1,4 +1,4 @@
-Vilken var den första huvudstaden i det antika Egypten?::Memphis##Thebe##Alexandria##Baltimore::0
+Vilken var den första huvudstaden i det antika Egypten?::Memfis##Thebe##Alexandria##Baltimore::0
 På vilken ö uppstod den antika grekiska civilisationen?::Samos##Kreta##Olympia##Rhodos::1
 Hur många av den antika världens sju underverk finns fortfarande?::3##2##1##0::2
 Vem är krediterad för att göra den första kartan över den kända världen?::Arkimedes##Anaximander##Euklid##Christopher Columbus::1

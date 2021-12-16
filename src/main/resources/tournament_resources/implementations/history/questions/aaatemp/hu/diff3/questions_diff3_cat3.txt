@@ -1,4 +1,4 @@
-Melyik kőkorszaki állat pusztult ki mára?::gepárd##mamut-##antilop##Hangyász::1
+Melyik kőkorszaki állat pusztult ki mára?::gepárd##mamut##antilop##Hangyász::1
 Milyen szakasz következett be a kőkorszak előtt?::Sárkorszak##A dinoszauruszok kora##Jégkorszak##A nagy Bumm::2
 Mi az a hominida?::egy eszköz##az emberek korai őse##ősi csontok gyűjteménye##egy horogot::1
 Melyik kontinensről vándoroltak az emberek a világ körül?::Afrika##Ázsia##Ausztrália##Európa::0

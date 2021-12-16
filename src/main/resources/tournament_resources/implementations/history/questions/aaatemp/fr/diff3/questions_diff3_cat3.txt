@@ -1,5 +1,5 @@
-Quel animal de l&#39;âge de pierre est éteint maintenant ?::guépard##mammouth##antilope##Fourmilier::1
-Quelle étape a précédé l&#39;âge de pierre ?::Âge de la boue##Âge des dinosaures##Âge de glace##Le Big Bang::2
-Qu&#39;est-ce qu&#39;un hominidé ?::un outil##un ancêtre des humains##une collection d&#39;ossements anciens##un hameçon::1
-Les humains ont migré à travers le monde depuis quel continent ?::Afrique##Asie##Australie##L&#39;Europe ::0
-Lequel des énoncés suivants définit l&#39;Homo erectus ?::Homme qui pense##l&#39;homme moderne##homme sage##homme droit::3
+Quel animal de l'âge de pierre est éteint maintenant ?::guépard##mammouth##antilope##Fourmilier::1
+Quelle étape a précédé l'âge de pierre ?::Âge de la boue##Âge des dinosaures##Âge de glace##Le Big Bang::2
+Qu'est-ce qu'un hominidé ?::un outil##un ancêtre des humains##une collection d'ossements anciens##un hameçon::1
+Les humains ont migré à travers le monde depuis quel continent ?::Afrique##Asie##Australie##L'Europe ::0
+Lequel des énoncés suivants définit l'Homo erectus ?::Homme qui pense##l'homme moderne##homme sage##homme droit::3

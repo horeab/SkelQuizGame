@@ -1,6 +1,6 @@
-Eski Mısır&#39;ın ilk başkenti neresiydi?::Memphis##Teb##İskenderiye##Baltimore::0
+Eski Mısır'ın ilk başkenti neresiydi?::Memfis##Teb##İskenderiye##Baltimore::0
 Antik Yunan uygarlığı hangi adada ortaya çıkmıştır?::Samos##Girit##olimpiya##Rodos::1
 Antik Dünyanın Yedi Harikasından kaç tanesi hala var?::3##2##1##0::2
 Bilinen dünyanın ilk haritasını yapan kişi kimdir?::Arşimet##Anaksimandros##Öklid##Kristof Kolomb::1
-Antik Roma&#39;da konsolosların birbirlerinin kararlarını reddetme hakkına ne denir?::Vergi##Veto##nezaret##onayla::1
+Antik Roma'da konsolosların birbirlerinin kararlarını reddetme hakkına ne denir?::Vergi##Veto##nezaret##onayla::1
 Çin Seddi yaklaşık olarak kaç yaşındadır?::1000 yıl##2000 yıl##3000 yıl##5000 yıl::2

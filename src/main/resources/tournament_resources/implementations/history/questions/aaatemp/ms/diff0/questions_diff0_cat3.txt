@@ -1,11 +1,11 @@
 Negara manakah yang pertama sampai ke kutub selatan?::Norway##Inggeris##Denmark##Rusia::0
 Negara Eropah manakah yang mempunyai empayar terbesar dalam sejarah?::Rusia##Inggeris##Itali##Sepanyol::1
 Antara negara Afrika yang manakah dikuasai oleh Jerman?::Benin##Angola##Djibouti##Tanzania::3
-Siapa Tsar pertama Rusia?::Tsar Nicholas I##Tsar Alexander II##Tsar Ivan the Terrible##Tsar Paul I::2
+Siapa Tsar pertama Rusia?::Nikolai I dari Rusia##Aleksandr II dari Rusia##Ivan IV dari Rusia##Pavel I dari Rusia::2
 Apakah pertempuran yang menamatkan Perang Napoleon?::Pertempuran Vienna##Pertempuran Valmy##Pertempuran Verdun##Pertempuran Waterloo::3
 Antara negara ini yang manakah merupakan sebahagian daripada USSR?::Slovakia##Mongolia##Afghanistan##Azerbaijan::3
 Mana satu antara negara ini yang tidak pernah dikawal oleh United Kingdom?::Pakistan##Afghanistan##Nigeria##Jordan::1
 Apakah negara Eropah yang dipersalahkan untuk Perang Dunia 1?::Rusia##Inggeris##Jerman::2
 Negara manakah yang berkecuali pada permulaan Perang Dunia Kedua?::Perancis##Amerika Syarikat##Jerman##Poland::1
 Pemimpin anti-apartheid Afrika mana yang dibebaskan dari penjara pada 1990, selepas lebih 27 tahun?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
-Presiden AS manakah yang dipilih untuk memegang jawatan empat kali?::George Washington##Gerald Ford##Franklin D Roosevelt##Abraham Lincoln::2
+Presiden AS manakah yang dipilih untuk memegang jawatan empat kali?::George Washington##Gerald Ford##Franklin D. Roosevelt##Abraham Lincoln::2

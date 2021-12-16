@@ -1,4 +1,4 @@
-Mi volt az ókori Egyiptom első fővárosa?::Memphis##Théba##Alexandria##Baltimore::0
+Mi volt az ókori Egyiptom első fővárosa?::Memphisz##Théba##Alexandria##Baltimore::0
 Melyik szigeten keletkezett az ókori görög civilizáció?::Samos##Kréta##Olympia##Rodosz::1
 Hány létezik még az ókori világ hét csodája közül?::3##2##1##0::2
 Ki nevéhez fűződik az ismert világ első térképének elkészítése?::Archimedes##Anaximander##Eukleidész##Kolumbusz Kristóf::1

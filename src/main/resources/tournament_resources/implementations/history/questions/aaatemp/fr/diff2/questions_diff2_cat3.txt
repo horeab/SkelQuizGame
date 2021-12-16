@@ -1,6 +1,6 @@
-Quelle fut la première capitale de l&#39;Egypte ancienne ?::Memphis##Thèbes##Alexandrie##Baltimore::0
+Quelle fut la première capitale de l'Egypte ancienne ?::Memphis##Thèbes##Alexandrie##Baltimore::0
 Sur quelle île est née la civilisation grecque antique ?::Samos##Crète##Olympie##Rhodes::1
 Combien des sept merveilles du monde antique existent encore ?::3##2##1##0::2
-Qui est crédité d&#39;avoir fait la première carte du monde connu ?::Archimède##Anaximandre##Euclide##Christophe Colomb::1
-Dans la Rome antique, comment s&#39;appelait le droit d&#39;un consul de rejeter les décisions de l&#39;autre ?::Impôt##Veto##Superviser##Affirmer::1
-Quel est l&#39;âge approximatif de la Grande Muraille de Chine ?::1000 ans##2000 ans##3000 ans##5000 ans::2
+Qui est crédité d'avoir fait la première carte du monde connu ?::Archimède##Anaximandre##Euclide##Christophe Colomb::1
+Dans la Rome antique, comment s'appelait le droit d'un consul de rejeter les décisions de l'autre ?::Impôt##Veto##Superviser##Affirmer::1
+Quel est l'âge approximatif de la Grande Muraille de Chine ?::1000 ans##2000 ans##3000 ans##5000 ans::2

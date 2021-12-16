@@ -8,4 +8,4 @@ Mikä näistä maista ei ole koskaan ollut Yhdistyneen kuningaskunnan hallinnass
 Mitä Euroopan maata syytettiin ensimmäisestä maailmansodasta?::Venäjä##Yhdistynyt kuningaskunta##Saksa::2
 Mikä maa oli neutraali toisen maailmansodan alussa?::Ranska##Yhdysvallat##Saksa##Puola::1
 Kuka afrikkalainen apartheidin vastainen johtaja vapautettiin vankilasta vuonna 1990 yli 27 vuoden jälkeen?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
-Kuka Yhdysvaltain presidentistä valittiin virkaan neljä kertaa?::George Washington##Gerald Ford##Franklin D Roosevelt##Abraham Lincoln::2
+Kuka Yhdysvaltain presidentistä valittiin virkaan neljä kertaa?::George Washington##Gerald Ford##Franklin D. Roosevelt##Abraham Lincoln::2

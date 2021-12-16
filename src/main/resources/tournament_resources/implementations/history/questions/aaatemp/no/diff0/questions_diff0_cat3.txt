@@ -8,4 +8,4 @@ Hvilket av disse landene ble aldri kontrollert av Storbritannia?::Pakistan##Afgh
 Hvilket europeisk land fikk skylden for første verdenskrig?::Russland##Storbritannia##Tyskland::2
 Hvilket land var nøytralt i begynnelsen av andre verdenskrig?::Frankrike##Forente Stater##Tyskland##Polen::1
 Hvilken afrikansk anti-apartheid-leder ble løslatt fra fengsel i 1990, etter mer enn 27 år?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
-Hvilken amerikansk president ble valgt til vervet fire ganger?::George Washington##Gerald Ford##Franklin D Roosevelt##Abraham Lincoln::2
+Hvilken amerikansk president ble valgt til vervet fire ganger?::George Washington##Gerald Ford##Franklin D. Roosevelt##Abraham Lincoln::2

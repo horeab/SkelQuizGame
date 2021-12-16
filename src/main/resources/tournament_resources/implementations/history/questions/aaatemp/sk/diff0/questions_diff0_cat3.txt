@@ -8,4 +8,4 @@ Ktorú z týchto krajín nikdy nekontrolovalo Spojené kráľovstvo?::Pakistan##
 Ktorá európska krajina bola obvinená z 1. svetovej vojny?::Rusko##Spojene kralovstvo##Nemecko::2
 Ktorá krajina bola neutrálna na začiatku 2. svetovej vojny?::Francúzsko##Spojené štáty##Nemecko##Poľsko::1
 Ktorý africký vodca boja proti apartheidu bol prepustený z väzenia v roku 1990, po viac ako 27 rokoch?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
-Ktorý prezident USA bol zvolený do úradu štyrikrát?::George Washington##Gerald Ford##Franklin D Roosevelt##Abrahám Lincoln::2
+Ktorý prezident USA bol zvolený do úradu štyrikrát?::George Washington##Gerald Ford##Franklin D. Roosevelt##Abrahám Lincoln::2

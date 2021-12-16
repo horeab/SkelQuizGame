@@ -1,5 +1,5 @@
 Vilket djur från stenåldern är utrotat nu?::gepard##mammut##antilop##Myrslok::1
-Vilket skede kom före stenåldern?::Mud Age##Dinosaurieåldern##Istid##Big Bang::2
+Vilket skede kom före stenåldern?::Lera ålder##Dinosaurieåldern##Istid##Big Bang::2
 Vad är en hominid?::ett verktyg##en tidig förfader till människor##en samling gamla ben##en fiskkrok::1
 Människor migrerade runt i världen från vilken kontinent?::Afrika##Asien##Australien##Europa::0
 Vilket av följande definierar Homo erectus?::tänkande människa##modern man##vis man##upprätt man::3
