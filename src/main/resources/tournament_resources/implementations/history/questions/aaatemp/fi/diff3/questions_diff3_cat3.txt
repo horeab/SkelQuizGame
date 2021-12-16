@@ -2,4 +2,4 @@ Mikä kivikauden eläin on nyt kuollut sukupuuttoon?::gepardi##mammutti##antiloo
 Mikä vaihe oli ennen kivikautta?::Mudan ikä##Dinosaurusten aikakausi##Jääkausi##Alkuräjähdys::2
 Mikä on hominidi?::työkalu##ihmisen varhainen esi-isä##kokoelma muinaisia ​​luita##kalakoukku::1
 Mistä mantereesta ihmiset muuttivat ympäri maailmaa?::Afrikka##Aasia##Australia##Eurooppa::0
-Mikä seuraavista määrittelee Homo erectuksen?::ajatteleva mies##moderni mies##viisas mies##suora mies::3
+Mikä seuraavista määrittelee Homo erectuksen?::ajatteleva mies##moderni mies##viisas mies##pystyihminen::3

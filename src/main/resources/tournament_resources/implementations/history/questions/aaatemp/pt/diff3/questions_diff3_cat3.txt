@@ -2,4 +2,4 @@ Que animal da idade da pedra está extinto agora?::guepardo##mamute##antílope##
 Qual fase veio antes da idade da pedra?::Idade da lama##Idade dos Dinossauros##Era do Gelo##A grande explosão::2
 O que é um hominídeo?::uma ferramenta##um ancestral dos humanos##uma coleção de ossos antigos##um anzol::1
 Os humanos migraram ao redor do mundo de que continente?::África##Ásia##Austrália##Europa::0
-Qual das alternativas a seguir define o Homo erectus?::homem pensante##homem moderno##homem sábio##homem justo::3
+Qual das alternativas a seguir define o Homo erectus?::homem pensante##homem moderno##homem sábio##homem de pé::3

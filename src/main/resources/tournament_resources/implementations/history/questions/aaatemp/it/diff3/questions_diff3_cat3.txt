@@ -2,4 +2,4 @@ Quale animale dell'età della pietra è estinto ora?::ghepardo##mammut##antilope
 Quale fase veniva prima dell'età della pietra?::Età del fango##Età dei dinosauri##Era glaciale##Il big Bang::2
 Cos'è un ominide?::uno strumento##un primo antenato dell'uomo##una collezione di ossa antiche##un amo da pesca::1
 Gli esseri umani sono migrati in tutto il mondo da quale continente?::Africa##Asia##Australia##Europa::0
-Quale delle seguenti definizioni definisce l'Homo erectus?::uomo pensante##uomo moderno##uomo saggio##uomo retto::3
+Quale delle seguenti definizioni definisce l'Homo erectus?::uomo pensante##uomo moderno##uomo saggio##che sta dritto::3

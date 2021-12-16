@@ -2,4 +2,4 @@ Melyik kőkorszaki állat pusztult ki mára?::gepárd##mamut##antilop##Hangyász
 Milyen szakasz következett be a kőkorszak előtt?::Sárkorszak##A dinoszauruszok kora##Jégkorszak##A nagy Bumm::2
 Mi az a hominida?::egy eszköz##az emberek korai őse##ősi csontok gyűjteménye##egy horogot::1
 Melyik kontinensről vándoroltak az emberek a világ körül?::Afrika##Ázsia##Ausztrália##Európa::0
-Az alábbiak közül melyik határozza meg a Homo erectust?::gondolkodó ember##modern ember##bölcs ember##egyenes ember::3
+Az alábbiak közül melyik határozza meg a Homo erectust?::gondolkodó ember##modern ember##bölcs ember##felegyenesedett ember::3
