@@ -1,22 +1,3 @@
-Akkadian Empire:-2300,-2200
-Babylonian Empire:-1900,-1600
-Egyptian Empire:-1550,-1077
-Assyria:-2025,-609
-Kingdom of Judah:-1050,-586
-Achaemenid Empire:-550,-330
-Mauryan Empire:-322,-184
-Carthaginian Empire:-814,-146
-Seleucid Empire:-312,-63
-Han Dynasty:-202,220
-Sasanian Empire:224,651
-Tang Dynasty:618,907
-Abbasid Caliphate:750,1258
-Pagan Kingdom:849,1297
-Mongol Empire:1206,1368
-Khmer Empire:802,1431
-Roman Empire:-27,1453
-Byzantine Empire:395,1453
-Inca Empire:1438,1533
 Mughal Empire:1526,1758
 Qing Dynasty:1644,1912
 Russian Empire:1721,1917

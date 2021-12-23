@@ -1,0 +1,4 @@
+Göbekli Tepe:Turkey::1
+Lascaux cave:France::1
+Sumer:Iraq::1
+Stonehenge:United Kingdom::1

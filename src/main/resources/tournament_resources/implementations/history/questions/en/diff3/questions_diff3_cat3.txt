@@ -1,0 +1,5 @@
+What animal from the stone age is extinct now?::cheetah##mammoth##antelope##Anteater::1
+What stage came before the stone age?::Mud Age##Dinosaur Age##Ice Age##The Big Bang::2
+What is a hominid?::a tool##an early ancestor of humans ##a collection of ancient bones ##a fishhook::1
+Humans migrated around the world from what continent?::Africa##Asia##Australia ##Europe::0
+Which of the following defines Homo erectus?::thinking man##modern man##wise man##upright man::3
