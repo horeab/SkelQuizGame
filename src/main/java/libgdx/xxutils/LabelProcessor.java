@@ -15,6 +15,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -28,24 +29,29 @@ class LabelProcessor {
 
     public static void main(String[] args) throws IOException {
 
-        List<GameIdEnum> gameIds = Arrays.asList(GameIdEnum.history);
+        List<GameIdEnum> gameIds = Arrays.asList(GameIdEnum.history, GameIdEnum.quizgame, GameIdEnum.countries);
 
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
 
         //
         ////
-        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
-//        List<Language> languages = Arrays.asList(Language.en);
+        List<Language> languages = Collections.singletonList(Language.en);
+//        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+//        List<Language> languages = Arrays.asList(Language.ar, Language.he);
         ////
         //
 
-        for (Language translateTo : languages) {
-            Map<Pair<String, String>, String> labels = getLabelsForLanguage(gameIds, defaultLabels, translateTo);
+//        translateNewLanguage(Language.ar, gameIds, defaultLabels);
+//        translateMissingLabels(Language.ar, gameIds, defaultLabels);
+        formFlutterKeys(gameIds, defaultLabels, languages);
+    }
 
-            List<String> missingKeys = defaultLabels.keySet().stream().map(Pair::getRight)
-                    .collect(Collectors.toList());
-            missingKeys.removeAll(
-                    labels.keySet().stream().map(Pair::getRight).collect(Collectors.toList()));
+    private static void formFlutterKeys(List<GameIdEnum> gameIds, Map<Pair<String, String>, String> defaultLabels, List<Language> languages) throws IOException {
+        for (Language translateTo : languages) {
+            Map<Pair<String, String>, String> labelsForLanguage = getLabelsForLanguage(gameIds, defaultLabels, translateTo);
+
+            List<String> missingKeys = getMissingLabelKeys(defaultLabels, labelsForLanguage);
+
             if (!missingKeys.isEmpty()) {
                 System.out.println();
                 missingKeys.forEach(System.out::println);
@@ -54,12 +60,69 @@ class LabelProcessor {
             }
 
             Map<String, String> labelsWithKeys = new TreeMap<>();
-            for (Map.Entry<Pair<String, String>, String> e : labels.entrySet()) {
+            for (Map.Entry<Pair<String, String>, String> e : labelsForLanguage.entrySet()) {
                 labelsWithKeys.put(e.getKey().getRight(), e.getValue());
             }
             System.out.println(new Gson().toJson(labelsWithKeys));
             writeToFile(new Gson().toJson(labelsWithKeys), translateTo);
         }
+    }
+
+    public static void translateNewLanguage(Language translateTo, List<GameIdEnum> gameIds, Map<Pair<String, String>, String> enLabels) {
+        Map<String, String> newM = new HashMap<>();
+
+        enLabels.forEach((key, value) -> {
+            System.out.println("Translating: " + key.getLeft() + "=" + value);
+            String trans = null;
+            try {
+                trans = TranslateTool.translate(Language.en.toString(), translateTo.toString(), value).trim();
+//                trans = value;
+            } catch (Exception e) {
+                e.printStackTrace();
+                System.out.println("ERRROROOROROORR: " + key.getLeft());
+            }
+            System.out.println("Translated: " + key.getLeft() + "=" + trans);
+            newM.put(key.getLeft(), trans);
+        });
+        newM.forEach((key, value) -> System.out.println(key + "=" + value));
+    }
+
+    private static void translateMissingLabels(Language translateTo, List<GameIdEnum> gameIds, Map<Pair<String, String>, String> enLabels) {
+        Map<String, String> newM = new HashMap<>();
+        Map<Pair<String, String>, String> labelsForLanguage = getLabelsForLanguage(gameIds, enLabels, translateTo);
+        Map<String, String> missingToTranslate = new HashMap<>();
+        List<String> missingKeys = getMissingLabelKeys(enLabels, labelsForLanguage);
+        missingKeys.remove("l_a_b_c_d_e_f_g_h_i_j_k_l_m_n_o_p_q_r_s_t_u_v_w_x_y_z");
+        enLabels.forEach((key, value) -> {
+            if (missingKeys.contains(key.getRight())) {
+                missingToTranslate.put(key.getRight(), value);
+            }
+        });
+
+        missingToTranslate.forEach((key, value) -> {
+            System.out.println("Translating: " + key + "=" + value);
+            String trans = null;
+            try {
+                trans = TranslateTool.translate(Language.en.toString(), translateTo.toString(), value).trim();
+//                trans = value;
+            } catch (Exception e) {
+                e.printStackTrace();
+                System.out.println("ERRROROOROROORR: " + key);
+            }
+            System.out.println("Translated: " + key + "=" + trans);
+            newM.put(key, trans);
+        });
+        newM.forEach((key, value) -> System.out.println(translateTo.toString() + "_" + key + "=" + value));
+    }
+
+    private static List<String> getMissingLabelKeys(Map<Pair<String, String>, String> defaultLabels, Map<Pair<String, String>, String> labels) {
+        List<String> missingKeys = defaultLabels.keySet().stream().map(Pair::getRight)
+                .collect(Collectors.toList());
+        missingKeys.removeAll(
+                labels.keySet().stream().map(Pair::getRight).collect(Collectors.toList()));
+        missingKeys.removeAll(
+                labels.keySet().stream().map(Pair::getLeft).collect(Collectors.toList()));
+        return missingKeys;
     }
 
     public static void writeToFile(String json, Language language) throws IOException {
@@ -162,6 +225,7 @@ class LabelProcessor {
                     replaceStrings.put("\n", "_");
                     replaceStrings.put(":", "_");
                     replaceStrings.put("-", "_");
+                    replaceStrings.put(",", "_");
                     replaceStrings.put("'", "");
                     replaceStrings.put("!", "");
                     replaceStrings.put("+", "");
@@ -188,8 +252,8 @@ class LabelProcessor {
                 line = reader.readLine();
             }
             reader.close();
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (Exception e) {
+//            e.printStackTrace();
         }
     }
 

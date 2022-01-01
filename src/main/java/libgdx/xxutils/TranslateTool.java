@@ -7,9 +7,13 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 
+import libgdx.constants.Language;
+
 class TranslateTool {
 
     public static String translate(String langFrom, String langTo, String text) throws IOException {
+        langTo = langTo.equals(Language.nb.toString()) ? "no" : langTo;
+        langFrom = langFrom.equals(Language.nb.toString()) ? "no" : langFrom;
         // INSERT YOU URL HERE
         String urlStr = "https://script.google.com/macros/s/AKfycbwrk82-rQsHXm7QRZNLyvxI7U0Ldg8ONXwqvzbwzW27Kn373wqjNjpbcbJOBEPATK1d_w/exec" +
                 "?q=" + URLEncoder.encode(text, "UTF-8") +
