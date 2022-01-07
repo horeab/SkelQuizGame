@@ -10,10 +10,17 @@ import java.util.List;
 import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Language;
-import libgdx.implementations.history.HistoryCategoryEnum;
-import libgdx.implementations.history.HistoryDifficultyLevel;
+import libgdx.implementations.geoquiz.QuizQuestionCategoryEnum;
+import libgdx.implementations.geoquiz.QuizQuestionDifficultyLevel;
+import libgdx.implementations.skelgame.GameIdEnum;
 
-class FlutterQuestionProcessor {
+public class FlutterQuestionProcessor {
+
+
+    private static final GameIdEnum GAME_ID = GameIdEnum.quizgame;
+    private static final String QUESTION_CONFIG_FILE_NAME = "GeoQuizGameQuestionConfig";
+    private static final QuestionDifficulty[] DIFFS = QuizQuestionDifficultyLevel.values();
+    private static final QuestionCategory[] CATEGS = QuizQuestionCategoryEnum.values();
 
     public static void main(String[] args) {
 
@@ -21,10 +28,11 @@ class FlutterQuestionProcessor {
         boolean fromTemp = true;
         ///
 
+
         String tempDir = "aaatemp/";
         StringBuilder res = new StringBuilder();
-//        List<Language> languages = Arrays.asList(Language.en, Language.ro);
-        List<Language> languages = Arrays.asList(Language.values());
+        List<Language> languages = Arrays.asList(Language.en, Language.ro);
+//        List<Language> languages = Arrays.asList(Language.values());
 
 
         for (Language language : languages) {
@@ -36,9 +44,9 @@ class FlutterQuestionProcessor {
 
             res.append(getQuestionsHeader(language));
 
-            for (QuestionDifficulty diff : HistoryDifficultyLevel.values()) {
-                for (QuestionCategory category : HistoryCategoryEnum.values()) {
-                    String qPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/history/questions/"
+            for (QuestionDifficulty diff : DIFFS) {
+                for (QuestionCategory category : CATEGS) {
+                    String qPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/"
                             + (fromTemp ? tempDir : "") + language + "/diff" + diff.getIndex() + "/questions_diff" + diff.getIndex() +
                             "_cat" + category.getIndex() + ".txt";
 
@@ -65,13 +73,13 @@ class FlutterQuestionProcessor {
         System.out.println(res);
     }
 
-    static String getQuestionsHeader(Language language) {
+    public static String getQuestionsHeader(Language language) {
         return "void add" + language.name().toUpperCase() + "(Map<Language, Map<CategoryDifficulty, List<Question>>> result,\n" +
-                "      HistoryGameQuestionConfig questionConfig) {\n" +
+                "      " + QUESTION_CONFIG_FILE_NAME + " questionConfig) {\n" +
                 "    var language = Language." + language.name() + ";\n";
     }
 
-    static String getQuestionsForCatAndDiff(QuestionDifficulty questionDifficulty, QuestionCategory questionCategory, String q) {
+    public static String getQuestionsForCatAndDiff(QuestionDifficulty questionDifficulty, QuestionCategory questionCategory, String q) {
 
         return "addQuestions(\n" +
                 "        result, //\n" +

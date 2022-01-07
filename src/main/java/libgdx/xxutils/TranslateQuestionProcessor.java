@@ -23,8 +23,12 @@ import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Language;
 import libgdx.implementations.geoquiz.QuizQuestionCategoryEnum;
 import libgdx.implementations.history.HistoryDifficultyLevel;
+import libgdx.implementations.skelgame.question.QuestionParser;
 
 class TranslateQuestionProcessor {
+
+    static final List<Language> RTL_LANGS = Arrays.asList(Language.ar, Language.he);
+
     static final String GAME_ID = "quizgame";
     static final String ROOT_PATH_OLD = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/";
     static final String ROOT_PATH_NEW = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/aaatemp/";
@@ -58,6 +62,10 @@ class TranslateQuestionProcessor {
                                                          QuestionDifficulty diff,
                                                          String specificLangPathDirectory,
                                                          QuizQuestionCategoryEnum category) throws IOException {
+
+        if ((category == QuizQuestionCategoryEnum.cat1 || category == QuizQuestionCategoryEnum.cat3) && langToMove != Language.en) {
+            return;
+        }
 
         Map<QuestionCategory, QuestionParser> qParsers = getQuestionParsers();
         Map<QuestionCategory, QuestionParser> oldQParsers = getOldQuestionParsers();
@@ -93,20 +101,33 @@ class TranslateQuestionProcessor {
                         if (Arrays.asList(QuizQuestionCategoryEnum.cat1,
                                 QuizQuestionCategoryEnum.cat3)
                                 .contains(category)) {
-                            cName = loadEnglishValue(diff, category, lineNr, true);
+                            cName = answer;
                         } else {
-                            cName = loadEnglishValue(diff, category, lineNr, false);
+                            cName = question;
                         }
                         String translated = translateCountry(langToMove, cName);
+                        if (category == QuizQuestionCategoryEnum.cat2 && langToMove != Language.en) {
+                            translated = loadEnglishValue(diff, category, lineNr, false);
+                        }
                         if (translated == null) {
                             throw new RuntimeException("no country found for " + cName + " and cat " + category);
                         }
+                        List<String> englishCountries = getCountries(Language.en);
+
                         if (Arrays.asList(QuizQuestionCategoryEnum.cat1,
                                 QuizQuestionCategoryEnum.cat3)
                                 .contains(category)) {
-                            answer = translated;
+                            if (langToMove != Language.en) {
+                                answer = translated;
+                            } else {
+                                answer = String.valueOf(englishCountries.indexOf(translated));
+                            }
                         } else {
-                            question = translated;
+                            if (langToMove != Language.en) {
+                                question = translated;
+                            } else {
+                                question = String.valueOf(englishCountries.indexOf(translated));
+                            }
                         }
                     }
 
@@ -308,9 +329,8 @@ class TranslateQuestionProcessor {
     }
 
     private static String translateCountry(Language translateTo, String countryName) throws IOException {
-        String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s/countries.txt";
-        List<String> englishCountries = readFileContents(String.format(rootPath, Language.en.toString()));
-        List<String> translatedCountries = readFileContents(String.format(rootPath, translateTo.toString()));
+        List<String> englishCountries = getCountries(Language.en);
+        List<String> translatedCountries = getCountries(translateTo);
 
         countryName = countryName.replace("\u200E", "");
         if (englishCountries.contains(countryName)) {
@@ -318,6 +338,11 @@ class TranslateQuestionProcessor {
         }
 
         return null;
+    }
+
+    private static List<String> getCountries(Language translateTo) throws IOException {
+        String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s/countries.txt";
+        return readFileContents(String.format(rootPath, translateTo.toString()));
     }
 
     abstract static class QuestionParser {
@@ -337,13 +362,18 @@ class TranslateQuestionProcessor {
             String res = "";
             for (int i = 0; i < params.length; i++) {
                 Object text = params[i];
+
+                String rtlSeparator = "";
+                if (RTL_LANGS.contains(language)) {
+                    rtlSeparator = "\u200e";
+                }
                 if (detectRTL(text)) {
-                    res = "\u200e" + res + "\u200e" + text + "\u200e";
+                    res = rtlSeparator + res + rtlSeparator + text + rtlSeparator;
                 } else {
-                    res = "\u200e" + res + "\u200e" + text + "\u200e";
+                    res = rtlSeparator + res + rtlSeparator + text + rtlSeparator;
                 }
                 if (i < split.size()) {
-                    res = "\u200e" + res + "\u200e" + split.get(i) + "\u200e";
+                    res = rtlSeparator + res + rtlSeparator + split.get(i) + rtlSeparator;
                 }
             }
             return res;

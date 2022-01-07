@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
 import libgdx.constants.Language;
 import libgdx.implementations.skelgame.GameIdEnum;
 
-class LabelProcessor {
+public class LabelProcessor {
 
     public static void main(String[] args) throws IOException {
 
@@ -257,7 +257,7 @@ class LabelProcessor {
         }
     }
 
-    private static String getGameImplementationLabelsPath(GameIdEnum gid) {
+    public static String getGameImplementationLabelsPath(GameIdEnum gid) {
         return "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + gid.name() + "/labels/labels.properties";
     }
 
