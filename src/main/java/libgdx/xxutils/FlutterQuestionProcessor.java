@@ -60,7 +60,7 @@ public class FlutterQuestionProcessor {
                             line = reader.readLine();
                         }
 
-                        res.append(getQuestionsForCatAndDiff(diff, category, questions.toString()));
+                        res.append(getQuestionsForCatAndDiff(diff, category.name(), questions.toString()));
 
                         reader.close();
                     } catch (IOException e) {
@@ -79,12 +79,12 @@ public class FlutterQuestionProcessor {
                 "    var language = Language." + language.name() + ";\n";
     }
 
-    public static String getQuestionsForCatAndDiff(QuestionDifficulty questionDifficulty, QuestionCategory questionCategory, String q) {
+    public static String getQuestionsForCatAndDiff(QuestionDifficulty questionDifficulty, String questionCategory, String q) {
 
         return "addQuestions(\n" +
                 "        result, //\n" +
                 "        language, //\n" +
-                "        questionConfig." + questionCategory.name() + ", //\n" +
+                "        questionConfig." + questionCategory + ", //\n" +
                 "        questionConfig." + questionDifficulty.name().replace("_", "diff") + ", //\n" +
                 "        " + q + ");\n";
     }

@@ -21,34 +21,37 @@ import libgdx.implementations.history.HistoryDifficultyLevel;
 class ImageResizeTool {
 
     static final String MACBOOK_ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources";
-    static int MAX_WIDTH = 400;
-    static int MAX_HEIGHT = 400;
+    static int MAX_WIDTH = 256;
+    static int MAX_HEIGHT = 256;
 
     public static void main(String[] args) throws IOException {
-        String rootPath = "/tournament_resources/implementations/history/questions/images/";
+        //root path should contain /tournament_resources/..../image_folder/
+        //it should contain a temp folder in the image folder
+        String rootPath = "/tournament_resources/implementations/quizgame/questions/images/flags/";
 
-        List<QuestionCategory> toIgnore = Arrays.asList(HistoryCategoryEnum.cat0, HistoryCategoryEnum.cat1);
-        for (QuestionDifficulty diff : HistoryDifficultyLevel.values()) {
-            for (HistoryCategoryEnum category : HistoryCategoryEnum.values()) {
-                if (toIgnore.contains(category)) {
-                    continue;
-                }
-                String pathname = rootPath + "diff" + diff.getIndex() + "/cat" + category.getIndex();
-                deleteTemp(pathname);
-                new File(MACBOOK_ROOT_PATH + pathname + "/temp").mkdirs();
-                File folder = new File("/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources" + pathname);
-                List<File> listOfFiles = Arrays.stream(Objects.requireNonNull(folder.listFiles()))
-                        .filter(e -> e.getName().contains(".jpg")
-                                || e.getName().contains(".jpeg")
-                                || e.getName().contains(".png"))
-                        .collect(Collectors.toList());
+//        List<QuestionCategory> toIgnore = Arrays.asList(HistoryCategoryEnum.cat0, HistoryCategoryEnum.cat1);
+//        for (QuestionDifficulty diff : HistoryDifficultyLevel.values()) {
+//            for (HistoryCategoryEnum category : HistoryCategoryEnum.values()) {
+//                if (toIgnore.contains(category)) {
+//                    continue;
+//                }
+//                String pathname = rootPath + "diff" + diff.getIndex() + "/cat" + category.getIndex();
+        String pathname = rootPath;
+        deleteTemp(pathname);
+        new File(MACBOOK_ROOT_PATH + pathname + "/temp").mkdirs();
+        File folder = new File("/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources" + pathname);
+        List<File> listOfFiles = Arrays.stream(Objects.requireNonNull(folder.listFiles()))
+                .filter(e -> e.getName().contains(".jpg")
+                        || e.getName().contains(".jpeg")
+                        || e.getName().contains(".png"))
+                .collect(Collectors.toList());
 
-                for (File img : listOfFiles) {
-                    resize(img.getName(), pathname);
-                }
-
-            }
+        for (File img : listOfFiles) {
+            resize(img.getName(), pathname);
         }
+
+//            }
+//        }
     }
 
     private static void deleteTemp(String pathname) {
@@ -65,7 +68,7 @@ class ImageResizeTool {
         }
         BufferedImage resizedImage = Scalr.resize(image, Scalr.Mode.FIT_EXACT, getWidth(image), getHeight(image));
 
-        String ext = "jpeg";
+        String ext = "png";
         imageLoadSaveService.save(resizedImage, pathName + "/temp/" + imgName.split("\\.")[0] + "." + ext, ext);
     }
 
@@ -118,6 +121,7 @@ class ImageResizeTool {
         }
 
         void save(BufferedImage image, String name, String ext) throws IOException {
+            System.out.println("resized " + name);
             try {
                 ImageIO.write(image, ext, new FileOutputStream(MACBOOK_ROOT_PATH + name));
             } catch (Exception ignored) {

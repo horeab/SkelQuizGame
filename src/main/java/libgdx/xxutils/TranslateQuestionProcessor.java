@@ -16,6 +16,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 import libgdx.campaign.QuestionCategory;
@@ -31,7 +32,7 @@ class TranslateQuestionProcessor {
 
     static final String GAME_ID = "quizgame";
     static final String ROOT_PATH_OLD = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/";
-    static final String ROOT_PATH_NEW = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/aaatemp/";
+    static final String ROOT_PATH_NEW = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/";
 
     static int nrOfTranslations = 0;
 
@@ -43,36 +44,42 @@ class TranslateQuestionProcessor {
         List<Language> languages = Arrays.asList(Language.en, Language.ro);
 
         for (Language lang : languages) {
+
             List<QuestionDifficulty> difficulties = Arrays.asList(HistoryDifficultyLevel.values());
             for (QuestionDifficulty diff : difficulties) {
 
-                String specificLangPathDirectory = ROOT_PATH_OLD + "aaatemp/" + lang.toString() + "/diff" + diff.getIndex();
-                new File(specificLangPathDirectory).mkdirs();
+                String newQuestionPath = getNewFilePathForLang(diff, lang);
+
+                if (new File(newQuestionPath).exists()) {
+                    deleteTemp(newQuestionPath);
+                }
+                new File(newQuestionPath).mkdirs();
 
                 for (QuizQuestionCategoryEnum category : QuizQuestionCategoryEnum.values()) {
 
-                    moveQuestionToNewFolderAndFormat(lang, diff, specificLangPathDirectory, category);
+                    moveQuestionToNewFolderAndFormat(lang, diff, category);
 //                    translateQuestion(lang, diff, specificLangPathDirectory, category);
                 }
             }
         }
     }
 
-    private static void moveQuestionToNewFolderAndFormat(Language langToMove,
-                                                         QuestionDifficulty diff,
-                                                         String specificLangPathDirectory,
-                                                         QuizQuestionCategoryEnum category) throws IOException {
+    public static void moveQuestionToNewFolderAndFormat(Language langToMove,
+                                                        QuestionDifficulty diff,
+                                                        QuizQuestionCategoryEnum category) throws IOException {
 
-        if ((category == QuizQuestionCategoryEnum.cat1 || category == QuizQuestionCategoryEnum.cat3) && langToMove != Language.en) {
+        if (category != QuizQuestionCategoryEnum.cat0 && category != QuizQuestionCategoryEnum.cat4) {
             return;
         }
 
         Map<QuestionCategory, QuestionParser> qParsers = getQuestionParsers();
         Map<QuestionCategory, QuestionParser> oldQParsers = getOldQuestionParsers();
         String fileName = getFileName(diff, category);
-        String qPath = getOldFilePathForLang(diff, fileName, langToMove);
-        Path path = Paths.get(qPath);
+        String oldQuestionPath = getOldFilePathForLang(diff, fileName, langToMove);
+        Path path = Paths.get(oldQuestionPath);
         Map<QuestionCategory, String> prefixForMovedQuestions = getPrefixForMovedQuestions();
+
+        String newQuestionPath = getNewFilePathForLang(diff, langToMove);
 
         boolean exists = Files.exists(path);
 
@@ -80,58 +87,15 @@ class TranslateQuestionProcessor {
 
             QuestionParser newQuestionParser = qParsers.get(category);
             QuestionParser oldQuestionParser = oldQParsers.get(category);
-            List<String> linesFromFile = readFileContents(qPath);
+            List<String> linesFromFile = readFileContents(oldQuestionPath);
 
             List<String> movedFile = new ArrayList<>();
-            int lineNr = 0;
             for (String line : linesFromFile) {
                 try {
                     String question = oldQuestionParser.getQuestion(line);
-                    if (category == QuizQuestionCategoryEnum.cat2) {
-                        question = question.replace("What is the capital of ", "").replace("?", "");
-                    }
                     String answer = oldQuestionParser.getAnswer(line);
                     //
-                    // check country names
-                    if (Arrays.asList(QuizQuestionCategoryEnum.cat1,
-                            QuizQuestionCategoryEnum.cat2,
-                            QuizQuestionCategoryEnum.cat3)
-                            .contains(category)) {
-                        String cName;
-                        if (Arrays.asList(QuizQuestionCategoryEnum.cat1,
-                                QuizQuestionCategoryEnum.cat3)
-                                .contains(category)) {
-                            cName = answer;
-                        } else {
-                            cName = question;
-                        }
-                        String translated = translateCountry(langToMove, cName);
-                        if (category == QuizQuestionCategoryEnum.cat2 && langToMove != Language.en) {
-                            translated = loadEnglishValue(diff, category, lineNr, false);
-                        }
-                        if (translated == null) {
-                            throw new RuntimeException("no country found for " + cName + " and cat " + category);
-                        }
-                        List<String> englishCountries = getCountries(Language.en);
 
-                        if (Arrays.asList(QuizQuestionCategoryEnum.cat1,
-                                QuizQuestionCategoryEnum.cat3)
-                                .contains(category)) {
-                            if (langToMove != Language.en) {
-                                answer = translated;
-                            } else {
-                                answer = String.valueOf(englishCountries.indexOf(translated));
-                            }
-                        } else {
-                            if (langToMove != Language.en) {
-                                question = translated;
-                            } else {
-                                question = String.valueOf(englishCountries.indexOf(translated));
-                            }
-                        }
-                    }
-
-                    ///
                     //Not needed for GeoQuiz
                     List<String> options = new ArrayList<>();
                     ///
@@ -151,12 +115,12 @@ class TranslateQuestionProcessor {
                     System.out.println(line);
                     throw ex;
                 }
-                lineNr++;
             }
 
             String returnValue = String.join("\n", movedFile);
 
-            File myObj = new File(specificLangPathDirectory + "/" + fileName);
+
+            File myObj = new File(newQuestionPath + "/" + fileName);
             myObj.createNewFile();
             FileWriter myWriter = new FileWriter(myObj);
             myWriter.write(returnValue);
@@ -164,36 +128,12 @@ class TranslateQuestionProcessor {
         }
     }
 
-    private static String loadEnglishValue(QuestionDifficulty diff,
-                                           QuizQuestionCategoryEnum category,
-                                           int lineNr,
-                                           boolean returnAnswerValue) throws IOException {
-        Map<QuestionCategory, QuestionParser> qParsers = getQuestionParsers();
-        String fileName = getFileName(diff, category);
-        String qPath = getNewFilePathForLang(diff, fileName, Language.en);
-        List<String> linesFromFile = readFileContents(qPath);
-
-        int i = 0;
-        String res = "";
-        for (String line : linesFromFile) {
-            if (i == lineNr) {
-                res = line;
-                break;
-            }
-            i++;
-        }
-
-        if (StringUtils.isBlank(res)) {
-            throw new RuntimeException("no question found for " + diff + " " + category + " line " + lineNr);
-        }
-
-        QuestionParser questionParser = qParsers.get(category);
-        if (returnAnswerValue) {
-            return questionParser.getAnswer(res);
-        } else {
-            return questionParser.getQuestion(res);
-        }
+    private static void deleteTemp(String pathname) {
+        File folder = new File(pathname);
+        Arrays.stream(Objects.requireNonNull(folder.listFiles())).forEach(File::delete);
+        folder.delete();
     }
+
 
     private static void translateQuestion(Language langTranslateTo,
                                           QuestionDifficulty diff,
@@ -248,8 +188,8 @@ class TranslateQuestionProcessor {
         return ROOT_PATH_OLD + language.toString() + "/diff" + diff.getIndex() + "/" + fileName;
     }
 
-    private static String getNewFilePathForLang(QuestionDifficulty diff, String fileName, Language language) {
-        return ROOT_PATH_NEW + language.toString() + "/diff" + diff.getIndex() + "/" + fileName;
+    private static String getNewFilePathForLang(QuestionDifficulty diff, Language language) {
+        return ROOT_PATH_NEW + language.toString() + "/temp/diff" + diff.getIndex();
     }
 
     private static String getFileName(QuestionDifficulty diff, QuizQuestionCategoryEnum category) {
@@ -417,7 +357,8 @@ class TranslateQuestionProcessor {
 
         @Override
         String getQuestionPrefix(String rawString) {
-            return rawString.split(":", -1)[3];
+//            return rawString.split(":", -1)[3];
+            return "";
         }
     }
 

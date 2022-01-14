@@ -19,7 +19,6 @@ import java.util.stream.Collectors;
 import libgdx.constants.Language;
 import libgdx.implementations.countries.CountriesCategoryEnum;
 import libgdx.implementations.skelgame.GameIdEnum;
-import libgdx.resources.gamelabel.SpecificPropertiesUtils;
 import libgdx.xxutils.LabelProcessor;
 
 public class CountriesMapper {
@@ -31,7 +30,9 @@ public class CountriesMapper {
 //        List<Language> langs = Arrays.asList(Language.values());
 //        langs.remove(Language.en);
 
-        List<Language> langs = Arrays.asList(Language.ro);
+        List<Language> langs = Arrays.asList(Language.en, Language.ro);
+
+//        addCountryRanking();
 
         for (Language lang : langs) {
 //            createNewCountriesFile(mappings.keySet(), lang);
@@ -39,6 +40,32 @@ public class CountriesMapper {
             moveQuestions(mappings.keySet(), lang);
 //            moveSynonymsToNewPos(mappings.keySet(), lang);
         }
+    }
+
+    private static void addCountryRanking() throws IOException {
+        List<String> englishCountries2 = FlutterCountriesProcessor.getFromCountriesFolder(Language.en, "countries_2");
+        List<String> res = new ArrayList<>();
+        List<String> countriesRanked = Arrays.stream(ranks.split("\n"))
+                .map(e -> e.split("\t")[0]).collect(Collectors.toList());
+
+        countriesRanked.removeIf(e -> !englishCountries2.stream().map(c -> c.replace("----", "")
+                .replace("****", "")).collect(Collectors.toList()).contains(e));
+
+        for (String c : englishCountries2) {
+            boolean foundC = false;
+            for (String ranked : countriesRanked) {
+                if (ranked.equals(c.replace("----", "").replace("****", ""))) {
+                    int rank = countriesRanked.indexOf(ranked);
+                    res.add(c + ":" + rank);
+                    foundC = true;
+                    break;
+                }
+            }
+            if (!foundC) {
+                throw new RuntimeException("not found " + c);
+            }
+        }
+        res.forEach(e -> System.out.println(e));
     }
 
     private static void createNewCountriesFile(Set<IndexMapping> mappings, Language language) throws IOException {
@@ -62,10 +89,10 @@ public class CountriesMapper {
     }
 
     private static void moveQuestions(Set<IndexMapping> mappings, Language language) throws IOException {
-        String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
-                "/implementations/countries/questions/aquestions/diff0/questions_diff0_cat%s.txt";
 
         for (CountriesCategoryEnum cat : CountriesCategoryEnum.values()) {
+            String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
+                    "/implementations/countries/questions/aquestions/diff0/questions_diff0_cat%s.txt";
 
             if (cat == CountriesCategoryEnum.cat2) {
                 continue;
@@ -85,6 +112,11 @@ public class CountriesMapper {
                     if (cat == CountriesCategoryEnum.cat3) {
                         int mainIndex = Integer.parseInt(line.split(":")[0]) - 1;
                         beforeDoubleDotText = String.valueOf(mappings.stream().filter(e -> e.oldIndex == mainIndex).findFirst().get().newIndex);
+
+                        String testStart = beforeDoubleDotText;
+                        if (newIndexLines.stream().anyMatch(e -> e.startsWith(testStart + ":"))) {
+                            throw new RuntimeException("already contains " + Integer.parseInt(line.split(":")[0]));
+                        }
                     } else {
                         int mainIndex = Integer.parseInt(line.split(":")[0]);
                         if (cat == CountriesCategoryEnum.cat4) {
@@ -103,6 +135,15 @@ public class CountriesMapper {
                 newIndexLines.add(newIndexLine);
             }
 
+            if (cat == CountriesCategoryEnum.cat0 || cat == CountriesCategoryEnum.cat1 || cat == CountriesCategoryEnum.cat3) {
+                rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
+                        "/implementations/countries/questions/aquestions/diff0/temp/questions_diff0_cat%s.txt";
+            }
+
+            if (cat == CountriesCategoryEnum.cat4 || cat == CountriesCategoryEnum.cat5) {
+                rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
+                        "/implementations/countries/questions/" + language + "/diff0/questions_diff0_cat%s.txt";
+            }
             if (!newIndexLines.isEmpty()) {
                 File myObj = new File(String.format(rootPath, cat.getIndex()));
                 myObj.createNewFile();
@@ -199,7 +240,8 @@ public class CountriesMapper {
             int j = 0;
             boolean found = false;
             for (String c2 : englishCountries2) {
-                if (c.equals(c2.replace("----", ""))) {
+                if (c.equals(c2.replace("----", "")
+                        .replace("****", "").split(":")[0])) {
                     mappings.put(new IndexMapping(i, j), c);
                     found = true;
                     break;
@@ -213,6 +255,203 @@ public class CountriesMapper {
         }
         return mappings;
     }
+
+
+    static final String ranks = "China\n" +
+            "India\n" +
+            "United States\n" +
+            "Brazil\n" +
+            "Russia\n" +
+            "Mexico\n" +
+            "Japan\n" +
+            "Iran\n" +
+            "Germany\n" +
+            "Turkey\n" +
+            "France\n" +
+            "United Kingdom\n" +
+            "Thailand\n" +
+            "Italy\n" +
+            "Egypt\n" +
+            "South Africa\n" +
+            "South Korea\n" +
+            "Spain\n" +
+            "Argentina\n" +
+            "Belgium\n" +
+            "Ukraine\n" +
+            "Poland\n" +
+            "Canada\n" +
+            "Austria\n" +
+            "Switzerland\n" +
+            "Netherlands\n" +
+            "Indonesia\n" +
+            "Greece\n" +
+            "Portugal\n" +
+            "Australia\n" +
+            "Colombia\n" +
+            "Algeria\n" +
+            "Croatia\n" +
+            "Morocco\n" +
+            "Vietnam\n" +
+            "Sweden\n" +
+            "Nigeria\n" +
+            "Chile\n" +
+            "Hungary\n" +
+            "Romania\n" +
+            "Saudi Arabia\n" +
+            "Bulgaria\n" +
+            "Denmark\n" +
+            "Finland\n" +
+            "Ireland\n" +
+            "Norway\n" +
+            "Serbia\n" +
+            "Malaysia\n" +
+            "Peru\n" +
+            "Georgia\n" +
+            "Cuba\n" +
+            "Ghana\n" +
+            "Kazakhstan\n" +
+            "Iraq\n" +
+            "Afghanistan\n" +
+            "Israel\n" +
+            "Iceland\n" +
+            "Bosnia and Herzegovina\n" +
+            "Armenia\n" +
+            "Slovenia\n" +
+            "New Zealand\n" +
+            "Albania\n" +
+            "Slovakia\n" +
+            "Venezuela\n" +
+            "Czech Republic\n" +
+            "Ecuador\n" +
+            "Senegal\n" +
+            "Nepal\n" +
+            "Somalia\n" +
+            "Azerbaijan\n" +
+            "Tunisia\n" +
+            "Mongolia\n" +
+            "Pakistan\n" +
+            "Philippines\n" +
+            "Sri Lanka\n" +
+            "Kenya\n" +
+            "Cambodia\n" +
+            "Lithuania\n" +
+            "Mali\n" +
+            "Montenegro\n" +
+            "Belarus\n" +
+            "Cameroon\n" +
+            "Uzbekistan\n" +
+            "Myanmar\n" +
+            "Uruguay\n" +
+            "Jamaica\n" +
+            "Bolivia\n" +
+            "Uganda\n" +
+            "Ivory Coast\n" +
+            "Cyprus\n" +
+            "Madagascar\n" +
+            "Haiti\n" +
+            "Angola\n" +
+            "Qatar\n" +
+            "North Korea\n" +
+            "Tanzania\n" +
+            "Yemen\n" +
+            "Niger\n" +
+            "Ethiopia\n" +
+            "Costa Rica\n" +
+            "Syria\n" +
+            "Jordan\n" +
+            "Dominican Republic\n" +
+            "United Arab Emirates\n" +
+            "Honduras\n" +
+            "Tajikistan\n" +
+            "Monaco\n" +
+            "Chad\n" +
+            "Mozambique\n" +
+            "Estonia\n" +
+            "Singapore\n" +
+            "Zambia\n" +
+            "Benin\n" +
+            "Papua New Guinea\n" +
+            "Guinea\n" +
+            "Togo\n" +
+            "Paraguay\n" +
+            "Laos\n" +
+            "Bangladesh\n" +
+            "Rwanda\n" +
+            "Burkina Faso\n" +
+            "Libya\n" +
+            "Lebanon\n" +
+            "Kyrgyzstan\n" +
+            "Turkmenistan\n" +
+            "Malawi\n" +
+            "Sudan\n" +
+            "Central African Republic\n" +
+            "Palestine\n" +
+            "Democratic Republic of the Congo\n" +
+            "Oman\n" +
+            "Liechtenstein\n" +
+            "Guatemala\n" +
+            "South Sudan\n" +
+            "Burundi\n" +
+            "Liberia\n" +
+            "Zimbabwe\n" +
+            "Kuwait\n" +
+            "Panama\n" +
+            "Sierra Leone\n" +
+            "Luxembourg\n" +
+            "Eritrea\n" +
+            "San Marino\n" +
+            "Moldova\n" +
+            "Namibia\n" +
+            "Gambia\n" +
+            "Mauritania\n" +
+            "Botswana\n" +
+            "Gabon\n" +
+            "Congo\n" +
+            "North Macedonia\n" +
+            "Lesotho\n" +
+            "Latvia\n" +
+            "Guinea-Bissau\n" +
+            "Bahrain\n" +
+            "Equatorial Guinea\n" +
+            "East Timor\n" +
+            "Trinidad and Tobago\n" +
+            "Mauritius\n" +
+            "Djibouti\n" +
+            "Eswatini\n" +
+            "Comoros\n" +
+            "Fiji\n" +
+            "Guyana\n" +
+            "El Salvador\n" +
+            "Nicaragua\n" +
+            "Bhutan\n" +
+            "Solomon Islands\n" +
+            "Suriname\n" +
+            "Cape Verde\n" +
+            "Malta\n" +
+            "Brunei\n" +
+            "Belize\n" +
+            "Bahamas\n" +
+            "Maldives\n" +
+            "Vanuatu\n" +
+            "Vatican City\n" +
+            "Barbados\n" +
+            "São Tomé and Príncipe\n" +
+            "Samoa\n" +
+            "Saint Lucia\n" +
+            "Kiribati\n" +
+            "Grenada\n" +
+            "Saint Vincent and the Grenadines\n" +
+            "Micronesia\n" +
+            "Tonga\n" +
+            "Seychelles\n" +
+            "Antigua and Barbuda\n" +
+            "Andorra\n" +
+            "Dominica\n" +
+            "Marshall Islands\n" +
+            "Saint Kitts and Nevis\n" +
+            "Palau\n" +
+            "Nauru\n" +
+            "Tuvalu";
 
     static class IndexMapping {
 
