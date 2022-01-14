@@ -1,0 +1,195 @@
+Germany----****:8
+France:10
+United Kingdom:11
+Spain:17
+Italy:13
+Belgium:19
+Austria:23
+Portugal:28
+Switzerland:24
+Netherlands:25
+Ireland:44
+Monaco:106
+Luxembourg:140
+Liechtenstein:131
+Andorra:188
+San Marino:142
+Vatican City:176
+Sweden----:35
+Denmark:42
+Finland:43
+Norway:45
+Iceland:56
+Poland----:21
+Greece:27
+Croatia:32
+Hungary:38
+Slovenia:59
+Slovakia:62
+Czech Republic:64
+Estonia----****:109
+Latvia:152
+Lithuania:77
+Ukraine----:20
+Russia:4
+Romania:39
+Bulgaria:41
+Serbia:46
+Bosnia and Herzegovina:57
+Albania:61
+Montenegro:79
+Belarus:80
+Moldova:143
+North Macedonia:150
+Cyprus:89
+Malta:170
+Iran----****:7
+Turkey:9
+Iraq:53
+Israel:55
+Georgia:49
+Armenia:58
+Azerbaijan:69
+Syria:100
+Jordan:101
+Lebanon:122
+Palestine:128
+Saudi Arabia----:40
+United Arab Emirates:103
+Qatar:93
+Yemen:96
+Oman:130
+Kuwait:137
+Bahrain:154
+Kazakhstan----:52
+Afghanistan:54
+Uzbekistan:82
+Tajikistan:105
+Kyrgyzstan:123
+Turkmenistan:124
+India----****:1
+Pakistan:72
+Nepal:67
+Sri Lanka:74
+Bangladesh:118
+Bhutan:166
+Maldives:174
+Thailand----:12
+Indonesia:26
+Vietnam:34
+Malaysia:47
+Philippines:73
+Singapore:110
+Myanmar:83
+Laos:117
+Cambodia:76
+Brunei:171
+China----:0
+Japan:6
+South Korea:16
+North Korea:94
+Mongolia:71
+Australia----****:29
+New Zealand:60
+Papua New Guinea:113
+East Timor:156
+Fiji:162
+Solomon Islands:167
+Vanuatu:175
+Samoa:179
+Kiribati:181
+Micronesia:184
+Tonga:185
+Marshall Islands:190
+Palau:192
+Nauru:193
+Tuvalu:194
+Egypt----****:14
+Algeria:31
+Morocco:33
+Tunisia:70
+Libya:121
+Nigeria----:36
+Ghana:51
+Senegal:66
+Mali:78
+Cameroon:81
+Uganda:87
+Ivory Coast:88
+Angola:92
+Tanzania:95
+Niger:97
+Central African Republic:127
+Democratic Republic of the Congo:129
+Burkina Faso:120
+Madagascar:90
+Chad:107
+Mozambique:108
+Zambia:111
+Benin:112
+Guinea:114
+Togo:115
+Rwanda:119
+Malawi:125
+Burundi:134
+Liberia:135
+Zimbabwe:136
+Sierra Leone:139
+Gambia:145
+Mauritania:146
+Gabon:148
+Congo:149
+Guinea-Bissau:153
+Equatorial Guinea:155
+Mauritius:158
+Seychelles:186
+Comoros:161
+Cape Verde:169
+São Tomé and Príncipe:178
+Somalia----:68
+Kenya:75
+Ethiopia:98
+Sudan:126
+South Sudan:133
+Eritrea:141
+Djibouti:159
+South Africa----:15
+Namibia:144
+Botswana:147
+Lesotho:151
+Eswatini:160
+United States----****:2
+Canada:22
+Mexico:5
+Cuba----:50
+Guatemala:132
+Costa Rica:99
+Belize:172
+Bahamas:173
+Jamaica:85
+Haiti:91
+Dominican Republic:102
+Panama:138
+El Salvador:164
+Nicaragua:165
+Honduras:104
+Saint Lucia----****:180
+Grenada:182
+Dominica:189
+Trinidad and Tobago:157
+Barbados:177
+Saint Vincent and the Grenadines:183
+Antigua and Barbuda:187
+Saint Kitts and Nevis:191
+Brazil----:3
+Argentina:18
+Colombia:30
+Chile:37
+Peru:48
+Venezuela:63
+Ecuador:65
+Uruguay:84
+Bolivia:86
+Paraguay:116
+Guyana:163
+Suriname:168
