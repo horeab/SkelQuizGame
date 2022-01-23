@@ -1,23 +1,23 @@
-Beijing
+Bắc Kinh
 New Delhi
 Washington
 Brasilia
-Moscow
-Mexico City
+Moskva
+Thành phố México
 Tokyo
 Tehran
 Berlin
 Ankara
 Paris
-London
-Bangkok
-Rome
+Luân Đôn
+Băng Cốc
+Roma
 Cairo
 Pretoria
 Seoul
 Madrid
 Buenos Aires
-Brussels
+Bruxelles
 Kiev
 Warsaw
 Ottawa
@@ -26,13 +26,13 @@ Bern
 Amsterdam
 Jakarta
 Athens
-Lisbon
+Lisboa
 Canberra
 Bogota
 Algiers
 Zagreb
 Rabat
-Hanoi
+Hà Nội
 Stockholm
 Abuja
 Santiago
@@ -44,14 +44,14 @@ Copenhagen
 Helsinki
 Dublin
 Oslo
-Belgrade
+Beograd
 Kuala Lumpur
 Lima
 Tbilisi
 Havana
 Accra
 Astana
-Baghdad
+Bagdad
 Kabul
 Jerusalem
 Reykjavik
@@ -62,7 +62,7 @@ Wellington
 Tirana
 Bratislava
 Caracas
-Prague
+Praha
 Quito
 Dakar
 Kathmandu
@@ -74,12 +74,12 @@ Islamabad
 Manila
 Colombo
 Nairobi
-Phnom Penh
+Phnôm Pênh
 Vilnius
 Bamako
 Podgorica
 Minsk
-Yaounde
+Yaoundé
 Tashkent
 Naypyidaw
 Montevideo
@@ -92,7 +92,7 @@ Antananarivo
 Port-au-Prince
 Luanda
 Doha
-Pyongyang
+Bình Nhưỡng
 Dodoma
 Sanaa
 Niamey
@@ -115,7 +115,7 @@ Port Moresby
 Conakry
 Lome
 Asuncion
-Vientiane
+Viêng Chăn
 Dhaka
 Kigali
 Ouagadougou
@@ -126,24 +126,22 @@ Ashgabat
 Lilongwe
 Khartoum
 Bangui
-East Jerusalem
 Kinshasa
 Muscat
 Vaduz
-Guatemala City
+Thành phố Guatemala
 Juba
 Bujumbura
 Monrovia
 Harare
-Kuwait City
-Panama City
+thành phố Kuwait
+thành phố Panama
 Freetown
 Luxembourg
 Asmara
 San Marino
 Chisinau
 Windhoek
-Banjul
 Nouakchott
 Gaborone
 Libreville
@@ -153,42 +151,13 @@ Maseru
 Riga
 Bissau
 Manama
-Malabo
 Dili
-Port of Spain
 Port Louis
 Djibouti
-Mbabane
-Moroni
-Suva
 Georgetown
 San Salvador
-Managua
-Thimphu
-Honiara
-Paramaribo
-Praia
 Valletta
-Bandar Seri Begawan
 Belmopan
-Nassau
-Malé
-Port Vila
 Bridgetown
-São Tomé
-Apia
-Castries
-Tarawa
-St. George's
-Kingstown
-Palikir
-Nuku'alofa
 Victoria
-St. John's
 Andorra la Vella
-Roseau
-Majuro
-Basseterre
-Ngerulmud
-Yaren
-Funafuti

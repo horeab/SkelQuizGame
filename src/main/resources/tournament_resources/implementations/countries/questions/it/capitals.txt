@@ -1,77 +1,77 @@
-Beijing
-New Delhi
+Pechino
+Nuova Delhi
 Washington
-Brasilia
-Moscow
-Mexico City
-Tokyo
-Tehran
-Berlin
+Brasília
+Mosca
+città del Messico
+Tokio
+Teheran
+Berlino
 Ankara
-Paris
-London
+Parigi
+Londra
 Bangkok
-Rome
+Roma
 Cairo
 Pretoria
-Seoul
+Seul
 Madrid
 Buenos Aires
-Brussels
+Bruxelles
 Kiev
-Warsaw
+Varsavia
 Ottawa
 Vienna
-Bern
+Berna
 Amsterdam
-Jakarta
-Athens
-Lisbon
+Giacarta
+Atene
+Lisbona
 Canberra
-Bogota
-Algiers
-Zagreb
+Bogotà
+Algeri
+Zagabria
 Rabat
 Hanoi
-Stockholm
+Stoccolma
 Abuja
 Santiago
 Budapest
-Bucharest
-Riyadh
+Bucarest
+Riad
 Sofia
-Copenhagen
+Copenaghen
 Helsinki
-Dublin
+Dublino
 Oslo
-Belgrade
+Belgrado
 Kuala Lumpur
 Lima
 Tbilisi
-Havana
+L'Avana
 Accra
 Astana
-Baghdad
+Bagdad
 Kabul
-Jerusalem
+Gerusalemme
 Reykjavik
 Sarajevo
 Yerevan
-Ljubljana
+Lubiana
 Wellington
 Tirana
 Bratislava
 Caracas
-Prague
+Praga
 Quito
 Dakar
-Kathmandu
-Mogadishu
+Katmandu
+Mogadiscio
 Baku
-Tunis
+Tunisi
 Ulan Bator
 Islamabad
-Manila
+manila
 Colombo
 Nairobi
 Phnom Penh
@@ -79,7 +79,7 @@ Vilnius
 Bamako
 Podgorica
 Minsk
-Yaounde
+Yaoundé
 Tashkent
 Naypyidaw
 Montevideo
@@ -93,12 +93,12 @@ Port-au-Prince
 Luanda
 Doha
 Pyongyang
-Dodoma
+Dodom
 Sanaa
 Niamey
-Addis Ababa
+Addis Abeba
 San Jose
-Damascus
+Damasco
 Amman
 Santo Domingo
 Abu Dhabi
@@ -111,84 +111,53 @@ Tallinn
 Singapore
 Lusaka
 Porto-Novo
-Port Moresby
+Porto Moresby
 Conakry
-Lome
-Asuncion
+Lomé
+Asunzione
 Vientiane
-Dhaka
+Dacca
 Kigali
 Ouagadougou
 Tripoli
 Beirut
-Bishkek
-Ashgabat
+Biškek
+Aşgabat
 Lilongwe
-Khartoum
+Khartum
 Bangui
-East Jerusalem
 Kinshasa
-Muscat
+Mascate
 Vaduz
-Guatemala City
-Juba
+Città del Guatemala
+Giuba
 Bujumbura
 Monrovia
 Harare
-Kuwait City
-Panama City
+Città di Kuwait
+Panamá
 Freetown
-Luxembourg
+Lussemburgo
 Asmara
 San Marino
 Chisinau
 Windhoek
-Banjul
 Nouakchott
 Gaborone
 Libreville
 Brazzaville
 Skopje
-Maseru
+Maserù
 Riga
 Bissau
 Manama
-Malabo
 Dili
-Port of Spain
 Port Louis
-Djibouti
-Mbabane
-Moroni
-Suva
+Gibuti
 Georgetown
 San Salvador
-Managua
-Thimphu
-Honiara
-Paramaribo
-Praia
-Valletta
-Bandar Seri Begawan
+La Valletta
 Belmopan
-Nassau
-Malé
-Port Vila
 Bridgetown
-São Tomé
-Apia
-Castries
-Tarawa
-St. George's
-Kingstown
-Palikir
-Nuku'alofa
-Victoria
-St. John's
+Vittoria
 Andorra la Vella
-Roseau
-Majuro
-Basseterre
-Ngerulmud
-Yaren
-Funafuti

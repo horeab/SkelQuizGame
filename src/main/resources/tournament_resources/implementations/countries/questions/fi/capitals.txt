@@ -1,68 +1,68 @@
-Beijing
+Peking
 New Delhi
 Washington
 Brasilia
-Moscow
+Moskova
 Mexico City
-Tokyo
-Tehran
-Berlin
+Tokio
+Teheran
+Berliini
 Ankara
-Paris
-London
+Pariisi
+Lontoo
 Bangkok
-Rome
-Cairo
+Rooma
+Kairo
 Pretoria
-Seoul
+Soul
 Madrid
 Buenos Aires
-Brussels
-Kiev
-Warsaw
+Bryssel
+Kiova
+Varsova
 Ottawa
-Vienna
+Wien
 Bern
 Amsterdam
 Jakarta
-Athens
-Lisbon
+Ateena
+Lissabon
 Canberra
 Bogota
-Algiers
+Alger
 Zagreb
 Rabat
 Hanoi
-Stockholm
+Tukholma
 Abuja
 Santiago
 Budapest
-Bucharest
-Riyadh
+Bukarest
+Riad
 Sofia
-Copenhagen
+Kööpenhamina
 Helsinki
 Dublin
 Oslo
-Belgrade
+Belgrad
 Kuala Lumpur
 Lima
 Tbilisi
-Havana
+Havanna
 Accra
 Astana
-Baghdad
+Bagdad
 Kabul
 Jerusalem
 Reykjavik
 Sarajevo
-Yerevan
+Jerevan
 Ljubljana
 Wellington
 Tirana
 Bratislava
 Caracas
-Prague
+Praha
 Quito
 Dakar
 Kathmandu
@@ -75,39 +75,39 @@ Manila
 Colombo
 Nairobi
 Phnom Penh
-Vilnius
+Vilna
 Bamako
 Podgorica
 Minsk
 Yaounde
-Tashkent
+Taškent
 Naypyidaw
 Montevideo
 Kingston
 Sucre
 Kampala
 Yamoussoukro
-Nicosia
+Nikosia
 Antananarivo
 Port-au-Prince
 Luanda
 Doha
-Pyongyang
+Pjongjang
 Dodoma
 Sanaa
 Niamey
-Addis Ababa
+Addis Abeba
 San Jose
-Damascus
+Damaskos
 Amman
 Santo Domingo
 Abu Dhabi
 Tegucigalpa
-Dushanbe
+Dušanbe
 Monaco
 N'Djamena
 Maputo
-Tallinn
+Tallinna
 Singapore
 Lusaka
 Porto-Novo
@@ -121,12 +121,11 @@ Kigali
 Ouagadougou
 Tripoli
 Beirut
-Bishkek
-Ashgabat
+Biškek
+Ašgabat
 Lilongwe
-Khartoum
+Khartum
 Bangui
-East Jerusalem
 Kinshasa
 Muscat
 Vaduz
@@ -136,59 +135,29 @@ Bujumbura
 Monrovia
 Harare
 Kuwait City
-Panama City
+Panaman City
 Freetown
-Luxembourg
+Luxemburg
 Asmara
 San Marino
 Chisinau
 Windhoek
-Banjul
 Nouakchott
 Gaborone
 Libreville
 Brazzaville
 Skopje
 Maseru
-Riga
+Riika
 Bissau
 Manama
-Malabo
 Dili
-Port of Spain
 Port Louis
 Djibouti
-Mbabane
-Moroni
-Suva
 Georgetown
 San Salvador
-Managua
-Thimphu
-Honiara
-Paramaribo
-Praia
 Valletta
-Bandar Seri Begawan
 Belmopan
-Nassau
-Malé
-Port Vila
 Bridgetown
-São Tomé
-Apia
-Castries
-Tarawa
-St. George's
-Kingstown
-Palikir
-Nuku'alofa
 Victoria
-St. John's
 Andorra la Vella
-Roseau
-Majuro
-Basseterre
-Ngerulmud
-Yaren
-Funafuti

@@ -1,32 +1,32 @@
-Beijing
+Peking
 New Delhi
 Washington
-Brasilia
-Moscow
-Mexico City
-Tokyo
-Tehran
-Berlin
+Brazilië
+Moskou
+Mexico-Stad
+Tokio
+Teheran
+Berlijn
 Ankara
-Paris
-London
+Parijs
+Londen
 Bangkok
 Rome
 Cairo
 Pretoria
-Seoul
+Seoel
 Madrid
 Buenos Aires
-Brussels
+Brussel
 Kiev
-Warsaw
+Warschau
 Ottawa
-Vienna
+Wenen
 Bern
 Amsterdam
 Jakarta
-Athens
-Lisbon
+Athene
+Lissabon
 Canberra
 Bogota
 Algiers
@@ -36,42 +36,42 @@ Hanoi
 Stockholm
 Abuja
 Santiago
-Budapest
-Bucharest
-Riyadh
+Boedapest
+Boekarest
+Riyad
 Sofia
-Copenhagen
+Kopenhagen
 Helsinki
 Dublin
 Oslo
-Belgrade
+Belgrado
 Kuala Lumpur
 Lima
 Tbilisi
 Havana
 Accra
 Astana
-Baghdad
-Kabul
-Jerusalem
+Bagdad
+Kaboel
+Jeruzalem
 Reykjavik
 Sarajevo
-Yerevan
+Jerevan
 Ljubljana
 Wellington
 Tirana
 Bratislava
 Caracas
-Prague
+Praag
 Quito
 Dakar
 Kathmandu
 Mogadishu
 Baku
 Tunis
-Ulan Bator
+Ulaanbaatar
 Islamabad
-Manila
+manilla
 Colombo
 Nairobi
 Phnom Penh
@@ -79,8 +79,8 @@ Vilnius
 Bamako
 Podgorica
 Minsk
-Yaounde
-Tashkent
+Yaoundé
+Tasjkent
 Naypyidaw
 Montevideo
 Kingston
@@ -113,37 +113,35 @@ Lusaka
 Porto-Novo
 Port Moresby
 Conakry
-Lome
-Asuncion
+Lomé
+Asunción
 Vientiane
 Dhaka
 Kigali
 Ouagadougou
 Tripoli
-Beirut
-Bishkek
-Ashgabat
+Beiroet
+Bisjkek
+Asjchabad
 Lilongwe
-Khartoum
+Khartoem
 Bangui
-East Jerusalem
 Kinshasa
 Muscat
 Vaduz
-Guatemala City
+Guatemala-Stad
 Juba
 Bujumbura
 Monrovia
 Harare
-Kuwait City
-Panama City
+Koeweit Stad
+Panama Stad
 Freetown
-Luxembourg
+Luxemburg
 Asmara
 San Marino
 Chisinau
 Windhoek
-Banjul
 Nouakchott
 Gaborone
 Libreville
@@ -152,43 +150,14 @@ Skopje
 Maseru
 Riga
 Bissau
-Manama
-Malabo
+Manamah
 Dili
-Port of Spain
 Port Louis
 Djibouti
-Mbabane
-Moroni
-Suva
 Georgetown
 San Salvador
-Managua
-Thimphu
-Honiara
-Paramaribo
-Praia
 Valletta
-Bandar Seri Begawan
 Belmopan
-Nassau
-Malé
-Port Vila
 Bridgetown
-São Tomé
-Apia
-Castries
-Tarawa
-St. George's
-Kingstown
-Palikir
-Nuku'alofa
 Victoria
-St. John's
 Andorra la Vella
-Roseau
-Majuro
-Basseterre
-Ngerulmud
-Yaren
-Funafuti

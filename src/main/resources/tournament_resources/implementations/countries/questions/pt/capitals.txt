@@ -1,194 +1,163 @@
-Beijing
-New Delhi
+Pequim
+Nova Delhi
 Washington
-Brasilia
-Moscow
-Mexico City
-Tokyo
-Tehran
-Berlin
-Ankara
+Brasília
+Moscou
+Cidade do México
+Tóquio
+Teerã
+Berlim
+Ancara
 Paris
-London
+Londres
 Bangkok
-Rome
+Roma
 Cairo
-Pretoria
-Seoul
-Madrid
+Pretória
+Seul
+Madri
 Buenos Aires
-Brussels
+Bruxelas
 Kiev
-Warsaw
+Varsóvia
 Ottawa
-Vienna
-Bern
-Amsterdam
-Jakarta
-Athens
-Lisbon
+Viena
+Berna
+Amsterdã
+Jacarta
+Atenas
+Lisboa
 Canberra
-Bogota
-Algiers
+Bogotá
+Argel
 Zagreb
 Rabat
-Hanoi
-Stockholm
+Hanói
+Estocolmo
 Abuja
 Santiago
-Budapest
-Bucharest
-Riyadh
+Budapeste
+Bucareste
+Riad
 Sofia
-Copenhagen
-Helsinki
+Copenhague
+Helsinque
 Dublin
 Oslo
-Belgrade
+Belgrado
 Kuala Lumpur
 Lima
 Tbilisi
 Havana
-Accra
+Acra
 Astana
-Baghdad
-Kabul
-Jerusalem
-Reykjavik
+Bagdá
+Cabul
+Jerusalém
+Reiquiavique
 Sarajevo
 Yerevan
-Ljubljana
+Liubliana
 Wellington
 Tirana
 Bratislava
 Caracas
-Prague
+Praga
 Quito
-Dakar
-Kathmandu
-Mogadishu
+Dacar
+Katmandu
+Mogadíscio
 Baku
-Tunis
-Ulan Bator
-Islamabad
+Túnis
+Ulaanbaatar
+Islamabade
 Manila
 Colombo
-Nairobi
+Nairóbi
 Phnom Penh
 Vilnius
 Bamako
 Podgorica
 Minsk
-Yaounde
-Tashkent
+Yaoundé
+Tasquente
 Naypyidaw
-Montevideo
+Montevidéu
 Kingston
 Sucre
-Kampala
+Campala
 Yamoussoukro
-Nicosia
+Nicósia
 Antananarivo
-Port-au-Prince
+Porto Príncipe
 Luanda
 Doha
 Pyongyang
 Dodoma
 Sanaa
 Niamey
-Addis Ababa
-San Jose
-Damascus
-Amman
+Adis Abeba
+San José
+Damasco
+Amã
 Santo Domingo
 Abu Dhabi
 Tegucigalpa
 Dushanbe
-Monaco
+Mônaco
 N'Djamena
 Maputo
 Tallinn
-Singapore
+Cingapura
 Lusaka
 Porto-Novo
-Port Moresby
-Conakry
-Lome
-Asuncion
+Porto Moresby
+Conacri
+Lomé
+Assunção
 Vientiane
-Dhaka
+Daca
 Kigali
 Ouagadougou
-Tripoli
-Beirut
-Bishkek
-Ashgabat
+Trípoli
+Beirute
+Bisqueque
+Asgabade
 Lilongwe
-Khartoum
+Cartum
 Bangui
-East Jerusalem
 Kinshasa
-Muscat
+Mascate
 Vaduz
-Guatemala City
+cidade da Guatemala
 Juba
 Bujumbura
-Monrovia
+Monróvia
 Harare
-Kuwait City
-Panama City
+Kuwait
+Cidade do Panamá
 Freetown
-Luxembourg
+Luxemburgo
 Asmara
-San Marino
+São Marinho
 Chisinau
 Windhoek
-Banjul
 Nouakchott
-Gaborone
+Gaborona
 Libreville
 Brazzaville
-Skopje
+Escópia
 Maseru
 Riga
 Bissau
 Manama
-Malabo
-Dili
-Port of Spain
-Port Louis
-Djibouti
-Mbabane
-Moroni
-Suva
+Díli
+Porto Louis
+Djibuti
 Georgetown
-San Salvador
-Managua
-Thimphu
-Honiara
-Paramaribo
-Praia
-Valletta
-Bandar Seri Begawan
+são Salvador
+Valeta
 Belmopan
-Nassau
-Malé
-Port Vila
 Bridgetown
-São Tomé
-Apia
-Castries
-Tarawa
-St. George's
-Kingstown
-Palikir
-Nuku'alofa
-Victoria
-St. John's
-Andorra la Vella
-Roseau
-Majuro
-Basseterre
-Ngerulmud
-Yaren
-Funafuti
+Vitória
+Andorra-a-Velha

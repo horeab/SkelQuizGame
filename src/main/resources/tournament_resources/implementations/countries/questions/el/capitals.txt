@@ -1,194 +1,163 @@
-Beijing
-New Delhi
-Washington
-Brasilia
-Moscow
-Mexico City
-Tokyo
-Tehran
-Berlin
-Ankara
-Paris
-London
-Bangkok
-Rome
-Cairo
-Pretoria
-Seoul
-Madrid
-Buenos Aires
-Brussels
-Kiev
-Warsaw
-Ottawa
-Vienna
-Bern
-Amsterdam
-Jakarta
-Athens
-Lisbon
-Canberra
-Bogota
-Algiers
-Zagreb
-Rabat
-Hanoi
-Stockholm
+Πεκίνο
+Νέο Δελχί
+Ουάσινγκτον
+Μπραζίλια
+Μόσχα
+Πόλη του Μεξικού
+Τόκιο
+Τεχεράνη
+Βερολίνο
+Άγκυρα
+Παρίσι
+Λονδίνο
+Μπανγκόκ
+Ρώμη
+Κάιρο
+Πρετόρια
+Σεούλ
+Μαδρίτη
+Μπουένος Άιρες
+Βρυξέλλες
+Κίεβο
+Βαρσοβία
+Οττάβα
+Βιέννη
+Βέρνη
+Άμστερνταμ
+Τζακάρτα
+Αθήνα
+Λισαβόνα
+Καμπέρα
+Μπογκοτά
+Αλγερίο
+Ζάγκρεμπ
+Ραμπάτ
+Ανόι
+Στοκχόλμη
 Abuja
-Santiago
-Budapest
-Bucharest
-Riyadh
-Sofia
-Copenhagen
-Helsinki
-Dublin
-Oslo
-Belgrade
-Kuala Lumpur
-Lima
-Tbilisi
-Havana
-Accra
-Astana
-Baghdad
-Kabul
-Jerusalem
-Reykjavik
-Sarajevo
-Yerevan
-Ljubljana
-Wellington
-Tirana
-Bratislava
-Caracas
-Prague
-Quito
-Dakar
-Kathmandu
-Mogadishu
-Baku
-Tunis
-Ulan Bator
-Islamabad
-Manila
-Colombo
-Nairobi
-Phnom Penh
-Vilnius
-Bamako
-Podgorica
-Minsk
-Yaounde
-Tashkent
-Naypyidaw
-Montevideo
-Kingston
-Sucre
-Kampala
-Yamoussoukro
-Nicosia
-Antananarivo
-Port-au-Prince
-Luanda
-Doha
-Pyongyang
-Dodoma
-Sanaa
-Niamey
-Addis Ababa
-San Jose
-Damascus
-Amman
-Santo Domingo
-Abu Dhabi
-Tegucigalpa
-Dushanbe
-Monaco
-N'Djamena
-Maputo
-Tallinn
-Singapore
-Lusaka
-Porto-Novo
-Port Moresby
-Conakry
-Lome
-Asuncion
-Vientiane
-Dhaka
-Kigali
-Ouagadougou
-Tripoli
-Beirut
-Bishkek
-Ashgabat
-Lilongwe
-Khartoum
-Bangui
-East Jerusalem
-Kinshasa
-Muscat
-Vaduz
-Guatemala City
-Juba
-Bujumbura
-Monrovia
-Harare
-Kuwait City
-Panama City
-Freetown
-Luxembourg
-Asmara
-San Marino
-Chisinau
-Windhoek
-Banjul
-Nouakchott
-Gaborone
-Libreville
-Brazzaville
-Skopje
-Maseru
-Riga
-Bissau
-Manama
-Malabo
-Dili
-Port of Spain
-Port Louis
-Djibouti
-Mbabane
-Moroni
-Suva
-Georgetown
-San Salvador
-Managua
-Thimphu
-Honiara
-Paramaribo
-Praia
-Valletta
-Bandar Seri Begawan
-Belmopan
-Nassau
-Malé
-Port Vila
-Bridgetown
-São Tomé
-Apia
-Castries
-Tarawa
-St. George's
-Kingstown
-Palikir
-Nuku'alofa
-Victoria
-St. John's
-Andorra la Vella
-Roseau
-Majuro
-Basseterre
-Ngerulmud
-Yaren
-Funafuti
+Σαντιάγο
+Βουδαπέστη
+Βουκουρέστι
+Ριάντ
+Σοφία
+Κοπεγχάγη
+Χέλσινκι
+Δουβλίνο
+Άσλο
+Βελιγράδιο
+Κουάλα Λουμπούρ
+Λίμα
+Τιφλίδα
+Αβάνα
+Άκρα
+Αστάνα
+Βαγδάτη
+Καμπούλ
+Ιερουσαλήμ
+Ρέικιαβικ
+Σεράγεβο
+Ερεβάν
+Λιουμπλιάνα
+Ουέλινγκτον
+Τιράνα
+Μπρατισλάβα
+Καράκας
+Πράγα
+Κίτο
+Ντακάρ
+Κατμαντού
+Μογκαντίσου
+Μπακού
+Τυνίδος
+Ουλάν Μπάτορ
+Ισλαμαμπάντ
+Μανίλα
+Κολόμπο
+Ναϊρόμπι
+Πνομ Πενχ
+Βίλνιους
+Μπαμάκο
+Ποντγκόριτσα
+Μινσκ
+Γιαουντέ
+Τασκένδη
+Νέπιντο
+Μοντεβιδέο
+Κίνγκστον
+Σούκρε
+Καμπάλα
+Γιαμουσούκρο
+Λευκωσία
+Ανταναναρίβο
+Πορτ-ο-Πρενς
+Λουάντα
+Ντόχα
+Πιονγκγιάνγκ
+Ντοντόμα
+Σαναά
+Νιαμέι
+Αντίς Αμπέμπα
+Σαν Χοσέ
+Δαμάσκο
+Αμμάν
+Σάντο Ντομίνγκο
+Αμπού Ντάμπι
+Τεγουσιγάλπα
+Ντουσάνμπε
+Μονακό
+Ντζαμένα
+Μαπούτο
+Ταλίν
+Σιγκαπούρη
+Λουσάκα
+Πόρτο-Νόβο
+Πορτ Μόρεσμπι
+Κονακρί
+Λομέ
+Ασουνσιόν
+Βιεντιάν
+Ντάκα
+Κιγκάλι
+Ουαγκαντούγκου
+Τρίπολις
+Βηρύτος
+Μπισκέκ
+Ασγκαμπάτ
+Λιλόνγκουε
+Χαρτούμ
+Μπανγκούι
+Κινσάσα
+Μουσκάτ
+Βαντούζ
+Πόλη της Γουατεμάλας
+Τζούμπα
+Μπουζουμπούρα
+Μονρόβια
+Χαράρε
+Πόλη του Κουβέιτ
+Πόλη του Παναμά
+Φρίταουν
+Λουξεμβούργο
+Ασμάρα
+Σαν Μαρίνο
+Κισινάου
+Γουίντχουκ
+Νουακσότ
+Γκαμπορόνε
+Λιμπρεβίλ
+Μπραζαβίλ
+Σκόπια
+Μαζέρου
+Ρίγα
+Μπισάου
+Μανάμα
+Ντίλι
+Πορτ Λούις
+Τζιμπουτί
+Τζορτζτάουν
+Σαν Σαλβαδόρ
+Βαλέτα
+Μπελμοπάν
+Μπρίτζταουν
+Βικτώρια
+Ανδόρα λα Βέγια

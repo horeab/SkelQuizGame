@@ -1,194 +1,163 @@
 Beijing
-New Delhi
+Nueva Delhi
 Washington
-Brasilia
-Moscow
-Mexico City
-Tokyo
-Tehran
-Berlin
+Brasília
+Moscú
+Ciudad de México
+tokio
+Teherán
+Berlín
 Ankara
-Paris
-London
-Bangkok
-Rome
-Cairo
+París
+Londres
+bangkok
+Roma
+El Cairo
 Pretoria
-Seoul
+Seúl
 Madrid
 Buenos Aires
-Brussels
-Kiev
-Warsaw
+Bruselas
+kiev
+Varsovia
 Ottawa
-Vienna
-Bern
-Amsterdam
-Jakarta
-Athens
-Lisbon
+Viena
+Berna
+Ámsterdam
+Jacarta
+Atenas
+Lisboa
 Canberra
-Bogota
-Algiers
+Bogotá
+Argel
 Zagreb
 Rabat
 Hanoi
-Stockholm
-Abuja
-Santiago
-Budapest
-Bucharest
-Riyadh
-Sofia
-Copenhagen
-Helsinki
-Dublin
+Estocolmo
+Abuya
+santiago
+budapest
+Bucarest
+Riad
+Sofía
+Copenhague
+helsinki
+Dublín
 Oslo
-Belgrade
+Belgrado
 Kuala Lumpur
-Lima
-Tbilisi
-Havana
-Accra
-Astana
-Baghdad
+lima
+Tiflis
+la Habana
+Acra
+Astaná
+Bagdad
 Kabul
-Jerusalem
-Reykjavik
-Sarajevo
-Yerevan
-Ljubljana
+Jerusalén
+Reikiavik
+sarajevo
+Ereván
+liubliana
 Wellington
 Tirana
 Bratislava
 Caracas
-Prague
+Praga
 Quito
 Dakar
-Kathmandu
-Mogadishu
-Baku
-Tunis
-Ulan Bator
-Islamabad
+Katmandú
+Mogadisio
+Bakú
+Túnez
+Ulán Bator
+islamabad
 Manila
-Colombo
+colombo
 Nairobi
 Phnom Penh
-Vilnius
-Bamako
+Vilna
+bamako
 Podgorica
 Minsk
-Yaounde
+Yaundé
 Tashkent
-Naypyidaw
+Naipyidó
 Montevideo
 Kingston
 Sucre
 Kampala
-Yamoussoukro
-Nicosia
+Yamusukro
+nicosia
 Antananarivo
-Port-au-Prince
+Puerto Príncipe
 Luanda
 Doha
-Pyongyang
+Pionyang
 Dodoma
-Sanaa
+Saná
 Niamey
-Addis Ababa
+Addis Abeba
 San Jose
-Damascus
-Amman
+Damasco
+Amán
 Santo Domingo
 Abu Dhabi
 Tegucigalpa
 Dushanbe
-Monaco
-N'Djamena
+Mónaco
+Yamena
 Maputo
-Tallinn
-Singapore
+Tallin
+Singapur
 Lusaka
-Porto-Novo
-Port Moresby
-Conakry
-Lome
-Asuncion
-Vientiane
-Dhaka
+Porto Novo
+puerto moresby
+Conakri
+Lomé
+Asunción
+Vientián
+Daca
 Kigali
-Ouagadougou
-Tripoli
+Uagadugú
+Trípoli
 Beirut
-Bishkek
-Ashgabat
-Lilongwe
-Khartoum
-Bangui
-East Jerusalem
-Kinshasa
-Muscat
+Biskek
+Asjabad
+Lilongüe
+Jartum
+bangui
+Kinsasa
+Mascate
 Vaduz
-Guatemala City
+Ciudad de Guatemala
 Juba
-Bujumbura
+Buyumbura
 Monrovia
 Harare
-Kuwait City
-Panama City
+Ciudad de Kuwait
+ciudad de Panama
 Freetown
-Luxembourg
+luxemburgo
 Asmara
 San Marino
-Chisinau
+Chisináu
 Windhoek
-Banjul
-Nouakchott
+Nuakchot
 Gaborone
 Libreville
 Brazzaville
 Skopje
 Maseru
-Riga
-Bissau
-Manama
-Malabo
+riga
+Bisáu
+manama
 Dili
-Port of Spain
 Port Louis
-Djibouti
-Mbabane
-Moroni
-Suva
-Georgetown
+Yibuti
+georgetown
 San Salvador
-Managua
-Thimphu
-Honiara
-Paramaribo
-Praia
-Valletta
-Bandar Seri Begawan
-Belmopan
-Nassau
-Malé
-Port Vila
+La Valeta
+Belmopán
 Bridgetown
-São Tomé
-Apia
-Castries
-Tarawa
-St. George's
-Kingstown
-Palikir
-Nuku'alofa
 Victoria
-St. John's
-Andorra la Vella
-Roseau
-Majuro
-Basseterre
-Ngerulmud
-Yaren
-Funafuti
+Andorra la Vieja

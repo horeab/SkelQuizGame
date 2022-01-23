@@ -66,7 +66,7 @@ Praga
 Quito
 Dakar
 Kathmandu
-Mogadishu
+Mogadiscio
 Baku
 Tunis
 Ulan Bator
@@ -121,12 +121,11 @@ Kigali
 Ouagadougou
 Tripoli
 Beirut
-Bishkek
+Bișkek
 Așgabat
 Lilongwe
 Khartum
 Bangui
-Ierusalimul de Est
 Kinshasa
 Muscat
 Vaduz
@@ -135,7 +134,7 @@ Juba
 Bujumbura
 Monrovia
 Harare
-Kuwait City
+Kuweit
 Ciudad de Panamá
 Freetown
 Luxemburg
@@ -143,7 +142,6 @@ Asmara
 San Marino
 Chişinău
 Windhoek
-Banjul
 Nouakchott
 Gaborone
 Libreville
@@ -153,42 +151,13 @@ Maseru
 Riga
 Bissau
 Manama
-Malabo
 Dili
-Port of Spain
 Port Louis
 Djibouti
-Mbabane
-Moroni
-Suva
 Georgetown
 San salvador
-Managua
-Thimphu
-Honiara
-Paramaribo
-Praia
 Valletta
-Bandar Seri Begawan
 Belmopan
-Nassau
-Malé
-Port Vila
 Bridgetown
-São Tomé
-Apia
-Castries
-Tarawa
-St. George's
-Kingstown
-Palikir
-Nuku'alofa
 Victoria
-St. John's
 Andorra la Vella
-Roseau
-Majuro
-Basseterre
-Ngerulmud
-Yaren
-Funafuti

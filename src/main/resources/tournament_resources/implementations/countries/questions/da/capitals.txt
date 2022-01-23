@@ -2,34 +2,34 @@ Beijing
 New Delhi
 Washington
 Brasilia
-Moscow
+Moskva
 Mexico City
 Tokyo
-Tehran
+Teheran
 Berlin
 Ankara
 Paris
 London
 Bangkok
-Rome
+Rom
 Cairo
 Pretoria
 Seoul
 Madrid
 Buenos Aires
-Brussels
+Bruxelles
 Kiev
-Warsaw
+Warszawa
 Ottawa
-Vienna
+Wien
 Bern
 Amsterdam
 Jakarta
-Athens
-Lisbon
+Athen
+Lissabon
 Canberra
 Bogota
-Algiers
+Algier
 Zagreb
 Rabat
 Hanoi
@@ -37,32 +37,32 @@ Stockholm
 Abuja
 Santiago
 Budapest
-Bucharest
+Bukarest
 Riyadh
 Sofia
-Copenhagen
+København
 Helsinki
 Dublin
 Oslo
-Belgrade
+Beograd
 Kuala Lumpur
 Lima
 Tbilisi
 Havana
 Accra
 Astana
-Baghdad
+Bagdad
 Kabul
 Jerusalem
 Reykjavik
 Sarajevo
-Yerevan
+Jerevan
 Ljubljana
 Wellington
 Tirana
 Bratislava
 Caracas
-Prague
+Prag
 Quito
 Dakar
 Kathmandu
@@ -80,7 +80,7 @@ Bamako
 Podgorica
 Minsk
 Yaounde
-Tashkent
+Tasjkent
 Naypyidaw
 Montevideo
 Kingston
@@ -96,9 +96,9 @@ Pyongyang
 Dodoma
 Sanaa
 Niamey
-Addis Ababa
+Addis Abeba
 San Jose
-Damascus
+Damaskus
 Amman
 Santo Domingo
 Abu Dhabi
@@ -121,12 +121,11 @@ Kigali
 Ouagadougou
 Tripoli
 Beirut
-Bishkek
-Ashgabat
+Bisjkek
+Asjkhabad
 Lilongwe
 Khartoum
 Bangui
-East Jerusalem
 Kinshasa
 Muscat
 Vaduz
@@ -141,9 +140,8 @@ Freetown
 Luxembourg
 Asmara
 San Marino
-Chisinau
+Chișinău
 Windhoek
-Banjul
 Nouakchott
 Gaborone
 Libreville
@@ -153,42 +151,13 @@ Maseru
 Riga
 Bissau
 Manama
-Malabo
 Dili
-Port of Spain
 Port Louis
 Djibouti
-Mbabane
-Moroni
-Suva
 Georgetown
 San Salvador
-Managua
-Thimphu
-Honiara
-Paramaribo
-Praia
 Valletta
-Bandar Seri Begawan
 Belmopan
-Nassau
-Malé
-Port Vila
 Bridgetown
-São Tomé
-Apia
-Castries
-Tarawa
-St. George's
-Kingstown
-Palikir
-Nuku'alofa
 Victoria
-St. John's
 Andorra la Vella
-Roseau
-Majuro
-Basseterre
-Ngerulmud
-Yaren
-Funafuti

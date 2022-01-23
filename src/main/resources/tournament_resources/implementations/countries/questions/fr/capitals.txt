@@ -1,62 +1,62 @@
-Beijing
+Pékin
 New Delhi
 Washington
 Brasilia
-Moscow
-Mexico City
+Moscou
+Mexico
 Tokyo
-Tehran
+Téhéran
 Berlin
 Ankara
 Paris
-London
+Londres
 Bangkok
 Rome
-Cairo
-Pretoria
-Seoul
+Caire
+Prétoria
+Séoul
 Madrid
 Buenos Aires
-Brussels
+Bruxelles
 Kiev
-Warsaw
+Varsovie
 Ottawa
-Vienna
-Bern
+Vienne
+Berne
 Amsterdam
 Jakarta
-Athens
-Lisbon
+Athènes
+Lisbonne
 Canberra
 Bogota
-Algiers
+Alger
 Zagreb
 Rabat
-Hanoi
+Hanoï
 Stockholm
 Abuja
 Santiago
 Budapest
-Bucharest
-Riyadh
+Bucarest
+Riyad
 Sofia
-Copenhagen
+Copenhague
 Helsinki
 Dublin
 Oslo
 Belgrade
 Kuala Lumpur
 Lima
-Tbilisi
-Havana
+Tbilissi
+La Havane
 Accra
 Astana
-Baghdad
-Kabul
-Jerusalem
+Bagdad
+Kaboul
+Jérusalem
 Reykjavik
 Sarajevo
-Yerevan
+Erevan
 Ljubljana
 Wellington
 Tirana
@@ -65,13 +65,13 @@ Caracas
 Prague
 Quito
 Dakar
-Kathmandu
-Mogadishu
-Baku
-Tunis
+Katmandou
+Mogadiscio
+Bakou
+tunis
 Ulan Bator
 Islamabad
-Manila
+Manille
 Colombo
 Nairobi
 Phnom Penh
@@ -79,15 +79,15 @@ Vilnius
 Bamako
 Podgorica
 Minsk
-Yaounde
-Tashkent
+Yaoundé
+Tachkent
 Naypyidaw
-Montevideo
+Montevidéo
 Kingston
 Sucre
 Kampala
 Yamoussoukro
-Nicosia
+Nicosie
 Antananarivo
 Port-au-Prince
 Luanda
@@ -97,53 +97,51 @@ Dodoma
 Sanaa
 Niamey
 Addis Ababa
-San Jose
-Damascus
+San José
+Damas
 Amman
-Santo Domingo
-Abu Dhabi
+Saint Domingue
+Abou Dabi
 Tegucigalpa
-Dushanbe
+Douchanbé
 Monaco
-N'Djamena
+N'Djaména
 Maputo
-Tallinn
-Singapore
+Tallin
+Singapour
 Lusaka
-Porto-Novo
+Porto Novo
 Port Moresby
 Conakry
-Lome
-Asuncion
+Lomé
+Asunción
 Vientiane
-Dhaka
+Dacca
 Kigali
 Ouagadougou
 Tripoli
-Beirut
-Bishkek
-Ashgabat
+Beyrouth
+Bichkek
+Achgabat
 Lilongwe
 Khartoum
 Bangui
-East Jerusalem
 Kinshasa
 Muscat
 Vaduz
-Guatemala City
-Juba
+Ville de Guatemala
+Djouba
 Bujumbura
 Monrovia
 Harare
-Kuwait City
-Panama City
+Ville de Koweït
+Ville de Panama
 Freetown
 Luxembourg
 Asmara
-San Marino
+Saint Marin
 Chisinau
 Windhoek
-Banjul
 Nouakchott
 Gaborone
 Libreville
@@ -153,42 +151,13 @@ Maseru
 Riga
 Bissau
 Manama
-Malabo
 Dili
-Port of Spain
 Port Louis
 Djibouti
-Mbabane
-Moroni
-Suva
 Georgetown
 San Salvador
-Managua
-Thimphu
-Honiara
-Paramaribo
-Praia
-Valletta
-Bandar Seri Begawan
+La Valette
 Belmopan
-Nassau
-Malé
-Port Vila
 Bridgetown
-São Tomé
-Apia
-Castries
-Tarawa
-St. George's
-Kingstown
-Palikir
-Nuku'alofa
 Victoria
-St. John's
-Andorra la Vella
-Roseau
-Majuro
-Basseterre
-Ngerulmud
-Yaren
-Funafuti
+Andorre-la-Vieille

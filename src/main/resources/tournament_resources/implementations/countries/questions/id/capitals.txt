@@ -2,34 +2,34 @@ Beijing
 New Delhi
 Washington
 Brasilia
-Moscow
-Mexico City
+Moskow
+kota Meksiko
 Tokyo
-Tehran
+Teheran
 Berlin
 Ankara
 Paris
 London
 Bangkok
-Rome
-Cairo
+Roma
+Kairo
 Pretoria
-Seoul
+seoul
 Madrid
 Buenos Aires
-Brussels
+Brussel
 Kiev
-Warsaw
+Warsawa
 Ottawa
-Vienna
+Wina
 Bern
 Amsterdam
 Jakarta
-Athens
-Lisbon
+Athena
+Lisboa
 Canberra
-Bogota
-Algiers
+Bogotá
+Aljir
 Zagreb
 Rabat
 Hanoi
@@ -37,46 +37,46 @@ Stockholm
 Abuja
 Santiago
 Budapest
-Bucharest
+Bukares
 Riyadh
 Sofia
-Copenhagen
+Kopenhagen
 Helsinki
 Dublin
 Oslo
-Belgrade
+Beograd
 Kuala Lumpur
-Lima
+lima
 Tbilisi
 Havana
 Accra
-Astana
-Baghdad
+astana
+Bagdad
 Kabul
-Jerusalem
+Yerusalem
 Reykjavik
 Sarajevo
 Yerevan
 Ljubljana
 Wellington
 Tirana
-Bratislava
+bratislava
 Caracas
-Prague
+Praha
 Quito
 Dakar
 Kathmandu
 Mogadishu
 Baku
-Tunis
+Tunisia
 Ulan Bator
 Islamabad
 Manila
-Colombo
+Kolombo
 Nairobi
 Phnom Penh
 Vilnius
-Bamako
+bamako
 Podgorica
 Minsk
 Yaounde
@@ -87,10 +87,10 @@ Kingston
 Sucre
 Kampala
 Yamoussoukro
-Nicosia
+Nikosia
 Antananarivo
 Port-au-Prince
-Luanda
+luanda
 Doha
 Pyongyang
 Dodoma
@@ -98,97 +98,66 @@ Sanaa
 Niamey
 Addis Ababa
 San Jose
-Damascus
+Damaskus
 Amman
 Santo Domingo
 Abu Dhabi
 Tegucigalpa
 Dushanbe
-Monaco
+Monako
 N'Djamena
 Maputo
 Tallinn
-Singapore
+Singapura
 Lusaka
 Porto-Novo
 Port Moresby
 Conakry
-Lome
-Asuncion
+Lomé
+Asunción
 Vientiane
 Dhaka
 Kigali
 Ouagadougou
 Tripoli
 Beirut
-Bishkek
+Biskek
 Ashgabat
 Lilongwe
 Khartoum
 Bangui
-East Jerusalem
 Kinshasa
-Muscat
+Muskat
 Vaduz
-Guatemala City
+kota Guatemala
 Juba
 Bujumbura
-Monrovia
+monrovia
 Harare
-Kuwait City
-Panama City
+kota Kuwait
+kota Panama
 Freetown
-Luxembourg
+Luksemburg
 Asmara
 San Marino
 Chisinau
 Windhoek
-Banjul
 Nouakchott
-Gaborone
+gaboron
 Libreville
 Brazzaville
 Skopje
-Maseru
+maseru
 Riga
 Bissau
 Manama
-Malabo
 Dili
-Port of Spain
 Port Louis
 Djibouti
-Mbabane
-Moroni
-Suva
 Georgetown
 San Salvador
-Managua
-Thimphu
-Honiara
-Paramaribo
-Praia
 Valletta
-Bandar Seri Begawan
 Belmopan
-Nassau
-Malé
-Port Vila
 Bridgetown
-São Tomé
-Apia
-Castries
-Tarawa
-St. George's
-Kingstown
-Palikir
-Nuku'alofa
 Victoria
-St. John's
 Andorra la Vella
-Roseau
-Majuro
-Basseterre
-Ngerulmud
-Yaren
-Funafuti

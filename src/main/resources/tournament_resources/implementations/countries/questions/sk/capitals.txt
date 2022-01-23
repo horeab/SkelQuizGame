@@ -1,75 +1,75 @@
-Beijing
-New Delhi
+Peking
+Nové Dillí
 Washington
 Brasilia
-Moscow
-Mexico City
-Tokyo
-Tehran
-Berlin
+Moskva
+Ciudad de México
+Tokio
+Teherán
+Berlín
 Ankara
-Paris
-London
+Paríž
+Londýn
 Bangkok
-Rome
-Cairo
-Pretoria
-Seoul
+Rím
+Káhira
+Pretória
+Soul
 Madrid
 Buenos Aires
-Brussels
-Kiev
-Warsaw
+Brusel
+Kyjev
+Varšava
 Ottawa
-Vienna
+Viedeň
 Bern
 Amsterdam
 Jakarta
-Athens
-Lisbon
+Atény
+Lisabon
 Canberra
 Bogota
-Algiers
-Zagreb
+Alžír
+Záhreb
 Rabat
-Hanoi
-Stockholm
+Hanoj
+Štokholm
 Abuja
 Santiago
-Budapest
-Bucharest
-Riyadh
+Budapešť
+Bukurešť
+Rijád
 Sofia
-Copenhagen
+Kodaň
 Helsinki
 Dublin
 Oslo
-Belgrade
+Belehrad
 Kuala Lumpur
 Lima
 Tbilisi
 Havana
 Accra
 Astana
-Baghdad
-Kabul
-Jerusalem
-Reykjavik
+Bagdad
+Kábul
+Jeruzalem
+Reykjavík
 Sarajevo
-Yerevan
-Ljubljana
+Jerevan
+Ľubľana
 Wellington
 Tirana
 Bratislava
 Caracas
-Prague
+Praha
 Quito
 Dakar
-Kathmandu
-Mogadishu
+Káthmandu
+Mogadišo
 Baku
 Tunis
-Ulan Bator
+Ulánbátar
 Islamabad
 Manila
 Colombo
@@ -80,35 +80,35 @@ Bamako
 Podgorica
 Minsk
 Yaounde
-Tashkent
-Naypyidaw
+Taškent
+Nay Pyi Taw
 Montevideo
 Kingston
 Sucre
 Kampala
 Yamoussoukro
-Nicosia
+Nikózia
 Antananarivo
 Port-au-Prince
 Luanda
-Doha
-Pyongyang
+Dauha
+Pjongčang
 Dodoma
 Sanaa
 Niamey
-Addis Ababa
+Addis Abeba
 San Jose
-Damascus
-Amman
+Damask
+Ammán
 Santo Domingo
 Abu Dhabi
 Tegucigalpa
-Dushanbe
-Monaco
+Dušanbe
+Monako
 N'Djamena
 Maputo
 Tallinn
-Singapore
+Singapur
 Lusaka
 Porto-Novo
 Port Moresby
@@ -116,34 +116,32 @@ Conakry
 Lome
 Asuncion
 Vientiane
-Dhaka
+Dháka
 Kigali
 Ouagadougou
-Tripoli
-Beirut
-Bishkek
-Ashgabat
+Tripolis
+Bejrút
+Biškek
+Ašchabad
 Lilongwe
-Khartoum
+Chartúm
 Bangui
-East Jerusalem
 Kinshasa
-Muscat
+Maskat
 Vaduz
 Guatemala City
 Juba
 Bujumbura
 Monrovia
 Harare
-Kuwait City
+Kuvajt City
 Panama City
 Freetown
-Luxembourg
+Luxembursko
 Asmara
-San Marino
-Chisinau
+San Maríno
+Kišiňov
 Windhoek
-Banjul
 Nouakchott
 Gaborone
 Libreville
@@ -153,42 +151,13 @@ Maseru
 Riga
 Bissau
 Manama
-Malabo
 Dili
-Port of Spain
 Port Louis
-Djibouti
-Mbabane
-Moroni
-Suva
+Džibutsko
 Georgetown
 San Salvador
-Managua
-Thimphu
-Honiara
-Paramaribo
-Praia
 Valletta
-Bandar Seri Begawan
 Belmopan
-Nassau
-Malé
-Port Vila
 Bridgetown
-São Tomé
-Apia
-Castries
-Tarawa
-St. George's
-Kingstown
-Palikir
-Nuku'alofa
 Victoria
-St. John's
 Andorra la Vella
-Roseau
-Majuro
-Basseterre
-Ngerulmud
-Yaren
-Funafuti

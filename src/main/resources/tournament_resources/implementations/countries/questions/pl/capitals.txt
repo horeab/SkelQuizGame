@@ -1,194 +1,163 @@
-Beijing
-New Delhi
-Washington
-Brasilia
-Moscow
-Mexico City
-Tokyo
-Tehran
+Pekin
+Nowe Delhi
+Waszyngton
+Brazylia
+Moskwa
+Meksyk
+Tokio
+Teheran
 Berlin
 Ankara
-Paris
-London
+Paryż
+Londyn
 Bangkok
-Rome
-Cairo
+Rzym
+Kair
 Pretoria
-Seoul
-Madrid
+Seul
+Madryt
 Buenos Aires
-Brussels
-Kiev
-Warsaw
+Bruksela
+Kijów
+Warszawa
 Ottawa
-Vienna
-Bern
+Wiedeń
+Berno
 Amsterdam
-Jakarta
-Athens
-Lisbon
+Djakarta
+Ateny
+Lizbona
 Canberra
 Bogota
-Algiers
-Zagreb
+Algier
+Zagrzeb
 Rabat
 Hanoi
-Stockholm
-Abuja
+Sztokholm
+Abudża
 Santiago
-Budapest
-Bucharest
-Riyadh
+Budapeszt
+Bukareszt
+Rijad
 Sofia
-Copenhagen
+Kopenhaga
 Helsinki
 Dublin
-Oslo
-Belgrade
+Osło
+Belgrad
 Kuala Lumpur
 Lima
 Tbilisi
-Havana
-Accra
+Hawana
+Akra
 Astana
-Baghdad
+Bagdad
 Kabul
-Jerusalem
+Jerozolima
 Reykjavik
-Sarajevo
-Yerevan
-Ljubljana
+Sarajewo
+Erewan
+Lublana
 Wellington
 Tirana
-Bratislava
-Caracas
-Prague
+Bratysława
+Carakas
+Praga
 Quito
 Dakar
-Kathmandu
-Mogadishu
+Katmandu
+Mogadiszu
 Baku
 Tunis
-Ulan Bator
+Ułan Bator
 Islamabad
 Manila
 Colombo
 Nairobi
 Phnom Penh
-Vilnius
+Wilno
 Bamako
 Podgorica
-Minsk
-Yaounde
-Tashkent
+Mińsk
+Jaunde
+Taszkent
 Naypyidaw
 Montevideo
 Kingston
 Sucre
 Kampala
-Yamoussoukro
-Nicosia
-Antananarivo
+Jamusukro
+Nikozja
+Antananarywa
 Port-au-Prince
 Luanda
 Doha
-Pyongyang
+Pjongjang
 Dodoma
-Sanaa
+Sana
 Niamey
-Addis Ababa
+Addis Abeba
 San Jose
-Damascus
+Damaszek
 Amman
 Santo Domingo
-Abu Dhabi
+Abu Dabi
 Tegucigalpa
-Dushanbe
-Monaco
-N'Djamena
+Duszanbe
+Monako
+Ndżamena
 Maputo
 Tallinn
-Singapore
+Singapur
 Lusaka
-Porto-Novo
+Porto Novo
 Port Moresby
-Conakry
+Konakri
 Lome
 Asuncion
-Vientiane
+Wientian
 Dhaka
 Kigali
-Ouagadougou
-Tripoli
-Beirut
-Bishkek
-Ashgabat
+Wagadugu
+Trypolis
+Bejrut
+Biszkek
+Aszchabad
 Lilongwe
-Khartoum
-Bangui
-East Jerusalem
-Kinshasa
-Muscat
+Chartum
+Bangi
+Kinszasa
+Muskat
 Vaduz
-Guatemala City
-Juba
-Bujumbura
-Monrovia
+Miasto Gwatemala
+Dżuba
+Bużumbura
+Monrowia
 Harare
-Kuwait City
-Panama City
+Kuwejt
+miasto Panama
 Freetown
-Luxembourg
+Luksemburg
 Asmara
 San Marino
-Chisinau
-Windhoek
-Banjul
-Nouakchott
+Kiszyniów
+Windhuk
+Nawakszut
 Gaborone
 Libreville
 Brazzaville
 Skopje
 Maseru
-Riga
+Ryga
 Bissau
 Manama
-Malabo
 Dili
-Port of Spain
 Port Louis
-Djibouti
-Mbabane
-Moroni
-Suva
+Dżibuti
 Georgetown
 San Salvador
-Managua
-Thimphu
-Honiara
-Paramaribo
-Praia
 Valletta
-Bandar Seri Begawan
 Belmopan
-Nassau
-Malé
-Port Vila
 Bridgetown
-São Tomé
-Apia
-Castries
-Tarawa
-St. George's
-Kingstown
-Palikir
-Nuku'alofa
 Victoria
-St. John's
-Andorra la Vella
-Roseau
-Majuro
-Basseterre
-Ngerulmud
-Yaren
-Funafuti
+Andora la Vella
