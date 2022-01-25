@@ -1,0 +1,12 @@
+Škandinávie:17,18,20
+Balkánsky polostrov:42,38,37,35,39,23,36,24,26,34
+Región pobaltských štátov:29,30,31
+Stredná Amerika:164,165,166,171,172,173,174
+Magreb:108,107,109,110,138
+Arabský polostrov:47,53,61,60,59,58,57,56
+Východná Ázia:86,87,88,89,90
+Kaukaz:49,50,51
+Juhovýchodná Ázia:76,77,78,79,80,81,82,83,84,85,94
+Stredná Ázia:63,67,66,68,65
+Južná Afrika (región):155,156,157,158,159
+Južná Amerika:183,184,185,186,187,188,189,190,191,192,193,194

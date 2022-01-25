@@ -1,0 +1,12 @@
+Escandinávia:17,18,20
+Península Balcânica:42,38,37,35,39,23,36,24,26,34
+região dos estados bálticos:29,30,31
+América Central:164,165,166,171,172,173,174
+Magrebe:108,107,109,110,138
+Península Arábica:47,53,61,60,59,58,57,56
+Ásia leste:86,87,88,89,90
+Cáucaso:49,50,51
+Sudeste da Ásia:76,77,78,79,80,81,82,83,84,85,94
+Ásia Central:63,67,66,68,65
+África Austral:155,156,157,158,159
+América do Sul:183,184,185,186,187,188,189,190,191,192,193,194
