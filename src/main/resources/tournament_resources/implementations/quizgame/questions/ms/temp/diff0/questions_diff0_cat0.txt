@@ -1,0 +1,11 @@
+:Menara Eiffel, Paris::
+:Colosseum, Rom::
+:Tanda Hollywood, Los Angeles::
+:Piramid Besar Giza, Mesir::
+:Patung Liberty, New York::
+:Tembok Besar China::
+:Angkor Wat, Kemboja::
+:Kota Vatikan::
+:Menara Condong Pisa, Itali::
+:Kristus Penebus, Rio de Janeiro::
+:Panggung Opera Sydney, Sydney::

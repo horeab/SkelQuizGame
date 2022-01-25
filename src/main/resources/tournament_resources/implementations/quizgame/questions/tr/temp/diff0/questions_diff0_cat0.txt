@@ -1,0 +1,11 @@
+:Eyfel Kulesi, Paris::
+:Kolezyum, Roma::
+:Hollywood Sign, Los Angeles::
+:Büyük Giza Piramidi, Mısır::
+:Özgürlük Anıtı, New York::
+:Çin Seddi::
+:Angkor Vat, Kamboçya::
+:Vatikan Şehri::
+:Pisa Kulesi, İtalya::
+:İsa'nın Kurtarıcısı, Rio de Janeiro::
+:Sydney Opera Binası, Sidney::

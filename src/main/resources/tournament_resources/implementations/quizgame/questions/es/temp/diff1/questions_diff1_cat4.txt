@@ -1,0 +1,10 @@
+:Salto Ángel, Venezuela:10,9,18:
+:Monte Kilimanjaro, Tanzania::
+:Delta del Danubio, Rumania::
+:Cataratas Victoria, Zimbabwe y Zambia:21,18,11:
+:Ojo del Sahara, Mauritania::
+:El Mar Muerto, Israel::
+:Acantilados de Moher, Irlanda::
+:Volcanes de barro, Azerbaiyán::
+:Lago Moraine, Canadá::
+:Canicas del diablo, Australia::

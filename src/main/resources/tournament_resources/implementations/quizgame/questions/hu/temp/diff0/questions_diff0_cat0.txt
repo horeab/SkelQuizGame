@@ -1,0 +1,11 @@
+:Eiffel-torony, Párizs::
+:Colosseum, Róma::
+:Hollywood Jel, Los Angeles::
+:Nagy Giza-i piramis, Egyiptom::
+:Szabadság-szobor, New York::
+:Kínai Nagy Fal::
+:Angkorvat, Kambodzsa::
+:Vatikánváros::
+:Pisa ferde tornya, Olaszország::
+:A megváltó Krisztus, Rio de Janeiro::
+:Sydney Operaház, Sydney::

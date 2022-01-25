@@ -1,0 +1,11 @@
+:Tháp Eiffel, Paris::
+:Đấu trường La Mã, Rome::
+:Dấu hiệu Hollywood, Los Angeles::
+:Kim tự tháp Giza vĩ đại, Ai Cập::
+:Tượng Nữ thần Tự do, New York::
+:Vạn Lý Trường Thành của Trung Quốc::
+:Angkor Wat, Campuchia::
+:Thành phố Vatican::
+:Tháp nghiêng Pisa, Ý::
+:Chúa Cứu thế, Rio de Janeiro::
+:Nhà hát Opera Sydney, Sydney::

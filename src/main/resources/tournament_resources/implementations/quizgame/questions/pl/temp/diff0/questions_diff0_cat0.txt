@@ -1,0 +1,11 @@
+:Wieża Eiffla, Paryż::
+:Koloseum, Rzym::
+:Hollywood Sign, Los Angeles::
+:Wielka Piramida w Gizie, Egipt::
+:Statua Wolności, Nowy Jork::
+:Wielki Mur Chiński::
+:Angkor Wat, Kambodża::
+:Watykan::
+:Krzywa wieża w Pizie, Włochy::
+:Chrystus Odkupiciel, Rio de Janeiro::
+:Sydney Opera House, Sydney::

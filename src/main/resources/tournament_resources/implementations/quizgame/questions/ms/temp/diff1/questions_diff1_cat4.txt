@@ -1,0 +1,10 @@
+:Air Terjun Angel, Venezuela:10,9,18:
+:Gunung Kilimanjaro, Tanzania::
+:Delta Danube, Romania::
+:Air Terjun Victoria, Zimbabwe dan Zambia:21,18,11:
+:Mata Sahara, Mauritania::
+:Laut Mati, Israel::
+:Cliffs of Moher, Ireland::
+:Gunung berapi Lumpur, Azerbaijan::
+:Tasik Moraine, Kanada::
+:Marbles Devil, Australia::

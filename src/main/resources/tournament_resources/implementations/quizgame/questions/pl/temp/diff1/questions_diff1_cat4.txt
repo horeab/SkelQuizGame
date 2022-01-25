@@ -1,0 +1,10 @@
+:Salto Angel, Wenezuela:10,9,18:
+:Kilimandżaro, Tanzania::
+:Delta Dunaju, Rumunia::
+:Wodospady Wiktorii, Zimbabwe i Zambia:21,18,11:
+:Kalb ar-Riszat, Mauretania::
+:Morze Martwe, Izrael::
+:Klify Moheru, Ireland::
+:Wulkany błotne, Azerbejdżan::
+:Moraine, Kanada::
+:Karlu Karlu, Australia::

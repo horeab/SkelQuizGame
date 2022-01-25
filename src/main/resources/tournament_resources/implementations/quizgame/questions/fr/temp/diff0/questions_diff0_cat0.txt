@@ -1,0 +1,11 @@
+:Tour Eiffel, Paris::
+:Colisée, Rome::
+:Panneau Hollywood, Los Angeles::
+:Grande Pyramide de Gizeh, Egypte::
+:Statue de la Liberté, New York::
+:Grande Muraille de Chine::
+:Angkor Wat, Cambodge::
+:Cité du Vatican::
+:Tour penchée de Pise, Italie::
+:Christ Rédempteur, Rio de Janeiro::
+:Opéra de Sydney, Sydney::

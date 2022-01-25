@@ -1,0 +1,10 @@
+:Salto Angel, Venezuela:10,9,18:
+:Kilimangiaro, Tanzania::
+:Delta del Danubio, Romania::
+:Cascate Vittoria, Zimbabwe e Zambia:21,18,11:
+:Occhio del Sahara, Mauritania::
+:Il Mar Morto, Israele::
+:Scogliere di Moher, Irlanda::
+:Vulcani di fango, Azerbaijan::
+:Lago Moraine, Canada::
+:Marmi del diavolo, Australia::

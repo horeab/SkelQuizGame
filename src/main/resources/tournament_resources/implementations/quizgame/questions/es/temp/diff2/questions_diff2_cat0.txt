@@ -1,0 +1,8 @@
+:Plaza Roja, Moscú::
+:Petra, Jordania::
+:The Strip, Las Vegas::
+:Gran palacio, Bangkok::
+:La Sagrada Familia, Barcelona::
+:Guerreros de Terracota, China::
+:Times Square, Nueva York::
+:Ciudad Prohibida, Beijing::

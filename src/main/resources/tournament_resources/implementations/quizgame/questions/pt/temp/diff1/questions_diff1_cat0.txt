@@ -1,0 +1,8 @@
+:Acrópole, Atenas::
+:Taj Mahal, Índia::
+:Mesquita Azul, Istambul::
+:Burj Khalifa, Dubai::
+:Museu do Louvre, Paris::
+:Machu Picchu, Peru::
+:Muro de Berlim::
+:Disneyland Resort, Califórnia::

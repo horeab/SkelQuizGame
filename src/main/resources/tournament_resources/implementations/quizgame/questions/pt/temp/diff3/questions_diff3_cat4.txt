@@ -1,0 +1,7 @@
+:Ilha de Jeju, Coreia do Sul:31,25,27:
+:Cataratas do Iguaçu, Argentina e Brasil::
+:Matterhorn, Suíça::
+:Montanha da Mesa, África do Sul:26,24,30:
+:Bu Tinah, Emirados Árabes Unidos:31,29,26:
+:Sundarbans, Bangladesh::
+:Garganta de Verdon, França::

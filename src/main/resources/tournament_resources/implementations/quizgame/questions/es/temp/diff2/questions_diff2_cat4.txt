@@ -1,0 +1,7 @@
+:Pamukkale, Turquía::
+:El río de los cinco colores, Colombia::
+:Volcán Paricutín, México::
+:Cantos rodados de Moeraki, Nueva Zelanda::
+:La gruta azul, Italia:28,31,29:
+:Cuevas de Mármol, Chile:19,25,20:
+:Cueva de cristal, Bermudas:25,30,35:

@@ -1,0 +1,11 @@
+:Torre Eiffel, Parigi::
+:Colosseo, Roma::
+:Scritta Hollywood, Los Angeles::
+:Piramide di Cheope, Egitto::
+:Statua della Libertà, New York::
+:Grande muraglia cinese::
+:Angkor Wat, Cambogia::
+:Città del Vaticano::
+:Torre pendente di Pisa, Italia::
+:Cristo Redentore, Rio de Janeiro::
+:Teatro dell'opera di Sydney, Sydney::

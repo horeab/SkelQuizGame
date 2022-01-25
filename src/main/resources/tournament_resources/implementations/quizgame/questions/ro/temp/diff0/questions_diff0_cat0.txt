@@ -1,0 +1,11 @@
+:Turnul Eiffel, Paris::
+:Colosseum, Roma::
+:Semnul Hollywood, Los Angeles::
+:Marea Piramidă din Giza, Egipt::
+:Statuia Libertăţii, New York::
+:Marele Zid Chinezesc::
+:Angkor Wat, Cambodgia::
+:Vatican::
+:Turnul înclinat din Pisa, Italia::
+:Hristos Răscumpărătorul, Rio de Janeiro::
+:Sydney Opera House, Sydney::

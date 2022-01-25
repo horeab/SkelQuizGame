@@ -1,0 +1,11 @@
+:Eiffelturm, Paris::
+:Kolosseum, Rom::
+:Hollywood Zeichen, Los Angeles::
+:Große Pyramide von Gizeh, Ägypten::
+:Freiheitsstatue, New York::
+:Chinesische Mauer::
+:Angkor Wat, Kambodscha::
+:Vatikanstadt::
+:Schiefer Turm von Pisa, Italien::
+:Christus der Erlöser, Rio de Janeiro::
+:Sydney Opernhaus, Sydney::

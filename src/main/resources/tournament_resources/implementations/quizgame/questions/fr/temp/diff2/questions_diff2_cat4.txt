@@ -1,0 +1,7 @@
+:Pamukkale, Turquie::
+:La rivière des cinq couleurs, Colombie::
+:Volcan Paricutín, Mexique::
+:Moeraki rochers, Nouvelle-Zélande::
+:La Grotte Bleue, Italie:28,31,29:
+:Grottes de marbre, Chili:19,25,20:
+:Grotte de cristal, Bermuda:25,30,35:

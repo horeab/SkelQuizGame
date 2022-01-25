@@ -1,0 +1,7 @@
+:Jeju-eiland, Zuid-Korea:31,25,27:
+:Iguazu-watervallen, Argentinië en Brazilië::
+:Matterhorn, Zwitserland::
+:Tafelberg, Zuid-Afrika:26,24,30:
+:Bu Tinah, Verenigde Arabische Emiraten:31,29,26:
+:Sundarbans, Bangladesh::
+:Gorges du Verdon, Frankrijk::

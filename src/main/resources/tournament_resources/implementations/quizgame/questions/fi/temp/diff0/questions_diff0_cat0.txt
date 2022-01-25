@@ -1,0 +1,11 @@
+:Eiffel-torni, Pariisi::
+:Colosseum, Rooma::
+:Hollywood-merkki, Los Angeles::
+:Gizan suuri pyramidi, Egypti::
+:Vapaudenpatsas, New York::
+:Kiinan suuri muuri::
+:Angkor Wat, Kambodža::
+:Vatikaani::
+:Pisan kalteva torni, Italia::
+:Kristuksen Lunastaja, Rio de Janeiro::
+:Sydneyn oopperatalo, Sydney::
