@@ -1,195 +1,195 @@
-Čína
-India
-Spojené štáty
-Brazília
-Rusko
-Mexiko
-Japonsko
-Irán
 Nemecko
-Turecko
 Francúzsko
 Spojene kralovstvo
-Thailand
-Taliansko
-egypt
-južná Afrika
-Južná Kórea
 španielsko
-Argentína
+Taliansko
 Belgicko
-Ukrajina
-Poľsko
-Kanada
 Rakúsko
+Portugalsko
 švajčiarsko
 Holandsko
-Indonézia
-Grécko
-Portugalsko
-Austrália
-Kolumbia
-Alžírsko
-Chorvátsko
-Maroko
-Vietnam
+Írsko
+Monaco
+Luxembursko
+Lichtenštajnsko
+Andorra
+San Maríno
+Vatikán
 Švédsko
-Nigéria
-Čile
-maďarsko
-Rumunsko
-Saudská Arábia
-Bulharsko
 Dánsko
 Fínsko
-Írsko
 Nórsko
-Srbsko
-Malajzia
-peru
-Georgia
-Kuba
-Ghana
-Kazachstan
-Irak
-Afganistan
-Izrael
 Island
-Bosna a Hercegovina
-Arménsko
+Poľsko
+Grécko
+Chorvátsko
+maďarsko
 Slovinsko
-Nový Zéland
-Albánsko
 Slovensko
-Venezuela
 Česká republika
-Ekvádor
-Senegal
-Nepál
-Somálsko
-Azerbajdžan
-Tunisko
-Mongolsko
-Pakistan
-Filipíny
-Srí Lanka
-Keňa
-Kambodža
+Estónsko
+Lotyšsko
 Litva
-Mali
+Ukrajina
+Rusko
+Rumunsko
+Bulharsko
+Srbsko
+Bosna a Hercegovina
+Albánsko
 čierna Hora
 bielorusko
-Kamerun
-Uzbekistan
-Mjanmarsko
-Uruguaj
-jamaica
-Bolívia
-uganda
-Pobrežie Slonoviny
+Moldavsko
+Severná Macedónsko
 Cyprus
-madagaskar
-haiti
-Angola
-katar
-Severná Kórea
-Tanzánia
-jemen
-Niger
-Etiópia
-Kostarika
+Malta
+Irán
+Turecko
+Irak
+Izrael
+Georgia
+Arménsko
+Azerbajdžan
 Sýria
 Jordán
-Dominikánska republika
-Spojené Arabské Emiráty
-honduras
-Tadžikistan
-Monaco
-Chad
-Mozambik
-Estónsko
-Singapore
-Zambia
-Benin
-Papua-Nová Guinea
-Guinea
-Togo
-Paraguaj
-Laos
-Bangladéš
-Rwanda
-Burkina Faso
-Líbya
 Libanon
+Palestína
+Saudská Arábia
+Spojené Arabské Emiráty
+katar
+jemen
+Omán
+Kuvajt
+Bahrain
+Kazachstan
+Afganistan
+Uzbekistan
+Tadžikistan
 Kirgizsko
 Turkménsko
-Malawi
-Sudan
-Stredoafrická republika
-Palestína
-Konžská demokratická republika
-Omán
-Lichtenštajnsko
-Guatemala
-Južný Sudán
-Burundi
-Libéria
-Zimbabwe
-Kuvajt
-Panama
-Sierra Leone
-Luxembursko
-Eritrea
-San Maríno
-Moldavsko
-Namíbia
-Gambia
-Mauritánia
-Botswana
-Gabon
-Congo
-Severná Macedónsko
-Lesotho
-Lotyšsko
-Guinea-Bissau
-Bahrain
-rovníková Guinea
-Východný Timor
-Trinidad a Tobago
-Mauritius
-Džibutsko
-Eswatini
-komory
-Fiji
-Guyana
-El Salvador
-Nikaragua
+India
+Pakistan
+Nepál
+Srí Lanka
+Bangladéš
 Bhután
-Šalamúnove ostrovy
-Surinam
-Cape Verde
-Malta
-Brunej
-belize
-Bahamské ostrovy
 Maledivy
+Thailand
+Indonézia
+Vietnam
+Malajzia
+Filipíny
+Singapore
+Mjanmarsko
+Laos
+Kambodža
+Brunej
+Čína
+Japonsko
+Južná Kórea
+Severná Kórea
+Mongolsko
+Austrália
+Nový Zéland
+Papua-Nová Guinea
+Východný Timor
+Fiji
+Šalamúnove ostrovy
 Vanuatu
-Vatikán
-Barbados
-Svätý Tomáš a Princov ostrov
 Samoa
-Svätá Lucia
 Kiribati
-Grenada
-Svätý Vincent a Grenadíny
 Mikronézia
 Tonga
-Seychely
-Antigua a Barbuda
-Andorra
-Dominica
 Maršalove ostrovy
-Svätý Krištof a Nevis
 Palau
 Nauru
 Tuvalu
+egypt
+Alžírsko
+Maroko
+Tunisko
+Líbya
+Nigéria
+Ghana
+Senegal
+Mali
+Kamerun
+uganda
+Pobrežie Slonoviny
+Angola
+Tanzánia
+Niger
+Stredoafrická republika
+Konžská demokratická republika
+Burkina Faso
+madagaskar
+Chad
+Mozambik
+Zambia
+Benin
+Guinea
+Togo
+Rwanda
+Malawi
+Burundi
+Libéria
+Zimbabwe
+Sierra Leone
+Gambia
+Mauritánia
+Gabon
+Congo
+Guinea-Bissau
+rovníková Guinea
+Mauritius
+Seychely
+komory
+Cape Verde
+Svätý Tomáš a Princov ostrov
+Somálsko
+Keňa
+Etiópia
+Sudan
+Južný Sudán
+Eritrea
+Džibutsko
+južná Afrika
+Namíbia
+Botswana
+Lesotho
+Eswatini
+Spojené štáty
+Kanada
+Mexiko
+Kuba
+Guatemala
+Kostarika
+belize
+Bahamské ostrovy
+jamaica
+haiti
+Dominikánska republika
+Panama
+El Salvador
+Nikaragua
+honduras
+Svätá Lucia
+Grenada
+Dominica
+Trinidad a Tobago
+Barbados
+Svätý Vincent a Grenadíny
+Antigua a Barbuda
+Svätý Krištof a Nevis
+Brazília
+Argentína
+Kolumbia
+Čile
+peru
+Venezuela
+Ekvádor
+Uruguaj
+Bolívia
+Paraguaj
+Guyana
+Surinam

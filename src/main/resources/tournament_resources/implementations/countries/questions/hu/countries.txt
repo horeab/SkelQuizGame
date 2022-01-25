@@ -1,195 +1,195 @@
-Kína
-India
-Egyesült Államok
-Brazília
-Oroszország
-Mexikó
-Japán
-Irán
 Németország
-Törökország
 Franciaország
 Egyesült Királyság
-Thaiföld
-Olaszország
-Egyiptom
-Dél-Afrika
-Dél-Korea
 Spanyolország
-Argentína
+Olaszország
 Belgium
-Ukrajna
-Lengyelország
-Kanada
 Ausztria
+Portugália
 Svájc
 Hollandia
-Indonézia
-Görögország
-Portugália
-Ausztrália
-Colombia
-Algéria
-Horvátország
-Marokkó
-Vietnam
+Írország
+Monaco
+Luxemburg
+Liechtenstein
+Andorra
+San Marino
+Vatikán
 Svédország
-Nigéria
-Chile
-Magyarország
-Románia
-Szaud-Arábia
-Bulgária
 Dánia
 Finnország
-Írország
 Norvégia
-Szerbia
-Malaysia
-Peru
-Grúzia
-Kuba
-Ghána
-Kazahsztán
-Irak
-Afganisztán
-Izrael
 Izland
-Bosznia és Hercegovina
-Örményország
+Lengyelország
+Görögország
+Horvátország
+Magyarország
 Szlovénia
-Új Zéland
-Albánia
 Szlovákia
-Venezuela
 Cseh Köztársaság
-Ecuador
-Szenegál
-Nepál
-Szomáliában
-Azerbajdzsán
-Tunézia
-Mongólia
-Pakisztán
-Fülöp-szigetek
-Srí Lanka
-Kenya
-Kambodzsa
+Észtország
+Lettország
 Litvánia
-Mali
+Ukrajna
+Oroszország
+Románia
+Bulgária
+Szerbia
+Bosznia és Hercegovina
+Albánia
 Montenegró
 Fehéroroszország
-Kamerun
-Üzbegisztán
-Myanmar
-Uruguay
-Jamaica
-Bolívia
-Uganda
-Elefántcsontpart
+Moldova
+Észak-Macedónia
 Ciprus
-Madagaszkár
-Haiti
-Angola
-Katar
-Észak Kórea
-Tanzánia
-Jemen
-Niger
-Etiópia
-Costa Rica
+Málta
+Irán
+Törökország
+Irak
+Izrael
+Grúzia
+Örményország
+Azerbajdzsán
 Szíria
 Jordánia
-Dominikai Köztársaság
-Egyesült Arab Emírségek
-Honduras
-Tádzsikisztán
-Monaco
-Csád
-Mozambik
-Észtország
-Singapore
-Zambia
-Benin
-Pápua Új-Guinea
-Guinea
-Togo
-Paraguay
-Laosz
-Banglades
-Ruanda
-Burkina Faso
-Líbia
 Libanon
+Palesztina
+Szaud-Arábia
+Egyesült Arab Emírségek
+Katar
+Jemen
+Omán
+Kuvait
+Bahrein
+Kazahsztán
+Afganisztán
+Üzbegisztán
+Tádzsikisztán
 Kirgizisztán
 Türkmenisztán
-Malawi
-Szudán
-Közép-Afrikai Köztársaság
-Palesztina
-Kongói Demokratikus Köztársaság
-Omán
-Liechtenstein
-Guatemala
-Dél Szudán
-Burundi
-Libéria
-Zimbabwe
-Kuvait
-Panama
-Sierra Leone
-Luxemburg
-Eritrea
-San Marino
-Moldova
-Namíbia
-Gambia
-Mauritánia
-Botswana
-Gabon
-Kongó
-Észak-Macedónia
-Lesotho
-Lettország
-Bissau-Guinea
-Bahrein
-Egyenlítői-Guinea
-Kelet-Timor
-Trinidad és Tobago
-Mauritius
-Dzsibuti
-Eswatini
-Comore-szigetek
-Fiji
-Guyana
-El Salvador
-Nicaragua
+India
+Pakisztán
+Nepál
+Srí Lanka
+Banglades
 Bhután
-Salamon-szigetek
-Suriname
-zöld-fok
-Málta
-Brunei
-Belize
-Bahamák
 Maldív-szigetek
+Thaiföld
+Indonézia
+Vietnam
+Malaysia
+Fülöp-szigetek
+Singapore
+Myanmar
+Laosz
+Kambodzsa
+Brunei
+Kína
+Japán
+Dél-Korea
+Észak Kórea
+Mongólia
+Ausztrália
+Új Zéland
+Pápua Új-Guinea
+Kelet-Timor
+Fiji
+Salamon-szigetek
 Vanuatu
-Vatikán
-Barbados
-São Tomé és Príncipe
 Szamoa
-Saint Lucia
 Kiribati
-Grenada
-Saint Vincent és a Grenadine-szigetek
 Mikronézia
 Tonga
-Seychelles
-Antigua és Barbuda
-Andorra
-Dominika
 Marshall-szigetek
-Saint Kitts és Nevis
 Palau
 Nauru
 Tuvalu
+Egyiptom
+Algéria
+Marokkó
+Tunézia
+Líbia
+Nigéria
+Ghána
+Szenegál
+Mali
+Kamerun
+Uganda
+Elefántcsontpart
+Angola
+Tanzánia
+Niger
+Közép-Afrikai Köztársaság
+Kongói Demokratikus Köztársaság
+Burkina Faso
+Madagaszkár
+Csád
+Mozambik
+Zambia
+Benin
+Guinea
+Togo
+Ruanda
+Malawi
+Burundi
+Libéria
+Zimbabwe
+Sierra Leone
+Gambia
+Mauritánia
+Gabon
+Kongó
+Bissau-Guinea
+Egyenlítői-Guinea
+Mauritius
+Seychelles
+Comore-szigetek
+zöld-fok
+São Tomé és Príncipe
+Szomáliában
+Kenya
+Etiópia
+Szudán
+Dél Szudán
+Eritrea
+Dzsibuti
+Dél-Afrika
+Namíbia
+Botswana
+Lesotho
+Eswatini
+Egyesült Államok
+Kanada
+Mexikó
+Kuba
+Guatemala
+Costa Rica
+Belize
+Bahamák
+Jamaica
+Haiti
+Dominikai Köztársaság
+Panama
+El Salvador
+Nicaragua
+Honduras
+Saint Lucia
+Grenada
+Dominika
+Trinidad és Tobago
+Barbados
+Saint Vincent és a Grenadine-szigetek
+Antigua és Barbuda
+Saint Kitts és Nevis
+Brazília
+Argentína
+Colombia
+Chile
+Peru
+Venezuela
+Ecuador
+Uruguay
+Bolívia
+Paraguay
+Guyana
+Suriname

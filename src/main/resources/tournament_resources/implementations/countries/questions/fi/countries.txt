@@ -1,195 +1,195 @@
-Kiina
-Intia
-Yhdysvallat
-Brasilia
-Venäjä
-Meksiko
-Japani
-Iran
 Saksa
-Turkki
 Ranska
 Yhdistynyt kuningaskunta
-Thaimaa
-Italia
-Egypti
-Etelä-Afrikka
-Etelä-Korea
 Espanja
-Argentiina
+Italia
 Belgia
-Ukraina
-Puola
-Kanada
 Itävalta
+Portugali
 Sveitsi
 Alankomaat
-Indonesia
-Kreikka
-Portugali
-Australia
-Kolumbia
-Algeria
-Kroatia
-Marokko
-Vietnam
+Irlanti
+Monaco
+Luxemburg
+Liechtenstein
+Andorra
+San Marino
+Vatikaani
 Ruotsi
-Nigeria
-Chile
-Unkari
-Romania
-Saudi-Arabia
-Bulgaria
 Tanska
 Suomi
-Irlanti
 Norja
-Serbia
-Malesia
-Peru
-Georgia
-Kuuba
-Ghana
-Kazakstan
-Irak
-Afganistan
-Israel
 Islanti
-Bosnia ja Hertsegovina
-Armenia
+Puola
+Kreikka
+Kroatia
+Unkari
 Slovenia
-Uusi Seelanti
-Albania
 slovakia
-Venezuela
 Tšekki
-Ecuador
-Senegal
-Nepal
-somalia
-azerbaijan
-Tunisia
-Mongolia
-Pakistan
-Filippiinit
-Sri Lanka
-Kenia
-Kambodza
+Togo
+Latvia
 Liettua
-mali
+Ukraina
+Venäjä
+Romania
+Bulgaria
+Serbia
+Bosnia ja Hertsegovina
+Albania
 montenegro
 Valko-Venäjä
-Kamerun
-Uzbekistan
-Myanmar
-Uruguay
-Jamaika
-Bolivia
-Uganda
-Norsunluurannikko
+Moldova
+Pohjois-Makedonia
 Kypros
-Madagaskar
-Haiti
-Angola
-Qatar
-Pohjois-Korea
-Tansania
-Jemen
-Niger
-Etiopia
-Costa Rica
+Malta
+Iran
+Turkki
+Irak
+Israel
+Georgia
+Armenia
+azerbaijan
 Syyria
 Jordania
-Dominikaaninen tasavalta
-Yhdistyneet Arabiemiirikunnat
-Honduras
-Tadžikistan
-Monaco
-Chad
-Mosambik
-Togo
-Singapore
-Sambia
-Benin
-Papua-Uusi-Guinea
-Guinea
-Mennä
-Paraguay
-Laos
-Bangladesh
-Ruanda
-Burkina Faso
-Libya
 Libanon
+Palestiina
+Saudi-Arabia
+Yhdistyneet Arabiemiirikunnat
+Qatar
+Jemen
+Oman
+Kuwait
+Bahrain
+Kazakstan
+Afganistan
+Uzbekistan
+Tadžikistan
 Kirgisia
 Turkmenistan
-Malawi
-Sudan
-Keski-Afrikan tasavalta
-Palestiina
-Kongon demokraattinen tasavalta
-Oman
-Liechtenstein
-Guatemala
-eteläsudan
-Burundi
-Liberia
-Zimbabwe
-Kuwait
-Panama
-Sierra Leone
-Luxemburg
-Eritrea
-San Marino
-Moldova
-namibia
-Gambia
-Mauritania
-Botswana
-Gabon
-Kongo
-Pohjois-Makedonia
-lesotho
-Latvia
-Guinea-Bissau
-Bahrain
-Päiväntasaajan Guinea
-Itä-Timor
-Trinidad ja Tobago
-Mauritius
-Djibouti
-Eswatini
-Komorit
-Fidži
-Guyana
-El Salvador
-nicaragua
+Intia
+Pakistan
+Nepal
+Sri Lanka
+Bangladesh
 Bhutan
-Solomonsaaret
-suriname
-Kap Verde
-Malta
-Brunei
-Belize
-Bahama
 Malediivit
+Thaimaa
+Indonesia
+Vietnam
+Malesia
+Filippiinit
+Singapore
+Myanmar
+Laos
+Kambodza
+Brunei
+Kiina
+Japani
+Etelä-Korea
+Pohjois-Korea
+Mongolia
+Australia
+Uusi Seelanti
+Papua-Uusi-Guinea
+Itä-Timor
+Fidži
+Solomonsaaret
 Vanuatu
-Vatikaani
-Barbados
-Sao Tome ja Principe
 Samoa
-Saint Lucia
 Kiribati
-Grenada
-Saint Vincent ja Grenadiinit
 Mikronesia
 Tonga
-Seychellit
-Antigua ja Barbuda
-Andorra
-dominica
 Marshallsaaret
-Saint Kitts ja Nevis
 Palau
 Nauru
 Tuvalu
+Egypti
+Algeria
+Marokko
+Tunisia
+Libya
+Nigeria
+Ghana
+Senegal
+mali
+Kamerun
+Uganda
+Norsunluurannikko
+Angola
+Tansania
+Niger
+Keski-Afrikan tasavalta
+Kongon demokraattinen tasavalta
+Burkina Faso
+Madagaskar
+Chad
+Mosambik
+Sambia
+Benin
+Guinea
+Mennä
+Ruanda
+Malawi
+Burundi
+Liberia
+Zimbabwe
+Sierra Leone
+Gambia
+Mauritania
+Gabon
+Kongo
+Guinea-Bissau
+Päiväntasaajan Guinea
+Mauritius
+Seychellit
+Komorit
+Kap Verde
+Sao Tome ja Principe
+somalia
+Kenia
+Etiopia
+Sudan
+eteläsudan
+Eritrea
+Djibouti
+Etelä-Afrikka
+namibia
+Botswana
+lesotho
+Eswatini
+Yhdysvallat
+Kanada
+Meksiko
+Kuuba
+Guatemala
+Costa Rica
+Belize
+Bahama
+Jamaika
+Haiti
+Dominikaaninen tasavalta
+Panama
+El Salvador
+nicaragua
+Honduras
+Saint Lucia
+Grenada
+dominica
+Trinidad ja Tobago
+Barbados
+Saint Vincent ja Grenadiinit
+Antigua ja Barbuda
+Saint Kitts ja Nevis
+Brasilia
+Argentiina
+Kolumbia
+Chile
+Peru
+Venezuela
+Ecuador
+Uruguay
+Bolivia
+Paraguay
+Guyana
+suriname

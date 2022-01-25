@@ -1,195 +1,195 @@
-Kitajska
-Indija
-Združene države
-Brazilija
-Rusija
-Mehika
-Japonska
-Iran
 Nemčija
-Turčija
 Francija
 Združeno kraljestvo
-Tajska
-Italija
-Egipt
-Južna Afrika
-Južna Koreja
 Španija
-Argentina
+Italija
 Belgija
-Ukrajina
-Poljska
-Kanada
 Avstrija
+Portugalska
 Švica
 Nizozemska
-Indonezija
-Grčija
-Portugalska
-Avstralija
-Kolumbija
-Alžirija
-Hrvaška
-Maroko
-Vietnam
+Irska
+Monako
+Luksemburg
+Liechtenstein
+Andora
+San Marino
+Vatikan
 Švedska
-Nigerija
-Čile
-Madžarska
-Romunija
-Savdska Arabija
-Bolgarija
 Danska
 Finska
-Irska
 Norveška
-Srbija
-Malezija
-Peru
-Gruzija
-Kuba
-Gana
-Kazahstan
-Irak
-Afganistan
-Izrael
 Islandija
-Bosna in Hercegovina
-Armenija
+Poljska
+Grčija
+Hrvaška
+Madžarska
 Slovenija
-Nova Zelandija
-Albanija
 Slovaška
-Venezuela
 Češka
-Ekvador
-Senegal
-Nepal
-Somalija
-Azerbajdžan
-Tunizija
-Mongolija
-Pakistan
-Filipini
-Šrilanka
-Kenija
-Kambodža
+Estonija
+Latvija
 Litva
-Mali
+Ukrajina
+Rusija
+Romunija
+Bolgarija
+Srbija
+Bosna in Hercegovina
+Albanija
 Črna gora
 Belorusija
-Kamerun
-Uzbekistan
-Mjanmar
-Urugvaj
-Jamajka
-Bolivija
-Uganda
-Slonokoščena obala
+Moldavija
+Severna Makedonija
 Ciper
-Madagaskar
-Haiti
-Angola
-Katar
-Severna Koreja
-Tanzanija
-Jemen
-Niger
-Etiopija
-Kostarika
+Malta
+Iran
+Turčija
+Irak
+Izrael
+Gruzija
+Armenija
+Azerbajdžan
 Sirija
 Jordan
-Dominikanska republika
-Združeni Arabski Emirati
-Honduras
-Tadžikistan
-Monako
-Čad
-Mozambik
-Estonija
-Singapur
-Zambija
-Benin
-Papua Nova Gvineja
-Gvineja
-Togo
-Paragvaj
-Laos
-Bangladeš
-Ruanda
-Burkina Faso
-Libija
 Libanon
+Palestina
+Savdska Arabija
+Združeni Arabski Emirati
+Katar
+Jemen
+Oman
+Kuvajt
+Bahrajn
+Kazahstan
+Afganistan
+Uzbekistan
+Tadžikistan
 Kirgizistan
 Turkmenistan
-Malavi
-Sudan
-Srednjeafriška republika
-Palestina
-Vzhodni Kongo
-Oman
-Liechtenstein
-Gvatemala
-Južni Sudan
-Burundi
-Liberija
-Zimbabve
-Kuvajt
-Panama
-Sierra Leone
-Luksemburg
-Eritreja
-San Marino
-Moldavija
-Namibija
-Gambija
-Mavretanija
-Bocvana
-Gabon
-Kongo
-Severna Makedonija
-Lesoto
-Latvija
-Gvineja Bissau
-Bahrajn
-Ekvatorialna Gvineja
-Vzhodni Timor
-Trinidad in Tobago
-Mavricij
-Džibuti
-Eswatini
-Komori
-Fidži
-Gvajana
-El Salvador
-Nikaragva
+Indija
+Pakistan
+Nepal
+Šrilanka
+Bangladeš
 Butan
-Salomonovi otoki
-Surinam
-Zelenortski otoki
-Malta
-Brunej
-Belize
-Bahami
 Maldivi
+Tajska
+Indonezija
+Vietnam
+Malezija
+Filipini
+Singapur
+Mjanmar
+Laos
+Kambodža
+Brunej
+Kitajska
+Japonska
+Južna Koreja
+Severna Koreja
+Mongolija
+Avstralija
+Nova Zelandija
+Papua Nova Gvineja
+Vzhodni Timor
+Fidži
+Salomonovi otoki
 Vanuatu
-Vatikan
-Barbados
-São Tome in Principe
 Samoa
-Sveta Lucija
 Kiribati
-Grenada
-Sveti Vincent in Grenadine
 Mikronezija
 Tonga
-Sejšeli
-Antigva in Barbuda
-Andora
-Dominika
 Marshallovi otoki
-Saint Kitts in Nevis
 Palau
 Nauru
 Tuvalu
+Egipt
+Alžirija
+Maroko
+Tunizija
+Libija
+Nigerija
+Gana
+Senegal
+Mali
+Kamerun
+Uganda
+Slonokoščena obala
+Angola
+Tanzanija
+Niger
+Srednjeafriška republika
+Vzhodni Kongo
+Burkina Faso
+Madagaskar
+Čad
+Mozambik
+Zambija
+Benin
+Gvineja
+Togo
+Ruanda
+Malavi
+Burundi
+Liberija
+Zimbabve
+Sierra Leone
+Gambija
+Mavretanija
+Gabon
+Kongo
+Gvineja Bissau
+Ekvatorialna Gvineja
+Mavricij
+Sejšeli
+Komori
+Zelenortski otoki
+São Tome in Principe
+Somalija
+Kenija
+Etiopija
+Sudan
+Južni Sudan
+Eritreja
+Džibuti
+Južna Afrika
+Namibija
+Bocvana
+Lesoto
+Eswatini
+Združene države
+Kanada
+Mehika
+Kuba
+Gvatemala
+Kostarika
+Belize
+Bahami
+Jamajka
+Haiti
+Dominikanska republika
+Panama
+El Salvador
+Nikaragva
+Honduras
+Sveta Lucija
+Grenada
+Dominika
+Trinidad in Tobago
+Barbados
+Sveti Vincent in Grenadine
+Antigva in Barbuda
+Saint Kitts in Nevis
+Brazilija
+Argentina
+Kolumbija
+Čile
+Peru
+Venezuela
+Ekvador
+Urugvaj
+Bolivija
+Paragvaj
+Gvajana
+Surinam

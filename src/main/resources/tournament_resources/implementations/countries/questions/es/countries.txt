@@ -1,195 +1,195 @@
-China
-India
-Estados Unidos
-Brasil
-Rusia
-Mexico
-Japón
-Iran
 Alemania
-Turquía
 Francia
 Reino Unido
-Tailandia
-Italia
-Egipto
-Sudáfrica
-Corea del Sur
 España
-Argentina
+Italia
 Bélgica
-Ucrania
-Polonia
-Canadá
 Austria
+Portugal
 Suiza
 Países Bajos
-Indonesia
-Grecia
-Portugal
-Australia
-Colombia
-Argelia
-Croacia
-Marruecos
-Vietnam
+Irlanda
+Mónaco
+Luxemburgo
+Liechtenstein
+Andorra
+San Marino
+Ciudad del Vaticano
 Suecia
-Nigeria
-Chile
-Hungría
-Rumania
-Arabia Saudita
-Bulgaria
 Dinamarca
 Finlandia
-Irlanda
 Noruega
-Serbia
-Malasia
-Perú
-Georgia
-Cuba
-Ghana
-Kazajstán
-Irak
-Afganistán
-Israel
 Islandia
-Bosnia y Herzegovina
-Armenia
+Polonia
+Grecia
+Croacia
+Hungría
 Eslovenia
-Nueva Zelanda
-Albania
 Eslovaquia
-Venezuela
 Republica checa
-Ecuador
-Senegal
-Nepal
-Somalia
-Azerbaiyán
-Túnez
-Mongolia
-Pakistán
-Filipinas
-Sri Lanka
-Kenia
-Camboya
+Estonia
+Letonia
 Lituania
-Mali
+Ucrania
+Rusia
+Rumania
+Bulgaria
+Serbia
+Bosnia y Herzegovina
+Albania
 Montenegro
 Bielorrusia
-Camerún
-Uzbekistán
-Myanmar
-Uruguay
-Jamaica
-Bolivia
-Uganda
-Costa de Marfil
+Moldavia
+Macedonia del norte
 Chipre
-Madagascar
-Haití
-Angola
-Katar
-Corea del Norte
-Tanzania
-Yemen
-Níger
-Etiopía
-Costa Rica
+Malta
+Iran
+Turquía
+Irak
+Israel
+Georgia
+Armenia
+Azerbaiyán
 Siria
 Jordán
-República Dominicana
-Emiratos Árabes Unidos
-Honduras
-Tayikistán
-Mónaco
-Chad
-Mozambique
-Estonia
-Singapur
-Zambia
-Benin
-Papúa Nueva Guinea
-Guinea
-Togo
-Paraguay
-Laos
-Bangladesh
-Ruanda
-Burkina Faso
-Libia
 Líbano
+Palestina
+Arabia Saudita
+Emiratos Árabes Unidos
+Katar
+Yemen
+Omán
+Kuwait
+Bahrein
+Kazajstán
+Afganistán
+Uzbekistán
+Tayikistán
 Kirguistán
 Turkmenistán
-Malawi
-Sudán
-República Centroafricana
-Palestina
-República Democrática del Congo
-Omán
-Liechtenstein
-Guatemala
-Sudán del Sur
-Burundi
-Liberia
-Zimbabue
-Kuwait
-Panamá
-Sierra Leona
-Luxemburgo
-Eritrea
-San Marino
-Moldavia
-Namibia
-Gambia
-Mauritania
-Botsuana
-Gabón
-Congo
-Macedonia del norte
-Lesoto
-Letonia
-Guinea-Bissau
-Bahrein
-Guinea Ecuatorial
-Timor Oriental
-Trinidad y Tobago
-Mauricio
-Djibouti
-Eswatini
-Comoras
-Fiyi
-Guayana
-El Salvador
-Nicaragua
+India
+Pakistán
+Nepal
+Sri Lanka
+Bangladesh
 Bután
-Islas Salomón
-Surinam
-Cabo Verde
-Malta
-Brunei
-Belice
-Bahamas
 Maldivas
+Tailandia
+Indonesia
+Vietnam
+Malasia
+Filipinas
+Singapur
+Myanmar
+Laos
+Camboya
+Brunei
+China
+Japón
+Corea del Sur
+Corea del Norte
+Mongolia
+Australia
+Nueva Zelanda
+Papúa Nueva Guinea
+Timor Oriental
+Fiyi
+Islas Salomón
 Vanuatu
-Ciudad del Vaticano
-Barbados
-Santo Tomé y Príncipe
 Samoa
-Santa Lucía
 Kiribati
-Granada
-San Vicente y las Granadinas
 Micronesia
 Tonga
-Seychelles
-Antigua y Barbuda
-Andorra
-Dominica
 Islas Marshall
-San Cristóbal y Nieves
 Palau
 Nauru
 Tuvalu
+Egipto
+Argelia
+Marruecos
+Túnez
+Libia
+Nigeria
+Ghana
+Senegal
+Mali
+Camerún
+Uganda
+Costa de Marfil
+Angola
+Tanzania
+Níger
+República Centroafricana
+República Democrática del Congo
+Burkina Faso
+Madagascar
+Chad
+Mozambique
+Zambia
+Benin
+Guinea
+Togo
+Ruanda
+Malawi
+Burundi
+Liberia
+Zimbabue
+Sierra Leona
+Gambia
+Mauritania
+Gabón
+Congo
+Guinea-Bissau
+Guinea Ecuatorial
+Mauricio
+Seychelles
+Comoras
+Cabo Verde
+Santo Tomé y Príncipe
+Somalia
+Kenia
+Etiopía
+Sudán
+Sudán del Sur
+Eritrea
+Djibouti
+Sudáfrica
+Namibia
+Botsuana
+Lesoto
+Eswatini
+Estados Unidos
+Canadá
+Mexico
+Cuba
+Guatemala
+Costa Rica
+Belice
+Bahamas
+Jamaica
+Haití
+República Dominicana
+Panamá
+El Salvador
+Nicaragua
+Honduras
+Santa Lucía
+Granada
+Dominica
+Trinidad y Tobago
+Barbados
+San Vicente y las Granadinas
+Antigua y Barbuda
+San Cristóbal y Nieves
+Brasil
+Argentina
+Colombia
+Chile
+Perú
+Venezuela
+Ecuador
+Uruguay
+Bolivia
+Paraguay
+Guayana
+Surinam

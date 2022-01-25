@@ -1,195 +1,195 @@
-Kina
-Indien
-Forenede Stater
-Brasilien
-Rusland
-Mexico
-Japan
-Iran
 Tyskland
-Tyrkiet
 Frankrig
 Det Forenede Kongerige
-Thailand
-Italien
-Egypten
-Sydafrika
-Sydkorea
 Spanien
-Argentina
+Italien
 Belgien
-Ukraine
-Polen
-Canada
 Østrig
+Portugal
 Schweiz
 Holland
-Indonesien
-Grækenland
-Portugal
-Australien
-Colombia
-Algeriet
-Kroatien
-Marokko
-Vietnam
+Irland
+Monaco
+Luxembourg
+Liechtenstein
+Andorra
+San Marino
+Vatikanet
 Sverige
-Nigeria
-Chile
-Ungarn
-Rumænien
-Saudi Arabien
-Bulgarien
 Danmark
 Finland
-Irland
 Norge
-Serbien
-Malaysia
-Peru
-Georgien
-Cuba
-Ghana
-Kasakhstan
-Irak
-Afghanistan
-Israel
 Island
-Bosnien-Hercegovina
-Armenien
+Polen
+Grækenland
+Kroatien
+Ungarn
 Slovenien
-New Zealand
-Albanien
 Slovakiet
-Venezuela
 Tjekkiet
-Ecuador
-Senegal
-Nepal
-Somalia
-Aserbajdsjan
-Tunesien
-Mongoliet
-Pakistan
-Filippinerne
-Sri Lanka
-Kenya
-Cambodja
+Estland
+Letland
 Litauen
-Mali
+Ukraine
+Rusland
+Rumænien
+Bulgarien
+Serbien
+Bosnien-Hercegovina
+Albanien
 Montenegro
 Hviderusland
-Cameroun
-Usbekistan
-Myanmar
-Uruguay
-Jamaica
-Bolivia
-Uganda
-Elfenbenskysten
+Moldova
+Nordlige Makedonien
 Cypern
-Madagaskar
-Haiti
-Angola
-Qatar
-Nordkorea
-Tanzania
-Yemen
-Niger
-Etiopien
-Costa Rica
+Malta
+Iran
+Tyrkiet
+Irak
+Israel
+Georgien
+Armenien
+Aserbajdsjan
 Syrien
 Jordan
-Dominikanske republik
-Forenede Arabiske Emirater
-Honduras
-Tadsjikistan
-Monaco
-Tchad
-Mozambique
-Estland
-Singapore
-Zambia
-Benin
-Papua Ny Guinea
-Guinea
-Togo
-Paraguay
-Laos
-Bangladesh
-Rwanda
-Burkina Faso
-Libyen
 Libanon
+Palæstina
+Saudi Arabien
+Forenede Arabiske Emirater
+Qatar
+Yemen
+Oman
+Kuwait
+Bahrain
+Kasakhstan
+Afghanistan
+Usbekistan
+Tadsjikistan
 Kirgisistan
 Turkmenistan
-Malawi
-Sudan
-Den Centralafrikanske Republik
-Palæstina
-Den Demokratiske Republik Congo
-Oman
-Liechtenstein
-Guatemala
-Sydsudan
-Burundi
-Liberia
-Zimbabwe
-Kuwait
-Panama
-Sierra Leone
-Luxembourg
-Eritrea
-San Marino
-Moldova
-Namibia
-Gambia
-Mauretanien
-Botswana
-Gabon
-Congo
-Nordlige Makedonien
-Lesotho
-Letland
-Guinea-Bissau
-Bahrain
-Ækvatorial Guinea
-Øst Timor
-Trinidad og Tobago
-Mauritius
-Djibouti
-Eswatini
-Comorerne
-Fiji
-Guyana
-El Salvador
-Nicaragua
+Indien
+Pakistan
+Nepal
+Sri Lanka
+Bangladesh
 Bhutan
-Salomonøerne
-Surinam
-Kap Verde
-Malta
-Brunei
-Belize
-Bahamas
 Maldiverne
+Thailand
+Indonesien
+Vietnam
+Malaysia
+Filippinerne
+Singapore
+Myanmar
+Laos
+Cambodja
+Brunei
+Kina
+Japan
+Sydkorea
+Nordkorea
+Mongoliet
+Australien
+New Zealand
+Papua Ny Guinea
+Øst Timor
+Fiji
+Salomonøerne
 Vanuatu
-Vatikanet
-Barbados
-São Tomé og Príncipe
 Samoa
-Saint Lucia
 Kiribati
-Grenada
-Saint Vincent og Grenadinerne
 Mikronesien
 Tonga
-Seychellerne
-Antigua og Barbuda
-Andorra
-Dominica
 Marshalløerne
-Saint Kitts og Nevis
 Palau
 Nauru
 Tuvalu
+Egypten
+Algeriet
+Marokko
+Tunesien
+Libyen
+Nigeria
+Ghana
+Senegal
+Mali
+Cameroun
+Uganda
+Elfenbenskysten
+Angola
+Tanzania
+Niger
+Den Centralafrikanske Republik
+Den Demokratiske Republik Congo
+Burkina Faso
+Madagaskar
+Tchad
+Mozambique
+Zambia
+Benin
+Guinea
+Togo
+Rwanda
+Malawi
+Burundi
+Liberia
+Zimbabwe
+Sierra Leone
+Gambia
+Mauretanien
+Gabon
+Congo
+Guinea-Bissau
+Ækvatorial Guinea
+Mauritius
+Seychellerne
+Comorerne
+Kap Verde
+São Tomé og Príncipe
+Somalia
+Kenya
+Etiopien
+Sudan
+Sydsudan
+Eritrea
+Djibouti
+Sydafrika
+Namibia
+Botswana
+Lesotho
+Eswatini
+Forenede Stater
+Canada
+Mexico
+Cuba
+Guatemala
+Costa Rica
+Belize
+Bahamas
+Jamaica
+Haiti
+Dominikanske republik
+Panama
+El Salvador
+Nicaragua
+Honduras
+Saint Lucia
+Grenada
+Dominica
+Trinidad og Tobago
+Barbados
+Saint Vincent og Grenadinerne
+Antigua og Barbuda
+Saint Kitts og Nevis
+Brasilien
+Argentina
+Colombia
+Chile
+Peru
+Venezuela
+Ecuador
+Uruguay
+Bolivia
+Paraguay
+Guyana
+Surinam

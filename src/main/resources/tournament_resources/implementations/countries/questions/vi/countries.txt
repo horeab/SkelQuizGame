@@ -1,195 +1,195 @@
-Trung Quốc
-Ấn Độ
-Hoa Kỳ
-Brazil
-Nga
-Mexico
-Nhật Bản
-Iran
-nước Đức
-Thổ Nhĩ Kỳ
+Đức
 Pháp
 Vương quốc Anh
-nước Thái Lan
-Nước Ý
-Ai Cập
-Nam Phi
-Nam Triều Tiên
 Tây Ban Nha
-Argentina
-nước Bỉ
-Ukraine
-Ba Lan
-Canada
+Ý
+Bỉ
 Áo
-Thụy sĩ
-nước Hà Lan
-Indonesia
-Hy Lạp
 Bồ Đào Nha
-Châu Úc
-Colombia
-Algeria
-Croatia
-Ma-rốc
-Việt Nam
+Thụy Sĩ
+Hà Lan
+Ireland
+Monaco
+Luxembourg
+Liechtenstein
+Andorra
+San Marino
+Vatican
 Thụy Điển
-Nigeria
-Chile
-Hungary
-Rumani
-Ả Rập Saudi
-Bulgaria
-Đan mạch
+Đan Mạch
 Phần Lan
-Ai-len
 Na Uy
-Serbia
-Malaysia
-Peru
-Georgia
-Cuba
-Ghana
-Kazakhstan
-Irac
-Afghanistan
-Người israel
 Nước Iceland
-Bosnia và Herzegovina
-Armenia
+Ba Lan
+Hy Lạp
+Croatia
+Hungary
 Slovenia
-New Zealand
-Albania
 Slovakia
-Venezuela
 Cộng hòa Séc
-Ecuador
-Sê-nê-gan
-Nepal
-Somalia
-Ailen
-Tunisia
-Mông Cổ
-Pakistan
-Philippines
-Sri Lanka
-Kenya
-Campuchia
+Estonia
+Latvia
 Litva
-Ma-rốc
+Ukraine
+Nga
+Rumani
+Bulgaria
+Serbia
+Bosnia và Herzegovina
+Albania
 Montenegro
-Bêlarut
-Ca-mơ-run
-Uzbekistan
-Myanmar
-Uruguay
-Jamaica
-Bôlivia
-Nhật Bản
-bờ biển Ngà
+Belarus
+Moldova
+Bắc Macedonia
 Síp
-Madagascar
-Haiti
-Ăng-gô
-Qatar
-Bắc Triều Tiên
-Tanzania
-Yemen
-Nigeria
-Ê-díp-tô
-Costa Rica
+Malta
+Iran
+Thổ Nhĩ Kỳ
+Iraq
+Israel
+Georgia
+Armenia
+Azerbaijan
 Syria
 Jordan
-Cộng hòa Dominican
-các Tiểu Vương Quốc Ả Rập Thống Nhất
-Honduras
-Tajikistan
-Monaco
-Chad
-Mozambique
-Estonia
-Singapore
-Zambia
-Bénin
-Papua New Guinea
-Guinea
-Togo
-Paraguay
-Nước Lào
-Bangladesh
-Rwanda
-Burkina Faso
-Libya
 Lebanon
-Kít-sinh-gơ
-Turkmenistan
-Ma-rốc
-Sudan
-Cộng hòa trung phi
 Palestine
-Cộng hòa dân chủ Congo
-Ô-man
-Liechtenstein
-Guatemala
-phía nam Sudan
-Burundi
-Liberia
-Bêlarut
-Cô-oét
-Panama
-Sierra Leone
-Tiếng Séc
-Eritrea
-San Marino
-Moldova
-Namibia
-Gambia
-Mauritania
-Botswana
-Gabon
-Công Phượng
-Bắc Macedonia
-Lesicia
-Latvia
-Guinea-Bissau
+Ả Rập Xê Út
+Các Tiểu vương quốc Ả Rập Thống nhất
+Qatar
+Yemen
+Oman
+Kuwait
 Bahrain
-Equatorial Guinea
-Đông Timor
-Trinidad và Tobago
-Mô-ri-xơ
-Djibouti
-Eswatini
-Comoros
-Phi-gi
-Guyana
-El Salvador
-Nicaragua
+Kazakhstan
+Afghanistan
+Uzbekistan
+Tajikistan
+Kyrgyzstan
+Turkmenistan
+Ấn Độ
+Pakistan
+Nepal
+Sri Lanka
+Bangladesh
 Bhutan
-Quần đảo Solomon
-Xuameame
-Mũi Verde
-Malta
-Brunei
-Belize
-Ba Tư
 Maldives
+Thái Lan
+Indonesia
+Việt Nam
+Malaysia
+Philippines
+Singapore
+Myanmar
+Lào
+Campuchia
+Brunei
+Trung Quốc
+Nhật Bản
+Nam Triều Tiên
+Bắc Triều Tiên
+Mông Cổ
+Úc
+New Zealand
+Papua New Guinea
+Đông Timor
+Fiji
+Quần đảo Solomon
 Vanuatu
-Vatican
-Bác
-Sao Tome và Principe
 Samoa
-Thánh nữ
 Kiribati
-Grenada
-Saint Vincent và Grenadines
 Micronesia
-Tống
-Seychelles
-Antigua và Barbuda
-Andorra
-Đa Minh
-đảo Marshall
-Saint Kitts và Nevis
+Tonga
+Quần đảo Marshall
 Palau
 Nauru
 Tuvalu
+Ai Cập
+Algeria
+Maroc
+Tunisia
+Libya
+Nigeria
+Ghana
+Sénégal
+Mali
+Cameroon
+Uganda
+bờ biển Ngà
+Angola
+Tanzania
+Nigeria
+Cộng hòa Trung Phi
+Cộng hòa dân chủ Congo
+Burkina Faso
+Madagascar
+Chad
+Mozambique
+Zambia
+Bénin
+Guinea
+Togo
+Rwanda
+Malawi
+Burundi
+Liberia
+Zimbabwe
+Sierra Leone
+Gambia
+Mauritania
+Gabon
+Cộng hòa Congo
+Guinea-Bissau
+Equatorial Guinea
+Mauritius
+Seychelles
+Comoros
+Mũi Verde
+Sao Tome và Principe
+Somalia
+Kenya
+Ethiopia
+Sudan
+Nam Sudan
+Eritrea
+Djibouti
+Nam Phi
+Namibia
+Botswana
+Lesotho
+Eswatini
+Hoa Kỳ
+Canada
+Mexico
+Cuba
+Guatemala
+Costa Rica
+Belize
+Bahamas
+Jamaica
+Haiti
+Cộng hòa Dominica
+Panama
+El Salvador
+Nicaragua
+Honduras
+Saint Lucia
+Grenada
+Dominica
+Trinidad và Tobago
+Barbados
+Saint Vincent và Grenadines
+Antigua và Barbuda
+Saint Kitts và Nevis
+Brazil
+Argentina
+Colombia
+Chile
+Peru
+Venezuela
+Ecuador
+Uruguay
+Bolivia
+Paraguay
+Guyana
+Suriname

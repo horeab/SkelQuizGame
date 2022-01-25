@@ -1,195 +1,195 @@
-Cina
-India
-Amerika Serikat
-Brazil
-Rusia
-Meksiko
-Jepang
-Iran
 Jerman
-Turki
 Perancis
 Britania Raya
-Thailand
-Italia
-Mesir
-Afrika Selatan
-Korea Selatan
 Spanyol
-Argentina
+Italia
 Belgium
-Ukraina
-Polandia
-Kanada
 Austria
+Portugal
 Swiss
 Belanda
-Indonesia
-Yunani
-Portugal
-Australia
-Kolumbia
-Aljazair
-Kroasia
-Maroko
-Vietnam
+Irlandia
+Monako
+Luksemburg
+Liechtenstein
+Andorra
+San Marino
+Vatikan
 Swedia
-Nigeria
-Chili
-Hungaria
-Rumania
-Arab Saudi
-Bulgaria
 Denmark
 Finlandia
-Irlandia
 Norway
-Serbia
-Malaysia
-Peru
-Georgia
-Kuba
-Ghana
-Kazakhstan
-Irak
-Afganistan
-Israel
 Islandia
-Bosnia dan Herzegovina
-Armenia
+Polandia
+Yunani
+Kroasia
+Hungaria
 Slovenia
-Selandia Baru
-Albania
 Slovakia
-Venezuela
 Republik Ceko
-Ekuador
-Senegal
-Nepal
-Somalia
-Azerbaijan
-Tunisia
-Mongolia
-Pakistan
-Filipina
-Srilanka
-Kenya
-Kamboja
+Estonia
+Latvia
 Lithuania
-Mali
+Ukraina
+Rusia
+Rumania
+Bulgaria
+Serbia
+Bosnia dan Herzegovina
+Albania
 Montenegro
 Belarus
-Kamerun
-Uzbekistan
-Myanmar
-Uruguay
-Jamaika
-Bolivia
-Uganda
-pantai Gading
+Moldova
+Makedonia Utara
 Siprus
-Madagaskar
-Haiti
-Angola
-Qatar
-Korea Utara
-Tanzania
-Yaman
-Niger
-Etiopia
-Kosta Rika
+Malta
+Iran
+Turki
+Irak
+Israel
+Georgia
+Armenia
+Azerbaijan
 Syria
 Yordania
-Republik Dominika
-Uni Emirat Arab
-Honduras
-Tajikistan
-Monako
-Chad
-Mozambik
-Estonia
-Singapura
-Zambia
-Benin
-Papua Nugini
-Guinea
-Togo
-Paraguay
-Laos
-Bangladesh
-Rwanda
-Burkina Faso
-Libya
 Libanon
+Palestina
+Arab Saudi
+Uni Emirat Arab
+Qatar
+Yaman
+Oman
+Kuwait
+Bahrain
+Kazakhstan
+Afganistan
+Uzbekistan
+Tajikistan
 Kirgistan
 Turkmenistan
-Malawi
-Sudan
-Republik Afrika Tengah
-Palestina
-Republik Demokrasi Kongo
-Oman
-Liechtenstein
-Guatemala
-Sudan Selatan
-Burundi
-Liberia
-Zimbabwe
-Kuwait
-Panama
-Sierra Leone
-Luksemburg
-Eritrea
-San Marino
-Moldova
-Namibia
-Gambia
-Mauritania
-Botswana
-Gabon
-Kongo
-Makedonia Utara
-Lesotho
-Latvia
-Guinea-Bissau
-Bahrain
-Guinea ekuator
-Timor Timur
-Trinidad dan Tobago
-Mauritius
-Djibouti
-Eswatini
-Komoro
-Fiji
-Guyana
-El Salvador
-Nikaragua
+India
+Pakistan
+Nepal
+Srilanka
+Bangladesh
 Bhutan
-Pulau Solomon
-Suriname
-Tanjung Verde
-Malta
-Brunei
-Belize
-Bahama
 Maladewa
+Thailand
+Indonesia
+Vietnam
+Malaysia
+Filipina
+Singapura
+Myanmar
+Laos
+Kamboja
+Brunei
+Cina
+Jepang
+Korea Selatan
+Korea Utara
+Mongolia
+Australia
+Selandia Baru
+Papua Nugini
+Timor Timur
+Fiji
+Pulau Solomon
 Vanuatu
-Vatikan
-Barbados
-São Tomé dan Príncipe
 Samoa
-Saint Lucia
 Kiribati
-Grenada
-Saint Vincent dan Grenadines
 Mikronesia
 Tonga
-Seychelles
-Antigua dan Barbuda
-Andorra
-Dominica
 Pulau Marshall
-Saint Kitts dan Nevis
 Palau
 Nauru
 Tuvalu
+Mesir
+Aljazair
+Maroko
+Tunisia
+Libya
+Nigeria
+Ghana
+Senegal
+Mali
+Kamerun
+Uganda
+pantai Gading
+Angola
+Tanzania
+Niger
+Republik Afrika Tengah
+Republik Demokrasi Kongo
+Burkina Faso
+Madagaskar
+Chad
+Mozambik
+Zambia
+Benin
+Guinea
+Togo
+Rwanda
+Malawi
+Burundi
+Liberia
+Zimbabwe
+Sierra Leone
+Gambia
+Mauritania
+Gabon
+Kongo
+Guinea-Bissau
+Guinea ekuator
+Mauritius
+Seychelles
+Komoro
+Tanjung Verde
+São Tomé dan Príncipe
+Somalia
+Kenya
+Etiopia
+Sudan
+Sudan Selatan
+Eritrea
+Djibouti
+Afrika Selatan
+Namibia
+Botswana
+Lesotho
+Eswatini
+Amerika Serikat
+Kanada
+Meksiko
+Kuba
+Guatemala
+Kosta Rika
+Belize
+Bahama
+Jamaika
+Haiti
+Republik Dominika
+Panama
+El Salvador
+Nikaragua
+Honduras
+Saint Lucia
+Grenada
+Dominica
+Trinidad dan Tobago
+Barbados
+Saint Vincent dan Grenadines
+Antigua dan Barbuda
+Saint Kitts dan Nevis
+Brazil
+Argentina
+Kolumbia
+Chili
+Peru
+Venezuela
+Ekuador
+Uruguay
+Bolivia
+Paraguay
+Guyana
+Suriname
