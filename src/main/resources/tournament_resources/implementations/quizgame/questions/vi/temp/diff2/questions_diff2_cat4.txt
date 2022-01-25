@@ -2,6 +2,6 @@
 :Dòng sông năm màu, Columbia::
 :Núi lửa Paricutín, Mexico::
 :Những tảng đá Moeraki, New Zealand::
-:Hang xanh, Ý:28,31,29:
-:Hang đá cẩm thạch, Chile:19,25,20:
-:Hang động pha lê, Bermuda:25,30,35:
+:Hang xanh, Ý:0,1,2:
+:Hang đá cẩm thạch, Chile:3,0,2:
+:Hang động pha lê, Bermuda:0,1,2:

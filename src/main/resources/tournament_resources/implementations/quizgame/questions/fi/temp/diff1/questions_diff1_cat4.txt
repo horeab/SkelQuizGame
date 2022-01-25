@@ -1,7 +1,7 @@
-:Angelin putoukset, Venezuela:10,9,18:
+:Angelin putoukset, Venezuela:1,2,4:
 :Kilimanjaro, Tansania::
 :Tonava Delta, Romania::
-:Victorian putoukset, Zimbabwe ja Sambia:21,18,11:
+:Victorian putoukset, Zimbabwe ja Sambia:5,6,9:
 :Saharan silmä, Mauritania::
 :Kuollut meri, Israel::
 :Moherin kallio, Irlanti::

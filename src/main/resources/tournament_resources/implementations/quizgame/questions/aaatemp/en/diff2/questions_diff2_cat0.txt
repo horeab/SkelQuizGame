@@ -1,0 +1,8 @@
+:Red Square, Moscow::0
+:Petra, Jordan::0
+:The Strip, Las Vegas::0
+:Grand Palace, Bangkok::0
+:La Sagrada Familia, Barcelona::0
+:Terra Cotta Warriors, China::0
+:Times Square, New York::0
+:Forbidden City, Beijing::0

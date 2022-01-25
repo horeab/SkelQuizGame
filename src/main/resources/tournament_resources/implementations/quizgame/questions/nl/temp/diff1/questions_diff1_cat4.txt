@@ -1,7 +1,7 @@
-:Ángelwaterval, Venezuela:10,9,18:
+:Ángelwaterval, Venezuela:1,2,4:
 :Kilimanjaro, Tanzania::
 :Donau Delta, Roemenië::
-:Victoriawatervallen, Zimbabwe en Zambia:21,18,11:
+:Victoriawatervallen, Zimbabwe en Zambia:5,6,9:
 :Oog van de Sahara, Mauritanië::
 :Dode Zee, Israel::
 :Kliffen van Moher, Ierland::

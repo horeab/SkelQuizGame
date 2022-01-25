@@ -1,7 +1,7 @@
-:Angel Şelaleleri, Venezuela:10,9,18:
+:Angel Şelaleleri, Venezuela:1,2,4:
 :Kilimanjaro Dağı, Tanzanya::
 :Tuna Deltası, Romanya::
-:Victoria Şelalesi, Zimbabve ve Zambiya:21,18,11:
+:Victoria Şelalesi, Zimbabve ve Zambiya:5,6,9:
 :Sahra'nın Gözü, Moritanya::
 :Ölü Deniz, İsrail::
 :Moher Kayalıkları, İrlanda::

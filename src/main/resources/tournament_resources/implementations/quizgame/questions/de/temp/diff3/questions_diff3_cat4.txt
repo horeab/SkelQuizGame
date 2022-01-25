@@ -1,7 +1,7 @@
-:Jejudo, Südkorea:31,25,27:
+:Jejudo, Südkorea:1,2,5:
 :Iguazu Wasserfälle, Argentinien und Brasilien::
 :Matterhorn, Schweiz::
-:Tafelberg, Südafrika:26,24,30:
-:Bu Tinah, Vereinigte Arabische Emirate:31,29,26:
+:Tafelberg, Südafrika:1,6,5:
+:Bu Tinah, Vereinigte Arabische Emirate:1,6,5:
 :Sundarbans, Bangladesch::
 :Verdon Schlucht, Frankreich::

@@ -1,0 +1,12 @@
+Scandinavia:17,18,20
+Peninsula Balcanică:42,38,37,35,39,23,36,24,26,34
+Regiunea statelor baltice:29,30,31
+America Centrală:164,165,166,171,172,173,174
+Magreb:108,107,109,110,138
+Peninsula Arabică:47,53,61,60,59,58,57,56
+Asia de Est:86,87,88,89,90
+Caucaz:49,50,51
+Asia de Sud-Est:76,77,78,79,80,81,82,83,84,85,94
+Asia Centrală:63,67,66,68,65
+Africa Sudică:155,156,157,158,159
+America de Sud:183,184,185,186,187,188,189,190,191,192,193,194

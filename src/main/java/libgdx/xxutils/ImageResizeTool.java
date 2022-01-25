@@ -2,6 +2,7 @@ package libgdx.xxutils;
 
 import org.imgscalr.Scalr;
 
+import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -21,13 +22,13 @@ import libgdx.implementations.history.HistoryDifficultyLevel;
 class ImageResizeTool {
 
     static final String MACBOOK_ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources";
-    static int MAX_WIDTH = 256;
-    static int MAX_HEIGHT = 256;
+    static int MAX_WIDTH = 1000;
+    static int MAX_HEIGHT = 1000;
 
     public static void main(String[] args) throws IOException {
         //root path should contain /tournament_resources/..../image_folder/
         //it should contain a temp folder in the image folder
-        String rootPath = "/tournament_resources/implementations/quizgame/questions/images/flags/";
+        String rootPath = "/tournament_resources/implementations/quizgame/questions/images/maps/";
 
 //        List<QuestionCategory> toIgnore = Arrays.asList(HistoryCategoryEnum.cat0, HistoryCategoryEnum.cat1);
 //        for (QuestionDifficulty diff : HistoryDifficultyLevel.values()) {
@@ -68,7 +69,8 @@ class ImageResizeTool {
         }
         BufferedImage resizedImage = Scalr.resize(image, Scalr.Mode.FIT_EXACT, getWidth(image), getHeight(image));
 
-        String ext = "png";
+        String ext = "jpg";
+//        String ext = "jpeg";
         imageLoadSaveService.save(resizedImage, pathName + "/temp/" + imgName.split("\\.")[0] + "." + ext, ext);
     }
 
@@ -123,7 +125,9 @@ class ImageResizeTool {
         void save(BufferedImage image, String name, String ext) throws IOException {
             System.out.println("resized " + name);
             try {
-                ImageIO.write(image, ext, new FileOutputStream(MACBOOK_ROOT_PATH + name));
+                BufferedImage newImage = new BufferedImage( image.getWidth(), image.getHeight(), BufferedImage.TYPE_INT_RGB);
+                newImage.createGraphics().drawImage( image, 0, 0, Color.BLACK, null);
+                ImageIO.write(newImage, ext, new FileOutputStream(MACBOOK_ROOT_PATH + name));
             } catch (Exception ignored) {
                 throw ignored;
             }

@@ -2,6 +2,6 @@
 23::Dòng sông năm màu, Columbia:26,19,29:23
 24::Núi lửa Paricutín, Mexico:30,17,31:24
 25::Những tảng đá Moeraki, New Zealand:31,32,29:25
-26::Hang xanh, Ý:28,31,29:26
-27::Hang đá cẩm thạch, Chile:19,25,20:27
-28::Hang động pha lê, Bermuda:25,30,35:28
+26::Hang xanh, Ý:0,1,2:26
+27::Hang đá cẩm thạch, Chile:3,0,2:27
+28::Hang động pha lê, Bermuda:0,1,2:28

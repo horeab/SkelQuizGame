@@ -1,7 +1,7 @@
-:Angel-vízesés, Venezuela:10,9,18:
+:Angel-vízesés, Venezuela:1,2,4:
 :Kilimandzsáró-hegy, Tanzánia::
 :Duna-delta, Románia::
-:Victoria-vízesés, Zimbabwe és Zambia:21,18,11:
+:Victoria-vízesés, Zimbabwe és Zambia:5,6,9:
 :A Szahara szeme, Mauritánia::
 :A Holt-tenger, Izrael::
 :Moher-sziklák, Írország::

@@ -2,6 +2,6 @@
 :Řeka pěti barev, Columbia::
 :Sopka Paricutín, Mexiko::
 :Moeraki balvany, Nový Zéland::
-:Modrá jeskyně, Itálie:28,31,29:
-:Mramorové jeskyně, Chile:19,25,20:
-:Jeskyně Krystal, Bermudy:25,30,35:
+:Modrá jeskyně, Itálie:0,1,2:
+:Mramorové jeskyně, Chile:3,0,2:
+:Jeskyně Krystal, Bermudy:0,1,2:

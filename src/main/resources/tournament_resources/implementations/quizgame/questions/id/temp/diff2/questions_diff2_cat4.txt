@@ -2,6 +2,6 @@
 :Sungai Lima Warna, Kolumbia::
 :Gunung berapi Paricutín, Meksiko::
 :Bongkahan batu Moeraki, Selandia Baru::
-:Gua Biru, Italia:28,31,29:
-:Gua Marmer, Chili:19,25,20:
-:Gua kristal, Bermuda:25,30,35:
+:Gua Biru, Italia:0,1,2:
+:Gua Marmer, Chili:3,0,2:
+:Gua kristal, Bermuda:0,1,2:

@@ -1,0 +1,8 @@
+:Acropolis, Athens::0
+:Taj Mahal, India::0
+:Blue Mosque, Istanbul::0
+:Burj Khalifa, Dubai::0
+:Louvre Museum, Paris::0
+:Machu Picchu, Peru::0
+:Berlin Wall::0
+:Disneyland Resort, California::0

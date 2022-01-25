@@ -1,7 +1,7 @@
-12::Angel Şelaleleri, Venezuela:10,9,18:12
+12::Angel Şelaleleri, Venezuela:1,2,4:12
 13::Kilimanjaro Dağı, Tanzanya:8,7,21:13
 14::Tuna Deltası, Romanya:17,15,10:14
-15::Victoria Şelalesi, Zimbabve ve Zambiya:21,18,11:15
+15::Victoria Şelalesi, Zimbabve ve Zambiya:5,6,9:15
 16::Sahra'nın Gözü, Moritanya:13,8,23:16
 17::Ölü Deniz, İsrail:25,15,24:17
 18::Moher Kayalıkları, İrlanda:14,16,21:18

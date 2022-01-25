@@ -1,7 +1,7 @@
-:Salto del Angel, Venezuela:10,9,18:
+:Salto del Angel, Venezuela:1,2,4:
 :Kilimanjaro, Tanzania::
 :Donau-deltaet, Rumænien::
-:Victoria-vandfaldene, Zimbabwe og Zambia:21,18,11:
+:Victoria-vandfaldene, Zimbabwe og Zambia:5,6,9:
 :Sahara-øen, Mauretanien::
 :Det Døde Hav, Israel::
 :Klipper af Moher, Irland::

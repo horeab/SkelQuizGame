@@ -2,6 +2,6 @@
 :Caño Cristales, Colombia::
 :Paricutín-vulkaan, Mexico::
 :Moeraki Boulders, Nieuw-Zeeland::
-:Blauwe Grot, Italië:28,31,29:
-:Marmeren grotten, Chile:19,25,20:
-:Kristallen grot, Bermuda:25,30,35:
+:Blauwe Grot, Italië:0,1,2:
+:Marmeren grotten, Chile:3,0,2:
+:Kristallen grot, Bermuda:0,1,2:

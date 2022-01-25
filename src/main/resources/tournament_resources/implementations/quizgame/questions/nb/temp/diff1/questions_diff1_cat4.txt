@@ -1,7 +1,7 @@
-:Angelfossen, Venezuela:10,9,18:
+:Angelfossen, Venezuela:1,2,4:
 :Kilimanjaro-fjellet, Tanzania::
 :Donaudeltaet, Romania::
-:Victoriafallene, Zimbabwe og Zambia:21,18,11:
+:Victoriafallene, Zimbabwe og Zambia:5,6,9:
 :Sahara-øye, Mauritania::
 :Dødehavet, Israel::
 :Cliffs of Moher, Irland::

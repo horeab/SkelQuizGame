@@ -1,0 +1,10 @@
+39:Bucureşti::2
+55:Ierusalim::2
+62:Bratislava::2
+59:Ljubljana::2
+21:Varşovia::2
+70:Tunis::2
+18:Buenos Aires::2
+34:Hanoi::2
+49:Tbilisi::2
+67:Kathmandu::2

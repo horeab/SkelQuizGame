@@ -34,7 +34,7 @@ public class FlutterCountriesProcessor {
         ///
 
         List<Language> languages = Arrays.asList(Language.en, Language.ro);
-        createCountriesAndSynonyms(languages);
+        createCountriesAndCapitals(languages);
 //        System.out.println(countriesAndSyn);
 
         ///////////QUESTIONS////////////////
@@ -55,71 +55,59 @@ public class FlutterCountriesProcessor {
         System.out.println(res);
     }
 
-    public static String createCountriesAndSynonyms(List<Language> languages) throws IOException {
-        StringBuilder countriesAndSyn = new StringBuilder();
+    public static String createCountriesAndCapitals(List<Language> languages) throws IOException {
+        StringBuilder countriesString = new StringBuilder();
 //        List<Language> languages = Arrays.asList(Language.values());
 
-        countriesAndSyn.append("List<CountryRanges> get allCountryRanges {\n" +
+        countriesString.append("List<CountryRanges> get allCountryRanges {\n" +
                 "            _allCountryRanges ??= [\n");
 
-        countriesAndSyn.append(getCountryRangesStartEnd().stream()
+        countriesString.append(getCountryRangesStartEnd().stream()
                 .map(e -> e.toString()).collect(Collectors.joining(",\n")));
 
-        countriesAndSyn.append(" ];\n" +
+        countriesString.append(" ];\n" +
                 "            return _allCountryRanges!;\n" +
                 "        }\n");
 
-        countriesAndSyn.append(" Map<Language, List<String>> _getAllCountries() {\n" +
+        countriesString.append(" Map<Language, List<String>> get _getAllCountries {\n" +
                 "    Map<Language, List<String>> result = HashMap<Language, List<String>>();\n");
         for (Language language : languages) {
-            countriesAndSyn.append("result.putIfAbsent(Language." + language + ", () => _allCountries" + language.toString().toUpperCase() + "());\n");
+            countriesString.append("result.putIfAbsent(Language." + language + ", () => _allCountries" + language.toString().toUpperCase() + ");\n");
         }
-        countriesAndSyn.append("    return result;\n" +
+        countriesString.append("    return result;\n" +
                 "  }\n");
         for (Language language : languages) {
             try {
-                countriesAndSyn.append(getCountriesString(language));
+                countriesString.append(getCountriesString(language));
             } catch (IOException e) {
             }
         }
 
-        countriesAndSyn.append(getCountriesRankedString(Language.en));
-        countriesAndSyn.append(getFlagsString());
-        countriesAndSyn.append(getMapsString());
+        countriesString.append(getCountriesRankedString(Language.en));
+        countriesString.append(getFlagsString());
+        countriesString.append(getMapsString());
+        countriesString.append(getCapitalsIndexesString());
 
 
-        countriesAndSyn.append(" Map<Language, List<String>> _getAllCapitals() {\n" +
+        countriesString.append(" Map<Language, List<String>> get _getAllCapitals {\n" +
                 "    Map<Language, List<String>> result = HashMap<Language, List<String>>();\n");
         for (Language language : languages) {
-            countriesAndSyn.append("result.putIfAbsent(Language." + language + ", () => _allCapitals" + language.toString().toUpperCase() + "());\n");
+            countriesString.append("result.putIfAbsent(Language." + language + ", () => _allCapitals" + language.toString().toUpperCase() + ");\n");
         }
-        countriesAndSyn.append("    return result;\n" +
+        countriesString.append("    return result;\n" +
                 "  }\n");
         for (Language language : languages) {
             try {
-                countriesAndSyn.append(getCapitalsString(language));
+                countriesString.append(getCapitalsString(language));
             } catch (IOException e) {
             }
         }
 
-        countriesAndSyn.append(" Map<Language, List<String>> _getAllSynonyms() {\n" +
-                "    Map<Language, List<String>> result = HashMap<Language, List<String>>();\n");
-        for (Language language : languages) {
-            countriesAndSyn.append("result.putIfAbsent(Language." + language + ", () => _allSynonyms" + language.toString().toUpperCase() + "());\n");
-        }
-        countriesAndSyn.append("    return result;\n" +
-                "  }\n");
-        for (Language language : languages) {
-            try {
-                countriesAndSyn.append(getSynonymsString(language));
-            } catch (IOException e) {
-            }
-        }
-        return countriesAndSyn.toString();
+        return countriesString.toString();
     }
 
     private static List<CountryRanges> getCountryRangesStartEnd() throws IOException {
-        List<String> englishCountries2 = FlutterCountriesProcessor.getFromCountriesFolder(Language.en, "countries_2");
+        List<String> englishCountries2 = FlutterCountriesProcessor.getFromCountriesFolder(Language.en, "countries");
 
         List<CountryRanges> countryRanges = new ArrayList<>();
         List<MaxCountryRanges> maxRanges = getMaxRangeFrom(englishCountries2);
@@ -181,7 +169,7 @@ public class FlutterCountriesProcessor {
 
     private static String getGeneralQPath(QuestionCategory cat, Language lang) {
         String qPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/"
-                + "aquestions/diff0/temp/questions_diff0_cat" + cat.getIndex() + ".txt";
+                + "aquestions/diff0/questions_diff0_cat" + cat.getIndex() + ".txt";
 
         if (Arrays.asList(CountriesCategoryEnum.cat4, CountriesCategoryEnum.cat5).contains(cat)) {
             qPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/"
@@ -215,51 +203,70 @@ public class FlutterCountriesProcessor {
         String synonyms = getSynonyms(language)
                 .stream().map(e -> "\"" + (Integer.parseInt(e.split(":")[0]) - 1) + ":" + e.split(":")[1] + "\"")
                 .collect(Collectors.joining(","));
-        return "List<String> _allSynonyms" + language.toString().toUpperCase() + "() {\n" +
-                "    return [" + synonyms + "];\n" +
-                "  }\n\n";
+        return "List<String> get _allSynonyms" + language.toString().toUpperCase() + " => \n" +
+                "    [" + synonyms + "];\n" +
+                "\n\n";
     }
 
     private static String getCapitalsString(Language language) throws IOException {
-        String countries = getCapitals(language)
+        List<String> capitals = getCapitals(language);
+        if (capitals.size() != 163) {
+            throw new RuntimeException();
+        }
+        String countries = capitals
                 .stream().map(e -> "\"" + e + "\"")
                 .collect(Collectors.joining(","));
-        return "List<String> _allCapitals" + language.toString().toUpperCase() + "() {\n" +
-                "    return [" + countries + "];\n" +
-                "  }\n";
+        return "List<String> get _allCapitals" + language.toString().toUpperCase() + " =>\n" +
+                "    [" + countries + "];\n" +
+                "\n\n";
     }
 
     private static String getFlagsString() throws IOException {
         String flags = getFromCountriesFolder(Language.en, "flags_list")
                 .stream().map(e -> "\"" + e + "\"")
                 .collect(Collectors.joining(","));
-        return "List<String> _allFlags =>\n" +
+        return "List<String> get allFlags =>\n" +
                 "    [" + flags + "];\n" +
-                "  }\n\n";
+                "\n\n";
     }
+
     private static String getMapsString() throws IOException {
         String maps = getFromCountriesFolder(Language.en, "maps_list")
                 .stream().map(e -> "\"" + e + "\"")
                 .collect(Collectors.joining(","));
-        return "List<String> _allMaps =>\n" +
+        return "List<String> get allMaps =>\n" +
                 "    [" + maps + "];\n" +
-                "  }\n\n";
+                "\n\n";
     }
 
+    private static String getCapitalsIndexesString() throws IOException {
+        String caps = getFromCountriesFolder(Language.en, "capitals_indexes")
+                .stream().map(e -> "\"" + e + "\"")
+                .collect(Collectors.joining(","));
+        return "List<String> get allCapitalIndexes =>\n" +
+                "    [" + caps + "];\n" +
+                "\n\n";
+    }
+
+
     private static String getCountriesString(Language language) throws IOException {
-        String countries = getFromCountriesFolder(language, "countries_2")
+        List<String> countriesList = getFromCountriesFolder(language, "countries");
+        if (countriesList.size() != 195) {
+            throw new RuntimeException();
+        }
+        String countries = countriesList
                 .stream().map(e -> "\"" + e.replace("----", "")
                         .replace("****", "").split(":")[0] + "\"")
                 .collect(Collectors.joining(","));
-        return "List<String> _allCountries" + language.toString().toUpperCase() + "() {\n" +
-                "    return [" + countries + "];\n" +
-                "  }\n\n";
+        return "List<String> get _allCountries" + language.toString().toUpperCase() + " => \n" +
+                "     [" + countries + "];\n" +
+                "\n\n";
     }
 
     private static String getCountriesRankedString(Language language) throws IOException {
         MutableInt index = new MutableInt();
         index.setValue(0);
-        String countries = getFromCountriesFolder(language, "countries_2")
+        String countries = getFromCountriesFolder(language, "countries")
                 .stream().map(e -> {
                     String s = "\"" + index + ":" + e.split(":")[1] + "\"";
                     index.setValue(index.getValue() + 1);

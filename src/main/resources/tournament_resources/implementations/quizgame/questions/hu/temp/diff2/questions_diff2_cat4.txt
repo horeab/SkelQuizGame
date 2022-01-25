@@ -2,6 +2,6 @@
 :Az öt színes folyó, Kolumbia::
 :Paricutín vulkán, Mexikó::
 :Moeraki sziklák, Új-Zéland::
-:A kék barlang, Olaszország:28,31,29:
-:Márványbarlangok, Chile:19,25,20:
-:Kristálybarlang, Bermuda:25,30,35:
+:A kék barlang, Olaszország:0,1,2:
+:Márványbarlangok, Chile:3,0,2:
+:Kristálybarlang, Bermuda:0,1,2:

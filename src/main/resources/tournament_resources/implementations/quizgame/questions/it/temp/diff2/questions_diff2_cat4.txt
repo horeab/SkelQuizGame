@@ -2,6 +2,6 @@
 :Il fiume dei cinque colori, Colombia::
 :Vulcano Paricutín, Messico::
 :Massi di Moeraki, Nuova Zelanda::
-:Grotta Azzurra, Italia:28,31,29:
-:Marmeren grotten, Cile:19,25,20:
-:Cave di cristallo, Bermuda:25,30,35:
+:Grotta Azzurra, Italia:0,1,2:
+:Marmeren grotten, Cile:3,0,2:
+:Cave di cristallo, Bermuda:0,1,2:

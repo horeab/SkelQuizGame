@@ -1,7 +1,7 @@
-:Insula Jeju, Coreea de Sud:31,25,27:
+:Insula Jeju, Coreea de Sud:1,2,5:
 :Cascadele de pe Iguazú, Argentina şi Brazilia::
 :Matterhorn, Elveţia::
-:Muntele Masa, Africa de Sud:26,24,30:
-:Bu Tinah, Emiratele Arabe Unite:31,29,26:
+:Muntele Masa, Africa de Sud:1,6,5:
+:Bu Tinah, Emiratele Arabe Unite:1,6,5:
 :Sundarbans, Bangladesh::
 :Cheile Verdon, Franţa::

@@ -1,0 +1,7 @@
+:Pamukkale, Turkey::
+:The River of Five Colors, Colombia::
+:Paricutín Volcano, Mexico::
+:Moeraki Boulders, New Zealand::
+:The Blue Grotto, Italy:0,1,2:
+:Marble Caves, Chile:3,0,2:
+:Crystal Cave, Bermuda:0,1,2:

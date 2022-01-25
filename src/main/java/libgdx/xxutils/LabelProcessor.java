@@ -27,6 +27,7 @@ import libgdx.implementations.skelgame.GameIdEnum;
 
 public class LabelProcessor {
 
+
     public static void main(String[] args) throws IOException {
 
         List<GameIdEnum> gameIds = Arrays.asList(GameIdEnum.history, GameIdEnum.quizgame, GameIdEnum.countries);
@@ -35,26 +36,77 @@ public class LabelProcessor {
 
         //
         ////
-        List<Language> languages = Collections.singletonList(Language.en);
-//        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+//        List<Language> languages = Collections.singletonList(Language.sk);
+        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
 //        List<Language> languages = Arrays.asList(Language.ar, Language.he);
         ////
         //
 
-//        translateNewLanguage(Language.ar, gameIds, defaultLabels);
-//        translateMissingLabels(Language.ar, gameIds, defaultLabels);
+//        translateNewLanguage(Language.ro, gameIds, defaultLabels);
+//        translateMissingLabels(Language.zh, gameIds, defaultLabels);
         formFlutterKeys(gameIds, defaultLabels, languages);
+    }
+
+
+    private static void translateMissingLabels(Language translateTo, List<GameIdEnum> gameIds, Map<Pair<String, String>, String> enLabels) {
+        Map<String, String> newM = new HashMap<>();
+        Map<Pair<String, String>, String> labelsForLanguage = getLabelsForLanguage(gameIds, enLabels, translateTo);
+        Map<String, String> missingToTranslate = new HashMap<>();
+        Map<Pair<String, String>, String> missingKeys = getMissingLabelKeys(labelsForLanguage, gameIds);
+
+        missingKeys.entrySet().removeIf(e -> e.getKey().getRight().equals("l_a_b_c_d_e_f_g_h_i_j_k_l_m_n_o_p_q_r_s_t_u_v_w_x_y_z"));
+        enLabels.forEach((key, value) -> {
+            if (missingKeys.entrySet().stream().anyMatch(e -> e.getKey().getRight().equals(key.getRight()))) {
+                missingToTranslate.put(key.getLeft(), value);
+            }
+        });
+
+        String defaultLang = Language.en.toString();
+        missingToTranslate.forEach((key, value) -> {
+            System.out.println("Translating: " + key + "=" + value);
+            String trans = null;
+            try {
+                trans = TranslateTool.translate(defaultLang, translateTo.toString(), value).trim();
+//                trans = value;
+            } catch (Exception e) {
+                e.printStackTrace();
+                System.out.println("ERRROROOROROORR: " + key);
+            }
+            System.out.println("Translated: " + key + "=" + trans);
+            newM.put(key, trans);
+        });
+        System.out.println("-------------------------------");
+        System.out.println("-------------------------------");
+        System.out.println("-------------------------------");
+        System.out.println("-------------------------------");
+        newM.forEach((key, value) -> System.out.println(translateTo.toString() + "_" + key + "=" + value));
+    }
+
+    static boolean isHangmanSupported(Language language) {
+
+        return !Arrays.asList(
+                Language.ar,
+                Language.he,
+                Language.hi,
+                Language.ja,
+                Language.ko,
+                Language.th,
+                Language.zh,
+                Language.vi).contains(language);
     }
 
     private static void formFlutterKeys(List<GameIdEnum> gameIds, Map<Pair<String, String>, String> defaultLabels, List<Language> languages) throws IOException {
         for (Language translateTo : languages) {
             Map<Pair<String, String>, String> labelsForLanguage = getLabelsForLanguage(gameIds, defaultLabels, translateTo);
 
-            List<String> missingKeys = getMissingLabelKeys(defaultLabels, labelsForLanguage);
+            Map<Pair<String, String>, String> missingKeys = getMissingLabelKeys(labelsForLanguage, gameIds);
+            if (!isHangmanSupported(translateTo)) {
+                missingKeys.entrySet().removeIf(e -> e.getKey().getRight().equals("l_a_b_c_d_e_f_g_h_i_j_k_l_m_n_o_p_q_r_s_t_u_v_w_x_y_z"));
+            }
 
             if (!missingKeys.isEmpty()) {
                 System.out.println();
-                missingKeys.forEach(System.out::println);
+                missingKeys.forEach((key, value) -> System.out.println(value));
                 System.out.println();
                 throw new RuntimeException("missing keys for lang " + translateTo);
             }
@@ -87,42 +139,25 @@ public class LabelProcessor {
         newM.forEach((key, value) -> System.out.println(key + "=" + value));
     }
 
-    private static void translateMissingLabels(Language translateTo, List<GameIdEnum> gameIds, Map<Pair<String, String>, String> enLabels) {
-        Map<String, String> newM = new HashMap<>();
-        Map<Pair<String, String>, String> labelsForLanguage = getLabelsForLanguage(gameIds, enLabels, translateTo);
-        Map<String, String> missingToTranslate = new HashMap<>();
-        List<String> missingKeys = getMissingLabelKeys(enLabels, labelsForLanguage);
-        missingKeys.remove("l_a_b_c_d_e_f_g_h_i_j_k_l_m_n_o_p_q_r_s_t_u_v_w_x_y_z");
-        enLabels.forEach((key, value) -> {
-            if (missingKeys.contains(key.getRight())) {
-                missingToTranslate.put(key.getRight(), value);
-            }
-        });
 
-        missingToTranslate.forEach((key, value) -> {
-            System.out.println("Translating: " + key + "=" + value);
-            String trans = null;
-            try {
-                trans = TranslateTool.translate(Language.en.toString(), translateTo.toString(), value).trim();
-//                trans = value;
-            } catch (Exception e) {
-                e.printStackTrace();
-                System.out.println("ERRROROOROROORR: " + key);
-            }
-            System.out.println("Translated: " + key + "=" + trans);
-            newM.put(key, trans);
-        });
-        newM.forEach((key, value) -> System.out.println(translateTo.toString() + "_" + key + "=" + value));
-    }
-
-    private static List<String> getMissingLabelKeys(Map<Pair<String, String>, String> defaultLabels, Map<Pair<String, String>, String> labels) {
+    private static Map<Pair<String, String>, String> getMissingLabelKeys(Map<Pair<String, String>, String> labels, List<GameIdEnum> gameIds) {
+        Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
         List<String> missingKeys = defaultLabels.keySet().stream().map(Pair::getRight)
                 .collect(Collectors.toList());
         missingKeys.removeAll(
                 labels.keySet().stream().map(Pair::getRight).collect(Collectors.toList()));
         missingKeys.removeAll(
                 labels.keySet().stream().map(Pair::getLeft).collect(Collectors.toList()));
-        return missingKeys;
+        Map<Pair<String, String>, String> missingDefaultLabels = new HashMap<>();
+        for (String k : missingKeys) {
+            for (Map.Entry<Pair<String, String>, String> e : defaultLabels.entrySet()) {
+                if (e.getKey().getRight().equals(k)) {
+                    missingDefaultLabels.put(e.getKey(), e.getValue());
+                    break;
+                }
+            }
+        }
+        return missingDefaultLabels;
     }
 
     public static void writeToFile(String json, Language language) throws IOException {

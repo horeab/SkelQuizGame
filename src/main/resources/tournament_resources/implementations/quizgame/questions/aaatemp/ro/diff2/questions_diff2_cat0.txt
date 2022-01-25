@@ -1,0 +1,8 @@
+:Piaţa Roşie, Moscova::0
+:Petra, Iordania::0
+:Fâşia, Las Vegas::0
+:Palatul Grand, Bangkok::0
+:La Sagrada Familia, Barcelona::0
+:Armata de Teracotă, China::0
+:Times Square, New York::0
+:Oraşul interzis, Beijing::0

@@ -1,7 +1,7 @@
-:Pulau Jeju, Korea Selatan:31,25,27:
+:Pulau Jeju, Korea Selatan:1,2,5:
 :Air Terjun Iguazu, Argentina dan Brazil::
 :Matterhorn, Switzerland::
-:Jadual Gunung, Afrika Selatan:26,24,30:
-:Bu Tinah, Emiriah Arab Bersatu:31,29,26:
+:Jadual Gunung, Afrika Selatan:1,6,5:
+:Bu Tinah, Emiriah Arab Bersatu:1,6,5:
 :Sundarban, Bangladesh::
 :Jurang Verdon, Perancis::

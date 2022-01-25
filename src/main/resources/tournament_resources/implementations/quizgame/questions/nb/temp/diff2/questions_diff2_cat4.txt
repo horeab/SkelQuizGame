@@ -2,6 +2,6 @@
 :Caño Cristales, Columbia::
 :Paricutín vulkan, Mexico::
 :Moeraki Boulders, New Zealand::
-:Den blå grotten, Italia:28,31,29:
-:Marmorhuler, Chile:19,25,20:
-:Krystallgrotte, Bermuda:25,30,35:
+:Den blå grotten, Italia:0,1,2:
+:Marmorhuler, Chile:3,0,2:
+:Krystallgrotte, Bermuda:0,1,2:

@@ -1,7 +1,7 @@
-12::Thác Angel, Venezuela:10,9,18:12
+12::Thác Angel, Venezuela:1,2,4:12
 13::Núi Kilimanjaro, Tanzania:8,7,21:13
 14::Đồng bằng sông Danube, Rumani:17,15,10:14
-15::Thác Victoria, Zimbabwe và Zambia:21,18,11:15
+15::Thác Victoria, Zimbabwe và Zambia:5,6,9:15
 16::Mắt Sahara, Mauritania:13,8,23:16
 17::Biển Chết, Israel:25,15,24:17
 18::Vách đá Moher, Ireland:14,16,21:18

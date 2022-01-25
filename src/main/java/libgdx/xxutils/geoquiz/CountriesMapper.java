@@ -1,5 +1,6 @@
 package libgdx.xxutils.geoquiz;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.mutable.MutableInt;
 
 import java.io.BufferedReader;
@@ -9,6 +10,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -19,25 +21,27 @@ import java.util.stream.Collectors;
 import libgdx.constants.Language;
 import libgdx.implementations.countries.CountriesCategoryEnum;
 import libgdx.implementations.skelgame.GameIdEnum;
+import libgdx.implementations.skelgame.question.QuestionParser;
 import libgdx.xxutils.LabelProcessor;
+import libgdx.xxutils.TranslateQuestionProcessor;
 
 public class CountriesMapper {
 
     public static void main(String[] args) throws IOException {
 
-        Map<IndexMapping, String> mappings = createMappings();
-
-//        List<Language> langs = Arrays.asList(Language.values());
+        List<Language> langs = new ArrayList<>(Arrays.asList(Language.values()));
 //        langs.remove(Language.en);
+//        langs.remove(Language.ro);
+//        langs.remove(Language.de);
 
-        List<Language> langs = Arrays.asList(Language.en, Language.ro);
+//        List<Language> langs = Arrays.asList(Language.de);
 
 //        addCountryRanking();
 
         for (Language lang : langs) {
 //            createNewCountriesFile(mappings.keySet(), lang);
 //            moveCapitalsToNewPos(mappings.keySet(), lang);
-            moveQuestions(mappings.keySet(), lang);
+            moveQuestions(lang);
 //            moveSynonymsToNewPos(mappings.keySet(), lang);
         }
     }
@@ -81,14 +85,14 @@ public class CountriesMapper {
             i.setValue(i.getValue() + 1);
         }
 
-        File myObj = new File(String.format(rootPath, language.toString()) + "/countries.txt");
-        myObj.createNewFile();
-        FileWriter myWriter = new FileWriter(myObj);
-        myWriter.write(newCountries.stream().collect(Collectors.joining("\n")));
-        myWriter.close();
+//        File myObj = new File(String.format(rootPath, language.toString()) + "/countries.txt");
+//        myObj.createNewFile();
+//        FileWriter myWriter = new FileWriter(myObj);
+//        myWriter.write(newCountries.stream().collect(Collectors.joining("\n")));
+//        myWriter.close();
     }
 
-    private static void moveQuestions(Set<IndexMapping> mappings, Language language) throws IOException {
+    private static void moveQuestions(Language language) throws IOException {
 
         for (CountriesCategoryEnum cat : CountriesCategoryEnum.values()) {
             String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
@@ -105,13 +109,12 @@ public class CountriesMapper {
                 String newIndexLine = "";
                 if (cat == CountriesCategoryEnum.cat0 || cat == CountriesCategoryEnum.cat1) {
                     int cIndex = Integer.parseInt(line.split(":")[0]) - 1;
-                    int newIndex = mappings.stream().filter(e -> e.oldIndex == cIndex).findFirst().get().newIndex;
-                    newIndexLine = newIndex + ":" + line.split(":")[1];
+                    newIndexLine = cIndex + ":" + line.split(":")[1];
                 } else {
-                    String beforeDoubleDotText;
+                    String beforeDoubleDotText = "";
                     if (cat == CountriesCategoryEnum.cat3) {
                         int mainIndex = Integer.parseInt(line.split(":")[0]) - 1;
-                        beforeDoubleDotText = String.valueOf(mappings.stream().filter(e -> e.oldIndex == mainIndex).findFirst().get().newIndex);
+                        beforeDoubleDotText = String.valueOf(mainIndex);
 
                         String testStart = beforeDoubleDotText;
                         if (newIndexLines.stream().anyMatch(e -> e.startsWith(testStart + ":"))) {
@@ -121,16 +124,27 @@ public class CountriesMapper {
                         int mainIndex = Integer.parseInt(line.split(":")[0]);
                         if (cat == CountriesCategoryEnum.cat4) {
                             beforeDoubleDotText = getLabel(language, "countries_emp_" + mainIndex);
-                        } else {
+                        } else if (cat == CountriesCategoryEnum.cat5) {
                             beforeDoubleDotText = getLabel(language, "countries_geo_" + mainIndex);
                         }
                     }
-                    List<String> optIndex = Arrays.stream(line.split(":")[1].split(","))
-                            .map(e -> {
-                                int oldIndex = Integer.parseInt(e) - 1;
-                                return String.valueOf(mappings.stream().filter(ee -> ee.oldIndex == oldIndex).findFirst().get().newIndex);
-                            }).collect(Collectors.toList());
-                    newIndexLine = beforeDoubleDotText + ":" + optIndex.stream().collect(Collectors.joining(","));
+                    List<String> optIndex;
+                    if (cat == CountriesCategoryEnum.cat3) {
+                        optIndex = Arrays.stream(line.split(":")[1].split(","))
+                                .map(e -> {
+                                    int oldIndex = Integer.parseInt(e) - 1;
+                                    return String.valueOf(oldIndex);
+                                }).collect(Collectors.toList());
+                    } else {
+                        optIndex = Arrays.stream(line.split(":")[1].split(",")).collect(Collectors.toList());
+                    }
+                    if (cat == CountriesCategoryEnum.cat4 || cat == CountriesCategoryEnum.cat5) {
+                        EmpireGeoRegionQuestionParser parser = new EmpireGeoRegionQuestionParser();
+                        newIndexLine = parser.formQuestion(language, beforeDoubleDotText,
+                                String.join(",", optIndex), Collections.emptyList(), "");
+                    } else {
+                        newIndexLine = beforeDoubleDotText + ":" + String.join(",", optIndex);
+                    }
                 }
                 newIndexLines.add(newIndexLine);
             }
@@ -153,14 +167,47 @@ public class CountriesMapper {
             }
         }
 
-        List<String> syns = FlutterCountriesProcessor.getFromCountriesFolder(language, "synonyms");
+//        List<String> syns = FlutterCountriesProcessor.getFromCountriesFolder(language, "synonyms");
+//
+//        int index = 0;
+//        for (String s : syns) {
+//            int cIndex = Integer.parseInt(s.split(":")[0]) - 1;
+//            int newIndex = mappings.stream().filter(e -> e.oldIndex == cIndex).findFirst().get().newIndex;
+//            syns.set(index, newIndex + ":" + s.split(":")[1]);
+//            index++;
+//        }
+    }
 
-        int index = 0;
-        for (String s : syns) {
-            int cIndex = Integer.parseInt(s.split(":")[0]) - 1;
-            int newIndex = mappings.stream().filter(e -> e.oldIndex == cIndex).findFirst().get().newIndex;
-            syns.set(index, newIndex + ":" + s.split(":")[1]);
-            index++;
+
+    static class EmpireGeoRegionQuestionParser extends TranslateQuestionProcessor.QuestionParser {
+
+        @Override
+        public String formQuestion(Language language, String empireGeoRegionName, String countryIndexes, List<String> options, String prefix) {
+            String format = "%s:%s";
+            Object[] array = {empireGeoRegionName, countryIndexes};
+            return formQuestion(format, array, language);
+        }
+
+        @Override
+        public String getAnswer(String rawString) {
+            return rawString.split(":", -1)[1];
+        }
+
+        @Override
+        public List<String> getOptions(String rawString) {
+            return Arrays.stream(rawString.split(":", -1)[2].split(",", -1))
+                    .filter(StringUtils::isNotBlank).collect(Collectors.toList());
+        }
+
+        @Override
+        public String getQuestion(String rawString) {
+            return rawString.split(":", -1)[0];
+        }
+
+        @Override
+        public String getQuestionPrefix(String rawString) {
+//            return rawString.split(":", -1)[3];
+            return "";
         }
     }
 
@@ -203,59 +250,23 @@ public class CountriesMapper {
 
     private static void moveCapitalsToNewPos(Set<IndexMapping> mappings, Language language) throws IOException {
         String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s";
+//        List<String> capitals = FlutterCountriesProcessor.getFromCountriesFolder(Language.en, "capitals");
         List<String> capitals = FlutterCountriesProcessor.getFromCountriesFolder(language, "capitals");
-        List<String> capitalsToMove = FlutterCountriesProcessor.getFromCountriesFolder(language, "capitals");
+        List<String> capitalsToMove = new ArrayList<>();
 
         MutableInt i = new MutableInt(0);
         MutableInt cIndex = new MutableInt(0);
         for (String oC : capitals) {
-            if (oC.contains(":")) {
-                continue;
-            }
-            if (i.getValue() == 176) {
-                cIndex.setValue(cIndex.getValue() + 1);
-            }
-            int newIndex = mappings.stream().filter(e -> e.oldIndex == cIndex.getValue()).findFirst().get().newIndex;
-            capitalsToMove.set(i.getValue(), newIndex + ":" + oC);
-            i.setValue(i.getValue() + 1);
-            cIndex.setValue(cIndex.getValue() + 1);
+            capitalsToMove.add(oC);
         }
 
 
-        File myObj = new File(String.format(rootPath, language.toString()) + "/capitals.txt");
-        myObj.createNewFile();
-        FileWriter myWriter = new FileWriter(myObj);
-        myWriter.write(capitalsToMove.stream().collect(Collectors.joining("\n")));
-        myWriter.close();
+//        File myObj = new File(String.format(rootPath, language.toString()) + "/capitals.txt");
+//        myObj.createNewFile();
+//        FileWriter myWriter = new FileWriter(myObj);
+//        myWriter.write(capitalsToMove.stream().collect(Collectors.joining("\n")));
+//        myWriter.close();
     }
-
-    static Map<IndexMapping, String> createMappings() throws IOException {
-        List<String> englishCountries = FlutterCountriesProcessor.getCountries(Language.en);
-        List<String> englishCountries2 = FlutterCountriesProcessor.getFromCountriesFolder(Language.en, "countries_2");
-
-        Map<IndexMapping, String> mappings = new HashMap<>();
-
-        int i = 0;
-        for (String c : englishCountries) {
-            int j = 0;
-            boolean found = false;
-            for (String c2 : englishCountries2) {
-                if (c.equals(c2.replace("----", "")
-                        .replace("****", "").split(":")[0])) {
-                    mappings.put(new IndexMapping(i, j), c);
-                    found = true;
-                    break;
-                }
-                j++;
-            }
-            if (!found) {
-                throw new RuntimeException("not found  " + c);
-            }
-            i++;
-        }
-        return mappings;
-    }
-
 
     static final String ranks = "China\n" +
             "India\n" +

@@ -2,6 +2,6 @@
 :Der Fluss der fünf Farben, Kolumbien::
 :Vulkan Paricutín, Mexiko::
 :Moeraki Boulders, Neuseeland::
-:Die Blaue Grotte, Italien:28,31,29:
-:Marmorhöhlen, Chile:19,25,20:
-:Kristallhöhle, Bermuda:25,30,35:
+:Die Blaue Grotte, Italien:0,1,2:
+:Marmorhöhlen, Chile:3,0,2:
+:Kristallhöhle, Bermuda:0,1,2:

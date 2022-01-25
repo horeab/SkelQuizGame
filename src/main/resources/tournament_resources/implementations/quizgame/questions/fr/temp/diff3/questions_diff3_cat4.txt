@@ -1,7 +1,7 @@
-:Île de Jeju, Corée du Sud:31,25,27:
+:Île de Jeju, Corée du Sud:1,2,5:
 :Chutes d'Iguazu, Argentine et Brésil::
 :Cervin, Suisse::
-:Montagne de la Table, Afrique du Sud:26,24,30:
-:Bu Tinah, Émirats arabes unis:31,29,26:
+:Montagne de la Table, Afrique du Sud:1,6,5:
+:Bu Tinah, Émirats arabes unis:1,6,5:
 :Sundarbans, Bangladesh::
 :Gorges du Verdon, France::

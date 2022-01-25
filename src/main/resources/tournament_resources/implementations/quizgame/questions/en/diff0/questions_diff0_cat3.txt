@@ -9,6 +9,6 @@
 8::Mexico:7,14,4:8
 9::Russia:11,12,15:9
 10::Spain:5,11,13:10
-11::United States of America:5,10,6:11
+11::United States:5,10,6:11
 12::Japan:17,15,10:12
 13::Netherlands:11,12,7:13

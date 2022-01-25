@@ -5,7 +5,7 @@
 18:What is the capital of India?:New Delhi:15,26,22:18
 19:What is the capital of Greece?:Athens:17,22,18:19
 20:What is the capital of Cyprus?:Nicosia:19,12,26:20
-21:What is the capital of Columbia?:Bogota:20,18,14:21
+21:What is the capital of Colombia?:Bogota:20,18,14:21
 22:What is the capital of Czech Republic?:Prague:27,25,28:22
 23:What is the capital of Croatia?:Zagreb:22,16,25:23
 24:What is the capital of Denmark?:Copenhagen:27,21,22:24

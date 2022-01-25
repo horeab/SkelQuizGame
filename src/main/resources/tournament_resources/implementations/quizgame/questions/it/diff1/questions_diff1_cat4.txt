@@ -1,7 +1,7 @@
-12::Salto Angel, Venezuela:10,9,18:12
+12::Salto Angel, Venezuela:1,2,4:12
 13::Kilimangiaro, Tanzania:8,7,21:13
 14::Delta del Danubio, Romania:17,15,10:14
-15::Cascate Vittoria, Zimbabwe e Zambia:21,18,11:15
+15::Cascate Vittoria, Zimbabwe e Zambia:5,6,9:15
 16::Occhio del Sahara, Mauritania:13,8,23:16
 17::Il Mar Morto, Israele:25,15,24:17
 18::Scogliere di Moher, Irlanda:14,16,21:18

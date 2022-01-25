@@ -1,7 +1,7 @@
-12::Angelovi slapovi, Venezuela:10,9,18:12
+12::Angelovi slapovi, Venezuela:1,2,4:12
 13::Kilimandžaro, Tanzanija:8,7,21:13
 14::Delta Dunava, Rumunjska:17,15,10:14
-15::Viktorijini slapovi, Zimbabwe i Zambija:21,18,11:15
+15::Viktorijini slapovi, Zimbabwe i Zambija:5,6,9:15
 16::Sahara, Mauritanija:13,8,23:16
 17::Mrtvo more, Izrael:25,15,24:17
 18::Moherske litice, Irska:14,16,21:18

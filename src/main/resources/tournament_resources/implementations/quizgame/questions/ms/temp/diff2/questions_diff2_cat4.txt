@@ -2,6 +2,6 @@
 :Sungai Lima Warna, Columbia::
 :Gunung berapi Paricutín, Mexico::
 :Batu Moeraki sepotong, New Zealand::
-:Grotto Biru, Itali:28,31,29:
-:Gua Marble, Chile:19,25,20:
-:Gua kristal, Bermuda:25,30,35:
+:Grotto Biru, Itali:0,1,2:
+:Gua Marble, Chile:3,0,2:
+:Gua kristal, Bermuda:0,1,2:

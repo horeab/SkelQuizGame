@@ -1,0 +1,14 @@
+23:Viena::2
+19:Bruxelles::2
+3:Brasilia::2
+22:Ottawa::2
+0:Beijing::2
+2:Washington DC::2
+10:Paris::2
+8:Berlin::2
+13:Roma::2
+5:Mexico City::2
+4:Moscova::2
+17:Madrid::2
+6:Tokyo::2
+25:Amsterdam::2

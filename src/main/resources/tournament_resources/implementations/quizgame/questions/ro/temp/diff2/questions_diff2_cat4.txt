@@ -2,6 +2,6 @@
 :Râul cu Cinci Culori, Columbia::
 :Vulcan Paricutín, Mexic::
 :Bolovanii Moeraki, Noua Zeelandă::
-:Grota Albastră, Italia:28,31,29:
-:Peştera de marmură, Chile:19,25,20:
-:Peştera de cristal, Bermuda:25,30,35:
+:Grota Albastră, Italia:0,1,2:
+:Peştera de marmură, Chile:3,0,2:
+:Peştera de cristal, Bermuda:0,1,2:

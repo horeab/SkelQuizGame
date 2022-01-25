@@ -1,7 +1,7 @@
-12::Air terjun Angel, Venezuela:10,9,18:12
+12::Air terjun Angel, Venezuela:1,2,4:12
 13::Kilimanjaro, Tanzania:8,7,21:13
 14::Delta Donau, Romania:17,15,10:14
-15::Air Terjun Victoria, Zimbabwe dan Zambia:21,18,11:15
+15::Air Terjun Victoria, Zimbabwe dan Zambia:5,6,9:15
 16::Struktur Richat, Mauritania:13,8,23:16
 17::Laut Mati, Israel:25,15,24:17
 18::Tebing Moher, Irlandia:14,16,21:18

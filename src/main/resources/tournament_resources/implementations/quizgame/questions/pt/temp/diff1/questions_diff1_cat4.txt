@@ -1,7 +1,7 @@
-:Salto Ángel, Venezuela:10,9,18:
+:Salto Ángel, Venezuela:1,2,4:
 :Monte Kilimanjaro, Tanzânia::
 :Delta do Danúbio, Romênia::
-:Cataratas Vitória, Zimbábue e Zâmbia:21,18,11:
+:Cataratas Vitória, Zimbábue e Zâmbia:5,6,9:
 :Olho do Saara, Mauritânia::
 :O Mar Morto, Israel::
 :Falésias de Moher, Irlanda::

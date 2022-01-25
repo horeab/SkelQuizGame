@@ -2,6 +2,6 @@
 23::Rieka piatich farieb, Kolumbia:26,19,29:23
 24::Sopka Paricutín, Mexiko:30,17,31:24
 25::Kamenná časť Moeraki, Nový Zéland:31,32,29:25
-26::Modré jaskyne, Taliansko:28,31,29:26
-27::Mramorové jaskyne, Čile:19,25,20:27
-28::Kristallgrotta, Bermuda:25,30,35:28
+26::Modré jaskyne, Taliansko:0,1,2:26
+27::Mramorové jaskyne, Čile:3,0,2:27
+28::Kristallgrotta, Bermuda:0,1,2:28

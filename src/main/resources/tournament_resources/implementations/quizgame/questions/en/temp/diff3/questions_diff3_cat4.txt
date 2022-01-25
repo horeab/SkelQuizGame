@@ -1,0 +1,7 @@
+:Jeju Island, South Korea:1,2,5:
+:Iguazu Falls, Argentina and Brazil::
+:Matterhorn, Switzerland::
+:Table Mountain, South Africa:1,6,5:
+:Bu Tinah, United Arab Emirates:1,6,5:
+:Sundarbans, Bangladesh::
+:Verdon Gorge, France::

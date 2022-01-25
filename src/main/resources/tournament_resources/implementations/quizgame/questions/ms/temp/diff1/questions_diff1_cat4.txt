@@ -1,7 +1,7 @@
-:Air Terjun Angel, Venezuela:10,9,18:
+:Air Terjun Angel, Venezuela:1,2,4:
 :Gunung Kilimanjaro, Tanzania::
 :Delta Danube, Romania::
-:Air Terjun Victoria, Zimbabwe dan Zambia:21,18,11:
+:Air Terjun Victoria, Zimbabwe dan Zambia:5,6,9:
 :Mata Sahara, Mauritania::
 :Laut Mati, Israel::
 :Cliffs of Moher, Ireland::

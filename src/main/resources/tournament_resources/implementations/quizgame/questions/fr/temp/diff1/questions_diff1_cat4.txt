@@ -1,7 +1,7 @@
-:Salto Ángel, Venezuela:10,9,18:
+:Salto Ángel, Venezuela:1,2,4:
 :Mont Kilimandjaro, Tanzanie::
 :Delta du Danube, Roumanie::
-:Chutes Victoria, Zimbabwe et Zambie:21,18,11:
+:Chutes Victoria, Zimbabwe et Zambie:5,6,9:
 :Œil du Sahara, Mauritanie::
 :La mer Morte, Israël::
 :Falaises de Moher, Irlande::

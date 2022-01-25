@@ -1,7 +1,7 @@
-:Salto Ángel, Venezuela:10,9,18:
+:Salto Ángel, Venezuela:1,2,4:
 :Kilimandžáro, Tanzanie::
 :Dunajská delta, Rumunsko::
-:Viktoriiny vodopády, Zimbabwe a Zambie:21,18,11:
+:Viktoriiny vodopády, Zimbabwe a Zambie:5,6,9:
 :Oko Sahary, Mauritánie::
 :Mrtvé moře, Izrael::
 :Útesy Moher, Irsko::

@@ -2,6 +2,6 @@
 :La rivière des cinq couleurs, Colombie::
 :Volcan Paricutín, Mexique::
 :Moeraki rochers, Nouvelle-Zélande::
-:La Grotte Bleue, Italie:28,31,29:
-:Grottes de marbre, Chili:19,25,20:
-:Grotte de cristal, Bermuda:25,30,35:
+:La Grotte Bleue, Italie:0,1,2:
+:Grottes de marbre, Chili:3,0,2:
+:Grotte de cristal, Bermuda:0,1,2:

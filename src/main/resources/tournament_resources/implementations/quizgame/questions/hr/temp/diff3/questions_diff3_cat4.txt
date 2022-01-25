@@ -1,7 +1,7 @@
-:Otok Jeju, Južna Koreja:31,25,27:
+:Otok Jeju, Južna Koreja:1,2,5:
 :Slapovi Iguazu, Argentina i Brazil::
 :Matterhorn, Švicarska::
-:Stolna planina, Južna Afrika:26,24,30:
-:Bu Tinah, Ujedinjeni Arapski Emirati:31,29,26:
+:Stolna planina, Južna Afrika:1,6,5:
+:Bu Tinah, Ujedinjeni Arapski Emirati:1,6,5:
 :Sundarbans, Bangladeš::
 :Ždrijelo Verdon, Francuska::

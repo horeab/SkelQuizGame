@@ -1,0 +1,11 @@
+:Eiffel Tower, Paris::
+:Colosseum, Rome::
+:Hollywood Sign, Los Angeles::
+:Great Pyramid of Giza, Egypt::
+:Statue of Liberty, New York::
+:Great Wall of China::
+:Angkor Wat, Cambodia::
+:Vatican City::
+:Leaning Tower of Pisa, Italy::
+:Christ the Redeemer, Rio de Janeiro::
+:Sydney Opera House, Sydney::

@@ -1,7 +1,7 @@
-:Salto Angel, Wenezuela:10,9,18:
+:Salto Angel, Wenezuela:1,2,4:
 :Kilimandżaro, Tanzania::
 :Delta Dunaju, Rumunia::
-:Wodospady Wiktorii, Zimbabwe i Zambia:21,18,11:
+:Wodospady Wiktorii, Zimbabwe i Zambia:5,6,9:
 :Kalb ar-Riszat, Mauretania::
 :Morze Martwe, Izrael::
 :Klify Moheru, Ireland::

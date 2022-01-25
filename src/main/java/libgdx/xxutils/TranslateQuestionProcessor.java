@@ -23,10 +23,11 @@ import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Language;
 import libgdx.implementations.geoquiz.QuizQuestionCategoryEnum;
+import libgdx.implementations.geoquiz.QuizQuestionDifficultyLevel;
 import libgdx.implementations.history.HistoryDifficultyLevel;
 import libgdx.implementations.skelgame.question.QuestionParser;
 
-class TranslateQuestionProcessor {
+public class TranslateQuestionProcessor {
 
     static final List<Language> RTL_LANGS = Arrays.asList(Language.ar, Language.he);
 
@@ -38,10 +39,10 @@ class TranslateQuestionProcessor {
 
     public static void main(String[] args) throws IOException {
 
-//        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
 //        languages.remove(Language.ro);
 //        languages.remove(Language.en);
-        List<Language> languages = Arrays.asList(Language.en, Language.ro);
+//        List<Language> languages = Arrays.asList(Language.en, Language.ro, Language.sl);
 
         for (Language lang : languages) {
 
@@ -90,14 +91,32 @@ class TranslateQuestionProcessor {
             List<String> linesFromFile = readFileContents(oldQuestionPath);
 
             List<String> movedFile = new ArrayList<>();
+            List<Language> notTranslatedQLangs = Arrays.asList(Language.ar, Language.bg, Language.he,
+                    Language.sl, Language.sr);
             for (String line : linesFromFile) {
                 try {
                     String question = oldQuestionParser.getQuestion(line);
                     String answer = oldQuestionParser.getAnswer(line);
+                    if (notTranslatedQLangs.contains(langToMove)) {
+                        System.out.println("translating " + langToMove.toString() + " " + answer);
+                        answer = translateWord(langToMove, answer);
+                    }
                     //
 
-                    //Not needed for GeoQuiz
                     List<String> options = new ArrayList<>();
+                    if (category == QuizQuestionCategoryEnum.cat4) {
+                        String qNr = line.split(":", -1)[0];
+                        if (diff.name().equals(QuizQuestionDifficultyLevel._1.name())
+                                && Arrays.asList("12", "15").contains(qNr)
+                                ||
+                                diff.name().equals(QuizQuestionDifficultyLevel._2.name())
+                                        && Arrays.asList("26", "27", "28").contains(qNr)
+                                ||
+                                diff.name().equals(QuizQuestionDifficultyLevel._3.name())
+                                        && Arrays.asList("29", "32", "33").contains(qNr)) {
+                            options = oldQuestionParser.getOptions(line);
+                        }
+                    }
                     ///
                     //
 //                    List<String> options = oldQuestionParser.getOptions(line).stream()
@@ -110,7 +129,7 @@ class TranslateQuestionProcessor {
 //                            }).collect(Collectors.toList());
                     String prefix = prefixForMovedQuestions.get(category);
 
-                    movedFile.add(newQuestionParser.formQuestion(langToMove, question, answer, options, prefix));
+                    movedFile.add(newQuestionParser.formQuestion(langToMove, question, answer, options, ""));
                 } catch (Exception ex) {
                     System.out.println(line);
                     throw ex;
@@ -243,8 +262,8 @@ class TranslateQuestionProcessor {
                 res = text;
             } else {
                 nrOfTranslations++;
-                res = text;
-//                res = TranslateTool.translate(Language.en.toString(), translateTo.toString(), text).trim();
+//                res = text;
+                res = TranslateTool.translate(Language.en.toString(), translateTo.toString(), text).trim();
                 System.out.println("translated: " + text + " ___to___ " + res + " ----- as nr " + nrOfTranslations);
             }
         } else {
@@ -285,19 +304,19 @@ class TranslateQuestionProcessor {
         return readFileContents(String.format(rootPath, translateTo.toString()));
     }
 
-    abstract static class QuestionParser {
+    public abstract static class QuestionParser {
 
-        abstract String getAnswer(String rawString);
+        public abstract String getAnswer(String rawString);
 
-        abstract List<String> getOptions(String rawString);
+        public abstract List<String> getOptions(String rawString);
 
-        abstract String getQuestion(String rawString);
+        public abstract String getQuestion(String rawString);
 
-        abstract String getQuestionPrefix(String rawString);
+        public abstract String getQuestionPrefix(String rawString);
 
-        abstract String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix);
+        public abstract String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix);
 
-        String formQuestion(String format, Object[] params, Language language) {
+        public String formQuestion(String format, Object[] params, Language language) {
             List<String> split = Arrays.stream(format.split("%s")).filter(StringUtils::isNotBlank).collect(Collectors.toList());
             String res = "";
             for (int i = 0; i < params.length; i++) {
@@ -307,11 +326,7 @@ class TranslateQuestionProcessor {
                 if (RTL_LANGS.contains(language)) {
                     rtlSeparator = "\u200e";
                 }
-                if (detectRTL(text)) {
-                    res = rtlSeparator + res + rtlSeparator + text + rtlSeparator;
-                } else {
-                    res = rtlSeparator + res + rtlSeparator + text + rtlSeparator;
-                }
+                res = rtlSeparator + res + rtlSeparator + text + rtlSeparator;
                 if (i < split.size()) {
                     res = rtlSeparator + res + rtlSeparator + split.get(i) + rtlSeparator;
                 }
@@ -333,30 +348,30 @@ class TranslateQuestionProcessor {
     static class DependentQuestionParser extends QuestionParser {
 
         @Override
-        String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
             String format = "%s:%s:%s:%s";
             Object[] array = {question, correctAnswer, String.join(",", options), prefix};
             return formQuestion(format, array, language);
         }
 
         @Override
-        String getAnswer(String rawString) {
+        public String getAnswer(String rawString) {
             return rawString.split(":", -1)[1];
         }
 
         @Override
-        List<String> getOptions(String rawString) {
+        public List<String> getOptions(String rawString) {
             return Arrays.stream(rawString.split(":", -1)[2].split(",", -1))
                     .filter(StringUtils::isNotBlank).collect(Collectors.toList());
         }
 
         @Override
-        String getQuestion(String rawString) {
+        public String getQuestion(String rawString) {
             return rawString.split(":", -1)[0];
         }
 
         @Override
-        String getQuestionPrefix(String rawString) {
+        public String getQuestionPrefix(String rawString) {
 //            return rawString.split(":", -1)[3];
             return "";
         }
@@ -365,30 +380,30 @@ class TranslateQuestionProcessor {
     static class UniqueQuestionParser extends QuestionParser {
 
         @Override
-        String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
             String format = "%s::%s::%s";
             Object[] array = {question, String.join("##", options), correctAnswer};
             return formQuestion(format, array, language);
         }
 
         @Override
-        String getAnswer(String rawString) {
+        public String getAnswer(String rawString) {
             return rawString.split("::", -1)[2];
         }
 
         @Override
-        List<String> getOptions(String rawString) {
+        public List<String> getOptions(String rawString) {
             return Arrays.stream(rawString.split("::", -1)[1].split("##", -1))
                     .filter(StringUtils::isNotBlank).collect(Collectors.toList());
         }
 
         @Override
-        String getQuestion(String rawString) {
+        public String getQuestion(String rawString) {
             return rawString.split("::", -1)[0];
         }
 
         @Override
-        String getQuestionPrefix(String rawString) {
+        public String getQuestionPrefix(String rawString) {
             return "";
         }
     }
@@ -396,30 +411,30 @@ class TranslateQuestionProcessor {
     static class TimelineQuestionParser extends QuestionParser {
 
         @Override
-        String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
             String format = "%s:%s";
             Object[] array = {question, correctAnswer};
             return formQuestion(format, array, language);
         }
 
         @Override
-        String getAnswer(String rawString) {
+        public String getAnswer(String rawString) {
             return rawString.split(":", -1)[1];
         }
 
         @Override
-        List<String> getOptions(String rawString) {
+        public List<String> getOptions(String rawString) {
             return Arrays.stream(rawString.split(":", -1)[1].split(",", -1))
                     .filter(StringUtils::isNotBlank).collect(Collectors.toList());
         }
 
         @Override
-        String getQuestion(String rawString) {
+        public String getQuestion(String rawString) {
             return rawString.split(":", -1)[0];
         }
 
         @Override
-        String getQuestionPrefix(String rawString) {
+        public String getQuestionPrefix(String rawString) {
             return "";
         }
     }
@@ -427,28 +442,28 @@ class TranslateQuestionProcessor {
     static class OldDependentQuestionParser extends QuestionParser {
 
         @Override
-        String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
             return "";
         }
 
         @Override
-        String getAnswer(String rawString) {
+        public String getAnswer(String rawString) {
             return rawString.split(":", -1)[2];
         }
 
         @Override
-        List<String> getOptions(String rawString) {
+        public List<String> getOptions(String rawString) {
             return Arrays.stream(rawString.split(":", -1)[3].split(",", -1))
                     .filter(StringUtils::isNotBlank).collect(Collectors.toList());
         }
 
         @Override
-        String getQuestion(String rawString) {
+        public String getQuestion(String rawString) {
             return rawString.split(":", -1)[1];
         }
 
         @Override
-        String getQuestionPrefix(String rawString) {
+        public String getQuestionPrefix(String rawString) {
             return "";
         }
     }

@@ -1,7 +1,7 @@
-:Wyspa Jeju, Korea Południowa:31,25,27:
+:Wyspa Jeju, Korea Południowa:1,2,5:
 :Wodospady Iguazu, Argentyna i Brazylia::
 :Matterhorn, Szwajcaria::
-:Góra Stołowa, Republika Południowej Afryki:26,24,30:
+:Góra Stołowa, Republika Południowej Afryki:1,6,5:
 :Bu Tinah, Zjednoczone Emiraty Arabskie:31,26,26:
 :Sundarbany, Bangladesz::
 :Przełom Verdon, Francja::

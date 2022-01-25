@@ -1,0 +1,13 @@
+29:Canberra::2
+28:Lisbon::2
+9:Ankara::2
+41:Sofia::2
+1:New Delhi::2
+27:Athens::2
+89:Nicosia::2
+30:Bogota::2
+64:Prague::2
+32:Zagreb::2
+42:Copenhagen::2
+14:Cairo::2
+24:Bern::2

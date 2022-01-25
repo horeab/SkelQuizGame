@@ -24,7 +24,8 @@ public class FlutterGeoQuizQuestionProcessor {
 
     public static void main(String[] args) throws IOException {
 
-        List<Language> languages = Arrays.asList(Language.en, Language.ro);
+//        List<Language> languages = Arrays.asList(Language.en, Language.ro);
+        List<Language> languages = Arrays.asList(Language.values());
 
         StringBuilder res = new StringBuilder();
 
@@ -34,8 +35,8 @@ public class FlutterGeoQuizQuestionProcessor {
         res.append("    return result;\n" +
                 "  }\n\n");
 
-        //COUNTRIES - SYNONYMS - CAPITALS - COUNTRY_RANKS - COUNTRY_RANGES
-        res.append(FlutterCountriesProcessor.createCountriesAndSynonyms(languages));
+        //COUNTRIES - CAPITALS - COUNTRY_RANKS - COUNTRY_RANGES
+        res.append(FlutterCountriesProcessor.createCountriesAndCapitals(languages));
 
         for (Language language : languages) {
             res.append(FlutterQuestionProcessor.getQuestionsHeader(language));

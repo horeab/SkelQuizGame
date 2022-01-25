@@ -1,7 +1,7 @@
-:Angel Fälle, Venezuela:10,9,18:
+:Angel Fälle, Venezuela:1,2,4:
 :Kilimanjaro, Tansania::
 :Donaudelta, Rumänien::
-:Viktoriafälle, Simbabwe und Sambia:21,18,11:
+:Viktoriafälle, Simbabwe und Sambia:5,6,9:
 :Auge der Sahara, Mauretanien::
 :Das Tote Meer, Israel::
 :Cliffs of Moher, Irland::

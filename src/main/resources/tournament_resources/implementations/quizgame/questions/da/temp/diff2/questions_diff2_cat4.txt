@@ -2,6 +2,6 @@
 :Floden af fem farver, Colombia::
 :Paricutín vulkan, Mexico::
 :Moeraki stenblokke, New Zealand::
-:Den blå grotte, Italien:28,31,29:
-:Marmorhule, Chile:19,25,20:
-:Krystal Hule, Bermuda:25,30,35:
+:Den blå grotte, Italien:0,1,2:
+:Marmorhule, Chile:3,0,2:
+:Krystal Hule, Bermuda:0,1,2:

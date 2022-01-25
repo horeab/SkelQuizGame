@@ -1,7 +1,7 @@
-:Jeju Adası, Güney Kore:31,25,27:
+:Jeju Adası, Güney Kore:1,2,5:
 :Iguazu Şelalesi, Arjantin ve Brezilya::
 :Matterhorn, İsviçre::
-:Masa Dağı, Güney Afrika:26,24,30:
-:Bu Tinah, Birleşik Arap Emirlikleri:31,29,26:
+:Masa Dağı, Güney Afrika:1,6,5:
+:Bu Tinah, Birleşik Arap Emirlikleri:1,6,5:
 :Sundarbans, Bangladeş::
 :Verdon vadi, Fransa::

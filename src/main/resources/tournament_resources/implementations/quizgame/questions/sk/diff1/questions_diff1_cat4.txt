@@ -1,7 +1,7 @@
-12::Angelov vodopád, Venezuela:10,9,18:12
+12::Angelov vodopád, Venezuela:1,2,4:12
 13::Kilimandžáro, Tanzánia:8,7,21:13
 14::Delta Dunaja, Rumunsko:17,15,10:14
-15::Viktóriine vodopády, Zimbabwe a Zambia:21,18,11:15
+15::Viktóriine vodopády, Zimbabwe a Zambia:5,6,9:15
 16::Eye of Sahara, Mauritania:13,8,23:16
 17::Mŕtve more, Izrael:25,15,24:17
 18::Moherské útesy, Írsko:14,16,21:18

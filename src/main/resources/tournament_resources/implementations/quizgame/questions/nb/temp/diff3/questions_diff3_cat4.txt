@@ -1,7 +1,7 @@
-:Jeju-øya, Sør-Korea:31,25,27:
+:Jeju-øya, Sør-Korea:1,2,5:
 :Iguazúfallene, Argentina og Brasil::
 :Matterhorn, Sveits::
-:Taffelberg, Sør-Afrika:26,24,30:
-:Bu Tinah, De forente arabiske emirater:31,29,26:
+:Taffelberg, Sør-Afrika:1,6,5:
+:Bu Tinah, De forente arabiske emirater:1,6,5:
 :Sundarbans, Bangladesh::
 :Verdon Kløft, Frankrike::

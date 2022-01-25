@@ -1,0 +1,10 @@
+:Angel Falls, Venezuela:1,2,4:
+:Mount Kilimanjaro, Tanzania::
+:Danube Delta, Romania::
+:Victoria Falls, Zimbabwe and Zambia:5,6,9:
+:Eye of the Sahara, Mauritania::
+:The Dead Sea, Israel::
+:Cliffs of Moher, Ireland::
+:Mud volcanoes, Azerbaijan::
+:Moraine Lake, Canada::
+:Devil's Marbles, Australia::

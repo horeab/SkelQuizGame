@@ -1,7 +1,7 @@
-:Ostrov Jeju, Južná Kórea:31,25,27:
+:Ostrov Jeju, Južná Kórea:1,2,5:
 :Vodopády Iguazu, Argentína a Brazília::
 :Matterhorn, Švajčiarsko::
-:Stolová hora, Južná Afrika:26,24,30:
-:Bu Tinah, Spojené arabské emiráty:31,29,26:
+:Stolová hora, Južná Afrika:1,6,5:
+:Bu Tinah, Spojené arabské emiráty:1,6,5:
 :Sundarban, Bangladéš::
 :Grand canyon du Verdon, Francúzsko::

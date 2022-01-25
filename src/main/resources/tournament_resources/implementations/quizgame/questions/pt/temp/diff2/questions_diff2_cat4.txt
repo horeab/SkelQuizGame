@@ -2,6 +2,6 @@
 :O Rio das Cinco Cores, Colômbia::
 :Vulcão Paricutín, México::
 :Seixos gigantes de Moerek, Nova Zelândia::
-:Gruta Azul, Itália:28,31,29:
-:Grutas de Mármore, Chile:19,25,20:
-:Gruta de Cristal, Bermuda:25,30,35:
+:Gruta Azul, Itália:0,1,2:
+:Grutas de Mármore, Chile:3,0,2:
+:Gruta de Cristal, Bermuda:0,1,2:

@@ -1,7 +1,7 @@
-:Jeju-sziget, Dél-Korea:31,25,27:
+:Jeju-sziget, Dél-Korea:1,2,5:
 :Iguazu-vízesés, Argentína és Brazília::
 :Matterhorn, Svájc::
-:Asztali hegy, Dél-Afrika:26,24,30:
-:Bu Tinah, Egyesült Arab Emirátusok:31,29,26:
+:Asztali hegy, Dél-Afrika:1,6,5:
+:Bu Tinah, Egyesült Arab Emirátusok:1,6,5:
 :Szundarbansz, Banglades::
 :Verdon-kanyon, Franciaország::

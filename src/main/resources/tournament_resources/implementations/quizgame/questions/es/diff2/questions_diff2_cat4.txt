@@ -2,6 +2,6 @@
 23::El río de los cinco colores, Colombia:26,19,29:23
 24::Volcán Paricutín, México:30,17,31:24
 25::Cantos rodados de Moeraki, Nueva Zelanda:31,32,29:25
-26::La gruta azul, Italia:28,31,29:26
-27::Cuevas de Mármol, Chile:19,25,20:27
-28::Cueva de cristal, Bermudas:25,30,35:28
+26::La gruta azul, Italia:0,1,2:26
+27::Cuevas de Mármol, Chile:3,0,2:27
+28::Cueva de cristal, Bermudas:0,1,2:28

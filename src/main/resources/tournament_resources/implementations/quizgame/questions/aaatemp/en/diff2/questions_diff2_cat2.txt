@@ -1,0 +1,13 @@
+43:Helsinki::2
+33:Rabat::2
+7:Tehran::2
+46:Belgrade::2
+45:Oslo::2
+80:Minsk::2
+35:Stockholm::2
+16:Seoul::2
+20:Kiev::2
+38:Budapest::2
+31:Algiers::2
+15:Cape Town::2
+56:Reykjavik::2

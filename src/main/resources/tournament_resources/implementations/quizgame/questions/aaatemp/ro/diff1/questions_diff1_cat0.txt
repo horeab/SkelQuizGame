@@ -1,0 +1,8 @@
+:Acropola din Atena, Atena::0
+:Taj Mahal, India::0
+:Moscheea Albastră, Istanbul::0
+:Burj Khalifa, Dubai::0
+:Muzeul Luvru, Paris::0
+:Machu Picchu, Peru::0
+:Zidul Berlinului::0
+:Disneyland Resort, California::0
