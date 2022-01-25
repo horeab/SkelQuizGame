@@ -1,0 +1,12 @@
+0::Ha Long Bay, Vietnam:3,2,8:0
+1::Salar de Uyuni, Bolivia:5,2,9:1
+2::The Great Blue Hole, Belize:4,10,8:2
+3::Bali, Indonesia:6,10,2:3
+4::The Aurora Borealis, Norway:5,1,7:4
+5::Mount Fuji, Japan:3,1,11:5
+6::Harbor of Rio De Janeiro, Brazil:2,1,13:6
+7::Paria Canyon, United States:11,6,5:7
+8::Mount Everest, Nepal and Tibet:10,9,13:8
+9::Niagara Falls, Canada:2,6,11:9
+10::Lac Rose, Senegal:17,5,3:10
+11::The Black Forest, Germany:9,15,12:11

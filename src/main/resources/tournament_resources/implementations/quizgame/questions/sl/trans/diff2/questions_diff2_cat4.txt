@@ -1,0 +1,7 @@
+:Pamukkale, Turčija::
+:Reka petih barv, Kolumbija::
+:Vulkan Paricutín, Mehika::
+:Moeraki balvani, Nova Zelandija::
+:Modra jama, Italija:0,1,2:
+:Marmorne jame, Čile:3,0,2:
+:Kristalna jama, Bermuda:0,1,2:

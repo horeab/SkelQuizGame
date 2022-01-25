@@ -1,0 +1,7 @@
+29::Jeju Island, South Korea:1,2,5:29
+30::Iguazu Falls, Argentina and Brazil:22,23,29:30
+31::Matterhorn, Switzerland:25,28,34:31
+32::Table Mountain, South Africa:1,6,5:32
+33::Bu Tinah, United Arab Emirates:1,6,5:33
+34::Sundarbans, Bangladesh:33,31,28:34
+35::Verdon Gorge, France:32,33,34:35

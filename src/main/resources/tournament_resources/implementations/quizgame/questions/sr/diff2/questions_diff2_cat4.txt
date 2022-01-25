@@ -1,0 +1,7 @@
+22::Pamukkale, Turkey:16,14,18:22
+23::The River of Five Colors, Colombia:26,19,29:23
+24::Paricutín Volcano, Mexico:30,17,31:24
+25::Moeraki Boulders, New Zealand:31,32,29:25
+26::The Blue Grotto, Italy:0,1,2:26
+27::Marble Caves, Chile:3,0,2:27
+28::Crystal Cave, Bermuda:0,1,2:28

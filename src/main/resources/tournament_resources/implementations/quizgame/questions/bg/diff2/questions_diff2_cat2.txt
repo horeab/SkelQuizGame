@@ -1,0 +1,13 @@
+27:What is the capital of Finland?:Helsinki:28,25,20:27
+28:What is the capital of Morocco?:Rabat:35,31,29:28
+29:What is the capital of Iran?:Tehran:30,21,22:29
+30:What is the capital of Serbia?:Belgrade:25,29,26:30
+31:What is the capital of Norway?:Oslo:29,32,26:31
+32:What is the capital of Belarus?:Minsk:28,38,37:32
+33:What is the capital of Sweden?:Stockholm:41,40,28:33
+34:What is the capital of South Korea?:Seoul:42,38,37:34
+35:What is the capital of Ukraine?:Kiev:40,36,38:35
+36:What is the capital of Hungary?:Budapest:43,28,41:36
+37:What is the capital of Algeria?:Algiers:29,34,42:37
+38:What is the capital of South Africa?:Cape Town:43,37,41:38
+39:What is the capital of Iceland?:Reykjavik:35,33,47:39
