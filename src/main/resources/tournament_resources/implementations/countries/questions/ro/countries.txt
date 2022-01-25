@@ -1,195 +1,195 @@
-China
-India
-Statele Unite
-Brazilia
-Rusia
-Mexic
-Japonia
-Iran
 Germania
-Turcia
 Franţa
 Regatul Unit
-Tailanda
-Italia
-Egipt
-Africa de Sud
-Coreea de Sud
 Spania
-Argentina
+Italia
 Belgia
-Ucraina
-Polonia
-Canada
 Austria
+Portugalia
 Elveţia
 Olanda
-Indonezia
-Grecia
-Portugalia
-Australia
-Columbia
-Algeria
-Croaţia
-Maroc
-Vietnam
+Irlanda
+Monaco
+Luxemburg
+Liechtenstein
+Andorra
+San Marino
+Vatican
 Suedia
-Nigeria
-Chile
-Ungaria
-România
-Arabia Saudită
-Bulgaria
 Danemarca
 Finlanda
-Irlanda
 Norvegia
-Serbia
-Malaezia
-Peru
-Georgia
-Cuba
-Ghana
-Kazahstan
-Irak
-Afganistan
-Israel
 Islanda
-Bosnia si Hertegovina
-Armenia
+Polonia
+Grecia
+Croaţia
+Ungaria
 Slovenia
-Noua Zeelanda
-Albania
 Slovacia
-Venezuela
 Republica Cehă
-Ecuador
-Senegal
-Nepal
-Somalia
-Azerbaidjan
-Tunisia
-Mongolia
-Pakistan
-Filipine
-Sri Lanka
-Kenia
-Cambogia
+Estonia
+Letonia
 Lituania
-Mali
+Ucraina
+Rusia
+România
+Bulgaria
+Serbia
+Bosnia si Hertegovina
+Albania
 Muntenegru
-Bielorusia
-Camerun
-Uzbekistan
-Myanmar
-Uruguay
-Jamaica
-Bolivia
-Uganda
-Coasta de Fildes
+Belarus
+Moldova
+Macedonia de Nord
 Cipru
-Madagascar
-Haiti
-Angola
-Qatar
-Coreea de Nord
-Tanzania
-Yemen
-Niger
-Etiopia
-Costa Rica
+Malta
+Iran
+Turcia
+Irak
+Israel
+Georgia
+Armenia
+Azerbaidjan
 Siria
 Iordania
-Republica Dominicana
-Emiratele Arabe Unite
-Honduras
-Tadjikistan
-Monaco
-Ciad
-Mozambic
-Estonia
-Singapore
-Zambia
-Benin
-Papua Noua Guinee
-Guineea
-Togo
-Paraguay
-Laos
-Bangladesh
-Rwanda
-Burkina Faso
-Libia
 Liban
+Palestina
+Arabia Saudită
+Emiratele Arabe Unite
+Qatar
+Yemen
+Oman
+Kuweit
+Bahrain
+Kazahstan
+Afganistan
+Uzbekistan
+Tadjikistan
 Kârgâzstan
 Turkmenistan
-Malawi
-Sudan
-Republica Centrafricană
-Palestina
-Republica Democrata din Congo
-Oman
-Liechtenstein
-Guatemala
-Sudul Sudanului
-Burundi
-Liberia
-Zimbabwe
-Kuweit
-Panama
-Sierra Leone
-Luxemburg
-Eritreea
-San Marino
-Moldova
-Namibia
-Gambia
-Mauritania
-Botswana
-Gabon
-Congo
-Macedonia de Nord
-Lesotho
-Letonia
-Guineea-Bissau
-Bahrain
-Guineea Ecuatorială
-Timorul de Est
-Trinidad și Tobago
-Mauritius
-Djibouti
-Eswatini
-Comore
-Fiji
-Guyana
-El Salvador
-Nicaragua
+India
+Pakistan
+Nepal
+Sri Lanka
+Bangladesh
 Bhutan
-Insulele Solomon
-Surinam
-Republica Capului Verde
-Malta
-Brunei
-Belize
-Bahamas
 Maldive
+Tailanda
+Indonezia
+Vietnam
+Malaezia
+Filipine
+Singapore
+Myanmar
+Laos
+Cambogia
+Brunei
+China
+Japonia
+Coreea de Sud
+Coreea de Nord
+Mongolia
+Australia
+Noua Zeelanda
+Papua Noua Guinee
+Timorul de Est
+Fiji
+Insulele Solomon
 Vanuatu
-Vatican
-Barbados
-Sao Tome și Principe
 Samoa
-Sfânta Lucia
 Kiribati
-Grenada
-Sfântul Vincent și Grenadine
 Micronezia
 Tonga
-Seychelles
-Antigua si Barbuda
-Andorra
-Dominica
 Insulele Marshall
-Saint Kitts și Nevis
 Palau
 Nauru
 Tuvalu
+Egipt
+Algeria
+Maroc
+Tunisia
+Libia
+Nigeria
+Ghana
+Senegal
+Mali
+Camerun
+Uganda
+Coasta de Fildes
+Angola
+Tanzania
+Niger
+Republica Centrafricană
+Republica Democrata din Congo
+Burkina Faso
+Madagascar
+Ciad
+Mozambic
+Zambia
+Benin
+Guineea
+Togo
+Rwanda
+Malawi
+Burundi
+Liberia
+Zimbabwe
+Sierra Leone
+Gambia
+Mauritania
+Gabon
+Congo
+Guineea-Bissau
+Guineea Ecuatorială
+Mauritius
+Seychelles
+Comore
+Republica Capului Verde
+Sao Tome și Principe
+Somalia
+Kenia
+Etiopia
+Sudan
+Sudanul de Sud
+Eritreea
+Djibouti
+Africa de Sud
+Namibia
+Botswana
+Lesotho
+Eswatini
+Statele Unite
+Canada
+Mexic
+Cuba
+Guatemala
+Costa Rica
+Belize
+Bahamas
+Jamaica
+Haiti
+Republica Dominicană
+Panama
+El Salvador
+Nicaragua
+Honduras
+Sfânta Lucia
+Grenada
+Dominica
+Trinidad și Tobago
+Barbados
+Sfântul Vincent și Grenadine
+Antigua si Barbuda
+Saint Kitts și Nevis
+Brazilia
+Argentina
+Columbia
+Chile
+Peru
+Venezuela
+Ecuador
+Uruguay
+Bolivia
+Paraguay
+Guyana
+Surinam
