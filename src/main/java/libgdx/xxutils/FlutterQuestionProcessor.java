@@ -18,7 +18,7 @@ public class FlutterQuestionProcessor {
 
 
     private static final GameIdEnum GAME_ID = GameIdEnum.quizgame;
-    private static final String QUESTION_CONFIG_FILE_NAME = "GeoQuizGameQuestionConfig";
+    private static final String QUESTION_CONFIG_FILE_NAME = "PersTestGameQuestionConfig";
     private static final QuestionDifficulty[] DIFFS = QuizQuestionDifficultyLevel.values();
     private static final QuestionCategory[] CATEGS = QuizQuestionCategoryEnum.values();
 

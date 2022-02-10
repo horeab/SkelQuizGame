@@ -246,7 +246,7 @@ public class TranslateQuestionProcessor {
         return prefixes;
     }
 
-    private static String translateWord(Language translateTo, String text) throws IOException {
+    public static String translateWord(Language translateTo, String text) throws IOException {
         String res = translateCountry(translateTo, text);
         if (res == null) {
             if (Arrays.stream(text.split(","))

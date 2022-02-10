@@ -30,21 +30,21 @@ public class LabelProcessor {
 
     public static void main(String[] args) throws IOException {
 
-        List<GameIdEnum> gameIds = Arrays.asList(GameIdEnum.history, GameIdEnum.quizgame, GameIdEnum.countries);
+        List<GameIdEnum> gameIds = Arrays.asList(GameIdEnum.history, GameIdEnum.quizgame, GameIdEnum.countries, GameIdEnum.perstest);
 
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
 
         //
         ////
-//        List<Language> languages = Collections.singletonList(Language.sk);
-        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
-//        List<Language> languages = Arrays.asList(Language.ar, Language.he);
+//        List<Language> languages = Collections.singletonList(Language.en);
+//        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+//        List<Language> languages = Arrays.asList(Language.en, Language.ro);
         ////
         //
 
 //        translateNewLanguage(Language.ro, gameIds, defaultLabels);
-//        translateMissingLabels(Language.zh, gameIds, defaultLabels);
-        formFlutterKeys(gameIds, defaultLabels, languages);
+        translateMissingLabels(Language.zh, gameIds, defaultLabels);
+//        formFlutterKeys(gameIds, defaultLabels, languages);
     }
 
 
@@ -107,6 +107,7 @@ public class LabelProcessor {
             if (!missingKeys.isEmpty()) {
                 System.out.println();
                 missingKeys.forEach((key, value) -> System.out.println(value));
+                missingKeys.forEach((key, value) -> System.out.println(key.getLeft()+"="+value));
                 System.out.println();
                 throw new RuntimeException("missing keys for lang " + translateTo);
             }
@@ -260,6 +261,8 @@ public class LabelProcessor {
                     replaceStrings.put("\n", "_");
                     replaceStrings.put(":", "_");
                     replaceStrings.put("-", "_");
+                    replaceStrings.put("/", "_");
+                    replaceStrings.put("\\", "_");
                     replaceStrings.put(",", "_");
                     replaceStrings.put("'", "");
                     replaceStrings.put("!", "");
@@ -267,6 +270,8 @@ public class LabelProcessor {
                     replaceStrings.put("?", "");
                     replaceStrings.put(".", "");
                     replaceStrings.put("%", "");
+                    replaceStrings.put("(", "");
+                    replaceStrings.put(")", "");
                     replaceStrings.put("{0}", "param0");
                     replaceStrings.put("{1}", "param1");
                     replaceStrings.put("{2}", "param2");
@@ -279,6 +284,11 @@ public class LabelProcessor {
                     key = key.replace("__", "_");
                     key = key.replace("__", "_");
                     key = key.replace("__", "_");
+
+                    int maxKeyLength = 100;
+                    if (key.length() > maxKeyLength) {
+                        key = key.substring(0, maxKeyLength);
+                    }
 
                     labels.put(new MutablePair<>(lang != null ? split[0].substring(split[0].indexOf("_") + 1).trim() : split[0].trim(), key.trim()), value);
 

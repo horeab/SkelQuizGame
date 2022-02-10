@@ -297,7 +297,7 @@ public class FlutterCountriesProcessor {
         return readFileContents(String.format(rootPath, translateTo.toString()));
     }
 
-    static List<String> readFileContents(String path) throws IOException {
+    public static List<String> readFileContents(String path) throws IOException {
         FileReader file = new FileReader(path);
         String line = "";
         List<String> returnValue = new ArrayList<>();
