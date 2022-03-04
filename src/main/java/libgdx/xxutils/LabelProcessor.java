@@ -17,8 +17,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 
@@ -30,21 +32,26 @@ public class LabelProcessor {
 
     public static void main(String[] args) throws IOException {
 
-        List<GameIdEnum> gameIds = Arrays.asList(GameIdEnum.history, GameIdEnum.quizgame, GameIdEnum.countries, GameIdEnum.perstest);
+        List<GameIdEnum> gameIds = Arrays.asList(
+                GameIdEnum.history,
+                GameIdEnum.quizgame,
+                GameIdEnum.countries,
+                GameIdEnum.dopewars,
+                GameIdEnum.perstest);
 
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
 
         //
         ////
 //        List<Language> languages = Collections.singletonList(Language.en);
-//        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
 //        List<Language> languages = Arrays.asList(Language.en, Language.ro);
         ////
         //
 
 //        translateNewLanguage(Language.ro, gameIds, defaultLabels);
-        translateMissingLabels(Language.zh, gameIds, defaultLabels);
-//        formFlutterKeys(gameIds, defaultLabels, languages);
+//        translateMissingLabels(Language.sl, gameIds, defaultLabels);
+        formFlutterKeys(gameIds, defaultLabels, languages);
     }
 
 
@@ -107,15 +114,35 @@ public class LabelProcessor {
             if (!missingKeys.isEmpty()) {
                 System.out.println();
                 missingKeys.forEach((key, value) -> System.out.println(value));
-                missingKeys.forEach((key, value) -> System.out.println(key.getLeft()+"="+value));
+                missingKeys.forEach((key, value) -> System.out.println(key.getLeft() + "=" + value));
                 System.out.println();
                 throw new RuntimeException("missing keys for lang " + translateTo);
             }
 
             Map<String, String> labelsWithKeys = new TreeMap<>();
             for (Map.Entry<Pair<String, String>, String> e : labelsForLanguage.entrySet()) {
+                if (e == null || e.getKey() == null || e.getKey().getRight() == null) {
+                    continue;
+                }
                 labelsWithKeys.put(e.getKey().getRight(), e.getValue());
             }
+
+            Set<String> defaultLabelsKey = defaultLabels.keySet().stream().map(Pair::getRight).collect(Collectors.toSet());
+            if (labelsWithKeys.keySet().size() != defaultLabelsKey.size()) {
+                Set<String> diffToDisplay = new HashSet<>();
+                Set<String> differences1 = new HashSet<>(labelsWithKeys.keySet());
+                differences1.removeAll(defaultLabelsKey);
+                Set<String> differences2 = new HashSet<>(defaultLabelsKey);
+                differences2.removeAll(labelsWithKeys.keySet());
+
+                diffToDisplay.addAll(differences1);
+                diffToDisplay.addAll(differences2);
+                diffToDisplay.removeIf(e -> e.equals("l_a_b_c_d_e_f_g_h_i_j_k_l_m_n_o_p_q_r_s_t_u_v_w_x_y_z"));
+                if (!diffToDisplay.isEmpty()) {
+                    throw new RuntimeException("missing keys " + diffToDisplay.toString() + " for " + translateTo);
+                }
+            }
+
             System.out.println(new Gson().toJson(labelsWithKeys));
             writeToFile(new Gson().toJson(labelsWithKeys), translateTo);
         }
@@ -206,7 +233,7 @@ public class LabelProcessor {
             }
         }
 
-        throw new RuntimeException("no key found " + key);
+        return null;
     }
 
     private static void addLabels(String path, Language lang, Map<Pair<String, String>, String> labels) {

@@ -24,8 +24,8 @@ public class PersTesFluttertQuestionProcessor {
 
     public static void main(String[] args) throws IOException {
 
-        List<Language> languages = Arrays.asList(Language.en, Language.ro);
-//        List<Language> languages = Arrays.asList(Language.values());
+//        List<Language> languages = Arrays.asList(Language.en, Language.ro);
+        List<Language> languages = Arrays.asList(Language.values());
 
         StringBuilder res = new StringBuilder();
 
