@@ -4,3 +4,4 @@
 3:What protects the cell from its external environment?:3##4##2##1:0:
 4:What is a cell structure that produces protein?:4##3##2##1:0:
 5:What converts chemical energy into an energy form that the cell can use?:5##4##3##2:0:
+6:What is the transportation system of the eukaryotic cell?:6##5##0##1:0:

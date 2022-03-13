@@ -1,4 +1,5 @@
 0:What organ produces bile necessary for digestion?:0##7##6##8:0:
+1:What is the first portion of the alimentary canal that receives food and produces saliva?:1##2##6##5:0:
 1:Through which organ food passes from the pharynx to the stomach?:2##6##9##7:0:
 2:What organ is the last part of the digestive system?:3##4##7##8:0:
 3:Where does the most absorption of nutrients and minerals from food take place?:4##5##3##0:0:
@@ -6,3 +7,4 @@
 5:What is the part of the throat behind the mouth and nasal cavity named?:6##2##9##8:0:
 6:Where is bile stored and concentrated before it is released into the small intestine?:7##6##9##8:0:
 7:Where is insulin secreted from?:8##0##7##6:0:
+8:What organ is located in the lower right abdomen?:9##0##7##2:0:
