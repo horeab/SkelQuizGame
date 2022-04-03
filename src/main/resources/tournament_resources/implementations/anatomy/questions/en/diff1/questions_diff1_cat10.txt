@@ -1,0 +1,5 @@
+Breast cancer
+Prostate cancer
+Colorectal cancer
+Lung cancer
+Skin cancer

@@ -1,0 +1,5 @@
+Red or swollen gums:0,2,3,4
+Red or swollen gums:1,2,3,4
+Toothache:2,0,4,3
+problems swallowing:3,0,2,4
+Deformities of the upper jaw:4,0,2,3

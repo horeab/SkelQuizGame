@@ -1,0 +1,6 @@
+Angina
+Hypertension
+Myocardial infarction
+Congestive Heart Failure
+Hypercholesterolemia
+Arrhythmia

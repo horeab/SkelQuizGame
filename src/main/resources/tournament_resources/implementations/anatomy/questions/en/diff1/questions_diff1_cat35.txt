@@ -1,0 +1,5 @@
+Bluish color in skin, fingernails, and lips:0,1,2,3
+Twitching in your hands, face, and feet:1,0,2,4
+More frequent urination and thirst:2,0,1
+weakening of bones:3,0,4
+muscle cramps or spasms:4,0,1
