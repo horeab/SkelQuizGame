@@ -345,7 +345,7 @@ public class TranslateQuestionProcessor {
         }
     }
 
-    static class DependentQuestionParser extends QuestionParser {
+    public static class DependentQuestionParser extends QuestionParser {
 
         @Override
         public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
@@ -377,7 +377,7 @@ public class TranslateQuestionProcessor {
         }
     }
 
-    static class UniqueQuestionParser extends QuestionParser {
+    public static class UniqueQuestionParser extends QuestionParser {
 
         @Override
         public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
@@ -439,7 +439,7 @@ public class TranslateQuestionProcessor {
         }
     }
 
-    static class OldDependentQuestionParser extends QuestionParser {
+    public static class OldDependentQuestionParser extends QuestionParser {
 
         @Override
         public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
@@ -465,6 +465,66 @@ public class TranslateQuestionProcessor {
         @Override
         public String getQuestionPrefix(String rawString) {
             return "";
+        }
+    }
+
+    public static class ImageClickQuestionParser extends QuestionParser {
+
+        @Override
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
+            String format = "%s:%s:%s";
+            Object[] array = {question, String.join(",", options), prefix};
+            return formQuestion(format, array, language);
+        }
+
+        @Override
+        public String getAnswer(String rawString) {
+            return rawString.split(":", -1)[0];
+        }
+
+        @Override
+        public List<String> getOptions(String rawString) {
+            return Arrays.stream(rawString.split(":", -1)[3].split(",", -1))
+                    .filter(StringUtils::isNotBlank).collect(Collectors.toList());
+        }
+
+        @Override
+        public String getQuestion(String rawString) {
+            return rawString.split(":", -1)[2];
+        }
+
+        @Override
+        public String getQuestionPrefix(String rawString) {
+            return "";
+        }
+    }
+
+    public static class OldImageClickQuestionParser extends QuestionParser {
+
+        @Override
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
+            return "";
+        }
+
+        @Override
+        public String getAnswer(String rawString) {
+            return rawString.split(":", -1)[0];
+        }
+
+        @Override
+        public List<String> getOptions(String rawString) {
+            return Arrays.stream(rawString.split(":", -1)[3].split(",", -1))
+                    .filter(StringUtils::isNotBlank).collect(Collectors.toList());
+        }
+
+        @Override
+        public String getQuestion(String rawString) {
+            return rawString.split(":", -1)[2];
+        }
+
+        @Override
+        public String getQuestionPrefix(String rawString) {
+            return rawString.split(":", -1)[4];
         }
     }
 }

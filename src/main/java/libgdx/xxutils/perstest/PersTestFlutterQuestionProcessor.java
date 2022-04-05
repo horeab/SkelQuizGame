@@ -16,7 +16,7 @@ import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.xxutils.FlutterQuestionProcessor;
 import libgdx.xxutils.geoquiz.FlutterCountriesProcessor;
 
-public class PersTesFluttertQuestionProcessor {
+public class PersTestFlutterQuestionProcessor {
 
 
     private static final String QUESTION_CONFIG_FILE_NAME = "PersTestGameQuestionConfig";

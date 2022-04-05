@@ -17,8 +17,8 @@ import libgdx.implementations.skelgame.GameIdEnum;
 public class FlutterQuestionProcessor {
 
 
-    private static final GameIdEnum GAME_ID = GameIdEnum.quizgame;
-    private static final String QUESTION_CONFIG_FILE_NAME = "PersTestGameQuestionConfig";
+    private static final GameIdEnum GAME_ID = GameIdEnum.anatomy;
+    private static final String QUESTION_CONFIG_FILE_NAME = "AnatomyGameQuestionConfig";
     private static final QuestionDifficulty[] DIFFS = QuizQuestionDifficultyLevel.values();
     private static final QuestionCategory[] CATEGS = QuizQuestionCategoryEnum.values();
 
