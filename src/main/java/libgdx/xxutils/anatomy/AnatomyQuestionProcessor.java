@@ -7,9 +7,9 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -24,6 +24,7 @@ import libgdx.xxutils.TranslateQuestionProcessor;
 
 public class AnatomyQuestionProcessor {
 
+    static final int TOTAL_FLUTTER_NR_OF_CATS = 12;
 
     public static final String ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/anatomy/questions/";
 
@@ -41,21 +42,49 @@ public class AnatomyQuestionProcessor {
             new File(ROOT_PATH + "temp/" + lang.toString() + "/diff"
                     + AnatomyQuestionDifficultyLevel._1.getIndex())
                     .mkdir();
-            for (QuestionDifficulty diff : Arrays.asList(AnatomyQuestionDifficultyLevel._0)) {
+            new File(ROOT_PATH + "temp/" + lang.toString() + "/diff"
+                    + AnatomyQuestionDifficultyLevel._2.getIndex())
+                    .mkdir();
+            new File(ROOT_PATH + "temp/" + lang.toString() + "/diff"
+                    + AnatomyQuestionDifficultyLevel._3.getIndex())
+                    .mkdir();
+            new File(ROOT_PATH + "temp/" + lang.toString() + "/diff"
+                    + AnatomyQuestionDifficultyLevel._4.getIndex())
+                    .mkdir();
+            for (QuestionDifficulty diff : Arrays.asList(AnatomyQuestionDifficultyLevel._0,
+                    AnatomyQuestionDifficultyLevel._1)) {
                 for (QuestionCategory cat : oldNewCategMapping.keySet()) {
+
+                    AnatomyQuestionDifficultyLevel targetDiff = AnatomyQuestionDifficultyLevel._0;
+                    if (diff == AnatomyQuestionDifficultyLevel._0) {
+                        if (cat.getIndex() >= TOTAL_FLUTTER_NR_OF_CATS * 2) {
+                            continue;
+                        }
+                        targetDiff = cat.getIndex() >= TOTAL_FLUTTER_NR_OF_CATS
+                                ? AnatomyQuestionDifficultyLevel._1
+                                : AnatomyQuestionDifficultyLevel._0;
+                    } else if (diff == AnatomyQuestionDifficultyLevel._1) {
+                        if (cat.getIndex() < TOTAL_FLUTTER_NR_OF_CATS) {
+                            continue;
+                        } else if (cat.getIndex() < TOTAL_FLUTTER_NR_OF_CATS * 2) {
+                            targetDiff = AnatomyQuestionDifficultyLevel._2;
+                        } else if (cat.getIndex() < TOTAL_FLUTTER_NR_OF_CATS * 3) {
+                            targetDiff = AnatomyQuestionDifficultyLevel._3;
+                        }
+                    }
+
                     moveQuestionCat(lang, cat, diff,
-                            oldNewCategMapping.get(cat), cat.getIndex() > 11
-                                    ? AnatomyQuestionDifficultyLevel._1 :
-                                    AnatomyQuestionDifficultyLevel._0);
+                            oldNewCategMapping.get(cat),
+                            targetDiff);
                 }
             }
         }
-
     }
 
     private static void moveQuestionCat(
             Language lang,
-            QuestionCategory cat, QuestionDifficulty diff, QuestionCategory targetCat, QuestionDifficulty targetDiff) {
+            QuestionCategory cat, QuestionDifficulty diff,
+            QuestionCategory targetCat, QuestionDifficulty targetDiff) {
 
 
         TranslateQuestionProcessor.QuestionParser newQuestionParser = getQuestionParsers(targetDiff).get(targetCat);
@@ -76,18 +105,41 @@ public class AnatomyQuestionProcessor {
                 String question;
                 String answer;
                 List<String> options;
-                if (lang != Language.en && cat.getIndex() > 11) {
-                    question = line;
-                    answer = oldQuestionParser.getAnswer(enQuestions.get(l));
-                    options = oldQuestionParser.getOptions(enQuestions.get(l));
-                } else {
-                    question = oldQuestionParser.getQuestion(line);
-                    answer = oldQuestionParser.getAnswer(line);
-                    options = oldQuestionParser.getOptions(line);
+                if (diff == AnatomyQuestionDifficultyLevel._0) {
+                    if (lang != Language.en
+                            && cat.getIndex() >= TOTAL_FLUTTER_NR_OF_CATS) {
+                        question = line;
+                        answer = oldQuestionParser.getAnswer(enQuestions.get(l));
+                        options = oldQuestionParser.getOptions(enQuestions.get(l));
+                    } else {
+                        question = oldQuestionParser.getQuestion(line);
+                        answer = oldQuestionParser.getAnswer(line);
+                        options = oldQuestionParser.getOptions(line);
+                    }
+                    questions.add(newQuestionParser
+                            .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(line)));
+                } else if (diff == AnatomyQuestionDifficultyLevel._1) {
+                    if (cat.getIndex() >= TOTAL_FLUTTER_NR_OF_CATS) {
+                        if (cat.getIndex() < TOTAL_FLUTTER_NR_OF_CATS * 2) {
+                            List<String> firstCatQuestions = getFirstCatQuestions(diff, cat, lang,
+                                    cat.getIndex() - TOTAL_FLUTTER_NR_OF_CATS);
+                            question = line;
+                            answer = firstCatQuestions.get(l);
+                            options = Collections.emptyList();
+                            questions.add(newQuestionParser
+                                    .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(line)));
+                        } else if (cat.getIndex() < TOTAL_FLUTTER_NR_OF_CATS * 3) {
+                            List<String> firstCatQuestions = getFirstCatQuestions(diff, cat, lang,
+                                    cat.getIndex() - TOTAL_FLUTTER_NR_OF_CATS * 2);
+                            question = line.split(":")[0];
+                            answer = firstCatQuestions.get(l);
+                            options = Arrays.asList(line.split(":")[1].split(","));
+                            questions.add(newQuestionParser
+                                    .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(line)));
+                        }
+                    }
                 }
 
-                questions.add(newQuestionParser
-                        .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(line)));
                 line = reader.readLine();
                 l++;
             }
@@ -106,6 +158,27 @@ public class AnatomyQuestionProcessor {
             reader.close();
         } catch (IOException e) {
         }
+    }
+
+    static List<String> getFirstCatQuestions(QuestionDifficulty diff,
+                                             QuestionCategory cat,
+                                             Language language,
+                                             int firstCategoryIndex) {
+
+        String qPath = getLibgdxQuestionPath(language, false,
+                "cat" + firstCategoryIndex, diff);
+        BufferedReader reader;
+        List<String> questions = new ArrayList<>();
+        try {
+            reader = new BufferedReader(new FileReader(qPath));
+            String line = reader.readLine();
+            while (line != null) {
+                questions.add(line);
+                line = reader.readLine();
+            }
+        } catch (IOException e) {
+        }
+        return questions;
     }
 
     static List<String> getEnglishQuestions(QuestionCategory cat, QuestionDifficulty diff) {
@@ -130,8 +203,10 @@ public class AnatomyQuestionProcessor {
         TranslateQuestionProcessor.QuestionParser parser;
         if (questionDifficulty == AnatomyQuestionDifficultyLevel._0) {
             parser = new TranslateQuestionProcessor.ImageClickQuestionParser();
-        } else {
+        } else if (questionDifficulty == AnatomyQuestionDifficultyLevel._1) {
             parser = new AnatomyNewDependentQuestionParser();
+        } else {
+            parser = new AnatomyDiseaseDependentQuestionParser();
         }
         qParsers.put(AnatomyQuestionCategoryEnum.cat0, parser);
         qParsers.put(AnatomyQuestionCategoryEnum.cat1, parser);
@@ -176,6 +251,18 @@ public class AnatomyQuestionProcessor {
         qParsers.put(AnatomyQuestionCategoryEnum.cat21, anatomyDependentQuestionParser);
         qParsers.put(AnatomyQuestionCategoryEnum.cat22, anatomyDependentQuestionParser);
         qParsers.put(AnatomyQuestionCategoryEnum.cat23, anatomyDependentQuestionParser);
+        qParsers.put(AnatomyQuestionCategoryEnum.cat24, anatomyDependentQuestionParser);
+        qParsers.put(AnatomyQuestionCategoryEnum.cat25, anatomyDependentQuestionParser);
+        qParsers.put(AnatomyQuestionCategoryEnum.cat26, anatomyDependentQuestionParser);
+        qParsers.put(AnatomyQuestionCategoryEnum.cat27, anatomyDependentQuestionParser);
+        qParsers.put(AnatomyQuestionCategoryEnum.cat28, anatomyDependentQuestionParser);
+        qParsers.put(AnatomyQuestionCategoryEnum.cat29, anatomyDependentQuestionParser);
+        qParsers.put(AnatomyQuestionCategoryEnum.cat30, anatomyDependentQuestionParser);
+        qParsers.put(AnatomyQuestionCategoryEnum.cat31, anatomyDependentQuestionParser);
+        qParsers.put(AnatomyQuestionCategoryEnum.cat32, anatomyDependentQuestionParser);
+        qParsers.put(AnatomyQuestionCategoryEnum.cat33, anatomyDependentQuestionParser);
+        qParsers.put(AnatomyQuestionCategoryEnum.cat34, anatomyDependentQuestionParser);
+        qParsers.put(AnatomyQuestionCategoryEnum.cat35, anatomyDependentQuestionParser);
         return qParsers;
     }
 
@@ -205,6 +292,18 @@ public class AnatomyQuestionProcessor {
         oldNewCategMapping.put(AnatomyQuestionCategoryEnum.cat21, AnatomyQuestionCategoryEnum.cat9);
         oldNewCategMapping.put(AnatomyQuestionCategoryEnum.cat22, AnatomyQuestionCategoryEnum.cat10);
         oldNewCategMapping.put(AnatomyQuestionCategoryEnum.cat23, AnatomyQuestionCategoryEnum.cat11);
+        oldNewCategMapping.put(AnatomyQuestionCategoryEnum.cat24, AnatomyQuestionCategoryEnum.cat0);
+        oldNewCategMapping.put(AnatomyQuestionCategoryEnum.cat25, AnatomyQuestionCategoryEnum.cat1);
+        oldNewCategMapping.put(AnatomyQuestionCategoryEnum.cat26, AnatomyQuestionCategoryEnum.cat2);
+        oldNewCategMapping.put(AnatomyQuestionCategoryEnum.cat27, AnatomyQuestionCategoryEnum.cat3);
+        oldNewCategMapping.put(AnatomyQuestionCategoryEnum.cat28, AnatomyQuestionCategoryEnum.cat4);
+        oldNewCategMapping.put(AnatomyQuestionCategoryEnum.cat29, AnatomyQuestionCategoryEnum.cat5);
+        oldNewCategMapping.put(AnatomyQuestionCategoryEnum.cat30, AnatomyQuestionCategoryEnum.cat6);
+        oldNewCategMapping.put(AnatomyQuestionCategoryEnum.cat31, AnatomyQuestionCategoryEnum.cat7);
+        oldNewCategMapping.put(AnatomyQuestionCategoryEnum.cat32, AnatomyQuestionCategoryEnum.cat8);
+        oldNewCategMapping.put(AnatomyQuestionCategoryEnum.cat33, AnatomyQuestionCategoryEnum.cat9);
+        oldNewCategMapping.put(AnatomyQuestionCategoryEnum.cat34, AnatomyQuestionCategoryEnum.cat10);
+        oldNewCategMapping.put(AnatomyQuestionCategoryEnum.cat35, AnatomyQuestionCategoryEnum.cat11);
         return oldNewCategMapping;
     }
 
@@ -234,7 +333,12 @@ public class AnatomyQuestionProcessor {
 
         @Override
         public String getQuestion(String rawString) {
-            return rawString.split(":", -1)[1];
+            try {
+
+                return rawString.split(":", -1)[1];
+            } catch (Exception e) {
+                return null;
+            }
         }
 
         @Override
@@ -249,6 +353,38 @@ public class AnatomyQuestionProcessor {
         public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
             String format = "%s:%s";
             Object[] array = {question, String.join(",", options), prefix};
+            return formQuestion(format, array, language);
+        }
+
+        @Override
+        public String getAnswer(String rawString) {
+            return "";
+        }
+
+        @Override
+        public List<String> getOptions(String rawString) {
+            return Arrays.stream(rawString.split(":", -1)[2].split(",", -1))
+                    .filter(StringUtils::isNotBlank).collect(Collectors.toList());
+        }
+
+        @Override
+        public String getQuestion(String rawString) {
+            return rawString.split(":", -1)[0];
+        }
+
+        @Override
+        public String getQuestionPrefix(String rawString) {
+            return "";
+        }
+    }
+
+
+    public static class AnatomyDiseaseDependentQuestionParser extends TranslateQuestionProcessor.QuestionParser {
+
+        @Override
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
+            String format = "%s:%s:%s";
+            Object[] array = {question, correctAnswer, String.join(",", options), prefix};
             return formQuestion(format, array, language);
         }
 

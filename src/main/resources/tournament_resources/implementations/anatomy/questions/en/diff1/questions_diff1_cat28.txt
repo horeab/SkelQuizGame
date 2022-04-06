@@ -1,5 +1,5 @@
-Sudden high fever, severe headache that seems different from normal:0,1,2,3
-blindness in one eye:1,0,3,4
-Tremor in hands:2,0,3,4
-movement tics:3,0,1,4
-difficulty concentrating and memory lapses:4,0,1,2
+Sudden high fever, severe headache that seems different from normal:1,2,3
+blindness in one eye:0,3,4
+Tremor in hands:0,3,4
+movement tics:0,1,4
+difficulty concentrating and memory lapses:0,1,2

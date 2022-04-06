@@ -1,4 +1,4 @@
-Clouded vision:0,1,2,3
-Pink or red color in the white of the eye:1,0,2,3
-intense eye pain:2,0,1,3
-Poor depth perception and peripheral vision:3,0,1,2
+Clouded vision:1,2,3
+Pink or red color in the white of the eye:0,2,3
+intense eye pain:0,1,3
+Poor depth perception and peripheral vision:0,1,2

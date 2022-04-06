@@ -1,4 +1,4 @@
-Painless swelling of lymph nodes in your neck, armpits or groin:0,2,3
-Swollen lymph nodes, enlarged liver or spleen:1,2,3
-Shivering:2,0,1
-Numbness or weakness in your arms or legs:3,0,1,2
+Painless swelling of lymph nodes in your neck, armpits or groin:2,3
+Swollen lymph nodes, enlarged liver or spleen:2,3
+Shivering:0,1
+Numbness or weakness in your arms or legs:0,1,2
