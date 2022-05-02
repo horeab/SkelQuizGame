@@ -1,0 +1,6 @@
+Sauerstoff:1,2,4:74.5,29,25
+Kohlenstoff:2,0,4:74.5,57,25
+Wasserstoff:1,0,5:74.5,73.2,25
+Stickstoff:1,0,2:74.5,83.5,25
+Kalzium:0,1,2:74.5,91.2,25
+Phosphor:1,2,0:74.5,96.82,25

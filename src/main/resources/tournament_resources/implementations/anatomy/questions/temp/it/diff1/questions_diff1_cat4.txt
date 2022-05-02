@@ -1,0 +1,6 @@
+Cos'è un organo che funge da centro del sistema nervoso?:0,1,2,5
+Qual è una caratteristica importante del romboencefalo di tutti i vertebrati?:1,5,0,2
+Che cos'è una struttura tubolare lunga, sottile e costituita da tessuto nervoso?:2,1,3,4
+Cos'è un grande nervo che corre lungo l'articolazione dell'anca?:3,2,1,5
+Cos'è un ramo del nervo sciatico?:4,5,2,1
+Che cos'è un gruppo di corpi cellulari neuronali nel sistema nervoso periferico?:5,1,0,2

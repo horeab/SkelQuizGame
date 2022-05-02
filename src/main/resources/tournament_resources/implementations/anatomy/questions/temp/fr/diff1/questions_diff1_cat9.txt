@@ -1,0 +1,7 @@
+Qu'est-ce qu'une structure fine dans l'œil, responsable du contrôle du diamètre et de la taille de la pupille ?:0,1,3,2
+Quelle est la partie frontale transparente de l'œil qui recouvre l'iris ?:1,2,3,0
+Qu'est-ce qu'une structure transparente dans l'œil qui aide à réfracter la lumière pour la focaliser sur la rétine ?:2,3,0,1
+Quelle est la couche de tissu la plus interne et sensible à la lumière de l'œil ?:3,1,0,2
+Qu'est-ce qui transmet les informations visuelles de la rétine au cerveau ?:4,6,5,3
+Quelle est la partie avant de l'œil entre la cornée et l'iris ?:5,6,2,3
+Quelle chambre oculaire est située derrière le cristallin et devant le nerf optique ?:6,5,3,0

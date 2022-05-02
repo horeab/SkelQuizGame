@@ -1,0 +1,5 @@
+Was ist eine Krebsart, die einen Knoten in der Brust oder eine Veränderung der Brustform beinhalten kann?:Brustkrebs::
+Was ist die häufigste Krebsart, die nur Männer betrifft?:Prostatakrebs::
+Was ist eine Krebsart, bei der Zellen im Dickdarm oder Mastdarm unkontrolliert wachsen?:Darmkrebs::
+Welche Art von Krebs wird durch langjähriges Tabakrauchen verursacht?:Lungenkrebs::
+Welche Art von Krebs wird durch übermäßige UV-Strahlung der Sonne verursacht?:Hautkrebs::

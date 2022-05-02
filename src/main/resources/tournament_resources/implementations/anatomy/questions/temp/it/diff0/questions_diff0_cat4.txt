@@ -1,0 +1,6 @@
+Cervello:5,4,3:50.4,96.8
+cervelletto:5,4,3:56,92.6
+Midollo spinale:0,4,3:50.7,86.8
+Nervo sciatico:0,4,5:59.4,37.6
+Nervo tibiale:1,5,3:61.1,19.4
+Ganglio:4,3,1:49,70

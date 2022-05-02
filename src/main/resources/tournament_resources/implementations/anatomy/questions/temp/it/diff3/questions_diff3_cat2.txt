@@ -1,0 +1,5 @@
+Grandi muscoli del polpaccio:distrofia muscolare:2,3,4:
+Un braccio o una gamba è più piccola dell'altra:atrofia muscolare:2,3,4:
+dolore a un tendine che peggiora quando ti muovi:tendinite:1,3,4:
+Un dolore improvviso e acuto:crampi muscolari:1,2:
+dolore improvviso che peggiora mentre si contrae il muscolo:rottura muscolare:1,2:

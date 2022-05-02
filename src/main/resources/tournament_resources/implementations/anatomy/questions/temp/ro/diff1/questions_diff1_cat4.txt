@@ -1,0 +1,6 @@
+Ce este un organ care servește ca centru al sistemului nervos?:0,1,2,5
+Care este o caracteristică majoră a creierului posterior al tuturor vertebratelor?:1,5,0,2
+Ce este o structură tubulară lungă, subțire, formată din țesut nervos?:2,1,3,4
+Ce este un nerv mare care trece pe lângă articulația șoldului?:3,2,1,5
+Ce este o ramură a nervului sciatic?:4,5,2,1
+Ce este un grup de corpuri celulare neuronale din sistemul nervos periferic?:5,1,0,2

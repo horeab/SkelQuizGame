@@ -1,0 +1,8 @@
+Quels sont les plis musculaires qui entourent la bouche ?:0,1,4,7
+Qu'est-ce qu'une extension charnue qui pend au-dessus de la gorge ?:1,4,0,7
+Que sont les dents plates à l'arrière de la bouche?:2,3,5,6
+Quelles sont les dents de devant ?:3,2,5,6
+Qu'est-ce qu'un organe musculaire dans la bouche ?:4,5,6,1
+Quels organes jouent un rôle important dans le système immunitaire ?:5,1,4,0
+Qu'est-ce qu'une fine plaque osseuse horizontale constituée de deux os du squelette facial ?:6,7,2,5
+Quel est le tissu mou constituant l'arrière du toit de la bouche ?:7,5,1,0

@@ -1,0 +1,5 @@
+What is a type of cancer that may include a lump in the breast or a change in breast shape?:Breast cancer::
+What is the most common type of cancer that affects only men?:Prostate cancer::
+What is a type of cancer in which cells in the colon or rectum grow out of control?:Colorectal cancer::
+What type of cancer is caused by long-term tobacco smoking?:Lung cancer::
+What type of cancer is caused by overexposure to ultraviolet rays from the sun?:Skin cancer::

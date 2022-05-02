@@ -1,0 +1,5 @@
+Colore bluastro della pelle, delle unghie e delle labbra:Ipossiemia:1,2,3:
+Contrazioni alle mani, al viso e ai piedi:Ipocalcemia:0,2,4:
+Minzione e sete più frequenti:Ipercalcemia:0,1:
+indebolimento delle ossa:ipofosfatemia:0,4:
+crampi o spasmi muscolari:Iperfosfatemia:0,1:

@@ -1,0 +1,5 @@
+Couleur bleuâtre de la peau, des ongles et des lèvres:Hypoxémie:1,2,3:
+Des secousses dans les mains, le visage et les pieds:Hypocalcémie:0,2,4:
+Miction et soif plus fréquentes:Hypercalcémie:0,1:
+affaiblissement des os:hypophosphatémie:0,4:
+crampes ou spasmes musculaires:Hyperphosphatémie:0,1:

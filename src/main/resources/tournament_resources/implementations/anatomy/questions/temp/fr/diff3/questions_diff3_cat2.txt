@@ -1,0 +1,5 @@
+Gros muscles du mollet:dystrophie musculaire:2,3,4:
+Un bras ou une jambe est plus petit que l'autre:atrophie musculaire:2,3,4:
+douleur dans un tendon qui s'aggrave lorsque vous bougez:tendinite:1,3,4:
+Une douleur soudaine et aiguë:crampes musculaires:1,2:
+douleur soudaine qui s'aggrave lors de la contraction du muscle:rupture musculaire:1,2:

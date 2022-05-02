@@ -1,0 +1,9 @@
+Was ist die wichtigste und größte Arterie im menschlichen Körper?:0,3,8,6
+Welche Vene führt Blut von Kopf, Hals, Armen und Brust zurück zu Ihrem Herzen?:1,3,0,2
+Welche Vene führt Blut von Ihrem Unterkörper zurück zu Ihrem Herzen?:2,1,0,3
+Was ist die obere Kammer, durch die das Blut in die Herzkammern gelangt?:3,5,6,2
+Welche Herzkammer erhält sauerstoffreiches Blut aus der Lunge?:4,3,6,8
+Welche Klappe trennt die beiden Kammern der linken Herzhälfte?:5,8,7,3
+Was ist eine Muskelkammer, die Blut aus dem Herzen in das Kreislaufsystem pumpt?:6,5,8,2
+Welches ist eine der vier Herzkammern?:7,0,1,2
+Seine Aufgabe ist es, den Rückfluss von Blut aus der rechten Herzkammer in den rechten Vorhof zu verhindern.:8,2,5,4

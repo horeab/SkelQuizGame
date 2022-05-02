@@ -1,0 +1,10 @@
+Qual è una malattia in cui il tuo fegato si infiamma?:Epatite::
+Che cos'è una malattia in cui un parassita infetta il tratto gastrointestinale dell'uomo?:Parassiti intestinali::
+Qual è una malattia in cui il tuo pancreas si infiamma?:Pancreatite::
+Qual è una malattia che provoca una rottura nel rivestimento interno dello stomaco?:Ulcera gastrica::
+Qual è una malattia in cui la tua appendice si infiamma?:Appendicite::
+Qual è una malattia in cui il rivestimento interno dello stomaco si infiamma?:Gastrite::
+Quale malattia causa le vene gonfie nel retto inferiore?:Emorroidi::
+Cosa sono i depositi duri fatti di minerali e sali?:Calcoli renali::
+Che cosa sono le cicatrici del fegato causate da un danno epatico a lungo termine?:Cirrosi::
+Qual è un tipo di malattia infiammatoria intestinale?:Morbo di Crohn::

@@ -1,0 +1,4 @@
+liquido che fuoriesce dall'orecchio:Otite:1,2,3:
+Perdita dell'udito:Sordità:0,2,3:
+uno squillo nelle orecchie:Tinnito:0,1,3:
+vertigine:la malattia di Meniere:0,1,2:

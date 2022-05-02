@@ -1,0 +1,7 @@
+What is found in the middle of the cell and it contains DNA arranged in chromosomes?:0,1,2,3
+What region within the cell is concerned with producing the cell ribosomes?:1,2,3,4
+What is a gelatinous liquid that fills the inside of a cell?:2,3,4,5
+What protects the cell from its external environment?:3,4,2,1
+What is a cell structure that produces protein?:4,3,2,1
+What converts chemical energy into an energy form that the cell can use?:5,4,3,2
+What is the transportation system of the eukaryotic cell?:6,5,0,1

@@ -1,0 +1,6 @@
+Was ist der größte der vier Hauptlappen des Gehirns?:0,3,1,4
+Was sitzt hinter den Ohren und ist das zweitgrößte Ohrläppchen?:1,0,3,2
+Was ist an der Wahrnehmung von Empfindungen beteiligt, einschließlich Berührung, Temperatur, Schmerz?:2,0,3,5
+Was ist das visuelle Verarbeitungszentrum des Gehirns?:3,0,1,4
+Was spielt eine wichtige Rolle bei der Gleichgewichtskontrolle?:4,5,0,1
+Was hilft, Herzfrequenz und Atemfrequenz zu kontrollieren?:5,0,4,3

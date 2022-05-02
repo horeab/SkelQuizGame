@@ -1,0 +1,6 @@
+Qu'est-ce qui sert à oxyder notre nourriture, dans le processus de respiration cellulaire, libérant ainsi de l'énergie ?:0,1,2,3
+Quel est le deuxième élément le plus abondant dans le corps humain ?:1,2,3,4
+Qu'est-ce qui est utilisé pour garder le corps humain hydraté?:2,3,4,5
+Qu'est-ce qui est utilisé pour fabriquer des acides aminés dans notre corps qui à leur tour produisent des protéines ?:3,5,4
+Qu'est-ce qui est utilisé pour construire et maintenir des os solides ?:4,0,1,2
+Qu'est-ce qui est utilisé dans la formation des os et des dents?:5,1,2,3

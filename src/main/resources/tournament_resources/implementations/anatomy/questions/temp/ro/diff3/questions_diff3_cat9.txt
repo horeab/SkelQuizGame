@@ -1,0 +1,4 @@
+Vedere tulbure:Cataractă:1,2,3:
+Culoare roz sau roșie în albul ochiului:Conjunctivită:0,2,3:
+durere oculară intensă:Glaucom:0,1,3:
+Percepție slabă a profunzimii și vedere periferică:Ambliopia:0,1,2:

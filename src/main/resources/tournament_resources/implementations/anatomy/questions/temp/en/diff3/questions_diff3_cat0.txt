@@ -1,0 +1,10 @@
+Yellowing of the skin and the whites of your eyes:3,4,5:Hepatitis:3,4,5:
+Rash or itching around the rectum:2,7,8:Intestinal parasites:2,7,8:
+Moderate to severe abdominal pain that may spread to your back:1,3,4:Pancreatitis:1,3,4:
+Severe stomach pain:6,7,8:Gastric ulcer:6,7,8:
+Sudden pain that begins on the right side of the lower abdomen:0,3,7:Appendicitis:0,3,7:
+Nausea or recurrent upset stomach:4,2,1:Gastritis:4,2,1:
+Extreme itching around the anus:0,2,3:Hemorrhoids:0,2,3:
+Pain or burning sensation while urinating:3,9,1:Kidney stones:3,9,1:
+Yellowing of the skin and the whites of your eyes:7,5,4:Cirrhosis:7,5,4:
+Blood in the stool:2,7,8:Crohn's disease:2,7,8:

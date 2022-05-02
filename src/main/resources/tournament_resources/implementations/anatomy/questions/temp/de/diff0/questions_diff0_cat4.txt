@@ -1,0 +1,6 @@
+Gehirn:5,4,3:50.4,96.8
+Kleinhirn:5,4,3:56,92.6
+Rückenmark:0,4,3:50.7,86.8
+Ischiasnerv:0,4,5:59.4,37.6
+Tibialnerv:1,5,3:61.1,19.4
+Ganglion:4,3,1:49,70

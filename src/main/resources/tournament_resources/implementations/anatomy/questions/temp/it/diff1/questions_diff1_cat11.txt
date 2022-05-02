@@ -1,0 +1,6 @@
+A cosa serve ossidare il nostro cibo, nel processo di respirazione cellulare, liberando così energia?:0,1,2,3
+Qual è il secondo elemento più abbondante nel corpo umano?:1,2,3,4
+Cosa serve per mantenere idratato il corpo umano?:2,3,4,5
+Cosa viene utilizzato per produrre amminoacidi nel nostro corpo che a loro volta producono proteine?:3,5,4
+Cosa viene utilizzato per costruire e mantenere le ossa forti?:4,0,1,2
+Cosa viene utilizzato nella formazione di ossa e denti?:5,1,2,3

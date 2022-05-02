@@ -1,0 +1,4 @@
+Visione offuscata:Cataratta:1,2,3:
+Colore rosa o rosso nel bianco dell'occhio:Congiuntivite:0,2,3:
+dolore oculare intenso:Glaucoma:0,1,3:
+Percezione della profondità e visione periferica scarsa:Ambliopia:0,1,2:

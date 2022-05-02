@@ -1,0 +1,6 @@
+Quel est le plus grand des quatre principaux lobes du cerveau ?:0,3,1,4
+Qu'est-ce qui se trouve derrière les oreilles et est le deuxième plus grand lobe ?:1,0,3,2
+Qu'est-ce qui est impliqué dans la perception de la sensation, y compris le toucher, la température, la douleur ?:2,0,3,5
+Quel est le centre de traitement visuel du cerveau ?:3,0,1,4
+Qu'est-ce qui joue un rôle important dans le contrôle de l'équilibre ?:4,5,0,1
+Qu'est-ce qui aide à contrôler la fréquence cardiaque et la fréquence respiratoire ?:5,0,4,3

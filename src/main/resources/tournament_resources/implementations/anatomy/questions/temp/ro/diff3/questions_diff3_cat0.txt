@@ -1,0 +1,10 @@
+Îngălbenirea pielii și a albului ochilor:hepatită:3,4,5:
+Erupție cutanată sau mâncărime în jurul rectului:Paraziți intestinali:2,7,8:
+Dureri abdominale moderate până la severe care se pot răspândi la spate:Pancreatită:1,3,4:
+Dureri severe de stomac:Ulcer gastric:6,7,8:
+Durere bruscă care începe în partea dreaptă a abdomenului inferior:Apendicită:0,3,7:
+Greață sau tulburări de stomac recurente:Gastrită:4,2,1:
+Mâncărime extremă în jurul anusului:Hemoroizi:0,2,3:
+Durere sau senzație de arsură în timpul urinării:Pietre la rinichi:3,9,1:
+Îngălbenirea pielii și a albului ochilor:Ciroză:7,5,4:
+Sânge în scaun:Boala Crohn:2,7,8:

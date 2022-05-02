@@ -1,0 +1,5 @@
+Un nuovo nodulo al seno o alle ascelle:Cancro al seno:1,2,3:
+Sangue nelle urine:Cancro alla prostata:2,3,4:
+Un cambiamento nelle abitudini intestinali:Cancro colorettale:1,3,4:
+una tosse che non scompare dopo 2 o 3 settimane:Cancro ai polmoni:1,2,4:
+Un neo che cambia colore, dimensione o che sanguina:Cancro della pelle:0,1,3:

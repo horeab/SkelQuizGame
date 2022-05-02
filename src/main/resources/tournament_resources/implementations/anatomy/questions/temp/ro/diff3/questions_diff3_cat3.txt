@@ -1,0 +1,4 @@
+Umflarea nedureroasă a ganglionilor limfatici la nivelul gâtului, axilelor sau inghinală:Limfom:2,3:
+Ganglioni limfatici umflați, ficatul sau splina mărite:leucemie:2,3:
+Tremurând:Hipotermie:0,1:
+Amorțeală sau slăbiciune în brațe sau picioare:Ateroscleroza:0,1,2:

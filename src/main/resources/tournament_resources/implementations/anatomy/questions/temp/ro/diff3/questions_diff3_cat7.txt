@@ -1,0 +1,4 @@
+lichid care se scurge din ureche:Otita:1,2,3:
+Pierderea auzului:Surditate:0,2,3:
+un zgomot în urechi:Tinitus:0,1,3:
+vertij:boala Meniere:0,1,2:

@@ -1,0 +1,12 @@
+Qu'est-ce qu'une structure osseuse qui forme la tête?:0,1,9,7
+Qu'est-ce qu'on appelle aussi l'os de l'épaule ?:1,9,11,6
+Qu'est-ce qu'une structure osseuse et cartilagineuse semi-rigide qui entoure la cavité thoracique ?:2,7,8,11
+Quelle est la caractéristique déterminante d'un vertébré?:3,0,11,2
+Quel est le plus grand des deux os de la jambe sous le genou ?:4,6,9,5
+Quel est l'os le plus long et le plus solide de votre corps ?:5,6,9,1
+Qu'est-ce qu'un os long du bras qui va de l'épaule au coude ?:6,5,1,7
+Qu'est-ce qu'un groupe de cinq os de la main entre les phalanges et le poignet ?:7,5,1,3
+Quels os composent le poignet ?:8,7,9,10
+Qu'est-ce qu'un groupe de sept os articulés dans chaque pied ?:9,7,8,1
+Qu'est-ce qu'un groupe de cinq os longs dans le pied ?:10,8,7,4
+Quelle est la partie inférieure du torse ?:11,6,3,2

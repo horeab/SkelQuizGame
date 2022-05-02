@@ -1,0 +1,4 @@
+Que se passe-t-il lorsqu'un virus ou une bactérie provoque une inflammation de la zone située derrière le tympan ?:Otite::
+Qu'est-ce qui fait référence à l'incapacité totale ou partielle d'entendre les sons ?:Surdité::
+Dans quelle condition entendez-vous des sons lorsqu'il n'y a pas de source extérieure de sons ?:Acouphène::
+Qu'est-ce qu'un trouble de l'oreille interne pouvant entraîner des étourdissements (vertiges) et une perte auditive ?:la maladie de Ménière::

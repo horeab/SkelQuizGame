@@ -1,0 +1,7 @@
+Che cos'è una struttura sottile nell'occhio, responsabile del controllo del diametro e delle dimensioni della pupilla?:0,1,3,2
+Qual è la parte anteriore trasparente dell'occhio che copre l'iride?:1,2,3,0
+Che cos'è una struttura trasparente nell'occhio che aiuta a rifrangere la luce per essere focalizzata sulla retina?:2,3,0,1
+Qual è lo strato di tessuto dell'occhio più interno e sensibile alla luce?:3,1,0,2
+Cosa trasmette le informazioni visive dalla retina al cervello?:4,6,5,3
+Qual è la parte anteriore dell'occhio tra la cornea e l'iride?:5,6,2,3
+Quale camera oculare si trova dietro la lente e davanti al nervo ottico?:6,5,3,0

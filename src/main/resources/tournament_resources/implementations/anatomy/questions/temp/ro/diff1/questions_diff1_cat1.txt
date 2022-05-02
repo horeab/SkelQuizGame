@@ -1,0 +1,12 @@
+Ce este o structură osoasă care formează capul?:0,1,9,7
+Ce este cunoscut și sub numele de osul umărului?:1,9,11,6
+Ce este o structură osoasă și cartilaginoasă semirigidă care înconjoară cavitatea toracică?:2,7,8,11
+Care este caracteristica definitorie a unei vertebrate?:3,0,11,2
+Care este cel mai mare dintre cele două oase ale piciorului de sub genunchi?:4,6,9,5
+Care este cel mai lung și mai puternic os din corpul tău?:5,6,9,1
+Ce este un os lung al brațului care merge de la umăr la cot?:6,5,1,7
+Ce este un grup de cinci oase ale mâinii între falange și încheietura mâinii?:7,5,1,3
+Ce oase alcătuiesc încheietura mâinii?:8,7,9,10
+Ce este un grup de șapte oase articulate în fiecare picior?:9,7,8,1
+Ce este un grup de cinci oase lungi în picior?:10,8,7,4
+Care este partea inferioară a trunchiului?:11,6,3,2

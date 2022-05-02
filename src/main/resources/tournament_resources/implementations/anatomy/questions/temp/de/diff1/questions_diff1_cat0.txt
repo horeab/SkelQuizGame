@@ -1,0 +1,10 @@
+Welches Organ produziert die für die Verdauung notwendige Galle?:0,7,6,8
+Was ist der erste Teil des Verdauungskanals, der Nahrung aufnimmt und Speichel produziert?:1,2,6,5
+Durch welches Organ gelangt die Nahrung vom Rachen in den Magen?:2,6,9,7
+Welches Organ ist der letzte Teil des Verdauungssystems?:3,4,7,8
+Wo findet die meiste Aufnahme von Nähr- und Mineralstoffen aus der Nahrung statt?:4,5,3,0
+Welches Organ sondert Verdauungsenzyme und Magensäure ab, um die Nahrungsverdauung zu unterstützen?:5,4,7,3
+Wie heißt der Teil des Rachens hinter der Mund- und Nasenhöhle?:6,2,9,8
+Wo wird die Galle gespeichert und konzentriert, bevor sie in den Dünndarm abgegeben wird?:7,6,9,8
+Wo wird Insulin ausgeschüttet?:8,0,7,6
+Welches Organ befindet sich im rechten Unterbauch?:9,0,7,2

@@ -1,0 +1,6 @@
+Qual è il più grande dei quattro lobi principali del cervello?:0,3,1,4
+Cosa si trova dietro le orecchie ed è il secondo lobo più grande?:1,0,3,2
+Che cosa è coinvolto nella percezione della sensazione, incluso il tatto, la temperatura, il dolore?:2,0,3,5
+Qual è il centro di elaborazione visiva del cervello?:3,0,1,4
+Cosa gioca un ruolo importante nel controllo dell'equilibrio?:4,5,0,1
+Cosa aiuta a controllare la frequenza cardiaca e la frequenza respiratoria?:5,0,4,3

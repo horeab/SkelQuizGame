@@ -1,0 +1,6 @@
+Qu'est-ce qu'un organe qui sert de centre au système nerveux ?:0,1,2,5
+Quelle est la principale caractéristique du cerveau postérieur de tous les vertébrés ?:1,5,0,2
+Qu'est-ce qu'une structure tubulaire longue et fine constituée de tissu nerveux ?:2,1,3,4
+Qu'est-ce qu'un gros nerf qui longe l'articulation de la hanche ?:3,2,1,5
+Qu'est-ce qu'une branche du nerf sciatique ?:4,5,2,1
+Qu'est-ce qu'un groupe de corps cellulaires neuronaux dans le système nerveux périphérique ?:5,1,0,2

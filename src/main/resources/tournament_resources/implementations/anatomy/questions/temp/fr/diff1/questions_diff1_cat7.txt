@@ -1,0 +1,7 @@
+Quelle est la partie visible de l'oreille qui se trouve à l'extérieur de la tête ?:0,3,6,2
+Qu'est-ce qu'un chemin allant de l'oreille externe à l'oreille moyenne ?:1,2,3,0
+Qu'est-ce qu'un mince lambeau de peau qui est tendu comme un tambour et qui vibre lorsque le son le frappe ?:2,0,5,3
+Quels sont les trois os de l'oreille moyenne qui comptent parmi les plus petits os du corps humain ?:3,0,6,2
+À quoi ressemble la coquille d'un escargot?:4,2,0,6
+Qu'est-ce qui transporte les informations sensorielles auditives de la cochlée de l'oreille interne directement au cerveau ?:5,2,0,6
+Qu'est-ce qu'on appelle aussi le tube auditif ?:6,1,4,0

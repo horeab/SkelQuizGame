@@ -1,0 +1,6 @@
+Quel est le muscle formant le contour arrondi de l'épaule humaine ?:0,1,3,5
+Qu'est-ce qu'un gros muscle qui se trouve sur le devant du bras entre l'épaule et le coude ?:1,0,2,3
+Quel muscle est situé au niveau de la poitrine du corps humain ?:2,3,5,1
+Qu'est-ce qu'un muscle triangulaire situé sur la face postérieure du cou ?:3,1,2,5
+Quel muscle est le plus gros des muscles abdominaux latéraux ?:4,1,2,0
+Quel est le plus gros des 4 muscles de la loge antérieure de la jambe ?:5,3,0,1

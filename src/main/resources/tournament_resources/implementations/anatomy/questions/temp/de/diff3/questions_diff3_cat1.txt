@@ -1,0 +1,5 @@
+Gelenkschmerzen:Arthritis:1,2,3:
+sofortiger, starker Schmerz:Knochenbruch:2,3:
+Höhenverlust im Laufe der Zeit:Osteoporose:1,3,4:
+eine sichtbar gekrümmte Wirbelsäule:Skoliose:0,1,2:
+rote, glänzende Haut über dem betroffenen Gelenk:Gicht:1,2,3:

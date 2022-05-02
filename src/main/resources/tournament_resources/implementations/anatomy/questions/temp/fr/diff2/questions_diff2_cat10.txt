@@ -1,0 +1,5 @@
+Quel type de cancer peut inclure une grosseur dans le sein ou une modification de la forme des seins ?:Cancer du sein::
+Quel est le type de cancer le plus courant qui touche uniquement les hommes ?:Cancer de la prostate::
+Qu'est-ce qu'un type de cancer dans lequel les cellules du côlon ou du rectum se développent de manière incontrôlable ?:Cancer colorectal::
+Quel type de cancer est causé par le tabagisme à long terme?:Cancer du poumon::
+Quel type de cancer est causé par une surexposition aux rayons ultraviolets du soleil ?:Cancer de la peau::

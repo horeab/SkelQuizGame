@@ -1,0 +1,5 @@
+Forte fièvre soudaine, maux de tête sévères qui semblent différents de la normale:Méningite:1,2,3:
+cécité d'un oeil:Sclérose en plaque:0,3,4:
+Tremblement dans les mains:la maladie de Parkinson:0,3,4:
+tics de mouvement:syndrome de la Tourette:0,1,4:
+difficulté à se concentrer et trous de mémoire:La maladie de Huntington:0,1,2:

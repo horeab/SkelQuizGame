@@ -1,0 +1,5 @@
+Febră ridicată bruscă, cefalee severă care pare diferită de normal:Meningita:1,2,3:
+orbire la un ochi:Scleroză multiplă:0,3,4:
+Tremor în mâini:boala Parkinson:0,3,4:
+ticuri de mișcare:sindromul Tourette:0,1,4:
+dificultăți de concentrare și pierderi de memorie:boala Huntington:0,1,2:

@@ -1,0 +1,5 @@
+Plötzliches hohes Fieber, starke Kopfschmerzen, die anders als normal erscheinen:Meningitis:1,2,3:
+Blindheit auf einem Auge:Multiple Sklerose:0,3,4:
+Zittern in den Händen:Parkinson-Krankheit:0,3,4:
+Bewegungs-Tics:Tourette Syndrom:0,1,4:
+Konzentrationsschwierigkeiten und Gedächtnislücken:Huntington-Krankheit:0,1,2:

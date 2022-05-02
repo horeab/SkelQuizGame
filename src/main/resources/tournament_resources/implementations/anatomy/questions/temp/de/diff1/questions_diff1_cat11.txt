@@ -1,0 +1,6 @@
+Was wird verwendet, um unsere Nahrung im Prozess der Zellatmung zu oxidieren und so Energie freizusetzen?:0,1,2,3
+Was ist das zweithäufigste Element im menschlichen Körper?:1,2,3,4
+Was wird verwendet, um den menschlichen Körper mit Feuchtigkeit zu versorgen?:2,3,4,5
+Was wird in unserem Körper zur Herstellung von Aminosäuren verwendet, die wiederum Proteine ​​herstellen?:3,5,4
+Was wird verwendet, um starke Knochen aufzubauen und zu erhalten?:4,0,1,2
+Was wird bei der Bildung von Knochen und Zähnen verwendet?:5,1,2,3

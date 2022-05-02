@@ -1,0 +1,5 @@
+Comment appelle-t-on un niveau d'oxygène inférieur à la normale dans le sang, en particulier dans les artères ?:Hypoxémie::
+Comment appelle-t-on un taux de calcium inférieur à la normale dans votre sang ?:Hypocalcémie::
+Comment appelle-t-on un taux de calcium supérieur à la normale dans votre sang ?:Hypercalcémie::
+Comment appelle-t-on un taux de phosphate inférieur à la normale dans votre sang ?:hypophosphatémie::
+Comment appelle-t-on un taux de phosphate supérieur à la normale dans votre sang ?:Hyperphosphatémie::

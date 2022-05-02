@@ -1,0 +1,5 @@
+Gencives rouges ou enflées:Parodontite:2,3,4:
+Gencives rouges ou enflées:gingivite:2,3,4:
+Mal aux dents:Carie:0,4,3:
+problèmes de déglutition:Amygdalite:0,2,4:
+Déformations de la mâchoire supérieure:Fente labiale:0,2,3:

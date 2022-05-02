@@ -1,0 +1,4 @@
+Painless swelling of lymph nodes in your neck, armpits or groin:2,3:Lymphoma:2,3:
+Swollen lymph nodes, enlarged liver or spleen:2,3:Leukemia:2,3:
+Shivering:0,1:Hypothermia:0,1:
+Numbness or weakness in your arms or legs:0,1,2:Atherosclerosis:0,1,2:

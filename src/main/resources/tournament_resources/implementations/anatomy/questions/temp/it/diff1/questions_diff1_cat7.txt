@@ -1,0 +1,7 @@
+Qual è la parte visibile dell'orecchio che si trova al di fuori della testa?:0,3,6,2
+Qual è un percorso che va dall'orecchio esterno all'orecchio medio?:1,2,3,0
+Cos'è un sottile lembo di pelle che è teso come un tamburo e vibra quando il suono lo colpisce?:2,0,5,3
+Quali sono le tre ossa dell'orecchio medio che sono tra le ossa più piccole del corpo umano?:3,0,6,2
+Cosa assomiglia al guscio di una lumaca?:4,2,0,6
+Cosa trasporta le informazioni sensoriali uditive dalla coclea dell'orecchio interno direttamente al cervello?:5,2,0,6
+Ciò che è anche noto come tubo uditivo?:6,1,4,0

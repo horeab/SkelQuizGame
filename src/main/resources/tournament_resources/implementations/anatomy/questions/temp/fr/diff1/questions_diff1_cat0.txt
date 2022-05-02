@@ -1,0 +1,10 @@
+Quel organe produit la bile nécessaire à la digestion ?:0,7,6,8
+Quelle est la première partie du tube digestif qui reçoit de la nourriture et produit de la salive ?:1,2,6,5
+Par quel organe la nourriture passe du pharynx à l'estomac ?:2,6,9,7
+Quel organe est la dernière partie du système digestif ?:3,4,7,8
+Où se fait la plus grande absorption des nutriments et des minéraux provenant des aliments ?:4,5,3,0
+Quel organe sécrète des enzymes digestives et de l'acide gastrique pour faciliter la digestion des aliments ?:5,4,7,3
+Comment s'appelle la partie de la gorge située derrière la bouche et la cavité nasale ?:6,2,9,8
+Où la bile est-elle stockée et concentrée avant d'être libérée dans l'intestin grêle ?:7,6,9,8
+D'où l'insuline est-elle sécrétée ?:8,0,7,6
+Quel organe est situé dans le bas-ventre droit ?:9,0,7,2

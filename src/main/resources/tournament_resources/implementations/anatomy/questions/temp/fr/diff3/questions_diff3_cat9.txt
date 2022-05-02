@@ -1,0 +1,4 @@
+Vision trouble:Cataracte:1,2,3:
+Couleur rose ou rouge dans le blanc de l'œil:Conjonctivite:0,2,3:
+douleur oculaire intense:Glaucome:0,1,3:
+Mauvaise perception de la profondeur et vision périphérique:Amblyopie:0,1,2:

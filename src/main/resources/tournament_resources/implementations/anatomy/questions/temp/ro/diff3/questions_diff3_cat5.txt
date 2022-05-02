@@ -1,0 +1,5 @@
+Gingii roșii sau umflate:Parodontita:2,3,4:
+Gingii roșii sau umflate:gingivita:2,3,4:
+Durere de dinţi:Carie dentară:0,4,3:
+probleme la înghițire:Amigdalită:0,2,4:
+Deformări ale maxilarului superior:Buza despicată:0,2,3:

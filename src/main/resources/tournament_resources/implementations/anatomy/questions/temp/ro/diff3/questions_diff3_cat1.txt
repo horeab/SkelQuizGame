@@ -1,0 +1,5 @@
+dureri articulare:Artrită:1,2,3:
+durere imediată, puternică:Fractură osoasă:2,3:
+Pierderea înălțimii în timp:Osteoporoza:1,3,4:
+o coloană vertebrală vizibil curbată:scolioza:0,1,2:
+piele roșie, strălucitoare peste articulația afectată:Gută:1,2,3:

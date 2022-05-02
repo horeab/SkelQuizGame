@@ -1,0 +1,4 @@
+Flüssigkeit, die aus dem Ohr abfließt:Otitis:1,2,3:
+Hörverlust:Taubheit:0,2,3:
+ein Klingeln in den Ohren:Tinnitus:0,1,3:
+Schwindel:Morbus Menière:0,1,2:

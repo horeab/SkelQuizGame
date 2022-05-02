@@ -1,0 +1,5 @@
+Bluish color in skin, fingernails, and lips:1,2,3:Hypoxemia:1,2,3:
+Twitching in your hands, face, and feet:0,2,4:Hypocalcemia:0,2,4:
+More frequent urination and thirst:0,1:Hypercalcemia:0,1:
+weakening of bones:0,4:hypophosphatemia:0,4:
+muscle cramps or spasms:0,1:Hyperphosphatemia:0,1:

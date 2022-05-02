@@ -1,0 +1,5 @@
+Care este un tip de cancer care poate include un nodul la sân sau o modificare a formei sânului?:Cancer mamar::
+Care este cel mai frecvent tip de cancer care afectează numai bărbații?:Cancer de prostată::
+Care este un tip de cancer în care celulele din colon sau rect cresc fără control?:Cancer colorectal::
+Ce tip de cancer este cauzat de fumatul pe termen lung?:Cancer de plamani::
+Ce tip de cancer este cauzat de supraexpunerea la razele ultraviolete de la soare?:Cancer de piele::

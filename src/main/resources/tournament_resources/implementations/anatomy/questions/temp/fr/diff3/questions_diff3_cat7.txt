@@ -1,0 +1,4 @@
+liquide qui s'écoule de l'oreille:Otite:1,2,3:
+Perte d'audition:Surdité:0,2,3:
+un bourdonnement dans les oreilles:Acouphène:0,1,3:
+vertige:la maladie de Ménière:0,1,2:

@@ -1,0 +1,8 @@
+Quali sono le pieghe muscolari che circondano la bocca?:0,1,4,7
+Cos'è un'estensione carnosa che pende sopra la gola?:1,4,0,7
+Cosa sono i denti piatti nella parte posteriore della bocca?:2,3,5,6
+Quali sono i denti anteriori?:3,2,5,6
+Che cos'è un organo muscolare nella bocca?:4,5,6,1
+Quali organi svolgono un ruolo importante nel sistema immunitario?:5,1,4,0
+Cos'è una sottile placca ossea orizzontale composta da due ossa dello scheletro facciale?:6,7,2,5
+Qual è il tessuto molle che costituisce la parte posteriore del palato?:7,5,1,0

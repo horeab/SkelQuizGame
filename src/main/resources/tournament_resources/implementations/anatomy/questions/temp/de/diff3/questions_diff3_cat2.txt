@@ -1,0 +1,5 @@
+Große Wadenmuskulatur:Muskeldystrophie:2,3,4:
+Ein Arm oder ein Bein ist kleiner als das andere:Muskelatrophie:2,3,4:
+Schmerzen in einer Sehne, die sich verschlimmern, wenn Sie sich bewegen:Sehnenentzündung:1,3,4:
+Ein plötzlicher, stechender Schmerz:Muskelkrämpfe:1,2:
+plötzlicher Schmerz, der sich verschlimmert, während sich der Muskel zusammenzieht:Muskelriss:1,2:

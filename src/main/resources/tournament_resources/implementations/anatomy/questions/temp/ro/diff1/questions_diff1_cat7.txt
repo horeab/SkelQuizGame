@@ -1,0 +1,7 @@
+Care este partea vizibilă a urechii care se află în afara capului?:0,3,6,2
+Ce este o cale care merge de la urechea externă la urechea medie?:1,2,3,0
+Ce este o clapă subțire de piele care este întinsă strâns ca o tobă și vibrează când sunetul îl lovește?:2,0,5,3
+Care sunt trei oase din urechea medie care sunt printre cele mai mici oase din corpul uman?:3,0,6,2
+Ce seamănă cu coaja unui melc?:4,2,0,6
+Ce transportă informațiile senzoriale auditive de la cohleea urechii interne direct la creier?:5,2,0,6
+Ce este cunoscut și sub numele de tub auditiv?:6,1,4,0

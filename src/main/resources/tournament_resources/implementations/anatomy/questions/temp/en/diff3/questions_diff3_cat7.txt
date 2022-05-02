@@ -1,0 +1,4 @@
+fluid that drains from the ear:1,2,3:Otitis‎:1,2,3:
+Loss of hearing:0,2,3:Deafness:0,2,3:
+a ringing noise in the ears:0,1,3:Tinnitus:0,1,3:
+vertigo:0,1,2:Meniere's disease:0,1,2:

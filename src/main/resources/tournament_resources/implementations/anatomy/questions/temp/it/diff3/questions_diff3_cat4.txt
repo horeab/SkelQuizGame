@@ -1,0 +1,5 @@
+Febbre alta improvvisa, forte mal di testa che sembra diverso dal normale:Meningite:1,2,3:
+cecità da un occhio:Sclerosi multipla:0,3,4:
+Tremore alle mani:morbo di Parkinson:0,3,4:
+tic di movimento:sindrome di Tourette:0,1,4:
+difficoltà di concentrazione e vuoti di memoria:malattia di Huntington:0,1,2:

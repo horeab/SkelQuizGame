@@ -1,0 +1,5 @@
+Red or swollen gums:2,3,4:Periodontitis:2,3,4:
+Red or swollen gums:2,3,4:gingivitis:2,3,4:
+Toothache:0,4,3:Tooth decay:0,4,3:
+problems swallowing:0,2,4:Tonsillitis:0,2,4:
+Deformities of the upper jaw:0,2,3:Cleft lip:0,2,3:

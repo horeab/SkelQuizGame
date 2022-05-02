@@ -1,0 +1,4 @@
+Gonflement indolore des ganglions lymphatiques du cou, des aisselles ou de l'aine:Lymphome:2,3:
+Ganglions lymphatiques enflés, hypertrophie du foie ou de la rate:Leucémie:2,3:
+Frissons:Hypothermie:0,1:
+Engourdissement ou faiblesse dans les bras ou les jambes:Athérosclérose:0,1,2:

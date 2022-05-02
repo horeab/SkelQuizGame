@@ -1,0 +1,4 @@
+Gonfiore indolore dei linfonodi del collo, delle ascelle o dell'inguine:Linfoma:2,3:
+Linfonodi ingrossati, fegato o milza ingrossati:Leucemia:2,3:
+tremante:Ipotermia:0,1:
+Intorpidimento o debolezza alle braccia o alle gambe:Aterosclerosi:0,1,2:

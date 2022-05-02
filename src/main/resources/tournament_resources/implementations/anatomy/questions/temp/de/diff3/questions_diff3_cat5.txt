@@ -1,0 +1,5 @@
+Rotes oder geschwollenes Zahnfleisch:Parodontitis:2,3,4:
+Rotes oder geschwollenes Zahnfleisch:Zahnfleischentzündung:2,3,4:
+Zahnschmerzen:Karies:0,4,3:
+Probleme beim Schlucken:Mandelentzündung:0,2,4:
+Deformitäten des Oberkiefers:Lippenspalte:0,2,3:

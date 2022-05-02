@@ -1,0 +1,10 @@
+Liver:1,2,3:29.2,45
+Mouth:4,2,9:28.1,81.6
+Esophagus:1,8,5:48.6,58.6
+Large intestine:4,2,6:20.5,21
+Small intestine:8,7,1:52.4,19
+Stomach:4,6,7:66,41
+Pharynx:5,2,9:48.6,81
+Gallbladder:6,9,4:31.3,39.6
+Pancreas:2,1,0:50,35.1
+Appendix:2,8,3:35.1,9.6

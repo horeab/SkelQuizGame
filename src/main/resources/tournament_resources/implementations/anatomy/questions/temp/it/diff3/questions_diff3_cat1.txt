@@ -1,0 +1,5 @@
+dolori articolari:Artrite:1,2,3:
+dolore immediato e intenso:Frattura dell'osso:2,3:
+Perdita di altezza nel tempo:Osteoporosi:1,3,4:
+una spina dorsale visibilmente curva:Scoliosi:0,1,2:
+pelle rossa e lucida sopra l'articolazione colpita:Gotta:1,2,3:

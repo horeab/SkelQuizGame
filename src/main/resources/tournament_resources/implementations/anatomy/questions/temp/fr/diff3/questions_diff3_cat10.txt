@@ -1,0 +1,5 @@
+Une nouvelle masse dans la poitrine ou sous les bras:Cancer du sein:1,2,3:
+Du sang dans les urines:Cancer de la prostate:2,3,4:
+Un changement dans les habitudes intestinales:Cancer colorectal:1,3,4:
+une toux qui ne disparaît pas après 2 ou 3 semaines:Cancer du poumon:1,2,4:
+Un grain de beauté qui change de couleur, de taille ou qui saigne:Cancer de la peau:0,1,3:

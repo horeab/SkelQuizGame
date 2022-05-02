@@ -1,0 +1,4 @@
+Qu'est-ce qu'une zone trouble dans le cristallin de l'œil qui entraîne une diminution de la vision ?:Cataracte::
+Qu'est-ce qu'une affection oculaire causée par une infection ou des allergies ?:Conjonctivite::
+Qu'est-ce qu'une affection oculaire où le nerf optique, qui relie l'œil au cerveau, est endommagé ?:Glaucome::
+Qu'est-ce qu'un trouble de la vue dans lequel le cerveau ne parvient pas à traiter pleinement les entrées d'un œil et, au fil du temps, favorise l'autre œil ?:Amblyopie::

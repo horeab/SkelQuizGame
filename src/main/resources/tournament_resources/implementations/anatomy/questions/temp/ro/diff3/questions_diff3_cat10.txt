@@ -1,0 +1,5 @@
+Un nou nodul la sân sau la subrat:Cancer mamar:1,2,3:
+Sânge în urină:Cancer de prostată:2,3,4:
+O schimbare a obiceiurilor intestinale:Cancer colorectal:1,3,4:
+o tuse care nu dispare după 2 sau 3 săptămâni:Cancer de plamani:1,2,4:
+O aluniță care își schimbă culoarea, dimensiunea sau care sângerează:Cancer de piele:0,1,3:

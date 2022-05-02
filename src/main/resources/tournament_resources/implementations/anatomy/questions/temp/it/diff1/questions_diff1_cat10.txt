@@ -1,0 +1,7 @@
+Cosa si trova al centro della cellula e contiene DNA organizzato nei cromosomi?:0,1,2,3
+Quale regione all'interno della cellula si occupa della produzione dei ribosomi cellulari?:1,2,3,4
+Cos'è un liquido gelatinoso che riempie l'interno di una cellula?:2,3,4,5
+Cosa protegge la cellula dal suo ambiente esterno?:3,4,2,1
+Che cos'è una struttura cellulare che produce proteine?:4,3,2,1
+Cosa converte l'energia chimica in una forma di energia utilizzabile dalla cellula?:5,4,3,2
+Qual è il sistema di trasporto della cellula eucariotica?:6,5,0,1

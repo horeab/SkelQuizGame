@@ -1,0 +1,7 @@
+Was befindet sich in der Mitte der Zelle und enthält in Chromosomen angeordnete DNA?:0,1,2,3
+Welche Region innerhalb der Zelle ist mit der Produktion der Zellribosomen befasst?:1,2,3,4
+Was ist eine gallertartige Flüssigkeit, die das Innere einer Zelle ausfüllt?:2,3,4,5
+Was schützt die Zelle vor ihrer äußeren Umgebung?:3,4,2,1
+Was ist eine Zellstruktur, die Protein produziert?:4,3,2,1
+Was wandelt chemische Energie in eine Energieform um, die die Zelle nutzen kann?:5,4,3,2
+Was ist das Transportsystem der eukaryotischen Zelle?:6,5,0,1

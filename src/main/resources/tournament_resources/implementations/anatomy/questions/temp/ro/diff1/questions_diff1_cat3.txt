@@ -1,0 +1,6 @@
+Ce este un organ muscular care pompează sângele prin vasele de sânge ale sistemului circulator?:0,1,3,5
+Care este artera principală și cea mai mare din corpul uman?:1,4,3,2
+Ce sunt venele care drenează rinichiul?:2,5,4,1
+Care sunt arterele pereche care alimentează rinichii cu sânge?:3,2,1,5
+Ce sunt venele care duc sângele dezoxigenat de la cap înapoi la inimă?:4,2,5,1
+Ce este o venă mare situată adânc în interiorul coapsei?:5,2,1,4

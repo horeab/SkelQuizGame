@@ -1,0 +1,10 @@
+Qu'est-ce qu'une maladie dans laquelle votre foie devient enflammé ?:Hépatite::
+Qu'est-ce qu'une maladie dans laquelle un parasite infecte le tractus gastro-intestinal de l'homme ?:Parasite intestinal::
+Qu'est-ce qu'une maladie dans laquelle votre pancréas devient enflammé ?:Pancréatite::
+Qu'est-ce qu'une maladie qui provoque une rupture de la paroi interne de l'estomac ?:Ulcère gastrique::
+Qu'est-ce qu'une maladie dans laquelle votre appendice devient enflammé ?:Appendicite::
+Qu'est-ce qu'une maladie dans laquelle la paroi interne de l'estomac s'enflamme ?:Gastrite::
+Quelle maladie cause le gonflement des veines dans le bas du rectum ?:Pathologie hémorroïdaire::
+Que sont les dépôts durs constitués de minéraux et de sels ?:Calculs rénaux::
+Qu'est-ce que la cicatrisation du foie causée par des lésions hépatiques à long terme ?:Cirrhose::
+Qu'est-ce qu'un type de maladie intestinale inflammatoire?:la maladie de Crohn::

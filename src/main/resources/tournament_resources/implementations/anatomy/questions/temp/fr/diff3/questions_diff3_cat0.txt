@@ -1,0 +1,10 @@
+Jaunissement de la peau et du blanc des yeux:Hépatite:3,4,5:
+Éruption cutanée ou démangeaisons autour du rectum:Parasite intestinal:2,7,8:
+Douleurs abdominales modérées à sévères pouvant se propager à votre dos:Pancréatite:1,3,4:
+Douleur intense à l'estomac:Ulcère gastrique:6,7,8:
+Douleur soudaine qui commence sur le côté droit du bas-ventre:Appendicite:0,3,7:
+Nausées ou maux d'estomac récurrents:Gastrite:4,2,1:
+Démangeaisons extrêmes autour de l'anus:Pathologie hémorroïdaire:0,2,3:
+Douleur ou sensation de brûlure en urinant:Calculs rénaux:3,9,1:
+Jaunissement de la peau et du blanc des yeux:Cirrhose:7,5,4:
+Sang dans les selles:la maladie de Crohn:2,7,8:

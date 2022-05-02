@@ -1,0 +1,7 @@
+Qu'est-ce qui se trouve au milieu de la cellule et qui contient de l'ADN disposé en chromosomes ?:0,1,2,3
+Quelle région de la cellule est concernée par la production des ribosomes cellulaires ?:1,2,3,4
+Qu'est-ce qu'un liquide gélatineux qui remplit l'intérieur d'une cellule ?:2,3,4,5
+Qu'est-ce qui protège la cellule de son environnement extérieur ?:3,4,2,1
+Qu'est-ce qu'une structure cellulaire qui produit des protéines ?:4,3,2,1
+Qu'est-ce qui convertit l'énergie chimique en une forme d'énergie utilisable par la cellule ?:5,4,3,2
+Quel est le système de transport de la cellule eucaryote ?:6,5,0,1

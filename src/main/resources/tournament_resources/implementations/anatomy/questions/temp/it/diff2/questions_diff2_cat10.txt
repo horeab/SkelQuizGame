@@ -1,0 +1,5 @@
+Qual è un tipo di cancro che può includere un nodulo al seno o un cambiamento nella forma del seno?:Cancro al seno::
+Qual è il tipo più comune di cancro che colpisce solo gli uomini?:Cancro alla prostata::
+Qual è un tipo di cancro in cui le cellule del colon o del retto crescono senza controllo?:Cancro colorettale::
+Che tipo di cancro è causato dal fumo di tabacco a lungo termine?:Cancro ai polmoni::
+Che tipo di cancro è causato dalla sovraesposizione ai raggi ultravioletti del sole?:Cancro della pelle::

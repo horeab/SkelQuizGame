@@ -1,0 +1,6 @@
+Inimă:4,2,5:65.3,73
+aortă:4,2,5:62.9,77.6
+vene renale:0,4,5:57.3,59.1
+Artera renală:0,5,4:61.5,59.1
+vene jugulare:0,2,5:60.4,86.1
+Venă femurală:0,2,4:67.4,37

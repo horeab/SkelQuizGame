@@ -1,0 +1,4 @@
+Getrübtes Sehen:Katarakt:1,2,3:
+Rosa oder rote Farbe im Weiß des Auges:Bindehautentzündung:0,2,3:
+starke Augenschmerzen:Glaukom:0,1,3:
+Schlechte Tiefenwahrnehmung und peripheres Sehen:Amblyopie:0,1,2:

@@ -1,0 +1,10 @@
+Was ist eine Krankheit, bei der sich Ihre Leber entzündet?:Hepatitis::
+Was ist eine Krankheit, bei der ein Parasit den Magen-Darm-Trakt des Menschen infiziert?:Magen-und Darmparasiten::
+Was ist eine Krankheit, bei der sich Ihre Bauchspeicheldrüse entzündet?:Pankreatitis::
+Was ist eine Krankheit, die eine Unterbrechung der Magenschleimhaut verursacht?:Magengeschwür::
+Was ist eine Krankheit, bei der sich Ihr Blinddarm entzündet?:Appendizitis::
+Was ist eine Krankheit, bei der sich Ihre Magenschleimhaut entzündet?:Gastritis::
+Welche Krankheit verursacht geschwollene Venen im unteren Rektum?:Hämorrhoiden::
+Was sind harte Ablagerungen aus Mineralien und Salzen?:Nierensteine::
+Was ist eine Vernarbung der Leber, die durch einen langfristigen Leberschaden verursacht wird?:Zirrhose::
+Was ist eine Art von entzündlicher Darmerkrankung?:Morbus Crohn::

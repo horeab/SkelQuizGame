@@ -1,0 +1,5 @@
+Quale malattia provoca dolore e infiammazione a un'articolazione?:Artrite::
+Che cos'è un'interruzione nella continuità di un osso?:Frattura dell'osso::
+Quale malattia indebolisce le ossa, rendendole fragili e con maggiori probabilità di rompersi?:Osteoporosi::
+Quale malattia provoca una curvatura laterale della colonna vertebrale?:Scoliosi::
+Qual è un tipo di artrite che provoca dolore articolare improvviso e grave?:Gotta::

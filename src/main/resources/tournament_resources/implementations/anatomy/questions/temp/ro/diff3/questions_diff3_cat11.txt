@@ -1,0 +1,5 @@
+Culoare albăstruie în piele, unghii și buze:Hipoxemie:1,2,3:
+Tremurări în mâini, față și picioare:Hipocalcemie:0,2,4:
+Urinări mai frecvente și sete:Hipercalcemie:0,1:
+slăbirea oaselor:hipofosfatemie:0,4:
+crampe sau spasme musculare:Hiperfosfatemia:0,1:

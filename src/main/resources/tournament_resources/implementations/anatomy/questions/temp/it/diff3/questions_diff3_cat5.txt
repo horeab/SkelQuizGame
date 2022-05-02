@@ -1,0 +1,5 @@
+Gengive rosse o gonfie:Parodontite:2,3,4:
+Gengive rosse o gonfie:gengivite:2,3,4:
+Mal di denti:Carie:0,4,3:
+problemi di deglutizione:Tonsillite:0,2,4:
+Deformità della mascella superiore:Labbro leporino:0,2,3:

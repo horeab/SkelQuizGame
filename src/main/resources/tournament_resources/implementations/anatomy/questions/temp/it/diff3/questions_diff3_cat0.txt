@@ -1,0 +1,10 @@
+Ingiallimento della pelle e del bianco degli occhi:Epatite:3,4,5:
+Eruzione cutanea o prurito intorno al retto:Parassiti intestinali:2,7,8:
+Dolore addominale da moderato a grave che può diffondersi alla schiena:Pancreatite:1,3,4:
+Forte mal di stomaco:Ulcera gastrica:6,7,8:
+Dolore improvviso che inizia sul lato destro del basso addome:Appendicite:0,3,7:
+Nausea o mal di stomaco ricorrente:Gastrite:4,2,1:
+Prurito estremo intorno all'ano:Emorroidi:0,2,3:
+Dolore o sensazione di bruciore durante la minzione:Calcoli renali:3,9,1:
+Ingiallimento della pelle e del bianco degli occhi:Cirrosi:7,5,4:
+Sangue nelle feci:Morbo di Crohn:2,7,8:

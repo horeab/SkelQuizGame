@@ -1,0 +1,10 @@
+Ce organ produce bila necesară digestiei?:0,7,6,8
+Care este prima porțiune a canalului alimentar care primește hrană și produce saliva?:1,2,6,5
+Prin ce organ trec alimentele din faringe în stomac?:2,6,9,7
+Ce organ este ultima parte a sistemului digestiv?:3,4,7,8
+Unde are loc cea mai mare absorbție de nutrienți și minerale din alimente?:4,5,3,0
+Ce organ secretă enzime digestive și acid gastric pentru a ajuta digestia alimentelor?:5,4,7,3
+Cum se numește partea gâtului din spatele gurii și cavității nazale?:6,2,9,8
+Unde este depozitată și concentrată bila înainte de a fi eliberată în intestinul subțire?:7,6,9,8
+De unde este secretată insulina?:8,0,7,6
+Ce organ este situat în partea dreaptă jos a abdomenului?:9,0,7,2

@@ -1,0 +1,5 @@
+A new lump in the breast or underarm:1,2,3:Breast cancer:1,2,3:
+Blood in the urine:2,3,4:Prostate cancer:2,3,4:
+A change in bowel habits:1,3,4:Colorectal cancer:1,3,4:
+a cough that doesn't go away after 2 or 3 weeks:1,2,4:Lung cancer:1,2,4:
+A mole that changes in color, size or that bleeds:0,1,3:Skin cancer:0,1,3:

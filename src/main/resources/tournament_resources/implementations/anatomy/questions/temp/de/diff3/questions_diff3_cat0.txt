@@ -1,0 +1,10 @@
+Gelbfärbung der Haut und des Augenweiß:Hepatitis:3,4,5:
+Hautausschlag oder Juckreiz um das Rektum herum:Magen-und Darmparasiten:2,7,8:
+Mäßige bis starke Bauchschmerzen, die sich auf den Rücken ausbreiten können:Pankreatitis:1,3,4:
+Starke Bauchschmerzen:Magengeschwür:6,7,8:
+Plötzlicher Schmerz, der auf der rechten Seite des Unterbauchs beginnt:Appendizitis:0,3,7:
+Übelkeit oder wiederkehrende Magenverstimmung:Gastritis:4,2,1:
+Extremer Juckreiz um den Anus:Hämorrhoiden:0,2,3:
+Schmerzen oder Brennen beim Wasserlassen:Nierensteine:3,9,1:
+Gelbfärbung der Haut und des Augenweiß:Zirrhose:7,5,4:
+Blut im Stuhl:Morbus Crohn:2,7,8:

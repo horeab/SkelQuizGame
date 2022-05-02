@@ -1,0 +1,10 @@
+Quale organo produce la bile necessaria per la digestione?:0,7,6,8
+Qual è la prima porzione del canale alimentare che riceve cibo e produce saliva?:1,2,6,5
+Attraverso quale organo il cibo passa dalla faringe allo stomaco?:2,6,9,7
+Quale organo è l'ultima parte dell'apparato digerente?:3,4,7,8
+Dove avviene il maggior assorbimento di nutrienti e minerali dal cibo?:4,5,3,0
+Quale organo secerne gli enzimi digestivi e l'acido gastrico per favorire la digestione del cibo?:5,4,7,3
+Come si chiama la parte della gola dietro la bocca e la cavità nasale?:6,2,9,8
+Dove viene immagazzinata e concentrata la bile prima che venga rilasciata nell'intestino tenue?:7,6,9,8
+Da dove viene secreta l'insulina?:8,0,7,6
+Quale organo si trova nell'addome inferiore destro?:9,0,7,2

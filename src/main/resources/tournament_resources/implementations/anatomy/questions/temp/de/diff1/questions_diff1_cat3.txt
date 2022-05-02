@@ -1,0 +1,6 @@
+Was ist ein Muskelorgan, das Blut durch die Blutgefäße des Kreislaufsystems pumpt?:0,1,3,5
+Was ist die wichtigste und größte Arterie im menschlichen Körper?:1,4,3,2
+Was sind Venen, die die Niere entwässern?:2,5,4,1
+Was sind paarige Arterien, die die Nieren mit Blut versorgen?:3,2,1,5
+Was sind Venen, die sauerstoffarmes Blut vom Kopf zurück zum Herzen transportieren?:4,2,5,1
+Was ist eine große Vene tief im Oberschenkel?:5,2,1,4

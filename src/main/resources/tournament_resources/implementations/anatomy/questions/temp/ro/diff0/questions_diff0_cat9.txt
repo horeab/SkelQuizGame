@@ -1,0 +1,7 @@
+Iris:6,3,4:11.3,57
+cornee:2,6,4:1.7,50.5
+cristalin:1,4,6:19,51.3
+Retină:1,6,4:64.6,76.8
+Nervul optic:0,6,3:87.9,36.2
+Camera anterioară:6,4,3:7.2,51.4
+Umoare vitroasă:1,4,3:49.3,65

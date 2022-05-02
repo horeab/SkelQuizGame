@@ -1,0 +1,5 @@
+Bläuliche Farbe der Haut, Fingernägel und Lippen:Hypoxämie:1,2,3:
+Zucken in Händen, Gesicht und Füßen:Hypokalzämie:0,2,4:
+Häufigeres Wasserlassen und Durst:Hyperkalzämie:0,1:
+Schwächung der Knochen:Hypophosphatämie:0,4:
+Muskelkrämpfe oder Spasmen:Hyperphosphatämie:0,1:

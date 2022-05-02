@@ -1,0 +1,5 @@
+Quelle maladie provoque une faiblesse progressive et une perte de masse musculaire ?:dystrophie musculaire::
+Quelle maladie est causée par le manque d'activité physique?:atrophie musculaire::
+Quelle maladie provoque l'inflammation ou l'irritation d'un tendon ?:tendinite::
+Qu'est-ce qu'une contraction soudaine et involontaire d'un de vos muscles ?:crampes musculaires::
+Que se passe-t-il lorsque votre muscle est trop étiré ou déchiré ?:rupture musculaire::

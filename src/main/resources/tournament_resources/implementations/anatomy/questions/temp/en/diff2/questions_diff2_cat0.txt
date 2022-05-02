@@ -1,0 +1,10 @@
+What is a disease in which your liver becomes inflamed?:Hepatitis::
+What is a disease in which a parasite infects the gastro-intestinal tract of humans?:Intestinal parasites::
+What is a disease in which your pancreas becomes inflamed?:Pancreatitis::
+What is a disease that causes a break in the inner lining of the stomach?:Gastric ulcer::
+What is a disease in which your appendix becomes inflamed?:Appendicitis::
+What is a disease in which your inner lining of the stomach becomes inflamed?:Gastritis::
+What disease causes swollen veins in your lower rectum?:Hemorrhoids::
+What are hard deposits made of minerals and salts?:Kidney stones::
+What is scarring of the liver caused by long-term liver damage?:Cirrhosis::
+What is a type of inflammatory bowel disease?:Crohn's disease::

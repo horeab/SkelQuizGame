@@ -1,0 +1,6 @@
+Cos'è un organo muscolare che pompa il sangue attraverso i vasi sanguigni del sistema circolatorio?:0,1,3,5
+Qual è l'arteria principale e più grande del corpo umano?:1,4,3,2
+Quali sono le vene che drenano il rene?:2,5,4,1
+Quali sono le arterie accoppiate che forniscono sangue ai reni?:3,2,1,5
+Quali sono le vene che portano il sangue deossigenato dalla testa al cuore?:4,2,5,1
+Cos'è una grande vena situata in profondità all'interno della coscia?:5,2,1,4

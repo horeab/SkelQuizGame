@@ -1,0 +1,7 @@
+Was ist der sichtbare Teil des Ohrs, der sich außerhalb des Kopfes befindet?:0,3,6,2
+Was ist ein Weg, der vom Außenohr zum Mittelohr verläuft?:1,2,3,0
+Was ist ein dünner Hautlappen, der wie eine Trommel gespannt ist und vibriert, wenn Schall darauf trifft?:2,0,5,3
+Welche drei Knochen im Mittelohr gehören zu den kleinsten Knochen des menschlichen Körpers?:3,0,6,2
+Was ähnelt dem Gehäuse einer Schnecke?:4,2,0,6
+Was transportiert auditive Sinnesinformationen von der Cochlea des Innenohrs direkt zum Gehirn?:5,2,0,6
+Was wird auch als Gehörgang bezeichnet?:6,1,4,0

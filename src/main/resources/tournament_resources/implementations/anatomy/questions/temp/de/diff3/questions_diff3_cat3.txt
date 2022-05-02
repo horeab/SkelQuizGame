@@ -1,0 +1,4 @@
+Schmerzlose Schwellung der Lymphknoten im Nacken, in den Achselhöhlen oder in der Leistengegend:Lymphom:2,3:
+Geschwollene Lymphknoten, vergrößerte Leber oder Milz:Leukämie:2,3:
+Zittern:Unterkühlung:0,1:
+Taubheit oder Schwäche in Ihren Armen oder Beinen:Atherosklerose:0,1,2:
