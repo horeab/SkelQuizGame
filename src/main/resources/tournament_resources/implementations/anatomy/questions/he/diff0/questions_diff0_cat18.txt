@@ -1,0 +1,6 @@
+0:What is the largest of the four major lobes of the brain?:0##3##1##4:0:
+1:What sits behind the ears and is the second largest lobe?:1##0##3##2:0:
+2:What is involved in the perception of sensation, including touch, temperature, pain?:2##0##3##5:0:
+3:What is the visual processing center of the brain?:3##0##1##4:0:
+4:What plays an important role in balance control?:4##5##0##1:0:
+5:What helps to control heart rate and breathing rate?:5##0##4##3:0:

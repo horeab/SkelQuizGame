@@ -1,0 +1,8 @@
+0:What are muscular folds that encircle the mouth?:0##1##4##7:0:
+1:What is a fleshy extension which hangs above the throat?:1##4##0##7:0:
+2:What are flat teeth at the back of the mouth?:2##3##5##6:0:
+3:What are the front teeth?:3##2##5##6:0:
+4:What is a muscular organ in the mouth?:4##5##6##1:0:
+5:What organs play an important role in the immune system?:5##1##4##0:0:
+6:What is a thin horizontal bony plate made up of two bones of the facial skeleton?:6##7##2##5:0:
+7:What is the soft tissue constituting the back of the roof of the mouth?:7##5##1##0:0:

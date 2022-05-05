@@ -1,4 +1,4 @@
-Trouble running and jumping:2,3,4
+Large calf muscles:2,3,4
 One arm or one leg is smaller than the other:2,3,4
 pain in a tendon that gets worse when you move:1,3,4
 A sudden, sharp pain:1,2

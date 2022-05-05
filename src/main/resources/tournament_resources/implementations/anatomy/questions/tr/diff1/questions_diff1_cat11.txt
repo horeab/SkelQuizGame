@@ -1,0 +1,5 @@
+hipoksemi
+hipokalsemi
+hiperkalsemi
+hipofosfatemi
+hiperfosfatemi

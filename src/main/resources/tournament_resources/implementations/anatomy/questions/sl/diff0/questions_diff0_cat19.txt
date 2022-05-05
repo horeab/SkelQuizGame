@@ -1,0 +1,7 @@
+0:What is the visible part of the ear that is outside the head?:0##3##6##2:0:
+1:What is a pathway running from the outer ear to the middle ear?:1##2##3##0:0:
+2:What is a thin flap of skin that is stretched tight like a drum and vibrates when sound hits it?:2##0##5##3:0:
+3:What are three bones in the middle ear that are among the smallest bones in the human body?:3##0##6##2:0:
+4:What resembles to the shell of a snail?:4##2##0##6:0:
+5:What carries auditory sensory information from the cochlea of the inner ear directly to the brain?:5##2##0##6:0:
+6:What is also known as the auditory tube?:6##1##4##0:0:
