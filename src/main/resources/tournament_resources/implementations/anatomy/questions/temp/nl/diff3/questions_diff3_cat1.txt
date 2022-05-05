@@ -1,0 +1,5 @@
+gewrichtspijn:Artritis:1,2,3:
+onmiddellijke, hevige pijn:Bot fractuur:2,3:
+Hoogteverlies in de loop van de tijd:osteoporose:1,3,4:
+een zichtbaar gebogen ruggengraat:Scoliose:0,1,2:
+rode, glanzende huid over het aangetaste gewricht:Jicht:1,2,3:

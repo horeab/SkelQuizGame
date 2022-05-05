@@ -1,0 +1,8 @@
+Vad är muskelveck som omger munnen?:0,1,4,7
+Vad är en köttig förlängning som hänger ovanför halsen?:1,4,0,7
+Vad är platta tänder på baksidan av munnen?:2,3,5,6
+Vilka är framtänderna?:3,2,5,6
+Vad är ett muskelorgan i munnen?:4,5,6,1
+Vilka organ spelar en viktig roll i immunförsvaret?:5,1,4,0
+Vad är en tunn horisontell benplatta som består av två ben i ansiktsskelettet?:6,7,2,5
+Vad är den mjuka vävnaden som utgör baksidan av muntaket?:7,5,1,0

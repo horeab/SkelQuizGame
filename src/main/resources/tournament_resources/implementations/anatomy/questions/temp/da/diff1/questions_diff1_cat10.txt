@@ -1,0 +1,7 @@
+Hvad findes i midten af ​​cellen, og det indeholder DNA arrangeret i kromosomer?:0,1,2,3
+Hvilken region i cellen er optaget af at producere celle ribosomer?:1,2,3,4
+Hvad er en gelatinøs væske, der fylder indersiden af ​​en celle?:2,3,4,5
+Hvad beskytter cellen mod dens ydre miljø?:3,4,2,1
+Hvad er en cellestruktur, der producerer protein?:4,3,2,1
+Hvad omdanner kemisk energi til en energiform, som cellen kan bruge?:5,4,3,2
+Hvad er transportsystemet for den eukaryote celle?:6,5,0,1

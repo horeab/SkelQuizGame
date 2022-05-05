@@ -1,0 +1,4 @@
+Grumlad syn:Grå starr:1,2,3:
+Rosa eller röd färg i ögonvitan:Konjunktivit:0,2,3:
+intensiv ögonsmärta:Glaukom:0,1,3:
+Dålig djupuppfattning och perifert seende:Amblyopi:0,1,2:

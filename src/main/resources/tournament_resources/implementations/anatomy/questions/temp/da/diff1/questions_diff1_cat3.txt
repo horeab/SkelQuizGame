@@ -1,0 +1,6 @@
+Hvad er et muskelorgan, der pumper blod gennem blodkarrene i kredsløbet?:0,1,3,5
+Hvad er den vigtigste og største arterie i menneskekroppen?:1,4,3,2
+Hvad er vener, der dræner nyren?:2,5,4,1
+Hvad er parrede arterier, der forsyner nyrerne med blod?:3,2,1,5
+Hvad er vener, der fører iltfattigt blod fra hovedet tilbage til hjertet?:4,2,5,1
+Hvad er en stor vene placeret dybt inde i låret?:5,2,1,4

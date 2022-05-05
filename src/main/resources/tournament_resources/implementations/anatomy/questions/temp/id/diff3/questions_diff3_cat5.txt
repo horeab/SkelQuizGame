@@ -1,0 +1,5 @@
+Gusi merah atau bengkak:Penyakit periodontal:2,3,4:
+Gusi merah atau bengkak:radang gusi:2,3,4:
+Sakit gigi:Kerusakan gigi:0,4,3:
+masalah menelan:Radang amandel:0,2,4:
+Deformitas rahang atas:Bibir sumbing:0,2,3:

@@ -1,0 +1,10 @@
+Vilket organ producerar galla som behövs för matsmältningen?:0,7,6,8
+Vilken är den första delen av matsmältningskanalen som tar emot mat och producerar saliv?:1,2,6,5
+Genom vilket organ passerar mat från svalget till magen?:2,6,9,7
+Vilket organ är den sista delen av matsmältningssystemet?:3,4,7,8
+Var sker mest upptag av näringsämnen och mineraler från maten?:4,5,3,0
+Vilket organ utsöndrar matsmältningsenzymer och magsyra för att hjälpa matsmältningen?:5,4,7,3
+Vad heter delen av halsen bakom munnen och näshålan?:6,2,9,8
+Var lagras och koncentreras gallan innan den släpps ut i tunntarmen?:7,6,9,8
+Var utsöndras insulin ifrån?:8,0,7,6
+Vilket organ finns i nedre högra buken?:9,0,7,2

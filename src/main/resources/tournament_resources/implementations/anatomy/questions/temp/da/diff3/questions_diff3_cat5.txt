@@ -1,0 +1,5 @@
+Rødt eller hævet tandkød:Paradentose:2,3,4:
+Rødt eller hævet tandkød:tandkødsbetændelse:2,3,4:
+Tandpine:Huller i tænderne:0,4,3:
+problemer med at synke:Halsbetændelse:0,2,4:
+Deformiteter af overkæben:Læbespalte:0,2,3:

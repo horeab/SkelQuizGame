@@ -1,0 +1,6 @@
+O que é um órgão muscular que bombeia o sangue através dos vasos sanguíneos do sistema circulatório?:0,1,3,5
+Qual é a principal e a maior artéria do corpo humano?:1,4,3,2
+Quais são as veias que drenam o rim?:2,5,4,1
+Quais são as artérias pareadas que fornecem sangue aos rins?:3,2,1,5
+Quais são as veias que levam sangue desoxigenado da cabeça de volta ao coração?:4,2,5,1
+O que é uma grande veia localizada profundamente na coxa?:5,2,1,4

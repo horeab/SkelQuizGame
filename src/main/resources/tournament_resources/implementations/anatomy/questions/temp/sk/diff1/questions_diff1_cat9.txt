@@ -1,0 +1,7 @@
+Čo je tenká štruktúra oka, ktorá je zodpovedná za kontrolu priemeru a veľkosti zrenice?:0,1,3,2
+Čo je priehľadná predná časť oka, ktorá pokrýva dúhovku?:1,2,3,0
+Čo je priehľadná štruktúra v oku, ktorá pomáha lámať svetlo, aby sa zameralo na sietnicu?:2,3,0,1
+Čo je najvnútornejšia, na svetlo citlivá vrstva tkaniva oka?:3,1,0,2
+Čo prenáša vizuálne informácie zo sietnice do mozgu?:4,6,5,3
+Čo je predná časť oka medzi rohovkou a dúhovkou?:5,6,2,3
+Ktorá očná komora sa nachádza za šošovkou a pred zrakovým nervom?:6,5,3,0

@@ -1,0 +1,5 @@
+Rött eller svullet tandkött:Parodontit:2,3,4:
+Rött eller svullet tandkött:gingivit:2,3,4:
+Tandvärk:Karies:0,4,3:
+problem med att svälja:Halsfluss:0,2,4:
+Missbildningar i överkäken:Kluven läpp:0,2,3:

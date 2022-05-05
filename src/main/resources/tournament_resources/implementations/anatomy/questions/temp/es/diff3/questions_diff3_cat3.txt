@@ -1,0 +1,4 @@
+Inflamación indolora de los ganglios linfáticos en el cuello, las axilas o la ingle:linfoma:2,3:
+Ganglios linfáticos inflamados, hígado o bazo agrandados:Leucemia:2,3:
+temblando:Hipotermia:0,1:
+Entumecimiento o debilidad en los brazos o las piernas:aterosclerosis:0,1,2:

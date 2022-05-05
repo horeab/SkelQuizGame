@@ -1,0 +1,5 @@
+Nová bulka v prsu nebo v podpaží:Rakovina prsu:1,2,3:
+Krev v moči:Rakovina prostaty:2,3,4:
+Změna ve vyprazdňování:Kolorektální rakovina:1,3,4:
+kašel, který po 2 nebo 3 týdnech neustupuje:Rakovina plic:1,2,4:
+znaménko, který mění barvu, velikost nebo krvácí:Rakovina kůže:0,1,3:

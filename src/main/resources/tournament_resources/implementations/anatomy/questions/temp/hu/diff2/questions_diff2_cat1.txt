@@ -1,0 +1,5 @@
+Milyen betegség okoz fájdalmat és gyulladást az ízületekben?:Ízületi gyulladás::
+Mit jelent a csont folytonosságának megszakadása?:Csonttörés::
+Milyen betegség gyengíti a csontokat, ami törékennyé és nagyobb valószínűséggel törik el?:Csontritkulás::
+Milyen betegség okozza a gerinc oldalirányú görbületét?:Gerincferdülés::
+Milyen típusú ízületi gyulladás okoz hirtelen, súlyos ízületi fájdalmat?:Köszvény::

@@ -1,0 +1,12 @@
+Kallo:11,8,6:48,97
+lapaluun:5,4,3:61.1,80.2
+kylkiluut:11,7,0:56,74.1
+Selkäranka:8,10,1:45.9,65.2
+Sääriluu:5,9,3:51.4,23.6
+Reisi:4,10,7:54.9,35.5
+Olkaluu:2,7,9:69.1,66.2
+Metakarpaaliset luut:6,0,1:81.3,44.8
+Karpaalihakset:5,4,2:77.1,48.7
+Nilkkaluu:4,3,1:49.3,6.9
+Metatarsaaliset luut:0,3,5:54.2,2.8
+Lantio:0,6,9:59,58.3

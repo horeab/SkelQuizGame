@@ -1,0 +1,5 @@
+Nướu đỏ hoặc sưng:Viêm nha chu:2,3,4:
+Nướu đỏ hoặc sưng:viêm lợi:2,3,4:
+Bệnh đau răng:Sâu răng:0,4,3:
+vấn đề nuốt:Viêm amiđan:0,2,4:
+Dị tật của hàm trên:Sứt môi:0,2,3:

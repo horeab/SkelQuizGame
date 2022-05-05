@@ -1,0 +1,5 @@
+nyeri sendi:Radang sendi:1,2,3:
+sakit parah segera:Patah tulang:2,3:
+Kehilangan tinggi badan dari waktu ke waktu:Osteoporosis:1,3,4:
+tulang belakang yang terlihat melengkung:Skoliosis:0,1,2:
+merah, kulit mengkilap di atas sendi yang terkena:Encok:1,2,3:

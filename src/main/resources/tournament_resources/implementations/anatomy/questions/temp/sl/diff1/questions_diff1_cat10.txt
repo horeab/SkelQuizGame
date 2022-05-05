@@ -1,0 +1,7 @@
+Kaj se nahaja v sredini celice in vsebuje DNK, razporejeno po kromosomih?:0,1,2,3
+Katera regija v celici se ukvarja s proizvodnjo celičnih ribosomov?:1,2,3,4
+Kaj je želatinasta tekočina, ki napolni notranjost celice?:2,3,4,5
+Kaj ščiti celico pred zunanjim okoljem?:3,4,2,1
+Kakšna je celična struktura, ki proizvaja beljakovine?:4,3,2,1
+Kaj pretvori kemično energijo v obliko energije, ki jo lahko celica uporabi?:5,4,3,2
+Kakšen je transportni sistem evkariontske celice?:6,5,0,1

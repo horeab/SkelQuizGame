@@ -1,0 +1,12 @@
+Jaka jest struktura kości, która tworzy głowę?:0,1,9,7
+Co jest znane również jako kość barku?:1,9,11,6
+Czym jest półsztywna struktura kostno-chrzęstna otaczająca klatkę piersiową?:2,7,8,11
+Jaka jest charakterystyczna cecha kręgowca?:3,0,11,2
+Jaka jest większa z dwóch kości w nodze poniżej kolana?:4,6,9,5
+Jaka jest najdłuższa i najsilniejsza kość w twoim ciele?:5,6,9,1
+Czym jest długa kość w ramieniu, która biegnie od barku do łokcia?:6,5,1,7
+Czym jest grupa pięciu kości dłoni między palikami a nadgarstkiem?:7,5,1,3
+Jakie kości tworzą nadgarstek?:8,7,9,10
+Czym jest skupisko siedmiu przegubowych kości w każdej stopie?:9,7,8,1
+Czym jest grupa pięciu długich kości w stopie?:10,8,7,4
+Jaka jest dolna część tułowia?:11,6,3,2

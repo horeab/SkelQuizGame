@@ -1,0 +1,12 @@
+Vad är en benstruktur som bildar huvudet?:0,1,9,7
+Vad kallas även skulderbenet?:1,9,11,6
+Vad är en halvstyv ben- och broskstruktur som omger brösthålan?:2,7,8,11
+Vad är kännetecknet för ett ryggradsdjur?:3,0,11,2
+Vilket är det största av de två benen i benet under knät?:4,6,9,5
+Vilket är det längsta och starkaste benet i din kropp?:5,6,9,1
+Vad är ett långt ben i armen som löper från axeln till armbågen?:6,5,1,7
+Vad är en grupp av fem handben mellan falangerna och handleden?:7,5,1,3
+Vilka ben utgör handleden?:8,7,9,10
+Vad är ett kluster av sju artikulerande ben i varje fot?:9,7,8,1
+Vad är en grupp med fem långa ben i foten?:10,8,7,4
+Vad är den nedre delen av bålen?:11,6,3,2

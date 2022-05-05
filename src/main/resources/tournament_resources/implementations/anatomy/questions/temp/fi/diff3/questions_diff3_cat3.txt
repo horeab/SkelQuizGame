@@ -1,0 +1,4 @@
+Kivuton imusolmukkeiden turvotus niskassa, kainaloissa tai nivusissa:Lymfooma:2,3:
+Turvonneet imusolmukkeet, suurentunut maksa tai perna:Leukemia:2,3:
+Vapina:Hypotermia:0,1:
+Tunnottomuus tai heikkous käsissäsi tai jaloissasi:Ateroskleroosi:0,1,2:

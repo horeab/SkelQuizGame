@@ -1,0 +1,10 @@
+Gulfarvning af huden og det hvide i dine øjne:Hepatitis:3,4,5:
+Udslæt eller kløe omkring endetarmen:Tarmparasitter:2,7,8:
+Moderate til svære mavesmerter, der kan sprede sig til din ryg:Pancreatitis:1,3,4:
+Kraftige mavesmerter:Mavesår:6,7,8:
+Pludselig smerte, der begynder på højre side af underlivet:Blindtarmsbetændelse:0,3,7:
+Kvalme eller tilbagevendende dårlig mave:Gastritis:4,2,1:
+Ekstrem kløe omkring anus:Hæmorider:0,2,3:
+Smerte eller brændende fornemmelse under vandladning:Nyresten:3,9,1:
+Gulfarvning af huden og det hvide i dine øjne:Cirrhose:7,5,4:
+Blod i afføringen:Crohns sygdom:2,7,8:

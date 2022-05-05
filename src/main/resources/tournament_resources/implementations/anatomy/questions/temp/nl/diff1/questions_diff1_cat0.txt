@@ -1,0 +1,10 @@
+Welk orgaan produceert gal die nodig is voor de spijsvertering?:0,7,6,8
+Wat is het eerste deel van het spijsverteringskanaal dat voedsel ontvangt en speeksel produceert?:1,2,6,5
+Door welk orgaan gaat voedsel van de keelholte naar de maag?:2,6,9,7
+Welk orgaan is het laatste deel van het spijsverteringsstelsel?:3,4,7,8
+Waar vindt de meeste opname van voedingsstoffen en mineralen uit voedsel plaats?:4,5,3,0
+Welk orgaan scheidt spijsverteringsenzymen en maagzuur af om te helpen bij de vertering van voedsel?:5,4,7,3
+Hoe heet het deel van de keel achter de mond en de neusholte?:6,2,9,8
+Waar wordt gal opgeslagen en geconcentreerd voordat het in de dunne darm wordt afgegeven?:7,6,9,8
+Waar wordt insuline uitgescheiden?:8,0,7,6
+Welk orgaan bevindt zich in de rechter onderbuik?:9,0,7,2

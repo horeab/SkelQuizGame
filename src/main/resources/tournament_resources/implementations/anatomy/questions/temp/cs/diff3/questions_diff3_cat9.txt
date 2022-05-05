@@ -1,0 +1,4 @@
+Zakalené vidění:Šedý zákal:1,2,3:
+Růžová nebo červená barva v očním bělmu:Zánět spojivek:0,2,3:
+intenzivní bolest očí:Glaukom:0,1,3:
+Špatné vnímání hloubky a periferní vidění:Amblyopie:0,1,2:

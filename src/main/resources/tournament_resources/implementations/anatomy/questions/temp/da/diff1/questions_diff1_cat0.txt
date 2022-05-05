@@ -1,0 +1,10 @@
+Hvilket organ producerer galde, der er nødvendigt for fordøjelsen?:0,7,6,8
+Hvad er den første del af fordøjelseskanalen, der modtager mad og producerer spyt?:1,2,6,5
+Gennem hvilket organføde passerer fra svælget til maven?:2,6,9,7
+Hvilket organ er den sidste del af fordøjelsessystemet?:3,4,7,8
+Hvor sker den største optagelse af næringsstoffer og mineraler fra maden?:4,5,3,0
+Hvilket organ udskiller fordøjelsesenzymer og mavesyre for at hjælpe med madfordøjelsen?:5,4,7,3
+Hvad hedder den del af halsen bag munden og næsehulen?:6,2,9,8
+Hvor opbevares og koncentreres galden, før den frigives til tyndtarmen?:7,6,9,8
+Hvor udskilles insulin fra?:8,0,7,6
+Hvilket organ er placeret nederst til højre i maven?:9,0,7,2

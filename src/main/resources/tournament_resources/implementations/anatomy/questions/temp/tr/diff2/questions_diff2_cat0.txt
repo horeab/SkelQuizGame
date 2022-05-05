@@ -1,0 +1,10 @@
+Karaciğerinizin iltihaplandığı bir hastalık nedir?:Hepatit::
+Bir parazitin insanların mide-bağırsak sistemini enfekte ettiği bir hastalık nedir?:Bağırsak parazitleri::
+Pankreasın iltihaplandığı bir hastalık nedir?:pankreatit::
+Midenin iç zarının yırtılmasına neden olan hastalık nedir?:Mide ülseri::
+Apandisinizin iltihaplandığı bir hastalık nedir?:Apandisit::
+Midenizin iç zarının iltihaplandığı bir hastalık nedir?:Gastrit::
+Alt rektumda damarların şişmesine hangi hastalık neden olur?:Hemoroid::
+Mineraller ve tuzlardan oluşan sert tortular nelerdir?:Böbrek taşı::
+Uzun süreli karaciğer hasarının neden olduğu karaciğer skarı nedir?:Siroz::
+Bir tür inflamatuar bağırsak hastalığı nedir?:Crohn hastalığı::

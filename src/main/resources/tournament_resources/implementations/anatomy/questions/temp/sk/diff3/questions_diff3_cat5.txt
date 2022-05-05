@@ -1,0 +1,5 @@
+Červené alebo opuchnuté ďasná:Paradentóza:2,3,4:
+Červené alebo opuchnuté ďasná:zápal ďasien:2,3,4:
+Bolesť zubov:Zubný kaz:0,4,3:
+problémy s prehĺtaním:Tonzilitída:0,2,4:
+Deformácie hornej čeľuste:Rázštep pery:0,2,3:

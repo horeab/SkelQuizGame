@@ -1,0 +1,7 @@
+Vilken är den synliga delen av örat som är utanför huvudet?:0,3,6,2
+Vad är en väg som går från ytterörat till mellanörat?:1,2,3,0
+Vad är en tunn hudflik som sträcks hårt som en trumma och vibrerar när ljudet träffar den?:2,0,5,3
+Vilka är tre ben i mellanörat som är bland de minsta benen i människokroppen?:3,0,6,2
+Vad liknar skalet på en snigel?:4,2,0,6
+Vad bär auditiv sensorisk information från snäckan i innerörat direkt till hjärnan?:5,2,0,6
+Vad är också känt som hörselröret?:6,1,4,0

@@ -1,0 +1,6 @@
+Melyik a legnagyobb az agy négy fő lebenye közül?:0,3,1,4
+Mi ül a fülek mögött, és a második legnagyobb lebeny?:1,0,3,2
+Mi vesz részt az érzékelés észlelésében, beleértve az érintést, a hőmérsékletet, a fájdalmat?:2,0,3,5
+Mi az agy vizuális feldolgozó központja?:3,0,1,4
+Mi játszik fontos szerepet az egyensúlyszabályozásban?:4,5,0,1
+Mi segít a pulzusszám és a légzés szabályozásában?:5,0,4,3

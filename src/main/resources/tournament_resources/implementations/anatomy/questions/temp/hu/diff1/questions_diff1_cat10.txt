@@ -1,0 +1,7 @@
+Mi található a sejt közepén, és kromoszómákba rendezett DNS-t tartalmaz?:0,1,2,3
+A sejten belül melyik régió foglalkozik a sejt riboszómák termelésével?:1,2,3,4
+Mi az a kocsonyás folyadék, amely kitölti a sejt belsejét?:2,3,4,5
+Mi védi a sejtet a külső környezettől?:3,4,2,1
+Mi az a sejtszerkezet, amely fehérjét termel?:4,3,2,1
+Mi alakítja át a kémiai energiát olyan energiaformává, amelyet a sejt felhasználhat?:5,4,3,2
+Mi az eukarióta sejt szállítási rendszere?:6,5,0,1

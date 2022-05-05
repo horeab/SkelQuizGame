@@ -1,0 +1,5 @@
+bolečine v sklepih:Artritis:1,2,3:
+takojšnja, huda bolečina:Zlom kosti:2,3:
+Izguba višine skozi čas:Osteoporoza:1,3,4:
+vidno ukrivljeno hrbtenico:skolioza:0,1,2:
+rdeča, sijoča ​​koža nad prizadetim sklepom:Protin:1,2,3:

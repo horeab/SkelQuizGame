@@ -1,0 +1,6 @@
+Beyin:5,4,3:50.4,96.8
+Beyincik:5,4,3:56,92.6
+Omurilik:0,4,3:50.7,86.8
+Siyatik sinir:0,4,5:59.4,37.6
+Tibial sinir:1,5,3:61.1,19.4
+Gangliyon:4,3,1:49,70

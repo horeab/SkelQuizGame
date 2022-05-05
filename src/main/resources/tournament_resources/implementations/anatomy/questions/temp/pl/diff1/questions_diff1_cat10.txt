@@ -1,0 +1,7 @@
+Co znajduje się w środku komórki i zawiera DNA ułożone w chromosomach?:0,1,2,3
+Jaki region w komórce zajmuje się wytwarzaniem rybosomów komórkowych?:1,2,3,4
+Czym jest galaretowata ciecz, która wypełnia wnętrze komórki?:2,3,4,5
+Co chroni komórkę przed środowiskiem zewnętrznym?:3,4,2,1
+Jaka jest struktura komórki, która produkuje białko?:4,3,2,1
+Co zamienia energię chemiczną w formę energii, którą może wykorzystać komórka?:5,4,3,2
+Jaki jest system transportu komórki eukariotycznej?:6,5,0,1

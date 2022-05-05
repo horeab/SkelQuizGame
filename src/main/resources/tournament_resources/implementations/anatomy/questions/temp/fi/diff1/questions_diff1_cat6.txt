@@ -1,0 +1,6 @@
+Mikä on suurin aivojen neljästä suuresta lohkosta?:0,3,1,4
+Mikä istuu korvien takana ja on toiseksi suurin lohko?:1,0,3,2
+Mitä aistihavaintoon liittyy, mukaan lukien kosketus, lämpötila, kipu?:2,0,3,5
+Mikä on aivojen visuaalinen käsittelykeskus?:3,0,1,4
+Mikä on tärkeä rooli tasapainonhallinnassa?:4,5,0,1
+Mikä auttaa hallitsemaan sykettä ja hengitystiheyttä?:5,0,4,3

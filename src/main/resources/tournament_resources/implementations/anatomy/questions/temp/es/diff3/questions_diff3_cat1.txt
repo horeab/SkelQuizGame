@@ -1,0 +1,5 @@
+dolor en las articulaciones:Artritis:1,2,3:
+dolor intenso e inmediato:Fractura de hueso:2,3:
+Pérdida de altura con el tiempo.:Osteoporosis:1,3,4:
+una columna vertebral visiblemente curvada:Escoliosis:0,1,2:
+piel roja y brillante sobre la articulación afectada:Gota:1,2,3:

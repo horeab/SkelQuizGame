@@ -1,0 +1,7 @@
+Što se nalazi u sredini stanice i sadrži DNK raspoređenu u kromosome?:0,1,2,3
+Koja se regija unutar stanice bavi proizvodnjom staničnih ribosoma?:1,2,3,4
+Što je želatinasta tekućina koja ispunjava unutrašnjost stanice?:2,3,4,5
+Što štiti stanicu od vanjskog okruženja?:3,4,2,1
+Koja je stanična struktura koja proizvodi protein?:4,3,2,1
+Što pretvara kemijsku energiju u oblik energije koji stanica može koristiti?:5,4,3,2
+Koji je transportni sustav eukariotske stanice?:6,5,0,1

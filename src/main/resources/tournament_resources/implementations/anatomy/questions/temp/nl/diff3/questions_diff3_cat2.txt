@@ -1,0 +1,5 @@
+Grote kuitspieren:spierdystrofie:2,3,4:
+Een arm of een been is kleiner dan de andere:spieratrofie:2,3,4:
+pijn in een pees die erger wordt als je beweegt:tendinitis:1,3,4:
+Een plotselinge, scherpe pijn:spierkrampen:1,2:
+plotselinge pijn die verergert tijdens het samentrekken van de spier:spierruptuur:1,2:

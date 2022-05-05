@@ -1,0 +1,5 @@
+Plutselig høy feber, sterk hodepine som virker annerledes enn normalt:Meningitt:1,2,3:
+blindhet i det ene øyet:Multippel sklerose:0,3,4:
+Tremor i hendene:Parkinsons sykdom:0,3,4:
+bevegelses-tics:Tourettes syndrom:0,1,4:
+konsentrasjonsvansker og hukommelsessvikt:Huntingtons sykdom:0,1,2:

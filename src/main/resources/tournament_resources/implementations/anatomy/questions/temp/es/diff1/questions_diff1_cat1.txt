@@ -1,0 +1,12 @@
+¿Qué es una estructura ósea que forma la cabeza?:0,1,9,7
+¿Qué se conoce también como el hueso del hombro?:1,9,11,6
+¿Qué es una estructura ósea y cartilaginosa semirrígida que rodea la cavidad torácica?:2,7,8,11
+¿Cuál es la característica que define a un vertebrado?:3,0,11,2
+¿Cuál es el mayor de los dos huesos de la pierna debajo de la rodilla?:4,6,9,5
+¿Cuál es el hueso más largo y fuerte de tu cuerpo?:5,6,9,1
+¿Qué es un hueso largo en el brazo que va desde el hombro hasta el codo?:6,5,1,7
+¿Qué es un grupo de cinco huesos de la mano entre las falanges y la muñeca?:7,5,1,3
+¿Qué huesos forman la muñeca?:8,7,9,10
+¿Qué es un grupo de siete huesos articulados en cada pie?:9,7,8,1
+¿Qué es un grupo de cinco huesos largos en el pie?:10,8,7,4
+¿Cuál es la parte inferior del torso?:11,6,3,2

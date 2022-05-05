@@ -1,0 +1,5 @@
+Een nieuwe knobbel in de borst of onderarm:Borstkanker:1,2,3:
+Bloed in de urine:Prostaatkanker:2,3,4:
+Een verandering in stoelgang:Colorectale kanker:1,3,4:
+een hoest die niet weggaat na 2 of 3 weken:longkanker:1,2,4:
+Een moedervlek die van kleur, grootte verandert of gaat bloeden:Huidkanker:0,1,3:

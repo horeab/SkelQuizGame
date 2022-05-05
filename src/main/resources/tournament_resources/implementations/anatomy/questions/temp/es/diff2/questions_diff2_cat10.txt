@@ -1,0 +1,5 @@
+¿Qué tipo de cáncer puede incluir un bulto en el seno o un cambio en la forma del seno?:Cáncer de mama::
+¿Cuál es el tipo de cáncer más común que afecta solo a los hombres?:Cancer de prostata::
+¿Qué es un tipo de cáncer en el que las células del colon o del recto crecen sin control?:Cáncer colonrectal::
+¿Qué tipo de cáncer es causado por fumar tabaco a largo plazo?:Cáncer de pulmón::
+¿Qué tipo de cáncer es causado por la sobreexposición a los rayos ultravioleta del sol?:Cáncer de piel::

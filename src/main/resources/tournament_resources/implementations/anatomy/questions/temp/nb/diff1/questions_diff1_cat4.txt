@@ -1,0 +1,6 @@
+Hva er et organ som fungerer som sentrum av nervesystemet?:0,1,2,5
+Hva er et hovedtrekk ved bakhjernen til alle virveldyr?:1,5,0,2
+Hva er en lang, tynn, rørformet struktur som består av nervevev?:2,1,3,4
+Hva er en stor nerve som går langs hofteleddet?:3,2,1,5
+Hva er en gren av isjiasnerven?:4,5,2,1
+Hva er en gruppe nevroncellelegemer i det perifere nervesystemet?:5,1,0,2

@@ -1,0 +1,5 @@
+Gengivas vermelhas ou inchadas:Periodontite:2,3,4:
+Gengivas vermelhas ou inchadas:gengivite:2,3,4:
+Dor de dente:Cárie dentária:0,4,3:
+problemas para engolir:Amidalite:0,2,4:
+Deformidades do maxilar superior:Lábio leporino:0,2,3:

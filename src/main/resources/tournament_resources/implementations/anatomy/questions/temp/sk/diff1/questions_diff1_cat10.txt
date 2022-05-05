@@ -1,0 +1,7 @@
+Čo sa nachádza v strede bunky a obsahuje DNA usporiadanú do chromozómov?:0,1,2,3
+Ktorá oblasť v bunke sa zaoberá produkciou bunkových ribozómov?:1,2,3,4
+Čo je to želatínová kvapalina, ktorá vypĺňa vnútro bunky?:2,3,4,5
+Čo chráni bunku pred vonkajším prostredím?:3,4,2,1
+Čo je bunková štruktúra, ktorá produkuje proteín?:4,3,2,1
+Čo premieňa chemickú energiu na energetickú formu, ktorú môže bunka využiť?:5,4,3,2
+Aký je transportný systém eukaryotickej bunky?:6,5,0,1

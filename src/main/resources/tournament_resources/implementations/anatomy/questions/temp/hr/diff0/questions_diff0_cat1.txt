@@ -1,0 +1,12 @@
+Lubanja:11,8,6:48,97
+lopatica:5,4,3:61.1,80.2
+Rebra:11,7,0:56,74.1
+Kralježnica:8,10,1:45.9,65.2
+Goljenična kost:5,9,3:51.4,23.6
+Bedrena kost:4,10,7:54.9,35.5
+rame:2,7,9:69.1,66.2
+Metakarpalne kosti:6,0,1:81.3,44.8
+Karpalne kosti:5,4,2:77.1,48.7
+Kosti nožja:4,3,1:49.3,6.9
+Kosti donožja:0,3,5:54.2,2.8
+zdjelice:0,6,9:59,58.3

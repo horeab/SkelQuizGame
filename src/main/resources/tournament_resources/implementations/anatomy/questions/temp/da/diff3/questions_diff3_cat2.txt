@@ -1,0 +1,5 @@
+Store lægmuskler:muskeldystrofi:2,3,4:
+Den ene arm eller et ben er mindre end den anden:muskelatrofi:2,3,4:
+smerter i en sene, der bliver værre, når du bevæger dig:senebetændelse:1,3,4:
+En pludselig, skarp smerte:muskelkramper:1,2:
+pludselige smerter, der forværres, mens musklen trækkes sammen:muskelsprængning:1,2:

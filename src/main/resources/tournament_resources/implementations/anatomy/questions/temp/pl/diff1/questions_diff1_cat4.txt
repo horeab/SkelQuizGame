@@ -1,0 +1,6 @@
+Czym jest narząd, który służy jako centrum układu nerwowego?:0,1,2,5
+Jaka jest główna cecha tyłomózgowia wszystkich kręgowców?:1,5,0,2
+Czym jest długa, cienka, rurkowata struktura zbudowana z tkanki nerwowej?:2,1,3,4
+Czym jest duży nerw biegnący wzdłuż stawu biodrowego?:3,2,1,5
+Co to jest gałąź nerwu kulszowego?:4,5,2,1
+Jaka jest grupa ciał komórek neuronowych w obwodowym układzie nerwowym?:5,1,0,2

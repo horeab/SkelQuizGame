@@ -1,0 +1,4 @@
+Smertefri hevelse av lymfeknuter i nakken, armhulene eller lysken:Lymfom:2,3:
+Hovne lymfeknuter, forstørret lever eller milt:Leukemi:2,3:
+Skjelver:Hypotermi:0,1:
+Nummenhet eller svakhet i armer eller ben:Aterosklerose:0,1,2:

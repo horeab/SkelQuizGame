@@ -1,0 +1,6 @@
+Sinir sisteminin merkezi olarak görev yapan organ nedir?:0,1,2,5
+Tüm omurgalıların arka beyinlerinin ana özelliği nedir?:1,5,0,2
+Sinir dokusundan oluşan uzun, ince, boru şeklinde bir yapı nedir?:2,1,3,4
+Kalça eklemi boyunca uzanan büyük bir sinir nedir?:3,2,1,5
+Siyatik sinirin bir dalı nedir?:4,5,2,1
+Periferik sinir sistemindeki bir grup nöron hücre gövdesi nedir?:5,1,0,2

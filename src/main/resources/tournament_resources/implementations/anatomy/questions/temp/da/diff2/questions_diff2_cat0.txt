@@ -1,0 +1,10 @@
+Hvad er en sygdom, hvor din lever bliver betændt?:Hepatitis::
+Hvad er en sygdom, hvor en parasit inficerer mave-tarmkanalen hos mennesker?:Tarmparasitter::
+Hvad er en sygdom, hvor din bugspytkirtel bliver betændt?:Pancreatitis::
+Hvad er en sygdom, der forårsager et brud i mavens indre slimhinde?:Mavesår::
+Hvad er en sygdom, hvor din blindtarm bliver betændt?:Blindtarmsbetændelse::
+Hvad er en sygdom, hvor din indre slimhinde i maven bliver betændt?:Gastritis::
+Hvilken sygdom forårsager hævede vener i din nedre endetarm?:Hæmorider::
+Hvad er hårde aflejringer lavet af mineraler og salte?:Nyresten::
+Hvad er ardannelse i leveren forårsaget af langvarig leverskade?:Cirrhose::
+Hvad er en type inflammatorisk tarmsygdom?:Crohns sygdom::

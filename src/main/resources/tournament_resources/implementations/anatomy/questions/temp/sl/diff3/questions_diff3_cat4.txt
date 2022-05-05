@@ -1,0 +1,5 @@
+Nenadna visoka vročina, hud glavobol, ki se zdi drugačen od običajnega:Meningitis:1,2,3:
+slepota na eno oko:Multipla skleroza:0,3,4:
+Tremor v rokah:Parkinsonova bolezen:0,3,4:
+gibalni tiki:Tourettov sindrom:0,1,4:
+težave s koncentracijo in izpadi spomina:Huntingtonova bolezen:0,1,2:

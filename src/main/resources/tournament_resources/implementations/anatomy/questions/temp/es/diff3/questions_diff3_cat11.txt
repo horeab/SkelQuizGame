@@ -1,0 +1,5 @@
+Color azulado en piel, uñas y labios.:hipoxemia:1,2,3:
+Espasmos en las manos, la cara y los pies:Hipocalcemia:0,2,4:
+Micción más frecuente y sed.:hipercalcemia:0,1:
+debilitamiento de los huesos:hipofosfatemia:0,4:
+calambres o espasmos musculares:hiperfosfatemia:0,1:

@@ -1,0 +1,4 @@
+vloeistof die uit het oor loopt:Otitis:1,2,3:
+Gehoorverlies:Doofheid:0,2,3:
+een rinkelend geluid in de oren:Tinnitus:0,1,3:
+hoogtevrees:de ziekte van Menière:0,1,2:

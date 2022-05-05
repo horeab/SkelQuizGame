@@ -1,0 +1,12 @@
+Čo je to kostná štruktúra, ktorá tvorí hlavu?:0,1,9,7
+Čo je známe aj ako ramenná kosť?:1,9,11,6
+Čo je to polotuhá kostná a chrupavková štruktúra, ktorá obklopuje hrudnú dutinu?:2,7,8,11
+Aká je charakteristická vlastnosť stavovca?:3,0,11,2
+Aká je väčšia z dvoch kostí na nohe pod kolenom?:4,6,9,5
+Aká je najdlhšia a najsilnejšia kosť vo vašom tele?:5,6,9,1
+Čo je to dlhá kosť v paži, ktorá sa tiahne od ramena k lakťu?:6,5,1,7
+Čo je to skupina piatich kostí ruky medzi falangami a zápästím?:7,5,1,3
+Aké kosti tvoria zápästie?:8,7,9,10
+Čo je to zhluk siedmich kĺbových kostí na každom chodidle?:9,7,8,1
+Čo je to skupina piatich dlhých kostí na chodidle?:10,8,7,4
+Čo je spodná časť trupu?:11,6,3,2

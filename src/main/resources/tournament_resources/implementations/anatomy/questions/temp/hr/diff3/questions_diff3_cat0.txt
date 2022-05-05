@@ -1,0 +1,10 @@
+Žutilo kože i bjeloočnica:Hepatitis:3,4,5:
+Osip ili svrbež oko rektuma:Crijevni paraziti:2,7,8:
+Umjerena do jaka bol u trbuhu koja se može proširiti na leđa:Pankreatitis:1,3,4:
+Jaka bol u želucu:Čir na želucu:6,7,8:
+Iznenadna bol koja počinje s desne strane donjeg dijela trbuha:Upala slijepog crijeva:0,3,7:
+Mučnina ili ponavljajuća smetnja u želucu:Gastritis:4,2,1:
+Ekstremni svrbež oko anusa:Hemoroidi:0,2,3:
+Bol ili peckanje tijekom mokrenja:Bubrežni kamenci:3,9,1:
+Žutilo kože i bjeloočnica:Ciroza:7,5,4:
+Krv u stolici:Crohnova bolest:2,7,8:

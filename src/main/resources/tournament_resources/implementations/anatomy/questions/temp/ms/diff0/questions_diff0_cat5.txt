@@ -1,0 +1,8 @@
+Bibir:1,2,4:61.4,96.6
+Uvula:6,2,0:48.6,51.8
+Gigi geraham:0,6,1:76.1,33
+Gigi kacip:0,4,1:50.4,83
+Lidah:7,2,0:48.2,27.6
+Tonsil:4,0,6:69.5,46.8
+lelangit keras:1,2,0:48.6,73.8
+lelangit lembut:4,2,0:56.3,61

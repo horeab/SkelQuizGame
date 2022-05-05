@@ -1,0 +1,5 @@
+En ny klump i brystet eller armhulen:Brystkræft:1,2,3:
+Blod i urinen:Prostatakræft:2,3,4:
+En ændring i afføringsvaner:Kolorektalkræft:1,3,4:
+en hoste, der ikke går over efter 2 eller 3 uger:Lungekræft:1,2,4:
+En modermærke, der ændrer sig i farve, størrelse eller som bløder:Hudkræft:0,1,3:

@@ -1,0 +1,10 @@
+A bőr és a szemfehérje besárgulása:Májgyulladás:3,4,5:
+Kiütés vagy viszketés a végbél körül:Bélparaziták:2,7,8:
+Mérsékelt vagy súlyos hasi fájdalom, amely átterjedhet a hátára:Hasnyálmirigy-gyulladás:1,3,4:
+Súlyos gyomorfájdalom:Gyomorfekély:6,7,8:
+Hirtelen fájdalom, amely az alsó has jobb oldalán kezdődik:Vakbélgyulladás:0,3,7:
+Hányinger vagy visszatérő gyomorpanaszok:Gyomorhurut:4,2,1:
+Erős viszketés a végbélnyílás körül:Aranyér:0,2,3:
+Fájdalom vagy égő érzés vizelés közben:Vesekövek:3,9,1:
+A bőr és a szemfehérje besárgulása:Cirrózis:7,5,4:
+Vér a székletben:Crohn-betegség:2,7,8:

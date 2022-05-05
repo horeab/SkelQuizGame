@@ -1,0 +1,7 @@
+Iris:6,3,4:11.3,57
+hornhinde:2,6,4:1.7,50.5
+Linse:1,4,6:19,51.3
+nethinde:1,6,4:64.6,76.8
+Optisk nerv:0,6,3:87.9,36.2
+forreste kammer:6,4,3:7.2,51.4
+Glaslegemet:1,4,3:49.3,65

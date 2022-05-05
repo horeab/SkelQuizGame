@@ -1,0 +1,10 @@
+Mikä elin tuottaa ruoansulatukseen tarvittavaa sappia?:0,7,6,8
+Mikä on ensimmäinen osa ruoansulatuskanavasta, joka vastaanottaa ruokaa ja tuottaa sylkeä?:1,2,6,5
+Minkä elimen kautta ruoka kulkee nielusta mahalaukkuun?:2,6,9,7
+Mikä elin on ruoansulatusjärjestelmän viimeinen osa?:3,4,7,8
+Mistä ravintoaineet ja kivennäisaineet imeytyvät ruoasta eniten?:4,5,3,0
+Mikä elin erittää ruoansulatusentsyymejä ja mahahappoa ruoansulatuksen edistämiseksi?:5,4,7,3
+Mikä on suun ja nenäontelon takana oleva kurkun osa nimeltään?:6,2,9,8
+Missä sappi varastoidaan ja konsentroituu ennen kuin se vapautuu ohutsuoleen?:7,6,9,8
+Mistä insuliinia erittyy?:8,0,7,6
+Mikä elin sijaitsee oikeassa alavatsassa?:9,0,7,2

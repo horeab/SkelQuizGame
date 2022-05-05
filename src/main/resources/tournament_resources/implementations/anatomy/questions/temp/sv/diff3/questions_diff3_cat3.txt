@@ -1,0 +1,4 @@
+Smärtfri svullnad av lymfkörtlar i nacke, armhålor eller ljumskar:Lymfom:2,3:
+Svullna lymfkörtlar, förstorad lever eller mjälte:Leukemi:2,3:
+Ryser:Hypotermi:0,1:
+Domningar eller svaghet i dina armar eller ben:Åderförkalkning:0,1,2:

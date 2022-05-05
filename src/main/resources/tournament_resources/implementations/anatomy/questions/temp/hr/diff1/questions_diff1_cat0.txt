@@ -1,0 +1,10 @@
+Koji organ proizvodi žuč potrebnu za probavu?:0,7,6,8
+Koji je prvi dio probavnog sustava koji prima hranu i proizvodi slinu?:1,2,6,5
+Kroz koji organ hrana prelazi iz ždrijela u želudac?:2,6,9,7
+Koji je organ posljednji dio probavnog sustava?:3,4,7,8
+Gdje se odvija najveća apsorpcija hranjivih tvari i minerala iz hrane?:4,5,3,0
+Koji organ luči probavne enzime i želučanu kiselinu za pomoć pri probavi hrane?:5,4,7,3
+Kako se zove dio grla iza usne i nosne šupljine?:6,2,9,8
+Gdje se žuč pohranjuje i koncentrira prije nego što se otpusti u tanko crijevo?:7,6,9,8
+Odakle se luči inzulin?:8,0,7,6
+Koji se organ nalazi u donjem desnom dijelu trbuha?:9,0,7,2

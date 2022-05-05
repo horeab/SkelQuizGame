@@ -1,0 +1,5 @@
+Um novo nódulo na mama ou nas axilas:Câncer de mama:1,2,3:
+Sangue na urina:Câncer de próstata:2,3,4:
+Uma mudança nos hábitos intestinais:Câncer colorretal:1,3,4:
+uma tosse que não desaparece após 2 ou 3 semanas:Câncer de pulmão:1,2,4:
+Uma verruga que muda de cor, tamanho ou que sangra:Câncer de pele:0,1,3:

@@ -1,0 +1,4 @@
+vätska som rinner från örat:Öroninflammation:1,2,3:
+Förlust av hörsel:Dövhet:0,2,3:
+ett ringande ljud i öronen:Tinnitus:0,1,3:
+vertigo:Ménières sjukdom:0,1,2:

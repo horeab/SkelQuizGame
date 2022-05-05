@@ -1,0 +1,6 @@
+Kaj je organ, ki služi kot središče živčnega sistema?:0,1,2,5
+Kaj je glavna značilnost zadnjih možganov vseh vretenčarjev?:1,5,0,2
+Kaj je dolga, tanka, cevasta struktura, sestavljena iz živčnega tkiva?:2,1,3,4
+Kaj je velik živec, ki poteka ob kolčnem sklepu?:3,2,1,5
+Kaj je veja ishiadičnega živca?:4,5,2,1
+Kaj je skupina teles nevronskih celic v perifernem živčnem sistemu?:5,1,0,2

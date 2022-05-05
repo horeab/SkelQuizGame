@@ -1,0 +1,9 @@
+Jaká je hlavní a největší tepna v lidském těle?:0,3,8,6
+Která žíla vede krev z vaší hlavy, krku, paží a hrudníku zpět do vašeho srdce?:1,3,0,2
+Která žíla vede krev z dolní části těla zpět do srdce?:2,1,0,3
+Jaká je horní komora, kterou krev vstupuje do srdečních komor?:3,5,6,2
+která srdeční komora přijímá okysličenou krev z plic?:4,3,6,8
+Jaká chlopeň odděluje dvě komory na levé straně srdce?:5,8,7,3
+Co je svalová komora, která pumpuje krev ze srdce do oběhového systému?:6,5,8,2
+Která je jedna ze čtyř komor srdce?:7,0,1,2
+Jeho úlohou je zabránit zpětnému toku krve z pravé komory do pravé síně.:8,2,5,4

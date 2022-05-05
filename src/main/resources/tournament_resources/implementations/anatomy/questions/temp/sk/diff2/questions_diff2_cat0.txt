@@ -1,0 +1,10 @@
+Čo je to choroba, pri ktorej sa vám zapáli pečeň?:Hepatitída::
+Čo je to choroba, pri ktorej parazit infikuje gastrointestinálny trakt človeka?:Črevné parazity::
+Čo je to choroba, pri ktorej sa vám zapáli pankreas?:Pankreatitída::
+Čo je to choroba, ktorá spôsobuje prerušenie vnútornej výstelky žalúdka?:Žalúdočný vred::
+Čo je to choroba, pri ktorej sa vám zapáli slepé črevo?:Zápal slepého čreva::
+Čo je to choroba, pri ktorej sa vám zapáli vnútorná výstelka žalúdka?:Gastritída::
+Aké ochorenie spôsobuje opuchnuté žily v dolnej časti konečníka?:Hemoroidy::
+Čo sú tvrdé ložiská minerálov a solí?:Obličkové kamene::
+Čo je zjazvenie pečene spôsobené dlhodobým poškodením pečene?:Cirhóza::
+Aký je typ zápalového ochorenia čriev?:Crohnova choroba::

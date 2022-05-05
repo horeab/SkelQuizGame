@@ -1,0 +1,10 @@
+Căn bệnh mà gan của bạn bị viêm là gì?:Viêm gan::
+Bệnh do ký sinh trùng lây nhiễm qua đường tiêu hóa ở người là bệnh gì?:Ký sinh trùng đường ruột::
+Căn bệnh mà tuyến tụy của bạn bị viêm là gì?:Viêm tụy::
+Bệnh gây vỡ lớp niêm mạc bên trong dạ dày là bệnh gì?:Loét dạ dày::
+Căn bệnh mà ruột thừa của bạn bị viêm là gì?:Viêm ruột thừa::
+Căn bệnh nào khiến lớp niêm mạc bên trong dạ dày của bạn bị viêm?:Viêm dạ dày::
+Bệnh gì gây ra sưng tĩnh mạch ở trực tràng dưới của bạn?:Bệnh trĩ::
+Cặn cứng được tạo thành từ khoáng chất và muối nào?:Sỏi thận::
+Gan bị sẹo do gan bị tổn thương lâu ngày là bệnh gì?:Xơ gan::
+Một loại bệnh viêm ruột là gì?:Bệnh Crohn::

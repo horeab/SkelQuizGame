@@ -1,0 +1,5 @@
+Sinertävä väri ihossa, kynsissä ja huulissa:Hypoksemia:1,2,3:
+Nykiminen käsissä, kasvoissa ja jaloissa:Hypokalsemia:0,2,4:
+Useammin virtsaaminen ja jano:Hyperkalsemia:0,1:
+luiden heikkeneminen:hypofosfatemia:0,4:
+lihaskrampit tai kouristukset:Hyperfosfatemia:0,1:

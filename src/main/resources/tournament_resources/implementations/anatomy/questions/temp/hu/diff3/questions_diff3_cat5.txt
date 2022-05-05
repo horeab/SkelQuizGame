@@ -1,0 +1,5 @@
+Vörös vagy duzzadt íny:Parodontitis:2,3,4:
+Vörös vagy duzzadt íny:fogínygyulladás:2,3,4:
+Fogfájás:Fogszuvasodás:0,4,3:
+nyelési problémák:Mandulagyulladás:0,2,4:
+A felső állkapocs deformitásai:Ajkahasadék:0,2,3:

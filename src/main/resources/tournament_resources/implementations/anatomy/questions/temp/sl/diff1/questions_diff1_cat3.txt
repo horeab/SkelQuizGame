@@ -1,0 +1,6 @@
+Kaj je mišični organ, ki črpa kri skozi krvne žile cirkulacijskega sistema?:0,1,3,5
+Katera je glavna in največja arterija v človeškem telesu?:1,4,3,2
+Katere so žile, ki odvajajo ledvico?:2,5,4,1
+Katere so parne arterije, ki oskrbujejo ledvice s krvjo?:3,2,1,5
+Katere so vene, ki odvajajo deoksigenirano kri iz glave nazaj v srce?:4,2,5,1
+Kaj je velika vena, ki se nahaja globoko v stegnu?:5,2,1,4

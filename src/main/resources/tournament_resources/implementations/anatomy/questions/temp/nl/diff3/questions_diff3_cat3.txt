@@ -1,0 +1,4 @@
+Pijnloze zwelling van lymfeklieren in uw nek, oksels of lies:lymfoom:2,3:
+Gezwollen lymfeklieren, vergrote lever of milt:Leukemie:2,3:
+rillen:Hypothermie:0,1:
+Gevoelloosheid of zwakte in uw armen of benen:atherosclerose:0,1,2:

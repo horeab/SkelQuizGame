@@ -1,0 +1,4 @@
+Penglihatan mendung:Katarak:1,2,3:
+Warna merah jambu atau merah di bahagian putih mata:konjunktivitis:0,2,3:
+sakit mata yang teruk:Glaukoma:0,1,3:
+Persepsi kedalaman yang lemah dan penglihatan periferi:Ambliopia:0,1,2:

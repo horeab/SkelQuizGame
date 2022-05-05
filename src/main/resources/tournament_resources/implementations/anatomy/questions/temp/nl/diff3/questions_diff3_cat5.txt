@@ -1,0 +1,5 @@
+Rood of gezwollen tandvlees:Parodontitis:2,3,4:
+Rood of gezwollen tandvlees:gingivitis:2,3,4:
+Kiespijn:Tandbederf:0,4,3:
+problemen met slikken:Tonsillitis:0,2,4:
+Misvormingen van de bovenkaak:Hazenlip:0,2,3:

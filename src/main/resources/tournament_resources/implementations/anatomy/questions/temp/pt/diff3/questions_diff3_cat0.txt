@@ -1,0 +1,10 @@
+Amarelecimento da pele e do branco dos olhos:Hepatite:3,4,5:
+Erupção ou coceira ao redor do reto:Parasitas intestinais:2,7,8:
+Dor abdominal moderada a grave que pode se espalhar para as costas:Pancreatite:1,3,4:
+Dor de estômago severa:Úlcera gástrica:6,7,8:
+Dor súbita que começa no lado direito do abdome inferior:Apendicite:0,3,7:
+Náusea ou dor de estômago recorrente:Gastrite:4,2,1:
+Coceira extrema ao redor do ânus:Hemorróidas:0,2,3:
+Dor ou sensação de queimação ao urinar:Pedras nos rins:3,9,1:
+Amarelecimento da pele e do branco dos olhos:Cirrose:7,5,4:
+Sangue nas fezes:doença de Crohn:2,7,8:

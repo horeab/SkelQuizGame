@@ -1,0 +1,7 @@
+Apakah yang terdapat di tengah-tengah sel dan ia mengandungi DNA yang tersusun dalam kromosom?:0,1,2,3
+Apakah kawasan di dalam sel yang berkaitan dengan penghasilan ribosom sel?:1,2,3,4
+Apakah cecair gelatin yang memenuhi bahagian dalam sel?:2,3,4,5
+Apakah yang melindungi sel daripada persekitaran luarannya?:3,4,2,1
+Apakah struktur sel yang menghasilkan protein?:4,3,2,1
+Apakah yang menukarkan tenaga kimia kepada bentuk tenaga yang boleh digunakan oleh sel?:5,4,3,2
+Apakah sistem pengangkutan sel eukariotik?:6,5,0,1

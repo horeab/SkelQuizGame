@@ -1,0 +1,5 @@
+Demam tinggi secara tiba-tiba, sakit kepala teruk yang kelihatan berbeza dari biasa:Radang meninges:1,2,3:
+buta sebelah mata:Sklerosis berbilang:0,3,4:
+Gegaran di tangan:penyakit Parkinson:0,3,4:
+tics pergerakan:Sindrom Tourette:0,1,4:
+kesukaran menumpukan perhatian dan hilang ingatan:penyakit Huntington:0,1,2:

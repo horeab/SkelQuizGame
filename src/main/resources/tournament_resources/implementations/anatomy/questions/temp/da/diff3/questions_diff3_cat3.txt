@@ -1,0 +1,4 @@
+Smertefri hævelse af lymfeknuder i din nakke, armhuler eller lyske:Lymfom:2,3:
+Hævede lymfeknuder, forstørret lever eller milt:Leukæmi:2,3:
+Rystende:Hypotermi:0,1:
+Følelsesløshed eller svaghed i dine arme eller ben:Åreforkalkning:0,1,2:

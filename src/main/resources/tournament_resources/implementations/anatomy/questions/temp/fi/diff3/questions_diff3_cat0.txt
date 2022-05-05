@@ -1,0 +1,10 @@
+Ihon ja silmänvalkuaisten kellastuminen:Hepatiitti:3,4,5:
+Ihottuma tai kutina peräsuolen ympärillä:Suoliston loiset:2,7,8:
+Kohtalainen tai vaikea vatsakipu, joka voi levitä selkään:Haimatulehdus:1,3,4:
+Vaikea vatsakipu:Mahahaava:6,7,8:
+Äkillinen kipu, joka alkaa alavatsan oikealta puolelta:Umpilisäkkeen tulehdus:0,3,7:
+Pahoinvointi tai toistuva vatsavaivat:Gastriitti:4,2,1:
+Äärimmäinen kutina peräaukon ympärillä:Peräpukamat:0,2,3:
+Kipu tai polttava tunne virtsatessa:Munuaiskiviä:3,9,1:
+Ihon ja silmänvalkuaisten kellastuminen:Kirroosi:7,5,4:
+Veri ulosteessa:Crohnin tauti:2,7,8:

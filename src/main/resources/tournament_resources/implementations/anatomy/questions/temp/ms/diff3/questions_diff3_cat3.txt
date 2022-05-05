@@ -1,0 +1,4 @@
+Pembengkakan nodus limfa yang tidak menyakitkan di leher, ketiak atau pangkal paha anda:Limfoma:2,3:
+Nodus limfa bengkak, hati atau limpa membesar:Leukemia:2,3:
+Menggigil:Hipotermia:0,1:
+Kebas atau kelemahan pada lengan atau kaki anda:Aterosklerosis:0,1,2:

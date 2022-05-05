@@ -1,0 +1,10 @@
+Cơ quan nào sản xuất mật cần thiết cho quá trình tiêu hóa?:0,7,6,8
+Phần đầu tiên của ống sinh vật nhận thức ăn và sản xuất nước bọt là gì?:1,2,6,5
+Thức ăn từ yết hầu xuống dạ dày qua cơ quan nào?:2,6,9,7
+Phần cuối cùng của hệ tiêu hóa là cơ quan nào?:3,4,7,8
+Quá trình hấp thụ chất dinh dưỡng và chất khoáng từ thức ăn diễn ra ở đâu?:4,5,3,0
+Cơ quan nào tiết ra enzim tiêu hoá và axit dịch vị để hỗ trợ quá trình tiêu hoá thức ăn?:5,4,7,3
+Bộ phận của họng nằm sau miệng và khoang mũi tên là gì?:6,2,9,8
+Mật được lưu trữ và cô đặc ở đâu trước khi được thải vào ruột non?:7,6,9,8
+Insulin được tiết ra từ đâu?:8,0,7,6
+Cơ quan nào nằm ở vùng bụng dưới bên phải?:9,0,7,2

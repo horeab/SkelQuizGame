@@ -1,0 +1,10 @@
+Organ apa yang menghasilkan empedu yang diperlukan untuk pencernaan?:0,7,6,8
+Apa bagian pertama dari saluran pencernaan yang menerima makanan dan menghasilkan air liur?:1,2,6,5
+Melalui organ mana makanan melewati dari faring ke lambung?:2,6,9,7
+Organ apa yang merupakan bagian terakhir dari sistem pencernaan?:3,4,7,8
+Di manakah penyerapan zat gizi dan mineral dari makanan paling banyak terjadi?:4,5,3,0
+Organ apa yang mengeluarkan enzim pencernaan dan asam lambung untuk membantu pencernaan makanan?:5,4,7,3
+Apa nama bagian tenggorokan di belakang mulut dan rongga hidung?:6,2,9,8
+Di mana empedu disimpan dan dipekatkan sebelum dilepaskan ke usus kecil?:7,6,9,8
+Dari mana insulin disekresi?:8,0,7,6
+Organ apa yang terletak di perut kanan bawah?:9,0,7,2

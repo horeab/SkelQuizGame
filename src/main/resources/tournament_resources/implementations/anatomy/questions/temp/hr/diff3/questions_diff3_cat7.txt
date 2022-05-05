@@ -1,0 +1,4 @@
+tekućina koja curi iz uha:Otitis:1,2,3:
+Gubitak sluha:Gluhoća:0,2,3:
+zujanje u ušima:Zujanje u ušima:0,1,3:
+vrtoglavica:Meniereova bolest:0,1,2:

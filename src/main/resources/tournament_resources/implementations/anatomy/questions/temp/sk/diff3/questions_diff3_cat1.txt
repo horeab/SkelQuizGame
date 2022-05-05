@@ -1,0 +1,5 @@
+bolesť kĺbov:Artritída:1,2,3:
+okamžitá, silná bolesť:Zlomenina kosti:2,3:
+Strata výšky v priebehu času:Osteoporóza:1,3,4:
+viditeľne zakrivená chrbtica:Skolióza:0,1,2:
+červená, lesklá koža nad postihnutým kĺbom:Dna:1,2,3:

@@ -1,0 +1,8 @@
+Các nếp cơ bao quanh miệng là gì?:0,1,4,7
+Phần mở rộng thịt treo phía trên cổ họng là gì?:1,4,0,7
+Răng khểnh ở phía sau miệng là gì?:2,3,5,6
+Răng cửa là gì?:3,2,5,6
+Cơ quan cơ trong miệng là gì?:4,5,6,1
+Những cơ quan nào đóng vai trò quan trọng trong hệ thống miễn dịch?:5,1,4,0
+Thế nào là bản xương mỏng nằm ngang được tạo thành từ hai xương của khung xương mặt?:6,7,2,5
+Mô mềm cấu tạo phần sau của vòm miệng là gì?:7,5,1,0

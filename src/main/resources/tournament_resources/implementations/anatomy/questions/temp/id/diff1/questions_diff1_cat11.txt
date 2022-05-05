@@ -1,0 +1,6 @@
+Apa yang digunakan untuk mengoksidasi makanan kita, dalam proses respirasi sel, sehingga melepaskan energi?:0,1,2,3
+Apa unsur paling melimpah kedua dalam tubuh manusia?:1,2,3,4
+Apa yang digunakan untuk menjaga tubuh manusia tetap terhidrasi?:2,3,4,5
+Apa yang digunakan untuk membuat asam amino dalam tubuh kita yang pada gilirannya membuat protein?:3,5,4
+Apa yang digunakan untuk membangun dan memelihara tulang yang kuat?:4,0,1,2
+Apa yang digunakan dalam pembentukan tulang dan gigi?:5,1,2,3

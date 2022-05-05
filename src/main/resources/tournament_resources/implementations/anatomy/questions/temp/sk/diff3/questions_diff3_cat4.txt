@@ -1,0 +1,5 @@
+Náhla vysoká horúčka, silná bolesť hlavy, ktorá sa zdá byť odlišná od normálu:Meningitída:1,2,3:
+slepota na jedno oko:Roztrúsená skleróza:0,3,4:
+Chvenie v rukách:Parkinsonova choroba:0,3,4:
+pohybové tiky:Tourettov syndróm:0,1,4:
+ťažkosti so sústredením a výpadky pamäte:Huntingtonova choroba:0,1,2:

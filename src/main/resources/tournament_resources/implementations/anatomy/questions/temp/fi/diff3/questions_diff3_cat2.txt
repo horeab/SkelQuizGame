@@ -1,0 +1,5 @@
+Suuret pohkeen lihakset:lihassurkastumatauti:2,3,4:
+Toinen käsi tai toinen jalka on pienempi kuin toinen:lihasatrofia:2,3,4:
+jännekipu, joka pahenee liikuttaessa:tendiniitti:1,3,4:
+Äkillinen, voimakas kipu:lihaskrampit:1,2:
+äkillinen kipu, joka pahenee lihasten supistumisen aikana:lihasten repeämä:1,2:

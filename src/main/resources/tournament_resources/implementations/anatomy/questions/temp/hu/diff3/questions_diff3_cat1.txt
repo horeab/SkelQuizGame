@@ -1,0 +1,5 @@
+ízületi fájdalom:Ízületi gyulladás:1,2,3:
+azonnali, erős fájdalom:Csonttörés:2,3:
+Magasságvesztés az idő múlásával:Csontritkulás:1,3,4:
+láthatóan ívelt gerinc:Gerincferdülés:0,1,2:
+vörös, fényes bőr az érintett ízületen:Köszvény:1,2,3:

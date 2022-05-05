@@ -1,0 +1,4 @@
+visión nublada:Catarata:1,2,3:
+Color rosado o rojo en el blanco del ojo.:Conjuntivitis:0,2,3:
+intenso dolor de ojos:Glaucoma:0,1,3:
+Mala percepción de la profundidad y visión periférica.:Ambliopía:0,1,2:

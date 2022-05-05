@@ -1,0 +1,5 @@
+Sốt cao đột ngột, đau đầu dữ dội có vẻ khác với bình thường:Viêm màng não:1,2,3:
+mù một mắt:Đa xơ cứng:0,3,4:
+Tay run:bệnh Parkinson:0,3,4:
+chuyển động tics:hội chứng Tourette:0,1,4:
+khó tập trung và trí nhớ mất hiệu lực:bệnh Huntington:0,1,2:

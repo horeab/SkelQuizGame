@@ -1,0 +1,4 @@
+Zakalené videnie:Sivý zákal:1,2,3:
+Ružová alebo červená farba v bielku oka:Konjunktivitída:0,2,3:
+intenzívna bolesť očí:Glaukóm:0,1,3:
+Zlé vnímanie hĺbky a periférne videnie:Amblyopia:0,1,2:

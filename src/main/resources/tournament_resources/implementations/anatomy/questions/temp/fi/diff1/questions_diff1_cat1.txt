@@ -1,0 +1,12 @@
+Mikä on luurakenne, joka muodostaa pään?:0,1,9,7
+Mikä tunnetaan myös olkapään luuna?:1,9,11,6
+Mikä on puolijäykkä luinen ja rustoinen rakenne, joka ympäröi rintaonteloa?:2,7,8,11
+Mikä on selkärankaisen määrittelevä ominaisuus?:3,0,11,2
+Mikä on polven alapuolella olevan jalan kahdesta luusta suurempi?:4,6,9,5
+Mikä on kehosi pisin ja vahvin luu?:5,6,9,1
+Mikä on pitkä luu käsivarressa, joka ulottuu olkapäästä kyynärpäähän?:6,5,1,7
+Mikä on käden viiden luun ryhmä sormien ja ranteen välissä?:7,5,1,3
+Mitkä luut muodostavat ranteen?:8,7,9,10
+Mikä on seitsemän nivellevän luun ryhmä kummassakin jalassa?:9,7,8,1
+Mikä on viiden pitkän luun ryhmä jalassa?:10,8,7,4
+Mikä on vartalon alaosa?:11,6,3,2

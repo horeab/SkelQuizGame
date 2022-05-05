@@ -1,0 +1,8 @@
+Ağzı çevreleyen kas kıvrımları nelerdir?:0,1,4,7
+Boğazın üzerinde sarkan etli uzantı nedir?:1,4,0,7
+Ağzın arkasındaki düz dişler nelerdir?:2,3,5,6
+Ön dişler nelerdir?:3,2,5,6
+Ağızdaki kaslı organ nedir?:4,5,6,1
+Bağışıklık sisteminde hangi organlar önemli rol oynar?:5,1,4,0
+Yüz iskeletinin iki kemiğinden oluşan ince bir yatay kemik plakası nedir?:6,7,2,5
+Ağız çatısının arkasını oluşturan yumuşak doku nedir?:7,5,1,0

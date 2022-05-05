@@ -1,0 +1,6 @@
+Mit használunk táplálékunk oxidálására, a sejtlégzés folyamatában, így energia szabadul fel?:0,1,2,3
+Mi a második legnagyobb mennyiségben előforduló elem az emberi szervezetben?:1,2,3,4
+Mit használnak az emberi test hidratáltságának megőrzésére?:2,3,4,5
+Mit használnak a szervezetünkben aminosavak előállítására, amelyek viszont fehérjéket termelnek?:3,5,4
+Mit használnak az erős csontok építésére és fenntartására?:4,0,1,2
+Mit használnak a csontok és a fogak kialakításában?:5,1,2,3

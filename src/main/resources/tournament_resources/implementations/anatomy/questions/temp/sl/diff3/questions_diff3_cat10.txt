@@ -1,0 +1,5 @@
+Nova bulica v dojki ali pod pazduho:Rak na dojki:1,2,3:
+Kri v urinu:Rak na prostati:2,3,4:
+Sprememba črevesnih navad:Rak debelega črevesa in danke:1,3,4:
+kašelj, ki ne izgine po 2 ali 3 tednih:Pljučni rak:1,2,4:
+madež, ki spremeni barvo, velikost ali krvavi:Kožni rak:0,1,3:

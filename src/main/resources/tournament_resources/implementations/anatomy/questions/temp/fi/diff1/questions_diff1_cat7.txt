@@ -1,0 +1,7 @@
+Mikä on korvan näkyvä osa, joka on pään ulkopuolella?:0,3,6,2
+Mikä on reitti, joka kulkee ulkokorvasta välikorvaan?:1,2,3,0
+Mikä on ohut iholäppä, joka on venytetty tiukalle kuin rumpu ja värisee, kun siihen osuu ääni?:2,0,5,3
+Mitkä ovat kolme keskikorvan luuta, jotka ovat ihmiskehon pienimpiä luita?:3,0,6,2
+Mikä muistuttaa etanan kuorta?:4,2,0,6
+Mikä kuljettaa kuuloaistitietoa sisäkorvan simpukasta suoraan aivoihin?:5,2,0,6
+Mitä kutsutaan myös kuuloputkeksi?:6,1,4,0

@@ -1,0 +1,6 @@
+Dolaşım sistemindeki kan damarlarından kan pompalayan kaslı organ nedir?:0,1,3,5
+İnsan vücudundaki ana ve en büyük arter nedir?:1,4,3,2
+Böbreği boşaltan damarlar nelerdir?:2,5,4,1
+Böbreğe kan sağlayan eşleşmiş arterler nelerdir?:3,2,1,5
+Oksijeni giderilmiş kanı kafadan kalbe geri götüren damarlar nelerdir?:4,2,5,1
+Uyluğun derinliklerinde bulunan büyük bir damar nedir?:5,2,1,4

@@ -1,0 +1,6 @@
+Jaký je sval tvořící zaoblený obrys lidského ramene?:0,1,3,5
+Co je to velký sval, který leží na přední straně nadloktí mezi ramenem a loktem?:1,0,2,3
+Jaký sval se nachází na hrudi lidského těla?:2,3,5,1
+Co je trojúhelníkový sval umístěný na zadní straně krku?:3,1,2,5
+Jaký sval je největší z bočních břišních svalů?:4,1,2,0
+Jaký je největší ze 4 svalů v přední části nohy?:5,3,0,1

@@ -1,0 +1,5 @@
+Plotselinge hoge koorts, ernstige hoofdpijn die anders lijkt dan normaal:meningitis:1,2,3:
+blindheid aan één oog:Multiple sclerose:0,3,4:
+Tremor in handen:ziekte van Parkinson:0,3,4:
+beweging tics:Tourette syndroom:0,1,4:
+moeite met concentreren en geheugenverlies:de ziekte van Huntington:0,1,2:

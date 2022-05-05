@@ -1,0 +1,6 @@
+O que é um órgão que serve como centro do sistema nervoso?:0,1,2,5
+Qual é a principal característica do rombencéfalo de todos os vertebrados?:1,5,0,2
+O que é uma estrutura tubular longa e fina composta de tecido nervoso?:2,1,3,4
+O que é um grande nervo que corre ao lado da articulação do quadril?:3,2,1,5
+O que é um ramo do nervo ciático?:4,5,2,1
+O que é um grupo de corpos celulares de neurônios no sistema nervoso periférico?:5,1,0,2

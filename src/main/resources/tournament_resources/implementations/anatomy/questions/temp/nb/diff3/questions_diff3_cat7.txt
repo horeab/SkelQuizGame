@@ -1,0 +1,4 @@
+væske som renner fra øret:Ørebetennelse:1,2,3:
+Tap av hørsel:Døvhet:0,2,3:
+en ringelyd i ørene:Tinnitus:0,1,3:
+svimmelhet:Menières sykdom:0,1,2:

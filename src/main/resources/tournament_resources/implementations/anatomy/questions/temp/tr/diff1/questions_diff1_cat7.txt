@@ -1,0 +1,7 @@
+Kulağın başın dışında görünen kısmı nedir?:0,3,6,2
+Dış kulaktan orta kulağa uzanan yol nedir?:1,2,3,0
+Bir davul gibi gerilmiş ve ses çarptığında titreyen ince bir deri parçası nedir?:2,0,5,3
+İnsan vücudundaki en küçük kemikler arasında yer alan orta kulaktaki üç kemik nedir?:3,0,6,2
+Salyangoz kabuğuna ne benzer?:4,2,0,6
+İşitsel duyusal bilgileri iç kulaktaki kokleadan doğrudan beyne taşıyan nedir?:5,2,0,6
+İşitme tüpü olarak da bilinen nedir?:6,1,4,0

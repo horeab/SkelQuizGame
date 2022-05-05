@@ -1,0 +1,7 @@
+Hvad er en tynd struktur i øjet, ansvarlig for at kontrollere pupillens diameter og størrelse?:0,1,3,2
+Hvad er den gennemsigtige forreste del af øjet, der dækker iris?:1,2,3,0
+Hvad er en gennemsigtig struktur i øjet, der hjælper med at bryde lys for at blive fokuseret på nethinden?:2,3,0,1
+Hvad er øjets inderste, lysfølsomme lag af væv?:3,1,0,2
+Hvad overfører visuel information fra nethinden til hjernen?:4,6,5,3
+Hvad er den forreste del af øjet mellem hornhinden og iris?:5,6,2,3
+Hvilket øjenkammer er placeret bag linsen og foran synsnerven?:6,5,3,0

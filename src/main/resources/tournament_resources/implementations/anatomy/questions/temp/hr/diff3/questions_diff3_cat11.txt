@@ -1,0 +1,5 @@
+Plavkasta boja kože, noktiju i usana:Hipoksemija:1,2,3:
+Trzanje u rukama, licu i stopalima:Hipokalcemija:0,2,4:
+Češće mokrenje i žeđ:Hiperkalcemija:0,1:
+slabljenje kostiju:hipofosfatemija:0,4:
+grčevi ili grčevi u mišićima:Hiperfosfatemija:0,1:

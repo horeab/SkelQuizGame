@@ -1,0 +1,5 @@
+Jaki jest rodzaj nowotworu, który może obejmować guzek w piersi lub zmianę kształtu piersi?:Rak piersi::
+Jaki jest najczęstszy rodzaj raka, który dotyka tylko mężczyzn?:Rak prostaty::
+Jaki jest rodzaj raka, w którym komórki w okrężnicy lub odbytnicy wymykają się spod kontroli?:Rak jelita grubego::
+Jaki rodzaj raka jest spowodowany długotrwałym paleniem tytoniu?:Rak płuc::
+Jaki rodzaj raka jest spowodowany nadmierną ekspozycją na promienie ultrafioletowe ze słońca?:Nowotwór skóry::

@@ -1,0 +1,6 @@
+Co se používá k oxidaci našeho jídla v procesu buněčného dýchání, čímž se uvolňuje energie?:0,1,2,3
+Jaký je druhý nejrozšířenější prvek v lidském těle?:1,2,3,4
+Co se používá k udržení hydratace lidského těla?:2,3,4,5
+Co se používá k výrobě aminokyselin v našem těle, které zase tvoří bílkoviny?:3,5,4
+Co se používá pro stavbu a udržení silných kostí?:4,0,1,2
+Co se používá při tvorbě kostí a zubů?:5,1,2,3

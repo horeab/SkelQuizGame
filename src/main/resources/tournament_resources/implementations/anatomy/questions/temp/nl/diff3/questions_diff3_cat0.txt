@@ -1,0 +1,10 @@
+Geelverkleuring van de huid en het wit van uw ogen:Hepatitis:3,4,5:
+Huiduitslag of jeuk rond het rectum:Darm parasieten:2,7,8:
+Matige tot ernstige buikpijn die kan uitstralen naar uw rug:Pancreatitis:1,3,4:
+Ernstige maagpijn:Maagzweer:6,7,8:
+Plotselinge pijn die begint aan de rechterkant van de onderbuik:Appendicitis:0,3,7:
+Misselijkheid of terugkerende maagklachten:Gastritis:4,2,1:
+Extreme jeuk rond de anus:Aambeien:0,2,3:
+Pijn of branderig gevoel tijdens het plassen:Nierstenen:3,9,1:
+Geelverkleuring van de huid en het wit van uw ogen:Cirrose:7,5,4:
+Bloed in de ontlasting:ziekte van Crohn:2,7,8:

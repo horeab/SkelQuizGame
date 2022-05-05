@@ -1,0 +1,5 @@
+bolest kloubů:Artritida:1,2,3:
+okamžitá, silná bolest:Zlomenina kosti:2,3:
+Ztráta výšky v průběhu času:Osteoporóza:1,3,4:
+viditelně prohnutá páteř:Skolióza:0,1,2:
+červená, lesklá kůže nad postiženým kloubem:Dna:1,2,3:

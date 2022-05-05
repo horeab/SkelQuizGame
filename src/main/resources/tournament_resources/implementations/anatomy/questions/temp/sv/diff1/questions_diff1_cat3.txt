@@ -1,0 +1,6 @@
+Vad är ett muskelorgan som pumpar blod genom blodkärlen i cirkulationssystemet?:0,1,3,5
+Vilken är den största och största artären i människokroppen?:1,4,3,2
+Vad är vener som dränerar njuren?:2,5,4,1
+Vilka är parade artärer som förser njurarna med blod?:3,2,1,5
+Vad är vener som tar syrefattigt blod från huvudet tillbaka till hjärtat?:4,2,5,1
+Vad är en stor ven som ligger djupt inne i låret?:5,2,1,4

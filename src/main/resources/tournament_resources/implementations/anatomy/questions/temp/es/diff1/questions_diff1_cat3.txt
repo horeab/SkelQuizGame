@@ -1,0 +1,6 @@
+¿Qué es un órgano muscular que bombea sangre a través de los vasos sanguíneos del sistema circulatorio?:0,1,3,5
+¿Cuál es la arteria principal y más grande del cuerpo humano?:1,4,3,2
+¿Cuáles son las venas que drenan el riñón?:2,5,4,1
+¿Cuáles son las arterias pares que suministran sangre a los riñones?:3,2,1,5
+¿Cuáles son las venas que llevan sangre desoxigenada de la cabeza al corazón?:4,2,5,1
+¿Qué es una vena grande ubicada en lo profundo del muslo?:5,2,1,4

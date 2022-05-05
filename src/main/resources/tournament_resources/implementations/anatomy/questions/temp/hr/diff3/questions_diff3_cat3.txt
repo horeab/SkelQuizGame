@@ -1,0 +1,4 @@
+Bezbolno oticanje limfnih čvorova na vratu, pazuhu ili preponama:Limfom:2,3:
+Natečeni limfni čvorovi, povećana jetra ili slezena:Leukemija:2,3:
+Drhtanje:Hipotermija:0,1:
+Utrnulost ili slabost u rukama ili nogama:Ateroskleroza:0,1,2:

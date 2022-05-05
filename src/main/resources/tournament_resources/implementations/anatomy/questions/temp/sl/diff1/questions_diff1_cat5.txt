@@ -1,0 +1,8 @@
+Kaj so mišične gube, ki obkrožajo usta?:0,1,4,7
+Kaj je mesnati podaljšek, ki visi nad grlom?:1,4,0,7
+Kaj so ploski zobje na zadnji strani ust?:2,3,5,6
+Kakšni so sprednji zobje?:3,2,5,6
+Kaj je mišični organ v ustih?:4,5,6,1
+Kateri organi imajo pomembno vlogo v imunskem sistemu?:5,1,4,0
+Kaj je tanka vodoravna kostna plošča, sestavljena iz dveh kosti obraznega skeleta?:6,7,2,5
+Kaj je mehko tkivo, ki sestavlja zadnji del ustne strehe?:7,5,1,0

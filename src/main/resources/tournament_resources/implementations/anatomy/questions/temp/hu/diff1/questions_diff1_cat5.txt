@@ -1,0 +1,8 @@
+Mik azok az izmos redők, amelyek körülölelik a szájat?:0,1,4,7
+Mi az a húsos nyúlvány, amely a torok fölött lóg?:1,4,0,7
+Mik azok a lapos fogak a száj hátsó részén?:2,3,5,6
+Mik az első fogak?:3,2,5,6
+Mi az az izmos szerv a szájban?:4,5,6,1
+Milyen szervek játszanak fontos szerepet az immunrendszerben?:5,1,4,0
+Mi az a vékony vízszintes csontlemez, amely az arcváz két csontjából áll?:6,7,2,5
+Mi az a lágyszövet, amely a szájtető hátsó részét alkotja?:7,5,1,0

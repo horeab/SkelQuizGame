@@ -1,0 +1,10 @@
+Cildin ve gözlerin beyazlarının sararması:Hepatit:3,4,5:
+Rektum çevresinde döküntü veya kaşıntı:Bağırsak parazitleri:2,7,8:
+Sırtınıza yayılabilen orta ila şiddetli karın ağrısı:pankreatit:1,3,4:
+Şiddetli mide ağrısı:Mide ülseri:6,7,8:
+Alt karnın sağ tarafında başlayan ani ağrı:Apandisit:0,3,7:
+Mide bulantısı veya tekrarlayan mide rahatsızlığı:Gastrit:4,2,1:
+Anüs çevresinde aşırı kaşıntı:Hemoroid:0,2,3:
+İdrar yaparken ağrı veya yanma hissi:Böbrek taşı:3,9,1:
+Cildin ve gözlerin beyazlarının sararması:Siroz:7,5,4:
+Dışkıda kan:Crohn hastalığı:2,7,8:

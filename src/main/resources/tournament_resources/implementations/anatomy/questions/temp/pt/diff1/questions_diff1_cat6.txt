@@ -1,0 +1,6 @@
+Qual é o maior dos quatro lobos principais do cérebro?:0,3,1,4
+O que fica atrás das orelhas e é o segundo maior lóbulo?:1,0,3,2
+O que está envolvido na percepção da sensação, incluindo toque, temperatura, dor?:2,0,3,5
+Qual é o centro de processamento visual do cérebro?:3,0,1,4
+O que desempenha um papel importante no controle do equilíbrio?:4,5,0,1
+O que ajuda a controlar a frequência cardíaca e a frequência respiratória?:5,0,4,3

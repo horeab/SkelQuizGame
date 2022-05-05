@@ -1,0 +1,10 @@
+Jaki narząd wytwarza żółć niezbędną do trawienia?:0,7,6,8
+Jaka jest pierwsza część przewodu pokarmowego, która otrzymuje pokarm i wytwarza ślinę?:1,2,6,5
+Przez który narząd przechodzi z gardła do żołądka?:2,6,9,7
+Jaki narząd jest ostatnią częścią układu pokarmowego?:3,4,7,8
+Gdzie odbywa się największe wchłanianie składników odżywczych i minerałów z pożywienia?:4,5,3,0
+Jaki narząd wydziela enzymy trawienne i kwas żołądkowy, aby wspomóc trawienie pokarmu?:5,4,7,3
+Jak nazywa się część gardła za jamą ustną i nosową?:6,2,9,8
+Gdzie jest przechowywana i zagęszczana żółć, zanim zostanie uwolniona do jelita cienkiego?:7,6,9,8
+Skąd wydzielana jest insulina?:8,0,7,6
+Jaki narząd znajduje się w prawym dolnym brzuchu?:9,0,7,2

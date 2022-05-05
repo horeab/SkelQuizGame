@@ -1,0 +1,6 @@
+Beynin dört ana lobunun en büyüğü hangisidir?:0,3,1,4
+Kulakların arkasına ne oturur ve ikinci en büyük lob nedir?:1,0,3,2
+Dokunma, sıcaklık, ağrı dahil olmak üzere duyu algısına neler dahildir?:2,0,3,5
+Beynin görsel işlem merkezi nedir?:3,0,1,4
+Denge kontrolünde önemli bir rol oynayan nedir?:4,5,0,1
+Kalp atış hızını ve solunum hızını kontrol etmeye ne yardımcı olur?:5,0,4,3

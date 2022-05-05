@@ -1,0 +1,5 @@
+Mikä on sellainen syöpä, johon voi liittyä kyhmy rinnassa tai rintojen muodon muutos?:Rintasyöpä::
+Mikä on yleisin syöpä, joka vaikuttaa vain miehiin?:Eturauhassyöpä::
+Mikä on syövän tyyppi, jossa paksu- tai peräsuolen solut kasvavat hallitsemattomasti?:Peräsuolen syöpä::
+Millaisen syövän pitkäaikainen tupakointi aiheuttaa?:Keuhkosyöpä::
+Millaisen syövän aiheuttaa liiallinen altistuminen auringon ultraviolettisäteille?:Ihosyöpä::

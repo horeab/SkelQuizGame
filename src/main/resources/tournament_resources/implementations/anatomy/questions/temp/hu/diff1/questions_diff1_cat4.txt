@@ -1,0 +1,6 @@
+Mi az a szerv, amely az idegrendszer központjaként szolgál?:0,1,2,5
+Mi az összes gerinces hátsó agyának fő jellemzője?:1,5,0,2
+Mi az a hosszú, vékony, csőszerű idegszövetből álló szerkezet?:2,1,3,4
+Mi az a nagy ideg, amely a csípőízület mellett fut?:3,2,1,5
+Mi az ülőideg egyik ága?:4,5,2,1
+Mi az idegsejttestek csoportja a perifériás idegrendszerben?:5,1,0,2

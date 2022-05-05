@@ -1,0 +1,5 @@
+Qual é um tipo de câncer que pode incluir um nódulo na mama ou uma mudança na forma da mama?:Câncer de mama::
+Qual é o tipo de câncer mais comum que afeta apenas homens?:Câncer de próstata::
+Qual é um tipo de câncer em que as células do cólon ou do reto crescem fora de controle?:Câncer colorretal::
+Que tipo de câncer é causado pelo tabagismo a longo prazo?:Câncer de pulmão::
+Que tipo de câncer é causado pela exposição excessiva aos raios ultravioleta do sol?:Câncer de pele::

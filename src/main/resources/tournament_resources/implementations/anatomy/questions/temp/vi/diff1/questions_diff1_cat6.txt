@@ -1,0 +1,6 @@
+Thùy nào lớn nhất trong bốn thùy chính của não?:0,3,1,4
+Cái gì nằm sau tai và là thùy lớn thứ hai?:1,0,3,2
+Điều gì liên quan đến nhận thức về cảm giác, bao gồm xúc giác, nhiệt độ, cảm giác đau?:2,0,3,5
+Trung tâm xử lý thị giác của não là gì?:3,0,1,4
+Điều gì đóng vai trò quan trọng trong việc kiểm soát cân bằng?:4,5,0,1
+Điều gì giúp kiểm soát nhịp tim và nhịp thở?:5,0,4,3

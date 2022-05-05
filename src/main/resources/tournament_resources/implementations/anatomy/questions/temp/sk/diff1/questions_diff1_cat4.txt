@@ -1,0 +1,6 @@
+Čo je orgán, ktorý slúži ako centrum nervového systému?:0,1,2,5
+Čo je hlavnou črtou zadného mozgu všetkých stavovcov?:1,5,0,2
+Čo je dlhá, tenká, rúrkovitá štruktúra tvorená nervovým tkanivom?:2,1,3,4
+Čo je veľký nerv, ktorý vedie popri bedrovom kĺbe?:3,2,1,5
+Čo je to vetva sedacieho nervu?:4,5,2,1
+Čo je to skupina tiel neurónových buniek v periférnom nervovom systéme?:5,1,0,2

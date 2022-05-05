@@ -1,0 +1,10 @@
+Zožltnutie kože a očných bielkov:Hepatitída:3,4,5:
+Vyrážka alebo svrbenie okolo konečníka:Črevné parazity:2,7,8:
+Stredná až silná bolesť brucha, ktorá sa môže rozšíriť do chrbta:Pankreatitída:1,3,4:
+Silná bolesť žalúdka:Žalúdočný vred:6,7,8:
+Náhla bolesť, ktorá začína na pravej strane podbruška:Zápal slepého čreva:0,3,7:
+Nevoľnosť alebo opakujúce sa žalúdočné ťažkosti:Gastritída:4,2,1:
+Extrémne svrbenie okolo konečníka:Hemoroidy:0,2,3:
+Bolesť alebo pocit pálenia pri močení:Obličkové kamene:3,9,1:
+Zožltnutie kože a očných bielkov:Cirhóza:7,5,4:
+Krv v stolici:Crohnova choroba:2,7,8:

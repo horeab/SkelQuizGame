@@ -2,4 +2,4 @@ Ein neuer Knoten in der Brust oder Achsel:Brustkrebs:1,2,3:
 Blut im Urin:Prostatakrebs:2,3,4:
 Eine Änderung der Stuhlgewohnheiten:Darmkrebs:1,3,4:
 ein Husten, der nach 2 oder 3 Wochen nicht verschwindet:Lungenkrebs:1,2,4:
-Ein Leberfleck, der sich in Farbe oder Größe verändert oder der blutet:Hautkrebs:0,1,3:
+Ein Pigmentnävus, der sich in Farbe oder Größe verändert oder der blutet:Hautkrebs:0,1,3:

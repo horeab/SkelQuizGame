@@ -1,0 +1,4 @@
+kulaktan akan sıvı:otit‎:1,2,3:
+Sağırlık:Sağırlık:0,2,3:
+kulaklarda çınlama sesi:kulak çınlaması:0,1,3:
+baş dönmesi:Meniere hastalığı:0,1,2:

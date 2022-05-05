@@ -1,0 +1,10 @@
+Zażółcenie skóry i białek oczu:Zapalenie wątroby:3,4,5:
+Wysypka lub swędzenie wokół odbytnicy:Pasożyty jelitowe:2,7,8:
+Umiarkowany do silnego ból brzucha, który może promieniować na plecy:Zapalenie trzustki:1,3,4:
+Silny ból brzucha:Wrzód żołądka:6,7,8:
+Nagły ból, który zaczyna się po prawej stronie podbrzusza:Zapalenie wyrostka robaczkowego:0,3,7:
+Nudności lub nawracające rozstrój żołądka:Nieżyt żołądka:4,2,1:
+Ekstremalne swędzenie wokół odbytu:Hemoroidy:0,2,3:
+Ból lub pieczenie podczas oddawania moczu:Kamienie nerkowe:3,9,1:
+Zażółcenie skóry i białek oczu:Marskość:7,5,4:
+Krew w kale:choroba Crohna:2,7,8:

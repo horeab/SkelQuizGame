@@ -1,0 +1,5 @@
+Modrikasta barva kože, nohtov in ustnic:Hipoksemija:1,2,3:
+Trzanje v rokah, obrazu in nogah:Hipokalcemija:0,2,4:
+Pogostejše uriniranje in žeja:Hiperkalcemija:0,1:
+oslabitev kosti:hipofosfatemija:0,4:
+mišični krči ali krči:Hiperfosfatemija:0,1:

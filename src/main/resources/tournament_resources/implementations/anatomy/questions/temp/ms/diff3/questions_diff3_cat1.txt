@@ -1,0 +1,5 @@
+sakit sendi:Sakit sendi:1,2,3:
+serta-merta, sakit teruk:Patah tulang:2,3:
+Kehilangan ketinggian dari semasa ke semasa:Osteoporosis:1,3,4:
+tulang belakang yang kelihatan melengkung:Scoliosis:0,1,2:
+kulit merah berkilat di atas sendi yang terjejas:Gout:1,2,3:

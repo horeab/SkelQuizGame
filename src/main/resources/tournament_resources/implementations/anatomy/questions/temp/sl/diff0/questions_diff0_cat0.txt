@@ -1,0 +1,10 @@
+Jetra:1,2,3:29.2,45
+Usta:4,2,9:28.1,81.6
+Požiralnik:1,8,5:48.6,58.6
+Debelega črevesa:4,2,6:20.5,21
+Tanko črevo:8,7,1:52.4,19
+želodec:4,6,7:66,41
+žrelo:5,2,9:48.6,81
+Žolčnika:6,9,4:31.3,39.6
+trebušna slinavka:2,1,0:50,35.1
+Slepič:2,8,3:35.1,9.6

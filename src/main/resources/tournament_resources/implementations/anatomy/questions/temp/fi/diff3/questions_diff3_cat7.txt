@@ -1,0 +1,4 @@
+nestettä, joka valuu korvasta:Otitis:1,2,3:
+Kuulon menetys:Kuurous:0,2,3:
+soiva ääni korvissa:Tinnitus:0,1,3:
+huimaus:Menieren tauti:0,1,2:

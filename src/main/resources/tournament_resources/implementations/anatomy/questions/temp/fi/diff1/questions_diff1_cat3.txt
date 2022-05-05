@@ -1,0 +1,6 @@
+Mikä on lihaksikas elin, joka pumppaa verta verenkiertoelimistön verisuonten läpi?:0,1,3,5
+Mikä on tärkein ja suurin valtimo ihmiskehossa?:1,4,3,2
+Mitkä ovat suonet, jotka tyhjentävät munuaisen?:2,5,4,1
+Mitkä ovat parilliset valtimot, jotka toimittavat munuaisille verta?:3,2,1,5
+Mitkä ovat suonet, jotka vievät happitonta verta päästä takaisin sydämeen?:4,2,5,1
+Mikä on suuri suoni, joka sijaitsee syvällä reidessä?:5,2,1,4

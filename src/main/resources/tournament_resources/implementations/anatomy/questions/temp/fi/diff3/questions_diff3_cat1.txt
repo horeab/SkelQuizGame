@@ -1,0 +1,5 @@
+nivelkipu:Niveltulehdus:1,2,3:
+välitön, voimakas kipu:Luunmurtuma:2,3:
+Pituuden menetys ajan myötä:Osteoporoosi:1,3,4:
+näkyvästi kaareva selkäranka:Skolioosi:0,1,2:
+punainen, kiiltävä iho vaurioituneen nivelen päällä:Kihti:1,2,3:

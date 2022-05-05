@@ -1,0 +1,10 @@
+Apakah organ yang menghasilkan hempedu yang diperlukan untuk penghadaman?:0,7,6,8
+Apakah bahagian pertama saluran pencernaan yang menerima makanan dan menghasilkan air liur?:1,2,6,5
+Melalui organ manakah makanan melalui farinks ke perut?:2,6,9,7
+Apakah organ bahagian terakhir sistem pencernaan?:3,4,7,8
+Di manakah penyerapan nutrien dan mineral yang paling banyak daripada makanan berlaku?:4,5,3,0
+Organ apakah yang merembeskan enzim pencernaan dan asid gastrik untuk membantu penghadaman makanan?:5,4,7,3
+Apakah bahagian tekak di belakang mulut dan rongga hidung dinamakan?:6,2,9,8
+Di manakah hempedu disimpan dan tertumpu sebelum dilepaskan ke dalam usus kecil?:7,6,9,8
+Dari manakah insulin dirembeskan?:8,0,7,6
+Apakah organ yang terletak di bahagian bawah abdomen kanan?:9,0,7,2

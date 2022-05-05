@@ -1,0 +1,5 @@
+Iznenadna visoka temperatura, jaka glavobolja koja se čini drukčijom od normalne:Meningitis:1,2,3:
+sljepoća na jedno oko:Multipla skleroza:0,3,4:
+Tremor u rukama:Parkinsonova bolest:0,3,4:
+tikovi pokreta:Touretteov sindrom:0,1,4:
+poteškoće s koncentracijom i propuste u pamćenju:Huntingtonova bolest:0,1,2:

@@ -1,0 +1,5 @@
+Nová hrčka v prsníku alebo v podpazuší:Rakovina prsníka:1,2,3:
+Krv v moči:Rakovina prostaty:2,3,4:
+Zmena v črevných návykoch:Kolorektálny karcinóm:1,3,4:
+kašeľ, ktorý nezmizne po 2 alebo 3 týždňoch:Rakovina pľúc:1,2,4:
+znamienka, ktorý mení farbu, veľkosť alebo krváca:Rakovina kože:0,1,3:

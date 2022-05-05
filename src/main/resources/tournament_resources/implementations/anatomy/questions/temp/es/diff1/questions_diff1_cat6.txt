@@ -1,0 +1,6 @@
+¿Cuál es el mayor de los cuatro lóbulos principales del cerebro?:0,3,1,4
+¿Qué se encuentra detrás de las orejas y es el segundo lóbulo más grande?:1,0,3,2
+¿Qué está involucrado en la percepción de la sensación, incluyendo el tacto, la temperatura, el dolor?:2,0,3,5
+¿Cuál es el centro de procesamiento visual del cerebro?:3,0,1,4
+¿Qué juega un papel importante en el control del equilibrio?:4,5,0,1
+¿Qué ayuda a controlar la frecuencia cardíaca y la frecuencia respiratoria?:5,0,4,3

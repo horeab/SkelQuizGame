@@ -1,0 +1,6 @@
+Hvad er den muskel, der danner den afrundede kontur af den menneskelige skulder?:0,1,3,5
+Hvad er en stor muskel, der ligger på forsiden af ​​overarmen mellem skulderen og albuen?:1,0,2,3
+Hvilken muskel er placeret ved brystet af den menneskelige krop?:2,3,5,1
+Hvad er en trekantet muskel placeret på den bagerste del af nakken?:3,1,2,5
+Hvilken muskel er den største af de laterale mavemuskler?:4,1,2,0
+Hvad er den største af 4 muskler i benets forreste del?:5,3,0,1

@@ -1,0 +1,10 @@
+Hva er en sykdom der leveren din blir betent?:Hepatitt::
+Hva er en sykdom der en parasitt infiserer mage-tarmkanalen til mennesker?:Tarmparasitter::
+Hva er en sykdom der bukspyttkjertelen din blir betent?:Pankreatitt::
+Hva er en sykdom som forårsaker brudd i den indre slimhinnen i magen?:Magesår::
+Hva er en sykdom der blindtarmen din blir betent?:Blindtarmbetennelse::
+Hva er en sykdom der den indre slimhinnen i magen blir betent?:Gastritt::
+Hvilken sykdom forårsaker hovne årer i nedre endetarm?:Hemorroider::
+Hva er harde forekomster laget av mineraler og salter?:Nyrestein::
+Hva er arrdannelse i leveren forårsaket av langvarig leverskade?:Skrumplever::
+Hva er en type inflammatorisk tarmsykdom?:Crohns sykdom::

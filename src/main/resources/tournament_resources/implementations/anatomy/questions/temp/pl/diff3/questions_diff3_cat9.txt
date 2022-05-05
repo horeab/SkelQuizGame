@@ -1,0 +1,4 @@
+Pochmurna wizja:Zaćma:1,2,3:
+Różowy lub czerwony kolor w bieli oka:Zapalenie spojówek:0,2,3:
+intensywny ból oka:Jaskra:0,1,3:
+Słaba percepcja głębi i widzenie peryferyjne:Niedowidzenie:0,1,2:

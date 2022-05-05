@@ -1,0 +1,6 @@
+Cơ quan cơ bắp bơm máu qua các mạch máu của hệ tuần hoàn là gì?:0,1,3,5
+Động mạch chính và lớn nhất trong cơ thể con người là gì?:1,4,3,2
+Tĩnh mạch dẫn lưu thận là gì?:2,5,4,1
+Những động mạch ghép nối cung cấp máu cho thận là gì?:3,2,1,5
+Các tĩnh mạch đưa máu đã khử oxy từ đầu trở về tim là gì?:4,2,5,1
+Một tĩnh mạch lớn nằm sâu trong đùi là gì?:5,2,1,4

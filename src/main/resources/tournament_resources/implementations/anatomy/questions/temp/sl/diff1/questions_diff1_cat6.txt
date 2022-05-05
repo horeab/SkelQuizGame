@@ -1,0 +1,6 @@
+Kateri je največji od štirih glavnih možganskih rež?:0,3,1,4
+Kaj sedi za ušesi in je drugi največji reženj?:1,0,3,2
+Kaj je vključeno v zaznavanje občutka, vključno z dotikom, temperaturo, bolečino?:2,0,3,5
+Kaj je center za vizualno obdelavo možganov?:3,0,1,4
+Kaj igra pomembno vlogo pri nadzoru ravnotežja?:4,5,0,1
+Kaj pomaga pri nadzoru srčnega utripa in dihanja?:5,0,4,3

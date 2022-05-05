@@ -1,0 +1,5 @@
+Màu hơi xanh ở da, móng tay và môi:Hạ oxy máu:1,2,3:
+Co giật ở tay, mặt và chân:Hạ calci huyết:0,2,4:
+Đi tiểu thường xuyên hơn và khát:Tăng calci huyết:0,1:
+xương yếu đi:giảm phosphate huyết:0,4:
+chuột rút hoặc co thắt cơ:Tăng phốt phát huyết:0,1:

@@ -1,0 +1,5 @@
+Blåaktig färg i hud, fingernaglar och läppar:Hypoxemi:1,2,3:
+Ryckningar i händer, ansikte och fötter:Hypokalcemi:0,2,4:
+Mer frekvent urinering och törst:Hyperkalcemi:0,1:
+försvagning av ben:hypofosfatemi:0,4:
+muskelkramper eller spasmer:Hyperfosfatemi:0,1:

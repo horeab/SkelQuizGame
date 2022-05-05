@@ -1,0 +1,6 @@
+Apa yang terbesar dari empat lobus utama otak?:0,3,1,4
+Apa yang ada di belakang telinga dan merupakan lobus terbesar kedua?:1,0,3,2
+Apa yang terlibat dalam persepsi sensasi, termasuk sentuhan, suhu, nyeri?:2,0,3,5
+Apa pusat pemrosesan visual otak?:3,0,1,4
+Apa yang memainkan peran penting dalam kontrol keseimbangan?:4,5,0,1
+Apa yang membantu mengendalikan detak jantung dan laju pernapasan?:5,0,4,3

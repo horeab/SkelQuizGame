@@ -1,0 +1,10 @@
+Porumenelost kože in belih oči:Hepatitis:3,4,5:
+Izpuščaj ali srbenje okoli rektuma:Črevesni paraziti:2,7,8:
+Zmerne do hude bolečine v trebuhu, ki se lahko razširijo na hrbet:Pankreatitis:1,3,4:
+Hude bolečine v želodcu:Razjeda na želodcu:6,7,8:
+Nenadna bolečina, ki se začne na desni strani spodnjega dela trebuha:Apendicitis:0,3,7:
+Slabost ali ponavljajoče se želodčne motnje:Gastritis:4,2,1:
+Ekstremno srbenje okoli anusa:Hemoroidi:0,2,3:
+Bolečina ali pekoč občutek med uriniranjem:Ledvični kamni:3,9,1:
+Porumenelost kože in belih oči:ciroza:7,5,4:
+Kri v blatu:Crohnova bolezen:2,7,8:

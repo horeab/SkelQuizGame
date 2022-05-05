@@ -1,0 +1,5 @@
+Encías rojas o hinchadas:periodontitis:2,3,4:
+Encías rojas o hinchadas:gingivitis:2,3,4:
+Dolor de muelas:Caries dental:0,4,3:
+problemas para tragar:Amigdalitis:0,2,4:
+Deformidades de la mandíbula superior:Labio leporino:0,2,3:

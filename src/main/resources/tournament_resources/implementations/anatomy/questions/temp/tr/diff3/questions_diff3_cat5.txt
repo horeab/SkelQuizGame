@@ -1,0 +1,5 @@
+Kırmızı veya şiş diş etleri:periodontitis:2,3,4:
+Kırmızı veya şiş diş etleri:diş eti iltihabı:2,3,4:
+Diş ağrısı:Diş çürüğü:0,4,3:
+yutma sorunları:Bademcik iltihabı:0,2,4:
+Üst çenedeki şekil bozuklukları:Yarık dudak:0,2,3:

@@ -1,0 +1,4 @@
+Bulutlu görüş:Katarakt:1,2,3:
+Göz beyazında pembe veya kırmızı renk:konjonktivit:0,2,3:
+yoğun göz ağrısı:glokom:0,1,3:
+Zayıf derinlik algısı ve çevresel görüş:ambliyopi:0,1,2:

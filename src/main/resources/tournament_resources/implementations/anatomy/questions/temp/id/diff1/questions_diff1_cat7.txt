@@ -1,0 +1,7 @@
+Apa bagian telinga yang terlihat di luar kepala?:0,3,6,2
+Apa yang dimaksud dengan jalur dari telinga luar ke telinga tengah?:1,2,3,0
+Apa yang dimaksud dengan lipatan kulit tipis yang diregangkan ketat seperti drum dan bergetar ketika suara mengenainya?:2,0,5,3
+Apa tiga tulang di telinga tengah yang termasuk tulang terkecil di tubuh manusia?:3,0,6,2
+Apa yang menyerupai cangkang siput?:4,2,0,6
+Apa yang membawa informasi sensorik pendengaran dari koklea telinga bagian dalam langsung ke otak?:5,2,0,6
+Apa yang disebut juga sebagai tabung pendengaran?:6,1,4,0

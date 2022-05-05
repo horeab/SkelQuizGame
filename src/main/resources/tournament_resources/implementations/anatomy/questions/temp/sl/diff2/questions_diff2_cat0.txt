@@ -1,0 +1,10 @@
+Kakšna je bolezen, pri kateri se vaša jetra vnamejo?:Hepatitis::
+Kakšna je bolezen, pri kateri parazit okuži človeški prebavni trakt?:Črevesni paraziti::
+Kakšna je bolezen, pri kateri se trebušna slinavka vname?:Pankreatitis::
+Kakšna je bolezen, ki povzroči zlom notranje sluznice želodca?:Razjeda na želodcu::
+Kakšna je bolezen, pri kateri se vaš slepič vname?:Apendicitis::
+Kakšna je bolezen, pri kateri se vaša notranja sluznica želodca vname?:Gastritis::
+Katera bolezen povzroča otekle žile v spodnjem delu danke?:Hemoroidi::
+Kakšne so trde nahajališča mineralov in soli?:Ledvični kamni::
+Kakšne so brazgotine na jetrih, ki jih povzroča dolgotrajna poškodba jeter?:ciroza::
+Kakšna je vrsta vnetne črevesne bolezni?:Crohnova bolezen::

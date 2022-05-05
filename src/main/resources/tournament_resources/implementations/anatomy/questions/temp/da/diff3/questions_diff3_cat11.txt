@@ -1,0 +1,5 @@
+Blålig farve i hud, negle og læber:Hypoxæmi:1,2,3:
+Rykninger i dine hænder, ansigt og fødder:Hypokalcæmi:0,2,4:
+Hyppigere vandladning og tørst:Hypercalcæmi:0,1:
+svækkelse af knogler:hypofosfatæmi:0,4:
+muskelkramper eller spasmer:Hyperfosfatæmi:0,1:

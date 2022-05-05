@@ -1,0 +1,5 @@
+Niebieskawy kolor skóry, paznokci i ust:Hipoksemia:1,2,3:
+Drganie w dłoniach, twarzy i stopach:Hipokalcemia:0,2,4:
+Częstsze oddawanie moczu i pragnienie:Hiperkalcemia:0,1:
+osłabienie kości:hipofosfatemia:0,4:
+skurcze lub skurcze mięśni:Hiperfosfatemia:0,1:

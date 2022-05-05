@@ -1,0 +1,7 @@
+Hvad er den synlige del af øret, der er uden for hovedet?:0,3,6,2
+Hvad er en vej, der løber fra det ydre øre til mellemøret?:1,2,3,0
+Hvad er en tynd hudflig, der strækkes stramt som en tromme og vibrerer, når lyden rammer den?:2,0,5,3
+Hvad er tre knogler i mellemøret, der er blandt de mindste knogler i menneskekroppen?:3,0,6,2
+Hvad minder om skallen på en snegl?:4,2,0,6
+Hvad bærer auditiv sensorisk information fra cochlea i det indre øre direkte til hjernen?:5,2,0,6
+Hvad er også kendt som det auditive rør?:6,1,4,0

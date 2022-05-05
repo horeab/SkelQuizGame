@@ -1,0 +1,10 @@
+Zežloutnutí kůže a očního bělma:Hepatitida:3,4,5:
+Vyrážka nebo svědění kolem konečníku:Střevní paraziti:2,7,8:
+Středně silná až silná bolest břicha, která se může rozšířit do zad:Pankreatitida:1,3,4:
+Silná bolest žaludku:Žaludeční vřed:6,7,8:
+Náhlá bolest, která začíná na pravé straně podbřišku:Apendicitida:0,3,7:
+Nevolnost nebo opakující se žaludeční nevolnost:Zánět žaludku:4,2,1:
+Extrémní svědění kolem řitního otvoru:Hemoroidy:0,2,3:
+Bolest nebo pocit pálení při močení:Ledvinové kameny:3,9,1:
+Zežloutnutí kůže a očního bělma:Cirhóza:7,5,4:
+Krev ve stolici:Crohnova nemoc:2,7,8:

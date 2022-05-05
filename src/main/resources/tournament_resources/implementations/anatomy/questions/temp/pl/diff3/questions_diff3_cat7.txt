@@ -1,0 +1,4 @@
+płyn, który spływa z ucha:Zapalenie ucha‎:1,2,3:
+Utrata słuchu:Głuchota:0,2,3:
+dzwonienie w uszach:szum w uszach:0,1,3:
+zawrót głowy:choroba Meniere'a:0,1,2:

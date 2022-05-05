@@ -1,0 +1,5 @@
+Ciltte, tırnaklarda ve dudaklarda mavimsi renk:hipoksemi:1,2,3:
+Ellerinizde, yüzünüzde ve ayaklarınızda seğirme:hipokalsemi:0,2,4:
+Daha sık idrara çıkma ve susuzluk:hiperkalsemi:0,1:
+kemiklerin zayıflaması:hipofosfatemi:0,4:
+kas krampları veya spazmları:hiperfosfatemi:0,1:

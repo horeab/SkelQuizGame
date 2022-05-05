@@ -1,0 +1,5 @@
+Velike mišice teleta:mišična distrofija:2,3,4:
+Ena roka ali ena noga je manjša od druge:mišična atrofija:2,3,4:
+bolečina v tetivi, ki se poslabša, ko se premikate:tendinitis:1,3,4:
+Nenadna, ostra bolečina:mišični krči:1,2:
+nenadna bolečina, ki se poslabša med krčenjem mišice:ruptura mišice:1,2:

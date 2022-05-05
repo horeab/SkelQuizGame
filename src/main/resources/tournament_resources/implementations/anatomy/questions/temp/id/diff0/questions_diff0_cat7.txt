@@ -1,0 +1,7 @@
+Daun telinga:1,2,4:8,31
+Kanal telinga:0,2,6:33.5,42.1
+Gendang telinga:1,5,6:55.6,42
+Osikel:1,0,6:54.3,52.9
+koklea:6,1,5:75.8,45.7
+Saraf pendengaran:6,2,1:91.8,48
+Eustachio tube:5,1,3:77.3,28.3

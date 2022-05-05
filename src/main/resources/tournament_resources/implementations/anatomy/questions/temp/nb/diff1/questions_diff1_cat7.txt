@@ -1,0 +1,7 @@
+Hva er den synlige delen av øret som er utenfor hodet?:0,3,6,2
+Hva er en vei som går fra det ytre øret til mellomøret?:1,2,3,0
+Hva er en tynn hudflik som strekkes stramt som en tromme og vibrerer når lyden treffer den?:2,0,5,3
+Hva er tre bein i mellomøret som er blant de minste beinene i menneskekroppen?:3,0,6,2
+Hva ligner på skallet til en snegle?:4,2,0,6
+Hva bærer auditiv sensorisk informasjon fra sneglen i det indre øret direkte til hjernen?:5,2,0,6
+Hva er også kjent som hørselsrøret?:6,1,4,0

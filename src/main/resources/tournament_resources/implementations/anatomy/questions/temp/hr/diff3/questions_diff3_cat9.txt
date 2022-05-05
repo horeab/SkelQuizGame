@@ -1,0 +1,4 @@
+Zamagljen vid:Katarakta:1,2,3:
+Ružičasta ili crvena boja u bjelini oka:Konjunktivitis:0,2,3:
+intenzivna bol u oku:Glaukom:0,1,3:
+Loša percepcija dubine i periferni vid:Ambliopija:0,1,2:

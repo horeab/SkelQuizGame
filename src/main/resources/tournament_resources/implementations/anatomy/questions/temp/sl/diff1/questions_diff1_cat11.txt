@@ -1,0 +1,6 @@
+Kaj se uporablja za oksidacijo naše hrane v procesu celičnega dihanja in s tem sproščanje energije?:0,1,2,3
+Kateri je drugi najbolj razširjen element v človeškem telesu?:1,2,3,4
+Kaj se uporablja za vzdrževanje hidracije človeškega telesa?:2,3,4,5
+Kaj se uporablja za tvorbo aminokislin v našem telesu, ki posledično tvorijo beljakovine?:3,5,4
+Kaj se uporablja za izgradnjo in vzdrževanje močnih kosti?:4,0,1,2
+Kaj se uporablja pri tvorbi kosti in zob?:5,1,2,3

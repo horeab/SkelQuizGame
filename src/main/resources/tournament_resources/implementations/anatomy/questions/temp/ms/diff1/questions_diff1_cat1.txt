@@ -1,0 +1,12 @@
+Apakah struktur tulang yang membentuk kepala?:0,1,9,7
+Apa yang dikenali juga sebagai tulang bahu?:1,9,11,6
+Apakah struktur tulang separa tegar dan tulang rawan yang mengelilingi rongga toraks?:2,7,8,11
+Apakah ciri yang menentukan bagi vertebrata?:3,0,11,2
+Apakah yang lebih besar daripada dua tulang di kaki di bawah lutut?:4,6,9,5
+Apakah tulang terpanjang dan terkuat dalam badan anda?:5,6,9,1
+Apakah tulang panjang di lengan yang berjalan dari bahu ke siku?:6,5,1,7
+Apakah kumpulan lima tulang tangan di antara falang dan pergelangan tangan?:7,5,1,3
+Apakah tulang yang membentuk pergelangan tangan?:8,7,9,10
+Apakah gugusan tujuh tulang artikulasi pada setiap kaki?:9,7,8,1
+Apakah kumpulan lima tulang panjang di kaki?:10,8,7,4
+Apakah bahagian bawah batang tubuh?:11,6,3,2

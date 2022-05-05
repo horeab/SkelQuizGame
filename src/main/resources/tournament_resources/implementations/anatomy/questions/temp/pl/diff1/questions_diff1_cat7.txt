@@ -1,0 +1,7 @@
+Jaka jest widoczna część ucha, która znajduje się poza głową?:0,3,6,2
+Jaka jest ścieżka biegnąca od ucha zewnętrznego do ucha środkowego?:1,2,3,0
+Czym jest cienki płat skóry, który jest naciągnięty jak bęben i wibruje, gdy uderza w niego dźwięk?:2,0,5,3
+Jakie są trzy kości w uchu środkowym, które należą do najmniejszych kości w ludzkim ciele?:3,0,6,2
+Co przypomina muszlę ślimaka?:4,2,0,6
+Co przenosi słuchowe informacje czuciowe ze ślimaka ucha wewnętrznego bezpośrednio do mózgu?:5,2,0,6
+Co jest również znane jako rura słuchowa?:6,1,4,0

@@ -1,0 +1,10 @@
+Gulfarging av huden og det hvite i øynene:Hepatitt:3,4,5:
+Utslett eller kløe rundt endetarmen:Tarmparasitter:2,7,8:
+Moderat til alvorlig magesmerter som kan spre seg til ryggen:Pankreatitt:1,3,4:
+Sterke magesmerter:Magesår:6,7,8:
+Plutselig smerte som begynner på høyre side av nedre del av magen:Blindtarmbetennelse:0,3,7:
+Kvalme eller tilbakevendende urolig mage:Gastritt:4,2,1:
+Ekstrem kløe rundt anus:Hemorroider:0,2,3:
+Smerte eller brennende følelse ved vannlating:Nyrestein:3,9,1:
+Gulfarging av huden og det hvite i øynene:Skrumplever:7,5,4:
+Blod i avføringen:Crohns sykdom:2,7,8:

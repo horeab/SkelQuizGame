@@ -1,0 +1,10 @@
+Vad är en sjukdom där din lever blir inflammerad?:Hepatit::
+Vad är en sjukdom där en parasit infekterar mag-tarmkanalen hos människor?:Tarmparasiter::
+Vad är en sjukdom där din bukspottkörtel blir inflammerad?:Pankreatit::
+Vad är en sjukdom som orsakar brott i magslemhinnan?:Magsår::
+Vad är en sjukdom där din blindtarm blir inflammerad?:Appendicit::
+Vad är en sjukdom där din inre slemhinna i magen blir inflammerad?:Gastrit::
+Vilken sjukdom orsakar svullna vener i din nedre ändtarm?:Hemorrojder::
+Vad är hårda avlagringar gjorda av mineraler och salter?:Njursten::
+Vad är ärrbildning i levern orsakad av långvarig leverskada?:Cirros::
+Vad är en typ av inflammatorisk tarmsjukdom?:Crohns sjukdom::

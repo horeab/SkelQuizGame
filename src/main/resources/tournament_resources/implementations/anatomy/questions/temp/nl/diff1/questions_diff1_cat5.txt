@@ -1,0 +1,8 @@
+Wat zijn spierplooien die de mond omsluiten?:0,1,4,7
+Wat is een vlezige verlenging die boven de keel hangt?:1,4,0,7
+Wat zijn platte tanden aan de achterkant van de mond?:2,3,5,6
+Wat zijn de voortanden?:3,2,5,6
+Wat is een spierorgaan in de mond?:4,5,6,1
+Welke organen spelen een belangrijke rol in het immuunsysteem?:5,1,4,0
+Wat is een dunne horizontale benige plaat die bestaat uit twee botten van het aangezichtsskelet?:6,7,2,5
+Wat is het zachte weefsel dat de achterkant van het gehemelte vormt?:7,5,1,0

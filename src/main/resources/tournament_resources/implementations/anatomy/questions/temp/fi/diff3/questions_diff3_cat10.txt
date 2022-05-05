@@ -1,0 +1,5 @@
+Uusi kyhmy rinnassa tai kainalossa:Rintasyöpä:1,2,3:
+Veri virtsassa:Eturauhassyöpä:2,3,4:
+Muutos suolistotottumuksissa:Peräsuolen syöpä:1,3,4:
+yskä, joka ei häviä 2 tai 3 viikon kuluttua:Keuhkosyöpä:1,2,4:
+luomea, jonka väri, koko muuttuu tai joka vuotaa verta:Ihosyöpä:0,1,3:

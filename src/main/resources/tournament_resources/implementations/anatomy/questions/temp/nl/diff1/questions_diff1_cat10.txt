@@ -1,0 +1,7 @@
+Wat bevindt zich in het midden van de cel en bevat het DNA dat in chromosomen is gerangschikt?:0,1,2,3
+Welk gebied in de cel houdt zich bezig met het produceren van de celribosomen?:1,2,3,4
+Wat is een gelatineuze vloeistof die de binnenkant van een cel vult?:2,3,4,5
+Wat beschermt de cel tegen zijn externe omgeving?:3,4,2,1
+Wat is een celstructuur die eiwit produceert?:4,3,2,1
+Wat zet chemische energie om in een energievorm die de cel kan gebruiken?:5,4,3,2
+Wat is het transportsysteem van de eukaryote cel?:6,5,0,1

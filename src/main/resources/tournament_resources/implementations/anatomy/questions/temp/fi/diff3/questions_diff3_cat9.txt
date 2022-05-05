@@ -1,0 +1,4 @@
+Pilvinen näkö:Kaihi:1,2,3:
+Vaaleanpunainen tai punainen väri silmänvalkuaisessa:Sidekalvotulehdus:0,2,3:
+voimakas silmäkipu:Glaukooma:0,1,3:
+Huono syvyyshavainnointi ja perifeerinen näkö:Amblyopia:0,1,2:

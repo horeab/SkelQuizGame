@@ -1,0 +1,4 @@
+tekutina, která odtéká z ucha:Otitis:1,2,3:
+Ztráta sluchu:Hluchota:0,2,3:
+zvonění v uších:Tinnitus:0,1,3:
+závrať:meniérová nemoc:0,1,2:

@@ -1,0 +1,6 @@
+¿Qué se utiliza para oxidar nuestros alimentos, en el proceso de respiración celular, liberando así energía?:0,1,2,3
+¿Cuál es el segundo elemento más abundante en el cuerpo humano?:1,2,3,4
+¿Qué se utiliza para mantener el cuerpo humano hidratado?:2,3,4,5
+¿Qué se usa para producir aminoácidos en nuestro cuerpo que a su vez produce proteínas?:3,5,4
+¿Qué se usa para construir y mantener huesos fuertes?:4,0,1,2
+¿Qué se utiliza en la formación de huesos y dientes?:5,1,2,3

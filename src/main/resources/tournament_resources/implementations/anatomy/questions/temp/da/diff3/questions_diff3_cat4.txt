@@ -1,0 +1,5 @@
+Pludselig høj feber, svær hovedpine, der virker anderledes end normalt:Meningitis:1,2,3:
+blindhed på det ene øje:Multipel sclerose:0,3,4:
+Rysten i hænderne:Parkinsons sygdom:0,3,4:
+bevægelses-tics:Tourettes syndrom:0,1,4:
+koncentrationsbesvær og hukommelsessvigt:Huntingtons sygdom:0,1,2:

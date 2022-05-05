@@ -1,0 +1,4 @@
+væske, der dræner fra øret:Otitis:1,2,3:
+Tab af hørelse:Døvhed:0,2,3:
+en ringen for ørerne:Tinnitus:0,1,3:
+svimmelhed:Menières sygdom:0,1,2:

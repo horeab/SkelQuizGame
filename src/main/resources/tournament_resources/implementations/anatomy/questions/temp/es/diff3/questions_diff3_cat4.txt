@@ -1,0 +1,5 @@
+Fiebre alta repentina, dolor de cabeza intenso que parece diferente de lo normal:Meningitis:1,2,3:
+ceguera en un ojo:Esclerosis múltiple:0,3,4:
+Temblor en las manos:enfermedad de Parkinson:0,3,4:
+tics de movimiento:Síndrome de Tourette:0,1,4:
+dificultad para concentrarse y lapsos de memoria:enfermedad de Huntington:0,1,2:

@@ -1,0 +1,5 @@
+Nagy vádli izmok:izomsorvadás:2,3,4:
+Az egyik kar vagy láb kisebb, mint a másik:izomsorvadás:2,3,4:
+ínfájdalom, amely mozgás közben fokozódik:ínhüvelygyulladás:1,3,4:
+Hirtelen, éles fájdalom:izomgörcsök:1,2:
+hirtelen fájdalom, amely az izomösszehúzódás során fokozódik:izomszakadás:1,2:

@@ -1,0 +1,4 @@
+a fülből kifolyó folyadék:Otitis:1,2,3:
+Hallásvesztés:Süketség:0,2,3:
+csengő hang a fülben:Fülzúgás:0,1,3:
+szédülés:Meniere-kór:0,1,2:

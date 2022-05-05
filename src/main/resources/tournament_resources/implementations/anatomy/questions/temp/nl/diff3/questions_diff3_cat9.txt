@@ -1,0 +1,4 @@
+Vertroebeld zicht:staar:1,2,3:
+Roze of rode kleur in het wit van het oog:Bindvliesontsteking:0,2,3:
+intense oogpijn:glaucoom:0,1,3:
+Slechte dieptewaarneming en perifeer zicht:Amblyopie:0,1,2:

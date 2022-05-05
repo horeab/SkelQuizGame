@@ -1,0 +1,4 @@
+Neboleče otekanje bezgavk v vratu, pazduhah ali dimljah:Limfom:2,3:
+Otekle bezgavke, povečana jetra ali vranica:levkemija:2,3:
+Drgetanje:hipotermija:0,1:
+Otrplost ali šibkost v rokah ali nogah:Ateroskleroza:0,1,2:

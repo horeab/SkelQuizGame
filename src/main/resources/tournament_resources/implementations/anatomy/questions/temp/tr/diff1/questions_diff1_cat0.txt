@@ -1,0 +1,10 @@
+Sindirim için gerekli olan safrayı hangi organ üretir?:0,7,6,8
+Sindirim kanalının yiyecekleri alan ve tükürük üreten ilk kısmı nedir?:1,2,6,5
+Besinler yutaktan mideye hangi organdan geçer?:2,6,9,7
+Sindirim sisteminin son kısmı hangi organdır?:3,4,7,8
+Besinlerin ve minerallerin besinlerden en fazla emilimi nerede gerçekleşir?:4,5,3,0
+Besinlerin sindirimine yardımcı olmak için sindirim enzimleri ve mide asidi salgılayan organ hangisidir?:5,4,7,3
+Boğazın ağız ve burun boşluğunun arkasında kalan kısmına ne ad verilir?:6,2,9,8
+Safra ince bağırsağa salınmadan önce nerede depolanır ve konsantre edilir?:7,6,9,8
+İnsülin nereden salgılanır?:8,0,7,6
+Sağ alt karında hangi organ bulunur?:9,0,7,2

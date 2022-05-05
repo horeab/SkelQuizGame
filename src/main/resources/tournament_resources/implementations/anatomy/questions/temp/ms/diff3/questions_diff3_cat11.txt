@@ -1,0 +1,5 @@
+Warna kebiruan pada kulit, kuku dan bibir:Hipoksemia:1,2,3:
+Berkedut di tangan, muka, dan kaki anda:Hipokalsemia:0,2,4:
+Lebih kerap membuang air kecil dan dahaga:Hiperkalsemia:0,1:
+kelemahan tulang:hipofosfatemia:0,4:
+kekejangan atau kekejangan otot:Hiperfosfatemia:0,1:

@@ -1,0 +1,6 @@
+Vad är ett organ som fungerar som centrum i nervsystemet?:0,1,2,5
+Vad är en viktig egenskap hos bakhjärnan hos alla ryggradsdjur?:1,5,0,2
+Vad är en lång, tunn, rörformig struktur som består av nervvävnad?:2,1,3,4
+Vad är en stor nerv som löper längs höftleden?:3,2,1,5
+Vad är en gren av ischiasnerven?:4,5,2,1
+Vad är en grupp av neuroncellkroppar i det perifera nervsystemet?:5,1,0,2

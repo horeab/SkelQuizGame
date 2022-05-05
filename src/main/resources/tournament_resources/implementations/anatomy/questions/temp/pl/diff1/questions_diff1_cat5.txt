@@ -1,0 +1,8 @@
+Czym są fałdy mięśniowe otaczające usta?:0,1,4,7
+Czym jest mięsiste przedłużenie, które wisi nad gardłem?:1,4,0,7
+Czym są płaskie zęby z tyłu jamy ustnej?:2,3,5,6
+Jakie są przednie zęby?:3,2,5,6
+Czym jest narząd mięśniowy w jamie ustnej?:4,5,6,1
+Jakie narządy odgrywają ważną rolę w układzie odpornościowym?:5,1,4,0
+Czym jest cienka pozioma płytka kostna złożona z dwóch kości szkieletu twarzy?:6,7,2,5
+Jaka jest tkanka miękka stanowiąca tył podniebienia?:7,5,1,0

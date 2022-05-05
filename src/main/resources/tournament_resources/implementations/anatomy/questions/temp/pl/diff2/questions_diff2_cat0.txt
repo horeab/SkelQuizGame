@@ -1,0 +1,10 @@
+Jaka jest choroba, w której dochodzi do zapalenia wątroby?:Zapalenie wątroby::
+Czym jest choroba, w której pasożyt infekuje przewód pokarmowy człowieka?:Pasożyty jelitowe::
+Jaka jest choroba, w której pojawia się stan zapalny trzustki?:Zapalenie trzustki::
+Jaka choroba powoduje pęknięcie wewnętrznej wyściółki żołądka?:Wrzód żołądka::
+Jaka jest choroba, w której dochodzi do zapalenia wyrostka robaczkowego?:Zapalenie wyrostka robaczkowego::
+Jaka jest choroba, w której dochodzi do zapalenia wewnętrznej wyściółki żołądka?:Nieżyt żołądka::
+Jaka choroba powoduje obrzęk żył w dolnej części odbytnicy?:Hemoroidy::
+Czym są twarde złoża minerałów i soli?:Kamienie nerkowe::
+Co to jest bliznowacenie wątroby spowodowane długotrwałym uszkodzeniem wątroby?:Marskość::
+Jaki jest rodzaj nieswoistego zapalenia jelit?:choroba Crohna::

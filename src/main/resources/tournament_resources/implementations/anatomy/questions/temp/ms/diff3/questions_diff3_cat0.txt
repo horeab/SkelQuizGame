@@ -1,0 +1,10 @@
+Kekuningan kulit dan putih mata anda:Hepatitis:3,4,5:
+Ruam atau gatal-gatal di sekitar rektum:Parasit usus:2,7,8:
+Sakit perut sederhana hingga teruk yang mungkin merebak ke belakang anda:Pankreatitis:1,3,4:
+Sakit perut yang teruk:Ulser gastrik:6,7,8:
+Sakit secara tiba-tiba yang bermula di sebelah kanan perut bawah:Apendisitis:0,3,7:
+Loya atau sakit perut berulang:Gastritis:4,2,1:
+Gatal-gatal yang melampau di sekitar dubur:buasir:0,2,3:
+Sakit atau rasa terbakar semasa membuang air kecil:Batu karang:3,9,1:
+Kekuningan kulit dan putih mata anda:Sirosis:7,5,4:
+Darah dalam najis:penyakit Crohn:2,7,8:

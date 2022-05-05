@@ -1,0 +1,5 @@
+bol u zglobovima:Artritis:1,2,3:
+trenutna, jaka bol:Prijelom kostiju:2,3:
+Gubitak visine tijekom vremena:Osteoporoza:1,3,4:
+vidljivo zakrivljenu kralježnicu:Skolioza:0,1,2:
+crvena, sjajna koža preko zahvaćenog zgloba:Giht:1,2,3:

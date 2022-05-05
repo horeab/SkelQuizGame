@@ -1,0 +1,10 @@
+Melyik szerv termeli az emésztéshez szükséges epét?:0,7,6,8
+Mi az emésztőcsatorna első része, amely táplálékot kap és nyálat termel?:1,2,6,5
+Melyik szerven keresztül jut el a táplálék a garatból a gyomorba?:2,6,9,7
+Melyik szerv az emésztőrendszer utolsó része?:3,4,7,8
+Hol szívódnak fel a legtöbb tápanyag és ásványi anyag az élelmiszerekből?:4,5,3,0
+Melyik szerv választja ki az emésztőenzimeket és a gyomorsavat, hogy segítse az emésztést?:5,4,7,3
+Hogyan nevezik a torok száj és orrüreg mögötti részét?:6,2,9,8
+Hol tárolódik és koncentrálódik az epe, mielőtt a vékonybélbe kerül?:7,6,9,8
+Honnan választódik ki az inzulin?:8,0,7,6
+Melyik szerv található a jobb alsó hasban?:9,0,7,2

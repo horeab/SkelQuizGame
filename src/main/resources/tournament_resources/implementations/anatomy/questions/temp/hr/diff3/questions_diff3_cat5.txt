@@ -1,0 +1,5 @@
+Crvene ili natečene desni:Parodontitis:2,3,4:
+Crvene ili natečene desni:gingivitis:2,3,4:
+Zubobolja:Karijes:0,4,3:
+problemi s gutanjem:Tonzilitis:0,2,4:
+Deformacije gornje čeljusti:Napuknuta usna:0,2,3:

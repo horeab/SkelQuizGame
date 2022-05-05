@@ -1,0 +1,10 @@
+Kateri organ proizvaja žolč, ki je potreben za prebavo?:0,7,6,8
+Kateri je prvi del prebavnega trakta, ki sprejema hrano in proizvaja slino?:1,2,6,5
+Skozi kateri organ hrana prehaja iz žrela v želodec?:2,6,9,7
+Kateri organ je zadnji del prebavnega sistema?:3,4,7,8
+Kje poteka največja absorpcija hranil in mineralov iz hrane?:4,5,3,0
+Kateri organ izloča prebavne encime in želodčno kislino za pomoč pri prebavi hrane?:5,4,7,3
+Kako se imenuje del grla za ustno in nosno votlino?:6,2,9,8
+Kje je shranjen in koncentriran žolč, preden se sprosti v tanko črevo?:7,6,9,8
+Od kod se izloča inzulin?:8,0,7,6
+Kateri organ se nahaja v spodnjem desnem delu trebuha?:9,0,7,2

@@ -1,0 +1,5 @@
+Demam tinggi tiba-tiba, sakit kepala parah yang tampak berbeda dari biasanya:meningitis:1,2,3:
+kebutaan pada satu mata:Sklerosis ganda:0,3,4:
+Gemetar di tangan:penyakit Parkinson:0,3,4:
+gerakan tics:Sindrom Tourette:0,1,4:
+kesulitan berkonsentrasi dan kehilangan ingatan:penyakit Huntington:0,1,2:

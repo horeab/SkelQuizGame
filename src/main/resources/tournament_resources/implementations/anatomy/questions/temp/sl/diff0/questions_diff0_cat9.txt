@@ -1,0 +1,7 @@
+Šarenica:6,3,4:11.3,57
+Roženica:2,6,4:1.7,50.5
+Leča:1,4,6:19,51.3
+Mrežnica:1,6,4:64.6,76.8
+Optični živec:0,6,3:87.9,36.2
+Sprednja komora:6,4,3:7.2,51.4
+Steklena komora:1,4,3:49.3,65

@@ -1,0 +1,5 @@
+Grandes músculos de la pantorrilla:distrofia muscular:2,3,4:
+Un brazo o una pierna es más pequeño que el otro:atrofia muscular:2,3,4:
+dolor en un tendón que empeora cuando se mueve:tendinitis:1,3,4:
+Un dolor repentino y agudo:calambres musculares:1,2:
+dolor repentino que empeora al contraer el músculo:ruptura muscular:1,2:

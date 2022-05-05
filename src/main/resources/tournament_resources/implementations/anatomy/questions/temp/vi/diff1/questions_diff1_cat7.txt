@@ -1,0 +1,7 @@
+Phần nhìn thấy của tai nằm ngoài đầu là gì?:0,3,6,2
+Một con đường chạy từ tai ngoài đến tai giữa là gì?:1,2,3,0
+Vạt da mỏng căng như trống và rung lên khi âm thanh chạm vào là gì?:2,0,5,3
+Ba xương ở tai giữa nằm trong số những xương nhỏ nhất trong cơ thể con người là gì?:3,0,6,2
+Điều gì giống với vỏ của một con ốc?:4,2,0,6
+Điều gì mang thông tin cảm giác thính giác từ ốc tai của tai trong trực tiếp đến não?:5,2,0,6
+Cái gì còn được gọi là ống thính giác?:6,1,4,0

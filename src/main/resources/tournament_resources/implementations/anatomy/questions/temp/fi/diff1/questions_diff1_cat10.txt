@@ -1,0 +1,7 @@
+Mitä löytyy solun keskeltä ja se sisältää DNA:ta kromosomeihin järjestyneenä?:0,1,2,3
+Mikä solun alue liittyy solun ribosomien tuottamiseen?:1,2,3,4
+Mikä on hyytelömäinen neste, joka täyttää solun sisäpuolen?:2,3,4,5
+Mikä suojaa solua sen ulkoiselta ympäristöltä?:3,4,2,1
+Mikä on proteiinia tuottava solurakenne?:4,3,2,1
+Mikä muuntaa kemiallisen energian energiamuodoksi, jota solu voi käyttää?:5,4,3,2
+Mikä on eukaryoottisolun kuljetusjärjestelmä?:6,5,0,1

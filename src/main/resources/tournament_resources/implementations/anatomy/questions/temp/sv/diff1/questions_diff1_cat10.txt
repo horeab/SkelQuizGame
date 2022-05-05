@@ -1,0 +1,7 @@
+Vad finns i mitten av cellen och det innehåller DNA ordnat i kromosomer?:0,1,2,3
+Vilken region i cellen är angelägen om att producera cellribosomerna?:1,2,3,4
+Vad är en gelatinös vätska som fyller insidan av en cell?:2,3,4,5
+Vad skyddar cellen från dess yttre miljö?:3,4,2,1
+Vad är en cellstruktur som producerar protein?:4,3,2,1
+Vad omvandlar kemisk energi till en energiform som cellen kan använda?:5,4,3,2
+Vilket transportsystem har den eukaryota cellen?:6,5,0,1

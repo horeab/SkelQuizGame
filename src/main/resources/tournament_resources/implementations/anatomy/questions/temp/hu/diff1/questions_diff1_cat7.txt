@@ -1,0 +1,7 @@
+Mi az a fül látható része, amely a fejen kívül van?:0,3,6,2
+Milyen út vezet a külső fültől a középfülig?:1,2,3,0
+Mi az a vékony bőrleben, amely szorosan megfeszül, mint egy dob, és rezeg, amikor hang éri?:2,0,5,3
+Melyik az a három csont a középfülben, amelyek az emberi test legkisebb csontjai közé tartoznak?:3,0,6,2
+Mi hasonlít egy csiga héjához?:4,2,0,6
+Mi szállítja a hallási szenzoros információt a belső fül fülcsigából közvetlenül az agyba?:5,2,0,6
+Mit is neveznek hallócsőnek?:6,1,4,0

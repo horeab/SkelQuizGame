@@ -1,0 +1,6 @@
+Otak:5,4,3:50.4,96.8
+Otak kecil:5,4,3:56,92.6
+sumsum tulang belakang:0,4,3:50.7,86.8
+Saraf siatik:0,4,5:59.4,37.6
+Saraf Tibial:1,5,3:61.1,19.4
+Ganglion:4,3,1:49,70

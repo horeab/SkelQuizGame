@@ -1,0 +1,5 @@
+Zaczerwienione lub spuchnięte dziąsła:Zapalenie ozębnej:2,3,4:
+Czerwone lub spuchnięte dziąsła:zapalenie dziąseł:2,3,4:
+Ból zęba:Próchnica:0,4,3:
+problemy z połykaniem:Zapalenie migdałków:0,2,4:
+Deformacje górnej szczęki:Rozszczep wargi:0,2,3:

@@ -1,0 +1,5 @@
+eklem ağrısı:Artrit:1,2,3:
+ani, şiddetli ağrı:Kemik kırığı:2,3:
+Zamanla yükseklik kaybı:osteoporoz:1,3,4:
+gözle görülür şekilde kavisli bir omurga:skolyoz:0,1,2:
+etkilenen eklem üzerinde kırmızı, parlak cilt:Gut:1,2,3:

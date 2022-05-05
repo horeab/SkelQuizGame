@@ -1,0 +1,7 @@
+O que é encontrado no meio da célula e contém DNA organizado em cromossomos?:0,1,2,3
+Que região dentro da célula está relacionada com a produção dos ribossomos celulares?:1,2,3,4
+O que é um líquido gelatinoso que preenche o interior de uma célula?:2,3,4,5
+O que protege a célula de seu ambiente externo?:3,4,2,1
+O que é uma estrutura celular que produz proteínas?:4,3,2,1
+O que converte a energia química em uma forma de energia que a célula pode usar?:5,4,3,2
+Qual é o sistema de transporte da célula eucariótica?:6,5,0,1

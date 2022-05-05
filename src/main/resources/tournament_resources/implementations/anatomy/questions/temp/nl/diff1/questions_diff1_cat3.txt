@@ -1,0 +1,6 @@
+Wat is een spierorgaan dat bloed door de bloedvaten van de bloedsomloop pompt?:0,1,3,5
+Wat is de belangrijkste en grootste slagader in het menselijk lichaam?:1,4,3,2
+Wat zijn aderen die de nier afvoeren?:2,5,4,1
+Wat zijn gepaarde slagaders die de nieren van bloed voorzien?:3,2,1,5
+Wat zijn aderen die zuurstofarm bloed van het hoofd terug naar het hart voeren?:4,2,5,1
+Wat is een grote ader die zich diep in de dij bevindt?:5,2,1,4

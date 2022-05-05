@@ -1,0 +1,6 @@
+Wat is een orgaan dat dient als het centrum van het zenuwstelsel?:0,1,2,5
+Wat is een belangrijk kenmerk van de achterhersenen van alle gewervelde dieren?:1,5,0,2
+Wat is een lange, dunne buisvormige structuur die bestaat uit zenuwweefsel?:2,1,3,4
+Wat is een grote zenuw die langs het heupgewricht loopt?:3,2,1,5
+Wat is een tak van de heupzenuw?:4,5,2,1
+Wat is een groep neuroncellichamen in het perifere zenuwstelsel?:5,1,0,2

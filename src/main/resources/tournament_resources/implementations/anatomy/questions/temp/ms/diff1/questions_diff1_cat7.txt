@@ -1,0 +1,7 @@
+Apakah bahagian telinga yang boleh dilihat di luar kepala?:0,3,6,2
+Apakah laluan yang mengalir dari telinga luar ke telinga tengah?:1,2,3,0
+Apakah kepak kulit nipis yang diregangkan ketat seperti dram dan bergetar apabila bunyi mengenainya?:2,0,5,3
+Apakah tiga tulang di telinga tengah yang merupakan antara tulang terkecil dalam tubuh manusia?:3,0,6,2
+Apakah yang menyerupai kulit siput?:4,2,0,6
+Apakah yang membawa maklumat deria pendengaran dari koklea telinga dalam terus ke otak?:5,2,0,6
+Apakah yang juga dikenali sebagai tiub pendengaran?:6,1,4,0

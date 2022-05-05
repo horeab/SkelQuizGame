@@ -1,0 +1,5 @@
+Gusi merah atau bengkak:Radang periodontium:2,3,4:
+Gusi merah atau bengkak:Radang gusi:2,3,4:
+Sakit gigi:Pereputan gigi:0,4,3:
+masalah menelan:Sakit tekak:0,2,4:
+Kecacatan rahang atas:Sumbing bibir:0,2,3:

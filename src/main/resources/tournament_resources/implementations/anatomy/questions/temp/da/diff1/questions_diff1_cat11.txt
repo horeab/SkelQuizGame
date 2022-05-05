@@ -1,0 +1,6 @@
+Hvad bruges til at oxidere vores mad, i processen med cellulær respiration, og dermed frigive energi?:0,1,2,3
+Hvad er det næstmest rigelige element i menneskekroppen?:1,2,3,4
+Hvad bruges til at holde menneskekroppen hydreret?:2,3,4,5
+Hvad bruges til at lave aminosyrer i vores krop, som igen laver proteiner?:3,5,4
+Hvad bruges til at bygge og vedligeholde stærke knogler?:4,0,1,2
+Hvad bruges i dannelsen af ​​knogler og tænder?:5,1,2,3

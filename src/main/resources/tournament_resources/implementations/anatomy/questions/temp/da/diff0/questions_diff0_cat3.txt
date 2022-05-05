@@ -1,0 +1,6 @@
+Hjerte:4,2,5:65.3,73
+Aorta:4,2,5:62.9,77.6
+Nyre-vener:0,4,5:57.3,59.1
+Nyre arterie:0,5,4:61.5,59.1
+Halspulsåre:0,2,5:60.4,86.1
+Femoral vene:0,2,4:67.4,37

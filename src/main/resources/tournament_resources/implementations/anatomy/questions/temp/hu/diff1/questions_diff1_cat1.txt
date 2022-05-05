@@ -1,0 +1,12 @@
+Mi az a csontszerkezet, amely a fejet alkotja?:0,1,9,7
+Mit neveznek vállcsontnak?:1,9,11,6
+Mi az a félmerev csontos és porcos szerkezet, amely körülveszi a mellüreget?:2,7,8,11
+Mi a gerinces állat meghatározó tulajdonsága?:3,0,11,2
+Melyik a nagyobb a térd alatti láb két csontja közül?:4,6,9,5
+Melyik a leghosszabb és legerősebb csont a testedben?:5,6,9,1
+Mi az a hosszú csont a karban, amely a válltól a könyökig tart?:6,5,1,7
+Mi az a kéz öt csontból álló csoportja a phalangusok és a csukló között?:7,5,1,3
+Milyen csontok alkotják a csuklót?:8,7,9,10
+Mi az a hét ízületi csontból álló csoport minden lábfejben?:9,7,8,1
+Mit jelent az öt hosszú csontból álló csoport a lábfejben?:10,8,7,4
+Mi a törzs alsó része?:11,6,3,2

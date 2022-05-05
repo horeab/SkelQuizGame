@@ -1,0 +1,5 @@
+Mi az a ráktípus, amely magában foglalhat egy csomót a mellben vagy a mell alakjának megváltozását?:Mellrák::
+Mi a rák leggyakoribb típusa, amely csak férfiakat érint?:Prosztata rák::
+Mi az a ráktípus, amelyben a vastag- vagy végbél sejtjei ellenőrizetlenül növekednek?:Colorectalis rák::
+Milyen típusú rákot okozhat a tartós dohányzás?:Tüdőrák::
+Milyen típusú rákot okoz a nap ultraibolya sugárzásának túlzott kitettsége?:Bőr rák::

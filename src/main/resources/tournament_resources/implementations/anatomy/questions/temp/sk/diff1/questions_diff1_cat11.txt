@@ -1,0 +1,6 @@
+Čo sa používa na oxidáciu našej potravy v procese bunkového dýchania, čím sa uvoľňuje energia?:0,1,2,3
+Aký je druhý najrozšírenejší prvok v ľudskom tele?:1,2,3,4
+Čo sa používa na udržanie hydratácie ľudského tela?:2,3,4,5
+Čo sa používa na tvorbu aminokyselín v našom tele, ktoré zase tvoria bielkoviny?:3,5,4
+Čo sa používa na stavbu a udržanie silných kostí?:4,0,1,2
+Čo sa používa pri tvorbe kostí a zubov?:5,1,2,3

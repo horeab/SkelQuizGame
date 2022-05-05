@@ -1,0 +1,5 @@
+Kékes színű a bőr, a köröm és az ajkak:Hipoxémia:1,2,3:
+Rángat a kezedben, az arcodban és a lábadban:Hipokalcémia:0,2,4:
+Gyakoribb vizelés és szomjúság:Hiperkalcémia:0,1:
+a csontok gyengülése:hipofoszfatémia:0,4:
+izomgörcsök vagy görcsök:Hiperfoszfatémia:0,1:

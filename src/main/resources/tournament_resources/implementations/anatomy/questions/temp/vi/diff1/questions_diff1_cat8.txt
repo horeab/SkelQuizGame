@@ -1,0 +1,9 @@
+Động mạch chính và lớn nhất trong cơ thể con người là gì?:0,3,8,6
+Tĩnh mạch nào đưa máu từ đầu, cổ, cánh tay và ngực về tim?:1,3,0,2
+Tĩnh mạch nào đưa máu từ phần dưới cơ thể trở về tim?:2,1,0,3
+Khoang trên mà máu đi vào tâm thất của tim là gì?:3,5,6,2
+buồng tim nào nhận máu có oxy từ phổi?:4,3,6,8
+Van nào ngăn cách hai buồng tim bên trái?:5,8,7,3
+Buồng cơ bơm máu ra khỏi tim và vào hệ tuần hoàn là gì?:6,5,8,2
+Ngăn nào là một trong bốn ngăn của tim?:7,0,1,2
+Nó có vai trò là ngăn chặn dòng chảy ngược của máu từ tâm thất phải vào tâm nhĩ phải.:8,2,5,4

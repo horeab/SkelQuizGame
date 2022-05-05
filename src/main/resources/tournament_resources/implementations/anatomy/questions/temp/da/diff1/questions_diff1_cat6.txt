@@ -1,0 +1,6 @@
+Hvad er den største af hjernens fire store lapper?:0,3,1,4
+Hvad sidder bag ørerne og er den næststørste lap?:1,0,3,2
+Hvad er involveret i opfattelsen af ​​sansning, herunder berøring, temperatur, smerte?:2,0,3,5
+Hvad er hjernens visuelle behandlingscenter?:3,0,1,4
+Hvad spiller en vigtig rolle i balancekontrol?:4,5,0,1
+Hvad hjælper med at kontrollere puls og vejrtrækning?:5,0,4,3

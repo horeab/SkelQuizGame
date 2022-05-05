@@ -1,0 +1,12 @@
+Hva er en beinstruktur som danner hodet?:0,1,9,7
+Hva er også kjent som skulderbeinet?:1,9,11,6
+Hva er en halvstiv bein- og bruskstruktur som omgir brysthulen?:2,7,8,11
+Hva er den definerende egenskapen til et virveldyr?:3,0,11,2
+Hva er det største av de to beinene i benet under kneet?:4,6,9,5
+Hva er det lengste og sterkeste beinet i kroppen din?:5,6,9,1
+Hva er et langt bein i armen som går fra skulderen til albuen?:6,5,1,7
+Hva er en gruppe på fem håndbein mellom phalanges og håndledd?:7,5,1,3
+Hvilke bein utgjør håndleddet?:8,7,9,10
+Hva er en klynge av syv artikulerende bein i hver fot?:9,7,8,1
+Hva er en gruppe på fem lange bein i foten?:10,8,7,4
+Hva er den nedre delen av torsoen?:11,6,3,2

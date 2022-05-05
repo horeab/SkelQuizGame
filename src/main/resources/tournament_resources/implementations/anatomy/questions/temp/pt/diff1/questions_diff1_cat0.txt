@@ -1,0 +1,10 @@
+Qual órgão produz a bile necessária para a digestão?:0,7,6,8
+Qual é a primeira porção do canal alimentar que recebe alimentos e produz saliva?:1,2,6,5
+Por qual órgão o alimento passa da faringe para o estômago?:2,6,9,7
+Qual órgão é a última parte do sistema digestivo?:3,4,7,8
+Onde ocorre a maior absorção de nutrientes e minerais dos alimentos?:4,5,3,0
+Que órgão secreta enzimas digestivas e ácido gástrico para ajudar na digestão dos alimentos?:5,4,7,3
+Qual é o nome da parte da garganta atrás da boca e da cavidade nasal?:6,2,9,8
+Onde a bile é armazenada e concentrada antes de ser liberada no intestino delgado?:7,6,9,8
+De onde a insulina é secretada?:8,0,7,6
+Qual órgão está localizado no abdome inferior direito?:9,0,7,2

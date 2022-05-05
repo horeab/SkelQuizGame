@@ -1,0 +1,5 @@
+dor nas articulações:Artrite:1,2,3:
+dor imediata e intensa:Fratura óssea:2,3:
+Perda de altura ao longo do tempo:Osteoporose:1,3,4:
+uma coluna visivelmente curvada:Escoliose:0,1,2:
+pele vermelha e brilhante sobre a articulação afetada:Gota:1,2,3:

@@ -1,0 +1,4 @@
+Inchaço indolor dos gânglios linfáticos no pescoço, axilas ou virilha:Linfoma:2,3:
+Linfonodos inchados, fígado ou baço aumentados:Leucemia:2,3:
+Tremendo:Hipotermia:0,1:
+Dormência ou fraqueza em seus braços ou pernas:Aterosclerose:0,1,2:

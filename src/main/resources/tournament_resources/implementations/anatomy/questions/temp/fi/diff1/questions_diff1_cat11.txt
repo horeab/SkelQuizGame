@@ -1,0 +1,6 @@
+Mitä käytetään hapettamaan ruokaamme soluhengitysprosessissa, jolloin vapautuu energiaa?:0,1,2,3
+Mikä on toiseksi runsain alkuaine ihmiskehossa?:1,2,3,4
+Mitä käytetään pitämään ihmiskehon nesteytettynä?:2,3,4,5
+Mitä käytetään aminohappojen tuottamiseen kehossamme, jotka puolestaan ​​muodostavat proteiineja?:3,5,4
+Mitä käytetään vahvojen luiden rakentamiseen ja ylläpitämiseen?:4,0,1,2
+Mitä käytetään luiden ja hampaiden muodostumiseen?:5,1,2,3

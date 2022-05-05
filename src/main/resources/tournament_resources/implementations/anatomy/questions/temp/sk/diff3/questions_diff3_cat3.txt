@@ -1,0 +1,4 @@
+Bezbolestný opuch lymfatických uzlín na krku, v podpazuší alebo v slabinách:Lymfóm:2,3:
+Zdurené lymfatické uzliny, zväčšená pečeň alebo slezina:leukémia:2,3:
+Triaška:Podchladenie:0,1:
+Necitlivosť alebo slabosť v rukách alebo nohách:Ateroskleróza:0,1,2:

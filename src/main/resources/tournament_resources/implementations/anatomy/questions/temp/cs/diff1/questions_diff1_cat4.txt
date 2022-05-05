@@ -1,0 +1,6 @@
+Co je orgán, který slouží jako centrum nervového systému?:0,1,2,5
+Jaký je hlavní rys zadního mozku všech obratlovců?:1,5,0,2
+Co je to dlouhá, tenká, tubulární struktura tvořená nervovou tkání?:2,1,3,4
+Co je velký nerv, který probíhá podél kyčelního kloubu?:3,2,1,5
+Co je to větev sedacího nervu?:4,5,2,1
+Co je to skupina těl neuronů v periferním nervovém systému?:5,1,0,2

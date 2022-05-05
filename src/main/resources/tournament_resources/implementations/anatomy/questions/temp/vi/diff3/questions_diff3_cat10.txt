@@ -1,0 +1,5 @@
+Một khối u mới ở vú hoặc dưới cánh tay:Ung thư vú:1,2,3:
+Có máu trong nước tiểu:Ung thư tuyến tiền liệt:2,3,4:
+Thay đổi thói quen đi tiêu:Ung thư đại trực tràng:1,3,4:
+ho không biến mất sau 2 hoặc 3 tuần:Ung thư phổi:1,2,4:
+Nốt ruồi thay đổi về màu sắc, kích thước hoặc chảy máu:Ung thư da:0,1,3:

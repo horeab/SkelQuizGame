@@ -1,0 +1,4 @@
+Felhős látás:Szürkehályog:1,2,3:
+Rózsaszín vagy vörös szín a szem fehérjében:Kötőhártya-gyulladás:0,2,3:
+intenzív szemfájdalom:Glaukóma:0,1,3:
+Rossz mélységérzékelés és perifériás látás:Amblyopia:0,1,2:

@@ -1,0 +1,7 @@
+Koji je vidljivi dio uha koji je izvan glave?:0,3,6,2
+Što je put koji ide od vanjskog uha do srednjeg uha?:1,2,3,0
+Što je tanak režanj kože koji je čvrsto zategnut poput bubnja i vibrira kada ga udari zvuk?:2,0,5,3
+Koje su tri kosti u srednjem uhu koje su među najmanjim kostima u ljudskom tijelu?:3,0,6,2
+Što podsjeća na ljusku puža?:4,2,0,6
+Što prenosi slušne senzorne informacije iz pužnice unutarnjeg uha izravno u mozak?:5,2,0,6
+Što je također poznato kao slušna cijev?:6,1,4,0

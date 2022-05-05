@@ -1,0 +1,6 @@
+Apa organ berotot yang memompa darah melalui pembuluh darah sistem peredaran darah?:0,1,3,5
+Apa arteri utama dan terbesar dalam tubuh manusia?:1,4,3,2
+Apa pembuluh darah yang mengalirkan ginjal?:2,5,4,1
+Apa pasangan arteri yang memasok darah ke ginjal?:3,2,1,5
+Apa vena yang membawa darah terdeoksigenasi dari kepala kembali ke jantung?:4,2,5,1
+Apa itu vena besar yang terletak jauh di dalam paha?:5,2,1,4

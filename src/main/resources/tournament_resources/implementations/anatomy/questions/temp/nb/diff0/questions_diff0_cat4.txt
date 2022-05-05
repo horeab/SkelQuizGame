@@ -1,0 +1,6 @@
+Hjerne:5,4,3:50.4,96.8
+Lillehjernen:5,4,3:56,92.6
+Ryggmargen:0,4,3:50.7,86.8
+Isjiasnerven:0,4,5:59.4,37.6
+Tibial nerve:1,5,3:61.1,19.4
+Ganglion:4,3,1:49,70

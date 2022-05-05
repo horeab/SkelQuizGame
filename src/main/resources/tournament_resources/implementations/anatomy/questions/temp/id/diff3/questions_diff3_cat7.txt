@@ -1,0 +1,4 @@
+cairan yang keluar dari telinga:Otitis‎:1,2,3:
+Kehilangan pendengaran:Ketulian:0,2,3:
+suara mendenging di telinga:tinitus:0,1,3:
+vertigo:penyakit Meniere:0,1,2:

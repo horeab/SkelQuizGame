@@ -1,0 +1,7 @@
+Göz bebeğinin çapını ve boyutunu kontrol etmekten sorumlu olan gözdeki ince yapı nedir?:0,1,3,2
+Gözün irisi örten şeffaf ön kısmı nedir?:1,2,3,0
+Gözdeki ışığı kırarak retinaya odaklamaya yardımcı olan saydam yapı nedir?:2,3,0,1
+Gözün en içteki ışığa duyarlı doku tabakası nedir?:3,1,0,2
+Görsel bilgiyi retinadan beyne ileten nedir?:4,6,5,3
+Gözün kornea ile iris arasındaki ön kısmı nedir?:5,6,2,3
+Lensin arkasında ve optik sinirin önünde hangi göz odası bulunur?:6,5,3,0

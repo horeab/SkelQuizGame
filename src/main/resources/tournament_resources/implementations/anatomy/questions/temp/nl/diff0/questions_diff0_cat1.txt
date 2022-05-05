@@ -1,0 +1,12 @@
+Schedel:11,8,6:48,97
+Schouderblad:5,4,3:61.1,80.2
+Ribben:11,7,0:56,74.1
+Wervelkolom:8,10,1:45.9,65.2
+Scheenbeen:5,9,3:51.4,23.6
+dijbeen:4,10,7:54.9,35.5
+Opperarmbeen:2,7,9:69.1,66.2
+Middenhandsbeen:6,0,1:81.3,44.8
+Handwortelbotten:5,4,2:77.1,48.7
+Voetwortelbeen:4,3,1:49.3,6.9
+Middenvoetsbeentjes:0,3,5:54.2,2.8
+Bekken:0,6,9:59,58.3

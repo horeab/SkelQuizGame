@@ -1,0 +1,6 @@
+Coração:4,2,5:65.3,73
+Aorta:4,2,5:62.9,77.6
+Veias renais:0,4,5:57.3,59.1
+Artéria renal:0,5,4:61.5,59.1
+Veia jugular:0,2,5:60.4,86.1
+Veia femoral:0,2,4:67.4,37

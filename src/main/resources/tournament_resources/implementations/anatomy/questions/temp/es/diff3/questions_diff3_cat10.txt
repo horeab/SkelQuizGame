@@ -1,0 +1,5 @@
+Un bulto nuevo en el seno o la axila:Cáncer de mama:1,2,3:
+Sangre en la orina:Cancer de prostata:2,3,4:
+Un cambio en los hábitos intestinales.:Cáncer colonrectal:1,3,4:
+una tos que no desaparece después de 2 o 3 semanas:Cáncer de pulmón:1,2,4:
+Un lunar que cambia de color, de tamaño o que sangra:Cáncer de piel:0,1,3:

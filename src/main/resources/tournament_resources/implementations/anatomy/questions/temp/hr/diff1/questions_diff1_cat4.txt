@@ -1,0 +1,6 @@
+Što je organ koji služi kao središte živčanog sustava?:0,1,2,5
+Koja je glavna značajka stražnjeg mozga svih kralježnjaka?:1,5,0,2
+Što je duga, tanka, cjevasta struktura sastavljena od živčanog tkiva?:2,1,3,4
+Što je veliki živac koji prolazi uz zglob kuka?:3,2,1,5
+Što je grana išijadičnog živca?:4,5,2,1
+Što je skupina neuronskih stanica u perifernom živčanom sustavu?:5,1,0,2

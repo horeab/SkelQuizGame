@@ -1,0 +1,10 @@
+Menguningnya kulit dan bagian putih mata Anda:Hepatitis:3,4,5:
+Ruam atau gatal di sekitar dubur:Parasit usus:2,7,8:
+Sakit perut sedang hingga parah yang dapat menyebar ke punggung Anda:Pankreatitis:1,3,4:
+Sakit perut parah:Ulkus lambung:6,7,8:
+Nyeri tiba-tiba yang dimulai di sisi kanan perut bagian bawah:Radang usus buntu:0,3,7:
+Mual atau sakit perut berulang:Radang perut:4,2,1:
+Gatal luar biasa di sekitar anus:Wasir:0,2,3:
+Nyeri atau sensasi terbakar saat buang air kecil:Batu ginjal:3,9,1:
+Menguningnya kulit dan bagian putih mata Anda:Sirosis:7,5,4:
+Darah dalam tinja:Penyakit Crohn:2,7,8:

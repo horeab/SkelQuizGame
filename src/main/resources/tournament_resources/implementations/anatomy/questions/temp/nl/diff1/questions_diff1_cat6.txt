@@ -1,0 +1,6 @@
+Wat is de grootste van de vier grote hersenkwabben?:0,3,1,4
+Wat zit achter de oren en is de op één na grootste kwab?:1,0,3,2
+Wat is betrokken bij de perceptie van sensatie, inclusief aanraking, temperatuur, pijn?:2,0,3,5
+Wat is het visuele verwerkingscentrum van de hersenen?:3,0,1,4
+Wat speelt een belangrijke rol bij balanscontrole?:4,5,0,1
+Wat helpt om de hartslag en ademhaling te beheersen?:5,0,4,3

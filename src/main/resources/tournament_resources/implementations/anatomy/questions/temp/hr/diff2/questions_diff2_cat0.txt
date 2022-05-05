@@ -1,0 +1,10 @@
+Koja je bolest u kojoj se vaša jetra upali?:Hepatitis::
+Koja je bolest u kojoj parazit inficira gastrointestinalni trakt ljudi?:Crijevni paraziti::
+Koja je bolest u kojoj se vaša gušterača upali?:Pankreatitis::
+Koja je bolest koja uzrokuje prekid unutarnje sluznice želuca?:Čir na želucu::
+Koja je bolest u kojoj se vaše slijepo crijevo upali?:Upala slijepog crijeva::
+Koja je bolest u kojoj se vaša unutarnja sluznica želuca upali?:Gastritis::
+Koja bolest uzrokuje natečene vene u donjem dijelu rektuma?:Hemoroidi::
+Što su tvrde naslage minerala i soli?:Bubrežni kamenci::
+Što su ožiljci na jetri uzrokovani dugotrajnim oštećenjem jetre?:Ciroza::
+Koja je vrsta upalne bolesti crijeva?:Crohnova bolest::

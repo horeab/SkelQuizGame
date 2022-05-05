@@ -1,0 +1,4 @@
+Boynunuzdaki, koltuk altınızdaki veya kasıktaki lenf düğümlerinin ağrısız şişmesi:Lenfoma:2,3:
+Şişmiş lenf düğümleri, genişlemiş karaciğer veya dalak:Lösemi:2,3:
+Titreme:hipotermi:0,1:
+Kollarınızda veya bacaklarınızda uyuşma veya güçsüzlük:ateroskleroz:0,1,2:

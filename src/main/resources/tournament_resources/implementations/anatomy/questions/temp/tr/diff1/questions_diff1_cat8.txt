@@ -1,0 +1,9 @@
+İnsan vücudundaki ana ve en büyük arter nedir?:0,3,8,6
+Başınız, boynunuz, kollarınız ve göğsünüzden gelen kanı kalbinize geri taşıyan damar hangisidir?:1,3,0,2
+Alt vücudunuzdaki kanı kalbe geri taşıyan damar hangisidir?:2,1,0,3
+Kanın kalbin karıncıklarına girdiği üst oda nedir?:3,5,6,2
+Oksijenli kanı akciğerlerden hangi kalp odası alır?:4,3,6,8
+Kalbin sol tarafındaki iki odacığı ayıran kapakçık hangisidir?:5,8,7,3
+Kanın kalpten dolaşım sistemine pompalanmasını sağlayan kas odası nedir?:6,5,8,2
+Hangisi kalbin dört odasından biridir?:7,0,1,2
+Görevi, kanın sağ ventrikülden sağ atriyuma geri akışını önlemektir.:8,2,5,4

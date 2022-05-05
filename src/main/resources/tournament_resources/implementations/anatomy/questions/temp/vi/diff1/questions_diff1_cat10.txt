@@ -1,0 +1,7 @@
+Cái gì được tìm thấy ở giữa tế bào và nó chứa ADN được sắp xếp trong các nhiễm sắc thể?:0,1,2,3
+Khu vực nào trong tế bào liên quan đến việc sản xuất ribosome của tế bào?:1,2,3,4
+Chất lỏng sền sệt lấp đầy bên trong tế bào là gì?:2,3,4,5
+Cái gì bảo vệ tế bào khỏi môi trường bên ngoài?:3,4,2,1
+Cấu trúc tế bào tạo ra protein là gì?:4,3,2,1
+Điều gì biến đổi năng lượng hóa học thành một dạng năng lượng mà tế bào có thể sử dụng?:5,4,3,2
+Hệ thống vận chuyển của tế bào nhân thực là gì?:6,5,0,1

@@ -1,0 +1,5 @@
+Büyük baldır kasları:kas distrofisi:2,3,4:
+Bir kol veya bir bacak diğerinden daha küçük:kas atrofisi:2,3,4:
+hareket ettiğinizde kötüleşen bir tendonda ağrı:tendinit:1,3,4:
+Ani, keskin bir ağrı:kas krampları:1,2:
+kas kasılırken kötüleşen ani ağrı:kas yırtılması:1,2:

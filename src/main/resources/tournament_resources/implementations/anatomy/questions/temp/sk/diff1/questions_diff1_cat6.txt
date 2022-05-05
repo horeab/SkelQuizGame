@@ -1,0 +1,6 @@
+Aký je najväčší zo štyroch hlavných lalokov mozgu?:0,3,1,4
+Čo sedí za ušami a je druhý najväčší lalok?:1,0,3,2
+Čo sa podieľa na vnímaní pocitov, vrátane dotyku, teploty, bolesti?:2,0,3,5
+Čo je centrum vizuálneho spracovania mozgu?:3,0,1,4
+Čo hrá dôležitú úlohu pri kontrole rovnováhy?:4,5,0,1
+Čo pomáha kontrolovať srdcovú frekvenciu a frekvenciu dýchania?:5,0,4,3

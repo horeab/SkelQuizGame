@@ -1,0 +1,5 @@
+Ako sa nazýva podnormálna hladina kyslíka vo vašej krvi, konkrétne v tepnách?:Hypoxémia::
+Ako sa nazýva podnormálna hladina vápnika vo vašej krvi?:Hypokalciémia::
+Ako sa nazýva nadnormálna hladina vápnika vo vašej krvi?:Hyperkalcémia::
+Ako sa nazýva hladina fosfátu vo vašej krvi pod normálnou hodnotou?:hypofosfatémia::
+Ako sa nazýva nadnormálna hladina fosfátu vo vašej krvi?:Hyperfosfatémia::

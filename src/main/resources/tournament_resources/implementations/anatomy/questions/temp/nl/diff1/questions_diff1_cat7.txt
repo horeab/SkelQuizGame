@@ -1,0 +1,7 @@
+Wat is het zichtbare deel van het oor dat zich buiten het hoofd bevindt?:0,3,6,2
+Welke weg loopt van het uitwendige oor naar het middenoor?:1,2,3,0
+Wat is een dunne huidflap die strak gespannen is als een trommel en trilt als er geluid op komt?:2,0,5,3
+Welke drie botten in het middenoor behoren tot de kleinste botten in het menselijk lichaam?:3,0,6,2
+Wat lijkt op het schild van een slak?:4,2,0,6
+Wat brengt auditieve sensorische informatie van het slakkenhuis van het binnenoor rechtstreeks naar de hersenen?:5,2,0,6
+Wat wordt ook wel de gehoorbuis genoemd?:6,1,4,0

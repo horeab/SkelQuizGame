@@ -1,0 +1,8 @@
+Što su mišićni nabori koji okružuju usta?:0,1,4,7
+Što je mesnati nastavak koji visi iznad grla?:1,4,0,7
+Što su ravni zubi na stražnjoj strani usta?:2,3,5,6
+Koji su prednji zubi?:3,2,5,6
+Što je mišićni organ u ustima?:4,5,6,1
+Koji organi igraju važnu ulogu u imunološkom sustavu?:5,1,4,0
+Što je tanka horizontalna koštana ploča koju čine dvije kosti kostura lica?:6,7,2,5
+Što je meko tkivo koje čini stražnji dio usnog krova?:7,5,1,0

@@ -1,0 +1,9 @@
+Apa arteri utama dan terbesar dalam tubuh manusia?:0,3,8,6
+Vena mana yang membawa darah dari kepala, leher, lengan, dan dada kembali ke jantung Anda?:1,3,0,2
+Vena mana yang membawa darah dari tubuh bagian bawah kembali ke jantung?:2,1,0,3
+Apa ruang atas melalui mana darah memasuki ventrikel jantung?:3,5,6,2
+ruang jantung apa yang menerima darah beroksigen dari paru-paru?:4,3,6,8
+Katup apa yang memisahkan dua bilik di sisi kiri jantung?:5,8,7,3
+Apa ruang otot yang memompa darah keluar dari jantung dan masuk ke sistem peredaran darah?:6,5,8,2
+Manakah yang merupakan salah satu dari empat ruang jantung?:7,0,1,2
+Perannya adalah untuk mencegah aliran balik darah dari ventrikel kanan ke atrium kanan.:8,2,5,4

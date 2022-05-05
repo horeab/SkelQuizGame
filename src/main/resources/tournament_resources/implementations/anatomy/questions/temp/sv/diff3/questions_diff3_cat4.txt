@@ -1,0 +1,5 @@
+Plötslig hög feber, svår huvudvärk som verkar annorlunda än normalt:Hjärnhinneinflammation:1,2,3:
+blindhet i ena ögat:Multipel skleros:0,3,4:
+Tremor i händerna:Parkinsons sjukdom:0,3,4:
+rörelsetics:Tourettes syndrom:0,1,4:
+koncentrationssvårigheter och minnesbortfall:Huntingtons sjukdom:0,1,2:

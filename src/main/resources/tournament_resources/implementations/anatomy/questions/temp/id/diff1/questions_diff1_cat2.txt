@@ -1,0 +1,6 @@
+Apa otot yang membentuk kontur bulat bahu manusia?:0,1,3,5
+Apa otot besar yang terletak di bagian depan lengan atas antara bahu dan siku?:1,0,2,3
+Otot apa yang terletak di dada tubuh manusia?:2,3,5,1
+Apa yang dimaksud dengan otot segitiga yang terletak di aspek posterior leher?:3,1,2,5
+Otot apa yang terbesar dari otot perut lateral?:4,1,2,0
+Apa yang terbesar dari 4 otot di kompartemen anterior kaki?:5,3,0,1

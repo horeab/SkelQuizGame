@@ -1,0 +1,9 @@
+Qual é a principal e maior artéria do corpo humano?:0,3,8,6
+Qual veia leva o sangue da cabeça, pescoço, braços e peito de volta ao coração?:1,3,0,2
+Qual veia transporta o sangue da parte inferior do corpo de volta ao coração?:2,1,0,3
+Qual é a câmara superior pela qual o sangue entra nos ventrículos do coração?:3,5,6,2
+qual câmara do coração recebe sangue oxigenado dos pulmões?:4,3,6,8
+Qual válvula separa as duas câmaras do lado esquerdo do coração?:5,8,7,3
+O que é a câmara muscular que bombeia o sangue para fora do coração e para o sistema circulatório?:6,5,8,2
+Qual é uma das quatro câmaras do coração?:7,0,1,2
+Seu papel é impedir o refluxo de sangue do ventrículo direito para o átrio direito.:8,2,5,4

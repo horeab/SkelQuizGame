@@ -1,0 +1,10 @@
+Hati:1,2,3:29.2,45
+Mulut:4,2,9:28.1,81.6
+Esofagus:1,8,5:48.6,58.6
+usus besar:4,2,6:20.5,21
+Usus kecil:8,7,1:52.4,19
+Perut:4,6,7:66,41
+Farinks:5,2,9:48.6,81
+Pundi hempedu:6,9,4:31.3,39.6
+Pankreas:2,1,0:50,35.1
+Apendiks:2,8,3:35.1,9.6

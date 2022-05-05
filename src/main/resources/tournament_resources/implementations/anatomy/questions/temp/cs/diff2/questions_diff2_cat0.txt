@@ -1,0 +1,10 @@
+Co je onemocnění, při kterém se vám zanítí játra?:Hepatitida::
+Co je to onemocnění, při kterém parazit infikuje gastrointestinální trakt člověka?:Střevní paraziti::
+Co je to onemocnění, při kterém se vám zanítí slinivka?:Pankreatitida::
+Co je onemocnění, které způsobuje porušení vnitřní výstelky žaludku?:Žaludeční vřed::
+Co je to onemocnění, při kterém se vám zanítí slepé střevo?:Apendicitida::
+Co je to onemocnění, při kterém se zanítí vnitřní výstelka žaludku?:Zánět žaludku::
+Jaké onemocnění způsobuje oteklé žíly v dolní části konečníku?:Hemoroidy::
+Co jsou tvrdá ložiska minerálů a solí?:Ledvinové kameny::
+Co je zjizvení jater způsobené dlouhodobým poškozením jater?:Cirhóza::
+Jaký je typ zánětlivého onemocnění střev?:Crohnova nemoc::

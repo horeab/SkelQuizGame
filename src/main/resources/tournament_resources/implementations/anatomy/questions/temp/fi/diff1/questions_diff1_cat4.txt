@@ -1,0 +1,6 @@
+Mikä on hermoston keskuksena toimiva elin?:0,1,2,5
+Mikä on kaikkien selkärankaisten takaaivojen tärkein ominaisuus?:1,5,0,2
+Mikä on pitkä, ohut, putkimainen rakenne, joka koostuu hermokudoksesta?:2,1,3,4
+Mikä on suuri hermo, joka kulkee lonkkanivelen rinnalla?:3,2,1,5
+Mikä on iskiashermon haara?:4,5,2,1
+Mikä on ryhmä hermosolujen kappaleita ääreishermostossa?:5,1,0,2

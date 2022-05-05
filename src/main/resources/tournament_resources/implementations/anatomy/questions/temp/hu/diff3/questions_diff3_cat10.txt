@@ -1,0 +1,5 @@
+Új csomó a mellben vagy a hónaljban:Mellrák:1,2,3:
+Vér a vizeletben:Prosztata rák:2,3,4:
+A székelési szokások megváltozása:Colorectalis rák:1,3,4:
+köhögés, amely 2-3 hét után sem múlik el:Tüdőrák:1,2,4:
+Anyajegy, amelynek színe, mérete megváltozik vagy vérzik:Bőr rák:0,1,3:

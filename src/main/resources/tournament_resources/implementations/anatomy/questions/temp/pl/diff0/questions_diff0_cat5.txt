@@ -1,0 +1,8 @@
+Usta:1,2,4:61.4,96.6
+Języczek ssaków:6,2,0:48.6,51.8
+Molowe:0,6,1:76.1,33
+Siekacz:0,4,1:50.4,83
+Język:7,2,0:48.2,27.6
+Migdałki:4,0,6:69.5,46.8
+Podniebienie twarde:1,2,0:48.6,73.8
+Podniebienie miękkie:4,2,0:56.3,61

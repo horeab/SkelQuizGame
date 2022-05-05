@@ -1,0 +1,6 @@
+Hva er den største av de fire hovedlappene i hjernen?:0,3,1,4
+Hva sitter bak ørene og er den nest største lappen?:1,0,3,2
+Hva er involvert i oppfatningen av følelse, inkludert berøring, temperatur, smerte?:2,0,3,5
+Hva er det visuelle prosesseringssenteret i hjernen?:3,0,1,4
+Hva spiller en viktig rolle i balansekontroll?:4,5,0,1
+Hva hjelper til med å kontrollere hjertefrekvens og pustefrekvens?:5,0,4,3

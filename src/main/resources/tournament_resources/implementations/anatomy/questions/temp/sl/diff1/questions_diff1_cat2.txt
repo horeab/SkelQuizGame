@@ -1,0 +1,6 @@
+Kakšna je mišica, ki tvori zaobljeno konturo človeškega ramena?:0,1,3,5
+Kaj je velika mišica, ki leži na sprednji strani nadlakti med ramo in komolcem?:1,0,2,3
+Katera mišica se nahaja na prsnem košu človeškega telesa?:2,3,5,1
+Kaj je trikotna mišica, ki se nahaja na zadnji strani vratu?:3,1,2,5
+Katera mišica je največja od stranskih trebušnih mišic?:4,1,2,0
+Katera je največja od 4 mišic v sprednjem delu noge?:5,3,0,1

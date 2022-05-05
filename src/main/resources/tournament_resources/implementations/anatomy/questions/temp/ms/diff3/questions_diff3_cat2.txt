@@ -1,0 +1,5 @@
+Otot betis yang besar:distrofi otot:2,3,4:
+Satu lengan atau satu kaki lebih kecil daripada yang lain:atrofi otot:2,3,4:
+sakit pada tendon yang menjadi lebih teruk apabila anda bergerak:tendinitis:1,3,4:
+Sakit yang tiba-tiba dan tajam:kekejangan otot:1,2:
+sakit secara tiba-tiba yang bertambah teruk semasa mengecutkan otot:pecah otot:1,2:

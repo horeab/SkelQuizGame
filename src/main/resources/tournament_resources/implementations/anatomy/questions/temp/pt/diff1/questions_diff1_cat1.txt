@@ -1,0 +1,12 @@
+O que é uma estrutura óssea que forma a cabeça?:0,1,9,7
+O que também é conhecido como osso do ombro?:1,9,11,6
+O que é uma estrutura óssea e cartilaginosa semi-rígida que circunda a cavidade torácica?:2,7,8,11
+Qual é a característica definidora de um vertebrado?:3,0,11,2
+Qual é o maior dos dois ossos da perna abaixo do joelho?:4,6,9,5
+Qual é o osso mais longo e mais forte do seu corpo?:5,6,9,1
+O que é um osso longo no braço que vai do ombro ao cotovelo?:6,5,1,7
+O que é um grupo de cinco ossos da mão entre as falanges e o pulso?:7,5,1,3
+Quais ossos compõem o pulso?:8,7,9,10
+O que é um conjunto de sete ossos articulados em cada pé?:9,7,8,1
+O que é um grupo de cinco ossos longos no pé?:10,8,7,4
+Qual é a parte inferior do tronco?:11,6,3,2

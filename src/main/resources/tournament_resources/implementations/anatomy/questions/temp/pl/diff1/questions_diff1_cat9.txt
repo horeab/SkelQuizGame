@@ -1,0 +1,7 @@
+Jaka jest cienka struktura w oku odpowiedzialna za kontrolowanie średnicy i wielkości źrenicy?:0,1,3,2
+Jaka jest przezroczysta przednia część oka, która zakrywa tęczówkę?:1,2,3,0
+Jaka jest przezroczysta struktura w oku, która pomaga załamywać światło i skupiać się na siatkówce?:2,3,0,1
+Jaka jest najbardziej wewnętrzna, światłoczuła warstwa tkanki oka?:3,1,0,2
+Co przekazuje informacje wizualne z siatkówki do mózgu?:4,6,5,3
+Jaka jest przednia część oka między rogówką a tęczówką?:5,6,2,3
+Jaka komora oka znajduje się za soczewką i przed nerwem wzrokowym?:6,5,3,0

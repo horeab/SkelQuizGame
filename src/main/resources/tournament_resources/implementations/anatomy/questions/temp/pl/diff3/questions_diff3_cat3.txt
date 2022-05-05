@@ -1,0 +1,4 @@
+Bezbolesny obrzęk węzłów chłonnych szyi, pach lub pachwin:Chłoniak:2,3:
+Powiększone węzły chłonne, powiększona wątroba lub śledziona:Białaczka:2,3:
+dreszcze:Hipotermia:0,1:
+Drętwienie lub osłabienie rąk lub nóg:Miażdżyca:0,1,2:

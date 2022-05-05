@@ -1,0 +1,6 @@
+Mikä on lihas, joka muodostaa ihmisen olkapään pyöristetyn muodon?:0,1,3,5
+Mikä on suuri lihas, joka sijaitsee olkavarren etuosassa olkapään ja kyynärpään välissä?:1,0,2,3
+Mikä lihas sijaitsee ihmiskehon rinnassa?:2,3,5,1
+Mikä on kolmiomainen lihas, joka sijaitsee kaulan takaosassa?:3,1,2,5
+Mikä lihas on sivuttaisista vatsalihaksista suurin?:4,1,2,0
+Mikä on suurin jalan etuosan neljästä lihaksesta?:5,3,0,1

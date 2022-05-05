@@ -1,0 +1,7 @@
+Mikä on silmän ohut rakenne, joka säätelee pupillin halkaisijaa ja kokoa?:0,1,3,2
+Mikä on silmän läpinäkyvä etuosa, joka peittää iiriksen?:1,2,3,0
+Mikä on läpinäkyvä rakenne silmässä, joka auttaa taittamaan valon keskittyäkseen verkkokalvoon?:2,3,0,1
+Mikä on silmän sisin, valoherkkä kudoskerros?:3,1,0,2
+Mikä välittää visuaalista tietoa verkkokalvolta aivoihin?:4,6,5,3
+Mikä on silmän etuosa sarveiskalvon ja iiriksen välissä?:5,6,2,3
+Mikä silmäkammio sijaitsee linssin takana ja näköhermon edessä?:6,5,3,0

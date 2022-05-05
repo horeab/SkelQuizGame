@@ -1,0 +1,7 @@
+Hva finnes i midten av cellen og den inneholder DNA ordnet i kromosomer?:0,1,2,3
+Hvilken region i cellen er opptatt av å produsere celleribosomer?:1,2,3,4
+Hva er en gelatinøs væske som fyller innsiden av en celle?:2,3,4,5
+Hva beskytter cellen mot ytre miljø?:3,4,2,1
+Hva er en cellestruktur som produserer protein?:4,3,2,1
+Hva konverterer kjemisk energi til en energiform som cellen kan bruke?:5,4,3,2
+Hva er transportsystemet til den eukaryote cellen?:6,5,0,1

@@ -1,0 +1,5 @@
+Hogyan nevezik a vérben a normál alatti oxigénszintet, különösen az artériákban?:Hipoxémia::
+Hogyan nevezzük a vérben a normál alatti kalciumszintet?:Hipokalcémia::
+Hogyan nevezzük a vérben a normálisnál magasabb kalciumszintet?:Hiperkalcémia::
+Hogyan nevezik a vérben a normál alatti foszfátszintet?:hipofoszfatémia::
+Hogyan nevezzük a vérben a normál feletti foszfátszintet?:Hiperfoszfatémia::

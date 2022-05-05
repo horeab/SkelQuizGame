@@ -1,0 +1,4 @@
+Skyet syn:Grå stær:1,2,3:
+Pink eller rød farve i det hvide i øjet:Konjunktivitis:0,2,3:
+intense øjensmerter:Grøn stær:0,1,3:
+Dårlig dybdeopfattelse og perifert syn:Amblyopi:0,1,2:

@@ -1,0 +1,5 @@
+Blåaktig farge i hud, negler og lepper:Hypoksemi:1,2,3:
+Rykninger i hender, ansikt og føtter:Hypokalsemi:0,2,4:
+Hyppigere vannlating og tørste:Hyperkalsemi:0,1:
+svekkelse av bein:hypofosfatemi:0,4:
+muskelkramper eller spasmer:Hyperfosfatemi:0,1:

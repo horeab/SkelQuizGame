@@ -1,0 +1,5 @@
+đau khớp:Viêm khớp:1,2,3:
+cơn đau dữ dội, tức thì:Gãy xương:2,3:
+Mất chiều cao theo thời gian:Loãng xương:1,3,4:
+xương sống cong rõ ràng:Vẹo cột sống:0,1,2:
+da đỏ, bóng trên khớp bị ảnh hưởng:Bệnh Gout:1,2,3:

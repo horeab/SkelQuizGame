@@ -1,0 +1,6 @@
+Apakah organ otot yang mengepam darah melalui saluran darah sistem peredaran darah?:0,1,3,5
+Apakah arteri utama dan terbesar dalam tubuh manusia?:1,4,3,2
+Apakah urat yang mengalirkan buah pinggang?:2,5,4,1
+Apakah arteri berpasangan yang membekalkan darah kepada buah pinggang?:3,2,1,5
+Apakah urat yang mengambil darah terdeoksigen dari kepala kembali ke jantung?:4,2,5,1
+Apakah urat besar yang terletak jauh di dalam paha?:5,2,1,4

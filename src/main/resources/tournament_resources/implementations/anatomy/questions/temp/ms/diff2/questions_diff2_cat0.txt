@@ -1,0 +1,10 @@
+Apakah penyakit di mana hati anda meradang?:Hepatitis::
+Apakah penyakit di mana parasit menjangkiti saluran gastro-usus manusia?:Parasit usus::
+Apakah penyakit di mana pankreas anda meradang?:Pankreatitis::
+Apakah penyakit yang menyebabkan pecahnya lapisan dalam perut?:Ulser gastrik::
+Apakah penyakit di mana apendiks anda meradang?:Apendisitis::
+Apakah penyakit di mana lapisan dalam perut anda meradang?:Gastritis::
+Apakah penyakit yang menyebabkan urat bengkak di bahagian bawah rektum anda?:buasir::
+Apakah mendapan keras yang diperbuat daripada mineral dan garam?:Batu karang::
+Apakah parut pada hati yang disebabkan oleh kerosakan hati jangka panjang?:Sirosis::
+Apakah jenis penyakit radang usus?:penyakit Crohn::

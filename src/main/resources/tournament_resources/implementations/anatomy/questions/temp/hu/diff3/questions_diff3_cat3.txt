@@ -1,0 +1,4 @@
+Nyirokcsomók fájdalommentes duzzanata a nyakban, a hónaljban vagy az ágyékban:Limfóma:2,3:
+Duzzadt nyirokcsomók, megnagyobbodott máj vagy lép:Leukémia:2,3:
+Reszketés:Hypothermia:0,1:
+Zsibbadás vagy gyengeség a karokban vagy a lábakban:Érelmeszesedés:0,1,2:

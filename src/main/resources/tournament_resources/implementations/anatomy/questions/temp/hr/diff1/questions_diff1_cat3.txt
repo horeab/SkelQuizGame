@@ -1,0 +1,6 @@
+Što je mišićni organ koji pumpa krv kroz krvne žile krvožilnog sustava?:0,1,3,5
+Koja je glavna i najveća arterija u ljudskom tijelu?:1,4,3,2
+Što su vene koje dreniraju bubreg?:2,5,4,1
+Što su uparene arterije koje opskrbljuju bubrege krvlju?:3,2,1,5
+Koje su to vene koje odvode deoksigeniranu krv iz glave natrag u srce?:4,2,5,1
+Što je velika vena koja se nalazi duboko unutar bedra?:5,2,1,4

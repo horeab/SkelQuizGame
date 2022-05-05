@@ -1,0 +1,4 @@
+Pembengkakan kelenjar getah bening tanpa rasa sakit di leher, ketiak, atau selangkangan Anda:Limfoma:2,3:
+Pembengkakan kelenjar getah bening, pembesaran hati atau limpa:Leukemia:2,3:
+Gemetaran:Hipotermia:0,1:
+Mati rasa atau kelemahan di lengan atau kaki Anda:Aterosklerosis:0,1,2:

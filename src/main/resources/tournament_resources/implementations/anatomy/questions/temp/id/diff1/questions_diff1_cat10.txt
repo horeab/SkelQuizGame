@@ -1,0 +1,7 @@
+Apa yang terdapat di tengah sel dan mengandung DNA yang tersusun dalam kromosom?:0,1,2,3
+Daerah apa di dalam sel yang berkaitan dengan produksi ribosom sel?:1,2,3,4
+Apa yang dimaksud dengan cairan agar-agar yang mengisi bagian dalam sel?:2,3,4,5
+Apa yang melindungi sel dari lingkungan luarnya?:3,4,2,1
+Apa struktur sel yang menghasilkan protein?:4,3,2,1
+Apa yang mengubah energi kimia menjadi bentuk energi yang dapat digunakan sel?:5,4,3,2
+Bagaimana sistem transportasi sel eukariotik?:6,5,0,1

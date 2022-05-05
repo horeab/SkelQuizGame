@@ -1,0 +1,5 @@
+Nowy guzek w piersi lub pod pachami:Rak piersi:1,2,3:
+Krew w moczu:Rak prostaty:2,3,4:
+Zmiana nawyków jelitowych:Rak jelita grubego:1,3,4:
+kaszel, który nie ustępuje po 2 lub 3 tygodniach:Rak płuc:1,2,4:
+Pieprzyk zmieniający kolor, rozmiar lub krwawiący:Nowotwór skóry:0,1,3:

@@ -1,0 +1,5 @@
+Modrastá farba kože, nechtov a pier:Hypoxémia:1,2,3:
+Trhanie v rukách, tvári a nohách:Hypokalciémia:0,2,4:
+Častejšie močenie a smäd:Hyperkalcémia:0,1:
+oslabenie kostí:hypofosfatémia:0,4:
+svalové kŕče alebo kŕče:Hyperfosfatémia:0,1:

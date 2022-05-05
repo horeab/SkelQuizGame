@@ -1,0 +1,5 @@
+Modravá barva kůže, nehtů a rtů:Hypoxémie:1,2,3:
+Škubání v rukou, obličeji a nohou:Hypokalcémie:0,2,4:
+Častější močení a žízeň:Hyperkalcémie:0,1:
+oslabení kostí:hypofosfatémie:0,4:
+svalové křeče nebo křeče:Hyperfosfatemie:0,1:

@@ -1,0 +1,6 @@
+Koji je najveći od četiri glavna režnja mozga?:0,3,1,4
+Što se nalazi iza ušiju i je li drugi najveći režanj?:1,0,3,2
+Što je uključeno u percepciju osjeta, uključujući dodir, temperaturu, bol?:2,0,3,5
+Što je centar za vizualnu obradu mozga?:3,0,1,4
+Što igra važnu ulogu u kontroli ravnoteže?:4,5,0,1
+Što pomaže u kontroli otkucaja srca i disanja?:5,0,4,3

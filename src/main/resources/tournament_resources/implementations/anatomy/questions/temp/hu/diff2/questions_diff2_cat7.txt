@@ -1,0 +1,4 @@
+Mi történik, ha egy vírus vagy baktérium okozza a dobhártya mögötti terület gyulladását?:Otitis::
+Mit jelent a hangok teljes vagy részleges hallásának képtelensége?:Süketség::
+Milyen állapotban hallasz hangokat, ha nincs külső hangforrás?:Fülzúgás::
+Mi az a belső fül rendellenesség, amely szédüléshez (szédüléshez) és halláskárosodáshoz vezethet?:Meniere-kór::

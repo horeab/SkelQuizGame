@@ -1,0 +1,7 @@
+Apa struktur tipis di mata, yang bertanggung jawab untuk mengontrol diameter dan ukuran pupil?:0,1,3,2
+Apa bagian depan mata transparan yang menutupi iris?:1,2,3,0
+Apa struktur transparan di mata yang membantu untuk membiaskan cahaya agar difokuskan pada retina?:2,3,0,1
+Apa lapisan jaringan mata yang paling dalam dan peka cahaya?:3,1,0,2
+Apa yang mengirimkan informasi visual dari retina ke otak?:4,6,5,3
+Apa bagian depan mata antara kornea dan iris?:5,6,2,3
+Apa ruang mata yang terletak di belakang lensa dan di depan saraf optik?:6,5,3,0

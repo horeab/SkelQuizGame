@@ -1,0 +1,4 @@
+Zamagljen vid:katarakta:1,2,3:
+Rožnata ali rdeča barva v belini očesa:Konjunktivitis:0,2,3:
+intenzivne bolečine v očeh:glavkom:0,1,3:
+Slabo zaznavanje globine in periferni vid:Ambliopija:0,1,2:

@@ -1,0 +1,6 @@
+Mi az a mellkasi fájdalom, amelyet a szívizmok csökkent véráramlása okoz?:Angina::
+Mi az a vérnyomás, amely magasabb a normálnál?:Magas vérnyomás::
+Mi történik, ha a szív koszorúérében csökken vagy leáll a véráramlás?:Miokardiális infarktus::
+Mi az a súlyos állapot, amelyben a szív nem pumpálja a vért olyan hatékonyan, mint kellene?:Pangásos szívelégtelenség::
+Mit jelent a magas koleszterinszint a vérben?:Hiperkoleszterinémia::
+Mi a szívritmuszavar?:Szívritmuszavar::

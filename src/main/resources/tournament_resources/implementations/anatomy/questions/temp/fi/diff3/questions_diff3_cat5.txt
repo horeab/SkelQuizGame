@@ -1,0 +1,5 @@
+Punaiset tai turvonneet ikenet:Parodontiitti:2,3,4:
+Punaiset tai turvonneet ikenet:ientulehdus:2,3,4:
+Hammassärky:Hammasmätä:0,4,3:
+nielemisongelmia:Nielurisatulehdus:0,2,4:
+Yläleuan epämuodostumat:Huulihalkeama:0,2,3:

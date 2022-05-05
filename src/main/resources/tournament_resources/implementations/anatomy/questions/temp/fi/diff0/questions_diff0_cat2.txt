@@ -1,0 +1,6 @@
+Kolmipäinen hartialihas:4,1,5:65.3,80.2
+hauis:5,0,4:67.3,71.5
+Rintakehän lihakset:5,0,4:52.5,76.4
+Epäkäslihas:1,5,4:51.4,85.5
+Ulompi vino vatsalihas:1,5,0:54.2,65.9
+Tibialis etuosa:1,0,3:59.7,21.8

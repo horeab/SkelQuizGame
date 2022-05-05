@@ -1,0 +1,5 @@
+Červené nebo oteklé dásně:Paradentóza:2,3,4:
+Červené nebo oteklé dásně:zánět dásní:2,3,4:
+Bolest zubů:Zubní kaz:0,4,3:
+problémy s polykáním:Zánět mandlí:0,2,4:
+Deformace horní čelisti:Rozštěp rtu:0,2,3:

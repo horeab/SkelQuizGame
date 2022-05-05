@@ -1,0 +1,5 @@
+Veľké lýtkové svaly:svalová dystrofia:2,3,4:
+Jedna ruka alebo jedna noha je menšia ako druhá:svalová atrofia:2,3,4:
+bolesť šľachy, ktorá sa pri pohybe zhoršuje:tendinitída:1,3,4:
+Náhla, ostrá bolesť:svalové kŕče:1,2:
+náhla bolesť, ktorá sa zhoršuje pri sťahovaní svalu:prasknutie svalu:1,2:

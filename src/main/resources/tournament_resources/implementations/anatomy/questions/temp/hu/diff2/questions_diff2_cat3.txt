@@ -1,0 +1,4 @@
+Mi az a ráktípus, amely a szervezet immunrendszerének részét képező sejtekben kezdődik?:Limfóma::
+Mi az a ráktípus, amely általában a csontvelőben kezdődik?:Leukémia::
+Mit okoz a nagyon hideg hőmérsékletnek való hosszan tartó kitettség?:Hypothermia::
+Mi okozza az artériák megkeményedését a fokozatos plakk felhalmozódása?:Érelmeszesedés::

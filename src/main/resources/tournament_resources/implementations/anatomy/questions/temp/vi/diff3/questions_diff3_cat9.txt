@@ -1,0 +1,4 @@
+Tầm nhìn có mây:Đục thủy tinh thể:1,2,3:
+Màu hồng hoặc đỏ trong lòng trắng của mắt:Viêm kết mạc:0,2,3:
+đau mắt dữ dội:Bệnh tăng nhãn áp:0,1,3:
+Nhận thức độ sâu và tầm nhìn ngoại vi kém:Nhược thị:0,1,2:

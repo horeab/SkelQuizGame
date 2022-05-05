@@ -1,0 +1,6 @@
+Hvad er et organ, der tjener som centrum af nervesystemet?:0,1,2,5
+Hvad er et væsentligt træk ved baghjernen hos alle hvirveldyr?:1,5,0,2
+Hvad er en lang, tynd, rørformet struktur, der består af nervevæv?:2,1,3,4
+Hvad er en stor nerve, der løber langs hofteleddet?:3,2,1,5
+Hvad er en gren af ​​ischiasnerven?:4,5,2,1
+Hvad er en gruppe af neuroncellelegemer i det perifere nervesystem?:5,1,0,2

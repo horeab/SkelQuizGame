@@ -1,0 +1,6 @@
+Čo je to svalový orgán, ktorý pumpuje krv cez cievy obehového systému?:0,1,3,5
+Aká je hlavná a najväčšia tepna v ľudskom tele?:1,4,3,2
+Čo sú to žily, ktoré odvádzajú obličky?:2,5,4,1
+Čo sú to párové tepny, ktoré zásobujú obličky krvou?:3,2,1,5
+Čo sú to žily, ktoré odvádzajú odkysličenú krv z hlavy späť do srdca?:4,2,5,1
+Čo je to veľká žila nachádzajúca sa hlboko v stehne?:5,2,1,4

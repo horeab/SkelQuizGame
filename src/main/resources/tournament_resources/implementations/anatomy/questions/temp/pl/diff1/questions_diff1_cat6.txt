@@ -1,0 +1,6 @@
+Jaki jest największy z czterech głównych płatów mózgu?:0,3,1,4
+Co znajduje się za uszami i jest drugim co do wielkości płatem?:1,0,3,2
+Co obejmuje percepcję wrażeń, w tym dotyku, temperatury, bólu?:2,0,3,5
+Czym jest centrum przetwarzania wzrokowego w mózgu?:3,0,1,4
+Co odgrywa ważną rolę w kontroli równowagi?:4,5,0,1
+Co pomaga kontrolować tętno i częstość oddechów?:5,0,4,3

@@ -1,0 +1,10 @@
+Milyen betegség esetén begyullad a máj?:Májgyulladás::
+Mi az a betegség, amelyben egy parazita megfertőzi az ember gyomor-bélrendszerét?:Bélparaziták::
+Milyen betegség esetén begyullad a hasnyálmirigye?:Hasnyálmirigy-gyulladás::
+Mi az a betegség, amely a gyomor belső nyálkahártyájának törést okoz?:Gyomorfekély::
+Milyen betegség esetén begyullad a vakbéled?:Vakbélgyulladás::
+Mi az a betegség, amelyben a gyomor belső nyálkahártyája begyullad?:Gyomorhurut::
+Milyen betegség okozza a vénák duzzadását az alsó végbélben?:Aranyér::
+Mik azok az ásványi anyagokból és sókból álló kemény lerakódások?:Vesekövek::
+Mi a máj hegesedése, amelyet hosszú távú májkárosodás okoz?:Cirrózis::
+Mi a gyulladásos bélbetegség egyik fajtája?:Crohn-betegség::

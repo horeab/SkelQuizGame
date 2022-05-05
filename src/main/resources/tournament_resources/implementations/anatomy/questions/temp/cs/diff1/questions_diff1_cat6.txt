@@ -1,0 +1,6 @@
+Jaký je největší ze čtyř hlavních laloků mozku?:0,3,1,4
+Co sedí za ušima a je druhý největší lalok?:1,0,3,2
+Co se podílí na vnímání pocitů, včetně dotyku, teploty, bolesti?:2,0,3,5
+Co je centrum vizuálního zpracování mozku?:3,0,1,4
+Co hraje důležitou roli při kontrole rovnováhy?:4,5,0,1
+Co pomáhá kontrolovat srdeční frekvenci a frekvenci dýchání?:5,0,4,3

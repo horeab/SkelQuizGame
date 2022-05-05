@@ -1,0 +1,7 @@
+Aká je viditeľná časť ucha, ktorá je mimo hlavy?:0,3,6,2
+Čo je to cesta vedúca z vonkajšieho ucha do stredného ucha?:1,2,3,0
+Čo je to tenká chlopňa kože, ktorá je napnutá ako bubon a vibruje, keď na ňu zasiahne zvuk?:2,0,5,3
+Aké sú tri kosti v strednom uchu, ktoré patria medzi najmenšie kosti v ľudskom tele?:3,0,6,2
+Čo sa podobá na ulitu slimáka?:4,2,0,6
+Čo prenáša sluchové senzorické informácie z kochley vnútorného ucha priamo do mozgu?:5,2,0,6
+Čo je tiež známe ako sluchová trubica?:6,1,4,0

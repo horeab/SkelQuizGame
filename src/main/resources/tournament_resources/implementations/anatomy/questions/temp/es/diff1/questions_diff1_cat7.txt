@@ -1,0 +1,7 @@
+¿Cuál es la parte visible de la oreja que está fuera de la cabeza?:0,3,6,2
+¿Qué es un camino que va desde el oído externo hasta el oído medio?:1,2,3,0
+¿Qué es un delgado colgajo de piel que se tensa como un tambor y vibra cuando el sonido lo golpea?:2,0,5,3
+¿Cuáles son los tres huesos del oído medio que se encuentran entre los huesos más pequeños del cuerpo humano?:3,0,6,2
+¿Qué se parece a la concha de un caracol?:4,2,0,6
+¿Qué transporta la información sensorial auditiva desde la cóclea del oído interno directamente al cerebro?:5,2,0,6
+¿Qué es también conocido como el tubo auditivo?:6,1,4,0

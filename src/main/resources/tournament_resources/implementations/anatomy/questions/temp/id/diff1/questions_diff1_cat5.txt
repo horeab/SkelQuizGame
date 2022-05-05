@@ -1,0 +1,8 @@
+Apa lipatan otot yang mengelilingi mulut?:0,1,4,7
+Apa ekstensi berdaging yang menggantung di atas tenggorokan?:1,4,0,7
+Apa itu gigi rata di bagian belakang mulut?:2,3,5,6
+Apa gigi depan?:3,2,5,6
+Apa yang dimaksud dengan organ otot pada mulut?:4,5,6,1
+Organ apa yang berperan penting dalam sistem imun?:5,1,4,0
+Apa yang dimaksud dengan lempeng tulang horizontal tipis yang terdiri dari dua tulang kerangka wajah?:6,7,2,5
+Apa jaringan lunak yang membentuk bagian belakang atap mulut?:7,5,1,0

@@ -1,0 +1,8 @@
+Mitä ovat suua ympäröivät lihaksikkaat poimut?:0,1,4,7
+Mikä on mehevä jatke, joka roikkuu kurkun yläpuolella?:1,4,0,7
+Mitä ovat litteät hampaat suun takaosassa?:2,3,5,6
+Mitkä ovat etuhampaat?:3,2,5,6
+Mikä on lihaksikas elin suussa?:4,5,6,1
+Mitkä elimet ovat tärkeitä immuunijärjestelmässä?:5,1,4,0
+Mikä on ohut vaakasuora luulevy, joka koostuu kahdesta kasvojen luurangosta?:6,7,2,5
+Mikä on pehmytkudos, joka muodostaa suun katon takaosan?:7,5,1,0

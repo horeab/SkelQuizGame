@@ -1,0 +1,5 @@
+Hangi hastalık ilerleyici zayıflığa ve kas kütlesi kaybına neden olur?:kas distrofisi::
+Fiziksel aktivite eksikliği hangi hastalığa neden olur?:kas atrofisi::
+Bir tendonun iltihaplanmasına veya tahriş olmasına hangi hastalık neden olur?:tendinit::
+Kaslarınızdan birinin ani ve istemsiz kasılması nedir?:kas krampları::
+Kasınız aşırı gerildiğinde veya yırtıldığında ne olur?:kas yırtılması::

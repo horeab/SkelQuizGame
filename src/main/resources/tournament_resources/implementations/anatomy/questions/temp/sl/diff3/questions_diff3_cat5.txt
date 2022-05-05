@@ -1,0 +1,5 @@
+Rdeče ali otekle dlesni:Parodontitis:2,3,4:
+Rdeče ali otekle dlesni:gingivitis:2,3,4:
+Zobobol:Zobna gniloba:0,4,3:
+težave pri požiranju:Tonzilitis:0,2,4:
+Deformacije zgornje čeljusti:Razcepljena ustnica:0,2,3:

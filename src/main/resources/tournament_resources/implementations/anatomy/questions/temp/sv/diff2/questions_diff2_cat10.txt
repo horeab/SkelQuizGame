@@ -1,0 +1,5 @@
+Vad är en typ av cancer som kan innehålla en knöl i bröstet eller en förändring i bröstformen?:Bröstcancer::
+Vilken är den vanligaste typen av cancer som bara drabbar män?:Prostatacancer::
+Vad är en typ av cancer där celler i tjocktarmen eller ändtarmen växer utom kontroll?:Kolorektal cancer::
+Vilken typ av cancer orsakas av långvarig tobaksrökning?:Lungcancer::
+Vilken typ av cancer orsakas av överexponering för ultravioletta strålar från solen?:Hudcancer::

@@ -1,0 +1,4 @@
+tekutina, ktorá odteká z ucha:Otitis:1,2,3:
+Strata sluchu:Hluchota:0,2,3:
+zvonenie v ušiach:Tinnitus:0,1,3:
+vertigo:Meniérova choroba:0,1,2:

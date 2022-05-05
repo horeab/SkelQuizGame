@@ -1,0 +1,7 @@
+Co je tenká struktura v oku, zodpovědná za kontrolu průměru a velikosti zornice?:0,1,3,2
+Jaká je průhledná přední část oka, která zakrývá duhovku?:1,2,3,0
+Co je to průhledná struktura v oku, která pomáhá lámat světlo, aby bylo zaostřeno na sítnici?:2,3,0,1
+Jaká je nejvnitřnější, na světlo citlivá vrstva tkáně oka?:3,1,0,2
+Co přenáší vizuální informace ze sítnice do mozku?:4,6,5,3
+Jaká je přední část oka mezi rohovkou a duhovkou?:5,6,2,3
+Jaká oční komora se nachází za čočkou a před zrakovým nervem?:6,5,3,0

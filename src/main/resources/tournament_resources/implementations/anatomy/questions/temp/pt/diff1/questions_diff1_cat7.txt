@@ -1,0 +1,7 @@
+Qual é a parte visível da orelha que fica fora da cabeça?:0,3,6,2
+O que é um caminho que vai do ouvido externo ao ouvido médio?:1,2,3,0
+O que é um fino retalho de pele que é esticado como um tambor e vibra quando o som o atinge?:2,0,5,3
+Quais são os três ossos do ouvido médio que estão entre os menores ossos do corpo humano?:3,0,6,2
+O que se assemelha à concha de um caracol?:4,2,0,6
+O que transporta a informação sensorial auditiva da cóclea do ouvido interno diretamente para o cérebro?:5,2,0,6
+O que também é conhecido como tuba auditiva?:6,1,4,0

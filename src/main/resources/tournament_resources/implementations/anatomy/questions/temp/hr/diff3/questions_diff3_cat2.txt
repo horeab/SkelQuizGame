@@ -1,0 +1,5 @@
+Veliki mišići potkoljenice:mišićna distrofija:2,3,4:
+Jedna ruka ili jedna noga je manja od druge:mišićna atrofija:2,3,4:
+bol u tetivi koja se pogoršava kada se krećete:tendinitis:1,3,4:
+Iznenadna, oštra bol:mišićni grčevi:1,2:
+iznenadna bol koja se pogoršava tijekom kontrakcije mišića:ruptura mišića:1,2:

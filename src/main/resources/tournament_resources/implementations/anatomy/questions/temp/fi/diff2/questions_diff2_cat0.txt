@@ -1,0 +1,10 @@
+Mikä on sairaus, jossa maksasi tulehtuu?:Hepatiitti::
+Mikä on sairaus, jossa loinen saastuttaa ihmisen maha-suolikanavan?:Suoliston loiset::
+Mikä on sairaus, jossa haimasi tulehtuu?:Haimatulehdus::
+Mikä on sairaus, joka aiheuttaa murtuman mahalaukun sisäkalvossa?:Mahahaava::
+Mikä on sairaus, jossa umpilisäke tulehtuu?:Umpilisäkkeen tulehdus::
+Mikä on sairaus, jossa mahalaukun sisäkalvo tulehtuu?:Gastriitti::
+Mikä sairaus aiheuttaa suonten turvotusta peräsuolen alaosassa?:Peräpukamat::
+Mitä ovat mineraaleista ja suoloista tehdyt kovat kerrostumat?:Munuaiskiviä::
+Mikä on pitkäaikaisen maksavaurion aiheuttama maksan arpeutuminen?:Kirroosi::
+Mikä on tulehduksellinen suolistosairaus?:Crohnin tauti::

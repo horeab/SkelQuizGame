@@ -1,0 +1,6 @@
+Czym jest narząd mięśniowy, który pompuje krew przez naczynia krwionośne układu krążenia?:0,1,3,5
+Jaka jest główna i największa tętnica w ludzkim ciele?:1,4,3,2
+Jakie żyły drenują nerki?:2,5,4,1
+Czym są sparowane tętnice, które zaopatrują nerki w krew?:3,2,1,5
+Jakie żyły przenoszą odtlenioną krew z głowy z powrotem do serca?:4,2,5,1
+Co to jest duża żyła położona głęboko w udzie?:5,2,1,4

@@ -1,0 +1,5 @@
+Rødt eller hovent tannkjøtt:Periodontitt:2,3,4:
+Rødt eller hovent tannkjøtt:gingivitt:2,3,4:
+Tannverk:Tannråte:0,4,3:
+problemer med å svelge:Tonsillitt:0,2,4:
+Deformiteter i overkjeven:Leppespalte:0,2,3:

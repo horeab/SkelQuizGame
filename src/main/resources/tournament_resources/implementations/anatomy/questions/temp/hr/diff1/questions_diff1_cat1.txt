@@ -1,0 +1,12 @@
+Koja je struktura kosti koja tvori glavu?:0,1,9,7
+Što je također poznato kao ramena kost?:1,9,11,6
+Što je polukruta koštana i hrskavična struktura koja okružuje torakalnu šupljinu?:2,7,8,11
+Koja je glavna karakteristika kralježnjaka?:3,0,11,2
+Koja je veća od dvije kosti u nozi ispod koljena?:4,6,9,5
+Koja je najduža i najjača kost u vašem tijelu?:5,6,9,1
+Što je duga kost u ruci koja se proteže od ramena do lakta?:6,5,1,7
+Što je skupina od pet kostiju šake između falangi i zapešća?:7,5,1,3
+Koje kosti čine zapešće?:8,7,9,10
+Što je skup od sedam zglobnih kostiju u svakom stopalu?:9,7,8,1
+Što je skupina od pet dugih kostiju u stopalu?:10,8,7,4
+Koji je donji dio trupa?:11,6,3,2

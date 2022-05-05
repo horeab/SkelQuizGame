@@ -1,0 +1,9 @@
+Aortta:8,6,3:51.7,84.7
+yläonttolaskimo:6,7,4:27.3,92
+alaonttolaskimo:1,4,3:27.8,6.8
+Oikea eteinen:4,7,0:31,54.4
+vasen eteinen:7,6,0:59.6,55.5
+Mitraaliventtiili:8,2,0:69.5,43.7
+Oikea kammio:0,1,3:47.8,38.9
+Vasen kammio:1,8,3:58.1,43
+Tricuspid-venttiili:1,0,5:41,27

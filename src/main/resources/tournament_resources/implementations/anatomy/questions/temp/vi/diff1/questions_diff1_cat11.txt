@@ -1,0 +1,6 @@
+Chất gì được sử dụng để oxy hóa thức ăn của chúng ta, trong quá trình hô hấp tế bào, do đó giải phóng năng lượng?:0,1,2,3
+Nguyên tố phong phú thứ hai trong cơ thể con người là gì?:1,2,3,4
+Những gì được sử dụng để giữ cho cơ thể con người ngậm nước?:2,3,4,5
+Cái gì được sử dụng để tạo ra các axit amin trong cơ thể chúng ta mà lần lượt tạo ra protein?:3,5,4
+Những gì được sử dụng để xây dựng và duy trì xương chắc khỏe?:4,0,1,2
+Những gì được sử dụng trong sự hình thành của xương và răng?:5,1,2,3

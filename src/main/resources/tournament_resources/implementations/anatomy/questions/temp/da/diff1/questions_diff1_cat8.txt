@@ -1,0 +1,9 @@
+Hvad er den vigtigste og største arterie i menneskekroppen?:0,3,8,6
+Hvilken vene fører blod fra dit hoved, nakke, arme og bryst tilbage til dit hjerte?:1,3,0,2
+Hvilken vene fører blod fra din underkrop tilbage til dit hjerte?:2,1,0,3
+Hvad er det øvre kammer, gennem hvilket blod kommer ind i hjertets ventrikler?:3,5,6,2
+hvilket hjertekammer modtager iltet blod fra lungerne?:4,3,6,8
+Hvilken ventil adskiller de to kamre i venstre side af hjertet?:5,8,7,3
+Hvad er muskelkammer, der pumper blod ud af hjertet og ind i kredsløbet?:6,5,8,2
+Hvilket er et af hjertets fire kamre?:7,0,1,2
+Dets rolle er at forhindre tilbagestrømning af blod fra højre ventrikel ind i højre atrium.:8,2,5,4

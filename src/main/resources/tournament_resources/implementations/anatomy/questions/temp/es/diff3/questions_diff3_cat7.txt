@@ -1,0 +1,4 @@
+líquido que drena del oído:Otitis‎:1,2,3:
+Pérdida de la audición:Sordera:0,2,3:
+un zumbido en los oídos:Tinnitus:0,1,3:
+vértigo:La enfermedad de Meniere:0,1,2:

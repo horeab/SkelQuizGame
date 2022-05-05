@@ -1,0 +1,5 @@
+Nova kvržica u dojci ili ispod pazuha:Rak dojke:1,2,3:
+Krv u mokraći:Rak prostate:2,3,4:
+Promjena navika crijeva:Rak debelog crijeva:1,3,4:
+kašalj koji ne prolazi nakon 2 ili 3 tjedna:Rak pluća:1,2,4:
+Madež koji mijenja boju, veličinu ili krvari:Rak kože:0,1,3:

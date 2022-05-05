@@ -1,0 +1,8 @@
+Co jsou to svalové záhyby, které obepínají ústa?:0,1,4,7
+Co je to masitý nástavec, který visí nad hrdlem?:1,4,0,7
+Co jsou ploché zuby v zadní části úst?:2,3,5,6
+Jaké jsou přední zuby?:3,2,5,6
+Co je to svalový orgán v ústech?:4,5,6,1
+Které orgány hrají důležitou roli v imunitním systému?:5,1,4,0
+Co je tenká horizontální kostěná deska tvořená dvěma kostmi obličejového skeletu?:6,7,2,5
+Co je měkká tkáň tvořící zadní část střechy úst?:7,5,1,0

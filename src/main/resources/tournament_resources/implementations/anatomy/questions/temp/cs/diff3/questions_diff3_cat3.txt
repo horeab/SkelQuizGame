@@ -1,0 +1,4 @@
+Bezbolestné zduření lymfatických uzlin na krku, v podpaží nebo v tříslech:Lymfom:2,3:
+Zduřené lymfatické uzliny, zvětšená játra nebo slezina:Leukémie:2,3:
+Třesoucí se:Podchlazení:0,1:
+Necitlivost nebo slabost v pažích nebo nohou:Ateroskleróza:0,1,2:

@@ -1,0 +1,8 @@
+¿Qué son los pliegues musculares que rodean la boca?:0,1,4,7
+¿Qué es una extensión carnosa que cuelga sobre la garganta?:1,4,0,7
+¿Qué son los dientes planos en la parte posterior de la boca?:2,3,5,6
+¿Qué son los dientes frontales?:3,2,5,6
+¿Qué es un órgano muscular en la boca?:4,5,6,1
+¿Qué órganos juegan un papel importante en el sistema inmunológico?:5,1,4,0
+¿Qué es una placa ósea horizontal delgada formada por dos huesos del esqueleto facial?:6,7,2,5
+¿Cuál es el tejido blando que constituye la parte posterior del techo de la boca?:7,5,1,0

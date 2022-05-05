@@ -1,0 +1,10 @@
+¿Qué órgano produce la bilis necesaria para la digestión?:0,7,6,8
+¿Cuál es la primera porción del tubo digestivo que recibe alimento y produce saliva?:1,2,6,5
+¿A través de qué órgano pasa el alimento de la faringe al estómago?:2,6,9,7
+¿Qué órgano es la última parte del sistema digestivo?:3,4,7,8
+¿Dónde tiene lugar la mayor absorción de nutrientes y minerales de los alimentos?:4,5,3,0
+¿Qué órgano secreta enzimas digestivas y ácido gástrico para ayudar en la digestión de los alimentos?:5,4,7,3
+¿Cómo se llama la parte de la garganta detrás de la boca y la cavidad nasal?:6,2,9,8
+¿Dónde se almacena y concentra la bilis antes de que se libere en el intestino delgado?:7,6,9,8
+¿De dónde se secreta la insulina?:8,0,7,6
+¿Qué órgano se encuentra en la parte inferior derecha del abdomen?:9,0,7,2

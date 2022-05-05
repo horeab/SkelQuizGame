@@ -1,0 +1,6 @@
+Mi az az izmos szerv, amely a vért a keringési rendszer ereiben pumpálja?:0,1,3,5
+Mi az emberi test fő és legnagyobb artériája?:1,4,3,2
+Mik azok a vénák, amelyek kiürítik a vesét?:2,5,4,1
+Mik azok a páros artériák, amelyek a veséket vérrel látják el?:3,2,1,5
+Melyek azok a vénák, amelyek oxigéntelenített vért visznek vissza a fejből a szívbe?:4,2,5,1
+Mi az a nagy véna, amely mélyen a combban található?:5,2,1,4

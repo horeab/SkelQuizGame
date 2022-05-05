@@ -1,0 +1,10 @@
+Ktorý orgán produkuje žlč potrebnú na trávenie?:0,7,6,8
+Ktorá je prvá časť tráviaceho traktu, ktorá prijíma potravu a produkuje sliny?:1,2,6,5
+Cez ktorý orgán prechádza potrava z hltana do žalúdka?:2,6,9,7
+Ktorý orgán je poslednou časťou tráviaceho systému?:3,4,7,8
+Kde sa najviac vstrebáva živín a minerálov z potravy?:4,5,3,0
+Ktorý orgán vylučuje tráviace enzýmy a žalúdočnú kyselinu na pomoc pri trávení potravy?:5,4,7,3
+Ako sa nazýva časť hrdla za ústami a nosovou dutinou?:6,2,9,8
+Kde sa skladuje a koncentruje žlč, kým sa uvoľní do tenkého čreva?:7,6,9,8
+Odkiaľ sa inzulín vylučuje?:8,0,7,6
+Aký orgán sa nachádza v pravej dolnej časti brucha?:9,0,7,2

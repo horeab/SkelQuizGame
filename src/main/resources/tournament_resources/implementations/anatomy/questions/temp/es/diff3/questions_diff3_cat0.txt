@@ -1,0 +1,10 @@
+Coloración amarillenta de la piel y el blanco de los ojos:Hepatitis:3,4,5:
+Sarpullido o picazón alrededor del recto:Parásitos intestinales:2,7,8:
+Dolor abdominal de moderado a intenso que puede extenderse a la espalda:pancreatitis:1,3,4:
+Dolor de estómago severo:Úlcera gástrica:6,7,8:
+Dolor repentino que comienza en el lado derecho de la parte inferior del abdomen:Apendicitis:0,3,7:
+Náuseas o malestar estomacal recurrente:Gastritis:4,2,1:
+Picazón extrema alrededor del ano:Hemorroides:0,2,3:
+Dolor o sensación de ardor al orinar:Cálculos renales:3,9,1:
+Coloración amarillenta de la piel y el blanco de los ojos:Cirrosis:7,5,4:
+Sangre en las heces:enfermedad de Crohn:2,7,8:

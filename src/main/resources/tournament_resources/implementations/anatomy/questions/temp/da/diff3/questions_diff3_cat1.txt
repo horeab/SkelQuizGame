@@ -1,0 +1,5 @@
+ledsmerter:arthritis:1,2,3:
+øjeblikkelige, stærke smerter:Knoglebrud:2,3:
+Tab af højde over tid:Osteoporose:1,3,4:
+en synligt buet rygsøjle:Skoliose:0,1,2:
+rød, skinnende hud over det angrebne led:Gigt:1,2,3:

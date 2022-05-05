@@ -1,0 +1,5 @@
+Hirtelen magas láz, erős fejfájás, ami a szokásostól eltérőnek tűnik:Agyhártyagyulladás:1,2,3:
+vakság az egyik szemében:Sclerosis multiplex:0,3,4:
+Remegés a kezekben:Parkinson kór:0,3,4:
+mozgás tics:Tourette-szindróma:0,1,4:
+koncentrációs nehézségek és memóriazavarok:Huntington-kór:0,1,2:

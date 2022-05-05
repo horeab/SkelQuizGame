@@ -1,0 +1,7 @@
+Co se nachází uprostřed buňky a obsahuje DNA uspořádanou do chromozomů?:0,1,2,3
+Která oblast v buňce se zabývá produkcí buněčných ribozomů?:1,2,3,4
+Co je to želatinová kapalina, která vyplňuje vnitřek buňky?:2,3,4,5
+Co chrání buňku před jejím vnějším prostředím?:3,4,2,1
+Jaká je buněčná struktura, která produkuje bílkoviny?:4,3,2,1
+Co přeměňuje chemickou energii na energetickou formu, kterou může buňka využít?:5,4,3,2
+Jaký je transportní systém eukaryotické buňky?:6,5,0,1

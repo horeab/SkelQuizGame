@@ -1,0 +1,6 @@
+Hücresel solunum sürecinde besinlerimizi oksitlemek ve böylece enerji açığa çıkarmak için ne kullanılır?:0,1,2,3
+İnsan vücudunda en çok bulunan ikinci element hangisidir?:1,2,3,4
+İnsan vücudunu nemli tutmak için ne kullanılır?:2,3,4,5
+Vücudumuzda protein yapan amino asitleri yapmak için ne kullanılır?:3,5,4
+Güçlü kemikler oluşturmak ve korumak için ne kullanılır?:4,0,1,2
+Kemiklerin ve dişlerin oluşumunda ne kullanılır?:5,1,2,3

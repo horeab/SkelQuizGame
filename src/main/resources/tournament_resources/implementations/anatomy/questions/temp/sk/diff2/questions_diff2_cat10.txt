@@ -1,0 +1,5 @@
+Aký je typ rakoviny, ktorý môže zahŕňať hrčku v prsníku alebo zmenu tvaru prsníka?:Rakovina prsníka::
+Aký je najčastejší typ rakoviny, ktorý postihuje iba mužov?:Rakovina prostaty::
+Aký je typ rakoviny, pri ktorej bunky v hrubom čreve alebo konečníku rastú nekontrolovane?:Kolorektálny karcinóm::
+Aký typ rakoviny je spôsobený dlhodobým fajčením tabaku?:Rakovina pľúc::
+Aký typ rakoviny je spôsobený nadmerným vystavením ultrafialovým lúčom zo slnka?:Rakovina kože::

@@ -1,0 +1,6 @@
+Hva er et muskelorgan som pumper blod gjennom blodårene i sirkulasjonssystemet?:0,1,3,5
+Hva er hoved- og største arterien i menneskekroppen?:1,4,3,2
+Hva er årer som drenerer nyrene?:2,5,4,1
+Hva er sammenkoblede arterier som forsyner nyrene med blod?:3,2,1,5
+Hva er årer som tar oksygenert blod fra hodet tilbake til hjertet?:4,2,5,1
+Hva er en stor vene som ligger dypt inne i låret?:5,2,1,4

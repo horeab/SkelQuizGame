@@ -1,0 +1,5 @@
+Blauwachtige kleur in huid, vingernagels en lippen:Hypoxemie:1,2,3:
+Trillingen in uw handen, gezicht en voeten:Hypocalciëmie:0,2,4:
+Vaker urineren en dorst hebben:Hypercalciëmie:0,1:
+verzwakking van botten:hypofosfatemie:0,4:
+spierkrampen of spasmen:hyperfosfatemie:0,1:

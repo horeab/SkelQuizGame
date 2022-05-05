@@ -1,0 +1,5 @@
+Milyen betegség okoz progresszív gyengeséget és izomtömeg-veszteséget?:izomsorvadás::
+Milyen betegségeket okozhat a fizikai aktivitás hiánya?:izomsorvadás::
+Milyen betegség okozza az íngyulladást vagy irritációt?:ínhüvelygyulladás::
+Mi az egyik izom hirtelen és akaratlan összehúzódása?:izomgörcsök::
+Mi történik, ha az izom túlfeszül vagy elszakad?:izomszakadás::

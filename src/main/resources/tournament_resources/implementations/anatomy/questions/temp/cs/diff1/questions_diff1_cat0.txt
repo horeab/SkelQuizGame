@@ -1,0 +1,10 @@
+Jaký orgán produkuje žluč nezbytnou pro trávení?:0,7,6,8
+Jaká je první část trávicího traktu, která přijímá potravu a produkuje sliny?:1,2,6,5
+Jakým orgánem prochází potrava z hltanu do žaludku?:2,6,9,7
+Jaký orgán je poslední částí trávicího systému?:3,4,7,8
+Kde se nejvíce vstřebává živiny a minerály z potravy?:4,5,3,0
+Jaký orgán vylučuje trávicí enzymy a žaludeční kyselinu, aby napomáhal trávení potravy?:5,4,7,3
+Jak se nazývá část hrdla za dutinou ústní a nosní?:6,2,9,8
+Kde se žluč skladuje a koncentruje, než se uvolní do tenkého střeva?:7,6,9,8
+Odkud se inzulín vylučuje?:8,0,7,6
+Jaký orgán se nachází v pravé dolní části břicha?:9,0,7,2

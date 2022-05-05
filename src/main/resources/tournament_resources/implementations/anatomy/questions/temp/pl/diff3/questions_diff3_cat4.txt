@@ -1,0 +1,5 @@
+Nagła wysoka gorączka, silny ból głowy, który wydaje się odbiegać od normalnego:Zapalenie opon mózgowych:1,2,3:
+ślepota w jednym oku:Stwardnienie rozsiane:0,3,4:
+Drżenie w rękach:Choroba Parkinsona:0,3,4:
+tiki ruchowe:zespół Tourette'a:0,1,4:
+trudności z koncentracją i zaniki pamięci:choroba Huntingtona:0,1,2:

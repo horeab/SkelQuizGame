@@ -1,0 +1,7 @@
+Kateri je vidni del ušesa, ki je zunaj glave?:0,3,6,2
+Kakšna je pot, ki poteka od zunanjega ušesa do srednjega ušesa?:1,2,3,0
+Kaj je tanek kožni zavihek, ki je tesno napet kot boben in vibrira, ko ga zadene zvok?:2,0,5,3
+Katere so tri kosti v srednjem ušesu, ki so med najmanjšimi kostmi v človeškem telesu?:3,0,6,2
+Kaj spominja na lupino polža?:4,2,0,6
+Kaj prenaša slušne senzorične informacije iz polža notranjega ušesa neposredno v možgane?:5,2,0,6
+Kaj je znano tudi kot slušna cev?:6,1,4,0
