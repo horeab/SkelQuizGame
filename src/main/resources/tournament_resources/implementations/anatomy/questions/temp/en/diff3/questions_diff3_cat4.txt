@@ -1,5 +1,5 @@
-Sudden high fever, severe headache that seems different from normal:1,2,3:Meningitis:1,2,3:
-blindness in one eye:0,3,4:Multiple sclerosis:0,3,4:
-Tremor in hands:0,3,4:Parkinson's disease:0,3,4:
-movement tics:0,1,4:Tourette syndrome:0,1,4:
-difficulty concentrating and memory lapses:0,1,2:Huntington's disease:0,1,2:
+Sudden high fever, severe headache that seems different from normal:Meningitis:1,2,3:
+blindness in one eye:Multiple sclerosis:0,3,4:
+Tremor in hands:Parkinson's disease:0,3,4:
+movement tics:Tourette syndrome:0,1,4:
+difficulty concentrating and memory lapses:Huntington's disease:0,1,2:

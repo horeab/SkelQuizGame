@@ -1,4 +1,4 @@
-Mitä löytyy solun keskeltä ja se sisältää DNA:ta kromosomeihin järjestyneenä?:0,1,2,3
+Mitä löytyy solun keskeltä ja se sisältää DNA ta kromosomeihin järjestyneenä?:0,1,2,3
 Mikä solun alue liittyy solun ribosomien tuottamiseen?:1,2,3,4
 Mikä on hyytelömäinen neste, joka täyttää solun sisäpuolen?:2,3,4,5
 Mikä suojaa solua sen ulkoiselta ympäristöltä?:3,4,2,1
