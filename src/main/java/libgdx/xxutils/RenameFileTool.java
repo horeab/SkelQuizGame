@@ -18,21 +18,21 @@ import java.util.stream.Collectors;
 class RenameFileTool {
 
     public static void main(String[] args) throws IOException {
-        String pathname = "/Users/macbook/Documents/flutter_workspace/flutter_app_quiz_game/assets/implementations/history/questions/images/diff3/cat0";
+        String pathname = "/Users/macbook/IdeaProjects/ImageScaler/src/main/resources/scr_standard";
         File folder = new File(pathname);
         new File(pathname + "/temp").mkdirs();
         List<File> listOfFiles = Arrays.stream(Objects.requireNonNull(folder.listFiles()))
                 .filter(e -> e.getName().contains(".png"))
-                .sorted(Comparator.comparing(e -> Integer.parseInt(e.getName().substring(1).replace(".png", ""))))
+                .sorted(Comparator.comparing(e -> Integer.parseInt(e.getName().substring(2).replace(".png", ""))))
                 .collect(Collectors.toList());
         for (int i = 0; i < listOfFiles.size(); i++) {
             if (listOfFiles.get(i).isFile()) {
                 String fileName = listOfFiles.get(i).getName();
-                int fileIndex = Integer.parseInt(fileName.substring(1).replace(".png", ""));
+                int fileIndex = Integer.parseInt(fileName.substring(2).replace(".png", ""));
                 System.out.println(fileName);
                 File oldFile = new File(pathname + "/" + fileName);
 
-                File newFile = new File(pathname + "/temp/i" + Math.abs(i - listOfFiles.size() + 1) + ".png");
+                File newFile = new File(pathname + "/temp/" + fileName.substring(0, 2) + (fileIndex <= 1 ? fileIndex : (fileIndex + 3)) + ".png");
 
                 InputStream is = null;
                 OutputStream os = null;

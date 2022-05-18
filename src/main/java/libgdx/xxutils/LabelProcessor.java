@@ -33,10 +33,11 @@ public class LabelProcessor {
     public static void main(String[] args) throws IOException {
 
         List<GameIdEnum> gameIds = Arrays.asList(
-                GameIdEnum.history,
-                GameIdEnum.quizgame,
+                GameIdEnum.anatomy,
                 GameIdEnum.countries,
                 GameIdEnum.dopewars,
+                GameIdEnum.history,
+                GameIdEnum.quizgame,
                 GameIdEnum.perstest);
 
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
@@ -50,7 +51,7 @@ public class LabelProcessor {
         //
 
 //        translateNewLanguage(Language.ro, gameIds, defaultLabels);
-//        translateMissingLabels(Language.sl, gameIds, defaultLabels);
+//        translateMissingLabels(Language.zh, gameIds, defaultLabels);
         formFlutterKeys(gameIds, defaultLabels, languages);
     }
 

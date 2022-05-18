@@ -10,7 +10,7 @@ import java.util.Random;
 
 import libgdx.constants.Language;
 
-class TranslateTool {
+public class TranslateTool {
 
     public static String translate(String langFrom, String langTo, String text) throws IOException {
         langTo = langTo.equals(Language.nb.toString()) ? "no" : langTo;

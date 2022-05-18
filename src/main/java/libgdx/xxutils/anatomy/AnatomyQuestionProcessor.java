@@ -30,12 +30,21 @@ public class AnatomyQuestionProcessor {
 
     public static void main(String[] args) throws IOException {
 
-        List<Language> languages = Arrays.asList(Language.en);
-//        List<Language> languages = Arrays.asList(Language.en, Language.ro);
+        ///////
+        ///////
+        List<Language> languages = Arrays.asList(
+//                Language.zh
+        );
+        ///////
+        ///////
+        ///////
+        ///////
+        ///////
 
         Map<QuestionCategory, QuestionCategory> oldNewCategMapping = categories();
         for (Language lang : languages) {
-            new File(ROOT_PATH + "temp/" + lang.toString()).mkdir();
+            new File(ROOT_PATH + "temp/" + lang.toString())
+                    .mkdir();
             new File(ROOT_PATH + "temp/" + lang.toString() + "/diff"
                     + AnatomyQuestionDifficultyLevel._0.getIndex())
                     .mkdir();
@@ -84,80 +93,92 @@ public class AnatomyQuestionProcessor {
     private static void moveQuestionCat(
             Language lang,
             QuestionCategory cat, QuestionDifficulty diff,
-            QuestionCategory targetCat, QuestionDifficulty targetDiff) {
+            QuestionCategory targetCat, QuestionDifficulty targetDiff) throws IOException {
 
 
         TranslateQuestionProcessor.QuestionParser newQuestionParser = getQuestionParsers(targetDiff).get(targetCat);
         TranslateQuestionProcessor.QuestionParser oldQuestionParser = getOldQuestionParsers().get(cat);
 
-        String qPath = getLibgdxQuestionPath(lang, false, cat.name(), diff);
-        BufferedReader reader;
         List<String> enQuestions = getEnglishQuestions(cat, diff);
         List<String> questions = new ArrayList<>();
-        int l = 0;
-        try {
-            reader = new BufferedReader(new FileReader(qPath));
-            String line = reader.readLine();
-            while (line != null) {
+        int i = 0;
+        for (String enQuestion : enQuestions) {
+            String question;
+            String answer;
+            List<String> options;
+            if (diff == AnatomyQuestionDifficultyLevel._0) {
+                if (lang != Language.en
+                        && cat.getIndex() >= TOTAL_FLUTTER_NR_OF_CATS) {
+                    question = TranslateQuestionProcessor.translateWord(lang,
+                            oldQuestionParser.getQuestion(enQuestion)).trim();
+                    answer = oldQuestionParser.getAnswer(enQuestion);
+                    options = oldQuestionParser.getOptions(enQuestion);
+                } else if (cat.getIndex() >= TOTAL_FLUTTER_NR_OF_CATS) {
+                    question = oldQuestionParser.getQuestion(enQuestion);
+                    answer = oldQuestionParser.getAnswer(enQuestion);
+                    options = oldQuestionParser.getOptions(enQuestion);
+                } else {
+                    List<String> firstCatQuestions = getFirstCatQuestions(diff, cat, lang,
+                            cat.getIndex());
+                    question = firstCatQuestions.get(i).split(":")[2];
 
-                System.out.println("xxxxxx" + line);
-
-                String question;
-                String answer;
-                List<String> options;
-                if (diff == AnatomyQuestionDifficultyLevel._0) {
-                    if (lang != Language.en
-                            && cat.getIndex() >= TOTAL_FLUTTER_NR_OF_CATS) {
-                        question = line;
-                        answer = oldQuestionParser.getAnswer(enQuestions.get(l));
-                        options = oldQuestionParser.getOptions(enQuestions.get(l));
-                    } else {
-                        question = oldQuestionParser.getQuestion(line);
-                        answer = oldQuestionParser.getAnswer(line);
-                        options = oldQuestionParser.getOptions(line);
+                    if (Arrays.asList(
+                            Language.ar,
+                            Language.bg,
+                            Language.he,
+                            Language.sr,
+                            Language.sl
+                    ).contains(lang)) {
+                        question = TranslateQuestionProcessor.translateWord(lang, question);
                     }
-                    questions.add(newQuestionParser
-                            .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(line)));
-                } else if (diff == AnatomyQuestionDifficultyLevel._1) {
-                    if (cat.getIndex() >= TOTAL_FLUTTER_NR_OF_CATS) {
-                        if (cat.getIndex() < TOTAL_FLUTTER_NR_OF_CATS * 2) {
-                            List<String> firstCatQuestions = getFirstCatQuestions(diff, cat, lang,
-                                    cat.getIndex() - TOTAL_FLUTTER_NR_OF_CATS);
-                            question = line;
-                            answer = firstCatQuestions.get(l);
-                            options = Collections.emptyList();
-                            questions.add(newQuestionParser
-                                    .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(line)));
-                        } else if (cat.getIndex() < TOTAL_FLUTTER_NR_OF_CATS * 3) {
-                            List<String> firstCatQuestions = getFirstCatQuestions(diff, cat, lang,
-                                    cat.getIndex() - TOTAL_FLUTTER_NR_OF_CATS * 2);
-                            question = line.split(":")[0];
-                            answer = firstCatQuestions.get(l);
-                            options = Arrays.asList(line.split(":")[1].split(","));
-                            questions.add(newQuestionParser
-                                    .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(line)));
-                        }
+
+                    answer = oldQuestionParser.getAnswer(enQuestion);
+                    options = oldQuestionParser.getOptions(enQuestion);
+                }
+                questions.add(newQuestionParser
+                        .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(enQuestion)));
+            } else if (diff == AnatomyQuestionDifficultyLevel._1) {
+                if (cat.getIndex() >= TOTAL_FLUTTER_NR_OF_CATS) {
+                    if (cat.getIndex() < TOTAL_FLUTTER_NR_OF_CATS * 2) {
+                        List<String> firstCatQuestions = getFirstCatQuestions(diff, cat, lang,
+                                cat.getIndex() - TOTAL_FLUTTER_NR_OF_CATS);
+                        question = lang != Language.en
+                                ? TranslateQuestionProcessor.translateWord(lang, enQuestion)
+                                : enQuestion;
+                        answer = firstCatQuestions.get(i);
+                        options = Collections.emptyList();
+                        questions.add(newQuestionParser
+                                .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(enQuestion)));
+                    } else if (cat.getIndex() < TOTAL_FLUTTER_NR_OF_CATS * 3) {
+                        List<String> firstCatQuestions = getFirstCatQuestions(diff, cat, lang,
+                                cat.getIndex() - TOTAL_FLUTTER_NR_OF_CATS * 2);
+                        question = lang != Language.en
+                                ? TranslateQuestionProcessor.translateWord(lang, enQuestion.split(":")[0])
+                                : enQuestion;
+                        answer = firstCatQuestions.get(i);
+                        options = Arrays.asList(enQuestion.split(":")[1].split(","));
+                        questions.add(newQuestionParser
+                                .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(enQuestion)));
                     }
                 }
-
-                line = reader.readLine();
-                l++;
             }
-            String returnValue = String.join("\n", questions);
-            System.out.println("writeee" + returnValue);
-            String newFilePath = getLibgdxQuestionPath(lang, true, targetCat.name(), targetDiff);
-            System.out.println("newFilePath " + newFilePath);
-
-            File myObj = new File(newFilePath);
-            myObj.createNewFile();
-            FileWriter myWriter = new FileWriter(myObj);
-            myWriter.write(returnValue);
-            myWriter.close();
-
-
-            reader.close();
-        } catch (IOException e) {
+            i++;
         }
+        String returnValue = String.join("\n", questions);
+
+        if (questions.isEmpty()) {
+            int jj = 0;
+        }
+
+        System.out.println("writeee" + returnValue);
+        String newFilePath = getLibgdxQuestionPath(lang, true, targetCat.name(), targetDiff);
+        System.out.println("newFilePath " + newFilePath);
+
+        File myObj = new File(newFilePath);
+        myObj.createNewFile();
+        FileWriter myWriter = new FileWriter(myObj);
+        myWriter.write(returnValue);
+        myWriter.close();
     }
 
     static List<String> getFirstCatQuestions(QuestionDifficulty diff,
@@ -383,7 +404,7 @@ public class AnatomyQuestionProcessor {
 
         @Override
         public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
-            String format = "%s:%s:%s";
+            String format = "%s:%s:%s:";
             Object[] array = {question, correctAnswer, String.join(",", options), prefix};
             return formQuestion(format, array, language);
         }

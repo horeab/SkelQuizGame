@@ -22,6 +22,7 @@ import java.util.stream.Collectors;
 import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Language;
+import libgdx.implementations.astronomy.AstronomyDifficultyLevel;
 import libgdx.implementations.geoquiz.QuizQuestionCategoryEnum;
 import libgdx.implementations.geoquiz.QuizQuestionDifficultyLevel;
 import libgdx.implementations.history.HistoryDifficultyLevel;
@@ -31,7 +32,7 @@ public class TranslateQuestionProcessor {
 
     static final List<Language> RTL_LANGS = Arrays.asList(Language.ar, Language.he);
 
-    static final String GAME_ID = "quizgame";
+    static final String GAME_ID = "anatomy";
     static final String ROOT_PATH_OLD = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/";
     static final String ROOT_PATH_NEW = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/";
 
@@ -39,14 +40,14 @@ public class TranslateQuestionProcessor {
 
     public static void main(String[] args) throws IOException {
 
-        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+//        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
 //        languages.remove(Language.ro);
 //        languages.remove(Language.en);
-//        List<Language> languages = Arrays.asList(Language.en, Language.ro, Language.sl);
+        List<Language> languages = Arrays.asList(Language.en, Language.ro);
 
         for (Language lang : languages) {
 
-            List<QuestionDifficulty> difficulties = Arrays.asList(HistoryDifficultyLevel.values());
+            List<QuestionDifficulty> difficulties = Arrays.asList(AstronomyDifficultyLevel.values());
             for (QuestionDifficulty diff : difficulties) {
 
                 String newQuestionPath = getNewFilePathForLang(diff, lang);
@@ -247,27 +248,30 @@ public class TranslateQuestionProcessor {
     }
 
     public static String translateWord(Language translateTo, String text) throws IOException {
-        String res = translateCountry(translateTo, text);
-        if (res == null) {
-            if (Arrays.stream(text.split(","))
-                    .allMatch(e -> NumberUtils.isDigits(e.replace("-", "").trim()) || e.trim().equals("x"))) {
-                res = text;
-                System.out.println("is numbers " + res);
-            } else if (NumberUtils.isDigits(text.replace("-", ""))) {
-                res = text;
-                System.out.println("is number " + res);
-            } else if (StringUtils.isBlank(text)) {
-                res = text;
-            } else if (text.equals("x")) {
-                res = text;
-            } else {
-                nrOfTranslations++;
+        String res = null;
+        if (text != null) {
+            res = translateCountry(translateTo, text);
+            if (res == null) {
+                if (Arrays.stream(text.split(","))
+                        .allMatch(e -> NumberUtils.isDigits(e.replace("-", "").trim()) || e.trim().equals("x"))) {
+                    res = text;
+                    System.out.println("is numbers " + res);
+                } else if (NumberUtils.isDigits(text.replace("-", ""))) {
+                    res = text;
+                    System.out.println("is number " + res);
+                } else if (StringUtils.isBlank(text)) {
+                    res = text;
+                } else if (text.equals("x")) {
+                    res = text;
+                } else {
+                    nrOfTranslations++;
 //                res = text;
-                res = TranslateTool.translate(Language.en.toString(), translateTo.toString(), text).trim();
-                System.out.println("translated: " + text + " ___to___ " + res + " ----- as nr " + nrOfTranslations);
+                    res = TranslateTool.translate(Language.en.toString(), translateTo.toString(), text).trim();
+                    System.out.println("translated: " + text + " ___to___ " + res + " ----- as nr " + nrOfTranslations);
+                }
+            } else {
+                System.out.println("translated country " + text + " to " + res);
             }
-        } else {
-            System.out.println("translated country " + text + " to " + res);
         }
         return res;
     }

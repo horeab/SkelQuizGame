@@ -25,9 +25,9 @@ public class AnatomyFlutterQuestionProcessor {
 
     public static void main(String[] args) throws IOException {
 
-        List<Language> languages = Arrays.asList(Language.en);
+//        List<Language> languages = Arrays.asList(Language.en);
 //        List<Language> languages = Arrays.asList(Language.en, Language.ro);
-//        List<Language> languages = Arrays.asList(Language.values());
+        List<Language> languages = Arrays.asList(Language.values());
 
         StringBuilder res = new StringBuilder();
 
@@ -38,10 +38,12 @@ public class AnatomyFlutterQuestionProcessor {
                 "  }\n\n");
 
         Map<QuestionCategory, QuestionCategory> catsM = categories();
+        List<AnatomyQuestionDifficultyLevel> diffs = new ArrayList<>(Arrays.asList(AnatomyQuestionDifficultyLevel.values()));
+        diffs.remove(AnatomyQuestionDifficultyLevel._4);
         for (Language language : languages) {
             res.append(FlutterQuestionProcessor.getQuestionsHeader(language));
 
-            for (AnatomyQuestionDifficultyLevel diff : AnatomyQuestionDifficultyLevel.values()) {
+            for (AnatomyQuestionDifficultyLevel diff : diffs) {
                 for (AnatomyQuestionCategoryEnum cat : AnatomyQuestionCategoryEnum.values()) {
                     addQuestionCategory(cat, catsM.get(cat), diff, language, res);
                 }
