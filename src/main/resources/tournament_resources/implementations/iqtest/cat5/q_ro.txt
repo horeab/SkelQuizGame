@@ -1,0 +1,10 @@
+Care planetă este cea mai apropiată de Soare?::Mercur##Venus##Saturn##Jupiter::0
+Care este semnul atomic pentru Heliu pe tabelul periodic?::O##He##Fe##Se::1
+Unde se află Taj Mahal?::China##India##Franţa##Japonia::1
+Unde se află Muntele Kilimanjaro?::Tanzania##Brazilia##Egipt##Japonia::0
+Care pictor aparține mișcării suprarealismului?::Leonardo da Vinci##Salvador Dali##Pablo Picasso##Marc Chagall::1
+În ce țară au început Jocurile Olimpice?::Franţa##Italia##Grecia##Elveţia::2
+Câți lobi are creierul uman?::1##2##3##4::3
+Ce pasăre a fost folosită în mod obișnuit de oameni pentru a trimite mesaje?::Porumbel##Şoim##Vultur##Vrabie::0
+Arahnofobia este frica de ce?::Păianjeni##Spații mici##Mulțime##Avion::0
+Care este cea mai veche civilizație despre care știm?::Civilizația sumeriană##Civilizația egipteană##Civilizația chineză##Civilizația indiană::0

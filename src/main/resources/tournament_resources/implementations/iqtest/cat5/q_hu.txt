@@ -1,0 +1,10 @@
+Melyik bolygó van a legközelebb a Naphoz?::Higany##Vénusz##Szaturnusz##Jupiter::0
+Mi a hélium atomjele a periódusos rendszerben?::O##He##Fe##Se::1
+Hol található a Tádzs Mahal?::Kína##India##Franciaország##Japán::1
+Hol található a Kilimandzsáró-hegy?::Tanzánia##Brazília##Egyiptom##Japán::0
+Melyik festő tartozik a szürrealizmus mozgalomhoz?::Leonardo da Vinci##Salvador Dali##Pablo Picasso##Marc Chagall::1
+Melyik országban indult az olimpia?::Franciaország##Olaszország##Görögország##Svájc::2
+Hány lebenye van az emberi agynak?::1##2##3##4::3
+Melyik madarat használtak általában üzenetküldésre?::Galamb##Sólyom##Sas##Veréb::0
+Az arachnofóbia mitől való félelem?::Pókok##Kis helyek##Tömeg##Repülőgép::0
+Melyik az általunk ismert legrégebbi civilizáció?::A sumér civilizáció##Az egyiptomi civilizáció##A kínai civilizáció##Az indiai civilizáció::0

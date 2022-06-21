@@ -1,0 +1,10 @@
+Koji je planet najbliži suncu?::Merkur##Venera##Saturn##Jupiter::0
+Koji je atomski predznak za helij u periodnom sustavu?::O##He##Fe##Se::1
+Gdje se nalazi Taj Mahal?::Kina##Indija##Francuska##Japan::1
+Gdje se nalazi planina Kilimandžaro?::Tanzanija##Brazil##Egipat##Japan::0
+Koji slikar pripada pokretu nadrealizma?::Leonardo da Vinci##Salvador Dali##Pablo Picasso##Marc Chagall::1
+U kojoj zemlji su nastale Olimpijske igre?::Francuska##Italija##Grčka##Švicarska::2
+Koliko režnjeva ima ljudski mozak?::1##2##3##4::3
+Koju pticu su ljudi obično koristili za slanje poruka?::Golub##Sokol##Orao##Vrabac::0
+Arahnofobija je strah od čega?::Pauci##Mali prostori##Gomila##Zrakoplov::0
+Koja je najstarija civilizacija za koju znamo?::Sumerska civilizacija##Egipatska civilizacija##Kineska civilizacija##Indijska civilizacija::0

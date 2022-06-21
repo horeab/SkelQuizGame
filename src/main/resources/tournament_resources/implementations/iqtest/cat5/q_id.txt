@@ -1,0 +1,10 @@
+Planet manakah yang paling dekat dengan matahari?::Air raksa##Venus##Saturnus##Jupiter::0
+Apa tanda atom Helium pada tabel periodik?::O##He##Fe##Se::1
+Di manakah lokasi Taj Mahal?::Cina##India##Perancis##Jepang::1
+Di manakah lokasi Gunung Kilimanjaro?::Tanzania##Brazil##Mesir##Jepang::0
+Pelukis mana yang termasuk dalam gerakan Surealisme?::Leonardo da Vinci##Salvador Dali##Pablo Picasso##Marc Chagall::1
+Di negara mana Olimpiade berasal?::Perancis##Italia##Yunani##Swiss::2
+Berapa banyak lobus yang dimiliki otak manusia?::1##2##3##4::3
+Burung apa yang biasa digunakan manusia untuk berkirim pesan?::Merpati##Elang##Burung rajawali##Burung gereja::0
+Arachnophobia adalah ketakutan akan apa?::laba-laba##Ruangan kecil##Kerumunan##Pesawat terbang::0
+Apa peradaban tertua yang kita ketahui?::Peradaban Sumeria##Peradaban Mesir##Peradaban Tiongkok##Peradaban India::0

@@ -1,0 +1,10 @@
+Güneşe en yakın gezegen hangisidir?::Merkür##Venüs##Satürn##Jüpiter::0
+Periyodik tablodaki Helyum&#39;un atom işareti nedir?::O##He##Fe##Se::1
+Tac Mahal nerede bulunur?::Çin##Hindistan##Fransa##Japonya::1
+Kilimanjaro Dağı nerede bulunur?::Tanzanya##Brezilya##Mısır##Japonya::0
+Hangi ressam Sürrealizm akımına aittir?::Leonardo da Vinci##Salvador Dali##Pablo Picasso##Marc Chagall::1
+Olimpiyatlar hangi ülkede başlamıştır?::Fransa##İtalya##Yunanistan##İsviçre::2
+İnsan beyninin kaç lobu vardır?::1##2##3##4::3
+İnsanlar tarafından mesaj göndermek için yaygın olarak kullanılan kuş hangisidir?::Güvercin##Şahin##Kartal##Serçe::0
+Araknofobi ne korkusudur?::örümcekler##Küçük alanlar##Kalabalık##Uçak::0
+Bildiğimiz en eski uygarlık hangisidir?::Sümer uygarlığı##Mısır uygarlığı##Çin uygarlığı##Hint uygarlığı::0

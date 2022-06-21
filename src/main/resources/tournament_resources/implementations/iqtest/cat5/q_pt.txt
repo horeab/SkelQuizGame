@@ -1,0 +1,10 @@
+Qual planeta está mais próximo do sol?::Mercúrio##Vênus##Saturno##Júpiter::0
+Qual é o sinal atômico do hélio na tabela periódica?::O##He##Fe##Se::1
+Onde fica o Taj Mahal?::China##Índia##França##Japão::1
+Onde está localizado o Monte Kilimanjaro?::Tanzânia##Brasil##Egito##Japão::0
+Qual pintor pertence ao movimento surrealista?::Leonardo da Vinci##Salvador Dalí##Pablo Picasso##Marc Chagall::1
+Em que país surgiram as olimpíadas?::França##Itália##Grécia##Suíça::2
+Quantos lobos tem o cérebro humano?::1##2##3##4::3
+Qual ave era comumente usada pelos humanos para enviar mensagens?::Pombo##Falcão##Águia##Pardal::0
+Aracnofobia é o medo de quê?::Aranhas##Espaços pequenos##Multidão##Avião::0
+Qual é a civilização mais antiga que conhecemos?::A civilização suméria##A civilização egípcia##A civilização chinesa##A civilização indiana::0

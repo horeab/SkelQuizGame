@@ -1,0 +1,10 @@
+Welcher Planet ist der Sonne am nächsten?::Merkur##Venus##Saturn##Jupiter::0
+Welches Atomzeichen hat Helium im Periodensystem?::O##He##Fe##Se::1
+Wo steht das Taj Mahal?::China##Indien##Frankreich##Japan::1
+Wo befindet sich der Kilimandscharo?::Tansania##Brasilien##Ägypten##Japan::0
+Welcher Maler gehört zur Bewegung des Surrealismus?::Leonardo daVinci##Salvador Dalí##Pablo Picasso##Marc Chagall::1
+In welchem ​​Land haben die Olympischen Spiele ihren Ursprung?::Frankreich##Italien##Griechenland##Schweiz::2
+Wie viele Lappen hat das menschliche Gehirn?::1##2##3##4::3
+Welcher Vogel wurde üblicherweise von Menschen verwendet, um Nachrichten zu senden?::Taube##Falke##Adler##Spatz::0
+Arachnophobie ist die Angst wovor?::Spinnen##Kleine Plätze##Menge##Flugzeug::0
+Was ist die älteste uns bekannte Zivilisation?::Die sumerische Zivilisation##Die ägyptische Zivilisation##Die chinesische Zivilisation##Die indische Zivilisation::0

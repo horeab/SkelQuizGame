@@ -1,0 +1,10 @@
+Mikä planeetta on lähimpänä aurinkoa?::Merkurius##Venus##Saturnus##Jupiter::0
+Mikä on heliumin atomimerkki jaksollisessa taulukossa?::O##He##Fe##Se::1
+Missä Taj Mahal sijaitsee?::Kiina##Intia##Ranska##Japani::1
+Missä Kilimanjaro-vuori sijaitsee?::Tansania##Brasilia##Egypti##Japani::0
+Kuka taidemaalari kuuluu surrealismiliikkeeseen?::Leonardo da Vinci##Salvador Dali##Pablo Picasso##Marc Chagall::1
+Mistä maasta olympialaiset syntyivät?::Ranska##Italia##Kreikka##Sveitsi::2
+Kuinka monta lohkoa ihmisen aivoissa on?::1##2##3##4::3
+Mitä lintua ihmiset käyttivät yleisesti viestien lähettämiseen?::Kyyhkynen##Haukka##Kotka##varpunen::0
+Mitä araknofobia on pelko?::Hämähäkit##Pienet paikat##Väkijoukko##Lentokone::0
+Mikä on vanhin sivilisaatio, jonka tiedämme?::Sumerilainen sivilisaatio##Egyptin sivilisaatio##Kiinalainen sivilisaatio##Intian sivilisaatio::0

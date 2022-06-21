@@ -1,0 +1,10 @@
+Welke planeet staat het dichtst bij de zon?::Kwik##Venus##Saturnus##Jupiter::0
+Wat is het atoomteken voor helium in het periodiek systeem?::O##He##Fe##Se::1
+Waar staat de Taj Mahal?::China##India##Frankrijk##Japan::1
+Waar ligt de Kilimanjaro?::Tanzania##Brazilië##Egypte##Japan::0
+Welke schilder behoort tot de surrealistische beweging?::Leonardo da Vinci##Salvador Dali##Pablo Picasso##Marc Chagall::1
+In welk land zijn de Olympische Spelen ontstaan?::Frankrijk##Italië##Griekenland##Zwitserland::2
+Hoeveel lobben heeft het menselijk brein?::1##2##3##4::3
+Welke vogel werd gewoonlijk door mensen gebruikt om berichten te verzenden?::Duif##Havik##Adelaar##Mus::0
+Arachnofobie is de angst voor wat?::Spinnen##Kleine ruimtes##Menigte##Vliegtuig::0
+Wat is de oudste beschaving die we kennen?::De Sumerische beschaving##De Egyptische beschaving##De Chinese beschaving##De Indiase beschaving::0

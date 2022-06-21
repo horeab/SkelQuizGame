@@ -1,0 +1,10 @@
+Which planet is the closest to the sun?::Mercury##Venus##Saturn##Jupiter::0
+What is the atomic sign for Helium on the periodic table?::O##He##Fe##Se::1
+Where is the Taj Mahal located?::China##India##France##Japan::1
+Where is Mount Kilimanjaro located?::Tanzania##Brazil##Egypt##Japan::0
+Which painter belongs to the Surrealism movement?::Leonardo da Vinci##Salvador Dali##Pablo Picasso##Marc Chagall::1
+In which country did the Olympics originate?::France##Italy##Greece##Switzerland::2
+How many lobes does the human brain have?::1##2##3##4::3
+Which bird was commonly used by humans to send messages?::Pigeon##Hawk##Eagle##Sparrow::0
+Arachnophobia is the fear of what?::Spiders##Small spaces##Crowd##Airplane::0
+What is the oldest civilization we know of?::The Sumerian civilization##The Egyptian civilization##The Chinese civilization##The Indian civilization::0

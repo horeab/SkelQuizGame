@@ -1,0 +1,10 @@
+Która planeta jest najbliżej Słońca?::Rtęć##Wenus##Saturn##Jowisz::0
+Jaki jest atomowy znak helu w układzie okresowym pierwiastków?::O##He##Fe##Se::1
+Gdzie znajduje się Taj Mahal?::Chiny##Indie##Francja##Japonia::1
+Gdzie znajduje się Kilimandżaro?::Tanzania##Brazylia##Egipt##Japonia::0
+Który malarz należy do ruchu surrealizmu?::Leonardo da Vinci##Salvador Dali##Pablo Picasso##Marc Chagalla::1
+W jakim kraju powstały igrzyska olimpijskie?::Francja##Włochy##Grecja##Szwajcaria::2
+Ile płatów ma ludzki mózg?::1##2##3##4::3
+Który ptak był powszechnie używany przez ludzi do wysyłania wiadomości?::Gołąb##Jastrząb##Orzeł##Wróbel::0
+Arachnofobia to strach przed czym?::Pająki##Małe przestrzenie##Tłum##Samolot::0
+Jaka jest najstarsza cywilizacja, jaką znamy?::Cywilizacja sumeryjska##Cywilizacja egipska##Cywilizacja chińska##Cywilizacja indyjska::0

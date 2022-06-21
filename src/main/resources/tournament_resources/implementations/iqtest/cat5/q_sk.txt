@@ -1,0 +1,10 @@
+Ktorá planéta je najbližšie k Slnku?::Merkúr##Venuša##Saturn##Jupiter::0
+Aké je atómové znamenie pre hélium v ​​periodickej tabuľke?::O##He##Fe##Se::1
+Kde sa nachádza Tádž Mahal?::Čína##India##Francúzsko##Japonsko::1
+Kde sa nachádza Mount Kilimanjaro?::Tanzánia##Brazília##Egypt##Japonsko::0
+Ktorý maliar patrí k surrealistickému hnutiu?::Leonardo da Vinci##Salvador Dalí##Pablo Picasso##Marc Chagall::1
+V ktorej krajine vznikla olympiáda?::Francúzsko##Taliansko##Grécko##Švajčiarsko::2
+Koľko lalokov má ľudský mozog?::1##2##3##4::3
+Ktorého vtáka ľudia bežne používali na odosielanie správ?::Holub##Hawk##Orol##Vrabec::0
+Arachnofóbia je strach z čoho?::Pavúky##Malé priestory##Dav##Lietadlo::0
+Aká je najstaršia civilizácia, o ktorej vieme?::Sumerská civilizácia##Egyptská civilizácia##Čínska civilizácia##Indická civilizácia::0

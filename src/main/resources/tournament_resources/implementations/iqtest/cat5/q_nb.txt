@@ -1,0 +1,10 @@
+Hvilken planet er nærmest solen?::Merkur##Venus##Saturn##Jupiter::0
+Hva er atomtegnet for helium i det periodiske systemet?::O##He##Fe##Se::1
+Hvor ligger Taj Mahal?::Kina##India##Frankrike##Japan::1
+Hvor ligger Mount Kilimanjaro?::Tanzania##Brasil##Egypt##Japan::0
+Hvilken maler tilhører surrealismebevegelsen?::Leonardo da Vinci##Salvador Dali##Pablo picasso##Marc Chagall::1
+I hvilket land oppsto OL?::Frankrike##Italia##Hellas##Sveits::2
+Hvor mange lober har den menneskelige hjernen?::1##2##3##4::3
+Hvilken fugl ble ofte brukt av mennesker til å sende meldinger?::Due##Hauk##Ørn##spurv::0
+Hva er araknofobi frykten for?::Edderkopper##Små mellomrom##Publikum##Fly::0
+Hva er den eldste sivilisasjonen vi kjenner til?::Den sumeriske sivilisasjonen##Den egyptiske sivilisasjonen##Den kinesiske sivilisasjonen##Den indiske sivilisasjonen::0
