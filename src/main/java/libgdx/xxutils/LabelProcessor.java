@@ -38,7 +38,8 @@ public class LabelProcessor {
                 GameIdEnum.dopewars,
                 GameIdEnum.history,
                 GameIdEnum.quizgame,
-                GameIdEnum.perstest);
+                GameIdEnum.perstest,
+                GameIdEnum.iqtest);
 
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
 
@@ -47,6 +48,8 @@ public class LabelProcessor {
 //        List<Language> languages = Collections.singletonList(Language.en);
         List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
 //        List<Language> languages = Arrays.asList(Language.en, Language.ro);
+//        List<Language> languages = Arrays.asList(Language.en, Language.ro,
+//                Language.de, Language.es, Language.it);
         ////
         //
 
@@ -61,6 +64,9 @@ public class LabelProcessor {
         Map<Pair<String, String>, String> labelsForLanguage = getLabelsForLanguage(gameIds, enLabels, translateTo);
         Map<String, String> missingToTranslate = new HashMap<>();
         Map<Pair<String, String>, String> missingKeys = getMissingLabelKeys(labelsForLanguage, gameIds);
+
+        //HARDCODE TRANSLATION
+//        missingKeys.put(new MutablePair<>("score_iq", "l_score"), "Score");
 
         missingKeys.entrySet().removeIf(e -> e.getKey().getRight().equals("l_a_b_c_d_e_f_g_h_i_j_k_l_m_n_o_p_q_r_s_t_u_v_w_x_y_z"));
         enLabels.forEach((key, value) -> {

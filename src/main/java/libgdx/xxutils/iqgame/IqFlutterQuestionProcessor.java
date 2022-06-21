@@ -7,11 +7,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import libgdx.campaign.QuestionCategory;
 import libgdx.constants.Language;
 import libgdx.implementations.anatomy.AnatomyQuestionDifficultyLevel;
 import libgdx.xxutils.FlutterQuestionProcessor;
+import libgdx.xxutils.TranslateQuestionProcessor;
 
 import static libgdx.xxutils.anatomy.AnatomyQuestionProcessor.categories;
 
@@ -22,41 +24,58 @@ public class IqFlutterQuestionProcessor {
 
         StringBuilder res = new StringBuilder();
 
+        List<Language> languages = Arrays.asList(Language.en);
+
+        for (Language language : languages) {
+            res.append("add" + language.name().toUpperCase() + "(result, questionConfig);\n");
+        }
         res.append("    return result;\n" +
                 "  }\n\n");
 
-        for (int i = 0; i < 17; i++) {
-            res.append(FlutterQuestionProcessor.getQuestionsHeader(Language.en));
-            addQuestion(i, res);
-            res.append("  }\n\n");
+        res.append(FlutterQuestionProcessor.getQuestionsHeader(Language.en));
+
+        List<String> questions = getQuestions(Language.en);
+        TranslateQuestionProcessor.UniqueQuestionParser parser = new TranslateQuestionProcessor.UniqueQuestionParser();
+
+        List<String> resQ = new ArrayList<>();
+        for (String q : questions) {
+            resQ.add(parser.formQuestion(Language.en, parser.getQuestion(q), parser.getAnswer(q),
+                    parser.getOptions(q), ""));
         }
+        res.append(FlutterQuestionProcessor
+                .getQuestionsForCatAndDiff(AnatomyQuestionDifficultyLevel._0,
+                        "cat5", resQ.stream().map(e -> "\"" + e + "\"").collect(Collectors.toList()).toString()));
+
+        res.append("  }\n\n");
         System.out.println(res);
     }
 
-    private static void addQuestion(int qNr, StringBuilder res) {
-        String qPath = getLibgdxQuestionPath(qNr);
+    private static List<String> getQuestions(Language lang) {
+        String qPath = getLibgdxQuestionPath(lang.toString());
         BufferedReader reader;
-        List<String> questions = new ArrayList<>();
         try {
+            List<String> questionInfo = new ArrayList<>();
             reader = new BufferedReader(new FileReader(qPath));
             String line = reader.readLine();
+            questionInfo.add(line);
             while (line != null) {
-                questions.add("\"" + line + "\"");
                 line = reader.readLine();
+                if (line != null) {
+                    questionInfo.add(line);
+                }
             }
 
-            res.append(FlutterQuestionProcessor
-                    .getQuestionsForCatAndDiff(AnatomyQuestionDifficultyLevel._0,
-                            "cat3", questions.toString()));
-
             reader.close();
+            return questionInfo;
+
         } catch (IOException e) {
+            return null;
         }
     }
 
-    private static String getLibgdxQuestionPath(int qNr) {
-        return "/Users/macbook/IdeaProjects/SkelClassicGame/src/main/resources/tournament_resources" +
-                "/implementations/iqtest/questions/numberseq/q" + qNr + "a.txt";
+    private static String getLibgdxQuestionPath(String lang) {
+        return "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
+                "/implementations/iqtest/cat5/q_" + lang + ".txt";
     }
 
 }

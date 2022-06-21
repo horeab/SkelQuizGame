@@ -21,14 +21,14 @@ import libgdx.implementations.history.HistoryDifficultyLevel;
 
 class ImageResizeTool {
 
-    static final String MACBOOK_ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources";
-    static int MAX_WIDTH = 1000;
-    static int MAX_HEIGHT = 1000;
+    //NEED TO BE IN /Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources !!!
+    static final String MACBOOK_ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/proc";
+    static int MAX_WIDTH = 400;
+    static int MAX_HEIGHT = 400;
 
     public static void main(String[] args) throws IOException {
         //root path should contain /tournament_resources/..../image_folder/
         //it should contain a temp folder in the image folder
-        String rootPath = "/tournament_resources/implementations/quizgame/questions/images/maps/";
 
 //        List<QuestionCategory> toIgnore = Arrays.asList(HistoryCategoryEnum.cat0, HistoryCategoryEnum.cat1);
 //        for (QuestionDifficulty diff : HistoryDifficultyLevel.values()) {
@@ -37,10 +37,9 @@ class ImageResizeTool {
 //                    continue;
 //                }
 //                String pathname = rootPath + "diff" + diff.getIndex() + "/cat" + category.getIndex();
-        String pathname = rootPath;
-        deleteTemp(pathname);
-        new File(MACBOOK_ROOT_PATH + pathname + "/temp").mkdirs();
-        File folder = new File("/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources" + pathname);
+        deleteTemp(MACBOOK_ROOT_PATH);
+        new File(MACBOOK_ROOT_PATH + "/temp").mkdirs();
+        File folder = new File(MACBOOK_ROOT_PATH);
         List<File> listOfFiles = Arrays.stream(Objects.requireNonNull(folder.listFiles()))
                 .filter(e -> e.getName().contains(".jpg")
                         || e.getName().contains(".jpeg")
@@ -48,7 +47,7 @@ class ImageResizeTool {
                 .collect(Collectors.toList());
 
         for (File img : listOfFiles) {
-            resize(img.getName(), pathname);
+            resize(img.getName(), MACBOOK_ROOT_PATH);
         }
 
 //            }
@@ -56,7 +55,7 @@ class ImageResizeTool {
     }
 
     private static void deleteTemp(String pathname) {
-        File folder = new File(MACBOOK_ROOT_PATH + pathname + "/temp");
+        File folder = new File(MACBOOK_ROOT_PATH + "/temp");
         Arrays.stream(Objects.requireNonNull(folder.listFiles())).forEach(File::delete);
         folder.delete();
     }
@@ -114,7 +113,7 @@ class ImageResizeTool {
             BufferedImage i = null;
 
             try {
-                i = ImageIO.read(ImageLoadSaveService.class.getResourceAsStream(name));
+                i = ImageIO.read(ImageLoadSaveService.class.getResourceAsStream(name.substring(name.indexOf("/tournament_resources"))));
             } catch (Exception ignored) {
                 throw ignored;
             }
@@ -125,9 +124,9 @@ class ImageResizeTool {
         void save(BufferedImage image, String name, String ext) throws IOException {
             System.out.println("resized " + name);
             try {
-                BufferedImage newImage = new BufferedImage( image.getWidth(), image.getHeight(), BufferedImage.TYPE_INT_RGB);
-                newImage.createGraphics().drawImage( image, 0, 0, Color.BLACK, null);
-                ImageIO.write(newImage, ext, new FileOutputStream(MACBOOK_ROOT_PATH + name));
+                BufferedImage newImage = new BufferedImage(image.getWidth(), image.getHeight(), BufferedImage.TYPE_INT_RGB);
+                newImage.createGraphics().drawImage(image, 0, 0, Color.BLACK, null);
+                ImageIO.write(newImage, ext, new FileOutputStream(name));
             } catch (Exception ignored) {
                 throw ignored;
             }
