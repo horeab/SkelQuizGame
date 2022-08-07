@@ -1,0 +1,7 @@
+0::Galileo Galilei:1,3,5:0:Galileo di Vincenzo Bonaiuti de' Galilei, commonly referred to as Galileo, was an Italian astronomer, physicist and engineer, sometimes described as a polymath, from the city of Pisa, then part of the Duchy of Florence.
+1::Nicolaus Copernicus:0,2,4:1:Nicolaus Copernicus was a Renaissance polymath, active as a mathematician, astronomer, and Catholic canon, who formulated a model of the universe that placed the Sun rather than Earth at its center.
+2::Edwin Hubble:3,4,0:2:Edwin Powell Hubble was an American astronomer. He played a crucial role in establishing the fields of extragalactic astronomy and observational cosmology.
+3::Carl Sagan:1,2,0:3:Carl Edward Sagan was an American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, and science communicator.
+4::Albert Einstein:5,1,2:4:Albert Einstein was a German-born theoretical physicist, widely acknowledged to be one of the greatest and most influential physicists of all time.
+5::Stephen Hawking:4,1,0:5:Stephen William Hawking CH CBE FRS FRSA was an English theoretical physicist, cosmologist, and author who, at the time of his death, was director of research at the Centre for Theoretical Cosmology at the University of Cambridge.
+5::Christiaan Huygens:4,1,0:5:Christiaan Huygens, Lord of Zeelhem, FRS was a Dutch mathematician, physicist, engineer, astronomer, and inventor, who is regarded as one of the greatest scientists of all time and a major figure in the scientific revolution.

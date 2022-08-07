@@ -5,3 +5,6 @@
 4:What result does the earth's tilt have?:The seasons##Day and Night##Tsunami##Earthquakes:0:
 5:What is the shape of the earth's orbit around the sun?:Circular##Elliptical##Square##Variable:1:
 6:Where is the asteroid belt located?:beyond Pluto##around the Sun##between Mars and Jupiter##between Earth and Mars:2:
+7:What do you call the path traveled by a celestial body in space?:An orbit##A path##A circuit##A route:0:
+8:What causes the moon to shine?:Reflected sunlight##Reflected light from earth##Has it's own light source:0:
+9:How many moons are currently in our solar system?:181 moons##239 moons##32 moons##93 moons:0:

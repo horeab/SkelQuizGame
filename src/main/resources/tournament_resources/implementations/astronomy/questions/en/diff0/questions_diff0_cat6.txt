@@ -1,6 +1,9 @@
-0::Saturn:1,3,4:0
-1::The Sun:0,2,4:1
-2::Galaxy:3,1,5:2
-3::Jupiter:1,4,0:3
-4::Mars:0,3,2:4
-5::Nebula:4,2,1:5
+0::Galaxy:1,3,5:0:A galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter.[1][2] The word is derived from the Greek galaxias (γαλαξίας), literally 'milky', a reference to the Milky Way galaxy that contains the Solar System.
+0::Black Hole:1,3,5:0:A black hole is a region of spacetime where gravity is so strong that nothing – no particles or even electromagnetic radiation such as light – can escape from it.
+0::Nebula:1,3,5:0:A nebula ('cloud' or 'fog' in Latin; pl. nebulae, nebulæ or nebulas) is a distinct luminescent part of interstellar medium, which can consist of ionized, neutral or molecular hydrogen and also cosmic dust.
+0::Quasar:1,3,5:0:A quasar (/ˈkweɪzɑːr/ KWAY-zar; also known as a quasi-stellar object, abbreviated QSO) is an extremely luminous active galactic nucleus (AGN), powered by a supermassive black hole, with mass ranging from millions to tens of billions of solar masses, surrounded by a gaseous accretion disc.
+0::Pulsar:1,3,5:0:A pulsar (from pulsating radio source) is a highly magnetized rotating neutron star that emits beams of electromagnetic radiation out of its magnetic poles.
+0::Planet:1,3,5:0:A planet is a large, rounded astronomical body that is neither a star nor its remnant.
+0::Star Cluster:1,3,5:0:Star clusters are large groups of stars. Two main types of star clusters can be distinguished: globular clusters are tight groups of ten thousand to millions of old stars which are gravitationally bound, while open clusters are more loosely clustered groups of stars, generally containing fewer than a few hundred members, and are often very young.
+0::Moon:1,3,5:0:The Moon is Earth's only natural satellite. At about one-quarter the diameter of Earth (comparable to the width of Australia), it is the fifth largest satellite in the Solar System.
+0::Comet:1,3,5:0:A comet is an icy, small Solar System body that, when passing close to the Sun, warms and begins to release gases, a process that is called outgassing.

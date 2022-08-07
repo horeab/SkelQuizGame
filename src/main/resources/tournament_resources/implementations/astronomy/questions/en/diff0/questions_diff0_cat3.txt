@@ -5,3 +5,6 @@
 4:Which planet has the strongest winds?:Neptune:3,5,6:
 5:Which planet is a rocky planet?:Mercury:1,2,4:
 6:What is the 4th planet in the solar system?:Mars:1,4,5:
+7:Which planet does not have a natural satellite?:Mercury:1,2,3:
+8:Which is the oldest planet in our solar system?:Jupiter:3,5,4:
+9:Which planet spins backward relative to the others?:Venus:3,4,7:
