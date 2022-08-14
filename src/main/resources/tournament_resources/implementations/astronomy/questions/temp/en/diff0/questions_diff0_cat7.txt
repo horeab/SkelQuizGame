@@ -1,0 +1,10 @@
+How many planets are there in the solar system?::8##9##10##11::0
+How far away from Earth is our sun, approximately...?::93 light years##150 million kilometers##150 billion kilometers##150 trillion kilometers::1
+What is the moon?::asteroid##star##natural satellite##planet::2
+Approximately how old is the earth?::6 billion years##4 billion years##1 billion years##4 trillion years::1
+What result does the earth's tilt have?::The seasons##Day and Night##Tsunami##Earthquakes::0
+What is the shape of the earth's orbit around the sun?::Circular##Elliptical##Square##Variable::1
+Where is the asteroid belt located?::beyond Pluto##around the Sun##between Mars and Jupiter##between Earth and Mars::2
+What do you call the path traveled by a celestial body in space?::An orbit##A path##A circuit##A route::0
+What causes the moon to shine?::Reflected sunlight##Reflected light from earth##Has it's own light source::0
+How many moons are currently in our solar system?::181 moons##239 moons##32 moons##93 moons::0

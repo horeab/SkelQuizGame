@@ -41,7 +41,7 @@ public class IqQuestionProcessor {
                             }
                             return null;
                         }).collect(Collectors.toList());
-                resQ.add(parser.formQuestion(lang, question, answer, options, ""));
+                resQ.add(parser.formQuestion(lang, question, answer, options, "", ""));
             }
 
 

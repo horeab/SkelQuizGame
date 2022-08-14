@@ -130,7 +130,7 @@ public class TranslateQuestionProcessor {
 //                            }).collect(Collectors.toList());
                     String prefix = prefixForMovedQuestions.get(category);
 
-                    movedFile.add(newQuestionParser.formQuestion(langToMove, question, answer, options, ""));
+                    movedFile.add(newQuestionParser.formQuestion(langToMove, question, answer, options, "", ""));
                 } catch (Exception ex) {
                     System.out.println(line);
                     throw ex;
@@ -187,7 +187,7 @@ public class TranslateQuestionProcessor {
                             }).collect(Collectors.toList());
                     String prefix = translateWord(langTranslateTo, questionParser.getQuestionPrefix(line));
 
-                    translatedFiles.add(questionParser.formQuestion(langTranslateTo, question, answer, options, prefix));
+                    translatedFiles.add(questionParser.formQuestion(langTranslateTo, question, answer, options, prefix, ""));
                 } catch (Exception ex) {
                     System.out.println(line);
                     throw ex;
@@ -265,8 +265,9 @@ public class TranslateQuestionProcessor {
                     res = text;
                 } else {
                     nrOfTranslations++;
-//                res = text;
-                    res = TranslateTool.translate(Language.en.toString(), translateTo.toString(), text).trim();
+                res = text;
+//                    res = translateTo == Language.en ? text :
+//                            TranslateTool.translate(Language.en.toString(), translateTo.toString(), text).trim();
                     System.out.println("translated: " + text + " ___to___ " + res + " ----- as nr " + nrOfTranslations);
                 }
             } else {
@@ -318,7 +319,9 @@ public class TranslateQuestionProcessor {
 
         public abstract String getQuestionPrefix(String rawString);
 
-        public abstract String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix);
+        public abstract String getQuestionExplanation(String rawString);
+
+        public abstract String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation);
 
         public String formQuestion(String format, Object[] params, Language language) {
             List<String> split = Arrays.stream(format.split("%s")).filter(StringUtils::isNotBlank).collect(Collectors.toList());
@@ -352,26 +355,26 @@ public class TranslateQuestionProcessor {
     public static class DependentQuestionParser extends QuestionParser {
 
         @Override
-        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
-            String format = "%s:%s:%s:%s";
-            Object[] array = {question, correctAnswer, String.join(",", options), prefix};
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation) {
+            String format = "%s::%s::%s::%s::%s";
+            Object[] array = {question, correctAnswer, String.join(",", options), prefix, explanation};
             return formQuestion(format, array, language);
         }
 
         @Override
         public String getAnswer(String rawString) {
-            return rawString.split(":", -1)[1];
+            return rawString.split("::", -1)[1];
         }
 
         @Override
         public List<String> getOptions(String rawString) {
-            return Arrays.stream(rawString.split(":", -1)[2].split(",", -1))
+            return Arrays.stream(rawString.split("::", -1)[2].split(",", -1))
                     .filter(StringUtils::isNotBlank).collect(Collectors.toList());
         }
 
         @Override
         public String getQuestion(String rawString) {
-            return rawString.split(":", -1)[0];
+            return rawString.split("::", -1)[0];
         }
 
         @Override
@@ -379,12 +382,17 @@ public class TranslateQuestionProcessor {
 //            return rawString.split(":", -1)[3];
             return "";
         }
+
+        @Override
+        public String getQuestionExplanation(String rawString) {
+            return "";
+        }
     }
 
     public static class UniqueQuestionParser extends QuestionParser {
 
         @Override
-        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation) {
             String format = "%s::%s::%s";
             Object[] array = {question, String.join("##", options), correctAnswer};
             return formQuestion(format, array, language);
@@ -410,12 +418,54 @@ public class TranslateQuestionProcessor {
         public String getQuestionPrefix(String rawString) {
             return "";
         }
+
+        @Override
+        public String getQuestionExplanation(String rawString) {
+            return "";
+        }
+    }
+
+
+    public static class OldUniqueQuestionParser extends QuestionParser {
+
+        @Override
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation) {
+            String format = "%s:%s:%s";
+            Object[] array = {question, String.join("##", options), correctAnswer};
+            return formQuestion(format, array, language);
+        }
+
+        @Override
+        public String getAnswer(String rawString) {
+            return rawString.split(":", -1)[3];
+        }
+
+        @Override
+        public List<String> getOptions(String rawString) {
+            return Arrays.stream(rawString.split(":", -1)[2].split("##", -1))
+                    .filter(StringUtils::isNotBlank).collect(Collectors.toList());
+        }
+
+        @Override
+        public String getQuestion(String rawString) {
+            return rawString.split(":", -1)[1];
+        }
+
+        @Override
+        public String getQuestionPrefix(String rawString) {
+            return "";
+        }
+
+        @Override
+        public String getQuestionExplanation(String rawString) {
+            return "";
+        }
     }
 
     static class TimelineQuestionParser extends QuestionParser {
 
         @Override
-        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation) {
             String format = "%s:%s";
             Object[] array = {question, correctAnswer};
             return formQuestion(format, array, language);
@@ -441,12 +491,17 @@ public class TranslateQuestionProcessor {
         public String getQuestionPrefix(String rawString) {
             return "";
         }
+
+        @Override
+        public String getQuestionExplanation(String rawString) {
+            return "";
+        }
     }
 
     public static class OldDependentQuestionParser extends QuestionParser {
 
         @Override
-        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation) {
             return "";
         }
 
@@ -470,12 +525,18 @@ public class TranslateQuestionProcessor {
         public String getQuestionPrefix(String rawString) {
             return "";
         }
+
+        @Override
+        public String getQuestionExplanation(String rawString) {
+            String[] split = rawString.split(":", -1);
+            return split.length >= 6 ? rawString.substring(StringUtils.ordinalIndexOf(rawString, ":", 5) + 1) : "";
+        }
     }
 
     public static class ImageClickQuestionParser extends QuestionParser {
 
         @Override
-        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation) {
             String format = "%s:%s:%s";
             Object[] array = {question, String.join(",", options), prefix};
             return formQuestion(format, array, language);
@@ -501,12 +562,17 @@ public class TranslateQuestionProcessor {
         public String getQuestionPrefix(String rawString) {
             return "";
         }
+
+        @Override
+        public String getQuestionExplanation(String rawString) {
+            return "";
+        }
     }
 
     public static class OldImageClickQuestionParser extends QuestionParser {
 
         @Override
-        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation) {
             return "";
         }
 
@@ -529,6 +595,11 @@ public class TranslateQuestionProcessor {
         @Override
         public String getQuestionPrefix(String rawString) {
             return rawString.split(":", -1)[4];
+        }
+
+        @Override
+        public String getQuestionExplanation(String rawString) {
+            return "";
         }
     }
 }

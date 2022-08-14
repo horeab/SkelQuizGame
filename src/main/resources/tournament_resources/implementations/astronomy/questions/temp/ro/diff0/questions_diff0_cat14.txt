@@ -1,0 +1,11 @@
+0##Big Bang::acum 13,8 miliarde de ani::4,7,8::::
+3##Formarea primelor galaxii::La 400 de milioane de ani după Big Bang::8,3,10::::
+2##Formarea primelor stele::La 100 de milioane de ani după Big Bang::3,4,7::::
+1##Formarea primelor găuri negre::În timpul Big Bang-ului::4,8,9::::
+7##Formarea Pământului::acum 4,6 miliarde de ani::5,6,7::::
+9##Apar primele forme de viață::acum 3,7 miliarde de ani::4,7,8::::
+8##Formarea Lunii::La 50 de milioane de ani de la nașterea sistemului solar::10,9,8::::
+10##Formarea celei mai noi galaxii::acum 500 de milioane de ani::8,1,4::::
+5##Formarea galaxiei Andromeda::acum 10 miliarde de ani::9,10,5::::
+4##Formarea galaxiei Calea Lactee::La 800 de milioane de ani după Big Bang::8,2,3::::
+6##Formarea Sistemului Solar::acum 4,6 miliarde de ani::3,0,2::::

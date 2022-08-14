@@ -1,0 +1,10 @@
+What is the first spacecraft launched into space?::Voyager##Viking 1##Vostok 1##Sputnik::2
+What probe was sent toward Saturn in 1977?::Pioneer##Huygens##Saturn Cassini##Voyager 1::3
+In what year did Galileo Galilei start using the telescope to explore the sky?::1704##1609##1510##1653::1
+Who was the first person to land on the moon?::Neil Armstrong##Alan Shepard##Buzz Aldrin##Alan Bean::0
+What spacecraft is orbiting around Jupiter?::Juno##Lander##Vostok##Cassini::0
+When was Pluto discovered?::1930##1834##1956##1975::0
+Who was the first man to orbit around earth?::Yuri Gagarin##Neil Armstrong##Buzz Aldrin##Alan Shepard::0
+Who was the first woman to travel into space?::Valentina Tereshkova##Sally Ride##Kalpana Chawla##Eileen Collins::0
+When was the Hubble Telescope launched into space?::1990##1975##2000##1983::0
+When was the International Space Station launched into space?::1998##1988##1991##2005::0

@@ -1,0 +1,10 @@
+Care este cea mai mare stea cunoscută?::UY Scuti##Betelgeuse##VY Canis majoris##Pollux::0
+Care este cel mai dens tip de stea?::gigantul rosu##Stea neutronică##Pitic negru##pitic alb::1
+Care este cea mai apropiată galaxie de a noastră?::Galaxia lui Barnard##NGC 24 19##Andromeda##Ic 1101::2
+Cum se numește galaxia noastră?::Pământ##Calea lactee##Andromeda##Univers::1
+Câte stele sunt în galaxia noastră?::16 milioane##5 mii##250 de miliarde##1 miliard::2
+Din ce este compus în mare parte universul?::Materie întunecată##Energie întunecată##Ușoară##Materie vizibilă::1
+Care este cea mai strălucitoare stea de pe cer?::Sirius##Andromeda##Orion##Polaris::0
+Ce se află în centrul galaxiei Calea Lactee?::O gaură neagră##mai multe planete##un grup de stele##Nu se știe::0
+Care este cel mai frecvent tip de stea găsit în Calea Lactee?::Stele pitice roșii##Stele pitice verzi##Stele pitice negre##Stele pitice albe::0
+Care este unitatea de măsură folosită pentru a descrie expansiunea universului?::Constanta Hubble##Ani lumina##Contoare##Constanta Alfa::0

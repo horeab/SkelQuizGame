@@ -1,0 +1,10 @@
+Câte planete există în sistemul solar?::8##9##10##11::0
+Cât de departe este soarele nostru de Pământ, aproximativ...?::93 de ani lumină##150 de milioane de kilometri##150 de miliarde de kilometri##150 de trilioane de kilometri::1
+Ce este luna?::asteroid##stea##satelit natural##planetă::2
+Aproximativ câți ani are pământul?::6 miliarde de ani##4 miliarde de ani##1 miliard de ani##4 trilioane de ani::1
+Ce rezultat are înclinarea pământului?::Anotimpurile##Zi și noapte##Tsunami##Cutremurele::0
+Care este forma orbitei Pământului în jurul Soarelui?::Circular##Eliptic##Pătrat##Variabil::1
+Unde se află centura de asteroizi?::dincolo de Pluto##în jurul Soarelui##între Marte și Jupiter##între Pământ și Marte::2
+Cum numești calea parcursă de un corp ceresc în spațiu?::O orbită##O cale##Un circuit##O ruta::0
+Ce face ca luna să strălucească?::Lumina solară reflectată##Lumina reflectată de pe pământ##Are propria sursa de lumina::0
+Câte luni sunt în prezent în sistemul nostru solar?::181 de luni##239 de luni##32 de luni##93 de luni::0

@@ -1,0 +1,8 @@
+::Hubble Telescope::1,3,6::::xxx
+::International Space Station::0,2,4::::xxx
+::Gran Telescopio Canarias::3,4,5::::xxx
+::Sputnik::1,6,0::::xxx
+::Apollo 11::5,1,2::::xxx
+::Mars Rover::4,2,6::::xxx
+::Vostok 1::5,2,0::::xxx
+::James Webb Telescope::5,2,0::::xxx

@@ -1,0 +1,10 @@
+What is the hottest planet in our solar system?::Venus::1,2,3::::xxx
+What is the coldest planet?::Uranus::4,5,6::::xxx
+Which planet in our solar system has the most moons?::Saturn::0,3,4::::xxx
+Which planet is the largest of the terrestrial planets?::Earth::1,2,5::::xxx
+Which planet has the strongest winds?::Neptune::3,5,6::::xxx
+Which planet is a rocky planet?::Mercury::1,2,4::::xxx
+What is the 4th planet in the solar system?::Mars::1,4,5::::xxx
+Which planet does not have a natural satellite?::Mercury::1,2,3::::xxx
+Which is the oldest planet in our solar system?::Jupiter::3,5,4::::xxx
+Which planet spins backward relative to the others?::Venus::3,4,7::::xxx

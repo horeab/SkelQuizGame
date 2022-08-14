@@ -1,0 +1,9 @@
+::Galaxy::1,3,5::::xxx
+::Black Hole::1,3,5::::xxx
+::Nebula::1,3,5::::xxx
+::Quasar::1,3,5::::xxx
+::Pulsar::1,3,5::::xxx
+::Planet::1,3,5::::xxx
+::Star Cluster::1,3,5::::xxx
+::Moon::1,3,5::::xxx
+::Comet::1,3,5::::xxx

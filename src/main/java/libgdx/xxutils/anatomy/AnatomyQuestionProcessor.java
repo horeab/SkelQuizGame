@@ -136,7 +136,7 @@ public class AnatomyQuestionProcessor {
                     options = oldQuestionParser.getOptions(enQuestion);
                 }
                 questions.add(newQuestionParser
-                        .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(enQuestion)));
+                        .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(enQuestion), ""));
             } else if (diff == AnatomyQuestionDifficultyLevel._1) {
                 if (cat.getIndex() >= TOTAL_FLUTTER_NR_OF_CATS) {
                     if (cat.getIndex() < TOTAL_FLUTTER_NR_OF_CATS * 2) {
@@ -148,7 +148,7 @@ public class AnatomyQuestionProcessor {
                         answer = firstCatQuestions.get(i);
                         options = Collections.emptyList();
                         questions.add(newQuestionParser
-                                .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(enQuestion)));
+                                .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(enQuestion), ""));
                     } else if (cat.getIndex() < TOTAL_FLUTTER_NR_OF_CATS * 3) {
                         List<String> firstCatQuestions = getFirstCatQuestions(diff, cat, lang,
                                 cat.getIndex() - TOTAL_FLUTTER_NR_OF_CATS * 2);
@@ -158,7 +158,7 @@ public class AnatomyQuestionProcessor {
                         answer = firstCatQuestions.get(i);
                         options = Arrays.asList(enQuestion.split(":")[1].split(","));
                         questions.add(newQuestionParser
-                                .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(enQuestion)));
+                                .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(enQuestion), ""));
                     }
                 }
             }
@@ -337,7 +337,7 @@ public class AnatomyQuestionProcessor {
     public static class AnatomyDependentQuestionParser extends TranslateQuestionProcessor.QuestionParser {
 
         @Override
-        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation) {
             return "";
         }
 
@@ -366,12 +366,17 @@ public class AnatomyQuestionProcessor {
         public String getQuestionPrefix(String rawString) {
             return "";
         }
+
+        @Override
+        public String getQuestionExplanation(String rawString) {
+            return "";
+        }
     }
 
     public static class AnatomyNewDependentQuestionParser extends TranslateQuestionProcessor.QuestionParser {
 
         @Override
-        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation) {
             String format = "%s:%s";
             Object[] array = {question, String.join(",", options), prefix};
             return formQuestion(format, array, language);
@@ -397,13 +402,18 @@ public class AnatomyQuestionProcessor {
         public String getQuestionPrefix(String rawString) {
             return "";
         }
+
+        @Override
+        public String getQuestionExplanation(String rawString) {
+            return "";
+        }
     }
 
 
     public static class AnatomyDiseaseDependentQuestionParser extends TranslateQuestionProcessor.QuestionParser {
 
         @Override
-        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix) {
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation) {
             String format = "%s:%s:%s:";
             Object[] array = {question, correctAnswer, String.join(",", options), prefix};
             return formQuestion(format, array, language);
@@ -427,6 +437,11 @@ public class AnatomyQuestionProcessor {
 
         @Override
         public String getQuestionPrefix(String rawString) {
+            return "";
+        }
+
+        @Override
+        public String getQuestionExplanation(String rawString) {
             return "";
         }
     }

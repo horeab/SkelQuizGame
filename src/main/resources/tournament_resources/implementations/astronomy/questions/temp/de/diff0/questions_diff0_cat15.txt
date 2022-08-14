@@ -1,0 +1,7 @@
+::Galileo Galilei::1,3,5::::xxx
+::Nicolaus Copernicus::0,2,4::::xxx
+::Edwin Hubble::3,4,0::::xxx
+::Carl Sagan::1,2,0::::xxx
+::Albert Einstein::5,1,2::::xxx
+::Stephen Hawking::4,1,0::::xxx
+::Christiaan Huygens::4,1,0::::xxx

@@ -1,0 +1,10 @@
+What is the largest known star?::UY Scuti##Betelgeuse##VY Canis majoris##Pollux::0
+What is the most dense kind of star?::Red giant##Neutron star##Black dwarf##White dwarf::1
+What is the closest galaxy to ours?::Barnard's galaxy##NGC 24 19##Andromeda##Ic 1101::2
+What is our galaxy called?::Earth##Milky Way##Andromeda##Universe::1
+How many stars are in our galaxy?::16 Million##5 Thousand##250 Billion##1 Billion::2
+What is the universe mostly composed of?::Dark matter##Dark energy##Light##Visible matter::1
+What is the brightest star in the sky?::Sirius##Andromeda##Orion##Polaris::0
+What is at the center of the Milky Way galaxy?::A black hole##multiple planets##a star cluster##It's not known::0
+What is the most common type of star found in the Milky Way?::Red Dwarf stars##Green Dwarf stars##Black Dwarf stars##White Dwarf stars::0
+What is the unit of measurement used to describe the expansion of the universe?::The Hubble Constant##Light years##Meters##The Alpha Constant::0

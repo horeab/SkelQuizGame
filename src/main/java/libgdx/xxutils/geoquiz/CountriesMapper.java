@@ -141,7 +141,7 @@ public class CountriesMapper {
                     if (cat == CountriesCategoryEnum.cat4 || cat == CountriesCategoryEnum.cat5) {
                         EmpireGeoRegionQuestionParser parser = new EmpireGeoRegionQuestionParser();
                         newIndexLine = parser.formQuestion(language, beforeDoubleDotText,
-                                String.join(",", optIndex), Collections.emptyList(), "");
+                                String.join(",", optIndex), Collections.emptyList(), "", "");
                     } else {
                         newIndexLine = beforeDoubleDotText + ":" + String.join(",", optIndex);
                     }
@@ -182,7 +182,7 @@ public class CountriesMapper {
     static class EmpireGeoRegionQuestionParser extends TranslateQuestionProcessor.QuestionParser {
 
         @Override
-        public String formQuestion(Language language, String empireGeoRegionName, String countryIndexes, List<String> options, String prefix) {
+        public String formQuestion(Language language, String empireGeoRegionName, String countryIndexes, List<String> options, String prefix, String explanation) {
             String format = "%s:%s";
             Object[] array = {empireGeoRegionName, countryIndexes};
             return formQuestion(format, array, language);
@@ -207,6 +207,11 @@ public class CountriesMapper {
         @Override
         public String getQuestionPrefix(String rawString) {
 //            return rawString.split(":", -1)[3];
+            return "";
+        }
+
+        @Override
+        public String getQuestionExplanation(String rawString) {
             return "";
         }
     }

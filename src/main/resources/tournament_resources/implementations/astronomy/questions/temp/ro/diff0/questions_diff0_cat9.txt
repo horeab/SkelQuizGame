@@ -1,0 +1,10 @@
+Care este cea mai fierbinte planetă din sistemul nostru solar?::Venus::1,2,3::::
+Care este cea mai rece planetă?::Uranus::4,5,6::::
+Care planetă din sistemul nostru solar are cele mai multe luni?::Saturn::0,3,4::::
+Care planetă este cea mai mare dintre planetele terestre?::Pământ::1,2,5::::
+Care planetă are cele mai puternice vânturi?::Neptun::3,5,6::::
+Care planetă este o planetă stâncoasă?::Mercur::1,2,4::::
+Care este a 4-a planetă din sistemul solar?::Marte::1,4,5::::
+Ce planetă nu are un satelit natural?::Mercur::1,2,3::::
+Care este cea mai veche planetă din sistemul nostru solar?::Jupiter::3,5,4::::
+Care planetă se învârte înapoi în raport cu celelalte?::Venus::3,4,7::::

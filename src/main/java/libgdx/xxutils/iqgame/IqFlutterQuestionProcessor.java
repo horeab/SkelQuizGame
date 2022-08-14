@@ -24,7 +24,7 @@ public class IqFlutterQuestionProcessor {
 
         StringBuilder res = new StringBuilder();
 
-        List<Language> languages = Arrays.asList(Language.en);
+        List<Language> languages = Arrays.asList(Language.values());
 
         for (Language language : languages) {
             res.append("add" + language.name().toUpperCase() + "(result, questionConfig);\n");
@@ -32,21 +32,23 @@ public class IqFlutterQuestionProcessor {
         res.append("    return result;\n" +
                 "  }\n\n");
 
-        res.append(FlutterQuestionProcessor.getQuestionsHeader(Language.en));
 
-        List<String> questions = getQuestions(Language.en);
-        TranslateQuestionProcessor.UniqueQuestionParser parser = new TranslateQuestionProcessor.UniqueQuestionParser();
+        for (Language language : languages) {
+            res.append(FlutterQuestionProcessor.getQuestionsHeader(language));
+            List<String> questions = getQuestions(language);
+            TranslateQuestionProcessor.UniqueQuestionParser parser = new TranslateQuestionProcessor.UniqueQuestionParser();
 
-        List<String> resQ = new ArrayList<>();
-        for (String q : questions) {
-            resQ.add(parser.formQuestion(Language.en, parser.getQuestion(q), parser.getAnswer(q),
-                    parser.getOptions(q), ""));
+            List<String> resQ = new ArrayList<>();
+            for (String q : questions) {
+                resQ.add(parser.formQuestion(language, parser.getQuestion(q), parser.getAnswer(q),
+                        parser.getOptions(q), "", ""));
+            }
+            res.append(FlutterQuestionProcessor
+                    .getQuestionsForCatAndDiff(AnatomyQuestionDifficultyLevel._0,
+                            "cat5", resQ.stream().map(e -> "\"" + e + "\"").collect(Collectors.toList()).toString()));
+
+            res.append("  }\n\n");
         }
-        res.append(FlutterQuestionProcessor
-                .getQuestionsForCatAndDiff(AnatomyQuestionDifficultyLevel._0,
-                        "cat5", resQ.stream().map(e -> "\"" + e + "\"").collect(Collectors.toList()).toString()));
-
-        res.append("  }\n\n");
         System.out.println(res);
     }
 

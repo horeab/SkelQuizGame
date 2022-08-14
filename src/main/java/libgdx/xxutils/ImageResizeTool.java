@@ -20,11 +20,17 @@ import libgdx.implementations.history.HistoryCategoryEnum;
 import libgdx.implementations.history.HistoryDifficultyLevel;
 
 class ImageResizeTool {
-
-    //NEED TO BE IN /Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources !!!
-    static final String MACBOOK_ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/proc";
-    static int MAX_WIDTH = 400;
-    static int MAX_HEIGHT = 400;
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    //!!!!!!NEED TO BE IN /Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources FOLDER !!!
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!COPY THE FILES INTO THE PROC FOLDER
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    private static final String MACBOOK_ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/proc";
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    private static int MAX_WIDTH = 600;
+    private static int MAX_HEIGHT = 600;
 
     public static void main(String[] args) throws IOException {
         //root path should contain /tournament_resources/..../image_folder/
