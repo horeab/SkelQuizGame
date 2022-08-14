@@ -1,0 +1,11 @@
+0##Il Big Bang::13,8 miliardi di anni fa::4,7,8::::xxx
+3##Formazione delle prime galassie::400 milioni di anni dopo il Big Bang::8,3,10::::xxx
+2##Formazione delle prime stelle::100 milioni di anni dopo il Big Bang::3,4,7::::xxx
+1##Formazione dei primi buchi neri::Durante il Big Bang::4,8,9::::xxx
+7##Formazione della Terra::4,6 miliardi di anni fa::5,6,7::::xxx
+9##Appaiono le prime forme di vita::3,7 miliardi di anni fa::4,7,8::::xxx
+8##Formazione della Luna::50 milioni di anni dopo la nascita del sistema solare::10,9,8::::xxx
+10##Formazione della nuova galassia::500 milioni di anni fa::8,1,4::::xxx
+5##Formazione della galassia di Andromeda::10 miliardi di anni fa::9,10,5::::xxx
+4##Formazione della Via Lattea::800 milioni di anni dopo il Big Bang::8,2,3::::xxx
+6##Formazione del Sistema Solare::4,6 miliardi di anni fa::3,0,2::::xxx

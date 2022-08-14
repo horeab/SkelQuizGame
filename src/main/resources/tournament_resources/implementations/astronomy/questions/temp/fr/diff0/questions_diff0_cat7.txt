@@ -1,0 +1,10 @@
+Combien y a-t-il de planètes dans le système solaire ?::8##9##10##11::0
+À quelle distance de la Terre se trouve notre soleil, environ... ?::93 années-lumière##150 millions de kilomètres##150 milliards de kilomètres##150 billions de kilomètres::1
+Qu'est-ce que la lune ?::astéroïde##étoile##satellite naturel##planète::2
+Quel âge a la terre environ ?::6 milliards d'années##4 milliards d'années##1 milliard d'années##4 trillions d'années::1
+Quel est le résultat de l'inclinaison de la Terre ?::Les saisons##Jour et nuit##Tsunami##Tremblements de terre::0
+Quelle est la forme de l'orbite terrestre autour du soleil ?::Circulaire##Elliptique##Carré##Variable::1
+Où se situe la ceinture d'astéroïdes ?::au-delà de Pluton##autour du Soleil##entre Mars et Jupiter##entre Terre et Mars::2
+Comment appelle-t-on le chemin parcouru par un astre dans l'espace ?::Une orbite##Un chemin##Un circuit##Une route::0
+Qu'est-ce qui fait briller la lune ?::Lumière du soleil réfléchie##Lumière réfléchie de la terre##Possède sa propre source de lumière::0
+Combien y a-t-il de lunes dans notre système solaire actuellement ?::181 lunes##239 lunes##32 lunes##93 lunes::0

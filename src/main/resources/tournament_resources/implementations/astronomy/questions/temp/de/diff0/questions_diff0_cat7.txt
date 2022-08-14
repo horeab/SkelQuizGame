@@ -1,10 +1,10 @@
-How many planets are there in the solar system?::8##9##10##11::0
-How far away from Earth is our sun, approximately...?::93 light years##150 million kilometers##150 billion kilometers##150 trillion kilometers::1
-What is the moon?::asteroid##star##natural satellite##planet::2
-Approximately how old is the earth?::6 billion years##4 billion years##1 billion years##4 trillion years::1
-What result does the earth's tilt have?::The seasons##Day and Night##Tsunami##Earthquakes::0
-What is the shape of the earth's orbit around the sun?::Circular##Elliptical##Square##Variable::1
-Where is the asteroid belt located?::beyond Pluto##around the Sun##between Mars and Jupiter##between Earth and Mars::2
-What do you call the path traveled by a celestial body in space?::An orbit##A path##A circuit##A route::0
-What causes the moon to shine?::Reflected sunlight##Reflected light from earth##Has it's own light source::0
-How many moons are currently in our solar system?::181 moons##239 moons##32 moons##93 moons::0
+Wie viele Planeten gibt es im Sonnensystem?::8##9##10##11::0
+Wie weit ist unsere Sonne ungefähr von der Erde entfernt...?::93 Lichtjahre##150 Millionen Kilometer##150 Milliarden Kilometer##150 Billionen Kilometer::1
+Was ist der Mond?::Asteroid##Stern##natürlicher Satellit##Planet::2
+Wie alt ist die Erde ungefähr?::6 Milliarden Jahre##4 Milliarden Jahre##1 Milliarde Jahre##4 Billionen Jahre::1
+Welche Folge hat die Neigung der Erde?::Die Jahreszeiten##Tag-und Nacht##Tsunami##Erdbeben::0
+Welche Form hat die Umlaufbahn der Erde um die Sonne?::Kreisförmig##Elliptisch##Quadrat##Variable::1
+Wo befindet sich der Asteroidengürtel?::jenseits von Pluto##um die Sonne##zwischen Mars und Jupiter##zwischen Erde und Mars::2
+Wie nennt man die Bahn, die ein Himmelskörper im All zurücklegt?::Eine Umlaufbahn##Ein Weg##Eine Schaltung##Eine Route::0
+Was bringt den Mond zum Leuchten?::Reflektiertes Sonnenlicht##Reflektiertes Licht von der Erde##Hat eine eigene Lichtquelle::0
+Wie viele Monde befinden sich derzeit in unserem Sonnensystem?::181 Monde##239 Monde##32 Monde##93 Monde::0

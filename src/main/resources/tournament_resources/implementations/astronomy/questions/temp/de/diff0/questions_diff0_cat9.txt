@@ -1,10 +1,10 @@
-What is the hottest planet in our solar system?::Venus::1,2,3::::xxx
-What is the coldest planet?::Uranus::4,5,6::::xxx
-Which planet in our solar system has the most moons?::Saturn::0,3,4::::xxx
-Which planet is the largest of the terrestrial planets?::Earth::1,2,5::::xxx
-Which planet has the strongest winds?::Neptune::3,5,6::::xxx
-Which planet is a rocky planet?::Mercury::1,2,4::::xxx
-What is the 4th planet in the solar system?::Mars::1,4,5::::xxx
-Which planet does not have a natural satellite?::Mercury::1,2,3::::xxx
-Which is the oldest planet in our solar system?::Jupiter::3,5,4::::xxx
-Which planet spins backward relative to the others?::Venus::3,4,7::::xxx
+Was ist der heißeste Planet in unserem Sonnensystem?::Venus::1,2,3::::xxx
+Was ist der kälteste Planet?::Uranus::4,5,6::::xxx
+Welcher Planet in unserem Sonnensystem hat die meisten Monde?::Saturn::0,3,4::::xxx
+Welcher Planet ist der größte der erdähnlichen Planeten?::Erde::1,2,5::::xxx
+Welcher Planet hat die stärksten Winde?::Neptun::3,5,6::::xxx
+Welcher Planet ist ein Gesteinsplanet?::Merkur::1,2,4::::xxx
+Was ist der 4. Planet im Sonnensystem?::Mars::1,4,5::::xxx
+Welcher Planet hat keinen natürlichen Satelliten?::Merkur::1,2,3::::xxx
+Welches ist der älteste Planet in unserem Sonnensystem?::Jupiter::3,5,4::::xxx
+Welcher Planet dreht sich relativ zu den anderen rückwärts?::Venus::3,4,7::::xxx

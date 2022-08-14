@@ -1,0 +1,10 @@
+Katero je prvo vesoljsko plovilo, izstreljeno v vesolje?::Voyager##Viking 1##Vostok 1##Sputnik::2
+Katera sonda je bila leta 1977 poslana proti Saturnu?::Pionir##Huygens##Saturn Cassini##Voyager 1::3
+Katerega leta je Galileo Galilei začel uporabljati teleskop za raziskovanje neba?::1704##1609##1510##1653::1
+Kdo je bil prvi, ki je pristal na luni?::Neil Armstrong##Alan Shepard##Buzz Aldrin##Alan Bean::0
+Katero vesoljsko plovilo kroži okoli Jupitra?::Juno##Lander##Vostok##Cassini::0
+Kdaj je bil odkrit Pluton?::1930##1834##1956##1975::0
+Kdo je bil prvi človek, ki je obkrožil Zemljo?::Jurij Gagarin##Neil Armstrong##Buzz Aldrin##Alan Shepard::0
+Kdo je bila prva ženska, ki je odpotovala v vesolje?::Valentina Tereškova##Sally Ride##Kalpana Chawla##Eileen Collins::0
+Kdaj je bil teleskop Hubble izstreljen v vesolje?::1990##1975##2000##1983::0
+Kdaj je bila Mednarodna vesoljska postaja izstreljena v vesolje?::1998##1988##1991##2005::0

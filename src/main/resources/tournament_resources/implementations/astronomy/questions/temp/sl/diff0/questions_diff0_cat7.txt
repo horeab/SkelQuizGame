@@ -1,0 +1,10 @@
+Koliko planetov je v sončnem sistemu?::8##9##10##11::0
+Kako daleč od Zemlje je naše sonce, približno ...?::93 svetlobnih let##150 milijonov kilometrov##150 milijard kilometrov##150 bilijonov kilometrov::1
+Kaj je luna?::asteroid##zvezda##naravni satelit##planet::2
+Približno koliko je stara zemlja?::6 milijard let##4 milijarde let##1 milijardo let##4 trilijone let::1
+Kakšen rezultat ima nagib Zemlje?::Letni časi##Dan in noč##cunami##Potresi::0
+Kakšna je oblika zemeljske orbite okoli sonca?::Krožna##Eliptične##kvadrat##Spremenljivka::1
+Kje se nahaja asteroidni pas?::onstran Plutona##okoli Sonca##med Marsom in Jupitrom##med Zemljo in Marsom::2
+Kako imenujemo pot, ki jo prehodi nebesno telo v vesolju?::Orbita##Pot##Vezje##Pot::0
+Kaj povzroča, da luna sveti?::Odbita sončna svetloba##Odbita svetloba od zemlje##Ima svoj vir svetlobe::0
+Koliko lun je trenutno v našem sončnem sistemu?::181 lun##239 lun##32 lun##93 lun::0

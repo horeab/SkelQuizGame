@@ -1,0 +1,10 @@
+Katera je največja znana zvezda?::UY Scuti##Betelgeza##VY Canis majoris##Pollux::0
+Katera je najbolj gosta vrsta zvezde?::Rdeči velikan##Nevtronska zvezda##Črni škrat##Beli pritlikavec::1
+Katera je nam najbližja galaksija?::Barnardova galaksija##NGC 24 19##Andromeda##Ic 1101::2
+Kako se imenuje naša galaksija?::Zemlja##mlečna cesta##Andromeda##Vesolje::1
+Koliko zvezd je v naši galaksiji?::16 milijonov##5 tisoč##250 milijard##1 milijarda::2
+Iz česa je večinoma sestavljeno vesolje?::Temna snov##Temna energija##Svetloba##Vidna snov::1
+Katera je najsvetlejša zvezda na nebu?::Sirius##Andromeda##Orion##Polaris::0
+Kaj je v središču galaksije Rimska cesta?::Črna luknja##več planetov##zvezdna kopica##Ni znano::0
+Katera je najpogostejša vrsta zvezd v Rimski cesti?::Zvezde rdečega škrata##Zvezde zelenega škrata##Zvezde črnega škrata##Bele pritlikave zvezde::0
+Katera merska enota se uporablja za opis širjenja vesolja?::Hubblova konstanta##Svetlobna leta##Metri##Alfa konstanta::0
