@@ -1,0 +1,10 @@
+¿Cuántos planetas hay en el sistema solar?::8##9##10##11::0
+¿A qué distancia de la Tierra se encuentra nuestro sol, aproximadamente...?::93 años luz##150 millones de kilómetros##150 mil millones de kilómetros##150 billones de kilómetros::1
+¿Qué es la luna?::asteroide##estrella##Satélite natural##planeta::2
+¿Cuántos años tiene la tierra aproximadamente?::6 mil millones de años##4 mil millones de años##mil millones de años##4 billones de años::1
+¿Qué resultado tiene la inclinación de la tierra?::Las estaciones##Día y noche##tsunami##Temblores::0
+¿Cuál es la forma de la órbita de la tierra alrededor del sol?::Circular##Elíptico##Cuadrado##Variable::1
+¿Dónde se encuentra el cinturón de asteroides?::más allá de plutón##alrededor del Sol##entre Marte y Júpiter##entre la tierra y marte::2
+¿Cómo se llama el camino recorrido por un cuerpo celeste en el espacio?::una órbita##Un sendero##un circuito##Una ruta::0
+¿Qué hace que la luna brille?::luz del sol reflejada##Luz reflejada de la tierra##Tiene su propia fuente de luz.::0
+¿Cuántas lunas hay actualmente en nuestro sistema solar?::181 lunas##239 lunas##32 lunas##93 lunas::0
