@@ -1,0 +1,10 @@
+Hvad er den største kendte stjerne?::UY Scuti##Betelgeuse##VY Canis majoris##Pollux::0
+Hvad er den mest tætte slags stjerne?::Rød kæmpe##Neutronstjerne##Sort dværg##Hvid dværg::1
+Hvad er den nærmeste galakse på vores?::Barnards galakse##NGC 24 19##Andromeda##Ic 1101::2
+Hvad hedder vores galakse?::Jorden##Mælkevejen##Andromeda##Univers::1
+Hvor mange stjerner er der i vores galakse?::16 mio##5 tusind##250 milliarder##1 milliard::2
+Hvad består universet mest af?::Mørkt stof##Mørk energi##Lys##Synligt stof::1
+Hvad er den klareste stjerne på himlen?::Sirius##Andromeda##Orion##Polaris::0
+Hvad er i centrum af Mælkevejen?::Et sort hul##flere planeter##en stjernehob##Det vides ikke::0
+Hvad er den mest almindelige type stjerne fundet i Mælkevejen?::Røde dværg stjerner##Grønne dværgstjerner##Sorte dværg stjerner##Hvide dværg stjerner::0
+Hvad er den måleenhed, der bruges til at beskrive universets udvidelse?::Hubble-konstanten##Lysår##Meter##Alfa-konstanten::0

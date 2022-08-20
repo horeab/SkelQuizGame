@@ -1,0 +1,10 @@
+Mikä on suurin tunnettu tähti?::UY Scuti##Betelgeuse##VY Canis majoris##Pollux::0
+Mikä on tihein tähtilaji?::Punainen jättiläinen##Neutroni tähti##Musta kääpiö##valkoinen kääpiö::1
+Mikä on lähin galaksimme?::Barnardin galaksi##NGC 24 19##Andromeda##Ic 1101::2
+Mikä on galaksimme nimi?::Maa##Linnunrata##Andromeda##Universumi::1
+Kuinka monta tähteä on galaksissamme?::16 miljoonaa##5 tuhatta##250 miljardia##1 miljardi::2
+Mistä maailmankaikkeus enimmäkseen koostuu?::Pimeä aine##Pimeää energiaa##Kevyt##Näkyvä asia::1
+Mikä on kirkkain tähti taivaalla?::Sirius##Andromeda##Orion##Polaris::0
+Mikä on Linnunradan galaksin keskustassa?::Musta aukko##useita planeettoja##tähtijoukko##Sitä ei tiedetä::0
+Mikä on Linnunradan yleisin tähtityyppi?::Punaisen kääpiön tähdet##Vihreän kääpiön tähdet##Black Dwarf tähdet##Valkoisen kääpiön tähdet::0
+Mitä mittayksikköä käytetään kuvaamaan maailmankaikkeuden laajenemista?::Hubblen vakio##Valovuodet##Metriä##Alfa-vakio::0

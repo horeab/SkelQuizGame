@@ -1,0 +1,10 @@
+Hvor mange planeter er der i solsystemet?::8##9##10##11::0
+Hvor langt væk fra Jorden er vores sol cirka...?::93 lysår##150 millioner kilometer##150 milliarder kilometer##150 billioner kilometer::1
+Hvad er månen?::asteroide##stjerne##naturlig satellit##planet::2
+Hvor gammel er jorden cirka?::6 milliarder år##4 milliarder år##1 milliard år##4 billioner år::1
+Hvilket resultat har jordens hældning?::Årstiderne##Dag og nat##Tsunami##Jordskælv::0
+Hvad er formen af ​​jordens kredsløb om solen?::Cirkulær##Elliptisk##Firkant##Variabel::1
+Hvor er asteroidebæltet placeret?::ud over Pluto##omkring Solen##mellem Mars og Jupiter##mellem Jorden og Mars::2
+Hvad kalder du den vej, som et himmellegeme tilbagelægger i rummet?::En bane##En vej##Et kredsløb##En rute::0
+Hvad får månen til at skinne?::Reflekteret sollys##Reflekteret lys fra jorden##Har sin egen lyskilde::0
+Hvor mange måner er der i vores solsystem i øjeblikket?::181 måner##239 måner##32 måner##93 måner::0

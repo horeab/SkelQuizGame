@@ -1,0 +1,10 @@
+Jaká je největší známá hvězda?::UY Scuti##Betelgeuse##VY Canis majoris##Pollux::0
+Jaký druh hvězdy je nejhustší?::Červený obr##Neutronová hvězda##Černý trpaslík##Bílý trpaslík::1
+Jaká galaxie je naší nejbližší?::Barnardova galaxie##NGC 24 19##Andromeda##Ic 1101::2
+Jak se jmenuje naše galaxie?::Země##mléčná dráha##Andromeda##Vesmír::1
+Kolik hvězd je v naší galaxii?::16 milionů##5 tisíc##250 miliard##1 miliarda::2
+Z čeho se vesmír většinou skládá?::Temná hmota##Temná energie##Světlo##Viditelná záležitost::1
+Jaká je nejjasnější hvězda na obloze?::Sírius##Andromeda##Orion##Polaris::0
+Co je ve středu galaxie Mléčná dráha?::Černá díra##více planet##hvězdokupa##Není známo::0
+Jaký je nejběžnější typ hvězdy nalezený v Mléčné dráze?::Hvězdy Červeného trpaslíka##Hvězdy zeleného trpaslíka##Hvězdy černého trpaslíka##Hvězdy bílého trpaslíka::0
+Jaká je měrná jednotka používaná k popisu rozpínání vesmíru?::Hubbleova konstanta##Světelné roky##metrů##Alfa konstanta::0

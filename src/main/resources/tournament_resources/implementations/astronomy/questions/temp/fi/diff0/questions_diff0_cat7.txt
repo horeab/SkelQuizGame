@@ -1,0 +1,10 @@
+Kuinka monta planeettaa aurinkokunnassa on?::8##9##10##11::0
+Kuinka kaukana maasta aurinkomme on, noin...?::93 valovuotta##150 miljoonaa kilometriä##150 miljardia kilometriä##150 biljoonaa kilometriä::1
+Mikä on kuu?::asteroidi##tähti##luonnollinen satelliitti##planeetta::2
+Kuinka vanha suunnilleen maapallo on?::6 miljardia vuotta##4 miljardia vuotta##1 miljardi vuotta##4 biljoonaa vuotta::1
+Mikä on seuraus maan kallistumisesta?::Vuodenajat##Päivä ja yö##Tsunami##Maanjäristykset::0
+Minkä muotoinen on maan kiertorata auringon ympäri?::Pyöreä##Elliptinen##Neliö##Muuttuva::1
+Missä asteroidivyöhyke sijaitsee?::Pluton ulkopuolelle##Auringon ympärillä##Marsin ja Jupiterin välillä##Maan ja Marsin välillä::2
+Miten kutsut taivaankappaleen avaruudessa kulkemaa polkua?::Rata##Polku##Piiri##Reitti::0
+Mikä saa kuun paistamaan?::Heijastunut auringonvalo##Heijastunut valo maasta##Siinä on oma valonlähde::0
+Kuinka monta kuuta aurinkokunnassamme on tällä hetkellä?::181 kuuta##239 kuuta##32 kuuta##93 kuuta::0

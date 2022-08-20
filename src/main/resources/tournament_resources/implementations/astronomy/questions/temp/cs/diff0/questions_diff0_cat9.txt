@@ -1,0 +1,10 @@
+Jaká je nejžhavější planeta v naší sluneční soustavě?::Venuše::1,2,3::::xxx
+Jaká je nejchladnější planeta?::Uran::4,5,6::::xxx
+Která planeta v naší sluneční soustavě má ​​nejvíce měsíců?::Saturn::0,3,4::::xxx
+Která planeta je největší z terestrických planet?::Země::1,2,5::::xxx
+Která planeta má nejsilnější vítr?::Neptun::3,5,6::::xxx
+Která planeta je kamenná?::Merkur::1,2,4::::xxx
+Jaká je 4. planeta sluneční soustavy?::Mars::1,4,5::::xxx
+Která planeta nemá přirozený satelit?::Merkur::1,2,3::::xxx
+Která planeta je nejstarší v naší sluneční soustavě?::Jupiter::3,5,4::::xxx
+Která planeta se točí vzad vůči ostatním?::Venuše::3,4,7::::xxx

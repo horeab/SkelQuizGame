@@ -1,0 +1,10 @@
+Jaká je první kosmická loď vypuštěná do vesmíru?::Voyager##Viking 1##Vostok 1##Sputnik::2
+Jaká sonda byla vyslána k Saturnu v roce 1977?::Průkopník##Huygens##Saturn Cassini##Voyager 1::3
+Ve kterém roce začal Galileo Galilei používat dalekohled k průzkumu oblohy?::1704##1609##1510##1653::1
+Kdo jako první přistál na Měsíci?::Neil Armstrong##Alan Shepard##Buzz Aldrin##Alan Bean::0
+Jaká kosmická loď obíhá kolem Jupiteru?::Juno##Lander##Vostok##Cassini::0
+Kdy bylo objeveno Pluto?::1930##1834##1956##1975::0
+Kdo jako první obletěl Zemi?::Jurij Gagarin##Neil Armstrong##Buzz Aldrin##Alan Shepard::0
+Kdo byla první žena, která cestovala do vesmíru?::Valentina Těreškovová##Sally Ride##Kalpana Chawla##Eileen Collinsová::0
+Kdy byl Hubbleův teleskop vypuštěn do vesmíru?::1990##1975##2000##1983::0
+Kdy byla Mezinárodní vesmírná stanice vypuštěna do vesmíru?::1998##1988##1991##2005::0

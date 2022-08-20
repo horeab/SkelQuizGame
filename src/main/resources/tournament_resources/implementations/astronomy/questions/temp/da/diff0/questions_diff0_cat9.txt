@@ -1,0 +1,10 @@
+Hvad er den varmeste planet i vores solsystem?::Venus::1,2,3::::xxx
+Hvad er den koldeste planet?::Uranus::4,5,6::::xxx
+Hvilken planet i vores solsystem har flest måner?::Saturn::0,3,4::::xxx
+Hvilken planet er den største af de jordiske planeter?::Jorden::1,2,5::::xxx
+Hvilken planet har den stærkeste vind?::Neptun::3,5,6::::xxx
+Hvilken planet er en klippeplanet?::Merkur::1,2,4::::xxx
+Hvad er den 4. planet i solsystemet?::Mars::1,4,5::::xxx
+Hvilken planet har ikke en naturlig satellit?::Merkur::1,2,3::::xxx
+Hvilken planet er den ældste i vores solsystem?::Jupiter::3,5,4::::xxx
+Hvilken planet drejer baglæns i forhold til de andre?::Venus::3,4,7::::xxx

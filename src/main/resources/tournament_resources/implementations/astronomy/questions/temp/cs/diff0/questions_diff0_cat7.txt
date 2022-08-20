@@ -1,0 +1,10 @@
+Kolik planet je ve sluneční soustavě?::8##9##10##11::0
+Jak daleko od Země je naše Slunce, přibližně...?::93 světelných let##150 milionů kilometrů##150 miliard kilometrů##150 bilionů kilometrů::1
+co je měsíc?::asteroid##hvězda##přirozený satelit##planeta::2
+Jak stará je přibližně Země?::6 miliard let##4 miliardy let##1 miliardu let##4 biliony let::1
+Jaký výsledek má sklon Země?::Roční období##Den a noc##Tsunami##Zemětřesení::0
+Jaký je tvar oběžné dráhy Země kolem Slunce?::Oběžník##Eliptický##Náměstí##Variabilní::1
+Kde se nachází pás asteroidů?::za Plutem##kolem Slunce##mezi Marsem a Jupiterem##mezi Zemí a Marsem::2
+Jak se nazývá dráha, kterou urazí nebeské těleso ve vesmíru?::Oběžná dráha##Cesta##Obvod##Trasa::0
+Co způsobuje, že měsíc svítí?::Odražené sluneční světlo##Odražené světlo od země##Má vlastní zdroj světla::0
+Kolik měsíců je v současné době v naší sluneční soustavě?::181 měsíců##239 měsíců##32 měsíců##93 měsíců::0

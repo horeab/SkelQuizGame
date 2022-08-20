@@ -1,0 +1,10 @@
+Mikä on aurinkokuntamme kuumin planeetta?::Venus::1,2,3::::xxx
+Mikä on kylmin planeetta?::Uranus::4,5,6::::xxx
+Millä planeetalla aurinkokuntamme planeetalla on eniten kuita?::Saturnus::0,3,4::::xxx
+Mikä planeetta on maanpäällisistä planeetoista suurin?::Maa::1,2,5::::xxx
+Millä planeetalla on voimakkaimmat tuulet?::Neptunus::3,5,6::::xxx
+Mikä planeetta on kiviplaneetta?::Merkurius::1,2,4::::xxx
+Mikä on aurinkokunnan neljäs planeetta?::Mars::1,4,5::::xxx
+Millä planeetalla ei ole luonnollista satelliittia?::Merkurius::1,2,3::::xxx
+Mikä on aurinkokuntamme vanhin planeetta?::Jupiter::3,5,4::::xxx
+Mikä planeetta pyörii taaksepäin suhteessa muihin?::Venus::3,4,7::::xxx
