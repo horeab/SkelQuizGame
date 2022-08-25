@@ -1,10 +1,10 @@
-Qual è il pianeta più caldo del nostro sistema solare?::Venere::1,2,3::::xxx
-Qual è il pianeta più freddo?::Urano::4,5,6::::xxx
-Quale pianeta del nostro sistema solare ha il maggior numero di lune?::Saturno::0,3,4::::xxx
-Quale pianeta è il più grande dei pianeti terrestri?::Terra::1,2,5::::xxx
-Quale pianeta ha i venti più forti?::Nettuno::3,5,6::::xxx
-Quale pianeta è un pianeta roccioso?::Mercurio::1,2,4::::xxx
-Qual è il quarto pianeta del sistema solare?::Marte::1,4,5::::xxx
-Quale pianeta non ha un satellite naturale?::Mercurio::1,2,3::::xxx
-Qual è il pianeta più antico del nostro sistema solare?::Giove::3,5,4::::xxx
-Quale pianeta ruota all'indietro rispetto agli altri?::Venere::3,4,7::::xxx
+Qual è il pianeta più caldo del nostro sistema solare?::Venere::1,2,3::::
+Qual è il pianeta più freddo?::Urano::4,5,6::::
+Quale pianeta del nostro sistema solare ha il maggior numero di lune?::Saturno::0,3,4::::
+Quale pianeta è il più grande dei pianeti terrestri?::Terra::1,2,5::::
+Quale pianeta ha i venti più forti?::Nettuno::3,5,6::::
+Quale pianeta è un pianeta roccioso?::Mercurio::1,2,4::::
+Qual è il quarto pianeta del sistema solare?::Marte::1,4,5::::
+Quale pianeta non ha un satellite naturale?::Mercurio::1,2,3::::
+Qual è il pianeta più antico del nostro sistema solare?::Giove::3,5,4::::
+Quale pianeta ruota all&#39;indietro rispetto agli altri?::Venere::3,4,7::::

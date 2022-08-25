@@ -6,5 +6,5 @@
 ¿De qué está compuesto principalmente el universo?::Materia oscura##Energía oscura##Luz##materia visible::1
 ¿Cuál es la estrella más brillante en el cielo?::Sirio##Andrómeda##Orión##estrella polar::0
 ¿Qué hay en el centro de la galaxia de la Vía Láctea?::un agujero negro##múltiples planetas##un cúmulo de estrellas##no se sabe::0
-¿Cuál es el tipo de estrella más común que se encuentra en la Vía Láctea?::estrellas enanas rojas##Estrellas enanas verdes##Estrellas enanas negras##Estrellas enanas blancas::0
+¿Cuál es el tipo de estrella más común que se encuentra en la Vía Láctea?::Estrellas enanas rojas##Estrellas enanas verdes##Estrellas enanas negras##Estrellas enanas blancas::0
 ¿Cuál es la unidad de medida utilizada para describir la expansión del universo?::La constante de Hubble##Años luz##Metros##La constante alfa::0

@@ -1,0 +1,10 @@
+Apakah kapal angkasa pertama yang dilancarkan ke angkasa lepas?::Voyager##Viking 1##Vostok 1##Sputnik::2
+Apakah siasatan yang dihantar ke arah Zuhal pada tahun 1977?::perintis##Huygens##Zuhal Cassini##Pengembara 1::3
+Pada tahun berapa Galileo Galilei mula menggunakan teleskop untuk meneroka langit?::1704##1609##1510##1653::1
+Siapakah orang pertama yang mendarat di bulan?::Neil Armstrong##Alan Shepard##Buzz Aldrin##Alan Bean::0
+Apakah kapal angkasa yang mengorbit di sekitar Musytari?::Juno##Pendarat##Vostok##Cassini::0
+Bilakah Pluto ditemui?::1930##1834##1956##1975::0
+Siapakah manusia pertama yang mengorbit mengelilingi bumi?::Yuri Gagarin##Neil Armstrong##Buzz Aldrin##Alan Shepard::0
+Siapakah wanita pertama yang mengembara ke angkasa lepas?::Valentina Tereshkova##Sally Ride##Kalpana Chawla##Eileen Collins::0
+Bilakah Teleskop Hubble dilancarkan ke angkasa lepas?::1990##1975##2000##1983::0
+Bilakah Stesen Angkasa Antarabangsa dilancarkan ke angkasa lepas?::1998##1988##1991##2005::0

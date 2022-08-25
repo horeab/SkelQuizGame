@@ -1,0 +1,6 @@
+::Sfera niebieska::1,3,5::::W astronomii i nawigacji sfera niebieska jest sferą abstrakcyjną, która ma dowolnie duży promień i jest koncentryczna względem Ziemi.
+::Zegar słoneczny::0,2,4::::Zegar słoneczny to urządzenie zegarmistrzowskie, które wskazuje porę dnia, kiedy bezpośrednie światło słoneczne świeci na podstawie pozornej pozycji Słońca na niebie.
+::Teleskop::3,4,0::::Teleskop to przyrząd optyczny wykorzystujący soczewki, zakrzywione lustra lub ich kombinację do obserwacji odległych obiektów lub różne urządzenia używane do obserwacji odległych obiektów poprzez ich emisję, absorpcję lub odbicie promieniowania elektromagnetycznego.
+::Zegar astronomiczny::1,2,0::::Zegar astronomiczny to zegar ze specjalnymi mechanizmami i tarczami do wyświetlania informacji astronomicznych, takich jak względne pozycje Słońca, Księżyca, konstelacje zodiakalne, a czasem główne planety.
+::Fotometr::5,1,2::::Fotometr to przyrząd, który mierzy siłę promieniowania elektromagnetycznego w zakresie od ultrafioletu do podczerwieni, w tym widma widzialnego.
+::Teleskop kosmiczny::4,1,0::::Teleskop kosmiczny to teleskop w kosmosie używany do obserwacji obiektów astronomicznych. Są one podzielone na dwa typy: satelity mapujące całe niebo oraz satelity skupiające się na wybranych obiektach astronomicznych.

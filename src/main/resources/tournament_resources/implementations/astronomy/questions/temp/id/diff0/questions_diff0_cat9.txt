@@ -1,0 +1,10 @@
+Apa planet terpanas di tata surya kita?::Venus::1,2,3::::
+Apa planet terdingin?::Uranus::4,5,6::::
+Planet apa di tata surya kita yang memiliki bulan paling banyak?::Saturnus::0,3,4::::
+Planet manakah yang terbesar dari planet terestrial?::Bumi::1,2,5::::
+Planet mana yang memiliki angin paling kencang?::Neptunus::3,5,6::::
+Planet manakah yang merupakan planet berbatu?::Merkurius::1,2,4::::
+Apa planet ke-4 di tata surya?::Mars::1,4,5::::
+Planet mana yang tidak memiliki satelit alami?::Merkurius::1,2,3::::
+Manakah planet tertua di tata surya kita?::Jupiter::3,5,4::::
+Planet mana yang berputar mundur relatif terhadap yang lain?::Venus::3,4,7::::

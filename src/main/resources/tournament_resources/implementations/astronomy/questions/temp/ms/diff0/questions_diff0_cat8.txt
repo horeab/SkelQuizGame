@@ -1,0 +1,10 @@
+Apakah bintang terbesar yang diketahui?::UY Scuti##Betelgeuse##VY Canis majoris##Pollux::0
+Apakah jenis bintang yang paling tumpat?::gergasi merah##Bintang neutron##Kerdil hitam##Kerdil putih::1
+Apakah galaksi yang paling dekat dengan kita?::galaksi Barnard##NGC 24 19##Andromeda##Ic 1101::2
+Apakah nama galaksi kita?::Bumi##Bima Sakti##Andromeda##Alam semesta::1
+Berapakah bilangan bintang dalam galaksi kita?::16 Juta##5 Ribu##250 Billion##1 bilion::2
+Apakah alam semesta yang kebanyakannya terdiri daripada?::Perkara gelap##Tenaga gelap##Cahaya##Perkara yang boleh dilihat::1
+Apakah bintang paling terang di langit?::Sirius##Andromeda##Orion##Polaris::0
+Apakah yang terdapat di tengah galaksi Bima Sakti?::Satu lubang hitam##pelbagai planet##gugusan bintang##Ia tidak diketahui::0
+Apakah jenis bintang yang paling biasa ditemui di Bima Sakti?::Bintang Kerdil Merah##Bintang Kerdil Hijau##Bintang Kerdil Hitam##Bintang Kerdil Putih::0
+Apakah unit ukuran yang digunakan untuk menerangkan pengembangan alam semesta?::Pemalar Hubble##Tahun cahaya##Meter##Pemalar Alpha::0

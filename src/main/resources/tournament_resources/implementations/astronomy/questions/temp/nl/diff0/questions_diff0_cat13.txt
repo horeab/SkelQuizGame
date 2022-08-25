@@ -1,0 +1,6 @@
+::Hemelbol::1,3,5::::In de astronomie en navigatie is de hemelbol een abstracte bol met een willekeurig grote straal en concentrisch ten opzichte van de aarde.
+::Zonnewijzer::0,2,4::::Een zonnewijzer is een uurwerk dat de tijd van de dag aangeeft waarop direct zonlicht schijnt door de schijnbare positie van de zon aan de hemel.
+::Telescoop::3,4,0::::Een telescoop is een optisch instrument dat lenzen, gebogen spiegels of een combinatie van beide gebruikt om verre objecten te observeren, of verschillende apparaten die worden gebruikt om verre objecten te observeren door hun emissie, absorptie of reflectie van elektromagnetische straling.
+::Astronomische klok::1,2,0::::Een astronomische klok is een klok met speciale mechanismen en wijzerplaten om astronomische informatie weer te geven, zoals de relatieve posities van de zon, de maan, sterrenbeelden en soms grote planeten.
+::Fotometer::5,1,2::::Een fotometer is een instrument dat de sterkte van elektromagnetische straling meet in het bereik van ultraviolet tot infrarood en inclusief het zichtbare spectrum.
+::Ruimtetelescoop::4,1,0::::Een ruimtetelescoop is een telescoop in de ruimte die wordt gebruikt om astronomische objecten te observeren. Ze zijn onderverdeeld in twee typen: satellieten die de hele hemel in kaart brengen en satellieten die zich richten op geselecteerde astronomische objecten.

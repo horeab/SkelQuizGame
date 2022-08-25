@@ -1,0 +1,11 @@
+0##Wielki Wybuch::13,8 miliarda lat temu::4,7,8::::
+3##Powstanie pierwszych galaktyk::400 milionów lat po Wielkim Wybuchu::8,3,10::::
+2##Powstanie pierwszych gwiazd::100 milionów lat po Wielkim Wybuchu::3,4,7::::
+1##Powstanie pierwszych czarnych dziur::Podczas Wielkiego Wybuchu::4,8,9::::
+7##Kształtowanie się Ziemi::4,6 miliarda lat temu::5,6,7::::
+9## Pojawiają się najwcześniejsze formy życia::3,7 miliarda lat temu::4,7,8::::
+8##Utworzenie Księżyca::50 milionów lat po narodzinach Układu Słonecznego::10,9,8::::
+10##Tworzenie najnowszej galaktyki::500 milionów lat temu::8,1,4::::
+5##Tworzenie galaktyki Andromedy::10 miliardów lat temu::9,10,5::::
+4##Powstanie galaktyki Drogi Mlecznej::800 milionów lat po Wielkim Wybuchu::8,2,3::::
+6##Powstanie Układu Słonecznego::4,6 miliarda lat temu::3,0,2::::

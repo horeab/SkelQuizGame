@@ -1,5 +1,5 @@
 ¿Cuál es la primera nave espacial lanzada al espacio?::Viajero##vikingo 1##Vostok 1##Sputnik::2
-¿Qué sonda fue enviada hacia Saturno en 1977?::Pionero##Huygens##Saturno Cassini##viajero 1::3
+¿Qué sonda fue enviada hacia Saturno en 1977?::Pionero##huygens##Saturno Cassini##viajero 1::3
 ¿En qué año Galileo Galilei comenzó a usar el telescopio para explorar el cielo?::1704##1609##1510##1653::1
 ¿Quién fue la primera persona en aterrizar en la luna?::Neil Armstrong##alan pastor##zumbido aldrin##haba alan::0
 ¿Qué nave espacial está orbitando alrededor de Júpiter?::Juno##módulo de aterrizaje##Vostok##Casini::0

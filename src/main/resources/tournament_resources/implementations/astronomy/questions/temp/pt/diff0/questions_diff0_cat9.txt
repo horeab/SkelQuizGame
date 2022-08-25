@@ -1,0 +1,10 @@
+Qual é o planeta mais quente do nosso sistema solar?::Vênus::1,2,3::::
+Qual é o planeta mais frio?::Urano::4,5,6::::
+Qual planeta do nosso sistema solar tem mais luas?::Saturno::0,3,4::::
+Qual planeta é o maior dos planetas terrestres?::Terra::1,2,5::::
+Qual planeta tem os ventos mais fortes?::Netuno::3,5,6::::
+Qual planeta é um planeta rochoso?::Mercúrio::1,2,4::::
+Qual é o quarto planeta do sistema solar?::Marte::1,4,5::::
+Qual planeta não tem um satélite natural?::Mercúrio::1,2,3::::
+Qual é o planeta mais antigo do nosso sistema solar?::Júpiter::3,5,4::::
+Qual planeta gira para trás em relação aos outros?::Vênus::3,4,7::::

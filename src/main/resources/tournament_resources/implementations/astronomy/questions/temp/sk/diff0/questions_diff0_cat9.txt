@@ -1,0 +1,10 @@
+Aká je najhorúcejšia planéta našej slnečnej sústavy?::Venuša::1,2,3::::
+Aká je najchladnejšia planéta?::Urán::4,5,6::::
+Ktorá planéta v našej slnečnej sústave má najviac mesiacov?::Saturn::0,3,4::::
+Ktorá planéta je najväčšia z terestrických planét?::Zem::1,2,5::::
+Ktorá planéta má najsilnejší vietor?::Neptún::3,5,6::::
+Ktorá planéta je kamenná?::Merkúr::1,2,4::::
+Aká je štvrtá planéta slnečnej sústavy?::Mars::1,4,5::::
+Ktorá planéta nemá prirodzený satelit?::Merkúr::1,2,3::::
+Ktorá je najstaršia planéta našej slnečnej sústavy?::Jupiter::3,5,4::::
+Ktorá planéta sa otáča dozadu vzhľadom na ostatné?::Venuša::3,4,7::::

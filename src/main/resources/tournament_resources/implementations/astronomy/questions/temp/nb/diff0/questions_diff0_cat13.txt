@@ -1,0 +1,6 @@
+::Himmelsfære::1,3,5::::I astronomi og navigasjon er himmelsfæren en abstrakt kule som har en vilkårlig stor radius og er konsentrisk til jorden.
+::Solur::0,2,4::::Et solur er et klokkeslett som forteller tiden på døgnet når direkte sollys skinner av solens tilsynelatende posisjon på himmelen.
+::Teleskop::3,4,0::::Et teleskop er et optisk instrument som bruker linser, buede speil eller en kombinasjon av begge for å observere fjerne objekter, eller forskjellige enheter som brukes til å observere fjerne objekter ved deres emisjon, absorpsjon eller refleksjon av elektromagnetisk stråling.
+::Astronomisk klokke::1,2,0::::En astronomisk klokke er en klokke med spesielle mekanismer og urskiver for å vise astronomisk informasjon, for eksempel de relative posisjonene til solen, månen, dyrekretsen konstellasjoner og noen ganger store planeter.
+::Fotometer::5,1,2::::Et fotometer er et instrument som måler styrken til elektromagnetisk stråling i området fra ultrafiolett til infrarødt og inkludert det synlige spekteret.
+::Romteleskop::4,1,0::::Et romteleskop er et teleskop i verdensrommet som brukes til å observere astronomiske objekter. De er delt inn i to typer: Satellitter som kartlegger hele himmelen, og satellitter som fokuserer på utvalgte astronomiske objekter.

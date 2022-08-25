@@ -1,0 +1,10 @@
+Ada berapa planet di tata surya?::8##9##10##11::0
+Berapa jauh dari Bumi matahari kita, kira-kira...?::93 tahun cahaya##150 juta kilometer##150 miliar kilometer##150 triliun kilometer::1
+Apa itu bulan?::asteroid##bintang##satelit alami##planet::2
+Kira-kira berapa umur bumi?::6 miliar tahun##4 miliar tahun##1 miliar tahun##4 triliun tahun::1
+Apa akibat dari kemiringan bumi?::Musim##Siang dan malam##Tsunami##gempa bumi::0
+Bagaimana bentuk orbit bumi mengelilingi matahari?::Bundar##Berbentuk bulat panjang##Kotak##Variabel::1
+Di mana letak sabuk asteroid?::di luar Pluto##mengelilingi matahari##antara Mars dan Jupiter##antara Bumi dan Mars::2
+Apa yang Anda sebut jalur yang dilalui oleh benda langit di luar angkasa?::Sebuah orbit##Sebuah jalan##Sebuah sirkuit##Sebuah rute::0
+Apa yang menyebabkan bulan bersinar?::Sinar matahari yang dipantulkan##Cahaya yang dipantulkan dari bumi##Memiliki sumber cahaya sendiri::0
+Berapa banyak bulan saat ini di tata surya kita?::181 bulan##239 bulan##32 bulan##93 bulan::0

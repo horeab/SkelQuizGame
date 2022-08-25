@@ -1,0 +1,11 @@
+0##Veľký tresk::pred 13,8 miliardami rokov::4,7,8::::
+3##Vznik prvých galaxií::400 miliónov rokov po veľkom tresku::8,3,10::::
+2##Vznik prvých hviezd::100 miliónov rokov po veľkom tresku::3,4,7::::
+1##Vznik prvých čiernych dier::Počas Veľkého tresku::4,8,9::::
+7##Vznik Zeme::pred 4,6 miliardami rokov::5,6,7::::
+9##Objavujú sa najskoršie formy života::pred 3,7 miliardami rokov::4,7,8::::
+8##Vznik Mesiaca::50 miliónov rokov po zrode slnečnej sústavy::10,9,8::::
+10##Vznik najnovšej galaxie::pred 500 miliónmi rokov::8,1,4::::
+5##Vznik galaxie Andromeda::pred 10 miliardami rokov::9,10,5::::
+4##Vznik galaxie Mliečna dráha::800 miliónov rokov po veľkom tresku::8,2,3::::
+6##Vznik slnečnej sústavy::pred 4,6 miliardami rokov::3,0,2::::

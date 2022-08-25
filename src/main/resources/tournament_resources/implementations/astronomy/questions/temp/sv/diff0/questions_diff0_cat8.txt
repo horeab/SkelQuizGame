@@ -1,0 +1,10 @@
+Vilken är den största kända stjärnan?::UY Scuti##Betelgeuse##VY Canis majoris##Pollux::0
+Vilken är den tätaste typen av stjärna?::röd jätte##Neutronstjärna##Svart dvärg##vit dvärg::1
+Vilken är den närmaste galaxen till vår?::Barnards galax##NGC 24 19##Andromeda##Ic 1101::2
+Vad heter vår galax?::Jorden##Vintergatan##Andromeda##Universum::1
+Hur många stjärnor finns i vår galax?::16 miljoner##5 Tusen##250 miljarder##1 miljard::2
+Vad består universum till största delen av?::Mörk materia##Mörk energi##Ljus##Synlig materia::1
+Vilken är den ljusaste stjärnan på himlen?::Sirius##Andromeda##Orion##Polaris::0
+Vad är mitt i Vintergatans galax?::Ett svart hål##flera planeter##en stjärnhop##Det är inte känt::0
+Vilken är den vanligaste typen av stjärna som finns i Vintergatan?::Röda dvärgstjärnor##Gröna dvärgstjärnor##Black Dwarf stjärnor##Vita dvärgstjärnor::0
+Vilken måttenhet används för att beskriva universums expansion?::Hubble-konstanten##Ljusår##Meter##Alfakonstanten::0

@@ -1,11 +1,11 @@
-0##Velký třesk::před 13,8 miliardami let::4,7,8::::xxx
-3##Vznik prvních galaxií::400 milionů let po velkém třesku::8,3,10::::xxx
-2##Vznik prvních hvězd::100 milionů let po velkém třesku::3,4,7::::xxx
-1##Vznik prvních černých děr::Během Velkého třesku::4,8,9::::xxx
-7##Vznik Země::před 4,6 miliardami let::5,6,7::::xxx
-9##Objevují se nejranější formy života::před 3,7 miliardami let::4,7,8::::xxx
-8##Vznik Měsíce::50 milionů let po zrození sluneční soustavy::10,9,8::::xxx
-10##Vznik nejnovější galaxie::před 500 miliony let::8,1,4::::xxx
-5##Vznik galaxie Andromeda::před 10 miliardami let::9,10,5::::xxx
-4##Vznik galaxie Mléčná dráha::800 milionů let po velkém třesku::8,2,3::::xxx
-6##Vznik sluneční soustavy::před 4,6 miliardami let::3,0,2::::xxx
+0##Velký třesk::před 13,8 miliardami let::4,7,8::::
+3##Vznik prvních galaxií::400 milionů let po velkém třesku::8,3,10::::
+2##Vznik prvních hvězd::100 milionů let po velkém třesku::3,4,7::::
+1##Vznik prvních černých děr::Během Velkého třesku::4,8,9::::
+7##Vznik Země::před 4,6 miliardami let::5,6,7::::
+9##Objevují se nejranější formy života::před 3,7 miliardami let::4,7,8::::
+8##Vznik Měsíce::50 milionů let po zrození sluneční soustavy::10,9,8::::
+10##Vznik nejnovější galaxie::před 500 miliony let::8,1,4::::
+5##Vznik galaxie Andromeda::před 10 miliardami let::9,10,5::::
+4##Vznik galaxie Mléčná dráha::800 milionů let po velkém třesku::8,2,3::::
+6##Vznik sluneční soustavy::před 4,6 miliardami let::3,0,2::::

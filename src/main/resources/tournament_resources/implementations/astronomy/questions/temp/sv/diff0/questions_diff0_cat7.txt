@@ -1,0 +1,10 @@
+Hur många planeter finns det i solsystemet?::8##9##10##11::0
+Hur långt bort från jorden är vår sol, ungefär...?::93 ljusår##150 miljoner kilometer##150 miljarder kilometer##150 biljoner kilometer::1
+Vad är månen?::asteroid##stjärna##naturlig satellit##planet::2
+Ungefär hur gammal är jorden?::6 miljarder år##4 miljarder år##1 miljard år##4 biljoner år::1
+Vilket resultat får jordens lutning?::Årstiderna##Dag och natt##Tsunami##Jordbävningar::0
+Vilken form har jordens bana runt solen?::Cirkulär##Elliptisk##Fyrkant##Variabel::1
+Var ligger asteroidbältet?::bortom Pluto##runt solen##mellan Mars och Jupiter##mellan jorden och Mars::2
+Vad kallar du den väg som en himlakropp färdats i rymden?::En bana##En stig##En krets##En rutt::0
+Vad får månen att lysa?::Reflekterat solljus##Reflekterat ljus från jorden##Har en egen ljuskälla::0
+Hur många månar finns för närvarande i vårt solsystem?::181 månar##239 månar##32 månar##93 månar::0

@@ -1,0 +1,10 @@
+Apakah planet paling panas dalam sistem suria kita?::Zuhrah::1,2,3::::
+Apakah planet yang paling sejuk?::Uranus::4,5,6::::
+Planet manakah dalam sistem suria kita mempunyai paling banyak bulan?::Zuhal::0,3,4::::
+Planet manakah yang terbesar antara planet daratan?::Bumi::1,2,5::::
+Planet manakah yang mempunyai angin paling kuat?::Neptun::3,5,6::::
+Planet manakah yang merupakan planet berbatu?::Utarid::1,2,4::::
+Apakah planet ke-4 dalam sistem suria?::Marikh::1,4,5::::
+Planet manakah yang tidak mempunyai satelit semula jadi?::Utarid::1,2,3::::
+Yang manakah planet tertua dalam sistem suria kita?::Musytari::3,5,4::::
+Planet manakah yang berputar ke belakang berbanding yang lain?::Zuhrah::3,4,7::::

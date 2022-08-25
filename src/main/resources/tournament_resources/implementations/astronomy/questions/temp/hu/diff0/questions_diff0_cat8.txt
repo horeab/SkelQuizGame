@@ -1,0 +1,10 @@
+Mi a legnagyobb ismert csillag?::UY Scuti##Betelgeuse##VY Canis majoris##Pollux::0
+Melyik a legsűrűbb csillagfajta?::vörös óriás##Neutroncsillag##Fekete törpe##fehér törpe::1
+Melyik galaxis van a legközelebb hozzánk?::Barnard galaxisa##NGC 24 19##Androméda##Ic 1101::2
+Hogy hívják galaxisunkat?::Föld##Tejút##Androméda##Világegyetem::1
+Hány csillag van a galaxisunkban?::16 millió##5 Ezer##250 milliárd##1 milliárd::2
+Miből áll többnyire az univerzum?::Sötét anyag##Sötét energia##Könnyű##Látható anyag::1
+Melyik a legfényesebb csillag az égen?::Sirius##Androméda##Orion##Polaris::0
+Mi van a Tejút-galaxis középpontjában?::Egy fekete lyuk##több bolygó##egy csillaghalmaz##Nem ismert::0
+Melyik a leggyakoribb csillagtípus a Tejútrendszerben?::Vörös törpe csillagok##Zöld Törpe csillagok##Fekete törpe csillagok##Fehér Törpe csillagok::0
+Milyen mértékegységgel írják le a világegyetem tágulását?::A Hubble-konstans##Fényévek##Mérők##Az alfa konstans::0

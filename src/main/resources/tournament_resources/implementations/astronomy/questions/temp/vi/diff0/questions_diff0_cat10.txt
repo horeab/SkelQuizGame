@@ -1,0 +1,10 @@
+Tàu vũ trụ đầu tiên được phóng lên vũ trụ là gì?::Tàu du hành##Viking 1##Vostok 1##Sputnik::2
+Tàu thăm dò nào đã được gửi tới sao Thổ vào năm 1977?::Người tiên phong##Huygens##Sao Thổ Cassini##Hành trình 1::3
+Galileo Galilei bắt đầu sử dụng kính thiên văn để khám phá bầu trời vào năm nào?::1704##1609##1510##1653::1
+Ai là người đầu tiên đáp xuống mặt trăng?::Neil Armstrong##Alan Shepard##Buzz aldrin##Alan hạt đậu::0
+Tàu vũ trụ nào đang quay quanh Sao Mộc?::Juno##Tàu đổ bộ##Vostok##Cassini::0
+Sao Diêm Vương được phát hiện khi nào?::1930##1834##1956##1975::0
+Ai là người đầu tiên quay quanh trái đất?::Yuri Gagarin##Neil Armstrong##Buzz aldrin##Alan Shepard::0
+Người phụ nữ đầu tiên du hành vào vũ trụ là ai?::Valentina Tereshkova##Sally Ride##Kalpana Chawla##Eileen Collins::0
+Kính viễn vọng Hubble được phóng vào không gian khi nào?::1990##1975##2000##1983::0
+Trạm vũ trụ quốc tế được phóng lên vũ trụ khi nào?::1998##1988##1991##2005::0

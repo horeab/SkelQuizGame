@@ -3,8 +3,8 @@ Qual è il tipo di stella più denso?::gigante rosso##Stella di neutroni##nana n
 Qual è la galassia più vicina alla nostra?::La galassia di Barnard##NGC 24 19##Andromeda##Ci 1101::2
 Come si chiama la nostra galassia?::Terra##via Lattea##Andromeda##Universo::1
 Quante stelle ci sono nella nostra galassia?::16 milioni##5mila##250 miliardi##1 miliardo::2
-Da cosa è composto principalmente l'universo?::Materia oscura##Energia oscura##Luce##Materia visibile::1
+Da cosa è composto principalmente l&#39;universo?::Materia oscura##Energia oscura##Luce##Materia visibile::1
 Qual è la stella più luminosa del cielo?::Sirio##Andromeda##Orione##Polare::0
-Cosa c'è al centro della Via Lattea?::Un buco nero##più pianeti##un ammasso stellare##Non è noto::0
+Cosa c&#39;è al centro della Via Lattea?::Un buco nero##più pianeti##un ammasso stellare##Non è noto::0
 Qual è il tipo più comune di stella che si trova nella Via Lattea?::Stelle nane rosse##Stelle nane verdi##Stelle nane nere##Stelle nane bianche::0
-Qual è l'unità di misura usata per descrivere l'espansione dell'universo?::La costante di Hubble##Anni luce##Metri##La costante alfa::0
+Qual è l&#39;unità di misura usata per descrivere l&#39;espansione dell&#39;universo?::La costante di Hubble##Anni luce##Metri##La costante alfa::0

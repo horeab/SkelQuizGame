@@ -1,0 +1,10 @@
+Quantos planetas existem no sistema solar?::8##9##10##11::0
+A que distância da Terra está o nosso sol, aproximadamente...?::93 anos-luz##150 milhões de quilômetros##150 bilhões de quilômetros##150 trilhões de quilômetros::1
+O que é a lua?::asteróide##Estrela##satélite natural##planeta::2
+Aproximadamente quantos anos tem a terra?::6 bilhões de anos##4 bilhões de anos##1 bilhão de anos##4 trilhões de anos::1
+Qual é o resultado da inclinação da Terra?::As estações##Dia e noite##Tsunami##Terremotos::0
+Qual é a forma da órbita da Terra em torno do Sol?::Circular##Elíptico##Quadrado##Variável::1
+Onde está localizado o cinturão de asteroides?::além de Plutão##ao redor do Sol##entre Marte e Júpiter##entre a Terra e Marte::2
+Como você chama o caminho percorrido por um corpo celeste no espaço?::Uma órbita##Um caminho##Um circuito##Uma rota::0
+O que faz a lua brilhar?::Luz solar refletida##Luz refletida da terra##Tem sua própria fonte de luz::0
+Quantas luas estão atualmente em nosso sistema solar?::181 luas##239 luas##32 luas##93 luas::0

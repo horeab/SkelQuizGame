@@ -1,0 +1,10 @@
+Koja je najveća poznata zvijezda?::UY Scuti##Betelgeuse##VY Canis majoris##Pollux::0
+Koja je najgušća vrsta zvijezde?::Crveni div##Neutronska zvijezda##Crni patuljak##Bijeli patuljak::1
+Koja je galaksija najbliža našoj?::Barnardova galaksija##NGC 24 19##Andromeda##Ic 1101::2
+Kako se zove naša galaksija?::Zemlja##mliječna staza##Andromeda##Svemir::1
+Koliko je zvijezda u našoj galaksiji?::16 milijuna##5 tisuća##250 milijardi##1 milijarda::2
+Od čega se većinom sastoji svemir?::Tamna tvar##Tamna energija##Svjetlo##Vidljiva materija::1
+Koja je najsjajnija zvijezda na nebu?::Sirius##Andromeda##Orion##Polaris::0
+Što je u središtu galaksije Mliječni put?::Crna rupa##više planeta##zvjezdani skup##Nije poznato::0
+Koja je najčešća vrsta zvijezda pronađena u Mliječnoj stazi?::Zvijezde crvenog patuljka##Zvijezde zelenog patuljka##Zvijezde crnog patuljka##Zvijezde Bijeli patuljak::0
+Koja se mjerna jedinica koristi za opisivanje širenja svemira?::Hubbleova konstanta##Svjetlosne godine##Metri##Alfa konstanta::0

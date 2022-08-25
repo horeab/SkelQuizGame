@@ -1,0 +1,10 @@
+Melyik az első űrszonda, amelyet felbocsátottak az űrbe?::Voyager##Viking 1##Vostok 1##Szputnyik::2
+Milyen szondát küldtek a Szaturnusz felé 1977-ben?::Úttörő##Huygens##Szaturnusz Cassini##Voyager 1::3
+Melyik évben kezdte Galileo Galilei a távcsövet az égbolt felfedezésére?::1704##1609##1510##1653::1
+Ki volt az első ember, aki leszállt a Holdra?::Neil Armstrong##Alan Shepard##Buzz Aldrin##Alan Bean::0
+Milyen űrhajó kering a Jupiter körül?::Juno##Lander##Vostok##Cassini::0
+Mikor fedezték fel a Plútót?::1930##1834##1956##1975::0
+Ki volt az első ember, aki megkerülte a Földet?::Jurij Gagarin##Neil Armstrong##Buzz Aldrin##Alan Shepard::0
+Ki volt az első nő, aki az űrbe utazott?::Valentina Tereshkova##Sally Ride##Kalpana Chawla##Eileen Collins::0
+Mikor indították a Hubble-teleszkópot az űrbe?::1990##1975##2000##1983::0
+Mikor indították a Nemzetközi Űrállomást az űrbe?::1998##1988##1991##2005::0

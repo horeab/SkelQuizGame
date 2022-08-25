@@ -1,0 +1,10 @@
+Ngôi sao lớn nhất được biết đến là gì?::UY Scuti##Betelgeuse##VY Canis chuyên ngành##Pollux::0
+Loại sao dày đặc nhất là gì?::Người khổng lồ đỏ##Ngôi sao neutron##Sao lùn đen##Sao lùn trắng::1
+Thiên hà gần chúng ta nhất là gì?::Thiên hà của Barnard##NGC 24 19##Andromeda##Ic 1101::2
+Thiên hà của chúng ta được gọi là gì?::Trái Đất##dải Ngân Hà##Andromeda##Vũ trụ::1
+Có bao nhiêu ngôi sao trong thiên hà của chúng ta?::16 triệu##5 nghìn##250 tỷ##1 tỉ::2
+Vũ trụ chủ yếu được cấu tạo bởi những gì?::Vật chất tối##Năng lượng tối##Nhẹ##Vật chất nhìn thấy được::1
+Ngôi sao sáng nhất trên bầu trời là gì?::Sirius##Andromeda##hành##Bắc đẩu::0
+Cái gì ở trung tâm của thiên hà Milky Way?::Một lỗ đen##nhiều hành tinh##một cụm sao##Nó không được biết::0
+Loại sao phổ biến nhất được tìm thấy trong Dải Ngân hà là gì?::Sao lùn đỏ##Những ngôi sao lùn xanh##Những ngôi sao của Người lùn đen##Những ngôi sao lùn trắng::0
+Đơn vị đo lường dùng để mô tả sự giãn nở của vũ trụ là gì?::Hằng số Hubble##Năm ánh sáng##Mét##Hằng số Alpha::0

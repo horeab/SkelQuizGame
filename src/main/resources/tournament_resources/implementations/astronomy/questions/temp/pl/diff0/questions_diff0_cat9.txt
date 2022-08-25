@@ -1,0 +1,10 @@
+Jaka jest najgorętsza planeta w naszym Układzie Słonecznym?::Wenus::1,2,3::::
+Jaka jest najzimniejsza planeta?::Uran::4,5,6::::
+Która planeta w naszym Układzie Słonecznym ma najwięcej księżyców?::Saturn::0,3,4::::
+Która planeta jest największą z planet ziemskich?::Ziemia::1,2,5::::
+Która planeta ma najsilniejsze wiatry?::Neptun::3,5,6::::
+Która planeta jest planetą skalistą?::Merkury::1,2,4::::
+Jaka jest czwarta planeta w Układzie Słonecznym?::Mars::1,4,5::::
+Która planeta nie ma naturalnego satelity?::Merkury::1,2,3::::
+Jaka jest najstarsza planeta w naszym Układzie Słonecznym?::Jowisz::3,5,4::::
+Która planeta obraca się wstecz w stosunku do innych?::Wenus::3,4,7::::

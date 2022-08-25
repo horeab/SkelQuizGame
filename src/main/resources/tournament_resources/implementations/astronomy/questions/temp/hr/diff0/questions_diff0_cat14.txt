@@ -1,0 +1,11 @@
+0##Veliki prasak::prije 13,8 milijardi godina::4,7,8::::
+3##Nastanak prvih galaksija::400 milijuna godina nakon Velikog praska::8,3,10::::
+2##Nastanak prvih zvijezda::100 milijuna godina nakon Velikog praska::3,4,7::::
+1##Nastanak prvih crnih rupa::Tijekom Velikog praska::4,8,9::::
+7##Nastanak Zemlje::prije 4,6 milijardi godina::5,6,7::::
+9##Pojavljuju se najraniji oblici života::prije 3,7 milijardi godina::4,7,8::::
+8##Formiranje Mjeseca::50 milijuna godina nakon rođenja Sunčevog sustava::10,9,8::::
+10##Formiranje najnovije galaksije::prije 500 milijuna godina::8,1,4::::
+5##Formiranje galaksije Andromeda::prije 10 milijardi godina::9,10,5::::
+4##Formiranje galaksije Mliječni put::800 milijuna godina nakon Velikog praska::8,2,3::::
+6##Formiranje Sunčevog sustava::prije 4,6 milijardi godina::3,0,2::::

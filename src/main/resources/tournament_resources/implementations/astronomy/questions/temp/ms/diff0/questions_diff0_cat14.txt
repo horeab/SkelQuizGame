@@ -1,0 +1,11 @@
+0##Ledakan Besar::13.8 bilion tahun dahulu::4,7,8::::
+3##Pembentukan galaksi pertama::400 juta tahun selepas Big Bang::8,3,10::::
+2##Pembentukan bintang pertama::100 juta tahun selepas Big Bang::3,4,7::::
+1##Pembentukan lubang hitam pertama::Semasa Big Bang::4,8,9::::
+7##Pembentukan Bumi::4.6 bilion tahun dahulu::5,6,7::::
+9##Bentuk hidupan terawal muncul::3.7 bilion tahun dahulu::4,7,8::::
+8##Pembentukan Bulan::50 juta tahun selepas sistem suria dilahirkan::10,9,8::::
+10##Pembentukan galaksi terbaharu::500 juta tahun dahulu::8,1,4::::
+5##Pembentukan galaksi Andromeda::10 bilion tahun dahulu::9,10,5::::
+4##Pembentukan galaksi Bima Sakti::800 juta tahun selepas Big Bang::8,2,3::::
+6##Pembentukan Sistem Suria::4.6 bilion tahun dahulu::3,0,2::::

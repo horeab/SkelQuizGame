@@ -1,0 +1,10 @@
+Apa bintang terbesar yang diketahui?::UY Scuti##Betelgeuse##VY Canis majoris##Pollux::0
+Apa jenis bintang yang paling padat?::Raksasa merah##Bintang neutron##Katai hitam##Katai putih::1
+Apa galaksi terdekat dengan kita?::Galaksi Barnard##NGC 24 19##Andromeda##IC 1101::2
+Apa yang disebut galaksi kita?::Bumi##Bima Sakti##Andromeda##Semesta::1
+Berapa banyak bintang di galaksi kita?::16 Juta##5 Ribu##250 Miliar##1 miliar::2
+Apa yang sebagian besar terdiri dari alam semesta?::Materi gelap##Energi gelap##Lampu##Materi yang terlihat::1
+Apa bintang paling terang di langit?::Sirius##Andromeda##Orion##Polaris::0
+Apa yang ada di pusat galaksi Bima Sakti?::Sebuah lubang hitam##beberapa planet##gugusan bintang##Tidak diketahui::0
+Apa jenis bintang yang paling umum ditemukan di Bima Sakti?::Bintang katai merah##Bintang katai hijau##Bintang katai hitam##Bintang katai putih::0
+Apa satuan ukuran yang digunakan untuk menggambarkan perluasan alam semesta?::Konstanta Hubble##Tahun cahaya##meter##Konstanta Alfa::0

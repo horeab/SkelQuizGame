@@ -1,0 +1,10 @@
+Hva er den største kjente stjernen?::UY Scuti##Betelgeuse##VY Canis majoris##Pollux::0
+Hva er den tetteste typen stjerne?::Rød kjempe##Nøytronstjerne##Svart dverg##Hvit dverg::1
+Hva er den nærmeste galaksen til vår?::Barnards galakse##NGC 24 19##Andromeda##Ic 1101::2
+Hva heter galaksen vår?::Jorden##Melkeveien##Andromeda##Univers::1
+Hvor mange stjerner er det i galaksen vår?::16 millioner##5 tusen##250 milliarder##1 milliard::2
+Hva består universet for det meste av?::Mørk materie##Mørk energi##Lys##Synlig materie::1
+Hva er den klareste stjernen på himmelen?::Sirius##Andromeda##Orion##Polaris::0
+Hva er i sentrum av Melkeveien?::Et svart hull##flere planeter##en stjernehop##Det er ikke kjent::0
+Hva er den vanligste typen stjerne som finnes i Melkeveien?::Røde dvergstjerner##Grønne dvergstjerner##Black Dwarf stjerner##Hvite dvergstjerner::0
+Hva er måleenheten som brukes for å beskrive utvidelsen av universet?::Hubble-konstanten##Lysår##Meter##Alfa-konstanten::0

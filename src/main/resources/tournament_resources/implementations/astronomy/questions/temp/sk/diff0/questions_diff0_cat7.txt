@@ -1,0 +1,10 @@
+Koľko planét je v slnečnej sústave?::8##9##10##11::0
+Ako ďaleko od Zeme je naše Slnko, približne...?::93 svetelných rokov##150 miliónov kilometrov##150 miliárd kilometrov##150 biliónov kilometrov::1
+čo je mesiac?::asteroid##hviezda##prirodzený satelit##planéta::2
+Aká stará je približne Zem?::6 miliárd rokov##4 miliardy rokov##1 miliarda rokov##4 bilióny rokov::1
+Aký výsledok má sklon zeme?::Ročné obdobia##Deň a noc##cunami##Zemetrasenia::0
+Aký je tvar obežnej dráhy Zeme okolo Slnka?::Kruhový##Eliptický##Námestie##Variabilné::1
+Kde sa nachádza pás asteroidov?::za Plutom##okolo Slnka##medzi Marsom a Jupiterom##medzi Zemou a Marsom::2
+Ako nazývate dráhu, ktorú prejde nebeské teleso vo vesmíre?::Obežná dráha##Chodník##Obvod##Trasa::0
+Čo spôsobuje, že mesiac svieti?::Odrazené slnečné svetlo##Odrazené svetlo od zeme##Má vlastný zdroj svetla::0
+Koľko mesiacov je v súčasnosti v našej slnečnej sústave?::181 mesiacov##239 mesiacov##32 mesiacov##93 mesiacov::0

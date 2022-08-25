@@ -1,0 +1,6 @@
+::Esfera celestial::1,3,5::::Em astronomia e navegação, a esfera celeste é uma esfera abstrata que tem um raio arbitrariamente grande e é concêntrica à Terra.
+::Relógio de sol::0,2,4::::Um relógio de sol é um dispositivo de relojoaria que informa a hora do dia em que a luz solar direta brilha pela posição aparente do Sol no céu.
+::Telescópio::3,4,0::::Um telescópio é um instrumento óptico que usa lentes, espelhos curvos ou uma combinação de ambos para observar objetos distantes, ou vários dispositivos usados ​​para observar objetos distantes por sua emissão, absorção ou reflexão de radiação eletromagnética.
+::Relógio astronômico::1,2,0::::Um relógio astronômico é um relógio com mecanismos e mostradores especiais para exibir informações astronômicas, como as posições relativas do Sol, da Lua, das constelações zodiacais e, às vezes, dos principais planetas.
+::Fotômetro::5,1,2::::Um fotômetro é um instrumento que mede a intensidade da radiação eletromagnética na faixa do ultravioleta ao infravermelho, incluindo o espectro visível.
+::Telescópio espacial::4,1,0::::Um telescópio espacial é um telescópio no espaço sideral usado para observar objetos astronômicos. Eles são divididos em dois tipos: satélites que mapeiam todo o céu e satélites que se concentram em objetos astronômicos selecionados.

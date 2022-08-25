@@ -1,0 +1,6 @@
+::Thiên cầu::1,3,5::::Trong thiên văn học và hàng hải, thiên cầu là một hình cầu trừu tượng có bán kính lớn tùy ý và đồng tâm với Trái đất.
+::Đồng hồ mặt trời::0,2,4::::Đồng hồ mặt trời là một thiết bị đo thời gian cho biết thời gian trong ngày khi ánh sáng mặt trời trực tiếp chiếu vào vị trí biểu kiến ​​của Mặt trời trên bầu trời.
+::Kính thiên văn::3,4,0::::Kính thiên văn là một dụng cụ quang học sử dụng thấu kính, gương cong hoặc kết hợp cả hai để quan sát các vật thể ở xa hoặc các thiết bị khác nhau được sử dụng để quan sát các vật thể ở xa bằng cách phát xạ, hấp thụ hoặc phản xạ bức xạ điện từ của chúng.
+::Đồng hồ thiên văn::1,2,0::::Đồng hồ thiên văn là đồng hồ có các cơ chế và mặt số đặc biệt để hiển thị thông tin thiên văn, chẳng hạn như vị trí tương đối của Mặt trời, Mặt trăng, các chòm sao hoàng đạo và đôi khi là các hành tinh chính.
+::Quang kế::5,1,2::::Quang kế là một công cụ đo cường độ của bức xạ điện từ trong phạm vi từ tia cực tím đến tia hồng ngoại và bao gồm cả quang phổ nhìn thấy được.
+::Kính viễn vọng không gian::4,1,0::::Kính viễn vọng không gian là một kính viễn vọng trong không gian vũ trụ được sử dụng để quan sát các đối tượng thiên văn. Chúng được chia thành hai loại: Vệ tinh lập bản đồ toàn bộ bầu trời và vệ tinh tập trung vào các đối tượng thiên văn được chọn.

@@ -1,10 +1,10 @@
-Was ist der heißeste Planet in unserem Sonnensystem?::Venus::1,2,3::::xxx
-Was ist der kälteste Planet?::Uranus::4,5,6::::xxx
-Welcher Planet in unserem Sonnensystem hat die meisten Monde?::Saturn::0,3,4::::xxx
-Welcher Planet ist der größte der erdähnlichen Planeten?::Erde::1,2,5::::xxx
-Welcher Planet hat die stärksten Winde?::Neptun::3,5,6::::xxx
-Welcher Planet ist ein Gesteinsplanet?::Merkur::1,2,4::::xxx
-Was ist der 4. Planet im Sonnensystem?::Mars::1,4,5::::xxx
-Welcher Planet hat keinen natürlichen Satelliten?::Merkur::1,2,3::::xxx
-Welches ist der älteste Planet in unserem Sonnensystem?::Jupiter::3,5,4::::xxx
-Welcher Planet dreht sich relativ zu den anderen rückwärts?::Venus::3,4,7::::xxx
+Was ist der heißeste Planet in unserem Sonnensystem?::Venus::1,2,3::::
+Was ist der kälteste Planet?::Uranus::4,5,6::::
+Welcher Planet in unserem Sonnensystem hat die meisten Monde?::Saturn::0,3,4::::
+Welcher Planet ist der größte der erdähnlichen Planeten?::Erde::1,2,5::::
+Welcher Planet hat die stärksten Winde?::Neptun::3,5,6::::
+Welcher Planet ist ein Gesteinsplanet?::Merkur::1,2,4::::
+Was ist der 4. Planet im Sonnensystem?::Mars::1,4,5::::
+Welcher Planet hat keinen natürlichen Satelliten?::Merkur::1,2,3::::
+Welches ist der älteste Planet in unserem Sonnensystem?::Jupiter::3,5,4::::
+Welcher Planet dreht sich relativ zu den anderen rückwärts?::Venus::3,4,7::::

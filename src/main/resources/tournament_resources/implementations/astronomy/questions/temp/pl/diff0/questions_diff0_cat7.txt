@@ -1,0 +1,10 @@
+Ile planet znajduje się w Układzie Słonecznym?::8##9##10##11::0
+Jak daleko od Ziemi jest nasze Słońce, w przybliżeniu...?::93 lata świetlne##150 milionów kilometrów##150 miliardów kilometrów##150 bilionów kilometrów::1
+Czym jest księżyc?::asteroida##gwiazda##naturalny satelita##planeta::2
+Ile lat ma Ziemia?::6 miliardów lat##4 miliardy lat##1 miliard lat##4 biliony lat::1
+Jaki wynik ma nachylenie ziemi?::Pory roku##Dzień i noc##Tsunami##Trzęsienia ziemi::0
+Jaki jest kształt orbity Ziemi wokół Słońca?::Okólnik##Eliptyczny##Kwadrat##Zmienny::1
+Gdzie znajduje się pas asteroid?::poza Plutonem##wokół Słońca##między Marsem a Jowiszem##między Ziemią a Marsem::2
+Jak nazywacie drogę, którą przemierza ciało niebieskie w kosmosie?::Orbita##Ścieżka##Obwód##Droga::0
+Co sprawia, że ​​księżyc świeci?::Odbite światło słoneczne##Światło odbite od ziemi##Ma własne źródło światła::0
+Ile księżyców znajduje się obecnie w naszym Układzie Słonecznym?::181 księżyców##239 księżyców##32 księżyce##93 księżyce::0

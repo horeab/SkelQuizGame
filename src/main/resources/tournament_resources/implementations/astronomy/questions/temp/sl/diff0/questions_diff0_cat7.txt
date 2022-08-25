@@ -5,6 +5,6 @@ Približno koliko je stara zemlja?::6 milijard let##4 milijarde let##1 milijardo
 Kakšen rezultat ima nagib Zemlje?::Letni časi##Dan in noč##cunami##Potresi::0
 Kakšna je oblika zemeljske orbite okoli sonca?::Krožna##Eliptične##kvadrat##Spremenljivka::1
 Kje se nahaja asteroidni pas?::onstran Plutona##okoli Sonca##med Marsom in Jupitrom##med Zemljo in Marsom::2
-Kako imenujemo pot, ki jo prehodi nebesno telo v vesolju?::Orbita##Pot##Vezje##Pot::0
+Kako imenujemo pot, ki jo prepotuje nebesno telo v vesolju?::Orbita##Pot##Vezje##Pot::0
 Kaj povzroča, da luna sveti?::Odbita sončna svetloba##Odbita svetloba od zemlje##Ima svoj vir svetlobe::0
 Koliko lun je trenutno v našem sončnem sistemu?::181 lun##239 lun##32 lun##93 lun::0

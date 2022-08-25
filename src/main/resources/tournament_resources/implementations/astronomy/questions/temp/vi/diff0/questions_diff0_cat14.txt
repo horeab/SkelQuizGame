@@ -1,0 +1,11 @@
+0 ## Vụ nổ lớn::13,8 tỷ năm trước::4,7,8::::
+3 ## Sự hình thành các thiên hà đầu tiên::400 triệu năm sau vụ nổ Big Bang::8,3,10::::
+2 ## Sự hình thành của những ngôi sao đầu tiên::100 triệu năm sau vụ nổ Big Bang::3,4,7::::
+1 ## Sự hình thành các lỗ đen đầu tiên::Trong vụ nổ lớn::4,8,9::::
+7 ## Sự hình thành của Trái đất::4,6 tỷ năm trước::5,6,7::::
+9 ## Các dạng sống sớm nhất xuất hiện::3,7 tỷ năm trước::4,7,8::::
+8 ## Sự hình thành của Mặt trăng::50 triệu năm sau khi hệ mặt trời ra đời::10,9,8::::
+10 ## Sự hình thành của thiên hà mới nhất::500 triệu năm trước::8,1,4::::
+5 ## Sự hình thành của thiên hà Andromeda::10 tỷ năm trước::9,10,5::::
+4 ## Sự hình thành của thiên hà Milky Way::800 triệu năm sau vụ nổ Big Bang::8,2,3::::
+6 ## Sự hình thành của Hệ Mặt trời::4,6 tỷ năm trước::3,0,2::::

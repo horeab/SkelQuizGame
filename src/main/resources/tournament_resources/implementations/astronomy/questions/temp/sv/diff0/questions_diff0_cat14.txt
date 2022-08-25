@@ -1,0 +1,11 @@
+0##The Big Bang::13,8 miljarder år sedan::4,7,8::::
+3## Bildandet av de första galaxerna::400 miljoner år efter Big Bang::8,3,10::::
+2## Bildandet av de första stjärnorna::100 miljoner år efter Big Bang::3,4,7::::
+1## Bildandet av de första svarta hålen::Under Big Bang::4,8,9::::
+7## Jordens bildande::4,6 miljarder år sedan::5,6,7::::
+9##De tidigaste livsformerna dyker upp::3,7 miljarder år sedan::4,7,8::::
+8##Månens bildande::50 miljoner år efter att solsystemet föddes::10,9,8::::
+10## Bildandet av den nyaste galaxen::500 miljoner år sedan::8,1,4::::
+5## Bildandet av Andromedagalaxen::10 miljarder år sedan::9,10,5::::
+4## Bildandet av Vintergatans galax::800 miljoner år efter Big Bang::8,2,3::::
+6## Bildning av solsystemet::4,6 miljarder år sedan::3,0,2::::

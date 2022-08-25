@@ -1,0 +1,11 @@
+0##Az ősrobbanás::13,8 milliárd évvel ezelőtt::4,7,8::::
+3##Az első galaxisok kialakulása::400 millió évvel az Ősrobbanás után::8,3,10::::
+2##Az első csillagok kialakulása::100 millió évvel az Ősrobbanás után::3,4,7::::
+1##Az első fekete lyukak kialakulása::Az Ősrobbanás idején::4,8,9::::
+7##A Föld kialakulása::4,6 milliárd évvel ezelőtt::5,6,7::::
+9##A legkorábbi életformák jelennek meg::3,7 milliárd évvel ezelőtt::4,7,8::::
+8##A Hold kialakulása::50 millió évvel a Naprendszer születése után::10,9,8::::
+10##A legújabb galaxis kialakulása::500 millió évvel ezelőtt::8,1,4::::
+5##Az Androméda galaxis kialakulása::10 milliárd évvel ezelőtt::9,10,5::::
+4##A Tejút-galaxis kialakulása::800 millió évvel az Ősrobbanás után::8,2,3::::
+6##A Naprendszer kialakulása::4,6 milliárd évvel ezelőtt::3,0,2::::

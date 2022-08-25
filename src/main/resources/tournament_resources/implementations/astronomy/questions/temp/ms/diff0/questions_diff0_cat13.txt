@@ -1,0 +1,6 @@
+::Sfera cakerawala::1,3,5::::Dalam astronomi dan navigasi, sfera cakerawala adalah sfera abstrak yang mempunyai jejari yang besar secara sewenang-wenangnya dan bertumpu kepada Bumi.
+::Jam matahari::0,2,4::::Jam matahari ialah peranti horologi yang memberitahu masa hari apabila cahaya matahari langsung memancar oleh kedudukan jelas Matahari di langit.
+::Teleskop::3,4,0::::Teleskop ialah instrumen optik yang menggunakan kanta, cermin melengkung, atau gabungan kedua-duanya untuk memerhati objek jauh, atau pelbagai peranti yang digunakan untuk memerhati objek jauh melalui pancaran, penyerapan, atau pantulan sinaran elektromagnetnya.
+::Jam astronomi::1,2,0::::Jam astronomi ialah jam dengan mekanisme dan dail khas untuk memaparkan maklumat astronomi, seperti kedudukan relatif Matahari, Bulan, buruj zodiak, dan kadangkala planet utama.
+::Fotometer::5,1,2::::Fotometer ialah alat yang mengukur kekuatan sinaran elektromagnet dalam julat dari ultraviolet hingga inframerah dan termasuk spektrum yang boleh dilihat.
+::teleskop angkasa::4,1,0::::Teleskop angkasa ialah teleskop di angkasa lepas yang digunakan untuk memerhati objek astronomi. Mereka dibahagikan kepada dua jenis: Satelit yang memetakan seluruh langit, dan satelit yang memfokus pada objek astronomi terpilih.

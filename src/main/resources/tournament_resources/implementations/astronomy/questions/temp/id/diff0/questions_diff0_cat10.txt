@@ -1,0 +1,10 @@
+Apa pesawat luar angkasa pertama yang diluncurkan ke luar angkasa?::Pelayaran##Viking 1##Vostok 1##Sputnik::2
+Probe apa yang dikirim ke Saturnus pada tahun 1977?::Pelopor##Huygens##Saturnus Cassini##Pelayaran 1::3
+Pada tahun berapa Galileo Galilei mulai menggunakan teleskop untuk menjelajahi langit?::1704##1609##1510##1653::1
+Siapa orang pertama yang mendarat di bulan?::Neil Armstrong##Alan Shepard##Buzz Aldrin##Alan Bean::0
+Pesawat ruang angkasa apa yang mengorbit di sekitar Jupiter?::Juno##pendarat##Vostok##Cassini::0
+Kapan Pluto ditemukan?::1930##1834##1956##1975::0
+Siapa manusia pertama yang mengorbit bumi?::Yuri Gagarin##Neil Armstrong##Buzz Aldrin##Alan Shepard::0
+Siapa wanita pertama yang melakukan perjalanan ke luar angkasa?::Valentina Tereshkova##Sally naik##Kalpana Chawla##Eileen Collins::0
+Kapan Teleskop Hubble diluncurkan ke luar angkasa?::1990##1975##2000##1983::0
+Kapan Stasiun Luar Angkasa Internasional diluncurkan ke luar angkasa?::1998##1988##1991##2005::0

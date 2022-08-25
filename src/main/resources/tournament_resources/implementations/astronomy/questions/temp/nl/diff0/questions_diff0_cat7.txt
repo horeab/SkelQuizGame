@@ -1,0 +1,10 @@
+Hoeveel planeten zijn er in het zonnestelsel?::8##9##10##11::0
+Hoe ver verwijderd is onze zon van de aarde, ongeveer...?::93 lichtjaar##150 miljoen kilometer##150 miljard kilometer##150 biljoen kilometer::1
+Wat is de maan?::asteroïde##ster##natuurlijke satelliet##planeet::2
+Hoe oud is de aarde ongeveer?::6 miljard jaar##4 miljard jaar##1 miljard jaar##4 biljoen jaar::1
+Welk resultaat heeft de kanteling van de aarde?::De seizoenen##Dag en nacht##Tsunami##aardbevingen::0
+Wat is de vorm van de baan van de aarde om de zon?::Circulaire##Elliptisch##Vierkant##Variabele::1
+Waar bevindt zich de asteroïdengordel?::voorbij Pluto##rond de zon##tussen Mars en Jupiter##tussen aarde en Mars::2
+Hoe noem je het pad dat een hemellichaam in de ruimte aflegt?::een baan##Een pad##een circuit##Een route::0
+Waardoor schijnt de maan?::Gereflecteerd zonlicht##Gereflecteerd licht van de aarde##Heeft zijn eigen lichtbron::0
+Hoeveel manen zijn er momenteel in ons zonnestelsel?::181 manen##239 manen##32 manen##93 manen::0

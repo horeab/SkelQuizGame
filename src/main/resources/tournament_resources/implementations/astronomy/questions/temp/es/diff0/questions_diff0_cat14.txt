@@ -1,11 +1,11 @@
-0##El Big Bang::Hace 13.800 millones de años::4,7,8::::xxx
-3##Formación de las primeras galaxias::400 millones de años después del Big Bang::8,3,10::::xxx
-2##Formación de las primeras estrellas::100 millones de años después del Big Bang::3,4,7::::xxx
-1##Formación de los primeros agujeros negros::Durante el Big Bang::4,8,9::::xxx
-7##Formación de la Tierra::Hace 4.600 millones de años::5,6,7::::xxx
-9##Aparecen las primeras formas de vida::Hace 3.700 millones de años::4,7,8::::xxx
-8##Formación de la Luna::50 millones de años después del nacimiento del sistema solar::10,9,8::::xxx
-10##Formación de la galaxia más nueva::hace 500 millones de años::8,1,4::::xxx
-5##Formación de la galaxia de Andrómeda::hace 10 mil millones de años::9,10,5::::xxx
-4##Formación de la Vía Láctea::800 millones de años después del Big Bang::8,2,3::::xxx
-6##Formación del Sistema Solar::Hace 4.600 millones de años::3,0,2::::xxx
+0##El Big Bang::Hace 13.800 millones de años::4,7,8::::
+3##Formación de las primeras galaxias::400 millones de años después del Big Bang::8,3,10::::
+2##Formación de las primeras estrellas::100 millones de años después del Big Bang::3,4,7::::
+1##Formación de los primeros agujeros negros::Durante el Big Bang::4,8,9::::
+7##Formación de la Tierra::Hace 4.600 millones de años::5,6,7::::
+9##Aparecen las primeras formas de vida::Hace 3.700 millones de años::4,7,8::::
+8##Formación de la Luna::50 millones de años después del nacimiento del sistema solar::10,9,8::::
+10##Formación de la galaxia más nueva::hace 500 millones de años::8,1,4::::
+5##Formación de la galaxia de Andrómeda::hace 10 mil millones de años::9,10,5::::
+4##Formación de la Vía Láctea::800 millones de años después del Big Bang::8,2,3::::
+6##Formación del Sistema Solar::Hace 4.600 millones de años::3,0,2::::

@@ -1,0 +1,10 @@
+Hány bolygó van a Naprendszerben?::8##9##10##11::0
+Milyen messze van a Napunk a Földtől, körülbelül...?::93 fényév##150 millió kilométer##150 milliárd kilométer##150 billió kilométer::1
+Mi az a hold?::kisbolygó##csillag##természetes műhold##bolygó::2
+Körülbelül hány éves a Föld?::6 milliárd év##4 milliárd év##1 milliárd év##4 billió év::1
+Milyen eredménnyel jár a Föld dőlésszöge?::Az évszakok##Éjjel-nappal##Szökőár##Földrengések::0
+Milyen alakú a Föld Nap körüli pályája?::Kör alakú##Elliptikus##Négyzet##Változó::1
+Hol található az aszteroidaöv?::túl a Plútón##a Nap körül##a Mars és a Jupiter között##a Föld és a Mars között::2
+Hogyan nevezzük azt az utat, amelyet egy égitest bejár az űrben?::Egy pálya##Egy út##Egy áramkör##Egy útvonal::0
+Mitől világít a hold?::Visszavert napfény##Földről visszavert fény##Saját fényforrással rendelkezik::0
+Hány hold található jelenleg a Naprendszerünkben?::181 hold##239 hold##32 hold##93 hold::0

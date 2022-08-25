@@ -1,0 +1,6 @@
+::Himmelssfär::1,3,5::::Inom astronomi och navigering är himmelssfären en abstrakt sfär som har en godtyckligt stor radie och är koncentrisk mot jorden.
+::Solur::0,2,4::::Ett solur är en urenhet som visar tiden på dygnet när direkt solljus skiner av solens skenbara position på himlen.
+::Teleskop::3,4,0::::Ett teleskop är ett optiskt instrument som använder linser, böjda speglar eller en kombination av båda för att observera avlägsna föremål, eller olika enheter som används för att observera avlägsna föremål genom deras emission, absorption eller reflektion av elektromagnetisk strålning.
+::Astronomisk klocka::1,2,0::::En astronomisk klocka är en klocka med speciella mekanismer och rattar för att visa astronomisk information, såsom de relativa positionerna för solen, månen, zodiakkonstellationer och ibland större planeter.
+::Fotometer::5,1,2::::En fotometer är ett instrument som mäter styrkan hos elektromagnetisk strålning i intervallet från ultraviolett till infrarött och inklusive det synliga spektrumet.
+::Rymdteleskop::4,1,0::::Ett rymdteleskop är ett teleskop i yttre rymden som används för att observera astronomiska föremål. De är indelade i två typer: satelliter som kartlägger hela himlen och satelliter som fokuserar på utvalda astronomiska objekt.

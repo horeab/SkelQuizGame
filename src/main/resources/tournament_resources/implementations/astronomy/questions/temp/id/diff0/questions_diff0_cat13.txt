@@ -1,0 +1,6 @@
+::Bola surgawi::1,3,5::::Dalam astronomi dan navigasi, bola langit adalah bola abstrak yang memiliki radius besar yang berubah-ubah dan konsentris ke Bumi.
+::Jam bayangan matahari::0,2,4::::Sebuah jam matahari adalah perangkat horologis yang memberitahu waktu hari ketika sinar matahari langsung bersinar dengan posisi matahari di langit.
+::Teleskop::3,4,0::::Teleskop adalah alat optik yang menggunakan lensa, cermin lengkung, atau kombinasi keduanya untuk mengamati objek yang jauh, atau berbagai alat yang digunakan untuk mengamati objek yang jauh melalui pancaran, penyerapan, atau pemantulan radiasi elektromagnetik.
+::Jam astronomi::1,2,0::::Jam astronomi adalah jam dengan mekanisme dan dial khusus untuk menampilkan informasi astronomi, seperti posisi relatif Matahari, Bulan, konstelasi zodiak, dan terkadang planet-planet besar.
+::Fotometer::5,1,2::::Fotometer adalah instrumen yang mengukur kekuatan radiasi elektromagnetik dalam rentang dari ultraviolet hingga inframerah dan termasuk spektrum yang terlihat.
+::Teleskop luar angkasa::4,1,0::::Teleskop luar angkasa adalah teleskop di luar angkasa yang digunakan untuk mengamati benda-benda astronomi. Mereka dibagi menjadi dua jenis: Satelit yang memetakan seluruh langit, dan satelit yang fokus pada objek astronomi tertentu.

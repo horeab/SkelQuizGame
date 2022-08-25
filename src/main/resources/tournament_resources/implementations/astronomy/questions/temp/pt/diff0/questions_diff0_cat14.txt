@@ -1,0 +1,11 @@
+0##O Big Bang::13,8 bilhões de anos atrás::4,7,8::::
+3##Formação das primeiras galáxias::400 milhões de anos após o Big Bang::8,3,10::::
+2##Formação das primeiras estrelas::100 milhões de anos após o Big Bang::3,4,7::::
+1##Formação dos primeiros buracos negros::Durante o Big Bang::4,8,9::::
+7##Formação da Terra::4,6 bilhões de anos atrás::5,6,7::::
+9##As primeiras formas de vida aparecem::3,7 bilhões de anos atrás::4,7,8::::
+8##Formação da Lua::50 milhões de anos após o nascimento do sistema solar::10,9,8::::
+10##Formação da mais nova galáxia::500 milhões de anos atrás::8,1,4::::
+5##Formação da galáxia de Andrômeda::10 bilhões de anos atrás::9,10,5::::
+4##Formação da Via Láctea::800 milhões de anos após o Big Bang::8,2,3::::
+6##Formação do Sistema Solar::4,6 bilhões de anos atrás::3,0,2::::

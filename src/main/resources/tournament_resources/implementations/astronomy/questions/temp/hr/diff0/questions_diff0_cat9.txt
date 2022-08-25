@@ -1,0 +1,10 @@
+Koji je najtopliji planet u našem Sunčevom sustavu?::Venera::1,2,3::::
+Koji je najhladniji planet?::Uran::4,5,6::::
+Koji planet u našem Sunčevom sustavu ima najviše mjeseca?::Saturn::0,3,4::::
+Koji je planet najveći od zemaljskih planeta?::Zemlja::1,2,5::::
+Koji planet ima najjače vjetrove?::Neptun::3,5,6::::
+Koji je planet stjenoviti?::Merkur::1,2,4::::
+Koji je četvrti planet u Sunčevom sustavu?::Mars::1,4,5::::
+Koji planet nema prirodni satelit?::Merkur::1,2,3::::
+Koji je najstariji planet u našem Sunčevom sustavu?::Jupiter::3,5,4::::
+Koji se planet okreće unatrag u odnosu na druge?::Venera::3,4,7::::

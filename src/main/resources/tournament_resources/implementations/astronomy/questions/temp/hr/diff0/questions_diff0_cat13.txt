@@ -1,0 +1,6 @@
+::Nebeska sfera::1,3,5::::U astronomiji i navigaciji, nebeska sfera je apstraktna sfera koja ima proizvoljno veliki polumjer i koncentrična je u odnosu na Zemlju.
+::Sunčani sat::0,2,4::::Sunčani sat je sat koji pokazuje doba dana kada sunčeva svjetlost sija prema prividnom položaju Sunca na nebu.
+::Teleskop::3,4,0::::Teleskop je optički instrument koji koristi leće, zakrivljena zrcala ili kombinaciju oba za promatranje udaljenih objekata ili razne uređaje koji se koriste za promatranje udaljenih objekata putem njihove emisije, apsorpcije ili refleksije elektromagnetskog zračenja.
+::Astronomski sat::1,2,0::::Astronomski sat je sat s posebnim mehanizmima i brojčanicima za prikaz astronomskih informacija, kao što su relativni položaji Sunca, Mjeseca, zodijačkih zviježđa, a ponekad i velikih planeta.
+::Fotometar::5,1,2::::Fotometar je instrument koji mjeri snagu elektromagnetskog zračenja u rasponu od ultraljubičastog do infracrvenog, uključujući i vidljivi spektar.
+::Svemirski teleskop::4,1,0::::Svemirski teleskop je teleskop u svemiru koji služi za promatranje astronomskih objekata. Podijeljeni su u dvije vrste: sateliti koji mapiraju cijelo nebo i sateliti koji se fokusiraju na odabrane astronomske objekte.

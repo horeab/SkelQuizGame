@@ -1,0 +1,10 @@
+Jaka jest największa znana gwiazda?::UY Scuti##Betelgeza##VY Canis majoris##Polluks::0
+Jaka jest najgęstsza gwiazda?::czerwony olbrzym##Gwiazda neutronowa##Czarny karzeł##Biały karzeł::1
+Jaka jest najbliższa naszej galaktyce?::Galaktyka Barnarda##NGC24 19##Andromeda##Ic 1101::2
+Jak nazywa się nasza galaktyka?::Ziemia##droga Mleczna##Andromeda##Wszechświat::1
+Ile gwiazd jest w naszej galaktyce?::16 milionów##5 tysięcy##250 miliardów##1 miliard::2
+Z czego w większości składa się wszechświat?::Ciemna materia##Ciemna energia##Światło##Widoczna materia::1
+Jaka jest najjaśniejsza gwiazda na niebie?::Syriusz##Andromeda##Orion##Polaris::0
+Co znajduje się w centrum galaktyki Drogi Mlecznej?::Czarna dziura##wiele planet##gromada gwiazd##Nie wiadomo::0
+Jaki jest najczęściej spotykany typ gwiazdy w Drodze Mlecznej?::Gwiazdy czerwonego karła##Gwiazdy zielonego karła##Gwiazdy czarnego karła##Gwiazdy białego karła::0
+Jaka jest jednostka miary używana do opisu rozszerzania się wszechświata?::Stała Hubble&#39;a##Lata świetlne##Metry##Stała alfa::0

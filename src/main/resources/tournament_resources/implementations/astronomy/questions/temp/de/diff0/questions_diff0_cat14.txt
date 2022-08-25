@@ -1,11 +1,11 @@
-0##Der Urknall::Vor 13,8 Milliarden Jahren::4,7,8::::xxx
-3##Entstehung der ersten Galaxien::400 Millionen Jahre nach dem Urknall::8,3,10::::xxx
-2##Bildung der ersten Sterne::100 Millionen Jahre nach dem Urknall::3,4,7::::xxx
-1##Entstehung der ersten Schwarzen Löcher::Während des Urknalls::4,8,9::::xxx
-7##Entstehung der Erde::Vor 4,6 Milliarden Jahren::5,6,7::::xxx
-9##Frühe Lebensformen erscheinen::Vor 3,7 Milliarden Jahren::4,7,8::::xxx
-8##Bildung des Mondes::50 Millionen Jahre nach der Geburt des Sonnensystems::10,9,8::::xxx
-10##Bildung der neuesten Galaxie::Vor 500 Millionen Jahren::8,1,4::::xxx
-5##Entstehung der Andromeda-Galaxie::Vor 10 Milliarden Jahren::9,10,5::::xxx
-4##Entstehung der Milchstraße::800 Millionen Jahre nach dem Urknall::8,2,3::::xxx
-6##Bildung des Sonnensystems::Vor 4,6 Milliarden Jahren::3,0,2::::xxx
+0##Der Urknall::Vor 13,8 Milliarden Jahren::4,7,8::::
+3##Entstehung der ersten Galaxien::400 Millionen Jahre nach dem Urknall::8,3,10::::
+2##Bildung der ersten Sterne::100 Millionen Jahre nach dem Urknall::3,4,7::::
+1##Entstehung der ersten Schwarzen Löcher::Während des Urknalls::4,8,9::::
+7##Entstehung der Erde::Vor 4,6 Milliarden Jahren::5,6,7::::
+9##Frühe Lebensformen erscheinen::Vor 3,7 Milliarden Jahren::4,7,8::::
+8##Bildung des Mondes::50 Millionen Jahre nach der Geburt des Sonnensystems::10,9,8::::
+10##Bildung der neuesten Galaxie::Vor 500 Millionen Jahren::8,1,4::::
+5##Entstehung der Andromeda-Galaxie::Vor 10 Milliarden Jahren::9,10,5::::
+4##Entstehung der Milchstraße::800 Millionen Jahre nach dem Urknall::8,2,3::::
+6##Bildung des Sonnensystems::Vor 4,6 Milliarden Jahren::3,0,2::::

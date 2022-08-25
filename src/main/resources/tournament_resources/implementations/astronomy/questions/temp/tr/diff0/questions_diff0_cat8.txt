@@ -1,0 +1,10 @@
+Bilinen en büyük yıldız hangisidir?::UY Scuti##betelgeuse##VY Canis Majoris##Polluks::0
+En yoğun yıldız türü hangisidir?::kırmızı dev##nötron yıldızı##siyah cüce##Beyaz cüce::1
+Bize en yakın galaksi hangisidir?::Barnard&#39;ın galaksisi##NGC 24 19##Andromeda##ic 1101::2
+Galaksimizin adı nedir?::Dünya##Samanyolu##Andromeda##Evren::1
+Galaksimizde kaç yıldız var?::16 Milyon##5 Bin##250 Milyar##1 milyon::2
+Evren çoğunlukla nelerden oluşur?::Karanlık madde##Karanlık enerji##Işık##görünür madde::1
+Gökyüzündeki en parlak yıldız hangisidir?::Sirius##Andromeda##avcı##kutup ayısı::0
+Samanyolu galaksisinin merkezinde ne var?::bir kara delik##çoklu gezegenler##bir yıldız kümesi##bilinmiyor::0
+Samanyolu&#39;nda bulunan en yaygın yıldız türü hangisidir?::Kızıl Cüce yıldızlar##Yeşil Cüce yıldızlar##Kara Cüce yıldızlar##Beyaz Cüce yıldızlar::0
+Evrenin genişlemesini tanımlamak için kullanılan ölçü birimi nedir?::Hubble Sabiti##Işık yılları##metre##Alfa Sabiti::0

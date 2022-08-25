@@ -1,0 +1,10 @@
+Melyik a naprendszerünk legforróbb bolygója?::Vénusz::1,2,3::::
+Melyik a leghidegebb bolygó?::Uránusz::4,5,6::::
+Naprendszerünk melyik bolygóján van a legtöbb hold?::Szaturnusz::0,3,4::::
+Melyik bolygó a legnagyobb a földi bolygók közül?::Föld::1,2,5::::
+Melyik bolygón fúj a legerősebb szél?::Neptunusz::3,5,6::::
+Melyik bolygó a sziklás bolygó?::Merkúr::1,2,4::::
+Mi a 4. bolygó a Naprendszerben?::Mars::1,4,5::::
+Melyik bolygónak nincs természetes műholdja?::Merkúr::1,2,3::::
+Melyik a legrégebbi bolygó a naprendszerünkben?::Jupiter::3,5,4::::
+Melyik bolygó forog visszafelé a többihez képest?::Vénusz::3,4,7::::

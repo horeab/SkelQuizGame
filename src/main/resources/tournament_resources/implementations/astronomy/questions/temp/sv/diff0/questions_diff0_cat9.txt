@@ -1,0 +1,10 @@
+Vilken är den hetaste planeten i vårt solsystem?::Venus::1,2,3::::
+Vilken är den kallaste planeten?::Uranus::4,5,6::::
+Vilken planet i vårt solsystem har flest månar?::Saturnus::0,3,4::::
+Vilken planet är den största av de jordiska planeterna?::Jorden::1,2,5::::
+Vilken planet har de starkaste vindarna?::Neptunus::3,5,6::::
+Vilken planet är en stenig planet?::Merkurius::1,2,4::::
+Vilken är den fjärde planeten i solsystemet?::Mars::1,4,5::::
+Vilken planet har inte en naturlig satellit?::Merkurius::1,2,3::::
+Vilken är den äldsta planeten i vårt solsystem?::Jupiter::3,5,4::::
+Vilken planet snurrar bakåt i förhållande till de andra?::Venus::3,4,7::::

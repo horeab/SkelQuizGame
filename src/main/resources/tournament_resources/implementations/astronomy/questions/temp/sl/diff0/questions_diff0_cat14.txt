@@ -1,11 +1,11 @@
-0##Veliki pok::Pred 13,8 milijarde let::4,7,8::::xxx
-3##Nastanek prvih galaksij::400 milijonov let po velikem poku::8,3,10::::xxx
-2##Nastanek prvih zvezd::100 milijonov let po velikem poku::3,4,7::::xxx
-1##Nastanek prvih črnih lukenj::Med velikim pokom::4,8,9::::xxx
-7##Nastanek Zemlje::Pred 4,6 milijarde let::5,6,7::::xxx
-9##Pojavijo se najzgodnejše oblike življenja::3,7 milijarde let nazaj::4,7,8::::xxx
-8##Nastanek Lune::50 milijonov let po nastanku sončnega sistema::10,9,8::::xxx
-10##Nastanek najnovejše galaksije::Pred 500 milijoni let::8,1,4::::xxx
-5##Nastanek Andromedine galaksije::pred 10 milijardami let::9,10,5::::xxx
-4##Nastanek galaksije Rimska cesta::800 milijonov let po velikem poku::8,2,3::::xxx
-6##Nastanek sončnega sistema::Pred 4,6 milijarde let::3,0,2::::xxx
+0##Veliki pok::Pred 13,8 milijarde let::4,7,8::::
+3##Nastanek prvih galaksij::400 milijonov let po velikem poku::8,3,10::::
+2##Nastanek prvih zvezd::100 milijonov let po velikem poku::3,4,7::::
+1##Nastanek prvih črnih lukenj::Med velikim pokom::4,8,9::::
+7##Nastanek Zemlje::Pred 4,6 milijarde let::5,6,7::::
+9##Pojavijo se najzgodnejše oblike življenja::3,7 milijarde let nazaj::4,7,8::::
+8##Nastanek Lune::50 milijonov let po nastanku sončnega sistema::10,9,8::::
+10##Nastanek najnovejše galaksije::Pred 500 milijoni let::8,1,4::::
+5##Nastanek Andromedine galaksije::pred 10 milijardami let::9,10,5::::
+4##Nastanek galaksije Rimska cesta::800 milijonov let po velikem poku::8,2,3::::
+6##Nastanek sončnega sistema::Pred 4,6 milijarde let::3,0,2::::

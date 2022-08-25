@@ -1,0 +1,10 @@
+Koliko planeta ima u Sunčevom sustavu?::8##9##10##11::0
+Koliko je naše Sunce udaljeno od Zemlje, otprilike...?::93 svjetlosne godine##150 milijuna kilometara##150 milijardi kilometara##150 bilijuna kilometara::1
+Što je mjesec?::asteroid##zvijezda##prirodni satelit##planeta::2
+Koliko je otprilike stara Zemlja?::6 milijardi godina##4 milijarde godina##1 milijarda godina##4 bilijuna godina::1
+Kakav rezultat ima Zemljin nagib?::Godišnja doba##Dan i noć##tsunami##Potresi::0
+Kakav je oblik Zemljine orbite oko Sunca?::Kružni##Eliptičan##Kvadrat##Varijabilna::1
+Gdje se nalazi asteroidni pojas?::izvan Plutona##oko Sunca##između Marsa i Jupitera##između Zemlje i Marsa::2
+Kako se naziva put koji nebesko tijelo prijeđe u svemiru?::Orbita##Put##Strujni krug##Ruta::0
+Što uzrokuje da mjesec sja?::Reflektirana sunčeva svjetlost##Reflektirana svjetlost od zemlje##Ima vlastiti izvor svjetla::0
+Koliko je mjeseci trenutno u našem Sunčevom sustavu?::181 mjesec##239 mjeseca##32 mjeseca##93 mjeseca::0

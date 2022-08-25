@@ -1,0 +1,10 @@
+Berapakah bilangan planet yang terdapat dalam sistem suria?::8##9##10##11::0
+Berapa jauhkah jarak matahari kita dari Bumi, kira-kira...?::93 tahun cahaya##150 juta kilometer##150 bilion kilometer##150 trilion kilometer::1
+Apakah bulan?::asteroid##bintang##satelit semula jadi##planet::2
+Kira-kira berapa umur bumi?::6 bilion tahun##4 bilion tahun##1 bilion tahun##4 trilion tahun::1
+Apakah hasil kecondongan bumi?::Musim-musim##Pagi dan malam##Tsunami##Gempa bumi::0
+Apakah bentuk orbit bumi mengelilingi matahari?::Pekeliling##elips##Segi empat##Pembolehubah::1
+Di manakah terletaknya tali pinggang asteroid?::di luar Pluto##mengelilingi Matahari##antara Marikh dan Musytari##antara Bumi dan Marikh::2
+Apakah yang anda panggil laluan yang dilalui oleh badan angkasa di angkasa?::Sebuah orbit##Satu laluan##Sebuah litar##Satu laluan::0
+Apakah yang menyebabkan bulan bersinar?::Cahaya matahari yang dipantulkan##Pantulan cahaya dari bumi##Mempunyai sumber cahaya sendiri::0
+Berapakah bilangan bulan dalam sistem suria kita pada masa ini?::181 bulan##239 bulan##32 bulan##93 bulan::0

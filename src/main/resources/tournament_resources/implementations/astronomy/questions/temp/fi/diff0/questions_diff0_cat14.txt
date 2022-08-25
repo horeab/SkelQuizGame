@@ -1,11 +1,11 @@
-0##Alkuräjähdys::13,8 miljardia vuotta sitten::4,7,8::::xxx
-3##Ensimmäisten galaksien muodostuminen::400 miljoonaa vuotta alkuräjähdyksen jälkeen::8,3,10::::xxx
-2##Ensimmäisten tähtien muodostuminen::100 miljoonaa vuotta alkuräjähdyksen jälkeen::3,4,7::::xxx
-1##Ensimmäisten mustien aukkojen muodostuminen::Alkuräjähdyksen aikana::4,8,9::::xxx
-7##Maan muodostuminen::4,6 miljardia vuotta sitten::5,6,7::::xxx
-9##Varhaisimmat elämänmuodot ilmestyvät::3,7 miljardia vuotta sitten::4,7,8::::xxx
-8##Kuun muodostuminen::50 miljoonaa vuotta aurinkokunnan syntymän jälkeen::10,9,8::::xxx
-10##Uusimman galaksin muodostuminen::500 miljoonaa vuotta sitten::8,1,4::::xxx
-5##Andromedan galaksin muodostuminen::10 miljardia vuotta sitten::9,10,5::::xxx
-4##Linnunradan galaksin muodostuminen::800 miljoonaa vuotta alkuräjähdyksen jälkeen::8,2,3::::xxx
-6##Aurinkokunnan muodostuminen::4,6 miljardia vuotta sitten::3,0,2::::xxx
+0##Alkuräjähdys::13,8 miljardia vuotta sitten::4,7,8::::
+3##Ensimmäisten galaksien muodostuminen::400 miljoonaa vuotta alkuräjähdyksen jälkeen::8,3,10::::
+2##Ensimmäisten tähtien muodostuminen::100 miljoonaa vuotta alkuräjähdyksen jälkeen::3,4,7::::
+1##Ensimmäisten mustien aukkojen muodostuminen::Alkuräjähdyksen aikana::4,8,9::::
+7##Maan muodostuminen::4,6 miljardia vuotta sitten::5,6,7::::
+9##Varhaisimmat elämänmuodot ilmestyvät::3,7 miljardia vuotta sitten::4,7,8::::
+8##Kuun muodostuminen::50 miljoonaa vuotta aurinkokunnan syntymän jälkeen::10,9,8::::
+10##Uusimman galaksin muodostuminen::500 miljoonaa vuotta sitten::8,1,4::::
+5##Andromedan galaksin muodostuminen::10 miljardia vuotta sitten::9,10,5::::
+4##Linnunradan galaksin muodostuminen::800 miljoonaa vuotta alkuräjähdyksen jälkeen::8,2,3::::
+6##Aurinkokunnan muodostuminen::4,6 miljardia vuotta sitten::3,0,2::::

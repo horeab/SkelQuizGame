@@ -1,0 +1,10 @@
+Wat is de grootste bekende ster?::UY Scuti##Betelgeuze##VY Canis majoris##Pollux::0
+Wat is de meest dichte soort ster?::rode reus##Neutronenster##Zwarte dwerg##witte dwerg::1
+Wat is het dichtstbijzijnde sterrenstelsel bij het onze?::de melkweg van Barnard##NGC 24 19##Andromeda##Ic 1101::2
+Hoe heet onze melkweg?::Aarde##Melkweg##Andromeda##Universum::1
+Hoeveel sterren zijn er in onze melkweg?::16 miljoen##5 duizend##250 miljard##1 miljard::2
+Waar bestaat het universum voor het grootste deel uit?::Donkere materie##Donkere energie##Licht##zichtbare materie::1
+Wat is de helderste ster aan de hemel?::Sirius##Andromeda##Orion##Polaris::0
+Wat bevindt zich in het centrum van het Melkwegstelsel?::Een zwart gat##meerdere planeten##een sterrenhoop##Het is niet bekend::0
+Wat is het meest voorkomende type ster in de Melkweg?::Rode dwergsterren##Groene dwergsterren##Zwarte dwergsterren##Witte dwergsterren::0
+Wat is de meeteenheid die wordt gebruikt om de uitdijing van het heelal te beschrijven?::De Hubble-constante##Lichtjaren##meter##De alfaconstante::0

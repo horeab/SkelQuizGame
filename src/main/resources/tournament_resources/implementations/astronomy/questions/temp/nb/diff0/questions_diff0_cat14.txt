@@ -1,0 +1,11 @@
+0##The Big Bang::13,8 milliarder år siden::4,7,8::::
+3## Dannelse av de første galaksene::400 millioner år etter Big Bang::8,3,10::::
+2## Dannelse av de første stjernene::100 millioner år etter Big Bang::3,4,7::::
+1## Dannelse av de første sorte hullene::Under Big Bang::4,8,9::::
+7## Dannelse av jorden::4,6 milliarder år siden::5,6,7::::
+9##De tidligste livsformer dukker opp::3,7 milliarder år siden::4,7,8::::
+8## Dannelse av månen::50 millioner år etter at solsystemet ble født::10,9,8::::
+10## Dannelse av den nyeste galaksen::500 millioner år siden::8,1,4::::
+5## Dannelse av Andromeda-galaksen::10 milliarder år siden::9,10,5::::
+4## Dannelse av Melkeveisgalaksen::800 millioner år etter Big Bang::8,2,3::::
+6## Dannelse av solsystemet::4,6 milliarder år siden::3,0,2::::

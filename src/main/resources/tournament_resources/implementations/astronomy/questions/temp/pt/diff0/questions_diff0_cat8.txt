@@ -1,0 +1,10 @@
+Qual é a maior estrela conhecida?::UY Scuti##Betelgeuse##VY Canis majoris##Pólux::0
+Qual é o tipo mais denso de estrela?::gigante vermelho##Estrêla de Neutróns##anã negra##anã branca::1
+Qual é a galáxia mais próxima da nossa?::Galáxia de Barnard##NGC 24 19##Andrômeda##IC 1101::2
+Como se chama a nossa galáxia?::Terra##via Láctea##Andrômeda##Universo::1
+Quantas estrelas existem em nossa galáxia?::16 milhões##5 mil##250 bilhões##1 bilião::2
+Do que o universo é composto principalmente?::Matéria escura##Energia escura##Leve##Matéria visível::1
+Qual é a estrela mais brilhante do céu?::Sírius##Andrômeda##Órion##Polaris::0
+O que está no centro da galáxia Via Láctea?::Um buraco negro##vários planetas##um aglomerado de estrelas##Não é conhecido::0
+Qual é o tipo de estrela mais comum encontrado na Via Láctea?::Estrelas anãs vermelhas##Estrelas anãs verdes##Estrelas anãs negras##estrelas anãs brancas::0
+Qual é a unidade de medida usada para descrever a expansão do universo?::A Constante de Hubble##Anos luz##Metros##A constante alfa::0

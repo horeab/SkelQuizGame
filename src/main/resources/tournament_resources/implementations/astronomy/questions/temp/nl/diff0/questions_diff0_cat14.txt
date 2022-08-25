@@ -1,0 +1,11 @@
+0##De oerknal::13,8 miljard jaar geleden::4,7,8::::
+3##Vorming van de eerste sterrenstelsels::400 miljoen jaar na de oerknal::8,3,10::::
+2##Vorming van de eerste sterren::100 miljoen jaar na de oerknal::3,4,7::::
+1##Vorming van de eerste zwarte gaten::Tijdens de oerknal::4,8,9::::
+7##Vorming van de aarde::4,6 miljard jaar geleden::5,6,7::::
+9##Eerste levensvormen verschijnen::3,7 miljard jaar geleden::4,7,8::::
+8##Vorming van de maan::50 miljoen jaar na de geboorte van het zonnestelsel::10,9,8::::
+10##Vorming van het nieuwste sterrenstelsel::500 miljoen jaar geleden::8,1,4::::
+5##Vorming van de Andromeda-melkweg::10 miljard jaar geleden::9,10,5::::
+4##Vorming van het Melkwegstelsel::800 miljoen jaar na de oerknal::8,2,3::::
+6##Vorming van het zonnestelsel::4,6 miljard jaar geleden::3,0,2::::
