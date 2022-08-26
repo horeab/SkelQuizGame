@@ -1,4 +1,4 @@
-::Galáxia::1,3,5::::Uma galáxia é um sistema gravitacionalmente ligado de estrelas, remanescentes estelares, gás interestelar, poeira e matéria escura. A palavra é derivada do grego galaxias, literalmente &#39;leitoso&#39;, uma referência à galáxia Via Láctea que contém o Sistema Solar.
+::Galáxia::1,3,5::::Uma galáxia é um sistema gravitacionalmente ligado de estrelas, remanescentes estelares, gás interestelar, poeira e matéria escura. A palavra é derivada do grego galaxias, literalmente 'leitoso', uma referência à galáxia Via Láctea que contém o Sistema Solar.
 ::Buraco negro::1,3,5::::Um buraco negro é uma região do espaço-tempo onde a gravidade é tão forte que nada – nenhuma partícula ou mesmo radiação eletromagnética como a luz – pode escapar dela.
 ::Nebulosa::1,3,5::::Uma nebulosa é uma parte luminescente distinta do meio interestelar, que pode consistir em hidrogênio ionizado, neutro ou molecular e também poeira cósmica.
 ::Quasar::1,3,5::::Um quasar é um núcleo galáctico ativo extremamente luminoso, alimentado por um buraco negro supermassivo, com massa variando de milhões a dezenas de bilhões de massas solares, cercado por um disco de acreção gasoso.

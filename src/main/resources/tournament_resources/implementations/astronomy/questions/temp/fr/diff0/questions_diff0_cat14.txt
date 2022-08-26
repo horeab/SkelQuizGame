@@ -1,11 +1,11 @@
-0##Le Big Bang::il y a 13,8 milliards d&#39;années::4,7,8::::
-3##Formation des premières galaxies::400 millions d&#39;années après le Big Bang::8,3,10::::
-2##Formation des premières étoiles::100 millions d&#39;années après le Big Bang::3,4,7::::
+0##Le Big Bang::il y a 13,8 milliards d'années::4,7,8::::
+3##Formation des premières galaxies::400 millions d'années après le Big Bang::8,3,10::::
+2##Formation des premières étoiles::100 millions d'années après le Big Bang::3,4,7::::
 1##Formation des premiers trous noirs::Pendant le Big Bang::4,8,9::::
-7##Formation de la Terre::il y a 4,6 milliards d&#39;années::5,6,7::::
-9##Les premières formes de vie apparaissent::il y a 3,7 milliards d&#39;années::4,7,8::::
-8##Formation de la Lune::50 millions d&#39;années après la naissance du système solaire::10,9,8::::
-10##Formation de la nouvelle galaxie::il y a 500 millions d&#39;années::8,1,4::::
-5##Formation de la galaxie d&#39;Andromède::il y a 10 milliards d&#39;années::9,10,5::::
-4##Formation de la galaxie de la voie lactée::800 millions d&#39;années après le Big Bang::8,2,3::::
-6##Formation du système solaire::il y a 4,6 milliards d&#39;années::3,0,2::::
+7##Formation de la Terre::il y a 4,6 milliards d'années::5,6,7::::
+9##Les premières formes de vie apparaissent::il y a 3,7 milliards d'années::4,7,8::::
+8##Formation de la Lune::50 millions d'années après la naissance du système solaire::10,9,8::::
+10##Formation de la nouvelle galaxie::il y a 500 millions d'années::8,1,4::::
+5##Formation de la galaxie d'Andromède::il y a 10 milliards d'années::9,10,5::::
+4##Formation de la galaxie de la voie lactée::800 millions d'années après le Big Bang::8,2,3::::
+6##Formation du système solaire::il y a 4,6 milliards d'années::3,0,2::::

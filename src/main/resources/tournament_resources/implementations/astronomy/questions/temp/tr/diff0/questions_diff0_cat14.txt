@@ -1,11 +1,11 @@
 0##Büyük Patlama::13,8 milyar yıl önce::4,7,8::::
-3##İlk galaksilerin oluşumu::Büyük Patlama&#39;dan 400 milyon yıl sonra::8,3,10::::
-2##İlk yıldızların oluşumu::Big Bang&#39;den 100 milyon yıl sonra::3,4,7::::
+3##İlk galaksilerin oluşumu::Büyük Patlama'dan 400 milyon yıl sonra::8,3,10::::
+2##İlk yıldızların oluşumu::Big Bang'den 100 milyon yıl sonra::3,4,7::::
 1##İlk kara deliklerin oluşumu::Büyük Patlama sırasında::4,8,9::::
 7##Dünyanın Oluşumu::4.6 milyar yıl önce::5,6,7::::
 9##En erken yaşam formları ortaya çıkıyor::3,7 milyar yıl önce::4,7,8::::
 8##Ayın Oluşumu::Güneş sistemi doğduktan 50 milyon yıl sonra::10,9,8::::
 10##En yeni galaksinin oluşumu::500 milyon yıl önce::8,1,4::::
 5##Andromeda galaksisinin oluşumu::10 milyar yıl önce::9,10,5::::
-4##Samanyolu galaksisinin oluşumu::Büyük Patlama&#39;dan 800 milyon yıl sonra::8,2,3::::
+4##Samanyolu galaksisinin oluşumu::Büyük Patlama'dan 800 milyon yıl sonra::8,2,3::::
 6##Güneş Sisteminin Oluşumu::4.6 milyar yıl önce::3,0,2::::

@@ -1,4 +1,4 @@
-::Galaksija::1,3,5::::Galaksija je gravitacijski vezan sustav zvijezda, zvjezdanih ostataka, međuzvjezdanog plina, prašine i tamne tvari. Riječ je izvedena iz grčke riječi galaxias, doslovno &#39;mliječno&#39;, a odnosi se na galaksiju Mliječni put koja sadrži Sunčev sustav.
+::Galaksija::1,3,5::::Galaksija je gravitacijski vezan sustav zvijezda, zvjezdanih ostataka, međuzvjezdanog plina, prašine i tamne tvari. Riječ je izvedena iz grčke riječi galaxias, doslovno 'mliječno', a odnosi se na galaksiju Mliječni put koja sadrži Sunčev sustav.
 ::Crna rupa::1,3,5::::Crna rupa je područje prostornog vremena u kojem je gravitacija toliko jaka da ništa - nikakve čestice ili čak elektromagnetsko zračenje poput svjetlosti - ne može pobjeći iz nje.
 ::maglica::1,3,5::::Maglica je poseban luminiscentni dio međuzvjezdanog medija, koji se može sastojati od ioniziranog, neutralnog ili molekularnog vodika te također kozmičke prašine.
 ::Kvazar::1,3,5::::Kvazar je izuzetno svjetleća aktivna galaktička jezgra koju pokreće supermasivna crna rupa, s masom u rasponu od milijuna do desetaka milijardi solarnih masa, okružena plinovitim akrecijskim diskom.

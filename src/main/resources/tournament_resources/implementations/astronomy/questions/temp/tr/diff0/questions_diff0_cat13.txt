@@ -1,5 +1,5 @@
 ::Gök küresi::1,3,5::::Astronomi ve navigasyonda, göksel küre, keyfi olarak büyük bir yarıçapa sahip olan ve Dünya ile eşmerkezli olan soyut bir küredir.
-::güneş saati::0,2,4::::Güneş saati, Güneş&#39;in gökyüzündeki görünür konumu ile doğrudan güneş ışığının parladığı günün saatini söyleyen saatçi bir cihazdır.
+::güneş saati::0,2,4::::Güneş saati, Güneş'in gökyüzündeki görünür konumu ile doğrudan güneş ışığının parladığı günün saatini söyleyen saatçi bir cihazdır.
 ::Teleskop::3,4,0::::Teleskop, uzaktaki nesneleri gözlemlemek için lensleri, kavisli aynaları veya her ikisinin bir kombinasyonunu kullanan optik bir alet veya elektromanyetik radyasyonun emisyonu, absorpsiyonu veya yansıması yoluyla uzaktaki nesneleri gözlemlemek için kullanılan çeşitli cihazlardır.
 ::Astronomik Saat::1,2,0::::Astronomik saat, Güneş, Ay, burç takımyıldızları ve bazen büyük gezegenlerin göreceli konumları gibi astronomik bilgileri görüntülemek için özel mekanizmalara ve kadranlara sahip bir saattir.
 ::fotometre::5,1,2::::Fotometre, morötesinden kızılötesine ve görünür spektrum dahil olmak üzere elektromanyetik radyasyonun gücünü ölçen bir araçtır.

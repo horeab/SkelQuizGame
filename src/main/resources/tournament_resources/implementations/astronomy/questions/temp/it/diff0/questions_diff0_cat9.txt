@@ -7,4 +7,4 @@ Quale pianeta è un pianeta roccioso?::Mercurio::1,2,4::::
 Qual è il quarto pianeta del sistema solare?::Marte::1,4,5::::
 Quale pianeta non ha un satellite naturale?::Mercurio::1,2,3::::
 Qual è il pianeta più antico del nostro sistema solare?::Giove::3,5,4::::
-Quale pianeta ruota all&#39;indietro rispetto agli altri?::Venere::3,4,7::::
+Quale pianeta ruota all'indietro rispetto agli altri?::Venere::3,4,7::::

@@ -6,5 +6,5 @@ Jaki statek kosmiczny krąży wokół Jowisza?::Juno##Lądownik##Wostok##Cassini
 Kiedy odkryto Plutona?::1930##1834##1956##1975::0
 Kto był pierwszym człowiekiem, który okrążył Ziemię?::Jurij Gagarin##Neil Armstrong##Buzz Aldrin##Alan Shepard::0
 Kim była pierwsza kobieta, która poleciała w kosmos?::Walentyna Tereshkova##Przejażdżka Sally##Kalpana Chawla##Eileen Collins::0
-Kiedy Teleskop Hubble&#39;a został wystrzelony w kosmos?::1990##1975##2000##1983::0
+Kiedy Teleskop Hubble'a został wystrzelony w kosmos?::1990##1975##2000##1983::0
 Kiedy Międzynarodowa Stacja Kosmiczna została wystrzelona w kosmos?::1998##1988##1991##2005::0

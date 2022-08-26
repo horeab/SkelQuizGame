@@ -1,10 +1,10 @@
 Quelle est la plus grande étoile connue ?::UY Scuti##Bételgeuse##VY Canis majoris##Pollux::0
-Quel est le type d&#39;étoile le plus dense ?::géant rouge##Étoile à neutrons##Nain noir##nain blanc::1
+Quel est le type d'étoile le plus dense ?::géant rouge##Étoile à neutrons##Nain noir##nain blanc::1
 Quelle est la galaxie la plus proche de la nôtre ?::La galaxie de Barnard##NGC 24 19##Andromède##IC 1101::2
-Comment s&#39;appelle notre galaxie ?::Terre##voie Lactée##Andromède##Univers::1
-Combien y a-t-il d&#39;étoiles dans notre galaxie ?::16 millions##5 mille##250 milliards##1 milliard::2
-De quoi l&#39;univers est-il majoritairement composé ?::Matière noire##Énergie noire##Lumière##Matière visible::1
-Quelle est l&#39;étoile la plus brillante du ciel ?::Sirius##Andromède##Orion##Polaris::0
-Qu&#39;y a-t-il au centre de la galaxie de la Voie lactée ?::Un trou noir##plusieurs planètes##un amas d&#39;étoiles##Ce n&#39;est pas connu::0
-Quel est le type d&#39;étoile le plus courant dans la Voie lactée ?::Etoiles naines rouges##Etoiles naines vertes##Étoiles naines noires##Étoiles naines blanches::0
-Quelle est l&#39;unité de mesure utilisée pour décrire l&#39;expansion de l&#39;univers ?::La constante de Hubble##Années lumière##Mètres##La constante alpha::0
+Comment s'appelle notre galaxie ?::Terre##voie Lactée##Andromède##Univers::1
+Combien y a-t-il d'étoiles dans notre galaxie ?::16 millions##5 mille##250 milliards##1 milliard::2
+De quoi l'univers est-il majoritairement composé ?::Matière noire##Énergie noire##Lumière##Matière visible::1
+Quelle est l'étoile la plus brillante du ciel ?::Sirius##Andromède##Orion##Polaris::0
+Qu'y a-t-il au centre de la galaxie de la Voie lactée ?::Un trou noir##plusieurs planètes##un amas d'étoiles##Ce n'est pas connu::0
+Quel est le type d'étoile le plus courant dans la Voie lactée ?::Etoiles naines rouges##Etoiles naines vertes##Étoiles naines noires##Étoiles naines blanches::0
+Quelle est l'unité de mesure utilisée pour décrire l'expansion de l'univers ?::La constante de Hubble##Années lumière##Mètres##La constante alpha::0

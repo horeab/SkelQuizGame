@@ -1,10 +1,10 @@
 Quanti pianeti ci sono nel sistema solare?::8##9##10##11::0
 Quanto dista dalla Terra il nostro sole, approssimativamente...?::93 anni luce##150 milioni di chilometri##150 miliardi di chilometri##150 trilioni di chilometri::1
-Cos&#39;è la luna?::asteroide##stella##satellite naturale##pianeta::2
+Cos'è la luna?::asteroide##stella##satellite naturale##pianeta::2
 Approssimativamente quanti anni ha la terra?::6 miliardi di anni##4 miliardi di anni##1 miliardo di anni##4 trilioni di anni::1
-Che risultato ha l&#39;inclinazione della terra?::Le stagioni##Giorno e notte##Tsunami##Terremoti::0
-Qual è la forma dell&#39;orbita terrestre attorno al sole?::Circolare##ellittica##Piazza##Variabile::1
+Che risultato ha l'inclinazione della terra?::Le stagioni##Giorno e notte##Tsunami##Terremoti::0
+Qual è la forma dell'orbita terrestre attorno al sole?::Circolare##ellittica##Piazza##Variabile::1
 Dove si trova la cintura degli asteroidi?::oltre Plutone##intorno al Sole##tra Marte e Giove##tra Terra e Marte::2
-Come si chiama il percorso percorso da un corpo celeste nello spazio?::Un&#39;orbita##Un sentiero##Un circuito##Un percorso::0
+Come si chiama il percorso percorso da un corpo celeste nello spazio?::Un'orbita##Un sentiero##Un circuito##Un percorso::0
 Cosa fa brillare la luna?::Luce solare riflessa##Luce riflessa dalla terra##Ha la sua fonte di luce::0
 Quante lune ci sono attualmente nel nostro sistema solare?::181 lune##239 lune##32 lune##93 lune::0

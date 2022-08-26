@@ -1,4 +1,4 @@
-::Galaxy::1,3,5::::En galax är ett gravitationsbundet system av stjärnor, stjärnrester, interstellär gas, damm och mörk materia. Ordet härstammar från de grekiska galaxerna, bokstavligen &quot;mjölkiga&quot;, en referens till Vintergatans galax som innehåller solsystemet.
+::Galaxy::1,3,5::::En galax är ett gravitationsbundet system av stjärnor, stjärnrester, interstellär gas, damm och mörk materia. Ordet härstammar från de grekiska galaxerna, bokstavligen 'mjölkiga', en referens till Vintergatans galax som innehåller solsystemet.
 ::Svart hål::1,3,5::::Ett svart hål är ett område i rumtiden där gravitationen är så stark att ingenting – inga partiklar eller ens elektromagnetisk strålning som ljus – kan fly från det.
 ::Nebulosa::1,3,5::::En nebulosa är en distinkt självlysande del av interstellärt medium, som kan bestå av joniserat, neutralt eller molekylärt väte och även kosmiskt stoft.
 ::kvasar::1,3,5::::En kvasar är en extremt lysande aktiv galaktisk kärna, som drivs av ett supermassivt svart hål, med en massa som sträcker sig från miljoner till tiotals miljarder solmassor, omgiven av en gasformig ansamlingsskiva.

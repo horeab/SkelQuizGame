@@ -1,10 +1,10 @@
-Quel est le premier vaisseau spatial lancé dans l&#39;espace ?::Voyageur##Viking 1##Vostok 1##Spoutnik::2
+Quel est le premier vaisseau spatial lancé dans l'espace ?::Voyageur##Viking 1##Vostok 1##Spoutnik::2
 Quelle sonde a été envoyée vers Saturne en 1977 ?::Pionnier##Huygens##Saturne Cassini##Voyageur 1::3
 En quelle année Galileo Galilei a-t-il commencé à utiliser le télescope pour explorer le ciel ?::1704##1609##1510##1653::1
 Qui a été la première personne à atterrir sur la lune ?::Neil Armstrong##Alan Shepard##Buzz Aldrine##Alan Bean::0
 Quel vaisseau spatial orbite autour de Jupiter ?::Junon##Atterrisseur##Vostok##Cassini::0
 Quand Pluton a-t-il été découvert ?::1930##1834##1956##1975::0
 Qui a été le premier homme à orbiter autour de la Terre ?::Youri Gagarine##Neil Armstrong##Buzz Aldrine##Alan Shepard::0
-Qui a été la première femme à voyager dans l&#39;espace ?::Valentina Terechkova##Tour de Sally##Kalpana Chawla##Eileen Collins::0
-Quand le télescope Hubble a-t-il été lancé dans l&#39;espace ?::1990##1975##2000##1983::0
-Quand la Station spatiale internationale a-t-elle été lancée dans l&#39;espace ?::1998##1988##1991##2005::0
+Qui a été la première femme à voyager dans l'espace ?::Valentina Terechkova##Tour de Sally##Kalpana Chawla##Eileen Collins::0
+Quand le télescope Hubble a-t-il été lancé dans l'espace ?::1990##1975##2000##1983::0
+Quand la Station spatiale internationale a-t-elle été lancée dans l'espace ?::1998##1988##1991##2005::0

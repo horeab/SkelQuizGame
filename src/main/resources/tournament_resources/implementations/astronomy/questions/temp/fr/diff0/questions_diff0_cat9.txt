@@ -5,6 +5,6 @@ Quelle planète est la plus grande des planètes telluriques ?::Terre::1,2,5:::
 Quelle planète a les vents les plus forts ?::Neptune::3,5,6::::
 Quelle planète est une planète rocheuse ?::Mercure::1,2,4::::
 Quelle est la 4ème planète du système solaire ?::Mars::1,4,5::::
-Quelle planète n&#39;a pas de satellite naturel ?::Mercure::1,2,3::::
+Quelle planète n'a pas de satellite naturel ?::Mercure::1,2,3::::
 Quelle est la planète la plus ancienne de notre système solaire ?::Jupiter::3,5,4::::
 Quelle planète tourne en arrière par rapport aux autres ?::Vénus::3,4,7::::

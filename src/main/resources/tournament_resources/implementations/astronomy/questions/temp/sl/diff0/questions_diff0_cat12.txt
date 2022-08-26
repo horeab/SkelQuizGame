@@ -1,4 +1,4 @@
-::Galaxy::1,3,5::::Galaksija je gravitacijsko vezan sistem zvezd, zvezdnih ostankov, medzvezdnega plina, prahu in temne snovi. Beseda izhaja iz grške galaxias, dobesedno &#39;mlečno&#39;, sklicevanje na galaksijo Rimsko cesto, ki vsebuje Osončje.
+::Galaxy::1,3,5::::Galaksija je gravitacijsko vezan sistem zvezd, zvezdnih ostankov, medzvezdnega plina, prahu in temne snovi. Beseda izhaja iz grške galaxias, dobesedno 'mlečno', sklicevanje na galaksijo Rimsko cesto, ki vsebuje Osončje.
 ::Črna luknja::1,3,5::::Črna luknja je območje vesolja-časa, kjer je gravitacija tako močna, da nič – nobeni delci ali celo elektromagnetno sevanje, kot je svetloba – ne more uiti iz nje.
 ::meglica::1,3,5::::Meglica je izrazit svetleč del medzvezdnega medija, ki je lahko sestavljen iz ioniziranega, nevtralnega ali molekularnega vodika in tudi kozmičnega prahu.
 ::kvazar::1,3,5::::Kvazar je izjemno svetleče aktivno galaktično jedro, ki ga poganja supermasivna črna luknja z maso v razponu od milijonov do deset milijard sončnih mas, obdano s plinastim akrecijskim diskom.

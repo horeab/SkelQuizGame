@@ -1,4 +1,4 @@
-::Galaxy::1,3,5::::En galakse er et gravitasjonsbundet system av stjerner, stjernerester, interstellar gass, støv og mørk materie. Ordet er avledet fra de greske galaksene, bokstavelig talt &#39;melkeaktige&#39;, en referanse til Melkeveien-galaksen som inneholder solsystemet.
+::Galaxy::1,3,5::::En galakse er et gravitasjonsbundet system av stjerner, stjernerester, interstellar gass, støv og mørk materie. Ordet er avledet fra de greske galaksene, bokstavelig talt 'melkeaktige', en referanse til Melkeveien-galaksen som inneholder solsystemet.
 ::Svart hull::1,3,5::::Et sort hull er et område i romtiden der tyngdekraften er så sterk at ingenting – ingen partikler eller til og med elektromagnetisk stråling som lys – kan unnslippe fra det.
 ::Tåke::1,3,5::::En tåke er en distinkt selvlysende del av interstellart medium, som kan bestå av ionisert, nøytralt eller molekylært hydrogen og også kosmisk støv.
 ::Quasar::1,3,5::::En kvasar er en ekstremt lysende aktiv galaktisk kjerne, drevet av et supermassivt sort hull, med masse som varierer fra millioner til titalls milliarder av solmasser, omgitt av en gassformig akkresjonsskive.

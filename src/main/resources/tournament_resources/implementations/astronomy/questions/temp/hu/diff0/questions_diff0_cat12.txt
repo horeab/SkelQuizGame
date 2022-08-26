@@ -1,6 +1,6 @@
-::Galaxy::1,3,5::::A galaxis csillagokból, csillagmaradványokból, csillagközi gázokból, porból és sötét anyagból álló gravitációsan kötött rendszer. A szó a görög galaxisokból származik, szó szerint „tejszerű”, ami a Naprendszert tartalmazó Tejút-galaxisra utal.
+::Galaxis::1,3,5::::A galaxis csillagokból, csillagmaradványokból, csillagközi gázokból, porból és sötét anyagból álló gravitációsan kötött rendszer. A szó a görög galaxisokból származik, szó szerint „tejszerű”, ami a Naprendszert tartalmazó Tejút-galaxisra utal.
 ::Fekete lyuk::1,3,5::::A fekete lyuk a téridő olyan tartománya, ahol a gravitáció olyan erős, hogy semmi sem – semmilyen részecskék, vagy akár elektromágneses sugárzás, például fény – nem tud kiszabadulni belőle.
-::Ködfolt::1,3,5::::A köd a csillagközi közeg különálló lumineszcens része, amely ionizált, semleges vagy molekuláris hidrogénből és kozmikus porból is állhat.
+::Csillagköd::1,3,5::::A köd a csillagközi közeg különálló lumineszcens része, amely ionizált, semleges vagy molekuláris hidrogénből és kozmikus porból is állhat.
 ::kvazár::1,3,5::::A kvazár egy rendkívül fényes, aktív galaktikus atommag, amelyet egy szupermasszív fekete lyuk hajt meg, tömege milliótól tízmilliárdig terjedhet, és egy gáznemű akkréciós korong veszi körül.
 ::Pulzár::1,3,5::::A pulzár egy erősen mágnesezett forgó neutroncsillag, amely elektromágneses sugárzást bocsát ki mágneses pólusaiból.
 ::Bolygó::1,3,5::::A bolygó egy nagy, lekerekített csillagászati ​​test, amely sem nem csillag, sem nem maradványa. A bolygókeletkezés legjobb elérhető elmélete a köd-hipotézis, amely azt állítja, hogy egy csillagközi felhő összeomlik a ködből, hogy egy fiatal protocsillagot hozzon létre, amelyet egy protoplanetáris korong kering.

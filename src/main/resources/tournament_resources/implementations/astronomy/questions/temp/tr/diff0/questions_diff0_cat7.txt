@@ -1,10 +1,10 @@
 Güneş sisteminde kaç gezegen var?::8##9##10##11::0
-Güneşimiz Dünya&#39;dan ne kadar uzakta, yaklaşık olarak...?::93 ışık yılı##150 milyon kilometre##150 milyar kilometre##150 trilyon kilometre::1
+Güneşimiz Dünya'dan ne kadar uzakta, yaklaşık olarak...?::93 ışık yılı##150 milyon kilometre##150 milyar kilometre##150 trilyon kilometre::1
 Ay nedir?::asteroit##yıldız##doğal uydu##gezegen::2
 Dünya yaklaşık olarak kaç yaşındadır?::6 milyar yıl##4 milyar yıl##1 milyar yıl##4 trilyon yıl::1
 Dünyanın eğimi nasıl bir sonuç verir?::Mevsimler##Gündüz ve gece##Tsunami##depremler::0
 Dünyanın güneş etrafındaki yörüngesinin şekli nasıldır?::dairesel##Eliptik##Meydan##Değişken::1
-Asteroit kuşağı nerede bulunur?::Plüton&#39;un ötesinde##güneşin etrafında##Mars ve Jüpiter arasında##Dünya ve Mars arasında::2
+Asteroit kuşağı nerede bulunur?::Plüton'un ötesinde##güneşin etrafında##Mars ve Jüpiter arasında##Dünya ve Mars arasında::2
 Bir gök cisminin uzayda kat ettiği yola ne denir?::bir yörünge##Bir yol##bir devre##Bir rota::0
 Ayın parlamasına ne sebep olur?::yansıyan güneş ışığı##Dünyadan yansıyan ışık##Kendi ışık kaynağına sahiptir::0
 Şu anda güneş sistemimizde kaç ay var?::181 ay##239 ay##32 ay##93 ay::0
