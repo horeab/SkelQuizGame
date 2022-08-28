@@ -2,7 +2,7 @@
 ::Čierna diera::1,3,5::::Čierna diera je oblasť časopriestoru, kde je gravitácia taká silná, že z nej nemôže uniknúť nič – žiadne častice ani elektromagnetické žiarenie, ako napríklad svetlo.
 ::Hmlovina::1,3,5::::Hmlovina je výrazná luminiscenčná časť medzihviezdneho média, ktoré môže pozostávať z ionizovaného, ​​neutrálneho alebo molekulárneho vodíka a tiež z kozmického prachu.
 ::Kvazar::1,3,5::::Kvazar je extrémne svietivé aktívne galaktické jadro poháňané supermasívnou čiernou dierou s hmotnosťou od miliónov do desiatok miliárd hmôt Slnka, obklopené plynným akrečným diskom.
-::Pulsar::1,3,5::::Pulzar je vysoko magnetizovaná rotujúca neutrónová hviezda, ktorá zo svojich magnetických pólov vyžaruje lúče elektromagnetického žiarenia.
+::Pulzar::1,3,5::::Pulzar je vysoko magnetizovaná rotujúca neutrónová hviezda, ktorá zo svojich magnetických pólov vyžaruje lúče elektromagnetického žiarenia.
 ::Planéta::1,3,5::::Planéta je veľké, zaoblené astronomické teleso, ktoré nie je ani hviezdou, ani jej zvyškom. Najlepšou dostupnou teóriou vzniku planét je hmlovinová hypotéza, ktorá predpokladá, že medzihviezdny oblak sa z hmloviny zrúti a vytvorí mladú protohviezdu obiehanú okolo protoplanetárneho disku.
 ::Hviezdokopa::1,3,5::::Hviezdokopy sú veľké skupiny hviezd. Možno rozlíšiť dva hlavné typy hviezdokôp: guľové hviezdokopy sú tesné skupiny desaťtisíc až miliónov starých hviezd, ktoré sú gravitačne viazané, zatiaľ čo otvorené hviezdokopy sú voľnejšie zoskupené skupiny hviezd, ktoré vo všeobecnosti obsahujú menej ako niekoľko stoviek členov. často veľmi mladý.
 ::Mesiac::1,3,5::::Mesiac je jediný prirodzený satelit Zeme. Spolu so Zemou tvorí satelitný systém Zem-Mesiac. Má asi štvrtinu priemeru Zeme, čo je porovnateľné so šírkou Austrálie.

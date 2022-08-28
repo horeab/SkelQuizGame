@@ -1,5 +1,5 @@
-::Sfera celestiala::1,3,5::::În astronomie și navigație, sfera cerească este o sferă abstractă care are o rază arbitrar de mare și este concentrică pe Pământ.
-::Cadran solar::0,2,4::::Un ceas solar este un dispozitiv de ceas care indică ora din zi când lumina directă a soarelui strălucește prin poziția aparentă a Soarelui pe cer.
+::Sfera celestială::1,3,5::::În astronomie și navigație, sfera cerească este o sferă abstractă care are o rază arbitrar de mare și este concentrică pe Pământ.
+::Ceas solar::0,2,4::::Un ceas solar este un dispozitiv de ceas care indică ora din zi când lumina directă a soarelui strălucește prin poziția aparentă a Soarelui pe cer.
 ::Telescop::3,4,0::::Un telescop este un instrument optic care folosește lentile, oglinzi curbate sau o combinație a ambelor pentru a observa obiecte îndepărtate sau diferite dispozitive utilizate pentru a observa obiecte îndepărtate prin emisia, absorbția sau reflectarea radiației electromagnetice.
 ::Ceas astronomic::1,2,0::::Un ceas astronomic este un ceas cu mecanisme și cadrane speciale pentru a afișa informații astronomice, cum ar fi pozițiile relative ale Soarelui, Lunii, constelațiile zodiacale și, uneori, planetele majore.
 ::Fotometru::5,1,2::::Un fotometru este un instrument care măsoară puterea radiației electromagnetice în intervalul de la ultraviolet la infraroșu și inclusiv spectrul vizibil.
