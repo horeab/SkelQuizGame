@@ -1,4 +1,4 @@
-Melyik bolygó van a legközelebb a Naphoz?::Higany##Vénusz##Szaturnusz##Jupiter::0
+Melyik bolygó van a legközelebb a Naphoz?::Merkúr##Vénusz##Szaturnusz##Jupiter::0
 Mi a hélium atomjele a periódusos rendszerben?::O##He##Fe##Se::1
 Hol található a Tádzs Mahal?::Kína##India##Franciaország##Japán::1
 Hol található a Kilimandzsáró-hegy?::Tanzánia##Brazília##Egyiptom##Japán::0

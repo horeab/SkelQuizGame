@@ -265,9 +265,9 @@ public class TranslateQuestionProcessor {
                     res = text;
                 } else {
                     nrOfTranslations++;
-                res = text;
-//                    res = translateTo == Language.en ? text :
-//                            TranslateTool.translate(Language.en.toString(), translateTo.toString(), text).trim();
+//                res = text;
+                    res = translateTo == Language.en ? text :
+                            TranslateTool.translate(Language.en.toString(), translateTo.toString(), text).trim();
                     System.out.println("translated: " + text + " ___to___ " + res + " ----- as nr " + nrOfTranslations);
                 }
             } else {

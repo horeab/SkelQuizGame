@@ -1,10 +1,10 @@
-Hành tinh nào gần mặt trời nhất?::thủy ngân##sao Kim##sao Thổ##sao Mộc::0
+Hành tinh nào gần mặt trời nhất?::Sao Thủy##sao Kim##sao Thổ##sao Mộc::0
 Kí hiệu nguyên tử cho Helium trong bảng tuần hoàn là gì?::O##He##Fe##Se::1
 Taj Mahal nằm ở đâu?::Trung Quốc##Ấn Độ##Nước pháp##Nhật Bản::1
 Núi Kilimanjaro nằm ở đâu?::Tanzania##Brazil##Ai cập##Nhật Bản::0
 Họa sĩ nào thuộc trào lưu Siêu thực?::Leonardo da Vinci##Salvador Dali##Pablo Picasso##Marc Chagall::1
 Thế vận hội bắt nguồn từ quốc gia nào?::Nước pháp##Nước Ý##Hy Lạp##Thụy sĩ::2
 Bộ não con người có bao nhiêu thùy?::1##2##3##4::3
-Loài chim nào thường được con người sử dụng để gửi tin nhắn?::Chim bồ câu##chim ưng##chim ưng##Chim sẻ::0
-Arachnophobia là nỗi sợ hãi của những gì?::Người nhện##Không gian nhỏ##Đám đông##Máy bay::0
+Loài chim nào thường được con người sử dụng để gửi tin nhắn?::Chim bồ câu##chim ưng##diều hâu##Chim sẻ::0
+Arachnophobia là nỗi sợ hãi của những gì?::con nhện##Không gian nhỏ##Đám đông##Máy bay::0
 Nền văn minh lâu đời nhất mà chúng ta biết là gì?::Nền văn minh Sumer##Nền văn minh Ai Cập##Nền văn minh Trung Quốc##Nền văn minh Ấn Độ::0

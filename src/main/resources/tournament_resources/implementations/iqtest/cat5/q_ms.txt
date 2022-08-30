@@ -1,10 +1,10 @@
-Planet manakah yang paling hampir dengan matahari?::Merkuri##Zuhrah##Zuhal##Musytari::0
+Planet manakah yang paling hampir dengan matahari?::Utarid##Zuhrah##Zuhal##Musytari::0
 Apakah tanda atom bagi Helium pada jadual berkala?::O##He##Fe##Se::1
 Di manakah terletaknya Taj Mahal?::China##India##Perancis##Jepun::1
 Di manakah terletaknya Gunung Kilimanjaro?::Tanzania##Brazil##Mesir##Jepun::0
 Pelukis manakah yang tergolong dalam gerakan Surealisme?::Leonardo da Vinci##Salvador Dali##Pablo Picasso##Marc Chagall::1
 Di negara manakah Sukan Olimpik bermula?::Perancis##Itali##Greece##Switzerland::2
 Berapakah bilangan cuping otak manusia?::1##2##3##4::3
-Burung manakah yang biasa digunakan oleh manusia untuk menghantar mesej?::Merpati##Hawk##Helang##Burung pipit::0
+Burung manakah yang biasa digunakan oleh manusia untuk menghantar mesej?::Merpati##ayam##Helang##Burung pipit::0
 Arachnophobia ialah ketakutan terhadap apa?::labah-labah##Ruang kecil##Orang ramai##kapal terbang::0
 Apakah tamadun tertua yang kita ketahui?::Tamadun Sumeria##Tamadun Mesir##Tamadun Cina##Tamadun India::0

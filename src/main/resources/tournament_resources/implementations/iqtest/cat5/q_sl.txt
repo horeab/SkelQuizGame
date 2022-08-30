@@ -5,6 +5,6 @@ Kje se nahaja Mount Kilimanjaro?::Tanzanija##Brazilija##Egipt##Japonska::0
 Kateri slikar pripada gibanju nadrealizma?::Leonardo da Vinci##Salvador Dali##Pablo Picasso##Marc Chagall::1
 V kateri državi so nastale olimpijske igre?::Francija##Italija##Grčija##Švica::2
 Koliko rež ima človeški možgani?::1##2##3##4::3
-Katero ptico so ljudje običajno uporabljali za pošiljanje sporočil?::Golob##Sokol##Eagle##Vrabec::0
+Katero ptico so ljudje običajno uporabljali za pošiljanje sporočil?::Golob##Sokol##orel##Vrabec::0
 Arahnofobija je strah pred čem?::Pajki##Majhni prostori##Množica##Letalo::0
 Katera je najstarejša civilizacija, ki jo poznamo?::Sumerska civilizacija##Egipčanska civilizacija##Kitajska civilizacija##Indijska civilizacija::0

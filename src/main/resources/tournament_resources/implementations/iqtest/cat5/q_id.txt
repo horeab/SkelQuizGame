@@ -1,4 +1,4 @@
-Planet manakah yang paling dekat dengan matahari?::Air raksa##Venus##Saturnus##Jupiter::0
+Planet manakah yang paling dekat dengan matahari?::Merkurius##Venus##Saturnus##Jupiter::0
 Apa tanda atom Helium pada tabel periodik?::O##He##Fe##Se::1
 Di manakah lokasi Taj Mahal?::Cina##India##Perancis##Jepang::1
 Di manakah lokasi Gunung Kilimanjaro?::Tanzania##Brazil##Mesir##Jepang::0

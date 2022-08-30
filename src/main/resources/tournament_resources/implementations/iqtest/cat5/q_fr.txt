@@ -1,10 +1,10 @@
 Quelle planète est la plus proche du soleil ?::Mercure##Vénus##Saturne##Jupiter::0
-Quel est le signe atomique de l&#39;hélium dans le tableau périodique ?::O##He##Fe##Se::1
+Quel est le signe atomique de l'hélium dans le tableau périodique ?::O##He##Fe##Se::1
 Où se situe le Taj Mahal ?::Chine##Inde##France##Japon::1
 Où se trouve le mont Kilimandjaro ?::Tanzanie##Brésil##Egypte##Japon::0
 Quel peintre appartient au mouvement surréaliste ?::Léonard de Vinci##Salvador Dalí##Pablo Picasso##Marc Chagall::1
 Dans quel pays les Jeux Olympiques sont-ils originaires ?::France##Italie##Grèce##Suisse::2
 Combien de lobes le cerveau humain possède-t-il ?::1##2##3##4::3
 Quel oiseau était couramment utilisé par les humains pour envoyer des messages ?::Pigeon##Faucon##Aigle##Moineau::0
-L&#39;arachnophobie est la peur de quoi ?::Araignées##Petites espaces##Foule##Avion::0
+L'arachnophobie est la peur de quoi ?::Araignées##Petites espaces##Foule##Avion::0
 Quelle est la plus ancienne civilisation connue ?::La civilisation sumérienne##La civilisation égyptienne##La civilisation chinoise##La civilisation indienne::0

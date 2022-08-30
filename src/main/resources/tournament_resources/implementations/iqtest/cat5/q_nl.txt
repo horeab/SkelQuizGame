@@ -1,4 +1,4 @@
-Welke planeet staat het dichtst bij de zon?::Kwik##Venus##Saturnus##Jupiter::0
+Welke planeet staat het dichtst bij de zon?::Mercurius##Venus##Saturnus##Jupiter::0
 Wat is het atoomteken voor helium in het periodiek systeem?::O##He##Fe##Se::1
 Waar staat de Taj Mahal?::China##India##Frankrijk##Japan::1
 Waar ligt de Kilimanjaro?::Tanzania##Brazilië##Egypte##Japan::0

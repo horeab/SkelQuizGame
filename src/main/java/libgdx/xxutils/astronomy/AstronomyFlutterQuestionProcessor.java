@@ -25,7 +25,11 @@ public class AstronomyFlutterQuestionProcessor {
     public static void main(String[] args) throws IOException {
 
 //        List<Language> languages = Arrays.asList(Language.en);
-        List<Language> languages = Arrays.asList(Language.en, Language.ro);
+        List<Language> languages = Arrays.asList(
+                Language.en,
+                Language.de,
+                Language.it,
+                Language.ro);
 //        List<Language> languages = Arrays.asList(Language.values());
 
         StringBuilder res = new StringBuilder();
@@ -76,6 +80,7 @@ public class AstronomyFlutterQuestionProcessor {
                 while (line != null) {
                     for (int i = 0; i < 100; i++) {
                         line = line.replace("[" + i + "]", "");
+                        line = line.replace("[N " + i + "]", "");
                     }
                     line = line.replace("(d)", "");
                     questions.add("\"" + line + "\"");

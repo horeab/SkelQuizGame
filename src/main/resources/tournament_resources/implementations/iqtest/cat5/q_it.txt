@@ -1,10 +1,10 @@
 Qual è il pianeta più vicino al sole?::Mercurio##Venere##Saturno##Giove::0
-Qual è il segno atomico dell&#39;elio sulla tavola periodica?::O##He##Fe##Se::1
+Qual è il segno atomico dell'elio sulla tavola periodica?::O##He##Fe##Se::1
 Dove si trova il Taj Mahal?::Cina##India##Francia##Giappone::1
 Dove si trova il Monte Kilimangiaro?::Tanzania##Brasile##Egitto##Giappone::0
 Quale pittore appartiene al movimento del Surrealismo?::Leonardo Da Vinci##Salvador Dalì##Pablo Picasso##Marc Chagall::1
 In quale paese sono nate le Olimpiadi?::Francia##Italia##Grecia##Svizzera::2
 Quanti lobi ha il cervello umano?::1##2##3##4::3
 Quale uccello era comunemente usato dagli esseri umani per inviare messaggi?::Piccione##Falco##Aquila##Passero::0
-L&#39;aracnofobia è la paura di cosa?::Ragni##Piccoli spazi##Folla##Aereo::0
+L'aracnofobia è la paura di cosa?::Ragni##Piccoli spazi##Folla##Aereo::0
 Qual è la civiltà più antica che conosciamo?::La civiltà sumera##La civiltà egizia##La civiltà cinese##La civiltà indiana::0

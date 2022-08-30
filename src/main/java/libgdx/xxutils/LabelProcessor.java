@@ -25,7 +25,10 @@ import java.util.TreeMap;
 import java.util.stream.Collectors;
 
 import libgdx.constants.Language;
+import libgdx.implementations.astronomy.AstronomyCategoryEnum;
+import libgdx.implementations.astronomy.AstronomyDifficultyLevel;
 import libgdx.implementations.skelgame.GameIdEnum;
+import libgdx.xxutils.astronomy.AstronomyQuestionProcessor;
 
 public class LabelProcessor {
 
@@ -39,25 +42,26 @@ public class LabelProcessor {
                 GameIdEnum.history,
                 GameIdEnum.quizgame,
                 GameIdEnum.perstest,
-                GameIdEnum.iqtest);
+                GameIdEnum.iqtest,
+                GameIdEnum.astronomy
+        );
 
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
 
         //
         ////
 //        List<Language> languages = Collections.singletonList(Language.en);
-        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
-//        List<Language> languages = Arrays.asList(Language.en, Language.ro);
+//        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+        List<Language> languages = Arrays.asList(Language.en, Language.ro);
 //        List<Language> languages = Arrays.asList(Language.en, Language.ro,
 //                Language.de, Language.es, Language.it);
         ////
         //
 
 //        translateNewLanguage(Language.ro, gameIds, defaultLabels);
-//        translateMissingLabels(Language.zh, gameIds, defaultLabels);
-        formFlutterKeys(gameIds, defaultLabels, languages);
+        translateMissingLabels(Language.de, gameIds, defaultLabels);
+//        formFlutterKeys(gameIds, defaultLabels, languages);
     }
-
 
     private static void translateMissingLabels(Language translateTo, List<GameIdEnum> gameIds, Map<Pair<String, String>, String> enLabels) {
         Map<String, String> newM = new HashMap<>();
@@ -111,7 +115,11 @@ public class LabelProcessor {
 
     private static void formFlutterKeys(List<GameIdEnum> gameIds, Map<Pair<String, String>, String> defaultLabels, List<Language> languages) throws IOException {
         for (Language translateTo : languages) {
+
+
             Map<Pair<String, String>, String> labelsForLanguage = getLabelsForLanguage(gameIds, defaultLabels, translateTo);
+            labelsForLanguage.putAll(getImplementationExtraLabels(translateTo));
+            defaultLabels.putAll(getImplementationExtraLabels(translateTo));
 
             Map<Pair<String, String>, String> missingKeys = getMissingLabelKeys(labelsForLanguage, gameIds);
             if (!isHangmanSupported(translateTo)) {
@@ -153,6 +161,21 @@ public class LabelProcessor {
             System.out.println(new Gson().toJson(labelsWithKeys));
             writeToFile(new Gson().toJson(labelsWithKeys), translateTo);
         }
+    }
+
+    private static Map<Pair<String, String>, String> getImplementationExtraLabels(Language lang) {
+        List<String> planetsEnQuestions = AstronomyQuestionProcessor.getEnglishQuestions(AstronomyCategoryEnum.cat0, AstronomyDifficultyLevel._0);
+        List<String> planetsLangQuestions = AstronomyQuestionProcessor.getQuestions(AstronomyCategoryEnum.cat0, AstronomyDifficultyLevel._0, lang);
+        Map<Pair<String, String>, String> planets = new HashMap<>();
+        int i = 0;
+        TranslateQuestionProcessor.ImageClickQuestionParser imageClickQuestionParser = new TranslateQuestionProcessor.ImageClickQuestionParser();
+        for (String pl : planetsEnQuestions) {
+            String planetEn = imageClickQuestionParser.getQuestion(pl);
+            planets.put(Pair.of(planetEn.toLowerCase().replace(" ", "_"),
+                    "l_" + planetEn.toLowerCase().replace(" ", "_")), imageClickQuestionParser.getQuestion(planetsLangQuestions.get(i)));
+            i++;
+        }
+        return planets;
     }
 
     public static void translateNewLanguage(Language translateTo, List<GameIdEnum> gameIds, Map<Pair<String, String>, String> enLabels) {

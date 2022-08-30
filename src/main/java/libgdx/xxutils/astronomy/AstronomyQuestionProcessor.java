@@ -1,5 +1,7 @@
 package libgdx.xxutils.astronomy;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -22,15 +24,6 @@ import libgdx.xxutils.TranslateQuestionProcessor;
 
 public class AstronomyQuestionProcessor {
 
-    public static final List<Language> NEWLANGS = Arrays.asList(
-            Language.ar,
-            Language.bg,
-            Language.he,
-            Language.sr,
-            Language.sl
-    );
-
-
     public static final String ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/astronomy/questions/";
 
     public static void main(String[] args) throws IOException {
@@ -41,12 +34,19 @@ public class AstronomyQuestionProcessor {
 //        languages.remove(Language.en);
 //        languages.remove(Language.ro);
 
-
         List<Language> languages = Arrays.asList(
-                Language.de
-//                Language.en,
+//                Language.el
+//                Language.es
+//                Language.fi
+//                Language.fr
+//                Language.hi
+//                Language.hr
+//                Language.hu
+//                Language.it
 //                Language.ro
+                Language.sl
         );
+
         ///////
         ///////
         ///////
@@ -60,11 +60,22 @@ public class AstronomyQuestionProcessor {
             new File(ROOT_PATH + "temp/" + lang.toString() + "/diff"
                     + AstronomyDifficultyLevel._0.getIndex())
                     .mkdir();
+
+            List<String> planetsEnQuestions = getEnglishQuestions(AstronomyCategoryEnum.cat0, AstronomyDifficultyLevel._0);
+            List<String> planetsLangQuestions = getQuestions(AstronomyCategoryEnum.cat0, AstronomyDifficultyLevel._0, lang);
+            Map<String, String> planets = new HashMap<>();
+            int i = 0;
+            TranslateQuestionProcessor.ImageClickQuestionParser imageClickQuestionParser = new TranslateQuestionProcessor.ImageClickQuestionParser();
+            for (String pl : planetsEnQuestions) {
+                planets.put(imageClickQuestionParser.getQuestion(pl), imageClickQuestionParser.getQuestion(planetsLangQuestions.get(i)));
+                i++;
+            }
+
             for (QuestionDifficulty diff : Collections.singletonList(AstronomyDifficultyLevel._0)) {
                 for (QuestionCategory cat : oldNewCategMapping.keySet()) {
                     moveQuestionCat(lang, cat, diff,
                             oldNewCategMapping.get(cat),
-                            diff);
+                            diff, planets);
                 }
             }
         }
@@ -73,7 +84,7 @@ public class AstronomyQuestionProcessor {
     private static void moveQuestionCat(
             Language lang,
             QuestionCategory cat, QuestionDifficulty diff,
-            QuestionCategory targetCat, QuestionDifficulty targetDiff) throws IOException {
+            QuestionCategory targetCat, QuestionDifficulty targetDiff, Map<String, String> planets) throws IOException {
 
         TranslateQuestionProcessor.QuestionParser newQuestionParser = getQuestionParsers(targetDiff).get(targetCat);
         TranslateQuestionProcessor.QuestionParser oldQuestionParser = getOldQuestionParsers().get(cat);
@@ -81,16 +92,29 @@ public class AstronomyQuestionProcessor {
         List<String> enQuestions = getEnglishQuestions(cat, diff);
         List<String> questions = new ArrayList<>();
 
-        boolean translate = cat != AstronomyCategoryEnum.cat0 || NEWLANGS.contains(lang);
-
+        int i = 0;
         for (String enQuestion : enQuestions) {
 //            String question = oldQuestionParser.getQuestion(enQuestion);
-            String question = translate(lang, oldQuestionParser.getQuestion(enQuestion), translate);
-            String answer = translate(lang, oldQuestionParser.getAnswer(enQuestion), translate);
+            String questionEn = oldQuestionParser.getQuestion(enQuestion);
+            String question;
+            if (planets.containsKey(questionEn)) {
+                question = planets.get(questionEn);
+            } else {
+                question = translate(lang, questionEn);
+            }
+            String answerEn = oldQuestionParser.getAnswer(enQuestion);
+            String answer;
+            if (planets.containsKey(answerEn)) {
+                answer = planets.get(answerEn);
+            } else {
+                answer = translate(lang, answerEn);
+            }
+            String explanationEn = oldQuestionParser.getQuestionExplanation(enQuestion);
+            String explanation = StringUtils.isBlank(explanationEn) ? "" : translate(lang, explanationEn);
             List<String> options = oldQuestionParser.getOptions(enQuestion).stream().map(
                     e -> {
                         try {
-                            return translate(lang, e, translate);
+                            return planets.getOrDefault(e, translate(lang, e));
                         } catch (IOException ex) {
                             ex.printStackTrace();
                         }
@@ -100,7 +124,8 @@ public class AstronomyQuestionProcessor {
 
             questions.add(newQuestionParser
                     .formQuestion(lang, question, answer, options, oldQuestionParser.getQuestionPrefix(enQuestion),
-                            lang == Language.en ? oldQuestionParser.getQuestionExplanation(enQuestion) : "xxx"));
+                            explanation));
+            i++;
         }
         String returnValue = String.join("\n", questions);
 
@@ -119,13 +144,17 @@ public class AstronomyQuestionProcessor {
         myWriter.close();
     }
 
-    private static String translate(Language lang, String text, boolean translate) throws IOException {
-        return translate ? TranslateQuestionProcessor.translateWord(lang, text) : text;
+    private static String translate(Language lang, String text) throws IOException {
+        return TranslateQuestionProcessor.translateWord(lang, text);
     }
 
-    static List<String> getEnglishQuestions(QuestionCategory cat, QuestionDifficulty diff) {
+    public static List<String> getEnglishQuestions(QuestionCategory cat, QuestionDifficulty diff) {
 
-        String qPath = getLibgdxQuestionPath(Language.en, false, cat.name(), diff);
+        return getQuestions(cat, diff, Language.en);
+    }
+
+    public static List<String> getQuestions(QuestionCategory cat, QuestionDifficulty diff, Language language) {
+        String qPath = getLibgdxQuestionPath(language, false, cat.name(), diff);
         BufferedReader reader;
         List<String> questions = new ArrayList<>();
         try {

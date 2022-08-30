@@ -3,7 +3,7 @@ Vilket är atomtecknet för helium i det periodiska systemet?::O##He##Fe##Se::1
 Var ligger Taj Mahal?::Kina##Indien##Frankrike##Japan::1
 Var ligger Mount Kilimanjaro?::Tanzania##Brasilien##Egypten##Japan::0
 Vilken målare tillhör surrealismrörelsen?::Leonardo Da Vinci##Salvador Dali##Pablo Picasso##Marc Chagall::1
-I vilket land kom OS från?::Frankrike##Italien##Grekland##Schweiz::2
+I vilket land har de olympiska spelen sitt ursprung?::Frankrike##Italien##Grekland##Schweiz::2
 Hur många lober har den mänskliga hjärnan?::1##2##3##4::3
 Vilken fågel användes vanligtvis av människor för att skicka meddelanden?::Duva##Hök##Örn##Sparv::0
 Arachnophobia är rädslan för vad?::Spindlar##Små utrymmen##Folkmassan##Flygplan::0

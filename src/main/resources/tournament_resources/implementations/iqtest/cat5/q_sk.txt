@@ -5,6 +5,6 @@ Kde sa nachádza Mount Kilimanjaro?::Tanzánia##Brazília##Egypt##Japonsko::0
 Ktorý maliar patrí k surrealistickému hnutiu?::Leonardo da Vinci##Salvador Dalí##Pablo Picasso##Marc Chagall::1
 V ktorej krajine vznikla olympiáda?::Francúzsko##Taliansko##Grécko##Švajčiarsko::2
 Koľko lalokov má ľudský mozog?::1##2##3##4::3
-Ktorého vtáka ľudia bežne používali na odosielanie správ?::Holub##Hawk##Orol##Vrabec::0
+Ktorého vtáka ľudia bežne používali na odosielanie správ?::Holub##Jastrab##Orol##Vrabec::0
 Arachnofóbia je strach z čoho?::Pavúky##Malé priestory##Dav##Lietadlo::0
 Aká je najstaršia civilizácia, o ktorej vieme?::Sumerská civilizácia##Egyptská civilizácia##Čínska civilizácia##Indická civilizácia::0

@@ -1,4 +1,4 @@
-Która planeta jest najbliżej Słońca?::Rtęć##Wenus##Saturn##Jowisz::0
+Która planeta jest najbliżej Słońca?::Merkury##Wenus##Saturn##Jowisz::0
 Jaki jest atomowy znak helu w układzie okresowym pierwiastków?::O##He##Fe##Se::1
 Gdzie znajduje się Taj Mahal?::Chiny##Indie##Francja##Japonia::1
 Gdzie znajduje się Kilimandżaro?::Tanzania##Brazylia##Egipt##Japonia::0

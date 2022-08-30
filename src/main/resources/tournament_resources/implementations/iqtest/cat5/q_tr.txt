@@ -1,5 +1,5 @@
 Güneşe en yakın gezegen hangisidir?::Merkür##Venüs##Satürn##Jüpiter::0
-Periyodik tablodaki Helyum&#39;un atom işareti nedir?::O##He##Fe##Se::1
+Periyodik tablodaki Helyum'un atom işareti nedir?::O##He##Fe##Se::1
 Tac Mahal nerede bulunur?::Çin##Hindistan##Fransa##Japonya::1
 Kilimanjaro Dağı nerede bulunur?::Tanzanya##Brezilya##Mısır##Japonya::0
 Hangi ressam Sürrealizm akımına aittir?::Leonardo da Vinci##Salvador Dali##Pablo Picasso##Marc Chagall::1

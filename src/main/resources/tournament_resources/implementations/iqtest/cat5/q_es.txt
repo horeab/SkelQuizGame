@@ -1,6 +1,6 @@
 ¿Qué planeta es el más cercano al sol?::Mercurio##Venus##Saturno##Júpiter::0
 ¿Cuál es el signo atómico del helio en la tabla periódica?::O##He##Fe##Se::1
-¿Dónde se encuentra el Taj Mahal?::Porcelana##India##Francia##Japón::1
+¿Dónde se encuentra el Taj Mahal?::China##India##Francia##Japón::1
 ¿Dónde se encuentra el Monte Kilimanjaro?::Tanzania##Brasil##Egipto##Japón::0
 ¿Qué pintor pertenece al movimiento surrealista?::leonardo da vinci##Salvador Dalí##Pablo Picasso##marc chagall::1
 ¿En qué país se originaron los Juegos Olímpicos?::Francia##Italia##Grecia##Suiza::2
