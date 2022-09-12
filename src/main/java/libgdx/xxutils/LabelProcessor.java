@@ -51,16 +51,16 @@ public class LabelProcessor {
         //
         ////
 //        List<Language> languages = Collections.singletonList(Language.en);
-//        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
-        List<Language> languages = Arrays.asList(Language.en, Language.ro);
+        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+//        List<Language> languages = Arrays.asList(Language.en, Language.ro);
 //        List<Language> languages = Arrays.asList(Language.en, Language.ro,
 //                Language.de, Language.es, Language.it);
         ////
         //
 
 //        translateNewLanguage(Language.ro, gameIds, defaultLabels);
-        translateMissingLabels(Language.de, gameIds, defaultLabels);
-//        formFlutterKeys(gameIds, defaultLabels, languages);
+//        translateMissingLabels(Language.de, gameIds, defaultLabels);
+        formFlutterKeys(gameIds, defaultLabels, languages);
     }
 
     private static void translateMissingLabels(Language translateTo, List<GameIdEnum> gameIds, Map<Pair<String, String>, String> enLabels) {

@@ -1,4 +1,4 @@
-0##Bang Besar::13,8 miliar tahun yang lalu::4,7,8::::
+0##Big Bang::13,8 miliar tahun yang lalu::4,7,8::::
 3##Pembentukan galaksi pertama::400 juta tahun setelah Big Bang::8,3,10::::
 2##Pembentukan bintang pertama::100 juta tahun setelah Big Bang::3,4,7::::
 1##Pembentukan lubang hitam pertama::Selama Big Bang::4,8,9::::

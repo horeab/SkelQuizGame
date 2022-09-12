@@ -36,6 +36,7 @@ public class AstronomyQuestionProcessor {
 
         List<Language> languages = Arrays.asList(
 //                Language.el
+                Language.en
 //                Language.es
 //                Language.fi
 //                Language.fr
@@ -44,7 +45,7 @@ public class AstronomyQuestionProcessor {
 //                Language.hu
 //                Language.it
 //                Language.ro
-                Language.sl
+//                Language.sl
         );
 
         ///////

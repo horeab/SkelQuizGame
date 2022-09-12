@@ -1,4 +1,4 @@
-0##The Big Bang::13,8 milliarder år siden::4,7,8::::
+0##Big Bang::13,8 milliarder år siden::4,7,8::::
 3## Dannelse af de første galakser::400 millioner år efter Big Bang::8,3,10::::
 2## Dannelse af de første stjerner::100 millioner år efter Big Bang::3,4,7::::
 1## Dannelse af de første sorte huller::Under Big Bang::4,8,9::::

@@ -25,12 +25,12 @@ public class AstronomyFlutterQuestionProcessor {
     public static void main(String[] args) throws IOException {
 
 //        List<Language> languages = Arrays.asList(Language.en);
-        List<Language> languages = Arrays.asList(
-                Language.en,
-                Language.de,
-                Language.it,
-                Language.ro);
-//        List<Language> languages = Arrays.asList(Language.values());
+//        List<Language> languages = Arrays.asList(
+//                Language.en,
+//                Language.de,
+//                Language.it,
+//                Language.ro);
+        List<Language> languages = Arrays.asList(Language.values());
 
         StringBuilder res = new StringBuilder();
 
