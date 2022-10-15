@@ -1,6 +1,6 @@
 :Eiffel-torony, Párizs::
 :Colosseum, Róma::
-:Hollywood Jel, Los Angeles::
+:Hollywood Sign, Los Angeles::
 :Nagy Giza-i piramis, Egyiptom::
 :Szabadság-szobor, New York::
 :Kínai Nagy Fal::

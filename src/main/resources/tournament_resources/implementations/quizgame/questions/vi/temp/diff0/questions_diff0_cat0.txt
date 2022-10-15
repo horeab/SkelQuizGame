@@ -1,6 +1,6 @@
 :Tháp Eiffel, Paris::
 :Đấu trường La Mã, Rome::
-:Dấu hiệu Hollywood, Los Angeles::
+:Bảng hiệu Hollywood, Los Angeles::
 :Kim tự tháp Giza vĩ đại, Ai Cập::
 :Tượng Nữ thần Tự do, New York::
 :Vạn Lý Trường Thành của Trung Quốc::

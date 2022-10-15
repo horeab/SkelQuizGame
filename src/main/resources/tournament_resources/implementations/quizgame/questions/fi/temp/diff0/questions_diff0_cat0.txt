@@ -1,6 +1,6 @@
 :Eiffel-torni, Pariisi::
 :Colosseum, Rooma::
-:Hollywood-merkki, Los Angeles::
+:Hollywood-kyltti, Los Angeles::
 :Gizan suuri pyramidi, Egypti::
 :Vapaudenpatsas, New York::
 :Kiinan suuri muuri::

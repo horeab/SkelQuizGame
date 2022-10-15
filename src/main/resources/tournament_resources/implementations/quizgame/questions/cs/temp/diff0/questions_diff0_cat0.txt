@@ -1,6 +1,6 @@
 :Eiffelova věž, Paříž::
 :Koloseum, Řím::
-:Hollywood podepsat, Los Angeles::
+:Nápis Hollywood, Los Angeles::
 :Velká pyramida v Gíze, Egypt::
 :Socha svobody, New York::
 :Velká čínská zeď::

@@ -1,6 +1,6 @@
 :Menara Eiffel, Paris::
 :Colosseum, Rom::
-:Tanda Hollywood, Los Angeles::
+:Hollywood Sign, Los Angeles::
 :Piramid Besar Giza, Mesir::
 :Patung Liberty, New York::
 :Tembok Besar China::

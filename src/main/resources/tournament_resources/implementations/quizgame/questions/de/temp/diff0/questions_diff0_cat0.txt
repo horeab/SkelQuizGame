@@ -1,6 +1,6 @@
 :Eiffelturm, Paris::
 :Kolosseum, Rom::
-:Hollywood Zeichen, Los Angeles::
+:Hollywood Sign, Los Angeles::
 :Große Pyramide von Gizeh, Ägypten::
 :Freiheitsstatue, New York::
 :Chinesische Mauer::
