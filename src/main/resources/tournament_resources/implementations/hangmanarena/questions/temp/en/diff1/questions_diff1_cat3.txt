@@ -1,0 +1,7 @@
+cook
+dishwasher
+food
+garbage can
+juicer
+oven
+recipe

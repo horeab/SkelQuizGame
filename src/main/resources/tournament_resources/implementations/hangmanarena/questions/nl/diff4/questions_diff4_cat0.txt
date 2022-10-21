@@ -1,8 +1,8 @@
-afghanistan
+Afghanistan
 Saoedi-Arabië
 Ivoorkust
 Bahamas
-bahrein
+Bahrein
 Costa Rica
 El Salvador
 Kenia
@@ -10,7 +10,7 @@ Guatemala
 Honduras
 Jordanië
 Libanon
-Katar
+Qatar
 Panama
 Liberia
 Singapore

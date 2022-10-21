@@ -4,7 +4,7 @@ Burundi
 Etiopía
 Filipinas
 Gambia
-Kazajistán
+Kazajstán
 Laos
 Liechtenstein
 Barbados
@@ -13,7 +13,8 @@ San Marino
 Siria
 Somalia
 Sudán
+Togo
 Uganda
 Zambia
 Zimbabue
-Benín
+Benin

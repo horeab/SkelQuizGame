@@ -1,6 +1,6 @@
 Antigua en Barbuda
 Brunei
-Boeroendi
+Burundi
 Ethiopië
 Filippijnen
 Gambia
@@ -8,11 +8,12 @@ Kazachstan
 Laos
 Liechtenstein
 Barbados
-Madagaskar
+Madagascar
 San Marino
 Syrië
 Somalië
 Soedan
+Togo
 Oeganda
 Zambia
 Zimbabwe

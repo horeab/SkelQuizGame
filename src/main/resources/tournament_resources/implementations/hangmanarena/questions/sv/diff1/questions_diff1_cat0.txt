@@ -1,5 +1,5 @@
 cypern
-Colombia
+colombia
 Tjeckien
 kroatien
 Danmark
@@ -8,7 +8,7 @@ schweiz
 finland
 ghana
 Marocko
-iran
+Iran
 nigeria
 Serbien
 Norge

@@ -1,0 +1,7 @@
+carafe
+grater
+percolator
+soap
+spatula
+sponge
+spoon

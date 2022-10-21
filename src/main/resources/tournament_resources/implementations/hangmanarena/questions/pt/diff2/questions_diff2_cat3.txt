@@ -3,5 +3,4 @@ frigideira
 chaleira
 mesa
 torradeira
-Escorredor de macarrão
 Espátula

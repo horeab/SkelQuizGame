@@ -1,6 +1,6 @@
 Chypre
-Britannique
-République tchèque
+Colombie
+République Tchèque
 Croatie
 Danemark
 Egypte
@@ -8,7 +8,7 @@ Suisse
 Finlande
 Ghana
 Maroc
-Iran
+L'Iran
 Nigeria
 Serbie
 Norvège

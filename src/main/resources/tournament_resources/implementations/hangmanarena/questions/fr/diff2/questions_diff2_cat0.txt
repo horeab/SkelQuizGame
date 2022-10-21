@@ -3,7 +3,7 @@ Cameroun
 Afrique du Sud
 Islande
 Roumanie
-Israel
+Israël
 Equateur
 Estonie
 Pérou
@@ -12,8 +12,8 @@ Slovaquie
 Slovénie
 Pologne
 Tunisie
-Argentin
-Viêt-Nam
+Argentine
+Vietnam
 Géorgie
 Albanie
 Monaco

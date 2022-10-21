@@ -1,5 +1,5 @@
 Afghanistan
-Saudi-Arabien
+Saudi Arabien
 Elfenbeinküste
 Bahamas
 Bahrain
@@ -8,9 +8,9 @@ El Salvador
 Kenia
 Guatemala
 Honduras
-Jordan
+Jordanien
 Libanon
-Qatar
+Katar
 Panama
 Liberia
 Singapur

@@ -1,4 +1,5 @@
 Chipre
+Colômbia
 República Checa
 Croácia
 Dinamarca
@@ -7,6 +8,7 @@ Suíça
 Finlândia
 Gana
 Marrocos
+Irã
 Nigéria
 Sérvia
 Noruega
