@@ -1,20 +1,15 @@
-Potato salad
-Creme caramel
-Dumpling
-Pumpkin pie
-Souffle
-Cheese sandwich
-Stew
-Pickled cucumbers
-Pretzel
-Currywurst
-Pistachio
-Couscous
-Grilled cheese
-Mozzarella
-Parmesan
-Fried Rice
-Biscuits
-Sushi
-Apple Pie
-Fish and chips
+Krompirjeva solata
+Kremna karamela
+Bučna pita
+sendvič s sirom
+Kisle kumarice
+Pistacija
+Kuskus
+Sir na žaru
+Mocarela
+Parmezan
+Ocvrti riž
+Piškoti
+Suši
+Jabolčna pita
+Ribe in čips

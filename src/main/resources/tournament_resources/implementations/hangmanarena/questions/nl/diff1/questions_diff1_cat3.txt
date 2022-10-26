@@ -2,6 +2,5 @@ koken
 vaatwasser
 voedsel
 vuilnisbak
-juicer
 oven
 recept

@@ -1,20 +1,20 @@
-Goose
-Badger
-Boar
-Stork
-Kangaroo
-Anaconda
-Squirrel
-Parrot
-Hamster
-Hedgehog
-Hippo
-Beetle
-Panther
-Octopus
-Python
-Baboon
-Ferret
-Brown bear
-Pelican
-Raven
+Гуска
+салетати
+Вепар
+Рода
+Кенгур
+Анаконда
+Веверица
+Папагај
+Хамстер
+јеж
+нилски коњ
+Буба
+Пантер
+Оцтопус
+Питхон
+Бабуни
+Феррет
+Мрки медвед
+Пеликан
+Гавран

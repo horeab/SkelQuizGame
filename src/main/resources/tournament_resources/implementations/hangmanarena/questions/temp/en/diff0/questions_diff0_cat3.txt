@@ -1,7 +1,0 @@
-apron
-bottle
-bottle opener
-bowl
-cookbook
-cutlery
-fork

@@ -1,20 +1,17 @@
-Moose
-Condor
-Viper
-Falcon
-Guinea pig
-Trout
-Black mamba
-Jellyfish
-Reindeer
-Llama
-Swan
-Pheasant
-Quail
-Great white shark
-Salmon
-Scorpion
-Mule
+Kondor
+Sokol
+Gvinejski prašiček
+Postrv
+Črna mamba
+Meduza
+Severni jelen
+Labod
+fazan
+prepelica
+Beli morski volk
+Losos
+Škorpijon
+Mula
 Skunk
-Gazelle
-Coyote
+Gazela
+Kojot

@@ -1,19 +1,17 @@
-Marigold
-Juniper
-Pistachio
-Ficus
-Cotton
-Basil
-Maple
-Poplar
-Clementine
-Rice
-Avocado
-Black pepper
-Celery
-Lettuce
-Mustard
-Mandarin orange
-Rose hips
-Lotus
-Thyme
+Ognjič
+brin
+pistacija
+fikus
+Bombaž
+Bazilika
+Javor
+Topol
+riž
+Avokado
+Črni poper
+Zelena
+Solata
+Gorčica
+Šipek
+Lotos
+Timijan

@@ -1,20 +1,20 @@
-Potato salad
-Creme caramel
-Dumpling
-Pumpkin pie
-Souffle
-Cheese sandwich
-Stew
-Pickled cucumbers
-Pretzel
-Currywurst
-Pistachio
-Couscous
-Grilled cheese
-Mozzarella
-Parmesan
-Fried Rice
-Biscuits
-Sushi
-Apple Pie
-Fish and chips
+Картофена салата
+Крем карамел
+Кнедли
+Тиквен пай
+Суфле
+Сандвич със сирене
+Гювеч
+Мариновани краставици
+Кренвирши
+Къривурст
+Шам фъстък
+Кускус
+Сирене на скара
+Моцарела
+Пармезан
+Пържен ориз
+Бисквити
+Суши
+Ябълков пай
+Риба и пържени картофи

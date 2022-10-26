@@ -1,7 +1,6 @@
-carafe
-grater
-percolator
-soap
-spatula
-sponge
-spoon
+бокал
+ренде
+перцолатор
+сапун
+сунђер
+кашика

@@ -9,6 +9,5 @@ Sequoia
 Anemone
 Papaya
 Adas
-Parsnip
 Pomelo
 Halia

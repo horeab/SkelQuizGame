@@ -1,8 +1,8 @@
-Aloe vera
+Äkta aloe
 Ormbunke
 kastanj
 Eukalyptus
-Björk
+Björkar
 Rabarber
 Dadelpalm
 linser
@@ -15,5 +15,4 @@ okra
 Klöver
 humle
 Mistel
-Magnolia
 Snödroppe

@@ -3,6 +3,5 @@ Hegre
 Tasmanisk djevel
 komodovaran
 præriehund
-Tarsier
-Meerkat
+Surikat
 Perlehøns

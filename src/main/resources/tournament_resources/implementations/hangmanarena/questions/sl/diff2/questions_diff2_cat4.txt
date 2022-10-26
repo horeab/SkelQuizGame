@@ -1,20 +1,14 @@
-Compote
-Moussaka
-Roast chicken
-Pastrami
-Olive oil
-Ravioli
-Milkshake
-Pork chop
-Chicken Soup
-Cheesecake
-French Toast
-Marzipan
-Goulash
-Meatloaf
-Burrito
-Dark chocolate
-Macaroni
-Gingerbread
-Waffle
-Barbecue
+Kompot
+Pečen piščanec
+Oljčno olje
+Mlečni koktajl
+Svinjski kotlet
+Piščančja juha
+Francoski toast
+Marcipan
+Golaž
+Mesna pečenka
+Temna čokolada
+Makaroni
+Medenjaki
+Vaflji

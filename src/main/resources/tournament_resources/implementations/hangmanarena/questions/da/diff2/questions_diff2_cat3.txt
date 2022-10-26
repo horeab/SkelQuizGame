@@ -3,5 +3,4 @@ stegepande
 kedel
 bord
 brødrister
-colander
 spatel

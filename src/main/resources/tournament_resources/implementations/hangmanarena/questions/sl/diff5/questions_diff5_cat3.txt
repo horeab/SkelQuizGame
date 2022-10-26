@@ -1,7 +1,7 @@
-kitchen
-knife
-napkin
-refrigerator
-teapot
-thermometer
-sink
+kuhinja
+nož
+prtiček
+hladilnik
+čajnik
+termometer
+umivalnik

@@ -1,20 +1,20 @@
-Moose
-Condor
-Viper
-Falcon
-Guinea pig
-Trout
-Black mamba
-Jellyfish
-Reindeer
-Llama
-Swan
-Pheasant
-Quail
-Great white shark
-Salmon
-Scorpion
-Mule
-Skunk
-Gazelle
-Coyote
+Лос
+Кондор
+Вайпър
+Сокол
+Морско свинче
+Пъстърва
+Черна мамба
+Медуза
+Северен елен
+Лама
+Лебед
+Фазан
+Пъдпъдък
+Голяма бяла акула
+Сьомга
+Скорпион
+Муле
+Скункс
+Газела
+Койот

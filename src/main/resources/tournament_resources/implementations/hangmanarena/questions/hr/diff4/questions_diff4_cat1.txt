@@ -5,7 +5,7 @@ Albatros
 Galeb
 Šakal
 Ševa
-Loris
+Lorisi
 Jastog
 Kuna
 Morž
@@ -13,8 +13,7 @@ kanadska kuna
 Bizon
 Dikobraz
 Crvena panda
-Salamander
-Stingray
+Pjegavi daždevnjak
 Slavuj
 Vidra
 Haringa

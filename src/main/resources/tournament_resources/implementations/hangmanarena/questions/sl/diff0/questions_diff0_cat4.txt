@@ -1,20 +1,17 @@
-Donut
-Pasta
+Testenine
 Kebab
-Croissant
-Lasagna
-Cheese
+Lazanja
+Sir
 Pizza
-Spaghetti
-Omelette
-Ice cream
-Bread
-Cake
-Roast
-Yogurt
-Fast food
-Pickles
-Maple syrup
-Toast
-Chocolate
-Mashed potatoes
+Špageti
+Omleta
+Sladoled
+Kruh
+Torta
+Pečenka
+Jogurt
+Hitra hrana
+Kisle kumarice
+Javorjev sirup
+Čokolada
+Pire krompir

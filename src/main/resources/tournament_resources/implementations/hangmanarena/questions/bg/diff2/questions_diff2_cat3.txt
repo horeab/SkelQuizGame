@@ -1,7 +1,7 @@
-freezer
-frying pan
-kettle
-table
-toaster
-Colander
-Spatula
+фризер
+тиган за пържене
+чайник
+маса
+тостер
+Центрофуга
+Шпатула

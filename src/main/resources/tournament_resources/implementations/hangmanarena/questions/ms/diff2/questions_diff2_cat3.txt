@@ -3,5 +3,3 @@ Kuali
 cerek
 jadual
 pemanggang roti
-Colander
-Spatula

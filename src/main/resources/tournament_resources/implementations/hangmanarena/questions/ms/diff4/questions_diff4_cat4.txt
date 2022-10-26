@@ -3,7 +3,7 @@ Sos tomato
 Muesli
 Keju Switzerland
 Tortilla
-Baklava
+Balavah
 Kari
 Guacamole
 coklat putih
@@ -13,7 +13,6 @@ Dim sum
 Pasta carbonara
 Puding beras
 Daging panggang
-Muffin
 Kek coklat
 Sup sayur-sayuran
 Mi sup

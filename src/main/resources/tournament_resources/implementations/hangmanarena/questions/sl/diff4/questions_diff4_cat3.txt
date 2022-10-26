@@ -1,7 +1,7 @@
-carafe
-grater
-percolator
-soap
-spatula
-sponge
-spoon
+karafa
+strgalnik
+perkolator
+milo
+lopatka
+gobica
+žlica

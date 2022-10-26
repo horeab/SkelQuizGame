@@ -1,7 +1,6 @@
-freezer
-frying pan
-kettle
-table
-toaster
-Colander
-Spatula
+замрзивач
+тигањ
+чајник
+тостер
+Цоландер
+Спатула

@@ -2,6 +2,6 @@ kokki
 astianpesukone
 ruoka
 roskakori
-juicer
+Mehulinko
 uuni
 resepti

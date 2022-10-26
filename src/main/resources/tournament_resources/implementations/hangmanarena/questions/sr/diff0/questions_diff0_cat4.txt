@@ -1,20 +1,19 @@
-Donut
-Pasta
-Kebab
-Croissant
-Lasagna
-Cheese
-Pizza
-Spaghetti
-Omelette
-Ice cream
-Bread
-Cake
-Roast
-Yogurt
-Fast food
-Pickles
-Maple syrup
-Toast
-Chocolate
-Mashed potatoes
+Крофна
+Тестенина
+Ћевап
+Кроасан
+Лазање
+Сир
+пица
+Шпагети
+Омлет
+Сладолед
+Хлеб
+Торта
+Роаст
+Јогурт
+Кисели краставци
+сируп од јавора
+Тост
+Чоколада
+Пире кромпир

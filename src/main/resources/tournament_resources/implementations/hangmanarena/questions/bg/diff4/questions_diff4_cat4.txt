@@ -1,20 +1,20 @@
-Pesto
-Tomato sauce
-Muesli
-Swiss cheese
-Tortilla
-Baklava
-Curry
-Guacamole
-White chocolate
-Vinegar
-Hot chocolate
-Dim sum
-Pasta carbonara
-Rice pudding
-Roast beef
-Muffin
-Chocolate Cake
-Vegetable soup
-Noodle soup
-Caesar salad
+Песто
+Доматен сос
+Мюсли
+Швейцарско сирене
+Тортиля
+Баклава
+Къри
+Гуакамоле
+Бял шоколад
+Оцет
+Горещ шоколад
+Дим сума
+Паста карбонара
+Оризов пудинг
+Печено говеждо месо
+Мъфин
+Шоколадова торта
+Зеленчукова супа
+Супа от юфка
+Салата Цезар

@@ -9,7 +9,6 @@ kefir
 Kjøttdeig
 falafel
 ricotta
-Eclair
 Hummus
 Tzatziki saus
 tiramisu

@@ -1,7 +1,7 @@
-apron
-bottle
-bottle opener
-bowl
-cookbook
-cutlery
-fork
+predpasnik
+steklenice
+odpirač za steklenice
+skleda
+kuharska knjiga
+jedilni pribor
+vilice

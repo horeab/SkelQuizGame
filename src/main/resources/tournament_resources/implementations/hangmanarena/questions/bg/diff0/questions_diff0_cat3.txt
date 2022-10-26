@@ -1,7 +1,7 @@
-apron
-bottle
-bottle opener
-bowl
-cookbook
-cutlery
-fork
+престилка
+бутилка
+отварачка за бутилки
+купа
+готварска книга
+прибори за хранене
+вилица

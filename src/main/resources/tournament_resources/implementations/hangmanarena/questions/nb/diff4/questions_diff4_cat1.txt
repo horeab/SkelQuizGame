@@ -1,11 +1,8 @@
 Bever
 Kongekobra
 Flamingo
-Albatross
+Albatrosser
 Måke
-Jackal
-Lark
-Loris
 Hummer
 Marten
 Hvalross

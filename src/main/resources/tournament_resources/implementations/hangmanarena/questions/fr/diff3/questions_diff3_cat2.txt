@@ -7,7 +7,6 @@ Coton
 Basilic
 Érable
 Peuplier
-Clementine
 Tilia
 Avocat
 Poivre noir

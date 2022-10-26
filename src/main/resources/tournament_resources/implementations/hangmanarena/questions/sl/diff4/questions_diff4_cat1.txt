@@ -1,20 +1,18 @@
-Beaver
-King cobra
-Flamingo
-Albatross
-Seagull
-Jackal
-Lark
-Loris
-Lobster
-Marten
-Walrus
-Mink
-Bison
-Porcupine
-Red Panda
-Salamander
-Stingray
-Nightingale
-Otter
-Herring
+Bobri
+Kraljeva kobra
+Plamenci
+Albatros
+Čajka
+Šakal
+Škrjanec
+Humar
+kuna
+Mrož
+Norka
+Bizon
+Ježevec
+Rdeča panda
+Salamandra
+Slavec
+vidra
+Sled

@@ -1,20 +1,15 @@
 Pesto
-Tomato sauce
-Muesli
-Swiss cheese
-Tortilla
-Baklava
-Curry
-Guacamole
-White chocolate
-Vinegar
-Hot chocolate
-Dim sum
-Pasta carbonara
-Rice pudding
-Roast beef
-Muffin
-Chocolate Cake
-Vegetable soup
-Noodle soup
-Caesar salad
+Paradižnikova omaka
+Müsli
+Švicarski sir
+Kari
+Bela čokolada
+Kis
+Vroča čokolada
+Testenine carbonara
+Rižev puding
+Goveja pečenka
+Čokoladna torta
+Zelenjavna juha
+Juha z rezanci
+Cezarjeva solata

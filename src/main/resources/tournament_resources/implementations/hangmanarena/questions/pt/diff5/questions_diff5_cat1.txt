@@ -10,6 +10,5 @@ Peixe-boi
 Estorninho
 Anta
 Társio
-Meerkat
-Guineafowl
+Suricata
 Gambá

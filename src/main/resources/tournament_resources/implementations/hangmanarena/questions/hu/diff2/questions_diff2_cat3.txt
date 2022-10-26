@@ -4,4 +4,3 @@ vízforraló
 asztal
 kenyérpirító
 Szűrőedény
-Spatula

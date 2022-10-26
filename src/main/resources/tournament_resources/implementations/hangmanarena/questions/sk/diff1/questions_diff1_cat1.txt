@@ -1,7 +1,6 @@
 aligátor
 antilopa
 somár
-Rhino
 zebra
 Ľadový medveď
 Koza

@@ -12,7 +12,6 @@ nijlpaard
 Kever
 Panter
 Octopoda
-Python
 Baviaan
 Fret
 bruine beer

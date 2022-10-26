@@ -1,7 +1,6 @@
-carafe
-grater
-percolator
-soap
-spatula
-sponge
-spoon
+Карафа
+ренде
+перколатор
+сапун
+шпатула
+лъжица

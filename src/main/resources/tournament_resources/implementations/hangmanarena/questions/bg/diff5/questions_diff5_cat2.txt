@@ -1,20 +1,19 @@
-Anise
-Bonsai
-Daisy
-Pomegranate
-Bamboo
-Wheat
-Brussels sprouts
-Chickpeas
-Wasabi
-Sequoia
-Snapdragon
-Venus flytrap
-Anemone
-Papaya
-Fennel
-Parsnip
-Pomelo
-Rosemary
-Chrysanthemum
-Ginger
+Анасон
+Бонсай
+Маргаритка
+Гранат
+Бамбук
+Пшеница
+Брюкселско зеле
+Нахут
+Уасаби
+Секвоя
+Снапдрагон
+Анемона
+Папая
+Копър
+Пащърнак
+Помело
+Розмарин
+Хризантема
+Джинджифил

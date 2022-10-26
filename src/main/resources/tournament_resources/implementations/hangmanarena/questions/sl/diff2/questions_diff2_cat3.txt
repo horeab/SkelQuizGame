@@ -1,7 +1,7 @@
-freezer
-frying pan
-kettle
-table
-toaster
-Colander
-Spatula
+zamrzovalnik
+ponev za cvrtje
+kuhalnik
+miza
+opekač kruha
+cedilo
+Lopatka

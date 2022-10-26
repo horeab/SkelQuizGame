@@ -14,4 +14,3 @@ tarsier
 maki
 Mirket
 Beç
-opossum

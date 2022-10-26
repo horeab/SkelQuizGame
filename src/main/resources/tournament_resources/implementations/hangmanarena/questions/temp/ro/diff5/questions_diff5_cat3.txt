@@ -1,7 +1,0 @@
-kitchen
-knife
-napkin
-refrigerator
-teapot
-thermometer
-sink

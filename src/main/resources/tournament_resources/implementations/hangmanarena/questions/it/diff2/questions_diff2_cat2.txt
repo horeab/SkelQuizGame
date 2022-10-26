@@ -13,7 +13,7 @@ Ribes
 Melanzana
 Crespino
 Oliva
-Broccoli
+Broccolo
 Aneto
 Spinaci
 Cavolfiore

@@ -1,7 +1,7 @@
-apron
-bottle
-bottle opener
-bowl
-cookbook
-cutlery
-fork
+кецеља
+флаша
+отварач за флаше
+чинија
+куварица
+Прибор за јело
+виљушка

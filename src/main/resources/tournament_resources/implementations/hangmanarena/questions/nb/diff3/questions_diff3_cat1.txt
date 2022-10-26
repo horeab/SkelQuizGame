@@ -12,5 +12,4 @@ Laks
 Skorpion
 Muldyr
 Stinkdyr
-Gazelle
 prærieulv

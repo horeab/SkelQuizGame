@@ -1,20 +1,20 @@
-Donut
-Pasta
-Kebab
-Croissant
-Lasagna
-Cheese
-Pizza
-Spaghetti
-Omelette
-Ice cream
-Bread
-Cake
-Roast
-Yogurt
-Fast food
-Pickles
-Maple syrup
-Toast
-Chocolate
-Mashed potatoes
+Поничка
+Паста
+Кебап
+Кроасан
+Лазаня
+Сирене
+Пица
+Спагети
+Омлет
+Сладолед
+Хляб
+Торта
+Печено
+Кисело мляко
+Бърза храна
+Кисели краставички
+Кленов сироп
+Тост
+Шоколад
+Картофено пюре

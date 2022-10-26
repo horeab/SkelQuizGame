@@ -1,20 +1,20 @@
-Beaver
-King cobra
-Flamingo
-Albatross
-Seagull
-Jackal
-Lark
-Loris
-Lobster
-Marten
-Walrus
-Mink
-Bison
-Porcupine
-Red Panda
-Salamander
-Stingray
-Nightingale
-Otter
-Herring
+Беавер
+Краљевска кобра
+Фламинго
+Албатрос
+Галеб
+Шакал
+Ларк
+Лорис
+Јастог
+Мартен
+Морж
+Минк
+Бисон
+бодљикаво прасе
+Црвена панда
+Саламандер
+Стинграи
+Славуј
+Видра
+харинга

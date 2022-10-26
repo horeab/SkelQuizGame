@@ -1,20 +1,20 @@
-Alligator
-Antelope
-Donkey
-Rhino
+Aligator
+Antilopa
+Osel
+Nosorog
 Zebra
-Polar Bear
-Goat
-Whale
-Gorilla
+Polarni medved
+Koza
+Kit
+Gorila
 Koala
-Camel
-Hyena
-Frog
-Goldfish
+kamela
+hijena
+Žaba
+Zlata ribica
 Jaguar
 Panda
-Sheep
-Wolf
-Tortoise
-Penguin
+Ovca
+Volk
+želva
+Pingvin

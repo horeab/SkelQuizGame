@@ -4,7 +4,7 @@ Croissant
 Lasagne
 Ost
 Pizza
-Spaghetti
+Spagetti
 Omelett
 Glass
 Bröd

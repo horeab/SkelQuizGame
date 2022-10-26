@@ -1,19 +1,18 @@
-Alpaca
-Armadillo
-Chinchilla
-Echidna
-Raccoon
-Egret
-Tasmanian devil
-Komodo dragon
-Barracuda
-Magpie
-Manatee
-Prairie dog
-Starling
-Tapir
-Tarsier
-Lemur
-Meerkat
-Guineafowl
-Possum
+Алпаца
+Армадилло
+Цхинцхилла
+Ецхидна
+Ракун
+Егрет
+Тасманијски ђаво
+Комодо змај
+Баррацуда
+сврака
+Манатее
+Преријски пас
+Старлинг
+Тапир
+Тарсиер
+Лемур
+Меркат
+Опсум

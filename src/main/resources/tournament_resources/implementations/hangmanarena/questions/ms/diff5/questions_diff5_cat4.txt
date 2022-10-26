@@ -1,6 +1,5 @@
 Keju kotej
 Paella
-Gnocchi
 Ratatouille
 Tortellini
 Shawarma
@@ -9,7 +8,6 @@ Kefir
 Daging lembu
 Falafel
 Ricotta
-Eclair
 Hummus
 Sos Tzatziki
 Tiramisu

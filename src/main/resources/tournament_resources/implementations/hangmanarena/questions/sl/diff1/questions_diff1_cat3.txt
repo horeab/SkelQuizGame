@@ -1,7 +1,7 @@
-cook
-dishwasher
-food
-garbage can
-juicer
-oven
-recipe
+kuhar
+pomivalni stroj
+hrana
+posoda za smeti
+sokovnik
+pečica
+recept

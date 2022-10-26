@@ -1,7 +1,7 @@
-cook
-dishwasher
-food
-garbage can
-juicer
-oven
-recipe
+готвач
+съдомиялна машина
+храна
+контейнер за боклук
+сокоизстисквачка
+фурна
+рецепта

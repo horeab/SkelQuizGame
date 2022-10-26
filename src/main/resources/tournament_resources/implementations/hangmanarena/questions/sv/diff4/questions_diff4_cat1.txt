@@ -1,6 +1,6 @@
 Bäver
-Flamingo
-Albatross
+Flamingor
+Albatrosser
 Fiskmås
 Schakal
 Lärka
@@ -8,10 +8,8 @@ Hummer
 Mård
 Valross
 Mink
-Bison
-Porcupine
 Röd panda
-Salamander
+Salamandrar
 Stingrocka
 Näktergal
 Utter

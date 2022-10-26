@@ -1,10 +1,8 @@
 kompót
-moussaka
 Pečené kura
 pastrami
 Olivový olej
-ravioli
-Milkshake
+Raviola
 Bravčová kotleta
 Kuracia polievka
 tvarohový koláč
@@ -12,7 +10,6 @@ Francúzsky toast
 marcipán
 guláš
 sekaná
-burrito
 Tmavá čokoláda
 makarónmi
 perník
