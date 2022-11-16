@@ -265,7 +265,7 @@ public class TranslateQuestionProcessor {
                     res = text;
                 } else {
                     nrOfTranslations++;
-//                res = text;
+//                    res = text;
                     res = translateTo == Language.en ? text :
                             TranslateTool.translate(Language.en.toString(), translateTo.toString(), text).trim();
                     System.out.println("translated: " + text + " ___to___ " + res + " ----- as nr " + nrOfTranslations);
@@ -306,7 +306,11 @@ public class TranslateQuestionProcessor {
 
     private static List<String> getCountries(Language translateTo) throws IOException {
         String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s/countries.txt";
-        return readFileContents(String.format(rootPath, translateTo.toString()));
+        List<String> countries = readFileContents(String.format(rootPath, translateTo.toString()));
+        return countries.stream()
+                .map(e -> e.split(":")[0])
+                .map(e -> e.split("----")[0])
+                .collect(Collectors.toList());
     }
 
     public abstract static class QuestionParser {

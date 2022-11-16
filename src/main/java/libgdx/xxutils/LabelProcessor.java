@@ -43,7 +43,8 @@ public class LabelProcessor {
                 GameIdEnum.quizgame,
                 GameIdEnum.perstest,
                 GameIdEnum.iqtest,
-                GameIdEnum.astronomy
+                GameIdEnum.astronomy,
+                GameIdEnum.hangmanarena
         );
 
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
