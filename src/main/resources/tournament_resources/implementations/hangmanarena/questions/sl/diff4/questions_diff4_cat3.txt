@@ -2,6 +2,5 @@ karafa
 strgalnik
 perkolator
 milo
-lopatka
 gobica
 žlica

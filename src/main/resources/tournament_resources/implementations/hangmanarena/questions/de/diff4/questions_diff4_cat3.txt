@@ -2,6 +2,5 @@ Karaffe
 Reibe
 Kaffeemaschine
 Seife
-Spatel
 Schwamm
 Löffel

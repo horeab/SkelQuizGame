@@ -1,7 +1,7 @@
-Alligator
-Antelope
+Alligatoren
+Antilope
 Esel
-Rhino
+Nashörner
 Zebra
 Eisbär
 Ziege

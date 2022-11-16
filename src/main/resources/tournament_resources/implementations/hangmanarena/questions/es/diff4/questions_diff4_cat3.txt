@@ -2,6 +2,5 @@ jarra
 rallador
 percolador
 jabón
-espátula
 esponja
 cuchara
