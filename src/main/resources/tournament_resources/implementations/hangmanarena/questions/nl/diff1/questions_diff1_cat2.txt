@@ -1,5 +1,4 @@
 Tulp
-Ui
 kersen
 Pompoen
 Aardbei

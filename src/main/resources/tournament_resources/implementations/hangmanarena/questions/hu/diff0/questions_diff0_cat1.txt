@@ -17,4 +17,3 @@ Elefánt
 Zsiráf
 Oroszlán
 Medve
-Ló
