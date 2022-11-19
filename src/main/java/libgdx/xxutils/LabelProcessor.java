@@ -232,7 +232,7 @@ public class LabelProcessor {
         myWriter.close();
     }
 
-    private static Map<Pair<String, String>, String> getLabelsForLanguage(List<GameIdEnum> gameIds, Map<Pair<String, String>, String> defaultLabels, Language lang) {
+    public static Map<Pair<String, String>, String> getLabelsForLanguage(List<GameIdEnum> gameIds, Map<Pair<String, String>, String> defaultLabels, Language lang) {
         String mainPath = getMainLabelsPath(lang);
         String campPath = getMainGameLabelsPath(lang);
 

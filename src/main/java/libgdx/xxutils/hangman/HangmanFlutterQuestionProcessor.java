@@ -2,22 +2,31 @@ package libgdx.xxutils.hangman;
 
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.tuple.MutablePair;
+import org.apache.commons.lang3.tuple.Pair;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Language;
+import libgdx.game.GameId;
 import libgdx.implementations.hangman.HangmanQuestionCategoryEnum;
 import libgdx.implementations.hangmanarena.HangmanArenaQuestionDifficultyLevel;
+import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.xxutils.FlutterQuestionProcessor;
+import libgdx.xxutils.LabelProcessor;
 
 public class HangmanFlutterQuestionProcessor {
 
@@ -91,6 +100,17 @@ public class HangmanFlutterQuestionProcessor {
                                                     Language language,
                                                     StringBuilder res,
                                                     List<String> commQ) {
+
+        List<Language> ignLangs = Arrays.asList(Language.cs, Language.fr, Language.it, Language.nl);
+
+        Map<Pair<String, String>, String> defaultLabels = LabelProcessor.getLabelsForLanguage(Collections.singletonList(GameIdEnum.hangmanarena),
+                new HashMap<>(), language);
+        List<String> hangmanarena_available_letters = Arrays.asList(defaultLabels.get(
+                defaultLabels.keySet().stream().filter(e -> e.getLeft().equals("hangmanarena_available_letters"))
+                        .findFirst().get()).split(","));
+        List<String> allLettersLowerCase = hangmanarena_available_letters.stream().map(String::toLowerCase).collect(Collectors.toList());
+        List<String> allLettersUpperCase = hangmanarena_available_letters.stream().map(String::toUpperCase).collect(Collectors.toList());
+
         List<String> questions = new ArrayList<>();
         if (StringUtils.isNotBlank(flutterCat.toString())) {
             String qPath = getLibgdxQuestionPath(language, flutterCat.toString(), diff);
@@ -110,10 +130,34 @@ public class HangmanFlutterQuestionProcessor {
                     }
 
                     if (!qContained) {
-                        questions.add("\"" + StringUtils.capitalize(line.trim()) + "\"");
+
+                        String word = StringUtils.capitalize(line.trim());
+
+                        for (int i = 0; i < word.length(); i++) {
+                            String s = Character.toString(word.toCharArray()[i]);
+                            if (!ignLangs.contains(language) && s.trim().length() > 0 && !s.equals("-") && !s.equals("'")) {
+                                if (!allLettersLowerCase.contains(s.toLowerCase())) {
+                                    throw new IllegalStateException(language + " " + word + " LOW Letter not contained in word " + s);
+                                }
+                                if (!allLettersUpperCase.contains(s.toUpperCase())) {
+                                    throw new IllegalStateException(language + " " + word + " UPP Letter not contained in word " + s);
+                                }
+                            }
+                        }
+
+                        if (word.length() < 3) {
+                            throw new IllegalStateException(language + " word too short " + word + " " + flutterCat + diff);
+                        }
+
+                        questions.add("\"" + word + "\"");
+
                     }
 
                     line = reader.readLine();
+                }
+
+                if (questions.size() < 5) {
+                    throw new IllegalStateException(language + " not enough qs " + flutterCat + diff);
                 }
 
                 res.append(FlutterQuestionProcessor
