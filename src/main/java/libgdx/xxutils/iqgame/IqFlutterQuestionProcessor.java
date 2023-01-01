@@ -6,16 +6,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
-import libgdx.campaign.QuestionCategory;
 import libgdx.constants.Language;
 import libgdx.implementations.anatomy.AnatomyQuestionDifficultyLevel;
 import libgdx.xxutils.FlutterQuestionProcessor;
 import libgdx.xxutils.TranslateQuestionProcessor;
-
-import static libgdx.xxutils.anatomy.AnatomyQuestionProcessor.categories;
 
 public class IqFlutterQuestionProcessor {
 
@@ -34,7 +30,7 @@ public class IqFlutterQuestionProcessor {
 
 
         for (Language language : languages) {
-            res.append(FlutterQuestionProcessor.getQuestionsHeader(language));
+            res.append(FlutterQuestionProcessor.getQuestionsHeader(language, FlutterQuestionProcessor.QUESTION_CONFIG_FILE_NAME));
             List<String> questions = getQuestions(language);
             TranslateQuestionProcessor.UniqueQuestionParser parser = new TranslateQuestionProcessor.UniqueQuestionParser();
 

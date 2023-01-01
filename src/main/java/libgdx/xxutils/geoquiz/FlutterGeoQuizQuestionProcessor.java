@@ -39,7 +39,7 @@ public class FlutterGeoQuizQuestionProcessor {
         res.append(FlutterCountriesProcessor.createCountriesAndCapitals(languages));
 
         for (Language language : languages) {
-            res.append(FlutterQuestionProcessor.getQuestionsHeader(language));
+            res.append(FlutterQuestionProcessor.getQuestionsHeader(language, FlutterQuestionProcessor.QUESTION_CONFIG_FILE_NAME));
 
             if (language == Language.en) {
                 //cat0

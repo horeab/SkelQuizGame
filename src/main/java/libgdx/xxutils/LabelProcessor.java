@@ -44,7 +44,9 @@ public class LabelProcessor {
                 GameIdEnum.perstest,
                 GameIdEnum.iqtest,
                 GameIdEnum.astronomy,
-                GameIdEnum.hangmanarena
+                GameIdEnum.astronomy,
+                GameIdEnum.hangmanarena,
+                GameIdEnum.buylow
         );
 
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
@@ -73,7 +75,6 @@ public class LabelProcessor {
         //HARDCODE TRANSLATION
 //        missingKeys.put(new MutablePair<>("score_iq", "l_score"), "Score");
 
-        missingKeys.entrySet().removeIf(e -> e.getKey().getRight().equals("l_a_b_c_d_e_f_g_h_i_j_k_l_m_n_o_p_q_r_s_t_u_v_w_x_y_z"));
         enLabels.forEach((key, value) -> {
             if (missingKeys.entrySet().stream().anyMatch(e -> e.getKey().getRight().equals(key.getRight()))) {
                 missingToTranslate.put(key.getLeft(), value);
@@ -123,9 +124,6 @@ public class LabelProcessor {
             defaultLabels.putAll(getImplementationExtraLabels(translateTo));
 
             Map<Pair<String, String>, String> missingKeys = getMissingLabelKeys(labelsForLanguage, gameIds);
-            if (!isHangmanSupported(translateTo)) {
-                missingKeys.entrySet().removeIf(e -> e.getKey().getRight().equals("l_a_b_c_d_e_f_g_h_i_j_k_l_m_n_o_p_q_r_s_t_u_v_w_x_y_z"));
-            }
 
             if (!missingKeys.isEmpty()) {
                 System.out.println();
@@ -153,7 +151,6 @@ public class LabelProcessor {
 
                 diffToDisplay.addAll(differences1);
                 diffToDisplay.addAll(differences2);
-                diffToDisplay.removeIf(e -> e.equals("l_a_b_c_d_e_f_g_h_i_j_k_l_m_n_o_p_q_r_s_t_u_v_w_x_y_z"));
                 if (!diffToDisplay.isEmpty()) {
                     throw new RuntimeException("missing keys " + diffToDisplay.toString() + " for " + translateTo);
                 }

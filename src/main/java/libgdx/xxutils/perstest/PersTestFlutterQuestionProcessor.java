@@ -9,12 +9,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Language;
 import libgdx.implementations.geoquiz.QuizQuestionDifficultyLevel;
-import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.xxutils.FlutterQuestionProcessor;
-import libgdx.xxutils.geoquiz.FlutterCountriesProcessor;
 
 public class PersTestFlutterQuestionProcessor {
 
@@ -36,7 +33,7 @@ public class PersTestFlutterQuestionProcessor {
                 "  }\n\n");
 
         for (Language language : languages) {
-            res.append(FlutterQuestionProcessor.getQuestionsHeader(language));
+            res.append(FlutterQuestionProcessor.getQuestionsHeader(language, FlutterQuestionProcessor.QUESTION_CONFIG_FILE_NAME));
 
             addQuestionCategory("cat0", "cat0", language, res);
             addQuestionCategory("cat1", "cat1", language, res);

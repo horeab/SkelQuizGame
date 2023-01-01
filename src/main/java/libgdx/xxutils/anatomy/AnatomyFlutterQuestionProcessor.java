@@ -15,7 +15,6 @@ import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Language;
 import libgdx.implementations.anatomy.AnatomyQuestionCategoryEnum;
 import libgdx.implementations.anatomy.AnatomyQuestionDifficultyLevel;
-import libgdx.implementations.geoquiz.QuizQuestionDifficultyLevel;
 import libgdx.xxutils.FlutterQuestionProcessor;
 
 import static libgdx.xxutils.anatomy.AnatomyQuestionProcessor.categories;
@@ -41,7 +40,7 @@ public class AnatomyFlutterQuestionProcessor {
         List<AnatomyQuestionDifficultyLevel> diffs = new ArrayList<>(Arrays.asList(AnatomyQuestionDifficultyLevel.values()));
         diffs.remove(AnatomyQuestionDifficultyLevel._4);
         for (Language language : languages) {
-            res.append(FlutterQuestionProcessor.getQuestionsHeader(language));
+            res.append(FlutterQuestionProcessor.getQuestionsHeader(language, FlutterQuestionProcessor.QUESTION_CONFIG_FILE_NAME));
 
             for (AnatomyQuestionDifficultyLevel diff : diffs) {
                 for (AnatomyQuestionCategoryEnum cat : AnatomyQuestionCategoryEnum.values()) {

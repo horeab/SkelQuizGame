@@ -2,7 +2,6 @@ package libgdx.xxutils.hangman;
 
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.tuple.MutablePair;
 import org.apache.commons.lang3.tuple.Pair;
 
 import java.io.BufferedReader;
@@ -21,7 +20,6 @@ import java.util.stream.Collectors;
 import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Language;
-import libgdx.game.GameId;
 import libgdx.implementations.hangman.HangmanQuestionCategoryEnum;
 import libgdx.implementations.hangmanarena.HangmanArenaQuestionDifficultyLevel;
 import libgdx.implementations.skelgame.GameIdEnum;
@@ -58,7 +56,7 @@ public class HangmanFlutterQuestionProcessor {
         for (Language language : languages) {
             List<String> commQ = new ArrayList<>();
 
-            res.append(FlutterQuestionProcessor.getQuestionsHeader(language));
+            res.append(FlutterQuestionProcessor.getQuestionsHeader(language, FlutterQuestionProcessor.QUESTION_CONFIG_FILE_NAME));
 
             for (HangmanArenaQuestionDifficultyLevel diff : diffs) {
                 for (HangmanQuestionCategoryEnum cat : Arrays.asList(
@@ -101,7 +99,7 @@ public class HangmanFlutterQuestionProcessor {
                                                     StringBuilder res,
                                                     List<String> commQ) {
 
-        List<Language> ignLangs = Arrays.asList(Language.cs, Language.fr, Language.it, Language.nl);
+        List<Language> ignLangs = Arrays.asList(Language.cs, Language.fr, Language.it, Language.nl, Language.pt, Language.sk);
 
         Map<Pair<String, String>, String> defaultLabels = LabelProcessor.getLabelsForLanguage(Collections.singletonList(GameIdEnum.hangmanarena),
                 new HashMap<>(), language);

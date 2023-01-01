@@ -13,6 +13,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -25,8 +26,6 @@ import libgdx.constants.Language;
 import libgdx.implementations.astronomy.AstronomyDifficultyLevel;
 import libgdx.implementations.geoquiz.QuizQuestionCategoryEnum;
 import libgdx.implementations.geoquiz.QuizQuestionDifficultyLevel;
-import libgdx.implementations.history.HistoryDifficultyLevel;
-import libgdx.implementations.skelgame.question.QuestionParser;
 
 public class TranslateQuestionProcessor {
 
@@ -599,6 +598,75 @@ public class TranslateQuestionProcessor {
         @Override
         public String getQuestionPrefix(String rawString) {
             return rawString.split(":", -1)[4];
+        }
+
+        @Override
+        public String getQuestionExplanation(String rawString) {
+            return "";
+        }
+    }
+
+
+    public static class HangmanQuestionParser extends QuestionParser {
+
+        @Override
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation) {
+            String format = "%s:%s";
+            Object[] array = {question, correctAnswer};
+            return formQuestion(format, array, language);
+        }
+
+        @Override
+        public String getAnswer(String rawString) {
+            return "";
+        }
+
+        @Override
+        public List<String> getOptions(String rawString) {
+            return Collections.emptyList();
+        }
+
+        @Override
+        public String getQuestion(String rawString) {
+            return "";
+        }
+
+        @Override
+        public String getQuestionPrefix(String rawString) {
+            return "";
+        }
+
+        @Override
+        public String getQuestionExplanation(String rawString) {
+            return "";
+        }
+    }
+
+    public static class OldHangmanQuestionParser extends QuestionParser {
+
+        @Override
+        public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation) {
+            return "";
+        }
+
+        @Override
+        public String getAnswer(String rawString) {
+            return rawString.split(":", -1)[2];
+        }
+
+        @Override
+        public List<String> getOptions(String rawString) {
+            return Collections.emptyList();
+        }
+
+        @Override
+        public String getQuestion(String rawString) {
+            return rawString.split(":", -1)[1];
+        }
+
+        @Override
+        public String getQuestionPrefix(String rawString) {
+            return "";
         }
 
         @Override

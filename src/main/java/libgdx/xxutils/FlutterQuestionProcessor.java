@@ -18,7 +18,7 @@ public class FlutterQuestionProcessor {
 
 
     private static final GameIdEnum GAME_ID = GameIdEnum.anatomy;
-    private static final String QUESTION_CONFIG_FILE_NAME = "HangmanGameQuestionConfig";
+    public static final String QUESTION_CONFIG_FILE_NAME = "HangmanGameQuestionConfig";
     private static final QuestionDifficulty[] DIFFS = QuizQuestionDifficultyLevel.values();
     private static final QuestionCategory[] CATEGS = QuizQuestionCategoryEnum.values();
 
@@ -42,7 +42,7 @@ public class FlutterQuestionProcessor {
                 "  }\n");
         for (Language language : languages) {
 
-            res.append(getQuestionsHeader(language));
+            res.append(getQuestionsHeader(language, QUESTION_CONFIG_FILE_NAME));
 
             for (QuestionDifficulty diff : DIFFS) {
                 for (QuestionCategory category : CATEGS) {
@@ -73,9 +73,9 @@ public class FlutterQuestionProcessor {
         System.out.println(res);
     }
 
-    public static String getQuestionsHeader(Language language) {
+    public static String getQuestionsHeader(Language language, String questionConfigFileName) {
         return "void add" + language.name().toUpperCase() + "(Map<Language, Map<CategoryDifficulty, List<Question>>> result,\n" +
-                "      " + QUESTION_CONFIG_FILE_NAME + " questionConfig) {\n" +
+                "      " + questionConfigFileName + " questionConfig) {\n" +
                 "    var language = Language." + language.name() + ";\n";
     }
 

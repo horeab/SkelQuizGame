@@ -39,7 +39,7 @@ public class FlutterCountriesProcessor {
 
         ///////////QUESTIONS////////////////
         StringBuilder res = new StringBuilder();
-        res.append(FlutterQuestionProcessor.getQuestionsHeader(Language.en));
+        res.append(FlutterQuestionProcessor.getQuestionsHeader(Language.en, FlutterQuestionProcessor.QUESTION_CONFIG_FILE_NAME));
         getStatisticsQuestions(res, Language.en);
         getNeighbourCountriesQuestions(res, "cat2", Language.en);
         getRegionsForLangCountriesQuestions(res, Language.en);
@@ -48,7 +48,7 @@ public class FlutterCountriesProcessor {
             if (language == Language.en) {
                 continue;
             }
-            res.append(FlutterQuestionProcessor.getQuestionsHeader(language));
+            res.append(FlutterQuestionProcessor.getQuestionsHeader(language, FlutterQuestionProcessor.QUESTION_CONFIG_FILE_NAME));
             getRegionsForLangCountriesQuestions(res, language);
         }
         res.append("}\n");

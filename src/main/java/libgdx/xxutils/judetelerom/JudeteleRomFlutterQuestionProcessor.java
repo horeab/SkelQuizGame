@@ -1,4 +1,4 @@
-package libgdx.xxutils.astronomy;
+package libgdx.xxutils.judetelerom;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -13,24 +13,18 @@ import java.util.Map;
 import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Language;
-import libgdx.implementations.astronomy.AstronomyCategoryEnum;
-import libgdx.implementations.astronomy.AstronomyDifficultyLevel;
+import libgdx.implementations.judetelerom.JudeteleRomCategoryEnum;
+import libgdx.implementations.judetelerom.JudeteleRomDifficultyLevel;
 import libgdx.xxutils.FlutterQuestionProcessor;
 
 import static libgdx.xxutils.astronomy.AstronomyQuestionProcessor.categories;
 
-public class AstronomyFlutterQuestionProcessor {
+public class JudeteleRomFlutterQuestionProcessor {
 
 
     public static void main(String[] args) throws IOException {
 
-//        List<Language> languages = Arrays.asList(Language.en);
-//        List<Language> languages = Arrays.asList(
-//                Language.en,
-//                Language.de,
-//                Language.it,
-//                Language.ro);
-        List<Language> languages = Arrays.asList(Language.values());
+        List<Language> languages = Arrays.asList(Language.ro);
 
         StringBuilder res = new StringBuilder();
 
@@ -40,25 +34,14 @@ public class AstronomyFlutterQuestionProcessor {
         res.append("    return result;\n" +
                 "  }\n\n");
 
-        Map<QuestionCategory, QuestionCategory> catsM = categories();
-        List<AstronomyDifficultyLevel> diffs = new ArrayList<>(Arrays.asList(AstronomyDifficultyLevel.values()));
+        List<JudeteleRomDifficultyLevel> diffs = new ArrayList<>(Arrays.asList(JudeteleRomDifficultyLevel.values()));
         for (Language language : languages) {
-            res.append(FlutterQuestionProcessor.getQuestionsHeader(language, FlutterQuestionProcessor.QUESTION_CONFIG_FILE_NAME));
+            res.append(FlutterQuestionProcessor.getQuestionsHeader(language,
+                    "JudeteleRomQuestionConfig"));
 
-            for (AstronomyDifficultyLevel diff : diffs) {
-                for (AstronomyCategoryEnum cat : Arrays.asList(
-                        AstronomyCategoryEnum.cat0,
-                        AstronomyCategoryEnum.cat1,
-                        AstronomyCategoryEnum.cat2,
-                        AstronomyCategoryEnum.cat3,
-                        AstronomyCategoryEnum.cat4,
-                        AstronomyCategoryEnum.cat5,
-                        AstronomyCategoryEnum.cat6,
-                        AstronomyCategoryEnum.cat7,
-                        AstronomyCategoryEnum.cat8,
-                        AstronomyCategoryEnum.cat9
-                )) {
-                    addQuestionCategory(catsM.get(cat), diff, language, res);
+            for (JudeteleRomDifficultyLevel diff : diffs) {
+                for (JudeteleRomCategoryEnum cat : JudeteleRomCategoryEnum.values()) {
+                    addQuestionCategory(cat, diff, language, res);
                 }
             }
             res.append("  }\n\n");
@@ -99,7 +82,7 @@ public class AstronomyFlutterQuestionProcessor {
 
     private static String getLibgdxQuestionPath(Language language, String flutterCat, QuestionDifficulty diff) {
         return "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
-                "/implementations/astronomy/questions/temp/" + language.toString() + "/diff" + diff.getIndex() + "/"
+                "/implementations/judetelerom/questions/temp/" + language.toString() + "/diff" + diff.getIndex() + "/"
                 + "questions_diff" + diff.getIndex() + "_" + flutterCat + ".txt";
     }
 
