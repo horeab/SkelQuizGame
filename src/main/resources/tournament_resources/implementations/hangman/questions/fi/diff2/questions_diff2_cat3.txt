@@ -4,4 +4,3 @@ kattila
 pöytä
 leivänpaahdin
 Siivilä
-lasta

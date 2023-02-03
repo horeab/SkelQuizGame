@@ -1,0 +1,32 @@
+::Piet Mondrian::4,5,3::::
+::Édouard Manet::9,2,8::::
+::Caspar David Friedrich::1,5,10::::
+::Cassius Marcellus Coolidge::6,2,7::::
+::Claude Monet::9,11,1::::
+::Lawrence Alma-Tadema::1,0,7::::
+::Diego Velázquez::2,4,7::::
+::Edvard Munch::12,4,6::::
+::Edward Hopper::14,3,1::::
+::El Greco::16,5,3::::
+::Emanuel Leutze::8,4,7::::
+::Eugène Delacroix::15,8,18::::
+::Francisco Goya::6,4,9::::
+::John Constable::19,17,9::::
+::Georges Seurat::17,15,20::::
+::Grant Wood::20,23,9::::
+::Gustav Klimt::10,21,22::::
+::Sandro Botticelli::24,9,14::::
+::John William Waterhouse::23,20,10::::
+::Henri Rousseau::20,25,23::::
+::Hokusai::13,26,21::::
+::Ivan Ajvazovski::25,20,24::::
+::James Abbott McNeill Whistler::14,26,21::::
+::Michelangelo::24,21,25::::
+::Johannes Vermeer::29,22,27::::
+::Leonardo da Vinci::27,18,26::::
+::Caravaggio::31,20,19::::
+::Albrecht Dürer::30,31,28::::
+::Paolo Uccello::29,27,21::::
+::Paul Cézanne::30,28,27::::
+::Vincent van Gogh::25,28,23::::
+::Rembrandt::28,29,30::::

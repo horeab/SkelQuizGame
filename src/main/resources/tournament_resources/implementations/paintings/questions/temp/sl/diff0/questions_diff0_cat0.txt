@@ -1,0 +1,17 @@
+::Prijatelj v stiski::11,8,1::::
+::Nedeljsko popoldne na otoku La Grande Jatte::7,13,15::::
+::Ameriška gotika::5,0,3::::
+::Sestava z rdečo, rumeno, modro in črno::10,2,12::::
+::Dekle z bisernim uhanom::5,14,1::::
+::Stvarjenje Adama::6,12,8::::
+::Mona Lisa::8,14,4::::
+::Nighthawks::14,13,15::::
+::Veleposlaniki::12,3,5::::
+::zajec::0,1,2::::
+::Veliki val pri Kanagawi::3,12,16::::
+::Poljub::4,5,2::::
+::Deveti val::10,7,3::::
+::Krik::11,7,5::::
+::Zvezdna noč::6,16,7::::
+::Babilonski stolp::1,5,12::::
+::Potepuh nad morjem megle::5,9,8::::

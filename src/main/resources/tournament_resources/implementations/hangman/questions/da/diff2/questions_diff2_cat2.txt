@@ -9,7 +9,6 @@ Mango
 peberrod
 figner
 oregano
-gran
 Korender
 Aubergine
 berberis

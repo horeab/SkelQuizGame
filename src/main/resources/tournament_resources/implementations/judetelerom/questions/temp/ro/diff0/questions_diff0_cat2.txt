@@ -1,0 +1,42 @@
+Cetatea Alba Carolina::Alba::1,8,7::::
+Castelul Regal de la Săvârşin::Arad::7,0,5::::
+Mănăstirea Curtea de Argeş::Argeş::7,0,4::::
+Staţiunea Slănic-Moldova::Bacău::4,8,2::::
+Peştera Urşilor::Bihor::0,9,11::::
+Lacul Colibiţa::Bistriţa-Năsăud::4,7,9::::
+Casa Memorială „Mihai Eminescu” din Ipoteşti::Botoşani::7,4,14::::
+Castelul Bran::Braşov::15,12,6::::
+Insula Mică a Brăilei::Brăila::1,14,12::::
+Vulcanii Noroioşi de la Pâclele Mici::Buzău::4,10,3::::
+Izvorul Bigăr::Caraş-Severin::12,18,17::::
+Muzeul Dunării De Jos::Călăraşi::19,15,5::::
+Salina Turda::Cluj::10,7,14::::
+Staţiunea Mamaia::Constanţa::11,19,18::::
+Muzeul Naţional Secuiesc::Covasna::9,22,6::::
+Sfinxul din Bucegi::Dâmboviţa::17,18,22::::
+Muzeul Olteniei::Dolj::20,18,12::::
+Complexul Muzeal de ştiinţele Naturii „Răsvan Angheluţă”::Galaţi::21,13,11::::
+Parcul Natural Comana::Giurgiu::20,26,13::::
+Coloana Infinitului::Gorj::27,26,22::::
+Lacul Sfânta Ana::Harghita::12,16,25::::
+Castelul Corvinilor::Hunedoara::29,25,24::::
+Mănăstirea Sfinţii Voievozi din Slobozia::Ialomiţa::16,30,17::::
+Palatul Culturii::Iaşi::15,19,20::::
+Lacul Snagov::Ilfov::19,18,21::::
+Cimitirul Vesel din Săpânţa::Maramureş::28,33,24::::
+Chipul lui Decebal::Mehedinţi::29,20,34::::
+Centrul istoric din Sighişoara::Mureş::24,33,28::::
+Masivul Ceahlău::Neamţ::26,34,32::::
+Casa memorială a lui Nicolae Ceauşescu din Scorniceşti::Olt::34,32,24::::
+Castelul Peleş::Prahova::38,31,36::::
+Muzeul ţării Oaşului::Satu Mare::38,33,27::::
+Gradina Zmeilor::Sălaj::31,39,38::::
+Lacul Bâlea::Sibiu::25,35,40::::
+Mănăstirea Voroneţ::Suceava::33,35,28::::
+Centrul Memorial Marin Preda::Teleorman::34,27,28::::
+Muzeul Satului Bănăţean::Timiş::38,39,37::::
+Delta Dunării::Tulcea::32,33,40::::
+Muzeul Judeţean \"Ştefan cel Mare\"::Vaslui::35,36,34::::
+Mănăstirea Cozia::Vâlcea::37,32,33::::
+Mausoleul de la Mărăşeşti::Vrancea::33,36,34::::
+Ateneul Român::București::23,36,34::::

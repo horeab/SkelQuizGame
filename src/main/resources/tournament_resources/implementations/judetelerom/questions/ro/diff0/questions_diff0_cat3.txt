@@ -5,7 +5,7 @@
 4:Cetatea Biharia care este menţionată în izvoare ca aparţinând voievodului Menumorut care a rezistat aici 13 zile asediului maghiar, se afla in judeţul:Bihor:9,12,6:
 5:Se învecinează cu judeţele Cluj, la vest, Maramureş, la nord, Suceava, la est şi Mureş la sud:Bistriţa-Năsăud:11,4,7:
 6:Compozitorul George Enescu s-a născut pe teritoriul acestu judeţ:Botoşani:1,11,9:
-7:Festivalul "Cerbul de Aur" se organizează în reşedinţa acestui judeţ:Braşov:4,2,11:
+7:Festivalul \"Cerbul de Aur\" se organizează în reşedinţa acestui judeţ:Braşov:4,2,11:
 8:Acest judeţ are unul dintre cele mai mari porturi fluviale româneşti de pe Dunăre:Brăila:15,1,16:
 9:Situat in sud-estul României, acest judeţ reuneşte trei forme de relief, munţi la nord, câmpii la sud şi in rest zonă de dealuri subcarpatice:Buzău:2,6,17:
 10:Băile Herculane, una dintre cele mai vechi staţiuni din lume se află în acest judeţ:Caraş-Severin:13,7,9:

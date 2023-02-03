@@ -1,0 +1,42 @@
+Care este reşedinţa judeţului Alba?:Alba Iulia
+Care este reşedinţa judeţului Arad?:Arad
+Care este reşedinţa judeţului Argeş?:Piteşti
+Care este reşedinţa judeţului Bacău?:Bacău
+Care este reşedinţa judeţului Bihor?:Oradea
+Care este reşedinţa judeţului Bistriţa-Năsăud?:Bistriţa
+Care este reşedinţa judeţului Botoşani?:Botoşani
+Care este reşedinţa judeţului Braşov?:Braşov
+Care este reşedinţa judeţului Brăila?:Brăila
+Care este reşedinţa judeţului Buzău?:Buzău
+Care este reşedinţa judeţului Caraş-Severin?:Reşiţa
+Care este reşedinţa judeţului Călăraşi?:Călăraşi
+Care este reşedinţa judeţului Cluj?:Cluj-Napoca
+Care este reşedinţa judeţului Constanţa?:Constanţa
+Care este reşedinţa judeţului Covasna?:Sfântu Gheorghe
+Care este reşedinţa judeţului Dâmboviţa?:Târgovişte
+Care este reşedinţa judeţului Dolj?:Craiova
+Care este reşedinţa judeţului Galaţi?:Galaţi
+Care este reşedinţa judeţului Giurgiu?:Giurgiu
+Care este reşedinţa judeţului Gorj?:Târgu Jiu
+Care este reşedinţa judeţului Harghita?:Miercurea Ciuc
+Care este reşedinţa judeţului Hunedoara?:Deva
+Care este reşedinţa judeţului Ialomiţa?:Slobozia
+Care este reşedinţa judeţului Iaşi?:Iaşi
+Care este reşedinţa judeţului Ilfov?:Buftea
+Care este reşedinţa judeţului Maramureş?:Baia Mare
+Care este reşedinţa judeţului Mehedinţi?:Drobeta-Turnu Severin
+Care este reşedinţa judeţului Mureş?:Târgu Mureş
+Care este reşedinţa judeţului Neamţ?:Piatra Neamţ
+Care este reşedinţa judeţului Olt?:Slatina
+Care este reşedinţa judeţului Prahova?:Ploieşti
+Care este reşedinţa judeţului Satu Mare?:Satu Mare
+Care este reşedinţa judeţului Sălaj?:Zalău
+Care este reşedinţa judeţului Sibiu?:Sibiu
+Care este reşedinţa judeţului Suceava?:Suceava
+Care este reşedinţa judeţului Teleorman?:Alexandria
+Care este reşedinţa judeţului Timiş?:Timişoara
+Care este reşedinţa judeţului Tulcea?:Tulcea
+Care este reşedinţa judeţului Vaslui?:Vaslui
+Care este reşedinţa judeţului Vâlcea?:Râmnicu Vâlcea
+Care este reşedinţa judeţului Vrancea?:Focşani
+Care este capitala României?:Bucureşti

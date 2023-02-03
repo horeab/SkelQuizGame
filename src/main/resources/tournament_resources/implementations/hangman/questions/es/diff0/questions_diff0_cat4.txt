@@ -8,7 +8,6 @@ Pizza
 Espaguetis
 Tortilla
 Helado
-Pan de molde
 pastel
 Asado
 Yogur

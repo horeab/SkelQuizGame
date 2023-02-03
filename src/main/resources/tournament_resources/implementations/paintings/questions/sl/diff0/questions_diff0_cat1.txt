@@ -1,0 +1,16 @@
+::Abstraktni ekspresionizem::8,7,1::::
+::Art Nouveau::7,6,4::::
+::Suprematizem::9,7,0::::
+::Kubizem::2,11,1::::
+::Dada::10,0,6::::
+::Ekspresionizem::10,12,3::::
+::Fovizem::1,3,7::::
+::Grafiti::8,5,0::::
+::Impresionizem::15,1,5::::
+::Srednjeveška umetnost::15,2,8::::
+::Realizem::9,13,3::::
+::Renesansa::12,15,8::::
+::romantika::4,6,13::::
+::Socialni realizem::11,14,9::::
+::Nadrealizem::7,13,10::::
+::Simbolizem::8,11,13::::

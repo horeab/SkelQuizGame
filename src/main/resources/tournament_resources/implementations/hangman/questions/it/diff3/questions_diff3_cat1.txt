@@ -2,7 +2,6 @@ alce
 Condor
 Vipera
 Falco
-porcellino d'India
 Trota
 Mamba nero
 Medusa

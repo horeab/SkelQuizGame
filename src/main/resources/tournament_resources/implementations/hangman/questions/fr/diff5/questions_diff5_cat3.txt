@@ -1,6 +1,5 @@
 cuisine
 couteau
-serviette de table
 réfrigérateur
 théière
 thermomètre

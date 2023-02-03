@@ -1,0 +1,16 @@
+::Abstract expressionism::8,7,1::::
+::Art Nouveau::7,6,4::::
+::Suprematism::9,7,0::::
+::Cubism::2,11,1::::
+::Dada::10,0,6::::
+::Expressionism::10,12,3::::
+::Fauvism::1,3,7::::
+::Graffiti::8,5,0::::
+::Impressionism::15,1,5::::
+::Medieval art::15,2,8::::
+::Realism::9,13,3::::
+::Renaissance::12,15,8::::
+::Romanticism::4,6,13::::
+::Social realism::11,14,9::::
+::Surrealism::7,13,10::::
+::Symbolism::8,11,13::::

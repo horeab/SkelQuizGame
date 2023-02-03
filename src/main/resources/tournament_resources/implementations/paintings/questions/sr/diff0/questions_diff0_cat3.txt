@@ -1,0 +1,32 @@
+0::Piet Mondrian:4,5,3:0
+1::Édouard Manet:9,2,8:1
+2::Caspar David Friedrich:1,5,10:2
+3::Cassius Marcellus Coolidge:6,2,7:3
+4::Claude Monet:9,11,1:4
+5::Lawrence Alma-Tadema:1,0,7:5
+6::Diego Velázquez:2,4,7:6
+7::Edvard Munch:12,4,6:7
+8::Edward Hopper:14,3,1:8
+9::El Greco:16,5,3:9
+10::Emanuel Leutze:8,4,7:10
+11::Eugène Delacroix:15,8,18:11
+12::Francisco Goya:6,4,9:12
+13::John Constable:19,17,9:13
+14::Georges Seurat:17,15,20:14
+15::Grant Wood:20,23,9:15
+16::Gustav Klimt:10,21,22:16
+17::Sandro Botticelli:24,9,14:17
+18::John William Waterhouse:23,20,10:18
+19::Henri Rousseau:20,25,23:19
+20::Hokusai:13,26,21:20
+21::Ivan Aivazovsky:25,20,24:21
+22::James Abbott McNeill Whistler:14,26,21:22
+23::Michelangelo:24,21,25:23
+24::Johannes Vermeer:29,22,27:24
+25::Leonardo da Vinci:27,18,26:25
+26::Caravaggio:31,20,19:26
+27::Albrecht Dürer:30,31,28:27
+28::Paolo Uccello:29,27,21:28
+29::Paul Cézanne:30,28,27:29
+30::Vincent van Gogh:25,28,23:30
+31::Rembrandt:28,29,30:31
