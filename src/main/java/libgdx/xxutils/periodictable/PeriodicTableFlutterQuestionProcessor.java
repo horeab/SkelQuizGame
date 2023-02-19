@@ -1,4 +1,4 @@
-package libgdx.xxutils.paintings;
+package libgdx.xxutils.periodictable;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -12,17 +12,16 @@ import java.util.List;
 import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Language;
-import libgdx.implementations.paintings.PaintingsQuestionCategoryEnum;
-import libgdx.implementations.paintings.PaintingsQuestionDifficultyLevel;
+import libgdx.implementations.judetelerom.JudeteleRomCategoryEnum;
+import libgdx.implementations.judetelerom.JudeteleRomDifficultyLevel;
 import libgdx.xxutils.FlutterQuestionProcessor;
 
-public class PaintingsFlutterQuestionProcessor {
+public class PeriodicTableFlutterQuestionProcessor {
 
 
     public static void main(String[] args) throws IOException {
 
-        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
-//        List<Language> languages = Arrays.asList(Language.en);
+        List<Language> languages = Arrays.asList(Language.ro);
 
         StringBuilder res = new StringBuilder();
 
@@ -32,13 +31,13 @@ public class PaintingsFlutterQuestionProcessor {
         res.append("    return result;\n" +
                 "  }\n\n");
 
-        List<PaintingsQuestionDifficultyLevel> diffs = new ArrayList<>(Arrays.asList(PaintingsQuestionDifficultyLevel.values()));
+        List<JudeteleRomDifficultyLevel> diffs = new ArrayList<>(Arrays.asList(JudeteleRomDifficultyLevel.values()));
         for (Language language : languages) {
             res.append(FlutterQuestionProcessor.getQuestionsHeader(language,
-                    "FamPaintGameQuestionConfig"));
+                    "JudeteleRomQuestionConfig"));
 
-            for (PaintingsQuestionDifficultyLevel diff : diffs) {
-                for (PaintingsQuestionCategoryEnum cat : PaintingsQuestionCategoryEnum.values()) {
+            for (JudeteleRomDifficultyLevel diff : diffs) {
+                for (JudeteleRomCategoryEnum cat : JudeteleRomCategoryEnum.values()) {
                     addQuestionCategory(cat, diff, language, res);
                 }
             }
@@ -80,7 +79,7 @@ public class PaintingsFlutterQuestionProcessor {
 
     private static String getLibgdxQuestionPath(Language language, String flutterCat, QuestionDifficulty diff) {
         return "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
-                "/implementations/paintings/questions/temp/" + language.toString() + "/diff" + diff.getIndex() + "/"
+                "/implementations/judetelerom/questions/temp/" + language.toString() + "/diff" + diff.getIndex() + "/"
                 + "questions_diff" + diff.getIndex() + "_" + flutterCat + ".txt";
     }
 

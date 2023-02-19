@@ -46,7 +46,8 @@ public class LabelProcessor {
                 GameIdEnum.astronomy,
                 GameIdEnum.astronomy,
                 GameIdEnum.hangmanarena,
-                GameIdEnum.buylow
+                GameIdEnum.buylow,
+                GameIdEnum.paintings
         );
 
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
@@ -62,7 +63,7 @@ public class LabelProcessor {
         //
 
 //        translateNewLanguage(Language.ro, gameIds, defaultLabels);
-//        translateMissingLabels(Language.de, gameIds, defaultLabels);
+//        translateMissingLabels(Language.sr, gameIds, defaultLabels);
         formFlutterKeys(gameIds, defaultLabels, languages);
     }
 

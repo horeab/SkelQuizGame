@@ -29,13 +29,14 @@ public class PaintingsQuestionProcessor {
 
         ///////
         ///////
-//        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
-//        languages.remove(Language.en);
-//        languages.remove(Language.ro);
+        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+        languages.remove(Language.ar);
+        languages.remove(Language.bg);
+        languages.remove(Language.en);
+        languages.remove(Language.he);
+        languages.remove(Language.sl);
+        languages.remove(Language.sr);
 
-        List<Language> languages = Arrays.asList(
-                Language.sr
-        );
 
         ///////
         ///////
@@ -65,7 +66,7 @@ public class PaintingsQuestionProcessor {
         TranslateQuestionProcessor.QuestionParser oldQuestionParser = getQuestionParsers().get(cat).left;
         TranslateQuestionProcessor.QuestionParser newQuestionParser = getQuestionParsers().get(cat).right;
 
-        List<String> enQuestions = getQuestions(cat, diff);
+        List<String> enQuestions = getQuestions(cat, diff, lang);
         List<String> questions = new ArrayList<>();
 
         int i = 0;
