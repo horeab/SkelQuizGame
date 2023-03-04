@@ -1,0 +1,17 @@
+::Een vriend in nood::11,8,1::::
+::Dimanche d'été à la Grande Jatte::7,13,15::::
+::American Gothic::5,0,3::::
+::Samenstelling met rood, geel, blauw en zwart::10,2,12::::
+::Meisje met de parel::5,14,1::::
+::De schepping van Adam::6,12,8::::
+::Mona Lisa::8,14,4::::
+::Nighthawks::14,13,15::::
+::De ambassadeurs::12,3,5::::
+::Haas::0,1,2::::
+::De grote golf van Kanagawa::3,12,16::::
+::De kus::4,5,2::::
+::De negende golf::10,7,3::::
+::De schreeuw::11,7,5::::
+::De Sterrennacht::6,16,7::::
+::De toren van Babel::1,5,12::::
+::Zwerver boven de zee van mist::5,9,8::::

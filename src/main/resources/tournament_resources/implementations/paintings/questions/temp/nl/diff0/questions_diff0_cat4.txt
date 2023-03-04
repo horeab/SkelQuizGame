@@ -1,0 +1,14 @@
+::Oostenrijk::2,8,6::::
+::Frankrijk::4,7,0::::
+::Engeland::8,10,9::::
+::Duitsland::1,7,9::::
+::Griekenland::12,1,11::::
+::Italië::12,3,13::::
+::Japan::8,12,11::::
+::Brazilië::6,4,11::::
+::Nederland::2,11,9::::
+::Noorwegen::4,10,11::::
+::Roemenië::8,5,4::::
+::Rusland::10,13,9::::
+::Spanje::6,10,5::::
+::Verenigde Staten::9,8,7::::

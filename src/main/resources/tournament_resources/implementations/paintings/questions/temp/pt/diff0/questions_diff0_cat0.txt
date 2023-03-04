@@ -1,0 +1,17 @@
+::Um Amigo em Necessidade::11,8,1::::
+::UUma Tarde de Domingo na Ilha de Grande Jatte::7,13,15::::
+::American Gothic::5,0,3::::
+::Composição em vermelho, amarelo, azul e branco::10,2,12::::
+::Meisje met de parel::5,14,1::::
+::Criação de Adão::6,12,8::::
+::Mona Lisa::8,14,4::::
+::Nighthawks::14,13,15::::
+::Os Embaixadores::12,3,5::::
+::Lebre::0,1,2::::
+::A Grande Onda de Kanagawa::3,12,16::::
+::O Beijo::4,5,2::::
+::A Nona Onda::10,7,3::::
+::O Grito::11,7,5::::
+::A Noite Estrelada::6,16,7::::
+::A Torre de Babel::1,5,12::::
+::Andarilho acima do mar de neblina::5,9,8::::

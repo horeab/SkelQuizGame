@@ -1,0 +1,16 @@
+::Chủ nghĩa biểu hiện trừu tượng::8,7,1::::
+::Tân nghệ thuật::7,6,4::::
+::Trường phái Tuyệt đỉnh::9,7,0::::
+::Chủ nghĩa lập thể::2,11,1::::
+::Dada::10,0,6::::
+::Chủ nghĩa biểu hiện::10,12,3::::
+::Trường phái dã thú::1,3,7::::
+::Graffiti::8,5,0::::
+::Trường phái ấn tượng::15,1,5::::
+::Nghệ thuật thời trung cổ::15,2,8::::
+::Chủ nghĩa hiện thực::9,13,3::::
+::Phục hưng::12,15,8::::
+::Chủ nghĩa lãng mạn::4,6,13::::
+::Chủ nghĩa hiện thực xã hội::11,14,9::::
+::Chủ nghĩa siêu thực::7,13,10::::
+::Thơ tượng trưng::8,11,13::::

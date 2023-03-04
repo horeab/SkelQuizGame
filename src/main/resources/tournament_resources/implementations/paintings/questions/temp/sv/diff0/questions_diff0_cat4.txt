@@ -1,0 +1,14 @@
+::Österrike::2,8,6::::
+::Frankrike::4,7,0::::
+::England::8,10,9::::
+::Tyskland::1,7,9::::
+::Grekland::12,1,11::::
+::Italien::12,3,13::::
+::Japan::8,12,11::::
+::Brasilien::6,4,11::::
+::Nederländerna::2,11,9::::
+::Norge::4,10,11::::
+::Rumänien::8,5,4::::
+::Ryssland::10,13,9::::
+::Spanien::6,10,5::::
+::Förenta staterna::9,8,7::::

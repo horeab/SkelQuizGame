@@ -1,0 +1,16 @@
+::Ekspresjonizm abstrakcyjny::8,7,1::::
+::Secesja::7,6,4::::
+::Suprematyzm::9,7,0::::
+::Kubizm::2,11,1::::
+::Dada::10,0,6::::
+::Ekspresjonizm::10,12,3::::
+::Fauwizm::1,3,7::::
+::Graffiti::8,5,0::::
+::Impresjonizm::15,1,5::::
+::Sztuka średniowieczna::15,2,8::::
+::Realizm::9,13,3::::
+::Renesans::12,15,8::::
+::Romantyzm::4,6,13::::
+::Realizm społeczny::11,14,9::::
+::Surrealizm::7,13,10::::
+::Symbolika::8,11,13::::

@@ -1,0 +1,17 @@
+::Un amico bisognoso::11,8,1::::
+::Una domenica pomeriggio sull'isola della Grande-Jatte::7,13,15::::
+::American Gothic::5,0,3::::
+::Composizione con rosso, giallo, blu e nero::10,2,12::::
+::Ragazza con l'orecchino di perla::5,14,1::::
+::Creazione di Adamo::6,12,8::::
+::Mona Lisa::8,14,4::::
+::I nottambuli::14,13,15::::
+::Ambasciatori::12,3,5::::
+::lepre::0,1,2::::
+::La grande onda di Kanagawa::3,12,16::::
+::Il bacio::4,5,2::::
+::La nona onda::10,7,3::::
+::L'urlo::11,7,5::::
+::La notte stellata::6,16,7::::
+::Torre di Babele::1,5,12::::
+::Vagabondo sopra il mare di nebbia::5,9,8::::

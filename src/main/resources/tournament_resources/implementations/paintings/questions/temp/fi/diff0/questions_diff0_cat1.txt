@@ -1,0 +1,16 @@
+::Abstrakti ekspressionismi::8,7,1::::
+::Jugend::7,6,4::::
+::suprematismi::9,7,0::::
+::kubismi::2,11,1::::
+::Dada::10,0,6::::
+::ekspressionismi::10,12,3::::
+::Fauvismi::1,3,7::::
+::Graffiti::8,5,0::::
+::impressionismi::15,1,5::::
+::Keskiaikainen taide::15,2,8::::
+::Realismi::9,13,3::::
+::Renessanssi::12,15,8::::
+::Romantiikka::4,6,13::::
+::Sosiaalirealismi::11,14,9::::
+::Surrealismi::7,13,10::::
+::Symbolismi::8,11,13::::

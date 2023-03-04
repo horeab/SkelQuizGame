@@ -1,0 +1,35 @@
+::Edgar Degas::5,8,1::::
+::Andy Warhol::9,7,4::::
+::Caspar David Friedrich::0,4,8::::
+::Paul Gauguin::8,2,10::::
+::Claude Monet::8,11,12::::
+::Diego Rivera::12,8,9::::
+::Diego Velázquez::4,12,9::::
+::Edvard Munch::8,5,4::::
+::Edward Hopper::11,7,6::::
+::El Greco::2,14,16::::
+::Emanuel Leutze::13,15,16::::
+::Eugène Delacroix::6,14,16::::
+::Francisco Goya::13,5,15::::
+::Frida Kahlo::12,21,11::::
+::Georges Seurat::13,16,8::::
+::Grant Wood::12,23,20::::
+::Gustav Klimt::15,19,20::::
+::Vincent van Gogh::20,23,25::::
+::Henri Matisse::24,14,10::::
+::Pierre-Auguste Renoir::22,24,12::::
+::Hokusai::17,13,26::::
+::Ivan Aivazovsky::14,24,26::::
+::James Abbott McNeill Whistler::14,26,18::::
+::Jan van Eyck::17,18,26::::
+::Johannes Vermeer::31,22,19::::
+::Leonardo da Vinci::33,21,19::::
+::Marc Chagall::22,32,18::::
+::Pablo Picasso::32,33,31::::
+::Paolo Uccello::23,21,30::::
+::Paul Cézanne::26,23,28::::
+::Wassily Kandinsky::26,31,34::::
+::Rembrandt::34,27,33::::
+::Albrecht Dürer::26,33,28::::
+::Salvador Dali::32,26,28::::
+::Sandro Botticelli::33,27,28::::

@@ -1,0 +1,14 @@
+::Austria::2,8,6::::
+::Perancis::4,7,0::::
+::Inggris::8,10,9::::
+::Jerman::1,7,9::::
+::Yunani::12,1,11::::
+::Italia::12,3,13::::
+::Jepang::8,12,11::::
+::Brasil::6,4,11::::
+::Belanda::2,11,9::::
+::Norwegia::4,10,11::::
+::Rumania::8,5,4::::
+::Rusia::10,13,9::::
+::Spanyol::6,10,5::::
+::Amerika Serikat::9,8,7::::

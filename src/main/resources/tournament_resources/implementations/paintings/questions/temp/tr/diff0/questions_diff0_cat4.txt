@@ -1,0 +1,14 @@
+::Avusturya::2,8,6::::
+::Fransa::4,7,0::::
+::İngiltere::8,10,9::::
+::Almanya::1,7,9::::
+::Yunanistan::12,1,11::::
+::İtalya::12,3,13::::
+::Japonya::8,12,11::::
+::Brezilya::6,4,11::::
+::Hollanda::2,11,9::::
+::Norveç::4,10,11::::
+::Romanya::8,5,4::::
+::Rusya::10,13,9::::
+::İspanya::6,10,5::::
+::Amerika Birleşik Devletleri::9,8,7::::

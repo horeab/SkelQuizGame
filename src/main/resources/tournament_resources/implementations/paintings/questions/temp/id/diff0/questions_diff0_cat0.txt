@@ -1,0 +1,17 @@
+::Teman yang Membutuhkan::11,8,1::::
+::Sore Minggu di Pulau La Grande Jatte::7,13,15::::
+::American Gothic::5,0,3::::
+::Komposisi dengan warna merah, kuning, biru dan hitam::10,2,12::::
+::Gadis dengan Anting-Anting Mutiara::5,14,1::::
+::Penciptaan Adam::6,12,8::::
+::Mona Lisa::8,14,4::::
+::Nighthawks::14,13,15::::
+::Duta Besar::12,3,5::::
+::Kelinci::0,1,2::::
+::Gelombang Hebat di Kanagawa::3,12,16::::
+::Ciuman::4,5,2::::
+::Gelombang Kesembilan::10,7,3::::
+::Jeritan::11,7,5::::
+::Malam Berbintang::6,16,7::::
+::Menara Babel::1,5,12::::
+::Pengembara di atas Lautan Kabut::5,9,8::::

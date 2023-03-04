@@ -1,0 +1,17 @@
+::Một người bạn cần::11,8,1::::
+::Chiều Chủ nhật trên đảo Grande Jatte::7,13,15::::
+::American Gothic::5,0,3::::
+::Thành phần với màu đỏ, vàng, xanh và đen::10,2,12::::
+::Cô gái đeo hoa tai ngọc trai::5,14,1::::
+::Tạo ra Adam::6,12,8::::
+::Mona Lisa::8,14,4::::
+::Nighthawks::14,13,15::::
+::Đại sứ::12,3,5::::
+::Thỏ rừng::0,1,2::::
+::Làn sóng lớn ngoài khơi Kanagawa::3,12,16::::
+::Nụ hôn::4,5,2::::
+::Làn sóng thứ chín::10,7,3::::
+::Tiếng thét::11,7,5::::
+::Đêm đầy sao::6,16,7::::
+::Tháp Babel::1,5,12::::
+::Kẻ lãng du trên biển sương mù::5,9,8::::

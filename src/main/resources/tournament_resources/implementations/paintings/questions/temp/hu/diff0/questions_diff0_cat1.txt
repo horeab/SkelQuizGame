@@ -1,0 +1,16 @@
+::Absztrakt expresszionizmus::8,7,1::::
+::Szecesszió::7,6,4::::
+::szuprematizmus::9,7,0::::
+::kubizmus::2,11,1::::
+::Dada::10,0,6::::
+::expresszionizmus::10,12,3::::
+::Fauvizmus::1,3,7::::
+::Graffiti::8,5,0::::
+::impresszionizmus::15,1,5::::
+::Középkori művészet::15,2,8::::
+::realizmus::9,13,3::::
+::Reneszánsz::12,15,8::::
+::romantika::4,6,13::::
+::Szociális realizmus::11,14,9::::
+::szürrealizmus::7,13,10::::
+::szimbolizmus::8,11,13::::

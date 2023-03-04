@@ -1,0 +1,17 @@
+::Przyjaciel w potrzebie::11,8,1::::
+::Niedzielne popołudnie na wyspie Grande Jatte::7,13,15::::
+::American Gothic::5,0,3::::
+::Skład en rouge, jaune, bleu i noir::10,2,12::::
+::Dziewczyna z perłą::5,14,1::::
+::Stworzenie Adama::6,12,8::::
+::Mona Lisa::8,14,4::::
+::Nocne marki::14,13,15::::
+::Ambasadorzy::12,3,5::::
+::Zając::0,1,2::::
+::Wielka fala w Kanagawie::3,12,16::::
+::Pocałunek::4,5,2::::
+::Dziewiąta fala::10,7,3::::
+::Krzyk::11,7,5::::
+::Gwiaździsta noc::6,16,7::::
+::Wieża Babel::1,5,12::::
+::Wędrowiec nad morzem mgły::5,9,8::::

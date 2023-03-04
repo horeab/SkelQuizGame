@@ -1,0 +1,14 @@
+::Austrija::2,8,6::::
+::Francuska::4,7,0::::
+::Engleska::8,10,9::::
+::Njemačka::1,7,9::::
+::Grčka::12,1,11::::
+::Italija::12,3,13::::
+::Japan::8,12,11::::
+::Brazil::6,4,11::::
+::Nizozemska::2,11,9::::
+::Norveška::4,10,11::::
+::Rumunjska::8,5,4::::
+::Rusija::10,13,9::::
+::Španjolska::6,10,5::::
+::Sjedinjene Države::9,8,7::::

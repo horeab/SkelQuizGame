@@ -1,0 +1,17 @@
+::Tarvittava ystävä::11,8,1::::
+::Sunnuntai-iltapäivä La Grande Jatten saarella::7,13,15::::
+::Amerikkalainen gootti::5,0,3::::
+::Koostumus punaisella, keltaisella, sinisellä ja mustalla::10,2,12::::
+::Tyttö helmikorvakorulla::5,14,1::::
+::Aadamin luominen::6,12,8::::
+::Mona Lisa::8,14,4::::
+::Nighthawks::14,13,15::::
+::Suurlähettiläät::12,3,5::::
+::Jänis::0,1,2::::
+::Suuri aalto Kanagawan edustalla::3,12,16::::
+::suudelma::4,5,2::::
+::Yhdeksäs aalto::10,7,3::::
+::Huuta::11,7,5::::
+::Tähtenäinen yö::6,16,7::::
+::Babelin torni::1,5,12::::
+::Vaeltaja sumumeren yläpuolella::5,9,8::::

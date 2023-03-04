@@ -1,0 +1,14 @@
+::Rakúsko::2,8,6::::
+::Francúzsko::4,7,0::::
+::Anglicko::8,10,9::::
+::Nemecko::1,7,9::::
+::Grécko::12,1,11::::
+::Taliansko::12,3,13::::
+::Japonsko::8,12,11::::
+::Brazília::6,4,11::::
+::Holandsko::2,11,9::::
+::Nórsko::4,10,11::::
+::Rumunsko::8,5,4::::
+::Rusko::10,13,9::::
+::Španielsko::6,10,5::::
+::Spojené štáty::9,8,7::::

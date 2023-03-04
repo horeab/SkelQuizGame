@@ -1,0 +1,16 @@
+::Abstrakt ekspressionisme::8,7,1::::
+::Jugendstil::7,6,4::::
+::Suprematism::9,7,0::::
+::kubisme::2,11,1::::
+::Dada::10,0,6::::
+::ekspressionisme::10,12,3::::
+::Fauvisme::1,3,7::::
+::Graffiti::8,5,0::::
+::impressionisme::15,1,5::::
+::Middelalderkunst::15,2,8::::
+::Realisme::9,13,3::::
+::renæssance::12,15,8::::
+::Romantikken::4,6,13::::
+::Social realisme::11,14,9::::
+::surrealisme::7,13,10::::
+::Symbolik::8,11,13::::

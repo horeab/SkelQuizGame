@@ -1,0 +1,17 @@
+::Priateľ v núdzi::11,8,1::::
+::Nedeľa popoludní na ostrove La Grande Jatte::7,13,15::::
+::Americká gotika::5,0,3::::
+::Zloženie s červenou, žltou, modrou a čiernou::10,2,12::::
+::Dievča s perlou::5,14,1::::
+::Stvorenie Adama::6,12,8::::
+::Mona Lisa::8,14,4::::
+::Nighthawks::14,13,15::::
+::Veľvyslanci::12,3,5::::
+::zajac::0,1,2::::
+::Veľká vlna pri Kanagawe::3,12,16::::
+::Bozk::4,5,2::::
+::Deviata vlna::10,7,3::::
+::Výkrik::11,7,5::::
+::Hviezdna noc::6,16,7::::
+::Babylonská veža::1,5,12::::
+::Putovanie nad morom hmly::5,9,8::::

@@ -1,0 +1,16 @@
+::Expresionism abstract::8,7,1::::
+::Art Nouveau::7,6,4::::
+::Suprematism::9,7,0::::
+::Cubism::2,11,1::::
+::Dada::10,0,6::::
+::Expresionism::10,12,3::::
+::Fauvism::1,3,7::::
+::Graffiti::8,5,0::::
+::Impresionism::15,1,5::::
+::Artă medievală::15,2,8::::
+::Realism::9,13,3::::
+::Renaştere::12,15,8::::
+::Romantism::4,6,13::::
+::Realism social::11,14,9::::
+::Suprarealism::7,13,10::::
+::Simbolism::8,11,13::::

@@ -1,0 +1,16 @@
+::Soyut dışavurumculuk::8,7,1::::
+::Art Nouveau::7,6,4::::
+::Süprematizm::9,7,0::::
+::Kübizm::2,11,1::::
+::Dada::10,0,6::::
+::Ekspresyonizmi::10,12,3::::
+::Fovizm::1,3,7::::
+::Graffiti::8,5,0::::
+::Empresyonizm::15,1,5::::
+::Ortaçağ sanatı::15,2,8::::
+::Gerçekçilik::9,13,3::::
+::Rönesans::12,15,8::::
+::Romantizm::4,6,13::::
+::Sosyal gerçekçilik::11,14,9::::
+::Sürrealizm::7,13,10::::
+::Sembolizm::8,11,13::::

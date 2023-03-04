@@ -1,0 +1,17 @@
+::İhtiyacı Olan Bir Arkadaş::11,8,1::::
+::Grande Jatte Adası'nda Bir Pazar Öğleden Sonrası::7,13,15::::
+::Amerikan Gotiği::5,0,3::::
+::Kırmızı, sarı, mavi ve siyah ile kompozisyon::10,2,12::::
+::İnci Küpeli Kız::5,14,1::::
+::Adem'in Yaratılışı::6,12,8::::
+::Mona Lisa::8,14,4::::
+::Gece Kuşları::14,13,15::::
+::Elçiler::12,3,5::::
+::tavşan::0,1,2::::
+::Kanagawa'daki Büyük Dalga::3,12,16::::
+::Öpücük::4,5,2::::
+::Dokuzuncu Dalga::10,7,3::::
+::Çığlık::11,7,5::::
+::Yıldızlı Gece::6,16,7::::
+::Babil Kulesi::1,5,12::::
+::Sis Denizinin üzerinde dolaşan::5,9,8::::

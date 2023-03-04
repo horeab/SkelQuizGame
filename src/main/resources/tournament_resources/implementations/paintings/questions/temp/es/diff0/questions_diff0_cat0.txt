@@ -1,0 +1,17 @@
+::Un amigo necesitado::11,8,1::::
+::Tarde de domingo en la isla de la Grande Jatte::7,13,15::::
+::American Gothic::5,0,3::::
+::Composición con rojo, amarillo, azul y negro::10,2,12::::
+::La joven de la perla::5,14,1::::
+::Creación de Adán::6,12,8::::
+::Mona Lisa::8,14,4::::
+::Nighthawks::14,13,15::::
+::Los Embajadores::12,3,5::::
+::Liebre::0,1,2::::
+::La gran ola de Kanagawa::3,12,16::::
+::El beso::4,5,2::::
+::La Novena Ola::10,7,3::::
+::El grito::11,7,5::::
+::La noche estrellada::6,16,7::::
+::La Torre de Babel::1,5,12::::
+::Errante sobre el mar de niebla::5,9,8::::

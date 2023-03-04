@@ -1,0 +1,17 @@
+::Přítel v nouzi::11,8,1::::
+::Nedělní odpoledne na ostrově Grande Jatte::7,13,15::::
+::American Gothic::5,0,3::::
+::Složení s červenou, žlutou, modrou a černou::10,2,12::::
+::Dívka s perlou::5,14,1::::
+::Stvoření Adama::6,12,8::::
+::Mona Lisa::8,14,4::::
+::Noční ptáci::14,13,15::::
+::Vyslanci::12,3,5::::
+::Zajíc::0,1,2::::
+::Velká vlna mimo Kanagawa::3,12,16::::
+::Polibek::4,5,2::::
+::Devátá vlna::10,7,3::::
+::Výkřik::11,7,5::::
+::Hvězdná noc::6,16,7::::
+::Babellova věž::1,5,12::::
+::Poutník nad mořem mlhy::5,9,8::::

@@ -1,0 +1,17 @@
+::Ein Freund in Not::11,8,1::::
+::Ein Sonntagnachmittag auf der Insel La Grande Jatte::7,13,15::::
+::American Gothic::5,0,3::::
+::Komposition mit rot, gelb, blau und schwarz::10,2,12::::
+::Das Mädchen mit dem Perlenohrgehänge::5,14,1::::
+::Die Erschaffung Adams::6,12,8::::
+::Mona Lisa::8,14,4::::
+::Nighthawks::14,13,15::::
+::Die Botschafter::12,3,5::::
+::Feldhase::0,1,2::::
+::Die große Welle vor Kanagawa::3,12,16::::
+::Der Kuss::4,5,2::::
+::Die neunte Welle::10,7,3::::
+::Der Schrei::11,7,5::::
+::Sternennacht::6,16,7::::
+::Der Turm von Babel::1,5,12::::
+::Der Wanderer über dem Nebelmeer::5,9,8::::

@@ -1,0 +1,17 @@
+::En ven i nød::11,8,1::::
+::En søndag eftermiddag på øen La Grande Jatte::7,13,15::::
+::American Gothic::5,0,3::::
+::Sammensætning med rød, gul, blå og sort::10,2,12::::
+::Pige med perleørering::5,14,1::::
+::Oprettelse af Adam::6,12,8::::
+::Mona Lisa::8,14,4::::
+::Nighthawks::14,13,15::::
+::Ambassadørerne::12,3,5::::
+::Hare::0,1,2::::
+::Den store bølge fra Kanagawa::3,12,16::::
+::Kyssen::4,5,2::::
+::Den niende bølge::10,7,3::::
+::Skriget::11,7,5::::
+::Stjernenatten::6,16,7::::
+::Babel-tårnet::1,5,12::::
+::Vandrer over tågehavet::5,9,8::::

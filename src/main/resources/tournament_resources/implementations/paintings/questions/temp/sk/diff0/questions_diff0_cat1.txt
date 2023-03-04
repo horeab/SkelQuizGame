@@ -1,0 +1,16 @@
+::Abstraktný expresionizmus::8,7,1::::
+::Secesia::7,6,4::::
+::Suprematism::9,7,0::::
+::kubizmus::2,11,1::::
+::Dada::10,0,6::::
+::expresionizmus::10,12,3::::
+::Fauvizmus::1,3,7::::
+::Graffiti::8,5,0::::
+::Impresionizmus::15,1,5::::
+::Stredoveké umenie::15,2,8::::
+::Realizmus::9,13,3::::
+::renesancia::12,15,8::::
+::Romantizmus::4,6,13::::
+::Sociálny realizmus::11,14,9::::
+::Surrealizmus::7,13,10::::
+::Symbolika::8,11,13::::

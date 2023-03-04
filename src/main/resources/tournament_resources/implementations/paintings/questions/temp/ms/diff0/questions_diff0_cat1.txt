@@ -1,0 +1,16 @@
+::Ekspresi abstrak::8,7,1::::
+::Art Nouveau::7,6,4::::
+::Suprematism::9,7,0::::
+::kubisme::2,11,1::::
+::Dada::10,0,6::::
+::Pengekspresionisme::10,12,3::::
+::Fauvisme::1,3,7::::
+::grafiti::8,5,0::::
+::Impresionisme::15,1,5::::
+::Seni Abad Pertengahan::15,2,8::::
+::Realisme::9,13,3::::
+::Renaisans::12,15,8::::
+::Romantisisme::4,6,13::::
+::Realisme sosial::11,14,9::::
+::surealisme::7,13,10::::
+::Simbolisme::8,11,13::::

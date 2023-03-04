@@ -1,0 +1,17 @@
+::Rakan yang Dibutuhkan::11,8,1::::
+::Ahad Ahad di Pulau La Grande Jatte::7,13,15::::
+::American Gothic::5,0,3::::
+::Komposisi dengan merah, kuning, biru dan hitam::10,2,12::::
+::Girl dengan Pearl Earring::5,14,1::::
+::Penciptaan Adam::6,12,8::::
+::Mona Lisa::8,14,4::::
+::Nighthawks::14,13,15::::
+::Para Duta::12,3,5::::
+::sejenis arnab::0,1,2::::
+::Gelombang Besar dari Kanagawa::3,12,16::::
+::ciuman::4,5,2::::
+::Gelombang Kesembilan::10,7,3::::
+::Jeritan Alam::11,7,5::::
+::Malam Berbintang::6,16,7::::
+::Menara Babel::1,5,12::::
+::Pengembara di atas Laut Kabut::5,9,8::::
