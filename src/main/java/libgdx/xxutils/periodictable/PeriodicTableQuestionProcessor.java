@@ -84,10 +84,7 @@ public class PeriodicTableQuestionProcessor {
                         throw new RuntimeException("wrong element index " + currentIndex);
                     }
                     String element = line.split("=")[1];
-                    labels.add(
-                            Arrays.asList(Language.ar, Language.bg, Language.he, Language.sl, Language.sr)
-                                    .contains(language) ? translate(language, element) : element
-                    );
+                    labels.add(element);
                     startindex++;
                 }
                 line = reader.readLine();

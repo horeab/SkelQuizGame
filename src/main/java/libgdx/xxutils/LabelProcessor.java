@@ -44,10 +44,10 @@ public class LabelProcessor {
                 GameIdEnum.perstest,
                 GameIdEnum.iqtest,
                 GameIdEnum.astronomy,
-                GameIdEnum.astronomy,
                 GameIdEnum.hangmanarena,
                 GameIdEnum.buylow,
-                GameIdEnum.paintings
+                GameIdEnum.paintings,
+                GameIdEnum.periodictable
         );
 
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
@@ -63,7 +63,10 @@ public class LabelProcessor {
         //
 
 //        translateNewLanguage(Language.ro, gameIds, defaultLabels);
-//        translateMissingLabels(Language.sr, gameIds, defaultLabels);
+
+//        for (Language l : languages) {
+//            translateMissingLabels(l, gameIds, defaultLabels);
+//        }
         formFlutterKeys(gameIds, defaultLabels, languages);
     }
 
@@ -309,6 +312,7 @@ public class LabelProcessor {
                     value = value.replace("Highscore", "High Score");
                     value = value.replace("\u0027", "'");
                     value = value.replace("\\n", "\n");
+                    value = value.replace(" ", " ");
 
                     String key = value.toLowerCase();
 
