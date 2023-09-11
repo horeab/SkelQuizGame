@@ -47,7 +47,8 @@ public class LabelProcessor {
                 GameIdEnum.hangmanarena,
                 GameIdEnum.buylow,
                 GameIdEnum.paintings,
-                GameIdEnum.periodictable
+                GameIdEnum.periodictable,
+                GameIdEnum.math
         );
 
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);

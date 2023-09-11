@@ -1,0 +1,7 @@
+Nucleus
+Nucleolus
+Cytoplasma
+membrane
+Ribosoma
+Mitochondrium
+Reticulum endoplasmaticum

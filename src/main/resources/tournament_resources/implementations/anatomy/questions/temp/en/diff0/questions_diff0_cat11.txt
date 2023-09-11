@@ -1,6 +1,6 @@
-Oxygen:1,2,4:74.5,29,25
-Carbon:2,0,4:74.5,57,25
-Hydrogen:1,0,5:74.5,73.2,25
-Nitrogen:1,0,2:74.5,83.5,25
-Calcium:0,1,2:74.5,91.2,25
-Phosphorus:1,2,0:74.5,96.82,25
+Oxygen:1,2,4:74.5,29,25:Oxygen, a colorless, odorless, tasteless gas essential to living organisms.
+Carbon:2,0,4:74.5,57,25:Carbon, chemical element that forms more compounds than all the other elements combined.
+Hydrogen:1,0,5:74.5,73.2,25:Hydrogen, a colorless, odorless, tasteless, flammable gaseous substance that is the simplest member of the family of chemical elements.
+Nitrogen:1,0,2:74.5,83.5,25:Nitrogen is a gas which comprises 78 percent of the earth's atmosphere.
+Calcium:0,1,2:74.5,91.2,25:Calcium is the most abundant metallic element in the human body.
+Phosphorus:1,2,0:74.5,96.82,25:Phosphorus is the second most abundant mineral in the body, second to calcium. About 85% of the body's phosphorus is stored in bones and teeth.

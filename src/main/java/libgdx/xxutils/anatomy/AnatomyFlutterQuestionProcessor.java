@@ -7,6 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -50,14 +51,16 @@ public class AnatomyFlutterQuestionProcessor {
             res.append("  }\n\n");
         }
 
-        System.out.println(res);
+//        System.out.println(res);
+
+        formLatinTranslation();
     }
 
     private static void addQuestionCategory(QuestionCategory libGdxCat, QuestionCategory flutterCat,
                                             QuestionDifficulty diff,
                                             Language language, StringBuilder res) {
         if (StringUtils.isNotBlank(flutterCat.toString())) {
-            String qPath = getLibgdxQuestionPath(language, libGdxCat.toString(), diff);
+            String qPath = getLibgdxQuestionPath(language.toString(), libGdxCat.toString(), diff);
             BufferedReader reader;
             List<String> questions = new ArrayList<>();
             try {
@@ -77,9 +80,56 @@ public class AnatomyFlutterQuestionProcessor {
         }
     }
 
-    private static String getLibgdxQuestionPath(Language language, String libGdxCat, QuestionDifficulty diff) {
+    private static void formLatinTranslation() {
+        for (QuestionDifficulty diff : Collections.singleton(AnatomyQuestionDifficultyLevel._0)) {
+            for (QuestionCategory cat : AnatomyQuestionCategoryEnum.values()) {
+                List<String> enQuestions = getEnglishQuestions(cat, diff);
+                List<String> laQuestions = getLatinQuestions(cat);
+                int i = 0;
+                for (String enq : enQuestions) {
+                    System.out.println("\"" + enq.split(":")[0] + "\":\"" + laQuestions.get(i) + "\",");
+                    i++;
+                }
+            }
+        }
+    }
+
+    static List<String> getEnglishQuestions(QuestionCategory cat, QuestionDifficulty diff) {
+
+        String qPath = getLibgdxQuestionPath(Language.en.toString(), cat.name(), diff);
+        BufferedReader reader;
+        List<String> questions = new ArrayList<>();
+        try {
+            reader = new BufferedReader(new FileReader(qPath));
+            String line = reader.readLine();
+            while (line != null) {
+                questions.add(line);
+                line = reader.readLine();
+            }
+        } catch (IOException e) {
+        }
+        return questions;
+    }
+
+    static List<String> getLatinQuestions(QuestionCategory cat) {
+        String qPath = getLibgdxQuestionPath("la", cat.name(), AnatomyQuestionDifficultyLevel._0);
+        BufferedReader reader;
+        List<String> questions = new ArrayList<>();
+        try {
+            reader = new BufferedReader(new FileReader(qPath));
+            String line = reader.readLine();
+            while (line != null) {
+                questions.add(line);
+                line = reader.readLine();
+            }
+        } catch (IOException e) {
+        }
+        return questions;
+    }
+
+    private static String getLibgdxQuestionPath(String language, String libGdxCat, QuestionDifficulty diff) {
         return "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
-                "/implementations/anatomy/questions/temp/" + language.toString() + "/diff" + diff.getIndex() + "/"
+                "/implementations/anatomy/questions/temp/" + language + "/diff" + diff.getIndex() + "/"
                 + "questions_diff" + diff.getIndex() + "_" + libGdxCat + ".txt";
     }
 

@@ -1,0 +1,6 @@
+lobus frontalis
+Lobus temporalis
+lobus parietalis
+Lobus occipitalis
+Cerebellum
+truncus encephali

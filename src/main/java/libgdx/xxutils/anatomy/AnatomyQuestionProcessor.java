@@ -29,12 +29,15 @@ public class AnatomyQuestionProcessor {
     public static final String ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/anatomy/questions/";
 
     public static void main(String[] args) throws IOException {
+        translateDescription();
+    }
+
+    public static void main2(String[] args) throws IOException {
 
         ///////
         ///////
-        List<Language> languages = Arrays.asList(
-//                Language.zh
-        );
+//        List<Language> languages = Arrays.asList(Language.values());
+        List<Language> languages = Arrays.asList(Language.ro);
         ///////
         ///////
         ///////
@@ -90,6 +93,43 @@ public class AnatomyQuestionProcessor {
         }
     }
 
+    private static void translateDescription() throws IOException {
+        List<Language> languages = Arrays.asList(Language.ro);
+        for (Language lang : languages) {
+            for (QuestionDifficulty diff : Arrays.asList(AnatomyQuestionDifficultyLevel._0)) {
+                for (QuestionCategory cat : getQuestionParsers(diff).keySet()) {
+                    List<String> enQuestions = getEnglishQuestions(cat, diff, true);
+                    List<String> langQuestions = getQuestions(cat, diff, lang, true);
+                    List<String> langQuestionsWithDescr = new ArrayList<>();
+                    int i = 0;
+                    for (String q : enQuestions) {
+
+                        String[] split = q.split(":");
+                        String descr = split[split.length - 1];
+                        String translatedDescr = lang != Language.en
+                                ? TranslateQuestionProcessor.translateWord(lang, descr)
+                                : descr;
+                        String langQ = langQuestions.get(i);
+                        langQ = langQ + ":" + translatedDescr;
+                        langQuestionsWithDescr.add(langQ);
+                        i++;
+                    }
+
+                    String allQ = String.join("\n", langQuestionsWithDescr);
+                    System.out.println("writeee" + allQ);
+                    String newFilePath = getLibgdxQuestionPath(lang, true, cat.name(), diff);
+                    System.out.println("newFilePath " + newFilePath);
+
+                    File myObj = new File(newFilePath);
+                    myObj.createNewFile();
+                    FileWriter myWriter = new FileWriter(myObj);
+                    myWriter.write(allQ);
+                    myWriter.close();
+                }
+            }
+        }
+    }
+
     private static void moveQuestionCat(
             Language lang,
             QuestionCategory cat, QuestionDifficulty diff,
@@ -99,7 +139,7 @@ public class AnatomyQuestionProcessor {
         TranslateQuestionProcessor.QuestionParser newQuestionParser = getQuestionParsers(targetDiff).get(targetCat);
         TranslateQuestionProcessor.QuestionParser oldQuestionParser = getOldQuestionParsers().get(cat);
 
-        List<String> enQuestions = getEnglishQuestions(cat, diff);
+        List<String> enQuestions = getEnglishQuestions(cat, diff, true);
         List<String> questions = new ArrayList<>();
         int i = 0;
         for (String enQuestion : enQuestions) {
@@ -122,15 +162,15 @@ public class AnatomyQuestionProcessor {
                             cat.getIndex());
                     question = firstCatQuestions.get(i).split(":")[2];
 
-                    if (Arrays.asList(
-                            Language.ar,
-                            Language.bg,
-                            Language.he,
-                            Language.sr,
-                            Language.sl
-                    ).contains(lang)) {
-                        question = TranslateQuestionProcessor.translateWord(lang, question);
-                    }
+//                    if (Arrays.asList(
+//                            Language.ar,
+//                            Language.bg,
+//                            Language.he,
+//                            Language.sr,
+//                            Language.sl
+//                    ).contains(lang)) {
+                    question = TranslateQuestionProcessor.translateWord(lang, question);
+//                    }
 
                     answer = oldQuestionParser.getAnswer(enQuestion);
                     options = oldQuestionParser.getOptions(enQuestion);
@@ -202,9 +242,13 @@ public class AnatomyQuestionProcessor {
         return questions;
     }
 
-    static List<String> getEnglishQuestions(QuestionCategory cat, QuestionDifficulty diff) {
+    static List<String> getEnglishQuestions(QuestionCategory cat, QuestionDifficulty diff, boolean isTemp) {
+        return getQuestions(cat, diff, Language.en, isTemp);
+    }
 
-        String qPath = getLibgdxQuestionPath(Language.en, false, cat.name(), diff);
+    static List<String> getQuestions(QuestionCategory cat, QuestionDifficulty diff, Language lang, boolean isTemp) {
+
+        String qPath = getLibgdxQuestionPath(lang, isTemp, cat.name(), diff);
         BufferedReader reader;
         List<String> questions = new ArrayList<>();
         try {

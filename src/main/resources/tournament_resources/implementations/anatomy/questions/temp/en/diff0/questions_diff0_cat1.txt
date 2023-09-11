@@ -1,12 +1,12 @@
-Skull:11,8,6:48,97
-Scapula:5,4,3:61.1,80.2
-Rib cage:11,7,0:56,74.1
-Spine:8,10,1:45.9,65.2
-Tibia:5,9,3:51.4,23.6
-Femur:4,10,7:54.9,35.5
-Humerus:2,7,9:69.1,66.2
-Metacarpal bones:6,0,1:81.3,44.8
-Carpal bones:5,4,2:77.1,48.7
-Tarsus:4,3,1:49.3,6.9
-Metatarsal bones:0,3,5:54.2,2.8
-Pelvis:0,6,9:59,58.3
+Skull:11,8,6:48,97:The skull is a bone protective cavity for the brain.
+Scapula:5,4,3:61.1,80.2:The scapula or shoulder blade is the bone that connects the clavicle to the humerus.
+Rib cage:11,7,0:56,74.1:The rib cage protects vital organs such as the heart, lungs and great vessels.
+Vertebral column:8,10,1:45.9,65.2:The vertebral column is a series of approximately 33 bones called vertebrae, which are separated by intervertebral discs.
+Tibia:5,9,3:51.4,23.6:The tibia is the larger of the two bones in the lower leg.
+Femur:4,10,7:54.9,35.5:The femur is your longest and strongest bone in your body.
+Humerus:2,7,9:69.1,66.2:The humerus is a long bone in the arm that runs from the shoulder to the elbow.
+Metacarpal bones:6,0,1:81.3,44.8:The metacarpal bones are five long bones of the hand.
+Carpal bones:5,4,2:77.1,48.7:The carpal bones are the eight small bones that make up the wrist.
+Tarsus:4,3,1:49.3,6.9:The tarsus is a cluster of seven articulating bones in each foot.
+Metatarsal bones:0,3,5:54.2,2.8:The metatarsal bones are a group of five long bones in the foot.
+Pelvis:0,6,9:59,58.3:The pelvis is a basin-shaped structure that supports the spinal column and protects the abdominal organs.

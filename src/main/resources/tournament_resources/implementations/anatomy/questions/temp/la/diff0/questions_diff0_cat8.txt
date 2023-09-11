@@ -1,0 +1,9 @@
+Aorta
+vena cava superior
+vena cava inferior
+Atrium dextrum
+Atrium sinistrum
+Valva atrioventricularis sinistra
+Ventriculus dexter
+Ventriculus sinister
+Valvula tricuspidalis
