@@ -1,6 +1,6 @@
-Oxigen:1,2,4:74.5,29,25
-Carbon:2,0,4:74.5,57,25
-Hidrogen:1,0,5:74.5,73.2,25
-Azot:1,0,2:74.5,83.5,25
-Calciu:0,1,2:74.5,91.2,25
-Fosfor:1,2,0:74.5,96.82,25
+Oxigen:1,2,4:74.5,29,25:Celulele corpului folosesc oxigenul pentru a produce energie.
+Carbon:2,0,4:74.5,57,25:Lanțurile de carbon sunt folosite pentru a construi carbohidrați, grăsimi, acizi nucleici și proteine.
+Hidrogen:1,0,5:74.5,73.2,25:Cea mai importantă funcție a hidrogenului în corpul uman este de a-l menține hidratat.
+Azot:1,0,2:74.5,83.5,25:Azotul se găsește în proteine și în acizii nucleici care alcătuiesc codul genetic.
+Calciu:0,1,2:74.5,91.2,25:Oamenii au nevoie de calciu pentru a construi și a menține oase puternice.
+Fosfor:1,2,0:74.5,96.82,25:Fosforul lucrează cu calciul pentru a ajuta la formarea oaselor. Organismul are nevoie de cantitatea corectă de calciu și fosfor pentru sănătatea oaselor.

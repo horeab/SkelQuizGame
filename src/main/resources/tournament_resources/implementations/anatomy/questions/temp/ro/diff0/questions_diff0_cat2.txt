@@ -1,6 +1,6 @@
-deltoid:4,1,5:65.3,80.2
-biceps:5,0,4:67.3,71.5
-pectoral:5,0,4:52.5,76.4
-trapez:1,5,4:51.4,85.5
-Oblicul extern abdominal:1,5,0:54.2,65.9
-Tibialis anterior:1,0,3:59.7,21.8
+deltoid:4,1,5:65.3,80.2:Deltoizii sunt cunoscuți și ca mușchi ai umerilor.
+biceps:5,0,4:67.3,71.5:Bicepsul este un mușchi proeminent pe partea din față a brațului.
+pectoral:5,0,4:52.5,76.4:Mușchii pectorali sunt mușchii care leagă partea din față a pieptului uman cu oasele brațului și umărului.
+trapez:1,5,4:51.4,85.5:Mușchiul trapez este un mușchi lat și plat care se extinde de la regiunea cervicală până la regiunea toracică pe partea posterioară a gâtului și a trunchiului.
+Oblicul extern abdominal:1,5,0:54.2,65.9:Mușchiul oblic extern abdominal este cel mai mare și cel mai exterior dintre cei trei mușchi abdominali ai abdomenului lateral anterior.
+Tibialis anterior:1,0,3:59.7,21.8:Mușchiul tibial anterior este un mușchi al compartimentului anterior al piciorului inferior.

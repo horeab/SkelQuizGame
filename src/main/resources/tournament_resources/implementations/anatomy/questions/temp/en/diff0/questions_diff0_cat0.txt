@@ -1,6 +1,6 @@
 Liver:1,2,3:29.2,45:The liver removes toxins from the body's blood supply, maintains healthy blood sugar levels, regulates blood clotting, and performs hundreds of other vital functions.
-Mouth:4,2,9:28.1,81.6:In human anatomy, the mouth is the first portion of the alimentary canal that receives food and produces saliva.
-Esophagus:1,8,5:48.6,58.6:The esophagus, historically also spelled oesophagus, is a tubular, elongated organ of the digestive system which connects the pharynx to the stomach.
+Mouth:4,2,9:28.1,81.6:The mouth is the first portion of the alimentary canal that receives food and produces saliva.
+Esophagus:1,8,5:48.6,58.6:The esophagus is a tubular, elongated organ of the digestive system which connects the pharynx to the stomach.
 Large intestine:4,2,6:20.5,21:The large intestine is responsible for processing indigestible food material after most nutrients are absorbed in the small intestine.
 Small intestine:8,7,1:52.4,19:The small intestine is an organ in the gastrointestinal tract where most of the absorption of nutrients from food takes place.
 Stomach:4,6,7:66,41:The stomach is a muscular sac in the middle of the upper abdomen that helps break down and digest food.

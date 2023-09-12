@@ -1,7 +1,7 @@
-Pavilionul urechii:1,2,4:8,31
-Canalul urechii:0,2,6:33.5,42.1
-Timpan:1,5,6:55.6,42
-Oscioarele urechii:1,0,6:54.3,52.9
-cohlee:6,1,5:75.8,45.7
-Nerv auditiv:6,2,1:91.8,48
-Tub Eustahian:5,1,3:77.3,28.3
+Pavilionul urechii:1,2,4:8,31:Pavilionul urechii este partea vizibilă a urechii care se află în afara capului.
+Canalul urechii:0,2,6:33.5,42.1:Canalul urechii este o cale care merge de la urechea externă la urechea medie.
+Timpan:1,5,6:55.6,42:timpanul, este o membrană subțire, în formă de con, care separă urechea externă de urechea medie.
+Oscioarele urechii:1,0,6:54.3,52.9:Oscioarele urechii sunt trei oase în fiecare ureche medie care sunt printre cele mai mici oase din corpul uman.
+cohlee:6,1,5:75.8,45.7:Cohleea este partea urechii interne implicată în auz.
+Nerv auditiv:6,2,1:91.8,48:Nervul auditiv este responsabil de transmiterea semnalelor auditive de la urechea internă către trunchiul cerebral.
+Trompa lui Eustachio:5,1,3:77.3,28.3:Trompa lui Eustachio este o deschidere care leagă urechea medie cu cavitatea nazală-sinusală.

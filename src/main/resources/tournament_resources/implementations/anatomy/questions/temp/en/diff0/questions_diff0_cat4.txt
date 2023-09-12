@@ -1,6 +1,6 @@
-Brain:5,4,3:50.4,96.8:A brain is an organ that serves as the center of the nervous system in all vertebrate and most invertebrate animals.
+Brain:5,4,3:50.4,96.8:The brain is an organ that serves as the center of the nervous system in all vertebrate and most invertebrate animals.
 Cerebellum:5,4,3:56,92.6:The cerebellum is a part of the brain that plays a vital role in most physical movement, including eye movements.
 Spinal cord:0,4,3:50.7,86.8:The spinal cord is a long, thin, tubular structure made up of nervous tissue.
-Sciatic nerve:0,4,5:59.4,37.6:The sciatic nerve is the largest and longest nerve in the human body, originating at the base of the spine and running along the back of each leg into the foot.
+Sciatic nerve:0,4,5:59.4,37.6:The sciatic nerve is the largest and longest nerve in the human body.
 Tibial nerve:1,5,3:61.1,19.4:The tibial nerve is the larger terminal branch of the two main muscular branches of the sciatic nerve.
 Ganglion:4,3,1:49,70:A ganglion is a group of neuron cell bodies in the peripheral nervous system.

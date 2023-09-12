@@ -1,6 +1,6 @@
-Inimă:4,2,5:65.3,73
-aortă:4,2,5:62.9,77.6
-vene renale:0,4,5:57.3,59.1
-Artera renală:0,5,4:61.5,59.1
-vene jugulare:0,2,5:60.4,86.1
-Venă femurală:0,2,4:67.4,37
+Inimă:4,2,5:65.3,73:Inima este un organ de mărimea unui pumn care pompează sânge în tot corpul.
+aortă:4,2,5:62.9,77.6:Aorta este artera principală și cea mai mare din corpul uman.
+vene renale:0,4,5:57.3,59.1:Venele renale din circulația renală, sunt vene de calibru mare care drenează sângele filtrat de rinichi.
+Artera renală:0,5,4:61.5,59.1:Arterele renale sunt singura alimentare vasculară a rinichilor.
+vene jugulare:0,2,5:60.4,86.1:Venele jugulare sunt vene care duc sângele dezoxigenat de la cap înapoi la inimă.
+Venă femurală:0,2,4:67.4,37:Vena femurală este vena care însoțește artera femurală în teaca femurală.

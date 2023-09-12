@@ -1,7 +1,7 @@
-Iris:6,3,4:11.3,57
-cornee:2,6,4:1.7,50.5
-cristalin:1,4,6:19,51.3
-Retină:1,6,4:64.6,76.8
-Nervul optic:0,6,3:87.9,36.2
-Camera anterioară:6,4,3:7.2,51.4
-Umoare vitroasă:1,4,3:49.3,65
+Iris:6,3,4:11.3,57:Irisul este o structură subțire a ochiului, responsabilă de controlul diametrului și mărimii pupilei.
+cornee:2,6,4:1.7,50.5:Corneea este partea frontală transparentă a ochiului care acoperă irisul.
+cristalin:1,4,6:19,51.3:Lentila refractează lumina, concentrând-o pe retină.
+Retină:1,6,4:64.6,76.8:Retina este cel mai interior, cel mai sensibil la lumină strat de țesut al ochiului.
+Nervul optic:0,6,3:87.9,36.2:Nervul optic transmite informații vizuale de la retină la creier.
+Camera anterioară:6,4,3:7.2,51.4:Camera anterioară este partea din față a ochiului dintre cornee și iris.
+Umoare vitroasă:1,4,3:49.3,65:Camera vitroasă este poziționată în partea din spate a globului ocular.

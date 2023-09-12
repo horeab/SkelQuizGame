@@ -1,8 +1,8 @@
-Buze:1,2,4:61.4,96.6
-uvula:6,2,0:48.6,51.8
-Molari:0,6,1:76.1,33
-incisivul:0,4,1:50.4,83
-Limba:7,2,0:48.2,27.6
-amigdale:4,0,6:69.5,46.8
-Palatul dur:1,2,0:48.6,73.8
-Palatul moale:4,2,0:56.3,61
+Buze:1,2,4:61.4,96.6:Buzele sunt două structuri anatomice care înconjoară orificiul bucal și sunt situate la intrarea în tubul digestiv.
+uvula:6,2,0:48.6,51.8:Uvula este partea moale, cărnoasă, care atârnă în partea din spate a gâtului.
+Molari:0,6,1:76.1,33:Molarii sunt dinții mari și plati din spatele gurii.
+incisivul:0,4,1:50.4,83:Incisivii sunt dinții din fața maxilarului superior și inferior și funcția lor principală este de a tăia alimente.
+Limba:7,2,0:48.2,27.6:Limba este un organ muscular format dintr-un aranjament complex de mușchi intrinseci și extrinseci.
+amigdale:4,0,6:69.5,46.8:Amigdalele sunt ganglioni limfatici în partea din spate a gurii și partea superioară a gâtului.
+Palatul dur:1,2,0:48.6,73.8:Palatul dur este acoperișul cavității bucale și separă acest loc de cavitatea nazală.
+Palatul moale:4,2,0:56.3,61:Palatul moale este țesutul moale care constituie partea din spate a cerului gurii.

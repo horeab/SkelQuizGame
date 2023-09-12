@@ -97,7 +97,10 @@ public class AnatomyQuestionProcessor {
         List<Language> languages = Arrays.asList(Language.ro);
         for (Language lang : languages) {
             for (QuestionDifficulty diff : Arrays.asList(AnatomyQuestionDifficultyLevel._0)) {
-                for (QuestionCategory cat : getQuestionParsers(diff).keySet()) {
+                for (QuestionCategory cat : Arrays.asList(
+                        AnatomyQuestionCategoryEnum.cat11
+                )) {
+//                for (QuestionCategory cat : getQuestionParsers(diff).keySet()) {
                     List<String> enQuestions = getEnglishQuestions(cat, diff, true);
                     List<String> langQuestions = getQuestions(cat, diff, lang, true);
                     List<String> langQuestionsWithDescr = new ArrayList<>();

@@ -1,10 +1,10 @@
-Ficat:1,2,3:29.2,45
-Gura:4,2,9:28.1,81.6
-Esofag:1,8,5:48.6,58.6
-Intestinul gros:4,2,6:20.5,21
-Intestinul subțire:8,7,1:52.4,19
-Stomac:4,6,7:66,41
-faringe:5,2,9:48.6,81
-Vezică biliară:6,9,4:31.3,39.6
-Pancreas:2,1,0:50,35.1
-Apendice:2,8,3:35.1,9.6
+Ficat:1,2,3:29.2,45:Ficatul elimină toxinele din aprovizionarea cu sânge a organismului, menține un nivel sănătos de zahăr din sânge, reglează coagularea sângelui și îndeplinește sute de alte funcții vitale.
+Gura:4,2,9:28.1,81.6:Gura este prima porțiune a canalului alimentar care primește hrana și produce saliva.
+Esofag:1,8,5:48.6,58.6:Esofagul este un organ tubular, alungit al sistemului digestiv, care leagă faringele de stomac.
+Intestinul gros:4,2,6:20.5,21:Intestinul gros este responsabil pentru procesarea materialului alimentar nedigerabil după ce majoritatea nutrienților sunt absorbiți în intestinul subțire.
+Intestinul subțire:8,7,1:52.4,19:Intestinul subțire este un organ din tractul gastrointestinal unde are loc cea mai mare parte a absorbției nutrienților din alimente.
+Stomac:4,6,7:66,41:Stomacul este un sac muscular în mijlocul abdomenului superior care ajută la descompunerea și la digerarea alimentelor.
+faringe:5,2,9:48.6,81:Faringele servește atât sistemul respirator, cât și cel digestiv, primind aer din cavitatea nazală și aer, alimente și apă din cavitatea bucală.
+Vezică biliară:6,9,4:31.3,39.6:Vezica biliară este un mic organ gol în care bila este stocată și concentrată înainte de a fi eliberată în intestinul subțire.
+Pancreas:2,1,0:50,35.1:Pancreasul are un rol esențial în transformarea alimentelor pe care le consumăm în combustibil pentru celulele organismului.
+Apendice:2,8,3:35.1,9.6:Cercetările sugerează că apendicele poate servi unui scop important ca rezervor pentru bacteriile intestinale benefice.

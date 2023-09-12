@@ -1,6 +1,6 @@
 Deltoid:4,1,5:65.3,80.2:Deltoids are also known as shoulder muscles.
-Biceps:5,0,4:67.3,71.5:The biceps is a large, thick muscle on the ventral portion of the upper arm.
+Biceps:5,0,4:67.3,71.5:The biceps is a prominent muscle on the front side of the upper arm.
 Pectoral:5,0,4:52.5,76.4:Pectoral muscles are the muscles that connect the front of the human chest with the bones of the upper arm and shoulder.
-Trapezius:1,5,4:51.4,85.5:The trapezius muscle is a large, trapezoid-shaped muscle in your neck, back, and shoulders.
-Abdominal external oblique:1,5,0:54.2,65.9:The abdominal external oblique muscle is the largest and outermost of the three flat abdominal muscles of the lateral anterior abdomen.
-Tibialis anterior:1,0,3:59.7,21.8:The tibialis anterior muscle is a muscle of the anterior compartmentof the lower leg.
+Trapezius:1,5,4:51.4,85.5:The trapezius muscle is a broad, flat muscle extending from the cervical region to thoracic region on the posterior aspect of the neck and trunk.
+Abdominal external oblique:1,5,0:54.2,65.9:The abdominal external oblique muscle is the largest and outermost of the three abdominal muscles of the lateral anterior abdomen.
+Tibialis anterior:1,0,3:59.7,21.8:The tibialis anterior muscle is a muscle of the anterior compartment of the lower leg.

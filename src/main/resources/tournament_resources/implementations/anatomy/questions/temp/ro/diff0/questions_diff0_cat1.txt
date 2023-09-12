@@ -1,12 +1,12 @@
-Craniu:11,8,6:48,97
-omoplat:5,4,3:61.1,80.2
-Coaste:11,7,0:56,74.1
-Coloană vertebrală:8,10,1:45.9,65.2
-Tibia:5,9,3:51.4,23.6
-Femur:4,10,7:54.9,35.5
-Humerus:2,7,9:69.1,66.2
-Oase metacarpiene:6,0,1:81.3,44.8
-Oasele carpului:5,4,2:77.1,48.7
-Tarsul:4,3,1:49.3,6.9
-Oase metatarsiene:0,3,5:54.2,2.8
-Pelvis:0,6,9:59,58.3
+Craniu:11,8,6:48,97:Craniul este o structură osoasă care conține și protejează creierul.
+omoplat:5,4,3:61.1,80.2:Omoplatul este osul care leagă clavicula de humerus.
+Coaste:11,7,0:56,74.1:Cutia toracică protejează organele vitale.
+Coloană vertebrală:8,10,1:45.9,65.2:Coloana vertebrală este o serie de aproximativ 33 de oase numite vertebre, care sunt separate prin discuri intervertebrale.
+Tibia:5,9,3:51.4,23.6:Tibia este cea mai mare dintre cele două oase din partea inferioară a piciorului.
+Femur:4,10,7:54.9,35.5:Femurul este cel mai lung și mai puternic os din corpul uman.
+Humerus:2,7,9:69.1,66.2:Humerusul este un os lung al brațului care merge de la umăr până la cot.
+Oase metacarpiene:6,0,1:81.3,44.8:Oasele metacarpiene sunt cinci oase lungi ale mâinii.
+Oasele carpului:5,4,2:77.1,48.7:Oasele carpiene sunt cele opt oase mici care alcătuiesc încheietura mâinii.
+Tarsul:4,3,1:49.3,6.9:Tarsul este un grup de șapte oase articulate în fiecare picior.
+Oase metatarsiene:0,3,5:54.2,2.8:Oasele metatarsiene sunt un grup de cinci oase lungi din picior.
+Pelvis:0,6,9:59,58.3:Pelvisul este o structură osoasă care susține coloana vertebrală și protejează organele abdominale.
