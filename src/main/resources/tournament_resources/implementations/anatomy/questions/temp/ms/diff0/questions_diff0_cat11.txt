@@ -1,6 +1,6 @@
-Oksigen:1,2,4:74.5,29,25
-Karbon:2,0,4:74.5,57,25
-Hidrogen:1,0,5:74.5,73.2,25
-Nitrogen:1,0,2:74.5,83.5,25
-Kalsium:0,1,2:74.5,91.2,25
-Fosfor:1,2,0:74.5,96.82,25
+Oksigen:1,2,4:74.5,29,25:Sel-sel badan menggunakan oksigen untuk menghasilkan tenaga.
+Karbon:2,0,4:74.5,57,25:Rantai karbon digunakan untuk membina karbohidrat, lemak, asid nukleik, dan protein.
+Hidrogen:1,0,5:74.5,73.2,25:Fungsi hidrogen yang paling penting dalam tubuh manusia adalah untuk memastikan ia terhidrat.
+Nitrogen:1,0,2:74.5,83.5,25:Nitrogen ditemui dalam protein dan dalam asid nukleik yang membentuk kod genetik.
+Kalsium:0,1,2:74.5,91.2,25:Manusia memerlukan kalsium untuk membina dan mengekalkan tulang yang kuat.
+Fosfor:1,2,0:74.5,96.82,25:Fosforus berfungsi dengan kalsium untuk membantu membina tulang. Tubuh memerlukan jumlah kalsium dan fosforus yang betul untuk kesihatan tulang.

@@ -1,12 +1,12 @@
-Kranium:11,8,6:48,97
-Skulderblad:5,4,3:61.1,80.2
-Revben:11,7,0:56,74.1
-Ryggrad:8,10,1:45.9,65.2
-Skenben:5,9,3:51.4,23.6
-Lårben:4,10,7:54.9,35.5
-Överarmsben:2,7,9:69.1,66.2
-Metacarpus:6,0,1:81.3,44.8
-Karpala ben:5,4,2:77.1,48.7
-Fotrotsben:4,3,1:49.3,6.9
-Mellanfot:0,3,5:54.2,2.8
-Bäcken:0,6,9:59,58.3
+Kranium:11,8,6:48,97:Skallen är en benstruktur som innehåller och skyddar hjärnan.
+Skulderblad:5,4,3:61.1,80.2:Scapula är det ben som förbinder nyckelbenet med överarmsbenet.
+Revben:11,7,0:56,74.1:Revbensburen skyddar de vitala organen.
+Ryggrad:8,10,1:45.9,65.2:Kotpelaren är en serie av cirka 33 ben som kallas kotor, som är åtskilda av mellankotskivor.
+Skenben:5,9,3:51.4,23.6:Tibia är det största av de två benen i underbenet.
+Lårben:4,10,7:54.9,35.5:Lårbenet är det längsta och starkaste benet i människokroppen.
+Överarmsben:2,7,9:69.1,66.2:Överarmsbenet är ett långt ben i armen som löper från axeln till armbågen.
+Metacarpus:6,0,1:81.3,44.8:Metakarpalbenen är fem långa ben i handen.
+Karpala ben:5,4,2:77.1,48.7:Karpalbenen är de åtta små ben som utgör handleden.
+Fotrotsben:4,3,1:49.3,6.9:Tarsus är ett kluster av sju artikulerande ben i varje fot.
+Mellanfot:0,3,5:54.2,2.8:Mellanfotsbenen är en grupp av fem långa ben i foten.
+Bäcken:0,6,9:59,58.3:Bäckenet är en benstruktur som stöder ryggraden och skyddar bukorganen.

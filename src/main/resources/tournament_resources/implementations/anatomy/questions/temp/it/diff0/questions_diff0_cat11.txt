@@ -1,6 +1,6 @@
-Ossigeno:1,2,4:74.5,29,25
-Carbon:2,0,4:74.5,57,25
-Idrogeno:1,0,5:74.5,73.2,25
-Azoto:1,0,2:74.5,83.5,25
-Calcio:0,1,2:74.5,91.2,25
-Fosforo:1,2,0:74.5,96.82,25
+Ossigeno:1,2,4:74.5,29,25:Le cellule del corpo utilizzano l’ossigeno per produrre energia.
+Carbon:2,0,4:74.5,57,25:Le catene di carbonio vengono utilizzate per costruire carboidrati, grassi, acidi nucleici e proteine.
+Idrogeno:1,0,5:74.5,73.2,25:La funzione più importante dell’idrogeno nel corpo umano è mantenerlo idratato.
+Azoto:1,0,2:74.5,83.5,25:L’azoto si trova nelle proteine ​​e negli acidi nucleici che compongono il codice genetico.
+Calcio:0,1,2:74.5,91.2,25:Gli esseri umani hanno bisogno di calcio per costruire e mantenere ossa forti.
+Fosforo:1,2,0:74.5,96.82,25:Il fosforo lavora con il calcio per aiutare a costruire le ossa. Il corpo ha bisogno della giusta quantità di calcio e fosforo per la salute delle ossa.

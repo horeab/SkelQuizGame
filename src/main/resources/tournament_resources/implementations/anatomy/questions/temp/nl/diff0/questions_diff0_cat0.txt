@@ -1,10 +1,10 @@
-Lever:1,2,3:29.2,45
-Mond:4,2,9:28.1,81.6
-slokdarm:1,8,5:48.6,58.6
-Dikke darm:4,2,6:20.5,21
-Dunne darm:8,7,1:52.4,19
-Maag:4,6,7:66,41
-Farynx:5,2,9:48.6,81
-galblaas:6,9,4:31.3,39.6
-Alvleesklier:2,1,0:50,35.1
-Wormvormig aanhangsel:2,8,3:35.1,9.6
+Lever:1,2,3:29.2,45:De lever verwijdert gifstoffen uit de bloedtoevoer van het lichaam, handhaaft een gezonde bloedsuikerspiegel, reguleert de bloedstolling en voert honderden andere vitale functies uit.
+Mond:4,2,9:28.1,81.6:De mond is het eerste deel van het spijsverteringskanaal dat voedsel ontvangt en speeksel produceert.
+slokdarm:1,8,5:48.6,58.6:De slokdarm is een buisvormig, langwerpig orgaan van het spijsverteringsstelsel dat de keelholte met de maag verbindt.
+Dikke darm:4,2,6:20.5,21:De dikke darm is verantwoordelijk voor de verwerking van onverteerbaar voedselmateriaal nadat de meeste voedingsstoffen in de dunne darm zijn opgenomen.
+Dunne darm:8,7,1:52.4,19:De dunne darm is een orgaan in het maag-darmkanaal waar het grootste deel van de opname van voedingsstoffen uit voedsel plaatsvindt.
+Maag:4,6,7:66,41:De maag is een spierzak in het midden van de bovenbuik die helpt bij het afbreken en verteren van voedsel.
+Farynx:5,2,9:48.6,81:De keelholte bedient zowel het ademhalings- als het spijsverteringsstelsel door lucht uit de neusholte en lucht, voedsel en water uit de mondholte te ontvangen.
+galblaas:6,9,4:31.3,39.6:De galblaas is een klein hol orgaan waar gal wordt opgeslagen en geconcentreerd voordat het in de dunne darm wordt vrijgegeven.
+Alvleesklier:2,1,0:50,35.1:De alvleesklier speelt een essentiële rol bij het omzetten van het voedsel dat we eten in brandstof voor de lichaamscellen.
+Wormvormig aanhangsel:2,8,3:35.1,9.6:Onderzoek wijst uit dat de appendix een belangrijk doel kan dienen als reservoir voor nuttige darmbacteriën.

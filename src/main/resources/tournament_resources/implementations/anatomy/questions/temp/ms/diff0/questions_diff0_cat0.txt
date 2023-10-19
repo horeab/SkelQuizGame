@@ -1,10 +1,10 @@
-Hati:1,2,3:29.2,45
-Mulut:4,2,9:28.1,81.6
-Esofagus:1,8,5:48.6,58.6
-usus besar:4,2,6:20.5,21
-Usus kecil:8,7,1:52.4,19
-Perut:4,6,7:66,41
-Farinks:5,2,9:48.6,81
-Pundi hempedu:6,9,4:31.3,39.6
-Pankreas:2,1,0:50,35.1
-Apendiks:2,8,3:35.1,9.6
+Hati:1,2,3:29.2,45:Hati mengeluarkan toksin daripada bekalan darah badan, mengekalkan paras gula darah yang sihat, mengawal pembekuan darah, dan melakukan ratusan fungsi penting yang lain.
+Mulut:4,2,9:28.1,81.6:Mulut adalah bahagian pertama saluran pencernaan yang menerima makanan dan menghasilkan air liur.
+Esofagus:1,8,5:48.6,58.6:Esofagus adalah organ sistem pencernaan berbentuk tiub yang memanjang yang menghubungkan farinks ke perut.
+usus besar:4,2,6:20.5,21:Usus besar bertanggungjawab untuk memproses bahan makanan yang tidak boleh dihadam selepas kebanyakan nutrien diserap dalam usus kecil.
+Usus kecil:8,7,1:52.4,19:Usus kecil adalah organ dalam saluran gastrousus di mana sebahagian besar penyerapan nutrien daripada makanan berlaku.
+Perut:4,6,7:66,41:Perut adalah kantung berotot di bahagian tengah bahagian atas abdomen yang membantu memecahkan dan mencerna makanan.
+Farinks:5,2,9:48.6,81:Farinks berfungsi untuk kedua-dua sistem pernafasan dan pencernaan dengan menerima udara dari rongga hidung dan udara, makanan dan air dari rongga mulut.
+Pundi hempedu:6,9,4:31.3,39.6:Pundi hempedu adalah organ berongga kecil di mana hempedu disimpan dan tertumpu sebelum dilepaskan ke dalam usus kecil.
+Pankreas:2,1,0:50,35.1:Pankreas mempunyai peranan penting dalam menukar makanan yang kita makan menjadi bahan bakar untuk sel-sel badan.
+Apendiks:2,8,3:35.1,9.6:Penyelidikan mencadangkan bahawa apendiks mungkin mempunyai tujuan penting sebagai takungan untuk bakteria usus yang bermanfaat.

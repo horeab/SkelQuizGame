@@ -3,7 +3,7 @@ Scapula:5,4,3:61.1,80.2:The scapula is the bone that connects the clavicle to th
 Rib cage:11,7,0:56,74.1:The rib cage protects the vital organs.
 Vertebral column:8,10,1:45.9,65.2:The vertebral column is a series of approximately 33 bones called vertebrae, which are separated by intervertebral discs.
 Tibia:5,9,3:51.4,23.6:The tibia is the larger of the two bones in the lower leg.
-Femur:4,10,7:54.9,35.5:The femur is your longest and strongest bone in the human body.
+Femur:4,10,7:54.9,35.5:The femur is the longest and strongest bone in the human body.
 Humerus:2,7,9:69.1,66.2:The humerus is a long bone in the arm that runs from the shoulder to the elbow.
 Metacarpal bones:6,0,1:81.3,44.8:The metacarpal bones are five long bones of the hand.
 Carpal bones:5,4,2:77.1,48.7:The carpal bones are the eight small bones that make up the wrist.

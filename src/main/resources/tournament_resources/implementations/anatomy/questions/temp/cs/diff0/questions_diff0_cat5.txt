@@ -1,8 +1,8 @@
-Rty:1,2,4:61.4,96.6
-Uvula:6,2,0:48.6,51.8
-Moláry:0,6,1:76.1,33
-Řezák:0,4,1:50.4,83
-Jazyk:7,2,0:48.2,27.6
-Mandle:4,0,6:69.5,46.8
-Tvrdý patro:1,2,0:48.6,73.8
-Měkký patro:4,2,0:56.3,61
+Rty:1,2,4:61.4,96.6:Rty jsou dvě anatomické struktury obklopující ústní otvor a nacházejí se u vstupu do trávicího traktu.
+Uvula:6,2,0:48.6,51.8:Uvula je měkká, masitá část, která visí dolů v zadní části hrdla.
+Moláry:0,6,1:76.1,33:Stoličky jsou velké ploché zuby v zadní části úst.
+Řezák:0,4,1:50.4,83:Řezáky jsou zuby v přední části horní a dolní čelisti a jejich primární funkcí je řezání potravy.
+Jazyk:7,2,0:48.2,27.6:Jazyk je svalový orgán tvořený složitým uspořádáním vnitřních a zevních svalů.
+Mandle:4,0,6:69.5,46.8:Mandle jsou lymfatické uzliny v zadní části úst a v horní části krku.
+Tvrdý patro:1,2,0:48.6,73.8:Tvrdé patro je střecha dutiny ústní a odděluje toto místo od dutiny nosní.
+Měkký patro:4,2,0:56.3,61:Měkké patro je měkká tkáň tvořící zadní část střechy úst.

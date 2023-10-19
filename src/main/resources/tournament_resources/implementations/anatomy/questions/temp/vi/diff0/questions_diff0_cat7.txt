@@ -1,7 +1,7 @@
-vành tai:1,2,4:8,31
-Ống tai:0,2,6:33.5,42.1
-Trống tai:1,5,6:55.6,42
-xương nhỏ:1,0,6:54.3,52.9
-Nam Kỳ:6,1,5:75.8,45.7
-Dây thần kinh thính giác:6,2,1:91.8,48
-Ống Eustachian:5,1,3:77.3,28.3
+vành tai:1,2,4:8,31:Vành tai là phần có thể nhìn thấy được của tai nằm bên ngoài đầu.
+Ống tai:0,2,6:33.5,42.1:Ống tai là con đường chạy từ tai ngoài đến tai giữa.
+Trống tai:1,5,6:55.6,42:Màng nhĩ là một màng mỏng hình nón ngăn cách tai ngoài với tai giữa.
+xương nhỏ:1,0,6:54.3,52.9:Xương nhỏ là ba xương ở tai giữa, nằm trong số những xương nhỏ nhất trong cơ thể con người.
+Nam Kỳ:6,1,5:75.8,45.7:Ốc tai là một phần của tai trong liên quan đến thính giác.
+Dây thần kinh thính giác:6,2,1:91.8,48:Dây thần kinh thính giác chịu trách nhiệm truyền tín hiệu thính giác từ tai trong đến thân não.
+Ống Eustachian:5,1,3:77.3,28.3:Ống Eustachian là lỗ nối tai giữa với khoang mũi-xoang.

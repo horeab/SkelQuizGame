@@ -1,8 +1,8 @@
-Bibir:1,2,4:61.4,96.6
-anak lidah:6,2,0:48.6,51.8
-Molar:0,6,1:76.1,33
-Gigi seri:0,4,1:50.4,83
-Lidah:7,2,0:48.2,27.6
-Mandel:4,0,6:69.5,46.8
-langit-langit keras:1,2,0:48.6,73.8
-Langit-langit lunak:4,2,0:56.3,61
+Bibir:1,2,4:61.4,96.6:Bibir adalah dua struktur anatomi yang mengelilingi lubang mulut dan terletak di pintu masuk saluran pencernaan.
+anak lidah:6,2,0:48.6,51.8:Uvula adalah bagian lunak dan berdaging yang menggantung di bagian belakang tenggorokan.
+Molar:0,6,1:76.1,33:Geraham adalah gigi pipih besar yang terletak di bagian belakang mulut.
+Gigi seri:0,4,1:50.4,83:Gigi seri adalah gigi di bagian depan rahang atas dan bawah yang fungsi utamanya adalah memotong makanan.
+Lidah:7,2,0:48.2,27.6:Lidah merupakan organ berotot yang dibentuk oleh susunan kompleks otot intrinsik dan ekstrinsik.
+Mandel:4,0,6:69.5,46.8:Amandel adalah kelenjar getah bening di bagian belakang mulut dan bagian atas tenggorokan.
+langit-langit keras:1,2,0:48.6,73.8:Langit-langit keras adalah atap rongga mulut dan memisahkan bagian ini dari rongga hidung.
+Langit-langit lunak:4,2,0:56.3,61:Langit-langit lunak adalah jaringan lunak yang membentuk bagian belakang langit-langit mulut.

@@ -1,7 +1,7 @@
-Stanična jezgra:5,3,2:57.3,75.5
-Stanična jezgrica:2,6,4:44.5,67.9,8
-Citoplazma:1,4,6:93.08,50.09,9
-Stanična membrana:2,5,1:90,24,14
-Ribosom:2,1,3:80.929,75.844,14
-Mitohondrija:1,2,3:51.4,90.35,18
-Endoplazmatski retikulum:2,4,1:63.9,25
+Stanična jezgra:5,3,2:57.3,75.5:Stanična jezgra sadrži većinu genetskog materijala stanice u obliku višestrukih linearnih molekula DNK organiziranih u strukture koje se nazivaju kromosomi.
+Stanična jezgrica:2,6,4:44.5,67.9,8:Jezgrica je najveća struktura u jezgri eukariotskih stanica.
+Citoplazma:1,4,6:93.08,50.09,9:Citoplazma je želatinozna tekućina koja ispunjava unutrašnjost stanice.
+Stanična membrana:2,5,1:90,24,14:Stanična membrana je biološka membrana koja odvaja i štiti unutrašnjost stanice od vanjskog okoliša.
+Ribosom:2,1,3:80.929,75.844,14:Ribosomi su makromolekularni strojevi, koji se nalaze unutar svih stanica, koji izvode biološku sintezu proteina.
+Mitohondrija:1,2,3:51.4,90.35,18:Mitohondriji proizvode energiju potrebnu za opstanak i funkcioniranje stanice.
+Endoplazmatski retikulum:2,4,1:63.9,25:Endoplazmatski retikulum je transportni sustav eukariotske stanice.

@@ -1,12 +1,12 @@
-Skalle:11,8,6:48,97
-skulderbladet:5,4,3:61.1,80.2
-Ribben:11,7,0:56,74.1
-Rygsøjle:8,10,1:45.9,65.2
-Skinneben:5,9,3:51.4,23.6
-Lårben:4,10,7:54.9,35.5
-Humerus:2,7,9:69.1,66.2
-Metacarpale knogler:6,0,1:81.3,44.8
-Karpale knogler:5,4,2:77.1,48.7
-Fodrod:4,3,1:49.3,6.9
-Metatarsale knogler:0,3,5:54.2,2.8
-Bækken:0,6,9:59,58.3
+Skalle:11,8,6:48,97:Kraniet er en knoglestruktur, der indeholder og beskytter hjernen.
+skulderbladet:5,4,3:61.1,80.2:Scapula er den knogle, der forbinder kravebenet med humerus.
+Ribben:11,7,0:56,74.1:Brystkassen beskytter de vitale organer.
+Rygsøjle:8,10,1:45.9,65.2:Hvirvelsøjlen er en serie på cirka 33 knogler kaldet hvirvler, som er adskilt af mellemhvirvelskiver.
+Skinneben:5,9,3:51.4,23.6:Skinnebenet er den største af de to knogler i underbenet.
+Lårben:4,10,7:54.9,35.5:Lårbenet er den længste og stærkeste knogle i menneskekroppen.
+Humerus:2,7,9:69.1,66.2:Humerus er en lang knogle i armen, der løber fra skulderen til albuen.
+Metacarpale knogler:6,0,1:81.3,44.8:Metacarpalknoglerne er fem lange håndknogler.
+Karpale knogler:5,4,2:77.1,48.7:Karpalknoglerne er de otte små knogler, der udgør håndleddet.
+Fodrod:4,3,1:49.3,6.9:Tarsus er en klynge af syv artikulerende knogler i hver fod.
+Metatarsale knogler:0,3,5:54.2,2.8:Metatarsale knogler er en gruppe på fem lange knogler i foden.
+Bækken:0,6,9:59,58.3:Bækken er en knoglestruktur, der understøtter rygsøjlen og beskytter maveorganerne.

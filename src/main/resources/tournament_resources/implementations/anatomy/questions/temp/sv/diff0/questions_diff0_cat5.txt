@@ -1,8 +1,8 @@
-Läpp:1,2,4:61.4,96.6
-Gomspene:6,2,0:48.6,51.8
-Molarer:0,6,1:76.1,33
-Framtand:0,4,1:50.4,83
-Tunga:7,2,0:48.2,27.6
-Tonsill:4,0,6:69.5,46.8
-Hårda gommen:1,2,0:48.6,73.8
-Mjuka gommen:4,2,0:56.3,61
+Läpp:1,2,4:61.4,96.6:Läpparna är två anatomiska strukturer som omger munmynningen och de är belägna vid ingången till matsmältningskanalen.
+Gomspene:6,2,0:48.6,51.8:Uvula är den mjuka, köttiga delen som hänger ner längst bak i halsen.
+Molarer:0,6,1:76.1,33:Molarer är de stora platta tänderna på baksidan av munnen.
+Framtand:0,4,1:50.4,83:Framtänder är tänder på framsidan av över- och underkäken och deras primära funktion är att skära mat.
+Tunga:7,2,0:48.2,27.6:Tungan är ett muskelorgan bildat av ett komplext arrangemang av inre och yttre muskler.
+Tonsill:4,0,6:69.5,46.8:Tonsillerna är lymfkörtlar på baksidan av munnen och toppen av halsen.
+Hårda gommen:1,2,0:48.6,73.8:Den hårda gommen är taket i munhålan och skiljer denna plats från näshålan.
+Mjuka gommen:4,2,0:56.3,61:Den mjuka gommen är den mjuka vävnaden som utgör baksidan av muntaket.

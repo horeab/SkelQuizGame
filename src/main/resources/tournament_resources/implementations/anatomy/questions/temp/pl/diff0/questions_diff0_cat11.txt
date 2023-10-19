@@ -1,6 +1,6 @@
-Tlen:1,2,4:74.5,29,25
-Węgiel:2,0,4:74.5,57,25
-Wodór:1,0,5:74.5,73.2,25
-Azot:1,0,2:74.5,83.5,25
-Wapń:0,1,2:74.5,91.2,25
-Fosfor:1,2,0:74.5,96.82,25
+Tlen:1,2,4:74.5,29,25:Komórki organizmu wykorzystują tlen do produkcji energii.
+Węgiel:2,0,4:74.5,57,25:Łańcuchy węglowe służą do budowy węglowodanów, tłuszczów, kwasów nukleinowych i białek.
+Wodór:1,0,5:74.5,73.2,25:Najważniejszą funkcją wodoru w organizmie człowieka jest utrzymywanie jego nawodnienia.
+Azot:1,0,2:74.5,83.5,25:Azot występuje w białkach i kwasach nukleinowych tworzących kod genetyczny.
+Wapń:0,1,2:74.5,91.2,25:Ludzie potrzebują wapnia do budowy i utrzymania mocnych kości.
+Fosfor:1,2,0:74.5,96.82,25:Fosfor współpracuje z wapniem, pomagając w budowie kości. Organizm potrzebuje odpowiedniej ilości wapnia i fosforu dla zdrowia kości.

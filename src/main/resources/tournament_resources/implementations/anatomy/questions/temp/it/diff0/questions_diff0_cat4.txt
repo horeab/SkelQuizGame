@@ -1,6 +1,6 @@
-Cervello:5,4,3:50.4,96.8
-cervelletto:5,4,3:56,92.6
-Midollo spinale:0,4,3:50.7,86.8
-Nervo sciatico:0,4,5:59.4,37.6
-Nervo tibiale:1,5,3:61.1,19.4
-Ganglio:4,3,1:49,70
+Cervello:5,4,3:50.4,96.8:Il cervello è un organo che funge da centro del sistema nervoso in tutti gli animali vertebrati e nella maggior parte degli invertebrati.
+cervelletto:5,4,3:56,92.6:Il cervelletto è una parte del cervello che svolge un ruolo vitale nella maggior parte dei movimenti fisici, compresi i movimenti oculari.
+Midollo spinale:0,4,3:50.7,86.8:Il midollo spinale è una struttura tubolare lunga e sottile costituita da tessuto nervoso.
+Nervo sciatico:0,4,5:59.4,37.6:Il nervo sciatico è il nervo più grande e lungo del corpo umano.
+Nervo tibiale:1,5,3:61.1,19.4:Il nervo tibiale è il ramo terminale più grande dei due principali rami muscolari del nervo sciatico.
+Ganglio:4,3,1:49,70:Un ganglio è un gruppo di corpi cellulari neuronali nel sistema nervoso periferico.

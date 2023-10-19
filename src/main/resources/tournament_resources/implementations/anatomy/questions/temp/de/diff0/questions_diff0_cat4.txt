@@ -1,6 +1,6 @@
-Gehirn:5,4,3:50.4,96.8
-Kleinhirn:5,4,3:56,92.6
-Rückenmark:0,4,3:50.7,86.8
-Ischiasnerv:0,4,5:59.4,37.6
-Tibialnerv:1,5,3:61.1,19.4
-Ganglion:4,3,1:49,70
+Gehirn:5,4,3:50.4,96.8:Das Gehirn ist ein Organ, das bei allen Wirbeltieren und den meisten wirbellosen Tieren als Zentrum des Nervensystems dient.
+Kleinhirn:5,4,3:56,92.6:Das Kleinhirn ist ein Teil des Gehirns, der bei den meisten körperlichen Bewegungen, einschließlich Augenbewegungen, eine entscheidende Rolle spielt.
+Rückenmark:0,4,3:50.7,86.8:Das Rückenmark ist eine lange, dünne, röhrenförmige Struktur aus Nervengewebe.
+Ischiasnerv:0,4,5:59.4,37.6:Der Ischiasnerv ist der größte und längste Nerv im menschlichen Körper.
+Tibialnerv:1,5,3:61.1,19.4:Der Nervus tibialis ist der größere Endast der beiden Hauptmuskeläste des Nervus ischiadicus.
+Ganglion:4,3,1:49,70:Ein Ganglion ist eine Gruppe neuronaler Zellkörper im peripheren Nervensystem.

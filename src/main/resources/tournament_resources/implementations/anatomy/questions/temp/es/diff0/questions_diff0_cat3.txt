@@ -1,6 +1,6 @@
-Corazón:4,2,5:65.3,73
-Aorta:4,2,5:62.9,77.6
-Venas renales:0,4,5:57.3,59.1
-Arteria renal:0,5,4:61.5,59.1
-Vena yugular:0,2,5:60.4,86.1
-Vena femoral:0,2,4:67.4,37
+Corazón:4,2,5:65.3,73:El corazón es un órgano del tamaño de un puño que bombea sangre por todo el cuerpo.
+Aorta:4,2,5:62.9,77.6:La aorta es la arteria principal y más grande del cuerpo humano.
+Venas renales:0,4,5:57.3,59.1:Las venas renales en la circulación renal, son venas de gran calibre que drenan la sangre filtrada por los riñones.
+Arteria renal:0,5,4:61.5,59.1:Las arterias renales son el único suministro vascular a los riñones.
+Vena yugular:0,2,5:60.4,86.1:Las venas yugulares son venas que llevan sangre desoxigenada desde la cabeza al corazón.
+Vena femoral:0,2,4:67.4,37:La vena femoral es la vena que acompaña a la arteria femoral en la vaina femoral.

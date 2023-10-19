@@ -1,6 +1,6 @@
-Oxígeno:1,2,4:74.5,29,25
-Carbono:2,0,4:74.5,57,25
-Hidrógeno:1,0,5:74.5,73.2,25
-Nitrógeno:1,0,2:74.5,83.5,25
-Calcio:0,1,2:74.5,91.2,25
-Fósforo:1,2,0:74.5,96.82,25
+Oxígeno:1,2,4:74.5,29,25:Las células del cuerpo utilizan oxígeno para producir energía.
+Carbono:2,0,4:74.5,57,25:Las cadenas de carbono se utilizan para formar carbohidratos, grasas, ácidos nucleicos y proteínas.
+Hidrógeno:1,0,5:74.5,73.2,25:La función más importante del hidrógeno en el cuerpo humano es mantenerlo hidratado.
+Nitrógeno:1,0,2:74.5,83.5,25:El nitrógeno se encuentra en las proteínas y en los ácidos nucleicos que forman el código genético.
+Calcio:0,1,2:74.5,91.2,25:Los seres humanos necesitan calcio para formar y mantener huesos fuertes.
+Fósforo:1,2,0:74.5,96.82,25:El fósforo trabaja con el calcio para ayudar a formar los huesos. El cuerpo necesita la cantidad correcta de calcio y fósforo para la salud ósea.

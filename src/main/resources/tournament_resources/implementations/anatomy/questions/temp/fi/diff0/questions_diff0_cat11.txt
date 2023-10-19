@@ -1,6 +1,6 @@
-Happi:1,2,4:74.5,29,25
-Hiili:2,0,4:74.5,57,25
-Vety:1,0,5:74.5,73.2,25
-Typpi:1,0,2:74.5,83.5,25
-Kalsium:0,1,2:74.5,91.2,25
-Fosfori:1,2,0:74.5,96.82,25
+Happi:1,2,4:74.5,29,25:Kehon solut käyttävät happea energian tuottamiseen.
+Hiili:2,0,4:74.5,57,25:Hiiliketjuja käytetään hiilihydraattien, rasvojen, nukleiinihappojen ja proteiinien rakentamiseen.
+Vety:1,0,5:74.5,73.2,25:Vedyn tärkein tehtävä ihmiskehossa on pitää se nesteytettynä.
+Typpi:1,0,2:74.5,83.5,25:Typpeä löytyy proteiineista ja nukleiinihapoista, jotka muodostavat geneettisen koodin.
+Kalsium:0,1,2:74.5,91.2,25:Ihminen tarvitsee kalsiumia vahvojen luiden rakentamiseen ja ylläpitämiseen.
+Fosfori:1,2,0:74.5,96.82,25:Fosfori toimii kalsiumin kanssa ja auttaa rakentamaan luita. Elimistö tarvitsee oikean määrän kalsiumia ja fosforia luuston terveydelle.

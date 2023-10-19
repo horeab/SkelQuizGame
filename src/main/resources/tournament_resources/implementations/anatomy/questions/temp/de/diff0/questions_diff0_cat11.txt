@@ -1,6 +1,6 @@
-Sauerstoff:1,2,4:74.5,29,25
-Kohlenstoff:2,0,4:74.5,57,25
-Wasserstoff:1,0,5:74.5,73.2,25
-Stickstoff:1,0,2:74.5,83.5,25
-Kalzium:0,1,2:74.5,91.2,25
-Phosphor:1,2,0:74.5,96.82,25
+Sauerstoff:1,2,4:74.5,29,25:Die Körperzellen nutzen Sauerstoff zur Energiegewinnung.
+Kohlenstoff:2,0,4:74.5,57,25:Kohlenstoffketten werden zum Aufbau von Kohlenhydraten, Fetten, Nukleinsäuren und Proteinen verwendet.
+Wasserstoff:1,0,5:74.5,73.2,25:Die wichtigste Funktion von Wasserstoff im menschlichen Körper besteht darin, ihn hydriert zu halten.
+Stickstoff:1,0,2:74.5,83.5,25:Stickstoff kommt in Proteinen und in den Nukleinsäuren vor, aus denen der genetische Code besteht.
+Kalzium:0,1,2:74.5,91.2,25:Der Mensch braucht Kalzium, um starke Knochen aufzubauen und zu erhalten.
+Phosphor:1,2,0:74.5,96.82,25:Phosphor unterstützt zusammen mit Kalzium den Knochenaufbau. Für die Knochengesundheit benötigt der Körper die richtige Menge an Kalzium und Phosphor.

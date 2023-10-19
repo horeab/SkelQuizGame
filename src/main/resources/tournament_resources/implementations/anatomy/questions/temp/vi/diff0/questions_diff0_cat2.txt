@@ -1,6 +1,6 @@
-cơ hình tam giác:4,1,5:65.3,80.2
-Bắp tay:5,0,4:67.3,71.5
-Cơ ngực:5,0,4:52.5,76.4
-Hình thang:1,5,4:51.4,85.5
-Xiên ngoài bụng:1,5,0:54.2,65.9
-Tibialis trước:1,0,3:59.7,21.8
+cơ hình tam giác:4,1,5:65.3,80.2:Deltoids còn được gọi là cơ vai.
+Bắp tay:5,0,4:67.3,71.5:Bắp tay là cơ nổi bật ở mặt trước của cánh tay trên.
+Cơ ngực:5,0,4:52.5,76.4:Cơ ngực là cơ nối phần trước ngực của con người với xương cánh tay trên và xương vai.
+Hình thang:1,5,4:51.4,85.5:Cơ hình thang là một cơ phẳng, rộng kéo dài từ vùng cổ đến vùng ngực ở mặt sau của cổ và thân.
+Xiên ngoài bụng:1,5,0:54.2,65.9:Cơ xiên ngoài bụng là cơ lớn nhất và ngoài cùng trong ba cơ bụng của vùng bụng trước bên.
+Tibialis trước:1,0,3:59.7,21.8:Cơ chày trước là một cơ của khoang trước của cẳng chân.

@@ -1,8 +1,8 @@
-Lip:1,2,4:61.4,96.6
-Huig:6,2,0:48.6,51.8
-Kies:0,6,1:76.1,33
-Snijtand:0,4,1:50.4,83
-Tong:7,2,0:48.2,27.6
-Keelamandel:4,0,6:69.5,46.8
-Harde gehemelte:1,2,0:48.6,73.8
-Zacht gehemelte:4,2,0:56.3,61
+Lip:1,2,4:61.4,96.6:De lippen zijn twee anatomische structuren die de mondopening omringen en bevinden zich bij de ingang van het spijsverteringskanaal.
+Huig:6,2,0:48.6,51.8:De huig is het zachte, vlezige deel dat achter in de keel naar beneden hangt.
+Kies:0,6,1:76.1,33:Kiezen zijn de grote platte tanden achter in de mond.
+Snijtand:0,4,1:50.4,83:Snijtanden zijn tanden aan de voorkant van de boven- en onderkaak en hun primaire functie is het snijden van voedsel.
+Tong:7,2,0:48.2,27.6:De tong is een spierorgaan dat wordt gevormd door een complexe opstelling van intrinsieke en extrinsieke spieren.
+Keelamandel:4,0,6:69.5,46.8:De amandelen zijn lymfeklieren achter in de mond en bovenaan de keel.
+Harde gehemelte:1,2,0:48.6,73.8:Het harde gehemelte is het dak van de mondholte en scheidt deze plek van de neusholte.
+Zacht gehemelte:4,2,0:56.3,61:Het zachte gehemelte is het zachte weefsel dat de achterkant van het gehemelte vormt.

@@ -1,6 +1,6 @@
-deltový sval:4,1,5:65.3,80.2
-bicepsový sval:5,0,4:67.3,71.5
-Prsný sval:5,0,4:52.5,76.4
-Lichobežníkový sval:1,5,4:51.4,85.5
-Vonkajší šikmý sval brucha:1,5,0:54.2,65.9
-Tibialis anterior:1,0,3:59.7,21.8
+deltový sval:4,1,5:65.3,80.2:Deltoidy sú tiež známe ako ramenné svaly.
+bicepsový sval:5,0,4:67.3,71.5:Biceps je výrazný sval na prednej strane nadlaktia.
+Prsný sval:5,0,4:52.5,76.4:Prsné svaly sú svaly, ktoré spájajú prednú časť ľudského hrudníka s kosťami nadlaktia a ramena.
+Lichobežníkový sval:1,5,4:51.4,85.5:Trapézový sval je široký, plochý sval siahajúci od krčnej oblasti po hrudnú oblasť na zadnej strane krku a trupu.
+Vonkajší šikmý sval brucha:1,5,0:54.2,65.9:Brušný vonkajší šikmý sval je najväčší a najvzdialenejší z troch brušných svalov bočného predného brucha.
+Tibialis anterior:1,0,3:59.7,21.8:Tibialis anterior je sval predného oddelenia dolnej časti nohy.

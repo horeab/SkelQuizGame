@@ -1,7 +1,7 @@
-tròng đen:6,3,4:11.3,57
-giác mạc:2,6,4:1.7,50.5
-thủy tinh thể:1,4,6:19,51.3
-võng mạc:1,6,4:64.6,76.8
-thần kinh thị giác:0,6,3:87.9,36.2
-Khoang phía trước:6,4,3:7.2,51.4
-Pha lê dịch:1,4,3:49.3,65
+tròng đen:6,3,4:11.3,57:Mống mắt là một cấu trúc mỏng trong mắt, chịu trách nhiệm kiểm soát đường kính và kích thước của đồng tử.
+giác mạc:2,6,4:1.7,50.5:Giác mạc là phần phía trước trong suốt của mắt bao phủ mống mắt.
+thủy tinh thể:1,4,6:19,51.3:Thấu kính khúc xạ ánh sáng, tập trung ánh sáng vào võng mạc.
+võng mạc:1,6,4:64.6,76.8:Võng mạc là lớp mô trong cùng, nhạy cảm với ánh sáng của mắt.
+thần kinh thị giác:0,6,3:87.9,36.2:Dây thần kinh thị giác truyền thông tin thị giác từ võng mạc đến não.
+Khoang phía trước:6,4,3:7.2,51.4:Khoang trước là phần phía trước của mắt giữa giác mạc và mống mắt.
+Pha lê dịch:1,4,3:49.3,65:Buồng thủy tinh nằm ở phía sau nhãn cầu.

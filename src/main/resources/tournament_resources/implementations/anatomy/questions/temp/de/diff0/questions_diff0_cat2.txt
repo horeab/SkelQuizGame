@@ -1,6 +1,6 @@
-Deltoideus:4,1,5:65.3,80.2
-Bizeps:5,0,4:67.3,71.5
-Brustmuskel:5,0,4:52.5,76.4
-Trapezmuskel:1,5,4:51.4,85.5
-Äußerer schräger Bauchmuskel:1,5,0:54.2,65.9
-Musculus tibialis:1,0,3:59.7,21.8
+Deltoideus:4,1,5:65.3,80.2:Deltoideus wird auch als Schultermuskeln bezeichnet.
+Bizeps:5,0,4:67.3,71.5:Der Bizeps ist ein markanter Muskel an der Vorderseite des Oberarms.
+Brustmuskel:5,0,4:52.5,76.4:Brustmuskeln sind die Muskeln, die die Vorderseite der menschlichen Brust mit den Knochen des Oberarms und der Schulter verbinden.
+Trapezmuskel:1,5,4:51.4,85.5:Der Trapezmuskel ist ein breiter, flacher Muskel, der sich von der Halsregion bis zur Brustregion an der Rückseite des Halses und Rumpfes erstreckt.
+Äußerer schräger Bauchmuskel:1,5,0:54.2,65.9:Der äußere schräge Bauchmuskel ist der größte und äußerste der drei Bauchmuskeln des seitlichen vorderen Bauches.
+Musculus tibialis:1,0,3:59.7,21.8:Der Musculus tibialis anterior ist ein Muskel des vorderen Kompartiments des Unterschenkels.

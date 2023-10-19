@@ -1,10 +1,10 @@
-Pečeň:1,2,3:29.2,45
-Ústna dutina:4,2,9:28.1,81.6
-pažerák:1,8,5:48.6,58.6
-hrubé črevo:4,2,6:20.5,21
-Tenké črevo:8,7,1:52.4,19
-Žalúdok:4,6,7:66,41
-Hltan:5,2,9:48.6,81
-žlčníka:6,9,4:31.3,39.6
-Pankreas:2,1,0:50,35.1
-slepého čreva:2,8,3:35.1,9.6
+Pečeň:1,2,3:29.2,45:Pečeň odvádza toxíny z krvného zásobenia tela, udržiava zdravú hladinu cukru v krvi, reguluje zrážanlivosť krvi a plní stovky ďalších životne dôležitých funkcií.
+Ústna dutina:4,2,9:28.1,81.6:Ústa sú prvou časťou tráviaceho traktu, ktorá prijíma potravu a produkuje sliny.
+pažerák:1,8,5:48.6,58.6:Pažerák je tubulárny, predĺžený orgán tráviaceho systému, ktorý spája hltan so žalúdkom.
+hrubé črevo:4,2,6:20.5,21:Hrubé črevo je zodpovedné za spracovanie nestráviteľného potravinového materiálu po absorpcii väčšiny živín v tenkom čreve.
+Tenké črevo:8,7,1:52.4,19:Tenké črevo je orgán v gastrointestinálnom trakte, kde prebieha väčšina absorpcie živín z potravy.
+Žalúdok:4,6,7:66,41:Žalúdok je svalový vak v strede hornej časti brucha, ktorý pomáha rozkladať a tráviť potravu.
+Hltan:5,2,9:48.6,81:Hltan slúži dýchaciemu aj tráviacemu systému tým, že prijíma vzduch z nosnej dutiny a vzduch, potravu a vodu z ústnej dutiny.
+žlčníka:6,9,4:31.3,39.6:Žlčník je malý dutý orgán, kde sa skladuje a koncentruje žlč predtým, ako sa uvoľní do tenkého čreva.
+Pankreas:2,1,0:50,35.1:Pankreas má zásadnú úlohu pri premene potravy, ktorú jeme, na palivo pre bunky tela.
+slepého čreva:2,8,3:35.1,9.6:Výskum naznačuje, že slepé črevo môže slúžiť dôležitému účelu ako rezervoár pre prospešné črevné baktérie.

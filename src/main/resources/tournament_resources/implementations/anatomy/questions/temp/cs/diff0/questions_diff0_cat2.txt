@@ -1,6 +1,6 @@
-Deltový sval:4,1,5:65.3,80.2
-Biceps:5,0,4:67.3,71.5
-Prsní sval:5,0,4:52.5,76.4
-Sval trapézový:1,5,4:51.4,85.5
-Břišní vnější šikmý sval:1,5,0:54.2,65.9
-Tibialis anterior:1,0,3:59.7,21.8
+Deltový sval:4,1,5:65.3,80.2:Deltoidy jsou také známé jako ramenní svaly.
+Biceps:5,0,4:67.3,71.5:Biceps je výrazný sval na přední straně nadloktí.
+Prsní sval:5,0,4:52.5,76.4:Prsní svaly jsou svaly, které spojují přední část lidského hrudníku s kostmi nadloktí a ramene.
+Sval trapézový:1,5,4:51.4,85.5:Trapézový sval je široký, plochý sval táhnoucí se od krční oblasti k hrudní oblasti na zadní straně krku a trupu.
+Břišní vnější šikmý sval:1,5,0:54.2,65.9:Břišní vnější šikmý sval je největší a nejvzdálenější ze tří břišních svalů bočního předního břicha.
+Tibialis anterior:1,0,3:59.7,21.8:Tibialis anterior je sval předního kompartmentu bérce.

@@ -1,12 +1,12 @@
-Tengkorak:11,8,6:48,97
-Tulang belikat:5,4,3:61.1,80.2
-tulang rusuk:11,7,0:56,74.1
-tulang belakang:8,10,1:45.9,65.2
-Tulang kering:5,9,3:51.4,23.6
-Femur:4,10,7:54.9,35.5
-Humerus:2,7,9:69.1,66.2
-Metakarpus:6,0,1:81.3,44.8
-Karpus:5,4,2:77.1,48.7
-Tarsus:4,3,1:49.3,6.9
-tulang metatarsal:0,3,5:54.2,2.8
-Pelvis:0,6,9:59,58.3
+Tengkorak:11,8,6:48,97:Tengkorak adalah struktur tulang yang mengandungi dan melindungi otak.
+Tulang belikat:5,4,3:61.1,80.2:Skapula adalah tulang yang menghubungkan klavikula dengan humerus.
+tulang rusuk:11,7,0:56,74.1:Sangkar rusuk melindungi organ penting.
+tulang belakang:8,10,1:45.9,65.2:Lajur vertebra adalah satu siri kira-kira 33 tulang yang dipanggil vertebra, yang dipisahkan oleh cakera intervertebral.
+Tulang kering:5,9,3:51.4,23.6:Tibia adalah yang lebih besar daripada dua tulang di bahagian bawah kaki.
+Femur:4,10,7:54.9,35.5:Femur adalah tulang terpanjang dan terkuat dalam tubuh manusia.
+Humerus:2,7,9:69.1,66.2:Humerus adalah tulang panjang di lengan yang berjalan dari bahu ke siku.
+Metakarpus:6,0,1:81.3,44.8:Tulang metakarpal ialah lima tulang panjang tangan.
+Karpus:5,4,2:77.1,48.7:Tulang karpal ialah lapan tulang kecil yang membentuk pergelangan tangan.
+Tarsus:4,3,1:49.3,6.9:Tarsus ialah sekumpulan tujuh tulang artikulasi pada setiap kaki.
+tulang metatarsal:0,3,5:54.2,2.8:Tulang metatarsal adalah sekumpulan lima tulang panjang di kaki.
+Pelvis:0,6,9:59,58.3:Pelvis ialah struktur tulang yang menyokong kolum tulang belakang dan melindungi organ perut.

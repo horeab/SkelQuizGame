@@ -1,12 +1,12 @@
-Kallo:11,8,6:48,97
-lapaluun:5,4,3:61.1,80.2
-kylkiluut:11,7,0:56,74.1
-Selkäranka:8,10,1:45.9,65.2
-Sääriluu:5,9,3:51.4,23.6
-Reisi:4,10,7:54.9,35.5
-Olkaluu:2,7,9:69.1,66.2
-Metakarpaaliset luut:6,0,1:81.3,44.8
-Karpaalihakset:5,4,2:77.1,48.7
-Nilkkaluu:4,3,1:49.3,6.9
-Metatarsaaliset luut:0,3,5:54.2,2.8
-Lantio:0,6,9:59,58.3
+Kallo:11,8,6:48,97:Kallo on luurakenne, joka sisältää ja suojaa aivoja.
+lapaluun:5,4,3:61.1,80.2:Lapaluu on luu, joka yhdistää solisluun olkaluuhun.
+kylkiluut:11,7,0:56,74.1:Rintakehä suojaa elintärkeitä elimiä.
+Selkäranka:8,10,1:45.9,65.2:Selkäranka on sarja noin 33 luuta, joita kutsutaan nikamiin ja jotka on erotettu nikamien välisillä levyillä.
+Sääriluu:5,9,3:51.4,23.6:Sääriluu on suurempi säären kahdesta luusta.
+Reisi:4,10,7:54.9,35.5:Reisiluu on ihmiskehon pisin ja vahvin luu.
+Olkaluu:2,7,9:69.1,66.2:Olkavarsi on pitkä luu käsivarressa, joka ulottuu olkapäästä kyynärpäähän.
+Metakarpaaliset luut:6,0,1:81.3,44.8:Kämmenluut ovat viisi pitkää käden luuta.
+Karpaalihakset:5,4,2:77.1,48.7:Ranneluun kuuluvat kahdeksan pientä luuta, jotka muodostavat ranteen.
+Nilkkaluu:4,3,1:49.3,6.9:Tarsus on rykelmä, jossa on seitsemän nivellettyä luuta kummassakin jalassa.
+Metatarsaaliset luut:0,3,5:54.2,2.8:Jalanjalkapääluut ovat viiden pitkän luun ryhmä jalassa.
+Lantio:0,6,9:59,58.3:Lantio on luurakenne, joka tukee selkärankaa ja suojaa vatsan elimiä.

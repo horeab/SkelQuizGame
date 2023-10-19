@@ -1,6 +1,6 @@
-Deltoide:4,1,5:65.3,80.2
-Bicipiti:5,0,4:67.3,71.5
-Pettorale:5,0,4:52.5,76.4
-Trapezio:1,5,4:51.4,85.5
-Muscolo obliquo esterno:1,5,0:54.2,65.9
-Muscolo tibiale anteriore:1,0,3:59.7,21.8
+Deltoide:4,1,5:65.3,80.2:I deltoidi sono anche conosciuti come muscoli della spalla.
+Bicipiti:5,0,4:67.3,71.5:Il bicipite è un muscolo prominente sulla parte anteriore della parte superiore del braccio.
+Pettorale:5,0,4:52.5,76.4:I muscoli pettorali sono i muscoli che collegano la parte anteriore del torace umano con le ossa della parte superiore del braccio e della spalla.
+Trapezio:1,5,4:51.4,85.5:Il muscolo trapezio è un muscolo largo e piatto che si estende dalla regione cervicale alla regione toracica sulla parte posteriore del collo e del tronco.
+Muscolo obliquo esterno:1,5,0:54.2,65.9:Il muscolo obliquo esterno dell’addome è il più grande ed il più esterno dei tre muscoli addominali dell’addome laterale anteriore.
+Muscolo tibiale anteriore:1,0,3:59.7,21.8:Il muscolo tibiale anteriore è un muscolo del compartimento anteriore della parte inferiore della gamba.

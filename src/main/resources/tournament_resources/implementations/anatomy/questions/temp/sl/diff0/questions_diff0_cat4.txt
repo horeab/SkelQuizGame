@@ -1,6 +1,6 @@
-možgani:5,4,3:50.4,96.8
-Mali možgani:5,4,3:56,92.6
-Hrbtenjača:0,4,3:50.7,86.8
-Išijatični živec:0,4,5:59.4,37.6
-Tibialni živec:1,5,3:61.1,19.4
-Ganglij:4,3,1:49,70
+možgani:5,4,3:50.4,96.8:Možgani so organ, ki služi kot središče živčnega sistema pri vseh vretenčarjih in večini nevretenčarjev.
+Mali možgani:5,4,3:56,92.6:Mali možgani so del možganov, ki ima ključno vlogo pri večini fizičnih gibanj, vključno z gibi oči.
+Hrbtenjača:0,4,3:50.7,86.8:Hrbtenjača je dolga, tanka cevasta struktura, sestavljena iz živčnega tkiva.
+Išijatični živec:0,4,5:59.4,37.6:Ishiadični živec je največji in najdaljši živec v človeškem telesu.
+Tibialni živec:1,5,3:61.1,19.4:Tibialni živec je večja terminalna veja dveh glavnih mišičnih vej ishiadičnega živca.
+Ganglij:4,3,1:49,70:Ganglij je skupina teles nevronskih celic v perifernem živčnem sistemu.

@@ -1,6 +1,6 @@
-Musculus deltoideus:4,1,5:65.3,80.2
-Biceps:5,0,4:67.3,71.5
-Borstspier:5,0,4:52.5,76.4
-Trapezius:1,5,4:51.4,85.5
-buitenste schuine buikspier:1,5,0:54.2,65.9
-Tibialis anterior:1,0,3:59.7,21.8
+Musculus deltoideus:4,1,5:65.3,80.2:Deltoïden worden ook wel schouderspieren genoemd.
+Biceps:5,0,4:67.3,71.5:De biceps is een prominente spier aan de voorkant van de bovenarm.
+Borstspier:5,0,4:52.5,76.4:Borstspieren zijn de spieren die de voorkant van de menselijke borst verbinden met de botten van de bovenarm en schouder.
+Trapezius:1,5,4:51.4,85.5:De trapeziusspier is een brede, platte spier die zich uitstrekt van het cervicale gebied tot het thoracale gebied aan de achterkant van de nek en de romp.
+buitenste schuine buikspier:1,5,0:54.2,65.9:De externe schuine buikspier is de grootste en buitenste van de drie buikspieren van de laterale voorste buik.
+Tibialis anterior:1,0,3:59.7,21.8:De tibialis anterieure spier is een spier van het voorste compartiment van het onderbeen.

@@ -1,12 +1,12 @@
-Kafatası:11,8,6:48,97
-Kürek kemiği:5,4,3:61.1,80.2
-kaburga:11,7,0:56,74.1
-Omurga:8,10,1:45.9,65.2
-Kaval kemiği:5,9,3:51.4,23.6
-Uyluk:4,10,7:54.9,35.5
-humerus:2,7,9:69.1,66.2
-Metakarpal kemikler:6,0,1:81.3,44.8
-Karpal kemikler:5,4,2:77.1,48.7
-tarsal kemikleri:4,3,1:49.3,6.9
-Metatarsal kemikler:0,3,5:54.2,2.8
-Pelvis:0,6,9:59,58.3
+Kafatası:11,8,6:48,97:Kafatası beyni barındıran ve koruyan kemik bir yapıdır.
+Kürek kemiği:5,4,3:61.1,80.2:Kürek kemiği, klavikulayı humerusa bağlayan kemiktir.
+kaburga:11,7,0:56,74.1:Göğüs kafesi hayati organları korur.
+Omurga:8,10,1:45.9,65.2:Omurga, omurlar arası disklerle ayrılan, omur adı verilen yaklaşık 33 kemikten oluşan bir seridir.
+Kaval kemiği:5,9,3:51.4,23.6:Tibia alt bacaktaki iki kemikten daha büyük olanıdır.
+Uyluk:4,10,7:54.9,35.5:Femur insan vücudundaki en uzun ve en güçlü kemiktir.
+humerus:2,7,9:69.1,66.2:Humerus, kolda omuzdan dirseğe kadar uzanan uzun bir kemiktir.
+Metakarpal kemikler:6,0,1:81.3,44.8:Metakarpal kemikler elin beş uzun kemiğidir.
+Karpal kemikler:5,4,2:77.1,48.7:Karpal kemikler bileği oluşturan sekiz küçük kemiktir.
+tarsal kemikleri:4,3,1:49.3,6.9:Tarsus, her ayaktaki yedi eklemli kemikten oluşan bir kümedir.
+Metatarsal kemikler:0,3,5:54.2,2.8:Metatarsal kemikler ayaktaki beş uzun kemikten oluşan bir gruptur.
+Pelvis:0,6,9:59,58.3:Pelvis, omurgayı destekleyen ve karın organlarını koruyan bir kemik yapısıdır.

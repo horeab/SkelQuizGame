@@ -1,10 +1,10 @@
-Jetra:1,2,3:29.2,45
-Usta:4,2,9:28.1,81.6
-Požiralnik:1,8,5:48.6,58.6
-Debelega črevesa:4,2,6:20.5,21
-Tanko črevo:8,7,1:52.4,19
-želodec:4,6,7:66,41
-žrelo:5,2,9:48.6,81
-Žolčnika:6,9,4:31.3,39.6
-trebušna slinavka:2,1,0:50,35.1
-Slepič:2,8,3:35.1,9.6
+Jetra:1,2,3:29.2,45:Jetra odstranjujejo toksine iz telesne oskrbe s krvjo, vzdržujejo zdravo raven sladkorja v krvi, uravnavajo strjevanje krvi in ​​opravljajo na stotine drugih vitalnih funkcij.
+Usta:4,2,9:28.1,81.6:Usta so prvi del prebavnega kanala, ki sprejema hrano in proizvaja slino.
+Požiralnik:1,8,5:48.6,58.6:Požiralnik je cevast, podolgovat organ prebavnega sistema, ki povezuje žrelo z želodcem.
+Debelega črevesa:4,2,6:20.5,21:Debelo črevo je odgovorno za predelavo neprebavljive hrane, potem ko se večina hranil absorbira v tankem črevesu.
+Tanko črevo:8,7,1:52.4,19:Tanko črevo je organ v prebavnem traktu, kjer poteka večina absorpcije hranilnih snovi iz hrane.
+želodec:4,6,7:66,41:Želodec je mišična vreča na sredini zgornjega dela trebuha, ki pomaga razgraditi in prebaviti hrano.
+žrelo:5,2,9:48.6,81:Žrelo služi tako dihalnemu kot prebavnemu sistemu, tako da sprejema zrak iz nosne votline ter zrak, hrano in vodo iz ustne votline.
+Žolčnika:6,9,4:31.3,39.6:Žolčnik je majhen votel organ, kjer se žolč shranjuje in koncentrira, preden se sprosti v tanko črevo.
+trebušna slinavka:2,1,0:50,35.1:Pankreasa ima bistveno vlogo pri pretvarjanju hrane, ki jo zaužijemo, v gorivo za telesne celice.
+Slepič:2,8,3:35.1,9.6:Raziskave kažejo, da ima lahko slepič pomemben namen kot rezervoar za koristne črevesne bakterije.

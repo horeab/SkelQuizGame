@@ -1,7 +1,7 @@
-Ytteröra:1,2,4:8,31
-Örkanal:0,2,6:33.5,42.1
-Örontrumma:1,5,6:55.6,42
-hörselbenen:1,0,6:54.3,52.9
-Hörselsnäckan:6,1,5:75.8,45.7
-Auditiv nerv:6,2,1:91.8,48
-Eustachian rör:5,1,3:77.3,28.3
+Ytteröra:1,2,4:8,31:Öronen är den synliga delen av örat som är utanför huvudet.
+Örkanal:0,2,6:33.5,42.1:Hörselgången är en väg som går från ytterörat till mellanörat.
+Örontrumma:1,5,6:55.6,42:trumhinnan, är ett tunt, konformat membran som skiljer det yttre örat från mellanörat.
+hörselbenen:1,0,6:54.3,52.9:Öronbenen är tre ben i vardera mellanörat som är bland de minsta benen i människokroppen.
+Hörselsnäckan:6,1,5:75.8,45.7:Cochlea är den del av innerörat som är involverad i hörseln.
+Auditiv nerv:6,2,1:91.8,48:Hörselnerven är ansvarig för att överföra hörselsignaler från innerörat till hjärnstammen.
+Eustachian rör:5,1,3:77.3,28.3:Eustachian-röret är en öppning som förbinder mellanörat med näshålan.

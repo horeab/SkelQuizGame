@@ -1,6 +1,6 @@
-Kolmipäinen hartialihas:4,1,5:65.3,80.2
-hauis:5,0,4:67.3,71.5
-Rintakehän lihakset:5,0,4:52.5,76.4
-Epäkäslihas:1,5,4:51.4,85.5
-Ulompi vino vatsalihas:1,5,0:54.2,65.9
-Tibialis etuosa:1,0,3:59.7,21.8
+Kolmipäinen hartialihas:4,1,5:65.3,80.2:Deltoidit tunnetaan myös olkapäälihaksina.
+hauis:5,0,4:67.3,71.5:Hauislihas on näkyvä lihas olkavarren etupuolella.
+Rintakehän lihakset:5,0,4:52.5,76.4:Rintalihakset ovat lihaksia, jotka yhdistävät ihmisen rintakehän etuosan olkavarren ja olkapään luihin.
+Epäkäslihas:1,5,4:51.4,85.5:Trapezius-lihas on leveä, litteä lihas, joka ulottuu kohdunkaulan alueelta rintakehän alueelle kaulan ja vartalon takaosassa.
+Ulompi vino vatsalihas:1,5,0:54.2,65.9:Vatsan ulkoinen vino lihas on suurin ja uloin lateraalisen etuvatsan kolmesta vatsalihaksesta.
+Tibialis etuosa:1,0,3:59.7,21.8:Tibialis anterior -lihas on säären etuosan lihas.

@@ -1,7 +1,7 @@
-Iris:6,3,4:11.3,57
-hoornvlies:2,6,4:1.7,50.5
-Linse:1,4,6:19,51.3
-netvlies:1,6,4:64.6,76.8
-Oogzenuw:0,6,3:87.9,36.2
-voorste oogkamer:6,4,3:7.2,51.4
-Glasachtig lichaam:1,4,3:49.3,65
+Iris:6,3,4:11.3,57:De iris is een dunne structuur in het oog, die verantwoordelijk is voor het regelen van de diameter en grootte van de pupil.
+hoornvlies:2,6,4:1.7,50.5:Het hoornvlies is het transparante voorste deel van het oog dat de iris bedekt.
+Linse:1,4,6:19,51.3:De lens breekt het licht en focust het op het netvlies.
+netvlies:1,6,4:64.6,76.8:Het netvlies is de binnenste, lichtgevoelige weefsellaag van het oog.
+Oogzenuw:0,6,3:87.9,36.2:De oogzenuw verzendt visuele informatie van het netvlies naar de hersenen.
+voorste oogkamer:6,4,3:7.2,51.4:De voorste oogkamer is het voorste deel van het oog, tussen het hoornvlies en de iris.
+Glasachtig lichaam:1,4,3:49.3,65:De glasachtige kamer bevindt zich aan de achterkant van de oogbol.

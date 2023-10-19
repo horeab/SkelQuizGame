@@ -1,8 +1,8 @@
-Lèvres:1,2,4:61.4,96.6
-Luette:6,2,0:48.6,51.8
-Molaire:0,6,1:76.1,33
-Incisive:0,4,1:50.4,83
-Langue:7,2,0:48.2,27.6
-Amygdale:4,0,6:69.5,46.8
-Palais dur:1,2,0:48.6,73.8
-palais mou:4,2,0:56.3,61
+Lèvres:1,2,4:61.4,96.6:Les lèvres sont deux structures anatomiques entourant l’orifice buccal et elles sont situées à l’entrée du tube digestif.
+Luette:6,2,0:48.6,51.8:La luette est la partie molle et charnue qui pend au fond de la gorge.
+Molaire:0,6,1:76.1,33:Les molaires sont les grandes dents plates situées au fond de la bouche.
+Incisive:0,4,1:50.4,83:Les incisives sont des dents situées à l’avant des mâchoires supérieure et inférieure et leur fonction principale est de couper les aliments.
+Langue:7,2,0:48.2,27.6:La langue est un organe musculaire formé par un agencement complexe de muscles intrinsèques et extrinsèques.
+Amygdale:4,0,6:69.5,46.8:Les amygdales sont des ganglions lymphatiques situés à l’arrière de la bouche et au sommet de la gorge.
+Palais dur:1,2,0:48.6,73.8:Le palais dur constitue le toit de la cavité buccale et sépare cette zone de la cavité nasale.
+palais mou:4,2,0:56.3,61:Le palais mou est le tissu mou constituant l’arrière du palais buccal.

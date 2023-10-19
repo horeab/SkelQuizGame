@@ -1,10 +1,10 @@
-Hígado:1,2,3:29.2,45
-Boca:4,2,9:28.1,81.6
-Esófago:1,8,5:48.6,58.6
-Intestino grueso:4,2,6:20.5,21
-Intestino delgado:8,7,1:52.4,19
-Estómago:4,6,7:66,41
-Faringe:5,2,9:48.6,81
-Vesícula biliar:6,9,4:31.3,39.6
-Páncreas:2,1,0:50,35.1
-Apéndice:2,8,3:35.1,9.6
+Hígado:1,2,3:29.2,45:El hígado elimina toxinas del suministro de sangre del cuerpo, mantiene niveles saludables de azúcar en sangre, regula la coagulación sanguínea y realiza cientos de otras funciones vitales.
+Boca:4,2,9:28.1,81.6:La boca es la primera porción del tubo digestivo que recibe alimentos y produce saliva.
+Esófago:1,8,5:48.6,58.6:El esófago es un órgano tubular y alargado del sistema digestivo que conecta la faringe con el estómago.
+Intestino grueso:4,2,6:20.5,21:El intestino grueso es responsable de procesar el material alimenticio no digerible después de que la mayoría de los nutrientes se absorben en el intestino delgado.
+Intestino delgado:8,7,1:52.4,19:El intestino delgado es un órgano del tracto gastrointestinal donde tiene lugar la mayor parte de la absorción de nutrientes de los alimentos.
+Estómago:4,6,7:66,41:El estómago es un saco muscular en el medio de la parte superior del abdomen que ayuda a descomponer y digerir los alimentos.
+Faringe:5,2,9:48.6,81:La faringe sirve tanto al sistema respiratorio como al digestivo al recibir aire de la cavidad nasal y aire, alimentos y agua de la cavidad bucal.
+Vesícula biliar:6,9,4:31.3,39.6:La vesícula biliar es un pequeño órgano hueco donde se almacena y concentra la bilis antes de ser liberada al intestino delgado.
+Páncreas:2,1,0:50,35.1:El páncreas desempeña un papel esencial en la conversión de los alimentos que ingerimos en combustible para las células del cuerpo.
+Apéndice:2,8,3:35.1,9.6:Las investigaciones sugieren que el apéndice puede tener un propósito importante como reservorio de bacterias intestinales beneficiosas.

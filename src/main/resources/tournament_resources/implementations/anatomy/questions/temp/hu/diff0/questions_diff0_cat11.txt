@@ -1,6 +1,6 @@
-Oxigén:1,2,4:74.5,29,25
-Szén:2,0,4:74.5,57,25
-Hidrogén:1,0,5:74.5,73.2,25
-Nitrogén:1,0,2:74.5,83.5,25
-Kalcium:0,1,2:74.5,91.2,25
-Foszfor:1,2,0:74.5,96.82,25
+Oxigén:1,2,4:74.5,29,25:A test sejtjei oxigént használnak az energia előállítására.
+Szén:2,0,4:74.5,57,25:A szénláncokat szénhidrátok, zsírok, nukleinsavak és fehérjék felépítésére használják.
+Hidrogén:1,0,5:74.5,73.2,25:A hidrogén legfontosabb feladata az emberi szervezetben, hogy hidratálja.
+Nitrogén:1,0,2:74.5,83.5,25:A nitrogén a fehérjékben és a genetikai kódot alkotó nukleinsavakban található.
+Kalcium:0,1,2:74.5,91.2,25:Az embereknek kalciumra van szükségük az erős csontok felépítéséhez és fenntartásához.
+Foszfor:1,2,0:74.5,96.82,25:A foszfor a kalciummal együtt segíti a csontok építését. A szervezetnek megfelelő mennyiségű kalciumra és foszforra van szüksége a csontok egészségéhez.

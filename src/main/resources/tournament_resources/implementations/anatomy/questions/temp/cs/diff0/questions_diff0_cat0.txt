@@ -1,10 +1,10 @@
-Játra:1,2,3:29.2,45
-Ústa:4,2,9:28.1,81.6
-Jícen:1,8,5:48.6,58.6
-tlusté střevo:4,2,6:20.5,21
-Tenké střevo:8,7,1:52.4,19
-Žaludek:4,6,7:66,41
-Hltan:5,2,9:48.6,81
-Žlučník:6,9,4:31.3,39.6
-Slinivka:2,1,0:50,35.1
-Apendix:2,8,3:35.1,9.6
+Játra:1,2,3:29.2,45:Játra odvádějí toxiny z krevního zásobení těla, udržují zdravou hladinu cukru v krvi, regulují srážlivost krve a plní stovky dalších životně důležitých funkcí.
+Ústa:4,2,9:28.1,81.6:Ústa jsou první částí trávicí trubice, která přijímá potravu a produkuje sliny.
+Jícen:1,8,5:48.6,58.6:Jícen je trubicovitý, protáhlý orgán trávicí soustavy, který spojuje hltan se žaludkem.
+tlusté střevo:4,2,6:20.5,21:Tlusté střevo je zodpovědné za zpracování nestravitelného potravinového materiálu poté, co je většina živin absorbována v tenkém střevě.
+Tenké střevo:8,7,1:52.4,19:Tenké střevo je orgán v gastrointestinálním traktu, kde probíhá většina vstřebávání živin z potravy.
+Žaludek:4,6,7:66,41:Žaludek je svalnatý vak uprostřed horní části břicha, který pomáhá rozkládat a trávit potravu.
+Hltan:5,2,9:48.6,81:Hltan slouží jak dýchacímu, tak trávicímu systému tím, že přijímá vzduch z nosní dutiny a vzduch, potravu a vodu z dutiny ústní.
+Žlučník:6,9,4:31.3,39.6:Žlučník je malý dutý orgán, kde se žluč ukládá a koncentruje před jejím uvolněním do tenkého střeva.
+Slinivka:2,1,0:50,35.1:Slinivka břišní má zásadní roli při přeměně potravy, kterou jíme, na palivo pro buňky těla.
+Apendix:2,8,3:35.1,9.6:Výzkum naznačuje, že slepé střevo může sloužit důležitému účelu jako rezervoár pro prospěšné střevní bakterie.

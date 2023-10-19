@@ -1,6 +1,6 @@
-Mięsień naramienny:4,1,5:65.3,80.2
-Mięsień dwugłowy ramienia:5,0,4:67.3,71.5
-Mięsień piersiowy większy:5,0,4:52.5,76.4
-Mięsień czworoboczny:1,5,4:51.4,85.5
-Mięsień skośny zewnętrzny:1,5,0:54.2,65.9
-Mięsień piszczelowy przedni:1,0,3:59.7,21.8
+Mięsień naramienny:4,1,5:65.3,80.2:Mięśnie naramienne są również znane jako mięśnie ramion.
+Mięsień dwugłowy ramienia:5,0,4:67.3,71.5:Biceps to wydatny mięsień znajdujący się w przedniej części ramienia.
+Mięsień piersiowy większy:5,0,4:52.5,76.4:Mięśnie piersiowe to mięśnie łączące przód klatki piersiowej człowieka z kośćmi ramienia i barku.
+Mięsień czworoboczny:1,5,4:51.4,85.5:Mięsień czworoboczny to szeroki, płaski mięsień rozciągający się od okolicy szyjnej do okolicy klatki piersiowej, po tylnej stronie szyi i tułowia.
+Mięsień skośny zewnętrzny:1,5,0:54.2,65.9:Mięsień skośny zewnętrzny brzucha jest największym i najbardziej zewnętrznym z trzech mięśni brzucha znajdujących się w bocznej przedniej części brzucha.
+Mięsień piszczelowy przedni:1,0,3:59.7,21.8:Mięsień piszczelowy przedni jest mięśniem przedniego przedziału podudzia.

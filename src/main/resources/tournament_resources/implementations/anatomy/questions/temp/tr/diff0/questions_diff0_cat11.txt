@@ -1,6 +1,6 @@
-Oksijen:1,2,4:74.5,29,25
-Karbon:2,0,4:74.5,57,25
-Hidrojen:1,0,5:74.5,73.2,25
-Azot:1,0,2:74.5,83.5,25
-Kalsiyum:0,1,2:74.5,91.2,25
-Fosfor:1,2,0:74.5,96.82,25
+Oksijen:1,2,4:74.5,29,25:Vücudun hücreleri enerji üretmek için oksijeni kullanır.
+Karbon:2,0,4:74.5,57,25:Karbon zincirleri karbonhidratları, yağları, nükleik asitleri ve proteinleri oluşturmak için kullanılır.
+Hidrojen:1,0,5:74.5,73.2,25:Hidrojenin insan vücudundaki en önemli işlevi onu sulu tutmaktır.
+Azot:1,0,2:74.5,83.5,25:Azot proteinlerde ve genetik kodu oluşturan nükleik asitlerde bulunur.
+Kalsiyum:0,1,2:74.5,91.2,25:İnsanların güçlü kemikler oluşturmak ve korumak için kalsiyuma ihtiyacı vardır.
+Fosfor:1,2,0:74.5,96.82,25:Fosfor, kemik oluşumuna yardımcı olmak için kalsiyum ile birlikte çalışır. Vücudun kemik sağlığı için doğru miktarda kalsiyum ve fosfora ihtiyacı vardır.

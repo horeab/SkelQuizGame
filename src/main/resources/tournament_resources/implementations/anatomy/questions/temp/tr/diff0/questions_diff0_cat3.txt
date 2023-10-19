@@ -1,6 +1,6 @@
-Kalp:4,2,5:65.3,73
-Aort:4,2,5:62.9,77.6
-Renal venler:0,4,5:57.3,59.1
-Renal arter:0,5,4:61.5,59.1
-Juguler damarlar:0,2,5:60.4,86.1
-Femoral ven:0,2,4:67.4,37
+Kalp:4,2,5:65.3,73:Kalp, vücuda kan pompalayan yumruk büyüklüğünde bir organdır.
+Aort:4,2,5:62.9,77.6:Aort insan vücudundaki ana ve en büyük arterdir.
+Renal venler:0,4,5:57.3,59.1:Böbrek dolaşımında bulunan böbrek toplardamarları, böbreklerin süzdüğü kanı boşaltan büyük kalibreli toplardamarlardır.
+Renal arter:0,5,4:61.5,59.1:Renal arterler böbrekleri besleyen tek damardır.
+Juguler damarlar:0,2,5:60.4,86.1:Şah damarları, oksijensiz kanı baştan kalbe geri götüren damarlardır.
+Femoral ven:0,2,4:67.4,37:Femoral ven, femoral kılıf içinde femoral artere eşlik eden damardır.

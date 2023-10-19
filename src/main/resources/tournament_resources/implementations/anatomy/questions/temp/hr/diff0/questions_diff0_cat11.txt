@@ -1,6 +1,6 @@
-Kisik:1,2,4:74.5,29,25
-Ugljik:2,0,4:74.5,57,25
-Vodik:1,0,5:74.5,73.2,25
-Dušik:1,0,2:74.5,83.5,25
-Kalcij:0,1,2:74.5,91.2,25
-Fosfor:1,2,0:74.5,96.82,25
+Kisik:1,2,4:74.5,29,25:Stanice tijela koriste kisik za proizvodnju energije.
+Ugljik:2,0,4:74.5,57,25:Ugljikovi lanci se koriste za izgradnju ugljikohidrata, masti, nukleinskih kiselina i proteina.
+Vodik:1,0,5:74.5,73.2,25:Najvažnija funkcija vodika u ljudskom tijelu je održavanje hidratacije.
+Dušik:1,0,2:74.5,83.5,25:Dušik se nalazi u proteinima i nukleinskim kiselinama koje čine genetski kod.
+Kalcij:0,1,2:74.5,91.2,25:Ljudi trebaju kalcij za izgradnju i održavanje jakih kostiju.
+Fosfor:1,2,0:74.5,96.82,25:Fosfor zajedno s kalcijem pomaže u izgradnji kostiju. Tijelo treba točnu količinu kalcija i fosfora za zdravlje kostiju.

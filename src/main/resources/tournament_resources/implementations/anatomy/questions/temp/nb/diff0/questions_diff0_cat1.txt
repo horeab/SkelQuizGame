@@ -1,12 +1,12 @@
-Skalle:11,8,6:48,97
-skapula:5,4,3:61.1,80.2
-Ribbein:11,7,0:56,74.1
-Ryggsøyle:8,10,1:45.9,65.2
-Tibia:5,9,3:51.4,23.6
-Lårben:4,10,7:54.9,35.5
-Humerus:2,7,9:69.1,66.2
-Metacarpal bein:6,0,1:81.3,44.8
-Karpale bein:5,4,2:77.1,48.7
-tarsal bein:4,3,1:49.3,6.9
-Metatarsalben:0,3,5:54.2,2.8
-Bekken:0,6,9:59,58.3
+Skalle:11,8,6:48,97:Hodeskallen er en beinstruktur som inneholder og beskytter hjernen.
+skapula:5,4,3:61.1,80.2:Scapula er beinet som forbinder kragebenet med humerus.
+Ribbein:11,7,0:56,74.1:Ribbeburet beskytter de vitale organene.
+Ryggsøyle:8,10,1:45.9,65.2:Virvelsøylen er en serie på omtrent 33 bein kalt ryggvirvler, som er atskilt av mellomvirvelskiver.
+Tibia:5,9,3:51.4,23.6:Tibia er det største av de to beinene i underbenet.
+Lårben:4,10,7:54.9,35.5:Lårbenet er det lengste og sterkeste beinet i menneskekroppen.
+Humerus:2,7,9:69.1,66.2:Humerus er et langt bein i armen som går fra skulderen til albuen.
+Metacarpal bein:6,0,1:81.3,44.8:De metacarpale beinene er fem lange bein i hånden.
+Karpale bein:5,4,2:77.1,48.7:Karpalbeina er de åtte små beinene som utgjør håndleddet.
+tarsal bein:4,3,1:49.3,6.9:Tarsus er en klynge av syv artikulerende bein i hver fot.
+Metatarsalben:0,3,5:54.2,2.8:Metatarsalbenene er en gruppe på fem lange bein i foten.
+Bekken:0,6,9:59,58.3:Bekkenet er en beinstruktur som støtter ryggraden og beskytter bukorganene.

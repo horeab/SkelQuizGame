@@ -1,6 +1,6 @@
-Não:5,4,3:50.4,96.8
-Tiểu não:5,4,3:56,92.6
-Tủy sống:0,4,3:50.7,86.8
-Dây thần kinh tọa:0,4,5:59.4,37.6
-Thần kinh chày:1,5,3:61.1,19.4
-Hạch thần kinh:4,3,1:49,70
+Não:5,4,3:50.4,96.8:Não là một cơ quan đóng vai trò là trung tâm của hệ thần kinh ở tất cả các động vật có xương sống và hầu hết các động vật không xương sống.
+Tiểu não:5,4,3:56,92.6:Tiểu não là một phần của não đóng vai trò quan trọng trong hầu hết các chuyển động của cơ thể, bao gồm cả chuyển động của mắt.
+Tủy sống:0,4,3:50.7,86.8:Tủy sống là một cấu trúc hình ống dài, mỏng được tạo thành từ các mô thần kinh.
+Dây thần kinh tọa:0,4,5:59.4,37.6:Dây thần kinh tọa là dây thần kinh lớn nhất và dài nhất trong cơ thể con người.
+Thần kinh chày:1,5,3:61.1,19.4:Dây thần kinh chày là nhánh tận cùng lớn hơn của hai nhánh cơ chính của dây thần kinh tọa.
+Hạch thần kinh:4,3,1:49,70:Hạch là một nhóm các thân tế bào thần kinh trong hệ thần kinh ngoại biên.

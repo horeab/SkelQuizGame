@@ -1,12 +1,12 @@
-Lubanja:11,8,6:48,97
-lopatica:5,4,3:61.1,80.2
-Rebra:11,7,0:56,74.1
-Kralježnica:8,10,1:45.9,65.2
-Goljenična kost:5,9,3:51.4,23.6
-Bedrena kost:4,10,7:54.9,35.5
-rame:2,7,9:69.1,66.2
-Metakarpalne kosti:6,0,1:81.3,44.8
-Karpalne kosti:5,4,2:77.1,48.7
-Kosti nožja:4,3,1:49.3,6.9
-Kosti donožja:0,3,5:54.2,2.8
-zdjelice:0,6,9:59,58.3
+Lubanja:11,8,6:48,97:Lubanja je koštana struktura koja sadrži i štiti mozak.
+lopatica:5,4,3:61.1,80.2:Lopatica je kost koja povezuje ključnu kost s humerusom.
+Rebra:11,7,0:56,74.1:Grudni koš štiti vitalne organe.
+Kralježnica:8,10,1:45.9,65.2:Kralježnica je niz od približno 33 kosti koje se nazivaju kralješci, a koje su odvojene međukralješničkim diskovima.
+Goljenična kost:5,9,3:51.4,23.6:Tibija je veća od dvije kosti u potkoljenici.
+Bedrena kost:4,10,7:54.9,35.5:Femur je najduža i najjača kost u ljudskom tijelu.
+rame:2,7,9:69.1,66.2:Humerus je duga kost u ruci koja se proteže od ramena do lakta.
+Metakarpalne kosti:6,0,1:81.3,44.8:Metakarpalne kosti su pet dugih kostiju šake.
+Karpalne kosti:5,4,2:77.1,48.7:Karpalne kosti su osam malih kostiju koje čine zapešće.
+Kosti nožja:4,3,1:49.3,6.9:Tarzus je skupina od sedam zglobnih kostiju u svakom stopalu.
+Kosti donožja:0,3,5:54.2,2.8:Metatarzalne kosti su skupina od pet dugih kostiju u stopalu.
+zdjelice:0,6,9:59,58.3:Zdjelica je koštana struktura koja podupire kralježnicu i štiti trbušne organe.

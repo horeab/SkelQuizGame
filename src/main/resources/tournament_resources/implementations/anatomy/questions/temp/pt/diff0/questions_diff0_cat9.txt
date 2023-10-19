@@ -1,7 +1,7 @@
-íris:6,3,4:11.3,57
-Córnea:2,6,4:1.7,50.5
-cristalino:1,4,6:19,51.3
-Retina:1,6,4:64.6,76.8
-Nervo óptico:0,6,3:87.9,36.2
-Câmara anterior:6,4,3:7.2,51.4
-Humor vítreo:1,4,3:49.3,65
+íris:6,3,4:11.3,57:A íris é uma estrutura fina do olho, responsável por controlar o diâmetro e o tamanho da pupila.
+Córnea:2,6,4:1.7,50.5:A córnea é a parte frontal transparente do olho que cobre a íris.
+cristalino:1,4,6:19,51.3:A lente refrata a luz, focando-a na retina.
+Retina:1,6,4:64.6,76.8:A retina é a camada mais interna e sensível à luz do tecido do olho.
+Nervo óptico:0,6,3:87.9,36.2:O nervo óptico transmite informações visuais da retina para o cérebro.
+Câmara anterior:6,4,3:7.2,51.4:A câmara anterior é a parte frontal do olho entre a córnea e a íris.
+Humor vítreo:1,4,3:49.3,65:A câmara vítrea está posicionada na parte posterior do globo ocular.

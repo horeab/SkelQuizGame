@@ -1,10 +1,10 @@
-Leber:1,2,3:29.2,45
-Mund:4,2,9:28.1,81.6
-Ösophagus:1,8,5:48.6,58.6
-Dickdarm:4,2,6:20.5,21
-Dünndarm:8,7,1:52.4,19
-Magen:4,6,7:66,41
-Rachen:5,2,9:48.6,81
-Gallenblase:6,9,4:31.3,39.6
-Bauchspeicheldrüse:2,1,0:50,35.1
-Appendix:2,8,3:35.1,9.6
+Leber:1,2,3:29.2,45:Die Leber entfernt Giftstoffe aus der Blutversorgung des Körpers, sorgt für einen gesunden Blutzuckerspiegel, reguliert die Blutgerinnung und erfüllt Hunderte anderer lebenswichtiger Funktionen.
+Mund:4,2,9:28.1,81.6:Der Mund ist der erste Abschnitt des Verdauungskanals, der Nahrung aufnimmt und Speichel produziert.
+Ösophagus:1,8,5:48.6,58.6:Die Speiseröhre ist ein röhrenförmiges, längliches Organ des Verdauungssystems, das den Rachen mit dem Magen verbindet.
+Dickdarm:4,2,6:20.5,21:Der Dickdarm ist für die Verarbeitung unverdaulicher Nahrungsstoffe verantwortlich, nachdem die meisten Nährstoffe im Dünndarm aufgenommen wurden.
+Dünndarm:8,7,1:52.4,19:Der Dünndarm ist ein Organ im Magen-Darm-Trakt, in dem die meisten Nährstoffe aus der Nahrung aufgenommen werden.
+Magen:4,6,7:66,41:Der Magen ist ein Muskelsack in der Mitte des Oberbauchs, der bei der Zerkleinerung und Verdauung von Nahrungsmitteln hilft.
+Rachen:5,2,9:48.6,81:Der Rachen dient sowohl dem Atmungs- als auch dem Verdauungssystem, indem er Luft aus der Nasenhöhle und Luft, Nahrung und Wasser aus der Mundhöhle aufnimmt.
+Gallenblase:6,9,4:31.3,39.6:Die Gallenblase ist ein kleines Hohlorgan, in dem die Galle gespeichert und konzentriert wird, bevor sie in den Dünndarm abgegeben wird.
+Bauchspeicheldrüse:2,1,0:50,35.1:Die Bauchspeicheldrüse spielt eine wesentliche Rolle bei der Umwandlung der Nahrung, die wir zu uns nehmen, in Treibstoff für die Körperzellen.
+Appendix:2,8,3:35.1,9.6:Untersuchungen legen nahe, dass der Blinddarm als Reservoir für nützliche Darmbakterien eine wichtige Funktion erfüllen könnte.

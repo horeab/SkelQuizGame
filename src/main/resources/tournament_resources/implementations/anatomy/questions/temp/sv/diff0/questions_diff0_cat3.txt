@@ -1,6 +1,6 @@
-Hjärta:4,2,5:65.3,73
-Aorta:4,2,5:62.9,77.6
-Njurar:0,4,5:57.3,59.1
-Njurartär:0,5,4:61.5,59.1
-Halsven:0,2,5:60.4,86.1
-Femoral ven:0,2,4:67.4,37
+Hjärta:4,2,5:65.3,73:Hjärtat är ett knytnävsstort organ som pumpar blod genom hela kroppen.
+Aorta:4,2,5:62.9,77.6:Aortan är den största och största artären i människokroppen.
+Njurar:0,4,5:57.3,59.1:Njurvenerna i njurcirkulationen är vener av stor kaliber som dränerar blod som filtreras av njurarna.
+Njurartär:0,5,4:61.5,59.1:Njurartärerna är den enda vaskulära försörjningen till njurarna.
+Halsven:0,2,5:60.4,86.1:Halsvenerna är vener som tar syrefattigt blod från huvudet tillbaka till hjärtat.
+Femoral ven:0,2,4:67.4,37:Lårbensvenen är den ven som följer med lårbensartären i lårbensskidan.

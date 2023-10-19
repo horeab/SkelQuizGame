@@ -1,7 +1,7 @@
-Šarenica:6,3,4:11.3,57
-Roženica:2,6,4:1.7,50.5
-Leča:1,4,6:19,51.3
-Mrežnica:1,6,4:64.6,76.8
-Optični živec:0,6,3:87.9,36.2
-Sprednja komora:6,4,3:7.2,51.4
-Steklena komora:1,4,3:49.3,65
+Šarenica:6,3,4:11.3,57:Šarenica je tanka struktura v očesu, odgovorna za nadzor premera in velikosti zenice.
+Roženica:2,6,4:1.7,50.5:Roženica je prozoren sprednji del očesa, ki pokriva šarenico.
+Leča:1,4,6:19,51.3:Leča lomi svetlobo in jo fokusira na mrežnico.
+Mrežnica:1,6,4:64.6,76.8:Mrežnica je najbolj notranja, na svetlobo občutljiva plast očesnega tkiva.
+Optični živec:0,6,3:87.9,36.2:Optični živec prenaša vizualne informacije iz mrežnice v možgane.
+Sprednja komora:6,4,3:7.2,51.4:Sprednji prekat je sprednji del očesa med roženico in šarenico.
+Steklena komora:1,4,3:49.3,65:Steklasta komora se nahaja na zadnji strani zrkla.

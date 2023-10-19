@@ -1,8 +1,8 @@
-Læber:1,2,4:61.4,96.6
-drøbel:6,2,0:48.6,51.8
-kindtænder:0,6,1:76.1,33
-fortand:0,4,1:50.4,83
-Tunge:7,2,0:48.2,27.6
-Mandel:4,0,6:69.5,46.8
-hård gane:1,2,0:48.6,73.8
-Blød gane:4,2,0:56.3,61
+Læber:1,2,4:61.4,96.6:Læberne er to anatomiske strukturer, der omgiver mundåbningen, og de er placeret ved indgangen til fordøjelseskanalen.
+drøbel:6,2,0:48.6,51.8:Drøbelen er den bløde, kødfulde del, der hænger ned bagerst i halsen.
+kindtænder:0,6,1:76.1,33:Kindtænder er de store flade tænder bag i munden.
+fortand:0,4,1:50.4,83:Fortænder er tænder foran på over- og underkæben, og deres primære funktion er at skære mad.
+Tunge:7,2,0:48.2,27.6:Tungen er et muskelorgan dannet af et komplekst arrangement af indre og ydre muskler.
+Mandel:4,0,6:69.5,46.8:Mandlerne er lymfeknuder bagerst i munden og toppen af ​​halsen.
+hård gane:1,2,0:48.6,73.8:Den hårde gane er taget af mundhulen og adskiller dette sted fra næsehulen.
+Blød gane:4,2,0:56.3,61:Den bløde gane er det bløde væv, der udgør bagsiden af ​​mundvigen.

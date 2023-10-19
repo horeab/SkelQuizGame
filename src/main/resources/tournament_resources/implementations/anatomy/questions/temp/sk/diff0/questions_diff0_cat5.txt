@@ -1,8 +1,8 @@
-Pery:1,2,4:61.4,96.6
-uvula:6,2,0:48.6,51.8
-Stolička:0,6,1:76.1,33
-Rezáky zubov:0,4,1:50.4,83
-Jazyk:7,2,0:48.2,27.6
-Mandle:4,0,6:69.5,46.8
-Tvrdé poschodie:1,2,0:48.6,73.8
-mäkké poschodie:4,2,0:56.3,61
+Pery:1,2,4:61.4,96.6:Pysky sú dve anatomické štruktúry obklopujúce ústny otvor a nachádzajú sa pri vstupe do tráviaceho traktu.
+uvula:6,2,0:48.6,51.8:Uvula je mäkká, mäsitá časť, ktorá visí dole v zadnej časti hrdla.
+Stolička:0,6,1:76.1,33:Stoličky sú veľké ploché zuby v zadnej časti úst.
+Rezáky zubov:0,4,1:50.4,83:Rezáky sú zuby v prednej časti hornej a dolnej čeľuste a ich primárnou funkciou je rezať potravu.
+Jazyk:7,2,0:48.2,27.6:Jazyk je svalový orgán tvorený zložitým usporiadaním vnútorných a vonkajších svalov.
+Mandle:4,0,6:69.5,46.8:Mandle sú lymfatické uzliny v zadnej časti úst a v hornej časti hrdla.
+Tvrdé poschodie:1,2,0:48.6,73.8:Tvrdé podnebie je strechou ústnej dutiny a oddeľuje toto miesto od nosnej dutiny.
+mäkké poschodie:4,2,0:56.3,61:Mäkké podnebie je mäkké tkanivo tvoriace zadnú časť strechy úst.

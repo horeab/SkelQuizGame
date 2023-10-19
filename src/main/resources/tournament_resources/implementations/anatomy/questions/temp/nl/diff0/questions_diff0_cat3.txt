@@ -1,6 +1,6 @@
-Hart:4,2,5:65.3,73
-Aorta:4,2,5:62.9,77.6
-Nieraders:0,4,5:57.3,59.1
-Nierslagader:0,5,4:61.5,59.1
-Jugulaire aderen:0,2,5:60.4,86.1
-Dijader:0,2,4:67.4,37
+Hart:4,2,5:65.3,73:Het hart is een vuistgroot orgaan dat bloed door het lichaam pompt.
+Aorta:4,2,5:62.9,77.6:De aorta is de belangrijkste en grootste slagader in het menselijk lichaam.
+Nieraders:0,4,5:57.3,59.1:De nieraders in de niercirculatie zijn aderen van groot kaliber die bloed afvoeren dat door de nieren wordt gefilterd.
+Nierslagader:0,5,4:61.5,59.1:De nierslagaders zijn de enige vasculaire toevoer naar de nieren.
+Jugulaire aderen:0,2,5:60.4,86.1:De halsaderen zijn aderen die zuurstofarm bloed van het hoofd terug naar het hart transporteren.
+Dijader:0,2,4:67.4,37:De dijbeenader is de ader die de dijbeenslagader in de dijbeenmantel begeleidt.

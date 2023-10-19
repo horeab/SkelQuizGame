@@ -1,10 +1,10 @@
-Jetra:1,2,3:29.2,45
-Usta:4,2,9:28.1,81.6
-jednjak:1,8,5:48.6,58.6
-Debelo crijevo:4,2,6:20.5,21
-tanko crijevo:8,7,1:52.4,19
-Želudac:4,6,7:66,41
-Ždrijelo:5,2,9:48.6,81
-Žuč:6,9,4:31.3,39.6
-Gušterača:2,1,0:50,35.1
-Crvuljak:2,8,3:35.1,9.6
+Jetra:1,2,3:29.2,45:Jetra uklanja toksine iz tjelesne opskrbe krvlju, održava zdravu razinu šećera u krvi, regulira zgrušavanje krvi i obavlja stotine drugih vitalnih funkcija.
+Usta:4,2,9:28.1,81.6:Usta su prvi dio probavnog kanala koji prima hranu i proizvodi slinu.
+jednjak:1,8,5:48.6,58.6:Jednjak je cjevasti, izduženi organ probavnog sustava koji povezuje ždrijelo i želudac.
+Debelo crijevo:4,2,6:20.5,21:Debelo crijevo odgovorno je za preradu neprobavljive hrane nakon što se većina hranjivih tvari apsorbira u tankom crijevu.
+tanko crijevo:8,7,1:52.4,19:Tanko crijevo je organ u gastrointestinalnom traktu u kojem se odvija većina apsorpcije hranjivih tvari iz hrane.
+Želudac:4,6,7:66,41:Želudac je mišićna vrećica u sredini gornjeg dijela trbuha koja pomaže u razgradnji i probavi hrane.
+Ždrijelo:5,2,9:48.6,81:Ždrijelo služi i dišnom i probavnom sustavu primajući zrak iz nosne šupljine i zrak, hranu i vodu iz usne šupljine.
+Žuč:6,9,4:31.3,39.6:Žučni mjehur je mali šuplji organ u kojem se žuč skladišti i koncentrira prije nego što se otpusti u tanko crijevo.
+Gušterača:2,1,0:50,35.1:Gušterača ima ključnu ulogu u pretvaranju hrane koju jedemo u gorivo za tjelesne stanice.
+Crvuljak:2,8,3:35.1,9.6:Istraživanja sugeriraju da bi slijepo crijevo moglo poslužiti kao spremnik korisnih crijevnih bakterija.

@@ -1,7 +1,7 @@
-Ohrmuschel:1,2,4:8,31
-Gehörgang:0,2,6:33.5,42.1
-Trommelfell:1,5,6:55.6,42
-Gehörknöchelchen:1,0,6:54.3,52.9
-Hörschnecke:6,1,5:75.8,45.7
-Hörnerv:6,2,1:91.8,48
-Eustachische Röhre:5,1,3:77.3,28.3
+Ohrmuschel:1,2,4:8,31:Die Ohrmuschel ist der sichtbare Teil des Ohrs, der sich außerhalb des Kopfes befindet.
+Gehörgang:0,2,6:33.5,42.1:Der Gehörgang ist ein Durchgang, der vom Außenohr zum Mittelohr verläuft.
+Trommelfell:1,5,6:55.6,42:Das Trommelfell ist eine dünne, kegelförmige Membran, die das Außenohr vom Mittelohr trennt.
+Gehörknöchelchen:1,0,6:54.3,52.9:Die Gehörknöchelchen sind drei Knochen in beiden Mittelohren, die zu den kleinsten Knochen des menschlichen Körpers zählen.
+Hörschnecke:6,1,5:75.8,45.7:Die Cochlea ist der Teil des Innenohrs, der am Hören beteiligt ist.
+Hörnerv:6,2,1:91.8,48:Der Hörnerv ist für die Übertragung von Hörsignalen vom Innenohr zum Hirnstamm verantwortlich.
+Eustachische Röhre:5,1,3:77.3,28.3:Die Eustachische Röhre ist eine Öffnung, die das Mittelohr mit der Nasennebenhöhlenhöhle verbindet.

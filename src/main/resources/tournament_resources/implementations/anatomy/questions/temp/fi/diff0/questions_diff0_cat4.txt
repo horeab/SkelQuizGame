@@ -1,6 +1,6 @@
-Aivot:5,4,3:50.4,96.8
-Pikkuaivot:5,4,3:56,92.6
-Selkäydin:0,4,3:50.7,86.8
-Iskiashermo:0,4,5:59.4,37.6
-sääriluun hermo:1,5,3:61.1,19.4
-Hermosolmu:4,3,1:49,70
+Aivot:5,4,3:50.4,96.8:Aivot ovat elin, joka toimii hermoston keskuksena kaikissa selkärankaisissa ja useimmissa selkärangattomissa eläimissä.
+Pikkuaivot:5,4,3:56,92.6:Pikkuaivot ovat aivojen osa, jolla on tärkeä rooli useimmissa fyysisissä liikkeissä, mukaan lukien silmien liikkeet.
+Selkäydin:0,4,3:50.7,86.8:Selkäydin on pitkä, ohut, putkimainen rakenne, joka koostuu hermokudoksesta.
+Iskiashermo:0,4,5:59.4,37.6:Iskiashermo on ihmiskehon suurin ja pisin hermo.
+sääriluun hermo:1,5,3:61.1,19.4:Sääriluuhermo on iskiashermon kahdesta päälihaksesta suurempi päätehaara.
+Hermosolmu:4,3,1:49,70:Ganglio on ryhmä hermosolujen kappaleita ääreishermostossa.

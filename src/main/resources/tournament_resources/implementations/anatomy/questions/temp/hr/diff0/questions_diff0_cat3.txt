@@ -1,6 +1,6 @@
-srce:4,2,5:65.3,73
-Aorta:4,2,5:62.9,77.6
-Bubrežne vene:0,4,5:57.3,59.1
-Bubrežna arterija:0,5,4:61.5,59.1
-Jugularne vene:0,2,5:60.4,86.1
-Femoralna vena:0,2,4:67.4,37
+srce:4,2,5:65.3,73:Srce je organ veličine šake koji pumpa krv po cijelom tijelu.
+Aorta:4,2,5:62.9,77.6:Aorta je glavna i najveća arterija u ljudskom tijelu.
+Bubrežne vene:0,4,5:57.3,59.1:Bubrežne vene u bubrežnoj cirkulaciji su vene velikog kalibra koje odvode krv koju filtriraju bubrezi.
+Bubrežna arterija:0,5,4:61.5,59.1:Bubrežne arterije jedina su vaskularna opskrba bubrega.
+Jugularne vene:0,2,5:60.4,86.1:Jugularne vene su vene koje odvode deoksigeniranu krv iz glave natrag u srce.
+Femoralna vena:0,2,4:67.4,37:Femoralna vena je vena koja prati femoralnu arteriju u femoralnoj ovojnici.

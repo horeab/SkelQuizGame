@@ -1,6 +1,6 @@
-deltoïde:4,1,5:65.3,80.2
-Biceps:5,0,4:67.3,71.5
-Muscle pectoral:5,0,4:52.5,76.4
-Muscle trapèze:1,5,4:51.4,85.5
-Muscle oblique externe de l'abdomen:1,5,0:54.2,65.9
-Tibial antérieur:1,0,3:59.7,21.8
+deltoïde:4,1,5:65.3,80.2:Les deltoïdes sont également appelés muscles des épaules.
+Biceps:5,0,4:67.3,71.5:Le biceps est un muscle proéminent situé à l’avant du bras.
+Muscle pectoral:5,0,4:52.5,76.4:Les muscles pectoraux sont les muscles qui relient le devant de la poitrine humaine aux os du haut du bras et de l’épaule.
+Muscle trapèze:1,5,4:51.4,85.5:Le muscle trapèze est un muscle large et plat s’étendant de la région cervicale à la région thoracique sur la face postérieure du cou et du tronc.
+Muscle oblique externe de l'abdomen:1,5,0:54.2,65.9:Le muscle oblique externe abdominal est le plus grand et le plus externe des trois muscles abdominaux de l’abdomen antérieur latéral.
+Tibial antérieur:1,0,3:59.7,21.8:Le muscle tibial antérieur est un muscle de la loge antérieure du bas de la jambe.

@@ -1,7 +1,7 @@
-Oorschelp:1,2,4:8,31
-Gehoorgang:0,2,6:33.5,42.1
-Oortrommel:1,5,6:55.6,42
-gehoorbeentjes:1,0,6:54.3,52.9
-slakkenhuis:6,1,5:75.8,45.7
-Auditieve zenuw:6,2,1:91.8,48
-Eustachius-buis:5,1,3:77.3,28.3
+Oorschelp:1,2,4:8,31:De oorschelp is het zichtbare deel van het oor dat zich buiten het hoofd bevindt.
+Gehoorgang:0,2,6:33.5,42.1:De gehoorgang is een traject dat van het buitenoor naar het middenoor loopt.
+Oortrommel:1,5,6:55.6,42:het trommelvlies, is een dun, kegelvormig membraan dat het uitwendige oor van het middenoor scheidt.
+gehoorbeentjes:1,0,6:54.3,52.9:De gehoorbeentjes zijn drie botten in elk middenoor die tot de kleinste botten in het menselijk lichaam behoren.
+slakkenhuis:6,1,5:75.8,45.7:Het slakkenhuis is het deel van het binnenoor dat betrokken is bij het horen.
+Auditieve zenuw:6,2,1:91.8,48:De gehoorzenuw is verantwoordelijk voor het overbrengen van auditieve signalen van het binnenoor naar de hersenstam.
+Eustachius-buis:5,1,3:77.3,28.3:De buis van Eustachius is een opening die het middenoor verbindt met de neus-sinusholte.

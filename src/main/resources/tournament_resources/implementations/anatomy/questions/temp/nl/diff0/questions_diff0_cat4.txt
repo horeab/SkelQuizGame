@@ -1,6 +1,6 @@
-Hersenen:5,4,3:50.4,96.8
-Kleine hersenen:5,4,3:56,92.6
-Ruggenmerg:0,4,3:50.7,86.8
-Heupzenuw:0,4,5:59.4,37.6
-Tibiale zenuw:1,5,3:61.1,19.4
-Zenuwknoop:4,3,1:49,70
+Hersenen:5,4,3:50.4,96.8:De hersenen zijn een orgaan dat dient als het centrum van het zenuwstelsel bij alle gewervelde en de meeste ongewervelde dieren.
+Kleine hersenen:5,4,3:56,92.6:Het cerebellum is een deel van de hersenen dat een cruciale rol speelt bij de meeste fysieke bewegingen, inclusief oogbewegingen.
+Ruggenmerg:0,4,3:50.7,86.8:Het ruggenmerg is een lange, dunne buisvormige structuur die bestaat uit zenuwweefsel.
+Heupzenuw:0,4,5:59.4,37.6:De heupzenuw is de grootste en langste zenuw in het menselijk lichaam.
+Tibiale zenuw:1,5,3:61.1,19.4:De scheenbeenzenuw is de grotere terminale tak van de twee belangrijkste spiertakken van de heupzenuw.
+Zenuwknoop:4,3,1:49,70:Een ganglion is een groep neuroncellichamen in het perifere zenuwstelsel.

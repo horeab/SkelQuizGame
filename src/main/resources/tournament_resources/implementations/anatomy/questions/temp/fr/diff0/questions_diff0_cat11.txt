@@ -1,6 +1,6 @@
-Oxygène:1,2,4:74.5,29,25
-Carbone:2,0,4:74.5,57,25
-Hydrogène:1,0,5:74.5,73.2,25
-Azote:1,0,2:74.5,83.5,25
-Calcium:0,1,2:74.5,91.2,25
-Phosphore:1,2,0:74.5,96.82,25
+Oxygène:1,2,4:74.5,29,25:Les cellules du corps utilisent l’oxygène pour produire de l’énergie.
+Carbone:2,0,4:74.5,57,25:Les chaînes carbonées sont utilisées pour fabriquer des glucides, des graisses, des acides nucléiques et des protéines.
+Hydrogène:1,0,5:74.5,73.2,25:La fonction la plus importante de l’hydrogène dans le corps humain est de le maintenir hydraté.
+Azote:1,0,2:74.5,83.5,25:L’azote se trouve dans les protéines et dans les acides nucléiques qui composent le code génétique.
+Calcium:0,1,2:74.5,91.2,25:Les humains ont besoin de calcium pour construire et maintenir des os solides.
+Phosphore:1,2,0:74.5,96.82,25:Le phosphore agit avec le calcium pour aider à la formation des os. Le corps a besoin de la bonne quantité de calcium et de phosphore pour la santé des os.

@@ -1,6 +1,6 @@
-Deltaizom:4,1,5:65.3,80.2
-biceps:5,0,4:67.3,71.5
-A mellizom:5,0,4:52.5,76.4
-Trapézizom:1,5,4:51.4,85.5
-Hasi külső ferde izom:1,5,0:54.2,65.9
-Tibialis elülső:1,0,3:59.7,21.8
+Deltaizom:4,1,5:65.3,80.2:A deltoidokat vállizmoknak is nevezik.
+biceps:5,0,4:67.3,71.5:A bicepsz egy kiemelkedő izom a felkar elülső oldalán.
+A mellizom:5,0,4:52.5,76.4:A mellizmok azok az izmok, amelyek összekötik az emberi mellkas elejét a felkar és a váll csontjaival.
+Trapézizom:1,5,4:51.4,85.5:A trapézizom egy széles, lapos izom, amely a nyaki régiótól a mellkasig terjed a nyak és a törzs hátsó részén.
+Hasi külső ferde izom:1,5,0:54.2,65.9:A hasi külső ferde izom az oldalsó elülső has három hasizom közül a legnagyobb és legkülső.
+Tibialis elülső:1,0,3:59.7,21.8:A sípcsont elülső izomzata az alsó lábszár elülső részében található izom.

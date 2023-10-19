@@ -1,7 +1,7 @@
-Pavillon de l'oreille:1,2,4:8,31
-Canal de l'oreille:0,2,6:33.5,42.1
-Tambours:1,5,6:55.6,42
-Osselet:1,0,6:54.3,52.9
-cochlée:6,1,5:75.8,45.7
-nerf auditif:6,2,1:91.8,48
-trompe d'Eustache:5,1,3:77.3,28.3
+Pavillon de l'oreille:1,2,4:8,31:Le pavillon de l’oreille est la partie visible de l’oreille située à l’extérieur de la tête.
+Canal de l'oreille:0,2,6:33.5,42.1:Le conduit auditif est un chemin allant de l’oreille externe à l’oreille moyenne.
+Tambours:1,5,6:55.6,42:le tympan est une fine membrane en forme de cône qui sépare l’oreille externe de l’oreille moyenne.
+Osselet:1,0,6:54.3,52.9:Les osselets sont trois os de chaque oreille moyenne qui comptent parmi les plus petits os du corps humain.
+cochlée:6,1,5:75.8,45.7:La cochlée est la partie de l’oreille interne impliquée dans l’audition.
+nerf auditif:6,2,1:91.8,48:Le nerf auditif est chargé de transmettre les signaux auditifs de l’oreille interne au tronc cérébral.
+trompe d'Eustache:5,1,3:77.3,28.3:La trompe d’Eustache est une ouverture qui relie l’oreille moyenne à la cavité nasale-sinusienne.

@@ -1,6 +1,6 @@
-Kyslík:1,2,4:74.5,29,25
-Uhlík:2,0,4:74.5,57,25
-Vodík:1,0,5:74.5,73.2,25
-Dusík:1,0,2:74.5,83.5,25
-Vápnik:0,1,2:74.5,91.2,25
-Fosfor:1,2,0:74.5,96.82,25
+Kyslík:1,2,4:74.5,29,25:Bunky tela využívajú kyslík na výrobu energie.
+Uhlík:2,0,4:74.5,57,25:Uhlíkové reťazce sa používajú na stavbu sacharidov, tukov, nukleových kyselín a bielkovín.
+Vodík:1,0,5:74.5,73.2,25:Najdôležitejšou funkciou vodíka v ľudskom tele je udržiavať ho hydratovaný.
+Dusík:1,0,2:74.5,83.5,25:Dusík sa nachádza v bielkovinách a v nukleových kyselinách, ktoré tvoria genetický kód.
+Vápnik:0,1,2:74.5,91.2,25:Ľudia potrebujú vápnik na stavbu a udržanie silných kostí.
+Fosfor:1,2,0:74.5,96.82,25:Fosfor spolupracuje s vápnikom a pomáha budovať kosti. Telo potrebuje pre zdravie kostí správne množstvo vápnika a fosforu.

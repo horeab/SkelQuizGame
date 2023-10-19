@@ -1,10 +1,10 @@
-Fígado:1,2,3:29.2,45
-Boca:4,2,9:28.1,81.6
-Esôfago:1,8,5:48.6,58.6
-Intestino grosso:4,2,6:20.5,21
-Intestino delgado:8,7,1:52.4,19
-Estômago:4,6,7:66,41
-Faringe:5,2,9:48.6,81
-Vesícula biliar:6,9,4:31.3,39.6
-Pâncreas:2,1,0:50,35.1
-Apêndice:2,8,3:35.1,9.6
+Fígado:1,2,3:29.2,45:O fígado remove toxinas do suprimento sanguíneo do corpo, mantém níveis saudáveis ​​de açúcar no sangue, regula a coagulação do sangue e desempenha centenas de outras funções vitais.
+Boca:4,2,9:28.1,81.6:A boca é a primeira porção do canal alimentar que recebe o alimento e produz saliva.
+Esôfago:1,8,5:48.6,58.6:O esôfago é um órgão tubular e alongado do sistema digestivo que conecta a faringe ao estômago.
+Intestino grosso:4,2,6:20.5,21:O intestino grosso é responsável pelo processamento de alimentos indigeríveis depois que a maioria dos nutrientes é absorvida no intestino delgado.
+Intestino delgado:8,7,1:52.4,19:O intestino delgado é um órgão do trato gastrointestinal onde ocorre a maior parte da absorção dos nutrientes dos alimentos.
+Estômago:4,6,7:66,41:O estômago é um saco muscular no meio da parte superior do abdômen que ajuda a quebrar e digerir os alimentos.
+Faringe:5,2,9:48.6,81:A faringe atende aos sistemas respiratório e digestivo, recebendo ar da cavidade nasal e ar, comida e água da cavidade oral.
+Vesícula biliar:6,9,4:31.3,39.6:A vesícula biliar é um pequeno órgão oco onde a bile é armazenada e concentrada antes de ser liberada no intestino delgado.
+Pâncreas:2,1,0:50,35.1:O pâncreas tem um papel essencial na conversão dos alimentos que ingerimos em combustível para as células do corpo.
+Apêndice:2,8,3:35.1,9.6:A pesquisa sugere que o apêndice pode servir a um propósito importante como reservatório de bactérias intestinais benéficas.

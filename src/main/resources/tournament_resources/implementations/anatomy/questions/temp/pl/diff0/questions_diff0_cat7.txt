@@ -1,7 +1,7 @@
-Małżowina uszna:1,2,4:8,31
-Przewód słuchowy:0,2,6:33.5,42.1
-Bęben uszny:1,5,6:55.6,42
-Kosteczki słuchowe:1,0,6:54.3,52.9
-Ślimak:6,1,5:75.8,45.7
-Nerw słuchowy:6,2,1:91.8,48
-Rurka Eustachiusza:5,1,3:77.3,28.3
+Małżowina uszna:1,2,4:8,31:Małżowina uszna to widoczna część ucha znajdująca się na zewnątrz głowy.
+Przewód słuchowy:0,2,6:33.5,42.1:Kanał słuchowy to droga biegnąca od ucha zewnętrznego do ucha środkowego.
+Bęben uszny:1,5,6:55.6,42:błona bębenkowa to cienka, stożkowata membrana oddzielająca ucho zewnętrzne od ucha środkowego.
+Kosteczki słuchowe:1,0,6:54.3,52.9:Kosteczki słuchowe to trzy kości w każdym uchu środkowym, które należą do najmniejszych kości w ludzkim ciele.
+Ślimak:6,1,5:75.8,45.7:Ślimak jest częścią ucha wewnętrznego zaangażowaną w słyszenie.
+Nerw słuchowy:6,2,1:91.8,48:Nerw słuchowy jest odpowiedzialny za przekazywanie sygnałów słuchowych z ucha wewnętrznego do pnia mózgu.
+Rurka Eustachiusza:5,1,3:77.3,28.3:Trąbka Eustachiusza to otwór łączący ucho środkowe z jamą nosowo-zatokową.

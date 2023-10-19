@@ -1,8 +1,8 @@
-Dudaklar:1,2,4:61.4,96.6
-küçük dil:6,2,0:48.6,51.8
-azıdişi:0,6,1:76.1,33
-kesici diş:0,4,1:50.4,83
-Dil:7,2,0:48.2,27.6
-Bademcik:4,0,6:69.5,46.8
-Sert damak:1,2,0:48.6,73.8
-Yumuşak damak:4,2,0:56.3,61
+Dudaklar:1,2,4:61.4,96.6:Dudaklar ağız boşluğunu çevreleyen iki anatomik yapıdır ve sindirim kanalının girişinde yer alır.
+küçük dil:6,2,0:48.6,51.8:Uvula, boğazın arka kısmında sarkan yumuşak, etli kısımdır.
+azıdişi:0,6,1:76.1,33:Azı dişleri ağzın arka kısmında bulunan büyük yassı dişlerdir.
+kesici diş:0,4,1:50.4,83:Kesici dişler üst ve alt çenenin ön kısmında yer alan dişlerdir ve temel görevleri yiyecekleri kesmektir.
+Dil:7,2,0:48.2,27.6:Dil, iç ve dış kasların karmaşık bir düzenlemesinden oluşan kaslı bir organdır.
+Bademcik:4,0,6:69.5,46.8:Bademcikler ağzın arkasında ve boğazın üst kısmında bulunan lenf düğümleridir.
+Sert damak:1,2,0:48.6,73.8:Sert damak ağız boşluğunun çatısıdır ve bu bölgeyi burun boşluğundan ayırır.
+Yumuşak damak:4,2,0:56.3,61:Yumuşak damak, ağzın çatısının arkasını oluşturan yumuşak dokudur.

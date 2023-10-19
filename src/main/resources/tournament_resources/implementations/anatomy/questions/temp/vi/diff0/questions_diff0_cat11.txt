@@ -1,6 +1,6 @@
-Oxy:1,2,4:74.5,29,25
-Carbon:2,0,4:74.5,57,25
-Hydro:1,0,5:74.5,73.2,25
-Nitơ:1,0,2:74.5,83.5,25
-Canxi:0,1,2:74.5,91.2,25
-Phốtpho:1,2,0:74.5,96.82,25
+Oxy:1,2,4:74.5,29,25:Các tế bào của cơ thể sử dụng oxy để tạo ra năng lượng.
+Carbon:2,0,4:74.5,57,25:Chuỗi carbon được sử dụng để tạo ra carbohydrate, chất béo, axit nucleic và protein.
+Hydro:1,0,5:74.5,73.2,25:Chức năng quan trọng nhất của hydro trong cơ thể con người là giữ nước.
+Nitơ:1,0,2:74.5,83.5,25:Nitơ được tìm thấy trong protein và trong axit nucleic tạo nên mã di truyền.
+Canxi:0,1,2:74.5,91.2,25:Con người cần canxi để xây dựng và duy trì xương chắc khỏe.
+Phốtpho:1,2,0:74.5,96.82,25:Phốt pho phối hợp với canxi để giúp xây dựng xương. Cơ thể cần lượng canxi và phốt pho thích hợp để xương chắc khỏe.

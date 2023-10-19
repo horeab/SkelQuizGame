@@ -1,12 +1,12 @@
-Sọ:11,8,6:48,97
-Xương vai:5,4,3:61.1,80.2
-Xương sườn:11,7,0:56,74.1
-Cột sống:8,10,1:45.9,65.2
-xương ống chân:5,9,3:51.4,23.6
-xương đùi:4,10,7:54.9,35.5
-Xương cánh tay:2,7,9:69.1,66.2
-Xương móc:6,0,1:81.3,44.8
-Xương ống cổ tay:5,4,2:77.1,48.7
-xương cổ chân:4,3,1:49.3,6.9
-phần giữa bàn chân:0,3,5:54.2,2.8
-Xương chậu:0,6,9:59,58.3
+Sọ:11,8,6:48,97:Hộp sọ là một cấu trúc xương chứa và bảo vệ não.
+Xương vai:5,4,3:61.1,80.2:Xương bả vai là xương nối xương đòn với xương cánh tay.
+Xương sườn:11,7,0:56,74.1:Lồng xương sườn bảo vệ các cơ quan quan trọng.
+Cột sống:8,10,1:45.9,65.2:Cột sống là một chuỗi gồm khoảng 33 xương được gọi là đốt sống, được ngăn cách bởi các đĩa đệm.
+xương ống chân:5,9,3:51.4,23.6:Xương chày là xương lớn hơn trong hai xương ở cẳng chân.
+xương đùi:4,10,7:54.9,35.5:Xương đùi là xương dài nhất và khỏe nhất trong cơ thể con người.
+Xương cánh tay:2,7,9:69.1,66.2:Xương cánh tay là một xương dài ở cánh tay chạy từ vai đến khuỷu tay.
+Xương móc:6,0,1:81.3,44.8:Xương metacarpal là năm xương dài của bàn tay.
+Xương ống cổ tay:5,4,2:77.1,48.7:Xương cổ tay là tám xương nhỏ tạo nên cổ tay.
+xương cổ chân:4,3,1:49.3,6.9:Tarsus là một cụm gồm bảy xương khớp ở mỗi bàn chân.
+phần giữa bàn chân:0,3,5:54.2,2.8:Xương bàn chân là một nhóm gồm năm xương dài ở bàn chân.
+Xương chậu:0,6,9:59,58.3:Xương chậu là cấu trúc xương hỗ trợ cột sống và bảo vệ các cơ quan trong bụng.

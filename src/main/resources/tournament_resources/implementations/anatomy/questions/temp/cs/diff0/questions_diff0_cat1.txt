@@ -1,12 +1,12 @@
-Lebka:11,8,6:48,97
-Lopatka:5,4,3:61.1,80.2
-Žebra:11,7,0:56,74.1
-Páteř:8,10,1:45.9,65.2
-Holenní kost:5,9,3:51.4,23.6
-Stehenní kost:4,10,7:54.9,35.5
-Pažní kost:2,7,9:69.1,66.2
-Záprstí:6,0,1:81.3,44.8
-Karpální kosti:5,4,2:77.1,48.7
-Zánártí:4,3,1:49.3,6.9
-Nárt:0,3,5:54.2,2.8
-Pánev:0,6,9:59,58.3
+Lebka:11,8,6:48,97:Lebka je kostní struktura, která obsahuje a chrání mozek.
+Lopatka:5,4,3:61.1,80.2:Lopatka je kost, která spojuje klíční kost s pažní kostí.
+Žebra:11,7,0:56,74.1:Hrudní koš chrání životně důležité orgány.
+Páteř:8,10,1:45.9,65.2:Páteř je řada přibližně 33 kostí nazývaných obratle, které jsou odděleny meziobratlovými ploténkami.
+Holenní kost:5,9,3:51.4,23.6:Holenní kost je větší ze dvou kostí v bérci.
+Stehenní kost:4,10,7:54.9,35.5:Stehenní kost je nejdelší a nejsilnější kostí v lidském těle.
+Pažní kost:2,7,9:69.1,66.2:Humerus je dlouhá kost v paži, která se táhne od ramene k lokti.
+Záprstí:6,0,1:81.3,44.8:Záprstní kosti jsou pět dlouhých kostí ruky.
+Karpální kosti:5,4,2:77.1,48.7:Karpální kosti jsou osm malých kostí, které tvoří zápěstí.
+Zánártí:4,3,1:49.3,6.9:Tarsus je shluk sedmi kloubových kostí na každé noze.
+Nárt:0,3,5:54.2,2.8:Metatarzální kosti jsou skupinou pěti dlouhých kostí na chodidle.
+Pánev:0,6,9:59,58.3:Pánev je kostní struktura, která podpírá páteř a chrání břišní orgány.

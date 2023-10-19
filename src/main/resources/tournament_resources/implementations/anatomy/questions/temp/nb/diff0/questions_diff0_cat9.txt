@@ -1,7 +1,7 @@
-regnbuehinne:6,3,4:11.3,57
-hornhinnen:2,6,4:1.7,50.5
-linse:1,4,6:19,51.3
-Netthinnen:1,6,4:64.6,76.8
-Optisk nerve:0,6,3:87.9,36.2
-Fremre øyekammer:6,4,3:7.2,51.4
-Glasslegeme:1,4,3:49.3,65
+regnbuehinne:6,3,4:11.3,57:Iris er en tynn struktur i øyet, ansvarlig for å kontrollere diameteren og størrelsen på pupillen.
+hornhinnen:2,6,4:1.7,50.5:Hornhinnen er den gjennomsiktige fremre delen av øyet som dekker iris.
+linse:1,4,6:19,51.3:Linsen bryter lyset og fokuserer det på netthinnen.
+Netthinnen:1,6,4:64.6,76.8:Netthinnen er det innerste, lysfølsomme laget av vev i øyet.
+Optisk nerve:0,6,3:87.9,36.2:Synsnerven overfører visuell informasjon fra netthinnen til hjernen.
+Fremre øyekammer:6,4,3:7.2,51.4:Det fremre kammeret er den fremre delen av øyet mellom hornhinnen og iris.
+Glasslegeme:1,4,3:49.3,65:Glasskammeret er plassert på baksiden av øyeeplet.

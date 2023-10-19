@@ -1,6 +1,6 @@
-Herz:4,2,5:65.3,73
-Aorta:4,2,5:62.9,77.6
-Nierenvenen:0,4,5:57.3,59.1
-Nierenarterie:0,5,4:61.5,59.1
-Halsvenen:0,2,5:60.4,86.1
-Vena femoralis:0,2,4:67.4,37
+Herz:4,2,5:65.3,73:Das Herz ist ein faustgroßes Organ, das Blut durch den Körper pumpt.
+Aorta:4,2,5:62.9,77.6:Die Aorta ist die wichtigste und größte Arterie im menschlichen Körper.
+Nierenvenen:0,4,5:57.3,59.1:Die Nierenvenen im Nierenkreislauf sind großkalibrige Venen, die das von den Nieren gefilterte Blut ableiten.
+Nierenarterie:0,5,4:61.5,59.1:Die Nierenarterien sind die einzige Gefäßversorgung der Nieren.
+Halsvenen:0,2,5:60.4,86.1:Die Halsvenen sind Venen, die sauerstoffarmes Blut vom Kopf zurück zum Herzen transportieren.
+Vena femoralis:0,2,4:67.4,37:Die Vena femoralis ist die Vene, die die Oberschenkelarterie in der Oberschenkelscheide begleitet.

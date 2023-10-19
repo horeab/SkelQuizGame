@@ -1,12 +1,12 @@
-Cráneo:11,8,6:48,97
-Escápula:5,4,3:61.1,80.2
-Costillas:11,7,0:56,74.1
-Columna vertebral:8,10,1:45.9,65.2
-Tibia:5,9,3:51.4,23.6
-Fémur:4,10,7:54.9,35.5
-Húmero:2,7,9:69.1,66.2
-Huesos metacarpianos:6,0,1:81.3,44.8
-Huesos del carpo:5,4,2:77.1,48.7
-Tarso:4,3,1:49.3,6.9
-Huesos metatarsianos:0,3,5:54.2,2.8
-Pelvis:0,6,9:59,58.3
+Cráneo:11,8,6:48,97:El cráneo es una estructura ósea que contiene y protege el cerebro.
+Escápula:5,4,3:61.1,80.2:La escápula es el hueso que conecta la clavícula con el húmero.
+Costillas:11,7,0:56,74.1:La caja torácica protege los órganos vitales.
+Columna vertebral:8,10,1:45.9,65.2:La columna vertebral es una serie de aproximadamente 33 huesos llamados vértebras, que están separados por discos intervertebrales.
+Tibia:5,9,3:51.4,23.6:La tibia es el más grande de los dos huesos de la parte inferior de la pierna.
+Fémur:4,10,7:54.9,35.5:El fémur es el hueso más largo y fuerte del cuerpo humano.
+Húmero:2,7,9:69.1,66.2:El húmero es un hueso largo del brazo que va desde el hombro hasta el codo.
+Huesos metacarpianos:6,0,1:81.3,44.8:Los huesos metacarpianos son cinco huesos largos de la mano.
+Huesos del carpo:5,4,2:77.1,48.7:Los huesos del carpo son los ocho pequeños huesos que forman la muñeca.
+Tarso:4,3,1:49.3,6.9:El tarso es un grupo de siete huesos articulados en cada pie.
+Huesos metatarsianos:0,3,5:54.2,2.8:Los huesos metatarsianos son un grupo de cinco huesos largos del pie.
+Pelvis:0,6,9:59,58.3:La pelvis es una estructura ósea que sostiene la columna vertebral y protege los órganos abdominales.

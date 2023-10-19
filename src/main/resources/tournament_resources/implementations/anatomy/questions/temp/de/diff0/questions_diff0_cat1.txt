@@ -1,12 +1,12 @@
-Schädel:11,8,6:48,97
-Schulterblatt:5,4,3:61.1,80.2
-Rippen:11,7,0:56,74.1
-Wirbelsäule:8,10,1:45.9,65.2
-Schienbein:5,9,3:51.4,23.6
-Oberschenkelknochen:4,10,7:54.9,35.5
-Oberarmknochen:2,7,9:69.1,66.2
-Mittelhandknochen:6,0,1:81.3,44.8
-Handwurzelknochen:5,4,2:77.1,48.7
-Fußwurzelknochen:4,3,1:49.3,6.9
-Mittelfußknochen:0,3,5:54.2,2.8
-Becken:0,6,9:59,58.3
+Schädel:11,8,6:48,97:Der Schädel ist eine Knochenstruktur, die das Gehirn enthält und schützt.
+Schulterblatt:5,4,3:61.1,80.2:Das Schulterblatt ist der Knochen, der das Schlüsselbein mit dem Oberarmknochen verbindet.
+Rippen:11,7,0:56,74.1:Der Brustkorb schützt die lebenswichtigen Organe.
+Wirbelsäule:8,10,1:45.9,65.2:Die Wirbelsäule besteht aus einer Reihe von etwa 33 Knochen, sogenannten Wirbeln, die durch Bandscheiben getrennt sind.
+Schienbein:5,9,3:51.4,23.6:Das Schienbein ist der größere der beiden Knochen im Unterschenkel.
+Oberschenkelknochen:4,10,7:54.9,35.5:Der Oberschenkelknochen ist der längste und stärkste Knochen des menschlichen Körpers.
+Oberarmknochen:2,7,9:69.1,66.2:Der Oberarmknochen ist ein langer Knochen im Arm, der von der Schulter bis zum Ellenbogen verläuft.
+Mittelhandknochen:6,0,1:81.3,44.8:Die Mittelhandknochen sind fünf lange Handknochen.
+Handwurzelknochen:5,4,2:77.1,48.7:Die Handwurzelknochen sind die acht kleinen Knochen, aus denen das Handgelenk besteht.
+Fußwurzelknochen:4,3,1:49.3,6.9:Der Tarsus ist eine Ansammlung von sieben Gelenkknochen in jedem Fuß.
+Mittelfußknochen:0,3,5:54.2,2.8:Die Mittelfußknochen sind eine Gruppe von fünf langen Knochen im Fuß.
+Becken:0,6,9:59,58.3:Das Becken ist eine Knochenstruktur, die die Wirbelsäule stützt und die Bauchorgane schützt.

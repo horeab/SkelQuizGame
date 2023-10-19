@@ -1,10 +1,10 @@
-Gan:1,2,3:29.2,45
-Miệng:4,2,9:28.1,81.6
-Thực quản:1,8,5:48.6,58.6
-Ruột già:4,2,6:20.5,21
-Ruột non:8,7,1:52.4,19
-Dạ dày:4,6,7:66,41
-Cổ họng:5,2,9:48.6,81
-Túi mật:6,9,4:31.3,39.6
-Tuyến tụy:2,1,0:50,35.1
-Ruột thừa:2,8,3:35.1,9.6
+Gan:1,2,3:29.2,45:Gan loại bỏ độc tố khỏi nguồn cung cấp máu của cơ thể, duy trì lượng đường trong máu khỏe mạnh, điều hòa quá trình đông máu và thực hiện hàng trăm chức năng quan trọng khác.
+Miệng:4,2,9:28.1,81.6:Miệng là phần đầu tiên của ống tiêu hóa nhận thức ăn và tiết ra nước bọt.
+Thực quản:1,8,5:48.6,58.6:Thực quản là một cơ quan hình ống, thon dài của hệ tiêu hóa, nối hầu họng với dạ dày.
+Ruột già:4,2,6:20.5,21:Ruột già chịu trách nhiệm xử lý nguyên liệu thức ăn khó tiêu sau khi hầu hết các chất dinh dưỡng được hấp thụ ở ruột non.
+Ruột non:8,7,1:52.4,19:Ruột non là một cơ quan trong đường tiêu hóa, nơi diễn ra hầu hết quá trình hấp thụ chất dinh dưỡng từ thức ăn.
+Dạ dày:4,6,7:66,41:Dạ dày là một túi cơ ở giữa bụng trên giúp phân hủy và tiêu hóa thức ăn.
+Cổ họng:5,2,9:48.6,81:Họng phục vụ cả hệ hô hấp và tiêu hóa bằng cách nhận không khí từ khoang mũi và không khí, thức ăn và nước từ khoang miệng.
+Túi mật:6,9,4:31.3,39.6:Túi mật là một cơ quan rỗng nhỏ nơi mật được lưu trữ và cô đặc trước khi nó được đưa vào ruột non.
+Tuyến tụy:2,1,0:50,35.1:Tuyến tụy có vai trò thiết yếu trong việc chuyển đổi thức ăn chúng ta ăn thành nhiên liệu cho các tế bào của cơ thể.
+Ruột thừa:2,8,3:35.1,9.6:Nghiên cứu cho thấy rằng ruột thừa có thể phục vụ một mục đích quan trọng là nơi chứa vi khuẩn có lợi cho đường ruột.

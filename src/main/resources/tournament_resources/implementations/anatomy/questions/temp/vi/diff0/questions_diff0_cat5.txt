@@ -1,8 +1,8 @@
-Môi:1,2,4:61.4,96.6
-lưỡi gà:6,2,0:48.6,51.8
-Răng hàm:0,6,1:76.1,33
-Răng cửa:0,4,1:50.4,83
-Lưỡi:7,2,0:48.2,27.6
-Amidan:4,0,6:69.5,46.8
-vòm miệng cứng:1,2,0:48.6,73.8
-vòm miệng mềm:4,2,0:56.3,61
+Môi:1,2,4:61.4,96.6:Môi là hai cấu trúc giải phẫu bao quanh lỗ miệng và chúng nằm ở lối vào đường tiêu hóa.
+lưỡi gà:6,2,0:48.6,51.8:Lưỡi gà là phần thịt mềm, rủ xuống phía sau cổ họng.
+Răng hàm:0,6,1:76.1,33:Răng hàm là những chiếc răng phẳng lớn ở phía sau miệng.
+Răng cửa:0,4,1:50.4,83:Răng cửa là răng ở phía trước hàm trên và hàm dưới, chức năng chính là cắt thức ăn.
+Lưỡi:7,2,0:48.2,27.6:Lưỡi là một cơ quan được hình thành bởi sự sắp xếp phức tạp của các cơ bên trong và bên ngoài.
+Amidan:4,0,6:69.5,46.8:Amidan là các hạch bạch huyết ở phía sau miệng và phía trên cổ họng.
+vòm miệng cứng:1,2,0:48.6,73.8:Vòm miệng cứng là mái của khoang miệng và ngăn cách vị trí này với khoang mũi.
+vòm miệng mềm:4,2,0:56.3,61:Vòm miệng mềm là mô mềm cấu thành phía sau vòm miệng.

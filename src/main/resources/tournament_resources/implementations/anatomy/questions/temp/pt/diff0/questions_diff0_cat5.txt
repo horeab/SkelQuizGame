@@ -1,8 +1,8 @@
-Lábios:1,2,4:61.4,96.6
-Úvula:6,2,0:48.6,51.8
-Molares:0,6,1:76.1,33
-Incisivo:0,4,1:50.4,83
-Língua:7,2,0:48.2,27.6
-Amígdala:4,0,6:69.5,46.8
-Paladar duro:1,2,0:48.6,73.8
-Paladar blando:4,2,0:56.3,61
+Lábios:1,2,4:61.4,96.6:Os lábios são duas estruturas anatômicas que circundam o orifício oral e estão localizados na entrada do trato digestivo.
+Úvula:6,2,0:48.6,51.8:A úvula é a parte macia e carnuda que fica pendurada na parte posterior da garganta.
+Molares:0,6,1:76.1,33:Os molares são os grandes dentes achatados na parte posterior da boca.
+Incisivo:0,4,1:50.4,83:Os incisivos são dentes localizados na parte frontal da mandíbula superior e inferior e sua função principal é cortar alimentos.
+Língua:7,2,0:48.2,27.6:A língua é um órgão muscular formado por um complexo arranjo de músculos intrínsecos e extrínsecos.
+Amígdala:4,0,6:69.5,46.8:As amígdalas são gânglios linfáticos na parte posterior da boca e na parte superior da garganta.
+Paladar duro:1,2,0:48.6,73.8:O palato duro é o teto da cavidade oral e separa esse local da cavidade nasal.
+Paladar blando:4,2,0:56.3,61:O palato mole é o tecido mole que constitui a parte posterior do céu da boca.

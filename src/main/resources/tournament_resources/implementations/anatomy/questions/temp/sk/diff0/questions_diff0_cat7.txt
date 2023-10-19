@@ -1,7 +1,7 @@
-Ušnica:1,2,4:8,31
-Ušný kanál:0,2,6:33.5,42.1
-Ušný bubon:1,5,6:55.6,42
-Sluchové kostičky:1,0,6:54.3,52.9
-Slimák:6,1,5:75.8,45.7
-Sluchový nerv:6,2,1:91.8,48
-Eustachova trubica:5,1,3:77.3,28.3
+Ušnica:1,2,4:8,31:Ušnica je viditeľná časť ucha, ktorá je mimo hlavy.
+Ušný kanál:0,2,6:33.5,42.1:Sluchový kanál je cesta vedúca od vonkajšieho ucha k strednému uchu.
+Ušný bubon:1,5,6:55.6,42:ušný bubienok je tenká kužeľovitá membrána, ktorá oddeľuje vonkajšie ucho od stredného ucha.
+Sluchové kostičky:1,0,6:54.3,52.9:Ossikuly sú tri kosti v strednom uchu, ktoré patria medzi najmenšie kosti v ľudskom tele.
+Slimák:6,1,5:75.8,45.7:Slimák je časť vnútorného ucha zapojená do sluchu.
+Sluchový nerv:6,2,1:91.8,48:Sluchový nerv je zodpovedný za prenos sluchových signálov z vnútorného ucha do mozgového kmeňa.
+Eustachova trubica:5,1,3:77.3,28.3:Eustachova trubica je otvor, ktorý spája stredné ucho s nosovo-sínusovou dutinou.

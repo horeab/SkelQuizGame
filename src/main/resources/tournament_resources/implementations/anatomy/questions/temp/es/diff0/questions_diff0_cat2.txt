@@ -1,6 +1,6 @@
-Músculo deltoides:4,1,5:65.3,80.2
-Bíceps:5,0,4:67.3,71.5
-Músculo pectoral:5,0,4:52.5,76.4
-Trapecio:1,5,4:51.4,85.5
-Músculo oblicuo externo del abdomen:1,5,0:54.2,65.9
-Músculo tibial anterior:1,0,3:59.7,21.8
+Músculo deltoides:4,1,5:65.3,80.2:Los deltoides también se conocen como músculos del hombro.
+Bíceps:5,0,4:67.3,71.5:El bíceps es un músculo prominente en la parte frontal de la parte superior del brazo.
+Músculo pectoral:5,0,4:52.5,76.4:Los músculos pectorales son los músculos que conectan la parte frontal del pecho humano con los huesos de la parte superior del brazo y el hombro.
+Trapecio:1,5,4:51.4,85.5:El músculo trapecio es un músculo ancho y plano que se extiende desde la región cervical hasta la región torácica en la cara posterior del cuello y el tronco.
+Músculo oblicuo externo del abdomen:1,5,0:54.2,65.9:El músculo oblicuo externo abdominal es el más grande y externo de los tres músculos abdominales del abdomen anterior lateral.
+Músculo tibial anterior:1,0,3:59.7,21.8:El músculo tibial anterior es un músculo del compartimento anterior de la parte inferior de la pierna.

@@ -1,6 +1,6 @@
-Deltoidni mišić:4,1,5:65.3,80.2
-biceps:5,0,4:67.3,71.5
-Prsni:5,0,4:52.5,76.4
-trapez:1,5,4:51.4,85.5
-Trbušni vanjski kosi:1,5,0:54.2,65.9
-Tibialis anterior:1,0,3:59.7,21.8
+Deltoidni mišić:4,1,5:65.3,80.2:Deltoidi su također poznati kao mišići ramena.
+biceps:5,0,4:67.3,71.5:Biceps je istaknuti mišić na prednjoj strani nadlaktice.
+Prsni:5,0,4:52.5,76.4:Prsni mišići su mišići koji povezuju prednji dio prsnog koša čovjeka s kostima nadlaktice i ramena.
+trapez:1,5,4:51.4,85.5:Trapezasti mišić je širok, plosnati mišić koji se proteže od cervikalne regije do torakalne regije na stražnjoj strani vrata i trupa.
+Trbušni vanjski kosi:1,5,0:54.2,65.9:Trbušni vanjski kosi mišić je najveći i najudaljeniji od tri trbušna mišića bočnog prednjeg abdomena.
+Tibialis anterior:1,0,3:59.7,21.8:Tibialis anterior mišić je mišić prednjeg dijela potkoljenice.

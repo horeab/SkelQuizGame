@@ -1,6 +1,6 @@
-Deltamuskel:4,1,5:65.3,80.2
-Biceps:5,0,4:67.3,71.5
-Pectoral muskel:5,0,4:52.5,76.4
-Trapezius:1,5,4:51.4,85.5
-Yttre sneda bukmuskeln:1,5,0:54.2,65.9
-Tibialis anterior:1,0,3:59.7,21.8
+Deltamuskel:4,1,5:65.3,80.2:Deltoider är också kända som axelmuskler.
+Biceps:5,0,4:67.3,71.5:Biceps är en framträdande muskel på framsidan av överarmen.
+Pectoral muskel:5,0,4:52.5,76.4:Bröstmuskler är de muskler som förbinder framsidan av den mänskliga bröstkorgen med benen i överarmen och axeln.
+Trapezius:1,5,4:51.4,85.5:Trapeziusmuskeln är en bred, platt muskel som sträcker sig från livmoderhalsen till bröstregionen på den bakre delen av halsen och bålen.
+Yttre sneda bukmuskeln:1,5,0:54.2,65.9:Den yttre sneda buken är den största och yttersta av de tre magmusklerna i den främre laterala buken.
+Tibialis anterior:1,0,3:59.7,21.8:Tibialis anterior muskel är en muskel i det främre utrymmet på underbenet.

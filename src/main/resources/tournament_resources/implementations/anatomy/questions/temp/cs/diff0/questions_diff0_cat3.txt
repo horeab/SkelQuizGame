@@ -1,6 +1,6 @@
-Srdce:4,2,5:65.3,73
-Aorta:4,2,5:62.9,77.6
-Renální žíly:0,4,5:57.3,59.1
-Renální tepna:0,5,4:61.5,59.1
-Hrdelní žíla:0,2,5:60.4,86.1
-Femorální žíla:0,2,4:67.4,37
+Srdce:4,2,5:65.3,73:Srdce je orgán velikosti pěsti, který pumpuje krev do celého těla.
+Aorta:4,2,5:62.9,77.6:Aorta je hlavní a největší tepna v lidském těle.
+Renální žíly:0,4,5:57.3,59.1:Renální žíly v renálním oběhu jsou žíly velkého kalibru, které odvádějí krev filtrovanou ledvinami.
+Renální tepna:0,5,4:61.5,59.1:Renální tepny jsou jediným cévním zásobením ledvin.
+Hrdelní žíla:0,2,5:60.4,86.1:Krční žíly jsou žíly, které odvádějí odkysličenou krev z hlavy zpět do srdce.
+Femorální žíla:0,2,4:67.4,37:Femorální žíla je žíla, která doprovází femorální tepnu ve femorální pochvě.

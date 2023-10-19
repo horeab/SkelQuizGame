@@ -1,7 +1,7 @@
-Øremusling:1,2,4:8,31
-Øregang:0,2,6:33.5,42.1
-Ørtrommel:1,5,6:55.6,42
-ossicles:1,0,6:54.3,52.9
-Sneglehuset:6,1,5:75.8,45.7
-Auditive nerv:6,2,1:91.8,48
-Øretrompeten:5,1,3:77.3,28.3
+Øremusling:1,2,4:8,31:Auricle er den synlige delen av øret som er utenfor hodet.
+Øregang:0,2,6:33.5,42.1:Øregangen er en vei som går fra det ytre øret til mellomøret.
+Ørtrommel:1,5,6:55.6,42:trommehinnen, er en tynn, kjegleformet membran som skiller det ytre øret fra mellomøret.
+ossicles:1,0,6:54.3,52.9:Beinene er tre bein i begge mellomørene som er blant de minste beinene i menneskekroppen.
+Sneglehuset:6,1,5:75.8,45.7:Cochlea er den delen av det indre øret som er involvert i hørselen.
+Auditive nerv:6,2,1:91.8,48:Hørselsnerven er ansvarlig for å overføre hørselssignaler fra det indre øret til hjernestammen.
+Øretrompeten:5,1,3:77.3,28.3:Eustachian-røret er en åpning som forbinder mellomøret med nese-sinushulen.

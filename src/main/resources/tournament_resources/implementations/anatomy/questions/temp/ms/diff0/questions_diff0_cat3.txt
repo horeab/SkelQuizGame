@@ -1,6 +1,6 @@
-Jantung:4,2,5:65.3,73
-Aorta:4,2,5:62.9,77.6
-urat renal:0,4,5:57.3,59.1
-Arteri renal:0,5,4:61.5,59.1
-Urat jugulum:0,2,5:60.4,86.1
-Pembuluh darah femoral:0,2,4:67.4,37
+Jantung:4,2,5:65.3,73:Jantung ialah organ bersaiz penumbuk yang mengepam darah ke seluruh badan.
+Aorta:4,2,5:62.9,77.6:Aorta adalah arteri utama dan terbesar dalam tubuh manusia.
+urat renal:0,4,5:57.3,59.1:Vena renal dalam peredaran renal, adalah vena berkaliber besar yang mengalirkan darah yang ditapis oleh buah pinggang.
+Arteri renal:0,5,4:61.5,59.1:Arteri renal adalah satu-satunya bekalan vaskular ke buah pinggang.
+Urat jugulum:0,2,5:60.4,86.1:Urat leher adalah urat yang mengambil darah terdeoksigen dari kepala kembali ke jantung.
+Pembuluh darah femoral:0,2,4:67.4,37:Vena femoral adalah vena yang menyertai arteri femoral dalam sarung femoral.

@@ -1,6 +1,6 @@
-Coração:4,2,5:65.3,73
-Aorta:4,2,5:62.9,77.6
-Veias renais:0,4,5:57.3,59.1
-Artéria renal:0,5,4:61.5,59.1
-Veia jugular:0,2,5:60.4,86.1
-Veia femoral:0,2,4:67.4,37
+Coração:4,2,5:65.3,73:O coração é um órgão do tamanho de um punho que bombeia sangue por todo o corpo.
+Aorta:4,2,5:62.9,77.6:A aorta é a principal e maior artéria do corpo humano.
+Veias renais:0,4,5:57.3,59.1:As veias renais na circulação renal são veias de grande calibre que drenam o sangue filtrado pelos rins.
+Artéria renal:0,5,4:61.5,59.1:As artérias renais são o único suprimento vascular para os rins.
+Veia jugular:0,2,5:60.4,86.1:As veias jugulares são veias que levam o sangue desoxigenado da cabeça de volta ao coração.
+Veia femoral:0,2,4:67.4,37:A veia femoral é a veia que acompanha a artéria femoral na bainha femoral.

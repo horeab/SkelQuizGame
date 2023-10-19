@@ -1,8 +1,8 @@
-Labbra:1,2,4:61.4,96.6
-Ugola:6,2,0:48.6,51.8
-Molari:0,6,1:76.1,33
-Incisivo:0,4,1:50.4,83
-Lingua:7,2,0:48.2,27.6
-Tonsilla:4,0,6:69.5,46.8
-Palato duro:1,2,0:48.6,73.8
-Palato molle:4,2,0:56.3,61
+Labbra:1,2,4:61.4,96.6:Le labbra sono due strutture anatomiche che circondano l’orifizio orale e si trovano all’ingresso del tratto digestivo.
+Ugola:6,2,0:48.6,51.8:L’ugola è la parte morbida e carnosa che pende nella parte posteriore della gola.
+Molari:0,6,1:76.1,33:I molari sono i grandi denti piatti nella parte posteriore della bocca.
+Incisivo:0,4,1:50.4,83:Gli incisivi sono denti nella parte anteriore delle mascelle superiore e inferiore e la loro funzione principale è tagliare il cibo.
+Lingua:7,2,0:48.2,27.6:La lingua è un organo muscolare formato da un complesso insieme di muscoli intrinseci ed estrinseci.
+Tonsilla:4,0,6:69.5,46.8:Le tonsille sono linfonodi nella parte posteriore della bocca e nella parte superiore della gola.
+Palato duro:1,2,0:48.6,73.8:Il palato duro è il tetto della cavità orale e separa questa sede dalla cavità nasale.
+Palato molle:4,2,0:56.3,61:Il palato molle è il tessuto molle che costituisce la parte posteriore del tetto della bocca.

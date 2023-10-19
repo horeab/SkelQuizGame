@@ -1,10 +1,10 @@
-Karaciğer:1,2,3:29.2,45
-Ağız:4,2,9:28.1,81.6
-Yemek borusu:1,8,5:48.6,58.6
-Kalın bağırsak:4,2,6:20.5,21
-İnce bağırsak:8,7,1:52.4,19
-Mide:4,6,7:66,41
-Yutak:5,2,9:48.6,81
-Safra kesesi:6,9,4:31.3,39.6
-Pankreas:2,1,0:50,35.1
-Apandis:2,8,3:35.1,9.6
+Karaciğer:1,2,3:29.2,45:Karaciğer, vücudun kan dolaşımındaki toksinleri uzaklaştırır, sağlıklı kan şekeri seviyelerini korur, kanın pıhtılaşmasını düzenler ve diğer yüzlerce hayati işlevi yerine getirir.
+Ağız:4,2,9:28.1,81.6:Ağız, beslenme kanalının besinleri alan ve tükürük üreten ilk kısmıdır.
+Yemek borusu:1,8,5:48.6,58.6:Yemek borusu, yutağı mideye bağlayan, sindirim sisteminin boru şeklinde, uzun bir organıdır.
+Kalın bağırsak:4,2,6:20.5,21:Besinlerin çoğu ince bağırsakta emildikten sonra, sindirilmeyen gıda maddesinin işlenmesinden kalın bağırsak sorumludur.
+İnce bağırsak:8,7,1:52.4,19:İnce bağırsak, gastrointestinal sistemde besinlerin besinlerden emiliminin çoğunun gerçekleştiği bir organdır.
+Mide:4,6,7:66,41:Mide, karnın üst kısmının ortasında yer alan, yiyecekleri parçalamaya ve sindirmeye yardımcı olan kaslı bir kesedir.
+Yutak:5,2,9:48.6,81:Farenks, burun boşluğundan havayı ve ağız boşluğundan hava, yiyecek ve suyu alarak hem solunum hem de sindirim sistemlerine hizmet eder.
+Safra kesesi:6,9,4:31.3,39.6:Safra kesesi, safranın ince bağırsağa salınmadan önce depolandığı ve yoğunlaştığı küçük, içi boş bir organdır.
+Pankreas:2,1,0:50,35.1:Pankreasın yediğimiz gıdayı vücut hücreleri için yakıta dönüştürmede önemli bir rolü vardır.
+Apandis:2,8,3:35.1,9.6:Araştırmalar, apendiksin faydalı bağırsak bakterileri için bir rezervuar olarak önemli bir amaca hizmet edebileceğini öne sürüyor.

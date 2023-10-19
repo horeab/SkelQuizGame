@@ -1,6 +1,6 @@
-Kisik:1,2,4:74.5,29,25
-ogljik:2,0,4:74.5,57,25
-vodik:1,0,5:74.5,73.2,25
-dušik:1,0,2:74.5,83.5,25
-kalcij:0,1,2:74.5,91.2,25
-Fosfor:1,2,0:74.5,96.82,25
+Kisik:1,2,4:74.5,29,25:Celice telesa uporabljajo kisik za proizvodnjo energije.
+ogljik:2,0,4:74.5,57,25:Ogljikove verige se uporabljajo za izgradnjo ogljikovih hidratov, maščob, nukleinskih kislin in beljakovin.
+vodik:1,0,5:74.5,73.2,25:Najpomembnejša funkcija vodika v človeškem telesu je ohranjanje hidracije.
+dušik:1,0,2:74.5,83.5,25:Dušik se nahaja v beljakovinah in v nukleinskih kislinah, ki sestavljajo genetsko kodo.
+kalcij:0,1,2:74.5,91.2,25:Ljudje potrebujemo kalcij za izgradnjo in vzdrževanje močnih kosti.
+Fosfor:1,2,0:74.5,96.82,25:Fosfor skupaj s kalcijem pomaga pri izgradnji kosti. Telo potrebuje pravilno količino kalcija in fosforja za zdravje kosti.

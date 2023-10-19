@@ -1,6 +1,6 @@
-otot deltoid:4,1,5:65.3,80.2
-otot bisep:5,0,4:67.3,71.5
-Pektoral:5,0,4:52.5,76.4
-otot trapezius:1,5,4:51.4,85.5
-Serong luaran abdomen:1,5,0:54.2,65.9
-Tibialis anterior:1,0,3:59.7,21.8
+otot deltoid:4,1,5:65.3,80.2:Deltoid juga dikenali sebagai otot bahu.
+otot bisep:5,0,4:67.3,71.5:Bisep adalah otot yang menonjol di bahagian depan lengan atas.
+Pektoral:5,0,4:52.5,76.4:Otot dada adalah otot yang menghubungkan bahagian hadapan dada manusia dengan tulang lengan atas dan bahu.
+otot trapezius:1,5,4:51.4,85.5:Otot trapezius ialah otot yang luas dan rata yang memanjang dari kawasan serviks ke kawasan toraks pada aspek posterior leher dan batang.
+Serong luaran abdomen:1,5,0:54.2,65.9:Otot serong luar abdomen adalah yang terbesar dan paling luar daripada tiga otot perut bahagian depan abdomen sisi.
+Tibialis anterior:1,0,3:59.7,21.8:Otot anterior tibialis adalah otot petak anterior kaki bawah.

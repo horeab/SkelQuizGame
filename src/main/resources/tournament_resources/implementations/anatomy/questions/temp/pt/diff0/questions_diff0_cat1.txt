@@ -1,12 +1,12 @@
-Crânio:11,8,6:48,97
-Escápula:5,4,3:61.1,80.2
-Costelas:11,7,0:56,74.1
-Coluna:8,10,1:45.9,65.2
-Tíbia:5,9,3:51.4,23.6
-Fêmur:4,10,7:54.9,35.5
-Úmero:2,7,9:69.1,66.2
-Ossos do metacarpo:6,0,1:81.3,44.8
-Ossos do carpo:5,4,2:77.1,48.7
-Tarso:4,3,1:49.3,6.9
-Ossos metatarso:0,3,5:54.2,2.8
-Pelve:0,6,9:59,58.3
+Crânio:11,8,6:48,97:O crânio é uma estrutura óssea que contém e protege o cérebro.
+Escápula:5,4,3:61.1,80.2:A escápula é o osso que conecta a clavícula ao úmero.
+Costelas:11,7,0:56,74.1:A caixa torácica protege os órgãos vitais.
+Coluna:8,10,1:45.9,65.2:A coluna vertebral é uma série de aproximadamente 33 ossos chamados vértebras, que são separados por discos intervertebrais.
+Tíbia:5,9,3:51.4,23.6:A tíbia é o maior dos dois ossos da perna.
+Fêmur:4,10,7:54.9,35.5:O fêmur é o osso mais longo e mais forte do corpo humano.
+Úmero:2,7,9:69.1,66.2:O úmero é um osso longo do braço que vai do ombro ao cotovelo.
+Ossos do metacarpo:6,0,1:81.3,44.8:Os ossos metacarpais são cinco ossos longos da mão.
+Ossos do carpo:5,4,2:77.1,48.7:Os ossos do carpo são os oito pequenos ossos que constituem o pulso.
+Tarso:4,3,1:49.3,6.9:O tarso é um aglomerado de sete ossos articulados em cada pé.
+Ossos metatarso:0,3,5:54.2,2.8:Os ossos metatarsais são um grupo de cinco ossos longos do pé.
+Pelve:0,6,9:59,58.3:A pélvis é uma estrutura óssea que sustenta a coluna vertebral e protege os órgãos abdominais.

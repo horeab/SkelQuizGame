@@ -1,12 +1,12 @@
-Lebka:11,8,6:48,97
-Lopatka:5,4,3:61.1,80.2
-Rebrá:11,7,0:56,74.1
-Chrbtica:8,10,1:45.9,65.2
-holenná kosť:5,9,3:51.4,23.6
-stehennej:4,10,7:54.9,35.5
-Ramenná kosť:2,7,9:69.1,66.2
-Záprstná kosť:6,0,1:81.3,44.8
-Karpálne kosti:5,4,2:77.1,48.7
-dechtové kosti:4,3,1:49.3,6.9
-Metatarzálne kosti:0,3,5:54.2,2.8
-Panva:0,6,9:59,58.3
+Lebka:11,8,6:48,97:Lebka je kostná štruktúra, ktorá obsahuje a chráni mozog.
+Lopatka:5,4,3:61.1,80.2:Lopatka je kosť, ktorá spája kľúčnu kosť s ramennou kosťou.
+Rebrá:11,7,0:56,74.1:Hrudný kôš chráni životne dôležité orgány.
+Chrbtica:8,10,1:45.9,65.2:Chrbtica je séria približne 33 kostí nazývaných stavce, ktoré sú oddelené medzistavcovými platničkami.
+holenná kosť:5,9,3:51.4,23.6:Holenná kosť je väčšia z dvoch kostí v dolnej časti nohy.
+stehennej:4,10,7:54.9,35.5:Stehenná kosť je najdlhšia a najsilnejšia kosť v ľudskom tele.
+Ramenná kosť:2,7,9:69.1,66.2:Humerus je dlhá kosť v ramene, ktorá sa tiahne od ramena k lakťu.
+Záprstná kosť:6,0,1:81.3,44.8:Záprstné kosti sú päť dlhých kostí ruky.
+Karpálne kosti:5,4,2:77.1,48.7:Karpálne kosti sú osem malých kostí, ktoré tvoria zápästie.
+dechtové kosti:4,3,1:49.3,6.9:Tarzus je zhluk siedmich kĺbových kostí na každej nohe.
+Metatarzálne kosti:0,3,5:54.2,2.8:Metatarzálne kosti sú skupinou piatich dlhých kostí na chodidle.
+Panva:0,6,9:59,58.3:Panva je kostná štruktúra, ktorá podporuje chrbticu a chráni brušné orgány.

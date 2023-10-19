@@ -1,6 +1,6 @@
-Beyin:5,4,3:50.4,96.8
-Beyincik:5,4,3:56,92.6
-Omurilik:0,4,3:50.7,86.8
-Siyatik sinir:0,4,5:59.4,37.6
-Tibial sinir:1,5,3:61.1,19.4
-Gangliyon:4,3,1:49,70
+Beyin:5,4,3:50.4,96.8:Beyin, tüm omurgalı ve omurgasız hayvanların çoğunda sinir sisteminin merkezi olarak görev yapan bir organdır.
+Beyincik:5,4,3:56,92.6:Beyincik, göz hareketleri de dahil olmak üzere çoğu fiziksel harekette hayati bir rol oynayan beynin bir parçasıdır.
+Omurilik:0,4,3:50.7,86.8:Omurilik, sinir dokusundan oluşan uzun, ince, boru şeklinde bir yapıdır.
+Siyatik sinir:0,4,5:59.4,37.6:Siyatik sinir insan vücudundaki en büyük ve en uzun sinirdir.
+Tibial sinir:1,5,3:61.1,19.4:Tibial sinir, siyatik sinirin iki ana kas dalının daha büyük terminal dalıdır.
+Gangliyon:4,3,1:49,70:Ganglion, periferik sinir sistemindeki bir grup nöron hücre gövdesidir.

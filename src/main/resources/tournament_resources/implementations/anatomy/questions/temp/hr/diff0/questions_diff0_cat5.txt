@@ -1,8 +1,8 @@
-Usne:1,2,4:61.4,96.6
-Uvula:6,2,0:48.6,51.8
-kutnjaci:0,6,1:76.1,33
-sjekutića:0,4,1:50.4,83
-Jezik:7,2,0:48.2,27.6
-Tonzile:4,0,6:69.5,46.8
-Tvrdo nepce:1,2,0:48.6,73.8
-Meko nepce:4,2,0:56.3,61
+Usne:1,2,4:61.4,96.6:Usne su dvije anatomske strukture koje okružuju oralni otvor i nalaze se na ulazu u probavni trakt.
+Uvula:6,2,0:48.6,51.8:Uvula je mekani, mesnati dio koji visi na stražnjoj strani grla.
+kutnjaci:0,6,1:76.1,33:Kutnjaci su veliki plosnati zubi u stražnjem dijelu usta.
+sjekutića:0,4,1:50.4,83:Sjekutići su zubi na prednjoj strani gornje i donje čeljusti i njihova primarna funkcija je rezanje hrane.
+Jezik:7,2,0:48.2,27.6:Jezik je mišićni organ formiran složenim rasporedom unutarnjih i vanjskih mišića.
+Tonzile:4,0,6:69.5,46.8:Krajnici su limfni čvorovi u stražnjem dijelu usta i na vrhu grla.
+Tvrdo nepce:1,2,0:48.6,73.8:Tvrdo nepce je krov usne šupljine i odvaja ovo mjesto od nosne šupljine.
+Meko nepce:4,2,0:56.3,61:Meko nepce je meko tkivo koje čini stražnji dio nepca.

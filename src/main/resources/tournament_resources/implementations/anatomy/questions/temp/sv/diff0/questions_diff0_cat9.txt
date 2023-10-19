@@ -1,7 +1,7 @@
-regnbågshinna:6,3,4:11.3,57
-hornhinna:2,6,4:1.7,50.5
-Lins:1,4,6:19,51.3
-näthinna:1,6,4:64.6,76.8
-Optisk nerv:0,6,3:87.9,36.2
-främre kammaren:6,4,3:7.2,51.4
-Glaskropp:1,4,3:49.3,65
+regnbågshinna:6,3,4:11.3,57:Iris är en tunn struktur i ögat, ansvarig för att kontrollera diametern och storleken på pupillen.
+hornhinna:2,6,4:1.7,50.5:Hornhinnan är den genomskinliga främre delen av ögat som täcker iris.
+Lins:1,4,6:19,51.3:Linsen bryter ljuset och fokuserar det på näthinnan.
+näthinna:1,6,4:64.6,76.8:Näthinnan är det innersta, ljuskänsliga lagret av vävnad i ögat.
+Optisk nerv:0,6,3:87.9,36.2:Synnerven överför visuell information från näthinnan till hjärnan.
+främre kammaren:6,4,3:7.2,51.4:Den främre kammaren är den främre delen av ögat mellan hornhinnan och iris.
+Glaskropp:1,4,3:49.3,65:Glaskroppen är placerad på baksidan av ögongloben.

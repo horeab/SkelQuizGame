@@ -1,10 +1,10 @@
-Máj:1,2,3:29.2,45
-Száj:4,2,9:28.1,81.6
-Nyelőcső:1,8,5:48.6,58.6
-vastagbél:4,2,6:20.5,21
-vékonybél:8,7,1:52.4,19
-Gyomor:4,6,7:66,41
-Garat:5,2,9:48.6,81
-epehólyag:6,9,4:31.3,39.6
-Hasnyálmirigyre:2,1,0:50,35.1
-Féregnyúlvány:2,8,3:35.1,9.6
+Máj:1,2,3:29.2,45:A máj eltávolítja a méreganyagokat a szervezet vérellátásából, fenntartja az egészséges vércukorszintet, szabályozza a véralvadást, és több száz egyéb létfontosságú funkciót lát el.
+Száj:4,2,9:28.1,81.6:A száj az emésztőcsatorna első része, amely táplálékot kap és nyálat termel.
+Nyelőcső:1,8,5:48.6,58.6:A nyelőcső az emésztőrendszer csöves, hosszúkás szerve, amely összeköti a garatot a gyomorral.
+vastagbél:4,2,6:20.5,21:A vastagbél felelős az emészthetetlen élelmiszerek feldolgozásáért, miután a legtöbb tápanyag felszívódik a vékonybélben.
+vékonybél:8,7,1:52.4,19:A vékonybél a gyomor-bél traktus olyan szerve, ahol a legtöbb tápanyag felszívódik az élelmiszerből.
+Gyomor:4,6,7:66,41:A gyomor egy izmos zsák a felső has közepén, amely segít lebontani és megemészteni az ételt.
+Garat:5,2,9:48.6,81:A garat a légzőrendszert és az emésztőrendszert egyaránt szolgálja azáltal, hogy levegőt kap az orrüregből, levegőt, táplálékot és vizet pedig a szájüregből.
+epehólyag:6,9,4:31.3,39.6:Az epehólyag egy kis üreges szerv, ahol az epe tárolódik és koncentrálódik, mielőtt a vékonybélbe kerül.
+Hasnyálmirigyre:2,1,0:50,35.1:A hasnyálmirigy alapvető szerepet játszik abban, hogy az elfogyasztott táplálékot a szervezet sejtjei számára üzemanyaggá alakítsa.
+Féregnyúlvány:2,8,3:35.1,9.6:A kutatások azt sugallják, hogy a függelék fontos célt szolgálhat a hasznos bélbaktériumok tárolójaként.

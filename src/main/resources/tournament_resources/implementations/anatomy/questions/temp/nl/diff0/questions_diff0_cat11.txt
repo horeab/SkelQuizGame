@@ -1,6 +1,6 @@
-Zuurstof:1,2,4:74.5,29,25
-Koolstof:2,0,4:74.5,57,25
-Waterstof:1,0,5:74.5,73.2,25
-Stikstof:1,0,2:74.5,83.5,25
-Calcium:0,1,2:74.5,91.2,25
-Fosfor:1,2,0:74.5,96.82,25
+Zuurstof:1,2,4:74.5,29,25:De cellen van het lichaam gebruiken zuurstof om energie te produceren.
+Koolstof:2,0,4:74.5,57,25:Koolstofketens worden gebruikt om koolhydraten, vetten, nucleïnezuren en eiwitten te bouwen.
+Waterstof:1,0,5:74.5,73.2,25:De belangrijkste functie van waterstof in het menselijk lichaam is om het gehydrateerd te houden.
+Stikstof:1,0,2:74.5,83.5,25:Stikstof wordt aangetroffen in eiwitten en in de nucleïnezuren waaruit de genetische code bestaat.
+Calcium:0,1,2:74.5,91.2,25:Mensen hebben calcium nodig om sterke botten op te bouwen en te behouden.
+Fosfor:1,2,0:74.5,96.82,25:Fosfor werkt samen met calcium om botten te helpen opbouwen. Het lichaam heeft de juiste hoeveelheid calcium en fosfor nodig voor de gezondheid van de botten.

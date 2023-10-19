@@ -1,6 +1,6 @@
-Deltoideus:4,1,5:65.3,80.2
-Biceps:5,0,4:67.3,71.5
-Pectoral muskler:5,0,4:52.5,76.4
-Trapezius:1,5,4:51.4,85.5
-Skrå ydre bugmuskel:1,5,0:54.2,65.9
-Tibialis anterior:1,0,3:59.7,21.8
+Deltoideus:4,1,5:65.3,80.2:Deltoider er også kendt som skuldermuskler.
+Biceps:5,0,4:67.3,71.5:Biceps er en fremtrædende muskel på forsiden af ​​overarmen.
+Pectoral muskler:5,0,4:52.5,76.4:Brystmuskler er de muskler, der forbinder forsiden af ​​det menneskelige bryst med knoglerne i overarmen og skulderen.
+Trapezius:1,5,4:51.4,85.5:Trapeziusmusklen er en bred, flad muskel, der strækker sig fra den cervikale region til thoraxregionen på den bagerste del af nakken og trunken.
+Skrå ydre bugmuskel:1,5,0:54.2,65.9:Den ydre abdominale skråmuskel er den største og yderste af de tre abdominale muskler i den laterale forreste mave.
+Tibialis anterior:1,0,3:59.7,21.8:Tibialis anterior muskel er en muskel i det forreste rum af underbenet.

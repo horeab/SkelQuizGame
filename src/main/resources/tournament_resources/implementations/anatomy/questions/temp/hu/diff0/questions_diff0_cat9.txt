@@ -1,7 +1,7 @@
-írisz:6,3,4:11.3,57
-szaruhártya:2,6,4:1.7,50.5
-szemlencse:1,4,6:19,51.3
-recehártya:1,6,4:64.6,76.8
-látóideg:0,6,3:87.9,36.2
-Elülső kamra:6,4,3:7.2,51.4
-üvegtest:1,4,3:49.3,65
+írisz:6,3,4:11.3,57:Az írisz a szem vékony szerkezete, amely a pupilla átmérőjének és méretének szabályozásáért felelős.
+szaruhártya:2,6,4:1.7,50.5:A szaruhártya a szem átlátszó elülső része, amely lefedi az íriszt.
+szemlencse:1,4,6:19,51.3:A lencse megtöri a fényt, és a retinára fókuszálja.
+recehártya:1,6,4:64.6,76.8:A retina a szem legbelső, fényérzékeny szövetrétege.
+látóideg:0,6,3:87.9,36.2:A látóideg vizuális információt továbbít a retinából az agyba.
+Elülső kamra:6,4,3:7.2,51.4:Az elülső kamra a szem elülső része a szaruhártya és az írisz között.
+üvegtest:1,4,3:49.3,65:Az üvegtest kamra a szemgolyó hátulján helyezkedik el.

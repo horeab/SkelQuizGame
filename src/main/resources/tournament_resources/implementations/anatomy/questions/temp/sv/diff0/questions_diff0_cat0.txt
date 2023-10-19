@@ -1,10 +1,10 @@
-Lever:1,2,3:29.2,45
-Mun:4,2,9:28.1,81.6
-Matstrupe:1,8,5:48.6,58.6
-Tjocktarmen:4,2,6:20.5,21
-tunntarmen:8,7,1:52.4,19
-Magsäck:4,6,7:66,41
-Svalg:5,2,9:48.6,81
-Gallblåsa:6,9,4:31.3,39.6
-Bukspottkörtel:2,1,0:50,35.1
-blindtarms:2,8,3:35.1,9.6
+Lever:1,2,3:29.2,45:Levern tar bort gifter från kroppens blodtillförsel, upprätthåller sunda blodsockernivåer, reglerar blodets koagulering och utför hundratals andra vitala funktioner.
+Mun:4,2,9:28.1,81.6:Munnen är den första delen av matsmältningskanalen som tar emot mat och producerar saliv.
+Matstrupe:1,8,5:48.6,58.6:Matstrupen är ett rörformigt, långsträckt organ i matsmältningssystemet som förbinder svalget med magsäcken.
+Tjocktarmen:4,2,6:20.5,21:Tjocktarmen är ansvarig för att bearbeta svårsmält matmaterial efter att de flesta näringsämnen har absorberats i tunntarmen.
+tunntarmen:8,7,1:52.4,19:Tunntarmen är ett organ i mag-tarmkanalen där det mesta av upptaget av näringsämnen från maten sker.
+Magsäck:4,6,7:66,41:Magen är en muskelsäck i mitten av den övre delen av buken som hjälper till att bryta ner och smälta maten.
+Svalg:5,2,9:48.6,81:Svalget betjänar både andnings- och matsmältningssystemet genom att ta emot luft från näshålan och luft, mat och vatten från munhålan.
+Gallblåsa:6,9,4:31.3,39.6:Gallblåsan är ett litet ihåligt organ där gallan lagras och koncentreras innan den släpps ut i tunntarmen.
+Bukspottkörtel:2,1,0:50,35.1:Bukspottkörteln har en viktig roll för att omvandla maten vi äter till bränsle för kroppens celler.
+blindtarms:2,8,3:35.1,9.6:Forskning tyder på att blindtarmen kan tjäna ett viktigt syfte som en reservoar för nyttiga tarmbakterier.

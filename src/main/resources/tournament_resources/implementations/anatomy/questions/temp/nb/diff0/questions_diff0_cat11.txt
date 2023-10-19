@@ -1,6 +1,6 @@
-Oksygen:1,2,4:74.5,29,25
-Karbon:2,0,4:74.5,57,25
-Hydrogen:1,0,5:74.5,73.2,25
-Nitrogen:1,0,2:74.5,83.5,25
-Kalsium:0,1,2:74.5,91.2,25
-Fosfor:1,2,0:74.5,96.82,25
+Oksygen:1,2,4:74.5,29,25:Kroppens celler bruker oksygen til å produsere energi.
+Karbon:2,0,4:74.5,57,25:Karbonkjeder brukes til å bygge karbohydrater, fett, nukleinsyrer og proteiner.
+Hydrogen:1,0,5:74.5,73.2,25:Den viktigste funksjonen til hydrogen i menneskekroppen er å holde den hydrert.
+Nitrogen:1,0,2:74.5,83.5,25:Nitrogen finnes i proteiner og i nukleinsyrene som utgjør den genetiske koden.
+Kalsium:0,1,2:74.5,91.2,25:Mennesker trenger kalsium for å bygge og opprettholde sterke bein.
+Fosfor:1,2,0:74.5,96.82,25:Fosfor jobber med kalsium for å hjelpe til med å bygge bein. Kroppen trenger riktig mengde kalsium og fosfor for beinhelsen.

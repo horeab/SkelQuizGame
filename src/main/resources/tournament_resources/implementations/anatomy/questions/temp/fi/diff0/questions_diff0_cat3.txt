@@ -1,6 +1,6 @@
-Sydän:4,2,5:65.3,73
-Aortta:4,2,5:62.9,77.6
-Munuaislaskimo:0,4,5:57.3,59.1
-Munuaisvaltimo:0,5,4:61.5,59.1
-Kaarevat suonet:0,2,5:60.4,86.1
-reisiluulaskimo:0,2,4:67.4,37
+Sydän:4,2,5:65.3,73:Sydän on nyrkin kokoinen elin, joka pumppaa verta koko kehoon.
+Aortta:4,2,5:62.9,77.6:Aortta on tärkein ja suurin valtimo ihmiskehossa.
+Munuaislaskimo:0,4,5:57.3,59.1:Munuaisten verenkierrossa olevat munuaislaskimot ovat suurikaliiperisia laskimoita, jotka tyhjentävät munuaisten suodattamaa verta.
+Munuaisvaltimo:0,5,4:61.5,59.1:Munuaisvaltimot ovat ainoa verisuonilähde munuaisille.
+Kaarevat suonet:0,2,5:60.4,86.1:Kaulalaskimot ovat laskimoita, jotka vievät happitonta verta päästä takaisin sydämeen.
+reisiluulaskimo:0,2,4:67.4,37:Reisiluun laskimo on laskimo, joka seuraa reisivaltimoa reisiluun tupen sisällä.

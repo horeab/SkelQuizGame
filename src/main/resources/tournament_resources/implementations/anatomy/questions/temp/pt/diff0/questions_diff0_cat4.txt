@@ -1,6 +1,6 @@
-Cérebro:5,4,3:50.4,96.8
-Cerebelo:5,4,3:56,92.6
-Medula espinhal:0,4,3:50.7,86.8
-Nervo ciático:0,4,5:59.4,37.6
-Nervo tibial:1,5,3:61.1,19.4
-Gânglio:4,3,1:49,70
+Cérebro:5,4,3:50.4,96.8:O cérebro é um órgão que funciona como centro do sistema nervoso em todos os vertebrados e na maioria dos animais invertebrados.
+Cerebelo:5,4,3:56,92.6:O cerebelo é uma parte do cérebro que desempenha um papel vital na maioria dos movimentos físicos, incluindo os movimentos oculares.
+Medula espinhal:0,4,3:50.7,86.8:A medula espinhal é uma estrutura tubular longa e fina composta de tecido nervoso.
+Nervo ciático:0,4,5:59.4,37.6:O nervo ciático é o maior e mais longo nervo do corpo humano.
+Nervo tibial:1,5,3:61.1,19.4:O nervo tibial é o maior ramo terminal dos dois principais ramos musculares do nervo ciático.
+Gânglio:4,3,1:49,70:Um gânglio é um grupo de corpos celulares de neurônios no sistema nervoso periférico.

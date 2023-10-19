@@ -1,6 +1,6 @@
-Hjerte:4,2,5:65.3,73
-Aorta:4,2,5:62.9,77.6
-Nyre årer:0,4,5:57.3,59.1
-Nyre arterie:0,5,4:61.5,59.1
-Vena jugularis:0,2,5:60.4,86.1
-Femoral vene:0,2,4:67.4,37
+Hjerte:4,2,5:65.3,73:Hjertet er et organ på størrelse med en knyttneve som pumper blod gjennom hele kroppen.
+Aorta:4,2,5:62.9,77.6:Aorta er den viktigste og største arterien i menneskekroppen.
+Nyre årer:0,4,5:57.3,59.1:Nyrevenene i nyresirkulasjonen er vener av stor kaliber som drenerer blod filtrert av nyrene.
+Nyre arterie:0,5,4:61.5,59.1:Nyrearteriene er den eneste vaskulære forsyningen til nyrene.
+Vena jugularis:0,2,5:60.4,86.1:Jugularvenene er årer som tar oksygenert blod fra hodet tilbake til hjertet.
+Femoral vene:0,2,4:67.4,37:Femoralvenen er venen som følger med lårarterien i femoralskjeden.

@@ -1,12 +1,12 @@
-Lobanja:11,8,6:48,97
-Lopatica:5,4,3:61.1,80.2
-Rebra:11,7,0:56,74.1
-Hrbtenica:8,10,1:45.9,65.2
-golenica:5,9,3:51.4,23.6
-Stegnenica:4,10,7:54.9,35.5
-Nadlahtnica:2,7,9:69.1,66.2
-Metakarpalne kosti:6,0,1:81.3,44.8
-Karpalne kosti:5,4,2:77.1,48.7
-Nartnica:4,3,1:49.3,6.9
-Metatarzalne kosti:0,3,5:54.2,2.8
-medenica:0,6,9:59,58.3
+Lobanja:11,8,6:48,97:Lobanja je kostna struktura, ki vsebuje in ščiti možgane.
+Lopatica:5,4,3:61.1,80.2:Scapula je kost, ki povezuje ključnico z nadlahtnico.
+Rebra:11,7,0:56,74.1:Rebra ščiti vitalne organe.
+Hrbtenica:8,10,1:45.9,65.2:Hrbtenica je serija približno 33 kosti, imenovanih vretenca, ki so ločene z medvretenčnimi ploščicami.
+golenica:5,9,3:51.4,23.6:Tibia je večja od dveh kosti v spodnjem delu noge.
+Stegnenica:4,10,7:54.9,35.5:Stegnenica je najdaljša in najmočnejša kost v človeškem telesu.
+Nadlahtnica:2,7,9:69.1,66.2:Humerus je dolga kost v roki, ki poteka od rame do komolca.
+Metakarpalne kosti:6,0,1:81.3,44.8:Metakarpalne kosti je pet dolgih kosti roke.
+Karpalne kosti:5,4,2:77.1,48.7:Karpalne kosti so osem majhnih kosti, ki sestavljajo zapestje.
+Nartnica:4,3,1:49.3,6.9:Tarzus je skupek sedmih zgibnih kosti v vsakem stopalu.
+Metatarzalne kosti:0,3,5:54.2,2.8:Metatarzalne kosti so skupina petih dolgih kosti v stopalu.
+medenica:0,6,9:59,58.3:Medenica je kostna struktura, ki podpira hrbtenico in ščiti trebušne organe.

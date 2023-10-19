@@ -1,7 +1,7 @@
-värikalvo:6,3,4:11.3,57
-Sarveiskalvo:2,6,4:1.7,50.5
-Linssi:1,4,6:19,51.3
-verkkokalvo:1,6,4:64.6,76.8
-Näköhermo:0,6,3:87.9,36.2
-Etukammio:6,4,3:7.2,51.4
-Lasiainen:1,4,3:49.3,65
+värikalvo:6,3,4:11.3,57:Iris on ohut rakenne silmässä, joka vastaa pupillin halkaisijan ja koon säätelystä.
+Sarveiskalvo:2,6,4:1.7,50.5:Sarveiskalvo on silmän läpinäkyvä etuosa, joka peittää iiriksen.
+Linssi:1,4,6:19,51.3:Linssi taittaa valon ja kohdistaa sen verkkokalvolle.
+verkkokalvo:1,6,4:64.6,76.8:Verkkokalvo on silmän sisin, valoherkkä kudoskerros.
+Näköhermo:0,6,3:87.9,36.2:Näköhermo välittää visuaalista tietoa verkkokalvolta aivoihin.
+Etukammio:6,4,3:7.2,51.4:Etukammio on silmän etuosa sarveiskalvon ja iiriksen välissä.
+Lasiainen:1,4,3:49.3,65:Lasainen kammio on sijoitettu silmämunan takaosaan.

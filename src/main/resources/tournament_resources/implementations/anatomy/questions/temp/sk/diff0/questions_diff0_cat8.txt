@@ -1,9 +1,9 @@
-Aorta:8,6,3:51.7,84.7
-horná dutá žila:6,7,4:27.3,92
-Dolná dutá žila:1,4,3:27.8,6.8
-Pravá predsieň:4,7,0:31,54.4
-Ľavé predsieň:7,6,0:59.6,55.5
-Mitrálny ventil:8,2,0:69.5,43.7
-Pravá komora:0,1,3:47.8,38.9
-Ľavá komora:1,8,3:58.1,43
-Trikuspidálny ventil:1,0,5:41,27
+Aorta:8,6,3:51.7,84.7:Aorta je najväčšia tepna tela a vedie krv zo srdca do obehového systému.
+horná dutá žila:6,7,4:27.3,92:Horná dutá žila a dolná dutá žila sú veľmi veľké žily, ktoré privádzajú do srdca odkysličenú krv, aby získali kyslík.
+Dolná dutá žila:1,4,3:27.8,6.8:Horná dutá žila a dolná dutá žila sú veľmi veľké žily, ktoré privádzajú do srdca odkysličenú krv, aby získali kyslík.
+Pravá predsieň:4,7,0:31,54.4:Pravá predsieň a komora sa často spoločne označujú ako pravé srdce a ľavá predsieň a komora ako ľavé srdce.
+Ľavé predsieň:7,6,0:59.6,55.5:Pravá predsieň a komora sa často spoločne označujú ako pravé srdce a ľavá predsieň a komora ako ľavé srdce.
+Mitrálny ventil:8,2,0:69.5,43.7:Mitrálna chlopňa je jednou zo štyroch srdcových chlopní. Otvára sa a zatvára, aby zabezpečila prietok krvi správnym smerom v správnom čase.
+Pravá komora:0,1,3:47.8,38.9:Pravá predsieň a komora sa často spoločne označujú ako pravé srdce a ľavá predsieň a komora ako ľavé srdce.
+Ľavá komora:1,8,3:58.1,43:Pravá predsieň a komora sa často spoločne označujú ako pravé srdce a ľavá predsieň a komora ako ľavé srdce.
+Trikuspidálny ventil:1,0,5:41,27:Trikuspidálna chlopňa riadi tok krvi z pravej predsiene srdca do pravej komory.

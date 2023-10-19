@@ -1,6 +1,6 @@
-Płat czołowy:1,2,4:25,58.5
-Płat skroniowy:0,2,3:51.2,42.2
-Płat ciemieniowy:0,1,3:66,69
-Płat potyliczny:0,1,2:91,46
-Móżdżek:1,2,0:72.8,26.1
-Pień mózgu:1,2,0:63.3,17.6
+Płat czołowy:1,2,4:25,58.5:Uważa się, że płat czołowy jest odpowiedzialny za elastyczne i adaptacyjne zachowanie oraz za wysoko rozwinięte umiejętności społeczne u człowieka.
+Płat skroniowy:0,2,3:51.2,42.2:Funkcja płata skroniowego koncentruje się wokół bodźców słuchowych, pamięci i emocji.
+Płat ciemieniowy:0,1,3:66,69:Płat ciemieniowy jest niezbędny do percepcji zmysłowej, w tym do zarządzania smakiem, słuchem, wzrokiem, dotykiem i węchem.
+Płat potyliczny:0,1,2:91,46:Płat potyliczny jest obszarem przetwarzania obrazu w mózgu.
+Móżdżek:1,2,0:72.8,26.1:Móżdżek jest istotnym elementem ludzkiego mózgu, ponieważ odgrywa rolę w regulacji ruchu motorycznego i kontroli równowagi.
+Pień mózgu:1,2,0:63.3,17.6:Pień mózgu to struktura łącząca mózg z rdzeniem kręgowym i móżdżkiem.

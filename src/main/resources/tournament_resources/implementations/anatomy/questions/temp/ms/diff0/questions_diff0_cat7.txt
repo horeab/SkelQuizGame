@@ -1,7 +1,7 @@
-Cuping:1,2,4:8,31
-Telinga telinga:0,2,6:33.5,42.1
-Drum telinga:1,5,6:55.6,42
-Osikel:1,0,6:54.3,52.9
-koklea:6,1,5:75.8,45.7
-Saraf auditori:6,2,1:91.8,48
-Tiub Eustachian:5,1,3:77.3,28.3
+Cuping:1,2,4:8,31:Auricle adalah bahagian telinga yang boleh dilihat di luar kepala.
+Telinga telinga:0,2,6:33.5,42.1:Salur telinga adalah laluan yang mengalir dari telinga luar ke telinga tengah.
+Drum telinga:1,5,6:55.6,42:gegendang telinga, adalah membran nipis berbentuk kon yang memisahkan telinga luar dari telinga tengah.
+Osikel:1,0,6:54.3,52.9:Osikel ialah tiga tulang di kedua-dua telinga tengah yang merupakan antara tulang terkecil dalam tubuh manusia.
+koklea:6,1,5:75.8,45.7:Koklea adalah bahagian telinga dalam yang terlibat dalam pendengaran.
+Saraf auditori:6,2,1:91.8,48:Saraf pendengaran bertanggungjawab untuk menghantar isyarat pendengaran dari telinga dalam ke batang otak.
+Tiub Eustachian:5,1,3:77.3,28.3:Tiub Eustachian adalah bukaan yang menghubungkan telinga tengah dengan rongga hidung-sinus.

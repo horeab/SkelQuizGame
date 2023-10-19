@@ -1,7 +1,7 @@
-Fülkagyló:1,2,4:8,31
-Fülcsatorna:0,2,6:33.5,42.1
-Füldob:1,5,6:55.6,42
-ossicles:1,0,6:54.3,52.9
-Csiga:6,1,5:75.8,45.7
-Hallóideg:6,2,1:91.8,48
-fülkürt:5,1,3:77.3,28.3
+Fülkagyló:1,2,4:8,31:A fülkagyló a fül azon látható része, amely a fejen kívül van.
+Fülcsatorna:0,2,6:33.5,42.1:A hallójárat a külső fültől a középfülig vezető út.
+Füldob:1,5,6:55.6,42:a dobhártya egy vékony, kúp alakú membrán, amely elválasztja a külső fület a középfültől.
+ossicles:1,0,6:54.3,52.9:A csontcsontok három csont a középfülben, amelyek az emberi test legkisebb csontjai közé tartoznak.
+Csiga:6,1,5:75.8,45.7:A fülkagyló a belső fülnek a hallásban részt vevő része.
+Hallóideg:6,2,1:91.8,48:A hallóideg felelős a hallójelek továbbításáért a belső fülből az agytörzsbe.
+fülkürt:5,1,3:77.3,28.3:Az Eustachianus cső egy nyílás, amely összeköti a középfület az orr-üregüreggel.

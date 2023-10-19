@@ -1,7 +1,7 @@
-dúhovka:6,3,4:11.3,57
-Rohovka:2,6,4:1.7,50.5
-Šošovka:1,4,6:19,51.3
-sietnica:1,6,4:64.6,76.8
-Očný nerv:0,6,3:87.9,36.2
-Predná komora:6,4,3:7.2,51.4
-Sklovec:1,4,3:49.3,65
+dúhovka:6,3,4:11.3,57:Dúhovka je tenká štruktúra oka, ktorá je zodpovedná za kontrolu priemeru a veľkosti zrenice.
+Rohovka:2,6,4:1.7,50.5:Rohovka je priehľadná predná časť oka, ktorá pokrýva dúhovku.
+Šošovka:1,4,6:19,51.3:Šošovka láme svetlo a zaostruje ho na sietnicu.
+sietnica:1,6,4:64.6,76.8:Sietnica je najvnútornejšia, na svetlo citlivá vrstva tkaniva oka.
+Očný nerv:0,6,3:87.9,36.2:Očný nerv prenáša vizuálne informácie zo sietnice do mozgu.
+Predná komora:6,4,3:7.2,51.4:Predná komora je predná časť oka medzi rohovkou a dúhovkou.
+Sklovec:1,4,3:49.3,65:Sklovcová komora je umiestnená v zadnej časti očnej gule.

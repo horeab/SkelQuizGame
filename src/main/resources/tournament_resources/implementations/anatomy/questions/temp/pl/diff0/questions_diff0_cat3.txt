@@ -1,6 +1,6 @@
-Serce:4,2,5:65.3,73
-Aorta:4,2,5:62.9,77.6
-Żyły nerkowe:0,4,5:57.3,59.1
-Tętnica nerkowa:0,5,4:61.5,59.1
-Żyła szyjna:0,2,5:60.4,86.1
-Żyła udowa:0,2,4:67.4,37
+Serce:4,2,5:65.3,73:Serce to organ wielkości pięści, który pompuje krew po całym organizmie.
+Aorta:4,2,5:62.9,77.6:Aorta jest główną i największą tętnicą w organizmie człowieka.
+Żyły nerkowe:0,4,5:57.3,59.1:Żyły nerkowe w krążeniu nerkowym to żyły dużego kalibru, które odprowadzają krew przefiltrowaną przez nerki.
+Tętnica nerkowa:0,5,4:61.5,59.1:Tętnice nerkowe są jedynym unaczynieniem nerek.
+Żyła szyjna:0,2,5:60.4,86.1:Żyły szyjne to żyły odprowadzające odtlenioną krew z głowy z powrotem do serca.
+Żyła udowa:0,2,4:67.4,37:Żyła udowa to żyła towarzysząca tętnicy udowej w pochewce udowej.

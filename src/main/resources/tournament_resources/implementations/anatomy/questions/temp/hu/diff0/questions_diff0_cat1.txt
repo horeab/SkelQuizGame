@@ -1,12 +1,12 @@
-Koponya:11,8,6:48,97
-Lapocka:5,4,3:61.1,80.2
-bordák:11,7,0:56,74.1
-Gerinc:8,10,1:45.9,65.2
-Sípcsont:5,9,3:51.4,23.6
-combcsont:4,10,7:54.9,35.5
-Felkarcsont:2,7,9:69.1,66.2
-Metakarbális csontok:6,0,1:81.3,44.8
-pontycsontok:5,4,2:77.1,48.7
-cérnacsontok:4,3,1:49.3,6.9
-Lábközépcsont:0,3,5:54.2,2.8
-Csontos medence:0,6,9:59,58.3
+Koponya:11,8,6:48,97:A koponya egy csontszerkezet, amely tartalmazza és védi az agyat.
+Lapocka:5,4,3:61.1,80.2:A lapocka az a csont, amely összeköti a kulcscsontot a humerusszal.
+bordák:11,7,0:56,74.1:A bordaív védi a létfontosságú szerveket.
+Gerinc:8,10,1:45.9,65.2:A csigolya körülbelül 33 csontból álló sorozat, úgynevezett csigolya, amelyeket csigolyaközi lemezek választanak el egymástól.
+Sípcsont:5,9,3:51.4,23.6:A sípcsont az alsó lábszár két csontja közül a legnagyobb.
+combcsont:4,10,7:54.9,35.5:A combcsont az emberi test leghosszabb és legerősebb csontja.
+Felkarcsont:2,7,9:69.1,66.2:A humerus egy hosszú csont a karban, amely a válltól a könyökig tart.
+Metakarbális csontok:6,0,1:81.3,44.8:A kézközépcsontok a kéz öt hosszú csontja.
+pontycsontok:5,4,2:77.1,48.7:A kéztőcsontok az a nyolc kis csont, amelyek a csuklót alkotják.
+cérnacsontok:4,3,1:49.3,6.9:A tarsus hét ízületi csontból álló csoport minden lábfejben.
+Lábközépcsont:0,3,5:54.2,2.8:A lábközépcsontok öt hosszú csontból álló csoport a lábfejben.
+Csontos medence:0,6,9:59,58.3:A medence egy csontszerkezet, amely támogatja a gerincoszlopot és védi a hasi szerveket.

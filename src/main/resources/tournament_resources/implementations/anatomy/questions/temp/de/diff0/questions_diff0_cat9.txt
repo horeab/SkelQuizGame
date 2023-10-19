@@ -1,7 +1,7 @@
-Iris:6,3,4:11.3,57
-Hornhaut:2,6,4:1.7,50.5
-Linse:1,4,6:19,51.3
-Netzhaut:1,6,4:64.6,76.8
-Sehnerv:0,6,3:87.9,36.2
-Vorderkammer:6,4,3:7.2,51.4
-Glaskörper:1,4,3:49.3,65
+Iris:6,3,4:11.3,57:Die Iris ist eine dünne Struktur im Auge, die für die Steuerung des Durchmessers und der Größe der Pupille verantwortlich ist.
+Hornhaut:2,6,4:1.7,50.5:Die Hornhaut ist der transparente vordere Teil des Auges, der die Iris bedeckt.
+Linse:1,4,6:19,51.3:Die Linse bricht das Licht und fokussiert es auf die Netzhaut.
+Netzhaut:1,6,4:64.6,76.8:Die Netzhaut ist die innerste, lichtempfindliche Gewebeschicht des Auges.
+Sehnerv:0,6,3:87.9,36.2:Der Sehnerv überträgt visuelle Informationen von der Netzhaut an das Gehirn.
+Vorderkammer:6,4,3:7.2,51.4:Die Vorderkammer ist der vordere Teil des Auges zwischen Hornhaut und Iris.
+Glaskörper:1,4,3:49.3,65:Die Glaskammer befindet sich auf der Rückseite des Augapfels.

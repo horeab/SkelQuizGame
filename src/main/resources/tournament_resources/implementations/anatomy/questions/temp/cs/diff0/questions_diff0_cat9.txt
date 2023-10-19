@@ -1,7 +1,7 @@
-Duhovka:6,3,4:11.3,57
-rohovka:2,6,4:1.7,50.5
-čočka:1,4,6:19,51.3
-Sítnice:1,6,4:64.6,76.8
-Oční nerv:0,6,3:87.9,36.2
-Přední komora:6,4,3:7.2,51.4
-Sklivec:1,4,3:49.3,65
+Duhovka:6,3,4:11.3,57:Duhovka je tenká struktura v oku, která je zodpovědná za kontrolu průměru a velikosti zornice.
+rohovka:2,6,4:1.7,50.5:Rohovka je průhledná přední část oka, která pokrývá duhovku.
+čočka:1,4,6:19,51.3:Čočka láme světlo a zaostřuje ho na sítnici.
+Sítnice:1,6,4:64.6,76.8:Sítnice je nejvnitřnější, na světlo citlivá vrstva tkáně oka.
+Oční nerv:0,6,3:87.9,36.2:Oční nerv přenáší vizuální informace ze sítnice do mozku.
+Přední komora:6,4,3:7.2,51.4:Přední komora je přední část oka mezi rohovkou a duhovkou.
+Sklivec:1,4,3:49.3,65:Sklivcová komora je umístěna v zadní části oční bulvy.

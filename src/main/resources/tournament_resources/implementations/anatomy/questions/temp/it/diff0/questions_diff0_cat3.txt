@@ -1,6 +1,6 @@
-Cuore:4,2,5:65.3,73
-Aorta:4,2,5:62.9,77.6
-Vene renali:0,4,5:57.3,59.1
-Arteria renale:0,5,4:61.5,59.1
-Vena giugulare:0,2,5:60.4,86.1
-Vena femorale:0,2,4:67.4,37
+Cuore:4,2,5:65.3,73:Il cuore è un organo grande quanto un pugno che pompa il sangue in tutto il corpo.
+Aorta:4,2,5:62.9,77.6:L’aorta è l’arteria principale e più grande del corpo umano.
+Vene renali:0,4,5:57.3,59.1:Le vene renali, presenti nel circolo renale, sono vene di grosso calibro che drenano il sangue filtrato dai reni.
+Arteria renale:0,5,4:61.5,59.1:Le arterie renali rappresentano l’unico apporto vascolare ai reni.
+Vena giugulare:0,2,5:60.4,86.1:Le vene giugulari sono vene che portano il sangue deossigenato dalla testa al cuore.
+Vena femorale:0,2,4:67.4,37:La vena femorale è la vena che accompagna l’arteria femorale nella guaina femorale.

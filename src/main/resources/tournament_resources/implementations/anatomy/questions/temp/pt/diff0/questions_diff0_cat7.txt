@@ -1,7 +1,7 @@
-Pavilhão da orelha:1,2,4:8,31
-Canal auditivo:0,2,6:33.5,42.1
-Tímpano:1,5,6:55.6,42
-Ossículos:1,0,6:54.3,52.9
-Cóclea:6,1,5:75.8,45.7
-Nervo auditivo:6,2,1:91.8,48
-Tuba de Eustáquio:5,1,3:77.3,28.3
+Pavilhão da orelha:1,2,4:8,31:A aurícula é a parte visível da orelha que fica fora da cabeça.
+Canal auditivo:0,2,6:33.5,42.1:O canal auditivo é um caminho que vai do ouvido externo ao ouvido médio.
+Tímpano:1,5,6:55.6,42:o tímpano é uma membrana fina em forma de cone que separa o ouvido externo do ouvido médio.
+Ossículos:1,0,6:54.3,52.9:Os ossículos são três ossos do ouvido médio que estão entre os menores ossos do corpo humano.
+Cóclea:6,1,5:75.8,45.7:A cóclea é a parte do ouvido interno envolvida na audição.
+Nervo auditivo:6,2,1:91.8,48:O nervo auditivo é responsável pela transmissão dos sinais auditivos do ouvido interno ao tronco cerebral.
+Tuba de Eustáquio:5,1,3:77.3,28.3:A trompa de Eustáquio é uma abertura que conecta o ouvido médio à cavidade nasossinusal.

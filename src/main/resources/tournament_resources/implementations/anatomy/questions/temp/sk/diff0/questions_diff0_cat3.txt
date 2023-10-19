@@ -1,6 +1,6 @@
-Srdce:4,2,5:65.3,73
-Aorta:4,2,5:62.9,77.6
-Renálne žily:0,4,5:57.3,59.1
-Renálna artéria:0,5,4:61.5,59.1
-Hrdlová žila:0,2,5:60.4,86.1
-Femorálna žila:0,2,4:67.4,37
+Srdce:4,2,5:65.3,73:Srdce je orgán veľkosti päste, ktorý pumpuje krv do celého tela.
+Aorta:4,2,5:62.9,77.6:Aorta je hlavná a najväčšia tepna v ľudskom tele.
+Renálne žily:0,4,5:57.3,59.1:Renálne žily v obličkovom obehu sú žily veľkého kalibru, ktoré odvádzajú krv filtrovanú obličkami.
+Renálna artéria:0,5,4:61.5,59.1:Renálne tepny sú jediným cievnym zásobením obličiek.
+Hrdlová žila:0,2,5:60.4,86.1:Krčné žily sú žily, ktoré odvádzajú odkysličenú krv z hlavy späť do srdca.
+Femorálna žila:0,2,4:67.4,37:Femorálna žila je žila, ktorá sprevádza femorálnu tepnu vo femorálnom puzdre.

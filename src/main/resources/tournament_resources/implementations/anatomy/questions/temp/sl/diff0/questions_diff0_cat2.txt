@@ -1,6 +1,6 @@
-Deltoid:4,1,5:65.3,80.2
-Biceps:5,0,4:67.3,71.5
-Prsni:5,0,4:52.5,76.4
-Trapez:1,5,4:51.4,85.5
-Zunanji poševni trebuh:1,5,0:54.2,65.9
-Tibialis anterior:1,0,3:59.7,21.8
+Deltoid:4,1,5:65.3,80.2:Deltoidi so znani tudi kot ramenske mišice.
+Biceps:5,0,4:67.3,71.5:Biceps je izrazita mišica na sprednji strani nadlakti.
+Prsni:5,0,4:52.5,76.4:Prsne mišice so mišice, ki povezujejo sprednji del človeškega prsnega koša s kostmi nadlakti in ramen.
+Trapez:1,5,4:51.4,85.5:Trapezna mišica je široka, ploska mišica, ki se razteza od vratnega predela do prsnega koša na zadnji strani vratu in trupa.
+Zunanji poševni trebuh:1,5,0:54.2,65.9:Zunanja poševna trebušna mišica je največja in najbolj oddaljena od treh trebušnih mišic lateralnega sprednjega trebuha.
+Tibialis anterior:1,0,3:59.7,21.8:Sprednja tibialna mišica je mišica sprednjega dela spodnjega dela noge.

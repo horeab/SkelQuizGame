@@ -1,12 +1,12 @@
-Czaszka:11,8,6:48,97
-Łopatka:5,4,3:61.1,80.2
-Żebra:11,7,0:56,74.1
-Kręgosłup:8,10,1:45.9,65.2
-Kość piszczelowa:5,9,3:51.4,23.6
-Kość udowa:4,10,7:54.9,35.5
-Kość ramienna:2,7,9:69.1,66.2
-Kości śródręcza:6,0,1:81.3,44.8
-Kości nadgarstka:5,4,2:77.1,48.7
-Stęp:4,3,1:49.3,6.9
-Śródstopie:0,3,5:54.2,2.8
-Miednica:0,6,9:59,58.3
+Czaszka:11,8,6:48,97:Czaszka to struktura kostna, która zawiera i chroni mózg.
+Łopatka:5,4,3:61.1,80.2:Łopatka to kość łącząca obojczyk z kością ramienną.
+Żebra:11,7,0:56,74.1:Klatka piersiowa chroni najważniejsze narządy.
+Kręgosłup:8,10,1:45.9,65.2:Kręgosłup to zespół około 33 kości zwanych kręgami, oddzielonych krążkami międzykręgowymi.
+Kość piszczelowa:5,9,3:51.4,23.6:Piszczel jest większą z dwóch kości dolnej części nogi.
+Kość udowa:4,10,7:54.9,35.5:Kość udowa jest najdłuższą i najmocniejszą kością w organizmie człowieka.
+Kość ramienna:2,7,9:69.1,66.2:Kość ramienna to długa kość ramienia, która biegnie od barku do łokcia.
+Kości śródręcza:6,0,1:81.3,44.8:Kości śródręcza to pięć długich kości dłoni.
+Kości nadgarstka:5,4,2:77.1,48.7:Kości nadgarstka to osiem małych kości tworzących nadgarstek.
+Stęp:4,3,1:49.3,6.9:Stęp to skupisko siedmiu ruchomych kości w każdej stopie.
+Śródstopie:0,3,5:54.2,2.8:Kości śródstopia to grupa pięciu długich kości stopy.
+Miednica:0,6,9:59,58.3:Miednica jest strukturą kostną, która podtrzymuje kręgosłup i chroni narządy jamy brzusznej.

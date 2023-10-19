@@ -1,6 +1,6 @@
-Otak:5,4,3:50.4,96.8
-Serebelum:5,4,3:56,92.6
-Kord tulang belakang:0,4,3:50.7,86.8
-Saraf Sciatic:0,4,5:59.4,37.6
-Tibial saraf:1,5,3:61.1,19.4
-Ganglion:4,3,1:49,70
+Otak:5,4,3:50.4,96.8:Otak adalah organ yang berfungsi sebagai pusat sistem saraf pada semua haiwan vertebrata dan kebanyakan haiwan invertebrata.
+Serebelum:5,4,3:56,92.6:Cerebellum adalah bahagian otak yang memainkan peranan penting dalam kebanyakan pergerakan fizikal, termasuk pergerakan mata.
+Kord tulang belakang:0,4,3:50.7,86.8:Saraf tunjang ialah struktur tiub yang panjang, nipis dan terdiri daripada tisu saraf.
+Saraf Sciatic:0,4,5:59.4,37.6:Saraf sciatic adalah saraf terbesar dan terpanjang dalam tubuh manusia.
+Tibial saraf:1,5,3:61.1,19.4:Saraf tibial adalah cawangan terminal yang lebih besar dari dua cabang otot utama saraf sciatic.
+Ganglion:4,3,1:49,70:Ganglion ialah sekumpulan badan sel neuron dalam sistem saraf periferi.

@@ -1,10 +1,10 @@
-lever:1,2,3:29.2,45
-Mund:4,2,9:28.1,81.6
-Spiserøret:1,8,5:48.6,58.6
-Stor tarme:4,2,6:20.5,21
-Tyndtarmen:8,7,1:52.4,19
-Mave:4,6,7:66,41
-svælg:5,2,9:48.6,81
-Galdeblæren:6,9,4:31.3,39.6
-Bugspytkirtel:2,1,0:50,35.1
-blindtarm:2,8,3:35.1,9.6
+lever:1,2,3:29.2,45:Leveren fjerner toksiner fra kroppens blodforsyning, opretholder sunde blodsukkerniveauer, regulerer blodets størkning og udfører hundredvis af andre vitale funktioner.
+Mund:4,2,9:28.1,81.6:Munden er den første del af fordøjelseskanalen, der modtager mad og producerer spyt.
+Spiserøret:1,8,5:48.6,58.6:Spiserøret er et rørformet, aflangt organ i fordøjelsessystemet, som forbinder svælget med maven.
+Stor tarme:4,2,6:20.5,21:Tyktarmen er ansvarlig for at behandle ufordøjeligt madmateriale, efter at de fleste næringsstoffer er absorberet i tyndtarmen.
+Tyndtarmen:8,7,1:52.4,19:Tyndtarmen er et organ i mave-tarmkanalen, hvor det meste af optagelsen af ​​næringsstoffer fra maden finder sted.
+Mave:4,6,7:66,41:Maven er en muskelsæk i midten af ​​den øvre del af maven, der hjælper med at nedbryde og fordøje mad.
+svælg:5,2,9:48.6,81:Svælget betjener både åndedræts- og fordøjelsessystemet ved at modtage luft fra næsehulen og luft, mad og vand fra mundhulen.
+Galdeblæren:6,9,4:31.3,39.6:Galdeblæren er et lille hult organ, hvor galden opbevares og koncentreres, før den frigives til tyndtarmen.
+Bugspytkirtel:2,1,0:50,35.1:Bugspytkirtlen har en væsentlig rolle i at omdanne den mad, vi spiser, til brændstof til kroppens celler.
+blindtarm:2,8,3:35.1,9.6:Forskning tyder på, at blindtarmen kan tjene et vigtigt formål som et reservoir for gavnlige tarmbakterier.

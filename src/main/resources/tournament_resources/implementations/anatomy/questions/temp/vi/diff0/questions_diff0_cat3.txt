@@ -1,6 +1,6 @@
-Tim:4,2,5:65.3,73
-Động mạch chủ:4,2,5:62.9,77.6
-Tĩnh mạch thận:0,4,5:57.3,59.1
-Động mạch thận:0,5,4:61.5,59.1
-Tĩnh mạch cảnh:0,2,5:60.4,86.1
-Tĩnh mạch đùi:0,2,4:67.4,37
+Tim:4,2,5:65.3,73:Trái tim là một cơ quan có kích thước bằng nắm tay, bơm máu đi khắp cơ thể.
+Động mạch chủ:4,2,5:62.9,77.6:Động mạch chủ là động mạch chính và lớn nhất trong cơ thể con người.
+Tĩnh mạch thận:0,4,5:57.3,59.1:Các tĩnh mạch thận trong tuần hoàn thận là các tĩnh mạch có kích thước lớn dẫn lưu máu do thận lọc.
+Động mạch thận:0,5,4:61.5,59.1:Động mạch thận là nguồn cung cấp mạch máu duy nhất cho thận.
+Tĩnh mạch cảnh:0,2,5:60.4,86.1:Tĩnh mạch cổ là tĩnh mạch đưa máu đã khử oxy từ đầu trở về tim.
+Tĩnh mạch đùi:0,2,4:67.4,37:Tĩnh mạch đùi là tĩnh mạch đi kèm với động mạch đùi trong bao đùi.

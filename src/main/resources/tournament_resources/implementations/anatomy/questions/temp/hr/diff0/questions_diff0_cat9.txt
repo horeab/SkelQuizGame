@@ -1,7 +1,7 @@
-šarenica:6,3,4:11.3,57
-Rožnica:2,6,4:1.7,50.5
-leća:1,4,6:19,51.3
-mrežnice:1,6,4:64.6,76.8
-optički živac:0,6,3:87.9,36.2
-Prednja komora:6,4,3:7.2,51.4
-Staklasto tijelo:1,4,3:49.3,65
+šarenica:6,3,4:11.3,57:Šarenica je tanka struktura u oku, odgovorna za kontrolu promjera i veličine zjenice.
+Rožnica:2,6,4:1.7,50.5:Rožnica je prozirni prednji dio oka koji prekriva šarenicu.
+leća:1,4,6:19,51.3:Leća lomi svjetlost, fokusirajući je na mrežnicu.
+mrežnice:1,6,4:64.6,76.8:Mrežnica je najunutarnjiji sloj očnog tkiva osjetljiv na svjetlost.
+optički živac:0,6,3:87.9,36.2:Vidni živac prenosi vizualne informacije od mrežnice do mozga.
+Prednja komora:6,4,3:7.2,51.4:Prednja sobica je prednji dio oka između rožnice i šarenice.
+Staklasto tijelo:1,4,3:49.3,65:Staklasta komorica nalazi se na stražnjoj strani očne jabučice.

@@ -1,6 +1,6 @@
-Deltoid:4,1,5:65.3,80.2
-pazı kas:5,0,4:67.3,71.5
-Göğüs kası:5,0,4:52.5,76.4
-Trapezius:1,5,4:51.4,85.5
-Karın dış eğik kas:1,5,0:54.2,65.9
-Musculus tibialis anterior:1,0,3:59.7,21.8
+Deltoid:4,1,5:65.3,80.2:Deltoidlere omuz kasları da denir.
+pazı kas:5,0,4:67.3,71.5:Biceps üst kolun ön tarafında belirgin bir kastır.
+Göğüs kası:5,0,4:52.5,76.4:Göğüs kasları, insan göğsünün ön kısmını üst kol ve omuz kemiklerine bağlayan kaslardır.
+Trapezius:1,5,4:51.4,85.5:Trapezius kası, boyun ve gövdenin arka tarafında servikal bölgeden torakal bölgeye kadar uzanan geniş, düz bir kastır.
+Karın dış eğik kas:1,5,0:54.2,65.9:Karın dış eğik kası, karın ön yan tarafındaki üç karın kasının en büyüğü ve en dışta olanıdır.
+Musculus tibialis anterior:1,0,3:59.7,21.8:Tibialis anterior kası, alt bacağın ön bölmesinin bir kasıdır.

@@ -1,6 +1,6 @@
-Jantung:4,2,5:65.3,73
-Aorta:4,2,5:62.9,77.6
-Vena ginjal:0,4,5:57.3,59.1
-Arteri ginjal:0,5,4:61.5,59.1
-Vena jugularis:0,2,5:60.4,86.1
-Vena femoralis:0,2,4:67.4,37
+Jantung:4,2,5:65.3,73:Jantung adalah organ seukuran kepalan tangan yang memompa darah ke seluruh tubuh.
+Aorta:4,2,5:62.9,77.6:Aorta adalah arteri utama dan terbesar di tubuh manusia.
+Vena ginjal:0,4,5:57.3,59.1:Vena ginjal pada peredaran ginjal, merupakan vena kaliber besar yang mengalirkan darah yang disaring oleh ginjal.
+Arteri ginjal:0,5,4:61.5,59.1:Arteri ginjal adalah satu-satunya suplai pembuluh darah ke ginjal.
+Vena jugularis:0,2,5:60.4,86.1:Vena jugularis adalah vena yang membawa darah terdeoksigenasi dari kepala kembali ke jantung.
+Vena femoralis:0,2,4:67.4,37:Vena femoralis adalah vena yang menyertai arteri femoralis di selubung femoralis.

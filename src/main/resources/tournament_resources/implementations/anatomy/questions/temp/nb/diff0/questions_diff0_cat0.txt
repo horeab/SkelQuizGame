@@ -1,10 +1,10 @@
-Lever:1,2,3:29.2,45
-Munn:4,2,9:28.1,81.6
-Spiserøret:1,8,5:48.6,58.6
-Tykktarmen:4,2,6:20.5,21
-Tynntarm:8,7,1:52.4,19
-Mage:4,6,7:66,41
-Svelg:5,2,9:48.6,81
-Galleblæren:6,9,4:31.3,39.6
-Bukspyttkjertel:2,1,0:50,35.1
-appendektomi:2,8,3:35.1,9.6
+Lever:1,2,3:29.2,45:Leveren fjerner giftstoffer fra kroppens blodtilførsel, opprettholder sunne blodsukkernivåer, regulerer blodpropp og utfører hundrevis av andre vitale funksjoner.
+Munn:4,2,9:28.1,81.6:Munnen er den første delen av fordøyelseskanalen som mottar mat og produserer spytt.
+Spiserøret:1,8,5:48.6,58.6:Spiserøret er et rørformet, langstrakt organ i fordøyelsessystemet som forbinder svelget med magen.
+Tykktarmen:4,2,6:20.5,21:Tykktarmen er ansvarlig for å behandle ufordøyelig matmateriale etter at de fleste næringsstoffene er absorbert i tynntarmen.
+Tynntarm:8,7,1:52.4,19:Tynntarmen er et organ i mage-tarmkanalen hvor det meste av opptaket av næringsstoffer fra maten skjer.
+Mage:4,6,7:66,41:Magen er en muskelpose i midten av øvre del av magen som hjelper til med å bryte ned og fordøye mat.
+Svelg:5,2,9:48.6,81:Svelget betjener både luftveiene og fordøyelsessystemet ved å motta luft fra nesehulen og luft, mat og vann fra munnhulen.
+Galleblæren:6,9,4:31.3,39.6:Galleblæren er et lite hult organ hvor galle lagres og konsentreres før den slippes ut i tynntarmen.
+Bukspyttkjertel:2,1,0:50,35.1:Bukspyttkjertelen har en viktig rolle i å omdanne maten vi spiser til drivstoff for kroppens celler.
+appendektomi:2,8,3:35.1,9.6:Forskning tyder på at blindtarmen kan tjene et viktig formål som et reservoar for gunstige tarmbakterier.

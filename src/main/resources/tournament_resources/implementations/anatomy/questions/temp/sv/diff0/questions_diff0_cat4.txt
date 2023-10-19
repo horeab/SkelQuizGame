@@ -1,6 +1,6 @@
-Hjärna:5,4,3:50.4,96.8
-Lillhjärnan:5,4,3:56,92.6
-Ryggmärg:0,4,3:50.7,86.8
-Ischiasnerv:0,4,5:59.4,37.6
-Tibial nerv:1,5,3:61.1,19.4
-Ganglion:4,3,1:49,70
+Hjärna:5,4,3:50.4,96.8:Hjärnan är ett organ som fungerar som centrum för nervsystemet hos alla ryggradsdjur och de flesta ryggradslösa djur.
+Lillhjärnan:5,4,3:56,92.6:Lillhjärnan är en del av hjärnan som spelar en viktig roll i de flesta fysiska rörelser, inklusive ögonrörelser.
+Ryggmärg:0,4,3:50.7,86.8:Ryggmärgen är en lång, tunn, rörformig struktur som består av nervvävnad.
+Ischiasnerv:0,4,5:59.4,37.6:Ischiasnerven är den största och längsta nerven i människokroppen.
+Tibial nerv:1,5,3:61.1,19.4:Tibialnerven är den större terminala grenen av de två huvudmuskulära grenarna av ischiasnerven.
+Ganglion:4,3,1:49,70:Ett ganglion är en grupp neuroncellkroppar i det perifera nervsystemet.

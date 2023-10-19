@@ -1,6 +1,6 @@
-Syre:1,2,4:74.5,29,25
-Kol:2,0,4:74.5,57,25
-Väte:1,0,5:74.5,73.2,25
-Kväve:1,0,2:74.5,83.5,25
-Kalcium:0,1,2:74.5,91.2,25
-Fosfor:1,2,0:74.5,96.82,25
+Syre:1,2,4:74.5,29,25:Kroppens celler använder syre för att producera energi.
+Kol:2,0,4:74.5,57,25:Kolkedjor används för att bygga upp kolhydrater, fetter, nukleinsyror och proteiner.
+Väte:1,0,5:74.5,73.2,25:Väteets viktigaste funktion i människokroppen är att hålla det hydrerat.
+Kväve:1,0,2:74.5,83.5,25:Kväve finns i proteiner och i de nukleinsyror som utgör den genetiska koden.
+Kalcium:0,1,2:74.5,91.2,25:Människor behöver kalcium för att bygga och bibehålla starka ben.
+Fosfor:1,2,0:74.5,96.82,25:Fosfor arbetar med kalcium för att hjälpa till att bygga ben. Kroppen behöver rätt mängd kalcium och fosfor för benhälsa.

@@ -1,6 +1,6 @@
-Mozog:5,4,3:50.4,96.8
-Mozoček:5,4,3:56,92.6
-Miecha:0,4,3:50.7,86.8
-sedací nerv:0,4,5:59.4,37.6
-Tibiálny nerv:1,5,3:61.1,19.4
-zhluk nervových buniek:4,3,1:49,70
+Mozog:5,4,3:50.4,96.8:Mozog je orgán, ktorý slúži ako centrum nervového systému u všetkých stavovcov a väčšiny bezstavovcov.
+Mozoček:5,4,3:56,92.6:Mozoček je časť mozgu, ktorá hrá dôležitú úlohu vo väčšine fyzických pohybov, vrátane pohybov očí.
+Miecha:0,4,3:50.7,86.8:Miecha je dlhá, tenká, rúrkovitá štruktúra tvorená nervovým tkanivom.
+sedací nerv:0,4,5:59.4,37.6:Sedací nerv je najväčší a najdlhší nerv v ľudskom tele.
+Tibiálny nerv:1,5,3:61.1,19.4:Tibiálny nerv je väčšia koncová vetva dvoch hlavných svalových vetiev sedacieho nervu.
+zhluk nervových buniek:4,3,1:49,70:Ganglion je skupina telies neurónových buniek v periférnom nervovom systéme.

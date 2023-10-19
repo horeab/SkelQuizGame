@@ -1,10 +1,10 @@
-Wątroba:1,2,3:29.2,45
-Usta:4,2,9:28.1,81.6
-Przełyk:1,8,5:48.6,58.6
-Jelito grube:4,2,6:20.5,21
-Jelito cienkie:8,7,1:52.4,19
-Żołądek:4,6,7:66,41
-Gardło:5,2,9:48.6,81
-Pęcherzyk żółciowy:6,9,4:31.3,39.6
-Trzustka:2,1,0:50,35.1
-Wyrostek robaczkowy:2,8,3:35.1,9.6
+Wątroba:1,2,3:29.2,45:Wątroba usuwa toksyny z krwiobiegu, utrzymuje prawidłowy poziom cukru we krwi, reguluje krzepnięcie krwi i spełnia setki innych ważnych funkcji.
+Usta:4,2,9:28.1,81.6:Usta są pierwszą częścią przewodu pokarmowego, która przyjmuje pokarm i wytwarza ślinę.
+Przełyk:1,8,5:48.6,58.6:Przełyk to rurkowaty, wydłużony narząd układu trawiennego, który łączy gardło z żołądkiem.
+Jelito grube:4,2,6:20.5,21:Jelito grube jest odpowiedzialne za przetwarzanie niestrawnego materiału pokarmowego po wchłonięciu większości składników odżywczych w jelicie cienkim.
+Jelito cienkie:8,7,1:52.4,19:Jelito cienkie jest narządem przewodu pokarmowego, w którym zachodzi większość wchłaniania składników odżywczych z pożywienia.
+Żołądek:4,6,7:66,41:Żołądek to mięśniowy worek znajdujący się pośrodku górnej części brzucha, który pomaga rozkładać i trawić pokarm.
+Gardło:5,2,9:48.6,81:Gardło służy zarówno układowi oddechowemu, jak i trawiennemu, przyjmując powietrze z jamy nosowej oraz powietrze, pokarm i wodę z jamy ustnej.
+Pęcherzyk żółciowy:6,9,4:31.3,39.6:Woreczek żółciowy to mały, pusty narząd, w którym gromadzi się i zagęszcza żółć, zanim zostanie uwolniona do jelita cienkiego.
+Trzustka:2,1,0:50,35.1:Trzustka odgrywa zasadniczą rolę w przetwarzaniu pożywienia, które spożywamy, w paliwo dla komórek organizmu.
+Wyrostek robaczkowy:2,8,3:35.1,9.6:Badania sugerują, że wyrostek robaczkowy może pełnić ważną funkcję jako rezerwuar pożytecznych bakterii jelitowych.

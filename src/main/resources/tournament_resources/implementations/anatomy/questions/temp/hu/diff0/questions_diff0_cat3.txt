@@ -1,6 +1,6 @@
-Szív:4,2,5:65.3,73
-Aorta:4,2,5:62.9,77.6
-Vesevénák:0,4,5:57.3,59.1
-Vese artéria:0,5,4:61.5,59.1
-Nyaki véna:0,2,5:60.4,86.1
-Femorális véna:0,2,4:67.4,37
+Szív:4,2,5:65.3,73:A szív egy ökölnyi méretű szerv, amely az egész testben vért pumpál.
+Aorta:4,2,5:62.9,77.6:Az aorta az emberi test fő és legnagyobb artériája.
+Vesevénák:0,4,5:57.3,59.1:A vese vénák a vese keringésében nagy kaliberű vénák, amelyek a vesék által szűrt vért vezetik el.
+Vese artéria:0,5,4:61.5,59.1:A veseartériák jelentik a vesék egyetlen érrendszeri ellátását.
+Nyaki véna:0,2,5:60.4,86.1:A nyaki vénák olyan vénák, amelyek az oxigénmentesített vért a fejből visszavezetik a szívbe.
+Femorális véna:0,2,4:67.4,37:A femorális véna az a véna, amely a femorális artériát kíséri a femorális hüvelyben.

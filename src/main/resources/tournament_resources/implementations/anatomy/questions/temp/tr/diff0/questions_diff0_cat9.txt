@@ -1,7 +1,7 @@
-İris:6,3,4:11.3,57
-Kornea:2,6,4:1.7,50.5
-mercek:1,4,6:19,51.3
-ağ kat:1,6,4:64.6,76.8
-Optik sinir:0,6,3:87.9,36.2
-ön odasında:6,4,3:7.2,51.4
-Vitre:1,4,3:49.3,65
+İris:6,3,4:11.3,57:İris, göz bebeğinin çapını ve boyutunu kontrol etmekten sorumlu olan, gözdeki ince bir yapıdır.
+Kornea:2,6,4:1.7,50.5:Kornea, gözün irisi kaplayan şeffaf ön kısmıdır.
+mercek:1,4,6:19,51.3:Lens ışığı kırarak retinaya odaklar.
+ağ kat:1,6,4:64.6,76.8:Retina, gözün en içteki ışığa duyarlı dokusudur.
+Optik sinir:0,6,3:87.9,36.2:Optik sinir, görsel bilgiyi retinadan beyne iletir.
+ön odasında:6,4,3:7.2,51.4:Ön kamara, gözün kornea ile iris arasındaki ön kısmıdır.
+Vitre:1,4,3:49.3,65:Vitreus odası göz küresinin arka kısmında bulunur.

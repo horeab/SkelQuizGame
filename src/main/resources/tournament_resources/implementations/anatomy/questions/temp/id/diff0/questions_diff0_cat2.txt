@@ -1,6 +1,6 @@
-Otot deltoideus:4,1,5:65.3,80.2
-Bisep:5,0,4:67.3,71.5
-Pektoral:5,0,4:52.5,76.4
-Otot trapezius:1,5,4:51.4,85.5
-Miring eksternal abdomen:1,5,0:54.2,65.9
-Tibialis anterior:1,0,3:59.7,21.8
+Otot deltoideus:4,1,5:65.3,80.2:Deltoid juga dikenal sebagai otot bahu.
+Bisep:5,0,4:67.3,71.5:Bisep adalah otot yang menonjol di sisi depan lengan atas.
+Pektoral:5,0,4:52.5,76.4:Otot dada merupakan otot yang menghubungkan bagian depan dada manusia dengan tulang lengan atas dan bahu.
+Otot trapezius:1,5,4:51.4,85.5:Otot trapezius adalah otot datar dan lebar yang memanjang dari daerah serviks hingga daerah toraks pada aspek posterior leher dan batang tubuh.
+Miring eksternal abdomen:1,5,0:54.2,65.9:Otot oblik eksterna abdominal merupakan otot terbesar dan terluar dari ketiga otot perut anterior lateral perut.
+Tibialis anterior:1,0,3:59.7,21.8:Otot tibialis anterior adalah otot kompartemen anterior tungkai bawah.

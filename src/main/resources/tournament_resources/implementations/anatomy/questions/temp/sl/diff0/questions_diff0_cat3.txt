@@ -1,6 +1,6 @@
-Srce:4,2,5:65.3,73
-Aorta:4,2,5:62.9,77.6
-Ledvične vene:0,4,5:57.3,59.1
-Ledvična arterija:0,5,4:61.5,59.1
-Jugularne vene:0,2,5:60.4,86.1
-Femoralna vena:0,2,4:67.4,37
+Srce:4,2,5:65.3,73:Srce je organ v velikosti pesti, ki črpa kri po telesu.
+Aorta:4,2,5:62.9,77.6:Aorta je glavna in največja arterija v človeškem telesu.
+Ledvične vene:0,4,5:57.3,59.1:Ledvične vene v ledvičnem obtoku so vene velikega kalibra, ki odvajajo kri, ki jo filtrirajo ledvice.
+Ledvična arterija:0,5,4:61.5,59.1:Ledvične arterije so edina žilna oskrba ledvic.
+Jugularne vene:0,2,5:60.4,86.1:Jugularne vene so vene, ki vodijo deoksigenirano kri iz glave nazaj v srce.
+Femoralna vena:0,2,4:67.4,37:Femoralna vena je vena, ki spremlja femoralno arterijo v femoralni ovojnici.

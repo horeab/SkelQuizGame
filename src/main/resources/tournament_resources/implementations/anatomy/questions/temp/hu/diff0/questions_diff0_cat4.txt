@@ -1,6 +1,6 @@
-Agy:5,4,3:50.4,96.8
-Kisagy:5,4,3:56,92.6
-gerincvelő:0,4,3:50.7,86.8
-Ülőideg:0,4,5:59.4,37.6
-Tibiális ideg:1,5,3:61.1,19.4
-Idegdúc:4,3,1:49,70
+Agy:5,4,3:50.4,96.8:Az agy olyan szerv, amely minden gerinces és legtöbb gerinctelen állat idegrendszerének központjaként szolgál.
+Kisagy:5,4,3:56,92.6:A kisagy az agy azon része, amely létfontosságú szerepet játszik a legtöbb fizikai mozgásban, beleértve a szemmozgásokat is.
+gerincvelő:0,4,3:50.7,86.8:A gerincvelő egy hosszú, vékony, csőszerű szerkezet, amely idegszövetből áll.
+Ülőideg:0,4,5:59.4,37.6:Az ülőideg a legnagyobb és leghosszabb ideg az emberi testben.
+Tibiális ideg:1,5,3:61.1,19.4:A sípcsont ideg az ülőideg két fő izomágának nagyobb terminális ága.
+Idegdúc:4,3,1:49,70:A ganglion a perifériás idegrendszer idegsejttesteinek csoportja.

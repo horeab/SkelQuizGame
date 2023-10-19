@@ -1,8 +1,8 @@
-Lippen:1,2,4:61.4,96.6
-Uvula:6,2,0:48.6,51.8
-Molaren:0,6,1:76.1,33
-Schneidezahn:0,4,1:50.4,83
-Zunge:7,2,0:48.2,27.6
-Mandel:4,0,6:69.5,46.8
-Harter Gaumen:1,2,0:48.6,73.8
-Weicher Gaumen:4,2,0:56.3,61
+Lippen:1,2,4:61.4,96.6:Die Lippen sind zwei anatomische Strukturen, die die Mundöffnung umgeben und sich am Eingang zum Verdauungstrakt befinden.
+Uvula:6,2,0:48.6,51.8:Das Zäpfchen ist der weiche, fleischige Teil, der hinten im Rachen herunterhängt.
+Molaren:0,6,1:76.1,33:Backenzähne sind die großen flachen Zähne im hinteren Teil Ihres Mundes.
+Schneidezahn:0,4,1:50.4,83:Schneidezähne sind Zähne an der Vorderseite des Ober- und Unterkiefers und ihre Hauptfunktion besteht darin, Nahrung zu schneiden.
+Zunge:7,2,0:48.2,27.6:Die Zunge ist ein Muskelorgan, das aus einer komplexen Anordnung intrinsischer und extrinsischer Muskeln besteht.
+Mandel:4,0,6:69.5,46.8:Die Mandeln sind Lymphknoten im hinteren Teil des Mundes und im oberen Teil des Rachens.
+Harter Gaumen:1,2,0:48.6,73.8:Der harte Gaumen ist das Dach der Mundhöhle und trennt diesen Bereich von der Nasenhöhle.
+Weicher Gaumen:4,2,0:56.3,61:Der weiche Gaumen ist das Weichgewebe, das die Rückseite des Gaumens bildet.

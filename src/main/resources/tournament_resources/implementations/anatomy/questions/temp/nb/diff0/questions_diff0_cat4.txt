@@ -1,6 +1,6 @@
-Hjerne:5,4,3:50.4,96.8
-Lillehjernen:5,4,3:56,92.6
-Ryggmargen:0,4,3:50.7,86.8
-Isjiasnerven:0,4,5:59.4,37.6
-Tibial nerve:1,5,3:61.1,19.4
-Ganglion:4,3,1:49,70
+Hjerne:5,4,3:50.4,96.8:Hjernen er et organ som fungerer som sentrum av nervesystemet hos alle virveldyr og de fleste virvelløse dyr.
+Lillehjernen:5,4,3:56,92.6:Lillehjernen er en del av hjernen som spiller en viktig rolle i de fleste fysiske bevegelser, inkludert øyebevegelser.
+Ryggmargen:0,4,3:50.7,86.8:Ryggmargen er en lang, tynn, rørformet struktur som består av nervevev.
+Isjiasnerven:0,4,5:59.4,37.6:Isjiasnerven er den største og lengste nerven i menneskekroppen.
+Tibial nerve:1,5,3:61.1,19.4:Tibialnerven er den større terminale grenen av de to hovedmuskulære grenene til isjiasnerven.
+Ganglion:4,3,1:49,70:Et ganglion er en gruppe nevroncellelegemer i det perifere nervesystemet.

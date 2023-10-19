@@ -1,7 +1,7 @@
-Iris:6,3,4:11.3,57
-Córnea:2,6,4:1.7,50.5
-cristalino:1,4,6:19,51.3
-Retina:1,6,4:64.6,76.8
-Nervio óptico:0,6,3:87.9,36.2
-Cámara anterior:6,4,3:7.2,51.4
-Humor vítreo:1,4,3:49.3,65
+Iris:6,3,4:11.3,57:El iris es una estructura delgada del ojo, responsable de controlar el diámetro y el tamaño de la pupila.
+Córnea:2,6,4:1.7,50.5:La córnea es la parte frontal transparente del ojo que cubre el iris.
+cristalino:1,4,6:19,51.3:El cristalino refracta la luz y la enfoca en la retina.
+Retina:1,6,4:64.6,76.8:La retina es la capa de tejido más interna y sensible a la luz del ojo.
+Nervio óptico:0,6,3:87.9,36.2:El nervio óptico transmite información visual desde la retina al cerebro.
+Cámara anterior:6,4,3:7.2,51.4:La cámara anterior es la parte frontal del ojo entre la córnea y el iris.
+Humor vítreo:1,4,3:49.3,65:La cámara vítrea está situada en la parte posterior del globo ocular.

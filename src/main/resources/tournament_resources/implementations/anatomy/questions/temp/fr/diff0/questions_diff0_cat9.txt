@@ -1,7 +1,7 @@
-Iris:6,3,4:11.3,57
-Cornée:2,6,4:1.7,50.5
-cristallin:1,4,6:19,51.3
-Rétine:1,6,4:64.6,76.8
-nerf optique:0,6,3:87.9,36.2
-Chambre antérieure:6,4,3:7.2,51.4
-Corps vitré:1,4,3:49.3,65
+Iris:6,3,4:11.3,57:L’iris est une fine structure de l’œil, chargée de contrôler le diamètre et la taille de la pupille.
+Cornée:2,6,4:1.7,50.5:La cornée est la partie antérieure transparente de l’œil qui recouvre l’iris.
+cristallin:1,4,6:19,51.3:Le cristallin réfracte la lumière et la concentre sur la rétine.
+Rétine:1,6,4:64.6,76.8:La rétine est la couche de tissu la plus interne et sensible à la lumière de l’œil.
+nerf optique:0,6,3:87.9,36.2:Le nerf optique transmet les informations visuelles de la rétine au cerveau.
+Chambre antérieure:6,4,3:7.2,51.4:La chambre antérieure est la partie antérieure de l’œil située entre la cornée et l’iris.
+Corps vitré:1,4,3:49.3,65:La chambre vitrée est située à l’arrière du globe oculaire.

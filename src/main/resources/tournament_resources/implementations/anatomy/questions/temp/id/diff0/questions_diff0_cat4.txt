@@ -1,6 +1,6 @@
-Otak:5,4,3:50.4,96.8
-Otak kecil:5,4,3:56,92.6
-sumsum tulang belakang:0,4,3:50.7,86.8
-Saraf siatik:0,4,5:59.4,37.6
-Saraf Tibial:1,5,3:61.1,19.4
-Ganglion:4,3,1:49,70
+Otak:5,4,3:50.4,96.8:Otak merupakan organ yang berfungsi sebagai pusat sistem saraf pada semua hewan vertebrata dan sebagian besar invertebrata.
+Otak kecil:5,4,3:56,92.6:Otak kecil merupakan bagian otak yang berperan penting dalam sebagian besar gerakan fisik, termasuk gerakan mata.
+sumsum tulang belakang:0,4,3:50.7,86.8:Sumsum tulang belakang adalah struktur tubular yang panjang dan tipis yang terdiri dari jaringan saraf.
+Saraf siatik:0,4,5:59.4,37.6:Saraf sciatic adalah saraf terbesar dan terpanjang di tubuh manusia.
+Saraf Tibial:1,5,3:61.1,19.4:Saraf tibialis adalah cabang terminal yang lebih besar dari dua cabang otot utama saraf sciatic.
+Ganglion:4,3,1:49,70:Ganglion adalah sekelompok badan sel neuron di sistem saraf tepi.

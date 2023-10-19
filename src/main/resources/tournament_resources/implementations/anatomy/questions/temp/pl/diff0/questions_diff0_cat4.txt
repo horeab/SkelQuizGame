@@ -1,6 +1,6 @@
-Mózg:5,4,3:50.4,96.8
-Móżdżek:5,4,3:56,92.6
-Rdzeń kręgowy:0,4,3:50.7,86.8
-Nerw kulszowy:0,4,5:59.4,37.6
-Nerw piszczelowy:1,5,3:61.1,19.4
-Zwój nerwowy:4,3,1:49,70
+Mózg:5,4,3:50.4,96.8:Mózg jest narządem, który służy jako centrum układu nerwowego u wszystkich kręgowców i większości bezkręgowców.
+Móżdżek:5,4,3:56,92.6:Móżdżek jest częścią mózgu, która odgrywa istotną rolę w większości ruchów fizycznych, w tym w ruchach oczu.
+Rdzeń kręgowy:0,4,3:50.7,86.8:Rdzeń kręgowy to długa, cienka, rurkowata struktura zbudowana z tkanki nerwowej.
+Nerw kulszowy:0,4,5:59.4,37.6:Nerw kulszowy jest największym i najdłuższym nerwem w organizmie człowieka.
+Nerw piszczelowy:1,5,3:61.1,19.4:Nerw piszczelowy jest większą końcową gałęzią dwóch głównych gałęzi mięśniowych nerwu kulszowego.
+Zwój nerwowy:4,3,1:49,70:Zwój to grupa ciał komórek nerwowych w obwodowym układzie nerwowym.

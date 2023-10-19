@@ -1,7 +1,7 @@
-Nukleus:5,3,2:57.3,75.5
-Nukleolus:2,6,4:44.5,67.9,8
-Sitoplasma:1,4,6:93.08,50.09,9
-Membran sel:2,5,1:90,24,14
-Ribosom:2,1,3:80.929,75.844,14
-Mitokondria:1,2,3:51.4,90.35,18
-Retikulum endoplasma:2,4,1:63.9,25
+Nukleus:5,3,2:57.3,75.5:Nukleus sel mengandungi sebahagian besar bahan genetik sel dalam bentuk molekul DNA berbilang linear yang disusun ke dalam struktur yang dipanggil kromosom.
+Nukleolus:2,6,4:44.5,67.9,8:Nukleolus adalah struktur terbesar dalam nukleus sel eukariotik.
+Sitoplasma:1,4,6:93.08,50.09,9:Sitoplasma ialah cecair gelatin yang memenuhi bahagian dalam sel.
+Membran sel:2,5,1:90,24,14:Membran sel ialah membran biologi yang memisahkan dan melindungi bahagian dalam sel daripada persekitaran luar.
+Ribosom:2,1,3:80.929,75.844,14:Ribosom ialah mesin makromolekul, terdapat dalam semua sel, yang melakukan sintesis protein biologi.
+Mitokondria:1,2,3:51.4,90.35,18:Mitokondria menghasilkan tenaga yang diperlukan untuk kemandirian dan fungsi sel.
+Retikulum endoplasma:2,4,1:63.9,25:Retikulum endoplasma ialah sistem pengangkutan sel eukariotik.

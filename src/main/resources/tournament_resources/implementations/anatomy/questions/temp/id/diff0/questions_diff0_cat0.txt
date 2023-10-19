@@ -1,10 +1,10 @@
-Hati:1,2,3:29.2,45
-Mulut:4,2,9:28.1,81.6
-Esofagus:1,8,5:48.6,58.6
-Usus besar:4,2,6:20.5,21
-Usus kecil:8,7,1:52.4,19
-Perut:4,6,7:66,41
-Faring:5,2,9:48.6,81
-Kantung empedu:6,9,4:31.3,39.6
-Pankreas:2,1,0:50,35.1
-Umbai cacing:2,8,3:35.1,9.6
+Hati:1,2,3:29.2,45:Hati menghilangkan racun dari suplai darah tubuh, menjaga kadar gula darah yang sehat, mengatur pembekuan darah, dan melakukan ratusan fungsi penting lainnya.
+Mulut:4,2,9:28.1,81.6:Mulut merupakan bagian pertama dari saluran pencernaan yang menerima makanan dan menghasilkan air liur.
+Esofagus:1,8,5:48.6,58.6:Kerongkongan adalah organ sistem pencernaan berbentuk tabung dan memanjang yang menghubungkan faring ke lambung.
+Usus besar:4,2,6:20.5,21:Usus besar bertugas memproses bahan makanan yang tidak dapat dicerna setelah sebagian besar nutrisi diserap di usus kecil.
+Usus kecil:8,7,1:52.4,19:Usus halus merupakan organ pada saluran cerna tempat sebagian besar penyerapan nutrisi dari makanan berlangsung.
+Perut:4,6,7:66,41:Lambung adalah kantung otot di tengah perut bagian atas yang membantu memecah dan mencerna makanan.
+Faring:5,2,9:48.6,81:Faring melayani sistem pernapasan dan pencernaan dengan menerima udara dari rongga hidung dan udara, makanan, dan air dari rongga mulut.
+Kantung empedu:6,9,4:31.3,39.6:Kantung empedu adalah organ berongga kecil tempat empedu disimpan dan dipekatkan sebelum dilepaskan ke usus kecil.
+Pankreas:2,1,0:50,35.1:Pankreas memiliki peran penting dalam mengubah makanan yang kita makan menjadi bahan bakar sel-sel tubuh.
+Umbai cacing:2,8,3:35.1,9.6:Penelitian menunjukkan bahwa usus buntu mungkin memiliki tujuan penting sebagai reservoir bakteri menguntungkan usus.

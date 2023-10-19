@@ -1,10 +1,10 @@
-Foie:1,2,3:29.2,45
-Bouche:4,2,9:28.1,81.6
-Oesophage:1,8,5:48.6,58.6
-Gros intestin:4,2,6:20.5,21
-Intestin grêle:8,7,1:52.4,19
-Estomac:4,6,7:66,41
-Pharynx:5,2,9:48.6,81
-Vésicule biliaire:6,9,4:31.3,39.6
-Pancréas:2,1,0:50,35.1
-Appendice iléo-cæcal:2,8,3:35.1,9.6
+Foie:1,2,3:29.2,45:Le foie élimine les toxines de l’approvisionnement en sang du corps, maintient un taux de sucre dans le sang sain, régule la coagulation sanguine et remplit des centaines d’autres fonctions vitales.
+Bouche:4,2,9:28.1,81.6:La bouche est la première partie du tube digestif qui reçoit la nourriture et produit la salive.
+Oesophage:1,8,5:48.6,58.6:L’œsophage est un organe tubulaire allongé du système digestif qui relie le pharynx à l’estomac.
+Gros intestin:4,2,6:20.5,21:Le gros intestin est responsable du traitement des aliments non digestibles une fois que la plupart des nutriments ont été absorbés dans l’intestin grêle.
+Intestin grêle:8,7,1:52.4,19:L’intestin grêle est un organe du tractus gastro-intestinal où a lieu la majeure partie de l’absorption des nutriments contenus dans les aliments.
+Estomac:4,6,7:66,41:L’estomac est un sac musculaire situé au milieu de la partie supérieure de l’abdomen qui aide à décomposer et à digérer les aliments.
+Pharynx:5,2,9:48.6,81:Le pharynx dessert à la fois les systèmes respiratoire et digestif en recevant l’air de la cavité nasale et l’air, la nourriture et l’eau de la cavité buccale.
+Vésicule biliaire:6,9,4:31.3,39.6:La vésicule biliaire est un petit organe creux où la bile est stockée et concentrée avant d’être libérée dans l’intestin grêle.
+Pancréas:2,1,0:50,35.1:Le pancréas joue un rôle essentiel dans la conversion des aliments que nous consommons en carburant pour les cellules du corps.
+Appendice iléo-cæcal:2,8,3:35.1,9.6:La recherche suggère que l’appendice pourrait jouer un rôle important en tant que réservoir de bactéries intestinales bénéfiques.

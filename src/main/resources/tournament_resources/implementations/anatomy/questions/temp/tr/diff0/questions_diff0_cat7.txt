@@ -1,7 +1,7 @@
-kulak kepçesi:1,2,4:8,31
-Kulak kanalı:0,2,6:33.5,42.1
-Kulak davul:1,5,6:55.6,42
-kemikçikleri:1,0,6:54.3,52.9
-Koklea:6,1,5:75.8,45.7
-İşitsel sinir:6,2,1:91.8,48
-Östaki borusu:5,1,3:77.3,28.3
+kulak kepçesi:1,2,4:8,31:Kulak kepçesi, kulağın başın dışında görünen kısmıdır.
+Kulak kanalı:0,2,6:33.5,42.1:Kulak kanalı dış kulaktan orta kulağa uzanan yoldur.
+Kulak davul:1,5,6:55.6,42:kulak zarı, dış kulağı orta kulaktan ayıran ince, koni şeklinde bir zardır.
+kemikçikleri:1,0,6:54.3,52.9:Kemikçikler, her iki orta kulakta bulunan ve insan vücudundaki en küçük kemikler arasında yer alan üç kemiktir.
+Koklea:6,1,5:75.8,45.7:Koklea, iç kulağın işitmeyle ilgili kısmıdır.
+İşitsel sinir:6,2,1:91.8,48:İşitme siniri, işitsel sinyallerin iç kulaktan beyin sapına iletilmesinden sorumludur.
+Östaki borusu:5,1,3:77.3,28.3:Östaki borusu, orta kulağı burun-sinüs boşluğuna bağlayan bir açıklıktır.

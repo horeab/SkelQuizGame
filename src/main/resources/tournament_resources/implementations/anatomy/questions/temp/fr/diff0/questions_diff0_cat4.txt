@@ -1,6 +1,6 @@
-Cerveau:5,4,3:50.4,96.8
-cervelet:5,4,3:56,92.6
-moelle épinière:0,4,3:50.7,86.8
-nerf sciatique:0,4,5:59.4,37.6
-Nerf tibial:1,5,3:61.1,19.4
-Ganglion:4,3,1:49,70
+Cerveau:5,4,3:50.4,96.8:Le cerveau est un organe qui sert de centre au système nerveux chez tous les animaux vertébrés et la plupart des invertébrés.
+cervelet:5,4,3:56,92.6:Le cervelet est une partie du cerveau qui joue un rôle essentiel dans la plupart des mouvements physiques, y compris les mouvements oculaires.
+moelle épinière:0,4,3:50.7,86.8:La moelle épinière est une structure tubulaire longue et fine constituée de tissu nerveux.
+nerf sciatique:0,4,5:59.4,37.6:Le nerf sciatique est le nerf le plus gros et le plus long du corps humain.
+Nerf tibial:1,5,3:61.1,19.4:Le nerf tibial est la plus grande branche terminale des deux principales branches musculaires du nerf sciatique.
+Ganglion:4,3,1:49,70:Un ganglion est un groupe de corps cellulaires neuronaux du système nerveux périphérique.

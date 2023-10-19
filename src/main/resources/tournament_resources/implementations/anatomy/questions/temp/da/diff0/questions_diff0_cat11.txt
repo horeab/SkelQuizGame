@@ -1,6 +1,6 @@
-Oxygen:1,2,4:74.5,29,25
-Kulstof:2,0,4:74.5,57,25
-Brint:1,0,5:74.5,73.2,25
-Kvælstof:1,0,2:74.5,83.5,25
-Calcium:0,1,2:74.5,91.2,25
-Fosfor:1,2,0:74.5,96.82,25
+Oxygen:1,2,4:74.5,29,25:Kroppens celler bruger ilt til at producere energi.
+Kulstof:2,0,4:74.5,57,25:Kulstofkæder bruges til at bygge kulhydrater, fedtstoffer, nukleinsyrer og proteiner.
+Brint:1,0,5:74.5,73.2,25:Den vigtigste funktion af brint i menneskekroppen er at holde det hydreret.
+Kvælstof:1,0,2:74.5,83.5,25:Nitrogen findes i proteiner og i de nukleinsyrer, der udgør den genetiske kode.
+Calcium:0,1,2:74.5,91.2,25:Mennesker har brug for calcium for at opbygge og vedligeholde stærke knogler.
+Fosfor:1,2,0:74.5,96.82,25:Fosfor arbejder sammen med calcium for at hjælpe med at opbygge knogler. Kroppen har brug for den korrekte mængde calcium og fosfor for knoglesundhed.

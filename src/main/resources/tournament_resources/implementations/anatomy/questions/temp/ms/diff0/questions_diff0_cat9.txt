@@ -1,7 +1,7 @@
-Iris:6,3,4:11.3,57
-Kornea:2,6,4:1.7,50.5
-Lensa:1,4,6:19,51.3
-Retina:1,6,4:64.6,76.8
-Saraf optik:0,6,3:87.9,36.2
-kebuk anterior:6,4,3:7.2,51.4
-ruang vitreous:1,4,3:49.3,65
+Iris:6,3,4:11.3,57:Iris adalah struktur nipis di mata, bertanggungjawab untuk mengawal diameter dan saiz murid.
+Kornea:2,6,4:1.7,50.5:Kornea ialah bahagian depan mata yang telus yang menutupi iris.
+Lensa:1,4,6:19,51.3:Kanta membiaskan cahaya, memfokuskannya ke retina.
+Retina:1,6,4:64.6,76.8:Retina ialah lapisan tisu mata yang paling dalam dan peka cahaya.
+Saraf optik:0,6,3:87.9,36.2:Saraf optik menghantar maklumat visual dari retina ke otak.
+kebuk anterior:6,4,3:7.2,51.4:Ruang anterior adalah bahagian depan mata antara kornea dan iris.
+ruang vitreous:1,4,3:49.3,65:Ruang vitreous diletakkan di bahagian belakang bola mata.

@@ -1,8 +1,8 @@
-Huulet:1,2,4:61.4,96.6
-Kitakieleke:6,2,0:48.6,51.8
-Poskihampaat:0,6,1:76.1,33
-Etuhampaat:0,4,1:50.4,83
-Kieli:7,2,0:48.2,27.6
-Nielurisa:4,0,6:69.5,46.8
-kova suulaki:1,2,0:48.6,73.8
-pehmeä suulaki:4,2,0:56.3,61
+Huulet:1,2,4:61.4,96.6:Huulet ovat kaksi suuaukkoa ympäröivää anatomista rakennetta ja ne sijaitsevat ruoansulatuskanavan sisäänkäynnissä.
+Kitakieleke:6,2,0:48.6,51.8:Uvula on pehmeä, mehevä osa, joka roikkuu kurkun takaosassa.
+Poskihampaat:0,6,1:76.1,33:Hampaat ovat suuria litteitä hampaita suun takaosassa.
+Etuhampaat:0,4,1:50.4,83:Etuhampaat ovat ylä- ja alaleuan etuosassa olevia hampaita ja niiden ensisijaisena tehtävänä on leikata ruokaa.
+Kieli:7,2,0:48.2,27.6:Kieli on lihaksikas elin, joka muodostuu sisäisten ja ulkoisten lihasten monimutkaisesta järjestelystä.
+Nielurisa:4,0,6:69.5,46.8:Risat ovat imusolmukkeita suun takaosassa ja kurkun yläosassa.
+kova suulaki:1,2,0:48.6,73.8:Kova kitalaki on suuontelon katto ja erottaa tämän kohdan nenäontelosta.
+pehmeä suulaki:4,2,0:56.3,61:Pehmeä kitalaki on pehmytkudos, joka muodostaa suun katon takaosan.

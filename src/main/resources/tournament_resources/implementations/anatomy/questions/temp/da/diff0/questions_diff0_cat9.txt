@@ -1,7 +1,7 @@
-Iris:6,3,4:11.3,57
-hornhinde:2,6,4:1.7,50.5
-Linse:1,4,6:19,51.3
-nethinde:1,6,4:64.6,76.8
-Optisk nerv:0,6,3:87.9,36.2
-forreste kammer:6,4,3:7.2,51.4
-Glaslegemet:1,4,3:49.3,65
+Iris:6,3,4:11.3,57:Iris er en tynd struktur i øjet, ansvarlig for at kontrollere diameteren og størrelsen af ​​pupillen.
+hornhinde:2,6,4:1.7,50.5:Hornhinden er den gennemsigtige forreste del af øjet, der dækker iris.
+Linse:1,4,6:19,51.3:Linsen bryder lyset og fokuserer det på nethinden.
+nethinde:1,6,4:64.6,76.8:Nethinden er øjets inderste, lysfølsomme lag af væv.
+Optisk nerv:0,6,3:87.9,36.2:Synsnerven overfører visuel information fra nethinden til hjernen.
+forreste kammer:6,4,3:7.2,51.4:Det forreste kammer er den forreste del af øjet mellem hornhinden og iris.
+Glaslegemet:1,4,3:49.3,65:Glaslegemet er placeret på bagsiden af ​​øjeæblet.

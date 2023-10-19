@@ -1,8 +1,8 @@
-Ajkak:1,2,4:61.4,96.6
-nyelvcsap:6,2,0:48.6,51.8
-zápfogak:0,6,1:76.1,33
-metszőfog:0,4,1:50.4,83
-Nyelv:7,2,0:48.2,27.6
-Mandula:4,0,6:69.5,46.8
-Kemény szájpad:1,2,0:48.6,73.8
-lágy szájpad:4,2,0:56.3,61
+Ajkak:1,2,4:61.4,96.6:Az ajkak a szájnyílást körülvevő két anatómiai struktúra, amelyek az emésztőrendszer bejáratánál helyezkednek el.
+nyelvcsap:6,2,0:48.6,51.8:Az uvula a lágy, húsos rész, amely a torok hátulján lóg le.
+zápfogak:0,6,1:76.1,33:Az őrlőfogak a száj hátsó részén található nagy lapos fogak.
+metszőfog:0,4,1:50.4,83:A metszőfogak a felső és az alsó állkapocs elülső részén található fogak, és elsődleges funkciójuk a táplálék felvágása.
+Nyelv:7,2,0:48.2,27.6:A nyelv egy izmos szerv, amelyet belső és külső izmok összetett elrendezése alkot.
+Mandula:4,0,6:69.5,46.8:A mandulák nyirokcsomók a száj hátsó részén és a torok felső részén.
+Kemény szájpad:1,2,0:48.6,73.8:A kemény szájpad a szájüreg teteje, és elválasztja ezt a helyet az orrüregtől.
+lágy szájpad:4,2,0:56.3,61:A lágy szájpadlás a szájtető hátsó részét alkotó lágyszövet.
