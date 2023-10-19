@@ -65,9 +65,9 @@ public class LabelProcessor {
 
 //        translateNewLanguage(Language.ro, gameIds, defaultLabels);
 
-//        for (Language l : languages) {
+        for (Language l : languages) {
 //            translateMissingLabels(l, gameIds, defaultLabels);
-//        }
+        }
         formFlutterKeys(gameIds, defaultLabels, languages);
     }
 
@@ -88,7 +88,7 @@ public class LabelProcessor {
 
         String defaultLang = Language.en.toString();
         missingToTranslate.forEach((key, value) -> {
-            System.out.println("Translating: " + key + "=" + value);
+//            System.out.println("Translating: " + key + "=" + value);
             String trans = null;
             try {
                 trans = TranslateTool.translate(defaultLang, translateTo.toString(), value).trim();
@@ -97,13 +97,13 @@ public class LabelProcessor {
                 e.printStackTrace();
                 System.out.println("ERRROROOROROORR: " + key);
             }
-            System.out.println("Translated: " + key + "=" + trans);
+//            System.out.println("Translated: " + key + "=" + trans);
             newM.put(key, trans);
         });
-        System.out.println("-------------------------------");
-        System.out.println("-------------------------------");
-        System.out.println("-------------------------------");
-        System.out.println("-------------------------------");
+//        System.out.println("-------------------------------");
+//        System.out.println("-------------------------------");
+//        System.out.println("-------------------------------");
+//        System.out.println("-------------------------------");
         newM.forEach((key, value) -> System.out.println(translateTo.toString() + "_" + key + "=" + value));
     }
 
@@ -143,7 +143,10 @@ public class LabelProcessor {
                 if (e == null || e.getKey() == null || e.getKey().getRight() == null) {
                     continue;
                 }
-                labelsWithKeys.put(e.getKey().getRight(), e.getValue());
+                String value = e.getValue();
+                value = value.replace("'", "''");
+                value = value.replace("{0}", "'{'0'}'");
+                labelsWithKeys.put(e.getKey().getRight(), value);
             }
 
             Set<String> defaultLabelsKey = defaultLabels.keySet().stream().map(Pair::getRight).collect(Collectors.toSet());
