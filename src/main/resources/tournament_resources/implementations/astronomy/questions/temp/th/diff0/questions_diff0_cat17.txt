@@ -1,0 +1,12 @@
+th_astronomy_constel_aquarius=กลุ่มดาวคนแบกหม้อน้ำ
+th_astronomy_constel_libra=กลุ่มดาวคันชั่ง
+th_astronomy_constel_virgo=กลุ่มดาวหญิงสาว
+th_astronomy_constel_aries=กลุ่มดาวแกะ
+th_astronomy_constel_taurus=กลุ่มดาววัว
+th_astronomy_constel_gemini=กลุ่มดาวคนคู่
+th_astronomy_constel_cancer=กลุ่มดาวปู
+th_astronomy_constel_sagittarius=กลุ่มดาวลูกธนู
+th_astronomy_constel_leo=กลุ่มดาวสิงโต
+th_astronomy_constel_scorpio=กลุ่มดาวแมงป่อง
+th_astronomy_constel_pisces=กลุ่มดาวปลาใต้
+th_astronomy_constel_capricorn=กลุ่มดาวแพะทะเล

@@ -1,0 +1,12 @@
+hi_astronomy_constel_aquarius=कुंभ राशि
+hi_astronomy_constel_libra=तुला राशि
+hi_astronomy_constel_virgo=कन्या राशि
+hi_astronomy_constel_aries=मेष तारामंडल
+hi_astronomy_constel_taurus=वृष तारामंडल
+hi_astronomy_constel_gemini=मिथुन राशि
+hi_astronomy_constel_cancer=कर्क तारामंडल
+hi_astronomy_constel_sagittarius=धनु राशि
+hi_astronomy_constel_leo=सिंह तारामंडल
+hi_astronomy_constel_scorpio=वृश्चिक राशि
+hi_astronomy_constel_pisces=मीन राशि
+hi_astronomy_constel_capricorn=मकर राशि

@@ -1,0 +1,12 @@
+hu_astronomy_constel_aquarius=Vízöntő
+hu_astronomy_constel_libra=Mérleg
+hu_astronomy_constel_virgo=Szűz
+hu_astronomy_constel_aries=Kos
+hu_astronomy_constel_taurus=Bika
+hu_astronomy_constel_gemini=Ikrek
+hu_astronomy_constel_cancer=Rák
+hu_astronomy_constel_sagittarius=Nyilas
+hu_astronomy_constel_leo=Oroszlán
+hu_astronomy_constel_scorpio=Skorpió
+hu_astronomy_constel_pisces=Halak
+hu_astronomy_constel_capricorn=Bak

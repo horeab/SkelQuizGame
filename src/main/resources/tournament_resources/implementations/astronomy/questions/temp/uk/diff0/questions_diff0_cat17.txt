@@ -1,0 +1,12 @@
+uk_astronomy_constel_aquarius=Водолій
+uk_astronomy_constel_libra=Ваги
+uk_astronomy_constel_virgo=Діва
+uk_astronomy_constel_aries=Овен
+uk_astronomy_constel_taurus=Телець
+uk_astronomy_constel_gemini=Близнюки
+uk_astronomy_constel_cancer=Рак
+uk_astronomy_constel_sagittarius=Стрілець
+uk_astronomy_constel_leo=Лев
+uk_astronomy_constel_scorpio=Скорпіон
+uk_astronomy_constel_pisces=Риби
+uk_astronomy_constel_capricorn=Козеріг

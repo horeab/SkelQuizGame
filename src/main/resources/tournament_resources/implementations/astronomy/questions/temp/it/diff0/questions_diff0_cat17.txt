@@ -1,0 +1,12 @@
+it_astronomy_constel_aquarius=Aquario
+it_astronomy_constel_libra=Libra
+it_astronomy_constel_virgo=Vergine
+it_astronomy_constel_aries=Ariete
+it_astronomy_constel_taurus=Toro
+it_astronomy_constel_gemini=Gemelli
+it_astronomy_constel_cancer=Cancro
+it_astronomy_constel_sagittarius=Sagittario
+it_astronomy_constel_leo=Leo
+it_astronomy_constel_scorpio=Scorpione
+it_astronomy_constel_pisces=Pesci
+it_astronomy_constel_capricorn=Capricorno

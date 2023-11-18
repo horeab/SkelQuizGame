@@ -1,0 +1,12 @@
+fi_astronomy_constel_aquarius=Vesimies
+fi_astronomy_constel_libra=Vaaka
+fi_astronomy_constel_virgo=Neitsyt
+fi_astronomy_constel_aries=Oinas
+fi_astronomy_constel_taurus=Härkä
+fi_astronomy_constel_gemini=Kaksoset
+fi_astronomy_constel_cancer=Krapu
+fi_astronomy_constel_sagittarius=Jousimies
+fi_astronomy_constel_leo=Leo
+fi_astronomy_constel_scorpio=Skorpioni
+fi_astronomy_constel_pisces=Kalat
+fi_astronomy_constel_capricorn=Kauris

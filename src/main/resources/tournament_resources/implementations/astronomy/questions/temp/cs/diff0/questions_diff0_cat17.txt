@@ -1,0 +1,12 @@
+cs_astronomy_constel_aquarius=Souhvězdí Vodnáře
+cs_astronomy_constel_libra=Souhvězdí Vah
+cs_astronomy_constel_virgo=Souhvězdí Panny
+cs_astronomy_constel_aries=Souhvězdí Berana
+cs_astronomy_constel_taurus=Souhvězdí Býka
+cs_astronomy_constel_gemini=Souhvězdí Blíženců
+cs_astronomy_constel_cancer=Souhvězdí Raka
+cs_astronomy_constel_sagittarius=Souhvězdí Střelce
+cs_astronomy_constel_leo=Souhvězdí Lva
+cs_astronomy_constel_scorpio=Souhvězdí Štíra
+cs_astronomy_constel_pisces=Souhvězdí Ryb
+cs_astronomy_constel_capricorn=Souhvězdí Kozoroha

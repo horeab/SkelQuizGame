@@ -1,0 +1,12 @@
+vi_astronomy_constel_aquarius=Bảo Bình
+vi_astronomy_constel_libra=Thiên Bình
+vi_astronomy_constel_virgo=Xử Nữ
+vi_astronomy_constel_aries=Bạch Dương
+vi_astronomy_constel_taurus=Kim Ngưu
+vi_astronomy_constel_gemini=Song Tử
+vi_astronomy_constel_cancer=Cự Giải
+vi_astronomy_constel_sagittarius=Nhân Mã
+vi_astronomy_constel_leo=Sư Tử
+vi_astronomy_constel_scorpio=Thiên Yết
+vi_astronomy_constel_pisces=Song Ngư
+vi_astronomy_constel_capricorn=Ma Kết

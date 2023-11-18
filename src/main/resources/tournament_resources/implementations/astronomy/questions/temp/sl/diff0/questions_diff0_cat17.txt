@@ -1,0 +1,12 @@
+sl_astronomy_constel_aquarius=Vodnar
+sl_astronomy_constel_libra=Tehtnica
+sl_astronomy_constel_virgo=Devica
+sl_astronomy_constel_aries=Oven
+sl_astronomy_constel_taurus=Bik
+sl_astronomy_constel_gemini=Dvojčka
+sl_astronomy_constel_cancer=Rak
+sl_astronomy_constel_sagittarius=Strelec
+sl_astronomy_constel_leo=Lev
+sl_astronomy_constel_scorpio=Škorpijon
+sl_astronomy_constel_pisces=Ribi
+sl_astronomy_constel_capricorn=Kozorog

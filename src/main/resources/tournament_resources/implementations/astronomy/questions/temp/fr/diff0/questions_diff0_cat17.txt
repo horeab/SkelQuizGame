@@ -1,0 +1,12 @@
+fr_astronomy_constel_aquarius=Verseau
+fr_astronomy_constel_libra=Balance
+fr_astronomy_constel_virgo=Vierge
+fr_astronomy_constel_aries=Bélier
+fr_astronomy_constel_taurus=Taureau
+fr_astronomy_constel_gemini=Gémeaux
+fr_astronomy_constel_cancer=Cancer
+fr_astronomy_constel_sagittarius=Sagittaire
+fr_astronomy_constel_leo=Leo
+fr_astronomy_constel_scorpio=Scorpion
+fr_astronomy_constel_pisces=Poissons
+fr_astronomy_constel_capricorn=Capricorne

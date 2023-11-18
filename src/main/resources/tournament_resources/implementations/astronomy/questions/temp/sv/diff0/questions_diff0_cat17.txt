@@ -1,0 +1,12 @@
+sv_astronomy_constel_aquarius=Vattumannen
+sv_astronomy_constel_libra=Vågen
+sv_astronomy_constel_virgo=Jungfrun
+sv_astronomy_constel_aries=Väduren
+sv_astronomy_constel_taurus=Oxen
+sv_astronomy_constel_gemini=Tvillingarna
+sv_astronomy_constel_cancer=Kräftan
+sv_astronomy_constel_sagittarius=Skytten
+sv_astronomy_constel_leo=Lejonet
+sv_astronomy_constel_scorpio=Skorpionen
+sv_astronomy_constel_pisces=Fiskarna
+sv_astronomy_constel_capricorn=Stenbocken

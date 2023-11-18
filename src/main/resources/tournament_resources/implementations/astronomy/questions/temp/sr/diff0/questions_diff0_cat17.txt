@@ -1,0 +1,12 @@
+sr_astronomy_constel_aquarius=Водолија
+sr_astronomy_constel_libra=Вага
+sr_astronomy_constel_virgo=Девица
+sr_astronomy_constel_aries=Ован
+sr_astronomy_constel_taurus=Бик
+sr_astronomy_constel_gemini=Близанци
+sr_astronomy_constel_cancer=Рак
+sr_astronomy_constel_sagittarius=Стрелац
+sr_astronomy_constel_leo=Лав
+sr_astronomy_constel_scorpio=Шкорпија
+sr_astronomy_constel_pisces=Рибе
+sr_astronomy_constel_capricorn=Јарац

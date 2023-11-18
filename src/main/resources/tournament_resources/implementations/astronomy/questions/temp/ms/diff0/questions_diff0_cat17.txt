@@ -1,0 +1,12 @@
+ms_astronomy_constel_aquarius=Timba
+ms_astronomy_constel_libra=Neraca
+ms_astronomy_constel_virgo=Perawan
+ms_astronomy_constel_aries=Biri-biri
+ms_astronomy_constel_taurus=Lembu Jantan
+ms_astronomy_constel_gemini=Kembar
+ms_astronomy_constel_cancer=Ketam
+ms_astronomy_constel_sagittarius=Pemanah
+ms_astronomy_constel_leo=Singa
+ms_astronomy_constel_scorpio=Kala
+ms_astronomy_constel_pisces=Ikan
+ms_astronomy_constel_capricorn=Kambing Duyung

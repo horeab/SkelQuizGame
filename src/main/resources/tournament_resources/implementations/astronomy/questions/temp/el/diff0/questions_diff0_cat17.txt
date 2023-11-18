@@ -1,0 +1,12 @@
+el_astronomy_constel_aquarius=Υδροχόος
+el_astronomy_constel_libra=Ζυγός
+el_astronomy_constel_virgo=Παρθένος
+el_astronomy_constel_aries=Κριός
+el_astronomy_constel_taurus=Ταύρος
+el_astronomy_constel_gemini=Δίδυμοι
+el_astronomy_constel_cancer=Καρκίνος
+el_astronomy_constel_sagittarius=Τοξότης
+el_astronomy_constel_leo=Λέων
+el_astronomy_constel_scorpio=Σκορπιός
+el_astronomy_constel_pisces=Ιχθύες
+el_astronomy_constel_capricorn=Αιγόκερως

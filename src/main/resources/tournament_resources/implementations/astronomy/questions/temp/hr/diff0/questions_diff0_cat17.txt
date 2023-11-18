@@ -1,0 +1,12 @@
+hr_astronomy_constel_aquarius=Vodenjak
+hr_astronomy_constel_libra=Vaga
+hr_astronomy_constel_virgo=Djevica
+hr_astronomy_constel_aries=Ovan
+hr_astronomy_constel_taurus=Bik
+hr_astronomy_constel_gemini=Blizanci
+hr_astronomy_constel_cancer=Rak
+hr_astronomy_constel_sagittarius=Strijelac
+hr_astronomy_constel_leo=Leo
+hr_astronomy_constel_scorpio=Škorpion
+hr_astronomy_constel_pisces=Riba
+hr_astronomy_constel_capricorn=Jarac

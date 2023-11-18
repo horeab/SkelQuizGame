@@ -1,0 +1,12 @@
+ja_astronomy_constel_aquarius=みずがめ座
+ja_astronomy_constel_libra=てんびん座
+ja_astronomy_constel_virgo=おとめ座
+ja_astronomy_constel_aries=おひつじ座
+ja_astronomy_constel_taurus=おうし座
+ja_astronomy_constel_gemini=ふたご座
+ja_astronomy_constel_cancer=かに座
+ja_astronomy_constel_sagittarius=いて座
+ja_astronomy_constel_leo=しし座
+ja_astronomy_constel_scorpio=さそり座
+ja_astronomy_constel_pisces=うお座
+ja_astronomy_constel_capricorn=やぎ座

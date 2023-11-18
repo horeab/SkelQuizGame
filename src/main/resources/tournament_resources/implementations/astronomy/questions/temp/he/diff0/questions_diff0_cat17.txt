@@ -1,0 +1,12 @@
+he_astronomy_constel_aquarius=מזל דלי
+he_astronomy_constel_libra=מזל מאזניים
+he_astronomy_constel_virgo=מַזַל בְּתוּלָה
+he_astronomy_constel_aries=מַזַל טלה
+he_astronomy_constel_taurus=מַזַל שׁוֹר
+he_astronomy_constel_gemini=מַזַל תְאוּמִים
+he_astronomy_constel_cancer=מַזַל סרטן
+he_astronomy_constel_sagittarius=מַזַל קַשָׁת
+he_astronomy_constel_leo=מַזַל אַריֵה
+he_astronomy_constel_scorpio=מַזָל עַקרָב
+he_astronomy_constel_pisces=מַזַל דָגִים
+he_astronomy_constel_capricorn=מַזַל גְדִי

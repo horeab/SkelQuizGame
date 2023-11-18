@@ -1,0 +1,12 @@
+ko_astronomy_constel_aquarius=물병자리
+ko_astronomy_constel_libra=천칭자리
+ko_astronomy_constel_virgo=처녀 자리
+ko_astronomy_constel_aries=양자리
+ko_astronomy_constel_taurus=황소자리
+ko_astronomy_constel_gemini=쌍둥이 자리
+ko_astronomy_constel_cancer=게자리
+ko_astronomy_constel_sagittarius=궁수자리
+ko_astronomy_constel_leo=사자자리
+ko_astronomy_constel_scorpio=전갈자리
+ko_astronomy_constel_pisces=물고기자리
+ko_astronomy_constel_capricorn=염소자리

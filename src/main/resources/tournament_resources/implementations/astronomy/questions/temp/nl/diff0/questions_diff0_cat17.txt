@@ -1,0 +1,12 @@
+nl_astronomy_constel_aquarius=Waterman
+nl_astronomy_constel_libra=Weegschaal
+nl_astronomy_constel_virgo=Maagd
+nl_astronomy_constel_aries=Ram
+nl_astronomy_constel_taurus=Stier
+nl_astronomy_constel_gemini=Tweeling
+nl_astronomy_constel_cancer=Kreeft
+nl_astronomy_constel_sagittarius=Boogschutter
+nl_astronomy_constel_leo=Leeuw
+nl_astronomy_constel_scorpio=Schorpioen
+nl_astronomy_constel_pisces=Vissen
+nl_astronomy_constel_capricorn=Steenbok

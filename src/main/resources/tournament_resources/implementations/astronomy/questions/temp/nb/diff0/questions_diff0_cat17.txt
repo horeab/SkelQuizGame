@@ -1,0 +1,12 @@
+nb_astronomy_constel_aquarius=Vannmannen
+nb_astronomy_constel_libra=Vekten
+nb_astronomy_constel_virgo=Jomfruen
+nb_astronomy_constel_aries=Væren
+nb_astronomy_constel_taurus=Tyren
+nb_astronomy_constel_gemini=Tvillingene
+nb_astronomy_constel_cancer=Krepsen
+nb_astronomy_constel_sagittarius=Skytten
+nb_astronomy_constel_leo=Løven
+nb_astronomy_constel_scorpio=Skorpionen
+nb_astronomy_constel_pisces=Fiskene
+nb_astronomy_constel_capricorn=Steinbukken

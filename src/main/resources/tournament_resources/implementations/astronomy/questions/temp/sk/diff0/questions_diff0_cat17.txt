@@ -1,0 +1,12 @@
+sk_astronomy_constel_aquarius=Vodnár
+sk_astronomy_constel_libra=Váhy
+sk_astronomy_constel_virgo=Panna
+sk_astronomy_constel_aries=Baran
+sk_astronomy_constel_taurus=Býk
+sk_astronomy_constel_gemini=Blíženci
+sk_astronomy_constel_cancer=Rak
+sk_astronomy_constel_sagittarius=Strelec
+sk_astronomy_constel_leo=Lev
+sk_astronomy_constel_scorpio=Škorpión
+sk_astronomy_constel_pisces=Ryby
+sk_astronomy_constel_capricorn=Kozorožec

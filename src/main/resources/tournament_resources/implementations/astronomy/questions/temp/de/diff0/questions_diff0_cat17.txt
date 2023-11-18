@@ -1,0 +1,12 @@
+de_astronomy_constel_aquarius=Wassermann
+de_astronomy_constel_libra=Waage
+de_astronomy_constel_virgo=Jungfrau
+de_astronomy_constel_aries=Widder
+de_astronomy_constel_taurus=Stier
+de_astronomy_constel_gemini=Zwillinge
+de_astronomy_constel_cancer=Krebs
+de_astronomy_constel_sagittarius=Schütze
+de_astronomy_constel_leo=Löwe
+de_astronomy_constel_scorpio=Skorpion
+de_astronomy_constel_pisces=Fische
+de_astronomy_constel_capricorn=Steinbock

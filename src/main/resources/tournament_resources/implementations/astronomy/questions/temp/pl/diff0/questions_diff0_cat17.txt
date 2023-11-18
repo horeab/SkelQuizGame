@@ -1,0 +1,12 @@
+pl_astronomy_constel_aquarius=Wodnik
+pl_astronomy_constel_libra=Waga
+pl_astronomy_constel_virgo=Panna
+pl_astronomy_constel_aries=Baran
+pl_astronomy_constel_taurus=Byk
+pl_astronomy_constel_gemini=Bliźnięta
+pl_astronomy_constel_cancer=Rak
+pl_astronomy_constel_sagittarius=Strzelec
+pl_astronomy_constel_leo=Lew
+pl_astronomy_constel_scorpio=Skorpion
+pl_astronomy_constel_pisces=Ryby
+pl_astronomy_constel_capricorn=Koziorożec

@@ -1,0 +1,12 @@
+ro_astronomy_constel_aquarius=Vărsător
+ro_astronomy_constel_libra=Balanța
+ro_astronomy_constel_virgo=Fecioara
+ro_astronomy_constel_aries=Berbec
+ro_astronomy_constel_taurus=Taur
+ro_astronomy_constel_gemini=Gemeni
+ro_astronomy_constel_cancer=Cancer
+ro_astronomy_constel_sagittarius=Săgetător
+ro_astronomy_constel_leo=Leu
+ro_astronomy_constel_scorpio=Scorpion
+ro_astronomy_constel_pisces=Pești
+ro_astronomy_constel_capricorn=Capricorn

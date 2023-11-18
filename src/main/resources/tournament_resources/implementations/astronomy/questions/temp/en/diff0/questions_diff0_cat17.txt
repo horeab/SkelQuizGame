@@ -1,0 +1,12 @@
+en_astronomy_constel_aquarius=Aquarius
+en_astronomy_constel_libra=Libra
+en_astronomy_constel_virgo=Virgo
+en_astronomy_constel_aries=Aries
+en_astronomy_constel_taurus=Taurus
+en_astronomy_constel_gemini=Gemini
+en_astronomy_constel_cancer=Cancer
+en_astronomy_constel_sagittarius=Sagittarius
+en_astronomy_constel_leo=Leo
+en_astronomy_constel_scorpio=Scorpio
+en_astronomy_constel_pisces=Pisces
+en_astronomy_constel_capricorn=Capricorn

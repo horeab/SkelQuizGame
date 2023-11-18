@@ -1,0 +1,12 @@
+zh_astronomy_constel_aquarius=寶瓶座
+zh_astronomy_constel_libra=天秤座
+zh_astronomy_constel_virgo=处女座
+zh_astronomy_constel_aries=白羊座
+zh_astronomy_constel_taurus=金牛座
+zh_astronomy_constel_gemini=双子座
+zh_astronomy_constel_cancer=巨蟹座
+zh_astronomy_constel_sagittarius=射手座
+zh_astronomy_constel_leo=狮子座
+zh_astronomy_constel_scorpio=天蝎座
+zh_astronomy_constel_pisces=双鱼座
+zh_astronomy_constel_capricorn=摩羯座

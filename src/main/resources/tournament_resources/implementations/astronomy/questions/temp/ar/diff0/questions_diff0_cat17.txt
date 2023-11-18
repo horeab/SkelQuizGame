@@ -1,0 +1,12 @@
+ar_astronomy_constel_aquarius=برج الدلو
+ar_astronomy_constel_libra=الميزان
+ar_astronomy_constel_virgo=بُرْجُ العَذْراء
+ar_astronomy_constel_aries=بُرْجُ الحَمَل
+ar_astronomy_constel_taurus=برج الثور
+ar_astronomy_constel_gemini=التوأمان
+ar_astronomy_constel_cancer=السرطان
+ar_astronomy_constel_sagittarius=برج القوس
+ar_astronomy_constel_leo=الأسد
+ar_astronomy_constel_scorpio=العقرب
+ar_astronomy_constel_pisces=برج الحوت
+ar_astronomy_constel_capricorn=بُرْجُ الجَدْي

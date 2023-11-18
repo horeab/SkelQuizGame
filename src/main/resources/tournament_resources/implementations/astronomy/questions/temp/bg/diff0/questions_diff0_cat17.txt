@@ -1,0 +1,12 @@
+bg_astronomy_constel_aquarius=Водолей
+bg_astronomy_constel_libra=Везни
+bg_astronomy_constel_virgo=Дева
+bg_astronomy_constel_aries=Овен
+bg_astronomy_constel_taurus=Телец
+bg_astronomy_constel_gemini=Близнаци
+bg_astronomy_constel_cancer=Рак
+bg_astronomy_constel_sagittarius=Стрелец
+bg_astronomy_constel_leo=Лъв
+bg_astronomy_constel_scorpio=Скорпион
+bg_astronomy_constel_pisces=Риби
+bg_astronomy_constel_capricorn=Козирог
