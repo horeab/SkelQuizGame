@@ -1,0 +1,7 @@
+Siege of Orleans:France:1,2,6:0
+Fall of Constantinople:Turkey:0,2,7:0
+Battle of Hastings:United Kingdom:0,1,5:0
+Machu Picchu:Peru:4,5,6:1
+Bagan:Myanmar:3,5,7:1
+Angkor:Cambodia:3,4,6:1
+Taj Mahal:India:4,5,7:1

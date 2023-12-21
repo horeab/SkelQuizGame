@@ -1,0 +1,10 @@
+Akkadian Empire:-2300,-2200
+Babylonian Empire:-1900,-1600
+Egyptian Empire:-1550,-1077
+Assyria:-2025,-609
+Kingdom of Judah:-1050,-586
+Achaemenid Empire:-550,-330
+Mauryan Empire:-322,-184
+Carthaginian Empire:-814,-146
+Seleucid Empire:-312,-63
+Han Dynasty:-202,220

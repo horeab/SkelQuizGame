@@ -1,0 +1,15 @@
+Mughal Empire:1526,1758
+Qing Dynasty:1644,1912
+Russian Empire:1721,1917
+Austro-Hungarian Empire:1867,1918
+German Empire:1871,1918
+Ottoman Empire:1299,1922
+Empire of Japan:1868,1947
+Spanish Empire:1402,1975
+French empire:1534,1980
+Soviet Union:1922,1991
+British Empire:1603,1997
+Portuguese Empire:1415,1999
+United States:1776,x
+People's Republic of China:1949,x
+European Union:1993,x
