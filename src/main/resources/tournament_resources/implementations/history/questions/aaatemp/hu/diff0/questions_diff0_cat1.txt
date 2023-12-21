@@ -11,5 +11,5 @@ Szovjetunió:1922,1991
 Brit Birodalom:1603,1997
 Portugál Birodalom:1415,1999
 Egyesült Államok:1776,x
-Kína:1949,x
+Kínai Népköztársaság:1949,x
 Európai Unió:1993,x

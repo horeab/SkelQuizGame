@@ -11,5 +11,5 @@ Kesatuan Soviet:1922,1991
 Empayar Inggeris:1603,1997
 Empayar Portugis:1415,1999
 Amerika Syarikat:1776,x
-China:1949,x
+Republik Rakyat China:1949,x
 Kesatuan Eropah:1993,x

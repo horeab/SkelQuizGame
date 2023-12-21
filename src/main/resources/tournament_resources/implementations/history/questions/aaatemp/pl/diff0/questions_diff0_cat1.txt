@@ -11,5 +11,5 @@ Związek Radziecki:1922,1991
 Imperium brytyjskie:1603,1997
 Imperium portugalskie:1415,1999
 Stany Zjednoczone:1776,x
-Chiny:1949,x
+Chińska Republika Ludowa:1949,x
 Unia Europejska:1993,x

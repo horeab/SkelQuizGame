@@ -11,5 +11,5 @@ Sovjetski Savez:1922,1991
 Britansko Carstvo:1603,1997
 Portugalsko Carstvo:1415,1999
 Sjedinjene Države:1776,x
-Kina:1949,x
+Narodna Republika Kina:1949,x
 Europska unija:1993,x

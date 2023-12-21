@@ -11,5 +11,5 @@ Uni Soviet:1922,1991
 Kerajaan Inggris:1603,1997
 Kekaisaran Portugis:1415,1999
 Amerika Serikat:1776,x
-Tiongkok:1949,x
+Republik Rakyat Tiongkok:1949,x
 Uni Eropa:1993,x

@@ -11,5 +11,5 @@ Unión Soviética:1922,1991
 Imperio británico:1603,1997
 Imperio portugués:1415,1999
 Estados Unidos:1776,x
-China:1949,x
+República Popular de China:1949,x
 Unión Europea:1993,x

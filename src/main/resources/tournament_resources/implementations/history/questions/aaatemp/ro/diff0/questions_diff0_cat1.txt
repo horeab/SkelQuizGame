@@ -11,5 +11,5 @@ Uniunea Sovietică:1922,1991
 Imperiul Britanic:1603,1997
 Imperiul Portughez:1415,1999
 Statele Unite:1776,x
-China:1949,x
+Republica Populară Chineză:1949,x
 Uniunea Europeană:1993,x

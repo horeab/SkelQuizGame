@@ -11,5 +11,5 @@ Sovětský svaz:1922,1991
 Britské impérium:1603,1997
 Portugalská říše:1415,1999
 Spojené státy:1776,x
-Čína:1949,x
+Čínská lidová republika:1949,x
 Evropská unie:1993,x

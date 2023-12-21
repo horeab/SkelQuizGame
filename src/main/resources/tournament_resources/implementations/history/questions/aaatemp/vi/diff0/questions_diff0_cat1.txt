@@ -11,5 +11,5 @@ Liên Xô:1922,1991
 Đế quốc Anh:1603,1997
 Đế quốc Bồ Đào Nha:1415,1999
 Hoa Kỳ:1776,x
-Trung Quốc:1949,x
+Cộng hòa nhân dân Trung Hoa:1949,x
 Liên minh Châu Âu:1993,x

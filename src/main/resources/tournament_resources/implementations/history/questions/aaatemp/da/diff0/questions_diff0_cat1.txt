@@ -11,5 +11,5 @@ Sovjetunionen:1922,1991
 Britiske Imperium:1603,1997
 Portugisisk Imperium:1415,1999
 USA:1776,x
-Kina:1949,x
+Folkerepublikken Kina:1949,x
 Den Europæiske Union:1993,x

@@ -11,5 +11,5 @@ Sovyetler Birliği:1922,1991
 İngiliz İmparatorluğu:1603,1997
 Portekiz İmparatorluğu:1415,1999
 Amerika Birleşik Devletleri:1776,x
-Çin:1949,x
+Çin Halk Cumhuriyeti:1949,x
 Avrupa Birliği:1993,x
