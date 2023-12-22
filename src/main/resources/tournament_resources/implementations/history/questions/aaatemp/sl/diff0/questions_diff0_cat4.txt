@@ -1,6 +1,6 @@
-:Napoleon Bonaparte::
-:William Shakespeare::
-:Abraham Lincoln::
-:George Washington::
-:Charles Darwin::
-:Isaac Newton::
+:Napoleon Bonaparte:::
+:William Shakespeare:::
+:Abraham Lincoln:::
+:George Washington:::
+:Charles Darwin:::
+:Isaac Newton:::

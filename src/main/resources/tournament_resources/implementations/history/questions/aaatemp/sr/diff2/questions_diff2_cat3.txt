@@ -1,6 +1,6 @@
-What was the first capital of ancient Egypt?::Memphis##Thebes##Alexandria##Baltimore::0
-On what island did ancient Greek civilization originate?::Samos##Crete##Olympia##Rhodes::1
-How many of the Seven Wonders of the Ancient World still exist?::3##2##1##0::2
-Who is credited with making the first map of the known world?::Archimedes##Anaximander##Euclid##Christopher Columbus::1
-In ancient Rome what does a consul's right to reject each other's decisions called?::Tax##Veto##Oversee##Affirm::1
-Approximately how old is the Great Wall of China?::1000 years##2000 years##3000 years##5000 years::2
+Која је била прва престоница старог Египта?::Мемпхис##Тхебес##Александрија##Балтиморе::0
+На ком острву је настала древна грчка цивилизација?::Самос##Крит##Олимпиа##Родос::1
+Колико од седам светских чуда античког света још постоји?::3##2##1##0::2
+Ко је заслужан за израду прве мапе познатог света?::Архимед##Анаксимандар##Еуклид##Кристифор Колумбо::1
+Како се у старом Риму звало право конзула да одбијају одлуке једног другог?::Порез##Вето##Надгледај##Афирм::1
+Колико је отприлике стар Кинески зид?::1000 година##2000 година##3000 година##5000 година::2

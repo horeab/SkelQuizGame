@@ -1,11 +1,11 @@
-Which country was the first one to reach the south pole?::Norway##United Kingdom##Denmark##Russia::0
-Which European country had the largest empire in history?::Russia##United Kingdom##Italy##Spain::1
-Which one of these African countries was controlled by Germany?::Benin##Angola##Djibouti##Tanzania::3
-Who was the first Tsar of Russia?::Tsar Nicholas I##Tsar Alexander II##Tsar Ivan the Terrible##Tsar Paul I::2
-What was the battle that ended the Napoleonic Wars?::Battle of Vienna##Battle of Valmy##Battle of Verdun##Battle of Waterloo::3
-Which of these countries was part of the USSR?::Slovakia##Mongolia##Afghanistan##Azerbaijan::3
-Which one of these countries were never controlled by The United Kingdom?::Pakistan##Afghanistan##Nigeria##Jordan::1
-What European country was blamed for World War 1?::Russia##United Kingdom##Germany::2
-What country was neutral at the beginning of World War 2?::France##United States##Germany##Poland::1
-Which African anti-apartheid leader was released from jail in 1990, after more than 27 years?::Idi Amin##Nelson Mandela##Ferdinand Marcos##Joseph Atkinson::1
-Which US president was elected to office four times?::George Washington##Gerald Ford##Franklin D. Roosevelt##Abraham Lincoln::2
+Која је држава прва стигла до јужног пола?::Норвешка##Велика Британија##Данска##Русија::0
+Која европска држава је имала највеће царство у историји?::Русија##Велика Британија##Италија##Спаин::1
+Коју је од ових афричких земаља контролисала Немачка?::Бенин##Ангола##Џибути##Танзанија::3
+Ко је био први цар Русије?::цар Николај И##цар Александар ИИ##Цар Иван Грозни##цар Павле И::2
+Која је битка којом су окончани Наполеонови ратови?::Битка за Беч##Битка код Валмија##Битка код Вердена##Битка код Ватерлоа::3
+Која је од ових земаља била део СССР-а?::Словачка##Монголија##Авганистан##Азербејџан::3
+Коју од ових земаља никада није контролисало Уједињено Краљевство?::Пакистан##Авганистан##Нигериа##Јордан::1
+Која је европска држава окривљена за Први светски рат?::Русија##Велика Британија##Немачка::2
+Која је држава била неутрална на почетку Другог светског рата?::Француска##Америка##Немачка##Пољска::1
+Који је афрички вођа против апартхејда пуштен из затвора 1990. године, након више од 27 година?::Иди Амин##Нелсон Мандела##Фердинанд Маркос##Јосепх Аткинсон::1
+Који председник САД је четири пута биран на функцију?::Џорџ Вашингтон##Гералд Форд##Франклин Д. Роосевелт##Абрахам Линколн::2

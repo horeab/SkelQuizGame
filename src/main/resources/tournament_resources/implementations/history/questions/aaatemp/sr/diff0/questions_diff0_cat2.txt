@@ -1,10 +1,10 @@
-Battle of Waterloo:Belgium:2,3,5:0
-Battle of Gettysburg:United States:5,6,7:0
-Siege of Stalingrad:Russia:6,8,9:0
-Invasion of Normandy:France:5,6,8:0
-The Battle of Okinawa:Japan:1,8,9:0
-The Battle of Vienna:Austria:6,0,3:0
-Fall of the Berlin Wall:Germany:0,5,3:0
-Treaty of Versailles:France:1,0,5:0
-Assassination of Archduke Franz Ferdinand:Bosnia and Herzegovina:1,5,6:0
-Chernobyl disaster:Ukraine:1,2,8:0
+Битка код Ватерлоа:Белгија:2,3,5:0:
+Битка код Гетисбурга:Америка:5,6,7:0:
+Опсада Стаљинграда:Русија:6,8,9:0:
+Инвазија на Нормандију:Француска:5,6,8:0:
+Битка за Окинаву:Јапан:1,8,9:0:
+Битка за Беч:Аустрија:6,0,3:0:
+Пад Берлинског зида:Немачка:0,5,3:0:
+Версајски уговор:Француска:1,0,5:0:
+Убиство надвојводе Франца Фердинанда:Босна и Херцеговина:1,5,6:0:
+Чернобилска катастрофа:Украјина:1,2,8:0:

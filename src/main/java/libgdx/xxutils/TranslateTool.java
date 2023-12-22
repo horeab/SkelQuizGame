@@ -15,7 +15,7 @@ public class TranslateTool {
     public static String translate(String langFrom, String langTo, String text) throws IOException {
         langTo = langTo.equals(Language.nb.toString()) ? "no" : langTo;
         langFrom = langFrom.equals(Language.nb.toString()) ? "no" : langFrom;
-        // INSERT YOU URL HERE
+        // INSERT YOUR URL HERE
         String urlStr = "https://script.google.com/macros/s/AKfycbwoMNU7oFbfz4EP0T0hIJ74WjXsio7Vkc97MyPhoI_YjkzuE2PpPqPBs2cUWcqUN8-95g/exec" +
                 "?q=" + URLEncoder.encode(text, "UTF-8") +
                 "&target=" + langTo +

@@ -56,7 +56,8 @@ public class AstronomyFlutterQuestionProcessor {
                         AstronomyCategoryEnum.cat6,
                         AstronomyCategoryEnum.cat7,
                         AstronomyCategoryEnum.cat8,
-                        AstronomyCategoryEnum.cat9
+                        AstronomyCategoryEnum.cat9,
+                        AstronomyCategoryEnum.cat18
                 )) {
                     addQuestionCategory(catsM.get(cat), diff, language, res);
                 }
@@ -88,7 +89,9 @@ public class AstronomyFlutterQuestionProcessor {
                 }
 
                 res.append(FlutterQuestionProcessor
-                        .getQuestionsForCatAndDiff(diff, flutterCat.toString(), questions.toString()));
+                        .getQuestionsForCatAndDiff(diff,
+                                flutterCat == AstronomyCategoryEnum.cat18 ?
+                                        AstronomyCategoryEnum.cat17.toString() : flutterCat.toString(), questions.toString()));
 
                 reader.close();
             } catch (IOException e) {

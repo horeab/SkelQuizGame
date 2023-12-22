@@ -1,5 +1,5 @@
-What animal from the stone age is extinct now?::cheetah##mammoth##antelope##Anteater::1
-What stage came before the stone age?::Mud Age##Dinosaur Age##Ice Age##The Big Bang::2
-What is a hominid?::a tool##an early ancestor of humans ##a collection of ancient bones ##a fishhook::1
-Humans migrated around the world from what continent?::Africa##Asia##Australia ##Europe::0
-Which of the following defines Homo erectus?::thinking man##modern man##wise man##upright man::3
+Katera žival iz kamene dobe je zdaj izumrla?::gepard##mamut##antilopa##Mravljinčar::1
+Katero obdobje je prišlo pred kameno dobo?::Blatna doba##Dinozavrova doba##Ledena doba##Veliki pok::2
+Kaj je hominid?::orodje##zgodnji prednik ljudi##zbirka starodavnih kosti##trnek za ribe::1
+S katere celine so se ljudje selili po svetu?::Afrika##Azija##Avstralija##Evropi::0
+Kaj od naslednjega opredeljuje Homo erectus?::misleči človek##sodobni človek##moder človek##pokončen človek::3

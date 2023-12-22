@@ -1,4 +1,4 @@
-Göbekli Tepe:Turkey::1
-Lascaux cave:France::1
-Sumer:Iraq::1
-Stonehenge:United Kingdom::1
+Гобекли Тепе:Турска::1:
+пећина Ласцаук:Француска::1:
+Сумер:Ирак::1:
+Стоунхенџ:Велика Британија::1:

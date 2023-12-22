@@ -18,7 +18,7 @@ public class FlutterQuestionProcessor {
 
 
     private static final GameIdEnum GAME_ID = GameIdEnum.anatomy;
-    public static final String QUESTION_CONFIG_FILE_NAME = "AnatomyGameQuestionConfig";
+    public static final String QUESTION_CONFIG_FILE_NAME = "AstronomyGameQuestionConfig";
     private static final QuestionDifficulty[] DIFFS = QuizQuestionDifficultyLevel.values();
     private static final QuestionCategory[] CATEGS = QuizQuestionCategoryEnum.values();
 

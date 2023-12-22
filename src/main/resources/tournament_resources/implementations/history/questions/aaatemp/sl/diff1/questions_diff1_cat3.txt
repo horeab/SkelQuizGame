@@ -1,7 +1,7 @@
-The First Crusade had the intended goal of capturing which city?::Jerusalem##Cairo##Mecca##Rome::0
-What did the Magna Carta accomplish?::it limited the power of the lords##it limited the power of knights##it increased the power of peasants and serfs##it limited the power of the monarch::3
-How did the Bubonic Plague spread?::Bad water##Fleas from rats##Polluted air##Volcano ash::1
-This city was on a crossroads between Europe and the Middle East::Cairo##Constantinople##Paris##Moscow::1
-What was the cause of the Crusades?::To liberate the Holy land of Jerusalem from the Muslims##A revolt of peasants##The Black Death spreading over Europe##Trading wars along the Silk Road::0
-Holy prophet of the Muslim religion?::Jesus Christ##Buddha##Muhammad::2
-Social structure of the Middle Ages::Caste System##Feudalism##Manorism::1
+Katero mesto je imela prva križarska vojna za cilj zavzetje?::Jeruzalem##Kairo##Meka##Rim::0
+Kaj je dosegla Magna Carta?::omejevala je moč gospodov##omejevala je moč vitezov##povečala je moč kmetov in podložnikov##omejil je oblast monarha::3
+Kako se je širila bubonska kuga?::Slaba voda##Bolhe od podgan##Onesnažen zrak##Vulkanski pepel::1
+To mesto je bilo na križišču med Evropo in Bližnjim vzhodom::Kairo##Carigrad##Pariz##Moskva::1
+Kaj je bil vzrok za križarske vojne?::Osvoboditi Sveto deželo Jeruzalem od muslimanov##Upor kmetov##Črna kuga se širi po Evropi##Trgovske vojne vzdolž svilne ceste::0
+Sveti prerok muslimanske vere?::Jezus Kristus##Buda##Mohamed::2
+Družbena struktura srednjega veka::Kastni sistem##Fevdalizem##Dvorec::1

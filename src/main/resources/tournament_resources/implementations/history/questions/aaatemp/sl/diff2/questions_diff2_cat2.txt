@@ -1,7 +1,7 @@
-Battle of Marathon:Greece::0
-Battle of Zama:Tunisia::0
-Battle of Gaugamela:Iraq::0
-Pyramids of Giza:Egypt::1
-Petra:Jordan::1
-Pompeii:Italy::1
-Library of Alexandria:Egypt::1
+Bitka pri Maratonu:Grčija::0:
+Bitka pri Zami:Tunizija::0:
+Bitka pri Gaugameli:Irak::0:
+Piramide v Gizi:Egipt::1:
+Petra:Jordan::1:
+Pompeji:Italija::1:
+Aleksandrijska knjižnica:Egipt::1:

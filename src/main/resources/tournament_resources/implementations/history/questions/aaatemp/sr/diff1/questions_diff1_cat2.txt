@@ -1,7 +1,7 @@
-Siege of Orleans:France:1,2,6:0
-Fall of Constantinople:Turkey:0,2,7:0
-Battle of Hastings:United Kingdom:0,1,5:0
-Machu Picchu:Peru:4,5,6:1
-Bagan:Myanmar:3,5,7:1
-Angkor:Cambodia:3,4,6:1
-Taj Mahal:India:4,5,7:1
+Опсада Орлеана:Француска:1,2,6:0:
+Пад Цариграда:Турска:0,2,7:0:
+Битка код Хејстингса:Велика Британија:0,1,5:0:
+Мачу Пикчу:Перу:4,5,6:1:
+Баган:Мјанмар:3,5,7:1:
+Ангкор:Камбоџа:3,4,6:1:
+Тај Махал:Индија:4,5,7:1:

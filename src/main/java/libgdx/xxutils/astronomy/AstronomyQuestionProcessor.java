@@ -9,7 +9,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -54,32 +53,62 @@ public class AstronomyQuestionProcessor {
         ///////
         ///////
 
-        Map<QuestionCategory, QuestionCategory> oldNewCategMapping = categories();
-        for (Language lang : languages) {
-            new File(ROOT_PATH + "temp/" + lang.toString())
-                    .mkdir();
-            new File(ROOT_PATH + "temp/" + lang.toString() + "/diff"
-                    + AstronomyDifficultyLevel._0.getIndex())
-                    .mkdir();
+        formatCateg17Q();
 
-            List<String> planetsEnQuestions = getEnglishQuestions(AstronomyCategoryEnum.cat0, AstronomyDifficultyLevel._0);
-            List<String> planetsLangQuestions = getQuestions(AstronomyCategoryEnum.cat0, AstronomyDifficultyLevel._0, lang);
-            Map<String, String> planets = new HashMap<>();
-            int i = 0;
-            TranslateQuestionProcessor.ImageClickQuestionParser imageClickQuestionParser = new TranslateQuestionProcessor.ImageClickQuestionParser();
-            for (String pl : planetsEnQuestions) {
-                planets.put(imageClickQuestionParser.getQuestion(pl), imageClickQuestionParser.getQuestion(planetsLangQuestions.get(i)));
-                i++;
-            }
+//        Map<QuestionCategory, QuestionCategory> oldNewCategMapping = categories();
+//        for (Language lang : languages) {
+//            new File(ROOT_PATH + "temp/" + lang.toString())
+//                    .mkdir();
+//            new File(ROOT_PATH + "temp/" + lang.toString() + "/diff"
+//                    + AstronomyDifficultyLevel._0.getIndex())
+//                    .mkdir();
+//
+//            List<String> planetsEnQuestions = getEnglishQuestions(AstronomyCategoryEnum.cat0, AstronomyDifficultyLevel._0);
+//            List<String> planetsLangQuestions = getQuestions(AstronomyCategoryEnum.cat0, AstronomyDifficultyLevel._0, lang);
+//            Map<String, String> planets = new HashMap<>();
+//            int i = 0;
+//            TranslateQuestionProcessor.ImageClickQuestionParser imageClickQuestionParser = new TranslateQuestionProcessor.ImageClickQuestionParser();
+//            for (String pl : planetsEnQuestions) {
+//                planets.put(imageClickQuestionParser.getQuestion(pl), imageClickQuestionParser.getQuestion(planetsLangQuestions.get(i)));
+//                i++;
+//            }
+//
+//            for (QuestionDifficulty diff : Collections.singletonList(AstronomyDifficultyLevel._0)) {
+//                for (QuestionCategory cat : oldNewCategMapping.keySet()) {
+//                    moveQuestionCat(lang, cat, diff,
+//                            oldNewCategMapping.get(cat),
+//                            diff, planets);
+//                }
+//            }
+//        }
+    }
 
-            for (QuestionDifficulty diff : Collections.singletonList(AstronomyDifficultyLevel._0)) {
-                for (QuestionCategory cat : oldNewCategMapping.keySet()) {
-                    moveQuestionCat(lang, cat, diff,
-                            oldNewCategMapping.get(cat),
-                            diff, planets);
+    private static void formatCateg17Q() throws IOException {
+        for (Language lang : Language.values()) {
+//        for (Language lang : Arrays.asList(Language.en)) {
+
+            String newFilePath = getLibgdxQuestionPath(lang, true, AstronomyCategoryEnum.cat17.name(), AstronomyDifficultyLevel._0);
+            BufferedReader reader;
+            List<String> questions = new ArrayList<>();
+            try {
+                reader = new BufferedReader(new FileReader(newFilePath));
+                String line = reader.readLine();
+                while (line != null) {
+                    questions.add(line);
+                    line = reader.readLine();
                 }
+            } catch (IOException e) {
             }
+            System.out.println(questions);
+
+            String newFilePathToWrite = getLibgdxQuestionPath(lang, true, AstronomyCategoryEnum.cat18.name(), AstronomyDifficultyLevel._0);
+            File myObj = new File(newFilePathToWrite);
+            myObj.createNewFile();
+            FileWriter myWriter = new FileWriter(myObj);
+            myWriter.write(questions.stream().map(e -> e.split("=")[1]).collect(Collectors.joining("\n")));
+            myWriter.close();
         }
+
     }
 
     private static void moveQuestionCat(
@@ -215,6 +244,7 @@ public class AstronomyQuestionProcessor {
         oldNewCategMapping.put(AstronomyCategoryEnum.cat7, AstronomyCategoryEnum.cat13);
         oldNewCategMapping.put(AstronomyCategoryEnum.cat8, AstronomyCategoryEnum.cat14);
         oldNewCategMapping.put(AstronomyCategoryEnum.cat9, AstronomyCategoryEnum.cat15);
+        oldNewCategMapping.put(AstronomyCategoryEnum.cat18, AstronomyCategoryEnum.cat18);
         return oldNewCategMapping;
     }
 

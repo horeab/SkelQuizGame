@@ -1,26 +1,26 @@
-Mozart writes his first symphony:1764
-United States Declaration of Independence:1776
-Napoleon is defeated at the Battle of Waterloo:1815
-First Steam Locomotive:1825
-Great Britain took over the rule of India:1858
-Edison invents electric light:1879
-Benz develops first petrol-driven car:1885
-Einstein announces the theory of relativity:1905
-Titanic, world’s biggest ship, sinks in North Atlantic:1912
-World War One begins:1914
-Russian Revolution:1917
-Hitler rises to power in Germany:1933
-World War Two begins:1939
-End of World War Two:1945
-Communist China is founded:1949
-Russia sends into space the first satellite, Sputnik 1:1957
-Yuri Gagarin becomes the first man to fly in space:1961
-Neil Armstrong becomes the first man to set foot on the moon:1969
-Chernobyl disaster:1986
-Fall of Communism in Eastern Europe:1989
-Unification of Germany:1990
-Soviet Union breaks up:1991
-End of Apartheid in South Africa:1994
-Google is founded:1998
-September 11 Terrorist Attacks:2001
-Introduction of the iPhone:2007
+Mozart napiše svojo prvo simfonijo:1764
+Deklaracija neodvisnosti Združenih držav:1776
+Napoleon je poražen v bitki pri Waterlooju:1815
+Prva parna lokomotiva:1825
+Velika Britanija je prevzela oblast nad Indijo:1858
+Edison izumi električno luč:1879
+Benz razvije prvi avtomobil na bencinski pogon:1885
+Einstein napoveduje teorijo relativnosti:1905
+Titanik, največja ladja na svetu, se potopi v severnem Atlantiku:1912
+Začne se prva svetovna vojna:1914
+Ruska revolucija:1917
+Hitler pride na oblast v Nemčiji:1933
+Začne se druga svetovna vojna:1939
+Konec druge svetovne vojne:1945
+Ustanovljena je komunistična Kitajska:1949
+Rusija je v vesolje poslala prvi satelit Sputnik 1:1957
+Jurij Gagarin postane prvi človek, ki je poletel v vesolje:1961
+Neil Armstrong postane prvi človek, ki je stopil na Luno:1969
+Černobilska katastrofa:1986
+Padec komunizma v vzhodni Evropi:1989
+Združitev Nemčije:1990
+Sovjetska zveza razpade:1991
+Konec apartheida v Južni Afriki:1994
+Google je ustanovljen:1998
+Teroristični napadi 11. septembra:2001
+Predstavitev iPhona:2007

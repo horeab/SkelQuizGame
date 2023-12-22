@@ -94,11 +94,17 @@ public class AnatomyQuestionProcessor {
     }
 
     private static void translateDescription() throws IOException {
-        List<Language> languages = Arrays.asList(Language.ro);
+//        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+//        languages.remove(Language.de);
+//        languages.remove(Language.en);
+//        languages.remove(Language.ro);
+//        languages.removeAll(Arrays.asList(Language.values())
+//                .subList(0, Arrays.asList(Language.values()).indexOf(Language.it)));
+        List<Language> languages = new ArrayList<>(Arrays.asList(Language.id));
         for (Language lang : languages) {
             for (QuestionDifficulty diff : Arrays.asList(AnatomyQuestionDifficultyLevel._0)) {
                 for (QuestionCategory cat : Arrays.asList(
-                        AnatomyQuestionCategoryEnum.cat11
+                        AnatomyQuestionCategoryEnum.cat7
                 )) {
 //                for (QuestionCategory cat : getQuestionParsers(diff).keySet()) {
                     List<String> enQuestions = getEnglishQuestions(cat, diff, true);
