@@ -1,5 +1,5 @@
-:Christopher Columbus::
-:Charlemagne::
-:Leonardo da Vinci::
-:Genghis Khan::
-:Galileo Galilei::
+:Christopher Columbus::Christopher Columbus was an Italian explorer who led four Spanish transatlantic maritime expeditions opening the way for the widespread European colonization of the Americas.
+:Charlemagne::Charlemagne united most of Western Europe during the Middle Ages and laid the foundations for modern France and Germany.
+:Leonardo da Vinci:: Leonardo da Vinci was a Renaissance painter, sculptor, architect, inventor and military engineer.
+:Genghis Khan::Genghis Khan was the founder and first khan of the Mongol Empire.
+:Galileo Galilei::Galileo Galilei is considered the father of modern science and made major contributions to the fields of physics and astronomy.

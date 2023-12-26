@@ -1,10 +1,10 @@
-Akkadian Empire:-2300,-2200
-Babylonian Empire:-1900,-1600
-Egyptian Empire:-1550,-1077
-Assyria:-2025,-609
-Kingdom of Judah:-1050,-586
-Achaemenid Empire:-550,-330
-Mauryan Empire:-322,-184
-Carthaginian Empire:-814,-146
-Seleucid Empire:-312,-63
-Han Dynasty:-202,220
+Akkadian Empire:-2300,-2200:The Akkadian Empire was the first ancient empire of Mesopotamia, succeeding the long-lived civilization of Sumer.
+Babylonian Empire:-1900,-1600:The Babylonian Empire was an ancient cultural region that occupied southeastern Mesopotamia between the Tigris and Euphrates rivers.
+Egyptian Empire:-1550,-1077:The Egyptian Empire was located in North Africa and was one of the most powerful and influential civilizations in the region for over 3000 years.
+Assyria:-2025,-609:Assyria was a major ancient Mesopotamian civilization.
+Kingdom of Judah:-1050,-586:The Kingdom of Judah was a Hebrew-speaking kingdom of the Southern Levant during the Iron Age.
+Achaemenid Empire:-550,-330:The Achaemenid Empire also known as the First Persian Empire, located in modern-day Iran, was the largest empire the world had ever seen at its time.
+Mauryan Empire:-322,-184:The Mauryan Empire united the Indian subcontinent for the first time as an empire.
+Carthaginian Empire:-814,-146:The Carthaginian Empire, initially located in present-day Tunisia, was a major power who dominated the western and central Mediterranean Sea.
+Seleucid Empire:-312,-63:The Seleucid Empire was a Greek power in West Asia during the Hellenistic period.
+Han Dynasty:-202,220:The Han Dynasty was the second imperial dynasty of China.

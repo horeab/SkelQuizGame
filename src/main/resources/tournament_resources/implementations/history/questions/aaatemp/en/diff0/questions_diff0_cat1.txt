@@ -1,15 +1,15 @@
-Mughal Empire:1526,1758
-Qing Dynasty:1644,1912
-Russian Empire:1721,1917
-Austro-Hungarian Empire:1867,1918
-German Empire:1871,1918
-Ottoman Empire:1299,1922
-Empire of Japan:1868,1947
-Spanish Empire:1402,1975
-French empire:1534,1980
-Soviet Union:1922,1991
-British Empire:1603,1997
-Portuguese Empire:1415,1999
-United States:1776,x
-People's Republic of China:1949,x
-European Union:1993,x
+Mughal Empire:1526,1758:The Mughals were a Muslim dynasty who ruled over a majority Hindu population. By 1750, they had dominated much of South Asia for several centuries.
+Qing Dynasty:1644,1912:The Qing dynasty was a manchurian imperial dynasty of China and the last imperial dynasty in Chinese history.
+Russian Empire:1721,1917:The Russian Empire was a large empire that, at its peak, stretched from Poland to the Pacific ocean.
+Austro-Hungarian Empire:1867,1918:Austria-Hungary was a military and diplomatic alliance of two sovereign states with a single monarch who was titled both emperor of Austria and King of Hungary.
+German Empire:1871,1918:During its 47 years of existence, the German Empire became the industrial, technological, and scientific giant of Europe, and by 1913, Germany was the largest economy in continental Europe and the third-largest in the world.
+Ottoman Empire:1299,1922:Ottoman Empire, empire created by Turkish tribes in Anatolia that grew to be one of the most powerful states in the world during the 15th and 16th centuries.
+Empire of Japan:1868,1947:Empire of Japan was a nation-state and great power that existed from the Meiji Restoration in 1868 until the end of the Second World War.
+Spanish Empire:1402,1975:The Spanish Empire was a colonial empire governed by Spain. Together with the Portuguese Empire, it was the first empire to usher the European Age of Discovery.
+French empire:1534,1980:The French empire comprised of the colonies and protectorates that came under French rule from the 16th century onward.
+Soviet Union:1922,1991:The Soviet Union was a transcontinental country that spanned much of Eurasia  was made up of 15 republics.
+British Empire:1603,1997:At its height in the 19th and early 20th century, it was the largest empire in history and, for a century, was the most important global power.
+Portuguese Empire:1415,1999:The Portuguese Empire was one of the longest-lived colonial empires in European history, lasting almost six centuries.
+United States:1776,x:The United States of America is the world's fourth largest country by surface area and has the world's third largest population.
+People's Republic of China:1949,x:People's Republic of China is a country in East Asia and is the world's second-most-populous country. It spans the equivalent of five time zones and borders fourteen countries by land.
+European Union:1993,x:The European Union is a supranational political and economic union of member states that are located mainly in Europe.
