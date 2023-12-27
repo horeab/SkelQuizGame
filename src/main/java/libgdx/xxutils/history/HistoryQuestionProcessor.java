@@ -5,9 +5,6 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -19,19 +16,9 @@ import java.util.stream.Collectors;
 import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Language;
-import libgdx.implementations.anatomy.AnatomyQuestionCategoryEnum;
-import libgdx.implementations.anatomy.AnatomyQuestionDifficultyLevel;
 import libgdx.implementations.history.HistoryCategoryEnum;
 import libgdx.implementations.history.HistoryDifficultyLevel;
-import libgdx.implementations.paintings.PaintingsQuestionCategoryEnum;
-import libgdx.implementations.paintings.PaintingsQuestionDifficultyLevel;
 import libgdx.xxutils.TranslateQuestionProcessor;
-import libgdx.xxutils.TranslateTool;
-
-import org.apache.commons.lang3.tuple.MutablePair;
-import org.apache.commons.lang3.tuple.Pair;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.math.NumberUtils;
 
 public class HistoryQuestionProcessor {
     public static final String ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/history/questions/";
@@ -39,12 +26,13 @@ public class HistoryQuestionProcessor {
 
     public static void main(String[] args) throws IOException {
 
-        translateAllLanguage();
+//        translateAllLanguage();
+        translateDescription();
     }
 
     private static void translateAllLanguage() throws IOException {
 
-        List<Language> languages = new ArrayList<>(Arrays.asList(Language.sr));
+        List<Language> languages = new ArrayList<>(Arrays.asList(Language.bg));
         for (Language lang : languages) {
             for (QuestionDifficulty diff : HistoryDifficultyLevel.values()) {
                 Map<QuestionCategory, TranslateQuestionProcessor.QuestionParser> questionParsers = getQuestionParsers();
@@ -97,42 +85,43 @@ public class HistoryQuestionProcessor {
 
     private static Map<QuestionCategory, TranslateQuestionProcessor.QuestionParser> getQuestionParsers() {
         Map<QuestionCategory, TranslateQuestionProcessor.QuestionParser> qParsers = new HashMap<>();
-        qParsers.put(AnatomyQuestionCategoryEnum.cat0, new TimelineQuestionParser());
-        qParsers.put(AnatomyQuestionCategoryEnum.cat1, new TimelineQuestionParser());
-        qParsers.put(AnatomyQuestionCategoryEnum.cat2, new TranslateQuestionProcessor.DependentQuestionParser());
-        qParsers.put(AnatomyQuestionCategoryEnum.cat3, new TranslateQuestionProcessor.UniqueQuestionParser());
-        qParsers.put(AnatomyQuestionCategoryEnum.cat4, new TranslateQuestionProcessor.DependentQuestionParser());
+        qParsers.put(HistoryCategoryEnum.cat0, new TimelineQuestionParser());
+        qParsers.put(HistoryCategoryEnum.cat1, new TimelineQuestionParser());
+        qParsers.put(HistoryCategoryEnum.cat2, new TranslateQuestionProcessor.DependentQuestionParser());
+        qParsers.put(HistoryCategoryEnum.cat3, new TranslateQuestionProcessor.UniqueQuestionParser());
+        qParsers.put(HistoryCategoryEnum.cat4, new TranslateQuestionProcessor.DependentQuestionParser());
         return qParsers;
     }
 
     private static void translateDescription() throws IOException {
-//        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
-//        languages.remove(Language.de);
-//        languages.remove(Language.en);
-//        languages.remove(Language.ro);
-//        languages.removeAll(Arrays.asList(Language.values())
-//                .subList(0, Arrays.asList(Language.values()).indexOf(Language.it)));
-        List<Language> languages = new ArrayList<>(Arrays.asList(Language.id));
+        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+        languages = languages.subList(languages.indexOf(Language.it), languages.size());
+//        List<Language> languages = new ArrayList<>(Arrays.asList(Language.ro));
+        Map<QuestionCategory, TranslateQuestionProcessor.QuestionParser> questionParsers = getQuestionParsers();
         for (Language lang : languages) {
-            for (QuestionDifficulty diff : Arrays.asList(AnatomyQuestionDifficultyLevel._0)) {
-                for (QuestionCategory cat : Arrays.asList(
-                        AnatomyQuestionCategoryEnum.cat7
-                )) {
-//                for (QuestionCategory cat : getQuestionParsers(diff).keySet()) {
+            for (QuestionDifficulty diff : HistoryDifficultyLevel.values()) {
+                for (QuestionCategory cat : Arrays.asList(HistoryCategoryEnum.cat1, HistoryCategoryEnum.cat4)) {
                     List<String> enQuestions = getEnglishQuestions(cat, diff, true);
                     List<String> langQuestions = getQuestions(cat, diff, lang, true);
                     List<String> langQuestionsWithDescr = new ArrayList<>();
+                    TranslateQuestionProcessor.QuestionParser questionParser = questionParsers.get(cat);
                     int i = 0;
                     for (String q : enQuestions) {
-
                         String[] split = q.split(":");
                         String descr = split[split.length - 1];
                         String translatedDescr = lang != Language.en
                                 ? TranslateQuestionProcessor.translateWord(lang, descr)
                                 : descr;
                         String langQ = langQuestions.get(i);
-                        langQ = langQ + ":" + translatedDescr;
-                        langQuestionsWithDescr.add(langQ);
+
+                        String question = questionParser.getQuestion(langQ);
+                        String answer = questionParser.getAnswer(langQ);
+                        List<String> options = questionParser.getOptions(langQ);
+                        String prefix = questionParser.getQuestionPrefix(langQ);
+
+                        langQuestionsWithDescr.add(
+                                questionParser.formQuestion(lang, question, answer, options, prefix, translatedDescr)
+                        );
                         i++;
                     }
 
@@ -176,20 +165,19 @@ public class HistoryQuestionProcessor {
 
         @Override
         public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation) {
-            String format = "%s:%s";
-            Object[] array = {question, correctAnswer, String.join(",", options), prefix, explanation};
+            String format = "%s:%s:%s";
+            Object[] array = {question, correctAnswer, explanation};
             return formQuestion(format, array, language);
         }
 
         @Override
         public String getAnswer(String rawString) {
-            return "";
+            return rawString.split(":", -1)[1];
         }
 
         @Override
         public List<String> getOptions(String rawString) {
-            return Arrays.stream(rawString.split(":", -1)[1].split(",", -1))
-                    .filter(StringUtils::isNotBlank).collect(Collectors.toList());
+            return Collections.emptyList();
         }
 
         @Override

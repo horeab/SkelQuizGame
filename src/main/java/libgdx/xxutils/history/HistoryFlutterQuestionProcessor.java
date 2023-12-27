@@ -3,7 +3,9 @@ package libgdx.xxutils.history;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,11 +19,12 @@ import libgdx.implementations.history.HistoryDifficultyLevel;
 import libgdx.implementations.paintings.PaintingsQuestionCategoryEnum;
 import libgdx.implementations.paintings.PaintingsQuestionDifficultyLevel;
 import libgdx.xxutils.FlutterQuestionProcessor;
+import libgdx.xxutils.TranslateQuestionProcessor;
 
 public class HistoryFlutterQuestionProcessor {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         ///
         boolean fromTemp = true;
@@ -68,7 +71,11 @@ public class HistoryFlutterQuestionProcessor {
             res.append("}");
         }
 
-        System.out.println(res);
+        File myObj = new File("/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/flutter_q.txt");
+        myObj.createNewFile();
+        FileWriter myWriter = new FileWriter(myObj);
+        myWriter.write(res.toString());
+        myWriter.close();
     }
 
     static String getQuestionsHeader(Language language) {
