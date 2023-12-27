@@ -1,5 +1,5 @@
-:Christopher Columbus::
-:Karel de grote::
-:Leonardo da Vinci::
-:Dzjengis Khan::
-:Galileo Galilei::
+:Christopher Columbus:::Christopher Columbus was een Italiaanse ontdekkingsreiziger die vier Spaanse transatlantische maritieme expedities leidde die de weg vrijmaakten voor de wijdverbreide Europese kolonisatie van Amerika.
+:Karel de grote:::Karel de Grote verenigde het grootste deel van West-Europa tijdens de Middeleeuwen en legde de basis voor het moderne Frankrijk en Duitsland.
+:Leonardo da Vinci:::Leonardo da Vinci was een schilder, beeldhouwer, architect, uitvinder en militair ingenieur uit de Renaissance.
+:Dzjengis Khan:::Genghis Khan was de stichter en eerste khan van het Mongoolse rijk.
+:Galileo Galilei:::Galileo Galilei wordt beschouwd als de vader van de moderne wetenschap en heeft belangrijke bijdragen geleverd op het gebied van de natuurkunde en astronomie.

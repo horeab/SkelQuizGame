@@ -1,10 +1,10 @@
-Akkadská ríša:-2300,-2200
-Babylonské impérium:-1900,-1600
-Egyptská ríša:-1550,-1077
-Asýria:-2025,-609
-Judské kráľovstvo:-1050,-586
-Achajmenovská ríša:-550,-330
-Mauryanská ríša:-322,-184
-Kartágo:-814,-146
-Seleukovská ríša:-312,-63
-Dynastia Han:-202,220
+Akkadská ríša:-2300,-2200:Akkadská ríša bola prvou starovekou ríšou Mezopotámie, ktorá nasledovala po dlhovekej civilizácii Sumeru.
+Babylonské impérium:-1900,-1600:Babylonská ríša bola staroveká kultúrna oblasť, ktorá zaberala juhovýchodnú Mezopotámiu medzi riekami Tigris a Eufrat.
+Egyptská ríša:-1550,-1077:Egyptská ríša sa nachádzala v severnej Afrike a bola viac ako 3000 rokov jednou z najmocnejších a najvplyvnejších civilizácií v regióne.
+Asýria:-2025,-609:Asýria bola významnou starovekou mezopotámskou civilizáciou.
+Judské kráľovstvo:-1050,-586:Judské kráľovstvo bolo hebrejsky hovoriace kráľovstvo v južnej Levante počas doby železnej.
+Achajmenovská ríša:-550,-330:Achajmenovská ríša známa aj ako Prvá perzská ríša, nachádzajúca sa v dnešnom Iráne, bola najväčšou ríšou, akú kedy svet videl.
+Mauryanská ríša:-322,-184:Mauryanská ríša prvýkrát zjednotila Indický subkontinent ako impérium.
+Kartágo:-814,-146:Kartáginská ríša, ktorá sa pôvodne nachádzala v dnešnom Tunisku, bola hlavnou mocnosťou, ktorá dominovala v západnom a centrálnom Stredozemnom mori.
+Seleukovská ríša:-312,-63:Seleukovská ríša bola gréckou mocnosťou v západnej Ázii počas helenistického obdobia.
+Dynastia Han:-202,220:Dynastia Han bola druhá cisárska dynastia Číny.

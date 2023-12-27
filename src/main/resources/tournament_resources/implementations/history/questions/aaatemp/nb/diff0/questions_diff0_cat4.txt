@@ -1,6 +1,6 @@
-:Napoleon Bonaparte::
-:William Shakespeare::
-:Abraham Lincoln::
-:George Washington::
-:Charles Darwin::
-:Isaac Newton::
+:Napoleon Bonaparte:::Napoleon Bonaparte var en fransk keiser og militærsjef som ble fremtredende under den franske revolusjonen.
+:William Shakespeare:::William Shakespeare var en engelsk dramatiker, poet og skuespiller. Han er allment ansett som den største forfatteren i det engelske språket.
+:Abraham Lincoln:::Abraham Lincoln var en amerikansk advokat og politiker som fungerte som den 16. presidenten i USA.
+:George Washington:::George Washington var en amerikansk militæroffiser som tjente som den første presidenten i USA.
+:Charles Darwin:::Charles Darwin var en engelsk naturforsker, geolog og biolog, viden kjent for sine bidrag til evolusjonsbiologien.
+:Isaac Newton:::Isaac Newton var en fysiker og matematiker som utviklet prinsippene for moderne fysikk.

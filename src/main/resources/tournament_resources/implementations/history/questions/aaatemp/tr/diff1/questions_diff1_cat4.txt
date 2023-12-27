@@ -1,5 +1,5 @@
-:Kristof Kolomb::
-:Şarlman::
-:Leonardo da Vinci::
-:Cengiz han::
-:Galileo Galilei::
+:Kristof Kolomb:::Christopher Columbus, Amerika&#39;nın Avrupalılar tarafından yaygın şekilde kolonileştirilmesinin önünü açan dört İspanyol transatlantik deniz seferine liderlik eden İtalyan bir kaşifti.
+:Şarlman:::Charlemagne, Orta Çağ&#39;da Batı Avrupa&#39;nın çoğunu birleştirdi ve modern Fransa ve Almanya&#39;nın temellerini attı.
+:Leonardo da Vinci:::Leonardo da Vinci, Rönesans ressamı, heykeltıraş, mimar, mucit ve askeri mühendisti.
+:Cengiz han:::Cengiz Han, Moğol İmparatorluğunun kurucusu ve ilk hanıydı.
+:Galileo Galilei:::Galileo Galilei, modern bilimin babası olarak kabul edilir ve fizik ve astronomi alanlarına büyük katkılarda bulunmuştur.

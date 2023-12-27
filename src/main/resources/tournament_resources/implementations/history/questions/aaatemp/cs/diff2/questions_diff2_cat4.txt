@@ -1,4 +1,4 @@
-:Alexandr Veliký::
-:Julius Caesar::
-:Aristoteles::
-:Konfucius::
+:Alexandr Veliký:::Alexandr Veliký, král Makedonie a dobyvatel Perské říše, je považován za jednoho z největších vojenských géniů všech dob.
+:Julius Caesar:::Julius Caesar měl důležitou roli v událostech, které vedly k zániku římské republiky a vzestupu římské říše.
+:Aristoteles:::Aristoteles byl starověký řecký filozof a polyhistor.
+:Konfucius:::Konfucius byl čínský filozof, jehož učení má dodnes vliv v celé Číně a východní Asii.

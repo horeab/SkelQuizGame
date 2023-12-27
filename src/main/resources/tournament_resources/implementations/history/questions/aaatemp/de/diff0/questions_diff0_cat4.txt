@@ -1,6 +1,6 @@
-:Napoleon Bonaparte::
-:William Shakespeare::
-:Abraham Lincoln::
-:George Washington::
-:Charles Darwin::
-:Isaac Newton::
+:Napoleon Bonaparte:::Napoleon Bonaparte war ein französischer Kaiser und Militärbefehlshaber, der während der Französischen Revolution zu Berühmtheit gelangte.
+:William Shakespeare:::William Shakespeare war ein englischer Dramatiker, Dichter und Schauspieler. Er gilt weithin als der größte Schriftsteller der englischen Sprache.
+:Abraham Lincoln:::Abraham Lincoln war ein amerikanischer Anwalt und Politiker, der als 16. Präsident der Vereinigten Staaten fungierte.
+:George Washington:::George Washington war ein amerikanischer Militäroffizier, der als erster Präsident der Vereinigten Staaten fungierte.
+:Charles Darwin:::Charles Darwin war ein englischer Naturforscher, Geologe und Biologe, der weithin für seine Beiträge zur Evolutionsbiologie bekannt war.
+:Isaac Newton:::Isaac Newton war ein Physiker und Mathematiker, der die Prinzipien der modernen Physik entwickelte.

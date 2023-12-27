@@ -1,15 +1,15 @@
-Mogolrijk:1526,1758
-Qing-dynastie:1644,1912
-Russische Rijk:1721,1917
-Oostenrijk-Hongarije:1867,1918
-Duitse Rijk:1871,1918
-Ottomaanse Rijk:1299,1922
-Japans Keizerrijk:1868,1947
-Spaanse Rijk:1402,1975
-Frans Rijk:1534,1980
-Sovjet-Unie:1922,1991
-Britse Rijk:1603,1997
-Portugese Rijk:1415,1999
-Verenigde Staten:1776,x
-Volksrepubliek China:1949,x
-Europese Unie:1993,x
+Mogolrijk:1526,1758:De Mughals waren een moslimdynastie die regeerde over een meerderheid van de hindoebevolking. Tegen 1750 hadden ze eeuwenlang een groot deel van Zuid-Azië gedomineerd.
+Qing-dynastie:1644,1912:De Qing-dynastie was een mantsjoerijse keizerlijke dynastie van China en de laatste keizerlijke dynastie in de Chinese geschiedenis.
+Russische Rijk:1721,1917:Het Russische rijk was een groot rijk dat zich op zijn hoogtepunt uitstrekte van Polen tot aan de Stille Oceaan.
+Oostenrijk-Hongarije:1867,1918:Oostenrijk-Hongarije was een militaire en diplomatieke alliantie van twee soevereine staten met één enkele monarch die zowel de titel keizer van Oostenrijk als koning van Hongarije kreeg.
+Duitse Rijk:1871,1918:Tijdens zijn 47-jarig bestaan ​​werd het Duitse Rijk de industriële, technologische en wetenschappelijke reus van Europa, en in 1913 was Duitsland de grootste economie van continentaal Europa en de derde grootste ter wereld.
+Ottomaanse Rijk:1299,1922:Ottomaanse Rijk, imperium gecreëerd door Turkse stammen in Anatolië dat in de 15e en 16e eeuw uitgroeide tot een van de machtigste staten ter wereld.
+Japans Keizerrijk:1868,1947:Het Japanse rijk was een natiestaat en grote macht die bestond vanaf de Meiji-restauratie in 1868 tot het einde van de Tweede Wereldoorlog.
+Spaanse Rijk:1402,1975:Het Spaanse rijk was een koloniaal rijk dat werd geregeerd door Spanje. Samen met het Portugese rijk was het het eerste rijk dat het Europese tijdperk van ontdekkingen inluidde.
+Frans Rijk:1534,1980:Het Franse rijk bestond uit de koloniën en protectoraten die vanaf de 16e eeuw onder Franse heerschappij kwamen.
+Sovjet-Unie:1922,1991:De Sovjet-Unie was een transcontinentaal land dat een groot deel van Eurazië besloeg en uit 15 republieken bestond.
+Britse Rijk:1603,1997:Op zijn hoogtepunt in de 19e en het begin van de 20e eeuw was het het grootste imperium in de geschiedenis en een eeuw lang de belangrijkste wereldmacht.
+Portugese Rijk:1415,1999:Het Portugese rijk was een van de langstlevende koloniale rijken in de Europese geschiedenis en duurde bijna zes eeuwen.
+Verenigde Staten:1776,x:De Verenigde Staten van Amerika zijn qua oppervlakte het vierde grootste land ter wereld en hebben de derde grootste bevolking ter wereld.
+Volksrepubliek China:1949,x:De Volksrepubliek China is een land in Oost-Azië en het op één na meest bevolkte land ter wereld. Het beslaat het equivalent van vijf tijdzones en grenst over land aan veertien landen.
+Europese Unie:1993,x:De Europese Unie is een supranationale politieke en economische unie van lidstaten die zich voornamelijk in Europa bevinden.

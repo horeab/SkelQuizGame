@@ -1,5 +1,5 @@
-:Krzysztof Kolumb::
-:Karol Wielki::
-:Leonardo da Vinci::
-:Czyngis-chan::
-:Galileo Galilei::
+:Krzysztof Kolumb:::Krzysztof Kolumb był włoskim odkrywcą, który przewodził czterem hiszpańskim transatlantyckim wyprawom morskim otwierającym drogę do powszechnej europejskiej kolonizacji obu Ameryk.
+:Karol Wielki:::Karol Wielki zjednoczył w średniowieczu większość Europy Zachodniej i położył podwaliny pod współczesną Francję i Niemcy.
+:Leonardo da Vinci:::Leonardo da Vinci był renesansowym malarzem, rzeźbiarzem, architektem, wynalazcą i inżynierem wojskowym.
+:Czyngis-chan:::Czyngis-chan był założycielem i pierwszym chanem imperium mongolskiego.
+:Galileo Galilei:::Galileo Galilei jest uważany za ojca współczesnej nauki i wniósł ogromny wkład w dziedziny fizyki i astronomii.

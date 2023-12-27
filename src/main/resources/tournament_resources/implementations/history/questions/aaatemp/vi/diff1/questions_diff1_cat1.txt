@@ -1,9 +1,9 @@
-Đế quốc Sasan:224,651
-Nhà Đường:618,907
-Nhà Abbas:750,1258
-Triều Pagan:849,1297
-Đế quốc Mông Cổ:1206,1368
-Đế quốc Khmer:802,1431
-Đế quốc La Mã:-27,1453
-Đế quốc Byzantine:395,1453
-Đế quốc Inca:1438,1533
+Đế quốc Sasan:224,651:Đế chế Sasanian là đế chế Ba Tư tiền Hồi giáo cuối cùng.
+Nhà Đường:618,907:Nhà Đường được coi là thời kỳ hoàng kim của nghệ thuật và văn hóa Trung Quốc.
+Nhà Abbas:750,1258:Vương quốc Abbasid, với thủ đô ở Baghdad, được coi là Thời kỳ hoàng kim của Hồi giáo thúc đẩy sự phát triển văn hóa và khoa học vượt bậc.
+Triều Pagan:849,1297:Vương quốc Pagan là vương quốc Miến Điện đầu tiên thống nhất các khu vực mà sau này tạo thành Myanmar ngày nay.
+Đế quốc Mông Cổ:1206,1368:Đế quốc Mông Cổ vào thế kỷ 13 và 14 là đế quốc tiếp giáp lớn nhất trong lịch sử.
+Đế quốc Khmer:802,1431:Đế quốc Khmer là một đế quốc Phật giáo-Ấn Độ giáo ở Đông Nam Á, tập trung xung quanh các thành phố thủy điện ở khu vực ngày nay là miền bắc Campuchia.
+Đế quốc La Mã:-27,1453:Đế chế La Mã là thực thể chính trị và quân sự lớn nhất và hùng mạnh nhất trên thế giới.
+Đế quốc Byzantine:395,1453:Đế quốc Byzantine, còn được gọi là Đế quốc Đông La Mã, là sự tiếp nối của Đế quốc La Mã với thủ đô đặt tại Constantinople.
+Đế quốc Inca:1438,1533:Đế chế Inca là nền văn minh cổ đại lớn nhất ở châu Mỹ thời tiền Colombia.

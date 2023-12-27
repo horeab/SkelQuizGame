@@ -1,9 +1,9 @@
-Sasanideriket:224,651
-Tang-dynastiet:618,907
-Abbasidene:750,1258
-Paganriket:849,1297
-Mongolriket:1206,1368
-Khmerriket:802,1431
-Romerriket:-27,1453
-Det bysantinske riket:395,1453
-Inkariket:1438,1533
+Sasanideriket:224,651:Det sasaniske riket var det siste før-islamske persiske riket.
+Tang-dynastiet:618,907:Tang-dynastiet regnes som en gullalder for kinesisk kunst og kultur.
+Abbasidene:750,1258:Det abbasidiske kalifatet, med hovedstaden i Bagdad, regnes som den islamske gullalderen som fremmer stor kulturell og vitenskapelig vekst.
+Paganriket:849,1297:Pagan Kingdom var det første burmesiske riket som forenet regionene som senere skulle utgjøre dagens Myanmar.
+Mongolriket:1206,1368:Det mongolske riket på 1200- og 1300-tallet var det største sammenhengende imperiet i historien.
+Khmerriket:802,1431:Khmer-riket var et hindu-buddhistisk imperium i Sørøst-Asia, sentrert rundt hydrauliske byer i det som nå er Nord-Kambodsja.
+Romerriket:-27,1453:Romerriket var den største og mektigste politiske og militære enheten i verden.
+Det bysantinske riket:395,1453:Det bysantinske riket, også referert til som det østlige romerriket, var fortsettelsen av Romerriket med hovedstaden i Konstantinopel.
+Inkariket:1438,1533:Inkariket var den største eldgamle sivilisasjonen i pre-columbiansk Amerika.

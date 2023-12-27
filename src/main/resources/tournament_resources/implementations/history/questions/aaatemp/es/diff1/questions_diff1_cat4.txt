@@ -1,5 +1,5 @@
-:Cristobal colon::
-:Carlomagno::
-:Leonardo da vinci::
-:Genghis Khan::
-:Galileo Galilei::
+:Cristobal colon:::Cristóbal Colón fue un explorador italiano que dirigió cuatro expediciones marítimas transatlánticas españolas que abrieron el camino para la colonización europea generalizada de América.
+:Carlomagno:::Carlomagno unió a la mayor parte de Europa occidental durante la Edad Media y sentó las bases de la Francia y Alemania modernas.
+:Leonardo da vinci:::Leonardo da Vinci fue un pintor, escultor, arquitecto, inventor e ingeniero militar del Renacimiento.
+:Genghis Khan:::Genghis Khan fue el fundador y primer khan del Imperio mongol.
+:Galileo Galilei:::Galileo Galilei es considerado el padre de la ciencia moderna e hizo importantes contribuciones a los campos de la física y la astronomía.

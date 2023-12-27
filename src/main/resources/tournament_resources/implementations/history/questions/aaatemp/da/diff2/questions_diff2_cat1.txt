@@ -1,10 +1,10 @@
-Akkadiske Imperium:-2300,-2200
-Babyloniske Imperium:-1900,-1600
-Egyptisk Imperium:-1550,-1077
-Assyrien:-2025,-609
-Kongeriget Juda:-1050,-586
-Achæmenidiske rige:-550,-330
-Mauryan Imperium:-322,-184
-Karthago:-814,-146
-Seleukiderne:-312,-63
-Han-dynastiet:-202,220
+Akkadiske Imperium:-2300,-2200:Det akkadiske imperium var det første antikke imperium i Mesopotamien, der efterfulgte den langlivede civilisation Sumer.
+Babyloniske Imperium:-1900,-1600:Det babylonske imperium var en gammel kulturregion, der besatte det sydøstlige Mesopotamien mellem Tigris og Eufrat-floderne.
+Egyptisk Imperium:-1550,-1077:Det egyptiske imperium lå i Nordafrika og var en af ​​de mest magtfulde og indflydelsesrige civilisationer i regionen i over 3000 år.
+Assyrien:-2025,-609:Assyrien var en stor gammel mesopotamisk civilisation.
+Kongeriget Juda:-1050,-586:Kongeriget Juda var et hebraisk-talende kongerige i den sydlige Levant under jernalderen.
+Achæmenidiske rige:-550,-330:Det Achaemenidiske Rige også kendt som Det Første Persiske Rige, beliggende i det moderne Iran, var det største imperium, verden nogensinde havde set på sin tid.
+Mauryan Imperium:-322,-184:Mauryan-riget forenede det indiske subkontinent for første gang som et imperium.
+Karthago:-814,-146:Det karthagiske rige, som oprindeligt lå i det nuværende Tunesien, var en stormagt, der dominerede det vestlige og centrale Middelhav.
+Seleukiderne:-312,-63:Seleuciderriget var en græsk magt i Vestasien under den hellenistiske periode.
+Han-dynastiet:-202,220:Han-dynastiet var Kinas andet kejserdynasti.

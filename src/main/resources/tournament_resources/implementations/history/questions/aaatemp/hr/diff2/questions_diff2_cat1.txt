@@ -1,10 +1,10 @@
-Akadsko Carstvo:-2300,-2200
-Babilonsko Carstvo:-1900,-1600
-Egipatsko Carstvo:-1550,-1077
-Asirija:-2025,-609
-Kraljevstvo Juda:-1050,-586
-Ahemenidsko Carstvo:-550,-330
-Maurijsko Carstvo:-322,-184
-Kartaginsko Carstvo:-814,-146
-Seleukovići:-312,-63
-Dinastija Han:-202,220
+Akadsko Carstvo:-2300,-2200:Akadsko carstvo bilo je prvo drevno carstvo Mezopotamije, koje je naslijedilo dugovječnu civilizaciju Sumera.
+Babilonsko Carstvo:-1900,-1600:Babilonsko Carstvo bilo je drevno kulturno područje koje je zauzimalo jugoistočnu Mezopotamiju između rijeka Tigris i Eufrat.
+Egipatsko Carstvo:-1550,-1077:Egipatsko carstvo nalazilo se u sjevernoj Africi i bilo je jedna od najmoćnijih i najutjecajnijih civilizacija u regiji više od 3000 godina.
+Asirija:-2025,-609:Asirija je bila glavna drevna mezopotamska civilizacija.
+Kraljevstvo Juda:-1050,-586:Kraljevstvo Jude bilo je kraljevstvo južnog Levanta u kojem se govorilo hebrejski tijekom željeznog doba.
+Ahemenidsko Carstvo:-550,-330:Ahemenidsko carstvo također poznato kao Prvo perzijsko carstvo, smješteno u današnjem Iranu, bilo je najveće carstvo koje je svijet ikada vidio u to vrijeme.
+Maurijsko Carstvo:-322,-184:Maurijsko carstvo je prvi put ujedinilo Indijski potkontinent kao carstvo.
+Kartaginsko Carstvo:-814,-146:Kartaško Carstvo, u početku smješteno u današnjem Tunisu, bilo je velika sila koja je dominirala zapadnim i središnjim Sredozemnim morem.
+Seleukovići:-312,-63:Seleukidsko carstvo bilo je grčka sila u zapadnoj Aziji tijekom helenističkog razdoblja.
+Dinastija Han:-202,220:Dinastija Han bila je druga carska dinastija Kine.

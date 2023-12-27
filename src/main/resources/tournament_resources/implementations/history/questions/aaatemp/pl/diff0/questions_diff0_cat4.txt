@@ -1,6 +1,6 @@
-:Napoleon Bonaparte::
-:William Shakespeare::
-:Abraham Lincoln::
-:George Washington::
-:Karol Darwin::
-:Izaak Newton::
+:Napoleon Bonaparte:::Napoleon Bonaparte był francuskim cesarzem i dowódcą wojskowym, który zyskał sławę podczas rewolucji francuskiej.
+:William Shakespeare:::William Shakespeare był angielskim dramaturgiem, poetą i aktorem. Jest powszechnie uważany za największego pisarza języka angielskiego.
+:Abraham Lincoln:::Abraham Lincoln był amerykańskim prawnikiem i politykiem, który był 16. prezydentem Stanów Zjednoczonych.
+:George Washington:::George Washington był amerykańskim oficerem wojskowym, który był pierwszym prezydentem Stanów Zjednoczonych.
+:Karol Darwin:::Charles Darwin był angielskim przyrodnikiem, geologiem i biologiem, powszechnie znanym ze swojego wkładu w biologię ewolucyjną.
+:Izaak Newton:::Izaak Newton był fizykiem i matematykiem, który opracował zasady współczesnej fizyki.

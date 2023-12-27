@@ -1,5 +1,5 @@
-:Kristoffer Kolumbus::
-:Kaarle Suuri::
-:Leonardo da Vinci::
-:Tšingis-kaani::
-:Galileo Galilei::
+:Kristoffer Kolumbus:::Christopher Columbus oli italialainen tutkimusmatkailija, joka johti neljää espanjalaista transatlanttista merimatkaa, jotka avasivat tien laajalle levinneelle eurooppalaiselle Amerikan kolonisaatiolle.
+:Kaarle Suuri:::Kaarle Suuri yhdisti suurimman osan Länsi-Euroopasta keskiajalla ja loi perustan nykyaikaiselle Ranskalle ja Saksalle.
+:Leonardo da Vinci:::Leonardo da Vinci oli renessanssin maalari, kuvanveistäjä, arkkitehti, keksijä ja sotainsinööri.
+:Tšingis-kaani:::Tšingis-kaani oli Mongoli-imperiumin perustaja ja ensimmäinen khaani.
+:Galileo Galilei:::Galileo Galileita pidetään modernin tieteen isänä ja hän on vaikuttanut merkittävästi fysiikan ja tähtitieteen aloille.

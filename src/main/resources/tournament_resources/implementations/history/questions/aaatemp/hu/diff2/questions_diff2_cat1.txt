@@ -1,10 +1,10 @@
-Akkád Birodalom:-2300,-2200
-Babiloni Birodalom:-1900,-1600
-Egyiptomi Birodalom:-1550,-1077
-Asszíria:-2025,-609
-Júda Királyság:-1050,-586
-Achaemenid Birodalom:-550,-330
-Maurja Birodalom:-322,-184
-Karthágó:-814,-146
-Szeleukida Birodalom:-312,-63
-Han-dinasztia:-202,220
+Akkád Birodalom:-2300,-2200:Az Akkád Birodalom volt Mezopotámia első ősi birodalma, amely a hosszú életű sumer civilizációt váltotta fel.
+Babiloni Birodalom:-1900,-1600:A Babilóniai Birodalom egy ősi kulturális régió volt, amely Mezopotámia délkeleti részét foglalta el a Tigris és az Eufrátesz folyók között.
+Egyiptomi Birodalom:-1550,-1077:Az Egyiptomi Birodalom Észak-Afrikában található, és több mint 3000 éven át a régió egyik legerősebb és legbefolyásosabb civilizációja volt.
+Asszíria:-2025,-609:Asszíria jelentős ókori mezopotámiai civilizáció volt.
+Júda Királyság:-1050,-586:A Júda Királyság a dél-levantei héber nyelvű királyság volt a vaskorban.
+Achaemenid Birodalom:-550,-330:Az Első Perzsa Birodalomnak is nevezett Achaemenida Birodalom, amely a mai Irán területén található, a világ valaha látott legnagyobb birodalma volt.
+Maurja Birodalom:-322,-184:A Mauryan Birodalom először egyesítette birodalomként az indiai szubkontinenst.
+Karthágó:-814,-146:A Karthágói Birodalom, amely eredetileg a mai Tunézia területén helyezkedett el, nagyhatalom volt, amely a Földközi-tenger nyugati és középső részét uralta.
+Szeleukida Birodalom:-312,-63:A Szeleukida Birodalom egy görög hatalom volt Nyugat-Ázsiában a hellenisztikus időszakban.
+Han-dinasztia:-202,220:A Han-dinasztia Kína második birodalmi dinasztiája volt.

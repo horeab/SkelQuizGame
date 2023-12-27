@@ -1,9 +1,9 @@
-Empayar Sasan:224,651
-Dinasti Tang:618,907
-Kekhalifahan Abbasiyah:750,1258
-Kerajaan Pagan:849,1297
-Empayar Mongol:1206,1368
-Empayar Khmer:802,1431
-Empayar Rom:-27,1453
-Empayar Byzantine:395,1453
-Empayar Inka:1438,1533
+Empayar Sasan:224,651:Empayar Sasanian ialah empayar Parsi pra-Islam yang terakhir.
+Dinasti Tang:618,907:Dinasti Tang dianggap sebagai zaman kegemilangan seni dan budaya Cina.
+Kekhalifahan Abbasiyah:750,1258:Kekhalifahan Abbasiyah, dengan ibu kota di Baghdad, dianggap sebagai Zaman Keemasan Islam yang memupuk pertumbuhan budaya dan sains yang hebat.
+Kerajaan Pagan:849,1297:Kerajaan Pagan adalah kerajaan Burma pertama yang menyatukan wilayah yang kemudiannya akan membentuk Myanmar zaman moden.
+Empayar Mongol:1206,1368:Empayar Mongol pada abad ke-13 dan ke-14 adalah empayar bersebelahan terbesar dalam sejarah.
+Empayar Khmer:802,1431:Empayar Khmer ialah sebuah empayar Hindu-Buddha di Asia Tenggara, berpusat di sekitar bandar hidraulik di kawasan yang kini merupakan utara Kemboja.
+Empayar Rom:-27,1453:Empayar Rom adalah entiti politik dan ketenteraan terbesar dan paling berkuasa di dunia.
+Empayar Byzantine:395,1453:Empayar Byzantine, juga dirujuk sebagai Empayar Rom Timur, adalah kesinambungan Empire Rom dengan ibu kota yang terletak di Constantinople.
+Empayar Inka:1438,1533:Empayar Inca ialah tamadun purba terbesar di Amerika pra-Columbus.

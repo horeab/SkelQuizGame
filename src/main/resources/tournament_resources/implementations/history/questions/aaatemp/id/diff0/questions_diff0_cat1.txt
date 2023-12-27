@@ -1,15 +1,15 @@
-Kekaisaran Mughal:1526,1758
-Dinasti Qing:1644,1912
-Kekaisaran Rusia:1721,1917
-Kekaisaran Austro-Hongaria:1867,1918
-Kekaisaran Jerman:1871,1918
-Kekaisaran Ottoman:1299,1922
-Kekaisaran Jepang:1868,1947
-Kekaisaran Spanyol:1402,1975
-Kekaisaran Prancis:1534,1980
-Uni Soviet:1922,1991
-Kerajaan Inggris:1603,1997
-Kekaisaran Portugis:1415,1999
-Amerika Serikat:1776,x
-Republik Rakyat Tiongkok:1949,x
-Uni Eropa:1993,x
+Kekaisaran Mughal:1526,1758:Mughal adalah dinasti Muslim yang memerintah atas mayoritas penduduk Hindu. Pada tahun 1750, mereka telah mendominasi sebagian besar Asia Selatan selama beberapa abad.
+Dinasti Qing:1644,1912:Dinasti Qing adalah dinasti kekaisaran Manchuria di Tiongkok dan dinasti kekaisaran terakhir dalam sejarah Tiongkok.
+Kekaisaran Rusia:1721,1917:Kekaisaran Rusia adalah sebuah kerajaan besar yang, pada puncaknya, membentang dari Polandia hingga Samudera Pasifik.
+Kekaisaran Austro-Hongaria:1867,1918:Austria-Hongaria adalah aliansi militer dan diplomatik dua negara berdaulat dengan satu raja yang bergelar kaisar Austria dan Raja Hongaria.
+Kekaisaran Jerman:1871,1918:Selama 47 tahun keberadaannya, Kekaisaran Jerman menjadi raksasa industri, teknologi, dan ilmu pengetahuan di Eropa, dan pada tahun 1913, Jerman menjadi negara dengan perekonomian terbesar di benua Eropa dan terbesar ketiga di dunia.
+Kekaisaran Ottoman:1299,1922:Kekaisaran Ottoman , kerajaan yang diciptakan oleh suku-suku Turki di Anatolia yang tumbuh menjadi salah satu negara terkuat di dunia selama abad ke-15 dan ke-16.
+Kekaisaran Jepang:1868,1947:Kekaisaran Jepang adalah negara-bangsa dan kekuatan besar yang berdiri sejak Restorasi Meiji pada tahun 1868 hingga akhir Perang Dunia Kedua.
+Kekaisaran Spanyol:1402,1975:Kekaisaran Spanyol adalah kerajaan kolonial yang diperintah oleh Spanyol. Bersama dengan Kekaisaran Portugis, ini adalah kekaisaran pertama yang mengantarkan Era Penemuan Eropa.
+Kekaisaran Prancis:1534,1980:Kekaisaran Perancis terdiri dari koloni dan protektorat yang berada di bawah kekuasaan Perancis sejak abad ke-16 dan seterusnya.
+Uni Soviet:1922,1991:Uni Soviet adalah negara lintas benua yang membentang sebagian besar Eurasia dan terdiri dari 15 republik.
+Kerajaan Inggris:1603,1997:Pada puncak kejayaannya pada abad ke-19 dan awal abad ke-20, kekaisaran ini merupakan kekaisaran terbesar dalam sejarah dan, selama satu abad, merupakan kekuatan global yang paling penting.
+Kekaisaran Portugis:1415,1999:Kekaisaran Portugis adalah salah satu kerajaan kolonial yang berumur paling lama dalam sejarah Eropa, yang berlangsung hampir enam abad.
+Amerika Serikat:1776,x:Amerika Serikat adalah negara terbesar keempat di dunia berdasarkan luas wilayah dan memiliki populasi terbesar ketiga di dunia.
+Republik Rakyat Tiongkok:1949,x:Republik Rakyat Tiongkok adalah sebuah negara di Asia Timur dan merupakan negara dengan jumlah penduduk terbesar kedua di dunia. Wilayah ini setara dengan lima zona waktu dan berbatasan dengan empat belas negara melalui jalur darat.
+Uni Eropa:1993,x:Uni Eropa adalah kesatuan politik dan ekonomi supranasional dari negara-negara anggota yang sebagian besar berlokasi di Eropa.

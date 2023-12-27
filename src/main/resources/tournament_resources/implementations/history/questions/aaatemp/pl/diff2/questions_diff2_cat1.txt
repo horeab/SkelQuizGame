@@ -1,10 +1,10 @@
-Imperium akadyjskie:-2300,-2200
-Imperium Babilońskie:-1900,-1600
-Imperium Egipskie:-1550,-1077
-Asyria:-2025,-609
-Królestwo Judy:-1050,-586
-Imperium Achemenidów:-550,-330
-Dynastia Maurjów:-322,-184
-Imperium Kartagińskie:-814,-146
-Seleucydzi:-312,-63
-Dynastia Han:-202,220
+Imperium akadyjskie:-2300,-2200:Imperium Akadyjskie było pierwszym starożytnym imperium Mezopotamii, następcą długowiecznej cywilizacji Sumeru.
+Imperium Babilońskie:-1900,-1600:Cesarstwo Babilońskie było starożytnym regionem kulturowym zajmującym południowo-wschodnią Mezopotamię, pomiędzy rzekami Tygrys i Eufrat.
+Imperium Egipskie:-1550,-1077:Imperium egipskie znajdowało się w Afryce Północnej i przez ponad 3000 lat było jedną z najpotężniejszych i najbardziej wpływowych cywilizacji w regionie.
+Asyria:-2025,-609:Asyria była główną cywilizacją starożytnej Mezopotamii.
+Królestwo Judy:-1050,-586:Królestwo Judy było hebrajskojęzycznym królestwem południowego Lewantu w epoce żelaza.
+Imperium Achemenidów:-550,-330:Imperium Achemenidów, znane również jako Pierwsze Imperium Perskie, położone na terenie współczesnego Iranu, było największym imperium, jakie świat kiedykolwiek widział w swoich czasach.
+Dynastia Maurjów:-322,-184:Imperium Mauretańskie po raz pierwszy zjednoczyło subkontynent indyjski jako imperium.
+Imperium Kartagińskie:-814,-146:Imperium Kartagińskie, początkowo położone na terenie dzisiejszej Tunezji, było główną potęgą dominującą w zachodnim i środkowym Morzu Śródziemnym.
+Seleucydzi:-312,-63:Imperium Seleucydów było potęgą grecką w Azji Zachodniej w okresie hellenistycznym.
+Dynastia Han:-202,220:Dynastia Han była drugą cesarską dynastią Chin.

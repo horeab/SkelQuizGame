@@ -1,5 +1,5 @@
-:Kolumbusz Kristóf::
-:Nagy Károly::
-:Leonardo da Vinci::
-:Dzsingisz kán::
-:Galileo Galilei::
+:Kolumbusz Kristóf:::Kolumbusz Kristóf olasz felfedező volt, négy spanyol transzatlanti tengeri expedíciót vezetett, amelyek utat nyitottak Amerika széles körű európai gyarmatosítása előtt.
+:Nagy Károly:::Nagy Károly a középkor folyamán Nyugat-Európa nagy részét egyesítette, és lefektette a modern Franciaország és Németország alapjait.
+:Leonardo da Vinci:::Leonardo da Vinci reneszánsz festő, szobrász, építész, feltaláló és hadmérnök volt.
+:Dzsingisz kán:::Dzsingisz kán volt a Mongol Birodalom alapítója és első kánja.
+:Galileo Galilei:::Galileo Galileit a modern tudomány atyjának tekintik, és jelentős mértékben hozzájárult a fizika és a csillagászat területéhez.

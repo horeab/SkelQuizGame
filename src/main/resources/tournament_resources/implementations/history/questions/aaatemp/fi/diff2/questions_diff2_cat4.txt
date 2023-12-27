@@ -1,4 +1,4 @@
-:Aleksanteri Suuri::
-:Julius Caesar::
-:Aristoteles::
-:Konfutse::
+:Aleksanteri Suuri:::Aleksanteri Suurta, Makedonian kuningasta ja Persian valtakunnan valloittajaa pidetään yhtenä kaikkien aikojen suurimmista sotilaallisista neroista.
+:Julius Caesar:::Julius Caesarilla oli tärkeä rooli tapahtumissa, jotka johtivat Rooman tasavallan tuhoon ja Rooman valtakunnan nousuun.
+:Aristoteles:::Aristoteles oli antiikin kreikkalainen filosofi ja polymaatti.
+:Konfutse:::Konfutse oli kiinalainen filosofi, jonka opetukset ovat vaikuttaneet Kiinassa ja Itä-Aasiassa tähän päivään asti.

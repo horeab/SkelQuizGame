@@ -1,10 +1,10 @@
-Empire d'Akkad:-2300,-2200
-Empire babylonien:-1900,-1600
-Empire égyptien:-1550,-1077
-Assyrie:-2025,-609
-Royaume d'Israël:-1050,-586
-Empire achéménide:-550,-330
-Empire maurya:-322,-184
-Empire carthaginois:-814,-146
-Empire séleucide:-312,-63
-Dynastie des Han:-202,220
+Empire d'Akkad:-2300,-2200:L&#39;Empire akkadien fut le premier empire antique de Mésopotamie, succédant à la longue civilisation de Sumer.
+Empire babylonien:-1900,-1600:L&#39;Empire babylonien était une ancienne région culturelle qui occupait le sud-est de la Mésopotamie, entre le Tigre et l&#39;Euphrate.
+Empire égyptien:-1550,-1077:L’Empire égyptien était situé en Afrique du Nord et fut l’une des civilisations les plus puissantes et les plus influentes de la région pendant plus de 3 000 ans.
+Assyrie:-2025,-609:L’Assyrie était une ancienne civilisation mésopotamienne majeure.
+Royaume d'Israël:-1050,-586:Le royaume de Juda était un royaume hébreu du Levant méridional à l&#39;âge du fer.
+Empire achéménide:-550,-330:L’empire achéménide, également connu sous le nom de premier empire perse, situé dans l’Iran actuel, était le plus grand empire que le monde ait jamais connu à son époque.
+Empire maurya:-322,-184:L&#39;empire Mauryan a uni pour la première fois le sous-continent indien en tant qu&#39;empire.
+Empire carthaginois:-814,-146:L&#39;Empire carthaginois, initialement situé dans l&#39;actuelle Tunisie, était une puissance majeure qui dominait la Méditerranée occidentale et centrale.
+Empire séleucide:-312,-63:L&#39;Empire séleucide était une puissance grecque en Asie occidentale pendant la période hellénistique.
+Dynastie des Han:-202,220:La dynastie Han était la deuxième dynastie impériale de Chine.

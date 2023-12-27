@@ -1,4 +1,4 @@
-:Nagy Sándor::
-:Julius Caesar::
-:Arisztotelész::
-:Konfuciusz::
+:Nagy Sándor:::Nagy Sándor, Macedónia királya és a Perzsa Birodalom meghódítója minden idők egyik legnagyobb katonai zsenijeként tartják számon.
+:Julius Caesar:::Julius Caesarnak fontos szerepe volt a Római Köztársaság bukásához és a Római Birodalom felemelkedéséhez vezető eseményekben.
+:Arisztotelész:::Arisztotelész ókori görög filozófus és polihisztor volt.
+:Konfuciusz:::Konfuciusz kínai filozófus volt, akinek tanításai a mai napig befolyásosak Kínában és Kelet-Ázsiában.

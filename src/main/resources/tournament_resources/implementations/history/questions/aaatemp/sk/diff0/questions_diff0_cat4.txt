@@ -1,6 +1,6 @@
-:Napoleon Bonaparte::
-:William Shakespeare::
-:Abrahám Lincoln::
-:George Washington::
-:Charles Darwin::
-:Isaac Newton::
+:Napoleon Bonaparte:::Napoleon Bonaparte bol francúzsky cisár a vojenský veliteľ, ktorý sa dostal do popredia počas Francúzskej revolúcie.
+:William Shakespeare:::William Shakespeare bol anglický dramatik, básnik a herec. Je všeobecne považovaný za najväčšieho spisovateľa v anglickom jazyku.
+:Abrahám Lincoln:::Abraham Lincoln bol americký právnik a politik, ktorý pôsobil ako 16. prezident Spojených štátov amerických.
+:George Washington:::George Washington bol americký vojenský dôstojník, ktorý slúžil ako prvý prezident Spojených štátov.
+:Charles Darwin:::Charles Darwin bol anglický prírodovedec, geológ a biológ, všeobecne známy svojimi príspevkami k evolučnej biológii.
+:Isaac Newton:::Isaac Newton bol fyzik a matematik, ktorý vyvinul princípy modernej fyziky.

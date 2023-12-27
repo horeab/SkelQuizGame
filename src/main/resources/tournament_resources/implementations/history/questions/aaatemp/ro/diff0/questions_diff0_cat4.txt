@@ -1,6 +1,6 @@
-:Napoleon Bonaparte::
-:William Shakespeare::
-:Abraham Lincoln::
-:George Washington::
-:Charles Darwin::
-:Isaac Newton::
+:Napoleon Bonaparte:::Napoleon Bonaparte a fost un împărat și comandant militar francez care a devenit proeminent în timpul Revoluției Franceze.
+:William Shakespeare:::William Shakespeare a fost un dramaturg, poet și actor englez. Este considerat cel mai mare scriitor în limba engleză.
+:Abraham Lincoln:::Abraham Lincoln a fost un avocat și politician american care a fost cel de-al 16-lea președinte al Statelor Unite.
+:George Washington:::George Washington a fost un ofițer militar american care a servit ca prim președinte al Statelor Unite.
+:Charles Darwin:::Charles Darwin a fost un naturalist, geolog și biolog englez, cunoscut pentru contribuțiile sale la biologia evoluționistă.
+:Isaac Newton:::Isaac Newton a fost un fizician și matematician care a dezvoltat principiile fizicii moderne.

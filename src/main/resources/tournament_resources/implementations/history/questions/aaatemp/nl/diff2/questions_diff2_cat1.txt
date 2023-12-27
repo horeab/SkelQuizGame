@@ -1,10 +1,10 @@
-Akkadisch Rijk:-2300,-2200
-Babylonische Rijk:-1900,-1600
-Egyptisch Rijk:-1550,-1077
-Assyrië:-2025,-609
-Koninkrijk Juda:-1050,-586
-Achaemenidisch Rijk:-550,-330
-Mauryadynastie:-322,-184
-Carthaagse Rijk:-814,-146
-Seleucidische Rijk:-312,-63
-Han-dynastie:-202,220
+Akkadisch Rijk:-2300,-2200:Het Akkadische rijk was het eerste oude rijk van Mesopotamië en volgde de langlevende beschaving van Sumerië op.
+Babylonische Rijk:-1900,-1600:Het Babylonische rijk was een oude culturele regio die het zuidoosten van Mesopotamië bezette tussen de rivieren de Tigris en de Eufraat.
+Egyptisch Rijk:-1550,-1077:Het Egyptische rijk bevond zich in Noord-Afrika en was ruim 3000 jaar lang een van de machtigste en invloedrijkste beschavingen in de regio.
+Assyrië:-2025,-609:Assyrië was een belangrijke oude Mesopotamische beschaving.
+Koninkrijk Juda:-1050,-586:Het koninkrijk Juda was tijdens de ijzertijd een Hebreeuws sprekend koninkrijk van de zuidelijke Levant.
+Achaemenidisch Rijk:-550,-330:Het Achaemenidische rijk, ook bekend als het Eerste Perzische rijk, gelegen in het hedendaagse Iran, was destijds het grootste rijk dat de wereld ooit had gezien.
+Mauryadynastie:-322,-184:Het Mauryan-rijk verenigde het Indiase subcontinent voor het eerst als een imperium.
+Carthaagse Rijk:-814,-146:Het Carthaagse rijk, aanvankelijk gelegen in het huidige Tunesië, was een grote macht die de westelijke en centrale Middellandse Zee domineerde.
+Seleucidische Rijk:-312,-63:Het Seleucidische rijk was tijdens de Hellenistische periode een Griekse macht in West-Azië.
+Han-dynastie:-202,220:De Han-dynastie was de tweede keizerlijke dynastie van China.

@@ -1,6 +1,6 @@
-:Napoleon Bonaparte::
-:William Shakespeare::
-:Abraham Lincoln::
-:George Washington::
-:Charles darwin::
-:Isaac Newton::
+:Napoleon Bonaparte:::Napoleon Bonaparte oli Ranskan keisari ja sotilaskomentaja, joka nousi tunnetuksi Ranskan vallankumouksen aikana.
+:William Shakespeare:::William Shakespeare oli englantilainen näytelmäkirjailija, runoilija ja näyttelijä. Häntä pidetään laajalti suurimpana englanninkielisenä kirjailijana.
+:Abraham Lincoln:::Abraham Lincoln oli amerikkalainen lakimies ja poliitikko, joka toimi Yhdysvaltain 16. presidenttinä.
+:George Washington:::George Washington oli amerikkalainen sotilasupseeri, joka toimi Yhdysvaltain ensimmäisenä presidenttinä.
+:Charles darwin:::Charles Darwin oli englantilainen luonnontieteilijä, geologi ja biologi, joka tunnettiin laajalti panoksestaan ​​evoluutiobiologiassa.
+:Isaac Newton:::Isaac Newton oli fyysikko ja matemaatikko, joka kehitti modernin fysiikan periaatteet.

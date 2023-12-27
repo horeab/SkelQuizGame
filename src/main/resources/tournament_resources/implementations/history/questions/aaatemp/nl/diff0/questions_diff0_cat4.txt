@@ -1,6 +1,6 @@
-:Napoleon Bonaparte::
-:William Shakespeare::
-:Abraham Lincoln::
-:George Washington::
-:Charles Darwin::
-:Isaac Newton::
+:Napoleon Bonaparte:::Napoleon Bonaparte was een Franse keizer en militaire commandant die tijdens de Franse Revolutie bekendheid verwierf.
+:William Shakespeare:::William Shakespeare was een Engelse toneelschrijver, dichter en acteur. Hij wordt algemeen beschouwd als de grootste schrijver in de Engelse taal.
+:Abraham Lincoln:::Abraham Lincoln was een Amerikaanse advocaat en politicus die de 16e president van de Verenigde Staten was.
+:George Washington:::George Washington was een Amerikaanse militaire officier die de eerste president van de Verenigde Staten was.
+:Charles Darwin:::Charles Darwin was een Engelse natuuronderzoeker, geoloog en bioloog, algemeen bekend om zijn bijdragen aan de evolutiebiologie.
+:Isaac Newton:::Isaac Newton was een natuurkundige en wiskundige die de principes van de moderne natuurkunde ontwikkelde.

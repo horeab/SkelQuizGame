@@ -1,9 +1,9 @@
-Sassaniden:224,651
-Tang-dynastie:618,907
-Kalifaat van de Abbasiden:750,1258
-Pagan Rijk:849,1297
-Mongoolse Rijk:1206,1368
-Khmer-rijk:802,1431
-Romeinse Rijk:-27,1453
-Byzantijnse Rijk:395,1453
-Inca-rijk:1438,1533
+Sassaniden:224,651:Het Sassanidenrijk was het laatste pre-islamitische Perzische rijk.
+Tang-dynastie:618,907:De Tang-dynastie wordt beschouwd als een gouden eeuw voor de Chinese kunst en cultuur.
+Kalifaat van de Abbasiden:750,1258:Het Abbasidische kalifaat, met als hoofdstad Bagdad, wordt beschouwd als de Islamitische Gouden Eeuw, die een grote culturele en wetenschappelijke groei bevordert.
+Pagan Rijk:849,1297:Pagan Kingdom was het eerste Birmese koninkrijk dat de regio&#39;s verenigde die later het hedendaagse Myanmar zouden vormen.
+Mongoolse Rijk:1206,1368:Het Mongoolse rijk van de 13e en 14e eeuw was het grootste aaneengesloten rijk in de geschiedenis.
+Khmer-rijk:802,1431:Het Khmer-rijk was een hindoe-boeddhistisch rijk in Zuidoost-Azië, gecentreerd rond hydraulische steden in wat nu het noorden van Cambodja is.
+Romeinse Rijk:-27,1453:Het Romeinse Rijk was de grootste en machtigste politieke en militaire entiteit ter wereld.
+Byzantijnse Rijk:395,1453:Het Byzantijnse Rijk, ook wel het Oost-Romeinse Rijk genoemd, was de voortzetting van het Romeinse Rijk met als hoofdstad Constantinopel.
+Inca-rijk:1438,1533:Het Inca-rijk was de grootste oude beschaving in het precolumbiaanse Amerika.

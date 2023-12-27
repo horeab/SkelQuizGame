@@ -1,6 +1,6 @@
-:Napoleon Bonaparte::Napoleon Bonaparte was a French emperor and military commander who rose to prominence during the French Revolution.
-:William Shakespeare::William Shakespeare was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language.
-:Abraham Lincoln::Abraham Lincoln was an American lawyer and politician who served as the 16th president of the United States.
-:George Washington::George Washington was an american military officer who served as the first president of the United States.
-:Charles Darwin::Charles Darwin was an English naturalist, geologist and biologist, widely known for his contributions to evolutionary biology.
-:Isaac Newton::Isaac Newton was a physicist and mathematician who developed the principles of modern physics.
+:Napoleon Bonaparte::Napoleon Bonaparte was a French emperor and military commander who rose to prominence during the French Revolution.:Napoleon Bonaparte was a French emperor and military commander who rose to prominence during the French Revolution.
+:William Shakespeare::William Shakespeare was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language.:William Shakespeare was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language.
+:Abraham Lincoln::Abraham Lincoln was an American lawyer and politician who served as the 16th president of the United States.:Abraham Lincoln was an American lawyer and politician who served as the 16th president of the United States.
+:George Washington::George Washington was an american military officer who served as the first president of the United States.:George Washington was an american military officer who served as the first president of the United States.
+:Charles Darwin::Charles Darwin was an English naturalist, geologist and biologist, widely known for his contributions to evolutionary biology.:Charles Darwin was an English naturalist, geologist and biologist, widely known for his contributions to evolutionary biology.
+:Isaac Newton::Isaac Newton was a physicist and mathematician who developed the principles of modern physics.:Isaac Newton was a physicist and mathematician who developed the principles of modern physics.

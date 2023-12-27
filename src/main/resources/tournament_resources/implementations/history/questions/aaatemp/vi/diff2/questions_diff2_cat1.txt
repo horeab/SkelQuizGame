@@ -1,10 +1,10 @@
-Đế quốc Akkad:-2300,-2200
-Đế quốc Babylon:-1900,-1600
-Đế quốc Ai Cập:-1550,-1077
-Assyria:-2025,-609
-Vương quốc Judah:-1050,-586
-Đế quốc Achaemenes:-550,-330
-Đế quốc Maurya:-322,-184
-Carthage cổ đại:-814,-146
-Vương quốc Seleukos:-312,-63
-Thời Hán:-202,220
+Đế quốc Akkad:-2300,-2200:Đế chế Akkadian là đế chế cổ đại đầu tiên của Lưỡng Hà, kế thừa nền văn minh lâu đời của Sumer.
+Đế quốc Babylon:-1900,-1600:Đế quốc Babylon là một khu vực văn hóa cổ xưa chiếm đóng vùng đông nam Lưỡng Hà giữa sông Tigris và Euphrates.
+Đế quốc Ai Cập:-1550,-1077:Đế quốc Ai Cập nằm ở Bắc Phi và là một trong những nền văn minh hùng mạnh và có ảnh hưởng nhất trong khu vực trong hơn 3000 năm.
+Assyria:-2025,-609:Assyria là một nền văn minh Lưỡng Hà cổ đại lớn.
+Vương quốc Judah:-1050,-586:Vương quốc Judah là một vương quốc nói tiếng Do Thái ở Nam Levant trong Thời đại đồ sắt.
+Đế quốc Achaemenes:-550,-330:Đế chế Achaemenid còn được gọi là Đế chế Ba Tư đầu tiên, nằm ở Iran ngày nay, là đế chế lớn nhất thế giới từng thấy vào thời điểm đó.
+Đế quốc Maurya:-322,-184:Đế chế Mauryan lần đầu tiên thống nhất tiểu lục địa Ấn Độ thành một đế chế.
+Carthage cổ đại:-814,-146:Đế chế Carthage, ban đầu nằm ở Tunisia ngày nay, là một cường quốc thống trị vùng biển phía tây và trung tâm Địa Trung Hải.
+Vương quốc Seleukos:-312,-63:Đế quốc Seleucid là một cường quốc Hy Lạp ở Tây Á trong thời kỳ Hy Lạp hóa.
+Thời Hán:-202,220:Nhà Hán là triều đại đế quốc thứ hai của Trung Quốc.

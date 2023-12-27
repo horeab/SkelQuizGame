@@ -1,9 +1,9 @@
-Kekaisaran Sasanian:224,651
-Dinasti Tang:618,907
-Kekhalifahan Abbasiyah:750,1258
-Kerajaan Pagan:849,1297
-Kekaisaran Mongol:1206,1368
-Kerajaan Khmer:802,1431
-Kekaisaran Romawi:-27,1453
-Kekaisaran Bizantium:395,1453
-Kekaisaran Inca:1438,1533
+Kekaisaran Sasanian:224,651:Kekaisaran Sasanian adalah kerajaan Persia pra-Islam terakhir.
+Dinasti Tang:618,907:Dinasti Tang dianggap sebagai zaman keemasan seni dan budaya Tiongkok.
+Kekhalifahan Abbasiyah:750,1258:Kekhalifahan Abbasiyah, dengan ibu kota di Bagdad, dianggap sebagai Zaman Keemasan Islam yang mendorong pertumbuhan budaya dan ilmu pengetahuan yang besar.
+Kerajaan Pagan:849,1297:Kerajaan Pagan adalah kerajaan Burma pertama yang menyatukan wilayah-wilayah yang kemudian menjadi Myanmar modern.
+Kekaisaran Mongol:1206,1368:Kekaisaran Mongol pada abad ke-13 dan ke-14 adalah kekaisaran terbesar yang bersebelahan dalam sejarah.
+Kerajaan Khmer:802,1431:Kekaisaran Khmer adalah sebuah kerajaan Hindu-Buddha di Asia Tenggara, yang berpusat di sekitar kota-kota hidrolik di wilayah yang sekarang disebut Kamboja utara.
+Kekaisaran Romawi:-27,1453:Kekaisaran Romawi adalah entitas politik dan militer terbesar dan terkuat di dunia.
+Kekaisaran Bizantium:395,1453:Kekaisaran Bizantium, juga disebut sebagai Kekaisaran Romawi Timur, merupakan kelanjutan dari kekaisaran Romawi dengan ibu kotanya terletak di Konstantinopel.
+Kekaisaran Inca:1438,1533:Kekaisaran Inca adalah peradaban kuno terbesar di Amerika pra-Columbus.

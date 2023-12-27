@@ -1,10 +1,10 @@
-Akkadská říše:-2300,-2200
-Babylonská říše:-1900,-1600
-Starověký Egypt:-1550,-1077
-Asýrie:-2025,-609
-Judské království:-1050,-586
-Achaemenidská říše:-550,-330
-Maurjovská říše:-322,-184
-Kartáginská říše:-814,-146
-Seleucidská říše:-312,-63
-Dynastie Han:-202,220
+Akkadská říše:-2300,-2200:Akkadská říše byla první starověkou říší Mezopotámie, která následovala po dlouhověké civilizaci Sumeru.
+Babylonská říše:-1900,-1600:Babylonská říše byla starověká kulturní oblast, která zabírala jihovýchodní Mezopotámii mezi řekami Tigris a Eufrat.
+Starověký Egypt:-1550,-1077:Egyptská říše se nacházela v severní Africe a byla po více než 3000 let jednou z nejmocnějších a nejvlivnějších civilizací v regionu.
+Asýrie:-2025,-609:Asýrie byla významnou starověkou mezopotámskou civilizací.
+Judské království:-1050,-586:Judské království bylo hebrejsky mluvící království jižní Levanty během doby železné.
+Achaemenidská říše:-550,-330:Achajmenovská říše známá také jako První perská říše nacházející se v dnešním Íránu byla největší říší, jakou kdy svět ve své době viděl.
+Maurjovská říše:-322,-184:Mauryanská říše sjednotila indický subkontinent poprvé jako říše.
+Kartáginská říše:-814,-146:Kartaginská říše, původně umístěná v dnešním Tunisku, byla hlavní mocností, která ovládala západní a centrální Středozemní moře.
+Seleucidská říše:-312,-63:Seleukovská říše byla řeckou mocností v západní Asii během helénistického období.
+Dynastie Han:-202,220:Dynastie Han byla druhá císařská dynastie Číny.

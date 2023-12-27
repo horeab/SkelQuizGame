@@ -1,15 +1,15 @@
-Wielcy Mogołowie:1526,1758
-Dynastia Qing:1644,1912
-Imperium Rosyjskie:1721,1917
-Cesarstwo austro-węgierskie:1867,1918
-Cesarstwo Niemieckie:1871,1918
-Imperium Osmańskie:1299,1922
-Cesarstwo Japonii:1868,1947
-Imperium hiszpańskie:1402,1975
-Cesarstwo francuskie:1534,1980
-Związek Radziecki:1922,1991
-Imperium brytyjskie:1603,1997
-Imperium portugalskie:1415,1999
-Stany Zjednoczone:1776,x
-Chińska Republika Ludowa:1949,x
-Unia Europejska:1993,x
+Wielcy Mogołowie:1526,1758:Mogołowie byli dynastią muzułmańską, która rządziła większością ludności hinduskiej. Do 1750 roku przez kilka stuleci dominowali w dużej części Azji Południowej.
+Dynastia Qing:1644,1912:Dynastia Qing była mandżurską dynastią cesarską w Chinach i ostatnią dynastią cesarską w historii Chin.
+Imperium Rosyjskie:1721,1917:Imperium Rosyjskie było dużym imperium, które w szczytowym okresie rozciągało się od Polski po Pacyfik.
+Cesarstwo austro-węgierskie:1867,1918:Austro-Węgry były sojuszem wojskowym i dyplomatycznym dwóch suwerennych państw z jednym monarchą, nazywanym zarówno cesarzem Austrii, jak i królem Węgier.
+Cesarstwo Niemieckie:1871,1918:W ciągu 47 lat swojego istnienia Cesarstwo Niemieckie stało się przemysłowym, technologicznym i naukowym gigantem Europy, a do 1913 roku Niemcy były największą gospodarką w Europie kontynentalnej i trzecią co do wielkości na świecie.
+Imperium Osmańskie:1299,1922:Imperium Osmańskie, imperium utworzone przez plemiona tureckie w Anatolii, które w XV i XVI wieku stało się jednym z najpotężniejszych państw na świecie.
+Cesarstwo Japonii:1868,1947:Cesarstwo Japonii było państwem narodowym i wielką potęgą, która istniała od restauracji Meiji w 1868 r. do końca drugiej wojny światowej.
+Imperium hiszpańskie:1402,1975:Cesarstwo Hiszpańskie było imperium kolonialnym rządzonym przez Hiszpanię. Wraz z Imperium Portugalskim było to pierwsze imperium, które zapoczątkowało europejską erę odkryć.
+Cesarstwo francuskie:1534,1980:Cesarstwo francuskie składało się z kolonii i protektoratów, które od XVI wieku znajdowały się pod panowaniem francuskim.
+Związek Radziecki:1922,1991:Związek Radziecki był krajem transkontynentalnym obejmującym większą część Eurazji i składał się z 15 republik.
+Imperium brytyjskie:1603,1997:W szczytowym okresie XIX i na początku XX wieku było to największe imperium w historii i przez stulecie najważniejszą potęgą światową.
+Imperium portugalskie:1415,1999:Imperium Portugalskie było jednym z najdłużej istniejących imperiów kolonialnych w historii Europy, istniejącym przez prawie sześć wieków.
+Stany Zjednoczone:1776,x:Stany Zjednoczone Ameryki są czwartym co do wielkości krajem na świecie pod względem powierzchni i mają trzecią co do wielkości populację na świecie.
+Chińska Republika Ludowa:1949,x:Chińska Republika Ludowa to kraj w Azji Wschodniej i drugi pod względem liczby ludności kraj na świecie. Obejmuje równowartość pięciu stref czasowych i graniczy drogą lądową z czternastoma krajami.
+Unia Europejska:1993,x:Unia Europejska jest ponadnarodową unią polityczną i gospodarczą państw członkowskich, które znajdują się głównie w Europie.

@@ -1,15 +1,15 @@
-Mogulriket:1526,1758
-Qing-dynastin:1644,1912
-Ryska imperiet:1721,1917
-Österrike-Ungern:1867,1918
-Tyska riket:1871,1918
-Osmanska riket:1299,1922
-Japanska imperiet:1868,1947
-Spanska imperiet:1402,1975
-Franska imperiet:1534,1980
-Sovjetunionen:1922,1991
-Brittiska imperiet:1603,1997
-Portugisiska riket:1415,1999
-USA:1776,x
-Folkrepubliken Kina:1949,x
-Europeiska unionen:1993,x
+Mogulriket:1526,1758:Mughalerna var en muslimsk dynasti som härskade över en majoritet av hinduiska befolkningen. År 1750 hade de dominerat stora delar av Sydasien i flera århundraden.
+Qing-dynastin:1644,1912:Qingdynastin var en manchurisk imperialistisk dynasti i Kina och den sista imperialistiska dynastin i kinesisk historia.
+Ryska imperiet:1721,1917:Det ryska imperiet var ett stort imperium som på sin topp sträckte sig från Polen till Stilla havet.
+Österrike-Ungern:1867,1918:Österrike-Ungern var en militär och diplomatisk allians av två suveräna stater med en enda monark som titulerades både kejsare av Österrike och kung av Ungern.
+Tyska riket:1871,1918:Under sina 47 år av existens blev det tyska riket Europas industriella, teknologiska och vetenskapliga jätte, och 1913 var Tyskland den största ekonomin på det kontinentala Europa och den tredje största i världen.
+Osmanska riket:1299,1922:Osmanska riket, imperium skapat av turkiska stammar i Anatolien som växte till att bli en av de mäktigaste staterna i världen under 1400- och 1500-talen.
+Japanska imperiet:1868,1947:Empire of Japan var en nationalstat och stormakt som fanns från Meiji-restaureringen 1868 fram till slutet av andra världskriget.
+Spanska imperiet:1402,1975:Det spanska imperiet var ett kolonialt rike som styrdes av Spanien. Tillsammans med det portugisiska imperiet var det det första imperiet som inledde den europeiska upptäcktstiden.
+Franska imperiet:1534,1980:Det franska imperiet bestod av de kolonier och protektorat som kom under franskt styre från 1500-talet och framåt.
+Sovjetunionen:1922,1991:Sovjetunionen var ett transkontinentalt land som sträckte sig över stora delar av Eurasien och bestod av 15 republiker.
+Brittiska imperiet:1603,1997:På sin höjdpunkt på 1800- och början av 1900-talet var det det största imperiet i historien och var under ett sekel den viktigaste globala makten.
+Portugisiska riket:1415,1999:Det portugisiska riket var ett av de längsta koloniala imperier i europeisk historia och varade i nästan sex århundraden.
+USA:1776,x:USA är världens fjärde största land till yta och har världens tredje största befolkning.
+Folkrepubliken Kina:1949,x:Folkrepubliken Kina är ett land i Östasien och är världens näst folkrikaste land. Den sträcker sig över motsvarande fem tidszoner och gränsar till fjorton länder landvägen.
+Europeiska unionen:1993,x:Europeiska unionen är en övernationell politisk och ekonomisk union av medlemsländer som huvudsakligen är belägna i Europa.

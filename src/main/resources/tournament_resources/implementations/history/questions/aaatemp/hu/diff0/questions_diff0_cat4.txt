@@ -1,6 +1,6 @@
-:Bonaparte Napóleon::
-:William Shakespeare::
-:Abraham Lincoln::
-:George Washington::
-:Charles Darwin::
-:Isaac Newton::
+:Bonaparte Napóleon:::Bonaparte Napóleon francia császár és katonai parancsnok volt, aki a francia forradalom idején emelkedett ki a jelentőségre.
+:William Shakespeare:::William Shakespeare angol drámaíró, költő és színész. Széles körben a legnagyobb angol nyelvű íróként tartják számon.
+:Abraham Lincoln:::Abraham Lincoln amerikai ügyvéd és politikus volt, aki az Egyesült Államok 16. elnökeként szolgált.
+:George Washington:::George Washington amerikai katonatiszt volt, aki az Egyesült Államok első elnökeként szolgált.
+:Charles Darwin:::Charles Darwin angol természettudós, geológus és biológus volt, aki széles körben ismert az evolúcióbiológiához való hozzájárulásáról.
+:Isaac Newton:::Isaac Newton fizikus és matematikus volt, aki kidolgozta a modern fizika alapelveit.

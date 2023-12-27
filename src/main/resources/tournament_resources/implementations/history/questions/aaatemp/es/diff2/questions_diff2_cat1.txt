@@ -1,10 +1,10 @@
-Imperio acadio:-2300,-2200
-Imperio babilónico:-1900,-1600
-Imperio egipcio:-1550,-1077
-Asiria:-2025,-609
-Reino de Judá:-1050,-586
-Imperio aqueménida:-550,-330
-Imperio maurya:-322,-184
-Imperio cartaginés:-814,-146
-Imperio seléucida:-312,-63
-Dinastía Han:-202,220
+Imperio acadio:-2300,-2200:El Imperio Acadio fue el primer imperio antiguo de Mesopotamia, sucediendo a la longeva civilización de Sumeria.
+Imperio babilónico:-1900,-1600:El Imperio Babilónico era una antigua región cultural que ocupaba el sureste de Mesopotamia entre los ríos Tigris y Éufrates.
+Imperio egipcio:-1550,-1077:El Imperio Egipcio estaba ubicado en el norte de África y fue una de las civilizaciones más poderosas e influyentes de la región durante más de 3000 años.
+Asiria:-2025,-609:Asiria fue una importante civilización antigua mesopotámica.
+Reino de Judá:-1050,-586:El Reino de Judá fue un reino de habla hebrea del Levante Sur durante la Edad del Hierro.
+Imperio aqueménida:-550,-330:El Imperio Aqueménida, también conocido como el Primer Imperio Persa, ubicado en el actual Irán, fue el imperio más grande que el mundo había visto en su momento.
+Imperio maurya:-322,-184:El Imperio Maurya unió el subcontinente indio por primera vez como imperio.
+Imperio cartaginés:-814,-146:El Imperio cartaginés, inicialmente ubicado en la actual Túnez, fue una potencia importante que dominó el mar Mediterráneo occidental y central.
+Imperio seléucida:-312,-63:El Imperio Seléucida fue una potencia griega en Asia occidental durante el período helenístico.
+Dinastía Han:-202,220:La dinastía Han fue la segunda dinastía imperial de China.

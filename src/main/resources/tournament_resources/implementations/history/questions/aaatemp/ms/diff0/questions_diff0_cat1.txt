@@ -1,15 +1,15 @@
-Empayar Mughal:1526,1758
-Dinasti Qing:1644,1912
-Empayar Rusia:1721,1917
-Empayar Austria-Hungary:1867,1918
-Empayar Jerman:1871,1918
-Kerajaan Uthmaniyyah:1299,1922
-Empayar Jepun:1868,1947
-Empayar Sepanyol:1402,1975
-Empayar Perancis:1534,1980
-Kesatuan Soviet:1922,1991
-Empayar Inggeris:1603,1997
-Empayar Portugis:1415,1999
-Amerika Syarikat:1776,x
-Republik Rakyat China:1949,x
-Kesatuan Eropah:1993,x
+Empayar Mughal:1526,1758:Mughal adalah dinasti Islam yang memerintah majoriti penduduk Hindu. Menjelang 1750, mereka telah menguasai sebahagian besar Asia Selatan selama beberapa abad.
+Dinasti Qing:1644,1912:Dinasti Qing ialah dinasti empayar Manchurian China dan dinasti empayar terakhir dalam sejarah China.
+Empayar Rusia:1721,1917:Empayar Rusia adalah empayar besar yang, pada puncaknya, membentang dari Poland ke lautan Pasifik.
+Empayar Austria-Hungary:1867,1918:Austria-Hungary ialah pakatan ketenteraan dan diplomatik dua negara berdaulat dengan seorang raja tunggal yang bergelar kedua-dua maharaja Austria dan Raja Hungary.
+Empayar Jerman:1871,1918:Selama 47 tahun kewujudannya, Empayar Jerman menjadi gergasi perindustrian, teknologi dan saintifik Eropah, dan menjelang 1913, Jerman adalah ekonomi terbesar di benua Eropah dan yang ketiga terbesar di dunia.
+Kerajaan Uthmaniyyah:1299,1922:Empayar Uthmaniyyah, empayar yang dicipta oleh puak Turki di Anatolia yang berkembang menjadi salah satu negeri yang paling berkuasa di dunia pada abad ke-15 dan ke-16.
+Empayar Jepun:1868,1947:Empayar Jepun ialah sebuah negara bangsa dan kuasa besar yang wujud sejak Pemulihan Meiji pada tahun 1868 hingga tamat Perang Dunia Kedua.
+Empayar Sepanyol:1402,1975:Empayar Sepanyol adalah empayar kolonial yang ditadbir oleh Sepanyol. Bersama-sama dengan Empayar Portugis, ia adalah empayar pertama yang menyambut Zaman Penemuan Eropah.
+Empayar Perancis:1534,1980:Empayar Perancis terdiri daripada koloni dan negeri naungan yang berada di bawah pemerintahan Perancis dari abad ke-16 dan seterusnya.
+Kesatuan Soviet:1922,1991:Kesatuan Soviet ialah sebuah negara rentas benua yang merangkumi sebahagian besar Eurasia terdiri daripada 15 republik.
+Empayar Inggeris:1603,1997:Pada kemuncaknya pada abad ke-19 dan awal abad ke-20, ia merupakan empayar terbesar dalam sejarah dan, selama satu abad, merupakan kuasa global yang paling penting.
+Empayar Portugis:1415,1999:Empayar Portugis adalah salah satu empayar kolonial yang paling lama hidup dalam sejarah Eropah, yang berlangsung hampir enam abad.
+Amerika Syarikat:1776,x:Amerika Syarikat ialah negara keempat terbesar di dunia mengikut keluasan permukaan dan mempunyai penduduk ketiga terbesar di dunia.
+Republik Rakyat China:1949,x:Republik Rakyat China ialah sebuah negara di Asia Timur dan merupakan negara kedua paling ramai penduduk di dunia. Ia menjangkau bersamaan dengan lima zon waktu dan bersempadan dengan empat belas negara melalui darat.
+Kesatuan Eropah:1993,x:Kesatuan Eropah ialah kesatuan politik dan ekonomi supranasional negara anggota yang terletak terutamanya di Eropah.

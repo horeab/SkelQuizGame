@@ -1,10 +1,10 @@
-Empayar Akkadia:-2300,-2200
-Empayar Babylon:-1900,-1600
-Empayar Mesir:-1550,-1077
-Assyria:-2025,-609
-Kerajaan Yehuda:-1050,-586
-Empayar Achaemenid:-550,-330
-Empayar Maurya:-322,-184
-Empayar Carthage:-814,-146
-Empayar Seleucid:-312,-63
-Dinasti Han:-202,220
+Empayar Akkadia:-2300,-2200:Empayar Akkadia adalah empayar purba pertama Mesopotamia, menggantikan tamadun Sumer yang berumur panjang.
+Empayar Babylon:-1900,-1600:Empayar Babylon adalah wilayah budaya purba yang menduduki tenggara Mesopotamia antara sungai Tigris dan Euphrates.
+Empayar Mesir:-1550,-1077:Empayar Mesir terletak di Afrika Utara dan merupakan salah satu tamadun yang paling berkuasa dan berpengaruh di rantau ini selama lebih 3000 tahun.
+Assyria:-2025,-609:Assyria adalah tamadun Mesopotamia purba yang utama.
+Kerajaan Yehuda:-1050,-586:Kerajaan Yehuda ialah kerajaan Levant Selatan yang berbahasa Ibrani semasa Zaman Besi.
+Empayar Achaemenid:-550,-330:Empayar Achaemenid juga dikenali sebagai Empayar Parsi Pertama, yang terletak di Iran zaman moden, adalah empayar terbesar yang pernah dilihat dunia pada masanya.
+Empayar Maurya:-322,-184:Empayar Maurya menyatukan benua kecil India buat kali pertama sebagai sebuah empayar.
+Empayar Carthage:-814,-146:Empayar Carthaginian, yang pada mulanya terletak di Tunisia sekarang, adalah kuasa besar yang menguasai Laut Mediterranean barat dan tengah.
+Empayar Seleucid:-312,-63:Empayar Seleucid adalah kuasa Yunani di Asia Barat semasa zaman Helenistik.
+Dinasti Han:-202,220:Dinasti Han ialah dinasti empayar kedua China.

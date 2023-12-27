@@ -1,5 +1,5 @@
-:Kristofer Kolumbo::
-:Karlo Veliki::
-:Leonardo da Vinci::
-:Džingis-kan::
-:Galileo Galilei::
+:Kristofer Kolumbo:::Kristofor Kolumbo bio je talijanski istraživač koji je vodio četiri španjolske transatlantske pomorske ekspedicije otvorivši put širokoj europskoj kolonizaciji Amerike.
+:Karlo Veliki:::Karlo Veliki ujedinio je većinu zapadne Europe tijekom srednjeg vijeka i postavio temelje za modernu Francusku i Njemačku.
+:Leonardo da Vinci:::Leonardo da Vinci bio je renesansni slikar, kipar, arhitekt, izumitelj i vojni inženjer.
+:Džingis-kan:::Džingis-kan je bio osnivač i prvi kan Mongolskog Carstva.
+:Galileo Galilei:::Galileo Galilei se smatra ocem moderne znanosti i dao je veliki doprinos u poljima fizike i astronomije.

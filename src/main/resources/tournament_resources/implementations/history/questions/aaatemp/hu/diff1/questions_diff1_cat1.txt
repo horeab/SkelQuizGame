@@ -1,9 +1,9 @@
-Szászánida Birodalom:224,651
-Tang-dinasztia:618,907
-Abbászidák:750,1258
-Pagan Birodalom:849,1297
-Mongol Birodalom:1206,1368
-Khmer Birodalom:802,1431
-Római Birodalom:-27,1453
-Bizánci Birodalom:395,1453
-Inka Birodalom:1438,1533
+Szászánida Birodalom:224,651:A Szászáni Birodalom volt az utolsó iszlám előtti perzsa birodalom.
+Tang-dinasztia:618,907:A Tang-dinasztia a kínai művészet és kultúra aranykorának számít.
+Abbászidák:750,1258:Az Abbászida kalifátus, amelynek fővárosa Bagdadban található, az iszlám aranykorának számít, amely nagy kulturális és tudományos növekedést ösztönöz.
+Pagan Birodalom:849,1297:A Pogány Királyság volt az első burmai királyság, amely egyesítette azokat a régiókat, amelyek később a mai Mianmart alkották.
+Mongol Birodalom:1206,1368:A 13. és 14. századi Mongol Birodalom a történelem legnagyobb összefüggő birodalma volt.
+Khmer Birodalom:802,1431:A Khmer Birodalom egy hindu-buddhista birodalom Délkelet-Ázsiában, amelynek középpontjában a hidraulikus városok álltak a mai Kambodzsa északi részén.
+Római Birodalom:-27,1453:A Római Birodalom a világ legnagyobb és legerősebb politikai és katonai egysége volt.
+Bizánci Birodalom:395,1453:A Kelet-Római Birodalomként is emlegetett Bizánci Birodalom a Római Birodalom folytatása volt a fővárossal, amely Konstantinápolyban található.
+Inka Birodalom:1438,1533:Az Inka Birodalom a Kolumbusz előtti Amerika legnagyobb ősi civilizációja volt.

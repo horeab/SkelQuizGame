@@ -1,5 +1,5 @@
-:Cristofor Columb::
-:Carol cel Mare::
-:Leonardo da Vinci::
-:Genghis Khan::
-:Galileo Galilei::
+:Cristofor Columb:::Cristofor Columb a fost un explorator italian care a condus patru expediții maritime transatlantice spaniole, deschizând calea colonizării europene pe scară largă a Americilor.
+:Carol cel Mare:::Carol cel Mare a unit cea mai mare parte a Europei de Vest în timpul Evului Mediu și a pus bazele Franței și Germaniei moderne.
+:Leonardo da Vinci:::Leonardo da Vinci a fost un pictor, sculptor, arhitect, inventator și inginer militar renascentist.
+:Genghis Khan:::Genghis Khan a fost fondatorul și primul han al Imperiului Mongol.
+:Galileo Galilei:::Galileo Galilei este considerat părintele științei moderne și a adus contribuții majore în domeniile fizicii și astronomiei.

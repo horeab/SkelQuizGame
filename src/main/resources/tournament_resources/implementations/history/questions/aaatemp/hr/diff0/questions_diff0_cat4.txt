@@ -1,6 +1,6 @@
-:Napoleon Bonaparte::
-:William Shakespeare::
-:Abraham Lincoln::
-:George Washington::
-:Charles Darwin::
-:Isaac Newton::
+:Napoleon Bonaparte:::Napoleon Bonaparte bio je francuski car i vojni zapovjednik koji se istaknuo tijekom Francuske revolucije.
+:William Shakespeare:::William Shakespeare bio je engleski dramatičar, pjesnik i glumac. Općenito ga se smatra najvećim piscem na engleskom jeziku.
+:Abraham Lincoln:::Abraham Lincoln bio je američki pravnik i političar koji je služio kao 16. predsjednik Sjedinjenih Država.
+:George Washington:::George Washington bio je američki vojni časnik koji je služio kao prvi predsjednik Sjedinjenih Država.
+:Charles Darwin:::Charles Darwin bio je engleski prirodoslovac, geolog i biolog, nadaleko poznat po svojim doprinosima evolucijskoj biologiji.
+:Isaac Newton:::Isaac Newton bio je fizičar i matematičar koji je razvio principe moderne fizike.

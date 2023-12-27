@@ -1,15 +1,15 @@
-Imperiul Mogul:1526,1758
-Dinastia Qing:1644,1912
-Imperiul Rus:1721,1917
-Imperiul Austro-Ungar:1867,1918
-Imperiul German:1871,1918
-Imperiul Otoman:1299,1922
-Imperiul Japoniei:1868,1947
-Imperiul Spaniol:1402,1975
-Imperiul Francez:1534,1980
-Uniunea Sovietică:1922,1991
-Imperiul Britanic:1603,1997
-Imperiul Portughez:1415,1999
-Statele Unite:1776,x
-Republica Populară Chineză:1949,x
-Uniunea Europeană:1993,x
+Imperiul Mogul:1526,1758:Mughalii au fost o dinastie musulmană care a condus peste o populație majoritară hindusă. Până în 1750, ei dominaseră o mare parte din Asia de Sud timp de câteva secole.
+Dinastia Qing:1644,1912:Dinastia Qing a fost o dinastie imperială manchuriană a Chinei și ultima dinastie imperială din istoria Chinei.
+Imperiul Rus:1721,1917:Imperiul Rus a fost un imperiu mare care, la apogeu, se întindea din Polonia până la Oceanul Pacific.
+Imperiul Austro-Ungar:1867,1918:Austro-Ungaria a fost o alianță militară și diplomatică a două state suverane cu un singur monarh care a fost intitulat atât împărat al Austriei, cât și rege al Ungariei.
+Imperiul German:1871,1918:În cei 47 de ani de existență, Imperiul German a devenit gigantul industrial, tehnologic și științific al Europei, iar până în 1913, Germania era cea mai mare economie din Europa continentală și a treia ca mărime din lume.
+Imperiul Otoman:1299,1922:Imperiul Otoman, imperiu creat de triburile turcești în Anatolia care a devenit unul dintre cele mai puternice state din lume în timpul secolelor al XV-lea și al XVI-lea.
+Imperiul Japoniei:1868,1947:Imperiul Japoniei a fost un stat național și o mare putere care a existat de la Restaurarea Meiji din 1868 până la sfârșitul celui de-al Doilea Război Mondial.
+Imperiul Spaniol:1402,1975:Imperiul Spaniol a fost un imperiu colonial guvernat de Spania. Împreună cu Imperiul Portughez, a fost primul imperiu care a inaugurat Epoca Europeană a Descoperirilor.
+Imperiul Francez:1534,1980:Imperiul francez era format din coloniile și protectoratele care au intrat sub stăpânirea franceză începând cu secolul al XVI-lea.
+Uniunea Sovietică:1922,1991:Uniunea Sovietică a fost o țară transcontinentală care se întindea pe mare parte din Eurasia și era formată din 15 republici.
+Imperiul Britanic:1603,1997:La apogeul său în secolul al XIX-lea și începutul secolului al XX-lea, a fost cel mai mare imperiu din istorie și, timp de un secol, a fost cea mai importantă putere globală.
+Imperiul Portughez:1415,1999:Imperiul Portughez a fost unul dintre cele mai longevive imperii coloniale din istoria Europei, a durat aproape șase secole.
+Statele Unite:1776,x:Statele Unite ale Americii sunt a patra țară ca mărime din lume după suprafață și au a treia populație din lume.
+Republica Populară Chineză:1949,x:Republica Populară Chineză este o țară din Asia de Est și este a doua țară ca populație din lume. Se întinde pe echivalentul a cinci fusuri orare și se învecinează pe uscat cu paisprezece țări.
+Uniunea Europeană:1993,x:Uniunea Europeană este o uniune politică și economică supranațională a statelor membre care sunt situate în principal în Europa.

@@ -1,15 +1,15 @@
-Mughalská ríša:1526,1758
-Dynastia Čching:1644,1912
-Ruská ríša:1721,1917
-Rakúsko-uhorské cisárstvo:1867,1918
-Nemecká ríša:1871,1918
-Osmanská ríša:1299,1922
-Japonské cisárstvo:1868,1947
-Španielska ríša:1402,1975
-Francúzska ríša:1534,1980
-Sovietsky zväz:1922,1991
-Britské impérium:1603,1997
-Portugalská ríša:1415,1999
-USA:1776,x
-Čínska ľudová republika:1949,x
-Európska únia:1993,x
+Mughalská ríša:1526,1758:Mughali boli moslimská dynastia, ktorá vládla väčšinovému hinduistickému obyvateľstvu. Do roku 1750 už niekoľko storočí ovládli veľkú časť južnej Ázie.
+Dynastia Čching:1644,1912:Dynastia Qing bola mandžuská cisárska dynastia Číny a posledná cisárska dynastia v čínskej histórii.
+Ruská ríša:1721,1917:Ruská ríša bola veľká ríša, ktorá sa na vrchole rozprestierala od Poľska po Tichý oceán.
+Rakúsko-uhorské cisárstvo:1867,1918:Rakúsko-Uhorsko bolo vojenskou a diplomatickou alianciou dvoch suverénnych štátov s jediným panovníkom, ktorý sa volal ako rakúsky cisár, tak aj uhorský kráľ.
+Nemecká ríša:1871,1918:Počas 47 rokov svojej existencie sa Nemecká ríša stala priemyselným, technologickým a vedeckým gigantom Európy a do roku 1913 bolo Nemecko najväčšou ekonomikou v kontinentálnej Európe a treťou najväčšou na svete.
+Osmanská ríša:1299,1922:Osmanská ríša, ríša vytvorená tureckými kmeňmi v Anatólii, ktorá sa v 15. a 16. storočí stala jedným z najmocnejších štátov sveta.
+Japonské cisárstvo:1868,1947:Japonské impérium bolo národným štátom a veľmocou, ktorá existovala od obnovenia Meidži v roku 1868 až do konca druhej svetovej vojny.
+Španielska ríša:1402,1975:Španielska ríša bola koloniálna ríša riadená Španielskom. Spolu s portugalským impériom to bolo prvé impérium, ktoré otvorilo európsky vek objavov.
+Francúzska ríša:1534,1980:Francúzske impérium pozostávalo z kolónií a protektorátov, ktoré sa od 16. storočia dostali pod francúzsku nadvládu.
+Sovietsky zväz:1922,1991:Sovietsky zväz bol transkontinentálnym štátom, ktorý pokrýval veľkú časť Eurázie a tvorilo ho 15 republík.
+Britské impérium:1603,1997:V čase najväčšieho rozkvetu v 19. a na začiatku 20. storočia to bola najväčšia ríša v histórii a celé storočie bola najvýznamnejšou svetovou mocnosťou.
+Portugalská ríša:1415,1999:Portugalská ríša bola jednou z najdlhšie žijúcich koloniálnych ríš v európskych dejinách, ktorá trvala takmer šesť storočí.
+USA:1776,x:Spojené štáty americké sú podľa rozlohy štvrtou najväčšou krajinou na svete a majú tretiu najväčšiu populáciu na svete.
+Čínska ľudová republika:1949,x:Čínska ľudová republika je štát vo východnej Ázii a je druhou najľudnatejšou krajinou sveta. Zahŕňa ekvivalent piatich časových pásiem a po súši hraničí so štrnástimi krajinami.
+Európska únia:1993,x:Európska únia je nadnárodná politická a hospodárska únia členských štátov, ktoré sa nachádzajú najmä v Európe.

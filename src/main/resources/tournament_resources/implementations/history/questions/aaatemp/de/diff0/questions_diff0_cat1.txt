@@ -1,15 +1,15 @@
-Mogulreich:1526,1758
-Qing-Dynastie:1644,1912
-Russisches Reich:1721,1917
-Österreichisch-Ungarisches Reich:1867,1918
-Deutsches Reich:1871,1918
-Osmanisches Reich:1299,1922
-Japanisches Kaiserreich:1868,1947
-Spanisches Reich:1402,1975
-Französisches Reich:1534,1980
-Sowjetunion:1922,1991
-Britisches Empire:1603,1997
-Portugiesisches Reich:1415,1999
-Vereinigte Staaten:1776,x
-Volksrepublik China:1949,x
-Europäische Union:1993,x
+Mogulreich:1526,1758:Die Moguln waren eine muslimische Dynastie, die über eine mehrheitlich hinduistische Bevölkerung herrschte. Bis 1750 beherrschten sie mehrere Jahrhunderte lang weite Teile Südasiens.
+Qing-Dynastie:1644,1912:Die Qing-Dynastie war eine mandschurische Kaiserdynastie Chinas und die letzte Kaiserdynastie in der chinesischen Geschichte.
+Russisches Reich:1721,1917:Das Russische Reich war ein großes Reich, das sich auf seinem Höhepunkt von Polen bis zum Pazifischen Ozean erstreckte.
+Österreichisch-Ungarisches Reich:1867,1918:Österreich-Ungarn war ein militärisches und diplomatisches Bündnis zweier souveräner Staaten mit einem einzigen Monarchen, der sowohl den Titel Kaiser von Österreich als auch König von Ungarn trug.
+Deutsches Reich:1871,1918:In den 47 Jahren seines Bestehens entwickelte sich das Deutsche Reich zum industriellen, technologischen und wissenschaftlichen Riesen Europas, und 1913 war Deutschland die größte Volkswirtschaft in Kontinentaleuropa und die drittgrößte der Welt.
+Osmanisches Reich:1299,1922:Osmanisches Reich, ein von türkischen Stämmen in Anatolien gegründetes Reich, das sich im 15. und 16. Jahrhundert zu einem der mächtigsten Staaten der Welt entwickelte.
+Japanisches Kaiserreich:1868,1947:Das Kaiserreich Japan war ein Nationalstaat und eine Großmacht, die von der Meiji-Restauration im Jahr 1868 bis zum Ende des Zweiten Weltkriegs existierte.
+Spanisches Reich:1402,1975:Das Spanische Reich war ein von Spanien regiertes Kolonialreich. Zusammen mit dem portugiesischen Reich war es das erste Reich, das das europäische Zeitalter der Entdeckungen einläutete.
+Französisches Reich:1534,1980:Das französische Reich umfasste die Kolonien und Protektorate, die ab dem 16. Jahrhundert unter französische Herrschaft kamen.
+Sowjetunion:1922,1991:Die Sowjetunion war ein transkontinentales Land, das sich über weite Teile Eurasiens erstreckte und aus 15 Republiken bestand.
+Britisches Empire:1603,1997:Auf seinem Höhepunkt im 19. und frühen 20. Jahrhundert war es das größte Reich der Geschichte und ein Jahrhundert lang die wichtigste Weltmacht.
+Portugiesisches Reich:1415,1999:Das portugiesische Reich war eines der langlebigsten Kolonialreiche in der europäischen Geschichte und bestand fast sechs Jahrhunderte.
+Vereinigte Staaten:1776,x:Die Vereinigten Staaten von Amerika sind flächenmäßig das viertgrößte Land der Welt und haben die drittgrößte Bevölkerung der Welt.
+Volksrepublik China:1949,x:Die Volksrepublik China ist ein Land in Ostasien und das zweitbevölkerungsreichste Land der Welt. Es erstreckt sich um das Äquivalent von fünf Zeitzonen und grenzt auf dem Landweg an vierzehn Länder.
+Europäische Union:1993,x:Die Europäische Union ist ein supranationaler politischer und wirtschaftlicher Zusammenschluss von Mitgliedstaaten, die überwiegend in Europa liegen.

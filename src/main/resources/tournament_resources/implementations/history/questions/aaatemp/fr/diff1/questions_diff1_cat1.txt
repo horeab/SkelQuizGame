@@ -1,9 +1,9 @@
-Sassanides:224,651
-Dynastie Tang:618,907
-Califat abbasside:750,1258
-Royaume de Pagan:849,1297
-Empire mongol:1206,1368
-Empire khmer:802,1431
-Empire romain:-27,1453
-Empire byzantin:395,1453
-Empire inca:1438,1533
+Sassanides:224,651:L&#39;empire sassanide était le dernier empire perse préislamique.
+Dynastie Tang:618,907:La dynastie Tang est considérée comme l’âge d’or des arts et de la culture chinoise.
+Califat abbasside:750,1258:Le califat abbasside, dont la capitale est Bagdad, est considéré comme l’âge d’or islamique, favorisant une grande croissance culturelle et scientifique.
+Royaume de Pagan:849,1297:Le royaume païen fut le premier royaume birman à unifier les régions qui constitueront plus tard le Myanmar moderne.
+Empire mongol:1206,1368:L’empire mongol des XIIIe et XIVe siècles était le plus grand empire contigu de l’histoire.
+Empire khmer:802,1431:L&#39;empire khmer était un empire hindou-bouddhiste d&#39;Asie du Sud-Est, centré autour de villes hydrauliques dans ce qui est aujourd&#39;hui le nord du Cambodge.
+Empire romain:-27,1453:L’Empire romain était l’entité politique et militaire la plus grande et la plus puissante du monde.
+Empire byzantin:395,1453:L&#39;Empire byzantin, également appelé Empire romain d&#39;Orient, était la continuation de l&#39;Empire romain avec la capitale située à Constantinople.
+Empire inca:1438,1533:L’Empire Inca était la plus grande civilisation ancienne de l’Amérique précolombienne.

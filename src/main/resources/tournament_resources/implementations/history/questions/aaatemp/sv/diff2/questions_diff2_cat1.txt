@@ -1,10 +1,10 @@
-Akkadiska imperiet:-2300,-2200
-Babylonien:-1900,-1600
-Egyptiska riket:-1550,-1077
-Assyrien:-2025,-609
-Juda rike:-1050,-586
-Akemeniderna:-550,-330
-Mauryariket:-322,-184
-Karthago:-814,-146
-Seleukiderriket:-312,-63
-Han-dynastin:-202,220
+Akkadiska imperiet:-2300,-2200:Det akkadiska riket var det första forntida riket i Mesopotamien, som efterträdde den långlivade civilisationen Sumer.
+Babylonien:-1900,-1600:Det babyloniska riket var en gammal kulturregion som ockuperade sydöstra Mesopotamien mellan floderna Tigris och Eufrat.
+Egyptiska riket:-1550,-1077:Det egyptiska riket låg i Nordafrika och var en av de mäktigaste och mest inflytelserika civilisationerna i regionen i över 3000 år.
+Assyrien:-2025,-609:Assyrien var en stor forntida mesopotamisk civilisation.
+Juda rike:-1050,-586:Kungariket Juda var ett hebreisktalande kungarike i södra Levanten under järnåldern.
+Akemeniderna:-550,-330:Det Achaemenidiska riket även känt som det första persiska riket, beläget i dagens Iran, var det största riket som världen någonsin hade sett vid sin tid.
+Mauryariket:-322,-184:Mauryanska imperiet förenade den indiska subkontinenten för första gången som ett imperium.
+Karthago:-814,-146:Det karthagiska riket, från början beläget i nuvarande Tunisien, var en stormakt som dominerade västra och centrala Medelhavet.
+Seleukiderriket:-312,-63:Seleucidriket var en grekisk makt i Västasien under den hellenistiska perioden.
+Han-dynastin:-202,220:Handynastin var den andra kejserliga dynastin i Kina.

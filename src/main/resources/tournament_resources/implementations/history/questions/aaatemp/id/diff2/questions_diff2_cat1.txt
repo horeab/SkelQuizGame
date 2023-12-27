@@ -1,10 +1,10 @@
-Kekaisaran Akkadia:-2300,-2200
-Kekaisaran Babilonia:-1900,-1600
-Kekaisaran Mesir:-1550,-1077
-Assyria:-2025,-609
-Kerajaan Yehuda:-1050,-586
-Kekaisaran Akhemeniyah:-550,-330
-Kekaisaran Maurya:-322,-184
-Kekaisaran Kartago:-814,-146
-Kekaisaran Seleukia:-312,-63
-Dinasti Han:-202,220
+Kekaisaran Akkadia:-2300,-2200:Kekaisaran Akkadia adalah kekaisaran kuno pertama di Mesopotamia, menggantikan peradaban Sumeria yang berumur panjang.
+Kekaisaran Babilonia:-1900,-1600:Kekaisaran Babilonia adalah wilayah budaya kuno yang menempati Mesopotamia tenggara antara sungai Tigris dan Efrat.
+Kekaisaran Mesir:-1550,-1077:Kekaisaran Mesir terletak di Afrika Utara dan merupakan salah satu peradaban paling kuat dan berpengaruh di wilayah tersebut selama lebih dari 3000 tahun.
+Assyria:-2025,-609:Asyur adalah peradaban besar Mesopotamia kuno.
+Kerajaan Yehuda:-1050,-586:Kerajaan Yehuda adalah sebuah kerajaan berbahasa Ibrani di Levant Selatan pada Zaman Besi.
+Kekaisaran Akhemeniyah:-550,-330:Kekaisaran Achaemenid juga dikenal sebagai Kekaisaran Persia Pertama, yang terletak di Iran modern, adalah kekaisaran terbesar yang pernah ada di dunia pada masanya.
+Kekaisaran Maurya:-322,-184:Kekaisaran Maurya menyatukan anak benua India untuk pertama kalinya sebagai sebuah kerajaan.
+Kekaisaran Kartago:-814,-146:Kekaisaran Kartago, awalnya berlokasi di Tunisia saat ini, adalah kekuatan besar yang mendominasi Laut Mediterania bagian barat dan tengah.
+Kekaisaran Seleukia:-312,-63:Kekaisaran Seleukia adalah sebuah kekuatan Yunani di Asia Barat selama periode Helenistik.
+Dinasti Han:-202,220:Dinasti Han adalah dinasti kekaisaran kedua Tiongkok.

@@ -1,9 +1,9 @@
-Sásánovská říše:224,651
-Dynastie Tchang:618,907
-Abbasid kalifát:750,1258
-Pugamská říše:849,1297
-Mongolská říše:1206,1368
-Khmérská říše:802,1431
-Římská říše:-27,1453
-Byzantská říše:395,1453
-Incká říše:1438,1533
+Sásánovská říše:224,651:Sásánovská říše byla poslední předislámskou perskou říší.
+Dynastie Tchang:618,907:Dynastie Tang je považována za zlatý věk čínského umění a kultury.
+Abbasid kalifát:750,1258:Abbásovský chalífát s hlavním městem v Bagdádu je považován za zlatý islámský věk, který podporuje velký kulturní a vědecký růst.
+Pugamská říše:849,1297:Pohanské království bylo prvním barmským královstvím, které sjednotilo regiony, které později vytvořily současný Myanmar.
+Mongolská říše:1206,1368:Mongolská říše 13. a 14. století byla největší souvislou říší v historii.
+Khmérská říše:802,1431:Khmerská říše byla hinduisticko-buddhistická říše v jihovýchodní Asii, soustředěná kolem hydraulických měst na území dnešní severní Kambodže.
+Římská říše:-27,1453:Římská říše byla největší a nejmocnější politickou a vojenskou entitou na světě.
+Byzantská říše:395,1453:Byzantská říše, označovaná také jako Východořímská říše, byla pokračováním římské říše E s hlavním městem v Konstantinopoli.
+Incká říše:1438,1533:Říše Inků byla největší starověkou civilizací v předkolumbovské Americe.

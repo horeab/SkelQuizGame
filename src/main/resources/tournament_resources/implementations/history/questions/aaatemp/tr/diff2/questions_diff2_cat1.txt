@@ -1,10 +1,10 @@
-Akad İmparatorluğu:-2300,-2200
-Babil İmparatorluğu:-1900,-1600
-Mısır İmparatorluğu:-1550,-1077
-Asur:-2025,-609
-Yahuda Krallığı:-1050,-586
-Ahameniş İmparatorluğu:-550,-330
-Maurya İmparatorluğu:-322,-184
-Kartaca İmparatorluğu:-814,-146
-Selevkos İmparatorluğu:-312,-63
-Han Hanedanı:-202,220
+Akad İmparatorluğu:-2300,-2200:Akad İmparatorluğu, Mezopotamya&#39;nın uzun ömürlü Sümer uygarlığının ardından gelen ilk antik imparatorluğuydu.
+Babil İmparatorluğu:-1900,-1600:Babil İmparatorluğu, Dicle ve Fırat nehirleri arasında güneydoğu Mezopotamya&#39;yı işgal eden eski bir kültürel bölgeydi.
+Mısır İmparatorluğu:-1550,-1077:Mısır İmparatorluğu Kuzey Afrika&#39;da bulunuyordu ve 3000 yılı aşkın süredir bölgedeki en güçlü ve etkili medeniyetlerden biriydi.
+Asur:-2025,-609:Asur, büyük bir antik Mezopotamya uygarlığıydı.
+Yahuda Krallığı:-1050,-586:Yahuda Krallığı, Demir Çağı&#39;nda Güney Levant&#39;ta İbranice konuşulan bir krallıktı.
+Ahameniş İmparatorluğu:-550,-330:Günümüz İran&#39;ında bulunan ve Birinci Pers İmparatorluğu olarak da bilinen Ahameniş İmparatorluğu, o dönemde dünyanın gördüğü en büyük imparatorluktu.
+Maurya İmparatorluğu:-322,-184:Mauryan İmparatorluğu, Hindistan yarımadasını ilk kez bir imparatorluk olarak birleştirdi.
+Kartaca İmparatorluğu:-814,-146:Başlangıçta günümüz Tunus&#39;unda yer alan Kartaca İmparatorluğu, batı ve orta Akdeniz&#39;e hakim olan büyük bir güçtü.
+Selevkos İmparatorluğu:-312,-63:Seleukos İmparatorluğu, Helenistik dönemde Batı Asya&#39;da bir Yunan gücüydü.
+Han Hanedanı:-202,220:Han Hanedanlığı, Çin&#39;in ikinci imparatorluk hanedanıydı.

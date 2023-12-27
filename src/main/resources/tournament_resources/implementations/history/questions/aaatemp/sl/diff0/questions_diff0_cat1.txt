@@ -1,15 +1,15 @@
-Mogulsko cesarstvo:1526,1758
-Dinastija Qing:1644,1912
-Rusko cesarstvo:1721,1917
-Avstro-Ogrska:1867,1918
-Nemško cesarstvo:1871,1918
-otomanski imperij:1299,1922
-Japonsko cesarstvo:1868,1947
-Špansko cesarstvo:1402,1975
-francoski imperij:1534,1980
-Sovjetska zveza:1922,1991
-Britanski imperij:1603,1997
-portugalsko cesarstvo:1415,1999
-Združene države:1776,x
-Ljudska republika Kitajska:1949,x
-Evropska unija:1993,x
+Mogulsko cesarstvo:1526,1758:Moguli so bili muslimanska dinastija, ki je vladala večinskemu hindujskemu prebivalstvu. Do leta 1750 so več stoletij prevladovali v večjem delu Južne Azije.
+Dinastija Qing:1644,1912:Dinastija Qing je bila mandžurska cesarska dinastija Kitajske in zadnja cesarska dinastija v kitajski zgodovini.
+Rusko cesarstvo:1721,1917:Ruski imperij je bil velik imperij, ki se je na vrhuncu raztezal od Poljske do Tihega oceana.
+Avstro-Ogrska:1867,1918:Avstro-Ogrska je bila vojaška in diplomatska zveza dveh suverenih držav z enim samim monarhom, ki se je imenoval tako avstrijski cesar kot ogrski kralj.
+Nemško cesarstvo:1871,1918:Nemško cesarstvo je v 47 letih obstoja postalo industrijski, tehnološki in znanstveni velikan Evrope, do leta 1913 pa je bila Nemčija največje gospodarstvo v celinski Evropi in tretje največje na svetu.
+otomanski imperij:1299,1922:Otomansko cesarstvo, imperij, ki so ga ustvarila turška plemena v Anatoliji in je v 15. in 16. stoletju postal ena najmočnejših držav na svetu.
+Japonsko cesarstvo:1868,1947:Japonsko cesarstvo je bila nacionalna država in velika sila, ki je obstajala od obnove Meiji leta 1868 do konca druge svetovne vojne.
+Špansko cesarstvo:1402,1975:Špansko cesarstvo je bilo kolonialno cesarstvo, ki ga je upravljala Španija. Skupaj s portugalskim cesarstvom je bilo prvo cesarstvo, ki je začelo evropsko dobo odkritij.
+francoski imperij:1534,1980:Francosko cesarstvo so sestavljale kolonije in protektorati, ki so od 16. stoletja dalje prišli pod francosko oblast.
+Sovjetska zveza:1922,1991:Sovjetska zveza je bila transkontinentalna država, ki je obsegala večji del Evrazije in je bila sestavljena iz 15 republik.
+Britanski imperij:1603,1997:Na svojem vrhuncu v 19. in zgodnjem 20. stoletju je bil največji imperij v zgodovini in celo stoletje najpomembnejša svetovna sila.
+portugalsko cesarstvo:1415,1999:Portugalsko cesarstvo je bilo eno najdlje živečih kolonialnih imperijev v evropski zgodovini, saj je trajalo skoraj šest stoletij.
+Združene države:1776,x:Združene države Amerike so četrta največja država na svetu po površini in imajo tretje največje prebivalstvo na svetu.
+Ljudska republika Kitajska:1949,x:Ljudska republika Kitajska je država v vzhodni Aziji in je druga najbolj naseljena država na svetu. Razteza se v petih časovnih pasovih in po kopnem meji na štirinajst držav.
+Evropska unija:1993,x:Evropska unija je nadnacionalna politična in gospodarska zveza držav članic, ki se nahajajo pretežno v Evropi.

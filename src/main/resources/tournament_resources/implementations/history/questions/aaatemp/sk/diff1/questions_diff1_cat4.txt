@@ -1,5 +1,5 @@
-:Krištof Kolumbus::
-:Karol Veľký::
-:Leonardo da Vinci::
-:Džingischán::
-:Galileo Galilei::
+:Krištof Kolumbus:::Krištof Kolumbus bol taliansky prieskumník, ktorý viedol štyri španielske transatlantické námorné expedície, ktoré otvorili cestu rozsiahlej európskej kolonizácii Ameriky.
+:Karol Veľký:::Karol Veľký zjednotil počas stredoveku väčšinu západnej Európy a položil základy moderného Francúzska a Nemecka.
+:Leonardo da Vinci:::Leonardo da Vinci bol renesančný maliar, sochár, architekt, vynálezca a vojenský inžinier.
+:Džingischán:::Džingischán bol zakladateľom a prvým chánom Mongolskej ríše.
+:Galileo Galilei:::Galileo Galilei je považovaný za otca modernej vedy a významne prispel k oblasti fyziky a astronómie.

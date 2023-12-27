@@ -1,10 +1,10 @@
-Akkadin valtakunta:-2300,-2200
-Babylonia:-1900,-1600
-Muinainen Egypti:-1550,-1077
-Assyria:-2025,-609
-Juudan kuningaskunta:-1050,-586
-Achaemenid-valtakunta:-550,-330
-Maurya-valtakunta:-322,-184
-Karthagonin imperiumi:-814,-146
-Seleucid-imperiumi:-312,-63
-Han-dynastia:-202,220
+Akkadin valtakunta:-2300,-2200:Akkadin valtakunta oli Mesopotamian ensimmäinen muinainen valtakunta, joka seurasi Sumerin pitkäikäistä sivilisaatiota.
+Babylonia:-1900,-1600:Babylonian valtakunta oli muinainen kulttuurialue, joka miehitti Kaakkois-Mesopotamian Tigris- ja Eufrat-jokien välissä.
+Muinainen Egypti:-1550,-1077:Egyptin valtakunta sijaitsi Pohjois-Afrikassa ja oli yksi alueen tehokkaimmista ja vaikutusvaltaisimmista sivilisaatioista yli 3000 vuoden ajan.
+Assyria:-2025,-609:Assyria oli merkittävä muinainen Mesopotamian sivilisaatio.
+Juudan kuningaskunta:-1050,-586:Juudan kuningaskunta oli hepreankielinen Etelä-Levantin valtakunta rautakaudella.
+Achaemenid-valtakunta:-550,-330:Akhemenidi-imperiumi, joka tunnetaan myös nimellä Ensimmäinen Persian valtakunta, joka sijaitsee nykyajan Iranissa, oli suurin valtakunta, jonka maailma oli koskaan nähnyt tuolloin.
+Maurya-valtakunta:-322,-184:Mauryanin valtakunta yhdisti Intian niemimaan ensimmäistä kertaa imperiumiksi.
+Karthagonin imperiumi:-814,-146:Karthaginan valtakunta, joka sijaitsi alun perin nykyisessä Tunisiassa, oli suurvalta, joka hallitsi läntistä ja keskiosaa Välimerta.
+Seleucid-imperiumi:-312,-63:Seleukidi-imperiumi oli kreikkalainen valta Länsi-Aasiassa hellenistisen kauden aikana.
+Han-dynastia:-202,220:Han-dynastia oli Kiinan toinen keisarillinen dynastia.

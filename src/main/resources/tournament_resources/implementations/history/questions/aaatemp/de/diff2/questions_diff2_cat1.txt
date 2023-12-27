@@ -1,10 +1,10 @@
-Reich von Akkad:-2300,-2200
-Babylonisches Reich:-1900,-1600
-Ägyptisches Reich:-1550,-1077
-Assyrien:-2025,-609
-Königreich Juda:-1050,-586
-Achämenidenreich:-550,-330
-Maurya Reich:-322,-184
-Karthagisches Reich:-814,-146
-Seleukidenreich:-312,-63
-Han-Dynastie:-202,220
+Reich von Akkad:-2300,-2200:Das Akkadische Reich war das erste antike Reich Mesopotamiens und folgte der langlebigen Zivilisation Sumers.
+Babylonisches Reich:-1900,-1600:Das Babylonische Reich war eine alte Kulturregion, die das südöstliche Mesopotamien zwischen den Flüssen Tigris und Euphrat einnahm.
+Ägyptisches Reich:-1550,-1077:Das Ägyptische Reich befand sich in Nordafrika und war über 3000 Jahre lang eine der mächtigsten und einflussreichsten Zivilisationen in der Region.
+Assyrien:-2025,-609:Assyrien war eine bedeutende antike mesopotamische Zivilisation.
+Königreich Juda:-1050,-586:Das Königreich Juda war während der Eisenzeit ein hebräischsprachiges Königreich der südlichen Levante.
+Achämenidenreich:-550,-330:Das Achämenidenreich, auch bekannt als das Erste Persische Reich, liegt im heutigen Iran und war zu seiner Zeit das größte Reich, das die Welt je gesehen hatte.
+Maurya Reich:-322,-184:Das Maurya-Reich vereinte den indischen Subkontinent erstmals als Imperium.
+Karthagisches Reich:-814,-146:Das karthagische Reich, ursprünglich im heutigen Tunesien beheimatet, war eine Großmacht, die das westliche und zentrale Mittelmeer beherrschte.
+Seleukidenreich:-312,-63:Das Seleukidenreich war während der hellenistischen Zeit eine griechische Macht in Westasien.
+Han-Dynastie:-202,220:Die Han-Dynastie war die zweite Kaiserdynastie Chinas.

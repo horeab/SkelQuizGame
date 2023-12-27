@@ -1,5 +1,5 @@
-:Christopher Columbus::
-:Charlemagne::
-:Leonardo da Vinci::
-:Genghis Khan::
-:Galileo Galilei::
+:Christopher Columbus:::Christopher Columbus ialah seorang penjelajah Itali yang mengetuai empat ekspedisi maritim transatlantik Sepanyol yang membuka jalan bagi penjajahan Eropah yang meluas di benua Amerika.
+:Charlemagne:::Charlemagne menyatukan sebahagian besar Eropah Barat semasa Zaman Pertengahan dan meletakkan asas bagi Perancis dan Jerman moden.
+:Leonardo da Vinci:::Leonardo da Vinci ialah seorang pelukis Renaissance, pengukir, arkitek, pencipta dan jurutera tentera.
+:Genghis Khan:::Genghis Khan adalah pengasas dan khan pertama Empayar Mongol.
+:Galileo Galilei:::Galileo Galilei dianggap sebagai bapa sains moden dan memberikan sumbangan besar kepada bidang fizik dan astronomi.

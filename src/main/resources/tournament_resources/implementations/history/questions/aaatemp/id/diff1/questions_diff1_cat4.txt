@@ -1,5 +1,5 @@
-:Christopher Columbus::
-:Charlemagne::
-:Leonardo da Vinci::
-:Genghis Khan::
-:Galileo Galilei::
+:Christopher Columbus:::Christopher Columbus adalah seorang penjelajah Italia yang memimpin empat ekspedisi maritim transatlantik Spanyol yang membuka jalan bagi perluasan kolonisasi Eropa di Amerika.
+:Charlemagne:::Charlemagne menyatukan sebagian besar Eropa Barat selama Abad Pertengahan dan meletakkan dasar bagi Perancis dan Jerman modern.
+:Leonardo da Vinci:::Leonardo da Vinci adalah seorang pelukis, pematung, arsitek, penemu dan insinyur militer Renaisans.
+:Genghis Khan:::Jenghis Khan adalah pendiri dan khan pertama Kekaisaran Mongol.
+:Galileo Galilei:::Galileo Galilei dianggap sebagai bapak ilmu pengetahuan modern dan memberikan kontribusi besar dalam bidang fisika dan astronomi.

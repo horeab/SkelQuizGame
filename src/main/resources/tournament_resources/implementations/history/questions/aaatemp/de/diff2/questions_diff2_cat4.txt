@@ -1,4 +1,4 @@
-:Alexander der Große::
-:Julius Caesar::
-:Aristoteles::
-:Konfuzius::
+:Alexander der Große:::Alexander der Große, der König von Mazedonien und Eroberer des Persischen Reiches, gilt als eines der größten Militärgenies aller Zeiten.
+:Julius Caesar:::Julius Cäsar spielte eine wichtige Rolle bei den Ereignissen, die zum Untergang der Römischen Republik und zum Aufstieg des Römischen Reiches führten.
+:Aristoteles:::Aristoteles war ein antiker griechischer Philosoph und Universalgelehrter.
+:Konfuzius:::Konfuzius war ein chinesischer Philosoph, dessen Lehren bis heute in ganz China und Ostasien einflussreich sind.

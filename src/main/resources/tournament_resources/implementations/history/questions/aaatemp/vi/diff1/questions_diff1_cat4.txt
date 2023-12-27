@@ -1,5 +1,5 @@
-:Christopher Columbus::
-:Charlemagne::
-:Leonardo da Vinci::
-:Thành Cát Tư Hãn::
-:Galileo Galilei::
+:Christopher Columbus:::Christopher Columbus là một nhà thám hiểm người Ý, người đã dẫn đầu bốn cuộc thám hiểm hàng hải xuyên Đại Tây Dương của Tây Ban Nha, mở đường cho sự xâm chiếm rộng rãi của người châu Âu ở châu Mỹ.
+:Charlemagne:::Charlemagne đã thống nhất hầu hết Tây Âu trong thời Trung cổ và đặt nền móng cho nước Pháp và nước Đức hiện đại.
+:Leonardo da Vinci:::Leonardo da Vinci là một họa sĩ, nhà điêu khắc, kiến ​​trúc sư, nhà phát minh và kỹ sư quân sự thời Phục hưng.
+:Thành Cát Tư Hãn:::Thành Cát Tư Hãn là người sáng lập và là khan đầu tiên của Đế quốc Mông Cổ.
+:Galileo Galilei:::Galileo Galilei được coi là cha đẻ của khoa học hiện đại và có những đóng góp to lớn cho lĩnh vực vật lý và thiên văn học.

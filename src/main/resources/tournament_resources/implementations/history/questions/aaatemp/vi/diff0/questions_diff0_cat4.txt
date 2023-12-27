@@ -1,6 +1,6 @@
-:Napoléon Bonaparte::
-:William Shakespeare::
-:Abraham Lincoln::
-:George Washington::
-:Charles Darwin::
-:Isaac Newton::
+:Napoléon Bonaparte:::Napoléon Bonaparte là một hoàng đế và chỉ huy quân sự người Pháp nổi lên trong Cách mạng Pháp.
+:William Shakespeare:::William Shakespeare là một nhà viết kịch, nhà thơ và diễn viên người Anh. Ông được coi là nhà văn vĩ đại nhất bằng tiếng Anh.
+:Abraham Lincoln:::Abraham Lincoln là một luật sư và chính trị gia người Mỹ, từng là tổng thống thứ 16 của Hoa Kỳ.
+:George Washington:::George Washington là một sĩ quan quân đội người Mỹ, từng là tổng thống đầu tiên của Hoa Kỳ.
+:Charles Darwin:::Charles Darwin là một nhà tự nhiên học, nhà địa chất và nhà sinh vật học người Anh, được biết đến rộng rãi nhờ những đóng góp cho sinh học tiến hóa.
+:Isaac Newton:::Isaac Newton là nhà vật lý và toán học, người đã phát triển các nguyên lý của vật lý hiện đại.

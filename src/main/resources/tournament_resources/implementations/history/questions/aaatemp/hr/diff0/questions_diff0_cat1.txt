@@ -1,15 +1,15 @@
-Mogulsko Carstvo:1526,1758
-Dinastija Qing:1644,1912
-Rusko Carstvo:1721,1917
-Austro-Ugarska:1867,1918
-Njemačko Carstvo:1871,1918
-Osmansko Carstvo:1299,1922
-Japansko Carstvo:1868,1947
-Španjolsko Carstvo:1402,1975
-Francusko Carstvo:1534,1980
-Sovjetski Savez:1922,1991
-Britansko Carstvo:1603,1997
-Portugalsko Carstvo:1415,1999
-Sjedinjene Države:1776,x
-Narodna Republika Kina:1949,x
-Europska unija:1993,x
+Mogulsko Carstvo:1526,1758:Moguli su bili muslimanska dinastija koja je vladala većinskim hinduističkim stanovništvom. Do 1750. dominirali su velikim dijelom Južne Azije nekoliko stoljeća.
+Dinastija Qing:1644,1912:Dinastija Qing bila je mandžurska carska dinastija Kine i posljednja carska dinastija u kineskoj povijesti.
+Rusko Carstvo:1721,1917:Rusko carstvo bilo je veliko carstvo koje se na svom vrhuncu protezalo od Poljske do Tihog oceana.
+Austro-Ugarska:1867,1918:Austro-Ugarska je bila vojni i diplomatski savez dviju suverenih država s jednim monarhom koji je bio tituliran i carem Austrije i kraljem Mađarske.
+Njemačko Carstvo:1871,1918:Tijekom svojih 47 godina postojanja Njemačko Carstvo postalo je industrijski, tehnološki i znanstveni div Europe, a do 1913. Njemačka je bila najveće gospodarstvo u kontinentalnoj Europi i treće u svijetu.
+Osmansko Carstvo:1299,1922:Otomansko Carstvo, carstvo koje su stvorila turska plemena u Anatoliji koje je izraslo u jednu od najmoćnijih država na svijetu tijekom 15. i 16. stoljeća.
+Japansko Carstvo:1868,1947:Japansko Carstvo bilo je nacionalna država i velika sila koja je postojala od Meiji restauracije 1868. do kraja Drugog svjetskog rata.
+Španjolsko Carstvo:1402,1975:Španjolsko Carstvo bilo je kolonijalno carstvo kojim je upravljala Španjolska. Zajedno s Portugalskim carstvom, to je bilo prvo carstvo koje je uvelo europsko doba otkrića.
+Francusko Carstvo:1534,1980:Francusko carstvo sastojalo se od kolonija i protektorata koji su bili pod francuskom vlašću od 16. stoljeća nadalje.
+Sovjetski Savez:1922,1991:Sovjetski Savez je bio transkontinentalna država koja se protezala većim dijelom Euroazije i sastojala se od 15 republika.
+Britansko Carstvo:1603,1997:Na svom vrhuncu u 19. i ranom 20. stoljeću bilo je najveće carstvo u povijesti i jedno stoljeće najvažnija globalna sila.
+Portugalsko Carstvo:1415,1999:Portugalsko Carstvo bilo je jedno od najdugovječnijih kolonijalnih carstava u europskoj povijesti, trajalo je gotovo šest stoljeća.
+Sjedinjene Države:1776,x:Sjedinjene Američke Države četvrta su najveća zemlja na svijetu po površini i imaju treću najveću populaciju na svijetu.
+Narodna Republika Kina:1949,x:Narodna Republika Kina je država u istočnoj Aziji i druga je zemlja svijeta po broju stanovnika. Prostire se u pet vremenskih zona i kopnom graniči s četrnaest zemalja.
+Europska unija:1993,x:Europska unija je nadnacionalna politička i ekonomska unija država članica koje se nalaze uglavnom u Europi.

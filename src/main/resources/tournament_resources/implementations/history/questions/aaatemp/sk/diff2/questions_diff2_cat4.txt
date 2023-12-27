@@ -1,4 +1,4 @@
-:Alexander Veľký::
-:Július Caesar::
-:Aristoteles::
-:Konfucius::
+:Alexander Veľký:::Alexander Veľký, kráľ Macedónska a dobyvateľ Perzskej ríše je považovaný za jedného z najväčších vojenských géniov všetkých čias.
+:Július Caesar:::Július Caesar mal dôležitú úlohu v udalostiach, ktoré viedli k zániku Rímskej republiky a vzniku Rímskej ríše.
+:Aristoteles:::Aristoteles bol staroveký grécky filozof a polyhistor.
+:Konfucius:::Konfucius bol čínsky filozof, ktorého učenie má dodnes veľký vplyv na Čínu a východnú Áziu.

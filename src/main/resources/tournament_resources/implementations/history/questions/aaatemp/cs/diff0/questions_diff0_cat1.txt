@@ -1,15 +1,15 @@
-Mughalská říše:1526,1758
-Dynastie Čching:1644,1912
-Ruská říše:1721,1917
-Rakousko-uherské císařství:1867,1918
-Německá říše:1871,1918
-Osmanská říše:1299,1922
-Japonské císařství:1868,1947
-Španělská říše:1402,1975
-Francouzská říše:1534,1980
-Sovětský svaz:1922,1991
-Britské impérium:1603,1997
-Portugalská říše:1415,1999
-Spojené státy:1776,x
-Čínská lidová republika:1949,x
-Evropská unie:1993,x
+Mughalská říše:1526,1758:Mughalové byli muslimskou dynastií, která vládla většinové hinduistické populaci. V roce 1750 ovládali velkou část jižní Asie po několik století.
+Dynastie Čching:1644,1912:Dynastie Qing byla mandžuská císařská dynastie Číny a poslední císařská dynastie v čínské historii.
+Ruská říše:1721,1917:Ruské impérium bylo velkou říší, která se na svém vrcholu rozkládala od Polska až po Tichý oceán.
+Rakousko-uherské císařství:1867,1918:Rakousko-Uhersko byla vojenská a diplomatická aliance dvou suverénních států s jediným panovníkem, který se jmenoval jak rakouský císař, tak uherský král.
+Německá říše:1871,1918:Německá říše se za 47 let své existence stala průmyslovým, technologickým a vědeckým gigantem Evropy a v roce 1913 bylo Německo největší ekonomikou v kontinentální Evropě a třetí největší na světě.
+Osmanská říše:1299,1922:Osmanská říše, říše vytvořená tureckými kmeny v Anatolii, která se během 15. a 16. století stala jedním z nejmocnějších států světa.
+Japonské císařství:1868,1947:Japonská říše byla národním státem a velmocí, která existovala od restaurování Meidži v roce 1868 až do konce druhé světové války.
+Španělská říše:1402,1975:Španělská říše byla koloniální říší řízenou Španělskem. Spolu s portugalskou říší to byla první říše, která zahájila evropský věk objevů.
+Francouzská říše:1534,1980:Francouzská říše se skládala z kolonií a protektorátů, které se dostaly pod francouzskou nadvládu od 16. století.
+Sovětský svaz:1922,1991:Sovětský svaz byl transkontinentální zemí, která pokrývala velkou část Eurasie a tvořilo jej 15 republik.
+Britské impérium:1603,1997:V době svého největšího rozkvětu v 19. a na počátku 20. století byla největší říší v historii a po celé století byla nejvýznamnější globální mocností.
+Portugalská říše:1415,1999:Portugalská říše byla jednou z nejdéle žijících koloniálních říší v evropské historii, která trvala téměř šest století.
+Spojené státy:1776,x:Spojené státy americké jsou čtvrtou největší zemí světa podle rozlohy a mají třetí největší světovou populaci.
+Čínská lidová republika:1949,x:Čínská lidová republika je země ve východní Asii a je druhou nejlidnatější zemí světa. Pokrývá ekvivalent pěti časových pásem a hraničí po zemi se čtrnácti zeměmi.
+Evropská unie:1993,x:Evropská unie je nadnárodní politický a ekonomický svazek členských států, které se nacházejí převážně v Evropě.

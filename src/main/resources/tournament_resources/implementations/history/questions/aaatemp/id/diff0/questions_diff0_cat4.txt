@@ -1,6 +1,6 @@
-:Napoleon Bonaparte::
-:William Shakespeare::
-:Abraham Lincoln::
-:George Washington::
-:Charles Darwin::
-:Isaac Newton::
+:Napoleon Bonaparte:::Napoleon Bonaparte adalah seorang kaisar dan komandan militer Perancis yang menjadi terkenal selama Revolusi Perancis.
+:William Shakespeare:::William Shakespeare adalah seorang penulis drama, penyair, dan aktor Inggris. Dia secara luas dianggap sebagai penulis terhebat dalam bahasa Inggris.
+:Abraham Lincoln:::Abraham Lincoln adalah seorang pengacara dan politisi Amerika yang menjabat sebagai presiden Amerika Serikat ke-16.
+:George Washington:::George Washington adalah seorang perwira militer Amerika yang menjabat sebagai presiden pertama Amerika Serikat.
+:Charles Darwin:::Charles Darwin adalah seorang naturalis, ahli geologi, dan biologi asal Inggris, yang dikenal luas atas kontribusinya terhadap biologi evolusi.
+:Isaac Newton:::Isaac Newton adalah seorang fisikawan dan matematikawan yang mengembangkan prinsip-prinsip fisika modern.

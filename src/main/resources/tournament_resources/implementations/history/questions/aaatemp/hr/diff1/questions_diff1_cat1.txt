@@ -1,9 +1,9 @@
-Sasanidsko Carstvo:224,651
-Dinastija Tang:618,907
-Abasidski Kalifat:750,1258
-Pagan Kraljevstvo:849,1297
-Mongolsko Carstvo:1206,1368
-Kmersko Carstvo:802,1431
-Rimsko Carstvo:-27,1453
-Bizantsko Carstvo:395,1453
-Carstvo Inka:1438,1533
+Sasanidsko Carstvo:224,651:Sasanidsko carstvo bilo je posljednje predislamsko perzijsko carstvo.
+Dinastija Tang:618,907:Dinastija Tang smatra se zlatnim dobom kineske umjetnosti i kulture.
+Abasidski Kalifat:750,1258:Abasidski kalifat, s glavnim gradom u Bagdadu, smatra se islamskim zlatnim dobom koje je potaknulo veliki kulturni i znanstveni razvoj.
+Pagan Kraljevstvo:849,1297:Pagansko kraljevstvo bilo je prvo burmansko kraljevstvo koje je ujedinilo regije koje će kasnije činiti moderni Mianmar.
+Mongolsko Carstvo:1206,1368:Mongolsko carstvo 13. i 14. stoljeća bilo je najveće susjedno carstvo u povijesti.
+Kmersko Carstvo:802,1431:Kmersko carstvo bilo je hinduističko-budističko carstvo u jugoistočnoj Aziji, usredotočeno oko hidroelektranskih gradova u današnjoj sjevernoj Kambodži.
+Rimsko Carstvo:-27,1453:Rimsko Carstvo bilo je najveći i najmoćniji politički i vojni entitet na svijetu.
+Bizantsko Carstvo:395,1453:Bizantsko Carstvo, koje se također naziva Istočnim Rimskim Carstvom, bilo je nastavak Rimskog E Carstva s glavnim gradom u Konstantinopolu.
+Carstvo Inka:1438,1533:Carstvo Inka bilo je najveća drevna civilizacija u pretkolumbovskoj Americi.

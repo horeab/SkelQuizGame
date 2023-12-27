@@ -1,9 +1,9 @@
-Sassanidenreich:224,651
-Tang-Dynastie:618,907
-Abbasidisches Kalifat:750,1258
-Königreich Bagan:849,1297
-Mongolisches Reich:1206,1368
-Khmer-Reich:802,1431
-Römisches Reich:-27,1453
-Byzantinisches Reich:395,1453
-Inka-Reich:1438,1533
+Sassanidenreich:224,651:Das Sasanidenreich war das letzte vorislamische persische Reich.
+Tang-Dynastie:618,907:Die Tang-Dynastie gilt als goldenes Zeitalter der chinesischen Kunst und Kultur.
+Abbasidisches Kalifat:750,1258:Das Abbasiden-Kalifat mit der Hauptstadt Bagdad gilt als das Goldene Zeitalter des Islam und förderte großes kulturelles und wissenschaftliches Wachstum.
+Königreich Bagan:849,1297:Das Pagan Kingdom war das erste burmesische Königreich, das die Regionen vereinte, die später das heutige Myanmar bilden sollten.
+Mongolisches Reich:1206,1368:Das Mongolenreich des 13. und 14. Jahrhunderts war das größte zusammenhängende Reich der Geschichte.
+Khmer-Reich:802,1431:Das Khmer-Reich war ein hindu-buddhistisches Reich in Südostasien, das sich um hydraulische Städte im heutigen Norden Kambodschas drehte.
+Römisches Reich:-27,1453:Das Römische Reich war die größte und mächtigste politische und militärische Einheit der Welt.
+Byzantinisches Reich:395,1453:Das Byzantinische Reich, auch Oströmisches Reich genannt, war die Fortsetzung des Römischen Reiches mit der Hauptstadt Konstantinopel.
+Inka-Reich:1438,1533:Das Inkareich war die größte antike Zivilisation im präkolumbianischen Amerika.

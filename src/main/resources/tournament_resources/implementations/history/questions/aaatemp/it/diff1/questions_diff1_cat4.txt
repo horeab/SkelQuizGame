@@ -1,5 +1,5 @@
-:Cristoforo Colombo::
-:Carlo Magno::
-:Leonardo Da Vinci::
-:Gengis Khan::
-:Galileo Galilei::
+:Cristoforo Colombo:::Cristoforo Colombo era un esploratore italiano che guidò quattro spedizioni marittime transatlantiche spagnole aprendo la strada alla diffusa colonizzazione europea delle Americhe.
+:Carlo Magno:::Carlo Magno unì gran parte dell&#39;Europa occidentale durante il Medioevo e gettò le basi per la Francia e la Germania moderne.
+:Leonardo Da Vinci:::Leonardo da Vinci è stato un pittore, scultore, architetto, inventore e ingegnere militare del Rinascimento.
+:Gengis Khan:::Gengis Khan fu il fondatore e primo khan dell&#39;Impero Mongolo.
+:Galileo Galilei:::Galileo Galilei è considerato il padre della scienza moderna e ha dato importanti contributi ai campi della fisica e dell&#39;astronomia.

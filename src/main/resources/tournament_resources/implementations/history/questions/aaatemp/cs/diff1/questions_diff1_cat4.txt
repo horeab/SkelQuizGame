@@ -1,5 +1,5 @@
-:Kryštof Kolumbus::
-:Karel Veliký::
-:Leonardo da Vinci::
-:Čingischán::
-:Galileo Galilei::
+:Kryštof Kolumbus:::Christopher Columbus byl italský průzkumník, který vedl čtyři španělské transatlantické námořní expedice, které otevřely cestu k rozsáhlé evropské kolonizaci Ameriky.
+:Karel Veliký:::Karel Veliký během středověku sjednotil většinu západní Evropy a položil základy moderní Francii a Německu.
+:Leonardo da Vinci:::Leonardo da Vinci byl renesanční malíř, sochař, architekt, vynálezce a vojenský inženýr.
+:Čingischán:::Čingischán byl zakladatelem a prvním chánem Mongolské říše.
+:Galileo Galilei:::Galileo Galilei je považován za otce moderní vědy a významně přispěl do oblasti fyziky a astronomie.

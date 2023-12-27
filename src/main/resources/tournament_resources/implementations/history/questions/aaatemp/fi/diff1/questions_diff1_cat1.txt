@@ -1,9 +1,9 @@
-Sassanidit:224,651
-Tang-dynastia:618,907
-Abbasidikalifaatti:750,1258
-Pakanallinen valtakunta:849,1297
-Mongolien valtakunta:1206,1368
-Khmerien valtakunta:802,1431
-Rooman valtakunta:-27,1453
-Bysantin valtakunta:395,1453
-Inkavaltakunta:1438,1533
+Sassanidit:224,651:Sasanian valtakunta oli viimeinen esi-islamilainen Persian valtakunta.
+Tang-dynastia:618,907:Tang-dynastiaa pidetään kiinalaisen taiteen ja kulttuurin kulta-ajana.
+Abbasidikalifaatti:750,1258:Abbasidien kalifaattia, jonka pääkaupunki on Bagdad, pidetään islamilaisena kultakautena, joka edistää suurta kulttuurista ja tieteellistä kasvua.
+Pakanallinen valtakunta:849,1297:Pagan Kingdom oli ensimmäinen Burman valtakunta, joka yhdisti alueet, joista myöhemmin muodostui nykyaikainen Myanmar.
+Mongolien valtakunta:1206,1368:Mongolien valtakunta 1200- ja 1300-luvuilla oli historian suurin yhtenäinen valtakunta.
+Khmerien valtakunta:802,1431:Khmerien valtakunta oli hindu-buddhalainen valtakunta Kaakkois-Aasiassa, joka keskittyi hydraulisten kaupunkien ympärille nykyisessä Kambodžan pohjoisosassa.
+Rooman valtakunta:-27,1453:Rooman valtakunta oli maailman suurin ja voimakkain poliittinen ja sotilaallinen kokonaisuus.
+Bysantin valtakunta:395,1453:Bysantin valtakunta, jota kutsutaan myös Itä-Rooman valtakunnaksi, oli Rooman valtakunnan jatkoa pääkaupungilla, joka sijoittui Konstantinopoliin.
+Inkavaltakunta:1438,1533:Inka-imperiumi oli suurin muinainen sivilisaatio esikolumbiaanisessa Amerikassa.

@@ -1,5 +1,5 @@
-:Christopher Columbus::
-:Karl den Store::
-:Leonardo da Vinci::
-:Genghis khan::
-:Galileo Galilei::
+:Christopher Columbus:::Christopher Columbus var en italiensk oppdagelsesreisende som ledet fire spanske transatlantiske maritime ekspedisjoner som åpnet veien for den utbredte europeiske koloniseringen av Amerika.
+:Karl den Store:::Karl den Store forente det meste av Vest-Europa i middelalderen og la grunnlaget for det moderne Frankrike og Tyskland.
+:Leonardo da Vinci:::Leonardo da Vinci var en renessansemaler, skulptør, arkitekt, oppfinner og militæringeniør.
+:Genghis khan:::Djengis Khan var grunnleggeren og den første khanen til det mongolske riket.
+:Galileo Galilei:::Galileo Galilei regnes som faren til moderne vitenskap og ga store bidrag til feltene fysikk og astronomi.

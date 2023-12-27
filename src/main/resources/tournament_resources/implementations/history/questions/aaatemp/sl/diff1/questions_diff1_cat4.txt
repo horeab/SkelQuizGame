@@ -1,5 +1,5 @@
-:Krištof Kolumb:::
-:Karel Veliki:::
-:Leonardo da Vinci:::
-:Džingiskan:::
-:Galileo Galilei:::
+:Krištof Kolumb:::Krištof Kolumb je bil italijanski raziskovalec, ki je vodil štiri španske čezatlantske pomorske odprave, ki so odprle pot obsežni evropski kolonizaciji Amerik.
+:Karel Veliki:::Karel Veliki je v srednjem veku združil večino zahodne Evrope in postavil temelje sodobni Franciji in Nemčiji.
+:Leonardo da Vinci:::Leonardo da Vinci je bil renesančni slikar, kipar, arhitekt, izumitelj in vojaški inženir.
+:Džingiskan:::Džingiskan je bil ustanovitelj in prvi kan mongolskega imperija.
+:Galileo Galilei:::Galileo Galilei velja za očeta sodobne znanosti in je veliko prispeval na področju fizike in astronomije.

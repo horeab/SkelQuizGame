@@ -1,15 +1,15 @@
-Babür İmparatorluğu:1526,1758
-Qing Hanedanı:1644,1912
-Rusya İmparatorluğu:1721,1917
-Avusturya-Macaristan İmparatorluğu:1867,1918
-Alman İmparatorluğu:1871,1918
-Osmanlı İmparatorluğu:1299,1922
-Japonya İmparatorluğu:1868,1947
-İspanyol İmparatorluğu:1402,1975
-Fransız imparatorluğu:1534,1980
-Sovyetler Birliği:1922,1991
-İngiliz İmparatorluğu:1603,1997
-Portekiz İmparatorluğu:1415,1999
-Amerika Birleşik Devletleri:1776,x
-Çin Halk Cumhuriyeti:1949,x
-Avrupa Birliği:1993,x
+Babür İmparatorluğu:1526,1758:Babürler, Hindu nüfusunun çoğunluğunu yöneten Müslüman bir hanedandı. 1750&#39;ye gelindiğinde birkaç yüzyıl boyunca Güney Asya&#39;nın büyük bir kısmına hakim olmuşlardı.
+Qing Hanedanı:1644,1912:Qing hanedanı, Çin&#39;in Mançurya imparatorluk hanedanı ve Çin tarihindeki son imparatorluk hanedanıydı.
+Rusya İmparatorluğu:1721,1917:Rus İmparatorluğu, zirve noktasında Polonya&#39;dan Pasifik Okyanusu&#39;na kadar uzanan büyük bir imparatorluktu.
+Avusturya-Macaristan İmparatorluğu:1867,1918:Avusturya-Macaristan, iki egemen devletin hem Avusturya imparatoru hem de Macaristan Kralı unvanına sahip tek bir hükümdarla oluşturduğu askeri ve diplomatik bir ittifaktı.
+Alman İmparatorluğu:1871,1918:47 yıllık varlığı boyunca Alman İmparatorluğu Avrupa&#39;nın endüstriyel, teknolojik ve bilimsel devi haline geldi ve 1913&#39;e gelindiğinde Almanya kıta Avrupa&#39;sının en büyük ekonomisi ve dünyanın üçüncü büyük ekonomisiydi.
+Osmanlı İmparatorluğu:1299,1922:Osmanlı İmparatorluğu, Anadolu&#39;daki Türk boylarının kurduğu imparatorluk, 15. ve 16. yüzyıllarda dünyanın en güçlü devletlerinden biri haline geldi.
+Japonya İmparatorluğu:1868,1947:Japonya İmparatorluğu, 1868&#39;deki Meiji Restorasyonu&#39;ndan İkinci Dünya Savaşı&#39;nın sonuna kadar var olan bir ulus devlet ve büyük güçtü.
+İspanyol İmparatorluğu:1402,1975:İspanyol İmparatorluğu, İspanya tarafından yönetilen bir sömürge imparatorluğuydu. Portekiz İmparatorluğu ile birlikte Avrupa Keşif Çağı&#39;nı başlatan ilk imparatorluktu.
+Fransız imparatorluğu:1534,1980:Fransız imparatorluğu, 16. yüzyıldan itibaren Fransız egemenliği altına giren kolonilerden ve koruyuculuklardan oluşuyordu.
+Sovyetler Birliği:1922,1991:Sovyetler Birliği, Avrasya&#39;nın büyük bir kısmını kapsayan, 15 cumhuriyetten oluşan kıtalararası bir ülkeydi.
+İngiliz İmparatorluğu:1603,1997:19. yüzyılda ve 20. yüzyılın başlarında zirvedeyken tarihin en büyük imparatorluğuydu ve bir yüzyıl boyunca en önemli küresel güçtü.
+Portekiz İmparatorluğu:1415,1999:Portekiz İmparatorluğu, neredeyse altı yüzyıl süren Avrupa tarihinin en uzun ömürlü sömürge imparatorluklarından biriydi.
+Amerika Birleşik Devletleri:1776,x:Amerika Birleşik Devletleri yüzölçümü bakımından dünyanın dördüncü büyük ülkesidir ve dünyanın üçüncü en büyük nüfusuna sahiptir.
+Çin Halk Cumhuriyeti:1949,x:Çin Halk Cumhuriyeti, Doğu Asya&#39;da bir ülkedir ve dünyanın en kalabalık ikinci ülkesidir. Beş zaman dilimine eşdeğer bir alanı kapsıyor ve kara yoluyla on dört ülkeyle sınırı var.
+Avrupa Birliği:1993,x:Avrupa Birliği, çoğunluğu Avrupa&#39;da bulunan üye devletlerin oluşturduğu uluslarüstü bir siyasi ve ekonomik birliktir.

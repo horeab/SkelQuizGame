@@ -1,15 +1,15 @@
-Mughal-imperiumi:1526,1758
-Qing-dynastia:1644,1912
-Venäjän valtakunta:1721,1917
-Itävalta-Unkari:1867,1918
-Saksan valtakunta:1871,1918
-Ottomaanien valtakunta:1299,1922
-Japanin keisarikunta:1868,1947
-Espanjan imperiumi:1402,1975
-Espanjan siirtomaat:1534,1980
-Neuvostoliitto:1922,1991
-Brittiläinen imperiumi:1603,1997
-Portugalin valtakunta:1415,1999
-Yhdysvallat:1776,x
-Kiinan kansantasavalta:1949,x
-Euroopan unioni:1993,x
+Mughal-imperiumi:1526,1758:Mughalit olivat muslimidynastia, joka hallitsi suurinta osaa hinduväestöstä. Vuoteen 1750 mennessä ne olivat hallinneet suurta osaa Etelä-Aasiasta useiden vuosisatojen ajan.
+Qing-dynastia:1644,1912:Qing-dynastia oli Kiinan mantšurialainen keisarillinen dynastia ja Kiinan historian viimeinen keisarillinen dynastia.
+Venäjän valtakunta:1721,1917:Venäjän valtakunta oli suuri valtakunta, joka ulottui huipussaan Puolasta Tyynellemerelle.
+Itävalta-Unkari:1867,1918:Itävalta-Unkari oli kahden itsenäisen valtion sotilaallinen ja diplomaattinen liitto, jossa oli yksi hallitsija, joka nimitettiin sekä Itävallan keisariksi että Unkarin kuninkaaksi.
+Saksan valtakunta:1871,1918:Saksan valtakunnasta tuli 47 vuoden olemassaolonsa aikana Euroopan teollinen, teknologinen ja tieteellinen jättiläinen, ja vuonna 1913 Saksa oli Manner-Euroopan suurin talous ja maailman kolmanneksi suurin.
+Ottomaanien valtakunta:1299,1922:Ottomaanien valtakunta, Anatolian turkkilaisten heimojen luoma valtakunta, joka kasvoi yhdeksi maailman tehokkaimmista valtioista 1400- ja 1500-luvuilla.
+Japanin keisarikunta:1868,1947:Japanin valtakunta oli kansallisvaltio ja suurvalta, joka oli olemassa Meijin ennallistamisesta vuonna 1868 toisen maailmansodan loppuun asti.
+Espanjan imperiumi:1402,1975:Espanjan valtakunta oli Espanjan hallitsema siirtomaavaltakunta. Yhdessä Portugalin imperiumin kanssa se oli ensimmäinen valtakunta, joka aloitti Euroopan löytöjen aikakauden.
+Espanjan siirtomaat:1534,1980:Ranskan valtakunta koostui siirtokunnista ja protektoraateista, jotka joutuivat Ranskan vallan alle 1500-luvulta lähtien.
+Neuvostoliitto:1922,1991:Neuvostoliitto oli mannertenvälinen maa, joka kattoi suuren osan Euraasiasta ja koostui 15 tasavallasta.
+Brittiläinen imperiumi:1603,1997:Huipussaan 1800-luvulla ja 1900-luvun alussa se oli historian suurin valtakunta ja vuosisadan ajan tärkein maailmanvalta.
+Portugalin valtakunta:1415,1999:Portugalin valtakunta oli Euroopan historian pisimpään elänyt siirtomaa-imperiumi, joka kesti lähes kuusi vuosisataa.
+Yhdysvallat:1776,x:Amerikan Yhdysvallat on pinta-alaltaan maailman neljänneksi suurin maa ja sen väkiluku on maailman kolmanneksi suurin.
+Kiinan kansantasavalta:1949,x:Kiinan kansantasavalta on maa Itä-Aasiassa ja maailman toiseksi väkirikkain maa. Se kattaa viittä aikavyöhykettä vastaavan määrän ja rajaa neljätoista maata maalla.
+Euroopan unioni:1993,x:Euroopan unioni on pääosin Euroopassa sijaitsevien jäsenvaltioiden ylikansallinen poliittinen ja taloudellinen liitto.

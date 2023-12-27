@@ -1,15 +1,15 @@
-Mogul Birodalom:1526,1758
-Csing-dinasztia:1644,1912
-Orosz Birodalom:1721,1917
-Osztrák-Magyar Birodalom:1867,1918
-Német Birodalom:1871,1918
-Oszmán Birodalom:1299,1922
-Japán Birodalom:1868,1947
-Spanyol Birodalom:1402,1975
-Francia Birodalom:1534,1980
-Szovjetunió:1922,1991
-Brit Birodalom:1603,1997
-Portugál Birodalom:1415,1999
-Egyesült Államok:1776,x
-Kínai Népköztársaság:1949,x
-Európai Unió:1993,x
+Mogul Birodalom:1526,1758:A mogulok egy muszlim dinasztia voltak, akik a hindu lakosság többsége felett uralkodtak. 1750-re több évszázadon át uralták Dél-Ázsia nagy részét.
+Csing-dinasztia:1644,1912:A Qing-dinasztia Kína mandzsúriai császári dinasztiája volt, és a kínai történelem utolsó császári dinasztiája.
+Orosz Birodalom:1721,1917:Az Orosz Birodalom egy nagy birodalom volt, amely csúcspontján Lengyelországtól a Csendes-óceánig terjedt.
+Osztrák-Magyar Birodalom:1867,1918:Ausztria-Magyarország két szuverén állam katonai és diplomáciai szövetsége volt, egyetlen uralkodóval, akit osztrák császárnak és magyar királynak is tituláltak.
+Német Birodalom:1871,1918:47 éves fennállása alatt a Német Birodalom Európa ipari, technológiai és tudományos óriása lett, 1913-ra pedig Németország a kontinentális Európa legnagyobb gazdasága és a harmadik legnagyobb gazdaság a világon.
+Oszmán Birodalom:1299,1922:Oszmán Birodalom, az anatóliai török ​​törzsek által létrehozott birodalom, amely a 15. és 16. században a világ egyik legerősebb államává nőtte ki magát.
+Japán Birodalom:1868,1947:A Japán Birodalom nemzetállam és nagyhatalom volt, amely az 1868-as Meidzsi-restaurációtól a második világháború végéig létezett.
+Spanyol Birodalom:1402,1975:A Spanyol Birodalom Spanyolország által irányított gyarmatbirodalom volt. A Portugál Birodalommal együtt ez volt az első birodalom, amely bevezette a felfedezés európai korszakát.
+Francia Birodalom:1534,1980:A francia birodalom azokból a gyarmatokból és protektorátusokból állt, amelyek a 16. századtól francia uralom alá kerültek.
+Szovjetunió:1922,1991:A Szovjetunió egy transzkontinentális ország volt, amely Eurázsia nagy részét átfogta, és 15 köztársaságból állt.
+Brit Birodalom:1603,1997:A 19. században és a 20. század elején a történelem legnagyobb birodalma volt, és egy évszázadon át a legfontosabb globális hatalom volt.
+Portugál Birodalom:1415,1999:A Portugál Birodalom az európai történelem egyik leghosszabb életű gyarmati birodalma volt, csaknem hat évszázadig tartott.
+Egyesült Államok:1776,x:Az Amerikai Egyesült Államok területét tekintve a világ negyedik legnagyobb országa, és a világ harmadik legnagyobb népessége.
+Kínai Népköztársaság:1949,x:A Kínai Népköztársaság Kelet-Ázsia egyik országa, és a világ második legnépesebb országa. Öt időzónának felel meg, és tizennégy országgal határos szárazföldön.
+Európai Unió:1993,x:Az Európai Unió a főként Európában található tagállamok nemzetek feletti politikai és gazdasági uniója.

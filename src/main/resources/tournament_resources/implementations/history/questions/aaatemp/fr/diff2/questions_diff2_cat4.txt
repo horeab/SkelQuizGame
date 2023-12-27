@@ -1,4 +1,4 @@
-:Alexandre le Grand::
-:Jules César::
-:Aristote::
-:Confucius::
+:Alexandre le Grand:::Alexandre le Grand, roi de Macédoine et conquérant de l’empire perse, est considéré comme l’un des plus grands génies militaires de tous les temps.
+:Jules César:::Jules César a joué un rôle important dans les événements qui ont conduit à la chute de la République romaine et à la montée de l&#39;Empire romain.
+:Aristote:::Aristote était un philosophe et mathématicien grec ancien.
+:Confucius:::Confucius était un philosophe chinois dont les enseignements restent encore aujourd’hui influents en Chine et en Asie de l’Est.

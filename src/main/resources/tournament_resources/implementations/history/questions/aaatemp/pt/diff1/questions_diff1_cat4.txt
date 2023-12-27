@@ -1,5 +1,5 @@
-:Cristóvão Colombo::
-:Carlos Magno::
-:Leonardo da Vinci::
-:Genghis Khan::
-:Galileo Galilei::
+:Cristóvão Colombo:::Cristóvão Colombo foi um explorador italiano que liderou quatro expedições marítimas transatlânticas espanholas, abrindo caminho para a ampla colonização europeia das Américas.
+:Carlos Magno:::Carlos Magno uniu a maior parte da Europa Ocidental durante a Idade Média e lançou as bases para a França e a Alemanha modernas.
+:Leonardo da Vinci:::Leonardo da Vinci foi um pintor, escultor, arquiteto, inventor e engenheiro militar da Renascença.
+:Genghis Khan:::Genghis Khan foi o fundador e primeiro cã do Império Mongol.
+:Galileo Galilei:::Galileu Galilei é considerado o pai da ciência moderna e fez grandes contribuições nos campos da física e da astronomia.

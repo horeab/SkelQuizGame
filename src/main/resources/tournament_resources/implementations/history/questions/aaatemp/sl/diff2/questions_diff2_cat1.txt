@@ -1,10 +1,10 @@
-Akadsko cesarstvo:-2300,-2200
-Babilonsko cesarstvo:-1900,-1600
-Egipčansko cesarstvo:-1550,-1077
-Asirija:-2025,-609
-Judovsko kraljestvo:-1050,-586
-Ahemenidsko cesarstvo:-550,-330
-Mauryansko cesarstvo:-322,-184
-Kartaginsko cesarstvo:-814,-146
-Selevkidsko cesarstvo:-312,-63
-Dinastija Han:-202,220
+Akadsko cesarstvo:-2300,-2200:Akadsko cesarstvo je bilo prvo starodavno cesarstvo Mezopotamije, ki je nasledilo dolgoživo sumersko civilizacijo.
+Babilonsko cesarstvo:-1900,-1600:Babilonsko cesarstvo je bilo starodavno kulturno območje, ki je zasedalo jugovzhodno Mezopotamijo med rekama Tigris in Evfrat.
+Egipčansko cesarstvo:-1550,-1077:Egipčansko cesarstvo se je nahajalo v Severni Afriki in je bilo več kot 3000 let ena najmočnejših in najvplivnejših civilizacij v regiji.
+Asirija:-2025,-609:Asirija je bila velika starodavna mezopotamska civilizacija.
+Judovsko kraljestvo:-1050,-586:Judovo kraljestvo je bilo hebrejsko govoreče kraljestvo južnega Levanta v železni dobi.
+Ahemenidsko cesarstvo:-550,-330:Ahemenidsko cesarstvo, znano tudi kot Prvo perzijsko cesarstvo, ki se nahaja v današnjem Iranu, je bilo največje cesarstvo, kar jih je svet takrat videl.
+Mauryansko cesarstvo:-322,-184:Maurijsko cesarstvo je prvič združilo indijsko podcelino kot imperij.
+Kartaginsko cesarstvo:-814,-146:Kartaginsko cesarstvo, ki se je prvotno nahajalo v današnji Tuniziji, je bilo velika sila, ki je obvladovala zahodno in osrednje Sredozemsko morje.
+Selevkidsko cesarstvo:-312,-63:Selevkidsko cesarstvo je bila grška sila v zahodni Aziji v helenističnem obdobju.
+Dinastija Han:-202,220:Dinastija Han je bila druga cesarska dinastija Kitajske.

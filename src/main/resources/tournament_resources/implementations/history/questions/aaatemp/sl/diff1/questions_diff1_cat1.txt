@@ -1,9 +1,9 @@
-Sasanidsko cesarstvo:224,651
-Dinastija Tang:618,907
-Abasidski kalifat:750,1258
-Pogansko kraljestvo:849,1297
-Mongolsko cesarstvo:1206,1368
-Kmersko cesarstvo:802,1431
-rimsko cesarstvo:-27,1453
-Bizantinsko cesarstvo:395,1453
-Inkovsko cesarstvo:1438,1533
+Sasanidsko cesarstvo:224,651:Sasanidsko cesarstvo je bilo zadnje predislamsko perzijsko cesarstvo.
+Dinastija Tang:618,907:Dinastija Tang velja za zlato dobo kitajske umetnosti in kulture.
+Abasidski kalifat:750,1258:Abasidski kalifat z glavnim mestom v Bagdadu velja za islamsko zlato dobo, ki je spodbujala veliko kulturno in znanstveno rast.
+Pogansko kraljestvo:849,1297:Pagansko kraljestvo je bilo prvo burmansko kraljestvo, ki je združilo regije, ki bodo kasneje sestavljale današnji Mjanmar.
+Mongolsko cesarstvo:1206,1368:Mongolsko cesarstvo 13. in 14. stoletja je bilo največje sosednje cesarstvo v zgodovini.
+Kmersko cesarstvo:802,1431:Kmersko cesarstvo je bilo hindujsko-budistično cesarstvo v jugovzhodni Aziji, osredotočeno okoli hidravličnih mest v današnji severni Kambodži.
+rimsko cesarstvo:-27,1453:Rimski imperij je bil največja in najmočnejša politična in vojaška entiteta na svetu.
+Bizantinsko cesarstvo:395,1453:Bizantinsko cesarstvo, imenovano tudi Vzhodno rimsko cesarstvo, je bilo nadaljevanje Rimskega cesarstva z glavnim mestom v Konstantinoplu.
+Inkovsko cesarstvo:1438,1533:Imperij Inkov je bila največja starodavna civilizacija v predkolumbovski Ameriki.

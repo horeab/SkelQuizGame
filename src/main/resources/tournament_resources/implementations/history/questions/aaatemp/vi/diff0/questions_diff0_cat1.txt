@@ -1,15 +1,15 @@
-Đế quốc Mogul:1526,1758
-Nhà Thanh:1644,1912
-Đế quốc Nga:1721,1917
-Đế quốc Áo-Hung:1867,1918
-Đế quốc Đức:1871,1918
-Đế quốc Ottoman:1299,1922
-Đế quốc Nhật Bản:1868,1947
-Đế quốc Tây Ban Nha:1402,1975
-Đế quốc Pháp:1534,1980
-Liên Xô:1922,1991
-Đế quốc Anh:1603,1997
-Đế quốc Bồ Đào Nha:1415,1999
-Hoa Kỳ:1776,x
-Cộng hòa nhân dân Trung Hoa:1949,x
-Liên minh Châu Âu:1993,x
+Đế quốc Mogul:1526,1758:Người Mughals là một triều đại Hồi giáo cai trị phần lớn dân số theo đạo Hindu. Đến năm 1750, họ đã thống trị phần lớn Nam Á trong nhiều thế kỷ.
+Nhà Thanh:1644,1912:Triều đại nhà Thanh là một triều đại đế quốc Mãn Châu của Trung Quốc và là triều đại đế quốc cuối cùng trong lịch sử Trung Quốc.
+Đế quốc Nga:1721,1917:Đế quốc Nga là một đế quốc rộng lớn, vào thời kỳ đỉnh cao, trải dài từ Ba Lan đến Thái Bình Dương.
+Đế quốc Áo-Hung:1867,1918:Áo-Hungary là một liên minh quân sự và ngoại giao của hai quốc gia có chủ quyền với một quốc vương duy nhất có tước hiệu vừa là hoàng đế Áo vừa là Vua Hungary.
+Đế quốc Đức:1871,1918:Trong 47 năm tồn tại, Đế quốc Đức đã trở thành gã khổng lồ về công nghiệp, công nghệ và khoa học của châu Âu và đến năm 1913, Đức là nền kinh tế lớn nhất ở lục địa châu Âu và lớn thứ ba trên thế giới.
+Đế quốc Ottoman:1299,1922:Đế chế Ottoman, đế chế được tạo ra bởi các bộ lạc Thổ Nhĩ Kỳ ở Anatolia và đã phát triển thành một trong những quốc gia hùng mạnh nhất thế giới trong thế kỷ 15 và 16.
+Đế quốc Nhật Bản:1868,1947:Đế quốc Nhật Bản là một quốc gia-nhà nước và một cường quốc tồn tại từ thời Minh Trị Duy tân năm 1868 cho đến khi kết thúc Thế chiến thứ hai.
+Đế quốc Tây Ban Nha:1402,1975:Đế quốc Tây Ban Nha là một đế chế thuộc địa do Tây Ban Nha cai trị. Cùng với Đế quốc Bồ Đào Nha, đây là đế chế đầu tiên mở ra Kỷ nguyên Khám phá Châu Âu.
+Đế quốc Pháp:1534,1980:Đế quốc Pháp bao gồm các thuộc địa và vùng bảo hộ nằm dưới sự cai trị của Pháp từ thế kỷ 16 trở đi.
+Liên Xô:1922,1991:Liên Xô là một quốc gia xuyên lục địa trải dài trên phần lớn lục địa Á-Âu được tạo thành từ 15 nước cộng hòa.
+Đế quốc Anh:1603,1997:Vào thời kỳ đỉnh cao vào thế kỷ 19 và đầu thế kỷ 20, đây là đế chế lớn nhất trong lịch sử và trong một thế kỷ, là cường quốc toàn cầu quan trọng nhất.
+Đế quốc Bồ Đào Nha:1415,1999:Đế quốc Bồ Đào Nha là một trong những đế quốc thuộc địa tồn tại lâu nhất trong lịch sử châu Âu, kéo dài gần sáu thế kỷ.
+Hoa Kỳ:1776,x:Hợp chủng quốc Hoa Kỳ là quốc gia có diện tích lớn thứ tư trên thế giới và có dân số lớn thứ ba thế giới.
+Cộng hòa nhân dân Trung Hoa:1949,x:Cộng hòa Nhân dân Trung Hoa là một quốc gia ở Đông Á và là quốc gia đông dân thứ hai thế giới. Nó trải dài tương đương với năm múi giờ và giáp mười bốn quốc gia bằng đường bộ.
+Liên minh Châu Âu:1993,x:Liên minh châu Âu là một liên minh kinh tế và chính trị siêu quốc gia gồm các quốc gia thành viên chủ yếu ở châu Âu.

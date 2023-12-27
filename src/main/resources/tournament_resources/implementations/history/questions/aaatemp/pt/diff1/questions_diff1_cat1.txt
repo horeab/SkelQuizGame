@@ -1,9 +1,9 @@
-Império Sassânida:224,651
-Dinastia Tang:618,907
-Califado Abássida:750,1258
-Reino Pagão:849,1297
-Império Mongol:1206,1368
-Império Quemer:802,1431
-Império Romano:-27,1453
-Império Bizantino:395,1453
-Império Inca:1438,1533
+Império Sassânida:224,651:O Império Sassânida foi o último império persa pré-islâmico.
+Dinastia Tang:618,907:A Dinastia Tang é considerada uma época de ouro das artes e cultura chinesas.
+Califado Abássida:750,1258:O Califado Abássida, com capital em Bagdá, é considerado a Idade de Ouro Islâmica, promovendo um grande crescimento cultural e científico.
+Reino Pagão:849,1297:O Reino Pagão foi o primeiro reino birmanês a unificar as regiões que mais tarde constituiriam a atual Mianmar.
+Império Mongol:1206,1368:O Império Mongol dos séculos 13 e 14 foi o maior império contíguo da história.
+Império Quemer:802,1431:O Império Khmer era um império hindu-budista no sudeste da Ásia, centrado em cidades hidráulicas no que hoje é o norte do Camboja.
+Império Romano:-27,1453:O Império Romano foi a maior e mais poderosa entidade política e militar do mundo.
+Império Bizantino:395,1453:O Império Bizantino, também conhecido como Império Romano Oriental, foi a continuação do Império Romano com a capital situada em Constantinopla.
+Império Inca:1438,1533:O Império Inca foi a maior civilização antiga da América pré-colombiana.

@@ -1,5 +1,5 @@
-:Christoph Kolumbus::
-:Karl der Große::
-:Leonardo da Vinci::
-:Dschinghis Khan::
-:Galileo Galilei::
+:Christoph Kolumbus:::Christoph Kolumbus war ein italienischer Entdecker, der vier spanische transatlantische Seeexpeditionen leitete und den Weg für die umfassende europäische Kolonisierung Amerikas ebnete.
+:Karl der Große:::Karl der Große vereinte im Mittelalter den größten Teil Westeuropas und legte den Grundstein für das moderne Frankreich und Deutschland.
+:Leonardo da Vinci:::Leonardo da Vinci war ein Maler, Bildhauer, Architekt, Erfinder und Militäringenieur der Renaissance.
+:Dschinghis Khan:::Dschingis Khan war der Gründer und erste Khan des Mongolenreiches.
+:Galileo Galilei:::Galileo Galilei gilt als Vater der modernen Wissenschaft und leistete bedeutende Beiträge auf den Gebieten der Physik und Astronomie.

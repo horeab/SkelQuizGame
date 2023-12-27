@@ -1,15 +1,15 @@
-Impero Moghul:1526,1758
-Dinastia Qing:1644,1912
-Impero russo:1721,1917
-Impero austro-ungarico:1867,1918
-Impero tedesco:1871,1918
-Impero ottomano:1299,1922
-Impero del Giappone:1868,1947
-Impero spagnolo:1402,1975
-Impero francese:1534,1980
-Unione Sovietica:1922,1991
-Impero britannico:1603,1997
-Impero portoghese:1415,1999
-Stati Uniti:1776,x
-Repubblica Popolare Cinese:1949,x
-Unione Europea:1993,x
+Impero Moghul:1526,1758:I Moghul erano una dinastia musulmana che governava una popolazione a maggioranza indù. Nel 1750 dominavano gran parte dell&#39;Asia meridionale per diversi secoli.
+Dinastia Qing:1644,1912:La dinastia Qing era una dinastia imperiale della Manciuria della Cina e l&#39;ultima dinastia imperiale nella storia cinese.
+Impero russo:1721,1917:L&#39;Impero russo era un grande impero che, al suo apice, si estendeva dalla Polonia all&#39;Oceano Pacifico.
+Impero austro-ungarico:1867,1918:L&#39;Austria-Ungheria era un&#39;alleanza militare e diplomatica di due stati sovrani con un unico monarca intitolato sia imperatore d&#39;Austria che re d&#39;Ungheria.
+Impero tedesco:1871,1918:Durante i suoi 47 anni di esistenza, l’Impero tedesco divenne il gigante industriale, tecnologico e scientifico d’Europa e nel 1913 la Germania era la più grande economia dell’Europa continentale e la terza più grande del mondo.
+Impero ottomano:1299,1922:Impero Ottomano, impero creato dalle tribù turche in Anatolia che divenne uno degli stati più potenti del mondo durante i secoli XV e XVI.
+Impero del Giappone:1868,1947:L&#39;Impero del Giappone era uno stato-nazione e una grande potenza che esisteva dalla Restaurazione Meiji nel 1868 fino alla fine della Seconda Guerra Mondiale.
+Impero spagnolo:1402,1975:L&#39;impero spagnolo era un impero coloniale governato dalla Spagna. Insieme all&#39;impero portoghese, fu il primo impero a inaugurare l&#39;era europea delle scoperte.
+Impero francese:1534,1980:L&#39;impero francese comprendeva le colonie e i protettorati che passarono sotto il dominio francese dal XVI secolo in poi.
+Unione Sovietica:1922,1991:L&#39;Unione Sovietica era un paese transcontinentale che si estendeva su gran parte dell&#39;Eurasia ed era composto da 15 repubbliche.
+Impero britannico:1603,1997:Al suo apice nel XIX e all’inizio del XX secolo, fu il più grande impero della storia e, per un secolo, fu la potenza globale più importante.
+Impero portoghese:1415,1999:L&#39;impero portoghese è stato uno degli imperi coloniali più longevi della storia europea, durato quasi sei secoli.
+Stati Uniti:1776,x:Gli Stati Uniti d&#39;America sono il quarto paese più grande del mondo per superficie e hanno la terza popolazione mondiale.
+Repubblica Popolare Cinese:1949,x:La Repubblica popolare cinese è uno stato dell&#39;Asia orientale ed è il secondo paese più popoloso al mondo. Si estende per l&#39;equivalente di cinque fusi orari e confina via terra con quattordici paesi.
+Unione Europea:1993,x:L’Unione Europea è un’unione politica ed economica sovranazionale di stati membri che si trovano principalmente in Europa.
