@@ -5,5 +5,5 @@ Pagan Kingdom:849,1297:Pagan Kingdom was the first Burmese kingdom to unify the 
 Mongol Empire:1206,1368:The Mongol Empire of the 13th and 14th centuries was the largest contiguous empire in history.
 Khmer Empire:802,1431:The Khmer Empire was a Hindu-Buddhist empire in Southeast Asia, centered around hydraulic cities in what is now northern Cambodia.
 Roman Empire:-27,1453:The Roman Empire was the largest and most powerful political and military entity in the world.
-Byzantine Empire:395,1453:The Byzantine Empire, also referred to as the Eastern Roman Empire, was the continuation of the Roman E mpire with the capital city set in Constantinople.
+Byzantine Empire:395,1453:The Byzantine Empire, also referred to as the Eastern Roman Empire, was the continuation of the Roman Empire with the capital city set in Constantinople.
 Inca Empire:1438,1533:The Inca Empire was the largest ancient civilization in pre-Columbian America.

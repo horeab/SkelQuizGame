@@ -1,7 +1,7 @@
 Sasanidzi:224,651:Imperium Sasanian było ostatnim przedislamskim imperium perskim.
 Dynastia Tang:618,907:Dynastia Tang uważana jest za złoty wiek chińskiej sztuki i kultury.
 Abbasydzi:750,1258:Kalifat Abbasydów ze stolicą w Bagdadzie uważany jest za złoty wiek islamu, sprzyjający wielkiemu rozwojowi kulturalnemu i naukowemu.
-Królestwo Paganu:849,1297:Królestwo Pagan było pierwszym królestwem birmańskim, które zjednoczyło regiony, które później utworzyły współczesną Birmę.
+Królestwo Paganu:849,1297:Królestwo Paganu było pierwszym królestwem birmańskim, które zjednoczyło regiony, które później utworzyły współczesną Birmę.
 Imperium mongolskie:1206,1368:Imperium mongolskie z XIII i XIV wieku było największym sąsiadującym imperium w historii.
 Imperium Khmerów:802,1431:Imperium Khmerów było imperium hindusko-buddyjskim w Azji Południowo-Wschodniej, skupionym wokół miast hydraulicznych na terenie dzisiejszej północnej Kambodży.
 Cesarstwo Rzymskie:-27,1453:Cesarstwo Rzymskie było największą i najpotężniejszą jednostką polityczną i militarną na świecie.

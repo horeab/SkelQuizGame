@@ -1,7 +1,7 @@
 Sassaniden:224,651:Het Sassanidenrijk was het laatste pre-islamitische Perzische rijk.
 Tang-dynastie:618,907:De Tang-dynastie wordt beschouwd als een gouden eeuw voor de Chinese kunst en cultuur.
 Kalifaat van de Abbasiden:750,1258:Het Abbasidische kalifaat, met als hoofdstad Bagdad, wordt beschouwd als de Islamitische Gouden Eeuw, die een grote culturele en wetenschappelijke groei bevordert.
-Pagan Rijk:849,1297:Pagan Kingdom was het eerste Birmese koninkrijk dat de regio&#39;s verenigde die later het hedendaagse Myanmar zouden vormen.
+Pagan Rijk:849,1297:Pagan Rijk was het eerste Birmese koninkrijk dat de regio's verenigde die later het hedendaagse Myanmar zouden vormen.
 Mongoolse Rijk:1206,1368:Het Mongoolse rijk van de 13e en 14e eeuw was het grootste aaneengesloten rijk in de geschiedenis.
 Khmer-rijk:802,1431:Het Khmer-rijk was een hindoe-boeddhistisch rijk in Zuidoost-Azië, gecentreerd rond hydraulische steden in wat nu het noorden van Cambodja is.
 Romeinse Rijk:-27,1453:Het Romeinse Rijk was de grootste en machtigste politieke en militaire entiteit ter wereld.

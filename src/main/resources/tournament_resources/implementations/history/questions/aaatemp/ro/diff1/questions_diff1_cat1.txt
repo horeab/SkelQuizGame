@@ -1,7 +1,7 @@
 Imperiul Sasanid:224,651:Imperiul Sasanian a fost ultimul imperiu persan preislamic.
 Dinastia Tang:618,907:Dinastia Tang este considerată o epocă de aur a artei și culturii chineze.
 Califatul Abbasid:750,1258:Califatul Abbasid, cu capitala Bagdad, este considerată Epoca de Aur islamică, care favorizează o mare creștere culturală și științifică.
-Regatul Pagan:849,1297:Regatul Păgân a fost primul regat birman care a unificat regiunile care mai târziu aveau să constituie Myanmarul modern.
+Regatul Pagan:849,1297:Regatul Pagan a fost primul regat birman care a unificat regiunile care mai târziu aveau să constituie Myanmarul modern.
 Imperiul Mongol:1206,1368:Imperiul Mongol din secolele al XIII-lea și al XIV-lea a fost cel mai mare imperiu contiguu din istorie.
 Imperiul Khmer:802,1431:Imperiul Khmer a fost un imperiu hindus-budhist din Asia de Sud-Est, centrat în jurul orașelor hidraulice din ceea ce este acum nordul Cambodgiei.
 Imperiul Roman:-27,1453:Imperiul Roman a fost cea mai mare și mai puternică entitate politică și militară din lume.

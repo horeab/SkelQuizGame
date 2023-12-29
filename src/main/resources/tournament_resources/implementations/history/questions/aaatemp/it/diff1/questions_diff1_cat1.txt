@@ -1,9 +1,9 @@
-Impero sasanide:224,651:L&#39;Impero Sasanide fu l&#39;ultimo impero persiano pre-islamico.
-Dinastia Tang:618,907:La dinastia Tang è considerata un&#39;età dell&#39;oro delle arti e della cultura cinese.
-Califfato abbaside:750,1258:Il Califfato Abbaside, con capitale Baghdad, è considerato l&#39;età dell&#39;oro islamica che favorisce una grande crescita culturale e scientifica.
-Regno Pagan:849,1297:Il Regno Pagano fu il primo regno birmano a unificare le regioni che in seguito avrebbero costituito l&#39;attuale Myanmar.
-Impero mongolo:1206,1368:L&#39;impero mongolo dei secoli XIII e XIV fu il più grande impero contiguo della storia.
-Impero Khmer:802,1431:L&#39;Impero Khmer era un impero indù-buddista nel sud-est asiatico, incentrato sulle città idrauliche nell&#39;attuale Cambogia settentrionale.
+Impero sasanide:224,651:L'Impero Sasanide fu l'ultimo impero persiano pre-islamico.
+Dinastia Tang:618,907:La dinastia Tang è considerata un'età dell'oro delle arti e della cultura cinese.
+Califfato abbaside:750,1258:Il Califfato Abbaside, con capitale Baghdad, è considerato l'età dell'oro islamica che favorisce una grande crescita culturale e scientifica.
+Regno Pagan:849,1297:Il Regno Pagan fu il primo regno birmano a unificare le regioni che in seguito avrebbero costituito l'attuale Myanmar.
+Impero mongolo:1206,1368:L'impero mongolo dei secoli XIII e XIV fu il più grande impero contiguo della storia.
+Impero Khmer:802,1431:L'Impero Khmer era un impero indù-buddista nel sud-est asiatico, incentrato sulle città idrauliche nell'attuale Cambogia settentrionale.
 Impero romano:-27,1453:L’Impero Romano era l’entità politica e militare più grande e potente del mondo.
-Impero bizantino:395,1453:L&#39;Impero bizantino, noto anche come Impero Romano d&#39;Oriente, fu la continuazione dell&#39;Impero Romano con la capitale situata a Costantinopoli.
-Impero inca:1438,1533:L&#39;Impero Inca era la più grande civiltà antica dell&#39;America precolombiana.
+Impero bizantino:395,1453:L'Impero bizantino, noto anche come Impero Romano d'Oriente, fu la continuazione dell'Impero Romano con la capitale situata a Costantinopoli.
+Impero inca:1438,1533:L'Impero Inca era la più grande civiltà antica dell'America precolombiana.

@@ -1,5 +1,5 @@
 :Christophe Colomb:::Christophe Colomb était un explorateur italien qui a dirigé quatre expéditions maritimes transatlantiques espagnoles, ouvrant la voie à une colonisation européenne généralisée des Amériques.
 :Charlemagne:::Charlemagne a unifié la majeure partie de l’Europe occidentale au Moyen Âge et a jeté les bases de la France et de l’Allemagne modernes.
 :Léonard de Vinci:::Léonard de Vinci était un peintre, sculpteur, architecte, inventeur et ingénieur militaire de la Renaissance.
-:Gengis Khan:::Gengis Khan fut le fondateur et le premier khan de l&#39;empire mongol.
-:Galilée:::Galileo Galilei est considéré comme le père de la science moderne et a apporté d&#39;importantes contributions aux domaines de la physique et de l&#39;astronomie.
+:Gengis Khan:::Gengis Khan fut le fondateur et le premier khan de l'empire mongol.
+:Galilée:::Galileo Galilei est considéré comme le père de la science moderne et a apporté d'importantes contributions aux domaines de la physique et de l'astronomie.

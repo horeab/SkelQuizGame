@@ -1,7 +1,7 @@
 Imperio sasánida:224,651:El Imperio Sasánida fue el último imperio persa preislámico.
 Dinastía Tang:618,907:La dinastía Tang se considera una época dorada de las artes y la cultura chinas.
 Califato abasí:750,1258:El califato abasí, con capital en Bagdad, se considera la Edad de Oro islámica y fomentó un gran crecimiento cultural y científico.
-Reino de Pagan:849,1297:El Reino Pagano fue el primer reino birmano en unificar las regiones que más tarde constituirían la actual Myanmar.
+Reino de Pagan:849,1297:El Reino de Pagan fue el primer reino birmano en unificar las regiones que más tarde constituirían la actual Myanmar.
 Imperio mongol:1206,1368:El Imperio mongol de los siglos XIII y XIV fue el imperio contiguo más grande de la historia.
 Imperio jemer:802,1431:El Imperio Jemer fue un imperio hindú-budista en el sudeste asiático, centrado en ciudades hidráulicas en lo que hoy es el norte de Camboya.
 Imperio romano:-27,1453:El Imperio Romano era la entidad política y militar más grande y poderosa del mundo.

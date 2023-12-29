@@ -1,7 +1,7 @@
 Sasaniderna:224,651:Det sasaniska riket var det sista förislamiska persiska riket.
 Tang-dynastin:618,907:Tangdynastin anses vara en guldålder för kinesisk konst och kultur.
 Abbasidkalifatet:750,1258:Det abbasidiska kalifatet, med huvudstaden i Bagdad, anses vara den islamiska guldåldern som främjar stor kulturell och vetenskaplig tillväxt.
-Kungariket Pagan:849,1297:Pagan Kingdom var det första burmesiska kungariket som enade de regioner som senare skulle utgöra dagens Myanmar.
+Kungariket Pagan:849,1297:Kungariket Pagan var det första burmesiska kungariket som enade de regioner som senare skulle utgöra dagens Myanmar.
 Mongolväldet:1206,1368:Det mongoliska riket på 1200- och 1300-talen var det största sammanhängande imperiet i historien.
 Khmerriket:802,1431:Khmerriket var ett hindu-buddhistiskt imperium i Sydostasien, centrerat kring hydrauliska städer i det som nu är norra Kambodja.
 Romerska riket:-27,1453:Romarriket var den största och mäktigaste politiska och militära enheten i världen.

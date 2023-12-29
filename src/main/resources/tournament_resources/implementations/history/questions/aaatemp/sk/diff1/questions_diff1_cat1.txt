@@ -1,7 +1,7 @@
 Novoperzská ríša:224,651:Sásánovská ríša bola poslednou predislamskou perzskou ríšou.
 Dynastia Tchang:618,907:Dynastia Tang je považovaná za zlatý vek čínskeho umenia a kultúry.
 Abbásid Kalifát:750,1258:Abbásovský kalifát s hlavným mestom v Bagdade je považovaný za zlatý vek islamu, ktorý podporuje veľký kultúrny a vedecký rast.
-Pagansko kraljevstvo:849,1297:Pohanské kráľovstvo bolo prvým barmským kráľovstvom, ktoré zjednotilo regióny, ktoré neskôr vytvorili súčasné Mjanmarsko.
+Pagansko kraljevstvo:849,1297:Pagansko kraljevstvo bolo prvým barmským kráľovstvom, ktoré zjednotilo regióny, ktoré neskôr vytvorili súčasné Mjanmarsko.
 Mongolská ríša:1206,1368:Mongolská ríša 13. a 14. storočia bola najväčšou súvislou ríšou v histórii.
 Khmérska ríša:802,1431:Khmérska ríša bola hinduisticko-budhistická ríša v juhovýchodnej Ázii, sústredená okolo hydraulických miest na území dnešnej severnej Kambodže.
 Rímska ríša:-27,1453:Rímska ríša bola najväčšou a najmocnejšou politickou a vojenskou entitou na svete.

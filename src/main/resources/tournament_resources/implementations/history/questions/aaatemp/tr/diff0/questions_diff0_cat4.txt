@@ -1,6 +1,6 @@
 :Napolyon Bonapart:::Napolyon Bonapart, Fransız Devrimi sırasında öne çıkan bir Fransız imparatoru ve askeri komutandı.
 :William Shakespeare:::William Shakespeare bir İngiliz oyun yazarı, şair ve aktördü. Kendisi yaygın olarak İngiliz dilinin en büyük yazarı olarak kabul edilmektedir.
-:Abraham Lincoln:::Abraham Lincoln, Amerika Birleşik Devletleri&#39;nin 16. başkanı olarak görev yapan Amerikalı bir avukat ve politikacıydı.
-:George Washington:::George Washington, Amerika Birleşik Devletleri&#39;nin ilk başkanı olarak görev yapan Amerikalı bir subaydı.
+:Abraham Lincoln:::Abraham Lincoln, Amerika Birleşik Devletleri'nin 16. başkanı olarak görev yapan Amerikalı bir avukat ve politikacıydı.
+:George Washington:::George Washington, Amerika Birleşik Devletleri'nin ilk başkanı olarak görev yapan Amerikalı bir subaydı.
 :Charles Darwin:::Charles Darwin, evrimsel biyolojiye yaptığı katkılarla tanınan bir İngiliz doğa bilimci, jeolog ve biyologdu.
 :Isaac Newton:::Isaac Newton, modern fiziğin ilkelerini geliştiren bir fizikçi ve matematikçiydi.

@@ -1,7 +1,7 @@
 Sassaniderne:224,651:Det sasaniske imperium var det sidste præ-islamiske persiske imperium.
 Tang-dynastiet:618,907:Tang-dynastiet betragtes som en guldalder for kinesisk kunst og kultur.
 Abbasidisk kalifat:750,1258:Det abbasidiske kalifat, med hovedstaden i Bagdad, betragtes som den islamiske guldalder, der fremmer stor kulturel og videnskabelig vækst.
-Kongeriget Pagan:849,1297:Pagan Kingdom var det første burmesiske kongerige til at forene de regioner, der senere skulle udgøre det moderne Myanmar.
+Kongeriget Pagan:849,1297:Kongeriget Pagan var det første burmesiske kongerige til at forene de regioner, der senere skulle udgøre det moderne Myanmar.
 Mongolske kejserdømme:1206,1368:Det mongolske imperium i det 13. og 14. århundrede var det største sammenhængende imperium i historien.
 Khmerriget:802,1431:Khmer-imperiet var et hindu-buddhistisk imperium i Sydøstasien, centreret omkring hydrauliske byer i det, der nu er det nordlige Cambodja.
 Romerriget:-27,1453:Romerriget var den største og mest magtfulde politiske og militære enhed i verden.

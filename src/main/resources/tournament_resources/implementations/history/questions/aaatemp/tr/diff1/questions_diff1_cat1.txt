@@ -1,9 +1,9 @@
 Sasani İmparatorluğu:224,651:Sasani İmparatorluğu İslam öncesi son Pers imparatorluğuydu.
 Tang Hanedanı:618,907:Tang Hanedanlığı, Çin sanat ve kültürünün altın çağı olarak kabul edilir.
-Abbasi Halifeliği:750,1258:Başkenti Bağdat olan Abbasi Halifeliği, büyük kültürel ve bilimsel gelişmeyi teşvik eden İslam&#39;ın Altın Çağı olarak kabul edilir.
-Pagan Krallık:849,1297:Pagan Krallığı, daha sonra günümüz Myanmar&#39;ını oluşturacak bölgeleri birleştiren ilk Burma krallığıydı.
+Abbasi Halifeliği:750,1258:Başkenti Bağdat olan Abbasi Halifeliği, büyük kültürel ve bilimsel gelişmeyi teşvik eden İslam'ın Altın Çağı olarak kabul edilir.
+Pagan Krallık:849,1297:Pagan Krallığı, daha sonra günümüz Myanmar'ını oluşturacak bölgeleri birleştiren ilk Burma krallığıydı.
 Moğol İmparatorluğu:1206,1368:13. ve 14. yüzyıllardaki Moğol İmparatorluğu tarihteki en büyük bitişik imparatorluktu.
-Khmer İmparatorluğu:802,1431:Khmer İmparatorluğu, Güneydoğu Asya&#39;da, şu anda Kuzey Kamboçya&#39;da bulunan hidrolik şehirlerin etrafında toplanan bir Hindu-Budist imparatorluğuydu.
+Khmer İmparatorluğu:802,1431:Khmer İmparatorluğu, Güneydoğu Asya'da, şu anda Kuzey Kamboçya'da bulunan hidrolik şehirlerin etrafında toplanan bir Hindu-Budist imparatorluğuydu.
 Roma İmparatorluğu:-27,1453:Roma İmparatorluğu dünyadaki en büyük ve en güçlü siyasi ve askeri varlıktı.
-Bizans İmparatorluğu:395,1453:Doğu Roma İmparatorluğu olarak da adlandırılan Bizans İmparatorluğu, başkenti Konstantinopolis&#39;te olan Roma İmparatorluğu&#39;nun devamıydı.
-İnka İmparatorluğu:1438,1533:İnka İmparatorluğu, Kolomb öncesi Amerika&#39;daki en büyük antik uygarlıktı.
+Bizans İmparatorluğu:395,1453:Doğu Roma İmparatorluğu olarak da adlandırılan Bizans İmparatorluğu, başkenti Konstantinopolis'te olan Roma İmparatorluğu'nun devamıydı.
+İnka İmparatorluğu:1438,1533:İnka İmparatorluğu, Kolomb öncesi Amerika'daki en büyük antik uygarlıktı.
