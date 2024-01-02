@@ -61,7 +61,9 @@ public class HistoryFlutterQuestionProcessor {
                             line = reader.readLine();
                         }
 
-                        res.append(getQuestionsForCatAndDiff(diff, category, questions.toString()));
+                        if (!questions.isEmpty()) {
+                            res.append(getQuestionsForCatAndDiff(diff, category, questions.toString()));
+                        }
 
                         reader.close();
                     } catch (IOException e) {
