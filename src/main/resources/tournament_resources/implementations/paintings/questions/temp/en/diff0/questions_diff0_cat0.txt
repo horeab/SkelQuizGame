@@ -1,17 +1,17 @@
-::A Friend in Need::11,8,1::::
-::A Sunday Afternoon on the Island of La Grande Jatte::7,13,15::::
-::American Gothic::5,0,3::::
-::Composition with red, yellow, blue and black::10,2,12::::
-::Girl with a Pearl Earring::5,14,1::::
-::Creation of Adam::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Nighthawks::14,13,15::::
-::The Ambassadors::12,3,5::::
-::Hare::0,1,2::::
-::The Great Wave off Kanagawa::3,12,16::::
-::The Kiss::4,5,2::::
-::The Ninth Wave::10,7,3::::
-::The Scream::11,7,5::::
-::The Starry Night::6,16,7::::
-::The Tower of Babel::1,5,12::::
-::Wanderer above the Sea of Fog::5,9,8::::
+::A Friend in Need::11,8,1::::It is the most famous of a series of 16 paintings. The paintings were commissioned by a company that advertised cigars.
+::A Sunday Afternoon on the Island of La Grande Jatte::7,13,15::::It was painted from 1884 to 1886 and is Georges Seurat's most famous work.
+::American Gothic::5,0,3::::It is one of the most famous American paintings of the 20th century.
+::Composition with red, yellow, blue and black::10,2,12::::It represents a mature stage of Mondrian's abstraction. It seems to be a flat work, but there are differences in the texture of different elements.
+::Girl with a Pearl Earring::5,14,1::::It is Vermeer's most famous painting. It is a painting of an imaginary figure wearing an oriental turban and an improbably large pearl in her ear.
+::Creation of Adam::6,12,8::::It is a fresco painted by Michelangelo between 1508 and 1512 on the ceiling of the Sistine Chapel in the Vatican City. It depicts the passage from the Book of Genesis which describes God creating Adam and giving life to the first man.
+::Mona Lisa::8,14,4::::It is considered a masterpiece of the Italian Renaissance, it has been described as the best known,work of art in the world.
+::Nighthawks::14,13,15::::It is one of Hopper's New York City paintings, and the artist said that it was based on a real café.
+::The Ambassadors::12,3,5::::It is one of the most famous paintings by Holbein. It was painted during his second visit to England and it contains many symbols and hidden meanings.
+::Hare::0,1,2::::It was painted in 1502 and it is acknowledged as a masterpiece of observational art.
+::The Great Wave off Kanagawa::3,12,16::::It is a woodblock print that depicts a huge wave rising above a fishing boat in Kanagawa Bay near Tokyo.
+::The Kiss::4,5,2::::It is a famous woodblock print created in Japan between 1829 and 1833.
+::The Ninth Wave::10,7,3::::It is a painting created in 1850 by the Russian-Armenian marine painter Ivan Aivazovsky.
+::The Scream::11,7,5::::It is a composition created by Norwegian artist Edvard Munch in 1893 and is among the most recognized images of modern art.
+::The Starry Night::6,16,7::::Painted in 1889, it depicts the view from the window of Van Gogh's asylum room just before sunrise.
+::The Tower of Babel::1,5,12::::The painting depicts a construction project that is described in the Bible, the tower of Babel. Bruegel created three versions of the painting, but only two have survived to this day.
+::Wanderer above the Sea of Fog::5,9,8::::It is the best-known painting of German Romanticism and has been interpreted as an emblem of self-reflection.
