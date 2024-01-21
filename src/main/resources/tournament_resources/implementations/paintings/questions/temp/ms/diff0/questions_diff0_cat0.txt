@@ -1,17 +1,17 @@
-::Rakan yang Dibutuhkan::11,8,1::::
-::Ahad Ahad di Pulau La Grande Jatte::7,13,15::::
-::American Gothic::5,0,3::::
-::Komposisi dengan merah, kuning, biru dan hitam::10,2,12::::
-::Girl dengan Pearl Earring::5,14,1::::
-::Penciptaan Adam::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Nighthawks::14,13,15::::
-::Para Duta::12,3,5::::
-::sejenis arnab::0,1,2::::
-::Gelombang Besar dari Kanagawa::3,12,16::::
-::ciuman::4,5,2::::
-::Gelombang Kesembilan::10,7,3::::
-::Jeritan Alam::11,7,5::::
-::Malam Berbintang::6,16,7::::
-::Menara Babel::1,5,12::::
-::Pengembara di atas Laut Kabut::5,9,8::::
+::Rakan yang Dibutuhkan::11,8,1::::Ia adalah yang paling terkenal daripada satu siri 16 lukisan. Lukisan itu telah ditauliahkan oleh sebuah syarikat yang mengiklankan cerut.
+::Ahad Ahad di Pulau La Grande Jatte::7,13,15::::Ia dicat dari 1884 hingga 1886 dan merupakan karya Georges Seurat yang paling terkenal.
+::American Gothic::5,0,3::::Ia adalah salah satu lukisan Amerika yang paling terkenal pada abad ke-20.
+::Komposisi dengan merah, kuning, biru dan hitam::10,2,12::::Ia mewakili peringkat matang abstraksi Mondrian. Ia kelihatan seperti kerja yang rata, tetapi terdapat perbezaan dalam tekstur elemen yang berbeza.
+::Girl dengan Pearl Earring::5,14,1::::Ia adalah lukisan Vermeer yang paling terkenal. Ia adalah lukisan figura khayalan yang memakai serban oriental dan mutiara yang agak besar di telinganya.
+::Penciptaan Adam::6,12,8::::Ia adalah lukisan dinding yang dilukis oleh Michelangelo antara 1508 dan 1512 di siling Kapel Sistine di Vatican City. Ia menggambarkan petikan dari Kitab Kejadian yang menggambarkan Tuhan menciptakan Adam dan memberikan kehidupan kepada manusia pertama.
+::Mona Lisa::8,14,4::::Ia dianggap sebagai karya agung Renaissance Itali, ia telah digambarkan sebagai karya seni yang paling terkenal di dunia.
+::Nighthawks::14,13,15::::Ia adalah salah satu lukisan New York City Hopper, dan artis itu berkata bahawa ia adalah berdasarkan kafe sebenar.
+::Para Duta::12,3,5::::Ia adalah salah satu lukisan paling terkenal oleh Holbein. Ia dicat semasa lawatan kedua beliau ke England dan ia mengandungi banyak simbol dan makna tersembunyi.
+::sejenis arnab::0,1,2::::Ia dicat pada tahun 1502 dan ia diakui sebagai karya seni pemerhatian.
+::Gelombang Besar dari Kanagawa::3,12,16::::Ia adalah cetakan blok kayu yang menggambarkan ombak besar naik di atas bot nelayan di Teluk Kanagawa berhampiran Tokyo.
+::ciuman::4,5,2::::Ia adalah cetakan blok kayu terkenal yang dicipta di Jepun antara 1829 dan 1833.
+::Gelombang Kesembilan::10,7,3::::Ia adalah lukisan yang dicipta pada tahun 1850 oleh pelukis marin Rusia-Armenia Ivan Aivazovsky.
+::Jeritan Alam::11,7,5::::Ia adalah gubahan yang dicipta oleh artis Norway Edvard Munch pada tahun 1893 dan merupakan antara imej seni moden yang paling diiktiraf.
+::Malam Berbintang::6,16,7::::Dilukis pada tahun 1889, ia menggambarkan pemandangan dari tingkap bilik suaka Van Gogh sejurus sebelum matahari terbit.
+::Menara Babel::1,5,12::::Lukisan itu menggambarkan projek pembinaan yang diterangkan dalam Bible, menara Babel. Bruegel mencipta tiga versi lukisan itu, tetapi hanya dua yang terselamat sehingga hari ini.
+::Pengembara di atas Laut Kabut::5,9,8::::Ia adalah lukisan Romantikisme Jerman yang paling terkenal dan telah ditafsirkan sebagai lambang refleksi diri.

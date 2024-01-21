@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovsky::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Wassily Kandinsky::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::C'était un artiste impressionniste français célèbre pour ses dessins au pastel et ses peintures à l'huile.
+::Andy Warhol::9,7,4::::Il était un artiste visuel, réalisateur, producteur et figure de proue du mouvement pop art américain.
+::Caspar David Friedrich::0,4,8::::C'était un peintre paysagiste romantique allemand, généralement considéré comme l'artiste allemand le plus important de sa génération.
+::Paul Gauguin::8,2,10::::Il fut une figure importante du mouvement symboliste en tant que peintre, sculpteur et écrivain.
+::Claude Monet::8,11,12::::C'était un peintre français et fondateur de la peinture impressionniste, considérée comme l'un des précurseurs clés du modernisme.
+::Diego Rivera::12,8,9::::C'était un éminent peintre mexicain. Ses grandes fresques ont contribué à établir le mouvement mural dans l'art mexicain et international.
+::Diego Velázquez::4,12,9::::Il est considéré comme l'un des peintres les plus prestigieux de la période baroque.
+::Edvard Munch::8,5,4::::Il fut l’un des artistes les plus marquants du modernisme.
+::Edward Hopper::11,7,6::::C'était un peintre et graveur réaliste américain. Bien qu'il soit largement connu pour ses peintures à l'huile, il était également compétent en tant qu'aquarelliste et graveur.
+::El Greco::2,14,16::::C'était un peintre, sculpteur et architecte grec de la Renaissance espagnole.
+::Emanuel Leutze::13,15,16::::C'était un peintre d'histoire américain d'origine allemande.
+::Eugène Delacroix::6,14,16::::C'était un artiste romantique français considéré dès le début de sa carrière comme le chef de file de l'école romantique française.
+::Francisco Goya::13,5,15::::C'était un peintre romantique espagnol. Il est considéré comme l’artiste espagnol le plus important de la fin du XVIIIe et du début du XIXe siècle.
+::Frida Kahlo::12,21,11::::C'était une peintre mexicaine connue pour ses nombreux portraits, autoportraits et œuvres inspirées de la nature.
+::Georges Seurat::13,16,8::::Il fut le pionnier de la technique de peinture par petits points ou touches de couleur.
+::Grant Wood::12,23,20::::C'était un peintre américain surtout connu pour ses peintures représentant la campagne du Midwest américain.
+::Gustav Klimt::15,19,20::::C'était un peintre symboliste autrichien et l'un des membres les plus éminents du mouvement de la Sécession viennoise.
+::Vincent van Gogh::20,23,25::::C'était un peintre néerlandais qui compte parmi les figures les plus célèbres et les plus influentes de l'histoire de l'art occidental.
+::Henri Matisse::24,14,10::::C'était un artiste plasticien français, connu à la fois pour son utilisation de la couleur et son dessin fluide et original.
+::Pierre-Auguste Renoir::22,24,12::::C'était un artiste français qui fut l'un des principaux peintres dans le développement du style impressionniste.
+::Hokusai::17,13,26::::C'était un artiste japonais de la période Edo, actif comme peintre et graveur.
+::Ivan Aivazovsky::14,24,26::::C'était un artiste japonais de la période Edo, actif comme peintre et graveur.
+::James Abbott McNeill Whistler::14,26,18::::C'était un artiste américain réputé pour les peintures et dessins qu'il a réalisés en Europe dans la seconde moitié du XIXe siècle.
+::Jan van Eyck::17,18,26::::Il était un peintre néerlandais qui a perfectionné la technique nouvellement développée de la peinture à l'huile.
+::Johannes Vermeer::31,22,19::::C'était un peintre hollandais de la période baroque spécialisé dans les scènes d'intérieur domestiques de la vie de la classe moyenne.
+::Leonardo da Vinci::33,21,19::::C'était un mathématicien italien actif en tant que peintre, ingénieur, scientifique et architecte.
+::Marc Chagall::22,32,18::::C'était un artiste biélorusse et français. Un des premiers modernistes, il a été associé à plusieurs styles artistiques majeurs.
+::Pablo Picasso::32,33,31::::C'était un peintre et sculpteur espagnol qui a passé la majeure partie de sa vie adulte en France. L'un des artistes les plus influents du XXe siècle.
+::Paolo Uccello::23,21,30::::Il était un artiste italien important du début de la Renaissance, connu pour son utilisation pionnière de la perspective.
+::Paul Cézanne::26,23,28::::C'était un peintre post-impressionniste dont les idées influencent de nombreux artistes du XXe siècle et notamment le cubisme.
+::Wassily Kandinsky::26,31,34::::C'était un artiste russe, l'un des premiers créateurs d'abstraction pure dans la peinture moderne.
+::Rembrandt::34,27,33::::C'était un peintre, graveur et dessinateur néerlandais. Il est considéré comme l’un des plus grands artistes plasticiens de l’histoire de l’art.
+::Albrecht Dürer::26,33,28::::C'était un peintre, graveur et théoricien allemand de la Renaissance allemande.
+::Salvador Dali::32,26,28::::C'était un artiste surréaliste espagnol réputé pour ses compétences techniques et les images frappantes et bizarres de son travail.
+::Sandro Botticelli::33,27,28::::C'était un peintre italien du début de la Renaissance.

@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovski::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Vasilij Kandinski::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::Bil je francoski impresionistični umetnik, znan po pastelnih risbah in oljnih slikah.
+::Andy Warhol::9,7,4::::Bil je ameriški vizualni umetnik, filmski režiser, producent in vodilna oseba pop art gibanja.
+::Caspar David Friedrich::0,4,8::::Bil je nemški romantični krajinski slikar, ki je na splošno veljal za najpomembnejšega nemškega umetnika svoje generacije.
+::Paul Gauguin::8,2,10::::Bil je pomembna oseba v simbolističnem gibanju kot slikar, kipar in pisatelj.
+::Claude Monet::8,11,12::::Bil je francoski slikar in utemeljitelj impresionističnega slikarstva, ki velja za ključnega predhodnika modernizma.
+::Diego Rivera::12,8,9::::Bil je ugleden mehiški slikar. Njegove velike freske so pomagale vzpostaviti stensko gibanje v mehiški in mednarodni umetnosti.
+::Diego Velázquez::4,12,9::::Velja za enega najprestižnejših slikarjev baročnega obdobja.
+::Edvard Munch::8,5,4::::Bil je eden najpomembnejših umetnikov moderne.
+::Edward Hopper::11,7,6::::Bil je ameriški realistični slikar in grafik. Čeprav je splošno znan po svojih oljnih slikah, je bil enako spreten kot akvarelist in grafik.
+::El Greco::2,14,16::::Bil je grški slikar, kipar in arhitekt španske renesanse.
+::Emanuel Leutze::13,15,16::::Bil je ameriški zgodovinski slikar nemškega rodu.
+::Eugène Delacroix::6,14,16::::Bil je francoski romantični umetnik, ki je od začetka svoje kariere veljal za vodjo francoske romantične šole.
+::Francisco Goya::13,5,15::::Bil je španski romantični slikar. Velja za najpomembnejšega španskega umetnika poznega 18. in zgodnjega 19. stoletja.
+::Frida Kahlo::12,21,11::::Bila je mehiška slikarka, znana po številnih portretih, avtoportretih in delih, ki jih je navdihnila narava.
+::Georges Seurat::13,16,8::::Bil je začetnik tehnike slikanja v majhnih pikah ali barvnih potezah.
+::Grant Wood::12,23,20::::Bil je ameriški slikar, najbolj znan po svojih slikah, ki prikazujejo podeželski ameriški srednji zahod.
+::Gustav Klimt::15,19,20::::Bil je avstrijski simbolistični slikar in eden najvidnejših članov dunajske secesije.
+::Vincent van Gogh::20,23,25::::Bil je nizozemski slikar, ki je med najslavnejšimi in najvplivnejšimi osebnostmi v zgodovini zahodne umetnosti.
+::Henri Matisse::24,14,10::::Bil je francoski vizualni umetnik, znan tako po uporabi barv kot po tekočem in izvirnem risanju.
+::Pierre-Auguste Renoir::22,24,12::::Bil je francoski umetnik, ki je bil vodilni slikar v razvoju impresionističnega sloga.
+::Hokusai::17,13,26::::Bil je japonski umetnik iz obdobja Edo, aktiven kot slikar in grafik.
+::Ivan Aivazovski::14,24,26::::Bil je japonski umetnik iz obdobja Edo, aktiven kot slikar in grafik.
+::James Abbott McNeill Whistler::14,26,18::::Bil je ameriški umetnik, znan po slikah in risbah, ki jih je naredil v Evropi v drugi polovici 19. stoletja.
+::Jan van Eyck::17,18,26::::Bil je nizozemski slikar, ki je izpopolnil novo razvito tehniko oljnega slikanja.
+::Johannes Vermeer::31,22,19::::Bil je nizozemski baročni slikar, specializiran za domače notranje prizore življenja srednjega razreda.
+::Leonardo da Vinci::33,21,19::::Bil je italijanski polihistor, ki je deloval kot slikar, inženir, znanstvenik in arhitekt.
+::Marc Chagall::22,32,18::::Bil je beloruski in francoski umetnik. Zgodnji modernist je bil povezan z več velikimi umetniškimi slogi.
+::Pablo Picasso::32,33,31::::Bil je španski slikar in kipar, ki je večino svojega odraslega življenja preživel v Franciji. Eden najvplivnejših umetnikov 20. stoletja.
+::Paolo Uccello::23,21,30::::Bil je pomemben italijanski umetnik zgodnje renesanse, znan po svoji pionirski uporabi perspektive.
+::Paul Cézanne::26,23,28::::Bil je postimpresionistični slikar, čigar ideje so vplivale na mnoge umetnike 20. stoletja in še posebej na kubizem.
+::Vasilij Kandinski::26,31,34::::Bil je ruski umetnik, eden prvih ustvarjalcev čiste abstrakcije v modernem slikarstvu.
+::Rembrandt::34,27,33::::Bil je nizozemski slikar, grafik in risar. Velja za enega največjih vizualnih umetnikov v zgodovini umetnosti.
+::Albrecht Dürer::26,33,28::::Bil je nemški slikar, grafik in teoretik nemške renesanse.
+::Salvador Dali::32,26,28::::Bil je španski nadrealistični umetnik, znan po svoji tehnični spretnosti ter osupljivih in bizarnih podobah v svojih delih.
+::Sandro Botticelli::33,27,28::::Bil je italijanski slikar zgodnje renesanse.

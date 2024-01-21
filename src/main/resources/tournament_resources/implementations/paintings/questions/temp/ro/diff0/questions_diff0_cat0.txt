@@ -1,17 +1,17 @@
-::Un prieten la nevoie::11,8,1::::
-::O duminică după-amiază în parcul La Grande Jatte::7,13,15::::
-::American Gothic::5,0,3::::
-::Compoziție cu roșu, galben, albastru și negru::10,2,12::::
-::Fată cu cercel de perlă::5,14,1::::
-::Crearea lui Adam::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Nighthawks::14,13,15::::
-::Ambasadorii::12,3,5::::
-::Iepure de câmp::0,1,2::::
-::Marele val de la Kanagawa::3,12,16::::
-::Sărutul::4,5,2::::
-::Al nouălea val::10,7,3::::
-::Ţipătul::11,7,5::::
-::Noapte înstelată::6,16,7::::
-::Turnul Babel::1,5,12::::
-::Hoinarul deasupra mării de ceaţă::5,9,8::::
+::Un prieten la nevoie::11,8,1::::Este cel mai faimos dintr-o serie de 16 picturi. Picturile au fost comandate de o companie care făcea reclamă la trabucuri.
+::O duminică după-amiază în parcul La Grande Jatte::7,13,15::::A fost pictată între 1884 și 1886 și este cea mai cunoscută lucrare a lui Georges Seurat.
+::American Gothic::5,0,3::::Este una dintre cele mai faimoase picturi americane ale secolului al XX-lea.
+::Compoziție cu roșu, galben, albastru și negru::10,2,12::::Reprezintă o etapă matură a abstracției lui Mondrian. Pare a fi o lucrare plată, dar există diferențe în textura diferitelor elemente.
+::Fată cu cercel de perlă::5,14,1::::Este cel mai faimos tablou al lui Vermeer. Este o pictură cu o figură imaginară care poartă un turban oriental și o perlă improbabil de mare la ureche.
+::Crearea lui Adam::6,12,8::::Este o frescă pictată de Michelangelo între 1508 și 1512 pe tavanul Capelei Sixtine din Vatican. Ea înfățișează pasajul din Cartea Genezei care descrie că Dumnezeu l-a creat pe Adam și dă viață primului om.
+::Mona Lisa::8,14,4::::Este considerată o capodopera a Renașterii italiene, a fost descrisă ca fiind cea mai cunoscută operă de artă din lume.
+::Nighthawks::14,13,15::::Este unul dintre picturile lui Hopper din New York, iar artistul a spus că se bazează pe o adevărată cafenea.
+::Ambasadorii::12,3,5::::Este una dintre cele mai faimoase picturi ale lui Holbein. A fost pictat în timpul celei de-a doua vizite în Anglia și conține multe simboluri și semnificații ascunse.
+::Iepure de câmp::0,1,2::::A fost pictat în 1502 și este recunoscut ca o capodoperă a artei observaționale.
+::Marele val de la Kanagawa::3,12,16::::Este o imprimare în lemn care înfățișează un val uriaș care se ridică deasupra unei bărci de pescuit în golful Kanagawa, lângă Tokyo.
+::Sărutul::4,5,2::::Este o imprimare faimoasă din lemn creată în Japonia între 1829 și 1833.
+::Al nouălea val::10,7,3::::Este o pictură creată în 1850 de pictorul marin ruso-armean Ivan Aivazovsky.
+::Ţipătul::11,7,5::::Este o compoziție creată de artistul norvegian Edvard Munch în 1893 și se numără printre cele mai recunoscute imagini ale artei moderne.
+::Noapte înstelată::6,16,7::::Pictat în 1889, ea înfățișează vederea de la fereastra camerei de azil a lui Van Gogh chiar înainte de răsăritul soarelui.
+::Turnul Babel::1,5,12::::Pictura înfățișează un proiect de construcție care este descris în Biblie, turnul Babel. Bruegel a creat trei versiuni ale picturii, dar doar două au supraviețuit până în prezent.
+::Hoinarul deasupra mării de ceaţă::5,9,8::::Este cel mai cunoscut tablou al romantismului german și a fost interpretat ca o emblemă a auto-reflecției.

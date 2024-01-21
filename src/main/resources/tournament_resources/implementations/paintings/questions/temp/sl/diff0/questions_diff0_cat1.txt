@@ -1,16 +1,16 @@
-::Abstraktni ekspresionizem::8,7,1::::
-::Art Nouveau::7,6,4::::
-::Suprematizem::9,7,0::::
-::Kubizem::2,11,1::::
-::Dada::10,0,6::::
-::Ekspresionizem::10,12,3::::
-::Fovizem::1,3,7::::
-::Grafiti::8,5,0::::
-::Impresionizem::15,1,5::::
-::Srednjeveška umetnost::15,2,8::::
-::Realizem::9,13,3::::
-::Renesansa::12,15,8::::
-::romantika::4,6,13::::
-::Socialni realizem::11,14,9::::
-::Nadrealizem::7,13,10::::
-::Simbolizem::8,11,13::::
+::Abstraktni ekspresionizem::8,7,1::::To je bilo povojno umetniško gibanje, ki je New York sredi dvajsetega stoletja postavilo v središče sveta umetnosti. Slike imajo skupne nekatere značilnosti, vključno z uporabo velikih platen in stališčem, da umetnost ne sme biti reprezentativna.
+::Art Nouveau::7,6,4::::Je umetniško gibanje, za katerega je značilen poudarek na pretočnosti linij, geometrijskih oblikah, asimetričnih kompozicijah in drzni kombinaciji strukture in ornamentike.
+::Suprematizem::9,7,0::::To je bilo gibanje abstraktne umetnosti, ustanovljeno v Rusiji med prvo svetovno vojno.
+::Kubizem::2,11,1::::To je bil revolucionaren nov pristop k predstavljanju realnosti, ki sta ga okrog leta 1907 izumila umetnika Pablo Picasso in Georges Braque.
+::Dada::10,0,6::::Začelo se je v Zürichu okoli leta 1915, izumili so ga begunski umetniki in intelektualci iz evropskih prestolnic, ki jih je prizadela prva svetovna vojna.
+::Ekspresionizem::10,12,3::::Gre za modernistično gibanje, sprva v poeziji in slikarstvu, ki izvira iz severne Evrope okoli začetka 20. stoletja.
+::Fovizem::1,3,7::::To je slikarski slog, ki je v Franciji cvetel na prelomu 20. stoletja. Zanj je značilna čista barva, ki se agresivno nanaša naravnost iz barvnih cevi, da ustvari občutek eksplozije na platnu.
+::Grafiti::8,5,0::::To je umetnost, ki je napisana, naslikana ali narisana na steno ali drugo površino, običajno brez dovoljenja in v javnosti.
+::Impresionizem::15,1,5::::To je stil slikanja, ki se je začel v Franciji v poznem 19. stoletju. Prikazuje realistične subjekte, naslikane v hitrem slogu, s potezami, ki so zlahka vidne.
+::Srednjeveška umetnost::15,2,8::::Srednjeveška umetnost v Evropi je zrasla iz umetniške dediščine rimskega imperija in ikonografske tradicije zgodnje krščanske cerkve.
+::Realizem::9,13,3::::Zanj je značilno natančno, podrobno, neolepšano upodabljanje narave ali sodobnega življenja. Zavrača domišljijsko idealizacijo v korist natančnega opazovanja zunanjega videza.
+::Renesansa::12,15,8::::Je obdobje v zgodovini in kulturno gibanje, ki zaznamuje prehod iz srednjega veka v sodobnost.
+::romantika::4,6,13::::Zanj so bili značilni poudarek na čustvenosti in individualizmu ter poveličevanje preteklosti in narave, ki je dajalo prednost srednjeveškemu kot klasičnemu.
+::Socialni realizem::11,14,9::::To je bilo gibanje, ki je cvetelo med obema svetovnima vojnama kot odgovor na socialne in politične pretrese in stiske tega obdobja.
+::Nadrealizem::7,13,10::::Bilo je umetniško gibanje dvajsetega stoletja, ki je raziskovalo delovanje uma in zagovarjalo iracionalno, poetično in revolucionarno.
+::Simbolizem::8,11,13::::To je bilo umetniško gibanje francoskega in belgijskega izvora s konca 19. stoletja, ki je želelo simbolično predstaviti absolutne resnice z jezikom in metaforičnimi podobami.

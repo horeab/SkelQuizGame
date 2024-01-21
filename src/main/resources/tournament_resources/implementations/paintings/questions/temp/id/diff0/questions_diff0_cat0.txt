@@ -1,17 +1,17 @@
-::Teman yang Membutuhkan::11,8,1::::
-::Sore Minggu di Pulau La Grande Jatte::7,13,15::::
-::American Gothic::5,0,3::::
-::Komposisi dengan warna merah, kuning, biru dan hitam::10,2,12::::
-::Gadis dengan Anting-Anting Mutiara::5,14,1::::
-::Penciptaan Adam::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Nighthawks::14,13,15::::
-::Duta Besar::12,3,5::::
-::Kelinci::0,1,2::::
-::Gelombang Hebat di Kanagawa::3,12,16::::
-::Ciuman::4,5,2::::
-::Gelombang Kesembilan::10,7,3::::
-::Jeritan::11,7,5::::
-::Malam Berbintang::6,16,7::::
-::Menara Babel::1,5,12::::
-::Pengembara di atas Lautan Kabut::5,9,8::::
+::Teman yang Membutuhkan::11,8,1::::Ini adalah rangkaian 16 lukisan yang paling terkenal. Lukisan-lukisan itu dipesan oleh perusahaan yang mengiklankan cerutu.
+::Sore Minggu di Pulau La Grande Jatte::7,13,15::::Itu dilukis dari tahun 1884 hingga 1886 dan merupakan karya Georges Seurat yang paling terkenal.
+::American Gothic::5,0,3::::Ini adalah salah satu lukisan Amerika paling terkenal pada abad ke-20.
+::Komposisi dengan warna merah, kuning, biru dan hitam::10,2,12::::Ini mewakili tahap abstraksi Mondrian yang matang. Tampaknya ini merupakan karya datar, tetapi terdapat perbedaan tekstur pada elemen yang berbeda.
+::Gadis dengan Anting-Anting Mutiara::5,14,1::::Ini adalah lukisan Vermeer yang paling terkenal. Ini adalah lukisan sosok khayalan yang mengenakan sorban oriental dan mutiara yang sangat besar di telinganya.
+::Penciptaan Adam::6,12,8::::Ini adalah lukisan dinding yang dilukis oleh Michelangelo antara tahun 1508 dan 1512 di langit-langit Kapel Sistina di Kota Vatikan. Ini menggambarkan bagian dari Kitab Kejadian yang menggambarkan Tuhan menciptakan Adam dan memberikan kehidupan kepada manusia pertama.
+::Mona Lisa::8,14,4::::Karya ini dianggap sebagai mahakarya Renaisans Italia, dan digambarkan sebagai karya seni paling terkenal di dunia.
+::Nighthawks::14,13,15::::Ini adalah salah satu lukisan Hopper di Kota New York, dan sang seniman mengatakan bahwa lukisan itu didasarkan pada sebuah kafe sungguhan.
+::Duta Besar::12,3,5::::Ini adalah salah satu lukisan paling terkenal karya Holbein. Lukisan itu dilukis pada kunjungan keduanya ke Inggris dan mengandung banyak simbol dan makna tersembunyi.
+::Kelinci::0,1,2::::Lukisan ini dilukis pada tahun 1502 dan diakui sebagai mahakarya seni observasi.
+::Gelombang Hebat di Kanagawa::3,12,16::::Ini adalah cetakan balok kayu yang menggambarkan gelombang besar yang muncul di atas perahu nelayan di Teluk Kanagawa dekat Tokyo.
+::Ciuman::4,5,2::::Ini adalah cetakan balok kayu terkenal yang dibuat di Jepang antara tahun 1829 dan 1833.
+::Gelombang Kesembilan::10,7,3::::Ini adalah lukisan yang dibuat pada tahun 1850 oleh pelukis kelautan Rusia-Armenia Ivan Aivazovsky.
+::Jeritan::11,7,5::::Ini adalah komposisi yang dibuat oleh seniman Norwegia Edvard Munch pada tahun 1893 dan merupakan salah satu gambar seni modern yang paling dikenal.
+::Malam Berbintang::6,16,7::::Dilukis pada tahun 1889, lukisan ini menggambarkan pemandangan dari jendela kamar rumah sakit jiwa Van Gogh sesaat sebelum matahari terbit.
+::Menara Babel::1,5,12::::Lukisan tersebut menggambarkan sebuah proyek konstruksi yang digambarkan dalam Alkitab, menara Babel. Bruegel menciptakan tiga versi lukisan tersebut, namun hanya dua yang bertahan hingga saat ini.
+::Pengembara di atas Lautan Kabut::5,9,8::::Ini adalah lukisan Romantisisme Jerman yang paling terkenal dan telah ditafsirkan sebagai lambang refleksi diri.

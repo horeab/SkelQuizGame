@@ -1,16 +1,16 @@
-::Abstrakt expressionism::8,7,1::::
-::Jugend::7,6,4::::
-::Suprematism::9,7,0::::
-::kubism::2,11,1::::
-::Dada::10,0,6::::
-::Expressionism::10,12,3::::
-::Fauvism::1,3,7::::
-::Grafitti::8,5,0::::
-::Impressionism::15,1,5::::
-::Medeltida konst::15,2,8::::
-::realism::9,13,3::::
-::Renässansen::12,15,8::::
-::Romantiken::4,6,13::::
-::Socialrealism::11,14,9::::
-::Surrealism::7,13,10::::
-::Symbolism::8,11,13::::
+::Abstrakt expressionism::8,7,1::::Det var en efterkrigskonströrelse som placerade New York i centrum för konstvärlden i mitten av 1900-talet. Målningarna delar vissa egenskaper, bland annat användningen av stora dukar och genom uppfattningen att konst ska vara icke-representativ.
+::Jugend::7,6,4::::Det är en konströrelse som kännetecknas av en betoning på linjernas flytande, geometriska former, asymmetriska kompositioner och en vågad kombination av struktur och ornamentik.
+::Suprematism::9,7,0::::Det var en abstrakt konströrelse som grundades i Ryssland under första världskriget.
+::kubism::2,11,1::::Det var ett revolutionerande nytt sätt att representera verkligheten som uppfanns runt år 1907 av konstnärerna Pablo Picasso och Georges Braque.
+::Dada::10,0,6::::Det började i Zürich omkring år 1915, uppfunnit av flyktingkonstnärer och intellektuella från europeiska huvudstäder som drabbats av första världskriget.
+::Expressionism::10,12,3::::Det är en modernistisk rörelse, till en början inom poesi och måleri, med ursprung i norra Europa kring början av 1900-talet.
+::Fauvism::1,3,7::::Det är en målarstil som blomstrade i Frankrike runt 1900-talets början. Den kännetecknas av ren färg som appliceras aggressivt direkt från färgrören för att skapa en känsla av en explosion på duken.
+::Grafitti::8,5,0::::Det är konst som är skriven, målad eller ritad på en vägg eller annan yta, oftast utan tillstånd och inom allmän syn.
+::Impressionism::15,1,5::::Det är en målarstil som började i Frankrike i slutet av 1800-talet. Den visar verklighetstrogna motiv målade i en snabb stil, med linjer som är lätta att se.
+::Medeltida konst::15,2,8::::Medeltida konst i Europa växte fram ur det romerska imperiets konstnärliga arv och den tidiga kristna kyrkans ikonografiska traditioner.
+::realism::9,13,3::::Den kännetecknas av den exakta, detaljerade, oförskönade skildringen av naturen eller av det samtida livet. Den avvisar fantasifull idealisering till förmån för en nära observation av det yttre.
+::Renässansen::12,15,8::::Det är en period i historien och en kulturell rörelse som markerar övergången från medeltid till modernitet.
+::Romantiken::4,6,13::::Den kännetecknades av sin betoning på känslor och individualism samt förhärligande av det förflutna och naturen, och föredrog det medeltida framför det klassiska.
+::Socialrealism::11,14,9::::Det var en rörelse som blomstrade mellan de två världskrigen som svar på den sociala och politiska turbulensen och svårigheterna under perioden.
+::Surrealism::7,13,10::::Det var en konstnärlig rörelse från 1900-talet som utforskade sinnets funktion och försvarade det irrationella, det poetiska och det revolutionära.
+::Symbolism::8,11,13::::Det var en konströrelse från slutet av 1800-talet av franskt och belgiskt ursprung som försökte representera absoluta sanningar symboliskt genom språk och metaforiska bilder.

@@ -1,16 +1,16 @@
-::Expresionismo abstracto::8,7,1::::
-::Modernismo::7,6,4::::
-::Suprematismo::9,7,0::::
-::Cubismo::2,11,1::::
-::Dada::10,0,6::::
-::Expresionismo::10,12,3::::
-::Fauvismo::1,3,7::::
-::Graffiti::8,5,0::::
-::Impresionismo::15,1,5::::
-::Arte medieval::15,2,8::::
-::Realismo::9,13,3::::
-::Renacimiento::12,15,8::::
-::Romanticismo::4,6,13::::
-::Realismo social::11,14,9::::
-::Surrealismo::7,13,10::::
-::Simbolismo::8,11,13::::
+::Expresionismo abstracto::8,7,1::::Fue un movimiento artístico de posguerra que colocó a Nueva York en el centro del mundo del arte a mediados del siglo XX. Las pinturas comparten ciertas características, incluido el uso de lienzos de gran tamaño y la visión de que el arte debe ser no representativo.
+::Modernismo::7,6,4::::Es un movimiento artístico caracterizado por un énfasis en la fluidez de las líneas, las formas geométricas, las composiciones asimétricas y una atrevida combinación de estructura y ornamentación.
+::Suprematismo::9,7,0::::Fue un movimiento de arte abstracto fundado en Rusia durante la Primera Guerra Mundial.
+::Cubismo::2,11,1::::Fue un nuevo enfoque revolucionario para representar la realidad inventado alrededor del año 1907 por los artistas Pablo Picasso y Georges Braque.
+::Dada::10,0,6::::Comenzó en Zurich alrededor del año 1915, inventado por artistas e intelectuales refugiados de capitales europeas acosadas por la Primera Guerra Mundial.
+::Expresionismo::10,12,3::::Es un movimiento modernista, inicialmente en poesía y pintura, con origen en el norte de Europa a principios del siglo XX.
+::Fauvismo::1,3,7::::Es un estilo de pintura que floreció en Francia a principios del siglo XX. Se caracteriza por el color puro aplicado agresivamente directamente desde los tubos de pintura para crear una sensación de explosión en el lienzo.
+::Graffiti::8,5,0::::Es arte escrito, pintado o dibujado en una pared u otra superficie, generalmente sin permiso y a la vista del público.
+::Impresionismo::15,1,5::::Es un estilo de pintura que se inició en Francia a finales del siglo XIX. Muestra sujetos realistas pintados con un estilo rápido, con trazos que se ven fácilmente.
+::Arte medieval::15,2,8::::El arte medieval en Europa surgió de la herencia artística del Imperio Romano y las tradiciones iconográficas de la iglesia cristiana primitiva.
+::Realismo::9,13,3::::Se caracteriza por la representación precisa, detallada y sin adornos de la naturaleza o de la vida contemporánea. Rechaza la idealización imaginativa en favor de una observación minuciosa de las apariencias exteriores.
+::Renacimiento::12,15,8::::Es un período de la historia y un movimiento cultural que marca la transición de la Edad Media a la modernidad.
+::Romanticismo::4,6,13::::Se caracterizó por su énfasis en la emoción y el individualismo, así como por la glorificación del pasado y la naturaleza, prefiriendo lo medieval a lo clásico.
+::Realismo social::11,14,9::::Fue un movimiento que floreció entre las dos guerras mundiales en respuesta a la agitación y las dificultades sociales y políticas del período.
+::Surrealismo::7,13,10::::Fue un movimiento artístico del siglo XX que exploró el funcionamiento de la mente, defendiendo lo irracional, lo poético y lo revolucionario.
+::Simbolismo::8,11,13::::Fue un movimiento artístico de finales del siglo XIX, de origen francés y belga, que buscaba representar simbólicamente verdades absolutas a través del lenguaje y las imágenes metafóricas.

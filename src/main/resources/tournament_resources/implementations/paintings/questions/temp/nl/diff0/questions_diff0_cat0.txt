@@ -1,17 +1,17 @@
-::Een vriend in nood::11,8,1::::
-::Dimanche d'été à la Grande Jatte::7,13,15::::
-::American Gothic::5,0,3::::
-::Samenstelling met rood, geel, blauw en zwart::10,2,12::::
-::Meisje met de parel::5,14,1::::
-::De schepping van Adam::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Nighthawks::14,13,15::::
-::De ambassadeurs::12,3,5::::
-::Haas::0,1,2::::
-::De grote golf van Kanagawa::3,12,16::::
-::De kus::4,5,2::::
-::De negende golf::10,7,3::::
-::De schreeuw::11,7,5::::
-::De Sterrennacht::6,16,7::::
-::De toren van Babel::1,5,12::::
-::Zwerver boven de zee van mist::5,9,8::::
+::Een vriend in nood::11,8,1::::Het is de bekendste van een serie van 16 schilderijen. De schilderijen zijn gemaakt in opdracht van een bedrijf dat reclame maakte voor sigaren.
+::Dimanche d'été à la Grande Jatte::7,13,15::::Het werd geschilderd van 1884 tot 1886 en is het beroemdste werk van Georges Seurat.
+::American Gothic::5,0,3::::Het is een van de beroemdste Amerikaanse schilderijen van de 20e eeuw.
+::Samenstelling met rood, geel, blauw en zwart::10,2,12::::Het vertegenwoordigt een volwassen stadium van Mondriaans abstractie. Het lijkt een plat werk, maar er zijn verschillen in de textuur van verschillende elementen.
+::Meisje met de parel::5,14,1::::Het is het beroemdste schilderij van Vermeer. Het is een schilderij van een denkbeeldige figuur met een oosterse tulband en een onwaarschijnlijk grote parel in haar oor.
+::De schepping van Adam::6,12,8::::Het is een fresco dat Michelangelo tussen 1508 en 1512 schilderde op het plafond van de Sixtijnse Kapel in Vaticaanstad. Het toont de passage uit het boek Genesis waarin wordt beschreven dat God Adam schiep en leven schonk aan de eerste mens.
+::Mona Lisa::8,14,4::::Het wordt beschouwd als een meesterwerk uit de Italiaanse Renaissance en wordt beschreven als het bekendste kunstwerk ter wereld.
+::Nighthawks::14,13,15::::Het is een van Hoppers schilderijen uit New York City, en de kunstenaar zei dat het gebaseerd was op een echt café.
+::De ambassadeurs::12,3,5::::Het is een van de beroemdste schilderijen van Holbein. Het is geschilderd tijdens zijn tweede bezoek aan Engeland en bevat veel symbolen en verborgen betekenissen.
+::Haas::0,1,2::::Het werd geschilderd in 1502 en wordt erkend als een meesterwerk van observatiekunst.
+::De grote golf van Kanagawa::3,12,16::::Het is een houtsnede die een enorme golf afbeeldt die boven een vissersboot uitsteekt in de Kanagawa-baai, nabij Tokio.
+::De kus::4,5,2::::Het is een beroemde houtsnede gemaakt in Japan tussen 1829 en 1833.
+::De negende golf::10,7,3::::Het is een schilderij gemaakt in 1850 door de Russisch-Armeense zeeschilder Ivan Aivazovsky.
+::De schreeuw::11,7,5::::Het is een compositie gemaakt door de Noorse kunstenaar Edvard Munch in 1893 en behoort tot de meest erkende afbeeldingen van de moderne kunst.
+::De Sterrennacht::6,16,7::::Het is geschilderd in 1889 en toont het uitzicht vanuit het raam van Van Goghs asielkamer vlak voor zonsopgang.
+::De toren van Babel::1,5,12::::Het schilderij toont een bouwproject dat in de Bijbel wordt beschreven, de toren van Babel. Bruegel maakte drie versies van het schilderij, maar er zijn er tot op de dag van vandaag slechts twee bewaard gebleven.
+::Zwerver boven de zee van mist::5,9,8::::Het is het bekendste schilderij van de Duitse romantiek en wordt geïnterpreteerd als een embleem van zelfreflectie.

@@ -1,16 +1,16 @@
-::Abstract expressionisme::8,7,1::::
-::jugendstil::7,6,4::::
-::Suprematisme::9,7,0::::
-::Kubisme::2,11,1::::
-::Dada::10,0,6::::
-::Expressionisme::10,12,3::::
-::fauvisme::1,3,7::::
-::Graffiti::8,5,0::::
-::Impressionisme::15,1,5::::
-::Middeleeuwse kunst::15,2,8::::
-::Realisme::9,13,3::::
-::Renaissance::12,15,8::::
-::Romantiek::4,6,13::::
-::Sociaal realisme::11,14,9::::
-::Surrealisme::7,13,10::::
-::Symbolisme::8,11,13::::
+::Abstract expressionisme::8,7,1::::Het was een naoorlogse kunststroming die New York halverwege de twintigste eeuw in het centrum van de kunstwereld plaatste. De schilderijen delen bepaalde kenmerken, waaronder het gebruik van grote doeken en de opvatting dat kunst niet-representatief mag zijn.
+::jugendstil::7,6,4::::Het is een kunststroming die wordt gekenmerkt door de nadruk op de vloeiendheid van lijnen, geometrische vormen, asymmetrische composities en een gedurfde combinatie van structuur en versieringen.
+::Suprematisme::9,7,0::::Het was een abstracte kunststroming die tijdens de Eerste Wereldoorlog in Rusland werd opgericht.
+::Kubisme::2,11,1::::Het was een revolutionaire nieuwe benadering om de werkelijkheid weer te geven, uitgevonden rond het jaar 1907 door kunstenaars Pablo Picasso en Georges Braque.
+::Dada::10,0,6::::Het begon rond 1915 in Zürich, uitgevonden door gevluchte kunstenaars en intellectuelen uit Europese hoofdsteden die geteisterd werden door de Eerste Wereldoorlog.
+::Expressionisme::10,12,3::::Het is een modernistische beweging, aanvankelijk in poëzie en schilderkunst, die rond het begin van de 20e eeuw in Noord-Europa ontstond.
+::fauvisme::1,3,7::::Het is een schilderstijl die rond de eeuwwisseling in Frankrijk tot bloei kwam. Het wordt gekenmerkt door pure kleur die agressief rechtstreeks vanuit de verftubes wordt aangebracht om een gevoel van explosie op het canvas te creëren.
+::Graffiti::8,5,0::::Het is kunst die op een muur of ander oppervlak wordt geschreven, geschilderd of getekend, meestal zonder toestemming en binnen het publieke zicht.
+::Impressionisme::15,1,5::::Het is een schilderstijl die eind 19e eeuw in Frankrijk begon. Het toont levensechte onderwerpen, geschilderd in een snelle stijl, met streken die gemakkelijk zichtbaar zijn.
+::Middeleeuwse kunst::15,2,8::::Middeleeuwse kunst in Europa is voortgekomen uit het artistieke erfgoed van het Romeinse rijk en de iconografische tradities van de vroegchristelijke kerk.
+::Realisme::9,13,3::::Het wordt gekenmerkt door de nauwkeurige, gedetailleerde, onopgesmukte weergave van de natuur of het hedendaagse leven. Het verwerpt fantasierijke idealisering ten gunste van een nauwkeurige observatie van de uiterlijke schijn.
+::Renaissance::12,15,8::::Het is een periode in de geschiedenis en een culturele beweging die de overgang markeert van de middeleeuwen naar de moderniteit.
+::Romantiek::4,6,13::::Het werd gekenmerkt door de nadruk op emotie en individualisme, evenals de verheerlijking van het verleden en de natuur, waarbij de voorkeur werd gegeven aan het middeleeuwse boven het klassieke.
+::Sociaal realisme::11,14,9::::Het was een beweging die tussen de twee wereldoorlogen tot bloei kwam als reactie op de sociale en politieke onrust en ontberingen van die periode.
+::Surrealisme::7,13,10::::Het was een twintigste-eeuwse artistieke beweging die de werking van de geest onderzocht en het irrationele, poëtische en revolutionaire verdedigde.
+::Symbolisme::8,11,13::::Het was een laat 19e-eeuwse kunstbeweging van Franse en Belgische oorsprong die absolute waarheden symbolisch wilde weergeven door middel van taal en metaforische beelden.

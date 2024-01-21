@@ -1,17 +1,17 @@
-::Ein Freund in Not::11,8,1::::
-::Ein Sonntagnachmittag auf der Insel La Grande Jatte::7,13,15::::
-::American Gothic::5,0,3::::
-::Komposition mit rot, gelb, blau und schwarz::10,2,12::::
-::Das Mädchen mit dem Perlenohrgehänge::5,14,1::::
-::Die Erschaffung Adams::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Nighthawks::14,13,15::::
-::Die Botschafter::12,3,5::::
-::Feldhase::0,1,2::::
-::Die große Welle vor Kanagawa::3,12,16::::
-::Der Kuss::4,5,2::::
-::Die neunte Welle::10,7,3::::
-::Der Schrei::11,7,5::::
-::Sternennacht::6,16,7::::
-::Der Turm von Babel::1,5,12::::
-::Der Wanderer über dem Nebelmeer::5,9,8::::
+::Ein Freund in Not::11,8,1::::Es ist das berühmteste einer Serie von 16 Gemälden. Die Gemälde wurden von einer Firma in Auftrag gegeben, die für Zigarren wirbt.
+::Ein Sonntagnachmittag auf der Insel La Grande Jatte::7,13,15::::Es wurde von 1884 bis 1886 gemalt und ist Georges Seurats berühmtestes Werk.
+::American Gothic::5,0,3::::Es ist eines der berühmtesten amerikanischen Gemälde des 20. Jahrhunderts.
+::Komposition mit rot, gelb, blau und schwarz::10,2,12::::Es repräsentiert eine ausgereifte Stufe von Mondrians Abstraktion. Es scheint eine flache Arbeit zu sein, aber es gibt Unterschiede in der Textur verschiedener Elemente.
+::Das Mädchen mit dem Perlenohrgehänge::5,14,1::::Es ist Vermeers berühmtestes Gemälde. Es ist ein Gemälde einer imaginären Figur, die einen orientalischen Turban und eine unwahrscheinlich große Perle im Ohr trägt.
+::Die Erschaffung Adams::6,12,8::::Es handelt sich um ein Fresko, das Michelangelo zwischen 1508 und 1512 an der Decke der Sixtinischen Kapelle in der Vatikanstadt malte. Es zeigt die Passage aus dem Buch Genesis, in der beschrieben wird, wie Gott Adam erschafft und dem ersten Menschen Leben schenkt.
+::Mona Lisa::8,14,4::::Es gilt als Meisterwerk der italienischen Renaissance und wurde als das bekannteste Kunstwerk der Welt beschrieben.
+::Nighthawks::14,13,15::::Es handelt sich um eines von Hoppers New York City-Gemälden, und der Künstler sagte, dass es einem echten Café nachempfunden sei.
+::Die Botschafter::12,3,5::::Es ist eines der berühmtesten Gemälde von Holbein. Es wurde während seines zweiten Besuchs in England gemalt und enthält viele Symbole und verborgene Bedeutungen.
+::Feldhase::0,1,2::::Es wurde 1502 gemalt und gilt als Meisterwerk der Beobachtungskunst.
+::Die große Welle vor Kanagawa::3,12,16::::Es handelt sich um einen Holzschnitt, der eine riesige Welle zeigt, die sich über einem Fischerboot in der Kanagawa-Bucht in der Nähe von Tokio erhebt.
+::Der Kuss::4,5,2::::Es handelt sich um einen berühmten Holzschnitt, der zwischen 1829 und 1833 in Japan entstand.
+::Die neunte Welle::10,7,3::::Es handelt sich um ein Gemälde des russisch-armenischen Marinemalers Iwan Aiwasowski aus dem Jahr 1850.
+::Der Schrei::11,7,5::::Es handelt sich um eine Komposition des norwegischen Künstlers Edvard Munch aus dem Jahr 1893, die zu den bekanntesten Bildern der modernen Kunst zählt.
+::Sternennacht::6,16,7::::Es wurde 1889 gemalt und zeigt den Blick aus dem Fenster von Van Goghs Anstaltszimmer kurz vor Sonnenaufgang.
+::Der Turm von Babel::1,5,12::::Das Gemälde stellt ein Bauprojekt dar, das in der Bibel beschrieben wird, den Turmbau zu Babel. Bruegel schuf drei Versionen des Gemäldes, von denen jedoch bis heute nur zwei erhalten sind.
+::Der Wanderer über dem Nebelmeer::5,9,8::::Es ist das bekannteste Gemälde der deutschen Romantik und wurde als Sinnbild der Selbstreflexion interpretiert.

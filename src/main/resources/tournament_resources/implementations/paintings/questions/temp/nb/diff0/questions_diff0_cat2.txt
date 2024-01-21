@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovsky::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Wassily Kandinsky::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::Han var en fransk impresjonistisk kunstner kjent for sine pastelltegninger og oljemalerier.
+::Andy Warhol::9,7,4::::Han var en amerikansk billedkunstner, filmregissør, produsent og ledende skikkelse i popkunstbevegelsen.
+::Caspar David Friedrich::0,4,8::::Han var en tysk romantisk landskapsmaler, generelt ansett som den viktigste tyske kunstneren i sin generasjon.
+::Paul Gauguin::8,2,10::::Han var en viktig skikkelse i symbolistbevegelsen som maler, billedhugger og forfatter.
+::Claude Monet::8,11,12::::Han var en fransk maler og grunnlegger av impresjonistisk maleri som blir sett på som en sentral forløper til modernismen.
+::Diego Rivera::12,8,9::::Han var en fremtredende meksikansk maler. Hans store fresker bidro til å etablere veggmaleribevegelsen i meksikansk og internasjonal kunst.
+::Diego Velázquez::4,12,9::::Han regnes som en av barokkens mest prestisjefylte malere.
+::Edvard Munch::8,5,4::::Han var en av modernismens mest betydningsfulle kunstnere.
+::Edward Hopper::11,7,6::::Han var en amerikansk realistisk maler og trykkeri. Mens han er viden kjent for sine oljemalerier, var han like dyktig som akvarellist og trykkeri.
+::El Greco::2,14,16::::Han var en gresk maler, skulptør og arkitekt fra den spanske renessansen.
+::Emanuel Leutze::13,15,16::::Han var en tyskfødt amerikansk historiemaler.
+::Eugène Delacroix::6,14,16::::Han var en fransk romantisk kunstner som fra begynnelsen av sin karriere ble sett på som leder av den franske romantiske skolen.
+::Francisco Goya::13,5,15::::Han var en spansk romantisk maler. Han regnes som den viktigste spanske kunstneren på slutten av 1700- og begynnelsen av 1800-tallet.
+::Frida Kahlo::12,21,11::::Hun var en meksikansk maler kjent for sine mange portretter, selvportretter og verk inspirert av naturen.
+::Georges Seurat::13,16,8::::Han var pioneren innen teknikken for å male i små prikker eller fargestreker.
+::Grant Wood::12,23,20::::Han var en amerikansk maler mest kjent for sine malerier som skildrer det landlige amerikanske Midtvesten.
+::Gustav Klimt::15,19,20::::Han var en østerriksk symbolistisk maler og et av de mest fremtredende medlemmene av Wien-løsrivelsesbevegelsen.
+::Vincent van Gogh::20,23,25::::Han var en nederlandsk maler som er blant de mest kjente og innflytelsesrike skikkelsene i vestlig kunsthistorie.
+::Henri Matisse::24,14,10::::Han var en fransk billedkunstner, kjent for både sin fargebruk og sin flytende og originale tegnekunst.
+::Pierre-Auguste Renoir::22,24,12::::Han var en fransk kunstner som var en ledende maler i utviklingen av den impresjonistiske stilen.
+::Hokusai::17,13,26::::Han var en japansk kunstner fra Edo-perioden, aktiv som maler og trykkeri.
+::Ivan Aivazovsky::14,24,26::::Han var en japansk kunstner fra Edo-perioden, aktiv som maler og trykkeri.
+::James Abbott McNeill Whistler::14,26,18::::Han var en amerikansk kunstner kjent for maleriene og tegningene han laget i Europa i andre halvdel av 1800-tallet.
+::Jan van Eyck::17,18,26::::Han var en nederlandsk maler som perfeksjonerte den nyutviklede teknikken for oljemaling.
+::Johannes Vermeer::31,22,19::::Han var en nederlandsk barokkmaler som spesialiserte seg på innenlandske interiørscener i middelklassens liv.
+::Leonardo da Vinci::33,21,19::::Han var en italiensk polymat som var aktiv som maler, ingeniør, vitenskapsmann og arkitekt.
+::Marc Chagall::22,32,18::::Han var en hviterussisk og fransk kunstner. En tidlig modernist ble han assosiert med flere store kunstneriske stiler.
+::Pablo Picasso::32,33,31::::Han var en spansk maler og skulptør som tilbrakte mesteparten av sitt voksne liv i Frankrike. En av de mest innflytelsesrike kunstnerne i det 20. århundre.
+::Paolo Uccello::23,21,30::::Han var en viktig italiensk kunstner fra den tidlige renessansen kjent for sin banebrytende bruk av perspektiv.
+::Paul Cézanne::26,23,28::::Han var en postimpresjonistisk maler hvis ideer påvirker mange av kunstnerne på 1900-tallet og spesielt kubismen.
+::Wassily Kandinsky::26,31,34::::Han var en russisk kunstner, en av de første skaperne av ren abstraksjon i moderne maleri.
+::Rembrandt::34,27,33::::Han var en nederlandsk maler, grafiker og tegner. Han regnes som en av de største billedkunstnerne i kunsthistorien.
+::Albrecht Dürer::26,33,28::::Han var en tysk maler, grafiker og teoretiker fra den tyske renessansen.
+::Salvador Dali::32,26,28::::Han var en spansk surrealistisk kunstner kjent for sine tekniske ferdigheter og de slående og bisarre bildene i arbeidet hans.
+::Sandro Botticelli::33,27,28::::Han var en italiensk maler fra den tidlige renessansen.

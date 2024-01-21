@@ -1,16 +1,16 @@
-::Ekspresionisme abstrak::8,7,1::::
-::Art Nouveau::7,6,4::::
-::Suprematisme::9,7,0::::
-::Kubisme::2,11,1::::
-::dadaisme::10,0,6::::
-::Ekspresionisme::10,12,3::::
-::Fauvisme::1,3,7::::
-::grafiti::8,5,0::::
-::Impresionisme::15,1,5::::
-::Seni Abad Pertengahan::15,2,8::::
-::Realisme::9,13,3::::
-::Renaisans::12,15,8::::
-::Romantisisme::4,6,13::::
-::Realisme sosial::11,14,9::::
-::Surrealisme::7,13,10::::
-::Simbolisme::8,11,13::::
+::Ekspresionisme abstrak::8,7,1::::Itu adalah gerakan seni pascaperang yang menempatkan New York sebagai pusat dunia seni pada pertengahan abad ke-20. Lukisan-lukisan tersebut memiliki ciri-ciri tertentu, termasuk penggunaan kanvas berukuran besar dan pandangan bahwa seni harus non-representasional.
+::Art Nouveau::7,6,4::::Ini adalah gerakan seni yang ditandai dengan penekanan pada fluiditas garis, bentuk geometris, komposisi asimetris, dan kombinasi struktur dan ornamen yang berani.
+::Suprematisme::9,7,0::::Itu adalah gerakan seni abstrak yang didirikan di Rusia selama Perang Dunia Pertama.
+::Kubisme::2,11,1::::Ini adalah pendekatan baru yang revolusioner untuk merepresentasikan realitas yang ditemukan sekitar tahun 1907 oleh seniman Pablo Picasso dan Georges Braque.
+::dadaisme::10,0,6::::Ini dimulai di Zurich sekitar tahun 1915, ditemukan oleh seniman pengungsi dan intelektual dari ibu kota Eropa yang dilanda Perang Dunia I.
+::Ekspresionisme::10,12,3::::Ini adalah gerakan modernis, awalnya dalam puisi dan lukisan, berasal dari Eropa Utara sekitar awal abad ke-20.
+::Fauvisme::1,3,7::::Ini adalah gaya lukisan yang berkembang di Perancis sekitar pergantian abad ke-20. Hal ini ditandai dengan warna murni yang diaplikasikan secara agresif langsung dari tabung cat untuk menciptakan kesan ledakan pada kanvas.
+::grafiti::8,5,0::::Ini adalah seni yang ditulis, dilukis atau digambar di dinding atau permukaan lainnya, biasanya tanpa izin dan di depan umum.
+::Impresionisme::15,1,5::::Ini adalah gaya lukisan yang dimulai di Perancis pada akhir abad ke-19. Ini menunjukkan subjek seperti hidup yang dilukis dengan gaya cepat, dengan guratan yang mudah dilihat.
+::Seni Abad Pertengahan::15,2,8::::Seni abad pertengahan di Eropa tumbuh dari warisan seni Kekaisaran Romawi dan tradisi ikonografi gereja Kristen mula-mula.
+::Realisme::9,13,3::::Hal ini ditandai dengan penggambaran alam atau kehidupan kontemporer yang akurat, rinci, dan tanpa hiasan. Ia menolak idealisasi imajinatif dan mendukung pengamatan yang cermat terhadap penampilan luar.
+::Renaisans::12,15,8::::Ini adalah periode dalam sejarah dan gerakan budaya yang menandai transisi dari Abad Pertengahan menuju modernitas.
+::Romantisisme::4,6,13::::Hal ini ditandai dengan penekanannya pada emosi dan individualisme serta pemujaan terhadap masa lalu dan alam, lebih memilih abad pertengahan daripada klasik.
+::Realisme sosial::11,14,9::::Ini adalah gerakan yang berkembang di antara dua Perang Dunia sebagai respons terhadap gejolak dan kesulitan sosial dan politik pada masa itu.
+::Surrealisme::7,13,10::::Ini adalah gerakan artistik abad ke-20 yang mengeksplorasi cara kerja pikiran, memperjuangkan hal-hal yang irasional, puitis, dan revolusioner.
+::Simbolisme::8,11,13::::Itu adalah gerakan seni asal Perancis dan Belgia pada akhir abad ke-19 yang berusaha mewakili kebenaran absolut secara simbolis melalui bahasa dan gambar metaforis.

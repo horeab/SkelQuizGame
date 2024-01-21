@@ -1,16 +1,16 @@
-::Abstrakter Expressionismus::8,7,1::::
-::Jugendstil::7,6,4::::
-::Suprematismus::9,7,0::::
-::Kubismus::2,11,1::::
-::Dada::10,0,6::::
-::Expresionismus::10,12,3::::
-::Fauvismus::1,3,7::::
-::Graffiti::8,5,0::::
-::Impresionismus::15,1,5::::
-::Mittelalterliche Kunst::15,2,8::::
-::Realismus::9,13,3::::
-::Renaissance::12,15,8::::
-::Romantik::4,6,13::::
-::Sozialistischer Realismus::11,14,9::::
-::Surrealismus::7,13,10::::
-::Symbolismus::8,11,13::::
+::Abstrakter Expressionismus::8,7,1::::Es handelte sich um eine Kunstbewegung der Nachkriegszeit, die New York in der Mitte des 20. Jahrhunderts zum Zentrum der Kunstwelt machte. Den Gemälden sind bestimmte Merkmale gemeinsam, darunter die Verwendung großer Leinwände und die Ansicht, dass Kunst nicht gegenständlich sein sollte.
+::Jugendstil::7,6,4::::Es handelt sich um eine Kunstrichtung, die sich durch eine Betonung der Fließfähigkeit der Linien, geometrischer Formen, asymmetrischer Kompositionen und einer gewagten Kombination aus Struktur und Ornamentik auszeichnet.
+::Suprematismus::9,7,0::::Es handelte sich um eine abstrakte Kunstbewegung, die während des Ersten Weltkriegs in Russland gegründet wurde.
+::Kubismus::2,11,1::::Es handelte sich um einen revolutionären neuen Ansatz zur Darstellung der Realität, der um das Jahr 1907 von den Künstlern Pablo Picasso und Georges Braque erfunden wurde.
+::Dada::10,0,6::::Es begann um das Jahr 1915 in Zürich und wurde von geflüchteten Künstlern und Intellektuellen aus vom Ersten Weltkrieg heimgesuchten europäischen Hauptstädten erfunden.
+::Expresionismus::10,12,3::::Es handelt sich um eine modernistische Bewegung, zunächst in der Poesie und Malerei, die zu Beginn des 20. Jahrhunderts in Nordeuropa entstand.
+::Fauvismus::1,3,7::::Es handelt sich um einen Malstil, der um die Wende des 20. Jahrhunderts in Frankreich seine Blütezeit erlebte. Es zeichnet sich durch reine Farbe aus, die direkt aus den Farbtuben aggressiv aufgetragen wird, um auf der Leinwand das Gefühl einer Explosion zu erzeugen.
+::Graffiti::8,5,0::::Es handelt sich um Kunst, die auf eine Wand oder eine andere Oberfläche geschrieben, gemalt oder gezeichnet wird, normalerweise ohne Genehmigung und für die Öffentlichkeit sichtbar.
+::Impresionismus::15,1,5::::Es handelt sich um einen Malstil, der im späten 19. Jahrhundert in Frankreich entstand. Es zeigt lebensechte Motive in schnellem Stil und mit gut erkennbaren Strichen.
+::Mittelalterliche Kunst::15,2,8::::Die mittelalterliche Kunst in Europa entstand aus dem künstlerischen Erbe des Römischen Reiches und den ikonografischen Traditionen der frühen christlichen Kirche.
+::Realismus::9,13,3::::Es zeichnet sich durch die genaue, detaillierte und ungeschönte Darstellung der Natur oder des zeitgenössischen Lebens aus. Es lehnt fantasievolle Idealisierung zugunsten einer genauen Beobachtung äußerer Erscheinungen ab.
+::Renaissance::12,15,8::::Es handelt sich um eine Epoche der Geschichte und eine kulturelle Bewegung, die den Übergang vom Mittelalter zur Moderne markiert.
+::Romantik::4,6,13::::Es zeichnete sich durch die Betonung von Emotion und Individualismus sowie der Verherrlichung der Vergangenheit und der Natur aus und bevorzugte das Mittelalter gegenüber dem Klassischen.
+::Sozialistischer Realismus::11,14,9::::Es handelte sich um eine Bewegung, die zwischen den beiden Weltkriegen als Reaktion auf die sozialen und politischen Unruhen und Nöte dieser Zeit florierte.
+::Surrealismus::7,13,10::::Es handelte sich um eine künstlerische Bewegung des 20. Jahrhunderts, die die Funktionsweise des Geistes erforschte und sich für das Irrationale, Poetische und Revolutionäre einsetzte.
+::Symbolismus::8,11,13::::Es handelte sich um eine Kunstbewegung französischen und belgischen Ursprungs aus dem späten 19. Jahrhundert, die sich zum Ziel gesetzt hatte, absolute Wahrheiten symbolisch durch Sprache und metaphorische Bilder darzustellen.

@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovsky::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Wassily Kandinsky::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::Bol to francúzsky impresionistický umelec známy svojimi pastelovými kresbami a olejomaľbami.
+::Andy Warhol::9,7,4::::Bol to americký vizuálny umelec, filmový režisér, producent a vedúca osobnosť hnutia pop art.
+::Caspar David Friedrich::0,4,8::::Bol to nemecký maliar romantických krajiniek, všeobecne považovaný za najvýznamnejšieho nemeckého umelca svojej generácie.
+::Paul Gauguin::8,2,10::::Bol významnou postavou symbolistického hnutia ako maliar, sochár a spisovateľ.
+::Claude Monet::8,11,12::::Bol to francúzsky maliar a zakladateľ impresionistického maliarstva, ktorý je považovaný za kľúčového predchodcu modernizmu.
+::Diego Rivera::12,8,9::::Bol významným mexickým maliarom. Jeho veľké fresky pomohli založiť hnutie nástenných malieb v mexickom a medzinárodnom umení.
+::Diego Velázquez::4,12,9::::Je považovaný za jedného z najprestížnejších maliarov barokového obdobia.
+::Edvard Munch::8,5,4::::Bol jedným z najvýznamnejších umelcov moderny.
+::Edward Hopper::11,7,6::::Bol to americký realistický maliar a grafik. Hoci je všeobecne známy svojimi olejomaľbami, bol rovnako zdatný ako akvarelista a grafik.
+::El Greco::2,14,16::::Bol to grécky maliar, sochár a architekt španielskej renesancie.
+::Emanuel Leutze::13,15,16::::Bol to americký maliar histórie nemeckého pôvodu.
+::Eugène Delacroix::6,14,16::::Bol to francúzsky romantický umelec, ktorý bol od začiatku svojej kariéry považovaný za vodcu francúzskej romantickej školy.
+::Francisco Goya::13,5,15::::Bol španielskym romantickým maliarom. Je považovaný za najvýznamnejšieho španielskeho umelca konca 18. a začiatku 19. storočia.
+::Frida Kahlo::12,21,11::::Bola mexickou maliarkou známou pre množstvo portrétov, autoportrétov a diel inšpirovaných prírodou.
+::Georges Seurat::13,16,8::::Bol priekopníkom techniky maľovania malými bodkami alebo farebnými ťahmi.
+::Grant Wood::12,23,20::::Bol to americký maliar, ktorý sa najlepšie preslávil svojimi obrazmi zobrazujúcimi vidiecky americký stredozápad.
+::Gustav Klimt::15,19,20::::Bol rakúskym symbolistickým maliarom a jedným z najvýznamnejších predstaviteľov hnutia viedenskej secesie.
+::Vincent van Gogh::20,23,25::::Bol to holandský maliar, ktorý patrí medzi najznámejšie a najvplyvnejšie osobnosti v dejinách západného umenia.
+::Henri Matisse::24,14,10::::Bol francúzskym výtvarným umelcom, známym tak pre svoje používanie farieb, ako aj pre plynulé a originálne kresliarstvo.
+::Pierre-Auguste Renoir::22,24,12::::Bol to francúzsky umelec, ktorý bol popredným maliarom vo vývoji impresionistického štýlu.
+::Hokusai::17,13,26::::Bol to japonský umelec z obdobia Edo, aktívny ako maliar a grafik.
+::Ivan Aivazovsky::14,24,26::::Bol to japonský umelec z obdobia Edo, aktívny ako maliar a grafik.
+::James Abbott McNeill Whistler::14,26,18::::Bol to americký umelec preslávený maľbami a kresbami, ktoré vytvoril v Európe v druhej polovici 19. storočia.
+::Jan van Eyck::17,18,26::::Bol to holandský maliar, ktorý zdokonalil novo vyvinutú techniku olejomaľby.
+::Johannes Vermeer::31,22,19::::Bol to holandský maliar z obdobia baroka, ktorý sa špecializoval na domáce interiérové výjavy zo života strednej triedy.
+::Leonardo da Vinci::33,21,19::::Bol to taliansky polyhistor, ktorý bol aktívny ako maliar, inžinier, vedec a architekt.
+::Marc Chagall::22,32,18::::Bol to bieloruský a francúzsky umelec. Ako raný modernista bol spájaný s niekoľkými hlavnými umeleckými štýlmi.
+::Pablo Picasso::32,33,31::::Bol to španielsky maliar a sochár, ktorý väčšinu svojho dospelého života prežil vo Francúzsku. Jeden z najvplyvnejších umelcov 20. storočia.
+::Paolo Uccello::23,21,30::::Bol významným talianskym umelcom ranej renesancie známym pre svoje priekopnícke využitie perspektívy.
+::Paul Cézanne::26,23,28::::Bol postimpresionistickým maliarom, ktorého myšlienky ovplyvňujú mnohých umelcov 20. storočia a najmä kubizmus.
+::Wassily Kandinsky::26,31,34::::Bol to ruský umelec, jeden z prvých tvorcov čistej abstrakcie v modernej maľbe.
+::Rembrandt::34,27,33::::Bol holandský maliar, grafik a kresliar. Je považovaný za jedného z najväčších výtvarných umelcov v dejinách umenia.
+::Albrecht Dürer::26,33,28::::Bol to nemecký maliar, grafik a teoretik nemeckej renesancie.
+::Salvador Dali::32,26,28::::Bol španielskym surrealistickým umelcom známym svojou technickou zručnosťou a pozoruhodnými a bizarnými obrazmi vo svojej práci.
+::Sandro Botticelli::33,27,28::::Bol to taliansky maliar ranej renesancie.

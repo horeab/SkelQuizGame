@@ -1,17 +1,17 @@
-::Priateľ v núdzi::11,8,1::::
-::Nedeľa popoludní na ostrove La Grande Jatte::7,13,15::::
-::Americká gotika::5,0,3::::
-::Zloženie s červenou, žltou, modrou a čiernou::10,2,12::::
-::Dievča s perlou::5,14,1::::
-::Stvorenie Adama::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Nighthawks::14,13,15::::
-::Veľvyslanci::12,3,5::::
-::zajac::0,1,2::::
-::Veľká vlna pri Kanagawe::3,12,16::::
-::Bozk::4,5,2::::
-::Deviata vlna::10,7,3::::
-::Výkrik::11,7,5::::
-::Hviezdna noc::6,16,7::::
-::Babylonská veža::1,5,12::::
-::Putovanie nad morom hmly::5,9,8::::
+::Priateľ v núdzi::11,8,1::::Je to najznámejší zo série 16 obrazov. Obrazy vznikli na objednávku spoločnosti, ktorá cigary propagovala.
+::Nedeľa popoludní na ostrove La Grande Jatte::7,13,15::::Bol maľovaný v rokoch 1884 až 1886 a je najznámejším dielom Georgesa Seurata.
+::Americká gotika::5,0,3::::Je to jeden z najznámejších amerických obrazov 20. storočia.
+::Zloženie s červenou, žltou, modrou a čiernou::10,2,12::::Predstavuje zrelú etapu Mondrianovej abstrakcie. Zdá sa, že ide o ploché dielo, existujú však rozdiely v textúre rôznych prvkov.
+::Dievča s perlou::5,14,1::::Je to najznámejší Vermeerov obraz. Ide o maľbu imaginárnej postavy s orientálnym turbanom a nepravdepodobne veľkou perlou v uchu.
+::Stvorenie Adama::6,12,8::::Je to freska, ktorú namaľoval Michelangelo v rokoch 1508 až 1512 na strope Sixtínskej kaplnky vo Vatikáne. Zobrazuje pasáž z Knihy Genezis, ktorá opisuje Boha, ktorý stvoril Adama a dal život prvému človeku.
+::Mona Lisa::8,14,4::::Je považovaný za majstrovské dielo talianskej renesancie, bol označovaný za najznámejšie umelecké dielo na svete.
+::Nighthawks::14,13,15::::Je to jeden z Hopperových obrazov v New Yorku a umelec povedal, že bol založený na skutočnej kaviarni.
+::Veľvyslanci::12,3,5::::Je to jeden z najznámejších Holbeinových obrazov. Bol namaľovaný počas jeho druhej návštevy Anglicka a obsahuje veľa symbolov a skrytých významov.
+::zajac::0,1,2::::Bol namaľovaný v roku 1502 a je uznávaný ako majstrovské dielo pozorovateľského umenia.
+::Veľká vlna pri Kanagawe::3,12,16::::Ide o drevotlač, ktorá zobrazuje obrovskú vlnu stúpajúcu nad rybárskou loďou v zálive Kanagawa neďaleko Tokia.
+::Bozk::4,5,2::::Je to slávna drevotlač vytvorená v Japonsku v rokoch 1829 až 1833.
+::Deviata vlna::10,7,3::::Ide o obraz vytvorený v roku 1850 rusko-arménskym námorným maliarom Ivanom Aivazovským.
+::Výkrik::11,7,5::::Je to kompozícia vytvorená nórskym umelcom Edvardom Munchom v roku 1893 a patrí medzi najuznávanejšie obrazy moderného umenia.
+::Hviezdna noc::6,16,7::::Namaľovaný v roku 1889 zobrazuje pohľad z okna Van Goghovej azylovej izby tesne pred východom slnka.
+::Babylonská veža::1,5,12::::Obraz zobrazuje stavebný projekt, ktorý je opísaný v Biblii, babylonskú vežu. Bruegel vytvoril tri verzie obrazu, no dodnes sa zachovali len dve.
+::Putovanie nad morom hmly::5,9,8::::Je to najznámejší obraz nemeckého romantizmu a bol interpretovaný ako emblém sebareflexie.

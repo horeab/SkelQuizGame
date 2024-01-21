@@ -1,17 +1,17 @@
-::Rászoruló barát::11,8,1::::
-::Vasárnap délután Grande Jatte szigetén::7,13,15::::
-::Amerikai gótika::5,0,3::::
-::Kompozíció piros, sárga, kék és fekete::10,2,12::::
-::Lány gyöngy fülbevalóval::5,14,1::::
-::Ádám teremtése::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Éjjeli baglyok::14,13,15::::
-::Nagykövetek::12,3,5::::
-::Mezei nyúl::0,1,2::::
-::Kanagawa partján a nagy hullám::3,12,16::::
-::A csók::4,5,2::::
-::A kilencedik hullám::10,7,3::::
-::A sikoly::11,7,5::::
-::Csillagos éj::6,16,7::::
-::Bábel tornya::1,5,12::::
-::Vándor a Köd-tenger felett::5,9,8::::
+::Rászoruló barát::11,8,1::::Ez a leghíresebb a 16 festményből álló sorozat közül. A festményeket egy szivarokat reklámozó cég rendelte meg.
+::Vasárnap délután Grande Jatte szigetén::7,13,15::::1884 és 1886 között festették, és Georges Seurat leghíresebb alkotása.
+::Amerikai gótika::5,0,3::::A 20. század egyik leghíresebb amerikai festménye.
+::Kompozíció piros, sárga, kék és fekete::10,2,12::::Mondrian absztrakciójának érett szakaszát képviseli. Lapos műnek tűnik, de a különböző elemek textúrájában eltérések vannak.
+::Lány gyöngy fülbevalóval::5,14,1::::Ez Vermeer leghíresebb festménye. Ez egy képzeletbeli alak festménye, aki keleti turbánt visel, fülében pedig valószínűtlenül nagy gyöngy van.
+::Ádám teremtése::6,12,8::::Michelangelo 1508 és 1512 között festett freskója a vatikáni Sixtus-kápolna mennyezetén. A Genezis könyvének azt a szakaszát ábrázolja, amely leírja, hogy Isten megteremtette Ádámot és életet adott az első embernek.
+::Mona Lisa::8,14,4::::Az olasz reneszánsz remekművének tartják, a világ legismertebb műalkotásaként írják le.
+::Éjjeli baglyok::14,13,15::::Ez Hopper egyik New York-i festménye, és a művész azt mondta, hogy egy igazi kávézón alapul.
+::Nagykövetek::12,3,5::::Holbein egyik leghíresebb festménye. Második angliai látogatása során festették, és sok szimbólumot és rejtett jelentést tartalmaz.
+::Mezei nyúl::0,1,2::::1502-ben festették, és a megfigyelő művészet remekműveként tartják számon.
+::Kanagawa partján a nagy hullám::3,12,16::::Ez egy fatömbnyomat, amely egy hatalmas hullámot ábrázol, amely egy halászhajó fölé emelkedik a Tokió melletti Kanagawa-öbölben.
+::A csók::4,5,2::::Ez egy híres fatömbnyomat, amelyet Japánban készítettek 1829 és 1833 között.
+::A kilencedik hullám::10,7,3::::Ivan Aivazovsky orosz-örmény tengeri festő 1850-ben készített festménye.
+::A sikoly::11,7,5::::Edvard Munch norvég művész 1893-ban készített kompozíciója a modern művészet legelismertebb képei közé tartozik.
+::Csillagos éj::6,16,7::::1889-ben festették, és Van Gogh menedékházának ablakából a kilátást ábrázolja napkelte előtt.
+::Bábel tornya::1,5,12::::A festmény egy, a Bibliában leírt építési projektet ábrázol, Bábel tornyát. Bruegel a festmény három változatát készítette el, de csak kettő maradt fenn a mai napig.
+::Vándor a Köd-tenger felett::5,9,8::::Ez a német romantika legismertebb festménye, és az önreflexió emblémájaként értelmezték.

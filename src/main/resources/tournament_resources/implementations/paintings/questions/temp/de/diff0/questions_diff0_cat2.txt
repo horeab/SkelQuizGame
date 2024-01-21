@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovsky::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Wassily Kandinsky::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::Er war ein französischer Impressionist, der für seine Pastellzeichnungen und Ölgemälde berühmt war.
+::Andy Warhol::9,7,4::::Er war ein amerikanischer bildender Künstler, Filmregisseur, Produzent und eine führende Figur der Pop-Art-Bewegung.
+::Caspar David Friedrich::0,4,8::::Er war ein deutscher romantischer Landschaftsmaler und galt allgemein als der bedeutendste deutsche Künstler seiner Generation.
+::Paul Gauguin::8,2,10::::Als Maler, Bildhauer und Schriftsteller war er eine wichtige Figur der symbolistischen Bewegung.
+::Claude Monet::8,11,12::::Er war ein französischer Maler und Begründer der impressionistischen Malerei, der als wichtiger Vorläufer der Moderne gilt.
+::Diego Rivera::12,8,9::::Er war ein bekannter mexikanischer Maler. Seine großen Fresken trugen dazu bei, die Wandgemäldebewegung in der mexikanischen und internationalen Kunst zu etablieren.
+::Diego Velázquez::4,12,9::::Er gilt als einer der bedeutendsten Maler des Barock.
+::Edvard Munch::8,5,4::::Er war einer der bedeutendsten Künstler der Moderne.
+::Edward Hopper::11,7,6::::Er war ein amerikanischer realistischer Maler und Grafiker. Obwohl er vor allem für seine Ölgemälde bekannt ist, war er als Aquarellist und Grafiker gleichermaßen begabt.
+::El Greco::2,14,16::::Er war ein griechischer Maler, Bildhauer und Architekt der spanischen Renaissance.
+::Emanuel Leutze::13,15,16::::Er war ein in Deutschland geborener amerikanischer Historienmaler.
+::Eugène Delacroix::6,14,16::::Er war ein französischer Romantiker, der von Beginn seiner Karriere an als Anführer der französischen Romantikschule galt.
+::Francisco Goya::13,5,15::::Er war ein spanischer romantischer Maler. Er gilt als der bedeutendste spanische Künstler des späten 18. und frühen 19. Jahrhunderts.
+::Frida Kahlo::12,21,11::::Sie war eine mexikanische Malerin, die für ihre zahlreichen Porträts, Selbstporträts und von der Natur inspirierten Werke bekannt war.
+::Georges Seurat::13,16,8::::Er war der Pionier der Maltechnik mit kleinen Farbpunkten oder -strichen.
+::Grant Wood::12,23,20::::Er war ein amerikanischer Maler, der vor allem für seine Gemälde bekannt war, die den ländlichen Mittleren Westen der USA darstellten.
+::Gustav Klimt::15,19,20::::Er war ein österreichischer symbolistischer Maler und eines der prominentesten Mitglieder der Wiener Secession-Bewegung.
+::Vincent van Gogh::20,23,25::::Er war ein niederländischer Maler, der zu den berühmtesten und einflussreichsten Persönlichkeiten in der Geschichte der westlichen Kunst zählt.
+::Henri Matisse::24,14,10::::Er war ein französischer bildender Künstler, der sowohl für seinen Einsatz von Farben als auch für seine flüssige und originelle Zeichenkunst bekannt war.
+::Pierre-Auguste Renoir::22,24,12::::Er war ein französischer Künstler, der maßgeblich an der Entwicklung des impressionistischen Stils beteiligt war.
+::Hokusai::17,13,26::::Er war ein japanischer Künstler der Edo-Zeit, der als Maler und Grafiker tätig war.
+::Ivan Aivazovsky::14,24,26::::Er war ein japanischer Künstler der Edo-Zeit, der als Maler und Grafiker tätig war.
+::James Abbott McNeill Whistler::14,26,18::::Er war ein amerikanischer Künstler, der für seine Gemälde und Zeichnungen bekannt war, die er in der zweiten Hälfte des 19. Jahrhunderts in Europa anfertigte.
+::Jan van Eyck::17,18,26::::Er war ein niederländischer Maler, der die neu entwickelte Technik der Ölmalerei perfektionierte.
+::Johannes Vermeer::31,22,19::::Er war ein niederländischer Maler der Barockzeit, der sich auf häusliche Innenszenen des bürgerlichen Lebens spezialisiert hatte.
+::Leonardo da Vinci::33,21,19::::Er war ein italienischer Universalgelehrter, der als Maler, Ingenieur, Wissenschaftler und Architekt tätig war.
+::Marc Chagall::22,32,18::::Er war ein weißrussischer und französischer Künstler. Als früher Modernist war er mit mehreren großen künstlerischen Stilrichtungen verbunden.
+::Pablo Picasso::32,33,31::::Er war ein spanischer Maler und Bildhauer, der den größten Teil seines Erwachsenenlebens in Frankreich verbrachte. Einer der einflussreichsten Künstler des 20. Jahrhunderts.
+::Paolo Uccello::23,21,30::::Er war ein bedeutender italienischer Künstler der Frührenaissance, der für seinen bahnbrechenden Einsatz der Perspektive bekannt war.
+::Paul Cézanne::26,23,28::::Er war ein postimpressionistischer Maler, dessen Ideen viele Künstler des 20. Jahrhunderts und insbesondere den Kubismus beeinflussten.
+::Wassily Kandinsky::26,31,34::::Er war ein russischer Künstler, einer der ersten Schöpfer der reinen Abstraktion in der modernen Malerei.
+::Rembrandt::34,27,33::::Er war ein niederländischer Maler, Grafiker und Zeichner. Er gilt als einer der größten bildenden Künstler der Kunstgeschichte.
+::Albrecht Dürer::26,33,28::::Er war ein deutscher Maler, Grafiker und Theoretiker der deutschen Renaissance.
+::Salvador Dali::32,26,28::::Er war ein spanischer surrealistischer Künstler, der für sein technisches Können und die auffälligen und bizarren Bilder in seinem Werk bekannt war.
+::Sandro Botticelli::33,27,28::::Er war ein italienischer Maler der Frührenaissance.

@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovsky::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Wassily Kandinsky::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::Byl to francouzský impresionistický umělec známý svými pastelovými kresbami a olejomalbami.
+::Andy Warhol::9,7,4::::Byl to americký vizuální umělec, filmový režisér, producent a vůdčí osobnost hnutí pop art.
+::Caspar David Friedrich::0,4,8::::Byl to německý romantický krajinář, obecně považovaný za nejvýznamnějšího německého umělce své generace.
+::Paul Gauguin::8,2,10::::Byl významnou postavou symbolistického hnutí jako malíř, sochař a spisovatel.
+::Claude Monet::8,11,12::::Byl to francouzský malíř a zakladatel impresionistické malby, který je považován za klíčového předchůdce modernismu.
+::Diego Rivera::12,8,9::::Byl to významný mexický malíř. Jeho velké fresky pomohly založit nástěnné hnutí v mexickém a mezinárodním umění.
+::Diego Velázquez::4,12,9::::Je považován za jednoho z nejprestižnějších malířů období baroka.
+::Edvard Munch::8,5,4::::Byl jedním z nejvýznamnějších umělců modernismu.
+::Edward Hopper::11,7,6::::Byl to americký realistický malíř a grafik. I když je široce známý pro své olejomalby, byl stejně zdatný jako akvarel a grafik.
+::El Greco::2,14,16::::Byl to řecký malíř, sochař a architekt španělské renesance.
+::Emanuel Leutze::13,15,16::::Byl to americký malíř historie německého původu.
+::Eugène Delacroix::6,14,16::::Byl to francouzský romantický umělec, který byl od počátku své kariéry považován za vůdce francouzské romantické školy.
+::Francisco Goya::13,5,15::::Byl to španělský romantický malíř. Je považován za nejvýznamnějšího španělského umělce konce 18. a počátku 19. století.
+::Frida Kahlo::12,21,11::::Byla to mexická malířka známá svými mnoha portréty, autoportréty a díly inspirovanými přírodou.
+::Georges Seurat::13,16,8::::Byl průkopníkem techniky malby malými tečkami nebo barevnými tahy.
+::Grant Wood::12,23,20::::Byl to americký malíř nejlépe známý pro své obrazy zobrazující venkovský americký Středozápad.
+::Gustav Klimt::15,19,20::::Byl to rakouský symbolistický malíř a jeden z nejvýznamnějších členů hnutí vídeňské secese.
+::Vincent van Gogh::20,23,25::::Byl to holandský malíř, který patří mezi nejznámější a nejvlivnější postavy v dějinách západního umění.
+::Henri Matisse::24,14,10::::Byl to francouzský výtvarný umělec, známý jak svým používáním barev, tak svým plynulým a originálním kreslířským uměním.
+::Pierre-Auguste Renoir::22,24,12::::Byl to francouzský umělec, který byl předním malířem ve vývoji impresionistického stylu.
+::Hokusai::17,13,26::::Byl to japonský umělec z období Edo, aktivní jako malíř a grafik.
+::Ivan Aivazovsky::14,24,26::::Byl to japonský umělec z období Edo, aktivní jako malíř a grafik.
+::James Abbott McNeill Whistler::14,26,18::::Byl to americký umělec proslulý malbami a kresbami, které vytvořil v Evropě ve druhé polovině 19. století.
+::Jan van Eyck::17,18,26::::Byl to nizozemský malíř, který zdokonalil nově vyvinutou techniku olejomalby.
+::Johannes Vermeer::31,22,19::::Byl to holandský malíř z období baroka, který se specializoval na domácí interiérové výjevy ze života střední třídy.
+::Leonardo da Vinci::33,21,19::::Byl to italský polyhistor, který byl aktivní jako malíř, inženýr, vědec a architekt.
+::Marc Chagall::22,32,18::::Byl to běloruský a francouzský umělec. Jako raný modernista byl spojován s několika hlavními uměleckými styly.
+::Pablo Picasso::32,33,31::::Byl to španělský malíř a sochař, který většinu svého dospělého života strávil ve Francii. Jeden z nejvlivnějších umělců 20. století.
+::Paolo Uccello::23,21,30::::Byl to významný italský umělec rané renesance známý pro své průkopnické použití perspektivy.
+::Paul Cézanne::26,23,28::::Byl to postimpresionistický malíř, jehož myšlenky ovlivnily mnoho umělců 20. století a zejména kubismu.
+::Wassily Kandinsky::26,31,34::::Byl to ruský umělec, jeden z prvních tvůrců čisté abstrakce v moderní malbě.
+::Rembrandt::34,27,33::::Byl to holandský malíř, grafik a kreslíř. Je považován za jednoho z největších výtvarných umělců v dějinách umění.
+::Albrecht Dürer::26,33,28::::Byl to německý malíř, grafik a teoretik německé renesance.
+::Salvador Dali::32,26,28::::Byl to španělský surrealistický umělec proslulý svými technickými dovednostmi a pozoruhodnými a bizarními obrazy v jeho díle.
+::Sandro Botticelli::33,27,28::::Byl to italský malíř rané renesance.

@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovsky::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Wassily Kandinsky::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::Dia adalah seorang seniman Impresionis Perancis yang terkenal dengan gambar pastel dan lukisan cat minyaknya.
+::Andy Warhol::9,7,4::::Dia adalah seorang seniman visual Amerika, sutradara film, produser, dan tokoh terkemuka dalam gerakan seni pop.
+::Caspar David Friedrich::0,4,8::::Dia adalah seorang pelukis lanskap Romantis Jerman, yang umumnya dianggap sebagai seniman Jerman paling penting di generasinya.
+::Paul Gauguin::8,2,10::::Dia adalah tokoh penting dalam gerakan Simbolis sebagai pelukis, pematung dan penulis.
+::Claude Monet::8,11,12::::Dia adalah seorang pelukis Perancis dan pendiri lukisan impresionis yang dipandang sebagai pelopor utama modernisme.
+::Diego Rivera::12,8,9::::Dia adalah seorang pelukis Meksiko terkemuka. Lukisan dindingnya yang besar membantu membangun gerakan mural dalam seni Meksiko dan internasional.
+::Diego Velázquez::4,12,9::::Ia dianggap sebagai salah satu pelukis paling bergengsi pada periode Barok.
+::Edvard Munch::8,5,4::::Dia adalah salah satu seniman Modernisme yang paling signifikan.
+::Edward Hopper::11,7,6::::Dia adalah seorang pelukis dan pembuat grafis realis Amerika. Meskipun ia dikenal luas karena lukisan cat minyaknya, ia juga mahir sebagai seniman cat air dan pembuat grafis.
+::El Greco::2,14,16::::Dia adalah seorang pelukis Yunani, pematung dan arsitek Renaisans Spanyol.
+::Emanuel Leutze::13,15,16::::Dia adalah seorang pelukis sejarah Amerika kelahiran Jerman.
+::Eugène Delacroix::6,14,16::::Dia adalah seorang seniman Romantis Perancis yang dianggap sejak awal karirnya sebagai pemimpin sekolah Romantis Perancis.
+::Francisco Goya::13,5,15::::Dia adalah seorang pelukis romantis Spanyol. Ia dianggap sebagai seniman Spanyol terpenting pada akhir abad ke-18 dan awal abad ke-19.
+::Frida Kahlo::12,21,11::::Dia adalah seorang pelukis Meksiko yang terkenal karena banyak potret, potret diri, dan karya-karyanya yang terinspirasi oleh alam.
+::Georges Seurat::13,16,8::::Ia merupakan pionir teknik melukis dengan titik-titik kecil atau guratan warna.
+::Grant Wood::12,23,20::::Dia adalah seorang pelukis Amerika yang terkenal karena lukisannya yang menggambarkan pedesaan Amerika Midwest.
+::Gustav Klimt::15,19,20::::Dia adalah seorang pelukis simbolis Austria dan salah satu anggota paling terkemuka dari gerakan Pemisahan Wina.
+::Vincent van Gogh::20,23,25::::Ia adalah seorang pelukis Belanda yang merupakan salah satu tokoh paling terkenal dan berpengaruh dalam sejarah seni rupa Barat.
+::Henri Matisse::24,14,10::::Dia adalah seorang seniman visual Perancis, yang dikenal karena penggunaan warna dan kehalusan serta keahlian menggambar aslinya.
+::Pierre-Auguste Renoir::22,24,12::::Ia adalah seorang seniman Perancis yang merupakan pelukis terkemuka dalam perkembangan gaya Impresionis.
+::Hokusai::17,13,26::::Ia adalah seniman Jepang pada zaman Edo, aktif sebagai pelukis dan pembuat grafis.
+::Ivan Aivazovsky::14,24,26::::Ia adalah seniman Jepang pada zaman Edo, aktif sebagai pelukis dan pembuat grafis.
+::James Abbott McNeill Whistler::14,26,18::::Dia adalah seorang seniman Amerika yang terkenal dengan lukisan dan gambar yang dibuatnya di Eropa pada paruh kedua abad ke-19.
+::Jan van Eyck::17,18,26::::Ia adalah pelukis Belanda yang menyempurnakan teknik lukisan cat minyak yang baru dikembangkan.
+::Johannes Vermeer::31,22,19::::Dia adalah seorang pelukis Periode Barok Belanda yang mengkhususkan diri pada pemandangan interior rumah tangga kehidupan kelas menengah.
+::Leonardo da Vinci::33,21,19::::Ia adalah seorang polimatik Italia yang aktif sebagai pelukis, insinyur, ilmuwan dan arsitek.
+::Marc Chagall::22,32,18::::Dia adalah seorang seniman Belarusia dan Perancis. Seorang modernis awal, ia dikaitkan dengan beberapa gaya artistik utama.
+::Pablo Picasso::32,33,31::::Dia adalah seorang pelukis dan pematung Spanyol yang menghabiskan sebagian besar masa dewasanya di Prancis. Salah satu seniman paling berpengaruh di abad ke-20.
+::Paolo Uccello::23,21,30::::Dia adalah seniman penting Italia pada Renaisans Awal yang dikenal karena perintis penggunaan perspektif.
+::Paul Cézanne::26,23,28::::Dia adalah seorang pelukis pasca-impresionis yang idenya mempengaruhi banyak seniman abad ke-20 dan khususnya Kubisme.
+::Wassily Kandinsky::26,31,34::::Dia adalah seorang seniman Rusia, salah satu pencipta abstraksi murni pertama dalam lukisan modern.
+::Rembrandt::34,27,33::::Dia adalah seorang pelukis, pembuat grafis, dan juru gambar Belanda. Ia dianggap sebagai salah satu seniman visual terhebat dalam sejarah seni.
+::Albrecht Dürer::26,33,28::::Dia adalah seorang pelukis Jerman, pembuat grafis, dan ahli teori Renaisans Jerman.
+::Salvador Dali::32,26,28::::Dia adalah seorang seniman surealis Spanyol yang terkenal karena keterampilan teknisnya dan gambar-gambar yang mencolok dan aneh dalam karyanya.
+::Sandro Botticelli::33,27,28::::Dia adalah seorang pelukis Italia pada Abad Renaisans Awal.

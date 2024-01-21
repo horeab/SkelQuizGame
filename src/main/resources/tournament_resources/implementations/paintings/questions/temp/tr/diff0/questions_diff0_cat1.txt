@@ -1,16 +1,16 @@
-::Soyut dışavurumculuk::8,7,1::::
-::Art Nouveau::7,6,4::::
-::Süprematizm::9,7,0::::
-::Kübizm::2,11,1::::
-::Dada::10,0,6::::
-::Ekspresyonizmi::10,12,3::::
-::Fovizm::1,3,7::::
-::Graffiti::8,5,0::::
-::Empresyonizm::15,1,5::::
-::Ortaçağ sanatı::15,2,8::::
-::Gerçekçilik::9,13,3::::
-::Rönesans::12,15,8::::
-::Romantizm::4,6,13::::
-::Sosyal gerçekçilik::11,14,9::::
-::Sürrealizm::7,13,10::::
-::Sembolizm::8,11,13::::
+::Soyut dışavurumculuk::8,7,1::::Yirminci yüzyılın ortalarında New York'u sanat dünyasının merkezine yerleştiren, savaş sonrası bir sanat hareketiydi. Resimler, büyük tuvallerin kullanımı ve sanatın temsili olmaması gerektiği görüşü gibi belirli özellikleri paylaşıyor.
+::Art Nouveau::7,6,4::::Çizginin akışkanlığına, geometrik formlara, asimetrik kompozisyonlara ve yapı ile süslemenin cesur birleşimine vurgu yapan bir sanat hareketidir.
+::Süprematizm::9,7,0::::Birinci Dünya Savaşı sırasında Rusya'da kurulan soyut bir sanat hareketiydi.
+::Kübizm::2,11,1::::Bu, 1907 yılı civarında sanatçılar Pablo Picasso ve Georges Braque tarafından icat edilen, gerçekliği temsil etmeye yönelik devrim niteliğinde yeni bir yaklaşımdı.
+::Dada::10,0,6::::Her şey 1915 yılında Zürih'te başladı ve Birinci Dünya Savaşı'nın kuşattığı Avrupa başkentlerinden gelen mülteci sanatçılar ve entelektüeller tarafından icat edildi.
+::Ekspresyonizmi::10,12,3::::Başlangıçta şiir ve resimde başlayan, 20. yüzyılın başlarında Kuzey Avrupa'da ortaya çıkan modernist bir harekettir.
+::Fovizm::1,3,7::::20. yüzyılın başlarında Fransa'da ortaya çıkan bir resim tarzıdır. Tuval üzerinde bir patlama hissi yaratmak için doğrudan boya tüplerinden agresif bir şekilde uygulanan saf renk ile karakterize edilir.
+::Graffiti::8,5,0::::Genellikle izinsiz ve kamuoyunun gözü önünde bir duvara veya başka bir yüzeye yazılan, boyanan veya çizilen sanattır.
+::Empresyonizm::15,1,5::::19. yüzyılın sonlarında Fransa'da başlayan bir resim sanatıdır. Kolayca görülebilen vuruşlarla, hızlı bir tarzda boyanmış gerçeğe yakın konuları gösterir.
+::Ortaçağ sanatı::15,2,8::::Avrupa'da Orta Çağ sanatı, Roma İmparatorluğu'nun sanatsal mirasından ve erken Hıristiyan kilisesinin ikonografik geleneklerinden doğmuştur.
+::Gerçekçilik::9,13,3::::Doğanın veya çağdaş yaşamın doğru, ayrıntılı, süssüz tasviriyle karakterize edilir. Dış görünüşlerin yakından gözlemlenmesi adına yaratıcı idealleştirmeyi reddeder.
+::Rönesans::12,15,8::::Tarihte Orta Çağ'dan moderniteye geçişi simgeleyen bir dönem ve kültürel bir harekettir.
+::Romantizm::4,6,13::::Ortaçağı klasiğe tercih ederek geçmişin ve doğanın yüceltilmesinin yanı sıra duygu ve bireyciliğe vurgu yapmasıyla karakterize edildi.
+::Sosyal gerçekçilik::11,14,9::::İki Dünya Savaşı arasında dönemin sosyal ve politik çalkantılarına ve zorluklarına tepki olarak gelişen bir hareketti.
+::Sürrealizm::7,13,10::::Bu, aklın işleyişini araştıran, mantık dışı, şiirsel ve devrimci olanı savunan bir yirminci yüzyıl sanatsal hareketiydi.
+::Sembolizm::8,11,13::::Mutlak gerçekleri dil ve metaforik imgeler aracılığıyla sembolik olarak temsil etmeyi amaçlayan, 19. yüzyılın sonlarında Fransız ve Belçika kökenli bir sanat hareketiydi.

@@ -1,17 +1,17 @@
-::Um Amigo em Necessidade::11,8,1::::
-::UUma Tarde de Domingo na Ilha de Grande Jatte::7,13,15::::
-::American Gothic::5,0,3::::
-::Composição em vermelho, amarelo, azul e branco::10,2,12::::
-::Meisje met de parel::5,14,1::::
-::Criação de Adão::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Nighthawks::14,13,15::::
-::Os Embaixadores::12,3,5::::
-::Lebre::0,1,2::::
-::A Grande Onda de Kanagawa::3,12,16::::
-::O Beijo::4,5,2::::
-::A Nona Onda::10,7,3::::
-::O Grito::11,7,5::::
-::A Noite Estrelada::6,16,7::::
-::A Torre de Babel::1,5,12::::
-::Andarilho acima do mar de neblina::5,9,8::::
+::Um Amigo em Necessidade::11,8,1::::É a mais famosa de uma série de 16 pinturas. As pinturas foram encomendadas por uma empresa que anunciava charutos.
+::UUma Tarde de Domingo na Ilha de Grande Jatte::7,13,15::::Foi pintada de 1884 a 1886 e é a obra mais famosa de Georges Seurat.
+::American Gothic::5,0,3::::É uma das pinturas americanas mais famosas do século XX.
+::Composição em vermelho, amarelo, azul e branco::10,2,12::::Representa um estágio maduro da abstração de Mondrian. Parece ser um trabalho plano, mas existem diferenças na textura dos diferentes elementos.
+::Meisje met de parel::5,14,1::::É a pintura mais famosa de Vermeer. É a pintura de uma figura imaginária usando um turbante oriental e uma pérola incrivelmente grande na orelha.
+::Criação de Adão::6,12,8::::É um afresco pintado por Michelangelo entre 1508 e 1512 no teto da Capela Sistina, na Cidade do Vaticano. Retrata a passagem do Livro do Gênesis que descreve Deus criando Adão e dando vida ao primeiro homem.
+::Mona Lisa::8,14,4::::É considerada uma obra-prima do Renascimento italiano e foi descrita como a obra de arte mais conhecida do mundo.
+::Nighthawks::14,13,15::::É uma das pinturas de Hopper em Nova York, e o artista disse que foi baseada em um café real.
+::Os Embaixadores::12,3,5::::É uma das pinturas mais famosas de Holbein. Foi pintado durante sua segunda visita à Inglaterra e contém muitos símbolos e significados ocultos.
+::Lebre::0,1,2::::Foi pintado em 1502 e é reconhecido como uma obra-prima da arte observacional.
+::A Grande Onda de Kanagawa::3,12,16::::É uma xilogravura que retrata uma enorme onda subindo acima de um barco de pesca na Baía de Kanagawa, perto de Tóquio.
+::O Beijo::4,5,2::::É uma famosa xilogravura criada no Japão entre 1829 e 1833.
+::A Nona Onda::10,7,3::::É uma pintura criada em 1850 pelo pintor marinho russo-armênio Ivan Aivazovsky.
+::O Grito::11,7,5::::É uma composição criada pelo artista norueguês Edvard Munch em 1893 e está entre as imagens mais reconhecidas da arte moderna.
+::A Noite Estrelada::6,16,7::::Pintado em 1889, retrata a vista da janela do quarto do asilo de Van Gogh pouco antes do nascer do sol.
+::A Torre de Babel::1,5,12::::A pintura retrata um projeto de construção descrito na Bíblia, a torre de Babel. Bruegel criou três versões da pintura, mas apenas duas sobreviveram até hoje.
+::Andarilho acima do mar de neblina::5,9,8::::É a pintura mais conhecida do Romantismo Alemão e tem sido interpretada como um emblema de autorreflexão.

@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovsky::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Wassily Kandinsky::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::A fost un artist impresionist francez faimos pentru desenele sale pastelate și picturile în ulei.
+::Andy Warhol::9,7,4::::A fost un artist vizual american, regizor de film, producător și o figură principală în mișcarea pop art.
+::Caspar David Friedrich::0,4,8::::A fost un pictor peisagist romantic german, considerat în general cel mai important artist german al generației sale.
+::Paul Gauguin::8,2,10::::A fost o figură importantă în mișcarea simbolistă ca pictor, sculptor și scriitor.
+::Claude Monet::8,11,12::::A fost un pictor francez și fondator al picturii impresioniste, care este văzut ca un precursor cheie al modernismului.
+::Diego Rivera::12,8,9::::A fost un pictor mexican proeminent. Frescele sale mari au contribuit la stabilirea mișcării murale în arta mexicană și internațională.
+::Diego Velázquez::4,12,9::::Este considerat unul dintre cei mai prestigioși pictori ai perioadei barocului.
+::Edvard Munch::8,5,4::::A fost unul dintre cei mai importanți artiști ai modernismului.
+::Edward Hopper::11,7,6::::A fost un pictor și gravor realist american. Deși este cunoscut pentru picturile sale în ulei, a fost la fel de priceput ca acuarelist și gravor.
+::El Greco::2,14,16::::A fost un pictor, sculptor și arhitect grec al Renașterii spaniole.
+::Emanuel Leutze::13,15,16::::A fost un pictor de istorie american de origine germană.
+::Eugène Delacroix::6,14,16::::A fost un artist romantic francez, considerat încă de la începutul carierei sale liderul școlii romantice franceze.
+::Francisco Goya::13,5,15::::A fost un pictor romantic spaniol. Este considerat cel mai important artist spaniol de la sfârșitul secolului al XVIII-lea și începutul secolului al XIX-lea.
+::Frida Kahlo::12,21,11::::A fost o pictoră mexicană cunoscută pentru numeroasele sale portrete, autoportrete și lucrări inspirate din natură.
+::Georges Seurat::13,16,8::::El a fost pionierul tehnicii picturii în puncte mici sau lovituri de culoare.
+::Grant Wood::12,23,20::::A fost un pictor american, cel mai bine cunoscut pentru picturile sale care înfățișează Midwestul rural american.
+::Gustav Klimt::15,19,20::::A fost un pictor simbolist austriac și unul dintre cei mai importanți membri ai mișcării Secesiunii Vienei.
+::Vincent van Gogh::20,23,25::::A fost un pictor olandez care se numără printre cele mai faimoase și influente figuri din istoria artei occidentale.
+::Henri Matisse::24,14,10::::A fost un artist vizual francez, cunoscut atât pentru utilizarea culorii, cât și pentru desenare fluidă și originală.
+::Pierre-Auguste Renoir::22,24,12::::A fost un artist francez care a fost un pictor de frunte în dezvoltarea stilului impresionist.
+::Hokusai::17,13,26::::A fost un artist japonez din perioada Edo, activ ca pictor și gravor.
+::Ivan Aivazovsky::14,24,26::::A fost un artist japonez din perioada Edo, activ ca pictor și gravor.
+::James Abbott McNeill Whistler::14,26,18::::A fost un artist american renumit pentru picturile și desenele pe care le-a realizat în Europa în a doua jumătate a secolului al XIX-lea.
+::Jan van Eyck::17,18,26::::A fost un pictor olandez care a perfecționat noua tehnică a picturii în ulei.
+::Johannes Vermeer::31,22,19::::A fost un pictor olandez din perioada barocului, specializat în scene interioare interne ale vieții clasei de mijloc.
+::Leonardo da Vinci::33,21,19::::A fost un polimat italian care a fost activ ca pictor, inginer, om de știință și arhitect.
+::Marc Chagall::22,32,18::::A fost un artist belarus și francez. Un modernist timpuriu, a fost asociat cu mai multe stiluri artistice majore.
+::Pablo Picasso::32,33,31::::A fost un pictor și sculptor spaniol care și-a petrecut cea mai mare parte a vieții sale de adult în Franța. Unul dintre cei mai influenți artiști ai secolului XX.
+::Paolo Uccello::23,21,30::::A fost un artist italian important al Renașterii timpurii, cunoscut pentru utilizarea sa de pionierat a perspectivei.
+::Paul Cézanne::26,23,28::::A fost un pictor post-impresionist ale cărui idei influențează mulți dintre artiștii secolului al XX-lea și în special cubismul.
+::Wassily Kandinsky::26,31,34::::A fost un artist rus, unul dintre primii creatori ai abstractizării pure în pictura modernă.
+::Rembrandt::34,27,33::::A fost un pictor, gravor și desenator olandez. Este considerat unul dintre cei mai mari artiști plastici din istoria artei.
+::Albrecht Dürer::26,33,28::::A fost un pictor, gravor și teoretician german al Renașterii germane.
+::Salvador Dali::32,26,28::::A fost un artist suprarealist spaniol, renumit pentru priceperea sa tehnică și pentru imaginile izbitoare și bizare din opera sa.
+::Sandro Botticelli::33,27,28::::A fost un pictor italian al Renașterii timpurii.

@@ -1,17 +1,17 @@
-::Prijatelj v stiski::11,8,1::::
-::Nedeljsko popoldne na otoku La Grande Jatte::7,13,15::::
-::Ameriška gotika::5,0,3::::
-::Sestava z rdečo, rumeno, modro in črno::10,2,12::::
-::Dekle z bisernim uhanom::5,14,1::::
-::Stvarjenje Adama::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Nighthawks::14,13,15::::
-::Veleposlaniki::12,3,5::::
-::zajec::0,1,2::::
-::Veliki val pri Kanagawi::3,12,16::::
-::Poljub::4,5,2::::
-::Deveti val::10,7,3::::
-::Krik::11,7,5::::
-::Zvezdna noč::6,16,7::::
-::Babilonski stolp::1,5,12::::
-::Potepuh nad morjem megle::5,9,8::::
+::Prijatelj v stiski::11,8,1::::Je najbolj znana v seriji 16 slik. Slike je naročilo podjetje, ki je oglaševalo cigare.
+::Nedeljsko popoldne na otoku La Grande Jatte::7,13,15::::Naslikana je bila od leta 1884 do 1886 in je najbolj znano delo Georgesa Seurata.
+::Ameriška gotika::5,0,3::::Je ena najbolj znanih ameriških slik 20. stoletja.
+::Sestava z rdečo, rumeno, modro in črno::10,2,12::::Predstavlja zrelo stopnjo Mondrianove abstrakcije. Zdi se, da gre za ravno delo, vendar obstajajo razlike v teksturi različnih elementov.
+::Dekle z bisernim uhanom::5,14,1::::Je najbolj znana Vermeerjeva slika. Gre za sliko namišljene figure z orientalskim turbanom in neverjetno velikim biserom v ušesu.
+::Stvarjenje Adama::6,12,8::::Gre za fresko, ki jo je Michelangelo naslikal med letoma 1508 in 1512 na stropu Sikstinske kapele v Vatikanu. Prikazuje odlomek iz Prve Mojzesove knjige, ki opisuje, kako je Bog ustvaril Adama in dal življenje prvemu človeku.
+::Mona Lisa::8,14,4::::Velja za mojstrovino italijanske renesanse, opisana je kot najbolj znana umetnina na svetu.
+::Nighthawks::14,13,15::::To je ena od Hopperjevih slik v New Yorku in umetnik je dejal, da temelji na resnični kavarni.
+::Veleposlaniki::12,3,5::::Je ena najbolj znanih Holbeinovih slik. Naslikana je bila med njegovim drugim obiskom Anglije in vsebuje veliko simbolov in skritih pomenov.
+::zajec::0,1,2::::Naslikana je bila leta 1502 in je priznana kot mojstrovina observacijske umetnosti.
+::Veliki val pri Kanagawi::3,12,16::::Gre za leseno grafiko, ki prikazuje ogromen val, ki se dviga nad ribiško ladjo v zalivu Kanagawa blizu Tokia.
+::Poljub::4,5,2::::Gre za znamenito leseno grafiko, ustvarjeno na Japonskem med letoma 1829 in 1833.
+::Deveti val::10,7,3::::Gre za sliko, ki jo je leta 1850 ustvaril rusko-armenski marinist Ivan Ajvazovski.
+::Krik::11,7,5::::Gre za kompozicijo, ki jo je leta 1893 ustvaril norveški umetnik Edvard Munch in je med najbolj priznanimi podobami sodobne umetnosti.
+::Zvezdna noč::6,16,7::::Naslikana leta 1889 prikazuje pogled skozi okno Van Goghove azilne sobe tik pred sončnim vzhodom.
+::Babilonski stolp::1,5,12::::Slika prikazuje gradbeni projekt, ki je opisan v Svetem pismu, babilonskega stolpa. Bruegel je ustvaril tri različice slike, vendar sta se do danes ohranili le dve.
+::Potepuh nad morjem megle::5,9,8::::Je najbolj znana slika nemške romantike in je bila interpretirana kot simbol samorefleksije.

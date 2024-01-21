@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovsky::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Wassily Kandinsky::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::Beliau adalah seorang artis Impresionis Perancis yang terkenal dengan lukisan pastel dan lukisan minyaknya.
+::Andy Warhol::9,7,4::::Beliau adalah seorang artis visual Amerika, pengarah filem, penerbit, dan tokoh terkemuka dalam pergerakan seni pop.
+::Caspar David Friedrich::0,4,8::::Beliau adalah seorang pelukis landskap Romantik Jerman, secara amnya dianggap sebagai artis Jerman yang paling penting dalam generasinya.
+::Paul Gauguin::8,2,10::::Beliau merupakan tokoh penting dalam gerakan Simbolis sebagai pelukis, pengukir dan penulis.
+::Claude Monet::8,11,12::::Beliau adalah seorang pelukis Perancis dan pengasas lukisan impresionis yang dilihat sebagai pelopor utama kepada modenisme.
+::Diego Rivera::12,8,9::::Dia adalah seorang pelukis Mexico yang terkenal. Lukisan dinding besarnya membantu mewujudkan pergerakan mural dalam seni Mexico dan antarabangsa.
+::Diego Velázquez::4,12,9::::Dia dianggap sebagai salah seorang pelukis paling berprestij pada zaman Baroque.
+::Edvard Munch::8,5,4::::Beliau adalah salah seorang artis Modernisme yang paling penting.
+::Edward Hopper::11,7,6::::Dia adalah seorang pelukis dan pembuat cetakan realis Amerika. Walaupun dia terkenal dengan lukisan minyaknya, dia juga mahir sebagai seorang cat air dan pembuat cetakan.
+::El Greco::2,14,16::::Beliau adalah seorang pelukis Yunani, pengukir dan arkitek Renaissance Sepanyol.
+::Emanuel Leutze::13,15,16::::Beliau adalah seorang pelukis sejarah Amerika kelahiran Jerman.
+::Eugène Delacroix::6,14,16::::Dia adalah seorang artis Romantik Perancis yang dianggap sejak awal kerjayanya sebagai ketua sekolah Romantik Perancis.
+::Francisco Goya::13,5,15::::Dia seorang pelukis romantik Sepanyol. Dia dianggap sebagai artis Sepanyol yang paling penting pada akhir abad ke-18 dan awal abad ke-19.
+::Frida Kahlo::12,21,11::::Dia seorang pelukis Mexico yang terkenal dengan banyak potret, potret diri dan karya yang diilhamkan oleh alam semula jadi.
+::Georges Seurat::13,16,8::::Beliau adalah pelopor teknik melukis dalam titik-titik kecil atau sapuan warna.
+::Grant Wood::12,23,20::::Beliau adalah seorang pelukis Amerika yang terkenal dengan lukisannya yang menggambarkan kawasan pedalaman Amerika Midwest.
+::Gustav Klimt::15,19,20::::Beliau adalah seorang pelukis simbolis Austria dan salah seorang ahli yang paling menonjol dalam pergerakan Pemisahan Vienna.
+::Vincent van Gogh::20,23,25::::Beliau merupakan seorang pelukis Belanda yang merupakan antara tokoh yang terkenal dan berpengaruh dalam sejarah seni Barat.
+::Henri Matisse::24,14,10::::Dia adalah seorang artis visual Perancis, yang terkenal dengan penggunaan warna dan seni lukisnya yang cair dan asli.
+::Pierre-Auguste Renoir::22,24,12::::Beliau adalah seorang artis Perancis yang merupakan pelukis terkemuka dalam pembangunan gaya Impresionis.
+::Hokusai::17,13,26::::Beliau adalah seorang artis Jepun zaman Edo, aktif sebagai pelukis dan pembuat cetakan.
+::Ivan Aivazovsky::14,24,26::::Beliau adalah seorang artis Jepun zaman Edo, aktif sebagai pelukis dan pembuat cetakan.
+::James Abbott McNeill Whistler::14,26,18::::Beliau adalah seorang artis Amerika yang terkenal dengan lukisan dan lukisan yang dibuatnya di Eropah pada separuh kedua abad ke-19.
+::Jan van Eyck::17,18,26::::Beliau adalah pelukis Belanda yang menyempurnakan teknik lukisan minyak yang baru dibangunkan.
+::Johannes Vermeer::31,22,19::::Beliau adalah seorang pelukis Zaman Baroque Belanda yang pakar dalam adegan dalaman domestik kehidupan kelas pertengahan.
+::Leonardo da Vinci::33,21,19::::Beliau adalah seorang polymath Itali yang aktif sebagai pelukis, jurutera, saintis dan arkitek.
+::Marc Chagall::22,32,18::::Dia adalah seorang artis Belarusia dan Perancis. Seorang modenis awal, dia dikaitkan dengan beberapa gaya seni utama.
+::Pablo Picasso::32,33,31::::Dia adalah seorang pelukis dan pengukir Sepanyol yang menghabiskan sebahagian besar kehidupan dewasanya di Perancis. Salah seorang artis paling berpengaruh pada abad ke-20.
+::Paolo Uccello::23,21,30::::Beliau adalah seorang artis Itali yang penting pada Zaman Renaissance Awal yang terkenal dengan penggunaan perspektif perintisnya.
+::Paul Cézanne::26,23,28::::Beliau adalah seorang pelukis pasca-impresionis yang ideanya mempengaruhi ramai artis abad ke-20 dan terutamanya Kubisme.
+::Wassily Kandinsky::26,31,34::::Beliau adalah seorang artis Rusia, salah seorang pencipta abstraksi tulen pertama dalam lukisan moden.
+::Rembrandt::34,27,33::::Beliau adalah seorang pelukis, pembuat cetakan, dan pelukis Belanda. Dia dianggap sebagai salah seorang artis visual terhebat dalam sejarah seni.
+::Albrecht Dürer::26,33,28::::Beliau adalah seorang pelukis Jerman, pembuat cetakan, dan ahli teori Renaissance Jerman.
+::Salvador Dali::32,26,28::::Dia adalah seorang artis surealis Sepanyol yang terkenal dengan kemahiran teknikalnya dan imej yang menarik dan pelik dalam karyanya.
+::Sandro Botticelli::33,27,28::::Beliau adalah seorang pelukis Itali pada Zaman Renaissance Awal.

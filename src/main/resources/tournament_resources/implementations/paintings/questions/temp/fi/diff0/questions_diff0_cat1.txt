@@ -1,16 +1,16 @@
-::Abstrakti ekspressionismi::8,7,1::::
-::Jugend::7,6,4::::
-::suprematismi::9,7,0::::
-::kubismi::2,11,1::::
-::Dada::10,0,6::::
-::ekspressionismi::10,12,3::::
-::Fauvismi::1,3,7::::
-::Graffiti::8,5,0::::
-::impressionismi::15,1,5::::
-::Keskiaikainen taide::15,2,8::::
-::Realismi::9,13,3::::
-::Renessanssi::12,15,8::::
-::Romantiikka::4,6,13::::
-::Sosiaalirealismi::11,14,9::::
-::Surrealismi::7,13,10::::
-::Symbolismi::8,11,13::::
+::Abstrakti ekspressionismi::8,7,1::::Se oli sodan jälkeinen taideliike, joka asetti New Yorkin taidemaailman keskipisteeseen 1900-luvun puolivälissä. Maalauksissa on tiettyjä piirteitä, kuten suurten kankaiden käyttö ja näkemys, että taiteen ei tulisi olla edustavaa.
+::Jugend::7,6,4::::Se on taideliike, jolle on tunnusomaista linjan sujuvuuden, geometristen muotojen, epäsymmetristen sommittelujen korostaminen sekä rakenteen ja ornamentin rohkea yhdistelmä.
+::suprematismi::9,7,0::::Se oli abstraktin taiteen liike, joka perustettiin Venäjälle ensimmäisen maailmansodan aikana.
+::kubismi::2,11,1::::Se oli vallankumouksellinen uusi lähestymistapa todellisuuden esittämiseen, jonka taiteilijat Pablo Picasso ja Georges Braque keksivät noin vuonna 1907.
+::Dada::10,0,6::::Se alkoi Zürichissä noin vuonna 1915, ja sen keksivät pakolaistaiteilijat ja intellektuellit Euroopan pääkaupungeista, joita oli vaivannut ensimmäinen maailmansota.
+::ekspressionismi::10,12,3::::Se on modernistinen liike, alun perin runoudessa ja maalauksessa, ja se on saanut alkunsa Pohjois-Euroopasta 1900-luvun alun tienoilla.
+::Fauvismi::1,3,7::::Se on maalaustyyli, joka kukoisti Ranskassa 1900-luvun vaihteessa. Sille on ominaista puhdas väri, joka levitetään aggressiivisesti suoraan maaliputkista luomaan räjähdyksen tunteen kankaalle.
+::Graffiti::8,5,0::::Se on taidetta, joka kirjoitetaan, maalataan tai piirretään seinälle tai muulle pinnalle, yleensä ilman lupaa ja julkisesti.
+::impressionismi::15,1,5::::Se on maalaustyyli, joka alkoi Ranskassa 1800-luvun lopulla. Se näyttää todentuntuisia aiheita, jotka on maalattu nopealla tyylillä helposti havaittavilla vedoilla.
+::Keskiaikainen taide::15,2,8::::Keskiaikainen taide Euroopassa kasvoi Rooman valtakunnan taiteellisesta perinnöstä ja varhaisen kristillisen kirkon ikonografisista perinteistä.
+::Realismi::9,13,3::::Sille on ominaista tarkka, yksityiskohtainen, kaunistelematon luonnon tai nykyelämän kuvaus. Se hylkää mielikuvituksellisen idealisoinnin ulkonäön tarkkaa tarkkailun puolesta.
+::Renessanssi::12,15,8::::Se on ajanjakso historiassa ja kulttuuriliike, joka merkitsee siirtymistä keskiajalta moderniin.
+::Romantiikka::4,6,13::::Sille oli ominaista tunteiden ja individualismin korostaminen sekä menneisyyden ja luonnon ylistäminen, keskiaikaisen klassisen sijaan.
+::Sosiaalirealismi::11,14,9::::Se oli liike, joka kukoisti kahden maailmansodan välillä vastauksena aikakauden sosiaaliseen ja poliittiseen myllerrykseen ja vaikeuksiin.
+::Surrealismi::7,13,10::::Se oli 1900-luvun taiteellinen liike, joka tutki mielen toimintaa puolustaen irrationaalista, runollista ja vallankumouksellista.
+::Symbolismi::8,11,13::::Se oli 1800-luvun lopun ranskalaista ja belgialaista alkuperää oleva taideliike, joka pyrki edustamaan absoluuttisia totuuksia symbolisesti kielen ja metaforisten kuvien avulla.

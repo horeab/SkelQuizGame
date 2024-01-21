@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovsky::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Wassily Kandinsky::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::Ông là một họa sĩ người Pháp theo trường phái Ấn tượng nổi tiếng với những bức vẽ màu phấn và tranh sơn dầu.
+::Andy Warhol::9,7,4::::Ông là một nghệ sĩ thị giác, đạo diễn phim, nhà sản xuất và nhân vật hàng đầu trong phong trào nghệ thuật đại chúng người Mỹ.
+::Caspar David Friedrich::0,4,8::::Ông là một họa sĩ phong cảnh lãng mạn người Đức, thường được coi là nghệ sĩ người Đức quan trọng nhất trong thế hệ của ông.
+::Paul Gauguin::8,2,10::::Ông là một nhân vật quan trọng trong phong trào Tượng trưng với tư cách là một họa sĩ, nhà điêu khắc và nhà văn.
+::Claude Monet::8,11,12::::Ông là một họa sĩ người Pháp và là người sáng lập ra hội họa theo trường phái ấn tượng, người được coi là tiền thân của chủ nghĩa hiện đại.
+::Diego Rivera::12,8,9::::Ông là một họa sĩ nổi tiếng người Mexico. Những bức bích họa lớn của ông đã giúp thiết lập phong trào tranh tường trong nghệ thuật Mexico và quốc tế.
+::Diego Velázquez::4,12,9::::Ông được coi là một trong những họa sĩ có uy tín nhất thời kỳ Baroque.
+::Edvard Munch::8,5,4::::Ông là một trong những nghệ sĩ quan trọng nhất của Chủ nghĩa Hiện đại.
+::Edward Hopper::11,7,6::::Ông là một họa sĩ và thợ in theo trường phái hiện thực người Mỹ. Mặc dù được biết đến rộng rãi với những bức tranh sơn dầu, nhưng ông cũng thành thạo không kém với tư cách là một họa sĩ vẽ màu nước và thợ in.
+::El Greco::2,14,16::::Ông là một họa sĩ, nhà điêu khắc và kiến trúc sư người Hy Lạp thời Phục hưng Tây Ban Nha.
+::Emanuel Leutze::13,15,16::::Ông là một họa sĩ lịch sử người Mỹ gốc Đức.
+::Eugène Delacroix::6,14,16::::Ông là một nghệ sĩ Lãng mạn người Pháp được coi là người lãnh đạo trường phái Lãng mạn Pháp ngay từ đầu sự nghiệp.
+::Francisco Goya::13,5,15::::Ông là một họa sĩ lãng mạn người Tây Ban Nha. Ông được coi là nghệ sĩ Tây Ban Nha quan trọng nhất vào cuối thế kỷ 18 và đầu thế kỷ 19.
+::Frida Kahlo::12,21,11::::Cô là một họa sĩ người Mexico nổi tiếng với nhiều bức chân dung, chân dung tự họa và các tác phẩm lấy cảm hứng từ thiên nhiên.
+::Georges Seurat::13,16,8::::Ông là người tiên phong trong kỹ thuật vẽ tranh bằng những chấm nhỏ hoặc nét màu.
+::Grant Wood::12,23,20::::Ông là một họa sĩ người Mỹ nổi tiếng với những bức tranh miêu tả vùng nông thôn Trung Tây nước Mỹ.
+::Gustav Klimt::15,19,20::::Ông là một họa sĩ theo trường phái biểu tượng người Áo và là một trong những thành viên nổi bật nhất của phong trào Ly khai Vienna.
+::Vincent van Gogh::20,23,25::::Ông là một họa sĩ người Hà Lan, một trong những nhân vật nổi tiếng và có ảnh hưởng nhất trong lịch sử nghệ thuật phương Tây.
+::Henri Matisse::24,14,10::::Ông là một nghệ sĩ thị giác người Pháp, được biết đến với cả cách sử dụng màu sắc cũng như khả năng vẽ linh hoạt và nguyên bản của mình.
+::Pierre-Auguste Renoir::22,24,12::::Ông là một họa sĩ người Pháp, là họa sĩ đi đầu trong việc phát triển phong cách Ấn tượng.
+::Hokusai::17,13,26::::Ông là một nghệ sĩ Nhật Bản thời Edo, hoạt động như một họa sĩ và thợ in.
+::Ivan Aivazovsky::14,24,26::::Ông là một nghệ sĩ Nhật Bản thời Edo, hoạt động như một họa sĩ và thợ in.
+::James Abbott McNeill Whistler::14,26,18::::Ông là một họa sĩ người Mỹ nổi tiếng với những bức tranh và bản vẽ ông thực hiện ở châu Âu vào nửa sau thế kỷ 19.
+::Jan van Eyck::17,18,26::::Ông là họa sĩ người Hà Lan, người đã hoàn thiện kỹ thuật vẽ tranh sơn dầu mới được phát triển.
+::Johannes Vermeer::31,22,19::::Ông là một họa sĩ người Hà Lan thời kỳ Baroque, chuyên vẽ các bức tranh nội thất gia đình về cuộc sống của tầng lớp trung lưu.
+::Leonardo da Vinci::33,21,19::::Ông là một nhà thông thái người Ý, hoạt động tích cực với tư cách là họa sĩ, kỹ sư, nhà khoa học và kiến trúc sư.
+::Marc Chagall::22,32,18::::Ông là một nghệ sĩ người Belarus và người Pháp. Là một người theo chủ nghĩa hiện đại thời kỳ đầu, ông gắn liền với một số phong cách nghệ thuật lớn.
+::Pablo Picasso::32,33,31::::Ông là một họa sĩ và nhà điêu khắc người Tây Ban Nha, người đã dành phần lớn cuộc đời trưởng thành của mình ở Pháp. Một trong những nghệ sĩ có ảnh hưởng nhất của thế kỷ 20.
+::Paolo Uccello::23,21,30::::Ông là một nghệ sĩ quan trọng của Ý thời kỳ Phục hưng sớm, được biết đến với việc tiên phong sử dụng phối cảnh.
+::Paul Cézanne::26,23,28::::Ông là một họa sĩ theo trường phái hậu ấn tượng, người có ý tưởng ảnh hưởng đến nhiều nghệ sĩ của thế kỷ 20 và đặc biệt là trường phái Lập thể.
+::Wassily Kandinsky::26,31,34::::Ông là một họa sĩ người Nga, một trong những người đầu tiên tạo ra sự trừu tượng thuần túy trong hội họa hiện đại.
+::Rembrandt::34,27,33::::Ông là một họa sĩ, thợ in và người vẽ phác thảo người Hà Lan. Ông được coi là một trong những nghệ sĩ thị giác vĩ đại nhất trong lịch sử nghệ thuật.
+::Albrecht Dürer::26,33,28::::Ông là một họa sĩ, thợ in và nhà lý luận người Đức thời Phục hưng.
+::Salvador Dali::32,26,28::::Ông là một nghệ sĩ siêu thực người Tây Ban Nha nổi tiếng với kỹ năng kỹ thuật và những hình ảnh ấn tượng và kỳ quái trong tác phẩm của mình.
+::Sandro Botticelli::33,27,28::::Ông là một họa sĩ người Ý thời kỳ Phục hưng sớm.

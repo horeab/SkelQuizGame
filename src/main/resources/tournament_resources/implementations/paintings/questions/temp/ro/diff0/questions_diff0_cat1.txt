@@ -1,16 +1,16 @@
-::Expresionism abstract::8,7,1::::
-::Art Nouveau::7,6,4::::
-::Suprematism::9,7,0::::
-::Cubism::2,11,1::::
-::Dada::10,0,6::::
-::Expresionism::10,12,3::::
-::Fauvism::1,3,7::::
-::Graffiti::8,5,0::::
-::Impresionism::15,1,5::::
-::Artă medievală::15,2,8::::
-::Realism::9,13,3::::
-::Renaştere::12,15,8::::
-::Romantism::4,6,13::::
-::Realism social::11,14,9::::
-::Suprarealism::7,13,10::::
-::Simbolism::8,11,13::::
+::Expresionism abstract::8,7,1::::A fost o mișcare de artă postbelică care a plasat New York-ul în centrul lumii artei la mijlocul secolului al XX-lea. Picturile au anumite caracteristici, inclusiv utilizarea de pânze mari și prin opinia că arta ar trebui să fie nereprezentativă.
+::Art Nouveau::7,6,4::::Este o mișcare de artă caracterizată printr-un accent pus pe fluiditatea liniilor, forme geometrice, compoziții asimetrice și o combinație îndrăzneață de structură și ornamentație.
+::Suprematism::9,7,0::::A fost o mișcare de artă abstractă fondată în Rusia în timpul Primului Război Mondial.
+::Cubism::2,11,1::::A fost o nouă abordare revoluționară a reprezentării realității, inventată în jurul anului 1907 de artiștii Pablo Picasso și Georges Braque.
+::Dada::10,0,6::::A început la Zurich în jurul anului 1915, inventat de artiști și intelectuali refugiați din capitalele europene afectate de Primul Război Mondial.
+::Expresionism::10,12,3::::Este o mișcare modernistă, inițial în poezie și pictură, cu originea în Europa de Nord pe la începutul secolului XX.
+::Fauvism::1,3,7::::Este un stil de pictură care a înflorit în Franța la începutul secolului al XX-lea. Se caracterizează prin culoare pură aplicată agresiv direct din tuburile de vopsea pentru a crea senzația de explozie pe pânză.
+::Graffiti::8,5,0::::Este artă care este scrisă, pictată sau desenată pe un perete sau pe altă suprafață, de obicei fără permisiune și în vederea publicului.
+::Impresionism::15,1,5::::Este un stil de pictură care a început în Franța la sfârșitul secolului al XIX-lea. Prezintă subiecte realiste pictate într-un stil rapid, cu linii ușor de văzut.
+::Artă medievală::15,2,8::::Arta medievală din Europa a luat naștere din moștenirea artistică a Imperiului Roman și din tradițiile iconografice ale bisericii creștine timpurii.
+::Realism::9,13,3::::Se caracterizează prin reprezentarea precisă, detaliată, neînfrumusețată a naturii sau a vieții contemporane. Respinge idealizarea imaginativă în favoarea unei observări atente a aparențelor exterioare.
+::Renaştere::12,15,8::::Este o perioadă din istorie și o mișcare culturală care marchează trecerea de la Evul Mediu la modernitate.
+::Romantism::4,6,13::::S-a caracterizat prin accentul pus pe emoție și individualism, precum și prin glorificarea trecutului și a naturii, preferând medievalul celui clasic.
+::Realism social::11,14,9::::A fost o mișcare care a înflorit între cele două războaie mondiale, ca răspuns la tulburările și greutățile sociale și politice ale perioadei.
+::Suprarealism::7,13,10::::A fost o mișcare artistică din secolul al XX-lea care a explorat funcționarea minții, susținând iraționalul, poeticul și revoluționarul.
+::Simbolism::8,11,13::::A fost o mișcare de artă de la sfârșitul secolului al XIX-lea, de origine franceză și belgiană, care căuta să reprezinte adevăruri absolute în mod simbolic prin limbaj și imagini metaforice.

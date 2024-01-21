@@ -1,16 +1,16 @@
-::Abstraktní expresionismus::8,7,1::::
-::Secesní::7,6,4::::
-::Suprematismus::9,7,0::::
-::Kubismus::2,11,1::::
-::Dada::10,0,6::::
-::Expresionismus::10,12,3::::
-::Fauvismus::1,3,7::::
-::Graffiti::8,5,0::::
-::Impresionismus::15,1,5::::
-::Středověké umění::15,2,8::::
-::Realismus::9,13,3::::
-::Renesance::12,15,8::::
-::Romantismus::4,6,13::::
-::Sociální realismus::11,14,9::::
-::Surrealismus::7,13,10::::
-::Symbolika::8,11,13::::
+::Abstraktní expresionismus::8,7,1::::Bylo to poválečné umělecké hnutí, které postavilo New York do středu uměleckého světa v polovině dvacátého století. Obrazy sdílejí určité vlastnosti, včetně použití velkých pláten a názoru, že umění by mělo být nereprezentativní.
+::Secesní::7,6,4::::Je to umělecký směr, který se vyznačuje důrazem na plynulost linie, geometrické formy, asymetrické kompozice a odvážnou kombinaci struktury a ornamentiky.
+::Suprematismus::9,7,0::::Bylo to abstraktní umělecké hnutí založené v Rusku během první světové války.
+::Kubismus::2,11,1::::Byl to nový revoluční přístup k reprezentaci reality, který vynalezli kolem roku 1907 umělci Pablo Picasso a Georges Braque.
+::Dada::10,0,6::::Začalo to v Curychu kolem roku 1915, vynalezli ho umělci z řad uprchlíků a intelektuálové z evropských metropolí sužovaných první světovou válkou.
+::Expresionismus::10,12,3::::Je to modernistické hnutí, původně v poezii a malbě, pocházející ze severní Evropy kolem počátku 20. století.
+::Fauvismus::1,3,7::::Je to styl malby, který ve Francii vzkvétal na přelomu 20. století. Vyznačuje se čistou barvou agresivně nanášenou přímo z tuby barev, aby na plátně vytvořila pocit exploze.
+::Graffiti::8,5,0::::Je to umění, které je napsáno, namalováno nebo nakresleno na zeď nebo jiný povrch, obvykle bez povolení a na veřejném dohledu.
+::Impresionismus::15,1,5::::Je to styl malby, který vznikl ve Francii koncem 19. století. Zobrazuje živé objekty namalované rychlým stylem s tahy, které jsou snadno viditelné.
+::Středověké umění::15,2,8::::Středověké umění v Evropě vyrostlo z uměleckého dědictví římské říše a ikonografických tradic raně křesťanské církve.
+::Realismus::9,13,3::::Vyznačuje se přesným, detailním, nepřikrášleným zobrazením přírody nebo současného života. Odmítá imaginativní idealizaci ve prospěch bedlivého pozorování vnějších jevů.
+::Renesance::12,15,8::::Je to období v historii a kulturní hnutí označující přechod od středověku k moderně.
+::Romantismus::4,6,13::::Vyznačovalo se důrazem na emoce a individualismus, stejně jako glorifikací minulosti a přírody, upřednostňováním středověku před klasikou.
+::Sociální realismus::11,14,9::::Bylo to hnutí, které vzkvétalo mezi dvěma světovými válkami v reakci na sociální a politické nepokoje a těžkosti té doby.
+::Surrealismus::7,13,10::::Bylo to umělecké hnutí dvacátého století, které zkoumalo fungování mysli, prosazovalo iracionální, poetické a revoluční.
+::Symbolika::8,11,13::::Bylo to umělecké hnutí z konce 19. století francouzského a belgického původu, které se snažilo symbolicky reprezentovat absolutní pravdy prostřednictvím jazyka a metaforických obrazů.

@@ -1,16 +1,16 @@
-::Ekspresjonizm abstrakcyjny::8,7,1::::
-::Secesja::7,6,4::::
-::Suprematyzm::9,7,0::::
-::Kubizm::2,11,1::::
-::Dada::10,0,6::::
-::Ekspresjonizm::10,12,3::::
-::Fauwizm::1,3,7::::
-::Graffiti::8,5,0::::
-::Impresjonizm::15,1,5::::
-::Sztuka średniowieczna::15,2,8::::
-::Realizm::9,13,3::::
-::Renesans::12,15,8::::
-::Romantyzm::4,6,13::::
-::Realizm społeczny::11,14,9::::
-::Surrealizm::7,13,10::::
-::Symbolika::8,11,13::::
+::Ekspresjonizm abstrakcyjny::8,7,1::::Był to powojenny ruch artystyczny, który w połowie XX wieku umieścił Nowy Jork w centrum świata sztuki. Obrazy mają pewne cechy wspólne, w tym wykorzystanie dużych płócien i pogląd, że sztuka powinna być nieprzedstawialna.
+::Secesja::7,6,4::::Jest to ruch artystyczny charakteryzujący się naciskiem na płynność linii, geometryczne formy, asymetryczne kompozycje oraz śmiałe połączenie struktury i zdobnictwa.
+::Suprematyzm::9,7,0::::Był to ruch sztuki abstrakcyjnej, który powstał w Rosji podczas I wojny światowej.
+::Kubizm::2,11,1::::Było to nowe, rewolucyjne podejście do przedstawiania rzeczywistości, wymyślone około 1907 roku przez artystów Pabla Picassa i Georgesa Braque’a.
+::Dada::10,0,6::::Zaczęło się w Zurychu około roku 1915, wymyślone przez artystów-uchodźców i intelektualistów z europejskich stolic nękanych przez I wojnę światową.
+::Ekspresjonizm::10,12,3::::Jest to ruch modernistyczny, początkowo w poezji i malarstwie, wywodzący się z Europy Północnej na początku XX wieku.
+::Fauwizm::1,3,7::::Jest to styl malarstwa, który rozkwitł we Francji na przełomie XIX i XX wieku. Charakteryzuje się czystym kolorem, agresywnie nakładanym prosto z tub z farbą, aby stworzyć wrażenie eksplozji na płótnie.
+::Graffiti::8,5,0::::Jest to sztuka pisana, malowana lub rysowana na ścianie lub innej powierzchni, zwykle bez pozwolenia i na widoku publicznym.
+::Impresjonizm::15,1,5::::Jest to styl malarstwa, który powstał we Francji pod koniec XIX wieku. Pokazuje realistyczne motywy namalowane w szybkim stylu, z dobrze widocznymi pociągnięciami.
+::Sztuka średniowieczna::15,2,8::::Sztuka średniowieczna w Europie wyrosła z dziedzictwa artystycznego Cesarstwa Rzymskiego i tradycji ikonograficznych wczesnego kościoła chrześcijańskiego.
+::Realizm::9,13,3::::Charakteryzuje się dokładnym, szczegółowym i pozbawionym upiększeń przedstawieniem natury lub współczesnego życia. Odrzuca idealizację wyobraźni na rzecz uważnej obserwacji wyglądu zewnętrznego.
+::Renesans::12,15,8::::Jest to okres w historii i ruch kulturowy wyznaczający przejście od średniowiecza do nowoczesności.
+::Romantyzm::4,6,13::::Charakteryzował się naciskiem na emocje i indywidualizm oraz gloryfikacją przeszłości i natury, preferując średniowiecze od klasyki.
+::Realizm społeczny::11,14,9::::Był to ruch, który rozkwitł między dwiema wojnami światowymi w odpowiedzi na społeczne i polityczne zawirowania oraz trudności tamtego okresu.
+::Surrealizm::7,13,10::::Był to dwudziestowieczny ruch artystyczny, który badał działanie umysłu, opowiadając się za tym, co irracjonalne, poetyckie i rewolucyjne.
+::Symbolika::8,11,13::::Był to ruch artystyczny końca XIX wieku, wywodzący się z Francji i Belgii, mający na celu symboliczne przedstawienie prawd absolutnych poprzez język i obrazy metaforyczne.

@@ -1,17 +1,17 @@
-::Tarvittava ystävä::11,8,1::::
-::Sunnuntai-iltapäivä La Grande Jatten saarella::7,13,15::::
-::Amerikkalainen gootti::5,0,3::::
-::Koostumus punaisella, keltaisella, sinisellä ja mustalla::10,2,12::::
-::Tyttö helmikorvakorulla::5,14,1::::
-::Aadamin luominen::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Nighthawks::14,13,15::::
-::Suurlähettiläät::12,3,5::::
-::Jänis::0,1,2::::
-::Suuri aalto Kanagawan edustalla::3,12,16::::
-::suudelma::4,5,2::::
-::Yhdeksäs aalto::10,7,3::::
-::Huuta::11,7,5::::
-::Tähtenäinen yö::6,16,7::::
-::Babelin torni::1,5,12::::
-::Vaeltaja sumumeren yläpuolella::5,9,8::::
+::Tarvittava ystävä::11,8,1::::Se on kuuluisin 16 maalauksen sarjasta. Maalaukset tilasi yritys, joka mainosti sikareita.
+::Sunnuntai-iltapäivä La Grande Jatten saarella::7,13,15::::Se on maalattu vuosina 1884–1886 ja on Georges Seuratin kuuluisin teos.
+::Amerikkalainen gootti::5,0,3::::Se on yksi 1900-luvun tunnetuimmista amerikkalaisista maalauksista.
+::Koostumus punaisella, keltaisella, sinisellä ja mustalla::10,2,12::::Se edustaa Mondrianin abstraktion kypsää vaihetta. Se näyttää olevan tasainen työ, mutta eri elementtien tekstuurissa on eroja.
+::Tyttö helmikorvakorulla::5,14,1::::Se on Vermeerin kuuluisin maalaus. Se on maalaus kuvitteellisesta hahmosta, jolla on yllään itämainen turbaani ja epätodennäköisen suuri helmi korvassaan.
+::Aadamin luominen::6,12,8::::Se on Michelangelon vuosina 1508–1512 maalaama fresko Sikstuksen kappelin kattoon Vatikaanissa. Se kuvaa kohtaa Genesiksen kirjasta, jossa kuvataan, että Jumala loi Aadamin ja antoi elämän ensimmäiselle ihmiselle.
+::Mona Lisa::8,14,4::::Sitä pidetään Italian renessanssin mestariteoksena, sitä on kuvattu maailman tunnetuimmaksi taideteokseksi.
+::Nighthawks::14,13,15::::Se on yksi Hopperin New York Cityn maalauksista, ja taiteilija sanoi, että se perustui oikeaan kahvilaan.
+::Suurlähettiläät::12,3,5::::Se on yksi Holbeinin kuuluisimmista maalauksista. Se maalattiin hänen toisen vierailunsa aikana Englannissa ja se sisältää monia symboleja ja piilotettuja merkityksiä.
+::Jänis::0,1,2::::Se on maalattu vuonna 1502 ja se on tunnustettu havainnointitaiteen mestariteokseksi.
+::Suuri aalto Kanagawan edustalla::3,12,16::::Se on puupalikkaprintti, joka kuvaa valtavaa aaltoa, joka kohoaa kalastusveneen yläpuolelle Kanagawan lahdella lähellä Tokiota.
+::suudelma::4,5,2::::Se on kuuluisa puupalikkaprintti, joka on luotu Japanissa vuosina 1829-1833.
+::Yhdeksäs aalto::10,7,3::::Se on venäläis-armenialaisen merimaalari Ivan Aivazovskin vuonna 1850 luoma maalaus.
+::Huuta::11,7,5::::Se on norjalaisen taiteilijan Edvard Munchin vuonna 1893 luoma sävellys, joka kuuluu modernin taiteen tunnetuimpiin kuviin.
+::Tähtenäinen yö::6,16,7::::Vuonna 1889 maalattu se kuvaa näkymää Van Goghin turvapaikkahuoneen ikkunasta juuri ennen auringonnousua.
+::Babelin torni::1,5,12::::Maalaus kuvaa rakennusprojektia, joka on kuvattu Raamatussa, Baabelin tornia. Bruegel loi maalauksesta kolme versiota, mutta vain kaksi on säilynyt tähän päivään asti.
+::Vaeltaja sumumeren yläpuolella::5,9,8::::Se on tunnetuin saksalaisen romantiikan maalaus, ja sitä on tulkittu itsereflektorin tunnukseksi.

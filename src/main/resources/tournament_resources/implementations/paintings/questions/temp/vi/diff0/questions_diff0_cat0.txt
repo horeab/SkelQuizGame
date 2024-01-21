@@ -1,17 +1,17 @@
-::Một người bạn cần::11,8,1::::
-::Chiều Chủ nhật trên đảo Grande Jatte::7,13,15::::
-::American Gothic::5,0,3::::
-::Thành phần với màu đỏ, vàng, xanh và đen::10,2,12::::
-::Cô gái đeo hoa tai ngọc trai::5,14,1::::
-::Tạo ra Adam::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Nighthawks::14,13,15::::
-::Đại sứ::12,3,5::::
-::Thỏ rừng::0,1,2::::
-::Làn sóng lớn ngoài khơi Kanagawa::3,12,16::::
-::Nụ hôn::4,5,2::::
-::Làn sóng thứ chín::10,7,3::::
-::Tiếng thét::11,7,5::::
-::Đêm đầy sao::6,16,7::::
-::Tháp Babel::1,5,12::::
-::Kẻ lãng du trên biển sương mù::5,9,8::::
+::Một người bạn cần::11,8,1::::Đây là bức tranh nổi tiếng nhất trong loạt 16 bức tranh. Những bức tranh được ủy quyền bởi một công ty quảng cáo xì gà.
+::Chiều Chủ nhật trên đảo Grande Jatte::7,13,15::::Nó được vẽ từ năm 1884 đến năm 1886 và là tác phẩm nổi tiếng nhất của Georges Seurat.
+::American Gothic::5,0,3::::Đây là một trong những bức tranh Mỹ nổi tiếng nhất thế kỷ 20.
+::Thành phần với màu đỏ, vàng, xanh và đen::10,2,12::::Nó đại diện cho một giai đoạn trưởng thành trong sự trừu tượng của Mondrian. Nó có vẻ là một tác phẩm phẳng, nhưng có sự khác biệt về kết cấu của các phần tử khác nhau.
+::Cô gái đeo hoa tai ngọc trai::5,14,1::::Đây là bức tranh nổi tiếng nhất của Vermeer. Đó là bức tranh vẽ một nhân vật tưởng tượng đội một chiếc khăn xếp phương Đông và đeo một viên ngọc trai lớn trên tai.
+::Tạo ra Adam::6,12,8::::Đây là bức bích họa được Michelangelo vẽ từ năm 1508 đến năm 1512 trên trần Nhà nguyện Sistine ở Thành Vatican. Nó mô tả đoạn văn trong Sách Sáng thế mô tả Thiên Chúa tạo ra Adam và ban sự sống cho con người đầu tiên.
+::Mona Lisa::8,14,4::::Nó được coi là một kiệt tác của thời Phục hưng Ý và được mô tả là tác phẩm nghệ thuật nổi tiếng nhất trên thế giới.
+::Nighthawks::14,13,15::::Đây là một trong những bức tranh ở thành phố New York của Hopper, và họa sĩ nói rằng nó dựa trên một quán cà phê có thật.
+::Đại sứ::12,3,5::::Đây là một trong những bức tranh nổi tiếng nhất của Holbein. Nó được vẽ trong chuyến thăm Anh lần thứ hai của ông và nó chứa đựng nhiều biểu tượng cũng như ý nghĩa ẩn giấu.
+::Thỏ rừng::0,1,2::::Nó được vẽ vào năm 1502 và được công nhận là một kiệt tác của nghệ thuật quan sát.
+::Làn sóng lớn ngoài khơi Kanagawa::3,12,16::::Đó là một bản in khắc gỗ mô tả một con sóng khổng lồ dâng lên trên một chiếc thuyền đánh cá ở Vịnh Kanagawa gần Tokyo.
+::Nụ hôn::4,5,2::::Đây là một bản in khắc gỗ nổi tiếng được tạo ra ở Nhật Bản từ năm 1829 đến năm 1833.
+::Làn sóng thứ chín::10,7,3::::Đó là bức tranh được tạo ra vào năm 1850 bởi họa sĩ hàng hải người Nga gốc Armenia Ivan Aivazovsky.
+::Tiếng thét::11,7,5::::Nó là một tác phẩm do nghệ sĩ người Na Uy Edvard Munch sáng tác vào năm 1893 và là một trong những hình ảnh được công nhận nhất của nghệ thuật hiện đại.
+::Đêm đầy sao::6,16,7::::Được vẽ vào năm 1889, nó mô tả quang cảnh nhìn từ cửa sổ phòng tị nạn của Van Gogh ngay trước khi mặt trời mọc.
+::Tháp Babel::1,5,12::::Bức tranh mô tả một công trình xây dựng được mô tả trong Kinh thánh, đó là tháp Babel. Bruegel đã tạo ra ba phiên bản của bức tranh, nhưng chỉ có hai phiên bản còn tồn tại cho đến ngày nay.
+::Kẻ lãng du trên biển sương mù::5,9,8::::Đây là bức tranh nổi tiếng nhất về Chủ nghĩa lãng mạn Đức và được hiểu như một biểu tượng của sự tự suy ngẫm.

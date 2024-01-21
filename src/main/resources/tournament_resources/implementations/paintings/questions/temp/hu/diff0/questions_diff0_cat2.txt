@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovsky::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Wassily Kandinsky::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::Pasztellrajzairól és olajfestményeiről híres francia impresszionista művész volt.
+::Andy Warhol::9,7,4::::Amerikai képzőművész, filmrendező, producer és a pop art mozgalom vezető alakja volt.
+::Caspar David Friedrich::0,4,8::::Német romantikus tájfestő volt, általában generációja legjelentősebb német művészének tartják.
+::Paul Gauguin::8,2,10::::Festőként, szobrászként és íróként fontos alakja volt a szimbolista mozgalomnak.
+::Claude Monet::8,11,12::::Francia festő volt és az impresszionista festészet megalapítója, akit a modernizmus kulcsfontosságú előfutáraként tekintenek.
+::Diego Rivera::12,8,9::::Jeles mexikói festő volt. Nagy freskói segítettek a mexikói és nemzetközi művészet falfestményeinek meghonosításában.
+::Diego Velázquez::4,12,9::::A barokk korszak egyik legrangosabb festőjének tartják.
+::Edvard Munch::8,5,4::::A modernizmus egyik legjelentősebb művésze volt.
+::Edward Hopper::11,7,6::::Amerikai realista festő és nyomdász volt. Noha széles körben ismert olajfestményeiről, ugyanolyan jártas volt akvarellművészként és grafikusként is.
+::El Greco::2,14,16::::A spanyol reneszánsz görög festője, szobrásza és építésze volt.
+::Emanuel Leutze::13,15,16::::Német származású amerikai történelemfestő volt.
+::Eugène Delacroix::6,14,16::::Francia romantikus művész volt, akit pályája kezdetétől a francia romantikus iskola vezetőjének tartottak.
+::Francisco Goya::13,5,15::::Spanyol romantikus festő volt. A 18. század végén és a 19. század elején a legjelentősebb spanyol művésznek tartják.
+::Frida Kahlo::12,21,11::::Mexikói festő volt, aki számos portréjáról, önarcképéről és a természet által ihletett munkáiról ismert.
+::Georges Seurat::13,16,8::::Úttörője volt a kis pöttyökkel vagy színvonásokkal történő festés technikájának.
+::Grant Wood::12,23,20::::Amerikai festő volt, leginkább az amerikai vidéki középnyugatot ábrázoló festményeiről ismert.
+::Gustav Klimt::15,19,20::::Osztrák szimbolista festő volt, a bécsi szecesszió mozgalom egyik legkiemelkedőbb tagja.
+::Vincent van Gogh::20,23,25::::Holland festő volt, a nyugati művészet történetének egyik leghíresebb és legbefolyásosabb alakja.
+::Henri Matisse::24,14,10::::Francia képzőművész volt, aki színhasználatáról és folyékony és eredeti rajzolásáról is ismert.
+::Pierre-Auguste Renoir::22,24,12::::Francia művész volt, aki az impresszionista stílus kidolgozásának vezető festője volt.
+::Hokusai::17,13,26::::Az Edo-korszak japán művésze volt, festőként és nyomdászként tevékenykedett.
+::Ivan Aivazovsky::14,24,26::::Az Edo-korszak japán művésze volt, festőként és nyomdászként tevékenykedett.
+::James Abbott McNeill Whistler::14,26,18::::A 19. század második felében Európában készített festményeiről és rajzairól híres amerikai művész volt.
+::Jan van Eyck::17,18,26::::Holland festő volt, aki tökéletesítette az olajfestés újonnan kifejlesztett technikáját.
+::Johannes Vermeer::31,22,19::::Holland barokk festő volt, aki a középosztálybeli élet hazai belső színtereire szakosodott.
+::Leonardo da Vinci::33,21,19::::Olasz polihisztor volt, festőként, mérnökként, tudósként és építészként tevékenykedett.
+::Marc Chagall::22,32,18::::Fehérorosz és francia művész volt. Korai modernista volt, több jelentős művészeti stílushoz kötődött.
+::Pablo Picasso::32,33,31::::Spanyol festő és szobrász volt, felnőtt élete nagy részét Franciaországban töltötte. A 20. század egyik legbefolyásosabb művésze.
+::Paolo Uccello::23,21,30::::A kora reneszánsz fontos olasz művésze volt, aki a perspektíva úttörő használatáról ismert.
+::Paul Cézanne::26,23,28::::Posztimpresszionista festő volt, akinek ötletei hatással vannak a 20. század számos művészére, különösen a kubizmusra.
+::Wassily Kandinsky::26,31,34::::Orosz művész volt, a tiszta absztrakció egyik első alkotója a modern festészetben.
+::Rembrandt::34,27,33::::Holland festő, nyomdász és rajzoló volt. A művészettörténet egyik legnagyobb képzőművészeként tartják számon.
+::Albrecht Dürer::26,33,28::::Német festő, nyomdász és a német reneszánsz teoretikusa volt.
+::Salvador Dali::32,26,28::::Spanyol szürrealista művész volt, aki technikai tudásáról és munkáiban feltűnő és bizarr képekről volt híres.
+::Sandro Botticelli::33,27,28::::A kora reneszánsz olasz festője volt.

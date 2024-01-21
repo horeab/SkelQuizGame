@@ -1,17 +1,17 @@
-::İhtiyacı Olan Bir Arkadaş::11,8,1::::
-::Grande Jatte Adası'nda Bir Pazar Öğleden Sonrası::7,13,15::::
-::Amerikan Gotiği::5,0,3::::
-::Kırmızı, sarı, mavi ve siyah ile kompozisyon::10,2,12::::
-::İnci Küpeli Kız::5,14,1::::
-::Adem'in Yaratılışı::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Gece Kuşları::14,13,15::::
-::Elçiler::12,3,5::::
-::tavşan::0,1,2::::
-::Kanagawa'daki Büyük Dalga::3,12,16::::
-::Öpücük::4,5,2::::
-::Dokuzuncu Dalga::10,7,3::::
-::Çığlık::11,7,5::::
-::Yıldızlı Gece::6,16,7::::
-::Babil Kulesi::1,5,12::::
-::Sis Denizinin üzerinde dolaşan::5,9,8::::
+::İhtiyacı Olan Bir Arkadaş::11,8,1::::16 tablodan oluşan serinin en ünlüsüdür. Resimler puro reklamı yapan bir şirket tarafından sipariş edilmişti.
+::Grande Jatte Adası'nda Bir Pazar Öğleden Sonrası::7,13,15::::1884'ten 1886'ya kadar yapılmış olan bu eser Georges Seurat'nın en ünlü eseridir.
+::Amerikan Gotiği::5,0,3::::20. yüzyılın en ünlü Amerikan tablolarından biridir.
+::Kırmızı, sarı, mavi ve siyah ile kompozisyon::10,2,12::::Mondrian'ın soyutlamasının olgun bir aşamasını temsil ediyor. Düz bir çalışma gibi görünüyor ancak farklı unsurların dokusunda farklılıklar var.
+::İnci Küpeli Kız::5,14,1::::Vermeer'in en ünlü tablosudur. Bu, doğuya özgü bir türban ve kulağında inanılmaz derecede büyük bir inci takan hayali bir figürün resmidir.
+::Adem'in Yaratılışı::6,12,8::::Vatikan'daki Sistine Şapeli'nin tavanına Michelangelo tarafından 1508-1512 yılları arasında yapılmış bir fresktir. Tanrı'nın Adem'i yarattığını ve ilk insana hayat verdiğini anlatan Yaratılış Kitabından bir pasajı tasvir ediyor.
+::Mona Lisa::8,14,4::::İtalyan Rönesansının bir başyapıtı olarak kabul edilir ve dünyanın en iyi bilinen sanat eseri olarak tanımlanır.
+::Gece Kuşları::14,13,15::::Bu, Hopper'ın New York City tablolarından biri ve sanatçı, bunun gerçek bir kafeye dayandığını söyledi.
+::Elçiler::12,3,5::::Holbein'in en ünlü tablolarından biridir. İngiltere'ye ikinci ziyareti sırasında yapılmış olan bu tablo birçok sembol ve gizli anlamlar içermektedir.
+::tavşan::0,1,2::::1502 yılında yapılmış olup gözlem sanatının başyapıtı olarak kabul edilmektedir.
+::Kanagawa'daki Büyük Dalga::3,12,16::::Tokyo yakınlarındaki Kanagawa Körfezi'ndeki bir balıkçı teknesinin üzerinde yükselen dev bir dalgayı tasvir eden tahta baskıdır.
+::Öpücük::4,5,2::::1829 ve 1833 yılları arasında Japonya'da yaratılan ünlü bir tahta baskıdır.
+::Dokuzuncu Dalga::10,7,3::::Rus-Ermeni deniz ressamı Ivan Aivazovsky'nin 1850 yılında yaptığı bir tablodur.
+::Çığlık::11,7,5::::Norveçli sanatçı Edvard Munch'un 1893 yılında yarattığı bir kompozisyondur ve modern sanatın en tanınmış görselleri arasında yer almaktadır.
+::Yıldızlı Gece::6,16,7::::1889'da yapılmış olan tablo, Van Gogh'un akıl hastanesi odasının penceresinden güneş doğmadan hemen önceki manzarayı tasvir ediyor.
+::Babil Kulesi::1,5,12::::Resim İncil'de anlatılan bir inşaat projesini, Babil Kulesi'ni tasvir ediyor. Bruegel tablonun üç versiyonunu yarattı, ancak bugüne sadece iki tanesi hayatta kaldı.
+::Sis Denizinin üzerinde dolaşan::5,9,8::::Alman Romantizminin en bilinen tablosudur ve kendini yansıtmanın amblemi olarak yorumlanmıştır.

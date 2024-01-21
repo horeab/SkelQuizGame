@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovsky::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Wassily Kandinsky::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::Hij was een Franse impressionistische kunstenaar die beroemd was om zijn pasteltekeningen en olieverfschilderijen.
+::Andy Warhol::9,7,4::::Hij was een Amerikaanse beeldend kunstenaar, filmregisseur, producer en leidende figuur in de pop-artbeweging.
+::Caspar David Friedrich::0,4,8::::Hij was een Duitse romantische landschapsschilder, algemeen beschouwd als de belangrijkste Duitse kunstenaar van zijn generatie.
+::Paul Gauguin::8,2,10::::Hij was een belangrijke figuur in de symbolistische beweging als schilder, beeldhouwer en schrijver.
+::Claude Monet::8,11,12::::Hij was een Franse schilder en grondlegger van de impressionistische schilderkunst, die wordt gezien als een belangrijke voorloper van het modernisme.
+::Diego Rivera::12,8,9::::Hij was een prominente Mexicaanse schilder. Zijn grote fresco's hielpen de muurschilderingbeweging in de Mexicaanse en internationale kunst tot stand te brengen.
+::Diego Velázquez::4,12,9::::Hij wordt beschouwd als een van de meest prestigieuze schilders uit de barokperiode.
+::Edvard Munch::8,5,4::::Hij was een van de belangrijkste kunstenaars van het modernisme.
+::Edward Hopper::11,7,6::::Hij was een Amerikaanse realistische schilder en graficus. Hoewel hij algemeen bekend staat om zijn olieverfschilderijen, was hij even bekwaam als aquarellist en graficus.
+::El Greco::2,14,16::::Hij was een Griekse schilder, beeldhouwer en architect van de Spaanse Renaissance.
+::Emanuel Leutze::13,15,16::::Hij was een in Duitsland geboren Amerikaanse historieschilder.
+::Eugène Delacroix::6,14,16::::Hij was een Franse romantische kunstenaar die vanaf het begin van zijn carrière werd beschouwd als de leider van de Franse romantische school.
+::Francisco Goya::13,5,15::::Hij was een Spaanse romantische schilder. Hij wordt beschouwd als de belangrijkste Spaanse kunstenaar van de late 18e en vroege 19e eeuw.
+::Frida Kahlo::12,21,11::::Ze was een Mexicaanse schilder die bekend stond om haar vele portretten, zelfportretten en werken geïnspireerd door de natuur.
+::Georges Seurat::13,16,8::::Hij was de pionier op het gebied van de techniek van het schilderen in kleine stippen of kleurstreken.
+::Grant Wood::12,23,20::::Hij was een Amerikaanse schilder die vooral bekend stond om zijn schilderijen die het landelijke Amerikaanse Midwesten uitbeeldden.
+::Gustav Klimt::15,19,20::::Hij was een Oostenrijkse symbolistische schilder en een van de meest prominente leden van de Weense Secession-beweging.
+::Vincent van Gogh::20,23,25::::Hij was een Nederlandse schilder die tot de beroemdste en invloedrijkste figuren in de geschiedenis van de westerse kunst behoort.
+::Henri Matisse::24,14,10::::Hij was een Franse beeldend kunstenaar, bekend om zowel zijn kleurgebruik als zijn vloeiende en originele tekenkunst.
+::Pierre-Auguste Renoir::22,24,12::::Hij was een Franse kunstenaar die een vooraanstaand schilder was in de ontwikkeling van de impressionistische stijl.
+::Hokusai::17,13,26::::Hij was een Japanse kunstenaar uit de Edo-periode, actief als schilder en graficus.
+::Ivan Aivazovsky::14,24,26::::Hij was een Japanse kunstenaar uit de Edo-periode, actief als schilder en graficus.
+::James Abbott McNeill Whistler::14,26,18::::Hij was een Amerikaanse kunstenaar die bekend stond om de schilderijen en tekeningen die hij in de tweede helft van de 19e eeuw in Europa maakte.
+::Jan van Eyck::17,18,26::::Hij was een Nederlandse schilder die de nieuw ontwikkelde techniek van het olieverfschilderen perfectioneerde.
+::Johannes Vermeer::31,22,19::::Hij was een Nederlandse schilder uit de barokperiode die gespecialiseerd was in huiselijke interieurtaferelen uit het middenklasseleven.
+::Leonardo da Vinci::33,21,19::::Hij was een Italiaanse polymath die actief was als schilder, ingenieur, wetenschapper en architect.
+::Marc Chagall::22,32,18::::Hij was een Wit-Russische en Franse kunstenaar. Als vroegmodernist werd hij geassocieerd met verschillende belangrijke artistieke stijlen.
+::Pablo Picasso::32,33,31::::Hij was een Spaanse schilder en beeldhouwer die het grootste deel van zijn volwassen leven in Frankrijk doorbracht. Een van de meest invloedrijke kunstenaars van de 20e eeuw.
+::Paolo Uccello::23,21,30::::Hij was een belangrijke Italiaanse kunstenaar uit de vroege renaissance, bekend om zijn baanbrekende gebruik van perspectief.
+::Paul Cézanne::26,23,28::::Hij was een postimpressionistische schilder wiens ideeën veel van de kunstenaars van de 20e eeuw en vooral het kubisme beïnvloedden.
+::Wassily Kandinsky::26,31,34::::Hij was een Russische kunstenaar, een van de eerste scheppers van pure abstractie in de moderne schilderkunst.
+::Rembrandt::34,27,33::::Hij was een Nederlandse schilder, graficus en tekenaar. Hij wordt beschouwd als een van de grootste beeldend kunstenaars uit de kunstgeschiedenis.
+::Albrecht Dürer::26,33,28::::Hij was een Duitse schilder, graficus en theoreticus van de Duitse Renaissance.
+::Salvador Dali::32,26,28::::Hij was een Spaanse surrealistische kunstenaar die bekend stond om zijn technische vaardigheid en de opvallende en bizarre beelden in zijn werk.
+::Sandro Botticelli::33,27,28::::Hij was een Italiaanse schilder uit de vroege Renaissance.

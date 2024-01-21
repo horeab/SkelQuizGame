@@ -1,17 +1,17 @@
-::En venn i nød::11,8,1::::
-::Søndag ettermiddag på øya av La Grande Jatte::7,13,15::::
-::Amerikansk gotisk::5,0,3::::
-::Kompozycja z czerwonym, żółtym, niebieskim i czarnym::10,2,12::::
-::Jente med perleørering::5,14,1::::
-::Oppretting av Adam::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Nighthawks::14,13,15::::
-::Ambassadørene::12,3,5::::
-::Hare::0,1,2::::
-::Den store bølgen utenfor Kanagawa::3,12,16::::
-::Kyssen::4,5,2::::
-::Den niende bølgen::10,7,3::::
-::Skriket::11,7,5::::
-::Stjernenatt::6,16,7::::
-::Babels tårn::1,5,12::::
-::Vandrer over tåkesjøen::5,9,8::::
+::En venn i nød::11,8,1::::Det er det mest kjente av en serie på 16 malerier. Maleriene ble bestilt av et firma som annonserte sigarer.
+::Søndag ettermiddag på øya av La Grande Jatte::7,13,15::::Det ble malt fra 1884 til 1886 og er Georges Seurats mest kjente verk.
+::Amerikansk gotisk::5,0,3::::Det er et av de mest kjente amerikanske maleriene på 1900-tallet.
+::Kompozycja z czerwonym, żółtym, niebieskim i czarnym::10,2,12::::Det representerer et modent stadium av Mondrians abstraksjon. Det ser ut til å være et flatt verk, men det er forskjeller i teksturen til forskjellige elementer.
+::Jente med perleørering::5,14,1::::Det er Vermeers mest kjente maleri. Det er et maleri av en tenkt figur iført en orientalsk turban og en usannsynlig stor perle i øret.
+::Oppretting av Adam::6,12,8::::Det er en freskomaleri malt av Michelangelo mellom 1508 og 1512 i taket av Det sixtinske kapell i Vatikanstaten. Den skildrer passasjen fra 1. Mosebok som beskriver at Gud skapte Adam og ga liv til det første mennesket.
+::Mona Lisa::8,14,4::::Det regnes som et mesterverk fra den italienske renessansen, det har blitt beskrevet som det mest kjente kunstverket i verden.
+::Nighthawks::14,13,15::::Det er et av Hoppers malerier i New York City, og kunstneren sa at det var basert på en ekte kafé.
+::Ambassadørene::12,3,5::::Det er et av de mest kjente maleriene av Holbein. Den ble malt under hans andre besøk i England, og den inneholder mange symboler og skjulte betydninger.
+::Hare::0,1,2::::Det ble malt i 1502, og det er anerkjent som et mesterverk innen observasjonskunst.
+::Den store bølgen utenfor Kanagawa::3,12,16::::Det er et treblokktrykk som viser en enorm bølge som stiger over en fiskebåt i Kanagawa Bay nær Tokyo.
+::Kyssen::4,5,2::::Det er et kjent treblokktrykk laget i Japan mellom 1829 og 1833.
+::Den niende bølgen::10,7,3::::Det er et maleri laget i 1850 av den russisk-armenske marinemaleren Ivan Aivazovsky.
+::Skriket::11,7,5::::Det er en komposisjon laget av den norske kunstneren Edvard Munch i 1893 og er blant de mest anerkjente bildene av moderne kunst.
+::Stjernenatt::6,16,7::::Malt i 1889, viser det utsikten fra vinduet til Van Goghs asylrom like før soloppgang.
+::Babels tårn::1,5,12::::Maleriet viser et byggeprosjekt som er beskrevet i Bibelen, Babels tårn. Bruegel skapte tre versjoner av maleriet, men bare to har overlevd til i dag.
+::Vandrer over tåkesjøen::5,9,8::::Det er det mest kjente maleriet av tysk romantikk og har blitt tolket som et emblem for selvrefleksjon.

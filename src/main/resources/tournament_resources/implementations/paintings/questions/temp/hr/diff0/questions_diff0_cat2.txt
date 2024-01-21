@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovsky::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Wassily Kandinsky::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::Bio je francuski impresionistički umjetnik poznat po pastelnim crtežima i uljanim slikama.
+::Andy Warhol::9,7,4::::Bio je američki vizualni umjetnik, filmski redatelj, producent i vodeća osoba u pop art pokretu.
+::Caspar David Friedrich::0,4,8::::Bio je njemački romantičarski slikar pejzaža, općenito smatran najvažnijim njemačkim umjetnikom svoje generacije.
+::Paul Gauguin::8,2,10::::Bio je važna osoba u simbolističkom pokretu kao slikar, kipar i pisac.
+::Claude Monet::8,11,12::::Bio je francuski slikar i utemeljitelj impresionističkog slikarstva koji se smatra ključnom pretečom modernizma.
+::Diego Rivera::12,8,9::::Bio je istaknuti meksički slikar. Njegove velike freske pomogle su uspostaviti pokret murala u meksičkoj i međunarodnoj umjetnosti.
+::Diego Velázquez::4,12,9::::Smatra se jednim od najprestižnijih slikara baroknog razdoblja.
+::Edvard Munch::8,5,4::::Bio je jedan od najznačajnijih umjetnika moderne.
+::Edward Hopper::11,7,6::::Bio je američki realistički slikar i grafičar. Iako je nadaleko poznat po svojim uljanim slikama, bio je jednako vješt kao akvarelist i grafičar.
+::El Greco::2,14,16::::Bio je grčki slikar, kipar i arhitekt španjolske renesanse.
+::Emanuel Leutze::13,15,16::::Bio je američki povijesni slikar njemačkog podrijetla.
+::Eugène Delacroix::6,14,16::::Bio je francuski romantičarski umjetnik koji se od početka svoje karijere smatrao vođom francuske romantičarske škole.
+::Francisco Goya::13,5,15::::Bio je španjolski slikar romantičara. Smatra se najvažnijim španjolskim umjetnikom s kraja 18. i početka 19. stoljeća.
+::Frida Kahlo::12,21,11::::Bila je meksička slikarica poznata po brojnim portretima, autoportretima i djelima inspiriranim prirodom.
+::Georges Seurat::13,16,8::::Bio je pionir tehnike slikanja malim točkicama ili potezima boje.
+::Grant Wood::12,23,20::::Bio je američki slikar najpoznatiji po svojim slikama koje prikazuju ruralni američki Srednji zapad.
+::Gustav Klimt::15,19,20::::Bio je austrijski simbolistički slikar i jedan od najistaknutijih pripadnika pokreta bečke secesije.
+::Vincent van Gogh::20,23,25::::Bio je nizozemski slikar koji je među najpoznatijim i najutjecajnijim osobama u povijesti zapadne umjetnosti.
+::Henri Matisse::24,14,10::::Bio je francuski vizualni umjetnik, poznat i po svojoj upotrebi boja i po fluidnom i originalnom crtanju.
+::Pierre-Auguste Renoir::22,24,12::::Bio je francuski umjetnik koji je bio vodeći slikar u razvoju impresionističkog stila.
+::Hokusai::17,13,26::::Bio je japanski umjetnik iz razdoblja Edo, aktivan kao slikar i grafičar.
+::Ivan Aivazovsky::14,24,26::::Bio je japanski umjetnik iz razdoblja Edo, aktivan kao slikar i grafičar.
+::James Abbott McNeill Whistler::14,26,18::::Bio je američki umjetnik poznat po slikama i crtežima koje je radio u Europi u drugoj polovici 19. stoljeća.
+::Jan van Eyck::17,18,26::::Bio je nizozemski slikar koji je usavršio novorazvijenu tehniku uljanog slikarstva.
+::Johannes Vermeer::31,22,19::::Bio je nizozemski barokni slikar koji se specijalizirao za unutarnje prizore iz života srednje klase.
+::Leonardo da Vinci::33,21,19::::Bio je talijanski polihistor koji je djelovao kao slikar, inženjer, znanstvenik i arhitekt.
+::Marc Chagall::22,32,18::::Bio je bjeloruski i francuski umjetnik. Rani modernist, bio je povezan s nekoliko velikih umjetničkih stilova.
+::Pablo Picasso::32,33,31::::Bio je španjolski slikar i kipar koji je većinu svog odraslog života proveo u Francuskoj. Jedan od najutjecajnijih umjetnika 20. stoljeća.
+::Paolo Uccello::23,21,30::::Bio je važan talijanski umjetnik rane renesanse poznat po svojoj pionirskoj uporabi perspektive.
+::Paul Cézanne::26,23,28::::Bio je postimpresionistički slikar čije su ideje utjecale na mnoge umjetnike 20. stoljeća, a posebno na kubizam.
+::Wassily Kandinsky::26,31,34::::Bio je ruski umjetnik, jedan od prvih tvoraca čiste apstrakcije u modernom slikarstvu.
+::Rembrandt::34,27,33::::Bio je nizozemski slikar, grafičar i crtač. Smatra se jednim od najvećih likovnih umjetnika u povijesti umjetnosti.
+::Albrecht Dürer::26,33,28::::Bio je njemački slikar, grafičar i teoretičar njemačke renesanse.
+::Salvador Dali::32,26,28::::Bio je španjolski nadrealistički umjetnik poznat po svojoj tehničkoj vještini i upečatljivim i bizarnim slikama u svojim djelima.
+::Sandro Botticelli::33,27,28::::Bio je talijanski slikar rane renesanse.

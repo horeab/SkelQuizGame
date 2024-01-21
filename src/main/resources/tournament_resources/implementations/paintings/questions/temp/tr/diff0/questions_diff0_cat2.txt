@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovsky::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Wassily Kandinsky::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::Pastel çizimleri ve yağlıboya tablolarıyla ünlü Fransız Empresyonist bir sanatçıydı.
+::Andy Warhol::9,7,4::::Amerikalı bir görsel sanatçı, film yönetmeni, yapımcı ve pop art hareketinin önde gelen isimlerinden biriydi.
+::Caspar David Friedrich::0,4,8::::Genellikle kendi kuşağının en önemli Alman sanatçısı olarak kabul edilen bir Alman Romantik manzara ressamıydı.
+::Paul Gauguin::8,2,10::::Ressam, heykeltıraş ve yazar olarak Sembolist hareketin önemli isimlerinden biriydi.
+::Claude Monet::8,11,12::::Modernizmin önemli bir öncüsü olarak görülen Fransız ressam ve empresyonist resmin kurucusuydu.
+::Diego Rivera::12,8,9::::Tanınmış bir Meksikalı ressamdı. Büyük freskleri Meksika ve uluslararası sanatta duvar hareketinin yerleşmesine yardımcı oldu.
+::Diego Velázquez::4,12,9::::Barok döneminin en saygın ressamlarından biri olarak kabul edilir.
+::Edvard Munch::8,5,4::::Modernizmin en önemli sanatçılarından biriydi.
+::Edward Hopper::11,7,6::::Amerikalı gerçekçi ressam ve matbaacıydı. Yağlıboya tablolarıyla yaygın olarak tanınmasına rağmen, suluboyacı ve baskı ustası olarak da aynı derecede ustaydı.
+::El Greco::2,14,16::::İspanyol Rönesansının Yunan ressamı, heykeltıraşı ve mimarıydı.
+::Emanuel Leutze::13,15,16::::Almanya doğumlu Amerikalı bir tarih ressamıydı.
+::Eugène Delacroix::6,14,16::::Kariyerinin başlangıcından itibaren Fransız Romantik okulunun lideri olarak kabul edilen bir Fransız Romantik sanatçısıydı.
+::Francisco Goya::13,5,15::::İspanyol romantik bir ressamdı. 18. yüzyılın sonları ve 19. yüzyılın başlarının en önemli İspanyol sanatçısı olarak kabul edilir.
+::Frida Kahlo::12,21,11::::Pek çok portresi, otoportresi ve doğadan ilham alan eserleriyle tanınan Meksikalı bir ressamdı.
+::Georges Seurat::13,16,8::::Küçük noktalar veya renk darbeleriyle resim yapma tekniğinin öncüsüydü.
+::Grant Wood::12,23,20::::Kırsal Amerikan Ortabatısını tasvir eden resimleriyle tanınan Amerikalı bir ressamdı.
+::Gustav Klimt::15,19,20::::Avusturyalı bir sembolist ressamdı ve Viyana Ayrılık hareketinin en önde gelen üyelerinden biriydi.
+::Vincent van Gogh::20,23,25::::Batı sanatı tarihinin en ünlü ve etkili isimlerinden biri olan Hollandalı bir ressamdı.
+::Henri Matisse::24,14,10::::Hem renk kullanımı hem de akıcı ve özgün çizimleriyle tanınan Fransız bir görsel sanatçıydı.
+::Pierre-Auguste Renoir::22,24,12::::Empresyonist tarzın gelişiminde önde gelen ressamlardan biri olan Fransız bir sanatçıydı.
+::Hokusai::17,13,26::::Edo döneminin Japon sanatçısıydı, ressam ve grafiker olarak faaliyet gösteriyordu.
+::Ivan Aivazovsky::14,24,26::::Edo döneminin Japon sanatçısıydı, ressam ve grafiker olarak faaliyet gösteriyordu.
+::James Abbott McNeill Whistler::14,26,18::::19. yüzyılın ikinci yarısında Avrupa'da yaptığı resim ve çizimlerle tanınan Amerikalı bir sanatçıydı.
+::Jan van Eyck::17,18,26::::Yeni geliştirilen yağlıboya tekniğini mükemmelleştiren Hollandalı ressamdı.
+::Johannes Vermeer::31,22,19::::Orta sınıf yaşamının iç mekan sahnelerinde uzmanlaşmış Hollandalı bir Barok Dönemi ressamıydı.
+::Leonardo da Vinci::33,21,19::::Ressam, mühendis, bilim adamı ve mimar olarak aktif olan İtalyan bir bilgindi.
+::Marc Chagall::22,32,18::::Belaruslu ve Fransız bir sanatçıydı. Erken bir modernist olarak birçok önemli sanatsal stille ilişkilendirildi.
+::Pablo Picasso::32,33,31::::Yetişkin yaşamının çoğunu Fransa'da geçiren İspanyol bir ressam ve heykeltıraştı. 20. yüzyılın en etkili sanatçılarından biri.
+::Paolo Uccello::23,21,30::::Perspektifi öncü kullanımıyla tanınan Erken Rönesans'ın önemli bir İtalyan sanatçısıydı.
+::Paul Cézanne::26,23,28::::Fikirleri 20. yüzyılın pek çok sanatçısını ve özellikle Kübizm'i etkileyen post-empresyonist bir ressamdı.
+::Wassily Kandinsky::26,31,34::::Modern resimde saf soyutlamanın ilk yaratıcılarından biri olan Rus bir sanatçıydı.
+::Rembrandt::34,27,33::::Hollandalı bir ressam, matbaacı ve teknik ressamdı. Sanat tarihinin en büyük görsel sanatçılarından biri olarak kabul edilir.
+::Albrecht Dürer::26,33,28::::Alman ressam, matbaacı ve Alman Rönesansının kuramcısıydı.
+::Salvador Dali::32,26,28::::Teknik becerisi ve çalışmalarındaki çarpıcı ve tuhaf görüntülerle tanınan İspanyol sürrealist bir sanatçıydı.
+::Sandro Botticelli::33,27,28::::Erken Rönesans'ın İtalyan ressamıydı.

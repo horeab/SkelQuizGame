@@ -1,16 +1,16 @@
-::Abstrakt ekspresjonisme::8,7,1::::
-::Jugendstil::7,6,4::::
-::Suprematisme::9,7,0::::
-::kubisme::2,11,1::::
-::Dada::10,0,6::::
-::ekspresjonisme::10,12,3::::
-::Fauvisme::1,3,7::::
-::Graffiti::8,5,0::::
-::impresjonisme::15,1,5::::
-::Middelalderkunst::15,2,8::::
-::realisme::9,13,3::::
-::renessansen::12,15,8::::
-::Romantikken::4,6,13::::
-::Sosialrealisme::11,14,9::::
-::surrealismen::7,13,10::::
-::Symbolikk::8,11,13::::
+::Abstrakt ekspresjonisme::8,7,1::::Det var en kunstbevegelse etter krigen som plasserte New York i sentrum av kunstverdenen på midten av det tjuende århundre. Maleriene deler visse kjennetegn, inkludert bruk av store lerreter og ved synet om at kunst skal være ikke-representativ.
+::Jugendstil::7,6,4::::Det er en kunstbevegelse preget av en vektlegging av flytende linje, geometriske former, asymmetriske komposisjoner og en vågal kombinasjon av struktur og ornamentikk.
+::Suprematisme::9,7,0::::Det var en abstrakt kunstbevegelse grunnlagt i Russland under første verdenskrig.
+::kubisme::2,11,1::::Det var en revolusjonerende ny tilnærming til å representere virkeligheten oppfunnet rundt år 1907 av kunstnerne Pablo Picasso og Georges Braque.
+::Dada::10,0,6::::Det begynte i Zürich rundt år 1915, oppfunnet av flyktningekunstnere og intellektuelle fra europeiske hovedsteder besatt av første verdenskrig.
+::ekspresjonisme::10,12,3::::Det er en modernistisk bevegelse, først innen poesi og maleri, med opprinnelse i Nord-Europa rundt begynnelsen av 1900-tallet.
+::Fauvisme::1,3,7::::Det er en malerstil som blomstret i Frankrike rundt begynnelsen av 1900-tallet. Den er preget av ren farge aggressivt påført rett fra malingsrørene for å skape en følelse av en eksplosjon på lerretet.
+::Graffiti::8,5,0::::Det er kunst som er skrevet, malt eller tegnet på en vegg eller annen overflate, vanligvis uten tillatelse og innenfor offentlig betraktning.
+::impresjonisme::15,1,5::::Det er en malerstil som begynte i Frankrike på slutten av 1800-tallet. Den viser naturtro motiver malt i en rask stil, med streker som er lett å se.
+::Middelalderkunst::15,2,8::::Middelalderkunst i Europa vokste ut av den kunstneriske arven fra Romerriket og de ikonografiske tradisjonene til den tidlige kristne kirken.
+::realisme::9,13,3::::Den er preget av den nøyaktige, detaljerte, upsmykkede skildringen av naturen eller av samtidens liv. Den avviser fantasifull idealisering til fordel for en nøye observasjon av ytre utseende.
+::renessansen::12,15,8::::Det er en periode i historien og en kulturell bevegelse som markerer overgangen fra middelalder til modernitet.
+::Romantikken::4,6,13::::Det var preget av sin vekt på følelser og individualisme samt glorifisering av fortiden og naturen, og foretrakk middelalderen fremfor det klassiske.
+::Sosialrealisme::11,14,9::::Det var en bevegelse som blomstret mellom de to verdenskrigene som svar på den sosiale og politiske uroen og vanskelighetene i perioden.
+::surrealismen::7,13,10::::Det var en kunstnerisk bevegelse fra det tjuende århundre som utforsket sinnets virkemåte, forkjemper for det irrasjonelle, det poetiske og det revolusjonære.
+::Symbolikk::8,11,13::::Det var en kunstbevegelse fra slutten av 1800-tallet av fransk og belgisk opprinnelse som forsøkte å representere absolutte sannheter symbolsk gjennom språk og metaforiske bilder.

@@ -1,16 +1,16 @@
-::Absztrakt expresszionizmus::8,7,1::::
-::Szecesszió::7,6,4::::
-::szuprematizmus::9,7,0::::
-::kubizmus::2,11,1::::
-::Dada::10,0,6::::
-::expresszionizmus::10,12,3::::
-::Fauvizmus::1,3,7::::
-::Graffiti::8,5,0::::
-::impresszionizmus::15,1,5::::
-::Középkori művészet::15,2,8::::
-::realizmus::9,13,3::::
-::Reneszánsz::12,15,8::::
-::romantika::4,6,13::::
-::Szociális realizmus::11,14,9::::
-::szürrealizmus::7,13,10::::
-::szimbolizmus::8,11,13::::
+::Absztrakt expresszionizmus::8,7,1::::Ez egy háború utáni művészeti mozgalom volt, amely a huszadik század közepén New Yorkot helyezte a művészeti világ középpontjába. A festményeknek közös jellemzői vannak, beleértve a nagy vásznak használatát és azt a nézetet, hogy a művészetnek nem reprezentatívnak kell lennie.
+::Szecesszió::7,6,4::::Ez egy művészeti irányzat, amelyet a vonalak gördülékenységének, a geometrikus formáknak, az aszimmetrikus kompozícióknak, valamint a szerkezet és az ornamentika merész kombinációjának hangsúlyozása jellemez.
+::szuprematizmus::9,7,0::::Ez egy absztrakt művészeti mozgalom, amelyet Oroszországban alapítottak az első világháború idején.
+::kubizmus::2,11,1::::Ez egy forradalmian új megközelítés volt a valóság ábrázolásához, amelyet 1907 körül találtak ki Pablo Picasso és Georges Braque művészek.
+::Dada::10,0,6::::1915 körül Zürichben kezdődött, és az első világháború által sújtott európai fővárosokból menekült művészek és értelmiségiek találták ki.
+::expresszionizmus::10,12,3::::Ez egy modernista mozgalom, kezdetben a költészetben és a festészetben, és a 20. század eleje táján indult ki Észak-Európából.
+::Fauvizmus::1,3,7::::Ez egy olyan festészeti stílus, amely a 20. század fordulóján virágzott Franciaországban. Tiszta szín jellemzi, amelyet agresszíven alkalmaznak közvetlenül a festékcsövekből, hogy robbanás érzetét keltsék a vásznon.
+::Graffiti::8,5,0::::Olyan művészetről van szó, amelyet falra vagy más felületre írnak, festenek vagy rajzolnak, általában engedély nélkül és nyilvánosan.
+::impresszionizmus::15,1,5::::Ez egy festészeti stílus, amely Franciaországban kezdődött a 19. század végén. Életszerű témákat jelenít meg gyors stílusban, jól látható vonással.
+::Középkori művészet::15,2,8::::A középkori művészet Európában a Római Birodalom művészeti örökségéből és az ókeresztény egyház ikonográfiai hagyományaiból nőtt ki.
+::realizmus::9,13,3::::Jellemzője a természet vagy a kortárs élet pontos, részletgazdag, díszítetlen ábrázolása. Elutasítja a fantáziadús idealizálást a külső megjelenések szoros megfigyelése mellett.
+::Reneszánsz::12,15,8::::Ez egy történelmi időszak és egy kulturális mozgalom, amely a középkorból a modernitásba való átmenetet jelzi.
+::romantika::4,6,13::::Jellemzője volt az érzelmek és az individualizmus hangsúlyozása, valamint a múlt és a természet dicsőítése, a középkor előnyben részesítése a klasszikussal szemben.
+::Szociális realizmus::11,14,9::::Ez egy olyan mozgalom volt, amely a két világháború között virágzott, válaszul a korszak társadalmi és politikai zűrzavaraira és nehézségeire.
+::szürrealizmus::7,13,10::::Ez egy huszadik századi művészeti mozgalom volt, amely feltárta az elme működését, az irracionális, a költői és a forradalmi ellen küzdve.
+::szimbolizmus::8,11,13::::Ez egy francia és belga eredetű, 19. század végi művészeti mozgalom volt, amely az abszolút igazságokat szimbolikusan kívánta megjeleníteni nyelven és metaforikus képeken keresztül.

@@ -1,17 +1,17 @@
-::Un amigo necesitado::11,8,1::::
-::Tarde de domingo en la isla de la Grande Jatte::7,13,15::::
-::American Gothic::5,0,3::::
-::Composición con rojo, amarillo, azul y negro::10,2,12::::
-::La joven de la perla::5,14,1::::
-::Creación de Adán::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Nighthawks::14,13,15::::
-::Los Embajadores::12,3,5::::
-::Liebre::0,1,2::::
-::La gran ola de Kanagawa::3,12,16::::
-::El beso::4,5,2::::
-::La Novena Ola::10,7,3::::
-::El grito::11,7,5::::
-::La noche estrellada::6,16,7::::
-::La Torre de Babel::1,5,12::::
-::Errante sobre el mar de niebla::5,9,8::::
+::Un amigo necesitado::11,8,1::::Es el más famoso de una serie de 16 pinturas. Las pinturas fueron encargadas por una empresa que anunciaba cigarros.
+::Tarde de domingo en la isla de la Grande Jatte::7,13,15::::Fue pintado entre 1884 y 1886 y es la obra más famosa de Georges Seurat.
+::American Gothic::5,0,3::::Es una de las pinturas americanas más famosas del siglo XX.
+::Composición con rojo, amarillo, azul y negro::10,2,12::::Representa una etapa madura de la abstracción de Mondrian. Parece una obra plana, pero hay diferencias en la textura de los distintos elementos.
+::La joven de la perla::5,14,1::::Es la pintura más famosa de Vermeer. Es una pintura de una figura imaginaria que lleva un turbante oriental y una perla increíblemente grande en la oreja.
+::Creación de Adán::6,12,8::::Se trata de un fresco pintado por Miguel Ángel entre 1508 y 1512 en el techo de la Capilla Sixtina de la Ciudad del Vaticano. Representa el pasaje del Libro del Génesis que describe a Dios creando a Adán y dando vida al primer hombre.
+::Mona Lisa::8,14,4::::Se considera una obra maestra del Renacimiento italiano y ha sido descrita como la obra de arte más conocida del mundo.
+::Nighthawks::14,13,15::::Es una de las pinturas de Hopper sobre la ciudad de Nueva York y el artista dijo que estaba basada en un café real.
+::Los Embajadores::12,3,5::::Es una de las pinturas más famosas de Holbein. Fue pintado durante su segunda visita a Inglaterra y contiene muchos símbolos y significados ocultos.
+::Liebre::0,1,2::::Fue pintado en 1502 y está reconocido como una obra maestra del arte de observación.
+::La gran ola de Kanagawa::3,12,16::::Es un grabado en madera que representa una enorme ola elevándose sobre un barco pesquero en la bahía de Kanagawa, cerca de Tokio.
+::El beso::4,5,2::::Se trata de un famoso grabado en madera creado en Japón entre 1829 y 1833.
+::La Novena Ola::10,7,3::::Es un cuadro creado en 1850 por el pintor marino ruso-armenio Ivan Aivazovsky.
+::El grito::11,7,5::::Es una composición creada por el artista noruego Edvard Munch en 1893 y se encuentra entre las imágenes más reconocidas del arte moderno.
+::La noche estrellada::6,16,7::::Pintado en 1889, representa la vista desde la ventana del asilo de Van Gogh justo antes del amanecer.
+::La Torre de Babel::1,5,12::::La pintura representa un proyecto de construcción descrito en la Biblia, la torre de Babel. Bruegel creó tres versiones de la pintura, pero sólo dos han sobrevivido hasta el día de hoy.
+::Errante sobre el mar de niebla::5,9,8::::Es la pintura más conocida del romanticismo alemán y ha sido interpretada como un emblema de la autorreflexión.

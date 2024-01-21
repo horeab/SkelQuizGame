@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovsky::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Wassily Kandinsky::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::Hän oli ranskalainen impressionistinen taiteilija, joka kuului pastelli- ja öljymaalauksistaan.
+::Andy Warhol::9,7,4::::Hän oli amerikkalainen kuvataiteilija, elokuvaohjaaja, tuottaja ja pop-taideliikkeen johtava hahmo.
+::Caspar David Friedrich::0,4,8::::Hän oli saksalainen romanttinen maisemamaalari, jota pidettiin yleisesti sukupolvensa tärkeimpänä saksalaisena taiteilijana.
+::Paul Gauguin::8,2,10::::Hän oli tärkeä hahmo symbolistiliikkeessä taidemaalarina, kuvanveistäjänä ja kirjailijana.
+::Claude Monet::8,11,12::::Hän oli ranskalainen taidemaalari ja impressionistisen maalauksen perustaja, jota pidetään modernismin keskeisenä edeltäjänä.
+::Diego Rivera::12,8,9::::Hän oli merkittävä meksikolainen taidemaalari. Hänen suuret freskot auttoivat perustamaan seinämaalauksen meksikolaisessa ja kansainvälisessä taiteessa.
+::Diego Velázquez::4,12,9::::Häntä pidetään yhtenä barokin ajan arvostetuimmista maalareista.
+::Edvard Munch::8,5,4::::Hän oli yksi modernismin merkittävimmistä taiteilijoista.
+::Edward Hopper::11,7,6::::Hän oli amerikkalainen realistinen taidemaalari ja taidegraafikko. Vaikka hänet tunnetaan laajalti öljymaalauksistaan, hän oli yhtä taitava akvarellimaalaajana ja taidegraafikkona.
+::El Greco::2,14,16::::Hän oli espanjalaisen renessanssin kreikkalainen taidemaalari, kuvanveistäjä ja arkkitehti.
+::Emanuel Leutze::13,15,16::::Hän oli saksalaissyntyinen amerikkalainen historianmaalari.
+::Eugène Delacroix::6,14,16::::Hän oli ranskalainen romanttinen taiteilija, jota pidettiin uransa alusta lähtien ranskalaisen romanttisen koulukunnan johtajana.
+::Francisco Goya::13,5,15::::Hän oli espanjalainen romanttinen taidemaalari. Häntä pidetään tärkeimpänä espanjalaisena 1700-luvun lopun ja 1800-luvun alun taiteilijana.
+::Frida Kahlo::12,21,11::::Hän oli meksikolainen taidemaalari, joka tunnettiin monista muotokuvistaan, omakuvistaan ja luonnon inspiroimista teoksistaan.
+::Georges Seurat::13,16,8::::Hän oli pienillä pisteillä tai väriviivoilla maalaamisen tekniikan edelläkävijä.
+::Grant Wood::12,23,20::::Hän oli amerikkalainen taidemaalari, joka tunnettiin parhaiten maalauksistaan, jotka kuvaavat Amerikan Keskilännen maaseutua.
+::Gustav Klimt::15,19,20::::Hän oli itävaltalainen symbolistinen taidemaalari ja yksi Wienin Secession-liikkeen merkittävimmistä jäsenistä.
+::Vincent van Gogh::20,23,25::::Hän oli hollantilainen taidemaalari, joka on yksi länsimaisen taiteen historian tunnetuimmista ja vaikutusvaltaisimmista henkilöistä.
+::Henri Matisse::24,14,10::::Hän oli ranskalainen kuvataiteilija, joka tunnettiin sekä värinkäytöstään että sujuvasta ja omaperäisestä piirtämisestä.
+::Pierre-Auguste Renoir::22,24,12::::Hän oli ranskalainen taiteilija, joka oli johtava taidemaalari impressionistisen tyylin kehittämisessä.
+::Hokusai::17,13,26::::Hän oli japanilainen Edo-ajan taiteilija, aktiivinen taidemaalari ja taidegraafikko.
+::Ivan Aivazovsky::14,24,26::::Hän oli japanilainen Edo-ajan taiteilija, aktiivinen taidemaalari ja taidegraafikko.
+::James Abbott McNeill Whistler::14,26,18::::Hän oli amerikkalainen taiteilija, joka tunnettiin Euroopassa 1800-luvun jälkipuoliskolla tekemissään maalauksista ja piirustuksista.
+::Jan van Eyck::17,18,26::::Hän oli alankomaalainen taidemaalari, joka täydensi äskettäin kehitettyä öljymaalaustekniikkaa.
+::Johannes Vermeer::31,22,19::::Hän oli hollantilainen barokkiajan taidemaalari, joka oli erikoistunut keskiluokan elämän kotimaisiin sisustuskohtauksiin.
+::Leonardo da Vinci::33,21,19::::Hän oli italialainen polymaatti, joka oli aktiivinen taidemaalari, insinööri, tiedemies ja arkkitehti.
+::Marc Chagall::22,32,18::::Hän oli valkovenäläinen ja ranskalainen taiteilija. Varhainen modernisti, hän yhdistettiin useisiin suuriin taidetyyleihin.
+::Pablo Picasso::32,33,31::::Hän oli espanjalainen taidemaalari ja kuvanveistäjä, joka vietti suurimman osan aikuisiästään Ranskassa. Yksi 1900-luvun vaikutusvaltaisimmista taiteilijoista.
+::Paolo Uccello::23,21,30::::Hän oli tärkeä varhaisen renessanssin italialainen taiteilija, joka tunnettiin uraauurtavasta perspektiivin käytöstä.
+::Paul Cézanne::26,23,28::::Hän oli postimpressionistinen taidemaalari, jonka ideat vaikuttavat moniin 1900-luvun taiteilijoihin ja erityisesti kubismiin.
+::Wassily Kandinsky::26,31,34::::Hän oli venäläinen taiteilija, yksi ensimmäisistä puhtaan abstraktion luojista modernissa maalauksessa.
+::Rembrandt::34,27,33::::Hän oli hollantilainen taidemaalari, taidegraafikko ja piirtäjä. Häntä pidetään yhtenä taiteenhistorian suurimmista kuvataiteilijoista.
+::Albrecht Dürer::26,33,28::::Hän oli saksalainen taidemaalari, taidegraafikko ja saksalaisen renessanssin teoreetikko.
+::Salvador Dali::32,26,28::::Hän oli espanjalainen surrealistinen taiteilija, joka tunnettiin teknisistä taidoistaan ja töissään esiintyvistä silmiinpistävistä ja omituisista kuvista.
+::Sandro Botticelli::33,27,28::::Hän oli varhaisrenessanssin italialainen taidemaalari.

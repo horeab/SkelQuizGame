@@ -1,17 +1,17 @@
-::Přítel v nouzi::11,8,1::::
-::Nedělní odpoledne na ostrově Grande Jatte::7,13,15::::
-::American Gothic::5,0,3::::
-::Složení s červenou, žlutou, modrou a černou::10,2,12::::
-::Dívka s perlou::5,14,1::::
-::Stvoření Adama::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Noční ptáci::14,13,15::::
-::Vyslanci::12,3,5::::
-::Zajíc::0,1,2::::
-::Velká vlna mimo Kanagawa::3,12,16::::
-::Polibek::4,5,2::::
-::Devátá vlna::10,7,3::::
-::Výkřik::11,7,5::::
-::Hvězdná noc::6,16,7::::
-::Babellova věž::1,5,12::::
-::Poutník nad mořem mlhy::5,9,8::::
+::Přítel v nouzi::11,8,1::::Je to nejslavnější ze série 16 obrazů. Obrazy si objednala společnost, která doutníky inzerovala.
+::Nedělní odpoledne na ostrově Grande Jatte::7,13,15::::Maloval se v letech 1884 až 1886 a je nejslavnějším dílem Georgese Seurata.
+::American Gothic::5,0,3::::Je to jeden z nejznámějších amerických obrazů 20. století.
+::Složení s červenou, žlutou, modrou a černou::10,2,12::::Představuje zralou etapu Mondrianovy abstrakce. Zdá se, že jde o ploché dílo, ale existují rozdíly v textuře různých prvků.
+::Dívka s perlou::5,14,1::::Je to nejslavnější Vermeerův obraz. Je to malba imaginární postavy s orientálním turbanem a nepravděpodobně velkou perlou v uchu.
+::Stvoření Adama::6,12,8::::Je to freska namalovaná Michelangelem v letech 1508 až 1512 na stropě Sixtinské kaple ve Vatikánu. Zobrazuje pasáž z Knihy Genesis, která popisuje, jak Bůh stvořil Adama a dal život prvnímu člověku.
+::Mona Lisa::8,14,4::::Je považováno za mistrovské dílo italské renesance, bylo popisováno jako nejznámější umělecké dílo na světě.
+::Noční ptáci::14,13,15::::Je to jeden z Hopperových obrazů v New Yorku a umělec řekl, že byl založen na skutečné kavárně.
+::Vyslanci::12,3,5::::Je to jeden z nejznámějších Holbeinových obrazů. Byl namalován během jeho druhé návštěvy Anglie a obsahuje mnoho symbolů a skrytých významů.
+::Zajíc::0,1,2::::Byl namalován v roce 1502 a je uznáván jako mistrovské dílo pozorovacího umění.
+::Velká vlna mimo Kanagawa::3,12,16::::Jedná se o dřevotisk, který znázorňuje obrovskou vlnu stoupající nad rybářskou lodí v zálivu Kanagawa nedaleko Tokia.
+::Polibek::4,5,2::::Je to slavný dřevotisk vytvořený v Japonsku v letech 1829 až 1833.
+::Devátá vlna::10,7,3::::Je to obraz vytvořený v roce 1850 rusko-arménským námořním malířem Ivanem Ajvazovským.
+::Výkřik::11,7,5::::Je to kompozice vytvořená norským umělcem Edvardem Munchem v roce 1893 a patří mezi nejuznávanější obrazy moderního umění.
+::Hvězdná noc::6,16,7::::Namalován v roce 1889, zobrazuje pohled z okna Van Goghova azylového pokoje těsně před východem slunce.
+::Babellova věž::1,5,12::::Obraz zobrazuje stavební projekt, který je popsán v Bibli, babylonskou věž. Bruegel vytvořil tři verze obrazu, ale do dnešních dnů se dochovaly pouze dvě.
+::Poutník nad mořem mlhy::5,9,8::::Je to nejznámější obraz německého romantismu a byl interpretován jako emblém sebereflexe.

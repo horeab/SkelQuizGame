@@ -1,35 +1,35 @@
-::Edgar Degas::5,8,1::::
-::Andy Warhol::9,7,4::::
-::Caspar David Friedrich::0,4,8::::
-::Paul Gauguin::8,2,10::::
-::Claude Monet::8,11,12::::
-::Diego Rivera::12,8,9::::
-::Diego Velázquez::4,12,9::::
-::Edvard Munch::8,5,4::::
-::Edward Hopper::11,7,6::::
-::El Greco::2,14,16::::
-::Emanuel Leutze::13,15,16::::
-::Eugène Delacroix::6,14,16::::
-::Francisco Goya::13,5,15::::
-::Frida Kahlo::12,21,11::::
-::Georges Seurat::13,16,8::::
-::Grant Wood::12,23,20::::
-::Gustav Klimt::15,19,20::::
-::Vincent van Gogh::20,23,25::::
-::Henri Matisse::24,14,10::::
-::Pierre-Auguste Renoir::22,24,12::::
-::Hokusai::17,13,26::::
-::Ivan Aivazovsky::14,24,26::::
-::James Abbott McNeill Whistler::14,26,18::::
-::Jan van Eyck::17,18,26::::
-::Johannes Vermeer::31,22,19::::
-::Leonardo da Vinci::33,21,19::::
-::Marc Chagall::22,32,18::::
-::Pablo Picasso::32,33,31::::
-::Paolo Uccello::23,21,30::::
-::Paul Cézanne::26,23,28::::
-::Wassily Kandinsky::26,31,34::::
-::Rembrandt::34,27,33::::
-::Albrecht Dürer::26,33,28::::
-::Salvador Dali::32,26,28::::
-::Sandro Botticelli::33,27,28::::
+::Edgar Degas::5,8,1::::Był francuskim artystą impresjonistą, słynącym z rysunków pastelami i obrazów olejnych.
+::Andy Warhol::9,7,4::::Był amerykańskim artystą wizualnym, reżyserem, producentem i czołową postacią ruchu pop-artu.
+::Caspar David Friedrich::0,4,8::::Był niemieckim malarzem pejzażu romantycznego, powszechnie uważanym za najważniejszego niemieckiego artystę swojego pokolenia.
+::Paul Gauguin::8,2,10::::Był ważną postacią ruchu symbolistycznego jako malarz, rzeźbiarz i pisarz.
+::Claude Monet::8,11,12::::Był francuskim malarzem i twórcą malarstwa impresjonistycznego, postrzeganym jako kluczowy prekursor modernizmu.
+::Diego Rivera::12,8,9::::Był wybitnym malarzem meksykańskim. Jego duże freski pomogły w ustanowieniu ruchu murali w sztuce meksykańskiej i międzynarodowej.
+::Diego Velázquez::4,12,9::::Uważany jest za jednego z najbardziej prestiżowych malarzy epoki baroku.
+::Edvard Munch::8,5,4::::Był jednym z najważniejszych artystów modernizmu.
+::Edward Hopper::11,7,6::::Był amerykańskim malarzem i grafikiem realistycznym. Chociaż jest powszechnie znany ze swoich obrazów olejnych, był równie biegły jako akwarelista i grafik.
+::El Greco::2,14,16::::Był greckim malarzem, rzeźbiarzem i architektem hiszpańskiego renesansu.
+::Emanuel Leutze::13,15,16::::Był urodzonym w Niemczech amerykańskim malarzem historycznym.
+::Eugène Delacroix::6,14,16::::Był francuskim artystą romantycznym, od początku swojej kariery uważanym za lidera francuskiej szkoły romantycznej.
+::Francisco Goya::13,5,15::::Był hiszpańskim malarzem romantycznym. Uważany jest za najważniejszego hiszpańskiego artystę przełomu XVIII i XIX wieku.
+::Frida Kahlo::12,21,11::::Była meksykańską malarką znaną z wielu portretów, autoportretów i dzieł inspirowanych naturą.
+::Georges Seurat::13,16,8::::Był pionierem techniki malowania małymi kropkami lub kreskami koloru.
+::Grant Wood::12,23,20::::Był amerykańskim malarzem najbardziej znanym ze swoich obrazów przedstawiających wiejski amerykański Środkowy Zachód.
+::Gustav Klimt::15,19,20::::Był austriackim malarzem-symbolistą i jednym z najwybitniejszych członków ruchu secesji wiedeńskiej.
+::Vincent van Gogh::20,23,25::::Był holenderskim malarzem, należącym do najbardziej znanych i wpływowych postaci w historii sztuki zachodniej.
+::Henri Matisse::24,14,10::::Był francuskim artystą wizualnym, znanym zarówno ze stosowania koloru, jak i płynnego i oryginalnego rysunku.
+::Pierre-Auguste Renoir::22,24,12::::Był francuskim artystą, czołowym malarzem w rozwoju stylu impresjonistycznego.
+::Hokusai::17,13,26::::Był japońskim artystą okresu Edo, aktywnym jako malarz i grafik.
+::Ivan Aivazovsky::14,24,26::::Był japońskim artystą okresu Edo, aktywnym jako malarz i grafik.
+::James Abbott McNeill Whistler::14,26,18::::Był amerykańskim artystą znanym z obrazów i rysunków, które tworzył w Europie w drugiej połowie XIX wieku.
+::Jan van Eyck::17,18,26::::Był malarzem niderlandzkim, który udoskonalił nowo opracowaną technikę malarstwa olejnego.
+::Johannes Vermeer::31,22,19::::Był holenderskim malarzem epoki baroku, specjalizującym się w wewnętrznych scenach życia klasy średniej.
+::Leonardo da Vinci::33,21,19::::Był włoskim politykiem, aktywnym jako malarz, inżynier, naukowiec i architekt.
+::Marc Chagall::22,32,18::::Był artystą białoruskim i francuskim. Jako wczesny modernista kojarzony był z kilkoma głównymi stylami artystycznymi.
+::Pablo Picasso::32,33,31::::Był hiszpańskim malarzem i rzeźbiarzem, który większość swojego dorosłego życia spędził we Francji. Jeden z najbardziej wpływowych artystów XX wieku.
+::Paolo Uccello::23,21,30::::Był ważnym włoskim artystą wczesnego renesansu, znanym z pionierskiego wykorzystania perspektywy.
+::Paul Cézanne::26,23,28::::Był malarzem postimpresjonistycznym, którego idee wywarły wpływ na wielu artystów XX wieku, a zwłaszcza na kubizm.
+::Wassily Kandinsky::26,31,34::::Był rosyjskim artystą, jednym z pierwszych twórców czystej abstrakcji we współczesnym malarstwie.
+::Rembrandt::34,27,33::::Był holenderskim malarzem, grafikiem i rysownikiem. Uważany jest za jednego z najwybitniejszych artystów wizualnych w historii sztuki.
+::Albrecht Dürer::26,33,28::::Był niemieckim malarzem, grafikiem i teoretykiem niemieckiego renesansu.
+::Salvador Dali::32,26,28::::Był hiszpańskim artystą surrealistycznym, znanym ze swoich umiejętności technicznych oraz uderzających i dziwacznych obrazów w swoich pracach.
+::Sandro Botticelli::33,27,28::::Był włoskim malarzem wczesnego renesansu.

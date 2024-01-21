@@ -1,16 +1,16 @@
-::Sažetak ekspresionizma::8,7,1::::
-::Secesija::7,6,4::::
-::suprematizam::9,7,0::::
-::kubizam::2,11,1::::
-::Dada::10,0,6::::
-::Ekspresionizam::10,12,3::::
-::Fovizam::1,3,7::::
-::Grafiti::8,5,0::::
-::Impresionizam::15,1,5::::
-::Srednjovjekovna umjetnost::15,2,8::::
-::Realizam::9,13,3::::
-::renesansa::12,15,8::::
-::Romantizam::4,6,13::::
-::Socijalni realizam::11,14,9::::
-::nadrealizam::7,13,10::::
-::Simbolika::8,11,13::::
+::Sažetak ekspresionizma::8,7,1::::Bio je to poslijeratni umjetnički pokret koji je New York smjestio u središte svijeta umjetnosti sredinom dvadesetog stoljeća. Slike dijele određene karakteristike, uključujući korištenje velikih platna i stajalište da umjetnost ne bi trebala biti reprezentativna.
+::Secesija::7,6,4::::Riječ je o umjetničkom pokretu koji karakterizira naglasak na fluidnosti linija, geometrijskim formama, asimetričnim kompozicijama i odvažnoj kombinaciji strukture i ornamentike.
+::suprematizam::9,7,0::::Bio je to pokret apstraktne umjetnosti utemeljen u Rusiji tijekom Prvog svjetskog rata.
+::kubizam::2,11,1::::Bio je to revolucionarni novi pristup predstavljanju stvarnosti koji su oko 1907. izumili umjetnici Pablo Picasso i Georges Braque.
+::Dada::10,0,6::::Započeo je u Zürichu oko 1915. godine, a osmislili su ga izbjegli umjetnici i intelektualci iz europskih prijestolnica pogođenih Prvim svjetskim ratom.
+::Ekspresionizam::10,12,3::::To je modernistički pokret, isprva u poeziji i slikarstvu, nastao u sjevernoj Europi početkom 20. stoljeća.
+::Fovizam::1,3,7::::To je stil slikanja koji je cvjetao u Francuskoj na prijelazu u 20. stoljeće. Karakterizira ga čista boja koja se agresivno nanosi izravno iz tubica s bojom kako bi se stvorio osjećaj eksplozije na platnu.
+::Grafiti::8,5,0::::To je umjetnost koja je napisana, naslikana ili nacrtana na zidu ili drugoj površini, obično bez dopuštenja i unutar vidokruga javnosti.
+::Impresionizam::15,1,5::::To je stil slikanja koji je započeo u Francuskoj krajem 19. stoljeća. Prikazuje realistične subjekte naslikane brzim stilom, potezima koji se lako vide.
+::Srednjovjekovna umjetnost::15,2,8::::Srednjovjekovna umjetnost u Europi izrasla je iz umjetničke baštine Rimskog Carstva i ikonografske tradicije ranokršćanske crkve.
+::Realizam::9,13,3::::Karakterizira ga točan, detaljan, neuljepšan prikaz prirode ili suvremenog života. Odbacuje maštovitu idealizaciju u korist pomnog promatranja vanjskog izgleda.
+::renesansa::12,15,8::::To je razdoblje u povijesti i kulturni pokret koji označava prijelaz iz srednjeg vijeka u modernost.
+::Romantizam::4,6,13::::Odlikuje ga naglašena emocija i individualizam te veličanje prošlosti i prirode, dajući prednost srednjovjekovnom u odnosu na klasično.
+::Socijalni realizam::11,14,9::::Bio je to pokret koji je cvjetao između dva svjetska rata kao odgovor na društvena i politička previranja i teškoće tog razdoblja.
+::nadrealizam::7,13,10::::Bio je to umjetnički pokret 20. stoljeća koji je istraživao djelovanje uma, zagovarajući iracionalno, poetsko i revolucionarno.
+::Simbolika::8,11,13::::Bio je to umjetnički pokret francuskog i belgijskog podrijetla s kraja 19. stoljeća koji je pokušavao simbolički prikazati apsolutne istine kroz jezik i metaforičke slike.

@@ -1,17 +1,17 @@
-::Przyjaciel w potrzebie::11,8,1::::
-::Niedzielne popołudnie na wyspie Grande Jatte::7,13,15::::
-::American Gothic::5,0,3::::
-::Skład en rouge, jaune, bleu i noir::10,2,12::::
-::Dziewczyna z perłą::5,14,1::::
-::Stworzenie Adama::6,12,8::::
-::Mona Lisa::8,14,4::::
-::Nocne marki::14,13,15::::
-::Ambasadorzy::12,3,5::::
-::Zając::0,1,2::::
-::Wielka fala w Kanagawie::3,12,16::::
-::Pocałunek::4,5,2::::
-::Dziewiąta fala::10,7,3::::
-::Krzyk::11,7,5::::
-::Gwiaździsta noc::6,16,7::::
-::Wieża Babel::1,5,12::::
-::Wędrowiec nad morzem mgły::5,9,8::::
+::Przyjaciel w potrzebie::11,8,1::::Jest to najsłynniejszy z serii 16 obrazów. Obrazy powstały na zamówienie firmy reklamującej cygara.
+::Niedzielne popołudnie na wyspie Grande Jatte::7,13,15::::Został namalowany w latach 1884–1886 i jest najsłynniejszym dziełem Georgesa Seurata.
+::American Gothic::5,0,3::::Jest to jeden z najsłynniejszych amerykańskich obrazów XX wieku.
+::Skład en rouge, jaune, bleu i noir::10,2,12::::Reprezentuje dojrzały etap abstrakcji Mondriana. Z pozoru jest to dzieło płaskie, jednakże istnieją różnice w fakturze poszczególnych elementów.
+::Dziewczyna z perłą::5,14,1::::Jest to najsłynniejszy obraz Vermeera. Jest to obraz przedstawiający wyimaginowaną postać w orientalnym turbanie i nieprawdopodobnie dużej perle w uchu.
+::Stworzenie Adama::6,12,8::::Jest to fresk namalowany przez Michała Anioła w latach 1508-1512 na suficie Kaplicy Sykstyńskiej w Watykanie. Przedstawia fragment Księgi Rodzaju opisujący Boga tworzącego Adama i dającego życie pierwszemu człowiekowi.
+::Mona Lisa::8,14,4::::Uważany jest za arcydzieło włoskiego renesansu, określany jest jako najbardziej znane dzieło sztuki na świecie.
+::Nocne marki::14,13,15::::Jest to jeden z nowojorskich obrazów Hoppera, a artysta stwierdził, że wzorowany był na prawdziwej kawiarni.
+::Ambasadorzy::12,3,5::::Jest to jeden z najsłynniejszych obrazów Holbeina. Został namalowany podczas jego drugiej wizyty w Anglii i zawiera wiele symboli i ukrytych znaczeń.
+::Zając::0,1,2::::Został namalowany w 1502 roku i uznawany jest za arcydzieło sztuki obserwacyjnej.
+::Wielka fala w Kanagawie::3,12,16::::Jest to drzeworyt przedstawiający ogromną falę unoszącą się nad łodzią rybacką w zatoce Kanagawa niedaleko Tokio.
+::Pocałunek::4,5,2::::Jest to słynny drzeworyt powstały w Japonii w latach 1829-1833.
+::Dziewiąta fala::10,7,3::::Jest to obraz namalowany w 1850 roku przez rosyjsko-ormiańskiego malarza morskiego Iwana Aiwazowskiego.
+::Krzyk::11,7,5::::Jest to kompozycja stworzona przez norweskiego artystę Edvarda Muncha w 1893 roku i należy do najbardziej rozpoznawalnych obrazów sztuki współczesnej.
+::Gwiaździsta noc::6,16,7::::Namalowany w 1889 roku przedstawia widok z okna pokoju dla obłąkanych Van Gogha tuż przed wschodem słońca.
+::Wieża Babel::1,5,12::::Obraz przedstawia opisany w Biblii projekt budowy wieży Babel. Bruegel stworzył trzy wersje obrazu, ale do dziś przetrwały tylko dwie.
+::Wędrowiec nad morzem mgły::5,9,8::::Jest to najbardziej znany obraz niemieckiego romantyzmu, interpretowany jako symbol autorefleksji.
