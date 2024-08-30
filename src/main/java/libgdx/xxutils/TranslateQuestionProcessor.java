@@ -357,38 +357,40 @@ public class TranslateQuestionProcessor {
 
     public static class DependentQuestionParser extends QuestionParser {
 
+        private static String delim = "::";
+
         @Override
         public String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation) {
-            String format = "%s:%s:%s:%s:%s";
+            String format = "%s" + delim + "%s" + delim + "%s" + delim + "%s" + delim + "%s";
             Object[] array = {question, correctAnswer, String.join(",", options), prefix, explanation};
             return formQuestion(format, array, language);
         }
 
         @Override
         public String getAnswer(String rawString) {
-            return rawString.split(":", -1)[1];
+            return rawString.split(delim, -1)[1];
         }
 
         @Override
         public List<String> getOptions(String rawString) {
-            return Arrays.stream(rawString.split(":", -1)[2].split(",", -1))
+            return Arrays.stream(rawString.split(delim, -1)[2].split(",", -1))
                     .filter(StringUtils::isNotBlank).collect(Collectors.toList());
         }
 
         @Override
         public String getQuestion(String rawString) {
-            return rawString.split(":", -1)[0];
+            return rawString.split(delim, -1)[0];
         }
 
         @Override
         public String getQuestionPrefix(String rawString) {
-            return rawString.split(":", -1)[3];
+            return rawString.split(delim, -1)[3];
 //            return "";
         }
 
         @Override
         public String getQuestionExplanation(String rawString) {
-            return "";
+            return rawString.split(delim, -1)[4];
         }
     }
 

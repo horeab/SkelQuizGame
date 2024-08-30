@@ -3,11 +3,15 @@ package libgdx.xxutils.paintings;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
@@ -21,7 +25,7 @@ public class PaintingsFlutterQuestionProcessor {
 
     public static void main(String[] args) throws IOException {
 
-        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+        ArrayList<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
 //        List<Language> languages = Arrays.asList(Language.en);
 
         StringBuilder res = new StringBuilder();
@@ -45,7 +49,11 @@ public class PaintingsFlutterQuestionProcessor {
             res.append("  }\n\n");
         }
 
-        System.out.println(res);
+        File myObj = new File("/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/flutter_q.txt");
+        myObj.createNewFile();
+        FileWriter myWriter = new FileWriter(myObj);
+        myWriter.write(res.toString());
+        myWriter.close();
     }
 
     private static void addQuestionCategory(QuestionCategory flutterCat,
