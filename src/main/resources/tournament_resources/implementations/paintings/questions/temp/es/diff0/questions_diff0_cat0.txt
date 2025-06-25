@@ -9,7 +9,7 @@
 ::Los Embajadores::12,3,5::::Es una de las pinturas más famosas de Holbein. Fue pintado durante su segunda visita a Inglaterra y contiene muchos símbolos y significados ocultos.
 ::Liebre::0,1,2::::Fue pintado en 1502 y está reconocido como una obra maestra del arte de observación.
 ::La gran ola de Kanagawa::3,12,16::::Es un grabado en madera que representa una enorme ola elevándose sobre un barco pesquero en la bahía de Kanagawa, cerca de Tokio.
-::El beso::4,5,2::::Se trata de un famoso grabado en madera creado en Japón entre 1829 y 1833.
+::El beso::4,5,2::::Es una pintura al óleo y oro de Gustav Klimt que se completó en 1908. Se considera la obra más popular de Klimt.
 ::La Novena Ola::10,7,3::::Es un cuadro creado en 1850 por el pintor marino ruso-armenio Ivan Aivazovsky.
 ::El grito::11,7,5::::Es una composición creada por el artista noruego Edvard Munch en 1893 y se encuentra entre las imágenes más reconocidas del arte moderno.
 ::La noche estrellada::6,16,7::::Pintado en 1889, representa la vista desde la ventana del asilo de Van Gogh justo antes del amanecer.

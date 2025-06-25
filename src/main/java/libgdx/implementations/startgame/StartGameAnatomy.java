@@ -71,7 +71,7 @@ public class StartGameAnatomy {
                 return "Anatomi";
             case nl:
                 return "Anatomie";
-            case no:
+            case nb:
                 return "Anatomi-spill";
             case pl:
                 return "Anatomia";

@@ -71,7 +71,7 @@ public class StartGameFlags {
                 return "Bendera Dunia";
             case nl:
                 return "Wereld Vlaggen";
-            case no:
+            case nb:
                 return "Verdensflagg";
             case pl:
                 return "Flagi Świata";

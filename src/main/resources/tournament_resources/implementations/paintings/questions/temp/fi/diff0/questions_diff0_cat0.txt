@@ -9,7 +9,7 @@
 ::Suurlähettiläät::12,3,5::::Se on yksi Holbeinin kuuluisimmista maalauksista. Se maalattiin hänen toisen vierailunsa aikana Englannissa ja se sisältää monia symboleja ja piilotettuja merkityksiä.
 ::Jänis::0,1,2::::Se on maalattu vuonna 1502 ja se on tunnustettu havainnointitaiteen mestariteokseksi.
 ::Suuri aalto Kanagawan edustalla::3,12,16::::Se on puupalikkaprintti, joka kuvaa valtavaa aaltoa, joka kohoaa kalastusveneen yläpuolelle Kanagawan lahdella lähellä Tokiota.
-::suudelma::4,5,2::::Se on kuuluisa puupalikkaprintti, joka on luotu Japanissa vuosina 1829-1833.
+::suudelma::4,5,2::::Se on Gustav Klimtin öljy- ja kultamaalaus, joka valmistui vuonna 1908. Sitä pidetään Klimtin teoksista suosituimpana.
 ::Yhdeksäs aalto::10,7,3::::Se on venäläis-armenialaisen merimaalari Ivan Aivazovskin vuonna 1850 luoma maalaus.
 ::Huuta::11,7,5::::Se on norjalaisen taiteilijan Edvard Munchin vuonna 1893 luoma sävellys, joka kuuluu modernin taiteen tunnetuimpiin kuviin.
 ::Tähtenäinen yö::6,16,7::::Vuonna 1889 maalattu se kuvaa näkymää Van Goghin turvapaikkahuoneen ikkunasta juuri ennen auringonnousua.

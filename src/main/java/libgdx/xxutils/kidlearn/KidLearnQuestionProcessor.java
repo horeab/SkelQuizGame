@@ -27,8 +27,12 @@ public class KidLearnQuestionProcessor {
 //        languages.remove(Language.en);
 //        languages.remove(Language.ro);
 
+//        List<Language> languages = Arrays.asList(
+//                Language.ro
+//        );
+
         List<Language> languages = Arrays.asList(
-                Language.ro
+                Language.en
         );
 
         ///////
@@ -58,14 +62,18 @@ public class KidLearnQuestionProcessor {
             String cat,
             QuestionDifficulty diff) throws IOException {
 
-        List<String> enQuestions = getEnglishQuestions(bigCat, cat, diff);
-        List<String> langQuestions = getQuestions(bigCat, cat, diff, lang);
+        List<Language> langsToTranslate = Arrays.asList(Language.ar, Language.bg, Language.he, Language.sl, Language.sr);
+
+        boolean toTranslate = langsToTranslate.contains(lang);
+        List<String> qToProcess = toTranslate ?
+                getEnglishQuestions(bigCat, cat, diff) :
+                getQuestions(bigCat, cat, diff, lang);
 
         List<String> questions = new ArrayList<>();
 
         int i = 0;
-        for (String enQuestion : langQuestions) {
-            questions.add(enQuestion);
+        for (String q : qToProcess) {
+            questions.add(toTranslate ? translate(lang, q) : q);
             i++;
         }
         String returnValue = String.join("\n", questions);
@@ -81,6 +89,23 @@ public class KidLearnQuestionProcessor {
         FileWriter myWriter = new FileWriter(myObj);
         myWriter.write(returnValue);
         myWriter.close();
+    }
+
+    private static String formatQuestion(String enQ, String cat, Language lang) throws IOException {
+        String q = enQ;
+
+        if (cat.equals("body")) {
+            String[] split = enQ.split(":");
+            q = translate(lang, split[0]) + ":" + split[1] + ":" + split[2];
+        } else if (cat.equals("feed")) {
+            String[] split = enQ.split(":");
+            q = translate(lang, split[0]) + ":" + translate(lang, split[1]);
+        } else if (cat.equals("recy") || cat.equals("state")) {
+            String[] split = enQ.split(":");
+            q = split[0] + ":" + translate(lang, split[1]);
+        }
+
+        return q;
     }
 
     private static String translate(Language lang, String text) throws IOException {

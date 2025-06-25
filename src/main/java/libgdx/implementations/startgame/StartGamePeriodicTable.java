@@ -85,7 +85,7 @@ public class StartGamePeriodicTable {
                 return "Jadual Berkala";
             case nl:
                 return "Periodiek Systeem";
-            case no:
+            case nb:
                 return "Periodesystemet";
             case pl:
                 return "Układ Okresowy Pierwiastków";

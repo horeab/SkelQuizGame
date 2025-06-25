@@ -32,6 +32,18 @@ public enum AnatomyQuestionCategoryEnum implements QuizQuestionCategory {
     cat21(AnatomyUniqueGameCreatorDependencies.class),
     cat22(AnatomyUniqueGameCreatorDependencies.class),
     cat23(AnatomyUniqueGameCreatorDependencies.class),
+    cat24(AnatomyUniqueGameCreatorDependencies.class),
+    cat25(AnatomyUniqueGameCreatorDependencies.class),
+    cat26(AnatomyUniqueGameCreatorDependencies.class),
+    cat27(AnatomyUniqueGameCreatorDependencies.class),
+    cat28(AnatomyUniqueGameCreatorDependencies.class),
+    cat29(AnatomyUniqueGameCreatorDependencies.class),
+    cat30(AnatomyUniqueGameCreatorDependencies.class),
+    cat31(AnatomyUniqueGameCreatorDependencies.class),
+    cat32(AnatomyUniqueGameCreatorDependencies.class),
+    cat33(AnatomyUniqueGameCreatorDependencies.class),
+    cat34(AnatomyUniqueGameCreatorDependencies.class),
+    cat35(AnatomyUniqueGameCreatorDependencies.class),
     ;
 
     private Class<? extends CreatorDependencies> questionCreator;

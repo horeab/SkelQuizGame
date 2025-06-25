@@ -1,7 +1,7 @@
-Iris:6,3,4:11.3,57:L’iride è una struttura sottile dell’occhio, responsabile del controllo del diametro e delle dimensioni della pupilla.
-Cornea:2,6,4:1.7,50.5:La cornea è la parte anteriore trasparente dell’occhio che copre l’iride.
+Iris:6,3,4:11.3,57:L'iride è una struttura sottile dell'occhio, responsabile del controllo del diametro e delle dimensioni della pupilla.
+Cornea:2,6,4:1.7,50.5:La cornea è la parte anteriore trasparente dell'occhio che copre l'iride.
 cristallino:1,4,6:19,51.3:Il cristallino rifrange la luce focalizzandola sulla retina.
-Retina:1,6,4:64.6,76.8:La retina è lo strato più interno e sensibile alla luce del tessuto dell’occhio.
+Retina:1,6,4:64.6,76.8:La retina è lo strato più interno e sensibile alla luce del tessuto dell'occhio.
 Nervo ottico:0,6,3:87.9,36.2:Il nervo ottico trasmette le informazioni visive dalla retina al cervello.
-Camera anteriore:6,4,3:7.2,51.4:La camera anteriore è la parte anteriore dell’occhio tra la cornea e l’iride.
+Camera anteriore:6,4,3:7.2,51.4:La camera anteriore è la parte anteriore dell'occhio tra la cornea e l'iride.
 Corpo vitreo:1,4,3:49.3,65:La camera vitrea è posizionata nella parte posteriore del bulbo oculare.

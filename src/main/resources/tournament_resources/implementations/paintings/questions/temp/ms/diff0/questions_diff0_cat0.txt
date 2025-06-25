@@ -9,7 +9,7 @@
 ::Para Duta::12,3,5::::Ia adalah salah satu lukisan paling terkenal oleh Holbein. Ia dicat semasa lawatan kedua beliau ke England dan ia mengandungi banyak simbol dan makna tersembunyi.
 ::sejenis arnab::0,1,2::::Ia dicat pada tahun 1502 dan ia diakui sebagai karya seni pemerhatian.
 ::Gelombang Besar dari Kanagawa::3,12,16::::Ia adalah cetakan blok kayu yang menggambarkan ombak besar naik di atas bot nelayan di Teluk Kanagawa berhampiran Tokyo.
-::ciuman::4,5,2::::Ia adalah cetakan blok kayu terkenal yang dicipta di Jepun antara 1829 dan 1833.
+::ciuman::4,5,2::::Ia adalah lukisan minyak dan emas oleh Gustav Klimt yang disiapkan pada tahun 1908. Ia dianggap sebagai karya Klimt yang paling popular.
 ::Gelombang Kesembilan::10,7,3::::Ia adalah lukisan yang dicipta pada tahun 1850 oleh pelukis marin Rusia-Armenia Ivan Aivazovsky.
 ::Jeritan Alam::11,7,5::::Ia adalah gubahan yang dicipta oleh artis Norway Edvard Munch pada tahun 1893 dan merupakan antara imej seni moden yang paling diiktiraf.
 ::Malam Berbintang::6,16,7::::Dilukis pada tahun 1889, ia menggambarkan pemandangan dari tingkap bilik suaka Van Gogh sejurus sebelum matahari terbit.

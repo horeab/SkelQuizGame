@@ -5,12 +5,12 @@
 ::Claude Monet::8,11,12::::C'était un peintre français et fondateur de la peinture impressionniste, considérée comme l'un des précurseurs clés du modernisme.
 ::Diego Rivera::12,8,9::::C'était un éminent peintre mexicain. Ses grandes fresques ont contribué à établir le mouvement mural dans l'art mexicain et international.
 ::Diego Velázquez::4,12,9::::Il est considéré comme l'un des peintres les plus prestigieux de la période baroque.
-::Edvard Munch::8,5,4::::Il fut l’un des artistes les plus marquants du modernisme.
+::Edvard Munch::8,5,4::::Il fut l'un des artistes les plus marquants du modernisme.
 ::Edward Hopper::11,7,6::::C'était un peintre et graveur réaliste américain. Bien qu'il soit largement connu pour ses peintures à l'huile, il était également compétent en tant qu'aquarelliste et graveur.
 ::El Greco::2,14,16::::C'était un peintre, sculpteur et architecte grec de la Renaissance espagnole.
 ::Emanuel Leutze::13,15,16::::C'était un peintre d'histoire américain d'origine allemande.
 ::Eugène Delacroix::6,14,16::::C'était un artiste romantique français considéré dès le début de sa carrière comme le chef de file de l'école romantique française.
-::Francisco Goya::13,5,15::::C'était un peintre romantique espagnol. Il est considéré comme l’artiste espagnol le plus important de la fin du XVIIIe et du début du XIXe siècle.
+::Francisco Goya::13,5,15::::C'était un peintre romantique espagnol. Il est considéré comme l'artiste espagnol le plus important de la fin du XVIIIe et du début du XIXe siècle.
 ::Frida Kahlo::12,21,11::::C'était une peintre mexicaine connue pour ses nombreux portraits, autoportraits et œuvres inspirées de la nature.
 ::Georges Seurat::13,16,8::::Il fut le pionnier de la technique de peinture par petits points ou touches de couleur.
 ::Grant Wood::12,23,20::::C'était un peintre américain surtout connu pour ses peintures représentant la campagne du Midwest américain.
@@ -29,7 +29,7 @@
 ::Paolo Uccello::23,21,30::::Il était un artiste italien important du début de la Renaissance, connu pour son utilisation pionnière de la perspective.
 ::Paul Cézanne::26,23,28::::C'était un peintre post-impressionniste dont les idées influencent de nombreux artistes du XXe siècle et notamment le cubisme.
 ::Wassily Kandinsky::26,31,34::::C'était un artiste russe, l'un des premiers créateurs d'abstraction pure dans la peinture moderne.
-::Rembrandt::34,27,33::::C'était un peintre, graveur et dessinateur néerlandais. Il est considéré comme l’un des plus grands artistes plasticiens de l’histoire de l’art.
+::Rembrandt::34,27,33::::C'était un peintre, graveur et dessinateur néerlandais. Il est considéré comme l'un des plus grands artistes plasticiens de l'histoire de l'art.
 ::Albrecht Dürer::26,33,28::::C'était un peintre, graveur et théoricien allemand de la Renaissance allemande.
 ::Salvador Dali::32,26,28::::C'était un artiste surréaliste espagnol réputé pour ses compétences techniques et les images frappantes et bizarres de son travail.
 ::Sandro Botticelli::33,27,28::::C'était un peintre italien du début de la Renaissance.

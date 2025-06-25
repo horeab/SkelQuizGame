@@ -35,21 +35,7 @@ public class LabelProcessor {
 
     public static void main(String[] args) throws IOException {
 
-        List<GameIdEnum> gameIds = Arrays.asList(
-                GameIdEnum.anatomy,
-                GameIdEnum.countries,
-                GameIdEnum.dopewars,
-                GameIdEnum.history,
-                GameIdEnum.quizgame,
-                GameIdEnum.perstest,
-                GameIdEnum.iqtest,
-                GameIdEnum.astronomy,
-                GameIdEnum.hangmanarena,
-                GameIdEnum.buylow,
-                GameIdEnum.paintings,
-                GameIdEnum.periodictable,
-                GameIdEnum.math
-        );
+        List<GameIdEnum> gameIds = Arrays.asList(GameIdEnum.anatomy, GameIdEnum.countries, GameIdEnum.dopewars, GameIdEnum.history, GameIdEnum.quizgame, GameIdEnum.perstest, GameIdEnum.iqtest, GameIdEnum.astronomy, GameIdEnum.hangmanarena, GameIdEnum.buylow, GameIdEnum.paintings, GameIdEnum.periodictable, GameIdEnum.math);
 
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
 
@@ -57,6 +43,7 @@ public class LabelProcessor {
         ////
 //        List<Language> languages = Collections.singletonList(Language.en);
         List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+//        List<Language> languages = Collections.singletonList(Language.ja);
 //        List<Language> languages = Arrays.asList(Language.en, Language.ro);
 //        List<Language> languages = Arrays.asList(Language.en, Language.ro,
 //                Language.de, Language.es, Language.it);
@@ -109,15 +96,7 @@ public class LabelProcessor {
 
     static boolean isHangmanSupported(Language language) {
 
-        return !Arrays.asList(
-                Language.ar,
-                Language.he,
-                Language.hi,
-                Language.ja,
-                Language.ko,
-                Language.th,
-                Language.zh,
-                Language.vi).contains(language);
+        return !Arrays.asList(Language.ar, Language.he, Language.hi, Language.ja, Language.ko, Language.th, Language.zh, Language.vi).contains(language);
     }
 
     private static void formFlutterKeys(List<GameIdEnum> gameIds, Map<Pair<String, String>, String> defaultLabels, List<Language> languages) throws IOException {
@@ -177,8 +156,7 @@ public class LabelProcessor {
         TranslateQuestionProcessor.ImageClickQuestionParser imageClickQuestionParser = new TranslateQuestionProcessor.ImageClickQuestionParser();
         for (String pl : planetsEnQuestions) {
             String planetEn = imageClickQuestionParser.getQuestion(pl);
-            planets.put(Pair.of(planetEn.toLowerCase().replace(" ", "_"),
-                    "l_" + planetEn.toLowerCase().replace(" ", "_")), imageClickQuestionParser.getQuestion(planetsLangQuestions.get(i)));
+            planets.put(Pair.of(planetEn.toLowerCase().replace(" ", "_"), "l_" + planetEn.toLowerCase().replace(" ", "_")), imageClickQuestionParser.getQuestion(planetsLangQuestions.get(i)));
             i++;
         }
         return planets;
@@ -206,12 +184,9 @@ public class LabelProcessor {
 
     private static Map<Pair<String, String>, String> getMissingLabelKeys(Map<Pair<String, String>, String> labels, List<GameIdEnum> gameIds) {
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
-        List<String> missingKeys = defaultLabels.keySet().stream().map(Pair::getRight)
-                .collect(Collectors.toList());
-        missingKeys.removeAll(
-                labels.keySet().stream().map(Pair::getRight).collect(Collectors.toList()));
-        missingKeys.removeAll(
-                labels.keySet().stream().map(Pair::getLeft).collect(Collectors.toList()));
+        List<String> missingKeys = defaultLabels.keySet().stream().map(Pair::getRight).collect(Collectors.toList());
+        missingKeys.removeAll(labels.keySet().stream().map(Pair::getRight).collect(Collectors.toList()));
+        missingKeys.removeAll(labels.keySet().stream().map(Pair::getLeft).collect(Collectors.toList()));
         Map<Pair<String, String>, String> missingDefaultLabels = new HashMap<>();
         for (String k : missingKeys) {
             for (Map.Entry<Pair<String, String>, String> e : defaultLabels.entrySet()) {
@@ -278,9 +253,17 @@ public class LabelProcessor {
             reader = new BufferedReader(new FileReader(path));
             String line = reader.readLine();
 
+            String text = "";
+            while (line != null) {
+                text = text + line + "\n";
+                line = reader.readLine();
+            }
+            int i = 0;
+
+            reader = new BufferedReader(new FileReader(path));
+            line = reader.readLine();
 
             while (line != null) {
-
                 List<String> ignoreKeys = Arrays.asList("font_name", "privacy_policy", "facebook_share_btn");
                 List<String> onlyKeys = new ArrayList<>();
 
@@ -310,52 +293,62 @@ public class LabelProcessor {
                 }
 
                 if (line.contains("=")) {
-                    String[] split = line.split("=");
-                    String value = split[1];
 
-                    value = value.replace("Highscore", "High Score");
-                    value = value.replace("\u0027", "'");
-                    value = value.replace("\\n", "\n");
-                    value = value.replace(" ", " ");
+                    List<String> splitBy = Arrays.asList(
+                            line.substring(0, line.indexOf("=")),
+                            line.substring(line.indexOf("=") + 1)
+                    );
 
-                    String key = value.toLowerCase();
+                    try {
+                        String value = splitBy.get(1);
 
-                    Map<String, String> replaceStrings = new HashMap<>();
-                    replaceStrings.put(" ", "_");
-                    replaceStrings.put("\n", "_");
-                    replaceStrings.put(":", "_");
-                    replaceStrings.put("-", "_");
-                    replaceStrings.put("/", "_");
-                    replaceStrings.put("\\", "_");
-                    replaceStrings.put(",", "_");
-                    replaceStrings.put("'", "");
-                    replaceStrings.put("!", "");
-                    replaceStrings.put("+", "");
-                    replaceStrings.put("?", "");
-                    replaceStrings.put(".", "");
-                    replaceStrings.put("%", "");
-                    replaceStrings.put("(", "");
-                    replaceStrings.put(")", "");
-                    replaceStrings.put("{0}", "param0");
-                    replaceStrings.put("{1}", "param1");
-                    replaceStrings.put("{2}", "param2");
+                        value = value.replace("Highscore", "High Score");
+                        value = value.replace("\u0027", "'");
+                        value = value.replace("\\n", "\n");
+                        value = value.replace(" ", " ");
 
-                    for (Map.Entry<String, String> r : replaceStrings.entrySet()) {
-                        key = key.replace(r.getKey(), r.getValue());
+                        String key = value.toLowerCase();
+
+                        Map<String, String> replaceStrings = new HashMap<>();
+                        replaceStrings.put(" ", "_");
+                        replaceStrings.put("\n", "_");
+                        replaceStrings.put(":", "_");
+                        replaceStrings.put("-", "_");
+                        replaceStrings.put("/", "_");
+                        replaceStrings.put("\\", "_");
+                        replaceStrings.put(",", "_");
+                        replaceStrings.put("'", "");
+                        replaceStrings.put("!", "");
+                        replaceStrings.put("+", "");
+                        replaceStrings.put("?", "");
+                        replaceStrings.put(".", "");
+                        replaceStrings.put("%", "");
+                        replaceStrings.put("(", "");
+                        replaceStrings.put(")", "");
+                        replaceStrings.put("{0}", "param0");
+                        replaceStrings.put("{1}", "param1");
+                        replaceStrings.put("{2}", "param2");
+
+                        for (Map.Entry<String, String> r : replaceStrings.entrySet()) {
+                            key = key.replace(r.getKey(), r.getValue());
+                        }
+                        key = "l_" + key;
+                        key = key.replace("__", "_");
+                        key = key.replace("__", "_");
+                        key = key.replace("__", "_");
+                        key = key.replace("__", "_");
+
+                        int maxKeyLength = 100;
+                        if (key.length() > maxKeyLength) {
+                            key = key.substring(0, maxKeyLength);
+                        }
+
+                        labels.put(new MutablePair<>(lang != null ? splitBy.get(0).substring(splitBy.get(0).indexOf("_") + 1).trim() : splitBy.get(0).trim(), key.trim()), value);
+
+                    } catch (ArrayIndexOutOfBoundsException e) {
+                        e.printStackTrace();
+                        throw e;
                     }
-                    key = "l_" + key;
-                    key = key.replace("__", "_");
-                    key = key.replace("__", "_");
-                    key = key.replace("__", "_");
-                    key = key.replace("__", "_");
-
-                    int maxKeyLength = 100;
-                    if (key.length() > maxKeyLength) {
-                        key = key.substring(0, maxKeyLength);
-                    }
-
-                    labels.put(new MutablePair<>(lang != null ? split[0].substring(split[0].indexOf("_") + 1).trim() : split[0].trim(), key.trim()), value);
-
                 }
 
                 line = reader.readLine();

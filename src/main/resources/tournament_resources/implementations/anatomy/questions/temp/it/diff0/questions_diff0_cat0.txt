@@ -1,10 +1,10 @@
 Fegato:1,2,3:29.2,45:Il fegato rimuove le tossine dal flusso sanguigno del corpo, mantiene livelli sani di zucchero nel sangue, regola la coagulazione del sangue e svolge centinaia di altre funzioni vitali.
 Bocca:4,2,9:28.1,81.6:La bocca è la prima porzione del canale alimentare che riceve il cibo e produce la saliva.
-Esofago:1,8,5:48.6,58.6:L’esofago è un organo tubolare e allungato dell’apparato digerente che collega la faringe allo stomaco.
-Intestino crasso:4,2,6:20.5,21:L’intestino crasso è responsabile della lavorazione del materiale alimentare indigeribile dopo che la maggior parte dei nutrienti sono stati assorbiti nell’intestino tenue.
-Intestino tenue:8,7,1:52.4,19:L’intestino tenue è un organo del tratto gastrointestinale dove avviene la maggior parte dell’assorbimento dei nutrienti dal cibo.
-Stomaco:4,6,7:66,41:Lo stomaco è una sacca muscolare al centro della parte superiore dell’addome che aiuta a scomporre e digerire il cibo.
+Esofago:1,8,5:48.6,58.6:L'esofago è un organo tubolare e allungato dell'apparato digerente che collega la faringe allo stomaco.
+Intestino crasso:4,2,6:20.5,21:L'intestino crasso è responsabile della lavorazione del materiale alimentare indigeribile dopo che la maggior parte dei nutrienti sono stati assorbiti nell'intestino tenue.
+Intestino tenue:8,7,1:52.4,19:L'intestino tenue è un organo del tratto gastrointestinale dove avviene la maggior parte dell'assorbimento dei nutrienti dal cibo.
+Stomaco:4,6,7:66,41:Lo stomaco è una sacca muscolare al centro della parte superiore dell'addome che aiuta a scomporre e digerire il cibo.
 Faringe:5,2,9:48.6,81:La faringe serve sia il sistema respiratorio che quello digestivo ricevendo aria dalla cavità nasale e aria, cibo e acqua dalla cavità orale.
-colecisti:6,9,4:31.3,39.6:La cistifellea è un piccolo organo cavo in cui la bile viene immagazzinata e concentrata prima di essere rilasciata nell’intestino tenue.
+colecisti:6,9,4:31.3,39.6:La cistifellea è un piccolo organo cavo in cui la bile viene immagazzinata e concentrata prima di essere rilasciata nell'intestino tenue.
 Pancreas:2,1,0:50,35.1:Il pancreas ha un ruolo essenziale nel convertire il cibo che mangiamo in carburante per le cellule del corpo.
-Appendice:2,8,3:35.1,9.6:La ricerca suggerisce che l’appendice può svolgere uno scopo importante come serbatoio per i batteri intestinali benefici.
+Appendice:2,8,3:35.1,9.6:La ricerca suggerisce che l'appendice può svolgere uno scopo importante come serbatoio per i batteri intestinali benefici.

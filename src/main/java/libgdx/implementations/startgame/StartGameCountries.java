@@ -65,7 +65,7 @@ public class StartGameCountries {
                 return "Negara-negara di Dunia";
             case nl:
                 return "Landen van de Wereld";
-            case no:
+            case nb:
                 return "Verdens land";
             case pl:
                 return "Państwa Świata";

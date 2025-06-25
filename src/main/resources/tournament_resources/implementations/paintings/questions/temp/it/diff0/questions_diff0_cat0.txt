@@ -9,7 +9,7 @@
 ::Ambasciatori::12,3,5::::È uno dei dipinti più famosi di Holbein. Fu dipinto durante la sua seconda visita in Inghilterra e contiene molti simboli e significati nascosti.
 ::lepre::0,1,2::::Fu dipinto nel 1502 ed è riconosciuto come un capolavoro dell'arte osservativa.
 ::La grande onda di Kanagawa::3,12,16::::Si tratta di una xilografia che raffigura un'enorme onda che si innalza sopra una barca da pesca nella baia di Kanagawa vicino a Tokyo.
-::Il bacio::4,5,2::::Si tratta di una famosa xilografia realizzata in Giappone tra il 1829 e il 1833.
+::Il bacio::4,5,2::::Si tratta di un dipinto ad olio e oro di Gustav Klimt completato nel 1908. È considerata la più popolare delle opere di Klimt.
 ::La nona onda::10,7,3::::Si tratta di un dipinto realizzato nel 1850 dal pittore marino russo-armeno Ivan Aivazovsky.
 ::L'urlo::11,7,5::::È una composizione creata dall'artista norvegese Edvard Munch nel 1893 ed è tra le immagini più riconosciute dell'arte moderna.
 ::La notte stellata::6,16,7::::Dipinto nel 1889, raffigura la vista dalla finestra della stanza del manicomio di Van Gogh poco prima dell'alba.

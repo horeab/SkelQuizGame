@@ -1,15 +1,15 @@
-Empire moghol:1526,1758:Les Moghols étaient une dynastie musulmane qui régnait sur une population majoritairement hindoue. Vers 1750, ils dominaient une grande partie de l’Asie du Sud depuis plusieurs siècles.
+Empire moghol:1526,1758:Les Moghols étaient une dynastie musulmane qui régnait sur une population majoritairement hindoue. Vers 1750, ils dominaient une grande partie de l'Asie du Sud depuis plusieurs siècles.
 Dynastie Qing:1644,1912:La dynastie Qing était une dynastie impériale mandchoue de Chine et la dernière dynastie impériale de l'histoire chinoise.
-Empire russe:1721,1917:L’Empire russe était un vaste empire qui, à son apogée, s’étendait de la Pologne jusqu’à l’océan Pacifique.
+Empire russe:1721,1917:L'Empire russe était un vaste empire qui, à son apogée, s'étendait de la Pologne jusqu'à l'océan Pacifique.
 Empire austro-hongrois:1867,1918:L'Autriche-Hongrie était une alliance militaire et diplomatique de deux États souverains avec un seul monarque intitulé à la fois empereur d'Autriche et roi de Hongrie.
-Empire allemand:1871,1918:Au cours de ses 47 années d’existence, l’Empire allemand est devenu le géant industriel, technologique et scientifique de l’Europe et, en 1913, l’Allemagne était la plus grande économie d’Europe continentale et la troisième au monde.
+Empire allemand:1871,1918:Au cours de ses 47 années d'existence, l'Empire allemand est devenu le géant industriel, technologique et scientifique de l'Europe et, en 1913, l'Allemagne était la plus grande économie d'Europe continentale et la troisième au monde.
 Empire ottoman:1299,1922:Empire ottoman, empire créé par les tribus turques d'Anatolie qui est devenu l'un des États les plus puissants du monde aux XVe et XVIe siècles.
 Empire du Japon:1868,1947:L'Empire du Japon était un État-nation et une grande puissance qui existait depuis la restauration Meiji en 1868 jusqu'à la fin de la Seconde Guerre mondiale.
 Empire espagnol:1402,1975:L'Empire espagnol était un empire colonial gouverné par l'Espagne. Avec l'Empire portugais, ce fut le premier empire à inaugurer l'ère européenne de la découverte.
 Empire français:1534,1980:L'empire français comprenait les colonies et les protectorats placés sous domination française à partir du XVIe siècle.
-Union soviétique:1922,1991:L’Union soviétique était un pays transcontinental qui s’étendait sur une grande partie de l’Eurasie et était composé de 15 républiques.
-Empire britannique:1603,1997:À son apogée au XIXe et au début du XXe siècle, il fut le plus grand empire de l’histoire et, pendant un siècle, la puissance mondiale la plus importante.
-Empire portugais:1415,1999:L’Empire portugais a été l’un des empires coloniaux les plus anciens de l’histoire européenne, durant près de six siècles.
+Union soviétique:1922,1991:L'Union soviétique était un pays transcontinental qui s'étendait sur une grande partie de l'Eurasie et était composé de 15 républiques.
+Empire britannique:1603,1997:À son apogée au XIXe et au début du XXe siècle, il fut le plus grand empire de l'histoire et, pendant un siècle, la puissance mondiale la plus importante.
+Empire portugais:1415,1999:L'Empire portugais a été l'un des empires coloniaux les plus anciens de l'histoire européenne, durant près de six siècles.
 États-Unis:1776,x:Les États-Unis d'Amérique sont le quatrième plus grand pays du monde en termes de superficie et comptent la troisième plus grande population au monde.
-La république populaire de chine:1949,x:La République populaire de Chine est un pays d'Asie de l'Est et le deuxième pays le plus peuplé du monde. Il s’étend sur l’équivalent de cinq fuseaux horaires et borde quatorze pays par voie terrestre.
+La république populaire de chine:1949,x:La République populaire de Chine est un pays d'Asie de l'Est et le deuxième pays le plus peuplé du monde. Il s'étend sur l'équivalent de cinq fuseaux horaires et borde quatorze pays par voie terrestre.
 Union européenne:1993,x:L'Union européenne est une union politique et économique supranationale composée d'États membres situés principalement en Europe.

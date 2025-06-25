@@ -9,7 +9,7 @@
 ::Os Embaixadores::12,3,5::::É uma das pinturas mais famosas de Holbein. Foi pintado durante sua segunda visita à Inglaterra e contém muitos símbolos e significados ocultos.
 ::Lebre::0,1,2::::Foi pintado em 1502 e é reconhecido como uma obra-prima da arte observacional.
 ::A Grande Onda de Kanagawa::3,12,16::::É uma xilogravura que retrata uma enorme onda subindo acima de um barco de pesca na Baía de Kanagawa, perto de Tóquio.
-::O Beijo::4,5,2::::É uma famosa xilogravura criada no Japão entre 1829 e 1833.
+::O Beijo::4,5,2::::É uma pintura a óleo e ouro de Gustav Klimt concluída em 1908. É considerada a mais popular das obras de Klimt.
 ::A Nona Onda::10,7,3::::É uma pintura criada em 1850 pelo pintor marinho russo-armênio Ivan Aivazovsky.
 ::O Grito::11,7,5::::É uma composição criada pelo artista norueguês Edvard Munch em 1893 e está entre as imagens mais reconhecidas da arte moderna.
 ::A Noite Estrelada::6,16,7::::Pintado em 1889, retrata a vista da janela do quarto do asilo de Van Gogh pouco antes do nascer do sol.

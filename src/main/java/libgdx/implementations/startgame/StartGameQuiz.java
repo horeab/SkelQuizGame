@@ -71,7 +71,7 @@ public class StartGameQuiz {
                 return "Geografi Dunia";
             case nl:
                 return "Wereld Aardrijkskunde";
-            case no:
+            case nb:
                 return "Verdensgeografi";
             case pl:
                 return "Geografia świata";

@@ -9,7 +9,7 @@
 ::Veleposlaniki::12,3,5::::Je ena najbolj znanih Holbeinovih slik. Naslikana je bila med njegovim drugim obiskom Anglije in vsebuje veliko simbolov in skritih pomenov.
 ::zajec::0,1,2::::Naslikana je bila leta 1502 in je priznana kot mojstrovina observacijske umetnosti.
 ::Veliki val pri Kanagawi::3,12,16::::Gre za leseno grafiko, ki prikazuje ogromen val, ki se dviga nad ribiško ladjo v zalivu Kanagawa blizu Tokia.
-::Poljub::4,5,2::::Gre za znamenito leseno grafiko, ustvarjeno na Japonskem med letoma 1829 in 1833.
+::Poljub::4,5,2::::Gre za olje in zlato sliko Gustava Klimta, ki je bila dokončana leta 1908. Velja za najbolj priljubljeno Klimtovo delo.
 ::Deveti val::10,7,3::::Gre za sliko, ki jo je leta 1850 ustvaril rusko-armenski marinist Ivan Ajvazovski.
 ::Krik::11,7,5::::Gre za kompozicijo, ki jo je leta 1893 ustvaril norveški umetnik Edvard Munch in je med najbolj priznanimi podobami sodobne umetnosti.
 ::Zvezdna noč::6,16,7::::Naslikana leta 1889 prikazuje pogled skozi okno Van Goghove azilne sobe tik pred sončnim vzhodom.

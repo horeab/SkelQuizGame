@@ -9,7 +9,7 @@
 ::Vyslanci::12,3,5::::Je to jeden z nejznámějších Holbeinových obrazů. Byl namalován během jeho druhé návštěvy Anglie a obsahuje mnoho symbolů a skrytých významů.
 ::Zajíc::0,1,2::::Byl namalován v roce 1502 a je uznáván jako mistrovské dílo pozorovacího umění.
 ::Velká vlna mimo Kanagawa::3,12,16::::Jedná se o dřevotisk, který znázorňuje obrovskou vlnu stoupající nad rybářskou lodí v zálivu Kanagawa nedaleko Tokia.
-::Polibek::4,5,2::::Je to slavný dřevotisk vytvořený v Japonsku v letech 1829 až 1833.
+::Polibek::4,5,2::::Jde o olejomalbu a zlatou malbu od Gustava Klimta, která byla dokončena v roce 1908. Je považována za nejoblíbenější z Klimtových děl.
 ::Devátá vlna::10,7,3::::Je to obraz vytvořený v roce 1850 rusko-arménským námořním malířem Ivanem Ajvazovským.
 ::Výkřik::11,7,5::::Je to kompozice vytvořená norským umělcem Edvardem Munchem v roce 1893 a patří mezi nejuznávanější obrazy moderního umění.
 ::Hvězdná noc::6,16,7::::Namalován v roce 1889, zobrazuje pohled z okna Van Goghova azylového pokoje těsně před východem slunce.

@@ -9,7 +9,7 @@
 ::Veľvyslanci::12,3,5::::Je to jeden z najznámejších Holbeinových obrazov. Bol namaľovaný počas jeho druhej návštevy Anglicka a obsahuje veľa symbolov a skrytých významov.
 ::zajac::0,1,2::::Bol namaľovaný v roku 1502 a je uznávaný ako majstrovské dielo pozorovateľského umenia.
 ::Veľká vlna pri Kanagawe::3,12,16::::Ide o drevotlač, ktorá zobrazuje obrovskú vlnu stúpajúcu nad rybárskou loďou v zálive Kanagawa neďaleko Tokia.
-::Bozk::4,5,2::::Je to slávna drevotlač vytvorená v Japonsku v rokoch 1829 až 1833.
+::Bozk::4,5,2::::Ide o olejomaľbu a zlatú maľbu od Gustava Klimta, ktorá bola dokončená v roku 1908. Je považovaná za najobľúbenejšiu z Klimtových diel.
 ::Deviata vlna::10,7,3::::Ide o obraz vytvorený v roku 1850 rusko-arménskym námorným maliarom Ivanom Aivazovským.
 ::Výkrik::11,7,5::::Je to kompozícia vytvorená nórskym umelcom Edvardom Munchom v roku 1893 a patrí medzi najuznávanejšie obrazy moderného umenia.
 ::Hviezdna noc::6,16,7::::Namaľovaný v roku 1889 zobrazuje pohľad z okna Van Goghovej azylovej izby tesne pred východom slnka.

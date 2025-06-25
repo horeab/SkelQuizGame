@@ -9,7 +9,7 @@
 ::Die Botschafter::12,3,5::::Es ist eines der berühmtesten Gemälde von Holbein. Es wurde während seines zweiten Besuchs in England gemalt und enthält viele Symbole und verborgene Bedeutungen.
 ::Feldhase::0,1,2::::Es wurde 1502 gemalt und gilt als Meisterwerk der Beobachtungskunst.
 ::Die große Welle vor Kanagawa::3,12,16::::Es handelt sich um einen Holzschnitt, der eine riesige Welle zeigt, die sich über einem Fischerboot in der Kanagawa-Bucht in der Nähe von Tokio erhebt.
-::Der Kuss::4,5,2::::Es handelt sich um einen berühmten Holzschnitt, der zwischen 1829 und 1833 in Japan entstand.
+::Der Kuss::4,5,2::::Es handelt sich um ein Öl- und Goldgemälde von Gustav Klimt, das 1908 fertiggestellt wurde. Es gilt als das beliebteste Werk Klimts.
 ::Die neunte Welle::10,7,3::::Es handelt sich um ein Gemälde des russisch-armenischen Marinemalers Iwan Aiwasowski aus dem Jahr 1850.
 ::Der Schrei::11,7,5::::Es handelt sich um eine Komposition des norwegischen Künstlers Edvard Munch aus dem Jahr 1893, die zu den bekanntesten Bildern der modernen Kunst zählt.
 ::Sternennacht::6,16,7::::Es wurde 1889 gemalt und zeigt den Blick aus dem Fenster von Van Goghs Anstaltszimmer kurz vor Sonnenaufgang.

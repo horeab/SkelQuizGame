@@ -9,7 +9,7 @@
 ::Ambasadorzy::12,3,5::::Jest to jeden z najsłynniejszych obrazów Holbeina. Został namalowany podczas jego drugiej wizyty w Anglii i zawiera wiele symboli i ukrytych znaczeń.
 ::Zając::0,1,2::::Został namalowany w 1502 roku i uznawany jest za arcydzieło sztuki obserwacyjnej.
 ::Wielka fala w Kanagawie::3,12,16::::Jest to drzeworyt przedstawiający ogromną falę unoszącą się nad łodzią rybacką w zatoce Kanagawa niedaleko Tokio.
-::Pocałunek::4,5,2::::Jest to słynny drzeworyt powstały w Japonii w latach 1829-1833.
+::Pocałunek::4,5,2::::Jest to obraz olejny i złoty pędzla Gustava Klimta, ukończony w 1908 roku. Uważany jest za najpopularniejsze dzieło Klimta.
 ::Dziewiąta fala::10,7,3::::Jest to obraz namalowany w 1850 roku przez rosyjsko-ormiańskiego malarza morskiego Iwana Aiwazowskiego.
 ::Krzyk::11,7,5::::Jest to kompozycja stworzona przez norweskiego artystę Edvarda Muncha w 1893 roku i należy do najbardziej rozpoznawalnych obrazów sztuki współczesnej.
 ::Gwiaździsta noc::6,16,7::::Namalowany w 1889 roku przedstawia widok z okna pokoju dla obłąkanych Van Gogha tuż przed wschodem słońca.

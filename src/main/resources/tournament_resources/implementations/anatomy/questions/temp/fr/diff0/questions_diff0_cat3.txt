@@ -1,6 +1,6 @@
-Cœur:4,2,5:65.3,73:Le cœur est un organe de la taille d’un poing qui pompe le sang dans tout le corps.
-Aorte:4,2,5:62.9,77.6:L’aorte est l’artère principale et la plus grande du corps humain.
+Cœur:4,2,5:65.3,73:Le cœur est un organe de la taille d'un poing qui pompe le sang dans tout le corps.
+Aorte:4,2,5:62.9,77.6:L'aorte est l'artère principale et la plus grande du corps humain.
 veines rénales:0,4,5:57.3,59.1:Les veines rénales, dans la circulation rénale, sont des veines de gros calibre qui drainent le sang filtré par les reins.
 Artère rénale:0,5,4:61.5,59.1:Les artères rénales constituent le seul apport vasculaire des reins.
 Veines jugulaires:0,2,5:60.4,86.1:Les veines jugulaires sont des veines qui ramènent le sang désoxygéné de la tête vers le cœur.
-Veine fémorale:0,2,4:67.4,37:La veine fémorale est la veine qui accompagne l’artère fémorale dans la gaine fémorale.
+Veine fémorale:0,2,4:67.4,37:La veine fémorale est la veine qui accompagne l'artère fémorale dans la gaine fémorale.

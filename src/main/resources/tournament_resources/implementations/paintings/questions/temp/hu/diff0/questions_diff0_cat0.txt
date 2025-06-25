@@ -9,7 +9,7 @@
 ::Nagykövetek::12,3,5::::Holbein egyik leghíresebb festménye. Második angliai látogatása során festették, és sok szimbólumot és rejtett jelentést tartalmaz.
 ::Mezei nyúl::0,1,2::::1502-ben festették, és a megfigyelő művészet remekműveként tartják számon.
 ::Kanagawa partján a nagy hullám::3,12,16::::Ez egy fatömbnyomat, amely egy hatalmas hullámot ábrázol, amely egy halászhajó fölé emelkedik a Tokió melletti Kanagawa-öbölben.
-::A csók::4,5,2::::Ez egy híres fatömbnyomat, amelyet Japánban készítettek 1829 és 1833 között.
+::A csók::4,5,2::::Gustav Klimt olaj- és aranyfestménye, amely 1908-ban készült el. Klimt alkotásai közül a legnépszerűbbnek tartják.
 ::A kilencedik hullám::10,7,3::::Ivan Aivazovsky orosz-örmény tengeri festő 1850-ben készített festménye.
 ::A sikoly::11,7,5::::Edvard Munch norvég művész 1893-ban készített kompozíciója a modern művészet legelismertebb képei közé tartozik.
 ::Csillagos éj::6,16,7::::1889-ben festették, és Van Gogh menedékházának ablakából a kilátást ábrázolja napkelte előtt.

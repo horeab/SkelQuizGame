@@ -9,7 +9,7 @@
 ::Ambasadori::12,3,5::::To je jedna od najpoznatijih Holbeinovih slika. Naslikana je tijekom njegovog drugog posjeta Engleskoj i sadrži mnoge simbole i skrivena značenja.
 ::Zec::0,1,2::::Naslikana je 1502. godine i priznata je kao remek-djelo promatračke umjetnosti.
 ::Veliki val izvan Kanagawe::3,12,16::::Riječ je o drvenorezu koji prikazuje golemi val koji se uzdiže iznad ribarskog broda u zaljevu Kanagawa u blizini Tokija.
-::Poljubac::4,5,2::::Riječ je o poznatoj drvorezbarskoj grafiki nastaloj u Japanu između 1829. i 1833. godine.
+::Poljubac::4,5,2::::Riječ je o slici Gustava Klimta u ulju i zlatu koja je dovršena 1908. Smatra se najpopularnijim Klimtovim djelom.
 ::Deveti val::10,7,3::::Riječ je o slici koju je 1850. godine izradio rusko-armenski marinist Ivan Ajvazovski.
 ::Vrisak::11,7,5::::To je kompozicija koju je stvorio norveški umjetnik Edvard Munch 1893. godine i jedna je od najpriznatijih slika moderne umjetnosti.
 ::Zvjezdana noć::6,16,7::::Naslikana 1889. godine, prikazuje pogled s prozora Van Goghove sobe za azil neposredno prije izlaska sunca.

@@ -2,16 +2,16 @@
 ::Un dimanche après-midi à l'Île de la Grande Jatte::7,13,15::::Elle a été peinte de 1884 à 1886 et constitue l'œuvre la plus célèbre de Georges Seurat.
 ::American Gothic::5,0,3::::C'est l'une des peintures américaines les plus célèbres du XXe siècle.
 ::Composition en rouge, jaune, bleu et noir::10,2,12::::Il représente une étape mature de l'abstraction de Mondrian. Cela semble être une œuvre plate, mais il existe des différences dans la texture des différents éléments.
-::La Jeune Fille à la perle::5,14,1::::C'est le tableau le plus célèbre de Vermeer. Il s’agit d’une peinture représentant une figure imaginaire portant un turban oriental et une perle d’une taille improbable à l’oreille.
+::La Jeune Fille à la perle::5,14,1::::C'est le tableau le plus célèbre de Vermeer. Il s'agit d'une peinture représentant une figure imaginaire portant un turban oriental et une perle d'une taille improbable à l'oreille.
 ::La Création d'Adam::6,12,8::::Il s'agit d'une fresque peinte par Michel-Ange entre 1508 et 1512 sur le plafond de la chapelle Sixtine de la Cité du Vatican. Il représente le passage du livre de la Genèse qui décrit Dieu créant Adam et donnant la vie au premier homme.
 ::Mona Lisa::8,14,4::::Elle est considérée comme un chef-d'œuvre de la Renaissance italienne et a été décrite comme l'œuvre d'art la plus connue au monde.
-::Nighthawks::14,13,15::::Il s’agit d’une des peintures new-yorkaises de Hopper, et l’artiste a déclaré qu’elle était basée sur un vrai café.
+::Nighthawks::14,13,15::::Il s'agit d'une des peintures new-yorkaises de Hopper, et l'artiste a déclaré qu'elle était basée sur un vrai café.
 ::Les ambassadeurs::12,3,5::::C'est l'un des tableaux les plus célèbres de Holbein. Il a été peint lors de sa deuxième visite en Angleterre et contient de nombreux symboles et significations cachées.
 ::Lièvre::0,1,2::::Il a été peint en 1502 et est reconnu comme un chef-d'œuvre de l'art d'observation.
 ::La Grande Vague de Kanagawa::3,12,16::::Il s'agit d'une gravure sur bois qui représente une énorme vague s'élevant au-dessus d'un bateau de pêche dans la baie de Kanagawa, près de Tokyo.
-::Le Baiser::4,5,2::::Il s'agit d'une célèbre estampe sur bois créée au Japon entre 1829 et 1833.
+::Le Baiser::4,5,2::::Il s'agit d'une peinture à l'huile et à l'or de Gustav Klimt achevée en 1908. Elle est considérée comme l'œuvre la plus populaire de Klimt.
 ::La Neuvième Vague::10,7,3::::Il s'agit d'un tableau réalisé en 1850 par le peintre de marine russo-arménien Ivan Aivazovsky.
 ::Le Cri::11,7,5::::Il s'agit d'une composition créée par l'artiste norvégien Edvard Munch en 1893 et fait partie des images les plus reconnues de l'art moderne.
 ::La Nuit étoilée::6,16,7::::Peint en 1889, il représente la vue depuis la fenêtre de la chambre de l'asile de Van Gogh juste avant le lever du soleil.
 ::La Tour de Babel::1,5,12::::Le tableau représente un projet de construction décrit dans la Bible, la tour de Babel. Bruegel a créé trois versions du tableau, mais seules deux ont survécu à ce jour.
-::Le Voyageur contemplant une mer de nuages::5,9,8::::Il s’agit du tableau le plus connu du romantisme allemand et a été interprété comme un emblème de l’introspection.
+::Le Voyageur contemplant une mer de nuages::5,9,8::::Il s'agit du tableau le plus connu du romantisme allemand et a été interprété comme un emblème de l'introspection.

@@ -9,7 +9,7 @@
 ::Elçiler::12,3,5::::Holbein'in en ünlü tablolarından biridir. İngiltere'ye ikinci ziyareti sırasında yapılmış olan bu tablo birçok sembol ve gizli anlamlar içermektedir.
 ::tavşan::0,1,2::::1502 yılında yapılmış olup gözlem sanatının başyapıtı olarak kabul edilmektedir.
 ::Kanagawa'daki Büyük Dalga::3,12,16::::Tokyo yakınlarındaki Kanagawa Körfezi'ndeki bir balıkçı teknesinin üzerinde yükselen dev bir dalgayı tasvir eden tahta baskıdır.
-::Öpücük::4,5,2::::1829 ve 1833 yılları arasında Japonya'da yaratılan ünlü bir tahta baskıdır.
+::Öpücük::4,5,2::::Gustav Klimt'in 1908 yılında tamamladığı yağlıboya ve altın tablodur. Klimt'in eserleri arasında en popüler olanı olarak kabul edilir.
 ::Dokuzuncu Dalga::10,7,3::::Rus-Ermeni deniz ressamı Ivan Aivazovsky'nin 1850 yılında yaptığı bir tablodur.
 ::Çığlık::11,7,5::::Norveçli sanatçı Edvard Munch'un 1893 yılında yarattığı bir kompozisyondur ve modern sanatın en tanınmış görselleri arasında yer almaktadır.
 ::Yıldızlı Gece::6,16,7::::1889'da yapılmış olan tablo, Van Gogh'un akıl hastanesi odasının penceresinden güneş doğmadan hemen önceki manzarayı tasvir ediyor.

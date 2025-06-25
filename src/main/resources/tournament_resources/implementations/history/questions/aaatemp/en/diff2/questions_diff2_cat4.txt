@@ -1,4 +1,4 @@
-:Alexander the Great::Alexander the Great, the King of Macedonia and conqueror of the Persian Empire is considered one of the greatest military geniuses of all times.
-:Julius Caesar::Julius Caesar had an important role in the events that led to the demise of the Roman Republic and the rise of the Roman Empire.
-:Aristotle::Aristotle was an Ancient Greek philosopher and polymath.
-:Confucius::Confucius was a Chinese philosopher whose teachings remain influential across China and East Asia to this day.
+:Alexander the Great:::Alexander the Great, the King of Macedonia and conqueror of the Persian Empire is considered one of the greatest military geniuses of all times.
+:Julius Caesar:::Julius Caesar had an important role in the events that led to the demise of the Roman Republic and the rise of the Roman Empire.
+:Aristotle:::Aristotle was an Ancient Greek philosopher and polymath.
+:Confucius:::Confucius was a Chinese philosopher whose teachings remain influential across China and East Asia to this day.

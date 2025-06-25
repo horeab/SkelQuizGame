@@ -9,7 +9,7 @@
 ::Ambassadørene::12,3,5::::Det er et av de mest kjente maleriene av Holbein. Den ble malt under hans andre besøk i England, og den inneholder mange symboler og skjulte betydninger.
 ::Hare::0,1,2::::Det ble malt i 1502, og det er anerkjent som et mesterverk innen observasjonskunst.
 ::Den store bølgen utenfor Kanagawa::3,12,16::::Det er et treblokktrykk som viser en enorm bølge som stiger over en fiskebåt i Kanagawa Bay nær Tokyo.
-::Kyssen::4,5,2::::Det er et kjent treblokktrykk laget i Japan mellom 1829 og 1833.
+::Kyssen::4,5,2::::Det er et olje- og gullmaleri av Gustav Klimt som ble ferdigstilt i 1908. Det regnes for å være det mest populære av Klimts verk.
 ::Den niende bølgen::10,7,3::::Det er et maleri laget i 1850 av den russisk-armenske marinemaleren Ivan Aivazovsky.
 ::Skriket::11,7,5::::Det er en komposisjon laget av den norske kunstneren Edvard Munch i 1893 og er blant de mest anerkjente bildene av moderne kunst.
 ::Stjernenatt::6,16,7::::Malt i 1889, viser det utsikten fra vinduet til Van Goghs asylrom like før soloppgang.

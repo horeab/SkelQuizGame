@@ -1,10 +1,10 @@
 Crâne:11,8,6:48,97:Le crâne est une structure osseuse qui contient et protège le cerveau.
-Omoplate:5,4,3:61.1,80.2:L’omoplate est l’os qui relie la clavicule à l’humérus.
+Omoplate:5,4,3:61.1,80.2:L'omoplate est l'os qui relie la clavicule à l'humérus.
 Côtes:11,7,0:56,74.1:La cage thoracique protège les organes vitaux.
-Vertebral column:8,10,1:45.9,65.2:La colonne vertébrale est une série d’environ 33 os appelés vertèbres, séparés par des disques intervertébraux.
+Vertebral column:8,10,1:45.9,65.2:La colonne vertébrale est une série d'environ 33 os appelés vertèbres, séparés par des disques intervertébraux.
 Tibia:5,9,3:51.4,23.6:Le tibia est le plus gros des deux os de la jambe.
-Fémur:4,10,7:54.9,35.5:Le fémur est l’os le plus long et le plus solide du corps humain.
-Humérus:2,7,9:69.1,66.2:L’humérus est un os long du bras qui s’étend de l’épaule au coude.
+Fémur:4,10,7:54.9,35.5:Le fémur est l'os le plus long et le plus solide du corps humain.
+Humérus:2,7,9:69.1,66.2:L'humérus est un os long du bras qui s'étend de l'épaule au coude.
 Métacarpe:6,0,1:81.3,44.8:Les os métacarpiens sont cinq os longs de la main.
 Carpe:5,4,2:77.1,48.7:Les os du carpe sont les huit petits os qui composent le poignet.
 Tarse:4,3,1:49.3,6.9:Le tarse est un groupe de sept os articulés dans chaque pied.

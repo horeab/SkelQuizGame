@@ -9,7 +9,7 @@
 ::De ambassadeurs::12,3,5::::Het is een van de beroemdste schilderijen van Holbein. Het is geschilderd tijdens zijn tweede bezoek aan Engeland en bevat veel symbolen en verborgen betekenissen.
 ::Haas::0,1,2::::Het werd geschilderd in 1502 en wordt erkend als een meesterwerk van observatiekunst.
 ::De grote golf van Kanagawa::3,12,16::::Het is een houtsnede die een enorme golf afbeeldt die boven een vissersboot uitsteekt in de Kanagawa-baai, nabij Tokio.
-::De kus::4,5,2::::Het is een beroemde houtsnede gemaakt in Japan tussen 1829 en 1833.
+::De kus::4,5,2::::Het is een olie- en goudschilderij van Gustav Klimt dat in 1908 werd voltooid. Het wordt beschouwd als het meest populaire werk van Klimt.
 ::De negende golf::10,7,3::::Het is een schilderij gemaakt in 1850 door de Russisch-Armeense zeeschilder Ivan Aivazovsky.
 ::De schreeuw::11,7,5::::Het is een compositie gemaakt door de Noorse kunstenaar Edvard Munch in 1893 en behoort tot de meest erkende afbeeldingen van de moderne kunst.
 ::De Sterrennacht::6,16,7::::Het is geschilderd in 1889 en toont het uitzicht vanuit het raam van Van Goghs asielkamer vlak voor zonsopgang.

@@ -4,6 +4,6 @@ Califfato abbaside:750,1258:Il Califfato Abbaside, con capitale Baghdad, è cons
 Regno Pagan:849,1297:Il Regno Pagan fu il primo regno birmano a unificare le regioni che in seguito avrebbero costituito l'attuale Myanmar.
 Impero mongolo:1206,1368:L'impero mongolo dei secoli XIII e XIV fu il più grande impero contiguo della storia.
 Impero Khmer:802,1431:L'Impero Khmer era un impero indù-buddista nel sud-est asiatico, incentrato sulle città idrauliche nell'attuale Cambogia settentrionale.
-Impero romano:-27,1453:L’Impero Romano era l’entità politica e militare più grande e potente del mondo.
+Impero romano:-27,1453:L'Impero Romano era l'entità politica e militare più grande e potente del mondo.
 Impero bizantino:395,1453:L'Impero bizantino, noto anche come Impero Romano d'Oriente, fu la continuazione dell'Impero Romano con la capitale situata a Costantinopoli.
 Impero inca:1438,1533:L'Impero Inca era la più grande civiltà antica dell'America precolombiana.

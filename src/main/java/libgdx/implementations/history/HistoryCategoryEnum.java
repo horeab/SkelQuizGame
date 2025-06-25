@@ -10,6 +10,9 @@ public enum HistoryCategoryEnum implements QuizQuestionCategory {
 
     cat0(HistoryGameCreatorDependencies.class),
     cat1(HistoryGameCreatorDependencies.class),
+    cat2(HistoryGameCreatorDependencies.class),
+    cat3(HistoryGameCreatorDependencies.class),
+    cat4(HistoryGameCreatorDependencies.class),
     ;
 
     private Class<? extends CreatorDependencies> questionCreator;

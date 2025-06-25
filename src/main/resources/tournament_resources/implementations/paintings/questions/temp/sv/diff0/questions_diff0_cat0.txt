@@ -9,7 +9,7 @@
 ::Ambassadörerna::12,3,5::::Det är en av de mest kända målningarna av Holbein. Den målades under hans andra besök i England och den innehåller många symboler och dolda betydelser.
 ::Hare::0,1,2::::Det målades 1502 och är erkänt som ett mästerverk av observationskonst.
 ::Under vågen utanför Kanagawa::3,12,16::::Det är ett träblocktryck som föreställer en enorm våg som stiger över en fiskebåt i Kanagawa Bay nära Tokyo.
-::kyssen::4,5,2::::Det är ett berömt träblock som skapades i Japan mellan 1829 och 1833.
+::kyssen::4,5,2::::Det är en olje- och guldmålning av Gustav Klimt som stod färdig 1908. Den anses vara den populäraste av Klimts verk.
 ::Den nionde vågen::10,7,3::::Det är en målning skapad 1850 av den rysk-armenske marinmålaren Ivan Aivazovsky.
 ::Skriket::11,7,5::::Det är en komposition skapad av den norske konstnären Edvard Munch 1893 och är bland de mest erkända bilderna av modern konst.
 ::Stjärnenatt::6,16,7::::Målad 1889, föreställer den utsikten från fönstret i Van Goghs asylrum strax före soluppgången.

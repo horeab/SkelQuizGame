@@ -9,7 +9,7 @@
 ::Ambasadorii::12,3,5::::Este una dintre cele mai faimoase picturi ale lui Holbein. A fost pictat în timpul celei de-a doua vizite în Anglia și conține multe simboluri și semnificații ascunse.
 ::Iepure de câmp::0,1,2::::A fost pictat în 1502 și este recunoscut ca o capodoperă a artei observaționale.
 ::Marele val de la Kanagawa::3,12,16::::Este o imprimare în lemn care înfățișează un val uriaș care se ridică deasupra unei bărci de pescuit în golful Kanagawa, lângă Tokyo.
-::Sărutul::4,5,2::::Este o imprimare faimoasă din lemn creată în Japonia între 1829 și 1833.
+::Sărutul::4,5,2::::Este o pictură în ulei și aur de Gustav Klimt care a fost finalizată în 1908. Este considerată cea mai populară dintre lucrările lui Klimt.
 ::Al nouălea val::10,7,3::::Este o pictură creată în 1850 de pictorul marin ruso-armean Ivan Aivazovsky.
 ::Ţipătul::11,7,5::::Este o compoziție creată de artistul norvegian Edvard Munch în 1893 și se numără printre cele mai recunoscute imagini ale artei moderne.
 ::Noapte înstelată::6,16,7::::Pictat în 1889, ea înfățișează vederea de la fereastra camerei de azil a lui Van Gogh chiar înainte de răsăritul soarelui.

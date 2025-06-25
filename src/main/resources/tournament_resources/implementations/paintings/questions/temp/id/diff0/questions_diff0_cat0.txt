@@ -9,7 +9,7 @@
 ::Duta Besar::12,3,5::::Ini adalah salah satu lukisan paling terkenal karya Holbein. Lukisan itu dilukis pada kunjungan keduanya ke Inggris dan mengandung banyak simbol dan makna tersembunyi.
 ::Kelinci::0,1,2::::Lukisan ini dilukis pada tahun 1502 dan diakui sebagai mahakarya seni observasi.
 ::Gelombang Hebat di Kanagawa::3,12,16::::Ini adalah cetakan balok kayu yang menggambarkan gelombang besar yang muncul di atas perahu nelayan di Teluk Kanagawa dekat Tokyo.
-::Ciuman::4,5,2::::Ini adalah cetakan balok kayu terkenal yang dibuat di Jepang antara tahun 1829 dan 1833.
+::Ciuman::4,5,2::::Ini adalah lukisan cat minyak dan emas karya Gustav Klimt yang selesai dibangun pada tahun 1908. Ini dianggap sebagai karya Klimt yang paling populer.
 ::Gelombang Kesembilan::10,7,3::::Ini adalah lukisan yang dibuat pada tahun 1850 oleh pelukis kelautan Rusia-Armenia Ivan Aivazovsky.
 ::Jeritan::11,7,5::::Ini adalah komposisi yang dibuat oleh seniman Norwegia Edvard Munch pada tahun 1893 dan merupakan salah satu gambar seni modern yang paling dikenal.
 ::Malam Berbintang::6,16,7::::Dilukis pada tahun 1889, lukisan ini menggambarkan pemandangan dari jendela kamar rumah sakit jiwa Van Gogh sesaat sebelum matahari terbit.

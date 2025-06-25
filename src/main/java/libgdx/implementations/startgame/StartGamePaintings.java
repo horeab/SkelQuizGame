@@ -71,7 +71,7 @@ public class StartGamePaintings {
                 return "Lukisan Terkenal";
             case nl:
                 return "Beroemde Schilderijen";
-            case no:
+            case nb:
                 return "Berømte Malerier";
             case pl:
                 return "Znane Obrazy";

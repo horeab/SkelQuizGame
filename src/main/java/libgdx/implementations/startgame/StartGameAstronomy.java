@@ -71,7 +71,7 @@ public class StartGameAstronomy {
                 return "Astronomi";
             case nl:
                 return "Astronomie";
-            case no:
+            case nb:
                 return "Astronomi";
             case pl:
                 return "Astronomia";

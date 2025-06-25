@@ -1,4 +1,4 @@
-Hücrenin ortasında bulunan ve kromozomlar halinde düzenlenmiş DNA’yı içeren nedir?:0,1,2,3
+Hücrenin ortasında bulunan ve kromozomlar halinde düzenlenmiş DNA'yı içeren nedir?:0,1,2,3
 Hücredeki hangi bölge hücre ribozomlarının üretilmesiyle ilgilidir?:1,2,3,4
 Hücrenin içini dolduran jelatinimsi sıvı nedir?:2,3,4,5
 Hücreyi dış ortamdan koruyan nedir?:3,4,2,1

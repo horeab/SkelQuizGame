@@ -2,7 +2,6 @@ package libgdx.implementations.startgame;
 
 import libgdx.constants.Language;
 import libgdx.game.Game;
-import libgdx.implementations.conthistory.ConthistoryGame;
 import libgdx.implementations.history.HistoryGame;
 import libgdx.implementations.skelgame.GameIdEnum;
 import libgdx.utils.startgame.test.DefaultAppInfoService;
@@ -72,7 +71,7 @@ public class StartGameHistory {
                 return "Permainan Sejarah";
             case nl:
                 return "Geschiedenis spel";
-            case no:
+            case nb:
                 return "Historie spill";
             case pl:
                 return "Gra Historia";

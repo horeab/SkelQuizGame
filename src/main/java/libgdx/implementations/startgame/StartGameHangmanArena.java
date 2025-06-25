@@ -69,7 +69,7 @@ public class StartGameHangmanArena {
                 return "Malay Hangman";
             case nl:
                 return "Galgje";
-            case no:
+            case nb:
                 return "Norsk Hangman";
             case pl:
                 return "Wisielec";
