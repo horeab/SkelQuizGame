@@ -9,10 +9,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Language;
-import libgdx.implementations.anatomy.AnatomyQuestionDifficultyLevel;
 import libgdx.xxutils.TranslateQuestionProcessor;
 
 public class KidLearnQuestionProcessor {
@@ -42,10 +40,14 @@ public class KidLearnQuestionProcessor {
         ///////
 
         for (Language lang : languages) {
-            for (QuestionDifficulty diff : KidLearnQuestionDifficultyLevel.values()) {
-                for (String bigCat : Arrays.asList("sci", "eng")) {
+            KidLearnQuestionDifficultyLevel[] diffs = KidLearnQuestionDifficultyLevel.values();
+            for (QuestionDifficulty diff : Arrays.asList(KidLearnQuestionDifficultyLevel._0)) {
+//                List<String> catsAll = Arrays.asList("sci", "eng");
+                List<String> catsAll = Arrays.asList("eng");
+                for (String bigCat : catsAll) {
                     List<String> cats = bigCat.equals("eng") ?
-                            Arrays.asList("hangman", "verb", "words")
+                            Arrays.asList("hangman")
+//                            Arrays.asList("hangman", "verb", "words")
                             : Arrays.asList("body", "feed", "recy", "state");
                     for (String cat : cats) {
                         moveQuestionCat(lang, bigCat, cat, diff);
