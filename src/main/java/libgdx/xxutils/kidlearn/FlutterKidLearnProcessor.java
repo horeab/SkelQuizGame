@@ -5,9 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
@@ -45,34 +43,22 @@ public class FlutterKidLearnProcessor {
         ///////////QUESTIONS////////////////
         res.append(FlutterQuestionProcessor.getQuestionsHeader(Language.en, FlutterQuestionProcessor.QUESTION_CONFIG_FILE_NAME));
 
-        List<String> catsAll = Arrays.asList("eng");
-        Map<String, String> catFlutterCat = new HashMap<>();
-        catFlutterCat.put("hangman", "cat8");
-        catFlutterCat.put("verb", "cat9");
 
+        List<KidLearnCateg> categs = getCategs();
         for (Language lang : languages) {
-            for (String bigCat : catsAll) {
-                addQuestionCategory(bigCat, "hangman", catFlutterCat, lang,
-                        new QuizQuestionDifficultyLevel[]{QuizQuestionDifficultyLevel._0,
-                                QuizQuestionDifficultyLevel._1,
-                                QuizQuestionDifficultyLevel._2,}, res);
-                addQuestionCategory(bigCat, "verb", catFlutterCat, lang,
-                        new QuizQuestionDifficultyLevel[]{QuizQuestionDifficultyLevel._0,
-                                QuizQuestionDifficultyLevel._1,}, res);
+            for (KidLearnCateg cat : categs) {
+                addQuestionCategory(cat, lang, res);
             }
             res.append("}\n");
         }
         System.out.println(res);
     }
 
-    private static void addQuestionCategory(String bigCat,
-                                            String cat,
-                                            Map<String, String> catFlutterCat,
+    private static void addQuestionCategory(KidLearnCateg kidLearnCateg,
                                             Language language,
-                                            QuestionDifficulty[] diffs,
                                             StringBuilder res) {
-        for (QuestionDifficulty diff : diffs) {
-            String qPath = getLibgdxQuestionPath(language, false, bigCat, cat, diff);
+        for (QuestionDifficulty diff : kidLearnCateg.diffs) {
+            String qPath = getLibgdxQuestionPath(language, false, kidLearnCateg.rootCat, kidLearnCateg.type, diff);
 
             BufferedReader reader;
             List<String> questions = new ArrayList<>();
@@ -85,12 +71,100 @@ public class FlutterKidLearnProcessor {
                 }
 
                 res.append(FlutterQuestionProcessor
-                        .getQuestionsForCatAndDiff(diff, catFlutterCat.get(cat), questions.toString()));
+                        .getQuestionsForCatAndDiff(diff, kidLearnCateg.flutterCat, questions.toString()));
 
                 reader.close();
             } catch (IOException e) {
             }
         }
+    }
+
+    private static List<KidLearnCateg> getCategs() {
+
+        List<KidLearnCateg> categs = Arrays.asList(
+
+                //Math
+                //cat0
+                //cat1
+                new KidLearnCateg(
+                        "sci",
+                        "recy",
+                        "cat2",
+                        Arrays.asList(
+                                QuizQuestionDifficultyLevel._1
+                        )
+                ),
+                new KidLearnCateg(
+                        "sci",
+                        "feed",
+                        "cat3",
+                        Arrays.asList(
+                                QuizQuestionDifficultyLevel._0
+                        )
+                ),
+                new KidLearnCateg(
+                        "eng",
+                        "words",
+                        "cat4",
+                        Arrays.asList(
+                                QuizQuestionDifficultyLevel._0,
+                                QuizQuestionDifficultyLevel._1,
+                                QuizQuestionDifficultyLevel._2
+                        )
+                ),
+                new KidLearnCateg(
+                        "sci",
+                        "body",
+                        "cat5",
+                        Arrays.asList(
+                                QuizQuestionDifficultyLevel._1
+                        )
+                ),
+                new KidLearnCateg(
+                        "sci",
+                        "body",
+                        "cat6",
+                        Arrays.asList(
+                                QuizQuestionDifficultyLevel._0
+                        )
+                ),
+                new KidLearnCateg(
+                        "sci",
+                        "body",
+                        "cat7",
+                        Arrays.asList(
+                                QuizQuestionDifficultyLevel._2
+                        )
+                ),
+                new KidLearnCateg(
+                        "eng",
+                        "hangman",
+                        "cat8",
+                        Arrays.asList(
+                                QuizQuestionDifficultyLevel._0,
+                                QuizQuestionDifficultyLevel._1,
+                                QuizQuestionDifficultyLevel._2
+                        )
+                ),
+                new KidLearnCateg(
+                        "eng",
+                        "verb",
+                        "cat9",
+                        Arrays.asList(
+                                QuizQuestionDifficultyLevel._0,
+                                QuizQuestionDifficultyLevel._1
+                        )
+                ),
+                new KidLearnCateg(
+                        "sci",
+                        "state",
+                        "cat10",
+                        Arrays.asList(
+                                QuizQuestionDifficultyLevel._2
+                        )
+                )
+        );
+        return categs;
     }
 
     private static String getLibgdxQuestionPath(Language language, boolean temp, String bigCat, String libGdxCat, QuestionDifficulty diff) {
@@ -112,4 +186,18 @@ public class FlutterKidLearnProcessor {
         return returnValue;
     }
 
+}
+
+class KidLearnCateg {
+    public String rootCat;
+    public String type;
+    public String flutterCat;
+    public List<QuestionDifficulty> diffs;
+
+    public KidLearnCateg(String rootCat, String type, String flutterCat, List<QuestionDifficulty> diffs) {
+        this.rootCat = rootCat;
+        this.type = type;
+        this.flutterCat = flutterCat;
+        this.diffs = diffs;
+    }
 }
