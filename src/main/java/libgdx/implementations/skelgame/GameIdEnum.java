@@ -37,6 +37,11 @@ public enum GameIdEnum implements GameId {
     history(HistoryDependencyManager.class),
     hangmanarena(HangmanArenaDependencyManager.class),
     hangman(HangmanDependencyManager.class),
+    perstest(CountriesDependencyManager.class),
+    dopewars(CountriesDependencyManager.class),
+    buylow(CountriesDependencyManager.class),
+    iqtest(CountriesDependencyManager.class),
+    kidlearn(CountriesDependencyManager.class),
     ;
 
     private Class<? extends SubGameDependencyManager> dependencyManagerClass;
