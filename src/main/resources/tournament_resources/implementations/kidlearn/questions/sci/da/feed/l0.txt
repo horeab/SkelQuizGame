@@ -1,0 +1,10 @@
+Løve:kød
+Kanin:gulerod
+Pingvin:fisk
+Egern:agern
+Abe:banan
+Giraf:blade
+Hund:knogle
+Mus:frø
+Delfin:fisk
+Springpadder:myg

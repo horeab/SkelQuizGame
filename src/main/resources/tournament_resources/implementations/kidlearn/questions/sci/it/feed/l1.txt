@@ -1,0 +1,10 @@
+Lupo:Coniglio
+Squalo:Pesce
+Ape: polline di fiori
+Antilope:Erba
+Panda:bambù
+Koala:Eucalipto
+Orso polare:pesce
+Pollo:Lombrico
+Ghepardo:Antilope
+Renna:foglie

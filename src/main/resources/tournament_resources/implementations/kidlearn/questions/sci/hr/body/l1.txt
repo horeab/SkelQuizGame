@@ -1,0 +1,5 @@
+List:0.7:0.1
+Voće:0.4:0.7
+Cvijet:0.9:0.6
+Stabljika:0.55:0.45
+Korijen:0.2:0.5

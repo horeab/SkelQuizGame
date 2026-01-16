@@ -1,0 +1,8 @@
+0:Avis
+0:Bestil
+1:Mælkeflaske
+1:Brudt krus
+2:Plastpose
+2:Juiceflaske
+3:Frugtrester
+3:Blade

@@ -1,0 +1,8 @@
+0:Zeitung
+0:Buchen
+1:Milchflasche
+1:Gebrochener Becher
+2:Plastiktüte
+2:Saftflasche
+3:Obstreste
+3:Blätter

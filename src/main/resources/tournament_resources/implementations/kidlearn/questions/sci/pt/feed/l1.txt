@@ -1,0 +1,10 @@
+Lobo:coelho
+Tubarão:Peixe
+Abelha: pólen de flor
+Antílope:Relva
+Panda:Bambu
+Coala:Eucalipto
+Urso Polar:Peixe
+Frango:Minhoca
+guepardo:Antílope
+Rena:Folhas

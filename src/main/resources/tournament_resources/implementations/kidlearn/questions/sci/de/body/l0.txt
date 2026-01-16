@@ -1,0 +1,5 @@
+Stirn:0.94:0.47
+Ellenbogen:0.6:0.33
+Brust:0.74:0.47
+Knie:0.25:0.4
+Knöchel:0.038:0.4

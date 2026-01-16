@@ -1,0 +1,10 @@
+Lion:Viande
+Lapin:Carotte
+Pingouin:Poisson
+Écureuil:gland
+Singe:Banane
+Girafe:Feuilles
+Chien:os
+Souris:graines
+Dauphin:poisson
+Grenouille:moustique
