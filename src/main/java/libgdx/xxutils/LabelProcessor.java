@@ -42,9 +42,9 @@ public class LabelProcessor {
         //
         ////
 //        List<Language> languages = Collections.singletonList(Language.en);
-        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+//        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
 //        List<Language> languages = Collections.singletonList(Language.ja);
-//        List<Language> languages = Arrays.asList(Language.en, Language.ro);
+        List<Language> languages = Arrays.asList(Language.en, Language.ro);
 //        List<Language> languages = Arrays.asList(Language.en, Language.ro,
 //                Language.de, Language.es, Language.it);
         ////
@@ -205,7 +205,7 @@ public class LabelProcessor {
         JsonElement je = jp.parse(json);
         String prettyJsonString = gson.toJson(je);
 
-        File myObj = new File("/Users/macbook/IdeaProjects/SkelQuizGame/src/main/java/libgdx/xxutils/labels/app_" + language + ".arb");
+        File myObj = new File(FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/java/libgdx/xxutils/labels/app_" + language + ".arb");
         myObj.createNewFile();
         FileWriter myWriter = new FileWriter(myObj);
         myWriter.write(prettyJsonString);
@@ -360,14 +360,14 @@ public class LabelProcessor {
     }
 
     public static String getGameImplementationLabelsPath(GameIdEnum gid) {
-        return "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + gid.name() + "/labels/labels.properties";
+        return FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + gid.name() + "/labels/labels.properties";
     }
 
     private static String getMainGameLabelsPath(Language lang) {
-        return "/Users/macbook/IdeaProjects/SkelGame/src/main/resources/tournament_resources/main/labels/labels_" + lang + ".properties";
+        return FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelGame/src/main/resources/tournament_resources/main/labels/labels_" + lang + ".properties";
     }
 
     private static String getMainLabelsPath(Language lang) {
-        return "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/main_resources/main/labels/main_labels_" + lang + ".properties";
+        return FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/main_resources/main/labels/main_labels_" + lang + ".properties";
     }
 }

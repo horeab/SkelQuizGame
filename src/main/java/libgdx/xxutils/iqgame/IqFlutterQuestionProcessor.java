@@ -72,7 +72,7 @@ public class IqFlutterQuestionProcessor {
     }
 
     private static String getLibgdxQuestionPath(String lang) {
-        return "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
+        return FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
                 "/implementations/iqtest/cat5/q_" + lang + ".txt";
     }
 

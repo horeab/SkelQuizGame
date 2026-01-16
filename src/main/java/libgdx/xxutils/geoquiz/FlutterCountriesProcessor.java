@@ -168,11 +168,11 @@ public class FlutterCountriesProcessor {
     }
 
     private static String getGeneralQPath(QuestionCategory cat, Language lang) {
-        String qPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/"
+        String qPath = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/"
                 + "aquestions/diff0/questions_diff0_cat" + cat.getIndex() + ".txt";
 
         if (Arrays.asList(CountriesCategoryEnum.cat4, CountriesCategoryEnum.cat5).contains(cat)) {
-            qPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/"
+            qPath = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/"
                     + lang.toString() + "/questions_diff0_cat" + cat.getIndex() + ".txt";
         }
 
@@ -288,12 +288,12 @@ public class FlutterCountriesProcessor {
     }
 
     static List<String> getFromCountriesFolder(Language translateTo, String fileName) throws IOException {
-        String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s/" + fileName + ".txt";
+        String rootPath = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s/" + fileName + ".txt";
         return readFileContents(String.format(rootPath, translateTo.toString()));
     }
 
     private static List<String> getSynonyms(Language translateTo) throws IOException {
-        String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s/synonyms.txt";
+        String rootPath = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s/synonyms.txt";
         return readFileContents(String.format(rootPath, translateTo.toString()));
     }
 

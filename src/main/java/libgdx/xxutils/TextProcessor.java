@@ -62,7 +62,7 @@ public class TextProcessor {
     }
 
     private static void createCapitalsFile(String text, Language language) throws IOException {
-//        String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s";
+//        String rootPath = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s";
 //
 //        File myObj = new File(String.format(rootPath, language.toString()) + "/capitals.txt");
 //        myObj.createNewFile();

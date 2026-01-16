@@ -1,5 +1,6 @@
 package libgdx.xxutils.periodictable;
 
+import libgdx.xxutils.FlutterQuestionProcessor;
 import org.apache.commons.lang3.tuple.MutablePair;
 
 import java.io.BufferedReader;
@@ -20,7 +21,7 @@ import libgdx.xxutils.TranslateQuestionProcessor;
 
 public class PeriodicTableQuestionProcessor {
 
-    public static final String ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/periodictable/";
+    public static final String ROOT_PATH = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/periodictable/";
 
     public static void main(String[] args) throws IOException {
 

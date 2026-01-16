@@ -25,7 +25,7 @@ class ImageResizeTool {
     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!COPY THE FILES INTO THE PROC FOLDER
     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    private static final String MACBOOK_ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/proc";
+    private static final String MACBOOK_ROOT_PATH = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/proc";
     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

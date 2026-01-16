@@ -1,5 +1,6 @@
 package libgdx.xxutils.geoquiz;
 
+import libgdx.xxutils.FlutterQuestionProcessor;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.mutable.MutableInt;
 
@@ -73,7 +74,7 @@ public class CountriesMapper {
     }
 
     private static void createNewCountriesFile(Set<IndexMapping> mappings, Language language) throws IOException {
-        String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s";
+        String rootPath = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s";
 
         List<String> oldCountries = FlutterCountriesProcessor.getCountries(language);
         List<String> newCountries = FlutterCountriesProcessor.getCountries(language);
@@ -95,7 +96,7 @@ public class CountriesMapper {
     private static void moveQuestions(Language language) throws IOException {
 
         for (CountriesCategoryEnum cat : CountriesCategoryEnum.values()) {
-            String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
+            String rootPath = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
                     "/implementations/countries/questions/aquestions/diff0/questions_diff0_cat%s.txt";
 
             if (cat == CountriesCategoryEnum.cat2) {
@@ -150,12 +151,12 @@ public class CountriesMapper {
             }
 
             if (cat == CountriesCategoryEnum.cat0 || cat == CountriesCategoryEnum.cat1 || cat == CountriesCategoryEnum.cat3) {
-                rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
+                rootPath = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
                         "/implementations/countries/questions/aquestions/diff0/temp/questions_diff0_cat%s.txt";
             }
 
             if (cat == CountriesCategoryEnum.cat4 || cat == CountriesCategoryEnum.cat5) {
-                rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
+                rootPath = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
                         "/implementations/countries/questions/" + language + "/diff0/questions_diff0_cat%s.txt";
             }
             if (!newIndexLines.isEmpty()) {
@@ -234,7 +235,7 @@ public class CountriesMapper {
     }
 
     private static void moveSynonymsToNewPos(Set<IndexMapping> mappings, Language language) throws IOException {
-        String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s";
+        String rootPath = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s";
         List<String> syns = FlutterCountriesProcessor.getFromCountriesFolder(language, "synonyms");
 
         int index = 0;
@@ -254,7 +255,7 @@ public class CountriesMapper {
     }
 
     private static void moveCapitalsToNewPos(Set<IndexMapping> mappings, Language language) throws IOException {
-        String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s";
+        String rootPath = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s";
 //        List<String> capitals = FlutterCountriesProcessor.getFromCountriesFolder(Language.en, "capitals");
         List<String> capitals = FlutterCountriesProcessor.getFromCountriesFolder(language, "capitals");
         List<String> capitalsToMove = new ArrayList<>();

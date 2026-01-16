@@ -11,11 +11,12 @@ import java.util.List;
 
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Language;
+import libgdx.xxutils.FlutterQuestionProcessor;
 import libgdx.xxutils.TranslateQuestionProcessor;
 
 public class KidLearnQuestionProcessor {
 
-    public static final String ROOT_PATH = "/Users/macbook/IdeaProjects/SkelClassicGame/src/main/resources/tournament_resources/implementations/kidlearn/";
+    public static final String ROOT_PATH = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelClassicGame/src/main/resources/tournament_resources/implementations/kidlearn/";
 
     public static void main(String[] args) throws IOException {
 

@@ -66,7 +66,7 @@ public class PeriodicTableFlutterQuestionProcessor {
     }
 
     private static String getLibgdxQuestionPath(Language language) {
-        return "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
+        return FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
                 "/implementations/periodictable/temp/" + language.toString() + "_elements.txt";
     }
 

@@ -1,5 +1,6 @@
 package libgdx.xxutils.paintings;
 
+import libgdx.xxutils.FlutterQuestionProcessor;
 import org.apache.commons.lang3.tuple.MutablePair;
 
 import java.io.BufferedReader;
@@ -26,7 +27,7 @@ import libgdx.xxutils.TranslateQuestionProcessor;
 
 public class PaintingsQuestionProcessor {
 
-    public static final String ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/paintings/questions/";
+    public static final String ROOT_PATH = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/paintings/questions/";
 
     public static void main(String[] args) throws IOException {
 

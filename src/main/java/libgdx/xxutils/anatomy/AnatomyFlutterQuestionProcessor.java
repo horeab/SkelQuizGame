@@ -137,7 +137,7 @@ public class AnatomyFlutterQuestionProcessor {
     }
 
     private static String getLibgdxQuestionPath(String language, String libGdxCat, QuestionDifficulty diff) {
-        return "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
+        return FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
                 "/implementations/anatomy/questions/temp/" + language + "/diff" + diff.getIndex() + "/"
                 + "questions_diff" + diff.getIndex() + "_" + libGdxCat + ".txt";
     }

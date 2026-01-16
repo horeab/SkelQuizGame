@@ -18,10 +18,11 @@ import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Language;
 import libgdx.implementations.history.HistoryCategoryEnum;
 import libgdx.implementations.history.HistoryDifficultyLevel;
+import libgdx.xxutils.FlutterQuestionProcessor;
 import libgdx.xxutils.TranslateQuestionProcessor;
 
 public class HistoryQuestionProcessor {
-    public static final String ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/history/questions/";
+    public static final String ROOT_PATH = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/history/questions/";
 
 
     public static void main(String[] args) throws IOException {

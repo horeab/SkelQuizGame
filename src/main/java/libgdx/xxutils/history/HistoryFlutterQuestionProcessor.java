@@ -47,7 +47,7 @@ public class HistoryFlutterQuestionProcessor {
 
             for (QuestionDifficulty diff : HistoryDifficultyLevel.values()) {
                 for (QuestionCategory category : HistoryCategoryEnum.values()) {
-                    String qPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/history/questions/"
+                    String qPath = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/history/questions/"
                             + (fromTemp ? tempDir : "") + language + "/diff" + diff.getIndex() + "/questions_diff" + diff.getIndex() +
                             "_cat" + category.getIndex() + ".txt";
 
@@ -73,7 +73,7 @@ public class HistoryFlutterQuestionProcessor {
             res.append("}");
         }
 
-        File myObj = new File("/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/flutter_q.txt");
+        File myObj = new File(FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/flutter_q.txt");
         myObj.createNewFile();
         FileWriter myWriter = new FileWriter(myObj);
         myWriter.write(res.toString());

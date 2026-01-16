@@ -9,6 +9,7 @@ import java.util.Collections;
 import java.util.List;
 
 import libgdx.constants.Language;
+import libgdx.xxutils.FlutterQuestionProcessor;
 import libgdx.xxutils.TranslateQuestionProcessor;
 import libgdx.xxutils.geoquiz.FlutterCountriesProcessor;
 
@@ -47,7 +48,7 @@ public class PersTestQuestionTranslator {
 
     public static void writeToFile(String qStrings, String cat, Language language) throws IOException {
 
-        File myObj = new File("/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/perstest/questions/" + cat + "/" + language.toString() + "_questions.txt");
+        File myObj = new File(FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/perstest/questions/" + cat + "/" + language.toString() + "_questions.txt");
         myObj.createNewFile();
         FileWriter myWriter = new FileWriter(myObj);
         myWriter.write(qStrings);
@@ -55,6 +56,6 @@ public class PersTestQuestionTranslator {
     }
 
     public static String getEnQuestionPath(String cat) {
-        return "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/perstest/questions/" + cat + "/en_questions.txt";
+        return FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/perstest/questions/" + cat + "/en_questions.txt";
     }
 }

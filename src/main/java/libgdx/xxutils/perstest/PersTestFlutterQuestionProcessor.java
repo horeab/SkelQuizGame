@@ -68,7 +68,7 @@ public class PersTestFlutterQuestionProcessor {
     }
 
     private static String getLibgdxQuestionPath(Language language, String libGdxCat) {
-        return "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/perstest/questions/"
+        return FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/perstest/questions/"
                 + libGdxCat + "/" + language + "_questions.txt";
     }
 

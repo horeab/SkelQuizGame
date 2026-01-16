@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 class RenameFileTool {
 
     public static void main(String[] args) throws IOException {
-        String pathname = "/Users/macbook/IdeaProjects/ImageScaler/src/main/resources/scr_standard";
+        String pathname = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/ImageScaler/src/main/resources/scr_standard";
         File folder = new File(pathname);
         new File(pathname + "/temp").mkdirs();
         List<File> listOfFiles = Arrays.stream(Objects.requireNonNull(folder.listFiles()))

@@ -91,7 +91,7 @@ public class FlutterGeoQuizQuestionProcessor {
     }
 
     private static String getLibgdxQuestionPath(Language language, GameIdEnum gameId, boolean fromTemp, String libGdxCat, QuestionDifficulty diff) {
-        return "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + gameId + "/questions/"
+        return FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + gameId + "/questions/"
                 + language+ (fromTemp ? "/temp" : "") + "/diff" + diff.getIndex()  + "/questions_diff" + diff.getIndex() +
                 "_" + libGdxCat + ".txt";
     }

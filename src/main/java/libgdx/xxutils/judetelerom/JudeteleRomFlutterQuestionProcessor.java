@@ -81,7 +81,7 @@ public class JudeteleRomFlutterQuestionProcessor {
     }
 
     private static String getLibgdxQuestionPath(Language language, String flutterCat, QuestionDifficulty diff) {
-        return "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
+        return FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
                 "/implementations/judetelerom/questions/temp/" + language.toString() + "/diff" + diff.getIndex() + "/"
                 + "questions_diff" + diff.getIndex() + "_" + flutterCat + ".txt";
     }

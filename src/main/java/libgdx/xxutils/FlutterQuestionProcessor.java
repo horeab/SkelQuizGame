@@ -17,6 +17,8 @@ import libgdx.implementations.skelgame.GameIdEnum;
 public class FlutterQuestionProcessor {
 
 
+    //public static final String ROOT_FOLDER = FlutterQuestionProcessor.ROOT_FOLDER + "";
+    public static final String ROOT_FOLDER = "/Users/horea.bucerzan";
     private static final GameIdEnum GAME_ID = GameIdEnum.anatomy;
     public static final String QUESTION_CONFIG_FILE_NAME = "KidLearnGameQuestionConfig";
     private static final QuestionDifficulty[] DIFFS = QuizQuestionDifficultyLevel.values();
@@ -46,7 +48,7 @@ public class FlutterQuestionProcessor {
 
             for (QuestionDifficulty diff : DIFFS) {
                 for (QuestionCategory category : CATEGS) {
-                    String qPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/"
+                    String qPath = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/"
                             + (fromTemp ? tempDir : "") + language + "/diff" + diff.getIndex() + "/questions_diff" + diff.getIndex() +
                             "_cat" + category.getIndex() + ".txt";
 

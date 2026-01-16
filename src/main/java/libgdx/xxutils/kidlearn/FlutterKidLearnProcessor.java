@@ -16,7 +16,7 @@ import libgdx.xxutils.FlutterQuestionProcessor;
 
 public class FlutterKidLearnProcessor {
 
-    public static final String ROOT_PATH = "/Users/macbook/IdeaProjects/SkelClassicGame/src/main/resources/tournament_resources/implementations/kidlearn/";
+    public static final String ROOT_PATH = "/Users/horea.bucerzan/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/kidlearn/";
 
     private static final String QUESTION_CONFIG_FILE_NAME = "KidLearnGameQuestionConfig";
     private static final QuestionDifficulty[] DIFFS = QuizQuestionDifficultyLevel.values();

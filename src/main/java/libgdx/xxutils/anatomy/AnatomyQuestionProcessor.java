@@ -1,5 +1,6 @@
 package libgdx.xxutils.anatomy;
 
+import libgdx.xxutils.FlutterQuestionProcessor;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.BufferedReader;
@@ -26,7 +27,7 @@ public class AnatomyQuestionProcessor {
 
     static final int TOTAL_FLUTTER_NR_OF_CATS = 12;
 
-    public static final String ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/anatomy/questions/";
+    public static final String ROOT_PATH = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/anatomy/questions/";
 
     public static void main(String[] args) throws IOException {
         translateDescription();

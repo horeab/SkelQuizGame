@@ -32,8 +32,8 @@ public class TranslateQuestionProcessor {
     static final List<Language> RTL_LANGS = Arrays.asList(Language.ar, Language.he);
 
     static final String GAME_ID = "anatomy";
-    static final String ROOT_PATH_OLD = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/";
-    static final String ROOT_PATH_NEW = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/";
+    static final String ROOT_PATH_OLD = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/";
+    static final String ROOT_PATH_NEW = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/";
 
     static int nrOfTranslations = 0;
 
@@ -304,7 +304,7 @@ public class TranslateQuestionProcessor {
     }
 
     private static List<String> getCountries(Language translateTo) throws IOException {
-        String rootPath = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s/countries.txt";
+        String rootPath = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/countries/questions/%s/countries.txt";
         List<String> countries = readFileContents(String.format(rootPath, translateTo.toString()));
         return countries.stream()
                 .map(e -> e.split(":")[0])

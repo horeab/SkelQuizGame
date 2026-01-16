@@ -1,5 +1,6 @@
 package libgdx.xxutils.hangman;
 
+import libgdx.xxutils.FlutterQuestionProcessor;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.BufferedReader;
@@ -21,7 +22,7 @@ import libgdx.xxutils.TranslateQuestionProcessor;
 public class HangmanQuestionProcessor {
 
 
-    public static final String ROOT_PATH = "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
+    public static final String ROOT_PATH = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
             "/implementations/hangmanarena/questions/";
 
     public static void main(String[] args) throws IOException {

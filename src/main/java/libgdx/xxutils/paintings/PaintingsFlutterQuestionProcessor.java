@@ -49,7 +49,7 @@ public class PaintingsFlutterQuestionProcessor {
             res.append("  }\n\n");
         }
 
-        File myObj = new File("/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/flutter_q.txt");
+        File myObj = new File(FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/flutter_q.txt");
         myObj.createNewFile();
         FileWriter myWriter = new FileWriter(myObj);
         myWriter.write(res.toString());
@@ -87,7 +87,7 @@ public class PaintingsFlutterQuestionProcessor {
     }
 
     private static String getLibgdxQuestionPath(Language language, String flutterCat, QuestionDifficulty diff) {
-        return "/Users/macbook/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
+        return FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources" +
                 "/implementations/paintings/questions/temp/" + language.toString() + "/diff" + diff.getIndex() + "/"
                 + "questions_diff" + diff.getIndex() + "_" + flutterCat + ".txt";
     }
