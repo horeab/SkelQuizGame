@@ -1,18 +1,20 @@
 package libgdx.xxutils.kidlearn;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import libgdx.campaign.QuestionCategory;
 import libgdx.campaign.QuestionDifficulty;
 import libgdx.constants.Language;
 import libgdx.implementations.countries.CountriesCategoryEnum;
 import libgdx.implementations.geoquiz.QuizQuestionDifficultyLevel;
 import libgdx.xxutils.FlutterQuestionProcessor;
+import libgdx.xxutils.TranslateQuestionProcessor;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class FlutterKidLearnProcessor {
 
@@ -29,8 +31,8 @@ public class FlutterKidLearnProcessor {
         ///
 
 //        List<Language> languages = Arrays.asList(Language.values());
-//        List<Language> languages = Arrays.asList(Language.en, Language.ro);
-        List<Language> languages = Arrays.asList(Language.en);
+        List<Language> languages = Arrays.asList(Language.en, Language.ro);
+//        List<Language> languages = Arrays.asList(Language.en);
 
         StringBuilder res = new StringBuilder();
 
@@ -41,16 +43,17 @@ public class FlutterKidLearnProcessor {
                 "  }\n\n");
 
         ///////////QUESTIONS////////////////
-        res.append(FlutterQuestionProcessor.getQuestionsHeader(Language.en, FlutterQuestionProcessor.QUESTION_CONFIG_FILE_NAME));
-
 
         List<KidLearnCateg> categs = getCategs();
-        for (Language lang : languages) {
+        for (Language language : languages) {
+            res.append(FlutterQuestionProcessor.getQuestionsHeader(language, FlutterQuestionProcessor.QUESTION_CONFIG_FILE_NAME));
+
             for (KidLearnCateg cat : categs) {
-                addQuestionCategory(cat, lang, res);
+                addQuestionCategory(cat, language, res);
             }
-            res.append("}\n");
+            res.append("  }\n\n");
         }
+
         System.out.println(res);
     }
 
@@ -58,7 +61,7 @@ public class FlutterKidLearnProcessor {
                                             Language language,
                                             StringBuilder res) {
         for (QuestionDifficulty diff : kidLearnCateg.diffs) {
-            String qPath = getLibgdxQuestionPath(language, false, kidLearnCateg.rootCat, kidLearnCateg.type, diff);
+            String qPath = getLibgdxQuestionPath(language, true, kidLearnCateg.rootCat, kidLearnCateg.type, diff);
 
             BufferedReader reader;
             List<String> questions = new ArrayList<>();
@@ -79,7 +82,7 @@ public class FlutterKidLearnProcessor {
         }
     }
 
-    private static List<KidLearnCateg> getCategs() {
+    public static List<KidLearnCateg> getCategs() {
 
         List<KidLearnCateg> categs = Arrays.asList(
 
@@ -103,7 +106,7 @@ public class FlutterKidLearnProcessor {
                         )
                 ),
                 new KidLearnCateg(
-                        "eng",
+                        "voc",
                         "words",
                         "cat4",
                         Arrays.asList(
@@ -137,7 +140,7 @@ public class FlutterKidLearnProcessor {
                         )
                 ),
                 new KidLearnCateg(
-                        "eng",
+                        "voc",
                         "hangman",
                         "cat8",
                         Arrays.asList(
@@ -147,7 +150,7 @@ public class FlutterKidLearnProcessor {
                         )
                 ),
                 new KidLearnCateg(
-                        "eng",
+                        "voc",
                         "verb",
                         "cat9",
                         Arrays.asList(
@@ -167,8 +170,8 @@ public class FlutterKidLearnProcessor {
         return categs;
     }
 
-    private static String getLibgdxQuestionPath(Language language, boolean temp, String bigCat, String libGdxCat, QuestionDifficulty diff) {
-        return ROOT_PATH + "questions/" + (temp ? "temp/" : "") + bigCat + (bigCat.equals("eng") ? "" : "/" + language) + "/" + libGdxCat + "/l" + diff.getIndex() + ".txt";
+    private static String getLibgdxQuestionPath(Language language, boolean temp, String bigCat, String type, QuestionDifficulty diff) {
+        return ROOT_PATH  + (temp ? "temp/" : "") + bigCat + "/" + type + "/" + language + "/l" + diff.getIndex() + ".txt";
     }
 
     public static List<String> readFileContents(String path) throws IOException {
@@ -199,5 +202,78 @@ class KidLearnCateg {
         this.type = type;
         this.flutterCat = flutterCat;
         this.diffs = diffs;
+    }
+
+    public List<String> wordsToTranslate(String enQuestion) {
+        if ("feed".equals(this.type)) {
+            return Arrays.asList(enQuestion.split(":"));
+        } else if ("recy".equals(this.type)) {
+            return Collections.singletonList(enQuestion.split(":")[1]);
+        } else if ("body".equals(this.type)) {
+            return Collections.singletonList(enQuestion.split(":")[0]);
+        } else if ("state".equals(this.type)) {
+            return Collections.singletonList(enQuestion.split(":")[1]);
+        } else if ("hangman".equals(this.type)) {
+            return Collections.singletonList(enQuestion);
+        } else if ("verb".equals(this.type)) {
+            return Collections.singletonList(enQuestion.split(":")[1]);
+        } else if ("words".equals(this.type)) {
+            return Collections.singletonList(enQuestion);
+        }
+        throw new IllegalStateException("no wordsToTranslate config for " + this);
+    }
+
+    public String formQuestionFormat(String enQuestion, Language lang, String... translatedWords) {
+        if ("feed".equals(this.type)) {
+            assert (translatedWords.length == 2);
+            String format = "%s:%s";
+            return TranslateQuestionProcessor.QuestionParser.formQuestion(format, translatedWords, lang);
+        } else if ("recy".equals(this.type)) {
+            assert (translatedWords.length == 1);
+            String format = "%s:%s";
+            return TranslateQuestionProcessor.QuestionParser.formQuestion(format,
+                    Arrays.asList(enQuestion.split(":")[0],
+                            translatedWords[0]).toArray(), lang);
+        } else if ("body".equals(this.type)) {
+            String[] split = enQuestion.split(":");
+            assert (translatedWords.length == 1);
+            assert (split.length == 2);
+            String format = "%s:%s:%s:";
+            return TranslateQuestionProcessor.QuestionParser.formQuestion(format,
+                    Arrays.asList(translatedWords[0], split[1], split[2]).toArray(), lang);
+        } else if ("state".equals(this.type)) {
+            assert (translatedWords.length == 1);
+            String format = "%s:%s";
+            return TranslateQuestionProcessor.QuestionParser.formQuestion(format,
+                    Arrays.asList(enQuestion.split(":")[0],
+                            translatedWords[0]).toArray(), lang);
+        } else if ("hangman".equals(this.type)) {
+            assert (translatedWords.length == 1);
+            String format = "%s";
+            return TranslateQuestionProcessor.QuestionParser.formQuestion(format,
+                    Collections.singletonList(translatedWords[0]).toArray(), lang);
+        } else if ("verb".equals(this.type)) {
+            assert (translatedWords.length == 1);
+            String format = "%s:%s";
+            return TranslateQuestionProcessor.QuestionParser.formQuestion(format,
+                    Arrays.asList(enQuestion.split(":")[0],
+                            translatedWords[0]).toArray(), lang);
+        } else if ("words".equals(this.type)) {
+            assert (translatedWords.length == 1);
+            String format = "%s";
+            return TranslateQuestionProcessor.QuestionParser.formQuestion(format,
+                    Collections.singletonList(translatedWords[0]).toArray(), lang);
+        }
+        throw new IllegalStateException("no format question found for " + this);
+    }
+
+    @Override
+    public String toString() {
+        return "KidLearnCateg{" +
+                "rootCat='" + rootCat + '\'' +
+                ", type='" + type + '\'' +
+                ", flutterCat='" + flutterCat + '\'' +
+                ", diffs=" + diffs +
+                '}';
     }
 }

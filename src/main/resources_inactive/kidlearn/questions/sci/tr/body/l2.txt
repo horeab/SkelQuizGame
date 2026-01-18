@@ -1,0 +1,5 @@
+Kafatası:0.95:0.45
+Vertebral kolon:0.59:0.47
+Göğüs kafesi:0.73:0.42
+Femur:0.4:0.35
+Tibia:0.2:0.4

@@ -1,0 +1,195 @@
+Germania
+Franţa
+Regatul Unit
+Spania
+Italia
+Belgia
+Austria
+Portugalia
+Elveţia
+Olanda
+Irlanda
+Monaco
+Luxemburg
+Liechtenstein
+Andorra
+San Marino
+Vatican
+Suedia
+Danemarca
+Finlanda
+Norvegia
+Islanda
+Polonia
+Grecia
+Croaţia
+Ungaria
+Slovenia
+Slovacia
+Republica Cehă
+Estonia
+Letonia
+Lituania
+Ucraina
+Rusia
+România
+Bulgaria
+Serbia
+Bosnia si Hertegovina
+Albania
+Muntenegru
+Belarus
+Moldova
+Macedonia de Nord
+Cipru
+Malta
+Iran
+Turcia
+Irak
+Israel
+Georgia
+Armenia
+Azerbaidjan
+Siria
+Iordania
+Liban
+Palestina
+Arabia Saudită
+Emiratele Arabe Unite
+Qatar
+Yemen
+Oman
+Kuweit
+Bahrain
+Kazahstan
+Afganistan
+Uzbekistan
+Tadjikistan
+Kârgâzstan
+Turkmenistan
+India
+Pakistan
+Nepal
+Sri Lanka
+Bangladesh
+Bhutan
+Maldive
+Tailanda
+Indonezia
+Vietnam
+Malaezia
+Filipine
+Singapore
+Myanmar
+Laos
+Cambogia
+Brunei
+China
+Japonia
+Coreea de Sud
+Coreea de Nord
+Mongolia
+Australia
+Noua Zeelanda
+Papua Noua Guinee
+Timorul de Est
+Fiji
+Insulele Solomon
+Vanuatu
+Samoa
+Kiribati
+Micronezia
+Tonga
+Insulele Marshall
+Palau
+Nauru
+Tuvalu
+Egipt
+Algeria
+Maroc
+Tunisia
+Libia
+Nigeria
+Ghana
+Senegal
+Mali
+Camerun
+Uganda
+Coasta de Fildes
+Angola
+Tanzania
+Niger
+Republica Centrafricană
+Republica Democrata din Congo
+Burkina Faso
+Madagascar
+Ciad
+Mozambic
+Zambia
+Benin
+Guineea
+Togo
+Rwanda
+Malawi
+Burundi
+Liberia
+Zimbabwe
+Sierra Leone
+Gambia
+Mauritania
+Gabon
+Congo
+Guineea-Bissau
+Guineea Ecuatorială
+Mauritius
+Seychelles
+Comore
+Republica Capului Verde
+Sao Tome și Principe
+Somalia
+Kenia
+Etiopia
+Sudan
+Sudanul de Sud
+Eritreea
+Djibouti
+Africa de Sud
+Namibia
+Botswana
+Lesotho
+Eswatini
+Statele Unite
+Canada
+Mexic
+Cuba
+Guatemala
+Costa Rica
+Belize
+Bahamas
+Jamaica
+Haiti
+Republica Dominicană
+Panama
+El Salvador
+Nicaragua
+Honduras
+Sfânta Lucia
+Grenada
+Dominica
+Trinidad și Tobago
+Barbados
+Sfântul Vincent și Grenadine
+Antigua si Barbuda
+Saint Kitts și Nevis
+Brazilia
+Argentina
+Columbia
+Chile
+Peru
+Venezuela
+Ecuador
+Uruguay
+Bolivia
+Paraguay
+Guyana
+Surinam

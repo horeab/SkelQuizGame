@@ -1,0 +1,195 @@
+Niemcy
+Francja
+Zjednoczone Królestwo
+Hiszpania
+Włochy
+Belgia
+Austria
+Portugalia
+Szwajcaria
+Holandia
+Irlandia
+Monako
+Luksemburg
+Liechtenstein
+Andora
+San Marino
+Watykan
+Szwecja
+Dania
+Finlandia
+Norwegia
+Islandia
+Polska
+Grecja
+Chorwacja
+Węgry
+Słowenia
+Słowacja
+Republika Czeska
+Estonia
+Łotwa
+Litwa
+Ukraina
+Rosja
+Rumunia
+Bułgaria
+Serbia
+Bośnia i Hercegowina
+Albania
+Czarnogóra
+Białoruś
+Moldova
+Macedonia Północna
+Cypr
+Malta
+Iran
+Turcja
+Irak
+Izrael
+Gruzja
+Armenia
+Azerbejdżan
+Syria
+Jordania
+Liban
+Palestyna
+Arabia Saudyjska
+Zjednoczone Emiraty Arabskie
+Katar
+Jemen
+Oman
+Kuwejt
+Bahrajn
+Kazachstan
+Afganistan
+Uzbekistan
+Tadżykistan
+Kirgistan
+Turkmenia
+Indie
+Pakistan
+Nepal
+Sri Lanka
+Bangladesz
+Bhutan
+Malediwy
+Tajlandia
+Indonezja
+Wietnam
+Malezja
+Filipiny
+Singapur
+Myanmar
+Laos
+Kambodża
+Brunei
+Chiny
+Japonia
+Korea Południowa
+Korea Północna
+Mongolia
+Australia
+Nowa Zelandia
+Papua Nowa Gwinea
+Wschodni Timor
+Fidżi
+Wyspy Salomona
+Vanuatu
+Samoa
+Kiribati
+Mikronezja
+Tonga
+Wyspy Marshalla
+Palau
+Nauru
+Tuvalu
+Egipt
+Algieria
+Maroko
+Tunezja
+Libia
+Nigeria
+Ghana
+Senegal
+Mali
+Kamerun
+Uganda
+Wybrzeże Kości Słoniowej
+Angola
+Tanzania
+Niger
+Republika Środkowoafrykańska
+Demokratyczna Republika Konga
+Burkina Faso
+Madagaskar
+Czad
+Mozambik
+Zambia
+Benin
+Gwinea
+Togo
+Rwanda
+Malawi
+Burundi
+Liberia
+Zimbabwe
+Sierra Leone
+Gambia
+Mauretania
+Gabon
+Kongo
+Gwinea Bissau
+Gwinea Równikowa
+Mauritius
+Seszele
+Komory
+Wyspy Zielonego Przylądka
+Wyspy Świętego Tomasza i Książęca
+Somali
+Kenia
+Etiopia
+Sudan
+Sudan Południowy
+Erytrea
+Dżibuti
+Afryka Południowa
+Namibia
+Botswana
+Lesotho
+Eswatini
+Stany Zjednoczone
+Kanada
+Meksyk
+Kuba
+Gwatemala
+Kostaryka
+Belize
+Bahamy
+Jamajka
+Haiti
+Republika Dominikany
+Panama
+Salwador
+Nikaragua
+Honduras
+święta Lucia
+Grenada
+Dominika
+Trynidad i Tobago
+Barbados
+Saint Vincent i Grenadyny
+Antigua i Barbuda
+Saint Kitts i Nevis
+Brazylia
+Argentyna
+Kolumbia
+Chile
+Peru
+Wenezuela
+Ekwador
+Urugwaj
+Boliwia
+Paragwaj
+Gujana
+Surinam

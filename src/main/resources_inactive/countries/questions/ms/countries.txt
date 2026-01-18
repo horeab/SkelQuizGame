@@ -1,0 +1,195 @@
+Jerman
+Perancis
+Inggeris
+Sepanyol
+Itali
+Belgium
+Austria
+Portugal
+Switzerland
+Belanda
+Ireland
+Monaco
+Luxembourg
+Liechtenstein
+Andorra
+San Marino
+Vatican
+Sweden
+Denmark
+Finland
+Norway
+Iceland
+Poland
+Yunani
+Croatia
+Hungary
+Slovenia
+Slovakia
+Republik Czech
+Estonia
+Latvia
+Lithuania
+Ukraine
+Rusia
+Romania
+Bulgaria
+Serbia
+Bosnia dan Herzegovina
+Albania
+Montenegro
+Belarus
+Moldova
+Macedonia Utara
+Cyprus
+Malta
+Iran
+Turki
+Iraq
+Israel
+Georgia
+Armenia
+Azerbaijan
+Syria
+Jordan
+Lubnan
+Palestin
+Arab Saudi
+Emiriah Arab Bersatu
+Qatar
+Yaman
+Oman
+Kuwait
+Bahrain
+Kazakhstan
+Afghanistan
+Uzbekistan
+Tajikistan
+Kyrgyzstan
+Turkmenistan
+India
+Pakistan
+Nepal
+Sri Lanka
+Bangladesh
+Bhutan
+Maldives
+Thailand
+Indonesia
+Vietnam
+Malaysia
+Filipina
+Singapura
+Myanmar
+Laos
+Kemboja
+Negara Brunei
+China
+Jepun
+Korea Selatan
+Korea Utara
+Mongolia
+Australia
+New Zealand
+Papua New Guinea
+Timor Timur
+Fiji
+Kepulauan Solomon
+Vanuatu
+Samoa
+Kiribati
+Mikronesia
+Tonga
+Pulau Marshall
+Palau
+Nauru
+Tuvalu
+Mesir
+Algeria
+Maghribi
+Tunisia
+Libya
+Nigeria
+Ghana
+Senegal
+Mali
+Kamerun
+Uganda
+Pantai Gading
+Angola
+Tanzania
+Niger
+Republik Afrika Tengah
+Republik Demokratik Kongo
+Burkina Faso
+Madagascar
+Chad
+Mozambik
+Zambia
+Benin
+Guinea
+Togo
+Rwanda
+Malawi
+Burundi
+Liberia
+Zimbabwe
+Sierra Leone
+Gambia
+Mauritania
+Gabon
+Kongo
+Guinea-Bissau
+Guinea Khatulistiwa
+Mauritius
+Seychelles
+Komoro
+Cape Verde
+São Tomé dan Príncipe
+Somalia
+Kenya
+Ethiopia
+Sudan
+selatan Sudan
+Eritrea
+Djibouti
+Afrika Selatan
+Namibia
+Botswana
+Lesotho
+Eswatini
+Amerika Syarikat
+Kanada
+Mexico
+Cuba
+Guatemala
+Costa rica
+Belize
+Bahama
+Jamaica
+Haiti
+Republik Dominika
+Panama
+El Salvador
+Nicaragua
+Honduras
+Saint Lucia
+Grenada
+Dominica
+Trinidad dan Tobago
+Barbados
+Saint Vincent dan Grenadines
+Antigua dan Barbuda
+Saint Kitts dan Nevis
+Brazil
+Argentina
+Colombia
+Cili
+Peru
+Venezuela
+Ecuador
+Uruguay
+Bolivia
+Paraguay
+Guyana
+Nama Surin

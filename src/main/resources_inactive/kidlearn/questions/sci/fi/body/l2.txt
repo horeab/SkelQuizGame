@@ -1,0 +1,5 @@
+Kallo:0.95:0.45
+Selkäranka:0.59:0.47
+Rintakehä:0.73:0.42
+reisiluu:0.4:0.35
+Sääriluu:0.2:0.4

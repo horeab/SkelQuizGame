@@ -1,0 +1,10 @@
+Løve:kjøtt
+Kanin:gulrot
+Pingvin:fisk
+Ekorn:Eikenøtt
+Ape:banan
+Sjiraff:blader
+Hund:bein
+Mus:frø
+delfin:fisk
+Frosk:Mygg

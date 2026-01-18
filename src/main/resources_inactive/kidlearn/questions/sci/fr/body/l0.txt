@@ -1,0 +1,5 @@
+Front:0.94:0.47
+Coude:0.6:0.33
+Poitrine:0.74:0.47
+Genou:0.25:0.4
+Cheville:0.038:0.4

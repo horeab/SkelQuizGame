@@ -1,0 +1,195 @@
+Deutschland
+Frankreich
+Großbritannien
+Spanien
+Italien
+Belgien
+Österreich
+Portugal
+Schweiz
+Niederlande
+Irland
+Monaco
+Luxemburg
+Liechtenstein
+Andorra
+San Marino
+Vatikan
+Schweden
+Dänemark
+Finnland
+Norwegen
+Island
+Polen
+Griechenland
+Kroatien
+Ungarn
+Slowenien
+Slowakei
+Tschechien
+Estland
+Lettland
+Litauen
+Ukraine
+Russland
+Rumänien
+Bulgarien
+Serbien
+Bosnien und Herzegowina
+Albanien
+Montenegro
+Weißrussland
+Moldawien
+Nordmakedonien
+Zypern
+Malta
+Iran
+Türkei
+Irak
+Israel
+Georgia
+Armenien
+Aserbaidschan
+Syrien
+Jordanien
+Libanon
+Palästina
+Saudi Arabien
+Vereinigte Arabische Emirate
+Katar
+Jemen
+Oman
+Kuwait
+Bahrain
+Kasachstan
+Afghanistan
+Usbekistan
+Tadschikistan
+Kirgisistan
+Turkmenistan
+Indien
+Pakistan
+Nepal
+Sri Lanka
+Bangladesch
+Bhutan
+Malediven
+Thailand
+Indonesien
+Vietnam
+Malaysia
+Philippinen
+Singapur
+Myanmar
+Laos
+Kambodscha
+Brunei
+China
+Japan
+Südkorea
+Nord Korea
+Mongolei
+Australien
+Neuseeland
+Papua Neu-Guinea
+Osttimor
+Fidschi
+Salomon-Inseln
+Vanuatu
+Samoa
+Kiribati
+Mikronesien
+Tonga
+Marshallinseln
+Palau
+Nauru
+Tuvalu
+Ägypten
+Algerien
+Marokko
+Tunesien
+Libyen
+Nigeria
+Ghana
+Senegal
+Mali
+Kamerun
+Uganda
+Elfenbeinküste
+Angola
+Tansania
+Niger
+Zentralafrikanische Republik
+Demokratische Republik Kongo
+Burkina Faso
+Madagaskar
+Tschad
+Mosambik
+Sambia
+Benin
+Guinea
+Togo
+Ruanda
+Malawi
+Burundi
+Liberia
+Zimbabwe
+Sierra Leone
+Gambia
+Mauretanien
+Gabun
+Kongo
+Guinea-Bissau
+Äquatorialguinea
+Mauritius
+Seychellen
+Komoren
+Kap Verde
+São Tomé und Príncipe
+Somalia
+Kenia
+Äthiopien
+Sudan
+Südsudan
+Eritrea
+Dschibuti
+Südafrika
+Namibia
+Botswana
+Lesotho
+Eswatini
+Vereinigte Staaten
+Kanada
+Mexiko
+Kuba
+Guatemala
+Costa Rica
+Belize
+Bahamas
+Jamaika
+Haiti
+Dominikanische Republik
+Panama
+El Salvador
+Nicaragua
+Honduras
+St. Lucia
+Grenada
+Dominica
+Trinidad und Tobago
+Barbados
+St. Vincent und die Grenadinen
+Antigua und Barbuda
+St. Kitts und Nevis
+Brasilien
+Argentinien
+Kolumbien
+Chile
+Peru
+Venezuela
+Ecuador
+Uruguay
+Bolivien
+Paraguay
+Guyana
+Suriname

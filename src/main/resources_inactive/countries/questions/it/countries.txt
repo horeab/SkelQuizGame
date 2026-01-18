@@ -1,0 +1,195 @@
+Germania
+Francia
+Regno Unito
+Spagna
+Italia
+Belgio
+Austria
+Portogallo
+Svizzera
+Olanda
+Irlanda
+Monaco
+Lussemburgo
+Liechtenstein
+Andorra
+San Marino
+Vaticano
+Svezia
+Danimarca
+Finlandia
+Norvegia
+Islanda
+Polonia
+Grecia
+Croazia
+Ungheria
+Slovenia
+Slovacchia
+Repubblica Ceca
+Estonia
+Lettonia
+Lituania
+Ucraina
+Russia
+Romania
+Bulgaria
+Serbia
+Bosnia Erzegovina
+Albania
+Montenegro
+Bielorussia
+Moldova
+Macedonia del Nord
+Cipro
+Malta
+Iran
+Turchia
+Iraq
+Israele
+Georgia
+Armenia
+Azerbaijan
+Siria
+Giordania
+Libano
+Palestina
+Arabia Saudita
+Emirati Arabi Uniti
+Qatar
+yemen
+Oman
+Kuwait
+Bahrain
+Kazakistan
+afghanistan
+Uzbekistan
+Tajikistan
+Kyrgyzstan
+Turkmenistan
+India
+Pakistan
+Nepal
+Sri Lanka
+Bangladesh
+Bhutan
+Maldive
+Tailandia
+Indonesia
+Vietnam
+Malaysia
+Filippine
+Singapore
+Myanmar
+Laos
+Cambogia
+Brunei
+Cina
+Giappone
+Corea del Sud
+Corea del nord
+Mongolia
+Australia
+Nuova Zelanda
+Papua Nuova Guinea
+Timor Est
+Fiji
+Isole Salomone
+Vanuatu
+Samoa
+Kiribati
+Micronesia
+tonga
+Isole Marshall
+Palau
+Nauru
+Tuvalu
+Egitto
+algeria
+Marocco
+Tunisia
+Libia
+Nigeria
+Ghana
+Senegal
+Mali
+Camerun
+Uganda
+Costa d'Avorio
+angola
+Tanzania
+Niger
+Repubblica Centrafricana
+Repubblica Democratica del Congo
+Burkina Faso
+Madagascar
+Chad
+Mozambico
+Zambia
+Benin
+Guinea
+Togo
+Ruanda
+Malawi
+Burundi
+Liberia
+Zimbabwe
+Sierra Leone
+Gambia
+Mauritania
+Gabon
+Congo
+Guinea-Bissau
+Guinea Equatoriale
+Mauritius
+Seychelles
+Comoros
+capo Verde
+São Tomé e Príncipe
+Somalia
+Kenia
+Etiopia
+Sudan
+Sudan del Sud
+l'Eritrea
+Gibuti
+Sud Africa
+Namibia
+Botswana
+Lesoto
+Eswatini
+Stati Uniti
+Canada
+Messico
+Cuba
+Guatemala
+Costa Rica
+Belize
+Bahamas
+Giamaica
+Haiti
+Repubblica Dominicana
+Panama
+El Salvador
+Nicaragua
+Honduras
+Santa Lucia
+Grenada
+Dominica
+Trinidad e Tobago
+Barbados
+Saint Vincent e Grenadine
+Antigua e Barbuda
+Saint Kitts e Nevis
+Brasile
+Argentina
+Colombia
+Chile
+Perù
+Venezuela
+Ecuador
+Uruguay
+Bolivia
+Paraguay
+Guyana
+Suriname

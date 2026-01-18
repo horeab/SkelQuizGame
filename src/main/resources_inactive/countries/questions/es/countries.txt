@@ -1,0 +1,195 @@
+Alemania
+Francia
+Reino Unido
+España
+Italia
+Bélgica
+Austria
+Portugal
+Suiza
+Países Bajos
+Irlanda
+Mónaco
+Luxemburgo
+Liechtenstein
+Andorra
+San Marino
+Ciudad del Vaticano
+Suecia
+Dinamarca
+Finlandia
+Noruega
+Islandia
+Polonia
+Grecia
+Croacia
+Hungría
+Eslovenia
+Eslovaquia
+Republica checa
+Estonia
+Letonia
+Lituania
+Ucrania
+Rusia
+Rumania
+Bulgaria
+Serbia
+Bosnia y Herzegovina
+Albania
+Montenegro
+Bielorrusia
+Moldavia
+Macedonia del norte
+Chipre
+Malta
+Iran
+Turquía
+Irak
+Israel
+Georgia
+Armenia
+Azerbaiyán
+Siria
+Jordán
+Líbano
+Palestina
+Arabia Saudita
+Emiratos Árabes Unidos
+Katar
+Yemen
+Omán
+Kuwait
+Bahrein
+Kazajstán
+Afganistán
+Uzbekistán
+Tayikistán
+Kirguistán
+Turkmenistán
+India
+Pakistán
+Nepal
+Sri Lanka
+Bangladesh
+Bután
+Maldivas
+Tailandia
+Indonesia
+Vietnam
+Malasia
+Filipinas
+Singapur
+Myanmar
+Laos
+Camboya
+Brunei
+China
+Japón
+Corea del Sur
+Corea del Norte
+Mongolia
+Australia
+Nueva Zelanda
+Papúa Nueva Guinea
+Timor Oriental
+Fiyi
+Islas Salomón
+Vanuatu
+Samoa
+Kiribati
+Micronesia
+Tonga
+Islas Marshall
+Palau
+Nauru
+Tuvalu
+Egipto
+Argelia
+Marruecos
+Túnez
+Libia
+Nigeria
+Ghana
+Senegal
+Mali
+Camerún
+Uganda
+Costa de Marfil
+Angola
+Tanzania
+Níger
+República Centroafricana
+República Democrática del Congo
+Burkina Faso
+Madagascar
+Chad
+Mozambique
+Zambia
+Benin
+Guinea
+Togo
+Ruanda
+Malawi
+Burundi
+Liberia
+Zimbabue
+Sierra Leona
+Gambia
+Mauritania
+Gabón
+Congo
+Guinea-Bissau
+Guinea Ecuatorial
+Mauricio
+Seychelles
+Comoras
+Cabo Verde
+Santo Tomé y Príncipe
+Somalia
+Kenia
+Etiopía
+Sudán
+Sudán del Sur
+Eritrea
+Djibouti
+Sudáfrica
+Namibia
+Botsuana
+Lesoto
+Eswatini
+Estados Unidos
+Canadá
+Mexico
+Cuba
+Guatemala
+Costa Rica
+Belice
+Bahamas
+Jamaica
+Haití
+República Dominicana
+Panamá
+El Salvador
+Nicaragua
+Honduras
+Santa Lucía
+Granada
+Dominica
+Trinidad y Tobago
+Barbados
+San Vicente y las Granadinas
+Antigua y Barbuda
+San Cristóbal y Nieves
+Brasil
+Argentina
+Colombia
+Chile
+Perú
+Venezuela
+Ecuador
+Uruguay
+Bolivia
+Paraguay
+Guayana
+Surinam

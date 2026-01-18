@@ -1,0 +1,12 @@
+Nordic countries:18,19,21,20,17
+Balkan Peninsula:42,38,37,35,39,23,36,24,26,34
+Baltic states:29,30,31
+South East Asia:https://en.wikipedia.org/wiki/Southeast_Asia
+Maghreb:108,107,109,110,138
+Persian Gulf:56,47,61,58,62,57,60
+Levant !!!!! Middle East: Israel, Jordan, Lebanon, Syria, Palestine
+Caucasus:49,50,51
+Indochina:84,83,79,82,76,78
+Central Asia:63,67,66,68,65
+Southern Africa: https://en.wikipedia.org/wiki/Southern_Africa
+South America !!!! Latin America:184,191,183,186,185,165,163,170,189,172,164,169,174,162,173,171,192,187,190,188

@@ -1,0 +1,5 @@
+Blatt:0.7:0.1
+Frucht:0.4:0.7
+Blüte:0.9:0.6
+Stängel:0.55:0.45
+Wurzel:0.2:0.5

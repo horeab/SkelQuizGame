@@ -1,0 +1,12 @@
+Skandinavija:17,18,20
+Balkanski poluotok:42,38,37,35,39,23,36,24,26,34
+regija baltičkih država:29,30,31
+Centralna Amerika:164,165,166,171,172,173,174
+Magreb:108,107,109,110,138
+Arapski poluotok:47,53,61,60,59,58,57,56
+Istočna Azija:86,87,88,89,90
+Kavkaz:49,50,51
+Jugoistočna Azija:76,77,78,79,80,81,82,83,84,85,94
+Srednja Azija:63,67,66,68,65
+Južna Afrika (regija):155,156,157,158,159
+Južna Amerika:183,184,185,186,187,188,189,190,191,192,193,194

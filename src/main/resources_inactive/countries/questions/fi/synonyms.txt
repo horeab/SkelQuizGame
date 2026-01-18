@@ -1,0 +1,4 @@
+3:USA
+12:Iso-Britannia
+104:Arabiemiirikunnat
+130:Kinshasan Kongo

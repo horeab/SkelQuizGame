@@ -1,0 +1,8 @@
+0:krabica na mlieko
+0:zápisník
+1:Rozbité sklo
+1:džbán
+2:Šampónová fľaša
+2:Fľaša na kečup
+3:Banánová šupka
+3:zvyšky jedla

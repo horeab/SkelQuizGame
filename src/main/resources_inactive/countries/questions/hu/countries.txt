@@ -1,0 +1,195 @@
+Németország
+Franciaország
+Egyesült Királyság
+Spanyolország
+Olaszország
+Belgium
+Ausztria
+Portugália
+Svájc
+Hollandia
+Írország
+Monaco
+Luxemburg
+Liechtenstein
+Andorra
+San Marino
+Vatikán
+Svédország
+Dánia
+Finnország
+Norvégia
+Izland
+Lengyelország
+Görögország
+Horvátország
+Magyarország
+Szlovénia
+Szlovákia
+Cseh Köztársaság
+Észtország
+Lettország
+Litvánia
+Ukrajna
+Oroszország
+Románia
+Bulgária
+Szerbia
+Bosznia és Hercegovina
+Albánia
+Montenegró
+Fehéroroszország
+Moldova
+Észak-Macedónia
+Ciprus
+Málta
+Irán
+Törökország
+Irak
+Izrael
+Grúzia
+Örményország
+Azerbajdzsán
+Szíria
+Jordánia
+Libanon
+Palesztina
+Szaud-Arábia
+Egyesült Arab Emírségek
+Katar
+Jemen
+Omán
+Kuvait
+Bahrein
+Kazahsztán
+Afganisztán
+Üzbegisztán
+Tádzsikisztán
+Kirgizisztán
+Türkmenisztán
+India
+Pakisztán
+Nepál
+Srí Lanka
+Banglades
+Bhután
+Maldív-szigetek
+Thaiföld
+Indonézia
+Vietnam
+Malaysia
+Fülöp-szigetek
+Singapore
+Myanmar
+Laosz
+Kambodzsa
+Brunei
+Kína
+Japán
+Dél-Korea
+Észak Kórea
+Mongólia
+Ausztrália
+Új Zéland
+Pápua Új-Guinea
+Kelet-Timor
+Fiji
+Salamon-szigetek
+Vanuatu
+Szamoa
+Kiribati
+Mikronézia
+Tonga
+Marshall-szigetek
+Palau
+Nauru
+Tuvalu
+Egyiptom
+Algéria
+Marokkó
+Tunézia
+Líbia
+Nigéria
+Ghána
+Szenegál
+Mali
+Kamerun
+Uganda
+Elefántcsontpart
+Angola
+Tanzánia
+Niger
+Közép-Afrikai Köztársaság
+Kongói Demokratikus Köztársaság
+Burkina Faso
+Madagaszkár
+Csád
+Mozambik
+Zambia
+Benin
+Guinea
+Togo
+Ruanda
+Malawi
+Burundi
+Libéria
+Zimbabwe
+Sierra Leone
+Gambia
+Mauritánia
+Gabon
+Kongó
+Bissau-Guinea
+Egyenlítői-Guinea
+Mauritius
+Seychelles
+Comore-szigetek
+zöld-fok
+São Tomé és Príncipe
+Szomáliában
+Kenya
+Etiópia
+Szudán
+Dél Szudán
+Eritrea
+Dzsibuti
+Dél-Afrika
+Namíbia
+Botswana
+Lesotho
+Eswatini
+Egyesült Államok
+Kanada
+Mexikó
+Kuba
+Guatemala
+Costa Rica
+Belize
+Bahamák
+Jamaica
+Haiti
+Dominikai Köztársaság
+Panama
+El Salvador
+Nicaragua
+Honduras
+Saint Lucia
+Grenada
+Dominika
+Trinidad és Tobago
+Barbados
+Saint Vincent és a Grenadine-szigetek
+Antigua és Barbuda
+Saint Kitts és Nevis
+Brazília
+Argentína
+Colombia
+Chile
+Peru
+Venezuela
+Ecuador
+Uruguay
+Bolívia
+Paraguay
+Guyana
+Suriname

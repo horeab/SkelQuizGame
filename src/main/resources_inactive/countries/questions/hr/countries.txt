@@ -1,0 +1,195 @@
+Njemačka
+Francuska
+Ujedinjeno Kraljevstvo
+Španija
+Italija
+Belgija
+Austrija
+Portugal
+Švicarska
+Nizozemska
+Irska
+Monaco
+Luksemburg
+Lihtenštajn
+Andora
+San Marino
+Vatikan
+Švedska
+Danska
+Finska
+Norveška
+Island
+Poljska
+Grčka
+Hrvatska
+Mađarska
+Slovenija
+Slovačka
+Češka Republika
+Estonija
+Letonija
+Litva
+Ukrajina
+Rusija
+Rumunjska
+Bugarska
+Srbija
+Bosna i Hercegovina
+Albanija
+Crna Gora
+Bjelorusija
+Moldavija
+Sjeverna Makedonija
+Kipar
+Malta
+Iran
+Turska
+Irak
+Izrael
+Gruzija
+Armenija
+Azerbejdžan
+Sirija
+Jordan
+Liban
+Palestina
+Saudijska Arabija
+Ujedinjeni Arapski Emirati
+Katar
+Jemen
+Oman
+Kuvajt
+Bahrein
+Kazahstan
+Avganistan
+Uzbekistan
+Tadžikistan
+Kirgistan
+Turkmenistan
+Indija
+Pakistan
+Nepal
+Šri Lanka
+Bangladeš
+Butan
+Maldivi
+Tajland
+Indonezija
+Vijetnam
+Malezija
+Filipini
+Singapur
+Mjanmar
+Laos
+Kambodža
+Brunei
+Kina
+Japan
+Južna Korea
+Sjeverna Koreja
+Mongolija
+Australija
+Novi Zeland
+Papua Nova Gvineja
+Istočni Timor
+Fidži
+Salomonovi otoci
+Vanuatu
+Samoa
+Kiribati
+Mikronezija
+Laka dvokolica
+Maršalovi otoci
+Palau
+Nauru
+Tuvalu
+Egipat
+Alžir
+Maroko
+Tunis
+Libija
+Nigerija
+Gana
+Senegal
+Mali
+Kamerun
+Uganda
+Obala Slonovače
+Angola
+Tanzanija
+Niger
+Centralna Afrička Republika
+Demokratska Republika Kongo
+Burkina Faso
+Madagaskar
+Čad
+Mozambik
+Zambija
+Benin
+Gvineja
+Togo
+Ruanda
+Malavi
+Burundi
+Liberija
+Zimbabve
+Sierra Leone
+Gambija
+Mauritanija
+Gabon
+Kongo
+Gvineja Bisau
+Ekvatorijalna Gvineja
+Mauricijus
+Sejšeli
+Komori
+Zelenortski otoci
+São Tomé i Principe
+Somalija
+Kenija
+Etiopija
+Sudan
+Južni Sudan
+Eritreja
+Džibuti
+Južna Afrika
+Namibija
+Bocvana
+Lesoto
+Eswatini
+Sjedinjene Američke Države
+Kanada
+Meksiko
+Kuba
+Gvatemala
+Kostarika
+Belize
+Bahami
+Jamajka
+Haiti
+Dominikanska Republika
+Panama
+El Salvador
+Nikaragva
+Honduras
+Sveta Lucija
+Grenada
+Dominika
+Trinidad i Tobago
+Barbados
+Sveti Vincent i Grenadini
+Antigva i Barbuda
+Saint Kitts i Nevis
+Brazil
+Argentina
+Kolumbija
+Čile
+Peru
+Venecuela
+Ekvador
+Urugvaj
+Bolivija
+Paragvaj
+Gvajana
+Surinam

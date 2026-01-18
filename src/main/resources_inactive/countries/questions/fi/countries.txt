@@ -1,0 +1,195 @@
+Saksa
+Ranska
+Yhdistynyt kuningaskunta
+Espanja
+Italia
+Belgia
+Itävalta
+Portugali
+Sveitsi
+Alankomaat
+Irlanti
+Monaco
+Luxemburg
+Liechtenstein
+Andorra
+San Marino
+Vatikaani
+Ruotsi
+Tanska
+Suomi
+Norja
+Islanti
+Puola
+Kreikka
+Kroatia
+Unkari
+Slovenia
+slovakia
+Tšekki
+Togo
+Latvia
+Liettua
+Ukraina
+Venäjä
+Romania
+Bulgaria
+Serbia
+Bosnia ja Hertsegovina
+Albania
+montenegro
+Valko-Venäjä
+Moldova
+Pohjois-Makedonia
+Kypros
+Malta
+Iran
+Turkki
+Irak
+Israel
+Georgia
+Armenia
+azerbaijan
+Syyria
+Jordania
+Libanon
+Palestiina
+Saudi-Arabia
+Yhdistyneet Arabiemiirikunnat
+Qatar
+Jemen
+Oman
+Kuwait
+Bahrain
+Kazakstan
+Afganistan
+Uzbekistan
+Tadžikistan
+Kirgisia
+Turkmenistan
+Intia
+Pakistan
+Nepal
+Sri Lanka
+Bangladesh
+Bhutan
+Malediivit
+Thaimaa
+Indonesia
+Vietnam
+Malesia
+Filippiinit
+Singapore
+Myanmar
+Laos
+Kambodza
+Brunei
+Kiina
+Japani
+Etelä-Korea
+Pohjois-Korea
+Mongolia
+Australia
+Uusi Seelanti
+Papua-Uusi-Guinea
+Itä-Timor
+Fidži
+Solomonsaaret
+Vanuatu
+Samoa
+Kiribati
+Mikronesia
+Tonga
+Marshallsaaret
+Palau
+Nauru
+Tuvalu
+Egypti
+Algeria
+Marokko
+Tunisia
+Libya
+Nigeria
+Ghana
+Senegal
+mali
+Kamerun
+Uganda
+Norsunluurannikko
+Angola
+Tansania
+Niger
+Keski-Afrikan tasavalta
+Kongon demokraattinen tasavalta
+Burkina Faso
+Madagaskar
+Chad
+Mosambik
+Sambia
+Benin
+Guinea
+Mennä
+Ruanda
+Malawi
+Burundi
+Liberia
+Zimbabwe
+Sierra Leone
+Gambia
+Mauritania
+Gabon
+Kongo
+Guinea-Bissau
+Päiväntasaajan Guinea
+Mauritius
+Seychellit
+Komorit
+Kap Verde
+Sao Tome ja Principe
+somalia
+Kenia
+Etiopia
+Sudan
+eteläsudan
+Eritrea
+Djibouti
+Etelä-Afrikka
+namibia
+Botswana
+lesotho
+Eswatini
+Yhdysvallat
+Kanada
+Meksiko
+Kuuba
+Guatemala
+Costa Rica
+Belize
+Bahama
+Jamaika
+Haiti
+Dominikaaninen tasavalta
+Panama
+El Salvador
+nicaragua
+Honduras
+Saint Lucia
+Grenada
+dominica
+Trinidad ja Tobago
+Barbados
+Saint Vincent ja Grenadiinit
+Antigua ja Barbuda
+Saint Kitts ja Nevis
+Brasilia
+Argentiina
+Kolumbia
+Chile
+Peru
+Venezuela
+Ecuador
+Uruguay
+Bolivia
+Paraguay
+Guyana
+suriname

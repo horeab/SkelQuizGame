@@ -1,0 +1,195 @@
+Jerman
+Perancis
+Britania Raya
+Spanyol
+Italia
+Belgium
+Austria
+Portugal
+Swiss
+Belanda
+Irlandia
+Monako
+Luksemburg
+Liechtenstein
+Andorra
+San Marino
+Vatikan
+Swedia
+Denmark
+Finlandia
+Norway
+Islandia
+Polandia
+Yunani
+Kroasia
+Hungaria
+Slovenia
+Slovakia
+Republik Ceko
+Estonia
+Latvia
+Lithuania
+Ukraina
+Rusia
+Rumania
+Bulgaria
+Serbia
+Bosnia dan Herzegovina
+Albania
+Montenegro
+Belarus
+Moldova
+Makedonia Utara
+Siprus
+Malta
+Iran
+Turki
+Irak
+Israel
+Georgia
+Armenia
+Azerbaijan
+Syria
+Yordania
+Libanon
+Palestina
+Arab Saudi
+Uni Emirat Arab
+Qatar
+Yaman
+Oman
+Kuwait
+Bahrain
+Kazakhstan
+Afganistan
+Uzbekistan
+Tajikistan
+Kirgistan
+Turkmenistan
+India
+Pakistan
+Nepal
+Srilanka
+Bangladesh
+Bhutan
+Maladewa
+Thailand
+Indonesia
+Vietnam
+Malaysia
+Filipina
+Singapura
+Myanmar
+Laos
+Kamboja
+Brunei
+Cina
+Jepang
+Korea Selatan
+Korea Utara
+Mongolia
+Australia
+Selandia Baru
+Papua Nugini
+Timor Timur
+Fiji
+Pulau Solomon
+Vanuatu
+Samoa
+Kiribati
+Mikronesia
+Tonga
+Pulau Marshall
+Palau
+Nauru
+Tuvalu
+Mesir
+Aljazair
+Maroko
+Tunisia
+Libya
+Nigeria
+Ghana
+Senegal
+Mali
+Kamerun
+Uganda
+pantai Gading
+Angola
+Tanzania
+Niger
+Republik Afrika Tengah
+Republik Demokrasi Kongo
+Burkina Faso
+Madagaskar
+Chad
+Mozambik
+Zambia
+Benin
+Guinea
+Togo
+Rwanda
+Malawi
+Burundi
+Liberia
+Zimbabwe
+Sierra Leone
+Gambia
+Mauritania
+Gabon
+Kongo
+Guinea-Bissau
+Guinea ekuator
+Mauritius
+Seychelles
+Komoro
+Tanjung Verde
+São Tomé dan Príncipe
+Somalia
+Kenya
+Etiopia
+Sudan
+Sudan Selatan
+Eritrea
+Djibouti
+Afrika Selatan
+Namibia
+Botswana
+Lesotho
+Eswatini
+Amerika Serikat
+Kanada
+Meksiko
+Kuba
+Guatemala
+Kosta Rika
+Belize
+Bahama
+Jamaika
+Haiti
+Republik Dominika
+Panama
+El Salvador
+Nikaragua
+Honduras
+Saint Lucia
+Grenada
+Dominica
+Trinidad dan Tobago
+Barbados
+Saint Vincent dan Grenadines
+Antigua dan Barbuda
+Saint Kitts dan Nevis
+Brazil
+Argentina
+Kolumbia
+Chili
+Peru
+Venezuela
+Ekuador
+Uruguay
+Bolivia
+Paraguay
+Guyana
+Suriname

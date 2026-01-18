@@ -1,0 +1,15 @@
+0:Newspaper
+0:Book
+0:Notebook
+1:Milk bottle
+1:Broken mug
+1:Broken glass
+1:Jar
+2:Plastic bag
+2:Juice bottle
+2:Shampoo bottle
+2:Ketchup bottle
+3:Fruit scraps
+3:Leaves
+3:Banana peel
+3:Food scraps

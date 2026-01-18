@@ -1,0 +1,10 @@
+Serigala:Arnab
+Jerung:Ikan
+Lebah: Debunga bunga
+Antelope:Rumput
+Panda:Buluh
+Koala:Eucalyptus
+Beruang Kutub:Ikan
+Ayam:Cacing Tanah
+Cheetah:Antelope
+Rusa:Daun

@@ -1,0 +1,9 @@
+0:Ice
+0:Pencil
+0:Paper
+1:Water
+1:Rain
+1:Milk
+2:Steam
+2:Air
+2:Natural gas

@@ -1,0 +1,7 @@
+Lion:Meat
+Rabbit:Carrot
+Penguin:Fish
+Panda:Bamboo
+Koala:Eucalyptus
+Camel:Cactus
+Beaver:Wood

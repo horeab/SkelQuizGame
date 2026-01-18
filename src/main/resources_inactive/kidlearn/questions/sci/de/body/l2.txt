@@ -1,0 +1,5 @@
+Schädel:0.95:0.45
+Wirbelsäule:0.59:0.47
+Brustkorb:0.73:0.42
+Femur:0.4:0.35
+Tibia:0.2:0.4

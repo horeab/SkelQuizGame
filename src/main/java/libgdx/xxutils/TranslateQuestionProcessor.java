@@ -1,5 +1,6 @@
 package libgdx.xxutils;
 
+import libgdx.xxutils.kidlearn.KidLearnQuestionDifficultyLevel;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 
@@ -31,7 +32,7 @@ public class TranslateQuestionProcessor {
 
     static final List<Language> RTL_LANGS = Arrays.asList(Language.ar, Language.he);
 
-    static final String GAME_ID = "anatomy";
+    static final String GAME_ID = "kidlearn";
     static final String ROOT_PATH_OLD = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/";
     static final String ROOT_PATH_NEW = FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/tournament_resources/implementations/" + GAME_ID + "/questions/";
 
@@ -46,7 +47,7 @@ public class TranslateQuestionProcessor {
 
         for (Language lang : languages) {
 
-            List<QuestionDifficulty> difficulties = Arrays.asList(AstronomyDifficultyLevel.values());
+            List<QuestionDifficulty> difficulties = Arrays.asList(KidLearnQuestionDifficultyLevel.values());
             for (QuestionDifficulty diff : difficulties) {
 
                 String newQuestionPath = getNewFilePathForLang(diff, lang);
@@ -137,7 +138,6 @@ public class TranslateQuestionProcessor {
             }
 
             String returnValue = String.join("\n", movedFile);
-
 
             File myObj = new File(newQuestionPath + "/" + fileName);
             myObj.createNewFile();
@@ -326,7 +326,7 @@ public class TranslateQuestionProcessor {
 
         public abstract String formQuestion(Language language, String question, String correctAnswer, List<String> options, String prefix, String explanation);
 
-        public String formQuestion(String format, Object[] params, Language language) {
+        public static String formQuestion(String format, Object[] params, Language language) {
             List<String> split = Arrays.stream(format.split("%s")).filter(StringUtils::isNotBlank).collect(Collectors.toList());
             String res = "";
             for (int i = 0; i < params.length; i++) {

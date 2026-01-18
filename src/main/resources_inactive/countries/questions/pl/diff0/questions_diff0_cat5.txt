@@ -1,0 +1,12 @@
+Skandynawia:17,18,20
+Półwysep Bałkański:42,38,37,35,39,23,36,24,26,34
+Region krajów bałtyckich:29,30,31
+Ameryka środkowa:164,165,166,171,172,173,174
+Maghreb:108,107,109,110,138
+Półwysep Arabski:47,53,61,60,59,58,57,56
+wschodnia Azja:86,87,88,89,90
+Kaukaz:49,50,51
+Azja Południowo-Wschodnia:76,77,78,79,80,81,82,83,84,85,94
+Azja Środkowa:63,67,66,68,65
+Afryka Południowa:155,156,157,158,159
+Ameryka Południowa:183,184,185,186,187,188,189,190,191,192,193,194

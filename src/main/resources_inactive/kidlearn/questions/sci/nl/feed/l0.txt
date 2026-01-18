@@ -1,0 +1,10 @@
+Leeuw:vlees
+Konijn:Wortel
+Pinguïn:vis
+Eekhoorn:eikel
+Aap:Banaan
+Giraffe:bladeren
+Hond:bot
+Muis:zaden
+Dolfijn:Vis
+Kikker:Mosquito

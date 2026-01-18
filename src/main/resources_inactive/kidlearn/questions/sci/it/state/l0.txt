@@ -1,0 +1,12 @@
+0:ghiaccio
+0:matita
+0:carta
+0:Auto
+1:acqua
+1:pioggia
+1:tè
+1:latte
+2:Vapore
+2:Nube
+2:Aria
+2:gas naturale

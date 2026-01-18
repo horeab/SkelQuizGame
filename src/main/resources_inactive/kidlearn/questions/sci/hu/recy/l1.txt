@@ -1,0 +1,8 @@
+0:Tejesdoboz
+0:Jegyzetfüzet
+1:Törött üveg
+1:Befőttes üveg
+2:Sampon palack
+2:Ketchup palack
+3:Banánhéj
+3:Élelmiszer maradványok

@@ -35,7 +35,7 @@ public class LabelProcessor {
 
     public static void main(String[] args) throws IOException {
 
-        List<GameIdEnum> gameIds = Arrays.asList(GameIdEnum.anatomy, GameIdEnum.countries, GameIdEnum.dopewars, GameIdEnum.history, GameIdEnum.quizgame, GameIdEnum.perstest, GameIdEnum.iqtest, GameIdEnum.astronomy, GameIdEnum.hangmanarena, GameIdEnum.buylow, GameIdEnum.paintings, GameIdEnum.periodictable, GameIdEnum.math);
+        List<GameIdEnum> gameIds = Arrays.asList(GameIdEnum.kidlearn, GameIdEnum.anatomy, GameIdEnum.countries, GameIdEnum.dopewars, GameIdEnum.history, GameIdEnum.quizgame, GameIdEnum.perstest, GameIdEnum.iqtest, GameIdEnum.astronomy, GameIdEnum.hangmanarena, GameIdEnum.buylow, GameIdEnum.paintings, GameIdEnum.periodictable, GameIdEnum.math);
 
         Map<Pair<String, String>, String> defaultLabels = getLabelsForLanguage(gameIds, new HashMap<>(), Language.en);
 
@@ -53,9 +53,9 @@ public class LabelProcessor {
 //        translateNewLanguage(Language.ro, gameIds, defaultLabels);
 
         for (Language l : languages) {
-//            translateMissingLabels(l, gameIds, defaultLabels);
+            translateMissingLabels(l, gameIds, defaultLabels);
         }
-        formFlutterKeys(gameIds, defaultLabels, languages);
+//        formFlutterKeys(gameIds, defaultLabels, languages);
     }
 
     private static void translateMissingLabels(Language translateTo, List<GameIdEnum> gameIds, Map<Pair<String, String>, String> enLabels) {

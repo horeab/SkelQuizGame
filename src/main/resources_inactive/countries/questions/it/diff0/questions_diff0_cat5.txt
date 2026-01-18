@@ -1,0 +1,12 @@
+Scandinavia:17,18,20
+Penisola balcanica:42,38,37,35,39,23,36,24,26,34
+Regione degli Stati baltici:29,30,31
+America centrale:164,165,166,171,172,173,174
+Maghreb:108,107,109,110,138
+Penisola Arabica:47,53,61,60,59,58,57,56
+Asia orientale:86,87,88,89,90
+Caucaso:49,50,51
+Sud-est asiatico:76,77,78,79,80,81,82,83,84,85,94
+Asia centrale:63,67,66,68,65
+L'Africa australe:155,156,157,158,159
+L'America del Sud:183,184,185,186,187,188,189,190,191,192,193,194

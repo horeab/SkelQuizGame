@@ -1,0 +1,195 @@
+Allemagne
+France
+Royaume-Uni
+Espagne
+Italie
+Belgique
+L'Autriche
+le Portugal
+Suisse
+Pays-Bas
+Irlande
+Monaco
+Luxembourg
+Liechtenstein
+Andorre
+Saint Marin
+Vatican
+Suède
+Danemark
+Finlande
+Norvège
+Islande
+Pologne
+Grèce
+Croatie
+Hongrie
+Slovénie
+Slovaquie
+République Tchèque
+Estonie
+Lettonie
+Lituanie
+Ukraine
+Russie
+Roumanie
+Bulgarie
+Serbie
+Bosnie Herzégovine
+Albanie
+Monténégro
+Biélorussie
+Moldavie
+Macédoine du Nord
+Chypre
+Malte
+L'Iran
+Turquie
+Irak
+Israël
+Géorgie
+Arménie
+Azerbaïdjan
+Syrie
+Jordan
+Liban
+Palestine
+Arabie Saoudite
+Emirats Arabes Unis
+Qatar
+Yémen
+Oman
+Koweit
+Bahreïn
+Kazakhstan
+Afghanistan
+Ouzbékistan
+Tadjikistan
+Kirghizistan
+Turkménistan
+Inde
+Pakistan
+Népal
+Sri Lanka
+Bangladesh
+Bhoutan
+Maldives
+Thaïlande
+Indonésie
+Vietnam
+Malaisie
+Philippines
+Singapour
+Myanmar
+Laos
+Cambodge
+Brunei
+Chine
+Japon
+Corée du Sud
+Corée du Nord
+Mongolie
+Australie
+Nouvelle-Zélande
+Papouasie Nouvelle Guinée
+Timor oriental
+Fidji
+îles Salomon
+Vanuatu
+Samoa
+Kiribati
+Micronésie
+Tonga
+Iles Marshall
+Palau
+Nauru
+Tuvalu
+Egypte
+Algérie
+Maroc
+Tunisie
+Libye
+Nigeria
+Ghana
+Sénégal
+Mali
+Cameroun
+Ouganda
+Côte d'Ivoire
+Angola
+Tanzanie
+Niger
+République centrafricaine
+République Démocratique du Congo
+Burkina Faso
+Madagascar
+Tchad
+Mozambique
+Zambie
+Bénin
+Guinée
+Togo
+Rwanda
+Malawi
+Burundi
+Libéria
+Zimbabwe
+Sierra Leone
+Gambie
+Mauritanie
+Gabon
+Congo
+Guinée-Bissau
+Guinée Équatoriale
+Ile Maurice
+les Seychelles
+Comores
+Cap-Vert
+São Tomé et Príncipe
+Somalie
+Kenya
+Ethiopie
+Soudan
+Soudan du sud
+Érythrée
+Djibouti
+Afrique du Sud
+Namibie
+Botswana
+Lesotho
+Eswatini
+États Unis
+Canada
+Mexique
+Cuba
+Guatemala
+Costa Rica
+Belize
+Bahamas
+Jamaïque
+Haïti
+République Dominicaine
+Panama
+Le Salvador
+Nicaragua
+Honduras
+Sainte-Lucie
+Grenade
+Dominique
+Trinité-et-Tobago
+Barbade
+Saint-Vincent-et-les-Grenadines
+Antigua-et-Barbuda
+Saint-Christophe-et-Niévès
+Brésil
+Argentine
+Colombie
+Chili
+Pérou
+Venezuela
+Equateur
+Uruguay
+Bolivie
+Paraguay
+Guyane
+Suriname

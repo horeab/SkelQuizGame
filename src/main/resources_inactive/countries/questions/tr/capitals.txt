@@ -1,0 +1,163 @@
+Pekin
+Yeni Delhi
+Washington
+Brezilya
+Moskova
+Meksiko
+Tokyo
+Tahran
+Berlin
+Ankara
+Paris
+Londra
+Bangkok
+Roma
+Kahire
+Pretoria
+Seul
+Madrid
+Buenos Aires
+Brüksel
+Kiev
+Varşova
+Ottawa
+Viyana
+Bern
+Amsterdam
+Cakarta
+Atina
+Lizbon
+kanberra
+Bogota
+Cezayir
+Zagreb
+Rabat
+Hanoi
+Stockholm
+Abuja
+Santiago
+Budapeşte
+Bükreş
+Riyad
+Sofya
+Kopenhag
+Helsinki
+Dublin
+oslo
+Belgrad
+kuala Lumpur
+Lima
+Tiflis
+Havana
+Akra
+Astana
+Bağdat
+Kabil
+Kudüs
+Reykjavik
+Saraybosna
+Erivan
+Ljubljana
+Wellington
+Tiran
+Bratislava
+Karakas
+Prag
+Quito
+Dakar
+Katmandu
+Mogadişu
+Bakü
+Tunus
+Ulan Batur
+İslamabad
+Manila
+Kolombo
+Nairobi
+Phnom Penh
+Vilnüs
+Bamako
+Podgoritsa
+Minsk
+yaounde
+Taşkent
+Nepido
+Montevideo
+Kingston
+sucre
+Kampala
+Yamoussoukro
+Lefkoşa
+Antananarivo
+Port-au-Prince
+Luanda
+Doha
+Pyongyang
+dodoma
+sanaa
+Niamey
+Addis Ababa
+San Jose
+Şam
+Amman
+Santo Domingo
+Abu Dabi
+Tegucigalpa
+Duşanbe
+Monako
+N'Djamena
+Maputo
+Tallinn
+Singapur
+Lusaka
+Porto-Novo
+Port Moresby
+Konakri
+lome
+Asuncion
+Vientian
+Dakka
+kigali
+Ouagadougou
+Trablus
+Beyrut
+Bişkek
+Aşkabat
+Lilongwe
+Hartum
+bangui
+Kinşasa
+maskat
+Vaduz
+Guatemala şehri
+Juba
+Bujumbura
+Monrovia
+harare
+Kuveyt Şehri
+Panama Şehri
+Freetown
+Lüksemburg
+Asmara
+San Marino
+Kişinev
+Windhoek
+Nuakşot
+Gaboron
+Libreville
+Brazzaville
+Üsküp
+Maseru
+Riga
+Bissau
+Manama
+dili
+Port Louis
+Cibuti
+Georgetown
+San Salvador
+Valetta
+Belmopan
+Bridgetown
+Victoria
+Andora la Vella
