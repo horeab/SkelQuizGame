@@ -31,7 +31,7 @@ public class FlutterKidLearnProcessor {
         ///
 
 //        List<Language> languages = Arrays.asList(Language.values());
-        List<Language> languages = Arrays.asList(Language.en, Language.ro);
+        List<Language> languages = Arrays.asList(Language.de, Language.en, Language.ro);
 //        List<Language> languages = Arrays.asList(Language.en);
 
         StringBuilder res = new StringBuilder();

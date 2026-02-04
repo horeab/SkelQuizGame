@@ -42,9 +42,9 @@ public class LabelProcessor {
         //
         ////
 //        List<Language> languages = Collections.singletonList(Language.en);
-//        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
 //        List<Language> languages = Collections.singletonList(Language.ja);
-        List<Language> languages = Arrays.asList(Language.en, Language.ro);
+//        List<Language> languages = Arrays.asList(Language.en, Language.ro, Language.de);
 //        List<Language> languages = Arrays.asList(Language.en, Language.ro,
 //                Language.de, Language.es, Language.it);
         ////
@@ -53,9 +53,9 @@ public class LabelProcessor {
 //        translateNewLanguage(Language.ro, gameIds, defaultLabels);
 
         for (Language l : languages) {
-            translateMissingLabels(l, gameIds, defaultLabels);
+//            translateMissingLabels(l, gameIds, defaultLabels);
         }
-//        formFlutterKeys(gameIds, defaultLabels, languages);
+        formFlutterKeys(gameIds, defaultLabels, languages);
     }
 
     private static void translateMissingLabels(Language translateTo, List<GameIdEnum> gameIds, Map<Pair<String, String>, String> enLabels) {
@@ -265,6 +265,7 @@ public class LabelProcessor {
 
             while (line != null) {
                 List<String> ignoreKeys = Arrays.asList("font_name", "privacy_policy", "facebook_share_btn");
+                List<String> keepOriginalKeyNameList = Arrays.asList("lang_translation");
                 List<String> onlyKeys = new ArrayList<>();
 
                 if (lang != null) {
@@ -275,6 +276,14 @@ public class LabelProcessor {
                 for (String ignore : ignoreKeys) {
                     if (line.startsWith(ignore)) {
                         ignoreBool = true;
+                        break;
+                    }
+                }
+
+                boolean keepOriginalKeyName = false;
+                for (String s : keepOriginalKeyNameList) {
+                    if (line.startsWith(s)) {
+                        keepOriginalKeyName = true;
                         break;
                     }
                 }
@@ -307,7 +316,7 @@ public class LabelProcessor {
                         value = value.replace("\\n", "\n");
                         value = value.replace(" ", " ");
 
-                        String key = value.toLowerCase();
+                        String key = keepOriginalKeyName ? splitBy.get(0) : value.toLowerCase();
 
                         Map<String, String> replaceStrings = new HashMap<>();
                         replaceStrings.put(" ", "_");
@@ -368,6 +377,6 @@ public class LabelProcessor {
     }
 
     private static String getMainLabelsPath(Language lang) {
-        return FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/main_resources/main/labels/main_labels_" + lang + ".properties";
+        return FlutterQuestionProcessor.ROOT_FOLDER + "/IdeaProjects/SkelQuizGame/src/main/resources/main_resources/labels/main_labels_" + lang + ".properties";
     }
 }

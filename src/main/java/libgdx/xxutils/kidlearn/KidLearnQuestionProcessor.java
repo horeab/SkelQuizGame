@@ -48,7 +48,6 @@ public class KidLearnQuestionProcessor {
                 for (String bigCat : catsAll) {
                     List<String> cats = bigCat.equals("eng") ?
                             Arrays.asList("hangman")
-//                            Arrays.asList("hangman", "verb", "words")
                             : Arrays.asList("body", "feed", "recy", "state");
                     for (String cat : cats) {
                         moveQuestionCat(lang, bigCat, cat, diff);

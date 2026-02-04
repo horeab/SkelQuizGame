@@ -9,7 +9,6 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
 public class KidLearnTranslateQuestionProcessor {
 
@@ -23,21 +22,44 @@ public class KidLearnTranslateQuestionProcessor {
 
     public static void main(String[] args) throws IOException {
 
-//        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
-//        languages.remove(Language.ro);
-//        languages.remove(Language.en);
-        List<Language> languages = Arrays.asList(Language.en);
+        List<Language> languages = new ArrayList<>(Arrays.asList(Language.values()));
+        languages.remove(Language.de);
+        languages.remove(Language.en);
+        languages.remove(Language.ro);
+//        List<Language> languages = Arrays.asList(Language.en);
+//        List<Language> languages = Arrays.asList(Language.de, Language.en, Language.ro);
 
         List<KidLearnCateg> categs = FlutterKidLearnProcessor.getCategs();
+
+        //TODO overwrite existing categs
+//        List<KidLearnCateg> categs = Arrays.asList(new KidLearnCateg(
+//                        "sci",
+//                        "body",
+//                        "cat5",
+//                        Arrays.asList(
+//                                QuizQuestionDifficultyLevel._1
+//                        )
+//                ),
+//                new KidLearnCateg(
+//                        "sci",
+//                        "body",
+//                        "cat6",
+//                        Arrays.asList(
+//                                QuizQuestionDifficultyLevel._0
+//                        )
+//                ));
+        ////////////
 
         for (Language lang : languages) {
             for (KidLearnCateg kidLearnCateg : categs) {
 
                 String newQuestionPath = getNewFilePathForLang(kidLearnCateg, lang);
-                if (new File(newQuestionPath).exists()) {
-                    deleteTemp(newQuestionPath);
+                File dir = new File(newQuestionPath);
+                if (dir.exists()) {
+                    deleteDir(newQuestionPath);
                 }
-                new File(newQuestionPath).mkdirs();
+
+                dir.mkdirs();
 
                 for (QuestionDifficulty diff : kidLearnCateg.diffs) {
                     List<String> enQuestions = readFileContents(getPathToQuestionToTranslate(getFileName(diff), kidLearnCateg));
@@ -58,7 +80,12 @@ public class KidLearnTranslateQuestionProcessor {
 
                     String returnValue = String.join("\n", translatedQuestions);
 
-                    File myObj = new File(newQuestionPath + "/" + getFileName(diff));
+                    String filePath = newQuestionPath + "/" + getFileName(diff);
+                    if (new File(filePath).exists()) {
+                        deleteDir(filePath);
+                    }
+
+                    File myObj = new File(filePath);
                     myObj.createNewFile();
                     FileWriter myWriter = new FileWriter(myObj);
                     myWriter.write(returnValue);
@@ -69,10 +96,9 @@ public class KidLearnTranslateQuestionProcessor {
         }
     }
 
-    private static void deleteTemp(String pathname) {
-        File folder = new File(pathname);
-        Arrays.stream(Objects.requireNonNull(folder.listFiles())).forEach(File::delete);
-        folder.delete();
+    private static void deleteDir(String pathname) {
+        File file    = new File(pathname);
+        file.delete();
     }
 
     private static String getPathToQuestionToTranslate(String fileName, KidLearnCateg kidLearnCateg) {
