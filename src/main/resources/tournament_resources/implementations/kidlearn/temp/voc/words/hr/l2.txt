@@ -1,0 +1,11 @@
+Krug
+Trokut
+Kvadrat
+Ovalni
+Srce
+Dijamant
+Zvjezdica
+Pravokutnik
+Peterokut
+Šesterokut
+Osmerokut

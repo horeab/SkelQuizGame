@@ -1,0 +1,11 @@
+0:Jornal
+0:Livro
+0:Caderno
+1:Vidro quebrado
+1:jarro
+2:Saco plástico
+2:Frasco de xampu
+3:restos de frutas
+3:Folhas
+3:Casca de banana
+3:restos de comida

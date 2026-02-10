@@ -1,0 +1,12 @@
+0:Kalem
+0:Kitap
+0:Matematik
+0:Coğrafya
+0:Dolma kalem
+0:Defter
+1:Okumak
+1:Yazmak
+1:Şarkı söylemek
+1:Öğrenmek
+1:Dinlemek
+1:Konuşmak

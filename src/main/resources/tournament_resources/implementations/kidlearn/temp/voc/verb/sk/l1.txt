@@ -1,0 +1,9 @@
+0:Lopta
+0:Topánky
+0:Bicykel
+0:Snowboard
+0:Luk
+1:Plávanie
+1:Beh
+1:Jazda
+1:Skok

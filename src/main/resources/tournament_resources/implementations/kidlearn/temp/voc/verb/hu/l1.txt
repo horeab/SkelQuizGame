@@ -1,0 +1,9 @@
+0:Labda
+0:Cipők
+0:Kerékpár
+0:Snowboard
+0:Íj
+1:Úszás
+1:Fut
+1:Lovagol
+1:Ugrás

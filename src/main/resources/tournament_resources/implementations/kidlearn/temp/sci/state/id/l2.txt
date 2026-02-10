@@ -1,0 +1,9 @@
+0:Es
+0:Pensil
+0:Kertas
+1:Air
+1:Hujan
+1:Susu
+2:Uap
+2:Udara
+2:Gas alam

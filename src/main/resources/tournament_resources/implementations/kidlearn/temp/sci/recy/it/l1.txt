@@ -1,0 +1,11 @@
+0:Giornale
+0:Libro
+0:Quaderno
+1:Vetro rotto
+1:Vaso
+2:Sacchetto di plastica
+2:Bottiglia di shampoo
+3:scarti di frutta
+3:Foglie
+3:buccia di banana
+3:scarti alimentari

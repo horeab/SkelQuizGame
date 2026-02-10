@@ -1,0 +1,11 @@
+0:Avis
+0:Bok
+0:Notisbok
+1:Knust glass
+1:Krukke
+2:Plastpose
+2:Sjampoflaske
+3:Fruktrester
+3:Blader
+3:Bananskall
+3:Matrester

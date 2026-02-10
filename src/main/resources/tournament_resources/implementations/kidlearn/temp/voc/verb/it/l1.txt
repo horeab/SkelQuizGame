@@ -1,0 +1,9 @@
+0:Palla
+0:Scarpe
+0:Bicicletta
+0:Snowboard
+0:Arco
+1:Nuotare
+1:Correre
+1:Passeggiata
+1:Salto

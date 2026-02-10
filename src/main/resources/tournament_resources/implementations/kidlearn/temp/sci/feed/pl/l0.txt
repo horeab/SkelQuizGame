@@ -1,0 +1,7 @@
+Lew:Mięso
+Królik:Marchew
+Pingwin:Ryba
+Panda:Bambus
+Koala:Eukaliptus
+Wielbłąd:Kaktus
+Bóbr:Drewno

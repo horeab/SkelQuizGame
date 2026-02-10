@@ -1,0 +1,11 @@
+Cerchio
+Triangolo
+Piazza
+Ovale
+Cuore
+Diamante
+Stella
+Rettangolo
+Pentagono
+Esagono
+Ottagono

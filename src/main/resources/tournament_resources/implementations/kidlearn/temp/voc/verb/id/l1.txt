@@ -1,0 +1,9 @@
+0:Bola
+0:Sepatu
+0:Sepeda
+0:Papan seluncur salju
+0:Busur
+1:Berenang
+1:Berlari
+1:Mengendarai
+1:Melompat

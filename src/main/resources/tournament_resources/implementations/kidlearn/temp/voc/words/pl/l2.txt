@@ -1,0 +1,11 @@
+Koło
+Trójkąt
+Kwadrat
+Owalny
+Serce
+Diament
+Gwiazda
+Prostokąt
+Pięciokąt
+Sześciokąt
+Ośmiokąt

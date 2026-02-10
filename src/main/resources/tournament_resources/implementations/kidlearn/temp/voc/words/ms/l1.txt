@@ -1,0 +1,15 @@
+Satu
+Dua
+Tiga
+Empat
+Lima
+Enam
+Tujuh
+Lapan
+Sembilan
+Sepuluh
+Sebelas
+Dua belas
+Tiga belas
+Empat belas
+Lima belas

@@ -1,0 +1,9 @@
+0:Lód
+0:Ołówek
+0:Papier
+1:Woda
+1:Deszcz
+1:Mleko
+2:Para
+2:Powietrze
+2:Gaz ziemny

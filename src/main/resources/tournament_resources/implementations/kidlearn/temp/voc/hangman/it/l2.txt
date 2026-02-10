@@ -1,0 +1,8 @@
+Cucchiaio
+Forchetta
+Coltello
+Bottiglia
+Tovagliolo
+Tazza
+Vaso
+Teiera

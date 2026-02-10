@@ -1,0 +1,5 @@
+Astronomski observatorij:1,2,3:8.07,11.70:
+Umetni satelit:0,2,3:12.99,75.86:
+Luna:0,1,3:42.08,74.43:
+Meteorit:0,1,2:47.05,38.67:
+Sonce:1,0,3:81.01,68.19:

@@ -1,0 +1,12 @@
+0:Ołówek
+0:Książka
+0:Matematyka
+0:Geografia
+0:Pióro
+0:Zeszyt
+1:Czytać
+1:Pisać
+1:Śpiewać
+1:Uczyć się
+1:Słuchać
+1:Rozmawiać

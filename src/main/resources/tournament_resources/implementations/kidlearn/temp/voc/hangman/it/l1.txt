@@ -1,0 +1,10 @@
+Blu
+Bianco
+Nero
+Rosso
+Marrone
+Viola
+Rosa
+Verde
+Arancia
+Giallo

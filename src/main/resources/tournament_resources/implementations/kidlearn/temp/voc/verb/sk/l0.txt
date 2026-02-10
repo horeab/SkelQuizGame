@@ -1,0 +1,12 @@
+0:Ceruzka
+0:Kniha
+0:Matematika
+0:Geografia
+0:Pero
+0:Zápisník
+1:Čítať
+1:Napíšte
+1:Spievaj
+1:Učiť sa
+1:Počúvajte
+1:Hovorte

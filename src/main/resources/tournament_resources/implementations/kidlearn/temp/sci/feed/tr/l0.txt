@@ -1,0 +1,7 @@
+Aslan:Et
+Tavşan:Havuç
+Penguen:Balık
+Panda:Bambu
+Koala:Okaliptüs
+Deve:Kaktüs
+Kunduz:Odun

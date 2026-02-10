@@ -1,0 +1,12 @@
+0:Penna
+0:Boka
+0:Matematik
+0:Geografi
+0:Penna
+0:Anteckningsbok
+1:Läsa
+1:Skriva
+1:Sjunga
+1:Lära sig
+1:Lyssna
+1:Prata

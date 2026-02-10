@@ -1,0 +1,11 @@
+0:Noviny
+0:Kniha
+0:Zápisník
+1:Rozbité sklo
+1:Pohár
+2:Plastové vrecko
+2:Fľaša na šampón
+3:Ovocné zvyšky
+3:Listy
+3:Banánová šupka
+3:Odpadky jedla

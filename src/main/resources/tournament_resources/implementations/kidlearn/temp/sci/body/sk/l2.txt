@@ -1,0 +1,5 @@
+Astronomické observatórium:1,2,3:8.07,11.70:
+Umelá družica:0,2,3:12.99,75.86:
+Mesiac:0,1,3:42.08,74.43:
+Meteorit:0,1,2:47.05,38.67:
+Slnko:1,0,3:81.01,68.19:

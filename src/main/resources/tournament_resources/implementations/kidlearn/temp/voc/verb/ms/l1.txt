@@ -1,0 +1,9 @@
+0:Bola
+0:Kasut
+0:Basikal
+0:Papan luncur salji
+0:Busur
+1:Berenang
+1:Lari
+1:Tunggang
+1:Lompat

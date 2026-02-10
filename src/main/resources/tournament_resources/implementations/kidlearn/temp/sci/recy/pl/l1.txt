@@ -1,0 +1,11 @@
+0:Gazeta
+0:Książka
+0:Zeszyt
+1:Rozbite szkło
+1:Słoik
+2:Torba plastikowa
+2:Butelka szamponu
+3:Resztki owoców
+3:Liście
+3:Skórka banana
+3:Resztki jedzenia

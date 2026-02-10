@@ -1,0 +1,11 @@
+0:Surat khabar
+0:Buku
+0:Buku nota
+1:Kaca pecah
+1:Balang
+2:Beg plastik
+2:Botol syampu
+3:Sisa buah-buahan
+3:Daun
+3:Kulit pisang
+3:Sisa makanan

@@ -1,0 +1,11 @@
+0:Novine
+0:Rezervirati
+0:Bilježnica
+1:Razbijeno staklo
+1:Staklenka
+2:Plastična vrećica
+2:Bočica šampona
+3:Ostaci voća
+3:Lišće
+3:Kora od banane
+3:Ostaci hrane

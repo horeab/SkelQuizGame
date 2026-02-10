@@ -1,0 +1,12 @@
+0:Blyant
+0:Bok
+0:Matematikk
+0:Geografi
+0:Penn
+0:Notisbok
+1:Lese
+1:Skrive
+1:Synge
+1:Lære
+1:Lytte
+1:Snakke

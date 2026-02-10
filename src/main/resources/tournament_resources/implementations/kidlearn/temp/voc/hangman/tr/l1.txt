@@ -1,0 +1,10 @@
+Mavi
+Beyaz
+Siyah
+Kırmızı
+Kahverengi
+Mor
+Pembe
+Yeşil
+Turuncu
+Sarı

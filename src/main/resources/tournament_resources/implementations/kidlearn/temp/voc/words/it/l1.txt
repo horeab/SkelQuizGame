@@ -1,0 +1,15 @@
+Uno
+Due
+Tre
+Quattro
+Cinque
+Sei
+Sette
+Otto
+Nove
+Dieci
+Undici
+Dodici
+Tredici
+Quattordici
+Quindici

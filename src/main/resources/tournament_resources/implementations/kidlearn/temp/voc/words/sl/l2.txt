@@ -1,0 +1,11 @@
+Krog
+Trikotnik
+Kvadrat
+Oval
+Srce
+Diamant
+Zvezda
+Pravokotnik
+Pentagon
+Šesterokotni
+Osmerokotnik

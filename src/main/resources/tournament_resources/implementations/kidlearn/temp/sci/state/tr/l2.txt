@@ -1,0 +1,9 @@
+0:Buz
+0:Kalem
+0:Kağıt
+1:su
+1:Yağmur
+1:Süt
+2:Buhar
+2:Hava
+2:Doğal gaz

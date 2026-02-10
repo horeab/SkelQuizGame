@@ -1,0 +1,9 @@
+0:Đá
+0:Bút chì
+0:Giấy
+1:Nước
+1:Cơn mưa
+1:Sữa
+2:Hơi nước
+2:Không khí
+2:Khí tự nhiên

@@ -1,0 +1,15 @@
+Kuda
+Sapi
+Anjing
+Singa
+Kucing
+Beruang
+Harimau
+Serigala
+Monyet
+Gajah
+Ular
+Badak
+Jerapah
+Kuda nil
+Kura-kura

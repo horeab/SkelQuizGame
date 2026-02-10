@@ -1,0 +1,7 @@
+Singa:Daging
+Arnab:Lobak merah
+Penguin:Ikan
+Panda:Buluh
+Koala:Kayu putih
+Unta:Kaktus
+Memerang:Kayu

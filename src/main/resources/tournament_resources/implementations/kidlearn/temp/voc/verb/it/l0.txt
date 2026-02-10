@@ -1,0 +1,12 @@
+0:Matita
+0:Libro
+0:Matematica
+0:Geografia
+0:Penna
+0:Quaderno
+1:Leggere
+1:Scrivere
+1:Cantare
+1:Imparare
+1:Ascoltare
+1:Parlare

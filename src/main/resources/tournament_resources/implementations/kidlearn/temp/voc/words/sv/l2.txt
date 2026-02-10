@@ -1,0 +1,11 @@
+Cirkel
+Triangel
+Fyrkant
+Oval
+Hjärta
+Diamant
+Stjärna
+Rektangel
+Pentagonen
+Sexhörning
+Oktogon

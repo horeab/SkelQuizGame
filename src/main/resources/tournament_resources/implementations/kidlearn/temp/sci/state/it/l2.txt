@@ -1,0 +1,9 @@
+0:Ghiaccio
+0:Matita
+0:Carta
+1:Acqua
+1:Piovere
+1:Latte
+2:Vapore
+2:Aria
+2:Gas naturale

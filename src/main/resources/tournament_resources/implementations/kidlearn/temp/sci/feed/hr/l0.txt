@@ -1,0 +1,7 @@
+Lav:Meso
+Zec:Mrkva
+Pingvin:Riba
+Panda:Bambus
+Koala:Eukaliptus
+Deva:Kaktus
+Dabar:Drvo

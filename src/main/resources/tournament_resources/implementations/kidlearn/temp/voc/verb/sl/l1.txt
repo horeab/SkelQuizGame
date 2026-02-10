@@ -1,0 +1,9 @@
+0:Žoga
+0:Čevlji
+0:Kolo
+0:Snowboard
+0:Lok
+1:Plavanje
+1:Teči
+1:Vožnja
+1:Skoči

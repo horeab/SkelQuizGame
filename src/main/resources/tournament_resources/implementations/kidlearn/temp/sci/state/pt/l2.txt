@@ -1,0 +1,9 @@
+0:Gelo
+0:Lápis
+0:Papel
+1:Água
+1:Chuva
+1:Leite
+2:Vapor
+2:Ar
+2:Gás natural

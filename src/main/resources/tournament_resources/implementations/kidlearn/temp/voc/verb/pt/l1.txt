@@ -1,0 +1,9 @@
+0:Bola
+0:Sapato
+0:Bicicleta
+0:Snowboard
+0:Arco
+1:Nadar
+1:Correr
+1:Andar de
+1:Pular

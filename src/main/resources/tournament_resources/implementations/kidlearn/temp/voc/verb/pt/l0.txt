@@ -1,0 +1,12 @@
+0:Lápis
+0:Livro
+0:Matemática
+0:Geografia
+0:Caneta
+0:Caderno
+1:Ler
+1:Escrever
+1:Cantar
+1:Aprender
+1:Ouvir
+1:Falar

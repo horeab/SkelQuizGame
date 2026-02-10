@@ -1,0 +1,11 @@
+0:Tidning
+0:Boka
+0:Anteckningsbok
+1:Krossat glas
+1:Burk
+2:Plastpåse
+2:Schampoflaska
+3:Fruktrester
+3:Löv
+3:Bananskal
+3:Matrester

@@ -1,0 +1,15 @@
+Cavallo
+Mucca
+Cane
+Leone
+Gatto
+Orso
+Tigre
+Lupo
+Scimmia
+Elefante
+Serpente
+Rinoceronte
+Giraffa
+Ippopotamo
+Tartaruga

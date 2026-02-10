@@ -1,0 +1,9 @@
+0:Ball
+0:Sko
+0:Sykkel
+0:Snowboard
+0:Bue
+1:Svømme
+1:Løp
+1:Ri
+1:Hoppe

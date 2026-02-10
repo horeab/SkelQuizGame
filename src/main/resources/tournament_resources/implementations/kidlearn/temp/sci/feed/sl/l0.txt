@@ -1,0 +1,7 @@
+Lev:Meso
+Zajec:Korenček
+Pingvin:Ribe
+Panda:Bambus
+Koala:Evkaliptus
+Kamela:Kaktus
+Bober:Les

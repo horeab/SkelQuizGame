@@ -1,0 +1,7 @@
+Leeuw:Vlees
+Konijn:Wortel
+Pinguïn:Vis
+Panda:Bamboe
+Koala:Eucalyptus
+Kameel:Cactus
+Bever:Hout

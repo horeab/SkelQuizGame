@@ -1,0 +1,7 @@
+Leone:Carne
+Coniglio:Carota
+Pinguino:Pescare
+Panda:Bambù
+Koala:Eucalipto
+Cammello:Cactus
+Castoro:Legna

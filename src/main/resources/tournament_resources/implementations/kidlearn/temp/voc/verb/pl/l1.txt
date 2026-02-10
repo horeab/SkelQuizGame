@@ -1,0 +1,9 @@
+0:Piłka
+0:Buty
+0:Rower
+0:Snowboard
+0:Ukłon
+1:Pływać
+1:Uruchomić
+1:Jeździć
+1:Skok

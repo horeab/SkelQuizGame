@@ -1,0 +1,11 @@
+Daire
+Üçgen
+Kare
+Oval
+Kalp
+Elmas
+Yıldız
+Dikdörtgen
+Pentagon
+Altıgen
+Sekizgen

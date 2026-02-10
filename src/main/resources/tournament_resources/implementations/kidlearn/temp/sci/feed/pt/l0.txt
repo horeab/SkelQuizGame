@@ -1,0 +1,7 @@
+Leão:Carne
+Coelho:Cenoura
+Pinguim:Peixe
+Panda:Bambu
+Coala:Eucalipto
+Camelo:Cacto
+Castor:Madeira

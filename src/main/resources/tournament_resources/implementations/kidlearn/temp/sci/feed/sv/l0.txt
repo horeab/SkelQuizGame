@@ -1,0 +1,7 @@
+Lejon:Kött
+Kanin:Morot
+Pingvin:Fisk
+Panda:Bambu
+Koala:Eukalyptus
+Kamel:Kaktus
+Bäver:Trä

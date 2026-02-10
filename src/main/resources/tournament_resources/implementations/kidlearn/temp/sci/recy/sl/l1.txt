@@ -1,0 +1,11 @@
+0:Časopis
+0:Knjiga
+0:Zvezek
+1:Razbito steklo
+1:Kozarec
+2:Plastična vrečka
+2:Steklenička za šampon
+3:Ostanki sadja
+3:Listi
+3:Bananin olupek
+3:Ostanki hrane

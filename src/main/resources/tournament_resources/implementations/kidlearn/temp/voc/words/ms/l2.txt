@@ -1,0 +1,11 @@
+Bulatan
+Segitiga
+Segiempat
+Bujur
+Jantung
+Berlian
+Bintang
+Segi empat tepat
+Pentagon
+Heksagon
+Oktagon

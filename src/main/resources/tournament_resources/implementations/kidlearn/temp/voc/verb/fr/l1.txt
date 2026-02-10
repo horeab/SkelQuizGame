@@ -1,0 +1,9 @@
+0:Balle
+0:Chaussures
+0:Vélo
+0:Snowboard
+0:Arc
+1:Nager
+1:Courir
+1:Monter
+1:Saut

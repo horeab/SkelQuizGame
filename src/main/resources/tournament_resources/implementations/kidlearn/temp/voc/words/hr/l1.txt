@@ -1,0 +1,15 @@
+Jedan
+Dva
+Tri
+Četiri
+Pet
+Šest
+Sedam
+Osam
+Devet
+Deset
+Jedanaest
+Dvanaest
+Trinaest
+Četrnaest
+Petnaest

@@ -1,0 +1,12 @@
+0:Olovka
+0:Rezervirati
+0:Matematika
+0:Geografija
+0:Olovka
+0:Bilježnica
+1:Čitaj
+1:Pisati
+1:Pjevati
+1:Naučiti
+1:Slušati
+1:Razgovor

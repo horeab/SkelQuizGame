@@ -1,0 +1,9 @@
+0:Led
+0:Svinčnik
+0:Papir
+1:Voda
+1:Dež
+1:Mleko
+2:Para
+2:Zrak
+2:Zemeljski plin

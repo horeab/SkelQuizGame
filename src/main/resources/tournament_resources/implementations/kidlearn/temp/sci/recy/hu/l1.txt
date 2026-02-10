@@ -1,0 +1,11 @@
+0:Újság
+0:Könyv
+0:Jegyzetfüzet
+1:Törött üveg
+1:Korsó
+2:Műanyag zacskó
+2:Samponos üveg
+3:Gyümölcsmaradékok
+3:Levelek
+3:Banánhéj
+3:Ételmaradékok

@@ -1,0 +1,9 @@
+0:Bal
+0:Schoenen
+0:Fiets
+0:Snowboard
+0:Boog
+1:Zwemmen
+1:Loop
+1:Rijden
+1:Springen

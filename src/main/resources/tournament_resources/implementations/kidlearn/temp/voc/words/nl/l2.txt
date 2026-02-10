@@ -1,0 +1,11 @@
+Cirkel
+Driehoek
+Vierkant
+Ovaal
+Hart
+Diamant
+Ster
+Rechthoek
+Pentagon
+Zeshoek
+Achthoek

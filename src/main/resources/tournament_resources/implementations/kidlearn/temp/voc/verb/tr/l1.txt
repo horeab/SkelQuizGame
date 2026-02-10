@@ -1,0 +1,9 @@
+0:Top
+0:Ayakkabı
+0:Bisiklet
+0:Snowboard
+0:Yay
+1:Yüzmek
+1:Koşmak
+1:Sürmek
+1:Zıplamak

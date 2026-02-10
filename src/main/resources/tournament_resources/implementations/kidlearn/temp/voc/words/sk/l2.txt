@@ -1,0 +1,11 @@
+Kruh
+Trojuholník
+Štvorec
+Oválny
+Srdce
+Diamant
+Hviezda
+Obdĺžnik
+Pentagon
+Šesťuholník
+Osemuholník

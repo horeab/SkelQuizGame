@@ -1,0 +1,7 @@
+Lev:Mäso
+Králik:Mrkva
+Tučniak:Ryby
+Panda:Bambus
+Koala:Eukalyptus
+Ťava:Kaktus
+Bobor:Drevo

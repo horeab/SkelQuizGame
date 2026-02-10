@@ -1,0 +1,11 @@
+Kör
+Háromszög
+Négyzet
+Ovális
+Szív
+Gyémánt
+Csillag
+Téglalap
+Pentagon
+Hatszög
+Nyolcszög

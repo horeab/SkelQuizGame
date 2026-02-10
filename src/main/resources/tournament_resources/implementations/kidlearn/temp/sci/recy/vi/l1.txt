@@ -1,0 +1,11 @@
+0:Báo
+0:Sách
+0:Sổ tay
+1:Kính vỡ
+1:Cái lọ
+2:Túi nhựa
+2:Chai dầu gội
+3:Vụn trái cây
+3:Lá
+3:Vỏ chuối
+3:Thức ăn thừa

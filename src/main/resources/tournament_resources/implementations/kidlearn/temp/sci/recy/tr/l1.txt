@@ -1,0 +1,11 @@
+0:Gazete
+0:Kitap
+0:Defter
+1:Kırık cam
+1:Kavanoz
+2:Plastik poşet
+2:Şampuan şişesi
+3:Meyve artıkları
+3:Yapraklar
+3:Muz kabuğu
+3:Yemek artıkları

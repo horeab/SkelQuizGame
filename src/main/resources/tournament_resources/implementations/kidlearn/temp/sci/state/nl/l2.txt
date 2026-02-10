@@ -1,0 +1,9 @@
+0:Ijs
+0:Potlood
+0:Papier
+1:Water
+1:Regen
+1:Melk
+2:Stoom
+2:Lucht
+2:Aardgas

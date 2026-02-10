@@ -1,0 +1,9 @@
+0:Boll
+0:Skor
+0:Cykel
+0:Snowboard
+0:Rosett
+1:Simma
+1:Sikt
+1:Rida
+1:Hoppa

@@ -1,0 +1,12 @@
+0:Svinčnik
+0:Knjiga
+0:Matematika
+0:Geografija
+0:Pero
+0:Zvezek
+1:Preberi
+1:Pišite
+1:Poj
+1:Uči se
+1:Poslušaj
+1:Pogovor

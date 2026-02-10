@@ -1,0 +1,12 @@
+0:Pensil
+0:Buku
+0:Matematik
+0:Geografi
+0:Pen
+0:Buku nota
+1:Baca
+1:Tulis
+1:Nyanyi
+1:Belajar
+1:Dengar
+1:Bercakap

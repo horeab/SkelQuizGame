@@ -1,0 +1,11 @@
+0:Koran
+0:Buku
+0:Buku catatan
+1:Pecahan kaca
+1:Stoples
+2:Kantong plastik
+2:Botol sampo
+3:Sisa-sisa buah
+3:Daun-daun
+3:Kulit pisang
+3:Sisa makanan

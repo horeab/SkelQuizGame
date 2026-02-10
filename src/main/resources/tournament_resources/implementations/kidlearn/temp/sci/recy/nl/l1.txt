@@ -1,0 +1,11 @@
+0:Krant
+0:Boek
+0:Notitieboekje
+1:Gebroken glas
+1:Kan
+2:Plastic zak
+2:Shampoo fles
+3:Fruitresten
+3:Bladeren
+3:Bananenschil
+3:Voedselresten

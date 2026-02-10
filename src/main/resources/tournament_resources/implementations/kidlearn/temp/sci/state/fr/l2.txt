@@ -1,0 +1,9 @@
+0:Glace
+0:Crayon
+0:Papier
+1:Eau
+1:Pluie
+1:Lait
+2:Vapeur
+2:Air
+2:Gaz naturel
