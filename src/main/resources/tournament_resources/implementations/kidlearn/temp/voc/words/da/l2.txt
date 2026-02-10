@@ -1,0 +1,11 @@
+Cirkel
+Trekant
+Firkant
+Oval
+Hjerte
+Diamant
+Stjerne
+Rektangel
+Pentagon
+Sekskant
+Ottekant

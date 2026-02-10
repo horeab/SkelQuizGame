@@ -1,0 +1,11 @@
+0:Zeitung
+0:Buch
+0:Notizbuch
+1:Zerbrochenes Glas
+1:Krug
+2:Plastiktüte
+2:Shampooflasche
+3:Fruchtreste
+3:Blätter
+3:Bananenschale
+3:Essensreste

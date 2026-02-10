@@ -1,0 +1,9 @@
+0:Míč
+0:Obuv
+0:Kolo
+0:Snowboard
+0:Luk
+1:Plavat
+1:Běh
+1:Jízda
+1:Skok

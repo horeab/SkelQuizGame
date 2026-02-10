@@ -1,0 +1,15 @@
+Pferd
+Kuh
+Hund
+Löwe
+Katze
+Bär
+Tiger
+Wolf
+Affe
+Elefant
+Schlange
+Nashorn
+Giraffe
+Nilpferd
+Schildkröte

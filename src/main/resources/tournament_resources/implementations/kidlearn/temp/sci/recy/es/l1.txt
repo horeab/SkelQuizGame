@@ -1,0 +1,11 @@
+0:Periódico
+0:Libro
+0:Computadora portátil
+1:Vidrio roto
+1:Frasco
+2:Bolsa de plástico
+2:Botella de champú
+3:Restos de fruta
+3:Hojas
+3:cáscara de plátano
+3:Restos de comida

@@ -1,0 +1,10 @@
+Bleu
+Blanc
+Noir
+Rouge
+Brun
+Violet
+Rose
+Vert
+Orange
+Jaune

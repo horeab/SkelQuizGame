@@ -1,0 +1,12 @@
+0:Tužka
+0:Rezervovat
+0:Matematika
+0:Zeměpis
+0:Pero
+0:Zápisník
+1:Číst
+1:Napsat
+1:Zpívat
+1:Učit se
+1:Poslouchat
+1:Mluvit

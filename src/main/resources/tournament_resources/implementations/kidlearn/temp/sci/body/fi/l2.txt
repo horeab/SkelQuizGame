@@ -1,0 +1,5 @@
+Tähtitieteellinen observatorio:1,2,3:8.07,11.70:
+Keinotekoinen satelliitti:0,2,3:12.99,75.86:
+Kuu:0,1,3:42.08,74.43:
+Meteoriitti:0,1,2:47.05,38.67:
+Aurinko:1,0,3:81.01,68.19:

@@ -1,0 +1,7 @@
+Lion:Viande
+Lapin:Carotte
+Manchot:Poisson
+Panda:Bambou
+Koala:Eucalyptus
+Chameau:Cactus
+Castor:Bois

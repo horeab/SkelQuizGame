@@ -1,0 +1,7 @@
+Leu:Carne
+Iepure:Morcov
+Pinguin:Peşte
+Panda:Bambus
+Koala:Eucalipt
+Cămilă:Cactus
+Castor:Lemn

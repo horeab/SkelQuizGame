@@ -1,0 +1,8 @@
+Löffel
+Gabel
+Messer
+Flasche
+Serviette
+Tasse
+Krug
+Teekanne

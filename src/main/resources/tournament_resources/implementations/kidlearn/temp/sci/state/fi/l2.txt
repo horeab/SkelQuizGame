@@ -1,0 +1,9 @@
+0:Jää
+0:Lyijykynä
+0:Paperi
+1:Vesi
+1:Sade
+1:Maito
+2:Höyry
+2:Ilma
+2:Maakaasu

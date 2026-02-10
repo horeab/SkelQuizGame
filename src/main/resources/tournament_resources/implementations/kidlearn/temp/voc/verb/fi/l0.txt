@@ -1,0 +1,12 @@
+0:Lyijykynä
+0:Kirja
+0:Matematiikka
+0:Maantiede
+0:Kynä
+0:Muistikirja
+1:Lukea
+1:Kirjoittaa
+1:Laulaa
+1:Oppia
+1:Kuunnella
+1:Puhua

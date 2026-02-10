@@ -1,0 +1,11 @@
+0:Sanomalehti
+0:Kirja
+0:Muistikirja
+1:Särkynyt lasi
+1:Purkki
+2:Muovipussi
+2:Shampoopullo
+3:Hedelmäjätteet
+3:Lehdet
+3:Banaaninkuori
+3:Ruokajätteet

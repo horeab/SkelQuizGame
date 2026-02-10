@@ -1,0 +1,9 @@
+0:Is
+0:Blyant
+0:Papir
+1:Vand
+1:Regn
+1:Mælk
+2:Damp
+2:Luft
+2:Naturgas

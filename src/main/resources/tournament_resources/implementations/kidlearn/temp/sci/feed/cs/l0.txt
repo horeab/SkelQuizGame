@@ -1,0 +1,7 @@
+Lev:Maso
+Králičí:Mrkev
+Tučňák:Ryba
+Panda:Bambus
+Koala:Eukalyptus
+Velbloud:Kaktus
+Bobr:Dřevo

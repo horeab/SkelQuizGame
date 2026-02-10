@@ -1,0 +1,11 @@
+Kreis
+Dreieck
+Quadrat
+Oval
+Herz
+Diamant
+Stern
+Rechteck
+Pentagon
+Hexagon
+Achteck

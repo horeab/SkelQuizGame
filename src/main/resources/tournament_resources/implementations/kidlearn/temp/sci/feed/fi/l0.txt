@@ -1,0 +1,7 @@
+Leijona:Liha
+Kani:Porkkana
+Pingviini:Kalastaa
+Panda:Bambu
+Koala:Eukalyptus
+Kameli:Kaktus
+Majava:Puu

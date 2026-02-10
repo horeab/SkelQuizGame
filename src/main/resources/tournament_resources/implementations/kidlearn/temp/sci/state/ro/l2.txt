@@ -1,0 +1,9 @@
+0:Gheaţă
+0:Creion
+0:Hârtie
+1:Apă
+1:Ploaie
+1:Lapte
+2:Aburi
+2:Aer
+2:Gaz natural

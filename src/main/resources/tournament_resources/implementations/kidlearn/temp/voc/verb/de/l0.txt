@@ -1,0 +1,12 @@
+0:Bleistift
+0:Buch
+0:Mathe
+0:Geographie
+0:Stift
+0:Notizbuch
+1:Lesen
+1:Schreiben
+1:Singen
+1:Lernen
+1:Hören
+1:Sprechen

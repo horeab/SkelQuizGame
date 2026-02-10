@@ -1,0 +1,9 @@
+0:Minge
+0:Pantofi
+0:Bicicletă
+0:Snowboard
+0:Arc
+1:Înot
+1:Aleargă
+1:Călătorie
+1:Salt

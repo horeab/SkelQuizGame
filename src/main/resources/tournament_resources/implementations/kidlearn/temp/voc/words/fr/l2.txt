@@ -1,0 +1,11 @@
+Cercle
+Triangle
+Carré
+Ovale
+Cœur
+Diamant
+Étoile
+Rectangle
+Pentagone
+Hexagone
+Octogone

@@ -1,0 +1,7 @@
+Løve:Kød
+Kanin:Gulerod
+Pingvin:Fisk
+Panda:Bambus
+Koala:Eukalyptus
+Kamel:Kaktus
+Bæver:Træ

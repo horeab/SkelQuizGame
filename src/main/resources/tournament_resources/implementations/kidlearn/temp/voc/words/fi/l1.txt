@@ -1,0 +1,15 @@
+Yksi
+Kaksi
+Kolme
+Neljä
+Viisi
+Kuusi
+Seitsemän
+Kahdeksan
+Yhdeksän
+Kymmenen
+Yksitoista
+Kaksitoista
+Kolmetoista
+Neljätoista
+Viisitoista

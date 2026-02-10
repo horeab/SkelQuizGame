@@ -1,0 +1,12 @@
+0:Lápiz
+0:Libro
+0:Matemáticas
+0:Geografía
+0:Bolígrafo
+0:Computadora portátil
+1:Leer
+1:Escribir
+1:Cantar
+1:Aprender
+1:Escuchar
+1:Hablar

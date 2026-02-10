@@ -1,0 +1,7 @@
+León:Carne
+Conejo:Zanahoria
+Pingüino:Pez
+Panda:Bambú
+Coala:Eucalipto
+Camello:Cactus
+Castor:Madera

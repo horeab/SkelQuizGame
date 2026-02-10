@@ -1,0 +1,15 @@
+Caballo
+Vaca
+Perro
+León
+Gato
+Oso
+Tigre
+Lobo
+Mono
+Elefante
+Serpiente
+Rinoceronte
+Jirafa
+Hipopótamo
+Tortuga

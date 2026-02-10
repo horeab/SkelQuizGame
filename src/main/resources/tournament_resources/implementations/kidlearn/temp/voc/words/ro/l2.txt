@@ -1,0 +1,11 @@
+Cerc
+Triunghi
+Pătrat
+Oval
+Inimă
+Diamant
+Stea
+Dreptunghi
+Pentagon
+Hexagon
+Octogon

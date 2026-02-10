@@ -1,0 +1,10 @@
+Sininen
+Valkoinen
+Musta
+Punainen
+Ruskea
+Violetti
+Vaaleanpunainen
+Vihreä
+Oranssi
+Keltainen

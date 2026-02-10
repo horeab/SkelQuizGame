@@ -1,0 +1,15 @@
+Cheval
+Vache
+Chien
+Lion
+Chat
+Ours
+Tigre
+Loup
+Singe
+Éléphant
+Serpent
+Rhinocéros
+Girafe
+Hippopotame
+Tortue

@@ -1,0 +1,9 @@
+0:Pelota
+0:Zapatos
+0:Bicicleta
+0:Tabla de snowboard
+0:Arco
+1:Nadar
+1:Correr
+1:Conducir
+1:Saltar

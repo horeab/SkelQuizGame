@@ -1,0 +1,7 @@
+Löwe:Fleisch
+Kaninchen:Karotte
+Pinguin:Fisch
+Panda:Bambus
+Koala:Eukalyptus
+Kamel:Kaktus
+Biber:Holz

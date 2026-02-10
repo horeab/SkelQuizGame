@@ -1,0 +1,11 @@
+0:Journal
+0:Livre
+0:Carnet de notes
+1:Verre brisé
+1:Pot
+2:Sac en plastique
+2:flacon de shampoing
+3:restes de fruits
+3:Feuilles
+3:peau de banane
+3:restes alimentaires

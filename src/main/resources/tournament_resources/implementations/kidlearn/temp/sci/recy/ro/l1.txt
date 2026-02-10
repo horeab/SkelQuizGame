@@ -1,0 +1,11 @@
+0:Ziar
+0:Carte
+0:Caiet
+1:Sticlă spartă
+1:Borcan
+2:pungă de plastic
+2:Sticlă de șampon
+3:Resturi de fructe
+3:Frunze
+3:Coajă de banană
+3:resturi alimentare

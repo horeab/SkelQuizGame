@@ -1,0 +1,9 @@
+0:Hielo
+0:Lápiz
+0:Papel
+1:Agua
+1:Lluvia
+1:Leche
+2:Vapor
+2:Aire
+2:Gas natural

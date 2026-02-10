@@ -1,0 +1,8 @@
+Cuchara
+Tenedor
+Cuchillo
+Botella
+Servilleta
+Taza
+Frasco
+Tetera

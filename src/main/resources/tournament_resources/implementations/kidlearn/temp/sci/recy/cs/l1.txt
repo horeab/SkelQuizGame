@@ -1,0 +1,11 @@
+0:Noviny
+0:Rezervovat
+0:Zápisník
+1:Rozbité sklo
+1:Sklenice
+2:Plastový sáček
+2:Láhev šamponu
+3:Ovocné zbytky
+3:Listy
+3:Banánová slupka
+3:Odpadky jídla

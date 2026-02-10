@@ -1,0 +1,11 @@
+0:Avis
+0:Bog
+0:Notesbog
+1:Knust glas
+1:Krukke
+2:Plastikpose
+2:Shampooflaske
+3:Frugtrester
+3:Blade
+3:Bananskræl
+3:Madrester

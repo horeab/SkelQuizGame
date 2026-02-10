@@ -1,0 +1,9 @@
+0:Pallo
+0:Kengät
+0:Polkupyörä
+0:Lumilautailu
+0:Keula
+1:Uida
+1:Juokse
+1:Ratsastaa
+1:Hypätä

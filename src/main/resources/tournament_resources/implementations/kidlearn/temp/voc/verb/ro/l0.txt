@@ -1,0 +1,12 @@
+0:Creion
+0:Carte
+0:Matematică
+0:Geografie
+0:Stilou
+0:Caiet
+1:Citire
+1:Scrie
+1:Cânta
+1:Învăţa
+1:Asculta
+1:Vorbi

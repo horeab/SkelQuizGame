@@ -1,0 +1,5 @@
+Observatoire astronomique:1,2,3:8.07,11.70:
+Satellite artificiel:0,2,3:12.99,75.86:
+Lune:0,1,3:42.08,74.43:
+Météorite:0,1,2:47.05,38.67:
+Soleil:1,0,3:81.01,68.19:

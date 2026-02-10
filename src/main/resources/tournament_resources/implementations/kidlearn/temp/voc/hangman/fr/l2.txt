@@ -1,0 +1,8 @@
+Cuillère
+Fourchette
+Couteau
+Bouteille
+Serviette de table
+Tasse
+Pot
+Théière

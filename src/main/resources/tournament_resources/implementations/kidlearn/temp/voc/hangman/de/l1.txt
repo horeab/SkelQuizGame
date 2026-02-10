@@ -1,0 +1,10 @@
+Blau
+Weiss
+Schwarz
+Rot
+Braun
+Lila
+Rosa
+Grün
+Orange
+Gelb
