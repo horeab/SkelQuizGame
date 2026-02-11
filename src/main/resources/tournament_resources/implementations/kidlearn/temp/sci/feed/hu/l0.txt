@@ -4,4 +4,4 @@ Pingvin:Hal
 Panda:Bambusz
 Koala:Eukaliptusz
 Teve:Kaktusz
-Hód:Faipari
+Hód:Fa

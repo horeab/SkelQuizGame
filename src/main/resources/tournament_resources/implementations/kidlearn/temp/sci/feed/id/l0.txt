@@ -4,4 +4,4 @@ Penguin:Ikan
 Panda:Bambu
 Koala:Eukaliptus
 Unta:Kaktus
-Berang-berang:Kayu
+Biwara:Kayu

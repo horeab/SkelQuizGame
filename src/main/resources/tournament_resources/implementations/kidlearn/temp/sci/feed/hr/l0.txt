@@ -1,6 +1,6 @@
 Lav:Meso
 Zec:Mrkva
-Pingvin:Riba
+Pingvin:Ribe
 Panda:Bambus
 Koala:Eukaliptus
 Deva:Kaktus

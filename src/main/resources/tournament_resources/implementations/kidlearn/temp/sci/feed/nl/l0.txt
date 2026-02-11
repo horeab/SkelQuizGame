@@ -1,6 +1,6 @@
 Leeuw:Vlees
 Konijn:Wortel
-Pinguïn:Vis
+Pinguïn:Vissen
 Panda:Bamboe
 Koala:Eucalyptus
 Kameel:Cactus

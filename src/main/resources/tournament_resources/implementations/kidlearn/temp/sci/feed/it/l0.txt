@@ -1,6 +1,6 @@
 Leone:Carne
 Coniglio:Carota
-Pinguino:Pescare
+Pinguino:Pesce
 Panda:Bambù
 Koala:Eucalipto
 Cammello:Cactus

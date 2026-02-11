@@ -1,7 +1,7 @@
-Con sư tử:Thịt
+Sư tử:Thịt
 Con thỏ:Cà rốt
 Chim cánh cụt:Cá
-Gấu trúc:Cây tre
-Gấu Koala:Bạch đàn
+Gấu trúc lớn:Cây tre
+Gấu túi:Bạch đàn
 Con lạc đà:Cây xương rồng
 Hải ly:Gỗ

@@ -2,6 +2,6 @@ Lev:Maso
 Králičí:Mrkev
 Tučňák:Ryba
 Panda:Bambus
-Koala:Eukalyptus
+Koala:Blahovičník
 Velbloud:Kaktus
 Bobr:Dřevo

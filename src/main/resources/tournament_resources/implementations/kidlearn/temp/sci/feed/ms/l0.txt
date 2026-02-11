@@ -2,6 +2,6 @@ Singa:Daging
 Arnab:Lobak merah
 Penguin:Ikan
 Panda:Buluh
-Koala:Kayu putih
+Koala:Eucalyptus
 Unta:Kaktus
-Memerang:Kayu
+Castor:Kayu
