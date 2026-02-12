@@ -5,6 +5,6 @@ Rood
 Bruin
 Paars
 Roze
-Groente
+Groen
 Oranje
 Geel

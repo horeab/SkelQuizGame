@@ -2,7 +2,7 @@ Cuillère
 Fourchette
 Couteau
 Bouteille
-Serviette de table
+Serviette
 Tasse
 Pot
 Théière
