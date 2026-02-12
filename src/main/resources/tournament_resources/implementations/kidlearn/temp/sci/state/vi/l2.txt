@@ -2,7 +2,7 @@
 0:Bút chì
 0:Giấy
 1:Nước
-1:Cơn mưa
+1:Mưa
 1:Sữa
 2:Hơi nước
 2:Không khí
