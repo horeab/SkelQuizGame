@@ -1,5 +1,5 @@
 0:Noviny
-0:Rezervovat
+0:Kniha
 0:Zápisník
 1:Rozbité sklo
 1:Sklenice

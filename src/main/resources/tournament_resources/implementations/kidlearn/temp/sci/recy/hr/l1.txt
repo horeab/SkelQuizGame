@@ -1,5 +1,5 @@
 0:Novine
-0:Rezervirati
+0:Knjiga
 0:Bilježnica
 1:Razbijeno staklo
 1:Staklenka

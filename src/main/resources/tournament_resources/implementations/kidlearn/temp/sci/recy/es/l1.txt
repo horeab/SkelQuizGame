@@ -1,6 +1,6 @@
 0:Periódico
 0:Libro
-0:Computadora portátil
+0:Cuaderno
 1:Vidrio roto
 1:Frasco
 2:Bolsa de plástico
