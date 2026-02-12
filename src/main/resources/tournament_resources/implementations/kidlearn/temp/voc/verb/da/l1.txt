@@ -2,7 +2,7 @@
 0:Sko
 0:Cykel
 0:Snowboard
-0:Sløjfe
+0:Bue
 1:Svømme
 1:Løbe
 1:Ride

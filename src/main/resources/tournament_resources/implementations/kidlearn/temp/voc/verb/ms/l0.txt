@@ -1,7 +1,5 @@
 0:Pensil
 0:Buku
-0:Matematik
-0:Geografi
 0:Pen
 0:Buku nota
 1:Baca

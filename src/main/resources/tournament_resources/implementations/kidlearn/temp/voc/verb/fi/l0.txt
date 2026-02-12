@@ -1,7 +1,5 @@
 0:Lyijykynä
 0:Kirja
-0:Matematiikka
-0:Maantiede
 0:Kynä
 0:Muistikirja
 1:Lukea

@@ -1,7 +1,5 @@
 0:Kalem
 0:Kitap
-0:Matematik
-0:Coğrafya
 0:Dolma kalem
 0:Defter
 1:Okumak

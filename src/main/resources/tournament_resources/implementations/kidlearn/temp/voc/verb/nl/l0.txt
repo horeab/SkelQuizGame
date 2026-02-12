@@ -1,7 +1,5 @@
 0:Potlood
 0:Boek
-0:Wiskunde
-0:Geografie
 0:Pen
 0:Notitieboekje
 1:Lezen

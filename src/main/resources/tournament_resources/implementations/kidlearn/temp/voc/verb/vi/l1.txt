@@ -1,7 +1,7 @@
 0:Quả bóng
 0:Đôi giày
 0:Xe đạp
-0:Trượt tuyết
+0:Ván trượt tuyết
 0:Cây cung
 1:Bơi
 1:Chạy

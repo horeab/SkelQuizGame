@@ -1,7 +1,5 @@
 0:Pensil
 0:Buku
-0:Matematika
-0:Geografi
 0:Pena
 0:Buku catatan
 1:Membaca

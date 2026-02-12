@@ -1,7 +1,5 @@
 0:Svinčnik
 0:Knjiga
-0:Matematika
-0:Geografija
 0:Pero
 0:Zvezek
 1:Preberi

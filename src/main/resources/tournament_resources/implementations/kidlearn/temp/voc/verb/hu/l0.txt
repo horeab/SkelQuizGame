@@ -1,7 +1,5 @@
 0:Ceruza
 0:Könyv
-0:Matek
-0:Földrajz
 0:Toll
 0:Jegyzetfüzet
 1:Olvas

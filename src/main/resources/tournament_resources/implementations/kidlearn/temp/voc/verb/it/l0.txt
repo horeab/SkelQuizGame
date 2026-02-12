@@ -1,7 +1,5 @@
 0:Matita
 0:Libro
-0:Matematica
-0:Geografia
 0:Penna
 0:Quaderno
 1:Leggere

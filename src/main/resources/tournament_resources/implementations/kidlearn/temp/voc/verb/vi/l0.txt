@@ -1,7 +1,5 @@
 0:Bút chì
 0:Sách
-0:Toán học
-0:Địa lý
 0:Cái bút
 0:Sổ tay
 1:Đọc

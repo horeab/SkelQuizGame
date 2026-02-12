@@ -1,7 +1,5 @@
 0:Lápiz
 0:Libro
-0:Matemáticas
-0:Geografía
 0:Bolígrafo
 0:Computadora portátil
 1:Leer

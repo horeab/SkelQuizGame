@@ -2,7 +2,7 @@
 0:Cipele
 0:Bicikl
 0:Snowboard
-0:Pramac
+0:Luk
 1:Plivati
 1:Trčanje
 1:Vožnja

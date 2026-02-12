@@ -1,7 +1,5 @@
 0:Penna
 0:Boka
-0:Matematik
-0:Geografi
 0:Penna
 0:Anteckningsbok
 1:Läsa

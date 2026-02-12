@@ -1,7 +1,5 @@
 0:Blyant
 0:Bog
-0:Matematik
-0:Geografi
 0:Pen
 0:Notesbog
 1:Læse

@@ -2,8 +2,8 @@
 0:Skor
 0:Cykel
 0:Snowboard
-0:Rosett
+0:Båge
 1:Simma
-1:Sikt
+1:springa
 1:Rida
 1:Hoppa

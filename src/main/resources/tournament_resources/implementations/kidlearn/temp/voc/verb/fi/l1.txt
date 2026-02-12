@@ -1,8 +1,8 @@
 0:Pallo
 0:Kengät
 0:Polkupyörä
-0:Lumilautailu
-0:Keula
+0:Lumilauta
+0:Jousiammuntajousi
 1:Uida
 1:Juokse
 1:Ratsastaa

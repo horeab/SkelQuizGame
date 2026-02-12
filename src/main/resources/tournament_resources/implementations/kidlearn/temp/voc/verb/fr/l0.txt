@@ -1,7 +1,5 @@
 0:Crayon
 0:Livre
-0:Mathématiques
-0:Géographie
 0:Stylo
 0:Carnet de notes
 1:Lire

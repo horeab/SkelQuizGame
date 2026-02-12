@@ -5,5 +5,5 @@
 0:Luk
 1:Plavat
 1:Běh
-1:Jízda
-1:Skok
+1:Jezdit
+1:Skákat

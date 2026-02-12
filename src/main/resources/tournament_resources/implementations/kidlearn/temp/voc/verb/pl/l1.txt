@@ -2,8 +2,8 @@
 0:Buty
 0:Rower
 0:Snowboard
-0:Ukłon
+0:Łuk
 1:Pływać
-1:Uruchomić
+1:Biegać
 1:Jeździć
-1:Skok
+1:Skakać

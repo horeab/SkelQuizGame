@@ -1,7 +1,5 @@
 0:Bleistift
 0:Buch
-0:Mathe
-0:Geographie
 0:Stift
 0:Notizbuch
 1:Lesen

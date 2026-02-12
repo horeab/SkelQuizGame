@@ -1,7 +1,5 @@
 0:Lápis
 0:Livro
-0:Matemática
-0:Geografia
 0:Caneta
 0:Caderno
 1:Ler

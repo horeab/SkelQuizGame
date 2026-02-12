@@ -1,7 +1,5 @@
 0:Ołówek
 0:Książka
-0:Matematyka
-0:Geografia
 0:Pióro
 0:Zeszyt
 1:Czytać
