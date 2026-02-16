@@ -1,7 +1,7 @@
 Krug
 Trokut
 Kvadrat
-Ovalni
+Oval
 Srce
 Dijamant
 Zvjezdica

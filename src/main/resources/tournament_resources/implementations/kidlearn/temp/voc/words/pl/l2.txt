@@ -1,7 +1,7 @@
 Koło
 Trójkąt
 Kwadrat
-Owalny
+Owal
 Serce
 Diament
 Gwiazda

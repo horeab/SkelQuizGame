@@ -6,6 +6,6 @@ Hjerte
 Diamant
 Stjerne
 Rektangel
-Pentagon
+Femkant
 Sekskant
 Åttekant

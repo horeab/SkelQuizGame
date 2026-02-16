@@ -1,6 +1,6 @@
 Kruh
 Trojúhelník
-Náměstí
+čtverec
 Ovál
 Srdce
 Diamant

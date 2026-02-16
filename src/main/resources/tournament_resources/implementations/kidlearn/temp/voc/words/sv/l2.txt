@@ -1,11 +1,11 @@
 Cirkel
 Triangel
-Fyrkant
+kvadrat
 Oval
 Hjärta
 Diamant
 Stjärna
 Rektangel
-Pentagonen
+femhörning
 Sexhörning
-Oktogon
+åttahörning

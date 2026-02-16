@@ -6,6 +6,6 @@ Hart
 Diamant
 Ster
 Rechthoek
-Pentagon
+Vijfhoek
 Zeshoek
 Achthoek

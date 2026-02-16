@@ -1,6 +1,6 @@
 Cerchio
 Triangolo
-Piazza
+Quadrato
 Ovale
 Cuore
 Diamante

@@ -1,11 +1,11 @@
 Kruh
 Trojuholník
 Štvorec
-Oválny
+ovál
 Srdce
 Diamant
 Hviezda
 Obdĺžnik
-Pentagon
+päťuholník
 Šesťuholník
 Osemuholník

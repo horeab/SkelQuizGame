@@ -6,6 +6,6 @@ Szív
 Gyémánt
 Csillag
 Téglalap
-Pentagon
+Ötszög
 Hatszög
 Nyolcszög

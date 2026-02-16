@@ -6,6 +6,6 @@ Sydän
 Timantti
 Tähti
 Suorakulmio
-Viisikon
+Viisikulmio
 Kuusikulmio
 Kahdeksankulmio

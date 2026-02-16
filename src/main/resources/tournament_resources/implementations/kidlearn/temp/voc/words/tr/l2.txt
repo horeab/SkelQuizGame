@@ -6,6 +6,6 @@ Kalp
 Elmas
 Yıldız
 Dikdörtgen
-Pentagon
+beşgen
 Altıgen
 Sekizgen

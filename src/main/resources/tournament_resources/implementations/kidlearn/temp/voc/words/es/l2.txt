@@ -1,7 +1,7 @@
 Círculo
 Triángulo
 Cuadrado
-Oval
+óvalo
 Corazón
 Diamante
 Estrella

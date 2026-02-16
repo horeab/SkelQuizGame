@@ -6,6 +6,6 @@ Srce
 Diamant
 Zvezda
 Pravokotnik
-Pentagon
-Šesterokotni
+petkotnik
+šestkotnik
 Osmerokotnik
